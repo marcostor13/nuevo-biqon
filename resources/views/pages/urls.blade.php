@@ -36,6 +36,7 @@
             <small class="form-text text-muted">Ingrese (url) donde irá la landing</small>
         </div>
         <button type="submit" class="btn btn-primary">Generar</button>
+        <img id="cargando" width="40" src="img/load.gif" alt="cargando..." style="display:none">
     </form>
 
     <script>
@@ -129,7 +130,8 @@
             } 
             
             data['items'] = it;
-          
+            
+            $('#cargando').show();
       
             $.ajax({
                 url: '/getURLs',
@@ -137,7 +139,7 @@
                 data: data,                
                 success: function (result) {
                     
-                    console.log(result);
+                    $('#cargando').hide(); 
 
                     if(result.status == 200){
                        
