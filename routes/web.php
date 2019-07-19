@@ -20,7 +20,15 @@ Route::get('/urls', function () {
 });
 
 
-Route::post('uploadFile', 'fileController@uploadFile'); 
-Route::post('getItemsExcel', 'fileController@getItemsExcel'); 
-Route::post('getURLs', 'fileController@getURLs'); 
+Route::post('/uploadFile', 'fileController@uploadFile'); 
+Route::post('/getItemsExcel', 'fileController@getItemsExcel'); 
+Route::post('/getURLs', 'fileController@getURLs'); 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

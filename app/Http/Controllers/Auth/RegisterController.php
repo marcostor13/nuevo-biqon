@@ -2,6 +2,7 @@
 
 namespace Biqon\Http\Controllers\Auth;
 
+use Biqon\Role;
 use Biqon\User;
 use Biqon\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
@@ -61,12 +62,16 @@ class RegisterController extends Controller
      * @param  array  $data
      * @return \Biqon\User
      */
+
     protected function create(array $data)
     {
-        return User::create([
+        $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+       $user->roles()->attach(Role::where('name', 'user')->first());
+       return $user;
     }
+
 }
