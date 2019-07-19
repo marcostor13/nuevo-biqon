@@ -2,10 +2,6 @@
 
 @section('title', 'Urls')
 
-@section('sidebar')
-    @parent
-@endsection
-
 @section('content')
     <header class="bg-dark p-4">
         <nav>
@@ -40,6 +36,10 @@
     </form>
 
     <script>
+
+        $(function(){
+            $('nav').hide();
+        });
        
         
         let uploadFile = function(){
