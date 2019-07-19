@@ -29,6 +29,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
+Route::get('/biqon/landings/clinica-davila', 'LandingController@index')->name('clinica-davila');
 
-Route::get('/home', 'HomeController@index')->name('home');

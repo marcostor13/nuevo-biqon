@@ -6,3 +6,16 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+//FUENTES
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Mukta:300,400,800&display=swap');
+
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Mukta', sans-serif;
+
+
+
+@import 'general';
+@import 'pages/index';
+@import 'landings/clinica-davila';

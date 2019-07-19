@@ -15,10 +15,11 @@ class CreateVisitasTable extends Migration
     {
         Schema::create('visitas', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->integer('langing_id')->unsigned();
+            $table->integer('landing_id')->unsigned();
             $table->string('rut')->nullable();
             $table->string('telefono')->nullable();
             $table->string('nombre_cliente')->nullable();
+            $table->string('json_datos')->nullable();
             $table->timestamps();
         });
     }

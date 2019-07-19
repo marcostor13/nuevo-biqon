@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400|Mukta:300,400,800&display=swap);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10642,5 +10642,83 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+.font1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font2 {
+  font-family: "Mukta", sans-serif;
+}
+
+.tran {
+  transition: all 0.2s ease-in;
+}
+
+.btn1 {
+  background-color: white;
+  border: none;
+  border-radius: 0.5em;
+  color: #364f6b;
+  cursor: pointer;
+}
+
+#index * {
+  font-family: "Montserrat", sans-serif;
+}
+
+#index #nav {
+  background-color: #364f6b;
+}
+
+#index a {
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 11t;
+}
+
+#index .tit1 {
+  color: #7F8791;
+  font-size: 30pt;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1pt;
+}
+
+#index .tit2 {
+  font-family: "Mukta", sans-serif;
+  color: #3fc1c9;
+  font-size: 60pt;
+  max-width: 500px;
+  font-weight: 800;
+  letter-spacing: -2pt;
+  line-height: 0.8;
+  margin-bottom: 20px;
+}
+
+#index .tit3 {
+  color: #50595c;
+}
+
+#clinica-davila .section1 {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: block;
+  position: relative;
+}
+
+#clinica-davila .section1::after {
+  content: "";
+  background: url("/public/img/landigns/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 

@@ -15,7 +15,7 @@ class CreateFormulariosTable extends Migration
     {
         Schema::create('formularios', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->integer('langing_id')->unsigned();
+            $table->integer('landing_id')->unsigned();
             $table->string('json_datos')->nullable();
             $table->string('rut')->nullable();
             $table->string('telefono')->nullable();

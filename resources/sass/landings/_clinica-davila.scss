@@ -1,0 +1,25 @@
+#clinica-davila{
+
+     .section1{
+        min-width: 100vw;
+        min-height: 100vh; 
+        display: block;
+        position: relative; 
+     }   
+
+    
+    .section1::after {
+        content: "";
+        background: url('img/landings/fondo.jpg');
+        background-repeat: no-repeat; 
+        background-size: cover;
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+    }    
+
+}
