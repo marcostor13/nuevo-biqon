@@ -37,10 +37,8 @@
 
     <script>
 
-        $(function(){
-            $('nav').hide();
-        });
-       
+        $('#navPrincipal').hide();
+     
         
         let uploadFile = function(){
 
