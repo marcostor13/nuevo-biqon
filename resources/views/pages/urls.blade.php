@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.landing')
 
 @section('title', 'Urls')
 
@@ -136,13 +136,16 @@
                 type: "POST",
                 data: data,                
                 success: function (result) {
+
+                    console.log(result);
                     
                     $('#cargando').hide(); 
 
                     if(result.status == 200){
+                        
                        
                         window.location.href="/storage/"+result.data;
-                        console.log(result.status); 
+                        console.log(result.data); 
                         
                     }else{
                         console.log('Status : ' +result.status);

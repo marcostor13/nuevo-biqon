@@ -19,15 +19,20 @@ Route::get('/urls', function () {
     return view('pages.urls');
 });
 
+Route::get('/messages', function () {
+    return view('pages.messages');
+});
+
+
 
 Route::post('/uploadFile', 'fileController@uploadFile'); 
 Route::post('/getItemsExcel', 'fileController@getItemsExcel'); 
 Route::post('/getURLs', 'fileController@getURLs'); 
-
+Route::post('/sendUnitMessages', 'CoreController@sendUnitMessages'); 
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/biqon/landings/clinica-davila', 'LandingController@index')->name('clinica-davila');
+
 

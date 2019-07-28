@@ -65,8 +65,7 @@ class fileController extends Controller
 
     }
 
-
-    public function getLatestColumn($file){
+    public function getCantItemsExcel($file){
 
         $path = 'storage/';
         $ext = explode('.', $file);
@@ -76,6 +75,8 @@ class fileController extends Controller
             $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
         }else if(strtolower($ext) == 'xls'){
             $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xls();
+        }else{
+            return array('status' => 100, 'message' => 'Extensión incorrecta');
         }
         
         $reader->setReadDataOnly(true);
@@ -89,9 +90,19 @@ class fileController extends Controller
             if(!isset($sheetData[1][$letters[$i]])){
                 break;
             }
-            $keyLatest = $letters[$i]; 
+            $items[$letters[$i]] = $sheetData[1][$letters[$i]]; 
         }
 
+        return count($items);
+
+    }
+
+
+    public function getLatestColumn($file){
+
+        $countItems = $this->getCantItemsExcel($file);
+        $letters = $this->getArrayLetters();
+        $keyLatest = $letters[$countItems+4];
         return $keyLatest;
 
     }
@@ -137,9 +148,11 @@ class fileController extends Controller
             
             if($i == 2){
                 $objExcel->getActiveSheet()->setCellValue($nextLetter.'1', 'Mensaje');
-            }
+            }            
 
+            // return $url;
             $url = $this->shortenerURL($url); 
+
 
             $msj = str_replace('(url)', $url, $message); 
 
@@ -188,10 +201,11 @@ class fileController extends Controller
     public function shortenerURL($url){
 
         $curl = curl_init();
+        
 
         curl_setopt_array($curl, [
             CURLOPT_RETURNTRANSFER => 1,
-            CURLOPT_URL => 'https://tinyurl.com/api-create.php?url='.$url,
+            CURLOPT_URL => 'https://tinyurl.com/api-create.php?url='.urlencode($url),
             CURLOPT_USERAGENT => 'Biqon'
         ]);
 
@@ -201,6 +215,30 @@ class fileController extends Controller
         return $resp;
 
     }
+
+    public function shortenerURL2($url){
+
+        $curl = curl_init();        
+
+        curl_setopt_array($curl, [
+            CURLOPT_RETURNTRANSFER => 1,
+            CURLOPT_URL => 'https://url-shortener-service.p.rapidapi.com/shorten?url='.urlencode($url),
+            CURLOPT_USERAGENT => 'Biqon',
+            CURLOPT_HTTPHEADER, array(
+                "X-RapidAPI-Host: url-shortener-service.p.rapidapi.com",
+                "X-RapidAPI-Key: 0ed620fd79msh7c0fce2990d9248p161ecdjsn616b50a5e0c7"
+            ),
+            CURLOPT_POST, true
+        ]);
+
+        $resp = curl_exec($curl);
+        curl_close($curl);
+
+        return $resp;
+
+    }
+
+    
 
 
     

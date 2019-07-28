@@ -1,0 +1,69 @@
+
+
+//MENU
+
+
+#home{
+
+    .menu{
+        .barras{            
+            div{
+                min-width: 34px;
+                max-width: 34px;
+                min-height: 3px;
+            }
+        }
+
+        .itemMenu{
+            padding-left: 20px; 
+            padding-right: 20px; 
+            padding-top: 5px;
+            padding-bottom: 5px;
+            span{
+                display:none;
+            }
+        }
+
+        .itemMenu:hover{
+            background-color: rgba(255, 255, 255, .3);
+        }
+
+    }
+
+    .imgPerfil{
+        max-width: 40px;
+    }
+    
+
+
+}
+
+
+// HOME CONTENT
+
+#homeContent{
+
+    .logo{
+        span{
+            font-family: $font4;
+            font-size: 18pt;
+            font-weight: 700;
+        }
+    }
+
+    .saldo{
+        font-size: 20pt;
+    }
+    .barra{
+        border-right: 1px solid $color4;
+        max-width: 1px;
+        min-height: 20px;
+        font-size: 20pt;
+    }
+
+    .saldoCont{
+        font-size: 20pt;
+    }
+
+
+}

@@ -13,6 +13,8 @@ require('./bootstrap');
  */
 
 // require('./components/Example');
-require('./components/Header');
-require('./components/FormURL');
+require('./pages/home');
+require('./pages/messages');
+require('./general');
+
 

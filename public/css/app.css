@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400|Mukta:300,400,800&display=swap);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400|Mukta:300,400,800&display=swap);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap);@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,600,700&display=swap);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -34,7 +34,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -66,7 +66,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
@@ -6139,7 +6139,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -6264,7 +6264,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -10644,24 +10644,93 @@ a.text-dark:focus {
   }
 }
 
-.font1 {
+.font-mont {
   font-family: "Montserrat", sans-serif;
 }
 
-.font2 {
+.font-open {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-mukta {
   font-family: "Mukta", sans-serif;
+}
+
+.font-quicksand {
+  font-family: "Quicksand", sans-serif;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10pt;
 }
 
 .tran {
   transition: all 0.2s ease-in;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
+.bg-color1 {
+  background-color: #12B265;
+}
+
+.bg-color2 {
+  background-color: #385745;
+}
+
+.bg-color3 {
+  background-color: #52E4FF;
+}
+
+.bg-color4 {
+  background-color: gray;
+}
+
+.bg-color5 {
+  background-color: #252323;
+}
+
+.text-color1 {
+  color: #12B265;
+}
+
+.text-color2 {
+  color: #385745;
+}
+
+.text-color3 {
+  color: #52E4FF;
+}
+
+.text-color4 {
+  color: gray;
+}
+
+.text-color5 {
+  color: #252323;
+}
+
+.vw-100 {
+  width: 100vw;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
 .btn1 {
   background-color: white;
   border: none;
   border-radius: 0.5em;
-  color: #364f6b;
+  color: #12B265;
   cursor: pointer;
+}
+
+.dropdown-toggle::after {
+  display: none;
 }
 
 #index * {
@@ -10679,7 +10748,7 @@ a.text-dark:focus {
 }
 
 #index .tit1 {
-  color: #7F8791;
+  color: #385745;
   font-size: 30pt;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -10688,7 +10757,7 @@ a.text-dark:focus {
 
 #index .tit2 {
   font-family: "Mukta", sans-serif;
-  color: #3fc1c9;
+  color: #52E4FF;
   font-size: 60pt;
   max-width: 500px;
   font-weight: 800;
@@ -10698,27 +10767,56 @@ a.text-dark:focus {
 }
 
 #index .tit3 {
-  color: #50595c;
+  color: gray;
 }
 
-#clinica-davila .section1 {
-  min-width: 100vw;
-  min-height: 100vh;
-  display: block;
-  position: relative;
+#home .menu .barras div {
+  min-width: 34px;
+  max-width: 34px;
+  min-height: 3px;
 }
 
-#clinica-davila .section1::after {
-  content: "";
-  background: url("/public/img/landigns/fondo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
+#home .menu .itemMenu {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#home .menu .itemMenu span {
+  display: none;
+}
+
+#home .menu .itemMenu:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#home .imgPerfil {
+  max-width: 40px;
+}
+
+#homeContent .logo span {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18pt;
+  font-weight: 700;
+}
+
+#homeContent .saldo {
+  font-size: 20pt;
+}
+
+#homeContent .barra {
+  border-right: 1px solid gray;
+  max-width: 1px;
+  min-height: 20px;
+  font-size: 20pt;
+}
+
+#homeContent .saldoCont {
+  font-size: 20pt;
+}
+
+#messages .deleteNumber:hover {
+  color: #385745;
 }
 
