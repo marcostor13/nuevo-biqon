@@ -128,10 +128,15 @@ class CoreController extends Controller
 
 
     public function sendUnitMessages(Request $request){
+        
 
         $quantity = count($request->all());
 
         if(isset($request['landing'])){
+            $quantity--; 
+        }
+
+        if(isset($request['skip'])){
             $quantity--; 
         }
         
@@ -142,11 +147,11 @@ class CoreController extends Controller
         }
 
         $errors = $this->detectErrors($numbers, $request['message']); 
-        if($errors===false){
-            return 'Sin Errores';
-        }else{
-            return $errors; 
+        if($errors!==false && !isset($request['skip'])){
+            return array('status' => '100', 'data' => $errors);
         }
+
+        return array('status' => '200', 'data' => 'ok');
         
 
     }

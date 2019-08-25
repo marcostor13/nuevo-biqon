@@ -30,7 +30,7 @@
                 <h1 class="h6 text-color5">Crear Mensajes Unitarios</h1>
                 <hr>
                                                           
-                <form action="{{url('/sendUnitMessages')}}" method="post" class="col-6">
+                <form id="sendUnitMessages" method="post" class="col-6">
                     @csrf
                     <div id="phones" class="form-group">
                       <input type="text" name="phone_1" class="form-control" placeholder="Ingrese el destinatario" aria-describedby="Destinatario" maxlength="12" required>                      

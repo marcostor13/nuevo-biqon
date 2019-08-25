@@ -114,6 +114,29 @@
             </div>
         </div>
     </div>
+
+    
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modallabel" aria-hidden="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modallabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div id="modalContent"  class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button id="actionModal" type="button" class="btn bg-color1 text-white">Save changes</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/fd4c133be5.js"></script>
 
 </body>

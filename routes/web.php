@@ -32,7 +32,8 @@ Route::post('/sendUnitMessages', 'CoreController@sendUnitMessages');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/{company}/{code}', 'fileController@routes');
 
 
 

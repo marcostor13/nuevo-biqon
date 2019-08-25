@@ -37043,7 +37043,12 @@ var path = window.location.pathname;
 if (path == '/messages') {
   $(function () {
     eventsInputPhone();
-    textAreaMaxLength();
+    textAreaMaxLength(); //FORM SENDUNITSMESSAGES
+
+    $('#sendUnitMessages').submit(function () {
+      sendUnitMessages();
+      return false;
+    });
   }); //ADD NEW INPUT NUMBER
 
   $('#addNumber').click(function () {
@@ -37111,6 +37116,38 @@ if (path == '/messages') {
     }
 
     return true;
+  };
+
+  var sendUnitMessages = function sendUnitMessages() {
+    var skip = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+    var data = $('#sendUnitMessages').serialize();
+
+    if (skip !== false) {
+      data += '&skip=true';
+    }
+
+    $.post('/sendUnitMessages', data, function () {}).done(function (e) {
+      console.log(e);
+
+      if (e.status === '100') {
+        var errors = '';
+        var index = 1;
+        e.data.forEach(function (element) {
+          errors += "<tr>\n                                    <th scope=\"row\">".concat(index, "</th>                                    \n                                    <td>").concat(element, "</td>\n                                </tr>");
+        });
+        $('#modal').modal("show");
+        $('#modallabel').text('Errores');
+        $('#modalContent').html("\n                    <table class=\"table\">\n                        <thead>\n                            <tr>\n                                <th scope=\"col\">#</th>\n                                <th scope=\"col\">Error</th>                            \n                            </tr>\n                        </thead>\n                        <tbody>\n                            ".concat(errors, "\n                        </tbody>\n                    </table>\n                "));
+        $('#actionModal').text('Omitir').click(function () {
+          sendUnitMessages(true);
+          $('#modal').modal("hide");
+        });
+      } else if (e.status === '200') {
+        console.log(e.data);
+      }
+    }).fail(function (e) {
+      console.log(e);
+    });
   };
 }
 

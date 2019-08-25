@@ -2,6 +2,7 @@
 
 namespace Biqon\Http\Controllers;
 
+use Biqon\Url;
 use Illuminate\Http\Request;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
@@ -130,6 +131,7 @@ class fileController extends Controller
         $message = $request['mensaje'];
         $endKey = $this->getLatestColumn($request['file']); 
         
+        return count($dataExcel);
                
         for ($i=2; $i < count($dataExcel)+1; $i++) { 
             
@@ -151,7 +153,8 @@ class fileController extends Controller
             }            
 
             // return $url;
-            $url = $this->shortenerURL($url); 
+            $name = $request['company']; 
+            $url = $this->saveURL($url, $name); 
 
 
             $msj = str_replace('(url)', $url, $message); 
@@ -236,6 +239,40 @@ class fileController extends Controller
 
         return $resp;
 
+    }
+
+    public function generarCodigo($longitud) {
+        $key = '';
+        $pattern = '1234567890abcdefghijklmnopqrstuvwxyz';
+        $max = strlen($pattern)-1;
+        for($i=0;$i < $longitud;$i++) $key .= $pattern{mt_rand(0,$max)};
+        return $key;
+    }
+
+
+    public function saveURL($url, $name){
+
+        $code = $this->generarCodigo(5); 
+
+        $flight = new Url;
+        $flight->url = $url;
+        $flight->code = $code;
+        $flight->save();
+
+        return 'http://localhost:8000/'.$name.'/'.$code;
+
+
+    }
+
+
+    public function routes($company, $code){        
+        $flights = Url::where('code', $code)->first();         
+        if($flights == ''){
+            return 'No existe esta página'; 
+        }else{
+            return redirect($flights->url);
+        }
+        
     }
 
     

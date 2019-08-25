@@ -1,11 +1,23 @@
 var path = window.location.pathname; 
 
+
 if(path == '/messages'){
 
     $(function(){
+
         eventsInputPhone(); 
         textAreaMaxLength();
-    })
+
+        //FORM SENDUNITSMESSAGES
+
+        $('#sendUnitMessages').submit(function(){
+            sendUnitMessages();
+            return false;
+        });
+
+        
+
+    });
 
 
     //ADD NEW INPUT NUMBER
@@ -85,7 +97,61 @@ if(path == '/messages'){
 
 
     
+    let sendUnitMessages = function(skip = false){
 
+        let data = $('#sendUnitMessages').serialize();
+
+        if(skip !== false){
+            data += '&skip=true';
+        }
+       
+        $.post( '/sendUnitMessages', data, function() {
+             
+        })
+        .done(function(e) {
+            console.log(e);
+            if(e.status === '100'){
+                let errors = '';
+                let index = 1; 
+                e.data.forEach(element => {
+                    errors += `<tr>
+                                    <th scope="row">${index}</th>                                    
+                                    <td>${element}</td>
+                                </tr>`;
+                    
+                }); 
+                
+                $('#modal').modal("show");
+                $('#modallabel').text('Errores'); 
+                $('#modalContent').html(`
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Error</th>                            
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${errors}
+                        </tbody>
+                    </table>
+                `); 
+                $('#actionModal').text('Omitir').click(function(){
+                    sendUnitMessages(true); 
+                    $('#modal').modal("hide");
+                }); 
+
+            }else if(e.status === '200'){
+                console.log(e.data);
+            }
+
+
+            
+        })
+        .fail(function(e) {
+            console.log(e);
+        });
+    }
 
 
 }
