@@ -141,6 +141,11 @@ class fileController extends Controller
                 $url = $landing;
             }else{
                 foreach ($items as $key => $value) {
+
+                    if(trim($dataExcel[$i][$key]) == ''){
+                        break;
+                    }
+
                     $dataURL[trim($value)] = trim($dataExcel[$i][$key]);                
                 }
                 $url = $landing.$this->passToURL($dataURL);
