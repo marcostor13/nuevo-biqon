@@ -131,7 +131,7 @@ class fileController extends Controller
         $message = $request['mensaje'];
         $endKey = $this->getLatestColumn($request['file']); 
         
-        return count($dataExcel);
+        // return count($dataExcel);
                
         for ($i=2; $i < count($dataExcel)+1; $i++) { 
             
