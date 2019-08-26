@@ -264,7 +264,7 @@ class fileController extends Controller
         $flight->code = $code;
         $flight->save();
 
-        return 'http://35.232.234.159/'.$name.'/'.$code;
+        return 'http://bint.ml/'.$name.'/'.$code;
 
 
     }
