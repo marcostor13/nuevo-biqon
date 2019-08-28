@@ -10674,43 +10674,43 @@ a.text-dark:focus {
 }
 
 .bg-color1 {
-  background-color: #12B265;
+  background-color: #1DA9CC;
 }
 
 .bg-color2 {
-  background-color: #385745;
+  background-color: #628E99;
 }
 
 .bg-color3 {
-  background-color: #52E4FF;
+  background-color: #3EFFBD;
 }
 
 .bg-color4 {
-  background-color: gray;
+  background-color: #FF837D;
 }
 
 .bg-color5 {
-  background-color: #252323;
+  background-color: #CC1D5A;
 }
 
 .text-color1 {
-  color: #12B265;
+  color: #1DA9CC;
 }
 
 .text-color2 {
-  color: #385745;
+  color: #628E99;
 }
 
 .text-color3 {
-  color: #52E4FF;
+  color: #3EFFBD;
 }
 
 .text-color4 {
-  color: gray;
+  color: #FF837D;
 }
 
 .text-color5 {
-  color: #252323;
+  color: #CC1D5A;
 }
 
 .vw-100 {
@@ -10725,7 +10725,7 @@ a.text-dark:focus {
   background-color: white;
   border: none;
   border-radius: 0.5em;
-  color: #12B265;
+  color: #1DA9CC;
   cursor: pointer;
 }
 
@@ -10748,7 +10748,7 @@ a.text-dark:focus {
 }
 
 #index .tit1 {
-  color: #385745;
+  color: #628E99;
   font-size: 30pt;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -10757,7 +10757,7 @@ a.text-dark:focus {
 
 #index .tit2 {
   font-family: "Mukta", sans-serif;
-  color: #52E4FF;
+  color: #3EFFBD;
   font-size: 60pt;
   max-width: 500px;
   font-weight: 800;
@@ -10767,7 +10767,7 @@ a.text-dark:focus {
 }
 
 #index .tit3 {
-  color: gray;
+  color: #FF837D;
 }
 
 #home .menu .barras div {
@@ -10806,7 +10806,7 @@ a.text-dark:focus {
 }
 
 #homeContent .barra {
-  border-right: 1px solid gray;
+  border-right: 1px solid #FF837D;
   max-width: 1px;
   min-height: 20px;
   font-size: 20pt;
@@ -10817,6 +10817,10 @@ a.text-dark:focus {
 }
 
 #messages .deleteNumber:hover {
-  color: #385745;
+  color: #628E99;
+}
+
+#header-urls nav {
+  min-width: 100%;
 }
 

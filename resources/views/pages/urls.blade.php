@@ -3,13 +3,14 @@
 @section('title', 'Urls')
 
 @section('content')
-    <header class="bg-dark p-4">
-        <nav>
-            <h5 class="text-white">Biqon - Creación de URL</h5>
+    <header id="header-urls" class="bg-white p-1">
+        <nav class="d-flex align-items-center justify-content-between p-4">
+            <img width="180" src="{{url('img/biqon/logo/logo2.png')}}" alt="">
+            <h3 class="text-color1">Generador de URLs cortas</h3>
         </nav>
     </header>
 
-    <form action="" onsubmit="getURLs(this); return false;"  class="container mt-5 bg-light" enctype="multipart/form-data">
+    <form id="form-url" action="" onsubmit="getURLs(this); return false;"  class="container-fluid mt-2 p-5" enctype="multipart/form-data">
         <div class="form-group">
             <label for="file">Subir archivo</label>
             <input id="file" onchange="uploadFile();" type="file" class="form-control-file" >
