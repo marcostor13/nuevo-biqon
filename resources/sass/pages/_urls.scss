@@ -2,7 +2,17 @@
     nav{
         min-width: 100%;
     }
+    li{
+        list-style: none;
+    }
+
+    .active{
+        border-bottom: 2px solid $color1; 
+    }
 }
+
+
+
 
 #form-url{
     

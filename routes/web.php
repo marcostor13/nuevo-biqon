@@ -19,6 +19,10 @@ Route::get('/urls', function () {
     return view('pages.urls');
 });
 
+Route::get('/sinurls', function () {
+    return view('pages.sinurls');
+});
+
 Route::get('/messages', function () {
     return view('pages.messages');
 });
@@ -28,6 +32,7 @@ Route::get('/messages', function () {
 Route::post('/uploadFile', 'fileController@uploadFile'); 
 Route::post('/getItemsExcel', 'fileController@getItemsExcel'); 
 Route::post('/getURLs', 'fileController@getURLs'); 
+Route::post('/getWithoutURLs', 'fileController@getWithoutURLs'); 
 Route::post('/sendUnitMessages', 'CoreController@sendUnitMessages'); 
 
 Auth::routes();

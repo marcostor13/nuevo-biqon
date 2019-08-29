@@ -186,6 +186,46 @@ class fileController extends Controller
     }
 
 
+    public function getWithoutURLs(Request $request){
+
+        $objExcel = $this->getDataToExcel($request['file']);
+        $dataExcel = $objExcel->getActiveSheet()->toArray(null, true, true, true);
+
+        $items = $request['items']; 
+        $key = 'A'; 
+
+        foreach ($items as $key2 => $value) {            
+            $key = $key2; 
+            break;     
+        }
+       
+               
+        for ($i=2; $i < count($dataExcel)+1; $i++) {             
+            $dataURL = array();  
+            $url = trim($dataExcel[$i][$key]);
+            $url = $this->saveURL($url, $request['name']);
+            $objExcel->getActiveSheet()->setCellValue($key.$i, $url);
+        }
+
+        $file = $request['file'];
+        $path = 'storage/';
+        $ext = explode('.', $file);
+        $ext = $ext[count($ext)-1];
+
+        if(strtolower($ext) == 'xlsx'){
+            $writer = new Xlsx($objExcel);
+        }else if(strtolower($ext) == 'xls'){
+            $writer = new Xls($objExcel);
+        }
+
+        $file = 'new_'.$file;
+        $writer->save($path.$file);
+       
+        return array('status' => 200, 'data' => $file);
+    }
+
+
+
     public function getDataToExcel($file){
 
         $path = 'storage/';

@@ -8,8 +8,8 @@
             <div class="d-flex justify-content-center align-items-end">
                 <img width="180" src="{{url('img/biqon/logo/logo2.png')}}" alt="">
                 <ul class="d-flex align-items-end justify-content-center mb-0">
-                    <li onclick="window.location.href='{{url('/urls')}}'"class="cursor h5 font-weight-bold active text-color1">CON URLS</li>
-                    <li onclick="window.location.href='{{url('/sinurls')}}'" class="cursor h5  text-color1 ml-4">SIN URLS</li>
+                    <li onclick="window.location.href='{{url('/urls')}}'"class="cursor h5 text-color1">CON URLS</li>
+                    <li onclick="window.location.href='{{url('/sinurls')}}'" class="cursor h5 font-weight-bold active text-color1 ml-4">SIN URLS</li>
                 </ul>
             </div>
             <h3 class="text-color1">Generador de URLs cortas</h3>
@@ -25,24 +25,26 @@
             <small class="form-text text-muted">Aceptado xls, xlsx</small>
         </div>
         <div class="form-group">
-            <label for="file">Seleccione los campos a enviar</label>                
+            <label for="file">Seleccione el campo que contiene las urls</label>                
         </div>
         <div id="items" class="form-check form-group">
 
         </div>
-        <div class="form-group">
+        {{-- <div class="form-group">
             <label>Landing</label>
             <input type="text" class="form-control" name="landing" placeholder="Ingrese URL">
-        </div>
-        <div class="form-group">
+        </div> --}}
+        {{-- <div class="form-group">
             <label for="mensaje"></label>
             <textarea class="form-control" name="mensaje" rows="3" maxlength="167"></textarea>
             <small class="form-text text-muted">Ingrese (url) donde irá la landing</small>
         </div>
+        --}}
+        
         <div class="form-group">
             <label>Nombre Empresa (Opcional)</label>
-            <input type="text" class="form-control" name="company" placeholder="Ingrese Empresa">
-        </div>
+            <input type="text" class="form-control" name="name" placeholder="Ingrese Empresa">
+        </div> 
         <button type="submit" class="btn btn-primary">Generar</button>
         <img id="cargando" width="40" src="img/load.gif" alt="cargando..." style="display:none">
     </form>
@@ -140,11 +142,12 @@
             } 
             
             data['items'] = it;
+            data['type'] = 'sinurls';
             
             $('#cargando').show();
       
             $.ajax({
-                url: '/getURLs',
+                url: '/getWithoutURLs',
                 type: "POST",
                 data: data,                
                 success: function (result) {
@@ -153,8 +156,7 @@
                     
                     $('#cargando').hide(); 
 
-                    if(result.status == 200){
-                        
+                    if(result.status == 200){                        
                        
                         window.location.href="/storage/"+result.data;
                         console.log(result.data); 
