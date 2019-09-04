@@ -15,13 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/urls', function () {
-    return view('pages.urls');
-});
+Route::get('/urls', 'URLController@index'); 
+Route::get('/sinurls', 'URLController@indexSinUrls'); 
+Route::get('/dashboard', 'URLController@indexDashboard'); 
 
-Route::get('/sinurls', function () {
-    return view('pages.sinurls');
-});
+
 
 Route::get('/messages', function () {
     return view('pages.messages');

@@ -1,22 +1,9 @@
-@extends('layouts.landing')
+@extends('layouts.url')
 
 @section('title', 'Urls')
 
 @section('content')
-    <header id="header-urls" class="bg-white p-1">
-        <nav class="d-flex align-items-center justify-content-between p-4">
-            <div class="d-flex justify-content-center align-items-end">
-                <img width="180" src="{{url('img/biqon/logo/logo2.png')}}" alt="">
-                <ul class="d-flex align-items-end justify-content-center mb-0">
-                    <li onclick="window.location.href='{{url('/urls')}}'"class="cursor h5 font-weight-bold active text-color1">CON URLS</li>
-                    <li onclick="window.location.href='{{url('/sinurls')}}'" class="cursor h5  text-color1 ml-4">SIN URLS</li>
-                </ul>
-            </div>
-            <h3 class="text-color1">Generador de URLs cortas</h3>
-        </nav>
-        
-    </header>
-
+    
     <form id="form-url" action="" onsubmit="getURLs(this); return false;"  class="container-fluid mt-2 p-5" enctype="multipart/form-data">
         <div class="form-group">
             <label for="file">Subir archivo</label>
