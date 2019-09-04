@@ -6,28 +6,28 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateUrlsTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('urls', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('code');
-            $table->string('url');
-            $table->timestamps();
-        });
-    }
+    // /**
+    //  * Run the migrations.
+    //  *
+    //  * @return void
+    //  */
+    // public function up()
+    // {
+    //     Schema::create('urls', function (Blueprint $table) {
+    //         $table->bigIncrements('id');
+    //         $table->string('code');
+    //         $table->string('url');
+    //         $table->timestamps();
+    //     });
+    // }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('urls');
-    }
+    // /**
+    //  * Reverse the migrations.
+    //  *
+    //  * @return void
+    //  */
+    // public function down()
+    // {
+    //     Schema::dropIfExists('urls');
+    // }
 }
