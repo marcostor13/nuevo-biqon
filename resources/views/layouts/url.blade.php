@@ -53,11 +53,11 @@
                     </ul>
                 </div>
                 <div class="d-flex align-items-start">
-                    <h2 class="text-secondary">Bienvenido: {{ Auth::user()->name }}</h2>
+                    <h2 class="text-secondary">Bienvenido {{ Auth::user()->name }}</h2>
                     <a class="btn  ml-5 bg-color2 text-white" href="{{ route('logout') }}"
                         onclick="event.preventDefault();
                                         document.getElementById('logout-form').submit();">
-                        {{ __('Logout') }}
+                        {{ __('Cerrar Sesión') }}
                     </a>
 
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
