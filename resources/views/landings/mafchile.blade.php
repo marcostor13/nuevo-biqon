@@ -23,7 +23,7 @@
 
                 <p class="text-white">
                     Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
-                    <b id="pay">$ 500</b>
+                    <b>$ </b><b id="pay">$ 500</b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
                 </p>
                 <div class="date btn bg-danger text-white col-12 mt-4">
@@ -68,8 +68,8 @@
 
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
-                    $('#name').text(e.data.name);
-                    $('#pay').text(e.data.pay);
+                    $('#name').text(e.data.nombre);
+                    $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){

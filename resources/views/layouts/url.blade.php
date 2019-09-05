@@ -41,14 +41,22 @@
                             <li onclick="window.location.href='{{url('/dashboard')}}'" class="cursor h5 text-color1">DASHBOARD</li>
                             <li onclick="window.location.href='{{url('/urls')}}'"class="cursor font-weight-bold active h5 text-color1 ml-4">CON URLS</li>
                             <li onclick="window.location.href='{{url('/sinurls')}}'" class="cursor h5 text-color1 ml-4">SIN URLS</li>
+                            <li onclick="window.location.href='{{url('/uploads')}}'" class="cursor h5 text-color1 ml-4">CARGAR DATOS</li>
                         @elseif($path == 'sinurls')
                             <li onclick="window.location.href='{{url('/dashboard')}}'" class="cursor h5 text-color1">DASHBOARD</li>
                             <li onclick="window.location.href='{{url('/urls')}}'"class="h5 cursor text-color1 ml-4">CON URLS</li>
                             <li onclick="window.location.href='{{url('/sinurls')}}'" class="cursor font-weight-bold active h5 text-color1 ml-4">SIN URLS</li>
+                            <li onclick="window.location.href='{{url('/uploads')}}'" class="cursor h5 text-color1 ml-4">CARGAR DATOS</li>
                         @elseif($path == 'dashboard')
                             <li onclick="window.location.href='{{url('/dashboard')}}'" class="cursor font-weight-bold active h5 text-color1">DASHBOARD</li>
                             <li onclick="window.location.href='{{url('/urls')}}'"class="cursor h5 text-color1 ml-4">CON URLS</li>
                             <li onclick="window.location.href='{{url('/sinurls')}}'" class="cursor h5 text-color1 ml-4">SIN URLS</li>
+                            <li onclick="window.location.href='{{url('/uploads')}}'" class="cursor h5 text-color1 ml-4">CARGAR DATOS</li>
+                        @elseif($path == 'uploads')
+                            <li onclick="window.location.href='{{url('/dashboard')}}'" class="cursor h5 text-color1">DASHBOARD</li>
+                            <li onclick="window.location.href='{{url('/urls')}}'"class="cursor h5 text-color1 ml-4">CON URLS</li>
+                            <li onclick="window.location.href='{{url('/sinurls')}}'" class="cursor h5 text-color1 ml-4">SIN URLS</li>
+                            <li onclick="window.location.href='{{url('/uploads')}}'" class="cursor font-weight-bold active h5 text-color1 ml-4">CARGAR DATOS</li>
                         @endif
                     </ul>
                 </div>

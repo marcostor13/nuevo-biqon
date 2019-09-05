@@ -5,6 +5,8 @@ namespace Biqon\Http\Controllers;
 use Biqon\Landing;
 use Biqon\Visita;
 use Biqon\Formulario;
+use Biqon\DatosLanding;
+
 use Biqon\Mail\MessageReceived;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -59,13 +61,19 @@ class LandingController extends Controller
 
         $fourRut = $request->input('fourRut'); 
         
-        if($fourRut == '1111'){
-            $data = array(
-                'name' => 'Guillermo Bahamondes',
-                'pay' => '$ 500.50',  
-            ); 
-
-            return json_encode(array('code' => 200, 'data' => $data));
+        $data = DatosLanding::where('rut', 'LIKE', $fourRut.'%')                    
+                    ->first();
+       
+        if(is_object($data) && $fourRut == substr($data->rut, 0, 4)){
+            if(isset($request['id'])){
+                if($request->input('id') == $data->id){
+                    return json_encode(array('code' => 200, 'data' => $data));
+                }else{
+                    return json_encode(array('code' => 100, 'msg' => 'ID incorrecto'));
+                }
+            }else{
+                return json_encode(array('code' => 200, 'data' => $data));
+            }      
         }
 
         return json_encode(array('code' => 100, 'msg' => 'Rut incorrecto'));
