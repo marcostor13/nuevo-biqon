@@ -107,7 +107,7 @@
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': 'contacto@binteraction.com'
-                // 'email': 'marcostor13@gmail.com'
+                //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
                 headers: {
