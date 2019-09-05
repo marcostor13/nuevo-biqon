@@ -10663,7 +10663,7 @@ a.text-dark:focus {
   left: 0;
   min-width: 100%;
   min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 0;
 }
 
@@ -10677,8 +10677,8 @@ a.text-dark:focus {
 }
 
 #mafchile .content img {
-  -webkit-filter: brightness(200);
-          filter: brightness(200);
+  -webkit-filter: brightness(240%);
+          filter: brightness(240%);
 }
 
 #mafchile .content input {
@@ -10697,5 +10697,11 @@ a.text-dark:focus {
   left: 0;
   min-width: 100%;
   min-height: 38px;
+}
+
+#mafchile .content #message {
+  border: solid 1px #FFFFFF;
+  padding: 10px;
+  border-radius: 4px;
 }
 
