@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::get('/urls', 'URLController@index'); 
 Route::get('/sinurls', 'URLController@indexSinUrls'); 
 Route::get('/dashboard', 'URLController@indexDashboard'); 
+Route::get('/landings/{name}', 'LandingController@index'); 
 
 
 
@@ -32,6 +33,8 @@ Route::post('/getItemsExcel', 'fileController@getItemsExcel');
 Route::post('/getURLs', 'fileController@getURLs'); 
 Route::post('/getWithoutURLs', 'fileController@getWithoutURLs'); 
 Route::post('/sendUnitMessages', 'CoreController@sendUnitMessages'); 
+Route::post('/sendMail', 'LandingController@sendMail'); 
+Route::post('/validateRut', 'LandingController@validateRut'); 
 
 Auth::routes();
 

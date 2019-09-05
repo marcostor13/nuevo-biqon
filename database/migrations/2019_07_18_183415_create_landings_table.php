@@ -15,9 +15,11 @@ class CreateLandingsTable extends Migration
     {
         Schema::create('landings', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('nombre')->nullable();
+            $table->string('name')->nullable();
             $table->string('url');
-            $table->string('cliente')->comment('Nombre del cliente');
+            $table->string('logo')->nullable();
+            $table->string('background')->nullable();
+            $table->integer('client_id');
             $table->timestamps();
         });
     }

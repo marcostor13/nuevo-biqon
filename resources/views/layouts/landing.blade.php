@@ -18,12 +18,12 @@
         <title>@yield('title')</title>
 
         <!-- Styles -->
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-        <script src="{{ asset('js/app.js') }}" defer></script>
+        <link href="{{ asset('css/landings/landing.css') }}" rel="stylesheet">
+        {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
     </head>
-    <body>    
+    <body style="margin: 0">    
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTN7MWQ" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>

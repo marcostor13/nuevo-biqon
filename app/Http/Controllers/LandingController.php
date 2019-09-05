@@ -5,7 +5,11 @@ namespace Biqon\Http\Controllers;
 use Biqon\Landing;
 use Biqon\Visita;
 use Biqon\Formulario;
+use Biqon\Mail\MessageReceived;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+
+
 
 class LandingController extends Controller
 {
@@ -29,9 +33,44 @@ class LandingController extends Controller
     {
         // $request->user()->authorizeRoles(['user', 'admin']);
         // return view('home');
-
-        return view('landings.clinica-davila');
         
+        $landing = Landing::where('name', $request->name)                    
+                    ->first();
+        if($landing && is_object($landing)){
+            return view('landings.'.$landing->name, ['landing' => $landing]);
+        }
+        abort(404);
+        
+    }
+
+    public function sendMail(Request $request){
+
+        $data = $request->input('data'); 
+        $email = $request->input('email'); 
+        
+        Mail::to($email)->send(new MessageReceived($data));
+
+        return 'Mensaje Enviado';
+
+
+    }
+
+    public function validateRut(Request $request){
+
+        $fourRut = $request->input('fourRut'); 
+        
+        if($fourRut == '1111'){
+            $data = array(
+                'name' => 'Guillermo Bahamondes',
+                'pay' => '$ 500.50',  
+            ); 
+
+            return json_encode(array('code' => 200, 'data' => $data));
+        }
+
+        return json_encode(array('code' => 100, 'msg' => 'Rut incorrecto'));
+
+
     }
 
     public function insertLanding(Request $request)
