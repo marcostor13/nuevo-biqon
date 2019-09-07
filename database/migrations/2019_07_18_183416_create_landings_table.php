@@ -17,6 +17,7 @@ class CreateLandingsTable extends Migration
             $table->bigIncrements('id');
             $table->string('name')->nullable();
             $table->string('url');
+            $table->string('email');
             $table->string('logo')->nullable();
             $table->string('background')->nullable();
             $table->integer('client_id');

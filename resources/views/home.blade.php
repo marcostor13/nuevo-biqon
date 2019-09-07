@@ -8,7 +8,7 @@
                 <span class="text-color4">Hola</span>
                 <span class="text-color4"><b>{{Auth::user()->name}}</b></span>
                 <span class="text-color4">, bienvenido a </span>
-                <a class="navbar-brand ml-2" href="{{ url('/home') }}">
+                <a class="navbar-brand ml-2" href="{{ url('/dashboard') }}">
                     <div class="logo">
                         <img width="100" src="{{url('img/biqon/logo2.png')}}" alt="BIQON">
                     </div>

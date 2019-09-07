@@ -5,6 +5,8 @@ namespace Biqon\Http\Controllers;
 use Illuminate\Http\Request;
 use Biqon\Dashboard;
 use Biqon\Landing;
+use Biqon\Role_User;
+use Biqon\User;
 use Biqon\DatosLanding;
 use Illuminate\Support\Facades\Auth;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
@@ -65,36 +67,53 @@ class URLController extends Controller
      */
     public function index(Request $request)
     {
-        $request->user()->authorizeRoles(['user']);
-        return view('pages.urls',['path' => 'urls']);
+        $request->user()->authorizeRoles(['user', 'admin']);
+        $id = Auth::id();
+        $role_user = Role_User::where('user_id', $id)->first();       
+        return view('pages.urls',['path' => 'urls', 'role' => $role_user->role_id]);
     }
 
     public function indexSinUrls(Request $request)
     {
-        $request->user()->authorizeRoles(['user']);
-        return view('pages.sinurls',['path' => 'sinurls']);
+        $request->user()->authorizeRoles(['user', 'admin']);
+        $id = Auth::id();
+        $role_user = Role_User::where('user_id', $id)->first();       
+        return view('pages.sinurls',['path' => 'sinurls', 'role' => $role_user->role_id]);
     }
 
     public function indexDashboard(Request $request)
     {
-        $request->user()->authorizeRoles(['user']);
+        $request->user()->authorizeRoles(['user', 'admin']);
         $id = Auth::id();
 
         $iframe = Dashboard::where('user_id', $id)->first();                  
-
-        return view('pages.dashboard', ['path' => 'dashboard', 'iframe' => $iframe->url]);        
+        $role_user = Role_User::where('user_id', $id)->first(); 
+        return view('pages.dashboard', ['path' => 'dashboard', 'iframe' => $iframe->url, 'role' => $role_user->role_id]);        
         
     }
 
     public function indexUploads(Request $request)
     {
-        $request->user()->authorizeRoles(['user']);
+        $request->user()->authorizeRoles(['user', 'admin']);
         $id = Auth::id();
-
+        $role_user = Role_User::where('user_id', $id)->first(); 
         $landing = Landing::all();
-        return view('pages.uploads', ['path' => 'uploads', 'user_id' => $id, 'landing' => $landing]);        
+        return view('pages.uploads', ['path' => 'uploads', 'user_id' => $id, 'landing' => $landing, 'role' => $role_user->role_id]);        
         
     }
+
+    public function indexNewLanding(Request $request)
+    {
+        $request->user()->authorizeRoles(['admin']);
+        $id = Auth::id();
+        $role_user = Role_User::where('user_id', $id)->first();    
+        
+        $users = User::all();        
+        return view('pages.newlanding', ['path' => 'clients', 'user_id' => $id, 'role' => $role_user->role_id, 'users' => $users] );        
+        
+    }
+
+    
 
     public function uploadData(Request $request){
         

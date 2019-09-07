@@ -11,6 +11,8 @@ use Illuminate\Foundation\Auth\RegistersUsers;
 
 class RegisterController extends Controller
 {
+    
+      
     /*
     |--------------------------------------------------------------------------
     | Register Controller
@@ -29,7 +31,8 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/dashboard';
+
 
     /**
      * Create a new controller instance.
@@ -62,6 +65,8 @@ class RegisterController extends Controller
      * @param  array  $data
      * @return \Biqon\User
      */
+
+    
 
     protected function create(array $data)
     {

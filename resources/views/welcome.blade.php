@@ -24,7 +24,7 @@
                     <img onclick="window.location.href='{{ url('/') }}'" width="200" class="cursor" src="img/biqon/logo/logo1.png" alt="">
                     <div class="">
                         @auth
-                            <a class="text-white mr-5" href="{{ url('/home') }}">Inicio</a>
+                            <a class="text-white mr-5" href="{{ url('/dashboard') }}">Inicio</a>
                         @else
                             <a class="text-white mr-5" href="{{ route('login') }}">Ingreso</a>
 

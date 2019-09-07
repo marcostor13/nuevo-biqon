@@ -36,28 +36,15 @@
             <nav class="d-flex align-items-center justify-content-between p-4">
                 <div class="d-flex justify-content-center align-items-end">
                     <img width="180" src="{{url('img/biqon/logo/logo2.png')}}" alt="">
-                    <ul class="d-flex align-items-end justify-content-center mb-0">
-                        @if($path == 'urls')
-                            <li onclick="window.location.href='{{url('/dashboard')}}'" class="cursor h5 text-color1">DASHBOARD</li>
-                            <li onclick="window.location.href='{{url('/urls')}}'"class="cursor font-weight-bold active h5 text-color1 ml-4">CON URLS</li>
-                            <li onclick="window.location.href='{{url('/sinurls')}}'" class="cursor h5 text-color1 ml-4">SIN URLS</li>
-                            <li onclick="window.location.href='{{url('/uploads')}}'" class="cursor h5 text-color1 ml-4">CARGAR DATOS</li>
-                        @elseif($path == 'sinurls')
-                            <li onclick="window.location.href='{{url('/dashboard')}}'" class="cursor h5 text-color1">DASHBOARD</li>
-                            <li onclick="window.location.href='{{url('/urls')}}'"class="h5 cursor text-color1 ml-4">CON URLS</li>
-                            <li onclick="window.location.href='{{url('/sinurls')}}'" class="cursor font-weight-bold active h5 text-color1 ml-4">SIN URLS</li>
-                            <li onclick="window.location.href='{{url('/uploads')}}'" class="cursor h5 text-color1 ml-4">CARGAR DATOS</li>
-                        @elseif($path == 'dashboard')
-                            <li onclick="window.location.href='{{url('/dashboard')}}'" class="cursor font-weight-bold active h5 text-color1">DASHBOARD</li>
-                            <li onclick="window.location.href='{{url('/urls')}}'"class="cursor h5 text-color1 ml-4">CON URLS</li>
-                            <li onclick="window.location.href='{{url('/sinurls')}}'" class="cursor h5 text-color1 ml-4">SIN URLS</li>
-                            <li onclick="window.location.href='{{url('/uploads')}}'" class="cursor h5 text-color1 ml-4">CARGAR DATOS</li>
-                        @elseif($path == 'uploads')
-                            <li onclick="window.location.href='{{url('/dashboard')}}'" class="cursor h5 text-color1">DASHBOARD</li>
-                            <li onclick="window.location.href='{{url('/urls')}}'"class="cursor h5 text-color1 ml-4">CON URLS</li>
-                            <li onclick="window.location.href='{{url('/sinurls')}}'" class="cursor h5 text-color1 ml-4">SIN URLS</li>
-                            <li onclick="window.location.href='{{url('/uploads')}}'" class="cursor font-weight-bold active h5 text-color1 ml-4">CARGAR DATOS</li>
-                        @endif
+                    <ul class="d-flex align-items-end justify-content-center mb-0">                        
+                            <li onclick="window.location.href='{{url('/dashboard')}}'" class="cursor {{ ($path == 'dashboard')?'font-weight-bold active':'' }} h5 text-color1">DASHBOARD</li>
+                            <li onclick="window.location.href='{{url('/urls')}}'" class="cursor {{ ($path == 'urls')?'font-weight-bold active':'' }}  h5 text-color1 ml-4">CON URLS</li>
+                            <li onclick="window.location.href='{{url('/sinurls')}}'" class="cursor {{ ($path == 'sinurls')?'font-weight-bold active':'' }} h5 text-color1 ml-4">SIN URLS</li>
+                            <li onclick="window.location.href='{{url('/uploads')}}'" class="cursor {{ ($path == 'uploads')?'font-weight-bold active':'' }} h5 text-color1 ml-4">CARGAR DATOS</li> 
+                           
+                            @if($role == 1)
+                                <li onclick="window.location.href='{{url('/newLanding')}}'" class="cursor {{ ($path == 'newLanding')?'font-weight-bold active':'' }} h5 text-color1 ml-4">CREAR LANDING</li> 
+                            @endif    
                     </ul>
                 </div>
                 <div class="d-flex align-items-start">

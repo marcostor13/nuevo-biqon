@@ -19,6 +19,8 @@ Route::get('/urls', 'URLController@index');
 Route::get('/sinurls', 'URLController@indexSinUrls'); 
 Route::get('/dashboard', 'URLController@indexDashboard'); 
 Route::get('/uploads', 'URLController@indexUploads'); 
+Route::get('/newLanding', 'URLController@indexNewLanding'); 
+
 Route::get('/landings/{name}', 'LandingController@index'); 
 
 
@@ -36,13 +38,15 @@ Route::post('/getWithoutURLs', 'fileController@getWithoutURLs');
 Route::post('/sendUnitMessages', 'CoreController@sendUnitMessages'); 
 Route::post('/sendMail', 'LandingController@sendMail'); 
 Route::post('/validateRut', 'LandingController@validateRut'); 
+Route::post('/newLanding', 'LandingController@newLanding'); 
+Route::post('/newClient', 'LandingController@newClient'); 
 Route::post('/uploadData', 'URLController@uploadData'); 
 
 
 Auth::routes();
 
 
-Route::get('/{company}/{code}', 'fileController@routes');
+Route::get('/{company}/{code}', 'fileController@routes'); //URL CORTA
 
 
 

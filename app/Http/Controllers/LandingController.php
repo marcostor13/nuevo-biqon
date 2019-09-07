@@ -4,6 +4,7 @@ namespace Biqon\Http\Controllers;
 
 use Biqon\Landing;
 use Biqon\Visita;
+use Biqon\User;
 use Biqon\Formulario;
 use Biqon\DatosLanding;
 
@@ -138,6 +139,31 @@ class LandingController extends Controller
 
         return 'Registro Insertado';
         
+    }
+
+    public function newClient(Request $request){
+        $client = new User;
+        $client->name = $request->name;
+        $client->company = $request->company;
+        $client->email = $request->email;
+        $client->phone = $request->phone;
+        $client->password = bcrypt($request->password);    
+        $client->save();
+
+        return array('code' => 200, 'msg' => 'Cliente Ingresado');
+    }
+
+    public function newLanding(Request $request){
+        $landing = new Landing;
+        $landing->name = $request->name;
+        $landing->url = 'http://bint.ml/landings/'.strtolower($request->name);
+        $landing->logo = $request->logo;
+        $landing->email = $request->email;
+        $landing->background = $request->background;
+        $landing->client_id = $request->client_id;
+        $landing->save();
+
+        return array('code' => 200, 'msg' => 'Landing Insertada');
     }
 
 

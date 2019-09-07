@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'Mafchile')
+@section('title', 'Mundo Credito')
 
 @section('content')
 
@@ -9,7 +9,7 @@
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="MAFCHILE">
+            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="mundocredito">
 
             <div id="cont1" class="p-5 ">|
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
@@ -30,9 +30,9 @@
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>"/>
                 </div>
-                <button onclick='window.location.href="https://www.mafchile.com/client/login"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="http://www.mundocredito.cl/pagos.html"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
                 <button onclick="sendMail('El cliente indica que ya pagó'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
-                <div class="d-flex justify-content-around align-content-center mt-4">
+                <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
                     <a href="tel:+56985296912"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
                     <a href="mailto:contacto@binteraction.com"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
@@ -87,6 +87,8 @@
         }
 
         function sendMail(msg = false){
+
+            console.log({!! $landing->name !!}); 
             
             let data; 
             if(msg !== false){
@@ -100,13 +102,15 @@
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text()
+                    'saldo': $('#pay').text(),
+                    'landing': {!! $landing->name !!}
                 } 
             }
 
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': 'contacto@binteraction.com'
+                'email': 'contacto@binteraction.com',
+                // 'email': {!! $landing->email !!}
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
