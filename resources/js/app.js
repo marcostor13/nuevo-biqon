@@ -15,6 +15,10 @@ require('./bootstrap');
 // require('./components/Example');
 require('./pages/home');
 require('./pages/messages');
+require('./pages/dashboard');
 require('./general');
 
+import $ from 'jquery';
+window.$ = window.jQuery = $;
 
+import 'jquery-ui/ui/widgets/datepicker.js';

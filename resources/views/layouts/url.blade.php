@@ -16,11 +16,34 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         
         <title>@yield('title')</title>
+        
 
         <!-- Styles -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/black-tie/jquery-ui.css">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <script src="{{ asset('js/app.js') }}" defer></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+        {{-- highcharts --}}
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/data.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>
+
+
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tail.select@latest/css/tail.select-default.css">
+        <script src="https://cdn.jsdelivr.net/npm/tail.select@latest/js/tail.select-full.min.js"></script>
+
+
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.4/dist/bootstrap-table.min.css">
+
+
+  
 
     </head>
     <body>    
@@ -66,5 +89,6 @@
         <div class="container-fluid p-0 m-0">
             @yield('content')
         </div>
+        <script src="https://unpkg.com/bootstrap-table@1.15.4/dist/bootstrap-table.min.js"></script>
     </body>
 </html>

@@ -4,6 +4,7 @@ namespace Biqon\Http\Controllers;
 
 use Biqon\Landing;
 use Biqon\Visita;
+use Biqon\Event;
 use Biqon\User;
 use Biqon\Formulario;
 use Biqon\DatosLanding;
@@ -82,7 +83,20 @@ class LandingController extends Controller
 
     }
 
-    public function insertLanding(Request $request)
+    public function events(Request $request)
+    {
+
+        $landing = new Event;
+        $landing->name = $request->name;
+        $landing->landing_id = $request->landing_id;
+        $landing->json_datos = $request->json_datos;
+        $landing->save();
+
+        return array('code' => 200, 'msg' => 'Evento Registrado');
+        
+    }
+
+    public function insertLanding(Request $request)  // reemplazado por events
     {
 
         $landing = new Landing;
@@ -91,11 +105,11 @@ class LandingController extends Controller
         $landing->cliente = $request->cliente;
         $landing->save();
 
-        return 'Registro Insertado';
+        return array('code' => 200, 'msg' => 'Registro Insertado');
         
     }
 
-    public function visitaNueva(Request $request)
+    public function visitaNueva(Request $request)  // reemplazado por events
     {
 
         $landing = new Visita;
@@ -115,11 +129,11 @@ class LandingController extends Controller
         
         $landing->save();
 
-        return 'Registro Insertado';
+        return array('code' => 200, 'msg' => 'Registro Insertado');
         
     }
 
-    public function formularioNuevo(Request $request)
+    public function formularioNuevo(Request $request)  // reemplazado por events
     {
 
         $landing = new Formulario;
@@ -137,7 +151,7 @@ class LandingController extends Controller
         
         $landing->save();
 
-        return 'Registro Insertado';
+        return array('code' => 200, 'msg' => 'Registro Insertado');
         
     }
 

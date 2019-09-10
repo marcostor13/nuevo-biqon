@@ -30,7 +30,6 @@ Route::get('/messages', function () {
 });
 
 
-
 Route::post('/uploadFile', 'fileController@uploadFile'); 
 Route::post('/getItemsExcel', 'fileController@getItemsExcel'); 
 Route::post('/getURLs', 'fileController@getURLs'); 
@@ -41,7 +40,7 @@ Route::post('/validateRut', 'LandingController@validateRut');
 Route::post('/newLanding', 'LandingController@newLanding'); 
 Route::post('/newClient', 'LandingController@newClient'); 
 Route::post('/uploadData', 'URLController@uploadData'); 
-
+Route::post('/events', 'LandingController@events'); 
 
 Auth::routes();
 
