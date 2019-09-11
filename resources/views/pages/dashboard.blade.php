@@ -54,8 +54,8 @@
             </div>
                          
 
-            <input onchange="getDataDashboard(); return false;" id="startDate" type="text" class="datepicker som mr-5" value="<?php echo $newDate; ?>"/>
-            <input onchange="getDataDashboard(); return false;" id="endDate" type="text" class="datepicker som mr-5" value="<?php echo $date; ?>"/>            
+            <input id="startDate" type="text" class="datepicker som mr-5" value="<?php echo $newDate; ?>"/>
+            <input id="endDate" type="text" class="datepicker som mr-5" value="<?php echo $date; ?>"/>            
         </div>
         
         <div class="d-flex justify-content-between p-5 flex-wrap">

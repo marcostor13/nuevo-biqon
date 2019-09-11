@@ -197,9 +197,9 @@ class URLController extends Controller
             $where .= " AND events.json_datos RLIKE '$byPhone'";
         }
 
-        $sql = "SELECT COUNT(events.name) as cantidadEventos, events.name as evento, landings.name as landing, landings.url as url, users.name as client, landings.id as idlanding, (SELECT COUNT(id) FROM landings) as totalLandings, events.json_datos as datos FROM landings LEFT JOIN events ON events.landing_id = landings.id  LEFT JOIN users ON users.id = landings.client_id WHERE events.created_at BETWEEN '$startDate' AND '$endDate' $where  GROUP BY events.name, landings.id"; 
+        $sql = "SELECT COUNT(events.name) as cantidadEventos, events.name as evento, landings.name as landing, landings.url as url, users.name as client, landings.id as idlanding, (SELECT COUNT(id) FROM landings) as totalLandings, events.json_datos as datos FROM landings LEFT JOIN events ON events.landing_id = landings.id  LEFT JOIN users ON users.id = landings.client_id WHERE events.created_at >= '$startDate' AND events.created_at <= '$endDate' $where  GROUP BY events.name, landings.id"; 
 
-        $sql2 = "SELECT events.name as evento, landings.name as landing, landings.url as url, users.name as client, landings.id as idlanding, events.json_datos as datos, events.created_at as fecha FROM landings LEFT JOIN events ON events.landing_id = landings.id  LEFT JOIN users ON users.id = landings.client_id WHERE events.created_at BETWEEN '$startDate' AND '$endDate' $where"; 
+        $sql2 = "SELECT events.name as evento, landings.name as landing, landings.url as url, users.name as client, landings.id as idlanding, events.json_datos as datos, events.created_at as fecha FROM landings LEFT JOIN events ON events.landing_id = landings.id  LEFT JOIN users ON users.id = landings.client_id WHERE events.created_at >= '$startDate' AND events.created_at <= '$endDate' $where"; 
         
         //return $sql;
         $data = DB::select(DB::raw($sql));
