@@ -153,6 +153,7 @@
                     <thead>
                         <tr>
                             <th data-field="id">ID</th>
+                            <th data-field="event">Evento</th>
                             <th data-field="name">Landing</th>
                             <th data-field="fecha">Fecha</th>
                             <th data-field="datos">Datos</th>

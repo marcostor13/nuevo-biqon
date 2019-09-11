@@ -39999,6 +39999,7 @@ if (path == '/dashboard') {
       e.eventos.forEach(function (element) {
         rows4.push({
           id: num4,
+          event: element.evento,
           name: element.name,
           fecha: element.fecha,
           datos: element.datos

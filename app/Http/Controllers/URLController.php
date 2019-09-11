@@ -249,7 +249,7 @@ class URLController extends Controller
             }else if($d->evento == 'Visita'){
                 $visitas[] = ['name' => $d->landing,  'fecha' => $d->fecha, 'datos' => $d->datos];                 
             }else{
-                $eventos[] = ['name' => $d->landing,  'fecha' => $d->fecha, 'datos' => $d->datos];                   
+                $eventos[] = ['name' => $d->landing,  'fecha' => $d->fecha, 'datos' => $d->datos, 'evento' => $d->evento];                   
             }
         }
        
