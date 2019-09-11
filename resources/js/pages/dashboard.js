@@ -31,6 +31,22 @@ if (path == '/dashboard') {
 
            });
 
+           $('#startDate').change(function () {
+
+               getDataDashboard();
+               return false;
+
+           });
+
+           $('#endDate').change(function () {
+
+               getDataDashboard();
+               return false;
+
+           });
+
+
+
        });
 
 

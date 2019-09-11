@@ -39919,6 +39919,14 @@ if (path == '/dashboard') {
       getDataDashboard();
       return false;
     });
+    $('#startDate').change(function () {
+      getDataDashboard();
+      return false;
+    });
+    $('#endDate').change(function () {
+      getDataDashboard();
+      return false;
+    });
   });
   document.addEventListener("DOMContentLoaded", function () {
     tail.select("select", {
