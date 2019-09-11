@@ -209,6 +209,8 @@ class URLController extends Controller
         $totalFormularios  = 0;
         $totalEventos  = 0;
         $landings = [];
+        $seriesDataForm=[]; 
+        $seriesDataVisita=[]; 
 
         foreach ($data as $d) {
             if($d->evento == 'Formulario'){
