@@ -12363,10 +12363,6 @@ a.text-dark:focus {
   font-family: "Quicksand", sans-serif;
 }
 
-#dashboard-content .header h2 {
-  max-width: 250px;
-}
-
 #dashboard-content .som {
   box-shadow: 0px 0px 15px -2px #a8a8a8;
 }

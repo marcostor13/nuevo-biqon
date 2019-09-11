@@ -41,6 +41,9 @@ Route::post('/newLanding', 'LandingController@newLanding');
 Route::post('/newClient', 'LandingController@newClient'); 
 Route::post('/uploadData', 'URLController@uploadData'); 
 Route::post('/events', 'LandingController@events'); 
+Route::post('/getDataDashboard', 'URLController@getDataDashboard'); 
+
+
 
 Auth::routes();
 

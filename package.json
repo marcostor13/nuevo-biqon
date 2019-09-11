@@ -26,6 +26,7 @@
         "sass-loader": "^7.1.0"
     },
     "dependencies": {
+        "bootstrap-table": "^1.15.4",
         "cors": "^2.8.5",
         "jr3dcarousel": "^1.0.4"
     }

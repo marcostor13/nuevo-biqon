@@ -7,6 +7,7 @@ use Biqon\Dashboard;
 use Biqon\Landing;
 use Biqon\Role_User;
 use Biqon\User;
+use Biqon\Event;
 use Biqon\DatosLanding;
 use DB;
 use Illuminate\Support\Facades\Auth;
@@ -88,24 +89,54 @@ class URLController extends Controller
         $id = Auth::id();
 
         $iframe = Dashboard::where('user_id', $id)->first();                  
+        $role_user = Role_User::where('user_id', $id)->first();      
+        
+        $landings = '';
+        if($role_user->role_id == 1){
+            $landings = Landing::all(); 
+        }
+
+        $landings = '';
+        if($role_user->role_id == 1){
+            $landings = Landing::all(); 
+        }
+
+
+
+        return view('pages.dashboard', ['path' => 'dashboard', 'iframe' => $iframe->url, 'role' => $role_user->role_id, 'landings' => $landings, 'ruts' => $this->getDataJson('rut'), 'phones' => $this->getDataJson('telefono')]);        
+        
+    }
+
+    public function getDataJson($data){
+
+        $id = Auth::id();
         $role_user = Role_User::where('user_id', $id)->first(); 
 
         if($role_user->role_id == '1'){
-            $ids = 0;             
+            $ids = 0;  
+            $events = Event::all();           
         }else{
             $ids = Landing::select(DB::raw('id'))
-                              ->where('client_id', 10)->get();
+                              ->where('client_id', $id)->get();
             $res = []; 
             foreach ($ids as $id) {
                 $res[] = $id->id;
             }
-            $ids = implode(',', $res); 
+            $events = Event::whereIn('landing_id', $res)->get();            
         }
+        $dat = [];
+        foreach ($events as $e) {
+            if($e->json_datos){                
+                $datos = json_decode($e->json_datos);    
+                foreach ($datos as $key => $value) {
+                    if(trim(strtolower($key)) == $data){
+                        $dat[] = $value;
+                    }
+                }
+            }
+        }
+        return ($dat); 
 
-        //return $this->getDashboard($ids);
-
-        return view('pages.dashboard', ['path' => 'dashboard', 'iframe' => $iframe->url, 'role' => $role_user->role_id , 'info'=> $this->getDashboard($ids)]);        
-        
     }
 
     public function indexUploads(Request $request)
@@ -129,137 +160,124 @@ class URLController extends Controller
         
     }
 
-    public function getDashboard($ids){
+    public function getDashboard($ids, $request){
 
-        if($ids == 0){
-            $totalLandings = DB::table('landings')   
-                    ->select(DB::raw('count(landings.id) as totalLandings'))                   
-                    ->first();
-            $totalLandings = $totalLandings->totalLandings;
+        $byLanding = $request->input('byLanding'); 
+        $byRut = $request->input('byRut'); 
+        $byPhone = $request->input('byPhone'); 
+        $startDate = $request->input('startDate'); 
+        $startDate = str_replace('/', '-', $startDate );
+        $startDate = date("Y-m-d", strtotime($startDate));
+        $endDate = $request->input('endDate'); 
+        $endDate = str_replace('/', '-', $endDate );
+        $endDate = date("Y-m-d", strtotime($endDate));
 
-            $totalVisitas = DB::table('events')   
-                    ->select(DB::raw('count(id) as totalVisitas'))            
-                    ->where('name','Visita')        
-                    ->first();
-            $totalVisitas = $totalVisitas->totalVisitas;
+        
+        $where = '';
+        $whereLandind = '';
 
-            $totalFormularios = DB::table('events')   
-                    ->select(DB::raw('count(id) as totalFormularios'))    
-                    ->where('name','Formulario')   
-                    ->first();
-            $totalFormularios = $totalFormularios->totalFormularios;
+        if($ids != 0){
+            $whereLandind = " AND landings.id IN ($ids)";            
+        }
 
-            $totalEventos = DB::table('events')   
-                    ->select(DB::raw('count(id) as totalEventos'))    
-                    ->where('name','<>','Formulario')   
-                    ->where('name','<>','Visita')   
-                    ->first();
-            $totalEventos = $totalEventos->totalEventos;
+        if($byLanding && $byLanding != ''){
+            $ids = implode(',', $byLanding); 
+            $whereLandind = " AND landings.id IN ($ids)";
+        }
 
+        $where .= $whereLandind;
 
-            //CATNTIDAD DE VISITAS CUADRO
+        if($byRut && $byRut != ''){
+            $byRut = implode('|', $byRut); 
+            $where .= " AND events.json_datos RLIKE '$byRut'";
+        }
 
-            $data = DB::table('landings')
-                    ->select(DB::raw('landings.name as name, count(events.id) as totalVisitas'))
-                    ->leftjoin('events', 'events.landing_id', '=', 'landings.id')
-                    ->where('events.name','Visita')        
-                    ->groupby('landings.name') 
-                    ->get();
+        if($byPhone && $byPhone != ''){
+            $byPhone = implode('|', $byPhone); 
+            $where .= " AND events.json_datos RLIKE '$byPhone'";
+        }
 
-            $cantXvisitas = [];
+        $sql = "SELECT COUNT(events.name) as cantidadEventos, events.name as evento, landings.name as landing, landings.url as url, users.name as client, landings.id as idlanding, (SELECT COUNT(id) FROM landings) as totalLandings, events.json_datos as datos FROM landings LEFT JOIN events ON events.landing_id = landings.id  LEFT JOIN users ON users.id = landings.client_id WHERE events.created_at BETWEEN '$startDate' AND '$endDate' $where  GROUP BY events.name, landings.id"; 
 
-            foreach ($data as $d) {
-                $cantXvisitas['cat'][] = $d->name;             
-                $seriesData[] = $d->totalVisitas; 
-            }
-            $cantXvisitas['series'] = ['name'=>'Visitas', 'data' => $seriesData];
+        $sql2 = "SELECT events.name as evento, landings.name as landing, landings.url as url, users.name as client, landings.id as idlanding, events.json_datos as datos, events.created_at as fecha FROM landings LEFT JOIN events ON events.landing_id = landings.id  LEFT JOIN users ON users.id = landings.client_id WHERE events.created_at BETWEEN '$startDate' AND '$endDate' $where"; 
+        
+        //return $sql;
+        $data = DB::select(DB::raw($sql));
 
-            //CANTIDAD DE FORMULARIOS CUADRO 
-            $data = DB::table('landings')
-                    ->select(DB::raw('landings.name as name, count(events.id) as totalFormulario'))
-                    ->leftjoin('events', 'events.landing_id', '=', 'landings.id')
-                    ->where('events.name','Formulario')        
-                    ->groupby('landings.name') 
-                    ->get();
+        $totalLandings  = 0;
+        $totalVisitas  = 0;
+        $totalFormularios  = 0;
+        $totalEventos  = 0;
+        $landings = [];
 
-            $cantXFormularios = [];
-
-            if(count($data) > 0){
-                foreach ($data as $d) {
-                    $cantXFormularios['cat'][] = $d->name;             
-                    $seriesData2[] = $d->totalFormulario; 
-                }
+        foreach ($data as $d) {
+            if($d->evento == 'Formulario'){
+                $totalFormularios =  $totalFormularios + $d->cantidadEventos;
+                $cantXFormularios['cat'][] = $d->landing;
+                $seriesDataForm[] = $d->cantidadEventos; 
+            }else if($d->evento == 'Visita'){
+                $totalVisitas =  $totalVisitas + $d->cantidadEventos;
+                $cantXvisitas['cat'][] = $d->landing;
+                $seriesDataVisita[] = $d->cantidadEventos; 
             }else{
-                $cantXFormularios['cat'][] = '';        
-                $seriesData2 = 0; 
+                $totalEventos =  $totalEventos + $d->cantidadEventos;
             }
+            $totalLandings = $d->totalLandings;
 
-            $cantXFormularios['series'] = ['name'=>'Formularios', 'data' => $seriesData2];
+            $landings[] = json_encode(['name' => $d->landing, 'url' => $d->url, 'client' => $d->client]);           
+        }       
+       
+        $landings= array_unique($landings); 
+        $lan = [];
+        foreach ($landings as $l) {
+            $lan[] = json_decode($l);
+        }
+        $cantXFormularios['series'] = ['name'=>'Formularios', 'data' => $seriesDataForm];
+        $cantXvisitas['series'] = ['name'=>'Visitas', 'data' => $seriesDataVisita];
 
-        }else{
 
-            $totalLandings = DB::table('events')   
-                    ->select(DB::raw('count(id) as totalLandings'))                   
-                    ->where('landing_id', 'in', $ids)
-                    ->where('name','Visita')    
-                    ->first();
-            $totalLandings = $totalLandings->totalLandings;
+        $data2 = DB::select(DB::raw($sql2));
+        $formularios = [];
+        $eventos = [];
+        $visitas = [];
 
-            $totalFormularios = DB::table('events')   
-                    ->select(DB::raw('count(id) as totalFormularios'))                       
-                    ->where('landing_id', 'in', $ids) 
-                    ->where('name','Formulario')   
-                    ->first();
-            $totalFormularios = $totalFormularios->totalFormularios;
-
-            $totalEventos = DB::table('events')   
-                    ->select(DB::raw('count(id) as totalFormularios'))    
-                    ->where('landing_id', 'in', $ids) 
-                    ->where('name','<>','Formulario')   
-                    ->where('name','<>','Visita')   
-                    ->first();
-            $totalEventos = $totalEventos->totalEventos;
-
-            $data = DB::table('landings')
-                    ->select(DB::raw('landings.name as name, count(events.id) as totalVisitas'))
-                    ->leftjoin('events', 'events.landing_id', '=', 'landings.id')
-                    ->where('events.name','Visita')
-                    ->where('landings.id', 'in', $ids)        
-                    ->groupby('landings.name') 
-                    ->get();
-           
-            $cantXvisitas = [];
-
-            foreach ($data as $d) {
-                $cantXvisitas['cat'][] = $d->name;             
-                $seriesData[] = $d->totalVisitas; 
+        foreach ($data2 as $d) {
+            if($d->evento == 'Formulario'){
+                $formularios[] = ['name' => $d->landing,  'fecha' => $d->fecha, 'datos' => $d->datos];    
+            }else if($d->evento == 'Visita'){
+                $visitas[] = ['name' => $d->landing,  'fecha' => $d->fecha, 'datos' => $d->datos];                 
+            }else{
+                $eventos[] = ['name' => $d->landing,  'fecha' => $d->fecha, 'datos' => $d->datos];                   
             }
-            $cantXvisitas['series'] = ['name'=>'Visitas', 'data' => $seriesData];
-
-            //CANTIDAD DE FORMULARIOS CUADRO 
-            $data = DB::table('landings')
-                    ->select(DB::raw('landings.name as name, count(events.id) as totalFormulario'))
-                    ->leftjoin('events', 'events.landing_id', '=', 'landings.id')
-                    ->where('events.name','Formulario')   
-                    ->where('landings.id', 'in', $ids)     
-                    ->groupby('landings.name') 
-                    ->get();
-
-            $cantXFormularios = [];
-
-            foreach ($data as $d) {
-                $cantXFormularios['cat'][] = $d->name;             
-                $seriesData[] = $d->totalFormulario; 
-            }
-            $cantXFormularios['series'] = ['name'=>'Formularios', 'data' => $seriesData];
-
-            
         }
        
 
-        return ['totalLandings'=>$totalLandings, 'totalVisitas'=>$totalVisitas, 'totalEventos'=>$totalEventos,'totalFormularios'=>$totalFormularios, 'cantXvisitas' => $cantXvisitas, 'cantXFormularios' => $cantXFormularios]; 
+        return ['totalLandings'=>$totalLandings, 'totalVisitas'=>$totalVisitas, 'totalEventos'=>$totalEventos,'totalFormularios'=>$totalFormularios, 'cantXvisitas' => $cantXvisitas, 'cantXFormularios' => $cantXFormularios, 'landings'=> $lan, 'formularios'=> $formularios, 'visitas'=> $visitas, 'eventos'=> $eventos]; 
 
        
+    }
+
+
+    public function getDataDashboard(Request $request){
+
+        $id = Auth::id();                
+        $role_user = Role_User::where('user_id', $id)->first(); 
+
+        if($role_user->role_id == '1'){
+            $ids = 0;             
+        }else{
+            $ids = Landing::select(DB::raw('id'))
+                              ->where('client_id', $id)->get();
+            $res = []; 
+            foreach ($ids as $id) {
+                $res[] = $id->id;
+            }
+            $ids = implode(',', $res); 
+        }
+
+       return  $this->getDashboard($ids, $request); 
+       
+
     }
 
     
