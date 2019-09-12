@@ -170,7 +170,7 @@ class URLController extends Controller
         $startDate = date("Y-m-d", strtotime($startDate));
         $endDate = $request->input('endDate'); 
         $endDate = str_replace('/', '-', $endDate );
-        $endDate = date("Y-m-d", strtotime($endDate));
+        $endDate = date("Y-m-d",strtotime($endDate."+ 1 day")); 
 
         
         $where = '';
