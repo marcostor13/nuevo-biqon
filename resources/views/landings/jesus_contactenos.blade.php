@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'Mafchile')
+@section('title', 'Contactenos')
 
 @section('content')
 
