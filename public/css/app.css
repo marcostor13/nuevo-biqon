@@ -12388,3 +12388,8 @@ a.text-dark:focus {
   border: none !important;
 }
 
+#dashboard-content .pselect,
+#dashboard-content .pcard {
+  flex-grow: 1;
+}
+

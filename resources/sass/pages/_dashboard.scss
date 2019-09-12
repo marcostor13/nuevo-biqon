@@ -5,12 +5,6 @@
         font-family: 'Quicksand', sans-serif;
     }
 
-    .header{
-        h2{
-           
-        }
-    }
-
     .som{
         -webkit-box-shadow: 0px 0px 15px -2px rgba(168, 168, 168, 1);
         -moz-box-shadow: 0px 0px 15px -2px rgba(168, 168, 168, 1);
@@ -21,8 +15,7 @@
         min-width: 200px;
         min-height: 40px;
         border-radius: 5px;
-        border: none;
-        
+        border: none;        
         background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAArUlEQVQ4y2NgGAUMZs5xwkbe8cbkYJBeBj23WG4Tj7jrJp7xX4H0F6IwRO11kF6wK4xd0viNPWIvmHjG/ScSn7d0TxZC8YqhZ6IoUOIKQc1ecddMvRIksIaHsUucnLFn3DXcBsTeMPVOUsIbqJa+CRqmXnG3sBhwx9IrWpe4mPGKNTHxiL0H02zsGX/f0jvGiqToBWr0BHrnCdDZz4y9473JSiPGXnFRIDzMswIA2BKGJtuvv6UAAAAASUVORK5CYII=) no-repeat scroll 90% 12px;
         padding-left:30px;
         cursor: pointer;
@@ -41,6 +34,10 @@
         min-height: 40px !important;
         border-radius: 5px !important;
         border: none !important;
+    }
+
+    .pselect, .pcard {
+        flex-grow: 1;
     }
 
 
