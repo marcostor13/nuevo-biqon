@@ -301,9 +301,10 @@ class URLController extends Controller
             }
             $items[$letters[$i]] = $dataExcel[1][$letters[$i]]; 
         }                             
+        DatosLanding::where('landing_id', $landing_id)->delete();
         for ($i=2; $i < count($dataExcel)+1; $i++) {            
             
-            DatosLanding::where('landing_id', $landing_id)->delete();
+            
             
             $datosLanding = new DatosLanding;
             foreach ($items as $letter => $col) {                
