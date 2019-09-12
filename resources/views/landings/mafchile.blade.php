@@ -77,7 +77,7 @@
         }
         
 
-        function event1(){
+        let event1 = function(){
                             
             let dataSend = {
                 'fourRut': $('#rut').val()
@@ -136,7 +136,7 @@
 
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': {!!$landing->email!!}
+                'email': '{!!$landing->email!!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
