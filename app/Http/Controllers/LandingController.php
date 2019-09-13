@@ -73,13 +73,20 @@ class LandingController extends Controller
                 }else{
                     return json_encode(array('code' => 100, 'msg' => 'ID incorrecto'));
                 }
-            }else{
-                return json_encode(array('code' => 200, 'data' => $data));
-            }      
+            }
+
+            if(isset($request['phone'])){
+                if($request->input('phone') == $data->telefono){
+                    return json_encode(array('code' => 200, 'data' => $data));
+                }else{
+                    return json_encode(array('code' => 100, 'msg' => 'Teléfono incorrecto'));
+                }
+            }
+
+            return json_encode(array('code' => 200, 'data' => $data));
         }
 
         return json_encode(array('code' => 100, 'msg' => 'Rut incorrecto'));
-
 
     }
 
@@ -162,6 +169,11 @@ class LandingController extends Controller
         $client->email = $request->email;
         $client->phone = $request->phone;
         $client->password = bcrypt($request->password);    
+        $client->save();
+
+        $client = new Role_User;
+        $client->user_id = Auth::id();
+        $client->role_id = 1;
         $client->save();
 
         return array('code' => 200, 'msg' => 'Cliente Ingresado');

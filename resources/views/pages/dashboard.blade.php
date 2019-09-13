@@ -6,10 +6,7 @@
 
 <?php 
     $date = date('d/m/Y');
-    $newDate = date("d/m/Y",strtotime($date."- 3 month")); 
-
-
-
+    $newDate = date('d/m/Y',strtotime($date."- 7 days")); 
 ?>
         
     
@@ -54,8 +51,8 @@
             </div>
                          
 
-            <input id="startDate" type="text" class="mt-5 datepicker som mr-5" value="<?php echo $newDate; ?>"/>
-            <input id="endDate" type="text" class="mt-5 datepicker som mr-5" value="<?php echo $date; ?>"/>            
+            <input id="startDate" type="text" class="mt-5 datepicker som mr-5" value="{{ $date }}"/>
+            <input id="endDate" type="text" class="mt-5 datepicker som mr-5" value="{{ $date }}"/>            
         </div>
         
         <div class=" p-5 flex-wrap">
