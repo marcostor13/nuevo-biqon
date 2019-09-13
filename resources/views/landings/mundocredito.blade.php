@@ -6,6 +6,11 @@
 <style>
 .opaco{
     display: none !important; 
+
+}
+.input{
+
+     background-color: #3490DC !important;
 }
 </style>
     <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
@@ -17,12 +22,12 @@
 
             <div id="cont1" class="p-5 ">|
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-blue" placeholder="1234">
+                <input id="rut" type="number" class="form-control mt-4 text-center text-blue input">
                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
                 <h5 id="error"class="text-white text-center mt-5"></h5>
             </div>
 
-            <div id="cont2" class="p-5 hide">|
+            <div id="cont2" class="p-5 hide">
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
                 <p class="text-black">
@@ -41,7 +46,7 @@
                     <a onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
                     <a onclick="eventosLanding('Correo');" href="mailto:contacto@binteraction.com"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
-                <h5 id="message"class="text-white text-center mt-5 hide"></h5>
+                <h5 id="message"class="text-black text-center mt-5 hide"></h5>
             </div>
 
         </div>
