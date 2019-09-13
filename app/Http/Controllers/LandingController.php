@@ -37,6 +37,8 @@ class LandingController extends Controller
     {
         // $request->user()->authorizeRoles(['user', 'admin']);
         // return view('home');
+
+        
         
         $landing = Landing::where('name', $request->name)                    
                     ->first();
