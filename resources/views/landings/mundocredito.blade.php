@@ -3,13 +3,17 @@
 @section('title', 'Mundo Credito')
 
 @section('content')
-
+<style>
+.opaco{
+    display: none !important; 
+}
+</style>
     <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="mundocredito">
+            <img class="img-fluid col-10 col-md-3 mt-2" src="{{$landing->logo}}" alt="mundocredito">
 
             <div id="cont1" class="p-5 ">|
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
