@@ -31,9 +31,9 @@
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
                 <p class="text-black">
-                    Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
-                    <b>$ </b><b id="pay">$ 500</b>
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
+                   Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz.
+                    
+                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
                 </p>
                 <div class="date btn bg-primary text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
