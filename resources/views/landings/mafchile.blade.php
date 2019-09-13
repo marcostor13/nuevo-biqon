@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'Mafchile')
+@section('title', 'MafChile')
 
 @section('content')
 
@@ -30,12 +30,12 @@
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>"/>
                 </div>
-                <button onclick='window.location.href="https://www.mafchile.com/client/login"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="https://www.marubeni.cl/contacto/"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56964386130&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
-                    <a onclick="eventosLanding('Llamar', 'tel:+56964386130') "><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                    <a onclick="eventosLanding('Correo', 'mailto:alsanchez@prainabogados.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56964386130&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56964386130"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:alsanchez@prainabogados.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
                 <h5 id="message"class="text-white text-center mt-5 hide"></h5>
             </div>
@@ -45,8 +45,6 @@
 
     <script>
 
-        
-
         $(function(){
             events({    
                 'name': 'Visita',
@@ -55,8 +53,7 @@
             });
         }); 
 
-
-        let eventosLanding = function(name, redireccion = false){
+        let eventosLanding = function(name){
             
             let json_datos = getAllUrlParameter(); 
 
@@ -68,20 +65,16 @@
                 'landing_id': {!! $landing->id !!},
                 'json_datos': JSON.stringify(json_datos)
             });
-            if(redireccion != false){
-
-                window.location.href=redireccion; 
-            }
-
-            
         }
+
+        //EVENT 1
         
 
-        let event1 = function(){
+        function event1(){
                             
             let dataSend = {
-                'fourRut': $('#rut').val()
-                // 'id': '123124'; 
+                'fourRut': $('#rut').val(),
+                'phone': getUrlParameter('telefono'),
             } 
             
             $.ajaxSetup({
@@ -116,7 +109,9 @@
 
         }
 
-        let sendMail = function(msg = false){
+        function sendMail(msg = false){
+
+            console.log({!! $landing->name !!}); 
             
             let data; 
             if(msg !== false){
@@ -130,13 +125,15 @@
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text()
+                    'saldo': $('#pay').text(),
+                    'landing': {!! $landing->name !!}
                 } 
             }
 
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!!$landing->email!!}'
+                'email': 'contacto@binteraction.com',
+                // 'email': {!! $landing->email !!}
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -162,7 +159,6 @@
             });
 
         }
-
 
         let events = function(data){     
 
@@ -217,8 +213,6 @@
 
             return obj;  
         };
-
-        
         
     
     </script>
