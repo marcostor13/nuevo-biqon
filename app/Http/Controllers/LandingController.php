@@ -78,7 +78,7 @@ class LandingController extends Controller
             }
 
             if(isset($request['phone'])){
-                if($request->input('telefono') == $data->telefono){
+                if($request->input('phone') == $data->telefono){
                     return json_encode(array('code' => 200, 'data' => $data));
                 }else{
                     return json_encode(array('code' => 100, 'msg' => 'Teléfono incorrecto'));
