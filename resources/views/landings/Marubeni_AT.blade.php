@@ -33,9 +33,9 @@
                 <button onclick='window.location.href="https://www.marubeni.cl/contacto/"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                    <a onclick="eventosLanding('Correo');" href="mailto:contacto@binteraction.com"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56942165535&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56942165535"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:atrujillo@prainabogados.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
                 <h5 id="message"class="text-white text-center mt-5 hide"></h5>
             </div>
