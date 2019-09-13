@@ -75,19 +75,17 @@ class LandingController extends Controller
                 }else{
                     return json_encode(array('code' => 100, 'msg' => 'ID incorrecto'));
                 }
-            }else{
-                return json_encode(array('code' => 200, 'data' => $data));
-            } 
+            }
 
-            if(isset($request['telefono'])){
+            if(isset($request['phone'])){
                 if($request->input('telefono') == $data->telefono){
                     return json_encode(array('code' => 200, 'data' => $data));
                 }else{
-                    return json_encode(array('code' => 100, 'msg' => 'ID incorrecto'));
+                    return json_encode(array('code' => 100, 'msg' => 'Teléfono incorrecto'));
                 }
-            }else{
-                return json_encode(array('code' => 200, 'data' => $data));
-            }      
+            }
+
+            return json_encode(array('code' => 200, 'data' => $data));
         }
 
         return json_encode(array('code' => 100, 'msg' => 'Rut incorrecto'));
