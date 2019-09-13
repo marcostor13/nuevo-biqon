@@ -73,7 +73,8 @@
         function event1(){
                             
             let dataSend = {
-                'fourRut': $('#rut').val()
+                'fourRut': $('#rut').val(),
+                'phone': getUrlParameter('telefono'),
             } 
             
             $.ajaxSetup({
