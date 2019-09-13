@@ -6,10 +6,7 @@
 
 <?php 
     $date = date('d/m/Y');
-    $newDate = date("d/m/Y",strtotime($date."- 3 month")); 
-
-
-
+    $newDate = date("d/m/Y",strtotime($date."-3 month")); 
 ?>
         
     

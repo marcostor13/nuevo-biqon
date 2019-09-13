@@ -37,8 +37,6 @@ class LandingController extends Controller
     {
         // $request->user()->authorizeRoles(['user', 'admin']);
         // return view('home');
-
-        
         
         $landing = Landing::where('name', $request->name)                    
                     ->first();
@@ -89,7 +87,6 @@ class LandingController extends Controller
         }
 
         return json_encode(array('code' => 100, 'msg' => 'Rut incorrecto'));
-
 
     }
 
@@ -172,6 +169,11 @@ class LandingController extends Controller
         $client->email = $request->email;
         $client->phone = $request->phone;
         $client->password = bcrypt($request->password);    
+        $client->save();
+
+        $client = new Role_User;
+        $client->user_id = Auth::id();
+        $client->role_id = 1;
         $client->save();
 
         return array('code' => 200, 'msg' => 'Cliente Ingresado');

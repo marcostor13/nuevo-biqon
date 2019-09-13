@@ -96,13 +96,6 @@ class URLController extends Controller
             $landings = Landing::all(); 
         }
 
-        $landings = '';
-        if($role_user->role_id == 1){
-            $landings = Landing::all(); 
-        }
-
-
-
         return view('pages.dashboard', ['path' => 'dashboard', 'role' => $role_user->role_id, 'landings' => $landings, 'ruts' => $this->getDataJson('rut'), 'phones' => $this->getDataJson('telefono')]);        
         
     }
@@ -116,8 +109,7 @@ class URLController extends Controller
             $ids = 0;  
             $events = Event::all();           
         }else{
-            $ids = Landing::select(DB::raw('id'))
-                              ->where('client_id', $id)->get();
+            $ids = Landing::select(DB::raw('id'))->where('client_id', $id)->get();
             $res = []; 
             foreach ($ids as $id) {
                 $res[] = $id->id;
