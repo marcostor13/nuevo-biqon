@@ -3,7 +3,13 @@
 @section('title', 'USS')
 
 @section('content')
-
+<?php
+$startdate=strtotime("Today");
+$enddate=strtotime("+5 days", $startdate);
+ $ini=date("M d", $startdate) . "<br>";
+  $fin=date("M d", $enddate) . "<br>";
+ 
+?>
     <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
@@ -28,7 +34,7 @@
                 </p>
                 <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date('Y-m-d+5') ?> "/>
+                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo $ini ?>" max="<?php echo $fin ?> "/>
                 </div>
              
                 <button onclick='window.location.href="https://pagos.uss.cl/"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
@@ -46,7 +52,9 @@
         </div>
     </div>
 
-  <script>
+   <script>
+
+        
 
         $(function(){
             events({    
@@ -56,7 +64,8 @@
             });
         }); 
 
-        let eventosLanding = function(name){
+
+        let eventosLanding = function(name, redireccion = false){
             
             let json_datos = getAllUrlParameter(); 
 
@@ -68,16 +77,20 @@
                 'landing_id': {!! $landing->id !!},
                 'json_datos': JSON.stringify(json_datos)
             });
-        }
+            if(redireccion != false){
 
-        //EVENT 1
+                window.location.href=redireccion; 
+            }
+
+            
+        }
         
 
-        function event1(){
+        let event1 = function(){
                             
             let dataSend = {
-                'fourRut': $('#rut').val(),
-                'phone': getUrlParameter('telefono'),
+                'fourRut': $('#rut').val()
+                // 'id': '123124'; 
             } 
             
             $.ajaxSetup({
@@ -112,9 +125,7 @@
 
         }
 
-        function sendMail(msg = false){
-
-            console.log({!! $landing->name !!}); 
+        let sendMail = function(msg = false){
             
             let data; 
             if(msg !== false){
@@ -128,15 +139,13 @@
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text(),
-                    'landing': {!! $landing->name !!}
+                    'saldo': $('#pay').text()
                 } 
             }
 
             let dataSend = {
                 'data': JSON.stringify(data),
-                //'email': 'contacto@binteraction.com',
-                'email': {!! $landing->email !!}
+                'email': '{!!$landing->email!!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -162,6 +171,7 @@
             });
 
         }
+
 
         let events = function(data){     
 
@@ -216,6 +226,8 @@
 
             return obj;  
         };
+
+        
         
     
     </script>
