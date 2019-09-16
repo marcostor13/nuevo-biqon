@@ -6,8 +6,8 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
- echo date("M d", $startdate) . "<br>";
-   echo date("Y-m-d", $enddate) . "<br>";
+// echo date("M d", $startdate) . "<br>";
+  // echo date("Y-m-d", $enddate) . "<br>";
  
 ?>
     <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
