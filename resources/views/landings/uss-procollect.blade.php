@@ -8,8 +8,8 @@ $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
  $ini=date("M d", $startdate) . "<br>";
   $fin=date("M d", $enddate) . "<br>";
- echo $ini;
- echo $fin;
+// echo $ini;
+// echo $fin;
 ?>
     <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
@@ -146,8 +146,8 @@ $enddate=strtotime("+5 days", $startdate);
 
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!!$landing->email!!}'
-                //'email': 'marcostor13@gmail.com'
+                 //'email': '{!!$landing->email!!}'
+               'email': 'jesus.binteraction@gmail.com'
             }
             $.ajaxSetup({
                 headers: {
