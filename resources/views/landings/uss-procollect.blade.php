@@ -3,7 +3,13 @@
 @section('title', 'USS')
 
 @section('content')
-
+<?php
+$startdate=strtotime("Today");
+$enddate=strtotime("+5 days", $startdate);
+ echo date("M d", $startdate) . "<br>";
+   echo date("Y-m-d", $enddate) . "<br>";
+ 
+?>
     <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
@@ -28,7 +34,7 @@
                 </p>
                 <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
                 <button onclick='window.location.href="https://pagos.uss.cl/"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
                 
