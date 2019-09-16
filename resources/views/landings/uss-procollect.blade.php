@@ -44,7 +44,7 @@ $enddate=strtotime("+5 days", $startdate);
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <!--<a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56964386131&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>-->
-                    <a onclick="eventosLanding('Llamar', 'tel:+56225940241') "><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
+                    <a onclick="eventosLanding('Llamar', 'tel:+56967664209') "><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
                    <!-- <a onclick="eventosLanding('Correo', 'mailto:alsanchez@prainabogados.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>-->
                 </div>
                 <h5 id="message"class="text-white text-center mt-5 hide"></h5>
