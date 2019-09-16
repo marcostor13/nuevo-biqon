@@ -3,14 +3,7 @@
 @section('title', 'USS')
 
 @section('content')
-<?php
-$startdate=strtotime("Today");
-$enddate=strtotime("+5 days", $startdate);
- $ini=date("M d", $startdate) . "<br>";
-  $fin=date("M d", $enddate) . "<br>";
-// echo $ini;
-// echo $fin;
-?>
+
     <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
