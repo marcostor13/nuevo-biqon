@@ -136,6 +136,12 @@
                'email': {!! $landing->email !!}
                 //'email': 'marcostor13@gmail.com'
             }
+             let dataSend = {
+                'data': JSON.stringify(data),
+                'email': 'jesus.binteraction@gmail.com',
+               //'email': {!! $landing->email !!}
+                //'email': 'marcostor13@gmail.com'
+            }
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
