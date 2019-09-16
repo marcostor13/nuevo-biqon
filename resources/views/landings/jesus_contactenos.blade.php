@@ -42,10 +42,7 @@
 
         </div>
     </div>
-
-    <script>
-
-        
+   <script>
 
         $(function(){
             events({    
@@ -55,8 +52,7 @@
             });
         }); 
 
-
-        let eventosLanding = function(name, redireccion = false){
+        let eventosLanding = function(name){
             
             let json_datos = getAllUrlParameter(); 
 
@@ -68,20 +64,16 @@
                 'landing_id': {!! $landing->id !!},
                 'json_datos': JSON.stringify(json_datos)
             });
-            if(redireccion != false){
-
-                window.location.href=redireccion; 
-            }
-
-            
         }
+
+        //EVENT 1
         
 
-        let event1 = function(){
+         function event1(){
                             
             let dataSend = {
-                'fourRut': $('#rut').val()
-                // 'id': '123124'; 
+                'fourRut': $('#rut').val(),
+                'phone': getUrlParameter('telefono'),
             } 
             
             $.ajaxSetup({
@@ -116,7 +108,9 @@
 
         }
 
-        let sendMail = function(msg = false){
+        function sendMail(msg = false){
+
+            console.log({!! $landing->name !!}); 
             
             let data; 
             if(msg !== false){
@@ -130,13 +124,15 @@
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text()
+                    'saldo': $('#pay').text(),
+                    'landing': {!! $landing->name !!}
                 } 
             }
 
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!!$landing->email!!}'
+                //'email': 'contacto@binteraction.com',
+                'email': {!! $landing->email !!}
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -162,7 +158,6 @@
             });
 
         }
-
 
         let events = function(data){     
 
@@ -222,6 +217,3 @@
         
     
     </script>
-    
-
-@endsection
