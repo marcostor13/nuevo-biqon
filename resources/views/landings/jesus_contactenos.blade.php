@@ -26,7 +26,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <p class="text-white">
                     Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
-                    <b>$ </b><b id="pay">$ 500</b>
+                    <b>$ </b><b id="pay"></b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
                 </p>
                 <div class="date btn bg-danger text-white col-12 mt-4">
@@ -46,30 +46,7 @@ $enddate=strtotime("+5 days", $startdate);
         </div>
     </div>
    <script>
-
-        $(function(){
-            events({    
-                'name': 'Visita',
-                'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(getAllUrlParameter())
-            });
-        }); 
-
-        let eventosLanding = function(name){
-            
-            let json_datos = getAllUrlParameter(); 
-
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
-
-            events({    
-                'name': name,
-                'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(json_datos)
-            });
-        }
-
-        //EVENT 1
+   //EVENT 1
         
 
          function event1(){
@@ -110,6 +87,30 @@ $enddate=strtotime("+5 days", $startdate);
             });
 
         }
+        
+        $(function(){
+            events({    
+                'name': 'Visita',
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(getAllUrlParameter())
+            });
+        }); 
+
+        let eventosLanding = function(name){
+            
+            let json_datos = getAllUrlParameter(); 
+
+            json_datos.nombre = $('#name').text();
+            json_datos.monto = $('#pay').text();
+
+            events({    
+                'name': name,
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(json_datos)
+            });
+        }
+
+     
 
         function sendMail(msg = false){
 
