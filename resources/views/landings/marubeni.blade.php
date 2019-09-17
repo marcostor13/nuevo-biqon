@@ -70,10 +70,11 @@
         //EVENT 1
         
 
-        function event1(){
+       function event1(){
                             
             let dataSend = {
-                'fourRut': $('#rut').val()
+                'fourRut': $('#rut').val(),
+                'phone': getUrlParameter('telefono'),
             } 
             
             $.ajaxSetup({
@@ -131,8 +132,8 @@
 
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': 'contacto@binteraction.com',
-                // 'email': {!! $landing->email !!}
+                //'email': 'contacto@binteraction.com',
+                'email': {!! $landing->email !!}
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
