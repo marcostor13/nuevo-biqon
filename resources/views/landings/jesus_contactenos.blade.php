@@ -82,11 +82,11 @@ $enddate=strtotime("+5 days", $startdate);
         }
         
 
-        let event1 = function(){
+        function event1() {
                             
             let dataSend = {
                 'fourRut': $('#rut').val()
-                // 'id': '123124'; 
+                'phone': getUrlParameter('telefono'),
             } 
             
             $.ajaxSetup({
