@@ -69,11 +69,12 @@
 
         //EVENT 1
         
- function event1(){
+        function event1(){
                             
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
+                'landing_id': {!! $landing->id !!},
             } 
             
             $.ajaxSetup({
