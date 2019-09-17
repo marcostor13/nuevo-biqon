@@ -121,7 +121,8 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
                     'mensaje': msg,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text()
+                    'saldo': $('#pay').text(),
+                    'phone': getUrlParameter('telefono')
                 }
             }else{
                 let date = $('#date1').val();
@@ -129,6 +130,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'fecha': date,
                     'nombre': $('#name').text(),
                     'saldo': $('#pay').text(),
+                    'phone': getUrlParameter('telefono'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
