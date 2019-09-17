@@ -51,8 +51,9 @@ $enddate=strtotime("+5 days", $startdate);
         </div>
     </div>
 
-    <script>
-
+   <script>
+   //EVENT 1
+        
         $(function(){
             events({    
                 'name': 'Visita',
@@ -61,28 +62,11 @@ $enddate=strtotime("+5 days", $startdate);
             });
         }); 
 
-        let eventosLanding = function(name){
-            
-            let json_datos = getAllUrlParameter(); 
-
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
-
-            events({    
-                'name': name,
-                'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(json_datos)
-            });
-        }
-
-        //EVENT 1
-        
-
          function event1(){
                             
             let dataSend = {
                 'fourRut': $('#rut').val(),
-                'phone': getUrlParameter('telefono'),
+                'phone': getUrlParameter('telefono')
             } 
             
             $.ajaxSetup({
@@ -116,10 +100,27 @@ $enddate=strtotime("+5 days", $startdate);
             });
 
         }
+        
+
+        let eventosLanding = function(name){
+            
+            let json_datos = getAllUrlParameter(); 
+
+            json_datos.nombre = $('#name').text();
+            json_datos.monto = $('#pay').text();
+
+            events({    
+                'name': name,
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(json_datos)
+            });
+        }
+
+     
 
         function sendMail(msg = false){
 
-            console.log({!! $landing->name !!}); 
+            console.log('{!! $landing->name !!}'); 
             
             let data; 
             if(msg !== false){
@@ -127,7 +128,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'mensaje': msg,
                     'nombre': $('#name').text(),
                     'saldo': $('#pay').text(),
-                    'telefono': getUrlParameter('telefono'),
+                    'phone': getUrlParameter('telefono'),
                     'rut': getUrlParameter('rut')
                 }
             }else{
@@ -136,8 +137,8 @@ $enddate=strtotime("+5 days", $startdate);
                     'fecha': date,
                     'nombre': $('#name').text(),
                     'saldo': $('#pay').text(),
-                    'telefono': getUrlParameter('telefono'),
-                    'rut': getUrlParameter('rut'),
+                    'phone': getUrlParameter('telefono'),
+                     'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
