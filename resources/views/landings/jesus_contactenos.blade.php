@@ -132,7 +132,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'saldo': $('#pay').text(),
                     //'telefono': getUrlParameter('telefono'),
                     //'rut': getUrlParameter('rut'),
-                    'landing': '{!! $landing->name !!}'
+                    'landing': {!! $landing->name !!}
                 } 
             }
 
