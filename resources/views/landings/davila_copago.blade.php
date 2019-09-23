@@ -30,9 +30,8 @@ $enddate=strtotime("+5 days", $startdate);
                 <p class="text-white">
                     
               informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización. 
-                    <b> Su ID admisión es:  </b><b id="dato1"></b>
-                    <b> El costo es de:  </b><b id="pay"></b>
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
+                    <br> Su ID admisión es:  <b id="dato1"> </b></br>
+                    
                 </p>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
@@ -93,7 +92,7 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#pay').text(e.data.monto);
 
                     //añadir id_admision (dato1)
-                    
+
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
