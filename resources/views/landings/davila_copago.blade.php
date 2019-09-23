@@ -20,7 +20,7 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont1" class="p-5 ">|
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4">Validar</button>
+                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
                 <h5 id="error"class="text-white text-center mt-5"></h5>
             </div>
 
@@ -38,9 +38,9 @@ $enddate=strtotime("+5 days", $startdate);
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
                 </div>-->
-                <button onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/"' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
                 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
                 
                 <!--<div class="d-flex justify-content-around align-content-center mt-4">
                     
@@ -91,7 +91,9 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
+
                     //añadir id_admision (dato1)
+                    
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
