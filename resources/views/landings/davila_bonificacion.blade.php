@@ -89,15 +89,41 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
-                    $('#date1').on('change', function(){
-                        if($('#date1').val() != ''){
-                            sendMail();
-                        }
-                    });
-                }else{
-                    $('#error').text(e.msg);
-                }
-            })
+                    $('#isapre').text(data.prevision);//validar esta funcion 
+
+              var prevision = data.prevision;
+              var numero; 
+              if(prevision.indexOf('CRUZ BLANCA')>-1){
+                numero = 'tel:+56229981000'; 
+              }else if (prevision.indexOf('CONSALUD') > -1) {
+                numero = 'tel:+56223325020';
+              }else if (prevision.indexOf('BANMEDICA') > -1) {
+                numero = 'tel:+56222706800';
+              }else if (prevision.indexOf('FUNDACION BANCO ESTADO') > -1) {
+                numero = 'tel:+56223479000';
+              }else if (prevision.indexOf('VIDA TRES') > -1) {
+                numero = 'tel:+56225403600';
+              }else if (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
+                numero = 'tel:6006000262';
+              }else if (prevision.indexOf('RIO BLANCO') > -1) {
+                numero = 'tel:800835400';
+              }else if (prevision.indexOf('COLMENA') > -1) {
+                numero = 'tel:+56229594040';
+              }else if (prevision.indexOf('CHUQUICAMATA') > -1) {
+                numero = 'tel:800835400';
+              }else if (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
+                numero = 'tel:6006000262';
+              }else if (prevision.indexOf('CHUQUICAMATA LTDA') > -1) {
+                numero = 'tel:800835400';
+              }else if (prevision.indexOf('SAN LORENZO') > -1) {
+                numero = 'tel:800835400';
+              }
+
+              console.log(numero);
+
+              $('#isapre2').attr('href', numero);
+
+            }
             .fail(function() {
                 console.log( "error" );
             });
