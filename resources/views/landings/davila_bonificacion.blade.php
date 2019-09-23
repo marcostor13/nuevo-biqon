@@ -53,84 +53,7 @@ $enddate=strtotime("+5 days", $startdate);
 
    <script>
    //EVENT 1
-     function validarClinicaDavila() {
-
-        var rut = $('#rut').val();
-        // var idIngreso = $('#idIngreso').val();
-
-        if (rut == '') {
-          $('#respuesta').text('Debe ingresar todos los campos');
-          return false;
-        }
-
-
-        var datos = {
-          'funcion': 'validarClinicaDavila',
-          'rut': rut,
-          // 'idIngreso': idIngreso,
-          'numero': getUrlParameter('numero')
-        }
-
-        $.ajax({
-          data: datos,
-          type: "POST",
-          url: "/biqon/procesos/funciones.php",
-        })
-          .done(function (data, textStatus, jqXHR) {
-            if (data == 0) {
-              $('#respuesta').text('Los datos no son válidos');
-            } else {
-              console.log(data);
-              data = JSON.parse(data);
-              $('main').show('slow');
-              $('#datos').show('slow');
-              $('#idIngreso').text(data.idIngreso);
-              $('#isapre').text(data.prevision); 
-              $('#card1').show('fast');
-              $('#card2').hide('fast');
-
-              var prevision = data.prevision;
-              var numero; 
-              if(prevision.indexOf('CRUZ BLANCA')>-1){
-                numero = 'tel:+56229981000'; 
-              }else if (prevision.indexOf('CONSALUD') > -1) {
-                numero = 'tel:+56223325020';
-              }else if (prevision.indexOf('BANMEDICA') > -1) {
-                numero = 'tel:+56222706800';
-              }else if (prevision.indexOf('FUNDACION BANCO ESTADO') > -1) {
-                numero = 'tel:+56223479000';
-              }else if (prevision.indexOf('VIDA TRES') > -1) {
-                numero = 'tel:+56225403600';
-              }else if (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
-                numero = 'tel:6006000262';
-              }else if (prevision.indexOf('RIO BLANCO') > -1) {
-                numero = 'tel:800835400';
-              }else if (prevision.indexOf('COLMENA') > -1) {
-                numero = 'tel:+56229594040';
-              }else if (prevision.indexOf('CHUQUICAMATA') > -1) {
-                numero = 'tel:800835400';
-              }else if (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
-                numero = 'tel:6006000262';
-              }else if (prevision.indexOf('CHUQUICAMATA LTDA') > -1) {
-                numero = 'tel:800835400';
-              }else if (prevision.indexOf('SAN LORENZO') > -1) {
-                numero = 'tel:800835400';
-              }
-
-              console.log(numero);
-
-              $('#isapre2').attr('href', numero);
-
-            }
-          })
-          .fail(function (jqXHR, textStatus, errorThrown) {
-            console.log(errorThrown);
-          });
-
-
-      }
-
-        $(function(){
+    $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
@@ -216,6 +139,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'saldo': $('#pay').text(),
                     'phone': getUrlParameter('telefono'),
                      'rut': getUrlParameter('rut'),
+                     'dato1': getUrlParameter('dato1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
