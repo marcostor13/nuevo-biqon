@@ -94,6 +94,9 @@ class URLController extends Controller
         $landings = '';
         if($role_user->role_id == 1){
             $landings = Landing::all(); 
+        }else{
+            $users = User::where('id', $id)->first(); 
+            $landings = Landing::whereIn('id', json_decode($users->landings))->get(); 
         }
 
         return view('pages.dashboard', ['path' => 'dashboard', 'role' => $role_user->role_id, 'landings' => $landings, 'ruts' => $this->getDataJson('rut'), 'phones' => $this->getDataJson('telefono')]);        
@@ -163,7 +166,6 @@ class URLController extends Controller
         $endDate = $request->input('endDate'); 
         $endDate = str_replace('/', '-', $endDate );
         $endDate = date("Y-m-d",strtotime($endDate."+ 1 day")); 
-
         
         $where = '';
         $whereLandind = '';
@@ -189,7 +191,7 @@ class URLController extends Controller
             $where .= " AND events.json_datos RLIKE '$byPhone'";
         }
 
-        $sql = "SELECT COUNT(events.name) as cantidadEventos, events.name as evento, landings.name as landing, landings.url as url, users.name as client, landings.id as idlanding, (SELECT COUNT(id) FROM landings) as totalLandings, events.json_datos as datos FROM landings LEFT JOIN events ON events.landing_id = landings.id  LEFT JOIN users ON users.id = landings.client_id WHERE events.created_at >= '$startDate' AND events.created_at <= '$endDate' $where  GROUP BY events.name, landings.id"; 
+        $sql = "SELECT COUNT(events.name) as cantidadEventos, events.name as evento, COUNT(landings.name) as totalLandings, landings.name as landing, landings.url as url, users.name as client, landings.id as idlanding, events.json_datos as datos FROM landings LEFT JOIN events ON events.landing_id = landings.id  LEFT JOIN users ON users.id = landings.client_id WHERE events.created_at >= '$startDate' AND events.created_at <= '$endDate' $where  GROUP BY events.name, landings.id"; 
 
         $sql2 = "SELECT events.name as evento, landings.name as landing, landings.url as url, users.name as client, landings.id as idlanding, events.json_datos as datos, events.created_at as fecha FROM landings LEFT JOIN events ON events.landing_id = landings.id  LEFT JOIN users ON users.id = landings.client_id WHERE events.created_at >= '$startDate' AND events.created_at <= '$endDate' $where"; 
         
@@ -260,17 +262,10 @@ class URLController extends Controller
         if($role_user->role_id == '1'){
             $ids = 0;             
         }else{
-            $ids = Landing::select(DB::raw('id'))
-                              ->where('client_id', $id)->get();
-            $res = []; 
-            foreach ($ids as $id) {
-                $res[] = $id->id;
-            }
-            $ids = implode(',', $res); 
+            $ids = User::select(DB::raw('landings'))
+                              ->where('id', $id)->first();  
         }
-
-       return  $this->getDashboard($ids, $request); 
-       
+       return  $this->getDashboard(implode(',', json_decode($ids->landings)), $request);        
 
     }
 

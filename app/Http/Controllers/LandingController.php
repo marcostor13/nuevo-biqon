@@ -175,7 +175,7 @@ class LandingController extends Controller
 
         $client = new Role_User;
         $client->user_id = Auth::id();
-        $client->role_id = 1;
+        $client->role_id = 2;
         $client->save();
 
         return array('code' => 200, 'msg' => 'Cliente Ingresado');

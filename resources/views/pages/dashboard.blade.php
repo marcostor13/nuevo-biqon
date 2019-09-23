@@ -18,7 +18,7 @@
 
         <div class="d-flex justify-content-end mt-5 flex-wrap">
 
-            @if($role == '1')
+            
             <div class="pSelect mt-5 d-flex justify-content-center align-items-center mr-5">
                 <label for="byLanding" class="mr-3 mt-2 text-color1">LANDING</label>
                 <select id="byLanding" class="som select mr-5" multiple>
@@ -28,7 +28,7 @@
                 </select> 
 
             </div>
-            @endif
+            
             
             <div class="pSelect mt-5 d-flex justify-content-center align-items-center mr-5">
                 <label for="byRut" class="mr-3 mt-2 text-color1">RUT</label>
