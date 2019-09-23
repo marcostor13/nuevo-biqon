@@ -20,7 +20,7 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont1" class="p-5 ">|
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4">Validar</button>
+                <button onclick="validarClinicaDavila(); return false;" class="btn bg-danger text-white col-12 mt-4">Validar</button>
                 <h5 id="error"class="text-white text-center mt-5"></h5>
             </div>
 
@@ -36,7 +36,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
                 </div>-->
-                <button onclick='window.location.href="https://pagos.uss.cl/"' class="btn bg-danger text-white col-12 mt-4">CONTACTAR CON ISAPRE</button>
+                <button id="isapre2" class="btn bg-danger text-white col-12 mt-4">CONTACTAR CON ISAPRE</button>
                 
                 <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 
@@ -129,7 +129,6 @@ $enddate=strtotime("+5 days", $startdate);
 
 
       }
-
 
         $(function(){
             events({    
