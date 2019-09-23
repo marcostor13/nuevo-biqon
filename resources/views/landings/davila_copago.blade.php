@@ -25,11 +25,12 @@ $enddate=strtotime("+5 days", $startdate);
             </div>
 
             <div id="cont2" class="p-5 hide">|
-                <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
+                <h3 class="text-white text-center"> Estimado(a) <span id="name"></span> Clínica Dávila</h3>
 
                 <p class="text-white">
-                    Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
-                    <b>$ </b><b id="pay"></b>
+                    
+              informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización. Su ID admisión es
+                    <b> </b><b id="idIngreso"></b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
                 </p>
                 <div class="date btn bg-danger text-white col-12 mt-4">
@@ -40,11 +41,11 @@ $enddate=strtotime("+5 days", $startdate);
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 
-                <div class="d-flex justify-content-around align-content-center mt-4">
+                <!--<div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56964386131&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
                     <a onclick="eventosLanding('Llamar', 'tel:+56967664209') "><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
                    - <a onclick="eventosLanding('Correo', 'mailto:alsanchez@prainabogados.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
-                </div>
+                </div>-->
                 <h5 id="message"class="text-white text-center mt-5 hide"></h5>
             </div>
 
