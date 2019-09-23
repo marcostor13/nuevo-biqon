@@ -43,9 +43,12 @@ $enddate=strtotime("+5 days", $startdate);
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 
                 <!--<div class="d-flex justify-content-around align-content-center mt-4">
+                    
                     <a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56964386131&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
+                    
                     <a onclick="eventosLanding('Llamar', 'tel:+56967664209') "><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                   - <a onclick="eventosLanding('Correo', 'mailto:alsanchez@prainabogados.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
+                   
+                   <a onclick="eventosLanding('Correo', 'mailto:alsanchez@prainabogados.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>-->
                 <h5 id="message"class="text-white text-center mt-5 hide"></h5>
             </div>
@@ -83,12 +86,11 @@ $enddate=strtotime("+5 days", $startdate);
             .done(function(e) {
                 console.log(e);
                 e = JSON.parse(e); 
-                dato1: getUrlParameter('dato1');
+
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                    $('#dato1').text(.dato1);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -112,7 +114,6 @@ $enddate=strtotime("+5 days", $startdate);
 
             json_datos.nombre = $('#name').text();
             json_datos.monto = $('#pay').text();
-            json_datos.dato1 = $('#dato1').text();
 
             events({    
                 'name': name,
@@ -144,6 +145,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'saldo': $('#pay').text(),
                     'phone': getUrlParameter('telefono'),
                      'rut': getUrlParameter('rut'),
+                     'dato1': getUrlParameter('dato1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
