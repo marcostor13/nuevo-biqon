@@ -28,23 +28,23 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
 
                 <p class="text-white">
-                    Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
-                    <b>$ </b><b id="pay"></b>
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
+                    agradecemos contactar con
+                    <b> </b><b id="isapre"></b>
+                   y solicitar fecha de emisión de bonos por hospitalización pendiente.
                 </p>
-                <div class="date btn bg-danger text-white col-12 mt-4">
+                <!--<div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-                <button onclick='window.location.href="https://pagos.uss.cl/"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
+                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
+                </div>-->
+                <button onclick='window.location.href="https://pagos.uss.cl/"' class="btn bg-danger text-white col-12 mt-4">CONTACTAR CON ISAPRE</button>
                 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
+                <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56964386131&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
                     <a onclick="eventosLanding('Llamar', 'tel:+56967664209') "><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
                    - <a onclick="eventosLanding('Correo', 'mailto:alsanchez@prainabogados.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
-                </div>
+                </div>-->
                 <h5 id="message"class="text-white text-center mt-5 hide"></h5>
             </div>
 
@@ -53,7 +53,84 @@ $enddate=strtotime("+5 days", $startdate);
 
    <script>
    //EVENT 1
-        
+     function validarClinicaDavila() {
+
+        var rut = $('#rut').val();
+        // var idIngreso = $('#idIngreso').val();
+
+        if (rut == '') {
+          $('#respuesta').text('Debe ingresar todos los campos');
+          return false;
+        }
+
+
+        var datos = {
+          'funcion': 'validarClinicaDavila',
+          'rut': rut,
+          // 'idIngreso': idIngreso,
+          'numero': getUrlParameter('numero')
+        }
+
+        $.ajax({
+          data: datos,
+          type: "POST",
+          url: "/biqon/procesos/funciones.php",
+        })
+          .done(function (data, textStatus, jqXHR) {
+            if (data == 0) {
+              $('#respuesta').text('Los datos no son válidos');
+            } else {
+              console.log(data);
+              data = JSON.parse(data);
+              $('main').show('slow');
+              $('#datos').show('slow');
+              $('#idIngreso').text(data.idIngreso);
+              $('#isapre').text(data.prevision); 
+              $('#card1').show('fast');
+              $('#card2').hide('fast');
+
+              var prevision = data.prevision;
+              var numero; 
+              if(prevision.indexOf('CRUZ BLANCA')>-1){
+                numero = 'tel:+56229981000'; 
+              }else if (prevision.indexOf('CONSALUD') > -1) {
+                numero = 'tel:+56223325020';
+              }else if (prevision.indexOf('BANMEDICA') > -1) {
+                numero = 'tel:+56222706800';
+              }else if (prevision.indexOf('FUNDACION BANCO ESTADO') > -1) {
+                numero = 'tel:+56223479000';
+              }else if (prevision.indexOf('VIDA TRES') > -1) {
+                numero = 'tel:+56225403600';
+              }else if (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
+                numero = 'tel:6006000262';
+              }else if (prevision.indexOf('RIO BLANCO') > -1) {
+                numero = 'tel:800835400';
+              }else if (prevision.indexOf('COLMENA') > -1) {
+                numero = 'tel:+56229594040';
+              }else if (prevision.indexOf('CHUQUICAMATA') > -1) {
+                numero = 'tel:800835400';
+              }else if (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
+                numero = 'tel:6006000262';
+              }else if (prevision.indexOf('CHUQUICAMATA LTDA') > -1) {
+                numero = 'tel:800835400';
+              }else if (prevision.indexOf('SAN LORENZO') > -1) {
+                numero = 'tel:800835400';
+              }
+
+              console.log(numero);
+
+              $('#isapre2').attr('href', numero);
+
+            }
+          })
+          .fail(function (jqXHR, textStatus, errorThrown) {
+            console.log(errorThrown);
+          });
+
+
+      }
+
+
         $(function(){
             events({    
                 'name': 'Visita',
