@@ -29,14 +29,15 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <p class="text-white">
                     
-              informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización. Su ID admisión es
-                    <b> </b><b id="dato1"></b>
+              informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización. 
+                    <b> Su ID admisión es:  </b><b id="dato1"></b>
+                    <b> El costo es de:  </b><b id="pay"></b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
                 </p>
-                <div class="date btn bg-danger text-white col-12 mt-4">
+                <!--<div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
+                </div>-->
                 <button onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
@@ -82,12 +83,12 @@ $enddate=strtotime("+5 days", $startdate);
             .done(function(e) {
                 console.log(e);
                 e = JSON.parse(e); 
-
+                dato1: getUrlParameter('dato1');
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                     $('#dato1').text(e.data.dato1);
+                    $('#dato1').text(.dato1);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
