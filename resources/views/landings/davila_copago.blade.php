@@ -98,7 +98,7 @@ $enddate=strtotime("+5 days", $startdate);
             $.post( "/validateRut", dataSend,function() {
                 console.log(dataSend);
             })
-            var id_adm getUrlParameter('dato1'); 
+            var id_adm = getUrlParameter('dato1'); 
             .done(function(e) {
                 console.log(e);
                 e = JSON.parse(e); 
