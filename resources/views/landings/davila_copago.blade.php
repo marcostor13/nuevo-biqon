@@ -37,7 +37,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
                 </div>-->
-                <button onclick=" Mens();" class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/"' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
                 
@@ -57,8 +57,7 @@ $enddate=strtotime("+5 days", $startdate);
 
    <script>
    //EVENT 1
-         
-
+        
         $(function(){
             events({    
                 'name': 'Visita',
@@ -83,7 +82,6 @@ $enddate=strtotime("+5 days", $startdate);
             $.post( "/validateRut", dataSend,function() {
                 console.log(dataSend);
             })
-            var id_adm = getUrlParameter('dato1'); 
             .done(function(e) {
                 console.log(e);
                 e = JSON.parse(e); 
@@ -92,8 +90,9 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                    $('#dato1').text(id_adm);
-                  //  $('#dato1').text(e.data.dato1);//añadir id_admision (dato1)
+
+                    //añadir id_admision (dato1)
+
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -117,7 +116,6 @@ $enddate=strtotime("+5 days", $startdate);
 
             json_datos.nombre = $('#name').text();
             json_datos.monto = $('#pay').text();
-            json_datos.id_admision = $('#dato1').text();
 
             events({    
                 'name': name,
@@ -139,7 +137,6 @@ $enddate=strtotime("+5 days", $startdate);
                     'nombre': $('#name').text(),
                     'saldo': $('#pay').text(),
                     'phone': getUrlParameter('telefono'),
-                    'dato1': getUrlParameter('dato1'),
                     'rut': getUrlParameter('rut')
                 }
             }else{
@@ -239,22 +236,7 @@ $enddate=strtotime("+5 days", $startdate);
         };
 
         
-        function Mens(){
-    var id_adm; 
-         id_adm= getUrlParameter('dato1'); //1234;
-          
-            swal({
-             title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
-             //text: "Expandir la Pantalla",
-             type: "success",
-             timer: 5000
-        }, 
-        function(){
-             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
-        })
-
-
-        }
+        
     
     </script>
     
