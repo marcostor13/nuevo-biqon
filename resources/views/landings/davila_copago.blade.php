@@ -57,22 +57,7 @@ $enddate=strtotime("+5 days", $startdate);
 
    <script>
    //EVENT 1
-         function Mens(){
-    var id_adm; 
-         id_adm= getUrlParameter('dato1'); //1234;
-          
-            swal({
-             title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
-             //text: "Expandir la Pantalla",
-             type: "success",
-             timer: 5000
-        }, 
-        function(){
-             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
-        })
-
-
-        }
+         
 
         $(function(){
             events({    
@@ -107,7 +92,8 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                    $('#dato1').text(id_adm);//añadir id_admision (dato1)
+                    $('#dato1').text(id_adm);
+                  //  $('#dato1').text(e.data.dato1);//añadir id_admision (dato1)
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -253,7 +239,22 @@ $enddate=strtotime("+5 days", $startdate);
         };
 
         
-        
+        function Mens(){
+    var id_adm; 
+         id_adm= getUrlParameter('dato1'); //1234;
+          
+            swal({
+             title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
+             //text: "Expandir la Pantalla",
+             type: "success",
+             timer: 5000
+        }, 
+        function(){
+             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
+        })
+
+
+        }
     
     </script>
     
