@@ -25,11 +25,11 @@ $enddate=strtotime("+5 days", $startdate);
             </div>
 
             <div id="cont2" class="p-5 hide">|
-                <h3 class="text-white text-center"> Estimado(a) <span id="name"></span> Clínica Dávila</h3>
+                <h3 class="text-white text-center"> Estimado(a) <span id="name"></span> </h3>
 
                 <p class="text-white">
                     
-              informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización. 
+              Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización. 
                     <!--<br> Su ID admisión es:  <b id="dato1" class="dato1"> </b></br>-->
                     
                 </p>
