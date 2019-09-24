@@ -13,7 +13,7 @@ $enddate=strtotime("+5 days", $startdate);
 <style type="text/css">
     .img-fluid{
         max-width: 20%  !important;
-         height: 20%   !important;
+        max-height: 20%   !important;
     }
 </style>
     <div id="CLINICA_DAVILA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
