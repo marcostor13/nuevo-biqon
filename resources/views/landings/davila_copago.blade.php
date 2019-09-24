@@ -15,7 +15,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-6 mt-1" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
+            <img class="img-fluid col-10 col-md-6 mt-1" src="{{$landing->logo}}" alt="CLINICA_DAVILA"  width="100" height="100">
 
              <div id="cont1" class="p-5 ">|
                 <h3 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
