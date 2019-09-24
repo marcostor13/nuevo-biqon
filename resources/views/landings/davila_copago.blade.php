@@ -55,9 +55,8 @@ $enddate=strtotime("+5 days", $startdate);
         </div>
     </div>
 
-   <script>
-   //EVENT 1
-        
+    <script>
+
         $(function(){
             events({    
                 'name': 'Visita',
@@ -66,7 +65,25 @@ $enddate=strtotime("+5 days", $startdate);
             });
         }); 
 
-         function event1(){
+        let eventosLanding = function(name){
+            
+            let json_datos = getAllUrlParameter(); 
+
+            json_datos.nombre = $('#name').text();
+            json_datos.monto = $('#pay').text();
+            json_datos.dato1 = $('#dato1').text();
+
+            events({    
+                'name': name,
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(json_datos)
+            });
+        }
+
+        //EVENT 1
+        
+
+        function event1(){
                             
             let dataSend = {
                 'fourRut': $('#rut').val(),
@@ -90,9 +107,7 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-
-                    //añadir id_admision (dato1)
-
+                    $('#dato1').text(e.data.dato1);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -108,36 +123,18 @@ $enddate=strtotime("+5 days", $startdate);
             });
 
         }
-        
-
-        let eventosLanding = function(name){
-            
-            let json_datos = getAllUrlParameter(); 
-
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
-
-            events({    
-                'name': name,
-                'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(json_datos)
-            });
-        }
-
-     
 
         function sendMail(msg = false){
 
-            console.log('{!! $landing->name !!}'); 
+            console.log({!! $landing->name !!}); 
             
             let data; 
             if(msg !== false){
                 data = {
                     'mensaje': msg,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text(),
-                    'phone': getUrlParameter('telefono'),
-                    'rut': getUrlParameter('rut')
+                    'Id Admisión': $('#dato1').text(),
+                    'saldo': $('#pay').text()
                 }
             }else{
                 let date = $('#date1').val();
@@ -145,16 +142,14 @@ $enddate=strtotime("+5 days", $startdate);
                     'fecha': date,
                     'nombre': $('#name').text(),
                     'saldo': $('#pay').text(),
-                    'phone': getUrlParameter('telefono'),
-                     'rut': getUrlParameter('rut'),
-                     'dato1': getUrlParameter('dato1'),
-                    'landing': '{!! $landing->name !!}'
+                    'Id Admisión': $('#dato1').text(),
+                    'landing': {!! $landing->name !!}
                 } 
             }
 
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
+               'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -234,8 +229,6 @@ $enddate=strtotime("+5 days", $startdate);
 
             return obj;  
         };
-
-        
         
     
     </script>
