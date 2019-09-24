@@ -260,12 +260,14 @@ class URLController extends Controller
         $role_user = Role_User::where('user_id', $id)->first(); 
 
         if($role_user->role_id == '1'){
-            $ids = 0;             
+            $ids = 0;        
+            return  $this->getDashboard($ids, $request);       
+
         }else{
             $ids = User::select(DB::raw('landings'))
                               ->where('id', $id)->first();  
+            return  $this->getDashboard(implode(',', json_decode($ids->landings)), $request);        
         }
-       return  $this->getDashboard(implode(',', json_decode($ids->landings)), $request);        
 
     }
 
