@@ -15,11 +15,11 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
+            <img class="img-fluid col-10 col-md-6 mt-1" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
 
              <div id="cont1" class="p-5 ">|
                 <h3 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control text-center text-grey">
+                <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-3">Validar</button>
                 <h5 id="error"class="text-grey text-center mt-5"></h5>
             </div>
