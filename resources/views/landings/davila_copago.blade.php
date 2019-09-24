@@ -30,7 +30,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <p class="text-white">
                     
               informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización. 
-                    <br> Su ID admisión es:  <b id="dato1"> </b></br>
+                    <br> Su ID admisión es:  <b id="dato1" class="dato1"> </b></br>
                     
                 </p>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
