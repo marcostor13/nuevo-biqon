@@ -8,7 +8,6 @@
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style type="text/css">
-
     
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -47,44 +46,62 @@
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
-            <div class="card">
-
-        <!--Grid row-->
-            <div class="card-body">
+            
+    <div class=col-md-10>
+           
              <div id="cont1" class="p-2 pl-5 pr-5">
+                 <div class="card">
+            <div class="card-body">
                 <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
                 <h5 id="error"class="text-grey text-center mt-5"></h5>
+               </div>
+               </div> 
             </div>
 
             <div id="cont2" class="p-2 pl-5 pr-5 hide">
-                <h5 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h5>
+                <h3 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h3>
 
-                <p class="text-grey"> 
+                <p class="text-white"> <h4> 
                     Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</p>
-                    <br>
                     <p> Su ID admisión es: </p> 
-                    <p id="dato1" class="dato1"> </p>
-                     
+                    <p id="dato1" class="dato1"> </p><h4>
+            
+             <div class="card">     
+               <div class="card-body">
+
+                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
                 <button onclick="Mens();" class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA</button>
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" ' ><img src="https://i.imgur.com/hw0CNnw.png"></a>
+                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
+                        <img src="https://i.imgur.com/hw0CNnw.png"></a>
                     </div>
 
                     <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" ' ><img src="https://i.imgur.com/rFQ2FWM.png"></a>
+                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
+                        <img src="https://i.imgur.com/rFQ2FWM.png"></a>
                 </div>
+           
+                </div>
+             </div>
+
+           </div>
+          
+             <div id="cont3" class="p-2 pl-5 pr-5 hide">
+             <div class="card">     
+               <div class="card-body">
                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-            </div>
-           </div>
-           </div>
+                 </div>
+             </div>
+             </div>
+
         </div>
     </div>
-
+</div>
   <script>
    //EVENT 1
         
@@ -196,6 +213,8 @@
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
                     $('#message').text('Gracias por su información');
                 }else{
                     $('#message').removeClass('hide');
