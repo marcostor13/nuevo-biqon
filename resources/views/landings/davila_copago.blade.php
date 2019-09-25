@@ -117,6 +117,7 @@
 
          function event1(){
           var id_adm; 
+          var id_adm; 
          id_adm= getUrlParameter('data1'); 
 
             let dataSend = {
@@ -182,11 +183,15 @@
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'nombre': $('#name').text(),
+                    'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
-                    'telefono': getUrlParameter('telefono'),
-                    'id_admision': getUrlParameter('data1'),
-                    'rut': getUrlParameter('rut')
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Id_Admision': getUrlParameter('data1'),
+                    'Prevision': getUrlParameter('data2'),
+                    'Estado': getUrlParameter('data3'),
+                    'Ley': getUrlParameter('data4')
+                    
                 }
             }else{
                 let date = $('#date1').val();
@@ -195,7 +200,10 @@
                     'nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
-                    'id_admision': getUrlParameter('data1'),
+                    'Id_Admision': getUrlParameter('data1'),
+                    'Prevision': getUrlParameter('data2'),
+                    'Estado': getUrlParameter('data3'),
+                    'Ley': getUrlParameter('data4'),
                      'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
