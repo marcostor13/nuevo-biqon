@@ -13,11 +13,11 @@
     display: none !important; 
     }
 
-    #cont1 #cont2{
-    background-color: rgba(255, 255, 255, 0.2)!important;
+    #cont1 #cont2 #content{
+    background-color: rgba(255, 255, 255)!important;
     }
-    .cont1 .cont2{
-    background-color: rgba(255, 255, 255, 0.2)!important;
+    .cont1 .cont2 .content{
+    background-color: rgba(255, 255, 255)!important;
     }
     .input{
         border-color:#A1CBF3 !important;
@@ -83,7 +83,7 @@
          function event1(){
           var id_adm; 
          id_adm= getUrlParameter('data1'); 
-                          
+
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
