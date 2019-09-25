@@ -3,13 +3,15 @@
 @section('title', 'CLINICA DAVILA')
 
 @section('content')
-<?php
-$startdate=strtotime("Today");
-$enddate=strtotime("+5 days", $startdate);
-// echo date("M d", $startdate) . "<br>";
-  // echo date("Y-m-d", $enddate) . "<br>";
- 
-?>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style type="text/css">
+    .cont1 .cont2{
+    background-color: rgba(0, 0, 0, 0.2);}
+</style>
+
     <div id="CLINICA_DAVILA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" class="h-100">
 
          <div class="opaco"></div>
@@ -30,14 +32,14 @@ $enddate=strtotime("+5 days", $startdate);
                 <p class="text-grey">
                     
               Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización. 
-                    <!--<br> Su ID admisión es:  <b id="dato1" class="dato1"> </b></br>-->
+                    <br> Su ID admisión es:  <b id="dato1" class="dato1"> </b></br>
                     
                 </p>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
                 </div>-->
-                <button onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/"' class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA</button>
+                <button onclick="Mens();" class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA</button>
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
                 
@@ -233,7 +235,22 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-        
+       function Mens(){
+    var id_adm; 
+         id_adm= getUrlParameter('ID_INGRESO'); //1234;
+          
+            swal({
+             title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
+             //text: "Expandir la Pantalla",
+             type: "success",
+             timer: 5000
+        }, 
+        function(){
+             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
+        })
+
+
+        } 
         
     
     </script>
