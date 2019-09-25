@@ -61,15 +61,16 @@
             </div>
 
             <div id="cont2" class="p-2 pl-5 pr-5 hide">
-                <h3 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h3>
+                <div class="card">     
+               <div class="card-body">
 
+                <h3 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h3>
                 <p class="text-white"> <h4> 
                     Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</p>
                     <p> Su ID admisión es: </p> 
                     <p id="dato1" class="dato1"> </p><h4>
             
-             <div class="card">     
-               <div class="card-body">
+             
 
                  <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
                 <button onclick="Mens();" class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA</button>
@@ -78,12 +79,12 @@
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                        <img src="https://i.imgur.com/hw0CNnw.png"></a>
+                        <img width="50" src="https://i.imgur.com/hw0CNnw.png"></a>
                     </div>
 
                     <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                        <img src="https://i.imgur.com/rFQ2FWM.png"></a>
+                        <img width="50" src="https://i.imgur.com/rFQ2FWM.png"></a>
                 </div>
            
                 </div>
