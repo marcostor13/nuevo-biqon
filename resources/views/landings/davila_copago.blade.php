@@ -24,8 +24,8 @@ $enddate=strtotime("+5 days", $startdate);
                 <h5 id="error"class="text-grey text-center mt-5"></h5>
             </div>
 
-            <div id="cont2" class="p-5 hide">
-                <h3 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h3>
+            <div id="cont2" class="p-2 pl-5 pr-5 hide">
+                <h5 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h5>
 
                 <p class="text-grey">
                     
@@ -37,9 +37,9 @@ $enddate=strtotime("+5 days", $startdate);
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
                 </div>-->
-                <button onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/"' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/"' class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA</button>
                 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
                 
                 <!--<div class="d-flex justify-content-around align-content-center mt-4">
                     
@@ -49,7 +49,7 @@ $enddate=strtotime("+5 days", $startdate);
                    
                    <a onclick="eventosLanding('Correo', 'mailto:alsanchez@prainabogados.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>-->
-                <h5 id="message"class="text-grey text-center mt-5 hide"></h5>
+                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
             </div>
 
         </div>
