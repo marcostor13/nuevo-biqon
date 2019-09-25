@@ -32,16 +32,16 @@
             <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
 
              <div id="cont1" class="p-2 pl-5 pr-5">
-                <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
+                <h5 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-white">
                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
-                <h5 id="error"class="text-grey text-center mt-5"></h5>
+                <h5 id="error"class="text-white text-center mt-5"></h5>
             </div>
 
             <div id="cont2" class="p-2 pl-5 pr-5 hide">
-                <h5 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h5>
+                <h5 class="text-white text-center"> Estimado(a) <span id="name"></span> </h5>
 
-                <p class="text-grey">
+                <p class="text-white">
                     
               Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización. 
                     <br> Su ID admisión es:  <b id="dato1" class="dato1"> </b></br>
@@ -63,7 +63,7 @@
                    
                    <a onclick="eventosLanding('Correo', 'mailto:alsanchez@prainabogados.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>-->
-                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                <h5 id="message"class="text-white text-center mt-3 hide"></h5>
             </div>
 
         </div>
