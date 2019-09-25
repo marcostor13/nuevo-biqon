@@ -64,7 +64,7 @@
                 <div class="card">     
                <div class="card-body">
 
-                <h3 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h3>
+                <h4 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h4>
                 <p class="text-white"> <h4> 
                     Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</p>
                     <p> Su ID admisión es: </p> 
