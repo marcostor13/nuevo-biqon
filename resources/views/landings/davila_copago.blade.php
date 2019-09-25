@@ -47,7 +47,7 @@
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
             
-    <div class=col-md-12>
+     <div class=col-md-12>
            
              <div id="cont1" class="p-2 pl-5 pr-5">
                  <div class="card">
@@ -216,7 +216,7 @@
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias por su información');
+                    $('#message').text('Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
