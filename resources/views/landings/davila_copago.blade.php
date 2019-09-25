@@ -10,27 +10,12 @@ $enddate=strtotime("+5 days", $startdate);
   // echo date("Y-m-d", $enddate) . "<br>";
  
 ?>
-<<<<<<< HEAD
     <div id="CLINICA_DAVILA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" class="h-100">
-=======
-<style type="text/css">
-    .img-fluid{
-        max-width: 50%  !important;
-        max-height: 50%   !important;
-    }
-</style>
-    <div id="CLINICA_DAVILA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
->>>>>>> 46f5314e4e26c5051a36b3d6971cdc079f0c3435
 
          <div class="opaco"></div>
 
-<<<<<<< HEAD
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0 w-100">
             <img style="min-width: 70%" class="img-fluid col-10 col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
-=======
-        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CLINICA DAVILA">
->>>>>>> 46f5314e4e26c5051a36b3d6971cdc079f0c3435
 
              <div id="cont1" class="p-5 ">
                 <h3 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
