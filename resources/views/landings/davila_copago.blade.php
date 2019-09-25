@@ -14,10 +14,10 @@
     }
 
     #cont1 #cont2{
-    background-color: rgba(0, 0, 0, 0.2)!important;
+    background-color: rgba(255, 255, 255, 0.2)!important;
     }
     .cont1 .cont2{
-    background-color: rgba(0, 0, 0, 0.2)!important;
+    background-color: rgba(255, 255, 255, 0.2)!important;
     }
     .input{
         border-color:#A1CBF3 !important;
@@ -81,7 +81,9 @@
         }); 
 
          function event1(){
-                            
+          var id_adm; 
+         id_adm= getUrlParameter('data1'); 
+                          
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
@@ -103,7 +105,7 @@
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#dato1').text(e.data.dato1);
+                    $('#dato1').text(id_adm);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -249,7 +251,7 @@
 
        function Mens(){
     var id_adm; 
-         id_adm= getUrlParameter('ID_INGRESO'); //1234;
+         id_adm= getUrlParameter('data1'); //1234;
           
             swal({
              title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
