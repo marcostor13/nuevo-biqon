@@ -42,67 +42,62 @@
 
     <div id="CLINICA_DAVILA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" class="h-100">
 
-         <div class="opaco"></div>
+     <div class="opaco">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
             
-     <div class=col-md-12>
+            <div class=col-md-12>
            
-             <div id="cont1" class="p-2 pl-5 pr-5">
-                 <div class="card">
-            <div class="card-body">
-                <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
-                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
-                <h5 id="error"class="text-grey text-center mt-5"></h5>
-               </div>
-               </div> 
-            </div>
-
-            <div id="cont2" class="p-2 pl-5 pr-5 hide">
-                <div class="card">     
-               <div class="card-body">
-
-                <h4 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h4>
-                <p class="text-white"> <h4> 
-                    Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</p>
-                    <p> Su ID admisión es: </p> 
-                    <p id="dato1" class="dato1"> </p><h4>
-            
-             
-
-                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
-                <button onclick="Mens();" class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA</button>
-                
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
-                
-                <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                        <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
+                     <div id="cont1" class="p-2 pl-5 pr-5">
+                         <div class="card">
+                        <div class="card-body">
+                        <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
+                        <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
+                        <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
+                        <h5 id="error"class="text-grey text-center mt-5"></h5>
+                       </div>
+                       </div> 
                     </div>
 
-                    <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                        <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
-                </div>
-           
-                </div>
-             </div>
-
-           </div>
+                    <div id="cont2" class="p-2 pl-5 pr-5 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h4 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h4>
+                                 <p class="text-white"> <h4> 
+                                Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</p>
+                                <p> Su ID admisión es: </p> 
+                                <p id="dato1" class="dato1"> </p><h4>
+                                <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
+                                <button onclick="Mens();" class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA</button>
+                                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
+                                <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
+                                    <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
+                                </div>
+                                <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
+                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
           
-             <div id="cont3" class="p-2 pl-5 pr-5 hide">
-             <div class="card">     
-               <div class="card-body">
-                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                 </div>
-             </div>
-             </div>
+             
+                    <div id="cont3" class="p-2 pl-5 pr-5 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
+                    </div>
 
-        </div>
-    </div>
-</div>
+                </div>
+            </div>
+       </div>
+   </div>
+
+
   <script>
    //EVENT 1
         
