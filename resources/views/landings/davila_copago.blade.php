@@ -47,7 +47,7 @@
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
             
-    <div class=col-md-10>
+    <div class=col-md-12>
            
              <div id="cont1" class="p-2 pl-5 pr-5">
                  <div class="card">
@@ -79,12 +79,12 @@
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                        <img width="100" src="https://i.imgur.com/hw0CNnw.png"></a>
+                        <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
                     </div>
 
                     <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                        <img width="120" src="https://i.imgur.com/rFQ2FWM.png"></a>
+                        <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
                 </div>
            
                 </div>
