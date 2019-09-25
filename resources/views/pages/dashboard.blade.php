@@ -12,8 +12,9 @@
     
     <div id="dashboard-content">
 
-        <div class="header">
-            <h2 class="text-color1 mt-5 rounded bg-white p-4 som">Panel de control landings</h2>
+        <div class="header mt-5 rounded bg-white p-4 som d-flex align-content-center justify-content-between col-12">
+            <h2 class="text-color1 ">Panel de control landings</h2>
+            <button id="report" class="btn bg-color1 text-white">Descargar Reporte</button>
         </div>
 
         <div class="d-flex justify-content-end mt-5 flex-wrap">

@@ -45,6 +45,11 @@ if (path == '/dashboard') {
 
            });
 
+           $('#report').click(function(){
+               console.log('ree');
+               downloadReport();
+           });
+
 
 
        });
@@ -63,6 +68,34 @@ if (path == '/dashboard') {
        $('.datepicker').datepicker({
            dateFormat: 'dd/mm/yy'
        });
+
+    let downloadReport = function(){
+        
+        let data = {
+            'byLanding': $('#byLanding').val(),
+            'byRut': $('#byRut').val(),
+            'byPhone': $('#byPhone').val(),
+            'startDate': $('#startDate').val(),
+            'endDate': $('#endDate').val()
+        }
+
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+        $.post("/getReport", data, function () {
+            
+        })
+            .done(function (e) {
+
+                window.location.href="/storage/"+e.data;
+                console.log(e);  
+            })
+            .fail(function () {
+                console.log("error");
+            });
+    }
 
 
        let getDataDashboard = function () {

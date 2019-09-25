@@ -39927,6 +39927,10 @@ if (path == '/dashboard') {
       getDataDashboard();
       return false;
     });
+    $('#report').click(function () {
+      console.log('ree');
+      downloadReport();
+    });
   });
   document.addEventListener("DOMContentLoaded", function () {
     tail.select("select", {
@@ -39939,6 +39943,27 @@ if (path == '/dashboard') {
   $('.datepicker').datepicker({
     dateFormat: 'dd/mm/yy'
   });
+
+  var downloadReport = function downloadReport() {
+    var data = {
+      'byLanding': $('#byLanding').val(),
+      'byRut': $('#byRut').val(),
+      'byPhone': $('#byPhone').val(),
+      'startDate': $('#startDate').val(),
+      'endDate': $('#endDate').val()
+    };
+    $.ajaxSetup({
+      headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+      }
+    });
+    $.post("/getReport", data, function () {}).done(function (e) {
+      window.location.href = "/storage/" + e.data;
+      console.log(e);
+    }).fail(function () {
+      console.log("error");
+    });
+  };
 
   var getDataDashboard = function getDataDashboard() {
     var data = {

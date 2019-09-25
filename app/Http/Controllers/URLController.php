@@ -16,6 +16,7 @@ use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use PhpOffice\PhpSpreadsheet\Writer\Xls;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 
+
 class URLController extends Controller
 {
     public function __construct()
@@ -165,7 +166,9 @@ class URLController extends Controller
         $startDate = date("Y-m-d", strtotime($startDate));
         $endDate = $request->input('endDate'); 
         $endDate = str_replace('/', '-', $endDate );
-        $endDate = date("Y-m-d",strtotime($endDate."+ 1 day")); 
+        $endDate = date("Y-m-d",strtotime($endDate."+ 1 day"));
+        
+        $dateReport = ['startDate' => $request->input('startDate'), 'endDate' => $request->input('endDate')];
         
         $where = '';
         $whereLandind = '';
@@ -248,7 +251,7 @@ class URLController extends Controller
         }
        
 
-        return ['totalLandings'=>$totalLandings, 'totalVisitas'=>$totalVisitas, 'totalEventos'=>$totalEventos,'totalFormularios'=>$totalFormularios, 'cantXvisitas' => $cantXvisitas, 'cantXFormularios' => $cantXFormularios, 'landings'=> $lan, 'formularios'=> $formularios, 'visitas'=> $visitas, 'eventos'=> $eventos]; 
+        return ['totalLandings'=>$totalLandings, 'totalVisitas'=>$totalVisitas, 'totalEventos'=>$totalEventos,'totalFormularios'=>$totalFormularios, 'cantXvisitas' => $cantXvisitas, 'cantXFormularios' => $cantXFormularios, 'landings'=> $lan, 'formularios'=> $formularios, 'visitas'=> $visitas, 'eventos'=> $eventos, 'dateReport' => $dateReport]; 
 
        
     }
@@ -268,6 +271,131 @@ class URLController extends Controller
                               ->where('id', $id)->first();  
             return  $this->getDashboard(implode(',', json_decode($ids->landings)), $request);        
         }
+
+    }
+
+    public function getReport(Request $request){
+
+        $id = Auth::id();                
+        $role_user = Role_User::where('user_id', $id)->first(); 
+
+        if($role_user->role_id == '1'){
+            $ids = 0;        
+            $data = $this->getDashboard($ids, $request);       
+
+        }else{
+            $ids = User::select(DB::raw('landings'))
+                              ->where('id', $id)->first();  
+            $data = $this->getDashboard(implode(',', json_decode($ids->landings)), $request);        
+        }
+
+        $file = rand('11111', '9999999');
+        $path = 'storage/';
+
+        $spreadsheet = new Spreadsheet();
+        $sheet = $spreadsheet->getActiveSheet();
+        $sheet->setCellValue('A1', 'Reporte del '. $data['dateReport']['startDate']. ' al '. $data['dateReport']['endDate']);
+        $sheet->setCellValue('A2', 'Total Landings:');
+        $sheet->setCellValue('B2', $data['totalLandings']);
+        $sheet->setCellValue('A3', 'Total Visitas:');
+        $sheet->setCellValue('B3', $data['totalVisitas']);
+        $sheet->setCellValue('A4', 'Total Formularios:');
+        $sheet->setCellValue('B4', $data['totalFormularios']);
+        $sheet->setCellValue('A5', 'Total Eventos:');
+        $sheet->setCellValue('B5', $data['totalEventos']);
+
+        
+        //LANDIGNS
+
+        $landings = new \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet($spreadsheet, 'Landings');
+        $landings->setCellValue('A1', 'ID');
+        $landings->setCellValue('B1', 'Nombre');
+        $landings->setCellValue('C1', 'Cliente');
+        $landings->setCellValue('D1', 'Url');
+
+        $x = 2; 
+
+        $lan = $data['landings'];
+
+        foreach ($lan as $land) {
+            $landings->setCellValue('A'.$x, $x-2);
+            $landings->setCellValue('B'.$x, $land->name);
+            $landings->setCellValue('C'.$x, $land->client);
+            $landings->setCellValue('D'.$x, $land->url);
+            $x++;
+        }
+
+        //VISITAS
+
+        $visitas = new \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet($spreadsheet, 'Visitas');
+        $visitas->setCellValue('A1', 'ID');
+        $visitas->setCellValue('B1', 'Landing');
+        $visitas->setCellValue('C1', 'Fecha');
+        $visitas->setCellValue('D1', 'Datos');
+       
+
+        $vis = $data['visitas'];
+        
+        for ($i=2; $i < count($vis) +2  ; $i++) { 
+            $visitas->setCellValue('A'.$i, $i-2);
+            $visitas->setCellValue('B'.$i, $vis[$i-2]['name']);
+            $visitas->setCellValue('C'.$i, $vis[$i-2]['fecha']);
+            $visitas->setCellValue('D'.$i, $vis[$i-2]['datos']);
+        }
+
+
+        //FORMULARIOS
+
+        $formularios = new \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet($spreadsheet, 'Formularios');
+        $formularios->setCellValue('A1', 'ID');
+        $formularios->setCellValue('B1', 'Landing');
+        $formularios->setCellValue('C1', 'Fecha');
+        $formularios->setCellValue('D1', 'Datos');
+
+        $for = $data['formularios'];
+        
+        for ($i=2; $i < count($for) +2  ; $i++) { 
+            $formularios->setCellValue('A'.$i, $i-2);
+            $formularios->setCellValue('B'.$i, $for[$i-2]['name']);
+            $formularios->setCellValue('C'.$i, $for[$i-2]['fecha']);
+            $formularios->setCellValue('D'.$i, $for[$i-2]['datos']);
+        }
+
+        //EVENTOS
+
+        $eventos = new \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet($spreadsheet, 'Eventos');
+        $eventos->setCellValue('A1', 'ID');
+        $eventos->setCellValue('B1', 'Evento');
+        $eventos->setCellValue('C1', 'Landing');
+        $eventos->setCellValue('D1', 'Fecha');
+        $eventos->setCellValue('E1', 'Datos');
+
+        
+        $eve = $data['eventos'];
+        
+        for ($i=2; $i < count($eve) +2  ; $i++) { 
+            $eventos->setCellValue('A'.$i, $i-2);
+            $eventos->setCellValue('B'.$i, $eve[$i-2]['evento']);
+            $eventos->setCellValue('C'.$i, $eve[$i-2]['name']);
+            $eventos->setCellValue('D'.$i, $eve[$i-2]['fecha']);
+            $eventos->setCellValue('E'.$i, $eve[$i-2]['datos']);
+        }
+
+
+
+        $spreadsheet->addSheet($landings, 2);
+        $spreadsheet->addSheet($visitas, 3);
+        $spreadsheet->addSheet($formularios, 4);
+        $spreadsheet->addSheet($eventos, 5);
+
+
+        $writer = new Xlsx($spreadsheet);
+
+        
+        $file = 'report_'.date('Y-m-d').'_'.$file.'.Xlsx';
+        $writer->save($path.$file);
+       
+        return array('status' => 200, 'data' => $file);
 
     }
 
