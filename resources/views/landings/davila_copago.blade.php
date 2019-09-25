@@ -8,12 +8,20 @@
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style type="text/css">
+
     .opaco{
     display: none !important; 
+    }
 
-}
     #cont1 #cont2{
-    background-color: rgba(0, 0, 0, 0.2)!important;}
+    background-color: rgba(0, 0, 0, 0.2)!important;
+    }
+    .cont1 .cont2{
+    background-color: rgba(0, 0, 0, 0.2)!important;
+    }
+    .input{
+        border-color:#A1CBF3 !important;
+    }
 </style>
 
     <div id="CLINICA_DAVILA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" class="h-100">
