@@ -9,19 +9,36 @@
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style type="text/css">
 
-    .opaco{
-    display: none !important; 
-    }
+    
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border: 0;
+  font-weight: 400;
+}
+.card[class*=border] {
+  border: 1px solid #9e9e9e;
+  box-shadow: none;
+}
+.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
+  font-weight: 400;
+}
+.card .card-body .card-title a {
+  transition: 0.2s ease-in-out;
+}
+.card .card-body .card-title a:hover {
+  transition: 0.2s ease-in-out;
+}
+.card .card-body .card-text {
+  color: #747373;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.card .md-form label {
+  font-weight: 300;
+}
 
-    #cont1 #cont2 #content{
-    background-color: rgba(255, 255, 255, 0.2)!important;
-    }
-    .cont1 .cont2{
-    background-color: rgba(255, 255, 255)!important;
-    }
-    .input{
-        border-color:#A1CBF3 !important;
-    }
+
+    
 </style>
 
     <div id="CLINICA_DAVILA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" class="h-100">
@@ -30,7 +47,10 @@
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
+            <div class="card">
 
+        <!--Grid row-->
+            <div class="card-body">
              <div id="cont1" class="p-2 pl-5 pr-5">
                 <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
@@ -46,28 +66,22 @@
                     <br>
                     <p> Su ID admisión es: </p> 
                     <p id="dato1" class="dato1"> </p>
-                    </br> 
-                
-                <!--<div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-                </div>-->
+                     
                 <button onclick="Mens();" class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA</button>
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    
                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" ' ><img src="https://i.imgur.com/hw0CNnw.png"></a>
                     </div>
+
                     <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" ' ><img src="https://i.imgur.com/rFQ2FWM.png"></a>
-                   
-                  <!-- <a onclick="eventosLanding('Correo', 'mailto:alsanchez@prainabogados.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>-->
                 </div>
                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
             </div>
-
+           </div>
+           </div>
         </div>
     </div>
 
