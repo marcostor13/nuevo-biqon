@@ -59,11 +59,12 @@
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     
                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" ' ><img src="https://i.imgur.com/hw0CNnw.png"></a>
-                    
+                    </div>
+                    <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" ' ><img src="https://i.imgur.com/rFQ2FWM.png"></a>
                    
                   <!-- <a onclick="eventosLanding('Correo', 'mailto:alsanchez@prainabogados.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>-->
-                </div>-->
+                </div>
                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
             </div>
 
