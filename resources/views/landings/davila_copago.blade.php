@@ -79,12 +79,12 @@
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                        <img width="50" src="https://i.imgur.com/hw0CNnw.png"></a>
+                        <img width="100" src="https://i.imgur.com/hw0CNnw.png"></a>
                     </div>
 
                     <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                        <img width="50" src="https://i.imgur.com/rFQ2FWM.png"></a>
+                        <img width="120" src="https://i.imgur.com/rFQ2FWM.png"></a>
                 </div>
            
                 </div>
