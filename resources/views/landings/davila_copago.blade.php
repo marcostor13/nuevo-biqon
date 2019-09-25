@@ -183,7 +183,7 @@
                 data = {
                     'mensaje': msg,
                     'nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                    //'monto': getUrlParameter('monto'),
                     'telefono': getUrlParameter('telefono'),
                     'id_admision': getUrlParameter('data1'),
                     'rut': getUrlParameter('rut')
@@ -193,7 +193,7 @@
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                    //'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
                     'id_admision': getUrlParameter('data1'),
                      'rut': getUrlParameter('rut'),
