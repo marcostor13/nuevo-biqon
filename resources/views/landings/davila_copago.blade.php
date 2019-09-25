@@ -12,19 +12,19 @@ $enddate=strtotime("+5 days", $startdate);
 ?>
     <div id="CLINICA_DAVILA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" class="h-100">
 
-        <div class="opaco"></div>
+         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0 w-100">
             <img style="min-width: 70%" class="img-fluid col-10 col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
 
-             <div id="cont1" class="p-5 ">|
+             <div id="cont1" class="p-5 ">
                 <h3 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
-                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-3">Validar</button>
+                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
                 <h5 id="error"class="text-grey text-center mt-5"></h5>
             </div>
 
-            <div id="cont2" class="p-5 hide">|
+            <div id="cont2" class="p-5 hide">
                 <h3 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h3>
 
                 <p class="text-grey">
@@ -132,8 +132,9 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
                     'mensaje': msg,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text(),
-                    'phone': getUrlParameter('telefono'),
+                    'monto': getUrlParameter('monto'),
+                    'telefono': getUrlParameter('telefono'),
+                    'id_admision': getUrlParameter('data1'),
                     'rut': getUrlParameter('rut')
                 }
             }else{
@@ -141,8 +142,9 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text(),
+                    'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
+                    'id_admision': getUrlParameter('data1'),
                      'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
