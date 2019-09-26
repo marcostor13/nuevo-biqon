@@ -10,6 +10,8 @@ $enddate=strtotime("+5 days", $startdate);
   // echo date("Y-m-d", $enddate) . "<br>";
  
 ?>
+       
+
     <div id="CLINICA_DAVILA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" class="h-100">
 
          <div class="opaco"></div>
