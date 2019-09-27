@@ -10,7 +10,7 @@ $enddate=strtotime("+5 days", $startdate);
   // echo date("Y-m-d", $enddate) . "<br>";
  
 ?>
-    <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain;">
+    <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
 
