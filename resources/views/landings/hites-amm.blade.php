@@ -4,15 +4,17 @@
 
 @section('content')
 <?php
-$startdate=strtotime("Today");
-$enddate=strtotime("+5 days", $startdate);
-// echo date("M d", $startdate) . "<br>";
-  // echo date("Y-m-d", $enddate) . "<br>";
- 
+
+setlocale(LC_ALL,"es_ES");
+//echo strftime("%A %d de %B del %Y");
+$hoy=strftime("%B del %Y");
+
+//$dias = array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sábado");
+$meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
 ?>
 
 <style type="text/css">
-#n1,div#n2,#n3,#n4,#n5,#n6,#n7,#n8 {
+#n1,#n2,#n3,#n4,#n5,#n6,#n7,#n8 {
     display:none; }
     body{
       background: #0474b4;
@@ -33,10 +35,10 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont1" class="p-5 ">|
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-white">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4">Validar</button>
+                <button id="btn-sound" onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4">Validar</button>
                 <h5 id="error"class="text-white text-center mt-5"></h5>
             </div>
-
+<div id="cont2" class="p-2 pl-5 pr-5 hide">
             <div id="n1">
     <main>
         <div class="intro w3-animate-zoom"><img src="hites2.png"></div>
@@ -119,68 +121,30 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="intro w3-animate-zoom"><img src="hites2.jpg"></div>
         <div class="intro">
              <div class="tagline text-center white-text"><br> ¿Deseas que te contactemos?  Haz click en el siguiente botón
-<br>
-             <button class="btn btn-orange white-text" onclick="enviarMensaje();"><strong><h2>Sí</strong></strong></h2></button>
-             </div>
+                <br>
+             <button onclick="sendMail('El cliente desea que le contacten'); eventosLanding('Correo'); return false;" class="btn bg-danger text-white col-12 mt-4"><strong> <h2>Sí </h2> </strong> </button>
+       </div>
         </div>
-
-                <div>
-                <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-                <button onclick='window.location.href="https://pagos.uss.cl/"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
-                
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
-                </div> 
-
-                <div>
-                <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56964386131&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
-                    <a onclick="eventosLanding('Llamar', 'tel:+56967664209') "><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                   - <a onclick="eventosLanding('Correo', 'mailto:alsanchez@prainabogados.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
-                </div>
-                <h5 id="message"class="text-white text-center mt-5 hide"></h5>
+    </main>
+            <div>
+               <h5 id="message"class="text-white text-center mt-5 hide"></h5>
             </div>
 
-        </div>
+</div>
     </div>
+    </div>
+        </div>   
+
+
+<audio id="music" controls>
+    <source src="http://binteraction.com/biqon/landings/video/dev-landing/final03.ogg">
+    <source src="http://binteraction.com/biqon/landings/video/dev-landing/final03.wav">
+    <source src="http://binteraction.com/biqon/landings/video/dev-landing/final03.mp3">
+</audio>
 
    <script>
-   //EVENT 1
-    
-setTimeout(function(){ 
-    $('#n1').hide('fast');
-    $('#n2').show('fast');
-    }, 3000);
-
-setTimeout(function(){
-    $('#n2').hide('fast');
-    $('#n3').show('fast');
-    }, 9000);
-
-setTimeout(function(){
-    $('#n3').hide('fast');
-    $('#n4').show('fast'); 
-    }, 23000);
-
-setTimeout(function(){
-    $('#n4').hide('fast');
-    $('#n5').show('fast'); 
-    }, 42000);
-
-setTimeout(function(){
-    $('#n5').hide('fast');
-    $('#n6').show('fast'); 
-    }, 58000);
-
-setTimeout(function(){
-    $('#n6').hide('fast');
-    $('#n7').show('fast');
-   sendForm(); 
-    }, 67000);
-
-
+   /*EVENT 1
+   */
      $(function(){
 
     $('#btn-sound').click(function(){
@@ -190,7 +154,7 @@ setTimeout(function(){
 
   });
 
- 
+ /*error al llamar a la funcion*/
         $(function(){
             events({    
                 'name': 'Visita',
@@ -222,7 +186,49 @@ setTimeout(function(){
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
+
+                    $('#pay').text(e.data.monto); //aqui va el codigo para mostar y ocutar en video
+                    /*
+                      setTimeout(function(){ 
+                      $('#tota').text(tota); 
+                      $('#fecha_vence').text(fecha_vence); 
+                      $('#n1').hide('fast');
+                      $('#n2').show('fast');
+                        }, 3000);
+
+                    setTimeout(function(){
+                        $('#n2').hide('fast');
+                        $('#n3').show('fast');
+                        }, 9000);
+
+                    setTimeout(function(){
+                        $('#ppie').text(ppie); 
+                        $('#p3cuota').text(p3cuota);
+                        $('#p6cuota').text(p6cuota);
+                        $('#p9cuota').text(p9cuota);
+                        $('#p12cuota').text(p12cuota);
+                        $('#n3').hide('fast');
+                        $('#n4').show('fast'); 
+                        }, 23000);
+
+                    setTimeout(function(){
+                        $('#n4').hide('fast');
+                        $('#n5').show('fast'); 
+                        }, 42000);
+
+                    setTimeout(function(){
+                        $('#n5').hide('fast');
+                        $('#n6').show('fast'); 
+                        }, 58000);
+
+                    setTimeout(function(){
+                        $('#n6').hide('fast');
+                        $('#n7').show('fast');
+                      sendForm(); 
+                        }, 67000);
+
+                    */
+                    
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
