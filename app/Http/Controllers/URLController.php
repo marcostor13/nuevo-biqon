@@ -198,10 +198,8 @@ class URLController extends Controller
 
         $sql2 = "SELECT events.name as evento, landings.name as landing, landings.url as url, users.name as client, landings.id as idlanding, events.json_datos as datos, events.created_at as fecha FROM landings LEFT JOIN events ON events.landing_id = landings.id  LEFT JOIN users ON users.id = landings.client_id WHERE events.created_at >= '$startDate' AND events.created_at <= '$endDate' $where"; 
         
-        //return $sql;
         $data = DB::select(DB::raw($sql));
 
-        $totalLandings  = 0;
         $totalVisitas  = 0;
         $totalFormularios  = 0;
         $totalEventos  = 0;
@@ -221,15 +219,17 @@ class URLController extends Controller
             }else{
                 $totalEventos =  $totalEventos + $d->cantidadEventos;
             }
-            $totalLandings = $d->totalLandings;
+
 
             $landings[] = json_encode(['name' => $d->landing, 'url' => $d->url, 'client' => $d->client]);           
         }       
        
         $landings= array_unique($landings); 
         $lan = [];
+        $totalLandings = 0; 
         foreach ($landings as $l) {
             $lan[] = json_decode($l);
+            $totalLandings++;
         }
         $cantXFormularios['series'] = ['name'=>'Formularios', 'data' => $seriesDataForm];
         $cantXvisitas['series'] = ['name'=>'Visitas', 'data' => $seriesDataVisita];
