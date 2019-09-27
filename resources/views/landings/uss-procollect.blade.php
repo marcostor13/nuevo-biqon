@@ -25,7 +25,7 @@ $enddate=strtotime("+5 days", $startdate);
             </div>
 
             <div id="cont2" class="p-5 hide">|
-                <h3 class="text-white text-center">Estimado (a) <span id="name"></span></h3>
+                <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
 
                 <p class="text-white">
                     Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
@@ -45,11 +45,9 @@ $enddate=strtotime("+5 days", $startdate);
                     <a onclick="eventosLanding('Llamar', 'tel:+56967664209') "><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
                    <!-- <a onclick="eventosLanding('Correo', 'mailto:alsanchez@prainabogados.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>-->
                 </div>
-                
+                <h5 id="message"class="text-white text-center mt-5 hide"></h5>
             </div>
-            <div id="cont3" class="p-2 pl-5 pr-5 hide">
-                        <h5 id="message"class="text-white text-center mt-5 hide"></h5>
-             </div>
+
         </div>
     </div>
 
@@ -160,14 +158,10 @@ $enddate=strtotime("+5 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
-                    $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área.');
+                    $('#message').text('Gracias por su información');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
-                    $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias, Su compromiso de pago fue agendado');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
                 }
             })
             .done(function(e) {
