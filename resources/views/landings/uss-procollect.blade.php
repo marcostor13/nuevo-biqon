@@ -49,7 +49,7 @@ $enddate=strtotime("+5 days", $startdate);
             </div>
             <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <h5 id="message"class="text-white text-center mt-5 hide"></h5>
-                    </div>
+             </div>
         </div>
     </div>
 
