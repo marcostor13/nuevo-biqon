@@ -101,9 +101,11 @@ $enddate=strtotime("+5 days", $startdate);
                 e = JSON.parse(e); 
 
                 if(e.code == 200){
+                    $name=getUrlParameter('nombre');
+                    $monto=getUrlParameter('monto');
                     $('#cont1').addClass('hide');
-                    $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
+                    $('#name').text($name);
+                    $('#pay').text($monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
