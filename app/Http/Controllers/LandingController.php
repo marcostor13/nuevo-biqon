@@ -76,7 +76,7 @@ class LandingController extends Controller
         }else{
 
         return json_encode(array('code' => 100, 'msg' => 'Rut O Telefono incorrecto'));
-
+        }
     }
 
     public function events(Request $request)
