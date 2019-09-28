@@ -61,34 +61,21 @@ class LandingController extends Controller
 
     public function validateRut(Request $request){
 
-        $fourRut = $request->input('fourRut'); 
+        $fourRut = $request->input('fourRut');
+         $phone = $request->input('phone');  
         $landing_id = $request->input('landing_id'); 
         
         $data = DatosLanding::where('rut', 'LIKE', $fourRut.'%')     
-                    ->where('landing_id', $landing_id)               
+                    ->where('landing_id', $landing_id) 
+                    ->where('telefono', $phone)               
                     ->first();
        
-        if(is_object($data) && $fourRut == substr($data->rut, 0, 4)){
-            if(isset($request['id'])){
-                if($request->input('id') == $data->id){
-                    return json_encode(array('code' => 200, 'data' => $data));
-                }else{
-                    return json_encode(array('code' => 100, 'msg' => 'ID incorrecto'));
-                }
-            }
-
-            if(isset($request['phone'])){
-                if($request->input('phone') == $data->telefono){
-                    return json_encode(array('code' => 200, 'data' => $data));
-                }else{
-                    return json_encode(array('code' => 100, 'msg' => 'Teléfono incorrecto'));
-                }
-            }
-
+        if(count($data)>0){
+           
             return json_encode(array('code' => 200, 'data' => $data));
-        }
+        }else{
 
-        return json_encode(array('code' => 100, 'msg' => 'Rut incorrecto'));
+        return json_encode(array('code' => 100, 'msg' => 'Rut O Telefono incorrecto'));
 
     }
 
