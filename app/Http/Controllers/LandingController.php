@@ -70,11 +70,12 @@ class LandingController extends Controller
                     ->where('telefono', $phone)               
                     ->first();
        
-        if  ( $data = 0 ){
-            return json_encode(array('code' => 100, 'msg' => 'Rut O Telefono incorrecto'));
+        if ( ( $data )>0 ){
+           
+            return json_encode(array('code' => 200, 'data' => $data));
         }else{
 
-        return json_encode(array('code' => 200, 'data' => $data));
+        return json_encode(array('code' => 100, 'msg' => 'Rut O Telefono incorrecto'));
         }
     }
 
