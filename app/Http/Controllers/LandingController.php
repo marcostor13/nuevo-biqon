@@ -71,11 +71,10 @@ class LandingController extends Controller
                     ->first();
        
         if  ( $data = 0 ){
-           
-            return json_encode(array('code' => 200, 'data' => $data));
+            return json_encode(array('code' => 100, 'msg' => 'Rut O Telefono incorrecto'));
         }else{
 
-        return json_encode(array('code' => 100, 'msg' => 'Rut O Telefono incorrecto'));
+        return json_encode(array('code' => 200, 'data' => $data));
         }
     }
 
