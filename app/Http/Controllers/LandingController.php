@@ -70,7 +70,7 @@ class LandingController extends Controller
                     ->where('telefono', $phone)               
                     ->first();
        
-        if  ( $data >0 ){
+        if  ( $data = 0 ){
            
             return json_encode(array('code' => 200, 'data' => $data));
         }else{
