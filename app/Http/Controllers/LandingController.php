@@ -66,7 +66,7 @@ class LandingController extends Controller
         
         $data = DatosLanding::where('rut', 'LIKE', $fourRut.'%')     
                     ->where('landing_id', $landing_id)               
-                    ->first();
+                    ->get();
        
         if(is_object($data) && $fourRut == substr($data->rut, 0, 4)){
             if(isset($request['id'])){
@@ -78,10 +78,12 @@ class LandingController extends Controller
             }
 
             if(isset($request['phone'])){
-                if($request->input('phone') == $data->telefono){
-                    return json_encode(array('code' => 200, 'data' => $data));
-                }else{
-                    return json_encode(array('code' => 100, 'msg' => 'Teléfono incorrecto'));
+                foreach ($data as &$fourRut) {
+                    if($request->input('phone') == $data->telefono){
+                        return json_encode(array('code' => 200, 'data' => $data));
+                    }else{
+                        return json_encode(array('code' => 100, 'msg' => 'Teléfono incorrecto'));
+                    }
                 }
             }
 
