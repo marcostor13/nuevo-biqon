@@ -65,8 +65,8 @@ class LandingController extends Controller
         $landing_id = $request->input('landing_id'); 
         
         $data = DatosLanding::where('rut', 'LIKE', $fourRut.'%')     
-                    ->where('landing_id', $landing_id);              
-                    //->first();
+                    ->where('landing_id', $landing_id)               
+                    ->first();
        
         if(is_object($data) && $fourRut == substr($data->rut, 0, 4)){
             if(isset($request['id'])){
