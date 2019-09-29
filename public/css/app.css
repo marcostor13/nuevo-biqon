@@ -12193,23 +12193,23 @@ a.text-dark:focus {
 }
 
 .bg-color1 {
-  background-color: #1DA9CC;
+  background-color: #05347c;
 }
 
 .bg-color2 {
-  background-color: #628E99;
+  background-color: #20b3bf;
 }
 
 .bg-color3 {
-  background-color: #3EFFBD;
+  background-color: #060606;
 }
 
 .bg-color4 {
-  background-color: #FF837D;
+  background-color: #d91497;
 }
 
 .bg-color5 {
-  background-color: #CC1D5A;
+  background-color: #84218e;
 }
 
 .bg-color6 {
@@ -12217,23 +12217,23 @@ a.text-dark:focus {
 }
 
 .text-color1 {
-  color: #1DA9CC;
+  color: #05347c;
 }
 
 .text-color2 {
-  color: #628E99;
+  color: #20b3bf;
 }
 
 .text-color3 {
-  color: #3EFFBD;
+  color: #060606;
 }
 
 .text-color4 {
-  color: #FF837D;
+  color: #d91497;
 }
 
 .text-color5 {
-  color: #CC1D5A;
+  color: #84218e;
 }
 
 .text-color6 {
@@ -12252,12 +12252,18 @@ a.text-dark:focus {
   background-color: white;
   border: none;
   border-radius: 0.5em;
-  color: #1DA9CC;
+  color: #05347c;
   cursor: pointer;
 }
 
 .dropdown-toggle::after {
   display: none;
+}
+
+.select-label {
+  background-color: #05347c !important;
+  color: white !important;
+  border-color: white !important;
 }
 
 #index * {
@@ -12275,7 +12281,7 @@ a.text-dark:focus {
 }
 
 #index .tit1 {
-  color: #628E99;
+  color: #20b3bf;
   font-size: 30pt;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -12284,7 +12290,7 @@ a.text-dark:focus {
 
 #index .tit2 {
   font-family: "Mukta", sans-serif;
-  color: #3EFFBD;
+  color: #060606;
   font-size: 60pt;
   max-width: 500px;
   font-weight: 800;
@@ -12294,7 +12300,7 @@ a.text-dark:focus {
 }
 
 #index .tit3 {
-  color: #FF837D;
+  color: #d91497;
 }
 
 #home .menu .barras div {
@@ -12333,7 +12339,7 @@ a.text-dark:focus {
 }
 
 #homeContent .barra {
-  border-right: 1px solid #FF837D;
+  border-right: 1px solid #d91497;
   max-width: 1px;
   min-height: 20px;
   font-size: 20pt;
@@ -12344,7 +12350,7 @@ a.text-dark:focus {
 }
 
 #messages .deleteNumber:hover {
-  color: #628E99;
+  color: #20b3bf;
 }
 
 #header-urls nav {
@@ -12356,7 +12362,7 @@ a.text-dark:focus {
 }
 
 #header-urls .active {
-  border-bottom: 2px solid #1DA9CC;
+  border-bottom: 2px solid #05347c;
 }
 
 #dashboard-content * {
@@ -12375,6 +12381,10 @@ a.text-dark:focus {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAArUlEQVQ4y2NgGAUMZs5xwkbe8cbkYJBeBj23WG4Tj7jrJp7xX4H0F6IwRO11kF6wK4xd0viNPWIvmHjG/ScSn7d0TxZC8YqhZ6IoUOIKQc1ecddMvRIksIaHsUucnLFn3DXcBsTeMPVOUsIbqJa+CRqmXnG3sBhwx9IrWpe4mPGKNTHxiL0H02zsGX/f0jvGiqToBWr0BHrnCdDZz4y9473JSiPGXnFRIDzMswIA2BKGJtuvv6UAAAAASUVORK5CYII=) no-repeat scroll 90% 12px;
   padding-left: 30px;
   cursor: pointer;
+}
+
+#dashboard-content .pcard {
+  border: 1px solid white;
 }
 
 #dashboard-content .pcard p {
