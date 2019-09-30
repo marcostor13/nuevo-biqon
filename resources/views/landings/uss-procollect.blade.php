@@ -128,7 +128,7 @@ $enddate=strtotime("+5 days", $startdate);
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                   /// $('#dato1').text(id_adm);
+                    $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
