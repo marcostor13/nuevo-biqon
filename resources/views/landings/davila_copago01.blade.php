@@ -85,9 +85,9 @@
                                 </button>-->
                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
-                                    <a onclick="eventosLanding('Llamar');" href="tel:+56967664209">Contactar<img width="75" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                                    <a onclick="eventosLanding('Llamar');" href="tel:+56227308000">Contactar<img width="75" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                    
-                                    <a onclick="eventosLanding('Correo');" href="mailto:cdavila.binteraction@gmail.com">Email<img width="75" src="http://ojwgq1ostm42ulxuw45kfbt8-wpengine.netdna-ssl.com/hoosnetwork/wp-content/uploads/sites/30/2015/02/Email-image.jpg"></a>
+                                    <a onclick="eventosLanding('Correo');" href="mailto:contactopago@davila.cl">Correo<img width="75" src="http://ojwgq1ostm42ulxuw45kfbt8-wpengine.netdna-ssl.com/hoosnetwork/wp-content/uploads/sites/30/2015/02/Email-image.jpg"></a>
                                     </div>
 
                                <!--<div class="d-flex justify-content-around align-content-center mt-4">
