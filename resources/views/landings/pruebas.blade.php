@@ -14,7 +14,6 @@ $enddate=strtotime("+5 days", $startdate);
 }
 .input{
   border-color: #A1CBF3 !important;
-    
 }
 </style>
     <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
