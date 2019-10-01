@@ -85,7 +85,7 @@
                                 </button>-->
                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
-                                    <a onclick="eventosLanding('Llamar');" href="tel:+56227308000">Contactar<img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                                    <a onclick="eventosLanding('Llamar'); Mens();">Contactar<img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                    
                                     <a onclick="eventosLanding('Correo');" href="mailto:contactopago@davila.cl">Correo<img width="85" src="http://ojwgq1ostm42ulxuw45kfbt8-wpengine.netdna-ssl.com/hoosnetwork/wp-content/uploads/sites/30/2015/02/Email-image.jpg"></a>
                                     </div>
@@ -309,17 +309,17 @@
         };
 
        function Mens(){
-    var id_adm; 
-         id_adm= getUrlParameter('data1'); //1234;
+   // var id_adm; 
+        // id_adm= getUrlParameter('data1'); //1234;
           
             swal({
-             title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
+             title: `Para Comunicarse, seleccione la opcion 2`,
              //text: "Expandir la Pantalla",
              type: "success",
              timer: 5000
         }, 
         function(){
-             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
+             window.location.href = "tel:+56227308000";
         })
 
 
