@@ -69,11 +69,11 @@
                     <div id="cont2" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h4 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h4>
+                                <h4 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h4>
                                  <p class="text-white"> <h4> 
                                 Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</p>
                                 <p> Su ID admisión es: </p> 
-                                <p id="dato1" class="dato1"> </p><h4>
+                               <strong> <p id="dato1" class="dato1"> </p></strong><h4>
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
                                <!-- <button onclick="Mens();" class="btn bg-primary text-white col-12 mt-2">Contactar
@@ -85,9 +85,9 @@
                                 </button>-->
                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
-                                    <a onclick="eventosLanding('Llamar');" href="tel:+56227308000">Contactar<img width="75" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                                    <a onclick="eventosLanding('Llamar');" href="tel:+56227308000">Contactar<img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                    
-                                    <a onclick="eventosLanding('Correo');" href="mailto:contactopago@davila.cl">Correo<img width="75" src="http://ojwgq1ostm42ulxuw45kfbt8-wpengine.netdna-ssl.com/hoosnetwork/wp-content/uploads/sites/30/2015/02/Email-image.jpg"></a>
+                                    <a onclick="eventosLanding('Correo');" href="mailto:contactopago@davila.cl">Correo<img width="85" src="http://ojwgq1ostm42ulxuw45kfbt8-wpengine.netdna-ssl.com/hoosnetwork/wp-content/uploads/sites/30/2015/02/Email-image.jpg"></a>
                                     </div>
 
                                <!--<div class="d-flex justify-content-around align-content-center mt-4">
@@ -128,8 +128,7 @@
             });
         }); 
 
-         function event1(){
-          var id_adm; 
+         function event1(){ 
           var id_adm; 
          id_adm= getUrlParameter('data1'); 
 
