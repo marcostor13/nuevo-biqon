@@ -80,9 +80,9 @@ $enddate=strtotime("+5 days", $startdate);
                 <button onclick='window.location.href="http://bint.ml"' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://png.pngtree.com/element_origin_min_pic/00/00/05/31574d5cbd9f117.jpg"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://www.stickpng.com/assets/images/5a4e2ef62da5ad73df7efe6e.png"></a>
                    
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="40" src="https://image.flaticon.com/icons/png/512/37/37462.png"></a>
                    
                     <a onclick="eventosLanding('Correo');" href="mailto:contacto@binteraction.com"><img width="40" src="http://assets.stickpng.com/thumbs/5848576ba6aca45b5a5c95b7.png"></a>
                 </div>
