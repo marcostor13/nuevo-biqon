@@ -68,11 +68,11 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 hide">
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
-                <p class="text-black">
+                <h4><p class="text-black">
                    Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz.
                      <b>$ </b><b id="pay"></b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
-                </p>
+                </p></h4>
                 <div class="date btn bg-primary text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>"/>
