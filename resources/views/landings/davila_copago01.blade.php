@@ -75,28 +75,29 @@
                                 <p> Su ID admisión es: </p> 
                                 <p id="dato1" class="dato1"> </p><h4>
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
-                                <button onclick="Mens();" class="btn bg-primary text-white col-12 mt-2">Contactar
+
+                               <!-- <button onclick="Mens();" class="btn bg-primary text-white col-12 mt-2">Contactar
                                     <img width="200" src="https://c7.uihere.com/files/292/768/978/call-centre-cartoon-customer-service-stock-photography-secret-agent-thumb.jpg">
-                                </button>
+                                </button>-->
 
-                                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
+                                <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png">
-                                </button>
-                    <div class="d-flex justify-content-around align-content-center mt-4">
-                                       
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56967664209"><img width="40" src="https://c7.uihere.com/files/292/768/978/call-centre-cartoon-customer-service-stock-photography-secret-agent-thumb.jpg"></a>
-                   
-                    <a onclick="eventosLanding('Correo');" href="mailto:cdavila.binteraction@gmail.com"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
-                </div>
+                                </button>-->
+                                    <div class="d-flex justify-content-around align-content-center mt-4">
+                                                       
+                                    <a onclick="eventosLanding('Llamar');" href="tel:+56967664209"><img width="60" src="https://c7.uihere.com/files/292/768/978/call-centre-cartoon-customer-service-stock-photography-secret-agent-thumb.jpg"></a>
+                                   
+                                    <a onclick="eventosLanding('Correo');" href="mailto:cdavila.binteraction@gmail.com"><img width="60" src="http://ojwgq1ostm42ulxuw45kfbt8-wpengine.netdna-ssl.com/hoosnetwork/wp-content/uploads/sites/30/2015/02/Email-image.jpg"></a>
+                                    </div>
 
-                               <div class="d-flex justify-content-around align-content-center mt-4">
+                               <!--<div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
                                     <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
                                 </div>
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>
