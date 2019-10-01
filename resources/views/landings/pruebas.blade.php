@@ -9,6 +9,9 @@ $enddate=strtotime("+5 days", $startdate);
 ?>
 
 <style type="text/css">
+.opaco{
+    display: none !important; 
+
 }
 .input{
   border-color: #A1CBF3 !important;
@@ -59,16 +62,16 @@ $enddate=strtotime("+5 days", $startdate);
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="mafchile">
 
              <div id="cont1" class="p-5 ">|
-                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <h3 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-white">
                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
                 <h5 id="error"class="text-white text-center mt-5"></h5>
             </div>
 
             <div id="cont2" class="p-5 hide">|
-                <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
+                <h3 class="text-grey text-center">Estimado(a) <span id="name"></span></h3>
 
-                <p class="text-white">
+                <p class="text-grey">
                     Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
                     <b>$ </b><b id="pay"></b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
