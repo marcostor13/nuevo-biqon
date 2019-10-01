@@ -3,6 +3,10 @@
 @section('title', 'Mundo Credito')
 
 @section('content')
+<?php
+$startdate=strtotime("Today");
+$enddate=strtotime("+5 days", $startdate);
+?>
 <style>
 .opaco{
     display: none !important; 
