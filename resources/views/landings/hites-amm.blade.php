@@ -1,160 +1,57 @@
 @extends('layouts.landing')
 
-@section('title', 'HITES')
+@section('title', 'Hites')
 
 @section('content')
-<?php
 
-setlocale(LC_ALL,"es_ES");
-//echo strftime("%A %d de %B del %Y");
-$hoy=strftime("%B del %Y");
-
-//$dias = array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sábado");
-$meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
-?>
-
-<style type="text/css">
-#n1,#n2,#n3,#n4,#n5,#n6,#n7,#n8 {
-    display:none; }
-    body{
-      background: #0474b4;
-  color: #FAFAFA;
-    }
-    #music{
-        opacity: 0;
-    }
+<style>
+.opaco{
+    display: none !important; 
+}
 </style>
 
-    <div id="HITES" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+    <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="HITES">
+            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="MAFCHILE">
 
-             <div id="cont1" class="p-5 ">|
-                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-white">
-                <button id="btn-sound" onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4">Validar</button>
-                <h5 id="error"class="text-white text-center mt-5"></h5>
+            <div id="cont1" class="p-5 ">|
+                <main>
+                <div class="intro w3-animate-zoom"></div>
+                <!--<iframe width="315" height="560" src="hites40_6.mp4?autoplay=0"  allowfullscreen></iframe>-->
+                <video src="{{ assets('/files/hitesAMM.mp4') }}" width="315" height="560" controls  preload="auto"></video>
+              </main>
             </div>
-<div id="cont2" class="p-2 pl-5 pr-5 hide">
-            <div id="n1">
-    <main>
-        <div class="intro w3-animate-zoom"><img src="hites2.png"></div>
-        <div class="intro w3-animate-top">HOLA</div>
-        <div class="intro w3-animate-bottom orange-text"><strong><?php echo $Nombre," ", $Apellido;?></strong></div>
-    </main>
-</div>
 
-    
-<div id="n2">
-    <main>
-        <div class="intro w3-animate-zoom"><img src="hites2.png"></div>
-        <div class="intro w3-animate-bottom">Monto referencial a</div>
-        <div class="intro w3-animate-bottom orange-text"><strong><?php echo $meses[date('n')-1]. " del ".date('Y') ;?></strong></div>
+            <!--<div id="cont2" class="p-5 hide">|
+                <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
 
-        <div class="intro w3-center w3-animate-bottom">Valor cuota</div>
-        <div class="intro w3-animate-bottom orange-text"> <strong> $ <?php echo $tota;?></strong></div>
-
-        <div class="intro w3-center w3-animate-bottom">Vencimiento</div>
-        <div class="intro w3-animate-bottom orange-text"> <strong> <?php echo $fecha_vence;?></strong></div>
-    </main>
-</div>
-
-
-    
-<div id="n3">
-    <main>
-        <div class="intro w3-animate-zoom"><img src="hites2.png"></div>
-        <div class="intro w3-center w3-animate-top">¿Tienes problemas para pagar tu cuota?</div>
-        <div class="intro w3-center w3-animate-top orange-text">Solicita tu Avance Monto Mínimo </div>
-        <div class="intro w3-center w3-animate-top"> Aliviana tu cuota</div>
-    </main>
-    </div>
-
-
-    
-<div id="n4">
-    <main>
-        <div class="intro w3-animate-zoom"><img src="hites2.png"></div>
-        <div class="intro w3-center w3-animate-bottom orange-text">¿Cómo solicitar el Avance Monto Mínimo?</div>
-        <div class="cont">
-        <div class="tagline w3-animate-right"> <strong>Pie: $ <?php echo $ppie;?> </strong></div>
-        </div> 
-        <div class="contenedor">
-        <div class=" tagline lateral w3-animate-left"><strong>  3 Cuotas:  <p>$ <?php echo $p3cuota;?></p> </strong></div>
-        <div class=" tagline principal w3-animate-left"><strong>  6 Cuotas: <p> $ <?php echo $p6cuota;?></p> </strong></div>
-        <br>
-        <div class=" tagline lateral w3-animate-left"><strong>  9 Cuotas:  <p>$ <?php echo $p9cuota;?></p> </strong></div>
-        <div class=" tagline principal w3-animate-left"><strong>  12 cuotas:  <p>$ <?php echo $p12cuota;?></p> </strong></div>
-        </div> 
-    </main>
-</div>
-
-
-    
-<div id="n5">
-    <main>
-        <div class="intro w3-animate-zoom"><img src="hites2.png"></div>
-        <div class="intro w3-center w3-animate-top orange-text">Beneficios </div>
-        <div class="tagline w3-animate-bottom"> <strong> Mantienes tu cuota al día, evitando quedar en mora </strong></div>
-        <div class="tagline w3-animate-bottom orange-text"> <strong> Puedes seguir utilizando tu tarjeta en Hites y comercios adheridos (sujeto a cupo disponible) </strong></div>
-        <div class="tagline w3-animate-bottom"> <strong> Aliviana tu carga financiera </strong></div>
-    </main>
-</div>
-
-
-    
-<div id="n6">
-    <main>
-        <div class="intro w3-animate-zoom"><img src="hites2.png"></div>
-        <div class="intro w3-center w3-animate-top">Haz efectiva esta Promocion</div>
-        <div class="intro w3-center w3-animate-top orange-text">No te pierdas esta oportunidad</div>
-    </main>
-</div>
-
-
-    
-<div id="n7">
-    <main>
-        <div class="intro w3-animate-zoom"><img src="hites2.jpg"></div>
-        <div class="intro">
-             <div class="tagline text-center white-text"><br> ¿Deseas que te contactemos?  Haz click en el siguiente botón
-                <br>
-             <button onclick="sendMail('El cliente desea que le contacten'); eventosLanding('Correo'); return false;" class="btn bg-danger text-white col-12 mt-4"><strong> <h2>Sí </h2> </strong> </button>
-       </div>
+                <p class="text-white">
+                    Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz.
+                    
+                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
+                </p>
+                <div class="date btn bg-danger text-white col-12 mt-4">
+                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>"/>
+                </div>
+                <button onclick='window.location.href="https://www.marubeni.cl/contacto/"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
+                <div class="d-flex justify-content-around align-content-center mt-4">
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56942165535&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56942165535"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:atrujillo@prainabogados.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
+                </div>
+                <h5 id="message"class="text-white text-center mt-5 hide"></h5>
+            </div>-->
+            <div class=" tagline w3-center w3-animate-top black-text">Binteraction.com</div>
         </div>
-    </main>
-            <div>
-               <h5 id="message"class="text-white text-center mt-5 hide"></h5>
-            </div>
-
-</div>
     </div>
-    </div>
-        </div>   
 
+    <script>
 
-<audio id="music" controls>
-    <source src="http://binteraction.com/biqon/landings/video/dev-landing/final03.ogg">
-    <source src="http://binteraction.com/biqon/landings/video/dev-landing/final03.wav">
-    <source src="http://binteraction.com/biqon/landings/video/dev-landing/final03.mp3">
-</audio>
-
-   <script>
-   /*EVENT 1
-   */
-     $(function(){
-
-    $('#btn-sound').click(function(){
-      console.log('Reproducir Sonido');
-      document.getElementById("music").play();
-    });
-
-  });
-
- /*error al llamar a la funcion*/
         $(function(){
             events({    
                 'name': 'Visita',
@@ -163,7 +60,24 @@ $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto"
             });
         }); 
 
-         function event1(){
+        let eventosLanding = function(name){
+            
+            let json_datos = getAllUrlParameter(); 
+
+            json_datos.nombre = $('#name').text();
+            json_datos.monto = $('#pay').text();
+
+            events({    
+                'name': name,
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(json_datos)
+            });
+        }
+
+        //EVENT 1
+        
+
+        function event1(){
                             
             let dataSend = {
                 'fourRut': $('#rut').val(),
@@ -186,49 +100,7 @@ $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto"
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-
-                    $('#pay').text(e.data.monto); //aqui va el codigo para mostar y ocutar en video
-                    /*
-                      setTimeout(function(){ 
-                      $('#tota').text(tota); 
-                      $('#fecha_vence').text(fecha_vence); 
-                      $('#n1').hide('fast');
-                      $('#n2').show('fast');
-                        }, 3000);
-
-                    setTimeout(function(){
-                        $('#n2').hide('fast');
-                        $('#n3').show('fast');
-                        }, 9000);
-
-                    setTimeout(function(){
-                        $('#ppie').text(ppie); 
-                        $('#p3cuota').text(p3cuota);
-                        $('#p6cuota').text(p6cuota);
-                        $('#p9cuota').text(p9cuota);
-                        $('#p12cuota').text(p12cuota);
-                        $('#n3').hide('fast');
-                        $('#n4').show('fast'); 
-                        }, 23000);
-
-                    setTimeout(function(){
-                        $('#n4').hide('fast');
-                        $('#n5').show('fast'); 
-                        }, 42000);
-
-                    setTimeout(function(){
-                        $('#n5').hide('fast');
-                        $('#n6').show('fast'); 
-                        }, 58000);
-
-                    setTimeout(function(){
-                        $('#n6').hide('fast');
-                        $('#n7').show('fast');
-                      sendForm(); 
-                        }, 67000);
-
-                    */
-                    
+                    $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -244,36 +116,17 @@ $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto"
             });
 
         }
-        
-
-        let eventosLanding = function(name){
-            
-            let json_datos = getAllUrlParameter(); 
-
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
-
-            events({    
-                'name': name,
-                'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(json_datos)
-            });
-        }
-
-     
 
         function sendMail(msg = false){
 
-            console.log('{!! $landing->name !!}'); 
+            console.log({!! $landing->name !!}); 
             
             let data; 
             if(msg !== false){
                 data = {
                     'mensaje': msg,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text(),
-                    'phone': getUrlParameter('telefono'),
-                    'rut': getUrlParameter('rut')
+                    'saldo': $('#pay').text()
                 }
             }else{
                 let date = $('#date1').val();
@@ -281,15 +134,13 @@ $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto"
                     'fecha': date,
                     'nombre': $('#name').text(),
                     'saldo': $('#pay').text(),
-                    'phone': getUrlParameter('telefono'),
-                     'rut': getUrlParameter('rut'),
-                    'landing': '{!! $landing->name !!}'
+                    'landing': {!! $landing->name !!}
                 } 
             }
 
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
+               'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -369,8 +220,6 @@ $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto"
 
             return obj;  
         };
-
-        
         
     
     </script>
