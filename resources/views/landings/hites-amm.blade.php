@@ -18,34 +18,12 @@
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="MAFCHILE">
 
             <div id="cont1" class="p-5 ">|
-                <main>
-                <div class="intro w3-animate-zoom"></div>
-                <!--<iframe width="315" height="560" src="hites40_6.mp4?autoplay=0"  allowfullscreen></iframe>-->
-                <video src="{{ assets('/files/hitesAMM.mp4') }}" width="315" height="560" controls  preload="auto"></video>
-              </main>
+                <div class="videoWrapper">        
+                    <iframe width="560" height="315" src="{{assets('/files/hitesAMM.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
             </div>
 
-            <!--<div id="cont2" class="p-5 hide">|
-                <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
-
-                <p class="text-white">
-                    Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz.
-                    
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
-                </p>
-                <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>"/>
-                </div>
-                <button onclick='window.location.href="https://www.marubeni.cl/contacto/"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
-                <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56942165535&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56942165535"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                    <a onclick="eventosLanding('Correo');" href="mailto:atrujillo@prainabogados.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
-                </div>
-                <h5 id="message"class="text-white text-center mt-5 hide"></h5>
-            </div>-->
             <div class=" tagline w3-center w3-animate-top black-text">Binteraction.com</div>
         </div>
     </div>
