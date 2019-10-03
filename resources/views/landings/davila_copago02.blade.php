@@ -70,23 +70,23 @@
                         <div class="card">     
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>
-                                 <p class="text-white"> <h3> 
-                                Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</h3> </p>
+                                 <p class="text-white"> <h4> 
+                                Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</h4> </p>
                                 <p> Su ID admisión es: </p> 
-                               <strong> <h3><p id="dato1" class="dato1"> </p> </h3>  </strong>
-                                <h3 class="text-grey text-center"> Seleccione una Opcion </h3>
+                               <strong> <h4><p id="dato1" class="dato1"> </p> </h4>  </strong>
+                                <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
                                <button onclick="Mens1();" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); '>
-                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
+                                    <img width="200" src="https://i.imgur.com/TO67Dt5.png"></a>
                                 </div>
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); '>
-                                    <img width="200" src="https://i.imgur.com/AUJCMfK.png"></a>
+                                    <img width="200" src="https://i.imgur.com/2MYzfWg.png"></a>
                                 </div>
                                 
                                 <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
