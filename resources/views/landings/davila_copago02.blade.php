@@ -78,14 +78,17 @@
 
                                <button onclick="Mens1();" class="btn bg-primary text-white col-12 mt-2">Contactar
                                 </button>
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); '>
-                                    <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
-                                </div>
+                                
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); '>
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
                                 </div>
+
+                                <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a onclick='Mens1(); '>
+                                    <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
+                                </div>
+                                
                                 <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png">
                                 </button>-->
