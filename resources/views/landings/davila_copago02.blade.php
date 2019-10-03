@@ -79,10 +79,8 @@
                                <button onclick="Mens1();" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>
 
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); '>
-                                    <img width="200" src="https://i.imgur.com/IX8n66K.png"></a>
-                                </div>
+                                <button onclick="Mens1();" class="btn bg-primary text-white col-12 mt-2">DEPOSITO CUENTA BANCARIA<br>Clinica Davila y Servicos Medicos S.P.A<br>Banco Santander<br>Cuota Corriente 71-690580-0                                </button>
+                                    
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); '>
