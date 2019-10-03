@@ -76,9 +76,9 @@
                                <strong> <h3><p id="dato1" class="dato1"> </p> </h3>  </strong>
                                 <h3 class="text-grey text-center"> Seleccione una Opcion </h3>
 
-                               <button onclick="Mens1();" class="btn bg-primary text-white col-12 mt-2">Contactar
+                               <button onclick="Mens1();" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>
-                                
+
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); '>
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
