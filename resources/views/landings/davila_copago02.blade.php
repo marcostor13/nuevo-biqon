@@ -81,7 +81,7 @@
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); '>
-                                    <img width="200" src="https://i.imgur.com/TO67Dt5.png"></a>
+                                    <img width="200" src="https://i.imgur.com/IX8n66K.png"></a>
                                 </div>
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
