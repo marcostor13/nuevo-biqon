@@ -189,7 +189,7 @@ $enddate=strtotime("+5 days", $startdate);
 
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
+                'email': 'jesus.binteraction@gmail.com, gbahamondes@gmail.com'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
