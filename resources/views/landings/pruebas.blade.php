@@ -15,7 +15,7 @@ $enddate=strtotime("+5 days", $startdate);
 .input{
   border-color: #A1CBF3 !important;
 }
-    
+     
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border: 0;
@@ -88,7 +88,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </div>
                 
             </div>
-            <div id="cont3" class="p-2 pl-5 pr-5 hide">
+            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
@@ -99,8 +99,9 @@ $enddate=strtotime("+5 days", $startdate);
         </div>
     </div>
 
-    <script>
-
+     <script>
+   //EVENT 1
+        
         $(function(){
             events({    
                 'name': 'Visita',
@@ -109,25 +110,8 @@ $enddate=strtotime("+5 days", $startdate);
             });
         }); 
 
-        let eventosLanding = function(name){
-            
-            let json_datos = getAllUrlParameter(); 
-
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
-
-            events({    
-                'name': name,
-                'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(json_datos)
-            });
-        }
-
-        //EVENT 1
-        
-
          function event1(){
-                            
+    
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
@@ -165,31 +149,54 @@ $enddate=strtotime("+5 days", $startdate);
             });
 
         }
+        
+
+        let eventosLanding = function(name){
+            
+            let json_datos = getAllUrlParameter(); 
+
+            json_datos.nombre = $('#name').text();
+            json_datos.monto = $('#pay').text();
+
+            events({    
+                'name': name,
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(json_datos)
+            });
+        }
+
+     
 
         function sendMail(msg = false){
 
-            console.log({!! $landing->name !!}); 
+            console.log('{!! $landing->name !!}'); 
             
             let data; 
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'nombre': $('#name').text(),
-                    'saldo': $('#pay').text()
+                    'Nombre': $('#name').text(),
+                    'monto': getUrlParameter('monto'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                   
+                    
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text(),
-                    'landing': {!! $landing->name !!}
+                    'monto': getUrlParameter('monto'),
+                    'phone': getUrlParameter('telefono'),
+                     'rut': getUrlParameter('rut'),
+                    'landing': '{!! $landing->name !!}'
                 } 
             }
 
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': 'jesus.binteraction@gmail.com, gbahamondes@gmail.com'
+                'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -201,9 +208,13 @@ $enddate=strtotime("+5 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                    $('#message').text('Gracias por su información');
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
                 }
             })
@@ -270,7 +281,7 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-        
+      
         
     
     </script>
