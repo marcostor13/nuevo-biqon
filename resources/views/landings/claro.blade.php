@@ -79,31 +79,32 @@ $enddate=strtotime("+5 days", $startdate);
 
                                <button onclick="Mens1();" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>-->
+                                <p>PROMOCIONES</p>
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='window.location.href = "https://www.clarochile.cl/personas/cyber-planes-equipos/"'>
                                     <img width="250" src="https://i.imgur.com/P4qbN1u.png"></a>
                                 </div>
-
+                                <p>ACCESORIOS</p>
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='window.location.href = "https://accesorios.clarochile.cl/"'>
                                     <img width="150" src="https://scontent.faep3-1.fna.fbcdn.net/v/t1.0-9/39609987_219350318928510_7720264024490770432_n.jpg?_nc_cat=102&_nc_oc=AQklKNt95yMaE2I7Pt28nTsVsM-0IL2KcuColrg6t0eVT9gTEvjrXWlNeacLUab6dUA&_nc_ht=scontent.faep3-1.fna&oh=823a9104bcb96ab529500c37597b7975&oe=5E2C1A78"></a>
                                 </div>
                                 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                                       
-                                    <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-moviles/prepago/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533759347.png">Movil</a>
-                                   
-                                    <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-hogar/arma-tu-play/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533781511.png">Hogar</a>
+                                      <p>MOVIL</p>                 
+                                    <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-moviles/prepago/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533759347.png"></a>
+                                    <p>HOGAR</p> 
+                                    <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-hogar/arma-tu-play/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533781511.png"></a>
                                     </div>
 
 
-                                    <div class="d-flex justify-content-around align-content-center mt-4">
+                                   <!-- <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
                                     <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">LLAMAR</a>
                                    
                                     <a onclick="eventosLanding('Correo');" href="mailto:cortezjesus01@gmail.com?subject=Landing%20Claro"><img width="85" src="http://ojwgq1ostm42ulxuw45kfbt8-wpengine.netdna-ssl.com/hoosnetwork/wp-content/uploads/sites/30/2015/02/Email-image.jpg">Correo</a>
-                                    </div>
+                                    </div>-->
                             </div>   
                         </div>
                     </div>
