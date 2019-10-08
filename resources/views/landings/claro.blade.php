@@ -99,8 +99,8 @@ $enddate=strtotime("+5 days", $startdate);
                                     </div>
 
                                     <div class="d-flex justify-content-around align-content-center mt-4">
-                                      <!--<p>TIENDA ONLINE</p>                 
-                                    <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-moviles/prepago/" '><img width="85" src="https://i.imgur.com/bjyoy12.png"></a>-->
+                                      <p>TIENDA ONLINE</p>                 
+                                    <a onclick='window.location.href = "https://tienda.clarochile.cl/catalogo" '><img width="85" src="https://i.imgur.com/bjyoy12.png"></a>
                                     <p>CONTACTO</p> 
                                     <a onclick='window.location.href = "https://www.clarochile.cl/apps/lb-quiero-contactarme/#" '><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                     </div>
