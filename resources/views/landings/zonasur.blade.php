@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'Pruebas')
+@section('title', 'ZonaSur')
 
 @section('content')
 <?php
@@ -69,7 +69,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
                 <h4><p class="text-black">
-                   Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz.
+                   Te informamos que presentas un retraso en el pago de cuotas de tu crédito.
                      <b>$ </b><b id="pay"></b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
                 </p></h4>
