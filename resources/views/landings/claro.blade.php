@@ -1,3 +1,13 @@
+@extends('layouts.landing')
+
+@section('title', 'ZonaSur')
+
+@section('content')
+<?php
+$startdate=strtotime("Today");
+$enddate=strtotime("+5 days", $startdate);
+?>
+
 <style type="text/css">
     
 .card {
@@ -37,7 +47,7 @@
     
 </style>
 
-    <div id="CLINICA_DAVILA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+    <div id="CLARO" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
      <div class="opaco">
 
@@ -65,10 +75,10 @@
                                 Claro informa que pudes acceder a Todos estos Productos y Servicios.</h4> </p>
                                <!-- <p> Su ID admisión es: </p> 
                                <strong> <h4><p id="dato1" class="dato1"> </p> </h4>  </strong>
-                                <h4 class="text-grey text-center"> Seleccione una Opcion </h4>-->
+                                <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
                                <button onclick="Mens1();" class="btn bg-primary text-white col-12 mt-2">PAGAR
-                                </button>
+                                </button>-->
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='window.location.href = "https://www.clarochile.cl/personas/cyber-planes-equipos/"'>TELPROMO
