@@ -72,7 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>
                                  <p class="text-white"> <h4> 
-                                Claro informa que pudes acceder a Todos estos Productos y Servicios.</h4> </p>
+                                Claro informa que puedes acceder a Todos estos Productos y Servicios.</h4> </p>
                                <!-- <p> Su ID admisión es: </p> 
                                <strong> <h4><p id="dato1" class="dato1"> </p> </h4>  </strong>
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
