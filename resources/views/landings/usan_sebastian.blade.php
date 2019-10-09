@@ -55,11 +55,87 @@ $enddate=strtotime("+5 days", $startdate);
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="mafchile">
 
              <div id="cont1" class="p-5 ">|
-                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-white">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4">Validar</button>
-                <h5 id="error"class="text-white text-center mt-5"></h5>
-            </div>
+                <form onsubmit="enviarMensaje(); return false;">
+                  <!-- Heading -->
+                  <h3 class="dark-grey-text text-center">
+                    <strong>¿TIENES CONSULTAS?
+                    NOSOTROS TE AYUDAMOS</strong>
+                  </h3>
+                  <hr>
+
+                  <div class="d-flex justify-content-between  m-0">
+                    <div class="md-form col-  m-0">
+                      <input type="text" id="nombre" class="form-control" required>
+                      <label for="form3">Nombre</label>
+                    </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="apellido" class="form-control" required>
+                      <label for="form2">Apellido</label>
+                    </div>
+                  </div>
+                  
+                  <div class="md-form  m-0">
+                    <input type="text" id="email" class="form-control" required>
+                    <label for="form2">E-mail</label>
+                  </div>
+
+                  <div class="d-flex justify-content-between">
+
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="rut" class="form-control" required>
+                      <label for="form2">RUT</label>
+                    </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="telefono" class="form-control" required>
+                      <label for="form2">Teléfono</label>
+                    </div>
+                  </div>   
+
+                  <div class="md-form">
+                    <select class="form-control" id="carrera" required>
+                      <option value="" data-select2-id="4">-- Selecciona una carrera</option>
+                      <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
+                      <option value="Ingeniería en Administración de Empresas Mención Gestión Empresarial" data-select2-id="9">Ingeniería en
+                        Administración de Empresas Mención Gestión Empresarial</option>
+                      <option value="Ingeniería en Gestión en Tecnologías de la Información" data-select2-id="10">Ingeniería en Gestión en
+                        Tecnologías de la Información</option>
+                      <option value="Ingeniería en Tecnologías de la Información y Comunicaciones" data-select2-id="11">Ingeniería en
+                        Tecnologías de la Información y Comunicaciones</option>
+                      <option value="Ingeniería Industrial" data-select2-id="12">Ingeniería Industrial</option>
+                      <option value="Contador Auditor" data-select2-id="13">Contador Auditor</option>
+                      <option value="Ingeniería Civil Industrial" data-select2-id="14">Ingeniería Civil Industrial</option>
+                      <option value="Ingeniería en Prevención de Riesgos" data-select2-id="15">Ingeniería en Prevención de Riesgos</option>
+                      <option value="Ingeniería en Comercio Internacional" data-select2-id="16">Ingeniería en Comercio Internacional
+                      </option>
+                      <option value="Ingeniería en Logística y Transporte" data-select2-id="17">Ingeniería en Logística y Transporte
+                      </option>
+                      <option value="Administración Pública" data-select2-id="18">Administración Pública</option>
+                      <option value="Ingeniería en Administración de Empresas Mención Control de Gestión" data-select2-id="19">Ingeniería en
+                        Administración de Empresas Mención Control de Gestión</option>
+                      <option value="Ingeniería en Administración de Empresas Mención Gestión de Personas" data-select2-id="20">Ingeniería
+                        en Administración de Empresas Mención Gestión de Personas</option>
+                      <option value="Ingeniería en Administración de Empresas Mención Finanzas Corporativas" data-select2-id="21">Ingeniería
+                        en Administración de Empresas Mención Finanzas Corporativas</option>
+                      <option value="Ingeniería en Administración de Empresas Mención Marketing Digital" data-select2-id="22">Ingeniería en
+                        Administración de Empresas Mención Marketing Digital</option>
+                      <option value="Psicología" data-select2-id="23">Psicología</option>
+                      <option value="Pedagogía en Educación Diferencial" data-select2-id="24">Pedagogía en Educación Diferencial</option>
+                      <option value="Trabajo Social" data-select2-id="25">Trabajo Social</option>
+                    </select>
+                  </div>
+
+                  <div class="text-center">
+                    
+                    <fieldset class="form-check">
+                      <input type="checkbox" class="form-check-input" id="checkbox1" required>
+                      <label for="checkbox1" class="form-check-label dark-grey-text">Quiero recibir información</label>
+                    </fieldset>
+                    <hr>
+                    <button class="btn btn-indigo">QUIERO SABER MÁS</button>
+                    
+                  </div>
+
+                </form>
 
             <div id="cont2" class="p-5 hide">|
                 <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
