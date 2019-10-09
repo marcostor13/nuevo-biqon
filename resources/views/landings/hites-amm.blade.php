@@ -10,7 +10,7 @@
 }
 </style>
 
-    <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+    <!--<div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="opaco"></div>
 
@@ -26,7 +26,7 @@
 
             <div class=" tagline w3-center w3-animate-top black-text">Binteraction.com</div>
         </div>
-    </div>
+    <!--</div>-->
 
     <script>
 
