@@ -37,13 +37,6 @@ $enddate=strtotime("+5 days", $startdate);
   font-weight: 300;
 }
 
-.oscurecer {
-  background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    )
-    }
     
 </style>
 
