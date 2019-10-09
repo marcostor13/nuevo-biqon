@@ -59,16 +59,16 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
 
             <div id="cont1" class="p-5 ">
-                <h3 class="text-orange text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-orange input" autofocus>
+                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4">Validar</button>
-                <h5 id="error"class="text-orange text-center mt-5"></h5>
+                <h5 id="error"class="text-white text-center mt-5"></h5>
             </div>
 
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-orange text-center">Estimado <span id="name"></span></h3>
+                <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
 
-                <h4><p class="text-orange">
+                <h4><p class="text-white">
                    Si eres pensionado Te informamos que tienes un crédito pre aprobado por:
                      <br> <b>$ </b><b id="pay"></b>
                      <br>
@@ -80,24 +80,24 @@ $enddate=strtotime("+5 days", $startdate);
                 </div>
 
 
-                <button onclick="eventosLanding('Llamar');" href="tel:+56964952525" class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
+                <button onclick="eventosLanding('Llamar');" href="tel:+56985296912" class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
 
                 <button onclick="eventosLanding('Correo');" href="mailto: contacto@binteraction.com" class="btn bg-warning text-black col-12 mt-4">CLICK AQUÍ SI DESEAS QUE TE CONTACTEMOS</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56964952525text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56964952525"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
-                    <a onclick="eventosLanding('Correo');" href="mailto: mheredia@herediaabogados.cl"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto: contacto@binteraction.com"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-orange text-center mt-3 hide"></h5>
+                                <h5 id="message"class="text-white text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
@@ -200,7 +200,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["heredia.binteraction@gmail.com", "jctridentt@gmail.com", "mheredia@herediaabogados.cl"];
+            var correo = ["jctridentt@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
