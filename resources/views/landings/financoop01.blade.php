@@ -59,16 +59,16 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
 
             <div id="cont1" class="p-5 ">
-                <h3 class="text-yellow text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-yellow input" autofocus>
+                <h3 class="text-orange text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-orange input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4">Validar</button>
-                <h5 id="error"class="text-yellow text-center mt-5"></h5>
+                <h5 id="error"class="text-orange text-center mt-5"></h5>
             </div>
 
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-yellow text-center">Estimado <span id="name"></span></h3>
+                <h3 class="text-orange text-center">Estimado <span id="name"></span></h3>
 
-                <h4><p class="text-yellow">
+                <h4><p class="text-orange">
                    Si eres pensionado Te informamos que tienes un crédito pre aprobado por:
                      <br> <b>$ </b><b id="pay"></b>
                      <br>
@@ -97,7 +97,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-yellow text-center mt-3 hide"></h5>
+                                <h5 id="message"class="text-orange text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
