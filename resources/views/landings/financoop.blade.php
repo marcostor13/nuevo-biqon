@@ -1,15 +1,21 @@
 @extends('layouts.landing')
 
-@section('title', 'USS')
+@section('title', 'Financoop')
 
 @section('content')
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
+<style>
+.opaco{
+    display: none !important; 
 
-<style type="text/css">
-    
+}
+.input{
+  border-color: #A1CBF3 !important;
+}
+     
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border: 0;
@@ -37,17 +43,22 @@ $enddate=strtotime("+5 days", $startdate);
   font-weight: 300;
 }
 
-    
+.oscurecer {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    )
+    }
 </style>
-
-    <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+    <div id="CLINICA_DAVILA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
         <div class="opaco"></div>
 
-        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
+       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
 
-             <div id="cont1" class="p-5 ">|
+            <div id="cont1" class="p-5 ">|
                  
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
@@ -103,44 +114,20 @@ $enddate=strtotime("+5 days", $startdate);
 
                
             </div>
-
-            <!--<div id="cont2" class="p-5 hide">|
-                <h3 class="text-grey text-center">Estimado(a) <span id="name"></span></h3>
-
-                <p class="text-grey">
-                    Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
-                    <b>$ </b><b id="pay"></b>
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
-                </p>
-                <div class="date btn bg-danger text-grey col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-                <button onclick='window.location.href="https://pagos.uss.cl/"' class="btn bg-danger text-grey col-12 mt-4">PAGAR AHORA</button>
-                
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-grey col-12 mt-4">YA PAGUE</button>
-                
-                <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56964386131&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
-                    <a onclick="eventosLanding('Llamar', 'tel:+56225940241') "><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                   <a onclick="eventosLanding('Correo', 'mailto:rodrigo.calderon@davila.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
-                </div>
-                
-            </div>-->
-           <div id="cont3" class="p-2 pl-5 pr-5 hide">
+            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
+
         </div>
     </div>
 
-    <script>
+     <script>
    //EVENT 1
-        
-        $(function(){
+       $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
