@@ -19,7 +19,7 @@
 
             <div id="cont1">|
                 <div class="videoWrapper">        
-                    <iframe width="560" height="315" src="{{asset('/files/hites_amm.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="460" height="320" src="{{asset('/files/hites_amm.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
             </div>
