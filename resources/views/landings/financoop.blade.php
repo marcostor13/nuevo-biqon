@@ -108,7 +108,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="text-center">
                     <hr>
-                    <button class="btn btn-indigo" onclick="sendMail('El cliente solicito Credito')";>Contactame</button>
+                    <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Credito');eventosLanding('Solicitud Credito'); return false;">Contactame</button>
                     
                   </div>
 
@@ -222,7 +222,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["cortezjesus01@gmail.com", "jctridentt@gmail.com", "jesus.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -238,7 +238,7 @@ $enddate=strtotime("+5 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
+                     $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
