@@ -54,7 +54,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="mafchile">
 
-             <div id="cont1" class="p-5 ">|
+             <div id="cont1" class="p-3 ">|
                 <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
@@ -65,13 +65,15 @@ $enddate=strtotime("+5 days", $startdate);
                   <hr>
 
                   <div class="d-flex justify-content-between  m-0">
-                    <div class="md-form col-  m-0">
-                      <input type="text" id="nombre" class="form-control" required>
+                    <div class="md-form col-6  m-0">
                       <label for="form3">Nombre</label>
+                      <input type="text" id="nombre" class="form-control" required>
+                      
                     </div>
                     <div class="md-form col-6  m-0">
-                      <input type="text" id="apellido" class="form-control" required>
                       <label for="form2">Apellido</label>
+                      <input type="text" id="apellido" class="form-control" required>
+                      
                     </div>
                   </div>
                   
@@ -127,7 +129,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="text-center">
                     <hr>
-                    <button class="btn btn-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicita informacion'); eventosLanding('Información');">QUIERO SABER MÁS</button>
+                    <button class="btn btn-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicita informacion'); eventosLanding('Información');">QUIERO SABER MÁS </button>
                     
                   </div>
 
