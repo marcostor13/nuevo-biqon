@@ -55,7 +55,8 @@ $enddate=strtotime("+5 days", $startdate);
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="mafchile">
 
              <div id="cont1" class="p-5 ">|
-                <form onsubmit="enviarMensaje(); return false;">
+                <div class="card">     
+                <div class="card-body">
                   <!-- Heading -->
                   <h3 class="dark-grey-text text-center">
                     <strong>¿TIENES CONSULTAS?
@@ -135,7 +136,7 @@ $enddate=strtotime("+5 days", $startdate);
                     
                   </div>
 
-                </form>
+                </div> </div> </div>
 
             <div id="cont2" class="p-5 hide">|
                 <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
