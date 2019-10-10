@@ -59,16 +59,16 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
 
             <div id="cont1" class="p-5 ">
-                <h3 class="text-warning text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3>
+                <h3 class="text-danger text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4">Validar</button>
                 <h5 id="error"class="text-white text-center mt-5"></h5>
             </div>
 
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-warning text-center"> <strong> Estimado <span id="name"></span>  </strong> </h3>
+                <h3 class="text-danger text-center"> <strong> Estimado <span id="name"></span>  </strong> </h3>
 
-                <h4><p class="text-warning"> <strong>
+                <h4><p class="text-danger"> <strong>
                    Si eres pensionado Te informamos que tienes un crédito pre aprobado por:
                      <br> <b>$ </b><b id="pay"></b>
                      <br>
@@ -82,7 +82,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <button onclick='window.location.href="tel:+56985296912" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-danger text-white col-12 mt-4">CLICK AQUÍ SI DESEAS QUE TE CONTACTEMOS</button>
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-white col-12 mt-4">CLICK AQUÍ SI DESEAS QUE TE CONTACTEMOS</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
