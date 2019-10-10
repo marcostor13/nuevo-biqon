@@ -92,16 +92,16 @@ $enddate=strtotime("+5 days", $startdate);
                                 </div>
                                 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                     <h4 class="text-grey text-center">  <p>MOVIL</p>  </h4>                
+                                      <p>MOVIL</p>                  
                                     <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-moviles/prepago/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533759347.png"></a>
-                                     <h4 class="text-grey text-center"> <p>HOGAR</p> </h4>
+                                     <p>HOGAR</p> 
                                     <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-hogar/arma-tu-play/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533781511.png"></a>
                                     </div>
 
                                     <div class="d-flex justify-content-around align-content-center mt-4">
-                                      <h4 class="text-grey text-center"> <p>TIENDA ONLINE</p> </h4>                
+                                      <p>TIENDA ONLINE</p>                 
                                     <a onclick='window.location.href = "https://tienda.clarochile.cl/catalogo" '><img width="85" src="https://i.imgur.com/bjyoy12.png"></a>
-                                    <h4 class="text-grey text-center"> <p>CONTACTO</p> </h4>
+                                     <p>CONTACTO</p> 
                                     <a onclick='window.location.href = "https://www.clarochile.cl/apps/lb-quiero-contactarme/#" '><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                     </div>
 
