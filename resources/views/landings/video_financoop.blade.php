@@ -21,19 +21,26 @@
                 <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/finan_bienv.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">CLICK AQUÍ SI DESEAS QUE TE CONTACTEMOS</button>
+
+                <div class="card">     
+                <div class="card-body">
+                <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> </div> </div>
+
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">SI</button>
             </div>
-            <div id="cont3" class="p-2 pl-3 pr-3 hide">
+            
+
+        </div>
+
+        <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-black text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
-
-        </div>
             <div class=" tagline w3-center w3-animate-top black-text">Binteraction.com</div>
-        </div>
+        
     <!--</div>-->
 
    
