@@ -129,19 +129,18 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="text-center">
                     <hr>
-                    <button class="btn btn-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicita informacion'); eventosLanding('Información');">QUIERO SABER MÁS </button>
-                    
+                   <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Información');eventosLanding('Solicitud de Información'); return false;">Contactame</button>
                   </div>
 
                 </div> </div> </div>
 
-             <div id="cont3" class="p-2 pl-5 pr-5 hide">
+                <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
-                    </div>
+                </div>
         </div>
     </div>
 
