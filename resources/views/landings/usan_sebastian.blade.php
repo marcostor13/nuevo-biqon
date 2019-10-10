@@ -126,42 +126,14 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>
 
                   <div class="text-center">
-                    
-                    <fieldset class="form-check">
-                      <input type="checkbox" class="form-check-input" id="checkbox1" required>
-                      <label for="checkbox1" class="form-check-label dark-grey-text">Quiero recibir información</label>
-                    </fieldset>
                     <hr>
-                    <button class="btn btn-indigo">QUIERO SABER MÁS</button>
+                    <button class="btn btn-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicita informacion'); eventosLanding('Información');">QUIERO SABER MÁS</button>
                     
                   </div>
 
                 </div> </div> </div>
 
-            <div id="cont2" class="p-5 hide">|
-                <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
-
-                <p class="text-white">
-                    Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
-                    <b>$ </b><b id="pay"></b>
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
-                </p>
-                <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-                <button onclick='window.location.href="https://pagos.uss.cl/"' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
-                
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
-                
-                <div class="d-flex justify-content-around align-content-center mt-4">
-                    <!--<a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56964386131&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>-->
-                    <a onclick="eventosLanding('Llamar', 'tel:+56225940241') "><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                   <!-- <a onclick="eventosLanding('Correo', 'mailto:rodrigo.calderon@davila.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>-->
-                </div>
-                
-            </div>
-           <div id="cont3" class="p-2 pl-5 pr-5 hide">
+             <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
@@ -247,35 +219,35 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
-                   // 'Id_Admision': getUrlParameter('data1'),
-                   // 'Prevision': getUrlParameter('data2'),
-                   // 'Estado': getUrlParameter('data3'),
-                   // 'Ley': getUrlParameter('data4')
+                    'Nombre': $('#nombre').val(),
+                    'Apellido': $('#apellido').val(),
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
+                    'E-mail': $('#email').val(),
+                    'Carrera': $('#carrera').val(),
+                    'landing': '{!! $landing->name !!}'      
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
-                    'phone': getUrlParameter('telefono'),
-                 //   'Id_Admision': getUrlParameter('data1'),
-                 //   'Prevision': getUrlParameter('data2'),
-                 //   'Estado': getUrlParameter('data3'),
-                 //   'Ley': getUrlParameter('data4'),
-                     'rut': getUrlParameter('rut'),
+                    'mensaje': msg,
+                    'Nombre': $('#nombre').val(),
+                    'Apellido': $('#apellido').val(),
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
+                    'E-mail': $('#email').val(),
+                    'Credito': $('#credito').val()      
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
+              var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
+                'email': correo
+                //'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
