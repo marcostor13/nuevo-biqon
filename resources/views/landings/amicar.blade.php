@@ -63,9 +63,9 @@ $enddate=strtotime("+5 days", $startdate);
                     <strong>PARA RENOVAR TU AUTO </strong>
                   </h3>
                    
-                    <div class="date btn bg-success text-white col-12 mt-4">
+                    <div class="date btn bg-warning text-white col-12 mt-4">
                     <span>AGENDA TU VISITA</span>
-                    <input id="date1"  type="date" class="btn-date text-success" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
 
 
@@ -79,12 +79,12 @@ $enddate=strtotime("+5 days", $startdate);
                      <br>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
                 </p></h4>
-                <div class="date btn bg-success text-white col-12 mt-4">
+                <div class="date btn bg-warning text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-success" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                <button onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"' class="btn bg-success text-white col-12 mt-4">PAGAR AHORA</button>
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-4">YA PAGUE</button>
+                <button onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"' class="btn bg-warning text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-warning text-white col-12 mt-4">YA PAGUE</button>
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961706239&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
