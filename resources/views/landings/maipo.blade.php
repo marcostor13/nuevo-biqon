@@ -150,7 +150,7 @@ $enddate=strtotime("+5 days", $startdate);
                 }else{
                      $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta o dirigirse a alguna de nuestra sucursal.");
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a alguna de nuestra sucursal.");
                 }
             })
             .fail(function() {
