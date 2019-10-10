@@ -59,20 +59,20 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
 
             <div id="cont1" class="p-5 ">
-                <h3 class="text-warning text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <h3 class="text-warning text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4">Validar</button>
                 <h5 id="error"class="text-white text-center mt-5"></h5>
             </div>
 
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-warning text-center">Estimado <span id="name"></span></h3>
+                <h3 class="text-warning text-center"> <strong> Estimado <span id="name"></span>  </strong> </h3>
 
-                <h4><p class="text-warning">
+                <h4><p class="text-warning"> <strong>
                    Si eres pensionado Te informamos que tienes un crédito pre aprobado por:
                      <br> <b>$ </b><b id="pay"></b>
                      <br>
-                    Te ofrecemos las siguientes opciones para contactarnos.
+                    Te ofrecemos las siguientes opciones para contactarnos. </strong>
                 </p></h4>
                 <div class="date btn bg-warning text-black col-12 mt-4">
                     <span>AGENDAR VISITA A NUESTRA SUCURSAL</span>
