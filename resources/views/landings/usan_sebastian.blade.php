@@ -1,15 +1,21 @@
 @extends('layouts.landing')
 
-@section('title', 'USS')
+@section('title', 'Financoop')
 
 @section('content')
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
+<style>
+.opaco{
+    display: none !important; 
 
-<style type="text/css">
-    
+}
+.input{
+  border-color: #A1CBF3 !important;
+}
+     
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border: 0;
@@ -44,45 +50,34 @@ $enddate=strtotime("+5 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
-    
 </style>
-
-    <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+    <div id="CLINICA_DAVILA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
         <div class="opaco"></div>
 
-        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="mafchile">
+       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
 
-             <div id="cont1" class="p-3 ">|
-                <div class="card">     
-                <div class="card-body">
+            <div id="cont1" class="p-5 ">|
+                 
                   <!-- Heading -->
-                  <h3 class="dark-grey-text text-center">
-                    <strong>¿TIENES CONSULTAS?
-                    NOSOTROS TE AYUDAMOS</strong>
-                  </h3>
+                  <h4 class="dark-grey-text text-center">
+                    <strong>Contáctanos</strong> <hr><br>Envíanos tu consulta y nos contactaremos contigo
+                  </h4>
                   <hr>
 
                   <div class="d-flex justify-content-between  m-0">
-                    <div class="md-form col-6  m-0">
+                    <div class="md-form col-  m-0">
+                      <input type="text" id="nombre" class="form-control" required>
                       <label for="form3">Nombre</label>
-                      <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
-                      
                     </div>
                     <div class="md-form col-6  m-0">
-                      <label for="form2">Apellido</label>
                       <input type="text" id="apellido" class="form-control" required>
-                      
+                      <label for="form2">Apellido</label>
                     </div>
                   </div>
                   
-                  <div class="md-form  m-0">
-                    <input type="text" id="email" class="form-control" required>
-                    <label for="form2">E-mail</label>
-                  </div>
-
-                  <div class="d-flex justify-content-between">
+                 <div class="d-flex justify-content-between">
 
                     <div class="md-form col-6  m-0">
                       <input type="text" id="rut" class="form-control" required>
@@ -92,63 +87,47 @@ $enddate=strtotime("+5 days", $startdate);
                       <input type="text" id="telefono" class="form-control" required>
                       <label for="form2">Teléfono</label>
                     </div>
-                  </div>   
+                  </div> 
+
+
+                  <div class="md-form  m-0">
+                    <input type="text" id="email" class="form-control" required>
+                    <label for="form2">E-mail</label>
+                  </div>  
 
                   <div class="md-form">
-                    <select class="form-control" id="carrera" required>
-                      <option value="" data-select2-id="4">-- Selecciona una carrera</option>
-                      <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
-                      <option value="Ingeniería en Administración de Empresas Mención Gestión Empresarial" data-select2-id="9">Ingeniería en
-                        Administración de Empresas Mención Gestión Empresarial</option>
-                      <option value="Ingeniería en Gestión en Tecnologías de la Información" data-select2-id="10">Ingeniería en Gestión en
-                        Tecnologías de la Información</option>
-                      <option value="Ingeniería en Tecnologías de la Información y Comunicaciones" data-select2-id="11">Ingeniería en
-                        Tecnologías de la Información y Comunicaciones</option>
-                      <option value="Ingeniería Industrial" data-select2-id="12">Ingeniería Industrial</option>
-                      <option value="Contador Auditor" data-select2-id="13">Contador Auditor</option>
-                      <option value="Ingeniería Civil Industrial" data-select2-id="14">Ingeniería Civil Industrial</option>
-                      <option value="Ingeniería en Prevención de Riesgos" data-select2-id="15">Ingeniería en Prevención de Riesgos</option>
-                      <option value="Ingeniería en Comercio Internacional" data-select2-id="16">Ingeniería en Comercio Internacional
-                      </option>
-                      <option value="Ingeniería en Logística y Transporte" data-select2-id="17">Ingeniería en Logística y Transporte
-                      </option>
-                      <option value="Administración Pública" data-select2-id="18">Administración Pública</option>
-                      <option value="Ingeniería en Administración de Empresas Mención Control de Gestión" data-select2-id="19">Ingeniería en
-                        Administración de Empresas Mención Control de Gestión</option>
-                      <option value="Ingeniería en Administración de Empresas Mención Gestión de Personas" data-select2-id="20">Ingeniería
-                        en Administración de Empresas Mención Gestión de Personas</option>
-                      <option value="Ingeniería en Administración de Empresas Mención Finanzas Corporativas" data-select2-id="21">Ingeniería
-                        en Administración de Empresas Mención Finanzas Corporativas</option>
-                      <option value="Ingeniería en Administración de Empresas Mención Marketing Digital" data-select2-id="22">Ingeniería en
-                        Administración de Empresas Mención Marketing Digital</option>
-                      <option value="Psicología" data-select2-id="23">Psicología</option>
-                      <option value="Pedagogía en Educación Diferencial" data-select2-id="24">Pedagogía en Educación Diferencial</option>
-                      <option value="Trabajo Social" data-select2-id="25">Trabajo Social</option>
+                    <select class="form-control" id="credito" required>
+                      <option value="" data-select2-id="4">Producto de Interes</option>
+                      
+                      <option value="Credito de Consumo Pensionado IPS" data-select2-id="2">Credito de Consumo Pensionado IPS</option>
+                       <option value="Credito de consumo programa ONG - PMU y Pro Emp" data-select2-id="2">Credito de consumo programa ONG - PMU y Pro Em</option>
+                        <option value="Ahorro con depsoitos a Plazo" data-select2-id="2">Ahorro con depsoitos a Plazo</option>
+                         <option value="Ahrro con capital social" data-select2-id="2">Ahrro con capital social</option>
                     </select>
                   </div>
 
                   <div class="text-center">
                     <hr>
-                   <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Información');eventosLanding('Solicitud de Información'); return false;">Contactame</button>
-                   <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
+                    <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Credito');eventosLanding('Solicitud Credito'); return false;">Contactame</button>
+                    
                   </div>
 
-                </div> </div> </div>
-
-                <div id="cont3" class="p-2 pl-5 pr-5 hide">
+               
+            </div>
+            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
-                </div>
+                    </div>
+
         </div>
     </div>
 
-    <script>
+     <script>
    //EVENT 1
-        
-        $(function(){
+       $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
@@ -179,7 +158,7 @@ $enddate=strtotime("+5 days", $startdate);
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
+                   /// $('#dato1').text(id_adm);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -225,27 +204,25 @@ $enddate=strtotime("+5 days", $startdate);
                     'Apellido': $('#apellido').val(),
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
-                    'E-mail': $('#email').val(),
-                    'Carrera': $('#carrera').val(),
-                    'landing': '{!! $landing->name !!}'      
-                    
+                    'E-mail': $('#correo').val(),
+                    'Credito': $('#credito').val()                
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'mensaje': msg,
-                    'Nombre': $('#nombre').val(),
-                    'Apellido': $('#apellido').val(),
-                    'RUT': $('#rut').val(),
-                    'Telefono': $('#telefono').val(),
-                    'E-mail': $('#email').val(),
-                    'Credito': $('#credito').val()      
+                    'nombre': $('#name').text(),
+                    //'monto': getUrlParameter('monto'),
+                    'phone': getUrlParameter('telefono'),
+                 //   'Id_Admision': getUrlParameter('data1'),
+                 //   'Prevision': getUrlParameter('data2'),
+                 //   'Estado': getUrlParameter('data3'),
+                 //   'Ley': getUrlParameter('data4'),
+                     'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-
-              var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -261,7 +238,7 @@ $enddate=strtotime("+5 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
+                     $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
