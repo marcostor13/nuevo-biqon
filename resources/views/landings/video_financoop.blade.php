@@ -23,13 +23,23 @@
                 </div>
                 <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">CLICK AQUÍ SI DESEAS QUE TE CONTACTEMOS</button>
             </div>
+            <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-black text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
+                    </div>
 
+        </div>
             <div class=" tagline w3-center w3-animate-top black-text">Binteraction.com</div>
         </div>
     <!--</div>-->
 
-    <script>
-
+   
+     <script>
+   //EVENT 1
+        
         $(function(){
             events({    
                 'name': 'Visita',
@@ -38,25 +48,8 @@
             });
         }); 
 
-        let eventosLanding = function(name){
-            
-            let json_datos = getAllUrlParameter(); 
-
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
-
-            events({    
-                'name': name,
-                'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(json_datos)
-            });
-        }
-
-        //EVENT 1
-        
-
-        function event1(){
-                            
+         function event1(){
+    
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
@@ -94,31 +87,56 @@
             });
 
         }
+        
+
+        let eventosLanding = function(name){
+            
+            let json_datos = getAllUrlParameter(); 
+
+            json_datos.nombre = $('#name').text();
+            json_datos.monto = $('#pay').text();
+
+            events({    
+                'name': name,
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(json_datos)
+            });
+        }
+
+     
 
         function sendMail(msg = false){
 
-            console.log({!! $landing->name !!}); 
+            console.log('{!! $landing->name !!}'); 
             
             let data; 
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'nombre': $('#name').text(),
-                    'saldo': $('#pay').text()
+                    'Nombre': $('#name').text(),
+                    'monto': getUrlParameter('monto'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                   
+                    
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text(),
-                    'landing': {!! $landing->name !!}
+                    'monto': getUrlParameter('monto'),
+                    'phone': getUrlParameter('telefono'),
+                     'rut': getUrlParameter('rut'),
+                    'landing': '{!! $landing->name !!}'
                 } 
             }
 
+            var correo = ["gbahamondes@gmail.com","jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
-               'email': '{!! $landing->email !!}'
+                'email': correo
+                //'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -130,9 +148,13 @@
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                    $('#message').text('Gracias por su información');
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
                 }
             })
@@ -198,6 +220,8 @@
 
             return obj;  
         };
+
+      
         
     
     </script>
