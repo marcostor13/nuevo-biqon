@@ -59,21 +59,27 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
 
             <div id="cont1" class="p-5 ">
-                <h3 class="text-danger text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3>
+                <div class="card">     
+                <div class="card-body">
+                <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4">Validar</button>
                 <h5 id="error"class="text-white text-center mt-5"></h5>
             </div>
 
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-danger text-center"> <strong> Estimado <span id="name"></span>  </strong> </h3>
+                <div class="card">     
+                <div class="card-body">
+                <h3 class="text-black text-center"> <strong> Estimado <span id="name"></span>  </strong> </h3>
 
-                <h4><p class="text-danger"> <strong>
+                <h4><p class="text-black"> <strong>
                    Si eres pensionado Te informamos que tienes un crédito pre aprobado por:
                      <br> <b>$ </b><b id="pay"></b>
                      <br>
                     Te ofrecemos las siguientes opciones para contactarnos. </strong>
                 </p></h4>
+
+                </div> </div>
                 <div class="date btn bg-warning text-black col-12 mt-4">
                     <span>AGENDAR VISITA A NUESTRA SUCURSAL</span>
                     <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
