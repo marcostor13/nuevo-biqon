@@ -60,45 +60,23 @@ $enddate=strtotime("+5 days", $startdate);
 
             <div id="cont1" class="p-5 ">
                     <div class="title text-center">
+                        <h2 class="dark-blue-text text-center">
+                          <br> <strong>  Síguenos en Instagram <br> y adquiere esta promoción!
+                  </strong></h2>
                     <br><br><br>
                  <div class="row">
                  <div class="col">  
-                <a  href="https://maps.app.goo.gl/KjBS3At284ux1A2C8"><img src="https://icon-library.net/images/google-map-logo-icon/google-map-logo-icon-5.jpg" /></a> 
+                <a  href="https://maps.app.goo.gl/KjBS3At284ux1A2C8"><img  width="40" src="https://icon-library.net/images/google-map-logo-icon/google-map-logo-icon-5.jpg" /></a> 
                 </div>
                 <div class="col">
-                <a  href="https://www.instagram.com/cafeteriasweetcoffee/"><img src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" /></a>
+                <a  href="https://www.instagram.com/cafeteriasweetcoffee/"><img  width="40" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" /></a>
                 </div>
                  </div> 
-                <h2 class="dark-blue-text text-center">
-                          <br> <strong>  Síguenos en Instagram <br> y adquiere esta promoción!
-                  </strong></h2>
+                
                   </div>
             </div>
 
-            <div id="cont2" class="p-5 hide">
-                <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
-
-                <h4><p class="text-black">
-                   Te informamos que presentas un retraso en el pago de cuotas de tu crédito por un monto nominal de: <br> <b>$ </b><b id="pay"></b>, mas recargos por mora.
-                     <br>
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
-                </p></h4>
-                <div class="date btn bg-success text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-success" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-                <button onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"' class="btn bg-success text-white col-12 mt-4">PAGAR AHORA</button>
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-4">YA PAGUE</button>
-                <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961706239&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56961706239"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
-                   
-                    <a onclick="eventosLanding('Correo');" href="mailto: arojas@zonasursa.cl"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
-                </div>
-                
-            </div>
-            <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                  <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
