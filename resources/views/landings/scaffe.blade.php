@@ -51,7 +51,7 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
 </style>
-    <div id="SCoffe" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+    <div id="SCoffe" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: repeat; background-size: cover;" >
 
         <div class="opaco"></div>
 
@@ -63,10 +63,10 @@ $enddate=strtotime("+5 days", $startdate);
                     <br><br><br>
                  <div class="row">
                  <div class="col">  
-                <a  href="https://maps.app.goo.gl/KjBS3At284ux1A2C8"><img src="img/maps.png" /></a> 
+                <a  href="https://maps.app.goo.gl/KjBS3At284ux1A2C8"><img src="https://icon-library.net/images/google-map-logo-icon/google-map-logo-icon-5.jpg" /></a> 
                 </div>
                 <div class="col">
-                <a  href="https://www.instagram.com/cafeteriasweetcoffee/"><img src="img/insta.png" /></a>
+                <a  href="https://www.instagram.com/cafeteriasweetcoffee/"><img src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" /></a>
                 </div>
                  </div> 
                 <h2 class="dark-blue-text text-center">
