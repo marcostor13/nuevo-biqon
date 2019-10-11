@@ -51,6 +51,8 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
 </style>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <div id="AmiCar" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain;" >
 
         <div class="opaco"></div>
@@ -65,7 +67,9 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     <div class="date btn bg-warning text-white col-12 mt-4">
                     <span>AGENDA TU VISITA</span>
-                     <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                     <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php echo date('Y-m-d')?>"/>
+
+                      <div id="calendar" name="fecha"></div>
                 </div>
 
 
@@ -85,6 +89,12 @@ $enddate=strtotime("+5 days", $startdate);
      <script>
    //EVENT 1
         
+         $('#calendar').datepicker({
+    inline: true,
+    firstDay: 1,
+    showOtherMonths: true,
+    dayNamesMin: ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab']
+  });
         $(function(){
             events({    
                 'name': 'Visita',
