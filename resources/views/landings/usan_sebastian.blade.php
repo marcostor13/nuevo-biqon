@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'Financoop')
+@section('title', 'USS')
 
 @section('content')
 <?php
@@ -58,41 +58,43 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
 
-            <div id="cont1" class="p-5 ">|
-                 
+            <div id="cont1" class="p-3 ">|
+                  <div class="card">     
+                <div class="card-body">
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
-                    <strong>Contáctanos</strong> <hr><br>Envíanos tu consulta y nos contactaremos contigo
+                    <<strong>¿TIENES CONSULTAS?
+                    NOSOTROS TE AYUDAMOS</strong>
                   </h4>
                   <hr>
 
                   <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-  m-0">
-                      <input type="text" id="nombre" class="form-control" required>
-                      <label for="form3">Nombre</label>
+                      <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
+                      <label for="form3"></label>
                     </div>
                     <div class="md-form col-6  m-0">
-                      <input type="text" id="apellido" class="form-control" required>
-                      <label for="form2">Apellido</label>
+                      <input type="text" id="apellido" class="form-control" required placeholder="Apellido">
+                      <label for="form2"></label>
                     </div>
                   </div>
                   
                  <div class="d-flex justify-content-between">
 
                     <div class="md-form col-6  m-0">
-                      <input type="text" id="rut" class="form-control" required>
-                      <label for="form2">RUT</label>
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <label for="form2"></label>
                     </div>
                     <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required>
-                      <label for="form2">Teléfono</label>
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
+                      <label for="form2"></label>
                     </div>
                   </div> 
 
 
                   <div class="md-form  m-0">
-                    <input type="text" id="email" class="form-control" required>
-                    <label for="form2">E-mail</label>
+                    <input type="text" id="email" class="form-control" required placeholder="E-mail">
+                    <label for="form2"></label>
                   </div>  
 
                   <div class="md-form">
@@ -111,7 +113,8 @@ $enddate=strtotime("+5 days", $startdate);
                     <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Credito');eventosLanding('Solicitud Credito'); return false;">Contactame</button>
                     
                   </div>
-
+                    </div>
+                        </div>
                
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
