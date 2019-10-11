@@ -61,9 +61,9 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AmiCar">
 
             <div id="cont1" class="p-5 ">
-               <div class="date btn bg-danger text-white col-12 mt-4">
+               <div class="date btn bg-warning text-black col-12 mt-4">
                     <span>APARA RENOVAR TU AUTO <br> AGENDA TU VISITA </span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>"/>
                 </div>
 
 
