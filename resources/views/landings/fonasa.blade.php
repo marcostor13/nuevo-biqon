@@ -71,18 +71,18 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
+                <h3 class="text-black text-center">Estimado (a) <strong><span id="name"></span> </strong></h3>
 
                 <h4><p class="text-black">
-                   Te informamos que presentas un retraso en el pago de cuotas de tu crédito por un monto nominal de: <br> <b>$ </b><b id="pay"></b>, mas recargos por mora.
+                   Le Informamos que <strong> FONASA</strong> nos ha encomendado realizar la Cobranza Judicial por concepto de no pago de cotizaciones de salud por un monto nominal de <strong> <br> <b>$ </b><b id="pay"></b></strong>,  mas recargos por mora.
                      <br>
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
+                    Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones para regularizar la deuda.
                 </p></h4>
                 <div class="date btn bg-primary text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                <button onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
+               <!-- <button onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>-->
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
@@ -90,7 +90,7 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     <a onclick="eventosLanding('Llamar');" href="tel:+56964952525"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
-                    <a onclick="eventosLanding('Correo');" href="mailto: mheredia@herediaabogados.cl"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto: mheredia@herediaabogados.cl?subject=Landing"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
             </div>
