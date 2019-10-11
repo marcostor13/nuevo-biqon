@@ -65,7 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     <div class="date btn bg-warning text-white col-12 mt-4">
                     <span>AGENDA TU VISITA</span>
-                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                     <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
 
 
@@ -158,12 +158,11 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#name').text(),
+                    'Nombre': getUrlParameter('nombre'),
                     'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
-                   
-                    
+                    'Telefono': getUrlParameter('telefono')
+  
                 }
             }else{
                 let date = $('#date1').val();
@@ -183,7 +182,7 @@ $enddate=strtotime("+5 days", $startdate);
                 'email': correo
                 //'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
-                //'email': 'veronica.inttegrados@gmail.com'
+                //'email': 'patricio.aravena@amicar.cl, carla.torres@amicar.cl'
             }
             $.ajaxSetup({
                 headers: {
@@ -201,7 +200,7 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                    $('#message').text('Gracias, Su Solicitud Fue enviada a nuestra área. Le esperamos el Dia indicado');
                 }
             })
             .done(function(e) {
