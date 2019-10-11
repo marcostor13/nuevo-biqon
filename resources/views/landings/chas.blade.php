@@ -91,7 +91,8 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Whatsapp');" href="https://mlx.cl/y/51"> <img width="50" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"> </a>
                    <!-- <a onclick="eventosLanding('Llamar');" href="tel:+56994497265 "><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>-->
-                    <a onclick="eventosLanding('Correo');" href="mailto: veronica.inttegrados@gmail.com"> <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> </a>
+                    <a onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> </a>
+
                   </div>                    
                 </div>
               </div>
@@ -182,8 +183,8 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                    'Nombre': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                    
@@ -193,8 +194,8 @@ $enddate=strtotime("+5 days", $startdate);
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                    'nombre':  getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
                      'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
