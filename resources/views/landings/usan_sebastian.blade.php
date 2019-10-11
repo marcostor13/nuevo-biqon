@@ -63,7 +63,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
-                    <<strong>¿TIENES CONSULTAS?
+                    <strong>¿TIENES CONSULTAS?
                     NOSOTROS TE AYUDAMOS</strong>
                   </h4>
                   <hr>
@@ -198,8 +198,8 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+            json_datos.nombre = $('#name').val();
+            json_datos.apellido = $('#apellido').val();
 
             events({    
                 'name': name,
@@ -223,7 +223,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
                     'E-mail': $('#correo').val(),
-                    'Credito': $('#credito').val()                
+                    'Carrera': $('#carrera').val()                
                 }
             }else{
                 let date = $('#date1').val();
