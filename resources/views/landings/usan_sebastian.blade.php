@@ -98,19 +98,34 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>  
 
                   <div class="md-form">
-                    <select class="form-control" id="credito" required>
-                      <option value="" data-select2-id="4">Producto de Interes</option>
+                    <select class="form-control" id="carrera" required>
+                      <option value="" data-select2-id="4">Selecciona una carrera</option>
                       
-                      <option value="Credito de Consumo Pensionado IPS" data-select2-id="2">Credito de Consumo Pensionado IPS</option>
-                       <option value="Credito de consumo programa ONG - PMU y Pro Emp" data-select2-id="2">Credito de consumo programa ONG - PMU y Pro Em</option>
-                        <option value="Ahorro con depsoitos a Plazo" data-select2-id="2">Ahorro con depsoitos a Plazo</option>
-                         <option value="Ahrro con capital social" data-select2-id="2">Ahrro con capital social</option>
+      <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
+      <option value="Ingeniería en Administración de Empresas Mención Gestión Empresarial" data-select2-id="9">Ingeniería en Administración de Empresas Mención Gestión Empresarial</option>
+      <option value="Ingeniería en Gestión en Tecnologías de la Información" data-select2-id="10">Ingeniería en Gestión en Tecnologías de la Información</option>
+      <option value="Ingeniería en Tecnologías de la Información y Comunicaciones" data-select2-id="11">Ingeniería en  Tecnologías de la Información y Comunicaciones</option>
+      <option value="Ingeniería Industrial" data-select2-id="12">Ingeniería Industrial</option>
+      <option value="Contador Auditor" data-select2-id="13">Contador Auditor</option>
+      <option value="Ingeniería Civil Industrial" data-select2-id="14">Ingeniería Civil Industrial</option>
+      <option value="Ingeniería en Prevención de Riesgos" data-select2-id="15">Ingeniería en Prevención de Riesgos</option>
+      <option value="Ingeniería en Comercio Internacional" data-select2-id="16">Ingeniería en Comercio Internacional </option>
+      <option value="Ingeniería en Logística y Transporte" data-select2-id="17">Ingeniería en Logística y Transporte </option>
+      <option value="Administración Pública" data-select2-id="18">Administración Pública</option>
+      <option value="Ingeniería en Administración de Empresas Mención Control de Gestión" data-select2-id="19">Ingeniería en Administración de Empresas Mención Control de Gestión</option>
+      <option value="Ingeniería en Administración de Empresas Mención Gestión de Personas" data-select2-id="20">Ingeniería en Administración de Empresas Mención Gestión de Personas</option>
+      <option value="Ingeniería en Administración de Empresas Mención Finanzas Corporativas" data-select2-id="21">Ingeniería  en Administración de Empresas Mención Finanzas Corporativas</option>
+      <option value="Ingeniería en Administración de Empresas Mención Marketing Digital" data-select2-id="22">Ingeniería en  Administración de Empresas Mención Marketing Digital</option>
+      <option value="Psicología" data-select2-id="23">Psicología</option>
+      <option value="Pedagogía en Educación Diferencial" data-select2-id="24">Pedagogía en Educación Diferencial</option>
+      <option value="Trabajo Social" data-select2-id="25">Trabajo Social</option>
+
                     </select>
                   </div>
 
                   <div class="text-center">
                     <hr>
-                    <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Credito');eventosLanding('Solicitud Credito'); return false;">Contactame</button>
+                    <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
                     
                   </div>
                     </div>
