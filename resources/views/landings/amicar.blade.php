@@ -63,11 +63,10 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont1" class="p-5 ">
                <div class="date btn bg-warning text-black col-12 mt-4">
                     <span>APARA RENOVAR TU AUTO <br> AGENDA TU VISITA </span>
-                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>"/> 
                 </div>
-
-
-            </div>
+             </div>
+        </div>
 
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
