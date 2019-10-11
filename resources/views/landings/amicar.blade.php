@@ -90,9 +90,9 @@ $enddate=strtotime("+5 days", $startdate);
    //EVENT 1
         
          $('#calendar').datepicker({
-    inline: true,
+    inline: false,
     firstDay: 1,
-    showOtherMonths: true,
+    showOtherMonths: false,
     dayNamesMin: ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab']
   });
         $(function(){
