@@ -24,7 +24,7 @@
                 
             </div>
 
-            <div class=" tagline w3-center w3-animate-top black-text">Binteraction.com</div>
+            <div class=" tagline w3-center w3-animate-top black-text"> Binteraction.com </div>
         </div>
     <!--</div>-->
 
