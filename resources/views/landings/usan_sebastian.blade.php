@@ -195,21 +195,20 @@ $enddate=strtotime("+5 days", $startdate);
         
 
         let eventosLanding = function(name){
-              let data; 
-            data = {
-                    'mensaje': msg,
-                    'Nombre': $('#nombre').val(),
-                    'Apellido': $('#apellido').val(),
-                    'RUT': $('#rut').val(),
-                    'Telefono': $('#telefono').val(),
-                    'E-mail': $('#correo').val(),
-                    'Carrera': $('#carrera').val()                
-                }
+            
+            let json_datos = getAllUrlParameter(); 
+
+            json_datos.nombre = $('#nombre').val();
+            json_datos.apellido = $('#apellido').val();
+            json_datos.rut = $('#rut').val();
+            json_datos.telefono = $('#telefono').val();
+            json_datos.correo = $('#correo').val();
+            json_datos.carrera =  $('#carrera').val();
 
             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(data)
+                'json_datos': JSON.stringify(json_datos)
             });
         }
 
