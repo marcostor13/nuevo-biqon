@@ -65,7 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
       <div class="container">
     
         <!--Grid row-->
-        <div class="card-body col-md-6 col-xl-5  ">
+        <div class="card-body ">
             <hr class="hr-light">
             <h3 class="green-text text-center">
              <strong> Tratamiento <br>PALO NEGRO <br> </strong> </h3> 
