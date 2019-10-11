@@ -53,7 +53,7 @@ $enddate=strtotime("+5 days", $startdate);
 </style>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <div id="AmiCar" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain;" >
+    <div id="AmiCar" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
         <div class="opaco"></div>
 
@@ -61,15 +61,9 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AmiCar">
 
             <div id="cont1" class="p-5 ">
-               <h3 class="orange-text text-center">
-                    <strong>PARA RENOVAR TU AUTO </strong>
-                  </h3>
-                   
-                    <div class="date btn bg-warning text-white col-12 mt-4">
-                    <span>AGENDA TU VISITA</span>
-                     <!--<input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php //echo date('Y-m-d')?>"/>-->
-
-                      <div id="calendar" name="fecha"></div>
+               <div class="date btn bg-danger text-white col-12 mt-4">
+                    <span>APARA RENOVAR TU AUTO <br> AGENDA TU VISITA </span>
+                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>"/>
                 </div>
 
 
@@ -89,13 +83,7 @@ $enddate=strtotime("+5 days", $startdate);
      <script>
    //EVENT 1
         
-         $('#calendar').datepicker({
-    inline: false,
-    firstDay: 1,
-    showOtherMonths: false,
-    dayNamesMin: ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab']
-  });
-        $(function(){
+           $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
@@ -175,7 +163,7 @@ $enddate=strtotime("+5 days", $startdate);
   
                 }
             }else{
-                let date = $('#calendar').val();
+                let date = $('#date1').val();
                 data = {
                     'fecha': date,
                     'nombre': getUrlParameter('nombre'),
