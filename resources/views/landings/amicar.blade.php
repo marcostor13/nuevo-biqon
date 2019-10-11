@@ -67,7 +67,7 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     <div class="date btn bg-warning text-white col-12 mt-4">
                     <span>AGENDA TU VISITA</span>
-                     <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php echo date('Y-m-d')?>"/>
+                     <!--<input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php //echo date('Y-m-d')?>"/>-->
 
                       <div id="calendar" name="fecha"></div>
                 </div>
@@ -175,7 +175,7 @@ $enddate=strtotime("+5 days", $startdate);
   
                 }
             }else{
-                let date = $('#date1').val();
+                let date = $('#calendar').val();
                 data = {
                     'fecha': date,
                     'nombre': getUrlParameter('nombre'),
