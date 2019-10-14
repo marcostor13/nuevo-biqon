@@ -57,7 +57,7 @@ $enddate=strtotime("+5 days", $startdate);
        <!-- <div class="opaco"></div>-->
 <div class="p-5"></div>
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3" src="{{$landing->logo}}" alt="HerediaAbogados">
+            <img style="max-width: 50%" class="img-fluid col-md-3 mt-1" src="{{$landing->logo}}" alt="HerediaAbogados">
 
             <!--<img style="max-width: 50%" class="img-fluid col-md-6 p-0  w-100" src="https://us.123rf.com/450wm/belchonock/belchonock1705/belchonock170500063/77460023-concepto-de-derecho-lugar-de-trabajo-del-abogado-con-la-computadora-port%C3%A1til-y-las-escalas-del-dise%C3%B1o-de-.jpg?ver=6" alt="HerediaAbogados">-->
 
