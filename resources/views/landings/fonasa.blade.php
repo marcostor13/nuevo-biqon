@@ -51,12 +51,11 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
 </style>
-<div class="p-5"></div>
 
     <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >
 
        <!-- <div class="opaco"></div>-->
-
+<div class="p-5"></div>
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3" src="{{$landing->logo}}" alt="HerediaAbogados">
 
