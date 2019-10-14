@@ -188,6 +188,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                    'landing': '{!! $landing->name !!}'
                    
                     
                 }
