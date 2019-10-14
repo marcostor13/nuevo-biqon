@@ -74,7 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado (a) <strong><span id="name"></span> </strong></h3>
 
                 <h4><p class="text-black">
-                   le informamos que su deuda de <strong> FONASA </strong> se encuentra en cobranza judicial por concepto de no pago de cotizaciones de salud.
+                   Le informamos que su deuda de <strong> FONASA </strong> se encuentra en cobranza judicial por concepto de no pago de cotizaciones de salud.
                      <br>
                     Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
                 </p></h4>
@@ -82,7 +82,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <span>Agendar compromiso de pago</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                    <button onclick="sendMail('El cliente indica paga en cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-primary text-white col-12 mt-4">Pagar en cuotas, contactar</button>
+                    <button onclick="sendMail('El cliente indica paga en cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-primary text-white col-12 mt-4">Pagar en cuotas, Contactar</button>
 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">Ya pague</button>
                 
