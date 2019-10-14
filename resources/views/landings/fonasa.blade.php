@@ -53,16 +53,16 @@ $enddate=strtotime("+5 days", $startdate);
 </style>
 <div class="p-5"></div>
 
-    <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >
+    <!--<div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >-->
 
-        <div class="opaco"></div>
+       <!-- <div class="opaco"></div>-->
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="HerediaAbogados">
+            <img style="max-width: 60%" class="img-fluid col-md-3" src="{{$landing->logo}}" alt="HerediaAbogados">
 
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="http://www.comunidad.madrid/sites/default/files/styles/image_style_16_9/public/img/anatomia/shutterstock_1008384277.jpg" alt="HerediaAbogados">
+            <img style="max-width: 50%" class="img-fluid col-md-6" src="http://www.comunidad.madrid/sites/default/files/styles/image_style_16_9/public/img/anatomia/shutterstock_1008384277.jpg" alt="HerediaAbogados">
 
-            <div id="cont1" class="p-5 ">
+            <div id="cont1" class="p-4 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
