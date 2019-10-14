@@ -100,7 +100,7 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     <a onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="40" src="https://image.flaticon.com/icons/png/512/40/40316.png"></a>
                    
-                    <a onclick="eventosLanding('Correo');" href="mailto: contacto@binteraction.com"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto: jesus.binteraction@gmail.com?subject=Solicitud%20Credito"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
             </div>
