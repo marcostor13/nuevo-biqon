@@ -53,14 +53,14 @@ $enddate=strtotime("+5 days", $startdate);
 </style>
 <div class="p-5"></div>
 
-    <!--<div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >-->
+    <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >
 
        <!-- <div class="opaco"></div>-->
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3" src="{{$landing->logo}}" alt="HerediaAbogados">
 
-            <img style="max-width: 50%" class="img-fluid col-md-6 p-0  w-100" src="https://us.123rf.com/450wm/belchonock/belchonock1705/belchonock170500063/77460023-concepto-de-derecho-lugar-de-trabajo-del-abogado-con-la-computadora-port%C3%A1til-y-las-escalas-del-dise%C3%B1o-de-.jpg?ver=6" alt="HerediaAbogados">
+            <!--<img style="max-width: 50%" class="img-fluid col-md-6 p-0  w-100" src="https://us.123rf.com/450wm/belchonock/belchonock1705/belchonock170500063/77460023-concepto-de-derecho-lugar-de-trabajo-del-abogado-con-la-computadora-port%C3%A1til-y-las-escalas-del-dise%C3%B1o-de-.jpg?ver=6" alt="HerediaAbogados">-->
 
             <div id="cont1" class="p-4 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
