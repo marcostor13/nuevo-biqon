@@ -90,7 +90,7 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     <a onclick="eventosLanding('Llamar');" href="tel:+56964952525"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
-                    <a onclick="eventosLanding('Correo');" href="mailto: mheredia@herediaabogados.cl?subject=Landing"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto: mheredia@herediaabogados.cl?subject=Cobranza%20Ruta%20de%20Maipo"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
             </div>
