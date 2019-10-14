@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'maipo')
+@section('title', 'HerediaAbogados')
 
 @section('content')
 <?php
@@ -51,18 +51,17 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
 </style>
-    <div id="maipo" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+    <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="maipo">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="HerediaAbogados">
 
             <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
-                
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -72,25 +71,27 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
+                <h3 class="text-black text-center">Estimado (a) <strong><span id="name"></span> </strong></h3>
 
                 <h4><p class="text-black">
-                   Le Informamos que <strong> RUTA DE MAIPO</strong> nos ha encomendado realizar la Cobranza Judicial por concepto de no pago de cotizaciones de salud por un monto nominal de <strong> <br> <b>$ </b><b id="pay"></b></strong>,  mas recargos por mora.
+                   le informamos que su deuda de <strong> RUTA DEL MAIPO </strong>se encuentra en cobranza judicial por concepto de no pago de peajes.
                      <br>
-                    Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones para regularizar la deuda.
+                    Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
                 </p></h4>
                 <div class="date btn bg-primary text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <span>Agendar compromiso de pago</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
+                    <button onclick="sendMail('El cliente indica paga en cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-primary text-white col-12 mt-4">Pagar en cuotas, contactar</button>
+
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">Ya pague</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56964952525&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56964952525"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56226331354"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
-                    <a onclick="eventosLanding('Correo');" href="mailto: mheredia@herediaabogados.cl?subject=Cobranza%20Ruta%20de%20Maipo"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
             </div>
@@ -147,9 +148,9 @@ $enddate=strtotime("+5 days", $startdate);
                         }
                     });
                 }else{
-                     $('#cont1').addClass('hide');
+                    $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a alguna de nuestra sucursal.");
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a alguna de nuestras sucursales.");
                 }
             })
             .fail(function() {
@@ -202,7 +203,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["heredia.binteraction@gmail.com", "mheredia@herediaabogados.cl"];
+             var correo = ["heredia.binteraction@gmail.com", "jesus.binteraction@gmai.com", "judicial@herediaabogados.cl "];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -225,7 +226,7 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado. Nos pondremos en contacto con usted en los próximos días');
                 }
             })
             .done(function(e) {
