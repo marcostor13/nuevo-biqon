@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'fonasa')
+@section('title', 'HerediaAbogados')
 
 @section('content')
 <?php
@@ -51,12 +51,12 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
 </style>
-    <div id="fonasa" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+    <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="fonasa">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="HerediaAbogados">
 
             <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
