@@ -56,35 +56,35 @@ $enddate=strtotime("+5 days", $startdate);
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 50%" class="img-fluid col-md-3 mt-1" src="{{$landing->logo}}" alt="HerediaAbogados">
+            <!--<img style="max-width: 50%" class="img-fluid col-md-3 mt-1" src="{{$landing->logo}}" alt="HerediaAbogados">-->
 
             <div id="cont1" class="p-5 ">
-                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
-                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
+                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-white input" autofocus>
+                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4">Validar</button>
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
+                                 <h5 id="error"class="text-white text-center mt-5"></h5>
                             </div>
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-black text-center">Estimado (a) <strong><span id="name"></span> </strong></h3>
+                <h3 class="text-white text-center">Estimado (a) <strong><span id="name"></span> </strong></h3>
 
-                <h4><p class="text-black">
+                <h4><p class="text-white">
                    Le informamos que su deuda de <strong> FONASA </strong> se encuentra en cobranza judicial por concepto de no pago de cotizaciones de salud.
                      <br>
                     Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
                 </p></h4>
-                <div class="date btn bg-primary text-white col-12 mt-4">
+                <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>Agendar compromiso de pago</span>
-                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                    <button onclick="sendMail('El cliente indica paga en cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-primary text-white col-12 mt-4">Pagar en cuotas, Contactar</button>
+                    <button onclick="sendMail('El cliente indica paga en cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-danger text-white col-12 mt-4">Pagar en cuotas, Contactar</button>
 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">Ya pague</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">Ya pague</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
