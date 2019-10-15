@@ -3,131 +3,57 @@
 @section('title', 'Financoop')
 
 @section('content')
-<?php
-$startdate=strtotime("Today");
-$enddate=strtotime("+5 days", $startdate);
-?>
+
 <style>
 .opaco{
     display: none !important; 
-
 }
-.input{
-  border-color: #A1CBF3 !important;
-}
-     
-.card {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  border: 0;
-  font-weight: 400;
-}
-.card[class*=border] {
-  border: 1px solid #9e9e9e;
-  box-shadow: none;
-}
-.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
-  font-weight: 400;
-}
-.card .card-body .card-title a {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-title a:hover {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-text {
-  color: #747373;
-  font-size: 0.9rem;
-  font-weight: 400;
-}
-.card .md-form label {
-  font-weight: 300;
-}
-
-.oscurecer {
-  background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    )
-    }
 </style>
-    <div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+
+    <!--<div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Financoop">
 
-            <div id="cont1" class="p-5 ">|
-                 
-                  <!-- Heading -->
-                  <h4 class="dark-grey-text text-center">
-                    <strong>Contáctanos</strong> <hr><br>Envíanos tu consulta y nos contactaremos contigo
-                  </h4>
-                  <hr>
+            <div id="cont1">
+                <div class="videoWrapper">        
+                    <iframe width="400" height="320" src="{{asset('/files/finan_bienv.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
 
-                  <div class="d-flex justify-content-between  m-0">
-                    <div class="md-form col-  m-0">
-                      <input type="text" id="nombre" class="form-control" required>
-                      <label for="form3">Nombre</label>
-                    </div>
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="apellido" class="form-control" required>
-                      <label for="form2">Apellido</label>
-                    </div>
-                  </div>
-                  
-                 <div class="d-flex justify-content-between">
+                <div class="card">     
+                <div class="card-body">
+                <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> </div> </div>
 
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="rut" class="form-control" required>
-                      <label for="form2">RUT</label>
-                    </div>
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required>
-                      <label for="form2">Teléfono</label>
-                    </div>
-                  </div> 
-
-
-                  <div class="md-form  m-0">
-                    <input type="text" id="email" class="form-control" required>
-                    <label for="form2">E-mail</label>
-                  </div>  
-
-                  <div class="md-form">
-                    <select class="form-control" id="credito" required>
-                      <option value="" data-select2-id="4">Producto de Interes</option>
-                      
-                      <option value="Credito de Consumo Pensionado IPS" data-select2-id="2">Credito de Consumo Pensionado IPS</option>
-                       <option value="Credito de consumo programa ONG - PMU y Pro Emp" data-select2-id="2">Credito de consumo programa ONG - PMU y Pro Em</option>
-                        <option value="Ahorro con depsoitos a Plazo" data-select2-id="2">Ahorro con depsoitos a Plazo</option>
-                         <option value="Ahrro con capital social" data-select2-id="2">Ahrro con capital social</option>
-                    </select>
-                  </div>
-
-                  <div class="text-center">
-                    <hr>
-                    <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Credito');eventosLanding('Solicitud Credito'); return false;">Contactame</button>
-                    
-                  </div>
-
-               
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
             </div>
-            <div id="cont3" class="p-2 pl-3 pr-3 hide">
+            
+<div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:jesus.binteraction@gmail.com"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                </div>
+        </div>
+
+        <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                                <h5 id="message"class="text-black text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
+            <!--<div class=" tagline w3-center w3-animate-top black-text">Binteraction.com</div>-->
+        
+    <!--</div>-->
 
-        </div>
-    </div>
-
+   
      <script>
    //EVENT 1
-       $(function(){
+        
+        $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
@@ -158,7 +84,7 @@ $enddate=strtotime("+5 days", $startdate);
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                   /// $('#dato1').text(id_adm);
+                    $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -200,29 +126,29 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#nombre').val(),
-                    'Apellido': $('#apellido').val(),
-                    'RUT': $('#rut').val(),
-                    'Telefono': $('#telefono').val(),
-                    'E-mail': $('#correo').val(),
-                    'Credito': $('#credito').val()                
+                    'Mombre': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
+                    'Phone': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                     'Direccion': getUrlParameter('data1'),
+                     'Comuna': getUrlParameter('data2')                
+                    
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'fecha': date,
-                    'nombre': $('#name').text(),
+                    'Fecha': date,
+                    'Mombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
-                    'phone': getUrlParameter('telefono'),
-                 //   'Id_Admision': getUrlParameter('data1'),
-                 //   'Prevision': getUrlParameter('data2'),
-                 //   'Estado': getUrlParameter('data3'),
-                 //   'Ley': getUrlParameter('data4'),
-                     'rut': getUrlParameter('rut'),
+                    'Phone': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                     'Direccion': getUrlParameter('data1'),
+                     'Comuna': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com"];
+
+            var correo = ["gbahamondes@gmail.com","jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
