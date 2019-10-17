@@ -84,7 +84,7 @@ $enddate=strtotime("+5 days", $startdate);
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <!--<a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56964386131&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>-->
-                    <a onclick="eventosLanding('Llamar', 'tel:+56225940241') "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+tel:+56225940241"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    <!-- <a onclick="eventosLanding('Correo', 'mailto:rodrigo.calderon@davila.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>-->
                 </div>
                 
