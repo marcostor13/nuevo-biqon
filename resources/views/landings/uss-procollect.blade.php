@@ -84,7 +84,7 @@ $enddate=strtotime("+5 days", $startdate);
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <!--<a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56964386131&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>-->
-                    <a onclick="eventosLanding('Llamar');" href="tel:+tel:+56225940241"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56225940241"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    <!-- <a onclick="eventosLanding('Correo', 'mailto:rodrigo.calderon@davila.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>-->
                 </div>
                 
@@ -220,8 +220,8 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
-                    eventosLanding('compromiso de Pago');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado. Nos pondremos en contacto con usted en los próximos días');
+                    eventosLanding('Compromiso de Pago');
                 }
             })
             .done(function(e) {
