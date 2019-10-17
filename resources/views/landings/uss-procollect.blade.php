@@ -178,13 +178,10 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
                     'mensaje': msg,
                     'Nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
+                    'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                   // 'Id_Admision': getUrlParameter('data1'),
-                   // 'Prevision': getUrlParameter('data2'),
-                   // 'Estado': getUrlParameter('data3'),
-                   // 'Ley': getUrlParameter('data4')
+                   
                     
                 }
             }else{
@@ -192,13 +189,9 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
-                    'phone': getUrlParameter('telefono'),
-                 //   'Id_Admision': getUrlParameter('data1'),
-                 //   'Prevision': getUrlParameter('data2'),
-                 //   'Estado': getUrlParameter('data3'),
-                 //   'Ley': getUrlParameter('data4'),
-                     'rut': getUrlParameter('rut'),
+                    'monto': getUrlParameter('monto'),
+                    'rut': getUrlParameter('rut'),
+                    'phone': getUrlParameter('telefono'),                    
                     'landing': '{!! $landing->name !!}'
                 } 
             }
@@ -225,6 +218,7 @@ $enddate=strtotime("+5 days", $startdate);
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                    eventosLanding('compromiso de Pago');
                 }
             })
             .done(function(e) {
