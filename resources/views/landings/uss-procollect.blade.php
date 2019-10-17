@@ -69,7 +69,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 hide">|
                 <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
 
-                <p class="text-white">
+                <p class="text-black">
                     Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
                     <b>$ </b><b id="pay"></b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
