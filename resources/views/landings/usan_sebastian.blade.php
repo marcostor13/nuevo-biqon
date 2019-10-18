@@ -59,7 +59,7 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="USS">
             
 
-            <a target="_blank" href="https://www.advance.uss.cl/?utm_source=google&utm_medium=search&utm_campaign=advance&utm_term=generico&utm_content=nacional&gclid=EAIaIQobChMIsLn10Z-e4wIVFwSRCh0QaAqIEAAYASAAEgJdNvD_BwE" class="btn btn-indigo btn-lg">Ir a la página web
+            <a target="_blank" href="https://www.advance.uss.cl/?utm_source=google&utm_medium=search&utm_campaign=advance&utm_term=generico&utm_content=nacional&gclid=EAIaIQobChMIsLn10Z-e4wIVFwSRCh0QaAqIEAAYASAAEgJdNvD_BwE" class="btn bg-primary text-white col-12 mt-4">Ir a la página web
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
@@ -97,7 +97,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </div> 
 
 
-                  <div class="md-form col-6 m-0">
+                  <div class="md-form col-12 m-0">
                     <input type="text" id="email" class="form-control" required placeholder="E-mail">
                     <label for="form2"></label>
                   </div>  
