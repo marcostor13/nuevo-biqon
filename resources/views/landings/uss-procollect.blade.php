@@ -159,6 +159,7 @@ $enddate=strtotime("+5 days", $startdate);
 
             json_datos.nombre = $('#name').text();
             json_datos.monto = $('#pay').text();
+            json_datos.date = $('#date1').val();
 
             events({    
                 'name': name,
@@ -198,11 +199,11 @@ $enddate=strtotime("+5 days", $startdate);
 
            
             
-            //var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                 //'email': correo
-                'email':' {!! $landing->email !!}'
+                 'email': correo
+                //'email':' {!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
