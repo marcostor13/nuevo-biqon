@@ -240,10 +240,11 @@
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-
+             var correo = ["infopagatucuenta@davila.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
+                'email': correo
+               // 'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
