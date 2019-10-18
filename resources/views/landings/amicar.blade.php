@@ -73,7 +73,7 @@ $enddate=strtotime("+15 days", $startdate);
                     
                     <input id="date1" type="date" id="datepicker">
                         
-                     <button onclick="sendMail('El cliente indica visita'); eventosLanding('Agenda Visita'); return false;" class="btn bg-danger text-white col-12 mt-4">Vsitar</button>
+                     <button onclick="sendMail('El cliente indica visita'); eventosLanding('Agenda Visita'); return false;" class="btn bg-danger text-white col-12 mt-4">Visitar</button>
                        </div>
                        </div>
              </div>
@@ -181,7 +181,7 @@ $enddate=strtotime("+15 days", $startdate);
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': $('#name').text(),
+                    'nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'rut': getUrlParameter('rut'),
                     'phone': getUrlParameter('telefono'),
