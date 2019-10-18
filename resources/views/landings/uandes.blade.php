@@ -15,7 +15,7 @@
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UANDES">
+            <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UANDES">
 
             <div id="cont1">
                 <div class="videoWrapper">        
@@ -24,7 +24,7 @@
 
                 <div class="card">     
                 <div class="card-body">
-                <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> </div> </div>
+                <h4 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h4> </div> </div>
 
                 <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
             </div>
