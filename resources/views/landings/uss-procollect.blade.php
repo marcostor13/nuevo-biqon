@@ -159,7 +159,7 @@ $enddate=strtotime("+5 days", $startdate);
 
             json_datos.nombre = $('#name').text();
             json_datos.monto = $('#pay').text();
-            json_datos.date = $('#date1').text();
+            json_datos.date = $('#date1').val();
 
             events({    
                 'name': name,
