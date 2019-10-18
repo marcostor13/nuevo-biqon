@@ -10,7 +10,7 @@
 }
 </style>
 
-   <div id="UANDES" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+   <!--<div id="UANDES" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="opaco"></div>
 
