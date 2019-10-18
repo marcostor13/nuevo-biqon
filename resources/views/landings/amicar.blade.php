@@ -11,11 +11,6 @@ $enddate=strtotime("+15 days", $startdate);
   <link rel="stylesheet" href="/resources/demos/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
-  </script>
 <style>
 .opaco{
     display: none !important; 
@@ -97,7 +92,9 @@ $enddate=strtotime("+15 days", $startdate);
 
      <script>
    //EVENT 1
-        
+        $( function() {
+    $( "#datepicker" ).datepicker();
+  } );  
          $(function(){
             events({    
                 'name': 'Visita',
