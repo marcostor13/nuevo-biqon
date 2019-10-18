@@ -64,14 +64,14 @@ $enddate=strtotime("+15 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AmiCar">
 
-            <div id="cont" class="p-5 ">
+            <div id="cont1" class="p-5 ">
               <div class="card">
                         <div class="card-body">
                         <h3 class="text-grey text-center">Para Renovar tu auto <br> Agenda tu Visita  </h3>
                     
                         
                     
-                    <input id="date1" type="text" id="datepicker">
+                    <input id="date1" type="date" id="datepicker">
                         
                      <button onclick="sendMail('El cliente indica visita'); eventosLanding('Agenda Visita'); return false;" class="btn bg-danger text-white col-12 mt-4">Vsitar</button>
                        </div>
@@ -203,12 +203,12 @@ $enddate=strtotime("+15 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
+                     $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
+                     $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su visita fue agendada');
                      eventosLanding('Agendo Visita');
