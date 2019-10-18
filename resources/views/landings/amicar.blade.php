@@ -82,7 +82,7 @@ $enddate=strtotime("+5 days", $startdate);
      <script>
    //EVENT 1
         
-           $(function(){
+         $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
@@ -121,7 +121,9 @@ $enddate=strtotime("+5 days", $startdate);
                         }
                     });
                 }else{
-                    $('#error').text(e.msg);
+                    $('#cont1').addClass('hide');
+                     $('#cont5').removeClass('hide');
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
                 }
             })
             .fail(function() {
@@ -155,31 +157,29 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': getUrlParameter('nombre'),
-                    'monto': getUrlParameter('monto'),
+                    'Nombre': $('#name').text(),
+                   // 'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono')
-  
+                    'Telefono': getUrlParameter('telefono'),
+                   
+                    
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': getUrlParameter('nombre'),
-                    'monto': getUrlParameter('monto'),
+                    'nombre': $('#name').text(),
+                    //'monto': getUrlParameter('monto'),
+                    'rut': getUrlParameter('rut'),
                     'phone': getUrlParameter('telefono'),
-                     'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': correo
-                //'email': '{!! $landing->email !!}'
+                'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
-                //'email': 'patricio.aravena@amicar.cl, carla.torres@amicar.cl'
             }
             $.ajaxSetup({
                 headers: {
@@ -190,14 +190,15 @@ $enddate=strtotime("+5 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont1').addClass('hide');
+                     $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont1').addClass('hide');
+                     $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su Solicitud Fue enviada a nuestra área. Le esperamos el Dia indicado');
+                    $('#message').text('Gracias, Su visita fue agendada');
+                     eventosLanding('Agendo Visita');
                 }
             })
             .done(function(e) {
