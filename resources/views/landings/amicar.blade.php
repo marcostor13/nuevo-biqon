@@ -71,7 +71,7 @@ $enddate=strtotime("+15 days", $startdate);
                     
                         
                     
-                    <input class="md-form col-12  m-0" id="date1" type="date" id="datepicker">
+                    <input class="md-form col-12  m-0" id="date1" type="date" id="datepicker" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>">
                         
                      <button onclick="sendMail(); return false;" class="btn bg-warning text-white col-12 mt-4">Visitar</button>
                        </div>
