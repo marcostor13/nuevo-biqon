@@ -65,10 +65,10 @@ $enddate=strtotime("+15 days", $startdate);
                         <div class="card-body">
                         <h3 class="text-grey text-center">Para Renovar tu auto <br> Agenda tu Visita  </h3>
                     
-                        <div class="date btn bg-warning text-black col-12 mt-4">
+                        
                     <span>AGENDAR</span>
                     <input id="date1"  type="date" class="text-warning" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                        </div>
+                        
                     <button onclick="Mens1();" class="btn bg-warning text-white col-12 mt-2">PAGAR
                                 </button>
                        </div>
@@ -273,7 +273,7 @@ $enddate=strtotime("+15 days", $startdate);
         };
 
 
- function Mens1(){
+    function Mens1(){
         var dates; 
          dates = $('#date1').val(); //1234;
           
