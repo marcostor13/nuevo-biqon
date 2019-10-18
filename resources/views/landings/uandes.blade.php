@@ -152,7 +152,7 @@
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email': '{!! $landing->email !!}'
+                //'email': '{!! $landing->email !!}' mjsandovalg@uandes.cl
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
