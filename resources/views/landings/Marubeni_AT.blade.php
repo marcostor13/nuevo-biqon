@@ -51,7 +51,7 @@
 
     <script>
 
-        $(function(){
+     $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
@@ -59,25 +59,8 @@
             });
         }); 
 
-        let eventosLanding = function(name){
-            
-            let json_datos = getAllUrlParameter(); 
-
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
-
-            events({    
-                'name': name,
-                'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(json_datos)
-            });
-        }
-
-        //EVENT 1
-        
-
-        function event1(){
-                            
+         function event1(){
+    
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
@@ -107,7 +90,9 @@
                         }
                     });
                 }else{
-                    $('#error').text(e.msg);
+                    $('#cont1').addClass('hide');
+                     $('#cont5').removeClass('hide');
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
                 }
             })
             .fail(function() {
@@ -115,31 +100,54 @@
             });
 
         }
+        
+
+        let eventosLanding = function(name){
+            
+            let json_datos = getAllUrlParameter(); 
+
+            json_datos.nombre = $('#name').text();
+            json_datos.monto = $('#pay').text();
+
+            events({    
+                'name': name,
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(json_datos)
+            });
+        }
+
+     
 
         function sendMail(msg = false){
 
-            console.log({!! $landing->name !!}); 
+            console.log('{!! $landing->name !!}'); 
             
             let data; 
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'nombre': $('#name').text(),
-                    'saldo': $('#pay').text()
+                    'Nombre': $('#name').text(),
+                    'monto': getUrlParameter('monto'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                   
+                    
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text(),
-                    'landing': {!! $landing->name !!}
+                    'monto': getUrlParameter('monto'),
+                    'rut': getUrlParameter('rut'),
+                    'phone': getUrlParameter('telefono'),
+                    'landing': '{!! $landing->name !!}'
                 } 
             }
 
             let dataSend = {
                 'data': JSON.stringify(data),
-               'email': '{!! $landing->email !!}'
+                'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -151,10 +159,15 @@
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                    $('#message').text('Gracias por su información');
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                     eventosLanding('Compromiso de Pago');
                 }
             })
             .done(function(e) {
@@ -219,6 +232,8 @@
 
             return obj;  
         };
+
+      
         
     
     </script>
