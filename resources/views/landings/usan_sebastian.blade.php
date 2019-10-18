@@ -74,11 +74,11 @@ $enddate=strtotime("+5 days", $startdate);
                   <hr>
 
                   <div class="d-flex justify-content-between  m-0">
-                    <div class="md-form col-  m-0">
+                    <div class="md-form col-8  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
                       <label for="form3"></label>
                     </div>
-                    <div class="md-form col-6  m-0">
+                    <div class="md-form col-8  m-0">
                       <input type="text" id="apellido" class="form-control" required placeholder="Apellido">
                       <label for="form2"></label>
                     </div>
@@ -86,11 +86,11 @@ $enddate=strtotime("+5 days", $startdate);
                   
                  <div class="d-flex justify-content-between">
 
-                    <div class="md-form col-6  m-0">
+                    <div class="md-form col-8  m-0">
                       <input type="text" id="rut" class="form-control" required placeholder="RUT">
                       <label for="form2"></label>
                     </div>
-                    <div class="md-form col-6  m-0">
+                    <div class="md-form col-8  m-0">
                       <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
                       <label for="form2"></label>
                     </div>
