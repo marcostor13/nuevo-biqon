@@ -73,7 +73,7 @@ $enddate=strtotime("+15 days", $startdate);
                     
                     <input class="md-form col-12  m-0" id="date1" type="date" id="datepicker">
                         
-                     <button onclick="sendMail(); return false;" class="btn bg-danger text-white col-12 mt-4">Visitar</button>
+                     <button onclick="sendMail(); return false;" class="btn bg-warning text-white col-12 mt-4">Visitar</button>
                        </div>
                        </div>
              </div>
