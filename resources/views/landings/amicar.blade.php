@@ -153,7 +153,7 @@ $enddate=strtotime("+15 days", $startdate);
             json_datos.nombre = getUrlParameter('nombre');
             json_datos.rut = getUrlParameter('rut');
             json_datos.telefono = getUrlParameter('Telefono');
-            json_datos.rut = $('#date1').val();
+            json_datos.fecha = $('#date1').val();
            // json_datos.monto = $('#pay').text();
 
             events({    
