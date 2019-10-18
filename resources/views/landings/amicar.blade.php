@@ -5,7 +5,7 @@
 @section('content')
 <?php
 $startdate=strtotime("Today");
-$enddate=strtotime("+5 days", $startdate);
+$enddate=strtotime("+15 days", $startdate);
 ?>
 <style>
 .opaco{
@@ -61,10 +61,17 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AmiCar">
 
             <div id="cont1" class="p-5 ">
-               <div class="date btn bg-warning text-black col-12 mt-4">
-                    <span>APARA RENOVAR TU AUTO <br> AGENDA TU VISITA </span>
-                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>"/> 
+              <div class="card">
+                        <div class="card-body">
+                        <h5 class="text-grey text-center">Para Renovar tu auto <br> Agenda tu Visita  </h5>
+                        <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
+                        <div class="date btn bg-warning text-black col-12 mt-4">
+                    <span>AGENDAR</span>
+                    <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
+                        <h5 id="error"class="text-grey text-center mt-5"></h5>
+                       </div>
+                       </div>
              </div>
         </div>
 
