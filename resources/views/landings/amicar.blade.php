@@ -7,6 +7,15 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+15 days", $startdate);
 ?>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
 <style>
 .opaco{
     display: none !important; 
@@ -66,11 +75,10 @@ $enddate=strtotime("+15 days", $startdate);
                         <h3 class="text-grey text-center">Para Renovar tu auto <br> Agenda tu Visita  </h3>
                     
                         
-                    <span>AGENDAR</span>
-                    <input id="date1"  type="date" class="text-warning" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    
+                    <input id="date1" type="text" id="datepicker">
                         
-                    <button onclick="Mens1();" class="btn bg-warning text-white col-12 mt-2">PAGAR
-                                </button>
+                     <button onclick="sendMail('El cliente indica visita'); eventosLanding('Agenda Visita'); return false;" class="btn bg-danger text-white col-12 mt-4">Vsitar</button>
                        </div>
                        </div>
              </div>
@@ -271,46 +279,7 @@ $enddate=strtotime("+15 days", $startdate);
 
             return obj;  
         };
-
-
-    function Mens1(){
-        var dates; 
-         dates = $('#date1').val(); //1234;
-          
-            swal({
-             title: `Su Visita quedo Agendada para el: ${dates}`,
-             //text: "Expandir la Pantalla",
-             type: "success",
-             timer: 5000
-        }, 
-        function(){
-              let date = $('#date1').val();
-                data = {
-                    'fecha': date,
-                    'nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
-                    'rut': getUrlParameter('rut'),
-                    'phone': getUrlParameter('telefono'),
-                    'landing': '{!! $landing->name !!}'
-                } 
-            let dataSend = {
-                'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
-            }
-             $.post( "/sendMail", dataSend,function() {
-                console.log(dataSend);
-                $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
-                    $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su visita fue agendada');
-                     eventosLanding('Agendo Visita');
-                }
-        }
-    }
-
-        
-        
+       
     
     </script>
     
