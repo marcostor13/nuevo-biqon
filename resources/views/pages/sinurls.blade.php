@@ -18,6 +18,12 @@
         <div id="items" class="form-check form-group">
 
         </div>
+        <div class="form-group">
+            <label for="file">Seleccione los campos que quiera agregar a la url</label>                
+        </div>
+        <div id="itemsUrls" class="form-check form-group">
+
+        </div>
         {{-- <div class="form-group">
             <label>Landing</label>
             <input type="text" class="form-control" name="landing" placeholder="Ingrese URL">
@@ -90,8 +96,8 @@
                         let items = result.data;
 
                         for (var key in items) {
-                            $('#items').append(`<input class="form-check-input" type="checkbox" key="${key}" value="${items[key]}">
-                                            <label class="form-check-label">${items[key]}</label><br>`);
+                            $('#items').append(`<input class="form-check-input" type="checkbox" key="${key}" value="${items[key]}"><label class="form-check-label">${items[key]}</label><br>`);
+                            $('#itemsUrls').append(`<input class="form-check-input" type="checkbox" key="${key}" value="${items[key]}"><label class="form-check-label">${items[key]}</label><br>`);
                         }
                       
                     }else{
@@ -118,7 +124,7 @@
             }   
            
             
-            let items = $('input[type="checkbox"]:checked'); 
+            let items = $('#items input[type="checkbox"]:checked'); 
             let it = {};
             
             for (let i = 0; i < items.length; i++) {
@@ -127,10 +133,23 @@
                 it[key] = value;
               
             } 
+
+            let itemsUrls = $('#itemsUrls input[type="checkbox"]:checked'); 
+            let itUrls = {};
             
+            for (let i = 0; i < itemsUrls.length; i++) {
+                let key = itemsUrls[i].attributes.key.value;
+                let value = itemsUrls[i].value;                
+                itUrls[key] = value;
+              
+            } 
+            
+            data['itemsUrls'] = itUrls;
             data['items'] = it;
             data['type'] = 'sinurls';
-            
+
+            console.log(data);
+                        
             $('#cargando').show();
       
             $.ajax({

@@ -33,6 +33,20 @@ class fileController extends Controller
 
     }
 
+    public function getNextLetterByObj($objExcel){
+        $letters = array('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J','K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');            
+
+        for ($i=0; $i < count($letters); $i++) { 
+            
+            if (!isset($objExcel[1][$letters[$i]])){
+                return $letters[$i];
+            }           
+            
+        }
+
+    }
+
+
     public function getItemsExcel(Request $request){
 
         $file = $request['file'];
@@ -151,7 +165,7 @@ class fileController extends Controller
                 $url = $landing.$this->passToURL($dataURL);
             }
             
-            $nextLetter = $this->getNextLetter($key);  
+            $nextLetter = $this->getNextLetterByObj($dataExcel);  
             
             if($i == 2){
                 $objExcel->getActiveSheet()->setCellValue($nextLetter.'1', 'Mensaje');
@@ -192,20 +206,42 @@ class fileController extends Controller
         $dataExcel = $objExcel->getActiveSheet()->toArray(null, true, true, true);
 
         $items = $request['items']; 
+        $itemsUrls = $request['itemsUrls']; 
         $message = $request['mensaje'];
-        $key = 'A'; 
+        $keyURL = 'A'; 
 
         foreach ($items as $key2 => $value) {            
-            $key = $key2; 
+            $keyURL = $key2; 
             break;     
         }
        
                
         for ($i=2; $i < count($dataExcel)+1; $i++) {    
-            $url = trim($dataExcel[$i][$key]);
+
+
+            $dataURL = array();    
+            $lastKey = "";          
+
+            foreach ($itemsUrls as $key => $value) {
+                $lastKey = $key;          
+                if(trim($dataExcel[$i][$key]) == ''){
+                    break;
+                }
+                $dataURL[trim($value)] = trim($dataExcel[$i][$key]);   
+                   
+            }
+            
+            $url = trim($dataExcel[$i][$keyURL]);
+            $url = $url.$this->passToURL($dataURL);            
             $url = $this->saveURL($url, $request['name']);
             $msj = str_replace('(url)', $url, $message); 
-            $objExcel->getActiveSheet()->setCellValue($key.$i, $msj);
+
+            $nextLetter = $this->getNextLetterByObj($dataExcel);  
+            
+            if($i == 2){
+                $objExcel->getActiveSheet()->setCellValue($nextLetter.'1', 'Mensaje');
+            }                               
+            $objExcel->getActiveSheet()->setCellValue($nextLetter.$i, $msj);
         }
 
         $file = $request['file'];
