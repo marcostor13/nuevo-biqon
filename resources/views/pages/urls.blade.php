@@ -23,12 +23,12 @@
         </div>
         <div class="form-group">
             <label for="mensaje"></label>
-            <textarea class="form-control" name="mensaje" rows="3" maxlength="167"></textarea>
+            <textarea class="form-control" name="mensaje" rows="3" maxlength="167" placeholder="Ingrese el mensaje" required></textarea>
             <small class="form-text text-muted">Ingrese (url) donde irá la landing</small>
         </div>
         <div class="form-group">
-            <label>Nombre Empresa (Opcional)</label>
-            <input type="text" class="form-control" name="company" placeholder="Ingrese Empresa">
+            <label>Nombre Empresa</label>
+            <input type="text" class="form-control" name="company" placeholder="Ingrese Empresa" required>
         </div>
         <button type="submit" class="btn btn-primary">Generar</button>
         <img id="cargando" width="40" src="img/load.gif" alt="cargando..." style="display:none">
