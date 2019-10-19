@@ -334,7 +334,10 @@ class fileController extends Controller
 
     public function saveURL($url, $name){
 
-        $code = $this->generarCodigo(5); 
+        $firstLetter =  $name[0]; 
+        $lastLetter =substr($name, -1);
+
+        $code = $firstLetter.$lastLetter.$this->generarCodigo(5); 
 
         $flight = new Url;
         $flight->url = $url;
