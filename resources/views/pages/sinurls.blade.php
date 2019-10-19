@@ -22,12 +22,11 @@
             <label>Landing</label>
             <input type="text" class="form-control" name="landing" placeholder="Ingrese URL">
         </div> --}}
-        {{-- <div class="form-group">
+        <div class="form-group">
             <label for="mensaje"></label>
-            <textarea class="form-control" name="mensaje" rows="3" maxlength="167"></textarea>
+            <textarea class="form-control" name="mensaje" rows="3" maxlength="167" placeholder="Ingrese el mensaje"></textarea>
             <small class="form-text text-muted">Ingrese (url) donde irá la landing</small>
-        </div>
-        --}}
+        </div>       
         
         <div class="form-group">
             <label>Nombre Empresa (Opcional)</label>

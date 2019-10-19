@@ -192,6 +192,7 @@ class fileController extends Controller
         $dataExcel = $objExcel->getActiveSheet()->toArray(null, true, true, true);
 
         $items = $request['items']; 
+        $message = $request['mensaje'];
         $key = 'A'; 
 
         foreach ($items as $key2 => $value) {            
@@ -200,11 +201,11 @@ class fileController extends Controller
         }
        
                
-        for ($i=2; $i < count($dataExcel)+1; $i++) {             
-            $dataURL = array();  
+        for ($i=2; $i < count($dataExcel)+1; $i++) {    
             $url = trim($dataExcel[$i][$key]);
             $url = $this->saveURL($url, $request['name']);
-            $objExcel->getActiveSheet()->setCellValue($key.$i, $url);
+            $msj = str_replace('(url)', $url, $message); 
+            $objExcel->getActiveSheet()->setCellValue($key.$i, $msj);
         }
 
         $file = $request['file'];
