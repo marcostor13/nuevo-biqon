@@ -140,7 +140,13 @@ class URLController extends Controller
         $request->user()->authorizeRoles(['user', 'admin']);
         $id = Auth::id();
         $role_user = Role_User::where('user_id', $id)->first(); 
-        $landing = Landing::all();
+
+        if($role_user->role_id == 1){
+            $landing = Landing::all();
+        }else{
+            $landing = Landing::where('client_id', $id);            
+        }
+
         return view('pages.uploads', ['path' => 'uploads', 'user_id' => $id, 'landing' => $landing, 'role' => $role_user->role_id]);        
         
     }
