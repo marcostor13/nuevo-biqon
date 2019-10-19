@@ -336,6 +336,7 @@ class fileController extends Controller
 
         $firstLetter =  $name[0]; 
         $lastLetter =substr($name, -1);
+        
 
         $code = $firstLetter.$lastLetter.$this->generarCodigo(5); 
 
