@@ -229,6 +229,7 @@ $enddate=strtotime("+5 days", $startdate);
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado. Nos pondremos en contacto con usted en los próximos días');
+                     eventosLanding('Compromiso de Pago');
                 }
             })
             .done(function(e) {
