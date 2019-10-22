@@ -29,7 +29,7 @@
                 <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
             </div>
             
-<div class="d-flex justify-content-around align-content-center mt-4"> 
+            <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
                     <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+562226182049"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
@@ -127,11 +127,12 @@
                 data = {
                     'mensaje': msg,
                     'Mombre': getUrlParameter('nombre'),
-                    //'monto': getUrlParameter('monto'),
+                    'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
                      'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2')                
+                     'Comuna': getUrlParameter('data2'),
+                     'landing': '{!! $landing->name !!}'               
                     
                 }
             }else{
@@ -139,11 +140,11 @@
                 data = {
                     'Fecha': date,
                     'Mombre': getUrlParameter('nombre'),
-                    //'monto': getUrlParameter('monto'),
+                    'Rut': getUrlParameter('rut'),
+                    'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2'),
+                    'Direccion': getUrlParameter('data1'),
+                    'Comuna': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
