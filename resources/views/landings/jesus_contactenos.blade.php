@@ -73,7 +73,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                <button onclick='window.location.href="https://pagos.uss.cl/"' class="btn bg-danger text-grey col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="https://pagos.uss.cl/";eventosLanding("Pagina de Pagos");' class="btn bg-danger text-grey col-12 mt-4">PAGAR AHORA</button>
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-grey col-12 mt-4">YA PAGUE</button>
                 
@@ -219,6 +219,7 @@ $enddate=strtotime("+5 days", $startdate);
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                     eventosLanding('Compromiso de Pago');
                 }
             })
             .done(function(e) {
