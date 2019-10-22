@@ -72,7 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
             <div id="cont2" class="p-5 hide">
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
-
+ 
                 <h4><p class="text-black">
                    Te informamos que presentas un retraso en el pago de cuotas de tu crédito por un monto nominal de: <br> <b>$ </b><b id="pay"></b>, mas recargos por mora.
                      <br>
@@ -82,7 +82,8 @@ $enddate=strtotime("+5 days", $startdate);
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-success" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                <button onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"' class="btn bg-success text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"; eventosLanding("Pagina de Pagos");' class="btn bg-success text-white col-12 mt-4">PAGAR AHORA</button>
+                
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-4">YA PAGUE</button>
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961706239&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
