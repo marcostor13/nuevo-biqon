@@ -81,16 +81,16 @@
                                <strong> <h4><p id="dato1" class="dato1"> </p> </h4>  </strong>
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
-                               <button onclick="Mens1();" class="btn bg-primary text-white col-12 mt-2">PAGAR
+                               <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); '>
+                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>
                                 </div>
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); '>
+                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
                                 </div>
                                 
