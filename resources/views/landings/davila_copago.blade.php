@@ -75,7 +75,7 @@
                                 <p> Su ID admisión es: </p> 
                                 <p id="dato1" class="dato1"> </p><h4>
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
-                                <button onclick="Mens();" class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA</button>
+                                <button onclick="Mens(); eventosLanding('Pagina de Pagos');" class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA</button>
                                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
