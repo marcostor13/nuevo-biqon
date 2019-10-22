@@ -254,7 +254,7 @@ $enddate=strtotime("+5 days", $startdate);
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                //'email': 'mariavictoria.rojas@uss.cl'
             }
             $.ajaxSetup({
                 headers: {
