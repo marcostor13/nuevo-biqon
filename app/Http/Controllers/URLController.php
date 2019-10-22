@@ -140,11 +140,12 @@ class URLController extends Controller
         $request->user()->authorizeRoles(['user', 'admin']);
         $id = Auth::id();
         $role_user = Role_User::where('user_id', $id)->first(); 
+        $userInfo = User::where('id', $id)->first(); 
 
         if($role_user->role_id == 1){
             $landing = Landing::all();
         }else{
-            $landing = Landing::where('client_id', $id);            
+            $landing = Landing::whereIn('id', json_decode($userInfo->landings))->get();            
         }
 
         return view('pages.uploads', ['path' => 'uploads', 'user_id' => $id, 'landing' => $landing, 'role' => $role_user->role_id]);        
@@ -425,10 +426,7 @@ class URLController extends Controller
             $items[$letters[$i]] = $dataExcel[1][$letters[$i]]; 
         }                             
         DatosLanding::where('landing_id', $landing_id)->delete();
-        for ($i=2; $i < count($dataExcel)+1; $i++) {            
-            
-            
-            
+        for ($i=2; $i < count($dataExcel)+1; $i++) {                 
             $datosLanding = new DatosLanding;
             foreach ($items as $letter => $col) {                
                 $datosLanding[$col] = $dataExcel[$i][$letter];
