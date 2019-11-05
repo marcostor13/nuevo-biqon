@@ -220,19 +220,22 @@ class fileController extends Controller
 
 
             $dataURL = array();    
-            $lastKey = "";          
+            $lastKey = "";       
+            $url = trim($dataExcel[$i][$keyURL]);   
 
-            foreach ($itemsUrls as $key => $value) {
-                $lastKey = $key;          
-                if(trim($dataExcel[$i][$key]) == ''){
-                    break;
-                }
-                $dataURL[trim($value)] = trim($dataExcel[$i][$key]);   
-                   
-            }
+            if( is_array($itemsUrls) || is_object($itemsUrls) ){
+                foreach ($itemsUrls as $key => $value) {
+                    $lastKey = $key;          
+                    if(trim($dataExcel[$i][$key]) == ''){
+                        break;
+                    }
+                    $dataURL[trim($value)] = trim($dataExcel[$i][$key]);   
+                    
+                }                
+                $url = $url.$this->passToURL($dataURL);    
+            }            
             
-            $url = trim($dataExcel[$i][$keyURL]);
-            $url = $url.$this->passToURL($dataURL);            
+             
             $url = $this->saveURL($url, $request['name']);
             $msj = str_replace('(url)', $url, $message); 
 
