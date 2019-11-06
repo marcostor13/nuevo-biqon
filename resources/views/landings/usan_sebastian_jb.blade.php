@@ -207,7 +207,7 @@ $enddate=strtotime("+5 days", $startdate);
             json_datos.apellido = $('#apellido').val();
             json_datos.rut = $('#rut').val();
             json_datos.telefono = $('#telefono').val();
-            json_datos.correo = $('#correo').val();
+            json_datos.correo = $('#email').val();
             json_datos.carrera =  $('#carrera').val();
 
             events({    
@@ -231,7 +231,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'Apellido': $('#apellido').val(),
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
-                    'E-mail': $('#correo').val(),
+                    'E-mail': $('#email').val(),
                     'Carrera': $('#carrera').val()                
                 }
             }else{
