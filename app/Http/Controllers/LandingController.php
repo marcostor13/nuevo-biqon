@@ -171,7 +171,7 @@ class LandingController extends Controller
     public function newLanding(Request $request){
         $landing = new Landing;
         $landing->name = $request->name;
-        $landing->url = 'http://bint.ml/landings/'.strtolower($request->name);
+        $landing->url = 'https://bint.ml/landings/'.strtolower($request->name);
         $landing->logo = $request->logo;
         $landing->email = $request->email;
         $landing->background = $request->background;

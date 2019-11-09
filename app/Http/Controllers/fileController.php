@@ -348,7 +348,7 @@ class fileController extends Controller
         $flight->code = $code;
         $flight->save();
 
-        return 'http://bint.ml/'.$name.'/'.$code;
+        return 'https://bint.ml/'.$name.'/'.$code;
 
 
     }
