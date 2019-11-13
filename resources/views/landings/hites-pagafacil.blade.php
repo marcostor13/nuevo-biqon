@@ -28,8 +28,8 @@
                             </div>
                         </div>
                     </div>
-                     </div>
-            <div id="cont2"  class="p-4 ">
+        </div>
+            <div id="cont2"  class="p-4 hide">
                    <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
                     <h3 class="text-black text-center"> <strong> Con Hites, ahora es mas Fácil Pagar tu cuenta </strong> </h3>
                 
