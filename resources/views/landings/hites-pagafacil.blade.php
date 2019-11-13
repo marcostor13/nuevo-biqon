@@ -18,7 +18,7 @@
             <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Hites">
 
             <div id="cont1"  class="p-4 ">
-                   
+                   <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
                     <h3 class="text-black text-center"> <strong> Con Hites, ahora es mas Fácil Pagar tu cuenta </strong> </h3>
                 
 
@@ -104,8 +104,8 @@
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+            //json_datos.nombre = $('#name').text();
+          // json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -124,7 +124,7 @@
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Mombre': getUrlParameter('nombre'),
+                    'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
@@ -137,7 +137,7 @@
                 let date = $('#date1').val();
                 data = {
                     'Fecha': date,
-                    'Mombre': getUrlParameter('nombre'),
+                    'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
