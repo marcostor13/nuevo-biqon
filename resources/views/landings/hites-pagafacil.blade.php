@@ -22,11 +22,9 @@
                     <h3 class="text-black text-center"> <strong> Con Hites, ahora es mas Fácil Pagar tu cuenta </strong> </h3>
                 
 
-                <div class="card">     
-                <div class="card-body">
-                <h3 class="text-black text-center"> <strong> Paga Facil </strong> </h3> </div> </div>
+                <h3 class="text-black text-center"> <strong> Paga tu cuenta de forma rápida y segura</strong> </h3>
 
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong> Paga Facil  </strong> </h3> </button>
             </div>
             
 <div class="d-flex justify-content-around align-content-center mt-4"> 
@@ -130,8 +128,9 @@
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2')                
+                    // 'Direccion': getUrlParameter('data1'),
+                    // 'Comuna': getUrlParameter('data2')    
+                    'landing': '{!! $landing->name !!}'            
                     
                 }
             }else{
@@ -142,13 +141,14 @@
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2'),
+                   //  'Direccion': getUrlParameter('data1'),
+                    // 'Comuna': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-            var correo = ["gbahamondes@gmail.com","jesus.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com"];
+           // 'email': '{!! $landing->email !!}'
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
