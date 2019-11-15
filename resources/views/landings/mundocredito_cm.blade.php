@@ -164,8 +164,8 @@ $enddate=strtotime("+7 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction.cl"];
-           // var correo = ["mundocredito@prainabogados.cl"];
+
+            var correo = ["mundocredito@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
