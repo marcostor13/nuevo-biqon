@@ -150,6 +150,7 @@ $enddate=strtotime("+7 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                    'landing': '{!! $landing->name !!}'
                    
                     
                 }
@@ -165,7 +166,7 @@ $enddate=strtotime("+7 days", $startdate);
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com", "ltheza@prainabogados.cl"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
