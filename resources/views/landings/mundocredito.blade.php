@@ -49,9 +49,9 @@
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                    <a onclick="eventosLanding('Correo');" href="mailto:contacto@binteraction.com"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56972079494&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56972079494"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:ltheza@prainabogados.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
                 <h5 id="message"class="text-black text-center mt-5 hide"></h5>
             </div>
@@ -117,8 +117,7 @@
             let json_datos = getAllUrlParameter(); 
 
             json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
-
+            
             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
@@ -137,7 +136,7 @@
                 data = {
                     'mensaje': msg,
                     'Nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                    //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                    
@@ -148,16 +147,18 @@
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                   // 'monto': getUrlParameter('monto'),
                     'rut': getUrlParameter('rut'),
                     'phone': getUrlParameter('telefono'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
+            var correo = ["jesus.binteraction@gmail.com", "ltheza@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
+                'email': correo
+                //'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
