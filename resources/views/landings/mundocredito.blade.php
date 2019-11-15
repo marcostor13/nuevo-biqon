@@ -25,6 +25,7 @@
                 <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar </button>
             </div>
+
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -32,6 +33,7 @@
                             </div>
                         </div>
                     </div>
+
             <div id="cont2" class="p-5 hide">
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
@@ -52,16 +54,15 @@
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56972079494&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png"></a>
                     <a onclick="eventosLanding('Llamar');" href="tel:+56972079494"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                     <a onclick="eventosLanding('Correo');" href="mailto:ltheza@prainabogados.cl"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
-                </div>
-                  <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                </div>       
+            </div>
+            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
-                    </div>
             </div>
-
         </div>
     </div>
 
