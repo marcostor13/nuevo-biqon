@@ -44,7 +44,13 @@
                     <a onclick="eventosLanding('Llamar');" href="tel:+56964386129"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
                     <a onclick="eventosLanding('Correo');" href="mailto:alsanchez@prainabogados.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
-                <h5 id="message"class="text-white text-center mt-5 hide"></h5>
+               </div>
+                           <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
             </div>
 
         </div>
@@ -128,7 +134,7 @@
                 data = {
                     'mensaje': msg,
                     'Nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                    //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                    
@@ -139,16 +145,18 @@
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                    //'monto': getUrlParameter('monto'),
                     'rut': getUrlParameter('rut'),
                     'phone': getUrlParameter('telefono'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
+           var correo = ["alsanchez@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
+                'email': correo
+                //'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
