@@ -3,7 +3,7 @@
 @section('title', 'Marubeni')
 
 @section('content')
-
+ 
     <div id="marubeni" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
@@ -35,7 +35,7 @@
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56942115327&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
                     <a onclick="eventosLanding('Llamar');" href="tel:+56942115327"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                    <a onclick="eventosLanding('Correo');" href="mailto:lrijo@prainabogados.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:marubenicredit@prainabogados.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
                 <h5 id="message"class="text-white text-center mt-5 hide"></h5>
             </div>
@@ -139,9 +139,11 @@
                 } 
             }
 
+            var correo = ["marubenicredit@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
+                'email': correo
+                //'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
