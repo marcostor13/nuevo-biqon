@@ -3,7 +3,7 @@
 @section('title', 'Marubeni')
 
 @section('content')
-
+ 
     <div id="marubeni" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
@@ -139,9 +139,11 @@
                 } 
             }
 
+           var correo = ["ltheza@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
+                'email': correo
+                //'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
