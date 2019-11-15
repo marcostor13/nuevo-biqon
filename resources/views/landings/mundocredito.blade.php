@@ -53,7 +53,13 @@
                     <a onclick="eventosLanding('Llamar');" href="tel:+56972079494"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                     <a onclick="eventosLanding('Correo');" href="mailto:ltheza@prainabogados.cl"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>
+                 <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
                 <h5 id="message"class="text-black text-center mt-5 hide"></h5>
+                </div>
+                        </div>
+                    </div>
             </div>
 
         </div>
