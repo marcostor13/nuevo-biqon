@@ -211,8 +211,11 @@ class fileController extends Controller
         $keyURL = 'A'; 
 
         foreach ($items as $key2 => $value) {            
-            $keyURL = $key2; 
-            break;     
+            if($value == 'URL' || $value == 'url' || $value == 'Url'){
+                $keyURL = $key2; 
+                break; 
+            }
+                
         }
        
                
@@ -232,7 +235,7 @@ class fileController extends Controller
                     $dataURL[trim($value)] = trim($dataExcel[$i][$key]);   
                     
                 }                
-                $url = $url.$this->passToURL($dataURL);    
+                $url = x|x.$this->passToURL($dataURL);    
             }            
             
              
@@ -337,9 +340,13 @@ class fileController extends Controller
 
     public function saveURL($url, $name){
 
-        $firstLetter =  $name[0]; 
-        $lastLetter =substr($name, -1);
-        
+        if($name == null || $name == ''){
+            $firstLetter = substr(str_shuffle('ABCDEFGHIJKLMNOPQRSTUVWXYZ'),1,1);
+            $lastLetter = substr(str_shuffle('ABCDEFGHIJKLMNOPQRSTUVWXYZ'),1,1);            
+        }else{
+            $firstLetter =  $name[0]; 
+            $lastLetter =substr($name, -1);
+        }
 
         $code = $firstLetter.$lastLetter.$this->generarCodigo(5); 
 
@@ -348,13 +355,20 @@ class fileController extends Controller
         $flight->code = $code;
         $flight->save();
 
-        return 'https://bint.ml/'.$name.'/'.$code;
+        if($name == null || $name == ''){
+            return 'bint.ml/'.$code;        
+        }else{
+            return 'bint.ml/'.$name.'/'.$code;
+        }
+
+        
 
 
     }
 
 
-    public function routes($company, $code){        
+    public function routes($code){    
+                
         $flights = Url::where('code', $code)->first();         
         if($flights == ''){
             return 'No existe esta página'; 
