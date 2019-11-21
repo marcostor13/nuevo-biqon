@@ -232,7 +232,7 @@ class fileController extends Controller
                     $dataURL[trim($value)] = trim($dataExcel[$i][$key]);   
                     
                 }                
-                $url = $url.$this->passToURL($dataURL);    
+                $url = x|x.$this->passToURL($dataURL);    
             }            
             
              
