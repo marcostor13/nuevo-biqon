@@ -134,7 +134,7 @@
               
             } 
 
-            console.log(it);
+          //  console.log(it);
 
             let itemsUrls = $('#itemsUrls input[type="checkbox"]:checked'); 
             let itUrls = {};
