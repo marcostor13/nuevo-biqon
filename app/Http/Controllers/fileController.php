@@ -211,8 +211,11 @@ class fileController extends Controller
         $keyURL = 'A'; 
 
         foreach ($items as $key2 => $value) {            
-            $keyURL = $key2; 
-            break;     
+            if($value == 'URL' || $value == 'url' || $value == 'Url'){
+                $keyURL = $key2; 
+                break; 
+            }
+                
         }
        
                
