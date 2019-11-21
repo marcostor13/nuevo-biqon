@@ -36,7 +36,7 @@ $enddate=strtotime("+7 days", $startdate);
                 </p>
                 <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
                 <button onclick='window.location.href="https://www.mafchile.com/client/login";eventosLanding("Pagina de Pagos");' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
 
