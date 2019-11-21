@@ -51,5 +51,7 @@ Auth::routes();
 
 Route::get('/{company}/{code}', 'fileController@routes'); //URL CORTA
 
+Route::get('/{code}', 'fileController@routes'); //URL CORTA
+
 
 
