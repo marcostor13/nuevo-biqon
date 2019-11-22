@@ -84,11 +84,13 @@ $enddate=strtotime("+5 days", $startdate);
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                
                     <a onclick="eventosLanding('Llamar');" href="tel:+5625898377 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
                     <a onclick="eventosLanding('Correo', 'mailto:josesm@procollect.cl');" ><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+
+                    <a onclick="eventosLanding('Correo');" href="mailto:josesm@procollect.cl"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>
                 
             </div>
