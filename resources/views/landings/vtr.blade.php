@@ -88,8 +88,6 @@ $enddate=strtotime("+5 days", $startdate);
                 
                     <a onclick="eventosLanding('Llamar');" href="tel:+5625898377 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
-                    <a onclick="eventosLanding('Correo', 'mailto:josesm@procollect.cl');" ><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
-
                     <a onclick="eventosLanding('Correo');" href="mailto:josesm@procollect.cl"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>
                 
@@ -196,8 +194,8 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
-                    //'rut': getUrlParameter('rut'),
+                   // 'monto': getUrlParameter('monto'),
+                    'rut': getUrlParameter('rut'),
                     'phone': getUrlParameter('telefono'),                    
                     'landing': '{!! $landing->name !!}'
                 } 
