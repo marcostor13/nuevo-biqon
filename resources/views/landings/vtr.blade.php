@@ -136,7 +136,7 @@ $enddate=strtotime("+5 days", $startdate);
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    //$('#pay').text(e.data.monto);
+                    $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -144,9 +144,7 @@ $enddate=strtotime("+5 days", $startdate);
                         }
                     });
                 }else{
-                    $('#cont1').addClass('hide');
-                    $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
+                    $('#error').text(e.msg);
                 }
             })
             .fail(function() {
@@ -161,8 +159,7 @@ $enddate=strtotime("+5 days", $startdate);
             let json_datos = getAllUrlParameter(); 
 
             json_datos.nombre = $('#name').text();
-           // json_datos.monto = $('#pay').text();
-           // json_datos.date = $('#date1').val();
+            json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -185,7 +182,6 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'landing': '{!! $landing->name !!}'
                    
                     
                 }
@@ -194,20 +190,17 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                   // 'monto': getUrlParameter('monto'),
-                    'rut': getUrlParameter('rut'),
-                    'phone': getUrlParameter('telefono'),                    
+                    //'monto': getUrlParameter('monto'),
+                    'phone': getUrlParameter('telefono'),
+                     'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-
-           
-            
-           var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                // 'email': correo , "josesm@procollect.cl"
-                //'email':' {!! $landing->email !!}'
+                'email': correo
+                //'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -226,8 +219,9 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su compromiso de pago fue agendado. Nos pondremos en contacto con usted en los próximos días');
-                    eventosLanding('Compromiso de Pago');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                      eventosLanding('Compromiso de Pago');
+
                 }
             })
             .done(function(e) {
@@ -297,6 +291,5 @@ $enddate=strtotime("+5 days", $startdate);
         
     
     </script>
-    
 
 @endsection
