@@ -47,7 +47,7 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-    <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 50%;">
+    <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: auto;">
 
         <div class="opaco"></div>
 
@@ -55,9 +55,9 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">
 
              <div id="cont1" class="p-5 ">
-                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
+                <button onclick="event1(); return false;" class="btn bg-primary text-black col-12 mt-4"> Validar </button>
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -67,21 +67,21 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
+                <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
-                <p class="text-white">
+                <p class="text-black">
                     Te informamos que presentas un retraso en el pago tu cuenta 
                     <!-- por un monto total de, mas recargos por mora:
                     <b>$ </b><b id="pay"></b>-->
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
                 </p>
-                <div class="date btn bg-danger text-white col-12 mt-4">
+                <div class="date btn bg-primary text-black col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                <button onclick='window.location.href="https://pagos.uss.cl/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="https://pagos.uss.cl/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>
                 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
