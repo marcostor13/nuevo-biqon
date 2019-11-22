@@ -47,7 +47,7 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-    <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+    <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 50%;">
 
         <div class="opaco"></div>
 
@@ -87,7 +87,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
 
                     <a onclick="eventosLanding('Llamar');" href="tel:+5625898377 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-                    
+
                     <a onclick="eventosLanding('Correo', 'mailto:josesm@procollect.cl');" ><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>
                 
