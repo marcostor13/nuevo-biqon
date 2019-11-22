@@ -52,7 +52,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">
+            <img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">
 
              <div id="cont1" class="p-5 ">
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
@@ -70,7 +70,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
 
                 <p class="text-white">
-                    Te informamos que presentas un retraso en el pago tus cuotas 
+                    Te informamos que presentas un retraso en el pago tu cuenta 
                     <!-- por un monto total de, mas recargos por mora:
                     <b>$ </b><b id="pay"></b>-->
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
@@ -84,9 +84,11 @@ $enddate=strtotime("+5 days", $startdate);
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
-                    <a onclick="eventosLanding('Llamar');" href="tel:+5625898377 "><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
-                    <a onclick="eventosLanding('Correo', 'mailto:josesm@procollect.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
+                    <a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+
+                    <a onclick="eventosLanding('Llamar');" href="tel:+5625898377 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    
+                    <a onclick="eventosLanding('Correo', 'mailto:josesm@procollect.cl');" ><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>
                 
             </div>
