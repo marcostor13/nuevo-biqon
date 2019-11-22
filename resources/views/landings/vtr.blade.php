@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'USS')
+@section('title', 'VTR')
 
 @section('content')
 <?php
@@ -47,14 +47,14 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-    <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+    <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="USS">
+            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">
 
-             <div id="cont1" class="p-5 ">|
+             <div id="cont1" class="p-5 ">
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
@@ -66,7 +66,7 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 hide">|
+            <div id="cont2" class="p-5 hide">
                 <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
 
                 <p class="text-white">
@@ -85,8 +85,8 @@ $enddate=strtotime("+5 days", $startdate);
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56967664209"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
-                    <a onclick="eventosLanding('Correo', 'mailto:jesus.binteraction@gmail.com');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+5625898377 "><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
+                    <a onclick="eventosLanding('Correo', 'mailto:josesm@procollect.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
                 
             </div>
@@ -183,6 +183,7 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                    'landing': '{!! $landing->name !!}'
                    
                     
                 }
@@ -200,7 +201,7 @@ $enddate=strtotime("+5 days", $startdate);
 
            
             
-           var correo = ["jesus.binteraction@gmail.com"];
+           var correo = ["jesus.binteraction@gmail.com", "josesm@procollect.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 // 'email': correo
