@@ -7,7 +7,10 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style type="text/css">
     
 .card {
@@ -70,7 +73,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                 <p class="text-black">
-                  Le Informamos que su deuda de: <strong> Isapre CONSALUD </strong> se encuentra en cobranza judicial, por concepto d no pago.
+                  Le Informamos que su deuda de: <strong> Isapre CONSALUD </strong> se encuentra en cobranza judicial, por concepto de no pago.
                     <!-- por un monto total de, mas recargos por mora:
                     <b>$ </b><b id="pay"></b>-->
                    <br>
@@ -83,7 +86,9 @@ $enddate=strtotime("+5 days", $startdate);
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
 
-                <button onclick="eventosLanding('Contacto');" href="tel:+56957657363 " class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar</button>
+                <button 
+                  onclick="Mens1(); eventosLanding('Pagar');"         
+                 class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar</button>
 
                <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
@@ -293,7 +298,19 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-      
+       function Mens1(){
+   // var id_adm; 
+        // id_adm= getUrlParameter('data1'); //1234;
+          
+            swal({
+             title: ``,
+             //text: "Expandir la Pantalla",
+             type: "success",
+             timer: 5000
+        }, 
+        function(){
+             window.location.href = "tel:+56957657363";
+        })
         
     
     </script>
