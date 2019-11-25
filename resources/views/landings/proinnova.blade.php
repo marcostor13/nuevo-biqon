@@ -73,11 +73,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black">
-                  Le Informamos que su deuda de: <strong> Isapre CONSALUD </strong> se encuentra en cobranza judicial, por concepto de no pago.
-                    <!-- por un monto total de, mas recargos por mora:
-                    <b>$ </b><b id="pay"></b>-->
-                   <br>
-                    Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
+                  Le Informamos que su deuda de: <strong> Isapre CONSALUD </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
                 </p>
 
                 
