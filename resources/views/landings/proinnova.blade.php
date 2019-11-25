@@ -87,7 +87,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </div>
 
                 <button 
-                  onclick=" href('tel:+56957657363'); eventosLanding('Pagar');"         
+                  onclick=" window.location.href='+56957657363'; eventosLanding('Pagar');"         
                  class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar</button>
 
                <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
