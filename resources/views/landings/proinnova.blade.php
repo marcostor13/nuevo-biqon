@@ -90,10 +90,10 @@ $enddate=strtotime("+5 days", $startdate);
                   <a href="tel:+34678567876">Aquí el texto que quieras</a>        
                  class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar</button>-->
 
-                 <div class="btn bg-primary text-black col-12 mt-4">
+                <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
                     <a href="tel:+56957657363" class="btn bg-primary text-black col-12 mt-4"> Convenio de pago, Contactar</a> 
-                </div>
+                <!-- <</div>-->
                <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
