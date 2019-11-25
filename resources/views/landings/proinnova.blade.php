@@ -77,14 +77,14 @@ $enddate=strtotime("+5 days", $startdate);
                     Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
                 </p>
 
-                <button onclick="eventosLanding('Contacto');" href="tel:+56957657363 " class="btn bg-primary text-black col-12 mt-4">Contactar Con Ejecutiva</button>
-
+                
               <div class="date btn bg-primary text-black col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
 
-                
+                <button onclick="eventosLanding('Contacto');" href="tel:+56957657363 " class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar</button>
+
                <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
