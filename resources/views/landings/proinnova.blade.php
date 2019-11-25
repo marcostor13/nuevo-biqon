@@ -99,7 +99,7 @@ $enddate=strtotime("+5 days", $startdate);
                 
                     <a onclick="eventosLanding('Llamar');" href="tel:+56957657363 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
-                    <a onclick="eventosLanding('Correo');" href="mailto:carolina.bonilla@proinnova.cl"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:carolina.bonilla@proinnova.cl?subject=Landing%20ProInnova"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>
                 
             </div>
