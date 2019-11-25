@@ -52,7 +52,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="ProInnova">
+            <img style="max-width:150px; max-height:150px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="ProInnova">
 
              <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
@@ -70,15 +70,21 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                 <p class="text-black">
-                   Proinnova Abogados S.A informa que a la fecha usted posee una deuda con nuestro cliente <strong> Isapre CONSALUD </strong>
+                  Le Informamos que su deuda de: <strong> Isapre CONSALUD </strong> se encuentra en cobranza judicial, por concepto d no pago.
                     <!-- por un monto total de, mas recargos por mora:
                     <b>$ </b><b id="pay"></b>-->
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
+                   <br>
+                    Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
                 </p>
-                <div class="date btn bg-primary text-black col-12 mt-4">
+
+                <button onclick="eventosLanding('Contacto');" href="tel:+56957657363 " class="btn bg-primary text-black col-12 mt-4">Contactar Con Ejecutiva</button>
+
+              <div class="date btn bg-primary text-black col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
+
+                
                <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
