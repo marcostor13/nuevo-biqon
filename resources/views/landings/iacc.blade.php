@@ -67,6 +67,9 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
+                  <br>
+                  <br>
+                  <br>
                   <h4 class="text-grey text-center">
                     <strong>¿TIENES CONSULTAS?
                     NOSOTROS TE AYUDAMOS</strong>
@@ -104,53 +107,34 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="md-form">
                     <select class="form-control" id="carrera" required>
-<option value="">Selecciona tu carrera </option>
+ <option value="">Selecciona aqu&iacute;</option>
 
-<option value="Administración Pública">Administración Pública </option>
-<option value="Programa Continuidad Administración Pública">Programa Continuidad Administración Pública </option>
-<option value="Técnico de Nivel Superior en Ciberseguridad">Técnico de Nivel Superior en Ciberseguridad </option>
-<option value="Técnico Superior en Administración de Empresas">Técnico Superior en Administración de Empresas </option>
-<option value="Técnico Superior en Administración de Empresas Mención Contabilidad y Finanzas">Técnico Superior en Administración de Empresas Mención Contabilidad y Finanzas </option>
-<option value="Técnico Superior en Administración de Empresas Mención Recursos Humanos">Técnico Superior en Administración de Empresas Mención Recursos Humanos </option>
-<option value="Técnico Superior en Administración de Empresas Mención Logística y Operaciones">Técnico Superior en Administración de Empresas Mención Logística y Operaciones </option>
-<option value="Técnico Superior en Administración de Empresas Mención Marketing y Ventas">Técnico Superior en Administración de Empresas Mención Marketing y Ventas </option>
-<option value="Técnico de Nivel Superior en Educador Social Infantojuvenil">Técnico de Nivel Superior en Educador Social Infantojuvenil </option>
-<option value="Técnico de Nivel Superior en Trabajo Social">Técnico de Nivel Superior en Trabajo Social </option>
-<option value="Contabilidad General">Contabilidad General </option>
-<option value="Contador Auditor">Contador Auditor </option>
-<option value="Carrera Profesional Trabajo Social">Carrera Profesional Trabajo Social </option>
-<option value="Ingeniería en Administración de Empresas">Ingeniería en Administración de Empresas </option>
-<option value="Ingeniería en Recursos Humanos">Ingeniería en Recursos Humanos </option>
-<option value="Ingeniería en Prevención de Riesgos">Ingeniería en Prevención de Riesgos </option>
-<option value="Ingeniería en Informática">Ingeniería en Informática </option>
-<option value="Ingeniería Industrial">Ingeniería Industrial </option>
-<option value="Programa de Continuidad a Trabajo Social">Programa de Continuidad a Trabajo Social </option>
-<option value="Programa de Continuidad Ingeniería en Administración de Empresas">Programa de Continuidad Ingeniería en Administración de Empresas </option>
-<option value="Programa de Continuidad Ingeniería en Recursos Humanos">Programa de Continuidad Ingeniería en Recursos Humanos </option>
-<option value="Programa de Continuidad Ingeniería en Prevención de Riesgos">Programa de Continuidad Ingeniería en Prevención de Riesgos </option>
-<option value="Programa de Continuidad en Contador Auditor">Programa de Continuidad en Contador Auditor </option>
-<option value="Programa de Continuidad para Ingeniería en Informática">Programa de Continuidad para Ingeniería en Informática </option>
-<option value="Programa de Continuidad a Ingeniería Industrial">Programa de Continuidad a Ingeniería Industrial </option>
-<option value="Técnico de Nivel Superior en Administración Pública">Técnico de Nivel Superior en Administración Pública </option>
-<option value="Técnico de Nivel Superior en Logística">Técnico de Nivel Superior en Logística </option>
-<option value="Técnico de Nivel Superior en Recursos Humanos">Técnico de Nivel Superior en Recursos Humanos </option>
-<option value="Técnico Superior Prevención de Riesgos">Técnico Superior Prevención de Riesgos </option>
-<option value="Técnico de Nivel Superior en Control Industrial">Técnico de Nivel Superior en Control Industrial </option>
-<option value="Técnico de Nivel Superior en Gestión de Calidad y Ambiente">Técnico de Nivel Superior en Gestión de Calidad y Ambiente  </option>
-<option value="Técnico de Nivel Superior en Procesos Mineros">Técnico de Nivel Superior en Procesos Mineros </option>
-<option value="Técnico de Nivel Superior en Informática">Técnico de Nivel Superior en Informática </option>
-<option value="Técnico de Nivel Superior Analista Programador Computacional">Técnico de Nivel Superior Analista Programador Computacional </option>
-<option value="Técnico de Nivel Superior en Administración de Redes">Técnico de Nivel Superior en Administración de Redes </option>
-<option value="Técnico de Nivel Superior en Trabajo Social">Técnico de Nivel Superior en Trabajo Social </option>
-<option value="Técnico de Nivel Superior en Automatización y Control">Técnico de Nivel Superior en Automatización y Control </option>
-<option value="Técnico de Nivel Superior en Educación Diferencial">Técnico de Nivel Superior en Educación Diferencial </option>
-<option value="Técnico de Nivel Superior en Educación Parvularia">Técnico de Nivel Superior en Educación Parvularia </option>
-<option value="Técnico de Nivel Superior Ambiental y Gestión Energética">Técnico de Nivel Superior Ambiental y Gestión Energética  </option>
-<option value="Técnico Jurídico">Técnico Jurídico </option>
-<option value="Psicopedagogía">Psicopedagogía </option>
-<option value="Ingeniería en Gestión de Calidad y Ambiente">Ingeniería en Gestión de Calidad y Ambiente </option>
-<option value="Programa de Continuidad de Ingeniería en Gestión de Calidad y Ambiente">Programa de Continuidad de Ingeniería en Gestión de Calidad y Ambiente </option>   
-  <option value="Técnico de Nivel Superior en Telecomunicaciones">Técnico de Nivel Superior en Telecomunicaciones </option>
+  <option value="Diplomado de Control y Gesti&oacute;n de Operaciones">Diplomado de Control y Gesti&oacute;n de Operaciones</option>
+  <option value="Diplomado en Prevenci&oacute;n de Riesgos, Gesti&oacute;n en Seguridad y Salud Ocupacional">Diplomado en Prevenci&oacute;n de Riesgos, Gesti&oacute;n en Seguridad y Salud Ocupacional</option>
+  <option value="Diplomado en Big Data">Diplomado en Big Data</option>
+  <option value="Diplomado Gesti&oacute;n en Riesgos (ISO 31.000) y Auditor&iacute;a (ISO 19.011)">Diplomado Gesti&oacute;n en Riesgos (ISO 31.000) y Auditor&iacute;a (ISO 19.011)</option>
+  <option value="Diplomado en Tecnolog&iacute;a Educativa">Diplomado en Tecnolog&iacute;a Educativa</option>
+  <option value="Diplomado en Implementaci&oacute;n de Sistemas de Gesti&oacute;n Energ&eacute;tica (ISO 50001:2011)">Diplomado en Implementaci&oacute;n de Sistemas de Gesti&oacute;n Energ&eacute;tica (ISO 50001:2011)</option>
+  <option value="Diplomado en Marketing y Ventas">Diplomado en Marketing y Ventas</option>
+  <option value="Diplomado en Ciberseguridad">Diplomado en Ciberseguridad</option>
+  <option value="Diplomado en Gesti&oacute;n P&uacute;blica">Diplomado en Gesti&oacute;n P&uacute;blica</option>
+  <option value="Diplomado en Normas Internacionales de Informaci&oacute;n Financiera IFRS">Diplomado en Normas Internacionales de Informaci&oacute;n Financiera IFRS</option>
+  <option value="Diplomado en Gesti&oacute;n de Recursos Humanos por Competencias Laborales">Diplomado en Gesti&oacute;n de Recursos Humanos por Competencias Laborales</option>
+  <option value="Diplomado en Gesti&oacute;n de Calidad">Diplomado en Gesti&oacute;n de Calidad</option>
+  <option value="Diplomado en Intervenci&oacute;n con Adolescentes por Consumo de Drogas">Diplomado en Intervenci&oacute;n con Adolescentes por Consumo de Drogas</option>
+  <option value="Diplomado en Gesti&oacute;n Integral Log&iacute;stica">Diplomado en Gesti&oacute;n Integral Log&iacute;stica</option>
+  <option value="Diplomado en Gesti&oacute;n Ambiental">Diplomado en Gesti&oacute;n Ambiental</option>
+  <option value="Diplomado en Marketing Digital">Diplomado en Marketing Digital</option>
+  <option value="Diplomado en Formulaci&oacute;n y Evaluaci&oacute;n de Proyectos">Diplomado en Formulaci&oacute;n y Evaluaci&oacute;n de Proyectos</option>
+  <option value="Diplomado en Intervenci&oacute;n en Maltrato y Abuso Sexual Infantil">Diplomado en Intervenci&oacute;n en Maltrato y Abuso Sexual Infantil</option>
+  <option value="Diplomado en Gesti&oacute;n Operativa en Remuneraciones">Diplomado en Gesti&oacute;n Operativa en Remuneraciones</option>
+  <option value="Diplomado en Planificaci&oacute;n y Control de Gesti&oacute;n">Diplomado en Planificaci&oacute;n y Control de Gesti&oacute;n</option>
+  <option value="Diplomado en Comercio Internacional y Operaciones">Diplomado en Comercio Internacional y Operaciones</option>
+  <option value="Diplomado en Gesti&oacute;n de Proyectos Inform&aacute;ticos">Diplomado en Gesti&oacute;n de Proyectos Inform&aacute;ticos</option>
+  <option value="Diplomado en Desarrollo de Aplicaciones M&oacute;viles">Diplomado en Desarrollo de Aplicaciones M&oacute;viles</option>
+  <option value="Diplomado Peritaje Social">Diplomado Peritaje Social</option>
+  <option value="Diplomado de Liderazgo Organizacional y Trabajo en Equipo">Diplomado de Liderazgo Organizacional y Trabajo en Equipo</option>
+  <option value="Diplomado Gesti&oacute;n en Seguridad y Salud Ocupacional ISO 45001">Diplomado Gesti&oacute;n en Seguridad y Salud Ocupacional ISO 45001</option>
 </select>
 
                   
