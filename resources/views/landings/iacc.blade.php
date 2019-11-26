@@ -96,7 +96,6 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
                   </div> 
 
-
                   <div class="md-form col-12 m-0">
                     <input type="text" id="email" class="form-control" required placeholder="E-mail">
                     <label for="form2"></label>
@@ -153,9 +152,7 @@ $enddate=strtotime("+5 days", $startdate);
   <option value="Técnico de Nivel Superior en Telecomunicaciones">Técnico de Nivel Superior en Telecomunicaciones </option>
 </select>
 
-                    </select>
-                  </div>
-
+                 
                   <div class="text-center">
                     <hr>
                     <button class="btn bg-success text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
@@ -168,7 +165,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                                <h5 id="message"class="text-green text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
