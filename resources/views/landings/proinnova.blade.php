@@ -298,21 +298,6 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-       function Mens1(){
-   // var id_adm; 
-        // id_adm= getUrlParameter('data1'); //1234;
-          
-            swal({
-             title: ``,
-             //text: "Expandir la Pantalla",
-             type: "success",
-             timer: 5000
-        }, 
-        function(){
-             window.location.href = "tel:+56957657363";
-        })
-        
-    }
-    </script>
+     </script>
 
 @endsection
