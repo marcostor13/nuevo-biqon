@@ -149,7 +149,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>
                   <div>
                     <hr>
-                    <button class="btn bg-success text-white col-12 mt-4" onclick="eventosLanding('Ir a Web');" href="https://www.iacc.cl/;">Ir a Web</button>
+                    <button class="btn bg-success text-white col-12 mt-4" onclick="eventosLanding('Ir a Web');" "window.location.href='https://www.iacc.cl/';">Ir a Web</button>
                   </div>
                     </div>
                         </div>
