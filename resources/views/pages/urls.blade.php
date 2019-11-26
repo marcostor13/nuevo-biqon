@@ -28,7 +28,7 @@
         </div>
         <div class="form-group">
             <label>Nombre Empresa</label>
-            <input type="text" class="form-control" name="company" placeholder="Ingrese Empresa" required>
+            <input type="text" class="form-control" name="company" placeholder="Ingrese Empresa">
         </div>
         <button type="submit" class="btn btn-primary">Generar</button>
         <img id="cargando" width="40" src="img/load.gif" alt="cargando..." style="display:none">

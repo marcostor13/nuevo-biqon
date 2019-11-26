@@ -3,7 +3,9 @@
 namespace Biqon\Http\Controllers;
 
 use Biqon\Url;
+use Biqon\Logurl;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use PhpOffice\PhpSpreadsheet\Writer\Xls;
@@ -137,6 +139,8 @@ class fileController extends Controller
 
     public function getURLs(Request $request){
 
+        $user = Auth::user();
+
         $objExcel = $this->getDataToExcel($request['file']);
         $dataExcel = $objExcel->getActiveSheet()->toArray(null, true, true, true);
 
@@ -173,7 +177,7 @@ class fileController extends Controller
 
             // return $url;
             $name = $request['company']; 
-            $url = $this->saveURL($url, $name); 
+            $url = $this->saveURL($url, $name, $user->id); 
 
 
             $msj = str_replace('(url)', $url, $message); 
@@ -202,6 +206,8 @@ class fileController extends Controller
 
     public function getWithoutURLs(Request $request){
 
+        $user = Auth::user();
+
         $objExcel = $this->getDataToExcel($request['file']);
         $dataExcel = $objExcel->getActiveSheet()->toArray(null, true, true, true);
 
@@ -212,13 +218,14 @@ class fileController extends Controller
 
         foreach ($items as $key2 => $value) {  
 
-             $keyURL = $key2; 
-            break; 
+            //  $keyURL = $key2; 
+            // break; 
 
-          /*  if($value == 'URL' || $value == 'url' || $value == 'Url'){
+            if($value == 'URL' || $value == 'url' || $value == 'Url'){
                 $keyURL = $key2; 
                 break; 
-            }*/
+            }
+            
                 
         }
        
@@ -244,7 +251,7 @@ class fileController extends Controller
             }            
             
              
-            $url = $this->saveURL($url, $request['name']);
+            $url = $this->saveURL($url, $request['name'], $user->id);
             $msj = str_replace('(url)', $url, $message); 
 
             $nextLetter = $this->getNextLetterByObj($dataExcel);  
@@ -343,50 +350,61 @@ class fileController extends Controller
     }
 
 
-    public function saveURL($url, $name){
+    public function saveURL($url, $name, $userid){
 
-           $firstLetter =  $name[0]; 
-        $lastLetter =substr($name, -1);
-
- /*       if($name == null || $name == ''){
+       if($name == null || $name == ''){
             $firstLetter = substr(str_shuffle('ABCDEFGHIJKLMNOPQRSTUVWXYZ'),1,1);
             $lastLetter = substr(str_shuffle('ABCDEFGHIJKLMNOPQRSTUVWXYZ'),1,1);            
         }else{
             $firstLetter =  $name[0]; 
             $lastLetter =substr($name, -1);
         }
-*/
-        $code = $firstLetter.$lastLetter.$this->generarCodigo(5); 
 
-          
+        $code = $firstLetter.$lastLetter.$this->generarCodigo(5);           
 
         $flight = new Url;
         $flight->url = $url;
         $flight->code = $code;
+        $flight->userid = $userid;
         $flight->save();
 
-
-          return 'bint.ml/'.$name.'/'.$code;
-
-/*
         if($name == null || $name == ''){
             return 'bint.ml/'.$code;        
         }else{
             return 'bint.ml/'.$name.'/'.$code;
         }
 
-     */   
+  
 
 
     }
 
+    
     public function routes($company, $code){   
-  //  public function routes($code){   
                 
         $flights = Url::where('code', $code)->first();         
         if($flights == ''){
-            return 'No existe esta página'; 
+            return 'No se puede encontrar la página'; 
         }else{
+            $logurl = new Logurl;
+            $logurl->url = $flights->url;
+            $logurl->code = $code;
+            $logurl->save();
+            return redirect($flights->url);
+        }
+        
+    }
+
+    public function routes2($code){   
+                
+        $flights = Url::where('code', $code)->first();         
+        if($flights == ''){
+            return 'No se puede encontrar la página'; 
+        }else{
+            $logurl = new Logurl;
+            $logurl->url = $flights->url;
+            $logurl->code = $code;
+            $logurl->save();
             return redirect($flights->url);
         }
         
