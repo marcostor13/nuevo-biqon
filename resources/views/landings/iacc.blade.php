@@ -68,6 +68,7 @@ $enddate=strtotime("+5 days", $startdate);
               <br>
               <br>
               <br>
+              <br>
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
@@ -148,7 +149,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>
                   <div>
                     <hr>
-                    <button class="btn bg-success text-white col-12 mt-4" onclick="eventosLanding('Ir a Web');" href="https://www.iacc.cl/;">Contactame</button>
+                    <button class="btn bg-success text-white col-12 mt-4" onclick="eventosLanding('Ir a Web');" href="https://www.iacc.cl/;">Ir a Web</button>
                   </div>
                     </div>
                         </div>
