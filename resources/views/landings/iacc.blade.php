@@ -59,9 +59,9 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="IACC">
             
                  
-             <a target="_blank" href="https://www.iacc.cl/" class="btn bg-success text-white col-8 mt-4">Ir a la página web
+             <!--<a target="_blank" href="https://www.iacc.cl/" class="btn bg-success text-white col-8 mt-4">Ir a la página web
               <i class="fas fa-graduation-cap ml-2"></i>
-            </a>
+            </a>-->
 
             <div id="cont1" class="p-3 ">
                   <div class="card">     
