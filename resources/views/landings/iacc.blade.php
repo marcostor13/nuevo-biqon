@@ -67,7 +67,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
-                  <h4 class="dark-grey-text text-center">
+                  <h4 class="green-text text-center">
                     <strong>¿TIENES CONSULTAS?
                     NOSOTROS TE AYUDAMOS</strong>
                   </h4>
