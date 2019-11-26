@@ -64,14 +64,18 @@ $enddate=strtotime("+5 days", $startdate);
             </a>-->
 
             <div id="cont1" class="p-3 ">
+              <br>
+              <br>
+              <br>
+              <br>
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
                  
-                  <h4 class="text-grey text-center">
-                    <strong>¿TIENES CONSULTAS?
-                    NOSOTROS TE AYUDAMOS</strong>
-                  </h4>
+                  <h5 class="text-grey text-center">
+                    <strong>¿TIENES CONSULTAS?</strong>
+                    NOSOTROS TE AYUDAMOS
+                  </h5>
                   <hr>
 
                   <div class="d-flex justify-content-between  m-0">
@@ -141,7 +145,10 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="text-center">
                     <hr>
                     <button class="btn bg-success text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
-                    
+                  </div>
+                  <div>
+                    <hr>
+                    <button class="btn bg-success text-white col-12 mt-4" onclick="eventosLanding('Ir a Web');" href="https://www.iacc.cl/;">Contactame</button>
                   </div>
                     </div>
                         </div>
