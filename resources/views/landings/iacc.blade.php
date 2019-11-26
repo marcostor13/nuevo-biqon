@@ -51,7 +51,7 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
 </style>
-    <div id="IACC" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+    <div id="IACC" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat:repeat;" >
 
         <div class="opaco"></div>
 
@@ -59,7 +59,7 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="IACC">
             
 
-            <a target="_blank" href="https://www.advance.uss.cl/?utm_source=google&utm_medium=search&utm_campaign=advance&utm_term=generico&utm_content=nacional&gclid=EAIaIQobChMIsLn10Z-e4wIVFwSRCh0QaAqIEAAYASAAEgJdNvD_BwE" class="btn bg-success text-white col-8 mt-4">Ir a la página web
+            <a target="_blank" href="https://www.iacc.cl/" class="btn bg-success text-white col-8 mt-4">Ir a la página web
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
