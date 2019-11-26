@@ -210,7 +210,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com", "paula@proinnova.cl"];  
+            var correo = ["paula@proinnova.cl"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
