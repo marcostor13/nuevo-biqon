@@ -66,6 +66,7 @@ $enddate=strtotime("+5 days", $startdate);
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
+                                 <a href="tel:+56957657363" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
@@ -155,7 +156,9 @@ $enddate=strtotime("+5 days", $startdate);
                         }
                     });
                 }else{
-                    $('#error').text(e.msg);
+                         $('#cont1').addClass('hide');
+                     $('#cont5').removeClass('hide');
+                    $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí.");
                 }
             })
             .fail(function() {
