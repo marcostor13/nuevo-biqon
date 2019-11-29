@@ -48,7 +48,7 @@ $enddate=strtotime("+7 days", $startdate);
                 </p>
                 <div class="date btn bg-primary text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="201-11-29" max="2019-12-02"/>
                 </div>
                 <button onclick='window.location.href="http://www.mundocredito.cl/pagos.html"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
 
