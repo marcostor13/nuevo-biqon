@@ -219,6 +219,8 @@ $enddate=strtotime("+5 days", $startdate);
 
      
 
+
+
         function sendMail(msg = false){
 
             console.log('{!! $landing->name !!}'); 
