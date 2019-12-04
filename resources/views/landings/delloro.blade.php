@@ -50,7 +50,7 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-    <div id="DellOro" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">
+    <div id="DellOro" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
 
