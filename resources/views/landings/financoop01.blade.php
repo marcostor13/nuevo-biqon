@@ -65,6 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4">Validar</button>
             </div>
+
                 <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -72,23 +73,23 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
+
             <div id="cont2" class="p-5 hide">
                 <div class="card">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Estimado <span id="name"></span>  </strong> </h3>
 
                 <h4><p class="text-black"> <strong>
-                   Si eres pensionado Te informamos que tienes un crédito pre aprobado por:
-                     <br> <b>$ </b><b id="pay"></b>
+                   Si eres pensionado Te informamos que tienes un crédito pre aprobado 
                      <br>
                     Te ofrecemos las siguientes opciones para contactarnos. </strong>
                 </p></h4>
 
                 </div> </div>
-                <div class="date btn bg-warning text-black col-12 mt-4">
+                <!--<div class="date btn bg-warning text-black col-12 mt-4">
                     <span>AGENDAR VISITA A NUESTRA SUCURSAL</span>
-                    <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
+                    <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
+                </div>-->
 
 
                 <button onclick='window.location.href="tel:+56985296912" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
