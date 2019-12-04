@@ -81,7 +81,7 @@ $enddate=strtotime("+5 days", $startdate);
                 
               <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="2019-12-31"/>
                 </div>
 
                <!-- <button  class="btn bg-danger text-white col-12 mt-4">Convenio de pago, Contactar
