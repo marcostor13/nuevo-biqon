@@ -74,7 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-white text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-white">
-                  Le Informamos que su deuda de: <strong> Isapre CONSALUD </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
+                  Le Informamos que su deuda de: <strong> <span id="data1"></span> </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
                 </p>
 
                 
@@ -149,6 +149,8 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
+
+                    $('#data1').text(e.data.monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
