@@ -101,7 +101,8 @@ $enddate=strtotime("+5 days", $startdate);
                 
                     <a onclick="eventosLanding('Llamar');" href="tel:+56957657363 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
-                    <a onclick="eventosLanding('Correo');" href="mailto:carolina.bonilla@proinnova.cl?subject=Landing%20ProInnova"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:f.belloy@delloroabogados.cl?subject=Landing%20DellOro&body=Adjuto%20es%20el%20Comprobante%20de%20Pago">
+                        <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
             </div>
@@ -315,7 +316,8 @@ $enddate=strtotime("+5 days", $startdate);
              timer: 5000
         }, 
         function(){
-             window.location.href = "https://api.whatsapp.com/send?phone=+56957657363&text=Hola,%20Adjunto%20Comprobante%20de%20Pago";
+            // window.location.href = "https://api.whatsapp.com/send?phone=+56957657363&text=Hola,%20Adjunto%20Comprobante%20de%20Pago";
+             window.location.href="mailto:f.belloy@delloroabogados.cl?subject=Landing%20DellOro&body=Adjuto%20es%20el%20Comprobante%20de%20Pago"
         })
 
 
