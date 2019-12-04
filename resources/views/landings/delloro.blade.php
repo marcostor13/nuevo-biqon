@@ -315,7 +315,7 @@ $enddate=strtotime("+5 days", $startdate);
              timer: 5000
         }, 
         function(){
-             window.location.href = "https://api.whatsapp.com/send?phone=+56957657363&text=Hola,%20tengo%20una%20consulta";
+             window.location.href = "https://api.whatsapp.com/send?phone=+56957657363&text=Hola,%20Adjunto%20Comprobante%20de%20Pago";
         })
 
 
