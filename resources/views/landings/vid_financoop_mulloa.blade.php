@@ -148,7 +148,7 @@
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com","maria.ulloa@financoop.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
