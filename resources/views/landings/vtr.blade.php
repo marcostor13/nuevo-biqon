@@ -127,7 +127,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <a test="3" href="https://vtr.com/productos/lugares-de-pago" class="" target="pago-express" data-scroll-link="true" data-deploy-element="pago-express">
                     <i class="icon-pago color-white"></i>Lugares de Pago</a></li>
                     <li>
-                    <a href="https://vtr.com/sucursales/v" class="" target="pago-express">
+                    <a href="https://vtr.com/sucursales/v" class="color-white" target="pago-express">
                     <i class="icon-mail color-white"></i>Sucursales</a></li>
 
                     <li>
