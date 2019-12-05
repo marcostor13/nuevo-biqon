@@ -122,7 +122,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <ul>
                     <li>
                     <a test="4" href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="" data-scroll-link="true" data-trigger-btn="triggered-a">
-                    <i class="icon-usuario color-primary"></i>Planes y Tarifas</a></li>
+                    <i class="icon-usuario color-white"></i>Planes y Tarifas</a></li>
                     <li>
                     <a test="3" href="https://vtr.com/productos/lugares-de-pago" class="" target="pago-express" data-scroll-link="true" data-deploy-element="pago-express">
                     <i class="icon-pago color-primary"></i>Lugares de Pago</a></li>
