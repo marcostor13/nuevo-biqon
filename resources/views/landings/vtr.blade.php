@@ -99,6 +99,10 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <ul>
                     <li>
+                    <a test="4"  onclick="eventosLanding('Boleta');" href=" https://vtr.com/ss/vboleta/index.html#/home.html?docid=AFAEc%2FnhOohJncAMwniaD1w1inFcH147" class="" data-scroll-link="true" data-trigger-btn="triggered-a">
+                    <i class="icon-usuario color-danger"></i>Boleta</a></li>
+                    <li>
+                    <li>
                     <a test="4"  onclick="eventosLanding('Planes');" href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="" data-scroll-link="true" data-trigger-btn="triggered-a">
                     <i class="icon-usuario color-danger"></i>Planes y Tarifas</a></li>
                     <li>
