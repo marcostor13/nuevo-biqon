@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-$name = $_GET['nombre'];
+$name = $_GET['NOMBRE'];
 //echo "El identificador de este cliente es: $identificador";
 ?>
 <style>
@@ -86,7 +86,7 @@ $name = $_GET['nombre'];
             <div id="cont1" class="p-5">
                 <div class="card">     
                 <div class="card-body">
-                <h3 class="text-black text-center"> <strong> Estimado <span id="name"><?php echo $name; ?></span>  </strong> </h3>
+                <h3 class="text-black text-center"> <strong> Estimado <span><?php echo $name; ?></span>  </strong> </h3>
 
                 <h4><p class="text-black"> <strong>
                   Financoop líder en la atención a pensionados desde hace más de diez años, quieremos invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>
