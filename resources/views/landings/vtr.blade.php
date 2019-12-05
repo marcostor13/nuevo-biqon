@@ -143,15 +143,17 @@ $enddate=strtotime("+5 days", $startdate);
                     <td>
                     <a href="https://vtr.com/productos/lugares-de-pago" class="text-white">
                     <i class="icon-pago text-white"></i>Lugares de Pago</a> </td>
+                    </tr>
+
                     <td> 
                     <a href="https://vtr.com/sucursales/v" class="text-white">
                     <i class="icon-mail text-white"></i>Sucursales</a> </td>
-                    </tr>
-   
-                    <tr>
                     <td> 
                     <a href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="text-white">
                     <i class="icon-usuario text-white"></i>Sucursal Virtual</a> </td>
+                    </tr>
+   
+                    <tr>
                     <td>
                     <a href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white">
                     <i class="icon-ayuda text-white"></i>Centro de ayuda online</a> </td>
