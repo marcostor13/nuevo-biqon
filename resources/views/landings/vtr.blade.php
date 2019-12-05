@@ -82,8 +82,6 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <p class="text-black">
                     Te informamos que presentas un retraso en el pago tu cuenta 
-                    <!-- por un monto total de, mas recargos por mora:
-                    <b>$ </b><b id="pay"></b>-->
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
                 </p>
                 <div class="date btn bg-danger text-black col-12 mt-4">
@@ -94,14 +92,15 @@ $enddate=strtotime("+5 days", $startdate);
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-black col-12 mt-4">YA PAGUE</button>
                 
-                    <br>
+                    <br><br>
+
                     <div class="accesos-directo">
                     <p class="vtr-small vtr-offset-bottom-1">SERVICIOS PARA TI</p>
 
                     <ul>
                     <li>
                     <a test="4"  onclick="eventosLanding('Planes');" href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="" data-scroll-link="true" data-trigger-btn="triggered-a">
-                    <i class="icon-usuario color-primary"></i>Planes y Tarifas</a></li>
+                    <i class="icon-usuario color-danger"></i>Planes y Tarifas</a></li>
                     <li>
                     <a test="3" onclick="eventosLanding('Lugares de Pago');" href="https://vtr.com/productos/lugares-de-pago" class="" target="pago-express" data-scroll-link="true" data-deploy-element="pago-express">
                     <i class="icon-pago color-primary"></i>Lugares de Pago</a></li>
