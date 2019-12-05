@@ -44,6 +44,12 @@ $enddate=strtotime("+5 days", $startdate);
       rgba(0, 0, 0)
     )
     }
+
+.accesos-directo {
+    position: relative;
+    background-color: #262626;
+    padding: 30px 20px;
+}
     
 </style>
 
@@ -88,7 +94,7 @@ $enddate=strtotime("+5 days", $startdate);
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-black col-12 mt-4">YA PAGUE</button>
                 
-                <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/"; eventosLanding("Pagina de Tarifas"); ' class="btn bg-danger text-black col-5 mt-4">TARIFAS Y PLANES</button>
+               <!-- <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/"; eventosLanding("Pagina de Tarifas"); ' class="btn bg-danger text-black col-5 mt-4">TARIFAS Y PLANES</button>
 
                 <button onclick='window.location.href="https://vtr.com/productos/lugares-de-pago"; eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-black col-5 mt-4">LUGARES DE PAGO</button>
 
@@ -102,7 +108,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/"; eventosLanding("Actualiza Datos"); ' class="btn bg-danger text-black col-5 mt-4">ACTUALIZA LOS DATOS</button>
 
-                <button onclick='window.location.href="https://vtr.com/productos/privacidad"; eventosLanding("Privacidad"); ' class="btn bg-danger text-black col-5 mt-4">POLITICA DE PRIVACIDAD</button>
+                <button onclick='window.location.href="https://vtr.com/productos/privacidad"; eventosLanding("Privacidad"); ' class="btn bg-danger text-black col-5 mt-4">POLITICA DE PRIVACIDAD</button>-->
                <!-- <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56978096473&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 
