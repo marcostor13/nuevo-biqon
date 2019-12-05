@@ -83,21 +83,21 @@ $enddate=strtotime("+5 days", $startdate);
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-black col-12 mt-4">YA PAGUE</button>
                 
-                <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/"; eventosLanding("Pagina de Tarifas"); ' class="btn bg-danger text-black col-12 mt-4">TARIFAS</button>
+                <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/"; eventosLanding("Pagina de Tarifas"); ' class="btn bg-danger text-black col-6 mt-4">TARIFAS</button>
 
-                <button onclick='window.location.href="https://vtr.com/productos/lugares-de-pago"; eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-black col-12 mt-4">LUGARES DE PAGO</button>
+                <button onclick='window.location.href="https://vtr.com/productos/lugares-de-pago"; eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-black col-6 mt-4">LUGARES DE PAGO</button>
 
-                <button onclick='window.location.href="https://vtr.com/sucursales/v"; eventosLanding("Sucursales"); ' class="btn bg-danger text-black col-12 mt-4">SUCURSALES</button>
+                <button onclick='window.location.href="https://vtr.com/sucursales/v"; eventosLanding("Sucursales"); ' class="btn bg-danger text-black col-6 mt-4">SUCURSALES</button>
 
-                <button onclick='window.location.href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv"; eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-12 mt-4">SUCURSAL VIRTUAL</button>
+                <button onclick='window.location.href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv"; eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-6 mt-4">SUCURSAL VIRTUAL</button>
 
-                <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/contactanos/"; eventosLanding("Centro de Ayuda"); ' class="btn bg-danger text-black col-12 mt-4">CENTRO DE AYUDA VTR</button>
+                <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/contactanos/"; eventosLanding("Centro de Ayuda"); ' class="btn bg-danger text-black col-6 mt-4">CENTRO DE AYUDA VTR</button>
 
-                <button onclick='window.location.href="https://vtr.com/productos/reclamos"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-black col-12 mt-4">REPORTAR ABUSO</button>
+                <button onclick='window.location.href="https://vtr.com/productos/reclamos"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-black col-6 mt-4">REPORTAR ABUSO</button>
 
-                <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/"; eventosLanding("Actualiza Datos"); ' class="btn bg-danger text-black col-12 mt-4">ACTUALIZA LOS DATOS</button>
+                <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/"; eventosLanding("Actualiza Datos"); ' class="btn bg-danger text-black col-6 mt-4">ACTUALIZA LOS DATOS</button>
 
-                <button onclick='window.location.href="https://vtr.com/productos/privacidad"; eventosLanding("Privacidad"); ' class="btn bg-danger text-black col-12 mt-4">PRIVACIDAD</button>
+                <button onclick='window.location.href="https://vtr.com/productos/privacidad"; eventosLanding("Privacidad"); ' class="btn bg-danger text-black col-6 mt-4">PRIVACIDAD</button>
                <!-- <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56978096473&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 
