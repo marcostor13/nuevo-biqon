@@ -110,6 +110,56 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <a onclick="eventosLanding('Correo');" href="mailto:josesm@procollect.cl"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>-->
+
+<div class="accesos-directo" style="height: 719px;">
+<p class="vtr-small vtr-offset-bottom-1">SERVICIOS PARA TI</p>
+
+<ul>
+
+<li>
+<a test="4" href="#tab02" class="" data-scroll-link="true" data-trigger-btn="triggered-a">
+<i class="icon-usuario color-primary"></i>Sucursal virtual</a></li>
+
+<li>
+<a test="3" href="#tab01" class="" target="pago-express" data-scroll-link="true" data-deploy-element="pago-express">
+<i class="icon-pago color-primary"></i>Pago Express</a></li>
+
+<li>
+<a test="4" href="http://webmail.vtr.net/" class="" target="pago-express" data-scroll-link="true">
+<i class="icon-mail color-primary"></i>VTR mail</a></li>
+
+<li>
+<a test="4" href="/productos/reclamos" class="" data-scroll-link="true">
+<i class="icon-usuario color-primary"></i>Reclama Aquí</a></li>
+
+<li>
+<a test="4" href="http://centrodeayudaonline.vtr.com" class="" target="pago-express" data-scroll-link="true">
+<i class="icon-ayuda color-primary"></i>Centro de ayuda online</a></li>
+
+<li>
+<a test="4" href="https://vtr.com/productos/denuncias" class="" data-scroll-link="true">
+<i class="icon-big-i color-primary"></i>Denuncias</a></li>
+</ul>
+<p class="vtr-small vtr-offset-bottom-1">ASISTENCIA Y CONTACTO</p>
+
+<ul>
+
+<li>
+<a test="4" href="http://vtr.com/sucursales" class="" target="pago-express" data-scroll-link="true">
+<i class="icon-sucursal color-primary"></i>Sucursales</a></li>
+<li>
+<a test="4" href="http://centrodeayudaonline.vtr.com/contactanos/" class="" target="pago-express" data-scroll-link="true">
+<i class="icon-usuario color-primary"></i>Contáctanos</a></li>
+
+<li>
+<a test="4" href="tel:600 800 9000" class="" target="pago-express" data-scroll-link="true">  
+<i class="icon-usuario color-primary"></i><span itemprop="telephone" style="padding: 0;">600 800 9000</span></a></li>
+
+<li>
+<a test="4" href="https://vtr.com/zonaproveedores/" class="" target="pago-express" data-scroll-link="true">  
+<i class="icon-usuario color-primary"></i>Zona de Proveedores</a></li>
+</ul>
+</div>
                 
             </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
