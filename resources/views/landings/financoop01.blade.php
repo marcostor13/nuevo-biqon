@@ -190,7 +190,7 @@ $('#name').getUrlParameter('nombre');
         let eventosLanding = function(name){
             
             let json_datos = getAllUrlParameter(); 
-
+            json_datos.nombre=getUrlParameter('nombre');
           //  json_datos.nombre = getUrlParameter('nombre');
            // json_datos.monto = $('#pay').text();
 
