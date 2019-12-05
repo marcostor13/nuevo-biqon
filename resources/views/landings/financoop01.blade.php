@@ -63,7 +63,7 @@ $name = $_GET['NOMBRE'];
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Financoop">
 
-            <div id="cont1">
+            <div id="cont1" class="p-5 ">
 
            <!-- <div id="cont1" class="p-5 ">
                 <div class="card">     
@@ -117,7 +117,7 @@ $name = $_GET['NOMBRE'];
 
                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3">  DESEAS QUE TE CONTACTEMOS </button>
 
-                 </div>
+                
 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56944735189&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
@@ -126,7 +126,7 @@ $name = $_GET['NOMBRE'];
                    
                     <a onclick="eventosLanding('Correo');" href="mailto: rodrigo.ramirez@financoop.cl?subject=Solicito%20Informacion"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
-                
+               </div>  
             
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
