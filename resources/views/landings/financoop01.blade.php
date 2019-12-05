@@ -92,16 +92,16 @@ $enddate=strtotime("+5 days", $startdate);
                 </div>-->
 
 
-                <button onclick='window.location.href="tel:+56985296912" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
+                <button onclick='window.location.href="tel:+56944735189" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
                 <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">CLICK AQUÍ SI DESEAS QUE TE CONTACTEMOS</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56944735189&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56944735189"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
-                    <a onclick="eventosLanding('Correo');" href="mailto: contacto@binteraction.com"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto: rodrigo.ramirez@financoop.cl?subject=Landing%20Financoop"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
             </div>
@@ -198,8 +198,8 @@ $enddate=strtotime("+5 days", $startdate);
                     'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                   
-                    
+                    'landing': '{!! $landing->name !!}'
+                              
                 }
             }else{
                 let date = $('#date1').val();
@@ -213,7 +213,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["gbahamondes@gmail.com","jesus.binteraction@gmail.com"];
+            var correo = ["rodrigo.ramirez@financoop.cl","jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
