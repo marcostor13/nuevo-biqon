@@ -88,9 +88,24 @@ $name = $_GET['NOMBRE'];
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Estimado <span><?php echo $name; ?></span>  </strong> </h3>
 
-                <h4><p class="text-black"> <strong>
-                  Financoop líder en la atención a pensionados desde hace más de diez años, quieremos invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>
-                   <h5>Excluye pensión Solidaria</h5>
+                <!--<h4><p class="text-black"> <strong>
+                  Financoop líder en la atención a pensionados desde hace más de diez años, quieremos invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>-->
+                   
+                   <h5>Crédito orientado para pensionados del sistema antiguo de previsión social IPS y AFP el cual tiene foco en inclusión financiera para las personas del tercera edad.</h5>
+<br>
+                   <h5>Requisitos IPS<br>
+Puedes enviarnos tus documentos vía email<br>
+Última colilla de pago de pensión<br>
+Cédula de Identidad vigente<br>
+Comprobante de domicilio (60 días de vigencia)<br>
+Tener menos de 93 años 11 meses<br>
+Ser socio de la Cooperativa<br><br>
+<h5>Requisitos AFP<br>
+Cedula de Identidad Vigente<br>
+Comprobante de domicilio<br>
+Comprobante de pago de pensión<br>
+Certificado de pago de pensiones<br>
+Ser socio de la Cooperativa<br></h5>
 
                 </div> </div>
                 <!--<div class="date btn bg-warning text-black col-12 mt-4">
