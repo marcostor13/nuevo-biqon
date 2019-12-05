@@ -48,14 +48,14 @@ $enddate=strtotime("+5 days", $startdate);
 .accesos-directo {
     /*position: relative;*/
     background-color: #262626;
-    padding: 30px 20px;
+    padding: 40px 30px;
 }
     
 </style>
 
 <div class="oscurecer">
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
-            <img style="max-width:65px; max-height:65px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR">
+            <img style="max-width:65px; max-height:65px " class="img-fluid col-10 col-md-3 p-5" src="{{$landing->logo}}" alt="VTR">
 
         </div></div>
     <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">
