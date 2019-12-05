@@ -161,13 +161,13 @@ $enddate=strtotime("+5 days", $startdate);
                     </tr>
                     <tr>
                     <td>
-                    <a href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/">
+                    <a href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white">
                     <i class="icon-big-i text-white"></i>Actualiza Datos</a> </td>
                     <td>
-                    <a href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/">
+                    <a href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white">
                     <i class="icon-big-i text-white"></i>Actualiza Datos</a> </td>
                     <td>
-                    <a href="https://vtr.com/productos/privacidad">
+                    <a href="https://vtr.com/productos/privacidad" class="text-white">
                     <i class="icon-big-i text-white"></i>Politica de Privacidad</a> </td>
                     </tr>
                     </table>
