@@ -117,26 +117,26 @@ $enddate=strtotime("+5 days", $startdate);
                     <a onclick="eventosLanding('Correo');" href="mailto:josesm@procollect.cl"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>-->
 
-<div class="accesos-directo" style="height: 719px;">
+<div class="accesos-directo">
 <p class="vtr-small vtr-offset-bottom-1">SERVICIOS PARA TI</p>
 
 <ul>
 
 <li>
 <a test="4" href="#tab02" class="" data-scroll-link="true" data-trigger-btn="triggered-a">
-<i class="icon-usuario color-primary"></i>Sucursal virtual</a></li>
+<i class="icon-usuario color-primary"></i>Planes y Tarifas</a></li>
 
 <li>
 <a test="3" href="#tab01" class="" target="pago-express" data-scroll-link="true" data-deploy-element="pago-express">
-<i class="icon-pago color-primary"></i>Pago Express</a></li>
+<i class="icon-pago color-primary"></i>Lugares de Pago</a></li>
 
 <li>
 <a test="4" href="http://webmail.vtr.net/" class="" target="pago-express" data-scroll-link="true">
-<i class="icon-mail color-primary"></i>VTR mail</a></li>
+<i class="icon-mail color-primary"></i>Sucursales</a></li>
 
 <li>
 <a test="4" href="/productos/reclamos" class="" data-scroll-link="true">
-<i class="icon-usuario color-primary"></i>Reclama Aquí</a></li>
+<i class="icon-usuario color-primary"></i>Sucursal Virtual</a></li>
 
 <li>
 <a test="4" href="http://centrodeayudaonline.vtr.com" class="" target="pago-express" data-scroll-link="true">
@@ -144,10 +144,18 @@ $enddate=strtotime("+5 days", $startdate);
 
 <li>
 <a test="4" href="https://vtr.com/productos/denuncias" class="" data-scroll-link="true">
-<i class="icon-big-i color-primary"></i>Denuncias</a></li>
-</ul>
-<p class="vtr-small vtr-offset-bottom-1">ASISTENCIA Y CONTACTO</p>
+<i class="icon-big-i color-primary"></i>Reportar Abusos</a></li>
 
+<li>
+<a test="4" href="https://vtr.com/productos/denuncias" class="" data-scroll-link="true">
+<i class="icon-big-i color-primary"></i>Actualiza Datos</a></li>
+
+<li>
+<a test="4" href="https://vtr.com/productos/denuncias" class="" data-scroll-link="true">
+<i class="icon-big-i color-primary"></i>Politica de Privacidad</a></li>
+</ul>
+<!--
+<p class="vtr-small vtr-offset-bottom-1">ASISTENCIA Y CONTACTO</p>
 <ul>
 
 <li>
@@ -164,7 +172,7 @@ $enddate=strtotime("+5 days", $startdate);
 <li>
 <a test="4" href="https://vtr.com/zonaproveedores/" class="" target="pago-express" data-scroll-link="true">  
 <i class="icon-usuario color-primary"></i>Zona de Proveedores</a></li>
-</ul>
+</ul>-->
 </div>
                 
             </div>
