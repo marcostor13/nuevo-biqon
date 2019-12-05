@@ -211,24 +211,24 @@ $name = $_GET['NOMBRE'];
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Mombre': getUrlParameter('nombre'),
+                    'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2')                
-                    
+                    // 'Direccion': getUrlParameter('data1'),
+                    // 'Comuna': getUrlParameter('data2')                
+                    'landing': '{!! $landing->name !!}'
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'Fecha': date,
-                    'Mombre': getUrlParameter('nombre'),
+                    'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2'),
+                    // 'Direccion': getUrlParameter('data1'),
+                     //'Comuna': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
