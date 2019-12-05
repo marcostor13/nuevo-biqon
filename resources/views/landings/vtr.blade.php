@@ -121,7 +121,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <a test="4" href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="" data-scroll-link="true">
                     <i class="icon-big-i color-primary"></i>Actualiza Datos</a></li>
                     <li>
-                    <a test="4" href="https://vtr.com/productos/privacidad" class="" data-scroll-link="true">
+                    <a test="4" onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="" data-scroll-link="true">
                     <i class="icon-big-i color-primary"></i>Politica de Privacidad</a></li>
                     </ul>
                     </div>
