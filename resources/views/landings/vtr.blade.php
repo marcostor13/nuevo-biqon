@@ -46,7 +46,7 @@ $enddate=strtotime("+5 days", $startdate);
     }
 
 .accesos-directo {
-    position: relative;
+    /*position: relative;*/
     background-color: #262626;
     padding: 30px 20px;
 }
