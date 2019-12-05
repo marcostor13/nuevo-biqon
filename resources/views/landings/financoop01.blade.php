@@ -65,6 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4">Validar</button>
             </div>-->
+            
 
                 <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -74,13 +75,13 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
 
-            <div id="cont1" class="p-5 hide">
+            <div id="cont1" class="p-5">
                 <div class="card">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Estimado <span id="name"></span>  </strong> </h3>
 
                 <h4><p class="text-black"> <strong>
-                  Financoop líder en la atención a pensionados desde hace más de diez años, quiere invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>
+                  Financoop líder en la atención a pensionados desde hace más de diez años, quieremos invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>
                    <h5>Excluye pensión Solidaria</h5>
 
                 </div> </div>
