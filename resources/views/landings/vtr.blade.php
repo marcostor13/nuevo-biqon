@@ -137,7 +137,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <table>
                     <tr>
-                    <td> 
+                    <tdp-2 class="p-2 pl-5 pr-5"> 
                     <a href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="text-white" data-scroll-link="true">
                     <i class="icon-usuario text-white"></i>Planes y Tarifas</a> </td>
                     <td>
