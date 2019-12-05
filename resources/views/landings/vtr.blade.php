@@ -125,30 +125,30 @@ $enddate=strtotime("+5 days", $startdate);
                     <i class="icon-usuario color-white"></i>Planes y Tarifas</a></li>
                     <li>
                     <a test="3" href="https://vtr.com/productos/lugares-de-pago" class="" target="pago-express" data-scroll-link="true" data-deploy-element="pago-express">
-                    <i class="icon-pago color-primary"></i>Lugares de Pago</a></li>
+                    <i class="icon-pago color-white"></i>Lugares de Pago</a></li>
                     <li>
-                    <a test="4" href="https://vtr.com/sucursales/v" class="" target="pago-express" data-scroll-link="true">
-                    <i class="icon-mail color-primary"></i>Sucursales</a></li>
+                    <a href="https://vtr.com/sucursales/v" class="" target="pago-express">
+                    <i class="icon-mail color-white"></i>Sucursales</a></li>
 
                     <li>
                     <a test="4" href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="" data-scroll-link="true">
-                    <i class="icon-usuario color-primary"></i>Sucursal Virtual</a></li>
+                    <i class="icon-usuario color-white"></i>Sucursal Virtual</a></li>
 
                     <li>
                     <a test="4" href="http://centrodeayudaonline.vtr.com/contactanos/" class="" target="pago-express" data-scroll-link="true">
-                    <i class="icon-ayuda color-primary"></i>Centro de ayuda online</a></li>
+                    <i class="icon-ayuda color-white"></i>Centro de ayuda online</a></li>
 
                     <li>
                     <a test="4" href="https://vtr.com/productos/reclamos" class="" data-scroll-link="true">
-                    <i class="icon-big-i color-primary"></i>Reportar Abusos</a></li>
+                    <i class="icon-big-i color-white"></i>Reportar Abusos</a></li>
 
                     <li>
                     <a test="4" href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="" data-scroll-link="true">
-                    <i class="icon-big-i color-primary"></i>Actualiza Datos</a></li>
+                    <i class="icon-big-i color-white"></i>Actualiza Datos</a></li>
 
                     <li>
                     <a test="4" href="https://vtr.com/productos/privacidad" class="" data-scroll-link="true">
-                    <i class="icon-big-i color-primary"></i>Politica de Privacidad</a></li>
+                    <i class="icon-big-i color-white"></i>Politica de Privacidad</a></li>
                     </ul>
                     </div>
                 
