@@ -93,19 +93,14 @@ $name = $_GET['NOMBRE'];
                    
                    <h5>Crédito orientado para pensionados del sistema antiguo de previsión social IPS y AFP el cual tiene foco en inclusión financiera para las personas del tercera edad.</h5>
 <br>
-                   <h5>Requisitos IPS<br>
-Puedes enviarnos tus documentos vía email<br>
-Última colilla de pago de pensión<br>
-Cédula de Identidad vigente<br>
-Comprobante de domicilio (60 días de vigencia)<br>
-Tener menos de 93 años 11 meses<br>
-Ser socio de la Cooperativa<br><br>
-<h5>Requisitos AFP<br>
-Cedula de Identidad Vigente<br>
-Comprobante de domicilio<br>
-Comprobante de pago de pensión<br>
-Certificado de pago de pensiones<br>
-Ser socio de la Cooperativa<br></h5>
+                   <h5>Ventajas del crédito</h5>
+<h6>Son de libre disposición y sin AVAL<br>
+Cuotas: Hasta 60 meses de plazo<br>
+Tasas reguladas por la Comisión para el Mercado Financiero (CMF).<br>
+Atendemos socios hasta los 93 años 11 meses<br>
+Cobertura de Seguro de Desgravamen<br>
+Abono directo en cuenta del socio o retiro en BancoEstado<br>
+Evaluación inmediata</h6>
 
                 </div> </div>
                 <!--<div class="date btn bg-warning text-black col-12 mt-4">
