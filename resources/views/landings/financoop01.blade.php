@@ -81,7 +81,6 @@ $name = $_GET['NOMBRE'];
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
-                    </div>
                     </div>-->
 
             <div id="cont1" class="p-5 ">
@@ -112,7 +111,7 @@ $name = $_GET['NOMBRE'];
 
                 <button onclick='window.location.href="tel:+56944735189" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
-               <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> DESEAS QUE TE CONTACTEMOS </h3> </button>
+               <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3">  DESEAS QUE TE CONTACTEMOS </button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56944735189&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
@@ -122,7 +121,7 @@ $name = $_GET['NOMBRE'];
                     <a onclick="eventosLanding('Correo');" href="mailto: rodrigo.ramirez@financoop.cl?subject=Solicito%20Informacion"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
-            </div>
+            
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -133,7 +132,7 @@ $name = $_GET['NOMBRE'];
 
         </div>
     </div>
-
+</div>
      <script>
    //EVENT 1
         
