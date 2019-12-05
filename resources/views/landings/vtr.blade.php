@@ -116,47 +116,8 @@ $enddate=strtotime("+5 days", $startdate);
                     <a onclick="eventosLanding('Correo');" href="mailto:josesm@procollect.cl"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>-->
                     <br>
-                    <div class="accesos-directo">
-                    <p class="vtr-small vtr-offset-bottom-1">SERVICIOS PARA TI</p>
-
-                    <ul>
-                    <li>
-                    <a href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="color-white" data-scroll-link="true">
-                    <i class="icon-usuario color-white"></i>Planes y Tarifas</a></li>
-                    <li>
-                    <a href="https://vtr.com/productos/lugares-de-pago" class="color-white">
-                    <i class="icon-pago color-white"></i>Lugares de Pago</a></li>
-                    <li>
-                    <a href="https://vtr.com/sucursales/v" class="color-white">
-                    <i class="icon-mail color-white"></i>Sucursales</a></li>
-
+                    <div>
                     
-                    </ul>
-
-                    <table>
-   <tr>
-       <td> 
-                    <a href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="color-white">
-                    <i class="icon-usuario color-white"></i>Sucursal Virtual</a> </td>
-       <td>
-                    <a href="http://centrodeayudaonline.vtr.com/contactanos/" class="color-white">
-                    <i class="icon-ayuda color-white"></i>Centro de ayuda online</a> </td>
-       <td> 
-                    <a href="https://vtr.com/productos/reclamos" class="color-white">
-                    <i class="icon-big-i color-white"></i>Reportar Abusos</a> </td>
-   </tr>
-   <tr>
-       <td>
-                    <a href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/">
-                    <i class="icon-big-i color-white"></i>Actualiza Datos</a> </td>
-       <td>
-                    <a href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/">
-                    <i class="icon-big-i color-white"></i>Actualiza Datos</a> </td>
-       <td>
-                    <a href="https://vtr.com/productos/privacidad">
-                    <i class="icon-big-i color-white"></i>Politica de Privacidad</a> </td>
-   </tr>
-</table>
                     </div>
                 
             </div>
@@ -173,38 +134,43 @@ $enddate=strtotime("+5 days", $startdate);
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
           <p class="vtr-small vtr-offset-bottom-1">SERVICIOS PARA TI</p>
 
-                    <ul>
-                    <li>
-                    <a test="4" href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="" data-scroll-link="true" data-trigger-btn="triggered-a">
-                    <i class="icon-usuario color-white"></i>Planes y Tarifas</a></li>
-                    <li>
-                    <a test="3" href="https://vtr.com/productos/lugares-de-pago" class="" target="pago-express" data-scroll-link="true" data-deploy-element="pago-express">
-                    <i class="icon-pago color-white"></i>Lugares de Pago</a></li>
-                    <li>
-                    <a test="4" href="https://vtr.com/sucursales/v" class="" target="pago-express" data-scroll-link="true">
-                    <i class="icon-mail color-white"></i>Sucursales</a></li>
 
-                    <li>
-                    <a test="4" href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="" data-scroll-link="true">
-                    <i class="icon-usuario color-white"></i>Sucursal Virtual</a></li>
-
-                    <li>
-                    <a test="4" href="http://centrodeayudaonline.vtr.com/contactanos/" class="" target="pago-express" data-scroll-link="true">
-                    <i class="icon-ayuda color-white"></i>Centro de ayuda online</a></li>
-
-                    <li>
-                    <a test="4" href="https://vtr.com/productos/reclamos" class="" data-scroll-link="true">
-                    <i class="icon-big-i color-white"></i>Reportar Abusos</a></li>
-
-                    <li>
-                    <a test="4" href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="" data-scroll-link="true">
-                    <i class="icon-big-i color-white"></i>Actualiza Datos</a></li>
-
-                    <li>
-                    <a test="4" href="https://vtr.com/productos/privacidad" class="" data-scroll-link="true">
-                    <i class="icon-big-i color-white"></i>Politica de Privacidad</a></li>
-                    </ul> 
-
+                    <table>
+                    <tr>
+                    <td> 
+                    <a href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="color-white" data-scroll-link="true">
+                    <i class="icon-usuario color-white"></i>Planes y Tarifas</a> </td>
+                    <td>
+                    <a href="https://vtr.com/productos/lugares-de-pago" class="color-white">
+                    <i class="icon-pago color-white"></i>Lugares de Pago</a> </td>
+                    <td> 
+                    <a href="https://vtr.com/sucursales/v" class="color-white">
+                    <i class="icon-mail color-white"></i>Sucursales</a> </td>
+                    </tr>
+   
+                    <tr>
+                    <td> 
+                    <a href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="color-white">
+                    <i class="icon-usuario color-white"></i>Sucursal Virtual</a> </td>
+                    <td>
+                    <a href="http://centrodeayudaonline.vtr.com/contactanos/" class="color-white">
+                    <i class="icon-ayuda color-white"></i>Centro de ayuda online</a> </td>
+                    <td> 
+                    <a href="https://vtr.com/productos/reclamos" class="color-white">
+                    <i class="icon-big-i color-white"></i>Reportar Abusos</a> </td>
+                    </tr>
+                    <tr>
+                    <td>
+                    <a href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/">
+                    <i class="icon-big-i color-white"></i>Actualiza Datos</a> </td>
+                    <td>
+                    <a href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/">
+                    <i class="icon-big-i color-white"></i>Actualiza Datos</a> </td>
+                    <td>
+                    <a href="https://vtr.com/productos/privacidad">
+                    <i class="icon-big-i color-white"></i>Politica de Privacidad</a> </td>
+                    </tr>
+                    </table>
         </div></div>
 
 
