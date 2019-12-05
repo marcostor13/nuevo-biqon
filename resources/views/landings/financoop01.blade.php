@@ -211,8 +211,8 @@ $('#name').getUrlParameter('nombre');
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                    'Nombre': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                     'landing': '{!! $landing->name !!}'
@@ -222,15 +222,15 @@ $('#name').getUrlParameter('nombre');
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                    'Nombre': getUrlParameter('nombre'),
+                   // 'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
                      'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com", "rodrigo.ramirez@financoop.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
