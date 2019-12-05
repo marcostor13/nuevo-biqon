@@ -89,7 +89,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <button onclick='window.location.href="https://vtr.com/sucursales/v"; eventosLanding("Sucursales"); ' class="btn bg-danger text-black col-5 mt-3">SUCURSALES Y TIENDAS</button>
 
-                <button onclick='window.location.href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv"; eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-6 mt-3">SUCURSAL VIRTUAL</button>
+                <button onclick='window.location.href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv"; eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-6 mt-3">SUCURSAL  VIRTUAL</button>
 
                 <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/contactanos/"; eventosLanding("Centro de Ayuda"); ' class="btn bg-danger text-black col-5 mt-3">CENTRO DE AYUDA VTR</button>
 
