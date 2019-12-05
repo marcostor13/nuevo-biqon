@@ -65,7 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4">Validar</button>
             </div>-->
-            
+
 
                 <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -125,7 +125,8 @@ $enddate=strtotime("+5 days", $startdate);
                 'json_datos': JSON.stringify(getAllUrlParameter())
             });
         }); 
-
+$('#name').text(e.data.nombre);
+$('#name').getUrlParameter('nombre');
          function event1(){
     
             let dataSend = {
@@ -145,7 +146,7 @@ $enddate=strtotime("+5 days", $startdate);
             .done(function(e) {
                 console.log(e);
                 e = JSON.parse(e); 
-
+                    #name= getUrlParameter('nombre');
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
