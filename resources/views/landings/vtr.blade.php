@@ -47,9 +47,14 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
+<div class="opaco">
+<div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+            <img style="max-width:100px; max-height:100px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">
+
+        </div></div>
     <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">
 
-        <div class="opaco"></div>
+        
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">
