@@ -87,7 +87,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </div> -->
 
 
-                <button onclick='window.location.href="tel:+56985296912" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
+                <button onclick='window.location.href="tel:+56994193139" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
                 <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">CLICK AQUÍ SI DESEAS QUE TE CONTACTEMOS</button>
                 
