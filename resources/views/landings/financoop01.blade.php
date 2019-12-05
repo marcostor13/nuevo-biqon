@@ -143,7 +143,7 @@ $name = $_GET['NOMBRE'];
                 'json_datos': JSON.stringify(getAllUrlParameter())
             });
         }); 
-$('#name').getUrlParameter('nombre');
+
          function event1(){
     
             let dataSend = {
