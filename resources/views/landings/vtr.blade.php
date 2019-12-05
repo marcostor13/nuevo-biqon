@@ -57,7 +57,7 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-primary text-black col-12 mt-4"> Validar </button>
+                <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Validar </button>
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -75,14 +75,29 @@ $enddate=strtotime("+5 days", $startdate);
                     <b>$ </b><b id="pay"></b>-->
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
                 </p>
-                <div class="date btn bg-primary text-black col-12 mt-4">
+                <div class="date btn bg-danger text-black col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-black col-12 mt-4">PAGAR AHORA</button>
                 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-black col-12 mt-4">YA PAGUE</button>
                 
+                <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/"; eventosLanding("Pagina de Tarifas"); ' class="btn bg-danger text-black col-12 mt-4">TARIFAS</button>
+
+                <button onclick='window.location.href="https://vtr.com/productos/lugares-de-pago"; eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-black col-12 mt-4">LUGARES DE PAGO</button>
+
+                <button onclick='window.location.href="https://vtr.com/sucursales/v"; eventosLanding("Sucursales"); ' class="btn bg-danger text-black col-12 mt-4">SUCURSALES</button>
+
+                <button onclick='window.location.href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv"; eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-12 mt-4">SUCURSAL VIRTUAL</button>
+
+                <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/contactanos/"; eventosLanding("Centro de Ayuda"); ' class="btn bg-danger text-black col-12 mt-4">CENTRO DE AYUDA VTR</button>
+
+                <button onclick='window.location.href="https://vtr.com/productos/reclamos"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-black col-12 mt-4">REPORTAR ABUSO</button>
+
+                <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/"; eventosLanding("Actualiza Datos"); ' class="btn bg-danger text-black col-12 mt-4">ACTUALIZA LOS DATOS</button>
+
+                <button onclick='window.location.href="https://vtr.com/productos/privacidad"; eventosLanding("Privacidad"); ' class="btn bg-danger text-black col-12 mt-4">PRIVACIDAD</button>
                <!-- <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56978096473&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 
