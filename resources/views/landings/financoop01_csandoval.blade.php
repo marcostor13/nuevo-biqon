@@ -96,7 +96,7 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     <a onclick="eventosLanding('Llamar');" href="tel:+56961682581"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
-                    <a onclick="eventosLanding('Correo');" href="mailto: carmen.sandoval@financoop.cl"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:carmen.sandoval@financoop.cl"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
             </div>
@@ -208,7 +208,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com","carmen.sandoval@financoop.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
