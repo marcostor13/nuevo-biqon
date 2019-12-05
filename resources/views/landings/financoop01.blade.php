@@ -58,13 +58,13 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Financoop">
 
-            <div id="cont1" class="p-5 ">
+           <!-- <div id="cont1" class="p-5 ">
                 <div class="card">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4">Validar</button>
-            </div>
+            </div>-->
 
                 <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -74,16 +74,14 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
 
-            <div id="cont2" class="p-5 hide">
+            <div id="cont1" class="p-5 hide">
                 <div class="card">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Estimado <span id="name"></span>  </strong> </h3>
 
                 <h4><p class="text-black"> <strong>
-                   Si eres pensionado Te informamos que tienes un crédito pre aprobado 
-                     <br>
-                    Te ofrecemos las siguientes opciones para contactarnos. </strong>
-                </p></h4>
+                  Financoop líder en la atención a pensionados desde hace más de diez años, quiere invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>
+                   <h5>Excluye pensión Solidaria</h5>
 
                 </div> </div>
                 <!--<div class="date btn bg-warning text-black col-12 mt-4">
