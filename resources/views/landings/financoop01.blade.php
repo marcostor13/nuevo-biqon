@@ -111,7 +111,7 @@ $name = $_GET['NOMBRE'];
 
                 <button onclick='window.location.href="tel:+56944735189" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">CLICK AQUÍ SI DESEAS QUE TE CONTACTEMOS</button>
+               <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>DESEAS QUE TE CONTACTEMOS</strong> </h3> </button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56944735189&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
@@ -165,10 +165,10 @@ $name = $_GET['NOMBRE'];
                 e = JSON.parse(e); 
                     #name= getUrlParameter('nombre');
                 if(e.code == 200){
-                    $('#cont1').addClass('hide');
+                    $('#cont2').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                    $('#cont2').removeClass('hide');
+                    $('#cont1').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
                             sendMail();
@@ -203,7 +203,7 @@ $name = $_GET['NOMBRE'];
 
      
 
-        function sendMail(msg = false){
+       function sendMail(msg = false){
 
             console.log('{!! $landing->name !!}'); 
             
@@ -211,31 +211,34 @@ $name = $_GET['NOMBRE'];
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': getUrlParameter('nombre'),
+                    'Mombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
-                    'landing': '{!! $landing->name !!}'
-                              
+                    'Phone': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                     'Direccion': getUrlParameter('data1'),
+                     'Comuna': getUrlParameter('data2')                
+                    
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'fecha': date,
-                    'Nombre': getUrlParameter('nombre'),
-                   // 'monto': getUrlParameter('monto'),
-                    'phone': getUrlParameter('telefono'),
-                     'rut': getUrlParameter('rut'),
+                    'Fecha': date,
+                    'Mombre': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
+                    'Phone': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                     'Direccion': getUrlParameter('data1'),
+                     'Comuna': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com", "rodrigo.ramirez@financoop.cl"];
+            var correo = ["rodrigo.ramirez@financoop.cl","jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'"rodrigo.ramirez@financoop.cl",
+                //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
                 headers: {
@@ -246,15 +249,14 @@ $name = $_GET['NOMBRE'];
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
+                     $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
+                     $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su visita fue agendada');
-                     eventosLanding('Agendo Visita');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
                 }
             })
             .done(function(e) {
