@@ -47,7 +47,7 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-<div class="opaco">
+<div class="oscurecer">
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <img style="max-width:100px; max-height:100px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">
 
@@ -57,7 +57,7 @@ $enddate=strtotime("+5 days", $startdate);
         
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">
+            <!--<img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">-->
 
              <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
