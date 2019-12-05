@@ -55,16 +55,15 @@ $name = $_GET['NOMBRE'];
     }
 </style>
 
-<script type="text/javascript">
-    $('#name')=getUrlParameter('nombre');
-</script>
+   <div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
-    <div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
-
+        
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Financoop">
+
+            <div id="cont1">
 
            <!-- <div id="cont1" class="p-5 ">
                 <div class="card">     
@@ -83,7 +82,7 @@ $name = $_GET['NOMBRE'];
                         </div>
                     </div>-->
 
-            <div id="cont1" class="p-5 ">
+            
                 <div class="card">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Estimado(a) <span><?php echo $name; ?></span>  </strong> </h3>
@@ -92,17 +91,22 @@ $name = $_GET['NOMBRE'];
                   Financoop líder en la atención a pensionados desde hace más de diez años, quieremos invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>-->
                    
                    <h5>FINANCOOP tiene un Crédito orientado para pensionados del sistema antiguo de previsión social IPS y AFP.</h5>
-<br>
-                   <h5>Ventajas del crédito</h5>
-<h6>-> Son de libre disposición y sin AVAL.<br>
--> Cuotas: Hasta 60 meses de plazo.<br>
--> Tasas reguladas por la Comisión para el Mercado Financiero (CMF).<br>
--> Atendemos socios hasta los 93 años 11 meses.<br>
--> Cobertura de Seguro de Desgravamen.<br>
--> Abono directo en cuenta del socio o retiro en BancoEstado.<br>
--> Evaluación inmediata.</h6>
+                    <br>
+                    <h5>Ventajas del crédito</h5>
+                    <h6>-> Son de libre disposición y sin AVAL.<br>
+                    -> Cuotas: Hasta 60 meses de plazo.<br>
+                    -> Tasas reguladas por la Comisión para el Mercado Financiero (CMF).<br>
+                    -> Atendemos socios hasta los 93 años 11 meses.<br>
+                    -> Cobertura de Seguro de Desgravamen.<br>
+                    -> Abono directo en cuenta del socio o retiro en BancoEstado.<br>
+                    -> Evaluación inmediata.</h6>
 
-                </div> </div> </div>
+            
+            </div> 
+
+            </div> 
+
+           
                 <!--<div class="date btn bg-warning text-black col-12 mt-4">
                     <span>AGENDAR VISITA A NUESTRA SUCURSAL</span>
                     <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
@@ -112,7 +116,9 @@ $name = $_GET['NOMBRE'];
                 <button onclick='window.location.href="tel:+56944735189" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3">  DESEAS QUE TE CONTACTEMOS </button>
-                
+
+                 </div>
+
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56944735189&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
@@ -132,9 +138,10 @@ $name = $_GET['NOMBRE'];
 
         </div>
     </div>
-</div>
+
      <script>
    //EVENT 1
+        
         
         $(function(){
             events({    
@@ -163,21 +170,19 @@ $name = $_GET['NOMBRE'];
             .done(function(e) {
                 console.log(e);
                 e = JSON.parse(e); 
-                    #name= getUrlParameter('nombre');
+
                 if(e.code == 200){
-                    $('#cont2').addClass('hide');
+                    $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                    $('#cont1').removeClass('hide');
+                    $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
                             sendMail();
                         }
                     });
                 }else{
-                    $('#cont1').addClass('hide');
-                     $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a alguna de nuestras sucursales.");
+                    $('#error').text(e.msg);
                 }
             })
             .fail(function() {
@@ -190,10 +195,10 @@ $name = $_GET['NOMBRE'];
         let eventosLanding = function(name){
             
             let json_datos = getAllUrlParameter(); 
-            json_datos.nombre=getUrlParameter('nombre');
-          //  json_datos.nombre = getUrlParameter('nombre');
-           // json_datos.monto = $('#pay').text();
 
+            //json_datos.nombre = $('#name').text();
+           // json_datos.monto = $('#pay').text();
+            json_datos.nombre=getUrlParameter('nombre');
             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
@@ -203,7 +208,7 @@ $name = $_GET['NOMBRE'];
 
      
 
-       function sendMail(msg = false){
+        function sendMail(msg = false){
 
             console.log('{!! $landing->name !!}'); 
             
@@ -211,24 +216,24 @@ $name = $_GET['NOMBRE'];
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': getUrlParameter('nombre'),
+                    'Mombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                    // 'Direccion': getUrlParameter('data1'),
-                    // 'Comuna': getUrlParameter('data2')                
-                    'landing': '{!! $landing->name !!}'
+                     'Direccion': getUrlParameter('data1'),
+                     'Comuna': getUrlParameter('data2')                
+                    
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'Fecha': date,
-                    'Nombre': getUrlParameter('nombre'),
+                    'Mombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                    // 'Direccion': getUrlParameter('data1'),
-                     //'Comuna': getUrlParameter('data2'),
+                     'Direccion': getUrlParameter('data1'),
+                     'Comuna': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
@@ -254,7 +259,7 @@ $name = $_GET['NOMBRE'];
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont1').addClass('hide');
+                     $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
                 }
