@@ -211,12 +211,12 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["rodrigo.ramirez@financoop.cl","jesus.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                //'email': 'marcostor13@gmail.com'"rodrigo.ramirez@financoop.cl",
             }
             $.ajaxSetup({
                 headers: {
