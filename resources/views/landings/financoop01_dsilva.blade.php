@@ -208,7 +208,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com","daniela.silva@financoop.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
