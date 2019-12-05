@@ -6,6 +6,9 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
+
+$name = $_GET['nombre'];
+//echo "El identificador de este cliente es: $identificador";
 ?>
 <style>
 .opaco{
@@ -51,6 +54,11 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
 </style>
+
+<script type="text/javascript">
+    $('#name')=getUrlParameter('nombre');
+</script>
+
     <div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
         <div class="opaco"></div>
@@ -78,7 +86,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont1" class="p-5">
                 <div class="card">     
                 <div class="card-body">
-                <h3 class="text-black text-center"> <strong> Estimado <span id="name"></span>  </strong> </h3>
+                <h3 class="text-black text-center"> <strong> Estimado <span id="name"><?php echo $name; ?></span>  </strong> </h3>
 
                 <h4><p class="text-black"> <strong>
                   Financoop líder en la atención a pensionados desde hace más de diez años, quieremos invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>
@@ -125,7 +133,6 @@ $enddate=strtotime("+5 days", $startdate);
                 'json_datos': JSON.stringify(getAllUrlParameter())
             });
         }); 
-$('#name').text(e.data.nombre);
 $('#name').getUrlParameter('nombre');
          function event1(){
     
@@ -174,8 +181,8 @@ $('#name').getUrlParameter('nombre');
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+          //  json_datos.nombre = getUrlParameter('nombre');
+           // json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
