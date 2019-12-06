@@ -59,11 +59,11 @@ $enddate=strtotime("+5 days", $startdate);
 
         </div>
     </div>
-    <!--<div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:800px">
-    class="content container-fluid d-flex flex-column align-items-center justify-content-start"-->
+    <div id="VTR" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
         <div>
-              <img  class="img col-12" src="{{$landing->background}}" alt="VTR">
-            <!--<img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">-->
+              
+            <!--<img  class="img-fluid col-12" src="{{$landing->background}}" alt="VTR">
+                <img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">-->
 
              <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
@@ -141,7 +141,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <tr>
                     <tdp-2 class="p-2 pl-5 pr-5"> 
                     <a href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="text-white" data-scroll-link="true">
-                    <i class="icon-usuario text-white"></i>Planes y Tarifas</a> </td>
+                    <i class="fa-fas-icon-usuario text-white"></i>Planes y Tarifas</a> </td>
                     <td>
                     <a href="https://vtr.com/productos/lugares-de-pago" class="text-white">
                     <i class="icon-pago text-white"></i>Lugares de Pago</a> </td>
@@ -149,7 +149,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <td> 
                     <a href="https://vtr.com/sucursales/v" class="text-white">
-                    <i class="icon-mail text-white"></i>Sucursales</a> </td>
+                    <i class="fas fa-location-arrow"></i>Sucursales</a> </td>
                     <td> 
                     <a href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="text-white">
                     <i class="icon-usuario text-white"></i>Sucursal Virtual</a> </td>
