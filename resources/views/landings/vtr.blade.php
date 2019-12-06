@@ -51,6 +51,12 @@ $enddate=strtotime("+5 days", $startdate);
     background-text: #262626;
     padding: 40px 30px;
 }
+ .fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; 
+  background-text: #262626
+}  
+
     
 </style>
 
@@ -137,28 +143,28 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <ul>
                     <li>
-                    <a test="4"  onclick="eventosLanding('Planes');" href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="text-white" data-scroll-link="true" data-trigger-btn="triggered-a">
+                    <a onclick="eventosLanding('Planes');" href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="text-white" >
                     <i class="fas fa-mobile-alt text-danger"></i> Planes y Tarifas</a></li>
                     <li>
-                    <a test="3" onclick="eventosLanding('Lugares de Pago');" href="https://vtr.com/productos/lugares-de-pago" class="text-white" target="pago-express" data-scroll-link="true" data-deploy-element="pago-express">
+                    <a  onclick="eventosLanding('Lugares de Pago');" href="https://vtr.com/productos/lugares-de-pago" class="text-white">
                     <i class="fas fa-map-marked-alt text-danger"></i> Lugares de Pago</a></li>
                     <li>
-                    <a test="4"  onclick="eventosLanding('Sucursales');"href="https://vtr.com/sucursales/v" class="text-white" target="pago-express" data-scroll-link="true">
+                    <a onclick="eventosLanding('Sucursales');"href="https://vtr.com/sucursales/v" class="text-white">
                     <i class="fas fa-globe text-danger"></i> Sucursales</a></li>
                     <li>
-                    <a test="4" onclick="eventosLanding('Sucursal Virtual');" href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="text-white" data-scroll-link="true">
+                    <a onclick="eventosLanding('Sucursal Virtual');" href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="text-white">
                     <i class="fas fa-user text-danger"></i> Sucursal Virtual</a></li>
                     <li>
-                    <a test="4" onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white" target="pago-express" data-scroll-link="true">
+                    <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white">
                     <i class="fas fa-question text-danger"></i> Centro de ayuda online</a></li>
                     <li>
-                    <a test="4"  onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-white" data-scroll-link="true">
+                    <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-white">
                     <i class="fas fa-exclamation-circle text-danger"></i> Reportar Abusos</a></li>
                     <li>
-                    <a test="4"  onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white" data-scroll-link="true">
+                    <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white">
                     <i class="fas fa-user text-danger"></i> Actualiza Datos</a></li>
                     <li>
-                    <a test="4" onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-white" data-scroll-link="true">
+                    <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-white">
                     <i class="fas fa-user-shield text-danger"></i> Politica de Privacidad</a></li>
                     </ul>
                     </div>
