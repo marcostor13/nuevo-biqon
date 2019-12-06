@@ -84,7 +84,9 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
+                <div class="text-white col-12 mt-4">
                 <h5 class="text-white text-center">Estimado(a) <span id="name"></span></h5>
+                </div>
             <br><br>
                 <p class="text-black">
                     Te informamos que presentas un retraso en el pago tu cuenta 
