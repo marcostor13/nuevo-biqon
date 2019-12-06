@@ -85,7 +85,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
             <div id="cont2" class="p-5 hide">
                 <div class="text-white col-md-10">
-                <h5 class="text-white text-center">Estimado(a) </h5><h6><span id="name"></span></h6>
+                <h6 class="text-white text-center">Estimado(a) <span id="name"></span></h6>
                 </div>
             <br><br>
                 <p class="text-black">
