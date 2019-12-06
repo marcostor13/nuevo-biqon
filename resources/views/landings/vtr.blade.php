@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
-
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <style type="text/css">
     
 .card {
@@ -57,10 +57,11 @@ $enddate=strtotime("+5 days", $startdate);
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
             <img style="max-width:65px; max-height:65px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR">
 
-        </div></div>
-    <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:800px">
-
+        </div>
+    </div>
+    <!--<div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:800px">-->
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+              <img  class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->background}}" alt="VTR">
             <!--<img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">-->
 
              <div id="cont1" class="p-5 ">
@@ -129,7 +130,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
         </div>
-    </div>
+    <!--</div>-->
 <div class="oscurecer">
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
           <p class="vtr-small vtr-offset-bottom-1 text-white">SERVICIOS PARA TI</p>
