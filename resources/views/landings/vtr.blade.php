@@ -116,7 +116,7 @@ $enddate=strtotime("+5 days", $startdate);
     </div>
 <div class="oscurecer">
 <div class="accesos-directo">
-                    <p class="vtr-small vtr-offset-bottom-1">SERVICIOS PARA TI</p>
+                    <p class="vtr-small vtr-offset-bottom-1 text-white">SERVICIOS PARA TI</p>
 
                     <ul>
                     <li>
