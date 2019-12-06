@@ -138,10 +138,10 @@ $enddate=strtotime("+5 days", $startdate);
                     <ul>
                     <li>
                     <a test="4"  onclick="eventosLanding('Planes');" href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="" data-scroll-link="true" data-trigger-btn="triggered-a">
-                    <i class="icon-usuario color-danger"></i> Planes y Tarifas</a></li>
+                    <i class="fas fa-mobile-alt color-danger"></i> Planes y Tarifas</a></li>
                     <li>
                     <a test="3" onclick="eventosLanding('Lugares de Pago');" href="https://vtr.com/productos/lugares-de-pago" class="" target="pago-express" data-scroll-link="true" data-deploy-element="pago-express">
-                    <i class="icon-pago color-primary"></i> Lugares de Pago</a></li>
+                    <i class="fas fa-map-marked-alt color-primary"></i> Lugares de Pago</a></li>
                     <li>
                     <a test="4"  onclick="eventosLanding('Sucursales');"href="https://vtr.com/sucursales/v" class="" target="pago-express" data-scroll-link="true">
                     <i class="icon-mail color-primary"></i> Sucursales</a></li>
@@ -150,16 +150,16 @@ $enddate=strtotime("+5 days", $startdate);
                     <i class="fas fa-user color-primary"></i> Sucursal Virtual</a></li>
                     <li>
                     <a test="4" onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="" target="pago-express" data-scroll-link="true">
-                    <i class="icon-ayuda color-primary"></i> Centro de ayuda online</a></li>
+                    <i class="fas fa-question color-primary"></i> Centro de ayuda online</a></li>
                     <li>
                     <a test="4"  onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="" data-scroll-link="true">
                     <i class="icon-big-i color-primary"></i> Reportar Abusos</a></li>
                     <li>
                     <a test="4"  onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="" data-scroll-link="true">
-                    <i class="icon-big-i color-primary"></i> Actualiza Datos</a></li>
+                    <i class="fas fa-user color-primary"></i> Actualiza Datos</a></li>
                     <li>
                     <a test="4" onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="" data-scroll-link="true">
-                    <i class="icon-big-i color-primary"></i> Politica de Privacidad</a></li>
+                    <i class="fas fa-user color-primary"></i> Politica de Privacidad</a></li>
                     </ul>
                     </div>
         </div></div>
