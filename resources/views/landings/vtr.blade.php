@@ -149,7 +149,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <td> 
                     <a href="https://vtr.com/sucursales/v" class="text-white">
-                    <i class="fas fa-location-arrow"></i>Sucursales</a> </td>
+                    <i class="fas fa-location-arrow text-danger"></i> Sucursales</a> </td>
                     <td> 
                     <a href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="text-white">
                     <i class="icon-usuario text-white"></i>Sucursal Virtual</a> </td>
