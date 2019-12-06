@@ -71,7 +71,8 @@ $enddate=strtotime("+5 days", $startdate);
             <!--<img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">-->
 
              <div id="cont1" class="p-5 ">
-                <h4 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
+                <br><br><br>
+                <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
             </div>
@@ -84,7 +85,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
             <div id="cont2" class="p-5 hide">
                 <h4 class="text-white text-center">Estimado(a) <span id="name"></span></h4>
-
+<br><br>
                 <p class="text-black">
                     Te informamos que presentas un retraso en el pago tu cuenta 
                     <!-- por un monto total de, mas recargos por mora:
