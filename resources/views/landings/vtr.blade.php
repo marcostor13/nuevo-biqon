@@ -144,7 +144,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <i class="fas fa-map-marked-alt color-primary"></i> Lugares de Pago</a></li>
                     <li>
                     <a test="4"  onclick="eventosLanding('Sucursales');"href="https://vtr.com/sucursales/v" class="" target="pago-express" data-scroll-link="true">
-                    <i class="icon-mail color-primary"></i> Sucursales</a></li>
+                    <i class="fas fa-globe color-primary"></i> Sucursales</a></li>
                     <li>
                     <a test="4" onclick="eventosLanding('Sucursal Virtual');" href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="" data-scroll-link="true">
                     <i class="fas fa-user color-primary"></i> Sucursal Virtual</a></li>
@@ -159,7 +159,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <i class="fas fa-user color-primary"></i> Actualiza Datos</a></li>
                     <li>
                     <a test="4" onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="" data-scroll-link="true">
-                    <i class="fas fa-user color-primary"></i> Politica de Privacidad</a></li>
+                    <i class="fas fa-user-shield color-primary"></i> Politica de Privacidad</a></li>
                     </ul>
                     </div>
         </div></div>
