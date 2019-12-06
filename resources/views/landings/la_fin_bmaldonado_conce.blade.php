@@ -212,7 +212,7 @@ $name = $_GET['NOMBRE'];
 
             console.log('{!! $landing->name !!}'); 
             
-            let data; 
+           let data; 
             if(msg !== false){
                 data = {
                     'mensaje': msg,
@@ -220,8 +220,10 @@ $name = $_GET['NOMBRE'];
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2')                
+                     'Sucursal': getUrlParameter('data1'),
+                     'Campaña': getUrlParameter('data2'),
+                     'Ejecutivo': getUrlParameter('data3'),
+                                     
                     
                 }
             }else{
@@ -232,8 +234,9 @@ $name = $_GET['NOMBRE'];
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2'),
+                     'Sucursal': getUrlParameter('data1'),
+                     'Campaña': getUrlParameter('data2'),
+                     'Ejecutivo': getUrlParameter('data3'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
