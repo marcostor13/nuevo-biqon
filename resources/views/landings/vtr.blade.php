@@ -7,6 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <style type="text/css">
     
@@ -55,15 +56,13 @@ $enddate=strtotime("+5 days", $startdate);
 
 <div class="oscurecer">
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
-            <img style="max-width:65px; max-height:50px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR">
+            <img style="max-width:65px; max-height:65px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR">
 
-        </div>
-    </div>
-    <div id="VTR" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
-        <div>
-              
-            <!--<img  class="img-fluid col-12" src="{{$landing->background}}" alt="VTR">
-                <img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">-->
+        </div></div>
+    <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">
+
+        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+            <!--<img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">-->
 
              <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
@@ -131,7 +130,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
         </div>
-    <!--</div>-->
+    </div>
 <div class="oscurecer">
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
           <p class="vtr-small vtr-offset-bottom-1 text-white">SERVICIOS PARA TI</p>
@@ -141,40 +140,40 @@ $enddate=strtotime("+5 days", $startdate);
                     <tr>
                     <tdp-2 class="p-2 pl-5 pr-5"> 
                     <a href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="text-white" data-scroll-link="true">
-                    <<i class="fas fa-globe text-danger"></i> Planes y Tarifas</a> </td>
+                    <i class="icon-usuario text-white"></i> Planes y Tarifas</a> </td>
                     <td>
                     <a href="https://vtr.com/productos/lugares-de-pago" class="text-white">
-                    <i class="fas fa-map-marked-alt text-danger"></i> Lugares de Pago</a> </td>
+                    <i class="icon-pago text-white"></i> Lugares de Pago</a> </td>
                     </tr>
 
                     <td> 
                     <a href="https://vtr.com/sucursales/v" class="text-white">
-                    <i class="fas fa-location-arrow text-danger"></i> Sucursales</a> </td>
+                    <i class="icon-mail text-white"></i> Sucursales</a> </td>
                     <td> 
                     <a href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="text-white">
-                    <i class="icon-usuario text-white"></i>Sucursal Virtual</a> </td>
+                   <i class="fas fa-user"></i> Sucursal Virtual</a> </td>
                     </tr>
    
                     <tr>
                     <td>
                     <a href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white">
-                    <i class="icon-ayuda text-white"></i>Centro de ayuda online</a> </td>
+                    <i class="icon-ayuda text-white"></i> Centro de ayuda online</a> </td>
                     <td> 
                     <a href="https://vtr.com/productos/reclamos" class="text-white">
-                    <i class="icon-big-i text-white"></i>Reportar Abusos</a> </td>
+                    <i class="icon-big-i text-white"></i> Reportar Abusos</a> </td>
                     </tr>
                     <tr>
                     <td>
                     <a href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white">
-                    <i class="icon-big-i text-white"></i>Actualiza Datos</a> </td>
+                    <i class="icon-big-i text-white"></i> Actualiza Datos</a> </td>
                     <td>
                     <a href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white">
-                    <i class="icon-big-i text-white"></i>Actualiza Datos</a> </td>
+                    <i class="icon-big-i text-white"></i> Actualiza Datos</a> </td>
                     <td>
                     </tr>
                     <tr>
                     <a href="https://vtr.com/productos/privacidad" class="text-white">
-                    <i class="icon-big-i text-white"></i>Politica de Privacidad</a> </td>
+                    <i class="icon-big-i text-white"></i> Politica de Privacidad</a> </td>
                     </tr>
                     </table>
         </div></div>
