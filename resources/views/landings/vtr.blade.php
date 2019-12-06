@@ -71,9 +71,9 @@ $enddate=strtotime("+5 days", $startdate);
             <!--<img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">-->
 
              <div id="cont1" class="p-5 ">
-                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <h4 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Validar </button>
+                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -83,7 +83,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
+                <h4 class="text-white text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black">
                     Te informamos que presentas un retraso en el pago tu cuenta 
@@ -91,13 +91,13 @@ $enddate=strtotime("+5 days", $startdate);
                     <b>$ </b><b id="pay"></b>-->
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
                 </p>
-                <div class="date btn bg-danger text-black col-12 mt-4">
+                <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-black col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
                 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-black col-12 mt-4">YA PAGUE</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 
              <!-- <button onclick='window.location.href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/"; eventosLanding("Pagina de Tarifas"); ' class="btn bg-danger text-black col-3 mt-4">TARIFAS Y PLANES</button>
 
