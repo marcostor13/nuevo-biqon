@@ -60,7 +60,7 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-<div class="oscurecer">
+<div class="oscurecer p-4">
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
             <img style="max-width:65px; max-height:65px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR">
 
