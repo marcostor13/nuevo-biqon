@@ -120,7 +120,7 @@ $name = $_GET['NOMBRE'];
                 
 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56944735189&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56944735189&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
                     <a onclick="eventosLanding('Llamar');" href="tel:+56944735189"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
@@ -220,8 +220,10 @@ $name = $_GET['NOMBRE'];
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2')                
+                     'Sucursal': getUrlParameter('data1'),
+                     'Campaña': getUrlParameter('data2'),
+                     'Ejecutivo': getUrlParameter('data3'),
+                                     
                     
                 }
             }else{
@@ -232,13 +234,14 @@ $name = $_GET['NOMBRE'];
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2'),
+                     'Sucursal': getUrlParameter('data1'),
+                     'Campaña': getUrlParameter('data2'),
+                     'Ejecutivo': getUrlParameter('data3'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-            var correo = ["rodrigo.ramirez@financoop.cl","jesus.binteraction@gmail.com"];
+            var correo = ["rodrigo.ramirez@financoop.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
