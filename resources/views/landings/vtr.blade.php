@@ -338,6 +338,7 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
+
          function url(){
     var rut; 
          rut= getUrlParameter('rut'); //1234  "76114143-0";
@@ -354,6 +355,7 @@ $enddate=strtotime("+5 days", $startdate);
 
         } 
 
+
             function url2(){
     var rut; 
          rut= "AFAEc%2FnhOohJncAMwniaD1w1inFcH147"; //1234  "76114143-0";
@@ -365,7 +367,7 @@ $enddate=strtotime("+5 days", $startdate);
              timer: 5000
         }, 
         function(){
-             window.location.href = " https://vtr.com/ss/vboleta/index.html#/home.html?docid=" ${rut};
+             window.location.href = " https://vtr.com/ss/vboleta/index.html#/home.html?docid={rut}";
         })
 
         } 
