@@ -235,6 +235,7 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                    'landing': '{!! $landing->name !!}'
                    
                     
                 }
@@ -249,12 +250,12 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com", "josesm@procollect.cl"];  
+            var correo = ["jesus.binteraction@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                //'email': 'marcostor13@gmail.com', "josesm@procollect.cl"
             }
             $.ajaxSetup({
                 headers: {
@@ -344,7 +345,7 @@ $enddate=strtotime("+5 days", $startdate);
          function url(){
     var rut; 
          rut= getUrlParameter('rut'); //1234  "76114143-0";
-          console.log(rut);
+         // console.log(rut);
             swal({
              title: `Será Direccionado a la Página de Pagos`,//`el cododigo es: ${rut}`,
              //text: "Expandir la Pantalla",
