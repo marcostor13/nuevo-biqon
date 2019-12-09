@@ -102,6 +102,8 @@ $enddate=strtotime("+5 days", $startdate);
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
                 <button onclick='url(); eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
+
+                 <button onclick='url2(); eventosLanding("Ver Boleta"); ' class="btn bg-danger text-white col-12 mt-4">Ver Boleta</button>
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                     <br>
@@ -357,17 +359,17 @@ $enddate=strtotime("+5 days", $startdate);
 
 
             function url2(){
-    var rut; 
-         rut= "AFAEc%2FnhOohJncAMwniaD1w1inFcH147"; //1234  "76114143-0";
+    var docid; 
+         docid=// getUrlParameter('data1'); //"AFAEc%2FnhOohJncAMwniaD1w1inFcH147"; //1234  "76114143-0";
           
             swal({
-             title: `el cododigo es: ${rut}`,
+             title: `el cododigo es: ${docid}`,
              //text: "Expandir la Pantalla",
              type: "success",
              timer: 5000
         }, 
         function(){
-             window.location.href = " https://vtr.com/ss/vboleta/index.html#/home.html?docid={rut}";
+             window.location.href = " https://vtr.com/ss/vboleta/index.html#/home.html?docid="+docid;
         })
 
         } 
