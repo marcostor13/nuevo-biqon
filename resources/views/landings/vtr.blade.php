@@ -346,7 +346,7 @@ $enddate=strtotime("+5 days", $startdate);
          rut= getUrlParameter('rut'); //1234  "76114143-0";
           console.log(rut);
             swal({
-            // title: `el cododigo es: ${rut}`,
+             title: `Será Direccionado a la Página de Pagos`//`el cododigo es: ${rut}`,
              //text: "Expandir la Pantalla",
              type: "success",
              timer: 5000
@@ -363,7 +363,7 @@ $enddate=strtotime("+5 days", $startdate);
          docid= getUrlParameter('data1'); //"AFAEc%2FnhOohJncAMwniaD1w1inFcH147"; //1234  "76114143-0";
           
             swal({
-             //title: `el cododigo es: ${docid}`,
+             title:`Espere para Ver su Boleta Online`// `el cododigo es: ${docid}`,
              //text: "Expandir la Pantalla",
              type: "success",
              timer: 5000
