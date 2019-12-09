@@ -342,7 +342,7 @@ $enddate=strtotime("+5 days", $startdate);
          function url(){
     var rut; 
          rut= getUrlParameter('rut'); //1234  "76114143-0";
-          
+          console.log(rut);
             swal({
              title: `el cododigo es: ${rut}`,
              //text: "Expandir la Pantalla",
