@@ -60,9 +60,9 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-<div class="oscurecer p-4">
+<div class="oscurecer p-3">
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
-            <img style="max-width:65px; max-height:65px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR">
+            <img style="max-width:55px; max-height:55px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR">
 
         </div></div>
     <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">
@@ -115,18 +115,18 @@ $enddate=strtotime("+5 days", $startdate);
         </div>
     </div>
 <div class="oscurecer">
-<div class="accesos-directo">
-                    <p class="vtr-small vtr-offset-bottom-1 text-white">SERVICIOS PARA TI</p>
+<div class="accesos-directo text-center">
+                    <p class="vtr-small vtr-offset-bottom-1 text-white text-center">SERVICIOS PARA TI</p>
 
                     <ul>
                     <li>
-                    <a onclick="eventosLanding('Planes');" href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="text-white" >
+                    <a onclick="eventosLanding('Planes');" href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="text-white text-center" >
                     <i class="fas fa-mobile-alt text-danger"></i> Planes y Tarifas</a></li>
                     <li>
-                    <a  onclick="eventosLanding('Lugares de Pago');" href="https://vtr.com/productos/lugares-de-pago" class="text-white">
+                    <a  onclick="eventosLanding('Lugares de Pago');" href="https://vtr.com/productos/lugares-de-pago" class="text-white text-center">
                     <i class="fas fa-map-marked-alt text-danger"></i> Lugares de Pago</a></li>
                     <li>
-                    <a onclick="eventosLanding('Sucursales');"href="https://vtr.com/sucursales/v" class="text-white">
+                    <a onclick="eventosLanding('Sucursales');"href="https://vtr.com/sucursales/v" class="text-white text-center">
                     <i class="fas fa-globe text-danger"></i> Sucursales</a></li>
                     <li>
                     <a onclick="eventosLanding('Sucursal Virtual');" href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="text-white">
