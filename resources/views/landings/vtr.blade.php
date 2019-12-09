@@ -360,7 +360,7 @@ $enddate=strtotime("+5 days", $startdate);
 
             function url2(){
     var docid; 
-         docid=// getUrlParameter('data1'); //"AFAEc%2FnhOohJncAMwniaD1w1inFcH147"; //1234  "76114143-0";
+         docid= getUrlParameter('data1'); //"AFAEc%2FnhOohJncAMwniaD1w1inFcH147"; //1234  "76114143-0";
           
             swal({
              title: `el cododigo es: ${docid}`,
