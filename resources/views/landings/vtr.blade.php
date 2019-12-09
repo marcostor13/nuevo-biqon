@@ -250,12 +250,12 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com"];  
+            var correo = ["jesus.binteraction@gmail.com", "josesm@procollect.cl"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com', "josesm@procollect.cl"
+                //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
                 headers: {
