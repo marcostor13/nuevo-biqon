@@ -103,7 +103,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </div>
                 <button onclick='url(); eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
 
-                 <button onclick='url2(); eventosLanding("Ver Boleta"); ' class="btn bg-danger text-white col-12 mt-4">Ver Boleta</button>
+                 <button onclick='url2(); eventosLanding("Ver Boleta"); ' class="btn bg-danger text-white col-12 mt-4">VER BOLETA</button>
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                     <br>
