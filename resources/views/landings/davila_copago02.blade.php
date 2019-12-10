@@ -214,7 +214,7 @@
             let data; 
             if(msg !== false){
                 data = {
-                    'mensaje': msg,
+                    'Mensaje': msg,
                     'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
@@ -222,22 +222,23 @@
                     'Id_Admision': getUrlParameter('data1'),
                     'Prevision': getUrlParameter('data2'),
                     'Estado': getUrlParameter('data3'),
-                    'Ley': getUrlParameter('data4')
+                    //'Ley': getUrlParameter('data4')
+                    'Landing': '{!! $landing->name !!}'
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'fecha': date,
-                    'nombre': $('#name').text(),
+                    'Fecha': date,
+                    'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
-                    'phone': getUrlParameter('telefono'),
+                    'Rut': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
                     'Id_Admision': getUrlParameter('data1'),
                     'Prevision': getUrlParameter('data2'),
                     'Estado': getUrlParameter('data3'),
                     'Ley': getUrlParameter('data4'),
-                     'rut': getUrlParameter('rut'),
-                    'landing': '{!! $landing->name !!}'
+                    'Landing': '{!! $landing->name !!}'
                 } 
             }
              var correo = ["infopagatucuenta@davila.cl"];
