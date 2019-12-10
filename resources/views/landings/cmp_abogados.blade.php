@@ -66,7 +66,7 @@ $enddate=strtotime("+5 days", $startdate);
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
-                                 <a href="tel:+56930683241" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
+                                 <a href="tel:+56930681341" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
-                    <a href="tel:+56930683241" class="btn bg-primary text-black col-12 mt-4"> Convenio de pago, Contactar</a> 
+                    <a href="tel:+56930681341" class="btn bg-primary text-black col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
                <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
