@@ -65,6 +65,7 @@
     <!--</div>-->
 
    
+      
      <script>
    //EVENT 1
         
@@ -124,6 +125,7 @@
                json_datos.nombre =getUrlParameter('nombre');
             //json_datos.monto = $('#pay').text();
 
+
             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
@@ -145,9 +147,9 @@
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                    'Sucursal': getUrlParameter('data1'),
+                     'Sucursal': getUrlParameter('data1'),
                      'Campaña': getUrlParameter('data2'),
-                     'Ejecutivo': getUrlParameter('data3')               
+                     'Ejecutivo': getUrlParameter('data3')         
                     
                 }
             }else{
@@ -158,9 +160,9 @@
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Sucursal': getUrlParameter('data1'),
+                    'Sucursal': getUrlParameter('data1'),
                      'Campaña': getUrlParameter('data2'),
-                     'Ejecutivo': getUrlParameter('data3')
+                     'Ejecutivo': getUrlParameter('data3'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
@@ -170,7 +172,7 @@
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com, vanesa.campos@financoop.cl'
+                //'email': 'marcostor13@gmail.com, david.hormazabal@financoop.cl'
             }
             $.ajaxSetup({
                 headers: {
