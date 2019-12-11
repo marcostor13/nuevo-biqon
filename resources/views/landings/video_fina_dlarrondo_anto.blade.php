@@ -17,7 +17,7 @@
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Financoop">
 
-            <div id="cont1" </div>>
+            <div id="cont1" class="p-5 ">
                 <div class="card">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
@@ -32,7 +32,7 @@
                         </div>
                     </div>
 
-            <div id="cont2 " >
+            <div id="cont2" class="p-5 hide">
                 <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/finan_bienv1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
