@@ -129,8 +129,9 @@
                     'Mombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
+                     'Sucursal': getUrlParameter('data1'),
+                     'Campaña': getUrlParameter('data2'),
+                     'Ejecutivo': getUrlParameter('data3'),
                      'Comuna': getUrlParameter('data2')                
                     
                 }
@@ -142,13 +143,14 @@
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2'),
+                    'Sucursal': getUrlParameter('data1'),
+                     'Campaña': getUrlParameter('data2'),
+                     'Ejecutivo': getUrlParameter('data3'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com","daniela.larrondo@financoop.cl"];
+            var correo = ["daniela.larrondo@financoop.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
