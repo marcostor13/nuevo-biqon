@@ -17,7 +17,7 @@
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Financoop">
 
-            <div id="cont1">
+            <div id="cont2">
                 <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/finan_bienv1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -27,15 +27,19 @@
                 <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> </div> </div>
 
                 <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
-            </div>
             
-<div class="d-flex justify-content-around align-content-center mt-4"> 
+            
+                <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961682581&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
                     <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56961682581"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
                     <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:carmen.sandoval@financoop.cl"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
+
+
+                </div>
+
         </div>
 
         <div id="cont3" class="p-2 pl-3 pr-3 hide">
