@@ -146,8 +146,8 @@
                 'json_datos': JSON.stringify(getAllUrlParameter('rut'))
                
             });
-            // console.log(json_datos);
-            // console.log(getAllUrlParameter('rut'));
+            //console.log(json_datos);
+            console.log(getAllUrlParameter('rut'));
         }); 
 
          function event1(){ 
@@ -280,7 +280,7 @@
         }
 
         let events = function(data){     
-
+  console.log(getAllUrlParameter('rut'));
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
