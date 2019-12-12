@@ -84,24 +84,24 @@
                                <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>
 
-                                <div class="d-flex justify-content-around align-content-center mt-4">
+                               <!-- <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>
-                                </div>
+                                </div>-->
 
-                                <div class="d-flex justify-content-around align-content-center mt-4">
+                                <!--<div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
                                 </div>
                                 
-                                <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
+                                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png">
                                 </button>-->
                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
                                     <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                    
-                                    <a onclick="eventosLanding('Correo');" href="mailto:infopagatucuent@davila.cl?subject=Landing%20Copago"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                                    <a onclick="eventosLanding('Correo');" href="mailto:cortezjesus01@gmail.com?subject=Landing%20Copago"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                                     </div>
                             </div>   
                         </div>
@@ -123,7 +123,7 @@
                                     <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
                                 </div>
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
+                                    <a onclick='window.location.href="http://solucionesweb.cl" '>
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
                                 </div>
                                 </div>
@@ -143,20 +143,20 @@
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(getAllUrlParameter())
-               // json_datos: JSON.stringify(getAllUrlParameter('rut'))
+                //'json_datos': JSON.stringify(getAllUrlParameter())
+               json_datos: JSON.stringify(getAllUrlParameter('rut'))
 
                
             });
             //AQUI   
-          //   console.log(JSON.stringify(getAllUrlParameter('rut')));      
-      //  console.log(json_datos.length+" "+JSON.stringify(json_datos));
-      //  for(var i in json_datos){
-       //     console.log("rut"+json_datos[i].rut);
-      //  }
-        //for(var i = 0; i<json_datos.length; i++){
-         //      console.log(json_datos[i]);
-       // }
+             console.log(JSON.stringify(getAllUrlParameter('rut')));      
+       console.log(json_datos.length+" "+JSON.stringify(json_datos));
+        for(var i in json_datos){
+            console.log("rut"+json_datos[i].rut);
+       }
+        for(var i = 0; i<json_datos.length; i++){
+               console.log(json_datos[i]);
+     }
 
         }); 
 
@@ -354,7 +354,7 @@
              timer: 5000
         }, 
         function(){
-             window.location.href = "tel:+569792014";
+             window.location.href = "tel:+56967664209";
         })
 
 
@@ -371,7 +371,7 @@
              timer: 5000
         }, 
         function(){
-             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/";
+             window.location.href = "http://solucionesweb.com";
         })
 
 
