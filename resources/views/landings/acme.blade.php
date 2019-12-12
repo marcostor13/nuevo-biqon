@@ -139,11 +139,12 @@
    //EVENT 1
         
         $(function(){
+            var json_datos = null;
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
                 //'json_datos': JSON.stringify(getAllUrlParameter('rut'))
-                'json_datos': JSON.stringify(getAllUrlParameter('rut'))
+                json_datos: JSON.stringify(getAllUrlParameter('rut'))
 
                
             });
@@ -151,7 +152,7 @@
              
              console.log(JSON.stringify(getAllUrlParameter('rut')));
              
-        var json_datos =getAllUrlParameter('rut');
+      
 
         console.log(json_datos.length+" "+JSON.stringify(json_datos));
 
