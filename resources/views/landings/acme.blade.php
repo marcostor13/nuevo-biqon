@@ -142,7 +142,9 @@
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(getAllUrlParameter())
+                //'json_datos': JSON.stringify(getAllUrlParameter())
+                'json_datos':JSON.stringify(getAllUrlParameter(rut))
+
             });
         }); 
 
