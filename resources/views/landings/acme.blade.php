@@ -151,7 +151,7 @@
              
              console.log(JSON.stringify(getAllUrlParameter('rut')))
              
-        let json_datos = JSON.parse(JSON.stringify(getAllUrlParameter('rut'));
+        let json_datos = JSON.parse(JSON.stringify(getAllUrlParameter('rut')));
 
         for(var i in json_datos){
             console.log("rut"+json_datos[i].rut);
