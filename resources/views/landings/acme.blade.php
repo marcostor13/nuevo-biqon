@@ -143,7 +143,7 @@
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
                 //'json_datos': JSON.stringify(getAllUrlParameter())
-                'json_datos':JSON.stringify(getAllUrlParameter('rut'))
+                'json_datos':getAllUrlParameter('rut')
 
             });
         }); 
