@@ -148,7 +148,10 @@
                
             });
             //console.log(json_datos);
+            //AQUI
             console.log(getAllUrlParameter('rut'));
+            alert((getAllUrlParameter('rut'));
+                alert(json_datos[0].rut)
 
             for(var i in json_datos){
   console.log("rut"+json_datos[i].rut);
