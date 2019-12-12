@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'CLINICA DAVILA')
+@section('title', 'ACME')
 
 @section('content')
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -46,12 +46,12 @@
     
 </style>
 
-    <div id="CLINICA_DAVILA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+    <div id="ACME" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
      <div class="opaco">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="ACME">
             
             <div class=col-md-12>
            
@@ -101,7 +101,7 @@
                                                        
                                     <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                    
-                                    <a onclick="eventosLanding('Correo');" href="mailto:infopagatucuenta@davila.cl?subject=Landing%20Copago"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                                    <a onclick="eventosLanding('Correo');" href="mailto:infopagatucuent@davila.cl?subject=Landing%20Copago"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                                     </div>
                             </div>   
                         </div>
@@ -142,12 +142,12 @@
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(getAllUrlParameter('rut'))
-                //'json_datos':getAllUrlParameter('rut')
+                //'json_datos': JSON.stringify(getAllUrlParameter('rut'))
+                'json_datos':getAllUrlParameter('rut')
                
             });
-             console.log(json_datos);
-             console.log(getAllUrlParameter('rut'));
+            // console.log(json_datos);
+            // console.log(getAllUrlParameter('rut'));
         }); 
 
          function event1(){ 
@@ -344,7 +344,7 @@
              timer: 5000
         }, 
         function(){
-             window.location.href = "tel:+56979201461";
+             window.location.href = "tel:+569792014";
         })
 
 
@@ -361,7 +361,7 @@
              timer: 5000
         }, 
         function(){
-             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
+             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/";
         })
 
 
