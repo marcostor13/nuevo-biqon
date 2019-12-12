@@ -149,9 +149,9 @@
             });
             //AQUI
              
-             console.log(JSON.stringify(getAllUrlParameter('rut')))
+             console.log(JSON.stringify(getAllUrlParameter('rut')));
              
-        var json_datos = JSON.parse(stringify(getAllUrlParameter('rut')));
+        var json_datos =getAllUrlParameter('rut');
 
         console.log(json_datos.length+" "+JSON.stringify(json_datos));
 
