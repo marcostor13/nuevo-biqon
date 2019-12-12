@@ -148,9 +148,9 @@
                
             });
             //AQUI
-            console.log(getAllUrlParameter('rut'));
-            alert((getAllUrlParameter('rut')));
-                alert(json_datos[0].rut)
+             
+             
+    var json_datos = getAllUrlParameter('rut');
 
             for(var i in json_datos){
             console.log("rut"+json_datos[i].rut);
