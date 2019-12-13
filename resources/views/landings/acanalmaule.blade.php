@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'JVRioMaule')
+@section('title', 'ACanalMaule')
 
 @section('content')
 
@@ -15,7 +15,7 @@
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="JVRioMaule">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="ACanalMaule">
 
             <div id="cont1" class="p-2 pl-3 pr-3 ">
 
