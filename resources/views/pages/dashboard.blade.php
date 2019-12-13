@@ -134,7 +134,7 @@
                     
                 </table>
 
-                 <h1 class="border bg-color1 p-4 text-white mt-4">Formularios</h1>
+                 <h1 class="border bg-color2 p-4 text-white mt-4">Formularios</h1>
 
                 <table id="tablaFormularios" class="text-white p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
