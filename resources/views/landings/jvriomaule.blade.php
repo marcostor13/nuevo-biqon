@@ -125,9 +125,10 @@
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': getUrlParameter('nombre'),
+                    //'Nombre': getUrlParameter('nombre'),
                     'Telefono': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
+                     'ID': getUrlParameter('rut'),
+                     'landing': '{!! $landing->name !!}'
                             
                     
                 }
@@ -135,9 +136,9 @@
                 let date = $('#date1').val();
                 data = {
                     'Fecha': date,
-                    'Nombre': getUrlParameter('nombre'),
+                    //'Nombre': getUrlParameter('nombre'),
                     'Telefono': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
+                     'ID': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
