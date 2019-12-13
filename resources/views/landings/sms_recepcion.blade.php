@@ -25,7 +25,7 @@
                     <strong>Usted Confirma Recepcion del MEnsaje</strong>
                   </h4>
                   <hr>
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>Click Aqui</strong> </h3> </button>
             </div>
             
                 <!--<div class="d-flex justify-content-around align-content-center mt-4"> 
@@ -106,7 +106,7 @@
             let json_datos = getAllUrlParameter(); 
 
             json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+            //json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -125,26 +125,19 @@
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Mombre': getUrlParameter('nombre'),
-                    //'monto': getUrlParameter('monto'),
-                    'Phone': getUrlParameter('telefono'),
+                    'Nombre': getUrlParameter('nombre'),
+                    'Telefono': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     //'Sucursal': getUrlParameter('data1'),
-                     //'Campaña': getUrlParameter('data2'),
-                    // 'Ejecutivo': getUrlParameter('data3')              
+                            
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'Fecha': date,
-                    'Mombre': getUrlParameter('nombre'),
-                    //'monto': getUrlParameter('monto'),
-                    'Phone': getUrlParameter('telefono'),
+                    'Nombre': getUrlParameter('nombre'),
+                    'Telefono': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                    // 'Sucursal': getUrlParameter('data1'),
-                    // 'Campaña': getUrlParameter('data2'),
-                    // 'Ejecutivo': getUrlParameter('data3'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
