@@ -17,15 +17,15 @@
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Financoop">
 
-            <div id="cont1">
+            <div id="cont1" class="p-2 pl-3 pr-3 ">
 
                 <div class="card">     
                 <div class="card-body">
                      <h4 class="dark-grey-text text-center">
-                    <strong>Usted Confirma Recepcion del MEnsaje</strong>
+                    <strong>Usted Confirma Recepción del Mensaje</strong>
                   </h4>
                   <hr>
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>Click Aqui</strong> </h3> </button>
+                <button onclick="sendMail('El cliente indica que desea recibio el SMS'); eventosLanding('Recepcion'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>Click Aqui</strong> </h3> </button>
             </div>
             
                 <!--<div class="d-flex justify-content-around align-content-center mt-4"> 
@@ -163,7 +163,7 @@
                     $('#message').text('Muchas Gracias. Su Respuesta Fue enviada a nuestra área.');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
+                     $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Respuesta Fue enviada a nuestra área.');
                 }
