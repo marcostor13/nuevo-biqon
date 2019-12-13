@@ -26,7 +26,7 @@
                   </h4>
                   <hr>
                 <button onclick="sendMail('El cliente indica que desea recibio el SMS'); eventosLanding('Recepcion'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>Click Aqui</strong> </h3> </button>
-            </div>
+                 </div>
             
                 <!--<div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56933914095&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
@@ -35,7 +35,7 @@
                    
                     <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:ivonne.gonzalez@financoop.cl"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>-->
-        </div>
+        </div>  </div> 
 
         <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -45,7 +45,7 @@
                         </div>
                     </div>
             <!--<div class=" tagline w3-center w3-animate-top black-text">Binteraction.com</div>-->
-        
+         </div>
     <!--</div>-->
 
    
