@@ -66,7 +66,7 @@
                     </div>
                 </div>
     
-                <div class="pcard rounded p-5 bg-color4 ml-5">
+                <div class="pcard rounded p-5 bg-color2 ml-5">
                     <h3 class="text-right text-white">Total de Visitas</h3>
                     <div class="d-flex justify-content-between">
                         <img class="mt-3" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAJaElEQVR42u2aCVCV1xXHX9Nopo0mJqaTpqImxgWUAIIBZPMh+6KI7KCgIoRVg9ZYo2lJjVKcaqwaibaZTAyBSlwGwV3EJAZJx20MCqKOCa4Bq01wVBzrv//z3mUKCI8lPkTlzPzmu/fc/zn3u/db7/eeRtNt3dZt3dZt3WZcS8cT/VJh3z8Vb/dPwUZSRq6S2woplw1IwYYByZhnkgw7iXnoxz04FSYvJyGDnCdoDwOTcO7lZCw2SUC/h27gpsno+2oiskgdgeL0oAR8MCgJEYMTMFI0NvHoIUhZfIMSETk4EaupPdMg7pbEmcTi+Ydi8EMTED4sAVcIyB3Wc0yT4NC+LPgFYx1NE5ArOVSuGhLaZQeuTceTw+OQNTweEMzisXNYIob93Lzm02HGfHsa5F0lfXWpwY9Ow68s4lDwWhxAbpC4+92HeRwSmPem9GEejy3SZ5c58lbTUDAyFiDVI6dhVEtam6mwpuZdUkxdObfX29OXZSxsGVOj+trSJc6EUdOQRUCqbabAtLnredRUBLO9Quka0d7+rHlJMK5GFz8VKx/o4O2mIJyA3LBt5sjbTsYrbDugNEKVfQxWjp4Cb2JqMRlPd6Rf+6mwY66bupyc3AcyeNto9HWIwRUChyn3XvMcqCPbftC1x+A8iddq798py3yJKne1UySe6/QJcIlBlks0QHY20+ZCf51qz3echt7iHxGCnmwLdY5GzphoVLDtuiBl8UmbaNq8D9EoUn107qWgjYKJ6yTUkTuk0aPOhac9fTUErpOxIl290rI8kb4zOr9hTo+NQmBb9sMtCsPVPtzyCMfvOm0C3KOQQUBymt7w6Dug2vJl8ALLS5RP+NZjEma6RmCEJ+8BgpTFJ231Oo8oZKa3YT1A7XrRu0ViUeesa7hT3hGoIiCjG7b5hCNY+c+PV6c9y0uUr44kGRpUSAh+6RWJFKWFTwQyW9sfr3A41/cp8UafAJ8w2PuFA+S0HPGGR98/AhWqLVY8fmGYqOp1HMxY8aVuw1OzvsaMtBKUzirBdUHKJCX9uP769w+Hm8RI7LgITGjttZm6s6L1j4St0ScgIAzzx4cB3H7Q0D8uDNbiJ1VyJEhPls+Ij21Joplfgn4L9uMoQQscEY3Kl6rynYrngsnQPlH7oa6fcMw1+gQEhmAjwYRQRDT0TwjGn5V/ha4eilCpk29lQlbwyC/eh6OLvwBIVcaXCMrcj95Cxj4EkgrVdljOBIlhbJnkmBhi+FkfGIwo1dfnRp+AkGCUEQQFYWQTf7H4g4PhI/XQYORKPTQIM6S+fC9mLC8GSNWyHfcubcXHtnOieb8YybocQUjT5QhGtsF9CoGN6Mgxo09A+ET8myA6EH2b+CvFHxmEIap+UurcueFSX1uEbwjW7kVQS7nXFCFEp9mDA1IPC4S55IgIREUrE/Ab0ZEao09AVCDqiAysZxN/rfL3aq6evQu1BB/l658OzVn2Njwjmuzd+Enq08ajt+SQXAZvzD54SnSTAnHL6BMQE4DbBK3dmKipFZ0MQuqbd6CWIN/ABOTtxrOiIboJiPLBM5KD/NhcvcEZ0FP564w+ARzQNYIpE9CnFd1J0U0N0F8CO7ehlGDX9pbf8nZsRZBoSInUY/1gLjmI7hKYHggzVS9vGBcbgueV/6rRJyCOA4sbB7yhBtaSTR+Hz0TH7ZtS/7IQqV8VAKSipJmboPjYVqnTbNE/NuPHY7bkIOtU3U/VixrGxgfwO4zef8LoE5Doh+0Eyb4IMKRL8EWo6EiZPNJO8TF4MB9HDuUD3J4jIaW85oXDWxBEf6W0kUPH8/SPQcYelxxJ/vrHYKIvslTOPzbqyx+BOp0fthp9AlJ8kUGQ6oulBl+ZeV1Sd1qn9UGK+E4WoF/FZhwp3wy0wKGKfP2ihnEzJZZUxtugRzqX0iyfF1+SL6ya7NNyndYH7xl9AmZ4IWCmN/CmN462qvVGoGhJHctu4pOj+90GpHy/ESXfb0CtDparPkeStIkmzQvujLlN7pLx4uP2DV0ur3tPc/qP6do84W/0CUjSotcsL9wkd2e64cXW9NRlEpC62Z5INbRgkaM82wszqb0tMWneyBD/XHc8y/ol5Wt0E53ji9/KvszyxI3fe3bsC1O7ba4HNr3lAbzliXltWT3O8UCmTq+nbI4n0riz5hxwL0HKzDmLHFeau+Qv9ctplguVf3/T/My1QNrmemJDp30PmOeBMfPcAXIhvY1fcOa5YQL1p1Rci/zBHZU84gH1k8e4Vaqtev5YDGx6n6H/orQzxqlTvwotcMNhgvluiGlrjNzMGBNMst8Zi3JuaxUnyKfSJpr60/4dNxRKH6SOZed79mEspura3XGw078J8tQNT3cFyIV0vqHdx7xPMmc8uajyX3nXDa7N6Pqw7ZLSdP5PZuCHiIVjULRQCyx01S+BOzjgXgtdYLbIFX7Ms5r5zuty6tn/XpPTvt6UVjT70OjDTCfaYi1MF7ugjtzJ0ELboRwu/AbQhEUuOJExpuVX5kVj4Erdf8kt2YcH+uNIphPmZzoD3F7O1MKk3fHOqF3ihPIlzihijj8tcWj8ktPUlrqgP2OqpU/GvK150JauwRPLnFC41AngtnTZaOP9aLnGBr9e6ox/SV9/dcIW6VvTFWy1E55b7oDTBKRgjY3hpXIHB9+DubeqPk69rzW8Gu10W+6IYStH4weCVQ7Ivp9HJ49vjyvtkSu5yeW/2em/OnU5W20Hiyw7XCXIssemFfxS87MHPwI9s2yxXpfTDj+usYe1pivbP0bBca0t/kPwd1tsl+u2o7nWWeBp5tkhuci1D20b/xDTlSfB/KNRuEBAvvnEtvEH1LbYx1bow9j9Ksflj183/HTocsYBDPnEBt8RrLPBsU9t8FJbY0UrMRJLzkouzcNoMpBsaxwjIGc/a8NAeNq/Qm2liinPfR39NQ+z5djghVwrlBKQiznWsGhJ+8+RsMy1xCWlLZVYzaNgcjPLs8K2PEuAXF1vBcd77vaWcCLXdBoLbJUYzaNk8iKzyRy5m14DyE8bzP//n6LNlrClr1a15RjjRapLWDGXuvnmyCMgNQUjMGCrGQZKWfnWF2u72J8g77cd5NEtHI7dBOQrBQpHYNcjP/h622OOF3eY4TKBopq8pHmcbLcp4giEPWb6f5Q8VlY8FC/sHQoIe0zb/6b4SNgXQwBB87ja168Cgqbbuq3buq3buu2B2P8AU+fbTDw3pI4AAAAASUVORK5CYII=" alt="">
@@ -74,7 +74,7 @@
                     </div>
                 </div>
     
-                <div class="pcard rounded p-5 bg-color5 ml-5">
+                <div class="pcard rounded p-5 bg-color2 ml-5">
                     <h3 class="text-right text-white">Total de Formularios</h3>
                     <div class="d-flex justify-content-between">
                         <img class="mt-3" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAACcklEQVR42u2az0tbQRDHd0ye/gMKteZYcwl4F81VsNRDT4JQe8ylHlXsxR89NP0D4h+Qo4cSKPRSLxrx0HvJxRZySKDUm4ggxOm86AMJ7HP3md03SWbhc9qd3Xlfdnbm7XtjasTbmAggAogAIoAIYNEKezie+4BfiDaBTGjlNrAc+uZcgOt/6iCDaouYJhQTXmbu1PbVpdp3LgAt9I5QWVQLzQoAB0iAYuhT0FHr7gUgtenh1e9DOOcSx38O4Sz7sBN8CNCFW0vqV5IQ6MJOgIR+yQ6wNcje3cOtJfVLdkA/Y23+PaIPUj0DwnSTxfg+19j65S0E6lUAH0ga5BoCqWYBbyEghZA+1lZWEU2wHa+zT+cMiFnI9PXVdrzOnl0lWDsCMKF3LlO7uLUHshK0nYvFDog7bNbeIprQO5epXdzaA1UJPrdyZJsGqzUAE2zH6+zlPoBbGiy9QTTBdrzOnl0ajPqewna8zp5dGqx8BzChdy5TO/Zp0PVc7NPg5hKiCb1zmdqxT4NR31PYjtfZs0uD5WMAE2zH6+zTyQJyISIXIvJdQKd0uYjog4F/Gxza7wJRX/DJDewrwajv1Y0bBuZCpHnghqGpBJ8L2zRY+gngA7b3AalWgvKDBIMrsZGvBEfiXUDeBh+U/lrARS4PX5vDovc0GNAfMd8KiBzIdNSp9zRIav9Neq3dbx774m0HvG7Ai+UGAAdCX3ymwXa40I88nzPgOE9nwL0ALR9ZoBputXFU9ZNZRA4EqE67odBRVecCTAZql5QuRzuBCS3i89SE2nMuQOEX3C5ewA4xQwATcsTH0DfnAgxbEwFEABFgtNt/i9lP2z8HxBgAAAAASUVORK5CYII=" alt="">
@@ -117,7 +117,7 @@
                     
                 </table>
 
-                <h1 class="border bg-color4 p-4 text-white mt-4">Vistas</h1>
+                <h1 class="border bg-color2 p-4 text-white mt-4">Vistas</h1>
 
                 <table id="tablaVisitas" class="text-white p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
@@ -134,7 +134,7 @@
                     
                 </table>
 
-                 <h1 class="border bg-color5 p-4 text-white mt-4">Formularios</h1>
+                 <h1 class="border bg-color2 p-4 text-white mt-4">Formularios</h1>
 
                 <table id="tablaFormularios" class="text-white p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
