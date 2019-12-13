@@ -127,7 +127,7 @@
                     'mensaje': msg,
                     //'Nombre': getUrlParameter('nombre'),
                     'Telefono': getUrlParameter('telefono'),
-                     'ID': getUrlParameter('rut'),
+                     'ID': getUrlParameter('id'),
                      'landing': '{!! $landing->name !!}'
                             
                     
@@ -138,7 +138,7 @@
                     'Fecha': date,
                     //'Nombre': getUrlParameter('nombre'),
                     'Telefono': getUrlParameter('telefono'),
-                     'ID': getUrlParameter('rut'),
+                     'ID': getUrlParameter('id'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
