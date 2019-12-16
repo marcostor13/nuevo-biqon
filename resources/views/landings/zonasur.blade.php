@@ -95,12 +95,14 @@ $enddate=strtotime("+5 days", $startdate);
                     <a onclick="eventosLanding('Llamar');" href="tel:+56961706239"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
                     <a onclick="eventosLanding('Correo');" href="mailto:arojas@zonasursa.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
-                <div class="card">     
-                            <div class="card-body">
-                <h5 id="message"class="text-black text-center mt-5 hide"></h5>
-            </div>
              </div>
-              </div>
+            <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
+                    </div>
 
         </div>
     </div>
