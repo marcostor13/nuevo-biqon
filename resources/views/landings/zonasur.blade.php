@@ -77,7 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
                 <p class="text-black">
-                    Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
+                    Te informamos que presentas un retraso en el pago tus cuotas por un monto total, mas recargos por mora:
                     <b>$ </b><b id="pay">$</b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
                 </p>
