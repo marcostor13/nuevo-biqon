@@ -3,10 +3,12 @@
 @section('title', 'ZonaSur')
 
 @section('content')
+
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
+
 <style>
 .opaco{
     display: none !important; 
@@ -186,7 +188,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                   
+                   'landing': '{!! $landing->name !!}'
                     
                 }
             }else{
