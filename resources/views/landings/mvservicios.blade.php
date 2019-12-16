@@ -56,8 +56,8 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="MVServicios">
-
+            <img class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="MVServicios">
+             <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="MVServicios">-->
             <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
@@ -75,7 +75,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </p></h4>
                 <div class="date btn bg-success text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d') ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
                 <button onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"; eventosLanding("Pagina de Pagos");' class="btn bg-success text-white col-12 mt-4">PAGAR AHORA</button>
 
