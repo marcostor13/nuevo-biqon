@@ -64,7 +64,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4">Validar </button>
+                <button onclick="event1(); return false;" class="btn bg-success text-black col-12 mt-4">Validar </button>
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -78,12 +78,12 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <p class="text-black">
                     Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
-                    <b>$ </b><b id="pay">$ 500</b>
+                    <b>$ </b><b id="pay">$</b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
                 </p>
-                <div class="date btn bg-success text-black col-12 mt-4">
+                <div class="date btn bg-success text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d') ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>"/>
                 </div>
                  <button onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"; eventosLanding("Pagina de Pagos");' class="btn bg-success text-white col-12 mt-4">PAGAR AHORA</button>
                 
