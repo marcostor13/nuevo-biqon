@@ -61,20 +61,30 @@ $enddate=strtotime("+5 days", $startdate);
             <img class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="MVServicios">
              <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="MVServicios">-->
             <div id="cont1" class="p-5 ">
-                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                 <br>
+        <br>
+                <div class="card">     
+                     <div class="card-body">
+                     <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                     </div> 
+                </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-success text-white col-12 mt-4">Validar</button>
                 <h5 id="error"class="text-black text-center mt-5"></h5>
             </div>
 
             <div id="cont2" class="p-5 hide">
+                <div class="card">     
+                     <div class="card-body">
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
-                <h4><p class="text-black">
+                <h4> <p class="text-black">
                    Te informamos que presentas un retraso en el pago de cuotas de tu crédito.
                      <b>$ </b><b id="pay"></b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
-                </p></h4>
+                </p> </h4>
+                 </div> 
+                </div>
                 <div class="date btn bg-success text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
