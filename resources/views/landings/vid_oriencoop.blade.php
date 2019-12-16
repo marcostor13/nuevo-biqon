@@ -56,7 +56,7 @@
         <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-black text-center mt-3 hide"></h5>
+                                <h5 id="message"class="text-black text-center mt-3 hide"> </h5>
                             </div>
                         </div>
                     </div>
