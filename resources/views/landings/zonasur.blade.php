@@ -62,9 +62,9 @@ $enddate=strtotime("+5 days", $startdate);
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="ZonaSur">
 
             <div id="cont1" class="p-5 ">
-                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-white">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4">Validar </button>
+                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-black">
+                <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4">Validar </button>
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -74,14 +74,14 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
+                <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
-                <p class="text-white">
+                <p class="text-black">
                     Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
                     <b>$ </b><b id="pay">$ 500</b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
                 </p>
-                <div class="date btn bg-danger text-white col-12 mt-4">
+                <div class="date btn bg-danger text-black col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>"/>
                 </div>
@@ -95,8 +95,12 @@ $enddate=strtotime("+5 days", $startdate);
                     <a onclick="eventosLanding('Llamar');" href="tel:+56961706239"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
                     <a onclick="eventosLanding('Correo');" href="mailto:arojas@zonasursa.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
-                <h5 id="message"class="text-white text-center mt-5 hide"></h5>
+                <div class="card">     
+                            <div class="card-body">
+                <h5 id="message"class="text-black text-center mt-5 hide"></h5>
             </div>
+             </div>
+              </div>
 
         </div>
     </div>
