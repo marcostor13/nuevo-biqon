@@ -86,7 +86,7 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     <a onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                    
-                    <a onclick="eventosLanding('Correo');" href="mailto:contacto@binteraction.com"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:mvofs@mvservicios.cl"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
             </div>
@@ -195,12 +195,12 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["contacto@binteraction.com", "jesus.binteraction@gmail.com", "lilian.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                //'email': 'mvofs@mvservicios.cl'
             }
             $.ajaxSetup({
                 headers: {
