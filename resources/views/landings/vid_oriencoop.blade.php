@@ -34,7 +34,7 @@
 
             <div id="cont2" class="p-5 hide">
                 <div class="videoWrapper">        
-                    <iframe width="400" height="320" src="{{asset('/files/oriencoop-credito-microempresas.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="400" height="320" src="{{asset('/files/oriencoop-credito-microempresas.mp4')}}" frameborder="0" autoplay allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
                 <div class="card">     
