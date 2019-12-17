@@ -119,7 +119,7 @@
 
                 <h1 class="border bg-color4 p-4 text-black mt-4">Vistas</h1>
 
-                <table id="tablaVisitas" class="text-black p-0 table-warning" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
+                <table id="tablaVisitas" class="text-black p-0 table-danger" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
                         <tr>
                             <th data-field="id">ID</th>
@@ -136,7 +136,7 @@
 
                  <h1 class="border bg-color5 p-4 text-black mt-4">Formularios</h1>
 
-                <table id="tablaFormularios" class="text-black p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
+                <table id="tablaFormularios" class="text-black p-0 table-warning" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
                         <tr>
                             <th data-field="id">ID</th>
@@ -153,7 +153,7 @@
 
                  <h1 class="border bg-color4 p-4 text-black mt-4">Eventos</h1>
 
-                <table id="tablaEventos" class="text-black p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
+                <table id="tablaEventos" class="text-black p-0 table-danger" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
                         <tr>
                             <th data-field="id">ID</th>
