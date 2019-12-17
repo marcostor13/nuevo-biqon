@@ -134,7 +134,7 @@
                     
                 </table>
 
-                 <h1 class="border bg-color5 p-4 text-black mt-4">Formularios</h1>
+                 <h1 class="border bg-warning p-4 text-black mt-4">Formularios</h1>
 
                 <table id="tablaFormularios" class="text-black p-0 table-warning" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
@@ -151,7 +151,7 @@
                     
                 </table>
 
-                 <h1 class="border bg-color4 p-4 text-black mt-4">Eventos</h1>
+                 <h1 class="border bg-danger p-4 text-black mt-4">Eventos</h1>
 
                 <table id="tablaEventos" class="text-black p-0 table-danger" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
@@ -163,12 +163,11 @@
                             <th data-field="datos">Datos</th> 
                         </tr>
                     </thead>
-                    <strong>
-                    <tbody><strong>
+
+                        <tbody>
                      
-                     </strong>   
-                    </tbody>
-                    </strong>
+                        </tbody>
+
                 </table>
 
             </div>
