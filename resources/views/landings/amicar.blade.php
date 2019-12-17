@@ -87,7 +87,7 @@ $enddate=strtotime("+15 days", $startdate);
 </style>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <div id="AmiCar" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain;" >
+    <div id="AmiCar" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
         <div class="opaco"></div>
 
@@ -99,7 +99,9 @@ $enddate=strtotime("+15 days", $startdate);
                         <div class="card-body">
                         <h3 class="text-grey text-center">Para Renovar tu auto <br> Agenda tu Visita  </h3>
                     
-                        
+                     <br>
+                     <br>
+                     <br>   
                     <div>
                     	<label>Fecha:</label>
     					<!--<input type="date" id="date1" onclick="" class="mt-4 form-control">
@@ -108,6 +110,12 @@ $enddate=strtotime("+15 days", $startdate);
                         
                     </div>
                    
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+
                      <button onclick="sendMail(); return false;" class="btn bg-warning text-white col-12 mt-4">Visitar</button>
                        </div>
                        </div>
@@ -118,6 +126,13 @@ $enddate=strtotime("+15 days", $startdate);
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+
                             </div>
                         </div>
                     </div>
