@@ -10,7 +10,7 @@
 ?>
         
     
-    <div id="dashboard-content" class="bg-color1">
+    <div id="dashboard-content" class="bg-color1 ">
 
         <div class="header mt-5 rounded bg-color2 p-4  d-flex align-content-center justify-content-between col-12">
             <h2 class="text-white ">Panel de control landings</h2>
@@ -100,7 +100,7 @@
 
             <div class=" col-12 mt-5 p-0">
 
-                <h1 class="border bg-color2 p-4 text-white">Landings Pages</h1>
+                <h1 class="border bg-color3 p-4 text-white">Landings Pages</h1>
 
                 <table id="tablaLandings" class="text-white p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true" data-locale='ES'>
                     <thead>
@@ -117,7 +117,7 @@
                     
                 </table>
 
-                <h1 class="border bg-color2 p-4 text-white mt-4">Vistas</h1>
+                <h1 class="border bg-color4 p-4 text-white mt-4">Vistas</h1>
 
                 <table id="tablaVisitas" class="text-white p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
@@ -134,7 +134,7 @@
                     
                 </table>
 
-                 <h1 class="border bg-color2 p-4 text-white mt-4">Formularios</h1>
+                 <h1 class="border bg-color5 p-4 text-white mt-4">Formularios</h1>
 
                 <table id="tablaFormularios" class="text-white p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
@@ -151,7 +151,7 @@
                     
                 </table>
 
-                 <h1 class="border bg-color2 p-4 text-white mt-4">Eventos</h1>
+                 <h1 class="border bg-color6 p-4 text-white mt-4">Eventos</h1>
 
                 <table id="tablaEventos" class="text-white p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
