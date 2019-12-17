@@ -104,10 +104,10 @@ $enddate=strtotime("+15 days", $startdate);
                     	<label>Fecha:</label>
     					<input type="date" id="date1" onclick="" class="mt-4 form-control">
     					<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-                    </div>
-                   <!-- <input class="md-form col-12  m-0" id="date1" type="date" id="datepicker" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>">-->
+    					<!-- <input class="md-form col-12  m-0" id="date1" type="date" id="datepicker" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>">-->
                         
+                    </div>
+                   
                      <button onclick="sendMail(); return false;" class="btn bg-warning text-white col-12 mt-4">Visitar</button>
                        </div>
                        </div>
@@ -227,9 +227,11 @@ $enddate=strtotime("+15 days", $startdate);
                 } 
             }
 
+              var correo = ["jesus.binteraction@gmail.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
+                'email': correo
+               // 'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
