@@ -10,7 +10,7 @@
 ?>
         
     
-    <div id="dashboard-content" class="bg-color1 ">
+    <div id="dashboard-content" class="bg-gainsboro ">
 
         <div class="header mt-5 rounded bg-color2 p-4  d-flex align-content-center justify-content-between col-12">
             <h2 class="text-white ">Panel de control landings</h2>
