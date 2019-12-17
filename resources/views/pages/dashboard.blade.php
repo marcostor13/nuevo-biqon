@@ -75,6 +75,15 @@
                 </div>
     
                 <div class="pcard rounded p-5 bg-color2 ml-5">
+                    <h3 class="text-right text-black">Total de Eventos</h3>
+                    <div class="d-flex justify-content-between">
+                        <img class="mt-3" width="50" height="50" src="https://img.icons8.com/nolan/64/000000/event-accepted.png" alt="">
+                        <p  id="totalEventos" class=" text-black mt-2"></p>
+                    </div>
+                </div>
+
+
+                <div class="pcard rounded p-5 bg-color2 ml-5">
                     <h3 class="text-right text-black">Total de Formularios</h3>
                     <div class="d-flex justify-content-between">
                         <img class="mt-3" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAACcklEQVR42u2az0tbQRDHd0ye/gMKteZYcwl4F81VsNRDT4JQe8ylHlXsxR89NP0D4h+Qo4cSKPRSLxrx0HvJxRZySKDUm4ggxOm86AMJ7HP3md03SWbhc9qd3Xlfdnbm7XtjasTbmAggAogAIoAIYNEKezie+4BfiDaBTGjlNrAc+uZcgOt/6iCDaouYJhQTXmbu1PbVpdp3LgAt9I5QWVQLzQoAB0iAYuhT0FHr7gUgtenh1e9DOOcSx38O4Sz7sBN8CNCFW0vqV5IQ6MJOgIR+yQ6wNcje3cOtJfVLdkA/Y23+PaIPUj0DwnSTxfg+19j65S0E6lUAH0ga5BoCqWYBbyEghZA+1lZWEU2wHa+zT+cMiFnI9PXVdrzOnl0lWDsCMKF3LlO7uLUHshK0nYvFDog7bNbeIprQO5epXdzaA1UJPrdyZJsGqzUAE2zH6+zlPoBbGiy9QTTBdrzOnl0ajPqewna8zp5dGqx8BzChdy5TO/Zp0PVc7NPg5hKiCb1zmdqxT4NR31PYjtfZs0uD5WMAE2zH6+zTyQJyISIXIvJdQKd0uYjog4F/Gxza7wJRX/DJDewrwajv1Y0bBuZCpHnghqGpBJ8L2zRY+gngA7b3AalWgvKDBIMrsZGvBEfiXUDeBh+U/lrARS4PX5vDovc0GNAfMd8KiBzIdNSp9zRIav9Neq3dbx774m0HvG7Ai+UGAAdCX3ymwXa40I88nzPgOE9nwL0ALR9ZoBputXFU9ZNZRA4EqE67odBRVecCTAZql5QuRzuBCS3i89SE2nMuQOEX3C5ewA4xQwATcsTH0DfnAgxbEwFEABFgtNt/i9lP2z8HxBgAAAAASUVORK5CYII=" alt="">
@@ -82,13 +91,7 @@
                     </div>
                 </div>
     
-                <div class="pcard rounded p-5 bg-color2 ml-5">
-                    <h3 class="text-right text-black">Total de Eventos</h3>
-                    <div class="d-flex justify-content-between">
-                        <img class="mt-3" width="50" height="50" src="https://img.icons8.com/nolan/64/000000/event-accepted.png" alt="">
-                        <p  id="totalEventos" class=" text-black mt-2"></p>
-                    </div>
-                </div>
+                
 
             </div>
             <div class="d-flex justify-content-between col-12">
@@ -115,6 +118,25 @@
                         
                     </tbody>
                     
+                </table>
+
+                 <h1 class="border bg-danger p-4 text-black mt-4">Eventos</h1>
+
+                <table id="tablaEventos" class="text-black p-0 table-danger" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
+                    <thead>
+                        <tr>
+                            <th data-field="id">ID</th>
+                            <th data-field="event">Evento</th>
+                            <th data-field="name">Landing</th>
+                            <th data-field="fecha">Fecha</th>
+                            <th data-field="datos">Datos</th> 
+                        </tr>
+                    </thead>
+
+                        <tbody>
+                     
+                        </tbody>
+
                 </table>
 
                 <h1 class="border bg-color2 p-4 text-black mt-4">Vistas</h1>
@@ -151,24 +173,7 @@
                     
                 </table>
 
-                 <h1 class="border bg-danger p-4 text-black mt-4">Eventos</h1>
 
-                <table id="tablaEventos" class="text-black p-0 table-danger" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
-                    <thead>
-                        <tr>
-                            <th data-field="id">ID</th>
-                            <th data-field="event">Evento</th>
-                            <th data-field="name">Landing</th>
-                            <th data-field="fecha">Fecha</th>
-                            <th data-field="datos">Datos</th> 
-                        </tr>
-                    </thead>
-
-                        <tbody>
-                     
-                        </tbody>
-
-                </table>
 
             </div>
 
