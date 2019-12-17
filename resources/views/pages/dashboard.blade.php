@@ -14,7 +14,7 @@
 
         <div class="header mt-5 rounded bg-color2 p-4  d-flex align-content-center justify-content-between col-12">
             <h2 class="text-black ">Panel de control landings</h2>
-            <button id="report" class="btn bg-color1 text-black">Descargar Reporte</button>
+            <button id="report" class="btn bg-color1 text-white">Descargar Reporte</button>
         </div>
 
         <div class="d-flex justify-content-end mt-5 flex-wrap">
@@ -22,7 +22,7 @@
             
             <div class="pSelect bg-gainsboro mt-5 d-flex justify-content-center align-items-center mr-5">
                 <label for="byLanding" class="mr-3 mt-2 text-black">LANDING</label>
-                <select id="byLanding" class="som select mr-5" multiple>
+                <select id="byLanding" class="som select mr-5 bg-gainsboro" multiple>
                     @foreach ($landings as $l )
                         <option value="{{$l->id}}">{{$l->name}}</option>
                     @endforeach
@@ -33,7 +33,7 @@
             
             <div class="pSelect bg-gainsboro mt-5 d-flex justify-content-center align-items-center mr-5">
                 <label for="byRut" class="mr-3 mt-2 text-black">RUT</label>
-                <select id="byRut" class="som select mr-5" multiple>
+                <select id="byRut" class="som select mr-5 bg-gainsboro" multiple>
                     @foreach ($ruts as $r )
                         <option>{{$r}}</option>
                     @endforeach
@@ -43,7 +43,7 @@
 
             <div class="pSelect bg-gainsboro mt-5 d-flex justify-content-center align-items-center mr-5">
                 <label for="byPhone" class="mr-3 mt-2 text-black">TELÉFONO</label>
-                <select  id="byPhone" class="som select mr-5" multiple>
+                <select  id="byPhone" class="som select mr-5 bg-gainsboro" multiple>
                     @foreach ($phones as $p )
                         <option>{{$p}}</option>
                     @endforeach
@@ -102,7 +102,7 @@
 
                 <h1 class="border bg-success p-4 text-black">Landings Pages</h1>
 
-                <table id="tablaLandings" class="text-black p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true" data-locale='ES'>
+                <table id="tablaLandings" class="bg-success text-black p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true" data-locale='ES'>
                     <thead>
                         <tr>
                             <th data-field="id">ID</th>
