@@ -102,7 +102,7 @@
 
                 <h1 class="border bg-success p-4 text-black">Landings Pages</h1>
 
-                <table id="tablaLandings" class="bg-success text-black p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true" data-locale='ES'>
+                <table id="tablaLandings" class="text-black p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true" data-locale='ES' border="1" bordercolor="bg-success">
                     <thead>
                         <tr>
                             <th data-field="id">ID</th>
