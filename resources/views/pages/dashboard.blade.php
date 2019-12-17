@@ -155,18 +155,19 @@
 
                 <table id="tablaEventos" class="text-black p-0 table-danger" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
-                        <tr>
+                        <tr><strong>
                             <th data-field="id">ID</th>
                             <th data-field="event">Evento</th>
                             <th data-field="name">Landing</th>
                             <th data-field="fecha">Fecha</th>
-                            <th data-field="datos">Datos</th>
+                            <th data-field="datos">Datos</th> </strong>
                         </tr>
                     </thead>
+                    <strong>
                     <tbody>
                         
                     </tbody>
-                    
+                    </strong>
                 </table>
 
             </div>
