@@ -54,6 +54,36 @@ $enddate=strtotime("+15 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
+
+      /* ocultar controles de input date */ 
+     input[type="date"]::-webkit-inner-spin-button,
+                  ::-webkit-calendar-picker-indicator,
+                  ::-webkit-datetime-edit{
+        display: none;
+    }
+    
+   
+    /* mostrar el calendario al hacer click */
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        display: block;
+        background: transparent;
+        bottom: 0;
+        color: transparent;
+        cursor: pointer;
+        height: auto;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: auto;
+    }
+   
+    /* mostrar la fecha seleccionada al estar en hover */
+    input[type="date"]:hover::-webkit-datetime-edit {
+        display: block;
+    }
+
+
 </style>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -70,8 +100,13 @@ $enddate=strtotime("+15 days", $startdate);
                         <h3 class="text-grey text-center">Para Renovar tu auto <br> Agenda tu Visita  </h3>
                     
                         
-                    
-                    <input class="md-form col-12  m-0" id="date1" type="date" id="datepicker" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>">
+                    <div>
+                    	<label>Fecha:</label>
+    					<input type="date" id="date1" onclick="" class="mt-4 form-control">
+    					<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+                    </div>
+                   <!-- <input class="md-form col-12  m-0" id="date1" type="date" id="datepicker" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>">-->
                         
                      <button onclick="sendMail(); return false;" class="btn bg-warning text-white col-12 mt-4">Visitar</button>
                        </div>
