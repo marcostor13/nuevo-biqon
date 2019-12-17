@@ -20,7 +20,7 @@
         <div class="d-flex justify-content-end mt-5 flex-wrap">
 
             
-            <div class="pSelect mt-5 d-flex justify-content-center align-items-center mr-5">
+            <div class="pSelect bg-gainsboro mt-5 d-flex justify-content-center align-items-center mr-5">
                 <label for="byLanding" class="mr-3 mt-2 text-black">LANDING</label>
                 <select id="byLanding" class="som select mr-5" multiple>
                     @foreach ($landings as $l )
@@ -31,7 +31,7 @@
             </div>
             
             
-            <div class="pSelect mt-5 d-flex justify-content-center align-items-center mr-5">
+            <div class="pSelect bg-gainsboro mt-5 d-flex justify-content-center align-items-center mr-5">
                 <label for="byRut" class="mr-3 mt-2 text-black">RUT</label>
                 <select id="byRut" class="som select mr-5" multiple>
                     @foreach ($ruts as $r )
@@ -41,7 +41,7 @@
 
             </div>
 
-            <div class="pSelect mt-5 d-flex justify-content-center align-items-center mr-5">
+            <div class="pSelect bg-gainsboro mt-5 d-flex justify-content-center align-items-center mr-5">
                 <label for="byPhone" class="mr-3 mt-2 text-black">TELÉFONO</label>
                 <select  id="byPhone" class="som select mr-5" multiple>
                     @foreach ($phones as $p )
@@ -52,8 +52,8 @@
             </div>
                          
 
-            <input id="startDate" type="text" class="border text-black mt-5 datepicker mr-5" value="{{ $date }}"/>
-            <input id="endDate" type="text" class="border text-black mt-5 datepicker mr-5" value="{{ $date }}"/>            
+            <input id="startDate" type="text" class="border text-black mt-5 datepicker mr-5 bg-gainsboro" value="{{ $date }}"/>
+            <input id="endDate" type="text" class="border text-black mt-5 datepicker mr-5 bg-gainsboro" value="{{ $date }}"/>            
         </div>
         
         <div class=" p-5 flex-wrap">
