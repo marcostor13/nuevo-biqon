@@ -111,7 +111,7 @@
                             <th data-field="url">Url</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody border="1" bordercolor="#28a745">
                         
                     </tbody>
                     
