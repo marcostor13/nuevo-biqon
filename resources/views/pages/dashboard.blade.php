@@ -100,7 +100,7 @@
 
             <div class=" col-12 mt-5 p-0">
 
-                <h1 class="border bg-color-green p-4 text-white">Landings Pages</h1>
+                <h1 class="border bg-success p-4 text-white">Landings Pages</h1>
 
                 <table id="tablaLandings" class="text-white p-0" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true" data-locale='ES'>
                     <thead>
