@@ -133,29 +133,29 @@
                     $('#dato1').text(Prevision);
                     $('#cont2').removeClass('hide');
 
-              if (prevision.indexOf('CRUZ BLANCA')){
+              if (prevision.indexOf('CRUZ BLANCA')> -1){
                 numero = 'tel:+56229981000'; 
-              }elseif (prevision.indexOf('CONSALUD')) {
+              }else if (prevision.indexOf('CONSALUD')> -1) {
                 numero = 'tel:+56223325020';
-              }elseif (prevision.indexOf('BANMEDICA')) {
+              }else if (prevision.indexOf('BANMEDICA')> -1) {
                 numero = 'tel:+56222706800';
-              }elseif (prevision.indexOf('FUNDACION BANCO ESTADO') > -1) {
+              }else if (prevision.indexOf('FUNDACION BANCO ESTADO') > -1) {
                 numero = 'tel:+56223479000';
-              }elseif (prevision.indexOf('VIDA TRES') > -1) {
+              }else if (prevision.indexOf('VIDA TRES') > -1) {
                 numero = 'tel:+56225403600';
-              }elseif (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
+              }else if (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
                 numero = 'tel:6006000262';
-              }elseif (prevision.indexOf('RIO BLANCO') > -1) {
+              }else if (prevision.indexOf('RIO BLANCO') > -1) {
                 numero = 'tel:800835400';
-              }elseif (prevision.indexOf('COLMENA') > -1) {
+              }else if (prevision.indexOf('COLMENA') > -1) {
                 numero = 'tel:+56229594040';
-              }elseif (prevision.indexOf('CHUQUICAMATA') > -1) {
+              }else if (prevision.indexOf('CHUQUICAMATA') > -1) {
                 numero = 'tel:800835400';
-              }elseif (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
+              }else if (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
                 numero = 'tel:6006000262';
-              }elseif (prevision.indexOf('CHUQUICAMATA LTDA') > -1) {
+              }else if (prevision.indexOf('CHUQUICAMATA LTDA') > -1) {
                 numero = 'tel:800835400';
-              }elseif (prevision.indexOf('SAN LORENZO') > -1) {
+              }else if (prevision.indexOf('SAN LORENZO') > -1) {
                 numero = 'tel:800835400';
               }
 
