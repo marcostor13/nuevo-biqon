@@ -184,8 +184,8 @@
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+            //json_datos.nombre = $('#name').text();
+            //json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -220,20 +220,22 @@
                     'fecha': date,
                     'nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
+                    'RUT': getUrlParameter('rut'),
                     'phone': getUrlParameter('telefono'),
                     'Id_Admision': getUrlParameter('data1'),
                     'Prevision': getUrlParameter('data2'),
                     'Estado': getUrlParameter('data3'),
                     'Ley': getUrlParameter('data4'),
-                     'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
+           var correo = ["jesus.binteraction@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                'email': correo
+                //'email': '{!! $landing->email !!}'
+                //'email': 'infopagatucuenta@davila.cl'
             }
             $.ajaxSetup({
                 headers: {
