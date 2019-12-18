@@ -130,7 +130,7 @@
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#dato1').text(Prevision);
+                    $('#dato1').text(prevision);
                     $('#cont2').removeClass('hide');
 
               if (prevision.indexOf('CRUZ BLANCA')> -1){
