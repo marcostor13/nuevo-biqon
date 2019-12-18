@@ -164,8 +164,8 @@
               $('#isapre2').attr('href', numero);
 
 
-                    $('#date1').on('change', function(){
-                        if($('#date1').val() != ''){
+                    $('#isapre2').on('change', function(){
+                        if($('#isapre2').val() != ''){
                             sendMail();
                         }
                     });
