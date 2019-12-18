@@ -107,7 +107,7 @@
          function event1(){
           var prevision;
           var numero;  
-         Prevision= getUrlParameter('data1'); 
+         prevision= getUrlParameter('data1'); 
 
             let dataSend = {
                 'fourRut': $('#rut').val(),
@@ -132,6 +132,12 @@
                     $('#name').text(e.data.nombre);
                     $('#dato1').text(Prevision);
                     $('#cont2').removeClass('hide');
+
+                    
+               if (prevision == 'CONSALUD') {
+                 numero = 'tel:+56229981000'; 
+               }
+
 
               if (prevision.indexOf('CRUZ BLANCA')> -1){
                 numero = 'tel:+56229981000'; 
