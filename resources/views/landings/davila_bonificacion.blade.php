@@ -105,7 +105,7 @@
         }); 
 
          function event1(){
-          var Prevision;
+          var prevision;
           var numero;  
          Prevision= getUrlParameter('data1'); 
 
@@ -164,8 +164,8 @@
               $('#isapre2').attr('href', numero);
 
 
-                    $('#isapre2').on('change', function(){
-                        if($('#isapre2').val() != ''){
+                    $('#date1').on('change', function(){
+                        if($('#date1').val() != ''){
                             sendMail();
                         }
                     });
