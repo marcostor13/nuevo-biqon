@@ -3,7 +3,10 @@
 @section('title', 'CLINICA DAVILA')
 
 @section('content')
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style type="text/css">
     
 .card {
@@ -322,7 +325,7 @@
             return obj;  
         };
 
-       function Mens(){
+       function Mens1(){
     var id_adm; 
          id_adm= getUrlParameter('data1'); //1234-5;
           
@@ -334,6 +337,23 @@
         }, 
         function(){
              window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
+        })
+
+
+        } 
+
+         function Mens(){
+   // var id_adm; 
+        // id_adm= getUrlParameter('data1'); //1234;
+          
+            swal({
+             title: `Para Comunicarse, seleccione la opcion 2`,
+             //text: "Expandir la Pantalla",
+             type: "success",
+             timer: 5000
+        }, 
+        function(){
+             window.location.href = "tel:+56227308000";
         })
 
 
