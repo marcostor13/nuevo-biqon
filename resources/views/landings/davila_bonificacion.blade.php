@@ -133,7 +133,6 @@
                     $('#dato1').text(Prevision);
                     $('#cont2').removeClass('hide');
 
-
               if (prevision.indexOf('CRUZ BLANCA')> -1){
                 numero = 'tel:+56229981000'; 
               }else if (prevision.indexOf('CONSALUD')> -1) {
