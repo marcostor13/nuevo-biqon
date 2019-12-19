@@ -104,13 +104,7 @@ $enddate=strtotime("+5 days", $startdate);
      <script>
    //EVENT 1
         
-        $(function(){
-            events({    
-                'name': 'Visita',
-                'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(getAllUrlParameter())
-            });
-        }); 
+       
 
          function event1(){
     
@@ -150,6 +144,14 @@ $enddate=strtotime("+5 days", $startdate);
                 console.log( "error" );
             });
 
+              $(function(){
+            events({    
+                'name': 'Visita',
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(getAllUrlParameter())
+            });
+        });
+              
         }
         
 
