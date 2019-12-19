@@ -139,7 +139,7 @@
 
                 </table>
 
-                <h1 class="border bg-color2 p-4 text-black mt-4">Vistas</h1>
+                <h1 class="border bg-color2 p-4 text-black mt-4">Visitas</h1>
 
                 <table id="tablaVisitas" class="text-black p-0 table-primary" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
