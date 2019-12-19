@@ -164,7 +164,13 @@ $enddate=strtotime("+5 days", $startdate);
             .fail(function() {
                 console.log( "error" );
             });
-
+  $(function(){
+            events({    
+                'name': 'Visita',
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(getAllUrlParameter())
+            });
+        }); 
         }
         
 
