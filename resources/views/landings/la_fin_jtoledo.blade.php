@@ -128,16 +128,7 @@ $name = $_GET['NOMBRE'];
                 <!--<h4><p class="text-black"> <strong>
                   Financoop líder en la atención a pensionados desde hace más de diez años, quieremos invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>-->
                    
-                   <h5>FINANCOOP tiene un Crédito orientado para pensionados del sistema antiguo de previsión social IPS y AFP.</h5>
-                    <br>
-                    <h5>Ventajas del crédito</h5>
-                    <h6>-> Son de libre disposición y sin AVAL.<br>
-                    -> Cuotas: Hasta 60 meses de plazo.<br>
-                    -> Tasas reguladas por la Comisión para el Mercado Financiero (CMF).<br>
-                    -> Atendemos socios hasta los 93 años 11 meses.<br>
-                    -> Cobertura de Seguro de Desgravamen.<br>
-                    -> Abono directo en cuenta del socio o retiro en BancoEstado.<br>
-                    -> Evaluación inmediata.</h6>
+                   <h3>FINANCOOP tiene un credito para ti de hasta $1.500.000. envia ultima liquidacion y c. identidad</h3>
 
             
             </div> 
