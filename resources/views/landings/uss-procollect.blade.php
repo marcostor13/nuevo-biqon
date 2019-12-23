@@ -196,7 +196,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-
+ 
            
             
             var correo = ["josesm@procollect.cl"];
