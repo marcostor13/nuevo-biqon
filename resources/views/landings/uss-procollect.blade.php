@@ -177,9 +177,9 @@ $enddate=strtotime("+5 days", $startdate);
             let data; 
             if(msg !== false){
                 data = {
-                    'mensaje': msg,
+                    'Mensaje': msg,
                     'Nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                    'Monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                    
@@ -188,22 +188,22 @@ $enddate=strtotime("+5 days", $startdate);
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'fecha': date,
-                    'nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
-                    'rut': getUrlParameter('rut'),
-                    'phone': getUrlParameter('telefono'),                    
+                    'Fecha': date,
+                    'Nombre': $('#name').text(),
+                    'Monto': getUrlParameter('monto'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),                    
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
            
             
-           // var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["josesm@procollect.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                // 'email': correo
-                'email':' {!! $landing->email !!}'
+                'email': correo
+                //'email':' {!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
