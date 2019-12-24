@@ -23,7 +23,7 @@
                 <div class="card-body">
                      <h4 class="dark-grey-text text-center">
                     <strong>Estimado(a) Regante,<br>
-                     Junto con saludar, nos dirigimos a usted para informarle que de acuerdo a la nueva regulacion de la Junta de Vigilancia del Rio Maule, a partir de hoy,  <?php echo date("Y-m-d") ?> <br>  el caudal disponible para riego es de <strong> <h4><p id="dato2" class="dato2"> </p> </h4>  </strong>m3/s, equivalente al <strong> <h4><p id="dato3" class="dato3"> </p> </h4>  </strong> del caudal maximo para riego, <br> esta condicion se mantendra hasta nuevo aviso. <br>
+                     Junto con saludar, nos dirigimos a usted para informarle que de acuerdo a la nueva regulacion de la Junta de Vigilancia del Rio Maule, a partir de hoy,  <?php echo date("d-m-Y") ?> <br>  el caudal disponible para riego es de <strong> <h4><p id="dato2" class="dato2"> </p> </h4>  </strong>m3/s, equivalente al <strong> <h4><p id="dato3" class="dato3"> </p> </h4>  </strong> del caudal maximo para riego, <br> esta condicion se mantendra hasta nuevo aviso. <br>
                      Sin otro particular, se despide cordialmente,<br> 
                      La administracion </strong>
                   </h4>
@@ -87,6 +87,8 @@
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
+                    $('#date2').text(e.data.monto);
+                    $('#date3').text(e.data.monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -146,12 +148,12 @@
                 } 
             }
 
-            var correo = ["jimelatrach@gmail.com","cortezjesus01@gmail.com"];
+            var correo = ["cortezjesus01@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com, ivonne.gonzalez@financoop.cl'
+                //'email': 'marcostor13@gmail.com, ivonne.gonzalez@financoop.cl' "jimelatrach@gmail.com",
             }
             $.ajaxSetup({
                 headers: {
