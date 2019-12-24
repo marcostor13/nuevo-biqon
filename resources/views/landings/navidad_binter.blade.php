@@ -19,7 +19,7 @@
                 
                      <h4 class="text-primary text-center p-5">
                 <strong>Binteraction Chile </h4> 
-                    <h4 class="dark-grey-text text-center p-5"> <strong> <br> su Proveedor de SMS, les agradece la confianza depositada en nuestros servicios.<br>
+                    <h4 class="dark-grey-text text-center"> <strong> <br> su Proveedor de SMS, les agradece la confianza depositada en nuestros servicios.<br>
                 Les Deseamos una Feliz Navidad y un Prospero Año 2020 </strong><br></h4>
                
                 <div class="videoWrapper">        
