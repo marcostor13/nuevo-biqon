@@ -29,9 +29,13 @@
 
                        el caudal disponible para riego es de 
 
-                     <strong> <h3 class="text-warning"><span id="data2"></span> </h3>  </strong>
+                     <strong><!--  <h3 class="text-warning"><span id="data2"></span> </h3>  -->120  </strong>
 
-                     m3/s, equivalente al <strong> <h3 class="text-warning"><span id="data3"></span> </h3>  </strong> % del caudal maximo para riego, <br> esta condicion se mantendra hasta nuevo aviso. <br>
+                     m3/s, equivalente al 
+
+                     <strong> <!-- <h3 class="text-warning"><span id="data3"></span> </h3> -->60 </strong>
+
+                     % del caudal maximo para riego, <br> esta condicion se mantendra hasta nuevo aviso. <br>
                      Sin otro particular, se despide cordialmente,<br> 
                      La administracion 
                   </h4>
