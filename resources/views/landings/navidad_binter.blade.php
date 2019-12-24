@@ -12,13 +12,10 @@
 
     <div id="Binter" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain;">
 
-        <div class="opaco">  </div>
-
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <!--<img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Binter">-->
-
             <div id="cont1" class="p-5 ">
-                <br> <br>
+                <br> 
                 
                      <h4 class="dark-grey-text text-center p-5">
                 <strong>Binteraction Chile,<br> su Proveedor de SMS, les agradece la confianza depositada en nuestros servicios.<br>
@@ -32,7 +29,7 @@
 
             <div class=" tagline w3-center w3-animate-top black-text"> Binteraction.cl </div>
         </div>
-    <!--</div>-->
+    </div>
 
     <script>
 
