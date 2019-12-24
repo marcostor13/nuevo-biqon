@@ -23,7 +23,7 @@
                 <div class="card-body">
                      <h4 class="dark-grey-text text-center">
                     <strong>Estimado(a) Regante,<br>
-                     Junto con saludar, nos dirigimos a usted para informarle que de acuerdo a la nueva regulacion de la Junta de Vigilancia del Rio Maule, a partir de hoy,  <?php echo date("Y-m-d") ?> lunes 23 de diciembre del 2019, <br>  el caudal disponible para riego es de <strong> <h4><p id="dato1" class="dato2"> </p> </h4>  </strong>m3/s, equivalente al <strong> <h4><p id="dato3" class="dato1"> </p> </h4>  </strong> del caudal maximo para riego, <br> esta condicion se mantendra hasta nuevo aviso. <br>
+                     Junto con saludar, nos dirigimos a usted para informarle que de acuerdo a la nueva regulacion de la Junta de Vigilancia del Rio Maule, a partir de hoy,  <?php echo date("Y-m-d") ?> <br>  el caudal disponible para riego es de <strong> <h4><p id="dato2" class="dato2"> </p> </h4>  </strong>m3/s, equivalente al <strong> <h4><p id="dato3" class="dato3"> </p> </h4>  </strong> del caudal maximo para riego, <br> esta condicion se mantendra hasta nuevo aviso. <br>
                      Sin otro particular, se despide cordialmente,<br> 
                      La administracion </strong>
                   </h4>
