@@ -23,8 +23,8 @@
                 <br>
                 <br>
                      <h4 class="dark-grey-text text-center">
-                <strong>Binteraction Chile</strong>, su Proveedor de SMS, les agradece la confianza depositada en nuestros servicios.<br>
-                Les Deseamos una Feliz Navidad y un Prospero Año 2020<br></h4>
+                <strong>Binteraction Chile, su Proveedor de SMS, les agradece la confianza depositada en nuestros servicios.<br>
+                Les Deseamos una Feliz Navidad y un Prospero Año 2020 </strong><br></h4>
                  <br><br>
                 <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/Navidad.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
