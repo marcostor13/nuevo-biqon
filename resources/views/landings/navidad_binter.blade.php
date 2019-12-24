@@ -9,7 +9,7 @@
     display: none !important; 
 }
 </style>
-<div class="opaco"> 
+
     <div id="Binter" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain;">
 
         <div class="opaco">  </div>
