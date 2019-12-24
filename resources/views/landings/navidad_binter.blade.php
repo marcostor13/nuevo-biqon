@@ -17,12 +17,15 @@
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <!--<img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Binter">-->
 
-            <div id="cont1">
-                
+            <div id="cont1" class="p-5 ">
+                <br>
+                <br>
+                <br>
+                <br>
                      <h4 class="dark-grey-text text-center">
                 <strong>Binteraction Chile</strong>, su Proveedor de SMS, les agradece la confianza depositada en nuestros servicios.<br>
                 Les Deseamos una Feliz Navidad y un Prospero Año 2020<br></h4>
-                 
+                 <br><br>
                 <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/Navidad.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
