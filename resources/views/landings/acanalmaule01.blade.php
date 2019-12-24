@@ -64,7 +64,10 @@
         }); 
 
          function event1(){
-    
+     var porc; 
+         porc= getUrlParameter('data3'); 
+          var metro; 
+         metro= getUrlParameter('data2'); 
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
@@ -87,8 +90,8 @@
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                    $('#date2').text(e.data.monto);
-                    $('#date3').text(e.data.monto);
+                   $('#dato2').text(metro);
+                   $('#dato3').text(porc);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
