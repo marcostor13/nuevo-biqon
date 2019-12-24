@@ -22,10 +22,18 @@
                 <div class="card">     
                 <div class="card-body">
                      <h4 class="dark-grey-text text-center">
-                    <strong>Estimado(a) Regante,<br>
-                     Junto con saludar, nos dirigimos a usted para informarle que de acuerdo a la nueva regulacion de la Junta de Vigilancia del Rio Maule, a partir de hoy, <strong>  <?php echo date("d-m-Y") ?></strong> <br>  el caudal disponible para riego es de <strong> <h3 class="text-warning"><span id="data2"></span> </h3>  </strong>m3/s, equivalente al <strong> <h3 class="text-warning"><span id="data3"></span> </h3>  </strong> % del caudal maximo para riego, <br> esta condicion se mantendra hasta nuevo aviso. <br>
+                   Estimado(a) Regante,<br>
+                     Junto con saludar, nos dirigimos a usted para informarle que de acuerdo a la nueva regulacion de la Junta de Vigilancia del Rio Maule, a partir de hoy,
+
+                      <strong>  <?php echo date("d-m-Y") ?></strong> <br> 
+
+                       el caudal disponible para riego es de 
+
+                     <strong> <h3 class="text-warning"><span id="data2"></span> </h3>  </strong>
+
+                     m3/s, equivalente al <strong> <h3 class="text-warning"><span id="data3"></span> </h3>  </strong> % del caudal maximo para riego, <br> esta condicion se mantendra hasta nuevo aviso. <br>
                      Sin otro particular, se despide cordialmente,<br> 
-                     La administracion </strong>
+                     La administracion 
                   </h4>
 
                   <hr>
@@ -89,8 +97,6 @@
 
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
-                    $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
                     $('#data2').text(metro);
                     $('#data3').text(porc);
                     $('#cont2').removeClass('hide');
