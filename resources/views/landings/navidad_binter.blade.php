@@ -17,10 +17,10 @@
             <div id="cont1" class="p-5 ">
                 <br> 
                 
-                     <h4 class="text-primary text-center p-5">
-                <strong>Binteraction Chile </h4> 
-                    <h4 class="dark-grey-text text-center"> <strong> <br> su Proveedor de SMS, les agradece la confianza depositada en nuestros servicios.<br>
-                Les Deseamos una Feliz Navidad y un Prospero Año 2020 </strong><br></h4>
+                     <h4 class="text-primary text-center p-3">
+                <strong>Binteraction Chile  </strong> </h4> 
+                    <h3 class="dark-grey-text text-center"> <strong> su Proveedor de SMS, les agradece la confianza depositada en nuestros servicios.<br>
+                Les Deseamos una Feliz Navidad y un Prospero Año 2020 </strong><br></h3>
                
                 <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/Navidad.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
