@@ -172,7 +172,7 @@ $enddate=strtotime("+5 days", $startdate);
         <span class="sr-only">Next</span>
     </a>
 </div>
-
+</div>
             <div class="card">
               <div class="card-body">
                   <h3 class="green-text text-center">
@@ -197,9 +197,7 @@ $enddate=strtotime("+5 days", $startdate);
       </div>
 
   </div>
-            </div>
-
-                  <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                    <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
