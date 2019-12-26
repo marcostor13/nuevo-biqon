@@ -91,13 +91,12 @@ $enddate=strtotime("+5 days", $startdate);
     
         <!--Grid row-->
        <div class="card-body ">
-            <hr class="hr-light">
             <h3 class="text-danger text-center">
-            Arriendo de Juegos para Cumpleaños 100% Seguros y de Calidad para niños desde 1 año en adelante.
+            Arriendo de Juegos para Cumpleaños 100% Seguros y <br> de Calidad para niños desde 1 año en adelante.
             <br> Consulta por disponibilidad y Horario por Horas o Días
             <br> Arriendo en La Serena y Coquimbo
 
-             <strong> ¡¡10% de Descuento!! </strong> </h3> 
+             <strong><br> ¡¡10% de Descuento!! </strong> </h3> 
                <hr class="hr-light">
             <h4 class="text-warning text-center">
                   Parque Inflables
