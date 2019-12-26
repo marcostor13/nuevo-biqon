@@ -111,6 +111,7 @@ $enddate=strtotime("+5 days", $startdate);
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -122,8 +123,11 @@ $enddate=strtotime("+5 days", $startdate);
             <img src="https://scontent-scl2-1.xx.fbcdn.net/v/t1.0-9/52690342_2521534607919361_2836579917641023488_n.jpg?_nc_cat=101&_nc_ohc=Pg5oVJOmr_IAQkoT7Ko0Micbgy9BLNovDInWisjJT2QUl91XYngIGku1A&_nc_ht=scontent-scl2-1.xx&oh=6355f85f660c86c81141c07b57d4e121&oe=5E744CBA" alt="">
         </div>
         <div class="item">
-            <img src="images/image-3.jpeg" alt="">
+            <img src="https://scontent-scl2-1.xx.fbcdn.net/v/t1.0-9/51564297_2474288979310591_5288031376275144704_n.jpg?_nc_cat=106&_nc_ohc=cEcJamTt0o8AQltoY_l5HEgoMm9mdDR4JEAje07cDK1YMgUE0rNGhRw6Q&_nc_ht=scontent-scl2-1.xx&oh=73fa66e7323753297f35bef9000b2fb0&oe=5E74BBD4" alt="">
         </div>
+        <div class="item">
+            <img src="https://scontent-scl2-1.xx.fbcdn.net/v/t1.0-9/52008356_2487610434645112_5388145719620141056_n.jpg?_nc_cat=104&_nc_ohc=1MK3zsWvu2YAQmK0UOmX9-tzQUu3z9OzcFctev9e1647KMBYNRtFjNKEg&_nc_ht=scontent-scl2-1.xx&oh=5152f6d3b9bb792530c81a2e202b4e4d&oe=5E739BE8" alt="">
+    </div>
     </div>
 
     <!-- Controls -->
