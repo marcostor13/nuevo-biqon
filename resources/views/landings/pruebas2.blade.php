@@ -89,21 +89,21 @@ $enddate=strtotime("+5 days", $startdate);
       <!-- Content -->
       <div class="container">
     
-        <!--Grid row
+        <!--Grid row-->
         <div class="card-body ">
             <hr class="hr-light">
-            <h3 class="green-text text-center">
+            <h3 class="danger-text text-center">
              <strong> Tratamiento <br>PALO NEGRO <br> </strong> </h3> 
               
                <hr class="hr-light">
-            <h4 class="dark-green-text text-center">
+            <h4 class="warning-text text-center">
                   *Controla la Diabetes 
              <br> *Regula el Colesterol
              <br> *Ayuda al Tratamiento y Previene el Cáncer
              <br> *Potente Antiinflamatorio
              <br> *Depurador Hepatico 
              <br> *Antioxidante       </h4>  
-          </div>-->
+          </div>
 
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -140,15 +140,15 @@ $enddate=strtotime("+5 days", $startdate);
             <div class="card">
               <div class="card-body">
                   <h3 class="green-text text-center">
-                    <strong>Tratamiento Diario desde $ 600</strong>
                   </h3>
                   <hr>
 
-                <div class="green-text text-center"> <br> <strong>¿Deseas que te contactemos? </strong>
+                <div class="green-text text-center"> <br> <strong>¡¡Siguenos en Nuestras Redes Sociales!! </strong>
                   <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href=""> <img width="50" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"> </a>
-                   <!-- <a onclick="eventosLanding('Llamar');" href="tel:+56994497265 "><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>-->
-                    <a onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> </a>
+                    <a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/rayoinflables/?hl=es-la"> <img width="50" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png"> </a>
+                    <a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/rayoinflables/"> <img width="50" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.m.wikipedia.org%2Fwiki%2FArchivo%3AFacebook_Logo_(2019).png&psig=AOvVaw1bQ1yDWC1EEYdWsOToG6Ff&ust=1577456193504000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIChibfA0-YCFQAAAAAdAAAAABAD"> </a>
+                   <!-- <a onclick="eventosLanding('Llamar');" href="tel:+56994497265 "><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
+                   <a onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> </a>-->
 
                   </div>                    
                 </div>
