@@ -93,6 +93,10 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="card-body ">
             <hr class="hr-light">
             <h3 class="text-danger text-center">
+            Arriendo de Juegos para Cumpleaños 100% Seguros y de Calidad para niños desde 1 año en adelante.
+            <br> Consulta por disponibilidad y Horario por Horas o Días
+            <br> Arriendo en La Serena y Coquimbo
+
              <strong> ¡¡10% de Descuento!! </strong> </h3> 
                <hr class="hr-light">
             <h4 class="text-warning text-center">
@@ -102,14 +106,14 @@ $enddate=strtotime("+5 days", $startdate);
              <br> Tobogán Inflable
              <br> Y Mucho Más
               </h4>  
-       <!-- <h5 class="text-danger text-center">
+      <h4 class="text-danger text-center">
                   Promoción Valida hasta el 31 de Diciembre de 2019 
-              </h5>
+              </h4>
 
 
-               <h6 class="text-blak text-center">
+               <h4 class="text-blak text-center">
                   *Presenta este mensaje para acceder al descuento al contratar*
-              </h6>-->
+              </h4>
           </div>
 
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -174,15 +178,6 @@ $enddate=strtotime("+5 days", $startdate);
 </div>
 <br>
 <br>
-
-              <div> <h4 class="text-danger text-center">
-                  Promoción Valida hasta el 31 de Diciembre de 2019 
-              </h4>
-
-
-               <h4 class="text-blak text-center">
-                  *Presenta este mensaje para acceder al descuento al contratar*
-              </h4> </div>
             <div class="card">
               <div class="card-body">
                  
@@ -197,6 +192,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996413264&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/b1duJxb.png"></a>
                    <!-- <a onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> </a>-->
+                   <a  href="https://goo.gl/maps/84vSihPQqcWrHefN8"><img  width="40" src="https://icon-library.net/images/google-map-logo-icon/google-map-logo-icon-5.jpg" /></a>
 
                   </div>                    
                 </div>
