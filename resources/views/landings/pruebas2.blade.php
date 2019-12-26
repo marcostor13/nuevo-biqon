@@ -90,20 +90,27 @@ $enddate=strtotime("+5 days", $startdate);
       <div class="container">
     
         <!--Grid row-->
-       <!-- <div class="card-body ">
+       <div class="card-body ">
             <hr class="hr-light">
             <h3 class="text-danger text-center">
-             <strong> Rayo<br> Inflables<br> </strong> </h3> 
-              
+             <strong> ¡¡10% de Descuento!! </strong> </h3> 
                <hr class="hr-light">
             <h4 class="text-warning text-center">
-                  *Parque Inflables
-             <br> *Bungee Jump
-             <br> *Carrito de Pop Corn 
-             <br> *Tobogán Inflable
+                  Parque Inflables
+             <br> Bungee Jump
+             <br> Carrito de Pop Corn 
+             <br> Tobogán Inflable
              <br> Y Mucho Más
               </h4>  
-          </div>-->
+        <h5 class="text-warning text-center">
+                  Promoción Valida hasta el 31 de Diciembre de 2019 
+              </h5>
+
+
+               <h6 class="text-warning text-center">
+                  *Presenta este mensaje para acceder al descuento al contratar
+              </h6>
+          </div>
 
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
