@@ -67,13 +67,13 @@ $enddate=strtotime("+5 days", $startdate);
 
 <div class="oscurecer p-3">
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
-            <img style="max-width:55px; max-height:55px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="prueba2">
+            <!--<img style="max-width:55px; max-height:55px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="prueba2">-->
 
         </div></div>
-    <div id="prueba2" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">
+    <div id="prueba2" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover; ">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <!--<img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">-->
+            <img style="max-width:60px; max-height:60px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="prueba2">
 
              <div id="cont1" class="p-5 ">
                 <br><br><br>
