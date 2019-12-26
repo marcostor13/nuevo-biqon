@@ -123,11 +123,18 @@ $enddate=strtotime("+5 days", $startdate);
             <img src="https://scontent-scl2-1.xx.fbcdn.net/v/t1.0-9/52690342_2521534607919361_2836579917641023488_n.jpg?_nc_cat=101&_nc_ohc=Pg5oVJOmr_IAQkoT7Ko0Micbgy9BLNovDInWisjJT2QUl91XYngIGku1A&_nc_ht=scontent-scl2-1.xx&oh=6355f85f660c86c81141c07b57d4e121&oe=5E744CBA" alt="">
         </div>
         <div class="item">
-            <img src="https://scontent-scl2-1.xx.fbcdn.net/v/t1.0-9/51564297_2474288979310591_5288031376275144704_n.jpg?_nc_cat=106&_nc_ohc=cEcJamTt0o8AQltoY_l5HEgoMm9mdDR4JEAje07cDK1YMgUE0rNGhRw6Q&_nc_ht=scontent-scl2-1.xx&oh=73fa66e7323753297f35bef9000b2fb0&oe=5E74BBD4" alt="">
+            <img src="https://i.imgur.com/ffFqOZV.jpg" alt="">
         </div>
         <div class="item">
-            <img src="https://scontent-scl2-1.xx.fbcdn.net/v/t1.0-9/52008356_2487610434645112_5388145719620141056_n.jpg?_nc_cat=104&_nc_ohc=1MK3zsWvu2YAQmK0UOmX9-tzQUu3z9OzcFctev9e1647KMBYNRtFjNKEg&_nc_ht=scontent-scl2-1.xx&oh=5152f6d3b9bb792530c81a2e202b4e4d&oe=5E739BE8" alt="">
-    </div>
+            <img src="https://i.imgur.com/2CHHy41.jpg" alt="">
+        </div>
+
+        <div class="item">
+                <img src="https://i.imgur.com/t4iGSS8.jpg" alt="">
+        </div>
+        <div class="item">
+                <img src="https://i.imgur.com/Ry5jv4g.jpg" alt="">
+        </div>
     </div>
 
     <!-- Controls -->
@@ -150,7 +157,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="green-text text-center"> <br> <strong>¡¡Siguenos en Nuestras Redes Sociales!! </strong>
                   <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/rayoinflables/?hl=es-la"> <img width="50" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png"> </a>
-                    <a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/rayoinflables/"> <img width="50" src="https://cdn.icon-icons.com/icons2/1269/PNG/512/1497553311-103_84832.png"> </a>
+                    <a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/rayoinflables/"> <img width="100" src="https://cdn.icon-icons.com/icons2/1269/PNG/512/1497553311-103_84832.png"> </a>
                    <!-- <a onclick="eventosLanding('Llamar');" href="tel:+56994497265 "><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    <a onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> </a>-->
 
