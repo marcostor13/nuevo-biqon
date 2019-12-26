@@ -153,9 +153,9 @@ if (path == '/dashboard') {
                            id: num2,
                            name: element.name,
                            fecha: element.fecha,
-                           datos: element.datos,
-                           datosNombre: dataJson.nombre,
-                           datosRut: dataJson.rut
+                           datos: element.datos
+                           //datosNombre: dataJson.nombre,
+                           //datosRut: dataJson.rut
                        })
 
                        num2++;
