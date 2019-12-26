@@ -81,7 +81,7 @@ $enddate=strtotime("+5 days", $startdate);
     <div id="prueba2" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover; ">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="pruebas2">
+             <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="pruebas2">
 
              <div id="cont1" class="p-2 ">
                    <div class="mask rgba-white-light d-flex justify-content-center align-items-center">
@@ -176,11 +176,9 @@ $enddate=strtotime("+5 days", $startdate);
 <br>
             <div class="card">
               <div class="card-body">
-                  <h3 class="green-text text-center">
-                  </h3>
-                  <hr>
+                 
 
-                <div class="green-text text-center"> <br> <strong>¡¡Siguenos en Nuestras Redes Sociales!! </strong>
+                <div class="green-text text-center"> <br> <strong>¡¡Siguenos en Nuestras Redes Sociales!! </strong>  <hr>
                   <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/rayoinflables/?hl=es-la"> <img width="50" src="https://i.imgur.com/7HwfV5p.png"> </a>
 
