@@ -40004,11 +40004,14 @@ if (path == '/dashboard') {
         num++;
       });
       e.visitas.forEach(function (element) {
+        var dataJson = JSON.parse(element.datos);
         rows2.push({
           id: num2,
           name: element.name,
           fecha: element.fecha,
-          datos: element.datos
+          datos: element.datos,
+          datosNombre: dataJson.nombre,
+          datosRut: dataJson.rut
         });
         num2++;
       });
