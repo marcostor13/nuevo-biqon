@@ -112,15 +112,33 @@ $enddate=strtotime("+5 days", $startdate);
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>
+        <li data-target="#myCarousel" data-slide-to="9"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/p960x960/69616855_2984452764960874_1846718306715697152_o.jpg?_nc_cat=107&_nc_ohc=cDDwEF33wFEAQn1sbhDgARh-PC1f8frnqR3YsFWsd61kqqLu2MlLVjebA&_nc_ht=scontent-scl1-1.xx&oh=35f09424dba841b1f4143833e4d01821&oe=5E6DB603" alt="">
+            <img src="https://i.imgur.com/I5bCtlk.jpg" alt="">
         </div>
         <div class="item">
-            <img src="https://scontent-scl2-1.xx.fbcdn.net/v/t1.0-9/52690342_2521534607919361_2836579917641023488_n.jpg?_nc_cat=101&_nc_ohc=Pg5oVJOmr_IAQkoT7Ko0Micbgy9BLNovDInWisjJT2QUl91XYngIGku1A&_nc_ht=scontent-scl2-1.xx&oh=6355f85f660c86c81141c07b57d4e121&oe=5E744CBA" alt="">
+            <img src="https://i.imgur.com/GT7Rvro.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/GM2COsl.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/zmMOH0H.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/ajWLQfD.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/k5BhXdB.jpg" alt="">
         </div>
         <div class="item">
             <img src="https://i.imgur.com/ffFqOZV.jpg" alt="">
@@ -128,13 +146,13 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="item">
             <img src="https://i.imgur.com/2CHHy41.jpg" alt="">
         </div>
+        <div class="item">
+            <img src="https://i.imgur.com/dWn1nBG.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/Ry5jv4g.jpg" alt="">
+        </div>
 
-        <div class="item">
-                <img src="https://i.imgur.com/t4iGSS8.jpg" alt="">
-        </div>
-        <div class="item">
-                <img src="https://i.imgur.com/Ry5jv4g.jpg" alt="">
-        </div>
     </div>
 
     <!-- Controls -->
