@@ -175,11 +175,11 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="green-text text-center"> <br> <strong>¡¡Siguenos en Nuestras Redes Sociales!! </strong>
                   <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/rayoinflables/?hl=es-la"> <img width="50" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png"> </a>
-                    <a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/rayoinflables/"> <img width="50" src="https://cdn.icon-icons.com/icons2/1269/PNG/512/1497553311-103_84832.png"> </a>
+                    <a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/rayoinflables/"> <img width="100" src="https://cdn.icon-icons.com/icons2/1269/PNG/512/1497553311-103_84832.png"> </a>
 
                    <a onclick="eventosLanding('Llamar');" href="tel:+56996413264 "><img width="50" src="https://i.imgur.com/Oh5DCRW.png"></a>
 
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996413264&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996413264&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    <!-- <a onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> </a>-->
 
                   </div>                    
