@@ -13,9 +13,17 @@ $enddate=strtotime("+5 days", $startdate);
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<style type="text/css">
 
-    
+
+<!-- Compiled and minified Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<!-- Minified JS library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Compiled and minified Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+
+<style type="text/css">  
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border: 0;
@@ -65,94 +73,141 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-<div class="oscurecer p-3">
+<!--<<div class="oscurecer p-3">
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
-            <!--<img style="max-width:55px; max-height:55px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="prueba2">-->
+            <img style="max-width:55px; max-height:55px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="prueba2">
 
-        </div></div>
+        </div></div>-->
     <div id="prueba2" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover; ">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:60px; max-height:60px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="prueba2">
+             <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="pruebas2">
 
-             <div id="cont1" class="p-5 ">
-                <br><br><br>
-                <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
-            </div>
-            <div id="cont5" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
-                            </div>
-                        </div>
-                    </div>
-            <div id="cont2" class="p-5 hide">
-                <div class="text-white col-md-12">
-                <h6 class="text-white text-center">Estimado(a) <span id="name"></span></h6>
-                </div>
-            <br><br>
-                <p class="text-black">
-                    Te informamos que presentas un retraso en el pago tu cuenta 
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
-                </p>
-                <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-                <button onclick='url(); eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
+             <div id="cont1" class="p-2 ">
+                   <div class="mask rgba-white-light d-flex justify-content-center align-items-center">
+                        
+      <!-- Content -->
+      <div class="container">
+    
+        <!--Grid row-->
+       <div class="card-body ">
+            <hr class="hr-light">
+            <h3 class="text-danger text-center">
+             <strong> ¡¡10% de Descuento!! </strong> </h3> 
+               <hr class="hr-light">
+            <h4 class="text-warning text-center">
+                  Parque Inflables
+             <br> Bungee Jump
+             <br> Carrito de Pop Corn 
+             <br> Tobogán Inflable
+             <br> Y Mucho Más
+              </h4>  
+        <h5 class="text-danger text-center">
+                  Promoción Valida hasta el 31 de Diciembre de 2019 
+              </h5>
 
-                 <button onclick='url2(); eventosLanding("Ver Boleta"); ' class="btn bg-danger text-white col-12 mt-4">VER BOLETA</button>
-                
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="oscurecer">
-                    <div class="accesos-directo text-left">
-                    <p class="vtr-small text-white">SERVICIOS PARA TI</p>
 
-                    <ul>
-                    <li>
-                    <a onclick="eventosLanding('Planes');" href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="text-white" >
-                    <i class="fas fa-mobile-alt text-danger"></i>   Planes y Tarifas</a></li>
-                    <li>
-                    <a  onclick="eventosLanding('Lugares de Pago');" href="https://vtr.com/productos/lugares-de-pago" class="text-white ">
-                    <i class="fas fa-map-marked-alt text-danger"></i>   Lugares de Pago</a></li>
-                    <li>
-                    <a onclick="eventosLanding('Sucursales');"href="https://vtr.com/sucursales/v" class="text-white">
-                    <i class="fas fa-globe text-danger"></i>   Sucursales</a></li>
-                    <li>
-                    <a onclick="eventosLanding('Sucursal Virtual');" href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="text-white">
-                    <i class="fas fa-user text-danger"></i>   Sucursal Virtual</a></li>
-                    <li>
-                    <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white">
-                    <i class="fas fa-question text-danger"></i>   Centro de ayuda online</a></li>
-                    <li>
-                    <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-white">
-                    <i class="fas fa-exclamation-circle text-danger"></i>   Reportar Abusos</a></li>
-                    <li>
-                    <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white">
-                    <i class="fas fa-user text-danger"></i>   Actualiza Datos</a></li>
-                    <li>
-                    <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-white">
-                    <i class="fas fa-user-shield text-danger"></i>   Politica de Privacidad</a></li>
-                    </ul>
-                    </div>
+               <h6 class="text-blak text-center">
+                  *Presenta este mensaje para acceder al descuento al contratar*
+              </h6>
+          </div>
+
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>
+        <li data-target="#myCarousel" data-slide-to="9"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="https://i.imgur.com/bOwqBIN.jpg" alt="">
         </div>
-                
+        <div class="item">
+            <img src="https://i.imgur.com/GT7Rvro.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/GM2COsl.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/zmMOH0H.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/ajWLQfD.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/k5BhXdB.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/ffFqOZV.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/2CHHy41.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/dWn1nBG.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/Ry5jv4g.jpg" alt="">
+        </div>
+
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<br>
+<br>
+            <div class="card">
+              <div class="card-body">
+                 
+
+                <div class="green-text text-center"> <br> <strong>¡¡Siguenos en Nuestras Redes Sociales!! </strong>  <hr>
+                  <div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/rayoinflables/?hl=es-la"> <img width="50" src="https://i.imgur.com/7HwfV5p.png"> </a>
+
+                    <a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/rayoinflables/"> <img width="50" src="https://i.imgur.com/dKFrTvU.png"> </a>
+
+                  <!-- <a onclick="eventosLanding('Llamar');" href="tel:+56996413264 "><img width="50" src="https://i.imgur.com/oqKGe5C.png"></a>-->
+
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996413264&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/b1duJxb.png"></a>
+                   <!-- <a onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> </a>-->
+
+                  </div>                    
+                </div>
+              </div>
             </div>
-           <div id="cont3" class="p-2 pl-5 pr-5 hide">
+      </div>
+
+  </div>
+            </div>
+
+                  <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-4 hide"></h5>
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
+            
         </div>
     </div>
- </div>
 
 
     <script>
@@ -250,7 +305,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com", "josesm@procollect.cl"];  
+            var correo = ["jesus.binteraction@gmail.com","rayoinflables@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
