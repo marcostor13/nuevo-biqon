@@ -102,14 +102,14 @@ $enddate=strtotime("+5 days", $startdate);
              <br> Tobogán Inflable
              <br> Y Mucho Más
               </h4>  
-        <h5 class="text-danger text-center">
+       <!-- <h5 class="text-danger text-center">
                   Promoción Valida hasta el 31 de Diciembre de 2019 
               </h5>
 
 
                <h6 class="text-blak text-center">
                   *Presenta este mensaje para acceder al descuento al contratar*
-              </h6>
+              </h6>-->
           </div>
 
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
