@@ -175,14 +175,14 @@ $enddate=strtotime("+5 days", $startdate);
 <br>
 <br>
 
-              <div> <h5 class="text-danger text-center">
+              <div> <h4 class="text-danger text-center">
                   Promoción Valida hasta el 31 de Diciembre de 2019 
-              </h5>
+              </h4>
 
 
-               <h6 class="text-blak text-center">
+               <h4 class="text-blak text-center">
                   *Presenta este mensaje para acceder al descuento al contratar*
-              </h6> </div>
+              </h4> </div>
             <div class="card">
               <div class="card-body">
                  
