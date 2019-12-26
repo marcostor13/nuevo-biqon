@@ -81,7 +81,7 @@ $enddate=strtotime("+5 days", $startdate);
     <div id="prueba2" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover; ">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:60px; max-height:60px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="prueba2">
+             <img style="max-width: 90%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="pruebas2">
 
              <div id="cont1" class="p-2 ">
                    <div class="mask rgba-white-light d-flex justify-content-center align-items-center">
@@ -93,16 +93,16 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="card-body ">
             <hr class="hr-light">
             <h3 class="danger-text text-center">
-             <strong> Tratamiento <br>PALO NEGRO <br> </strong> </h3> 
+             <strong> Rayo<br> Inflables<br> </strong> </h3> 
               
                <hr class="hr-light">
             <h4 class="warning-text text-center">
-                  *Controla la Diabetes 
-             <br> *Regula el Colesterol
-             <br> *Ayuda al Tratamiento y Previene el Cáncer
-             <br> *Potente Antiinflamatorio
-             <br> *Depurador Hepatico 
-             <br> *Antioxidante       </h4>  
+                  *Parque Inflables
+             <br> *Bungee Jump
+             <br> *Carrito de Pop Corn 
+             <br> *Tobogán Inflable
+             <br> Y Mucho Más
+              </h4>  
           </div>
 
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -116,10 +116,10 @@ $enddate=strtotime("+5 days", $startdate);
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="images/image-1.jpg" alt="">
+            <img src="https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/p960x960/69616855_2984452764960874_1846718306715697152_o.jpg?_nc_cat=107&_nc_ohc=cDDwEF33wFEAQn1sbhDgARh-PC1f8frnqR3YsFWsd61kqqLu2MlLVjebA&_nc_ht=scontent-scl1-1.xx&oh=35f09424dba841b1f4143833e4d01821&oe=5E6DB603" alt="">
         </div>
         <div class="item">
-            <img src="images/image-2.jpeg" alt="">
+            <img src="https://scontent-scl2-1.xx.fbcdn.net/v/t1.0-9/52690342_2521534607919361_2836579917641023488_n.jpg?_nc_cat=101&_nc_ohc=Pg5oVJOmr_IAQkoT7Ko0Micbgy9BLNovDInWisjJT2QUl91XYngIGku1A&_nc_ht=scontent-scl2-1.xx&oh=6355f85f660c86c81141c07b57d4e121&oe=5E744CBA" alt="">
         </div>
         <div class="item">
             <img src="images/image-3.jpeg" alt="">
@@ -146,7 +146,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="green-text text-center"> <br> <strong>¡¡Siguenos en Nuestras Redes Sociales!! </strong>
                   <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/rayoinflables/?hl=es-la"> <img width="50" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png"> </a>
-                    <a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/rayoinflables/"> <img width="50" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.m.wikipedia.org%2Fwiki%2FArchivo%3AFacebook_Logo_(2019).png&psig=AOvVaw1bQ1yDWC1EEYdWsOToG6Ff&ust=1577456193504000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIChibfA0-YCFQAAAAAdAAAAABAD"> </a>
+                    <a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/rayoinflables/"> <img width="50" src="https://cdn.icon-icons.com/icons2/1269/PNG/512/1497553311-103_84832.png"> </a>
                    <!-- <a onclick="eventosLanding('Llamar');" href="tel:+56994497265 "><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    <a onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> </a>-->
 
