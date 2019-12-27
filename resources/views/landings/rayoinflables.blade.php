@@ -81,7 +81,7 @@ $enddate=strtotime("+5 days", $startdate);
     <div id="rayoinflables" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover; ">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-             <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="rayoinflables">
+             <img style="max-width: 30%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="rayoinflables">
 
              <div id="cont1" class="p-2 ">
                    <div class="mask rgba-white-light d-flex justify-content-center align-items-center">
