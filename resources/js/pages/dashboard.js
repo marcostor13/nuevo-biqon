@@ -145,11 +145,19 @@ if (path == '/dashboard') {
                    });
 
                    e.visitas.forEach(element => {
-
-                       let dataJson = JSON.parse(element.datos);
+                      //se borra
+                     //let dataJson = JSON.parse(element.datos);
 
 
                        rows2.push({
+                           //id: num2,
+                           //name: element.name,
+                           //fecha: element.fecha,
+                           //datosRut: dataJson.rut,
+                           //datosId: dataJson.id,
+                           //datosTelefono: String('dataJson.telefono'),
+                           //datosNombre: dataJson.nombre
+
                            id: num2,
                            name: element.name,
                            fecha: element.fecha,
