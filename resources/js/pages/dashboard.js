@@ -155,7 +155,7 @@ if (path == '/dashboard') {
                            fecha: element.fecha,
                            datosRut: dataJson.rut,
                            datosId: dataJson.id,
-                           datosTelefono: string('dataJson.telefono'),
+                           datosTelefono: String('dataJson.telefono'),
                            datosNombre: dataJson.nombre
 
                            //id: num2,
