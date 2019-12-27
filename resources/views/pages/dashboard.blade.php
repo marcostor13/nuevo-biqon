@@ -155,8 +155,8 @@
                             <th data-field="name">Landing</th>
                             <th data-field="fecha">Fecha</th>
                             <th data-field="datos">Datos</th>
-                            <th data-field="datosNombre">Datos (Nombre)</th>
-                            <th data-field="datosRut">Datos (Rut)</th>
+                            <!--<th data-field="datosNombre">Datos (Nombre)</th>
+                            <th data-field="datosRut">Datos (Rut)</th>-->
                         </tr>
                     </thead>
                     <tbody>
