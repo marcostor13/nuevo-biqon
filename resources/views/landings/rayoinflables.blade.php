@@ -81,7 +81,7 @@ $enddate=strtotime("+5 days", $startdate);
     <div id="rayoinflables" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover; ">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-             <img style="max-width: 30%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="rayoinflables">
+             <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="rayoinflables">
 
              <div id="cont1" class="p-2 ">
                    <div class="mask rgba-white-light d-flex justify-content-center align-items-center">
@@ -93,10 +93,10 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="card-body ">
             <h3 class="text-danger text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
-            Parque Inflables Y  Bungee Jump <br> 
+            Parque Inflables Y  Bungee Jump 4 en 1<br> 
             100% Seguros 
             <!--<strong> Arriendo en La Serena y Coquimbo </strong>--> </h3> 
-            <h4 class="text-warning text-center">
+            <h4 class="text-black text-center">
              <strong> <br> ¡¡10 Min Extras En Nuestro Parque!!  </strong> 
               <strong> <br>¡¡En cualquier Inflable!!  </strong> 
            </h4> 
@@ -117,9 +117,9 @@ $enddate=strtotime("+5 days", $startdate);
         </div>
 
 
-           <div id="cont1">
+           <div id="cont1" class="text-danger text-center">
                 <div class="videoWrapper">        
-                    <iframe width="400" height="320" src="{{asset('/files/inflable.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="400" height="320" src="{{asset('/files/masrayo.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
            <!--  <div id="myCarousel" class="carousel slide" data-ride="carousel">-->
     <!-- Indicators -->
