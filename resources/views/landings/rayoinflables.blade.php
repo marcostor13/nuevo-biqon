@@ -199,7 +199,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996413264&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/b1duJxb.png"></a>
                    <!-- <a onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> </a>-->
-                   <a  href="https://goo.gl/maps/84vSihPQqcWrHefN8"><img  width="40" src="https://icon-library.net/images/google-map-logo-icon/google-map-logo-icon-5.jpg" /></a>
+                   <a  href="https://goo.gl/maps/84vSihPQqcWrHefN8"><img  width="50" src="https://icon-library.net/images/google-map-logo-icon/google-map-logo-icon-5.jpg" /></a>
 
                   </div>                    
                 </div>
