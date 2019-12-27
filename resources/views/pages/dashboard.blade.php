@@ -144,19 +144,20 @@
                 <table id="tablaVisitas" class="text-black p-0 table-primary" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
                         <tr>
-                            <th data-field="id">ID</th>
+                            <!--<th data-field="id">ID</th>
                             <th data-field="name">Landing</th>
                             <th data-field="fecha">Fecha</th>
                             <th data-field="datosRut">Rut</th>
                             <th data-field="datosId">Id</th>
                             <th data-field="datosTelefono">Telefono</th>
-                            <th data-field="datosNombre">Nombre</th>
+                            <th data-field="datosNombre">Nombre</th>-->
+
                             <th data-field="id">ID</th>
                             <th data-field="name">Landing</th>
                             <th data-field="fecha">Fecha</th>
                             <th data-field="datos">Datos</th>
-                            <th data-field="datosNombre">Datos (Nombre)</th>
-                            <th data-field="datosRut">Datos (Rut)</th>
+                            <!--<th data-field="datosNombre">Datos (Nombre)</th>
+                            <th data-field="datosRut">Datos (Rut)</th>-->
                         </tr>
                     </thead>
                     <tbody>
