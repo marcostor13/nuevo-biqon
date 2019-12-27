@@ -184,8 +184,8 @@ $enddate=strtotime("+5 days", $startdate);
 </div>-->
 <br>
 <br>
-            <div class="card">
-              <div class="card-body">
+            <!--<div class="card">
+              <div class="card-body">-->
                  
 
                 <div class="green-text text-center"> <br> <strong>¡¡Siguenos en Nuestras Redes Sociales!! </strong>  <hr>
@@ -202,8 +202,8 @@ $enddate=strtotime("+5 days", $startdate);
 
                   </div>                    
                 </div>
-              </div>
-            </div>
+             <!-- </div>
+            </div>-->
       </div>
 
   </div>
