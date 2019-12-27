@@ -91,34 +91,39 @@ $enddate=strtotime("+5 days", $startdate);
     
         <!--Grid row-->
        <div class="card-body ">
-            <h4 class="text-danger text-center">
+            <h3 class="text-danger text-center">
             Arriendo de Juegos para Cumpleaños <br> 
             100% Seguros y de Calidad para niños <br> desde 1 año en adelante.
             <br> Consulta por disponibilidad y Horario por Horas o Días
-            <br> <br> <strong> Arriendo en La Serena y Coquimbo </strong> </h3> 
+            <br> <br> <!--<strong> Arriendo en La Serena y Coquimbo </strong>--> </h3> 
             <h3 class="text-danger text-center">
-             <strong> <br> <br> ¡¡10% de Descuento!! </strong> </h3> <br>
-               <hr class="hr-light">
+             <strong> <br> <br>¡¡10 Min Extras En Nuestro Parque!!  </strong> 
+              <strong> <br> <br>¡¡En cualquier Inflable!!  </strong> 
+           </h3> <br>
+             <!--  <hr class="hr-light">
             <h4 class="text-warning text-center">
                   Parque Inflables
              <br> Bungee Jump
              <br> Carrito de Pop Corn 
              <br> Tobogán Inflable
              <br> Y Mucho Más
-              </h4>  
-      <h4 class="text-danger text-center">
+              </h4> --> 
+            <h4 class="text-danger text-center">
                   Promoción Valida hasta el 31 de Diciembre de 2019 
-              </h4>
-
-
-               <h4 class="text-blak text-center">
+            </h4>
+            <h4 class="text-blak text-center">
                   *Presenta este mensaje para acceder al descuento al contratar*
               </h4>
-          </div>
+        </div>
 
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+           <div id="cont1">
+                <div class="videoWrapper">        
+                    <iframe width="400" height="320" src="{{asset('/files/rayo.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+           <!--  <div id="myCarousel" class="carousel slide" data-ride="carousel">-->
     <!-- Indicators -->
-    <ol class="carousel-indicators">
+    <!-- <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -129,10 +134,10 @@ $enddate=strtotime("+5 days", $startdate);
         <li data-target="#myCarousel" data-slide-to="7"></li>
         <li data-target="#myCarousel" data-slide-to="8"></li>
         <li data-target="#myCarousel" data-slide-to="9"></li>
-    </ol>
+    </ol> -->
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner">
+    <!-- <div class="carousel-inner">
         <div class="item active">
             <img src="https://i.imgur.com/bOwqBIN.jpg" alt="">
         </div>
@@ -164,10 +169,10 @@ $enddate=strtotime("+5 days", $startdate);
             <img src="https://i.imgur.com/Ry5jv4g.jpg" alt="">
         </div>
 
-    </div>
+    </div>-->
 
     <!-- Controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+   <!--  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
         <span class="sr-only">Previous</span>
     </a>
@@ -175,7 +180,7 @@ $enddate=strtotime("+5 days", $startdate);
         <span class="glyphicon glyphicon-chevron-right"></span>
         <span class="sr-only">Next</span>
     </a>
-</div>
+</div>-->
 <br>
 <br>
             <div class="card">
