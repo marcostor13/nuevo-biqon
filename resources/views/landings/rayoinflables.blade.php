@@ -93,8 +93,9 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="card-body ">
             <h3 class="text-danger text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
-            Parque Inflables Y  Bungee Jump
-            100% Seguros y de  <br>  Calidad para niños  <br> 
+            Parque Inflables Y  Bungee Jump <br> 
+            100% Seguros y de  <br>
+            Calidad para niños  <br> 
             desde 1 año en adelante.
             <!--<strong> Arriendo en La Serena y Coquimbo </strong>--> </h3> 
             <h3 class="text-danger text-center">
@@ -120,7 +121,7 @@ $enddate=strtotime("+5 days", $startdate);
 
            <div id="cont1">
                 <div class="videoWrapper">        
-                    <iframe width="400" height="320" src="{{asset('/files/rayo.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="400" height="320" src="{{asset('/files/inflable.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
            <!--  <div id="myCarousel" class="carousel slide" data-ride="carousel">-->
     <!-- Indicators -->
