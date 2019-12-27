@@ -145,7 +145,7 @@ if (path == '/dashboard') {
                    });
 
                    e.visitas.forEach(element => {
-
+                      //se borra
                        let dataJson = JSON.parse(element.datos);
 
 
@@ -153,7 +153,15 @@ if (path == '/dashboard') {
                            id: num2,
                            name: element.name,
                            fecha: element.fecha,
-                           datos: element.datos
+                           datosRut: dataJson.rut,
+                           datosId: dataJson.id,
+                           datosTelefono: dataJson.telefono,
+                           datosNombre: dataJson.nombre
+
+                           //id: num2,
+                           //name: element.name,
+                           //fecha: element.fecha,
+                           //datos: element.datos
                            //datosNombre: dataJson.nombre,
                            //datosRut: dataJson.rut
                        })
