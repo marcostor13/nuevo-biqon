@@ -93,13 +93,13 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="card-body ">
             <h3 class="text-danger text-center">
             Arriendo de Juegos para Cumpleaños <br> 
-            100% Seguros y de Calidad para niños <br> desde 1 año en adelante.
-            <br> Consulta por disponibilidad y Horario por Horas o Días
-            <br> <br> <!--<strong> Arriendo en La Serena y Coquimbo </strong>--> </h3> 
+            100% Seguros y de Calidad para niños <br> 
+            desde 1 año en adelante.
+            <!--<strong> Arriendo en La Serena y Coquimbo </strong>--> </h3> 
             <h3 class="text-danger text-center">
-             <strong> <br> <br>¡¡10 Min Extras En Nuestro Parque!!  </strong> 
-              <strong> <br> <br>¡¡En cualquier Inflable!!  </strong> 
-           </h3> <br>
+             <strong> <br> ¡¡10 Min Extras En Nuestro Parque!!  </strong> 
+              <strong> <br>¡¡En cualquier Inflable!!  </strong> 
+           </h3> 
              <!--  <hr class="hr-light">
             <h4 class="text-warning text-center">
                   Parque Inflables
@@ -111,9 +111,9 @@ $enddate=strtotime("+5 days", $startdate);
             <h4 class="text-danger text-center">
                   Promoción Valida hasta el 31 de Diciembre de 2019 
             </h4>
-            <h4 class="text-blak text-center">
+            <!--<h4 class="text-blak text-center">
                   *Presenta este mensaje para acceder al descuento al contratar*
-              </h4>
+              </h4>-->
         </div>
 
 
