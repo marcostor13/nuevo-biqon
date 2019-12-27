@@ -94,14 +94,12 @@ $enddate=strtotime("+5 days", $startdate);
             <h3 class="text-danger text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
             Parque Inflables Y  Bungee Jump <br> 
-            100% Seguros y de  <br>
-            Calidad para niños  <br> 
-            desde 1 año en adelante.
+            100% Seguros 
             <!--<strong> Arriendo en La Serena y Coquimbo </strong>--> </h3> 
-            <h3 class="text-danger text-center">
+            <h4 class="text-warning text-center">
              <strong> <br> ¡¡10 Min Extras En Nuestro Parque!!  </strong> 
               <strong> <br>¡¡En cualquier Inflable!!  </strong> 
-           </h3> 
+           </h4> 
              <!--  <hr class="hr-light">
             <h4 class="text-warning text-center">
                   Parque Inflables
@@ -109,10 +107,10 @@ $enddate=strtotime("+5 days", $startdate);
              <br> Carrito de Pop Corn 
              <br> Tobogán Inflable
              <br> Y Mucho Más
-              </h4> --> 
+              </h4>  
             <h4 class="text-danger text-center">
                   Promoción Valida hasta el 31 de Diciembre de 2019 
-            </h4>
+            </h4>-->
             <!--<h4 class="text-blak text-center">
                   *Presenta este mensaje para acceder al descuento al contratar*
               </h4>-->
