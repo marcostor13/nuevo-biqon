@@ -94,7 +94,7 @@ $enddate=strtotime("+5 days", $startdate);
             <h3 class="text-danger text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
             Parque Inflables Y  Bungee Jump
-            100% Seguros y de Calidad para niños <br> 
+            100% Seguros y de  <br>  Calidad para niños  <br> 
             desde 1 año en adelante.
             <!--<strong> Arriendo en La Serena y Coquimbo </strong>--> </h3> 
             <h3 class="text-danger text-center">
