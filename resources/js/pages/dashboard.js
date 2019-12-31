@@ -127,10 +127,12 @@ if (path == '/dashboard') {
                    var num2 = 1;
                    var num3 = 1;
                    var num4 = 1;
+                   var num5 = 1;
                    var rows = [];
                    var rows2 = [];
                    var rows3 = [];
                    var rows4 = [];
+                   var rows5 = [];
                    e.landings.forEach(element => {
 
 
@@ -145,8 +147,8 @@ if (path == '/dashboard') {
                    });
 
                    e.visitas.forEach(element => {
-                      //se borra
-                     //let dataJson = JSON.parse(element.datos);
+
+                       let dataJson = JSON.parse(element.datos);
 
                        rows2.push({
                            id: num2,
@@ -156,20 +158,6 @@ if (path == '/dashboard') {
                            datosId: dataJson.id,
                            datosTelefono: dataJson.telefono,
                            datosNombre: dataJson.nombre
-                           //id: num2,
-                           //name: element.name,
-                           //fecha: element.fecha,
-                           //datosRut: dataJson.rut,
-                           //datosId: dataJson.id,
-                           //datosTelefono: dataJson.telefono,
-                           //datosNombre: dataJson.nombre
-
-                           id: num2,
-                           name: element.name,
-                           fecha: element.fecha,
-                           datos: element.datos
-                           //datosNombre: dataJson.nombre,
-                           //datosRut: dataJson.rut
                        })
 
                        num2++;
@@ -202,11 +190,29 @@ if (path == '/dashboard') {
                        num4++;
                    });
 
+                   e.reportUrls.forEach(element => {
+
+                        let dataJson = element.data;
+
+                       rows5.push({
+                           id: num5,
+                           shorturl: element.shorturl,
+                           url: element.url,
+                           date: element.date,
+                           name: dataJson.NOMBRE,
+                           phone: dataJson.TELEFONO,
+                           rut: dataJson.RUT
+                       })
+
+                       num5++;
+                   });
+
 
                    $('#tablaLandings').bootstrapTable('load', rows);
                    $('#tablaVisitas').bootstrapTable('load', rows2);
                    $('#tablaFormularios').bootstrapTable('load', rows3);
                    $('#tablaEventos').bootstrapTable('load', rows4);
+                   $('#tablaReportUrls').bootstrapTable('load', rows5);
 
                    charBar('chart1', 'Cantidad Visitas', '', e.cantXvisitas.cat, 'Cant. Visitas', e.cantXvisitas.series);
                    charBar('chart2', 'Cantidad Formularios', '', e.cantXFormularios.cat, 'Cant. Formularios', e.cantXFormularios.series);

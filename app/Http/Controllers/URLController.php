@@ -2,19 +2,20 @@
 
 namespace Biqon\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Biqon\Dashboard;
-use Biqon\Landing;
-use Biqon\Role_User;
+use DB;
 use Biqon\User;
 use Biqon\Event;
+use Biqon\Logurl;
+use Biqon\Landing;
+use Biqon\Dashboard;
+use Biqon\Role_User;
 use Biqon\DatosLanding;
-use DB;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use PhpOffice\PhpSpreadsheet\IOFactory;
+use PhpOffice\PhpSpreadsheet\Writer\Xls;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
-use PhpOffice\PhpSpreadsheet\Writer\Xls;
-use PhpOffice\PhpSpreadsheet\IOFactory;
 
 
 class URLController extends Controller
@@ -256,11 +257,45 @@ class URLController extends Controller
                 $eventos[] = ['name' => $d->landing,  'fecha' => $d->fecha, 'datos' => $d->datos, 'evento' => $d->evento];                   
             }
         }
-       
 
-        return ['totalLandings'=>$totalLandings, 'totalVisitas'=>$totalVisitas, 'totalEventos'=>$totalEventos,'totalFormularios'=>$totalFormularios, 'cantXvisitas' => $cantXvisitas, 'cantXFormularios' => $cantXFormularios, 'landings'=> $lan, 'formularios'=> $formularios, 'visitas'=> $visitas, 'eventos'=> $eventos, 'dateReport' => $dateReport]; 
+        //LOG URL
+        
 
+        $id = Auth::id();
+        $role_user = Role_User::where('user_id', $id)->first(); 
+        $reportUrls = [];
+
+        if($role_user->role_id == '1'){
+            $logurl = Logurl::whereBetween('created_at', [$startDate, $endDate])->get();
+        }else{
+            $logurl = Logurl::where('userid', $id)->whereBetween('created_at', [$startDate, $endDate])->get();     
+        }
+        
+        foreach ($logurl as $r) {
+           $url = explode('?', $r->url);
+           $reportUrls[] = [
+            'shorturl' => 'http://bint.ml/'.$r->code,
+            'url' => $url[0],
+            'date' => $r->created_at,
+            'data' => $this->getJSON($url[1])
+           ]; 
+        }
+
+        return ['totalLandings'=>$totalLandings, 'totalVisitas'=>$totalVisitas, 'totalEventos'=>$totalEventos,'totalFormularios'=>$totalFormularios, 'cantXvisitas' => $cantXvisitas, 'cantXFormularios' => $cantXFormularios, 'landings'=> $lan, 'formularios'=> $formularios, 'visitas'=> $visitas, 'eventos'=> $eventos, 'dateReport' => $dateReport, 'reportUrls' => $reportUrls]; 
        
+    }
+
+    public function getJSON($path){
+        $partials = explode('&', $path);
+        $data = [];
+
+        foreach($partials as $p){
+            $dataPartials = explode('=', $p);   
+            $data[$dataPartials[0]] = $dataPartials[1];
+        }
+
+        return $data;
+
     }
 
 
@@ -439,10 +474,6 @@ class URLController extends Controller
         return array('code' => 200, 'msg' => 'Datos Ingresados');
     }
 
-
-    
-
-    
 
     /**
      * Show the form for creating a new resource.

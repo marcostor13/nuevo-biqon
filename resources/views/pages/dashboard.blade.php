@@ -144,7 +144,7 @@
                 <table id="tablaVisitas" class="text-black p-0 table-primary" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
                     <thead>
                         <tr>
-                            <!--<th data-field="id">ID</th>
+                            <th data-field="id">ID</th>
                             <th data-field="name">Landing</th>
                             <th data-field="fecha">Fecha</th>
                             <th data-field="datosRut">Rut</th>
@@ -175,6 +175,26 @@
                             <th data-field="name">Landing</th>
                             <th data-field="fecha">Fecha</th>
                             <th data-field="datos">Datos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                    
+                </table>
+
+                <h1 class="border bg-warning p-4 text-black mt-4">Reporte de Urls cortas</h1>
+
+                <table id="tablaReportUrls" class="text-black p-0 table-warning" data-toggle="table" data-height="500" data-pagination=true data-search=true  data-toolbar="#toolbar" data-show-export="true">
+                    <thead>
+                        <tr>
+                            <th data-field="id">ID</th>
+                            <th data-field="shorturl">Url Corta</th>
+                            <th data-field="url">Url</th>
+                            <th data-field="date">Fecha</th>
+                            <th data-field="name">Nombre</th>
+                            <th data-field="rut">Rut</th>
+                            <th data-field="phone">Teléfono</th>
                         </tr>
                     </thead>
                     <tbody>
