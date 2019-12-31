@@ -273,11 +273,17 @@ class URLController extends Controller
         
         foreach ($logurl as $r) {
            $url = explode('?', $r->url);
+           $datos = '';
+           
+           if($url[1] != '' && $url[1] != null ){
+                $datos = $url[1];
+           }
+
            $reportUrls[] = [
             'shorturl' => 'http://bint.ml/'.$r->code,
             'url' => $url[0],
             'date' => $r->created_at,
-            'data' => $this->getJSON($url[1])
+            'data' => $this->getJSON($datos)
            ]; 
         }
 
