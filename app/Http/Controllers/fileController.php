@@ -382,13 +382,15 @@ class fileController extends Controller
     
     public function routes($company, $code){   
                 
-        $flights = Url::where('code', $code)->first();         
+        $flights = Url::where('code', $code)->first();
+                 
         if($flights == ''){
             return 'No se puede encontrar la página'; 
         }else{
             $logurl = new Logurl;
             $logurl->url = $flights->url;
             $logurl->code = $code;
+            $logurl->userid = $flight->userid;
             $logurl->save();
             return redirect($flights->url);
         }
@@ -397,13 +399,15 @@ class fileController extends Controller
 
     public function routes2($code){   
                 
-        $flights = Url::where('code', $code)->first();         
+        $flights = Url::where('code', $code)->first();
+                 
         if($flights == ''){
             return 'No se puede encontrar la página'; 
         }else{
             $logurl = new Logurl;
             $logurl->url = $flights->url;
             $logurl->code = $code;
+            $logurl->userid = $flight->userid;
             $logurl->save();
             return redirect($flights->url);
         }

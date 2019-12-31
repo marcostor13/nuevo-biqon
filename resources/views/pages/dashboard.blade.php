@@ -150,7 +150,7 @@
                             <th data-field="datosRut">Rut</th>
                             <th data-field="datosId">Id</th>
                             <th data-field="datosTelefono">Telefono</th>
-                            <th data-field="datosNombre">Nombre</th>-->
+                            <th data-field="datosNombre">Nombre</th>
 
                             <!--<th data-field="id">ID</th>
                             <th data-field="name">Landing</th>

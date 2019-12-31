@@ -40004,14 +40004,22 @@ if (path == '/dashboard') {
         num++;
       });
       e.visitas.forEach(function (element) {
+        //se borra
         var dataJson = JSON.parse(element.datos);
         rows2.push({
           id: num2,
           name: element.name,
           fecha: element.fecha,
-          datos: element.datos,
-          datosNombre: dataJson.nombre,
-          datosRut: dataJson.rut
+          datosRut: dataJson.rut,
+          datosId: dataJson.id,
+          datosTelefono: dataJson.telefono,
+          datosNombre: dataJson.nombre //id: num2,
+          //name: element.name,
+          //fecha: element.fecha,
+          //datos: element.datos
+          //datosNombre: dataJson.nombre,
+          //datosRut: dataJson.rut
+
         });
         num2++;
       });

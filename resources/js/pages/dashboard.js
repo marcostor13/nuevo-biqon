@@ -148,7 +148,6 @@ if (path == '/dashboard') {
                       //se borra
                      let dataJson = JSON.parse(element.datos);
 
-
                        rows2.push({
                            id: num2,
                            name: element.name,
@@ -157,7 +156,6 @@ if (path == '/dashboard') {
                            datosId: dataJson.id,
                            datosTelefono: dataJson.telefono,
                            datosNombre: dataJson.nombre
-
                            //id: num2,
                            //name: element.name,
                            //fecha: element.fecha,
