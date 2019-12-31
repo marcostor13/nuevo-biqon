@@ -93,13 +93,13 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="card-body ">
             <h3 class="text-danger text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
-            Parque Inflables Y  Bungee Jump 4 en 1<br> 
+            Parque Inflables Y  <br> Bungee Jump 4 en 1<br> 
             100% Seguros 
             <!--<strong> Arriendo en La Serena y Coquimbo </strong>--> </h3> 
-            <h4 class="text-black text-center">
+            <h3 class="text-black text-center">
              <strong> <br> ¡¡10 Min Extras En Nuestro Parque!!  </strong> 
               <strong> <br>¡¡En cualquier Inflable!!  </strong> 
-           </h4> 
+           </h3> 
              <!--  <hr class="hr-light">
             <h4 class="text-warning text-center">
                   Parque Inflables
@@ -119,7 +119,7 @@ $enddate=strtotime("+5 days", $startdate);
 
            <div id="cont1" class="text-danger text-center">
                 <div class="videoWrapper">        
-                    <iframe width="400" height="320" src="{{asset('/files/masrayo.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="400" height="320" src="{{asset('/files/rayoinflables1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
            <!--  <div id="myCarousel" class="carousel slide" data-ride="carousel">-->
     <!-- Indicators -->
