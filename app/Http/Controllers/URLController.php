@@ -275,7 +275,7 @@ class URLController extends Controller
            $url = explode('?', $r->url);
            $datos = '';
            
-           if($url[1] != '' && $url[1] != null ){
+           if(isset($url[1]) && $url[1] != null ){
                 $datos = $url[1];
            }
 
