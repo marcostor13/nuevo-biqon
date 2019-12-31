@@ -286,14 +286,17 @@ class URLController extends Controller
     }
 
     public function getJSON($path){
-        $partials = explode('&', $path);
+
         $data = [];
 
-        foreach($partials as $p){
-            $dataPartials = explode('=', $p);   
-            $data[$dataPartials[0]] = $dataPartials[1];
+        if($path != '' && $path != null ){
+            $partials = explode('&', $path);        
+    
+            foreach($partials as $p){
+                $dataPartials = explode('=', $p);   
+                $data[$dataPartials[0]] = $dataPartials[1];
+            }
         }
-
         return $data;
 
     }
