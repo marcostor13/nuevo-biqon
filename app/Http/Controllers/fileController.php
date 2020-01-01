@@ -407,7 +407,7 @@ class fileController extends Controller
             $logurl = new Logurl;
             $logurl->url = $flights->url;
             $logurl->code = $code;
-            $logurl->userid = $flight->userid;
+            $logurl->userid = $flights->userid;
             $logurl->save();
             return redirect($flights->url);
         }
