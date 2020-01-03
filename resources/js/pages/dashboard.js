@@ -5,7 +5,7 @@ import 'bootstrap-table/dist/bootstrap-table.css';
 var path = window.location.pathname;
 
 
-if (path == '/dashboard') {
+if (path == '/dashboard'  ) {
     
        $(function () {
 
