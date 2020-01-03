@@ -354,8 +354,8 @@ class URLController extends Controller
         $sheet->setCellValue('B4', $data['totalFormularios']);
         $sheet->setCellValue('A5', 'Total Eventos:');
         $sheet->setCellValue('B5', $data['totalEventos']);
-        $sheet->setCellValue('A6', 'Total URL:');
-        $sheet->setCellValue('B6', $data['totalUrl']);
+       // $sheet->setCellValue('A6', 'Total URL:');
+       // $sheet->setCellValue('B6', $data['totalUrl']);
         
         //LANDIGNS
 
@@ -435,7 +435,7 @@ class URLController extends Controller
 
         //URL
 
-        $urlcorta = new \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet($spreadsheet, 'URLCorta');
+      /*  $urlcorta = new \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet($spreadsheet, 'URLCorta');
         $urlcorta->setCellValue('A1', 'ID');
         $urlcorta->setCellValue('B1', 'URLCorta');
         $urlcorta->setCellValue('C1', 'URL');
@@ -451,15 +451,15 @@ class URLController extends Controller
             $urlcorta->setCellValue('C'.$i, $eve[$i-2]['url']);
             $urlcorta->setCellValue('D'.$i, $eve[$i-2]['fecha']);
             $urlcorta->setCellValue('E'.$i, $eve[$i-2]['datos']);
-        }
+        }*/
 
-////
+
 
         $spreadsheet->addSheet($landings, 2);
         $spreadsheet->addSheet($visitas, 3);
         $spreadsheet->addSheet($formularios, 4);
         $spreadsheet->addSheet($eventos, 5);
-        $spreadsheet->addSheet($urlcorta, 6);
+       // $spreadsheet->addSheet($urlcorta, 6);
 
 
         $writer = new Xlsx($spreadsheet);
