@@ -65,7 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
 
            
 
-           <div id="cont1" class="p-5 ">
+           <div id="cont1" class="p-5 hide">
                 <div class="card">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
@@ -254,7 +254,7 @@ $enddate=strtotime("+5 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont1').addClass('hide');
+                     $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
