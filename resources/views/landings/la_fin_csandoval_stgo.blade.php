@@ -82,7 +82,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
 
-             <div id="cont2" class="p-5 ">
+             <div id="cont2" class="p-5 hide">
                 <div class="card">     
                 <div class="card-body">
                  <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
@@ -112,7 +112,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <button onclick='window.location.href="tel:+56961682581" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
-               <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3">  DESEAS QUE TE CONTACTEMOS </button>
+               <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">DESEAS QUE TE CONTACTEMOS</button>
 
                 
 
@@ -254,7 +254,7 @@ $enddate=strtotime("+5 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont1').addClass('hide');
+                     $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
