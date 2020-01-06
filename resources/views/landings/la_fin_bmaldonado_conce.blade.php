@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-$name = $_GET['NOMBRE'];
+//$name = $_GET['NOMBRE'];
 //echo "El identificador de este cliente es: $identificador";
 ?>
 <style>
@@ -63,35 +63,32 @@ $name = $_GET['NOMBRE'];
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Financoop">
 
-            <div id="cont1" class="p-5 ">
+           
 
-           <!-- <div id="cont1" class="p-5 ">
+           <div id="cont1" class="p-5 ">
                 <div class="card">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4">Validar</button>
-            </div>-->
+            </div>
 
 
-              <!--  <div id="cont5" class="p-2 pl-3 pr-3 hide">
+               <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
 
-            
+             <div id="cont2" class="p-5 ">
                 <div class="card">     
                 <div class="card-body">
-                <h3 class="text-black text-center"> <strong> Estimado(a) <span><?php echo $name; ?></span>  </strong> </h3>
-
-                <!--<h4><p class="text-black"> <strong>
-                  Financoop líder en la atención a pensionados desde hace más de diez años, quieremos invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>-->
+                 <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
                    
-                   <h5>FINANCOOP tiene un Crédito orientado para pensionados del sistema antiguo de previsión social IPS y AFP.</h5>
-                    <br>
+                   <h4>Refinancia tu crédito con Financoop y llévese un monto a favor para lo que necesite. Para mayor información</h4>
+                   <!-- <br>
                     <h5>Ventajas del crédito</h5>
                     <h6>-> Son de libre disposición y sin AVAL.<br>
                     -> Cuotas: Hasta 60 meses de plazo.<br>
@@ -99,7 +96,7 @@ $name = $_GET['NOMBRE'];
                     -> Atendemos socios hasta los 93 años 11 meses.<br>
                     -> Cobertura de Seguro de Desgravamen.<br>
                     -> Abono directo en cuenta del socio o retiro en BancoEstado.<br>
-                    -> Evaluación inmediata.</h6>
+                    -> Evaluación inmediata.</h6>-->
 
             
             </div> 
@@ -115,9 +112,7 @@ $name = $_GET['NOMBRE'];
 
                 <button onclick='window.location.href="tel:+56963101244" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
-               <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3">  DESEAS QUE TE CONTACTEMOS </button>
-
-                
+             <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3">  DESEAS QUE TE CONTACTEMOS </button>
 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56963101244&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
