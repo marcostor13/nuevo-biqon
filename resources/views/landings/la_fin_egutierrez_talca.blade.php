@@ -113,7 +113,7 @@ $enddate=strtotime("+5 days", $startdate);
             <button onclick='window.location.href="tel:+56961228369" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
            <!-- <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3">  DESEAS QUE TE CONTACTEMOS </button>-->
-            <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-danger text-white col-12 mt-4">DESEAS QUE TE CONTACTEMOS</button>
+            <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-warning text-white col-12 mt-4">DESEAS QUE TE CONTACTEMOS</button>
                 
 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
@@ -254,7 +254,7 @@ $enddate=strtotime("+5 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont1').addClass('hide');
+                     $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
