@@ -6,11 +6,11 @@
 
 <?php 
     $date = date('d/m/Y');
-    $newDate = date('d/m/Y',strtotime($date."- 7 days")); 
+    $newDate = date('d/m/Y',strtotime($date."- 7 days"));  
 ?>
         
     
-    <div id="dashboard-content" class="bg-gainsboro ">
+    <div id="dashboard-content" class="bg-gainsboro">
 
         <div class="header mt-5 rounded bg-color2 p-4  d-flex align-content-center justify-content-between col-12">
             <h2 class="text-black ">Panel de control landings</h2>
