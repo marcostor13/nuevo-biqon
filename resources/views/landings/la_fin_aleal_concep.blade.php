@@ -212,26 +212,33 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
-                   
+                    'Mombre': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
+                    'Phone': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                     'Sucursal': getUrlParameter('data1'),
+                     'Campaña': getUrlParameter('data2'),
+                     'Ejecutivo': getUrlParameter('data3'),
+                                     
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'fecha': date,
-                    'nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
-                    'phone': getUrlParameter('telefono'),
-                     'rut': getUrlParameter('rut'),
+                    'Fecha': date,
+                    'Mombre': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
+                    'Phone': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                     'Sucursal': getUrlParameter('data1'),
+                     'Campaña': getUrlParameter('data2'),
+                     'Ejecutivo': getUrlParameter('data3'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com","ivonne.gonzalez@financoop.cl"];
+
+            var correo = ["alexandra.leal@financoop.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
