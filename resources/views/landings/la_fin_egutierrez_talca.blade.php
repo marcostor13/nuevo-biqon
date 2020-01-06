@@ -110,10 +110,10 @@ $enddate=strtotime("+5 days", $startdate);
                 </div>-->
 
 
-                <button onclick='window.location.href="tel:+56961228369" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
+            <button onclick='window.location.href="tel:+56961228369" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
-               <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3">  DESEAS QUE TE CONTACTEMOS </button>
-
+           <!-- <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3">  DESEAS QUE TE CONTACTEMOS </button>-->
+            <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-danger text-white col-12 mt-4">DESEAS QUE TE CONTACTEMOS</button>
                 
 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
@@ -220,7 +220,7 @@ $enddate=strtotime("+5 days", $startdate);
                      'Sucursal': getUrlParameter('data1'),
                      'Campaña': getUrlParameter('data2'),
                      'Ejecutivo': getUrlParameter('data3'),
-                                     
+                    'landing': '{!! $landing->name !!}'              
                     
                 }
             }else{
