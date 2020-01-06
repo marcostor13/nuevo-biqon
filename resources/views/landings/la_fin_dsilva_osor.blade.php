@@ -65,7 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
 
            
 
-           <div id="cont1" class="p-5 ">
+           <div id="cont1" class="p-5 hide">
                 <div class="card">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
@@ -112,7 +112,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <button onclick='window.location.href="tel:+56992722644" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
-             <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-warning text-white col-12 mt-4">DESEAS QUE TE CONTACTEMOS</button>
+             <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">DESEAS QUE TE CONTACTEMOS</button>
 
                 
 
