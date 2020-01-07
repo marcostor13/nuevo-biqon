@@ -10,7 +10,7 @@ $enddate=strtotime("+5 days", $startdate);
 //$name = $_GET['NOMBRE'];
 //echo "El identificador de este cliente es: $identificador";
 
-//copia
+//IQUIQUE
 ?>
 <style>
 .opaco{
@@ -98,7 +98,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <button onclick='window.location.href="tel:+56964954428" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">DESEAS QUE TE CONTACTEMOS</button>
+               <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3">  DESEAS QUE TE CONTACTEMOS </button>
 
                 
 
@@ -110,7 +110,6 @@ $enddate=strtotime("+5 days", $startdate);
                     <a onclick="eventosLanding('Correo');" href="mailto: david.hormazabal@financoop.cl?subject=Solicito%20Informacion"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                </div>  
-              
             
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
