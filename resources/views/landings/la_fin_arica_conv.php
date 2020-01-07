@@ -10,7 +10,7 @@ $enddate=strtotime("+5 days", $startdate);
 //$name = $_GET['NOMBRE'];
 //echo "El identificador de este cliente es: $identificador";
 
-//ARICA
+//IQUIQUE
 ?>
 <style>
 .opaco{
@@ -89,13 +89,11 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                  <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
                    
-                    <h4>Aprovecha nuestro convenio y solicita tu crédito pre aprobado con Financoop</h4>
-
+                <h4> Aprovecha nuestro convenio y solicita tu crédito pre aprobado con Financoop </h4>
             
             </div> 
 
             </div> 
-
 
 
                 <button onclick='window.location.href="tel:+56988513139" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
