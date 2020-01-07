@@ -65,7 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
 
            
 
-           <div id="cont1" class="p-5 hide">
+           <div id="cont1" class="p-5 ">
                 <div class="card">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
