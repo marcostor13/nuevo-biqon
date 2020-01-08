@@ -97,7 +97,7 @@ $enddate=strtotime("+15 days", $startdate);
             <div id="cont1" class="p-5 ">
               <div class="card">
                         <div class="card-body">
-                        <h3 class="text-grey text-center">Para Renovar tu auto <br> Agenda tu Visita  </h3>
+                        <h3 class="text-grey text-center">Para Renovar tu auto <br> Agenda tu Visita   <br> Y un ejecutivo te contactará</h3>
                     
                         
                     <div>
@@ -271,7 +271,7 @@ $enddate=strtotime("+15 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su visita fue agendada');
+                    $('#message').text('Gracias, Su visita fue agendada.  Nos pondremos en contacto con usted en los próximos días');
                      eventosLanding('Agendo Visita');
                 }
             })
