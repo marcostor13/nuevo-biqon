@@ -104,7 +104,7 @@ $enddate=strtotime("+15 days", $startdate);
                     	<label>Fecha:</label>
     					<!--<input type="date" id="date1" onclick="" class="mt-4 form-control">
     					<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
-    					 <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="2019-12-31"/>
+    					 <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                         
                     </div>
                    
@@ -227,9 +227,11 @@ $enddate=strtotime("+15 days", $startdate);
                 data = {
                     'mensaje': msg,
                     'Nombre': getUrlParameter('nombre'),
-                   // 'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                    'Marca': getUrlParameter('data1'),
+                    'Periodo': getUrlParameter('data2'),
+                    'landing': '{!! $landing->name !!}'
                    
                     
                 }
@@ -237,20 +239,21 @@ $enddate=strtotime("+15 days", $startdate);
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': getUrlParameter('nombre'),
-                    //'monto': getUrlParameter('monto'),
-                    'rut': getUrlParameter('rut'),
-                    'phone': getUrlParameter('telefono'),
+                    'Nombre': getUrlParameter('nombre'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Marca': getUrlParameter('data1'),
+                    'Marca': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-              var correo = ["jesus.binteraction@gmail.com", "carla.torres@amicar.cl"];
+              var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                // 'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                //'email': "carla.torres@amicar.cl"
             }
             $.ajaxSetup({
                 headers: {
