@@ -79,8 +79,7 @@ $enddate=strtotime("+15 days", $startdate);
     }
    
     /* mostrar la fecha seleccionada al estar en hover */
-    input[type="date"]:hover::-webkit-datetime-edit {
-        display: block;
+   .input-min-width-95p {min-width:95%;}
     }
 
 
@@ -104,7 +103,7 @@ $enddate=strtotime("+15 days", $startdate);
                     	<label>Fecha:</label>
     					<!--<input type="date" id="date1" onclick="" class="mt-4 form-control">
     					<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
-    					  <input id="date1"  type="date" class="btn-date text-black" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+    					  <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                         
                     </div>
                    
