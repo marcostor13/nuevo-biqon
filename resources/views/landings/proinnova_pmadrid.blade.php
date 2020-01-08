@@ -74,7 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black">
-                  Le Informamos que su deuda de: <strong> ISAPRE NUEVA MAS VIDA S.A. </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones de cobranza, le ofrecemos las siguientes opciones:
+                  Le informamos que su deuda con: <strong> Clínica Oftalmológica Luis Pasteur </strong> se encuentra aun pendiente de pago a la fecha, <br> por lo que con objeto de no proseguir con las acciones de cobranza, <br> le ofrecemos las siguientes opciones:
                 </p>
 
                 
