@@ -103,7 +103,7 @@ $enddate=strtotime("+15 days", $startdate);
                     <div>
                     	<label>Fecha:</label>
                          <br>
-    					 <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+    					 <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                         
                     </div>
                    
