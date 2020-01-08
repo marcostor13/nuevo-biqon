@@ -80,7 +80,7 @@ $enddate=strtotime("+15 days", $startdate);
    
     /* mostrar la fecha seleccionada al estar en hover */
    .input-min-width-95p {min-width:95%;}
-   .input-min-width-95p {min-height:95%;}
+   .input-min-width-95p {min-height:5%;}
     }
 
 
