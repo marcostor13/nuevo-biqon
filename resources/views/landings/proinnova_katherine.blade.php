@@ -74,7 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black">
-                  Le Informamos que su deuda de: <strong> ISAPRE NUEVA MAS VIDA S.A. </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones de cobranza, le ofrecemos las siguientes opciones:
+                  Le Informamos que su deuda de: <strong>  ISAPRE CONSALUD, S.A </strong> se encuentra en cobranza <span id="data1"></span>, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones de cobranza, le ofrecemos las siguientes opciones:
                 </p>
 
                 
@@ -149,6 +149,7 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
+                    $('#data1').text(getUrlParameter('data1'));
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -196,7 +197,7 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Rut Empresa': getUrlParameter('data1'),
+                    'Tipo Deuda': getUrlParameter('data1'),
                    
                     
                 }
@@ -208,7 +209,7 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
                      'rut': getUrlParameter('rut'),
-                     'Rut Empresa': getUrlParameter('data1'),
+                     'Tipo Deuda': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
