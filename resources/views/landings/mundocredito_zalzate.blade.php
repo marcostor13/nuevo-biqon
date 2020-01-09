@@ -39,7 +39,7 @@ $enddate=strtotime("+7 days", $startdate);
                     </div>
 
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
+                <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                 <p class="text-black">
                    Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz.
@@ -48,7 +48,7 @@ $enddate=strtotime("+7 days", $startdate);
                 </p>
                 <div class="date btn bg-primary text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="2019-12-20"/>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="2020-01-30"/>
                 </div>
                 <button onclick='window.location.href="http://www.mundocredito.cl/pagos.html"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
 
