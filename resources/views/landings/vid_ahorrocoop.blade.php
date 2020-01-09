@@ -40,7 +40,7 @@
                    
                     <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56974552290"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:jrojas@ahorroccop.cl?subject=Solicito%20Informacion"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:jrojas@ahorrocoop.cl?subject=Solicito%20Informacion"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
         </div>
 
@@ -154,7 +154,7 @@
                 } 
             }
 
-            var correo = ["jrojas@ahorroccop.cl"];
+            var correo = ["jrojas@ahorrocoop.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
