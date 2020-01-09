@@ -6,6 +6,8 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
+
+$data1 = $_GET['DATA1'];
 ?>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
@@ -74,7 +76,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black">
-                  Le Informamos que su deuda de: <strong> ISAPRE NUEVA MAS VIDA S.A. </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones de cobranza, le ofrecemos las siguientes opciones:
+                  Le Informamos que su deuda de: <strong>  ISAPRE CONSALUD, S.A </strong> se encuentra en cobranza <span id="data1"></span>, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones de cobranza, le ofrecemos las siguientes opciones:
                 </p>
 
                 
@@ -196,7 +198,8 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Rut Empresa': getUrlParameter('data1'),
+                    //'Rut Empresa': getUrlParameter('data1'),
+                    'landing': '{!! $landing->name !!}'
                    
                     
                 }
@@ -208,16 +211,16 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
                      'rut': getUrlParameter('rut'),
-                     'Rut Empresa': getUrlParameter('data1'),
+                    // 'Rut Empresa': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["cristian.alvarez@proinnova.cl"];  
+            var correo = ["jesus.binteraction@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                //'email': 'marcostor13@gmail.com', cristian.alvarez@proinnova.cl
             }
             $.ajaxSetup({
                 headers: {
