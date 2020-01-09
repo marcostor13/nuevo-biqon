@@ -148,9 +148,11 @@ $data1 = $_GET['DATA1'];
                 e = JSON.parse(e); 
 
                 if(e.code == 200){
+
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
+                       $('#data1').getUrlParameter('data1');
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
