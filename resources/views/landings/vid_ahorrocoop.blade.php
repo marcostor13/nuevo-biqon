@@ -30,7 +30,7 @@
                 </div> 
                 </div>
 
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-danger text-black col-10 mt-3"> <h3> <strong>SI</strong> </h3> </button>
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-danger align-items-center text-black col-10 mt-3"> <h3> <strong>SI</strong> </h3> </button>
             </div>
             
 <div class="d-flex justify-content-around align-content-center mt-4"> 
