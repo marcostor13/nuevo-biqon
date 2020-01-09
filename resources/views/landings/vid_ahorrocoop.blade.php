@@ -18,7 +18,7 @@
             <img class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Ahorrocoop">
 
             <div id="cont1">
-                <div class="videoWrapper">        
+                <div class="videoWrapper justify-content-center ">        
                     <iframe width="350" height="300" src="{{asset('/files/Ahorrocoop.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
