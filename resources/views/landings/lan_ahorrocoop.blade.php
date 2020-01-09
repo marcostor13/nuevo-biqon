@@ -61,11 +61,11 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Ahorrocoop">
+            <img  class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Ahorrocoop">
 
            
 
-           <div id="cont1" class="p-5 ">
+           <div id="cont1" class="p-3 ">
                 <div class="card">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
@@ -87,7 +87,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                  <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
                    
-                   <h4>Refinancia tu crédito con Ahorrocoop y llévese un monto a favor para lo que necesite. Para mayor información</h4>
+                   <h4>Solicita tu crédito con AHORROCOOP y llévese un monto a favor para lo que necesite. Para mayor información</h4>
                    <!-- <br>
                     <h5>Ventajas del crédito</h5>
                     <h6>-> Son de libre disposición y sin AVAL.<br>
