@@ -17,7 +17,7 @@
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Ahorrocoop">
 
-            <div id="cont1">
+            <div id="cont1" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
                 <div class="videoWrapper justify-content-center ">        
                     <iframe width="350" height="300" src="{{asset('/files/Ahorrocoop.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
