@@ -23,10 +23,10 @@
                 <div class="videoWrapper justify-content-center ">        
                     <iframe width="350" height="300" src="{{asset('/files/Ahorrocoop.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-
+<br>
                 <div class="card">     
                 <div class="card-body">
-                <h3 class="text-black text-center col-8"> <strong> ¿Desea que le contactemos? </strong> </h3> 
+                <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> 
                 </div> 
                 </div>
 
