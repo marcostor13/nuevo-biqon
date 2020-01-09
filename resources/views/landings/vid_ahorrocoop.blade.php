@@ -17,7 +17,7 @@
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Ahorrocoop">
 
-            <div id="cont1" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
+            <div id="cont1" class="content container-fluid d-flex flex-column align-items-center justify-content-center">
                 <br>
                 <br>
                 <div class="videoWrapper justify-content-center ">        
@@ -30,7 +30,7 @@
                 </div> 
                 </div>
 
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-danger text-white col-10 mt-3"> <h3> <strong>SI</strong> </h3> </button>
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-10 mt-3"> <h3> <strong>SI</strong> </h3> </button>
             </div>
             
 <div class="d-flex justify-content-around align-content-center mt-4"> 
