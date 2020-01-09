@@ -82,7 +82,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
 
-             <div id="cont2" class="p-3 hide">
+             <div id="cont2" class="p-0 hide">
                 <div class="card">     
                 <div class="card-body">
                  <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
