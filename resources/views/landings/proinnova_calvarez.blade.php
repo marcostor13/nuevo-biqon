@@ -200,7 +200,7 @@ $data1 = $_GET['DATA1'];
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    //'Rut Empresa': getUrlParameter('data1'),
+                    'Tipo Deuda': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -213,7 +213,7 @@ $data1 = $_GET['DATA1'];
                     //'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
                      'rut': getUrlParameter('rut'),
-                    // 'Rut Empresa': getUrlParameter('data1'),
+                    'Tipo Deuda': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
