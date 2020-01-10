@@ -172,7 +172,7 @@ $enddate=strtotime("+5 days", $startdate);
     </div>
 
     <!-- Controls -->
-   <!--  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
         <span class="sr-only">Previous</span>
     </a>
@@ -180,7 +180,7 @@ $enddate=strtotime("+5 days", $startdate);
         <span class="glyphicon glyphicon-chevron-right"></span>
         <span class="sr-only">Next</span>
     </a>
-</div>-->
+</div>
 <br>
 <br>
             <!--<div class="card">
