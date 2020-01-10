@@ -93,19 +93,25 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="card-body ">
             <h3 class="text-danger text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
-            Parque Inflables Y  <br> Bungee Jump 4 en 1<br> 
-            100% Seguros 
+            <!--Parque Inflables Y  <br> Bungee Jump 4 en 1<br> 
+            100% Seguros--> 
+            Parque Inflables
+             <br> Bungee Jump
+             <br> Carrito de Pop Corn 
+             <br> Parque Inflables
+             <br> Y Mucho Más
             <!--<strong> Arriendo en La Serena y Coquimbo </strong>--> </h3> 
             <h3 class="text-black text-center">
-             <strong> <br> ¡¡10 Min Extras En Nuestro Parque!!  </strong> 
-              <strong> <br>¡¡En cualquier Inflable!!  </strong> 
+             <strong> <br> ¡2x1!  </strong> 
+              <strong> <br>¡En cualquier Inflable o Bungee!  </strong> 
+              Horario :<strong> ¡12:00 a 16:00!  </strong>
            </h3> 
              <!--  <hr class="hr-light">
             <h4 class="text-warning text-center">
                   Parque Inflables
              <br> Bungee Jump
              <br> Carrito de Pop Corn 
-             <br> Tobogán Inflable
+             <br> Parque Inflables
              <br> Y Mucho Más
               </h4>  
             <h4 class="text-danger text-center">
