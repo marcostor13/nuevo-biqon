@@ -119,7 +119,7 @@ $enddate=strtotime("+5 days", $startdate);
 
            <div id="cont1" class="text-danger text-center">
                 <div class="videoWrapper">        
-                    <iframe width="400" height="320" src="{{asset('/files/rayoinflables1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="400" height="320" src="{{asset('/files/rayo24.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
            <!--  <div id="myCarousel" class="carousel slide" data-ride="carousel">-->
     <!-- Indicators -->
