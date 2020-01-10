@@ -95,7 +95,7 @@ $enddate=strtotime("+5 days", $startdate);
             <!--Arriendo de Juegos para Cumpleaños <br> -->
             <!--Parque Inflables Y  <br> Bungee Jump 4 en 1<br> 
             100% Seguros--> 
-            Pueblito Peñuelas te invita a Disfrutar de:
+            <strong> Pueblito Peñuelas </strong> te invita a Disfrutar de:
              <br> Camas Elásticas!
              <br> Carrito de Palomitas!
              <br> Parque  de Inflables!
