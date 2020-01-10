@@ -95,14 +95,14 @@ $enddate=strtotime("+5 days", $startdate);
             <!--Arriendo de Juegos para Cumpleaños <br> -->
             <!--Parque Inflables Y  <br> Bungee Jump 4 en 1<br> 
             100% Seguros--> 
-            Parque Inflables
-             <br> Bungee Jump
-             <br> Carrito de Pop Corn 
-             <br> Parque Inflables
-             <br> Y Mucho Más
+            Pueblito Peñuelas te invita a Disfrutar de:
+             <br> Camas Elásticas!
+             <br> Carrito de Palomitas!
+             <br> Parque  de Inflables!
+             <br> Y Mucho Más!
             <!--<strong> Arriendo en La Serena y Coquimbo </strong>--> </h3> 
             <h3 class="text-black text-center">
-             <strong> <br> ¡2x1!  </strong> 
+             <strong> ¡2x1!  </strong> 
               <strong> <br>¡En cualquier Inflable o Bungee!  </strong> 
               Horario :<strong> ¡12:00 a 16:00!  </strong>
            </h3> 
