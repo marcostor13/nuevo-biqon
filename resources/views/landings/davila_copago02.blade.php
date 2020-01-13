@@ -220,8 +220,8 @@
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                     'Id_Admision': getUrlParameter('data1'),
-                    'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data3'),
+                    //'Prevision': getUrlParameter('data2'),
+                    'Estado': getUrlParameter('data2'),
                     //'Ley': getUrlParameter('data4')
                     'Landing': '{!! $landing->name !!}'
                     
@@ -235,9 +235,9 @@
                     'Rut': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                     'Id_Admision': getUrlParameter('data1'),
-                    'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data3'),
-                    'Ley': getUrlParameter('data4'),
+                    //'Prevision': getUrlParameter('data2'),
+                    'Estado': getUrlParameter('data2'),
+                    //'Ley': getUrlParameter('data4'),
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
