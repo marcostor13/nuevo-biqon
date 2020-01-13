@@ -150,7 +150,7 @@ $enddate=strtotime("+3 days", $startdate);
             <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white"></a>
                    
             <i class="fas fa-question text-white"></i> Reportar Abusos</a></li>
-            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-white"></a>
+            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-white"> Centro de ayuda </a>
                     <br>
             <i class="fas fa-exclamation-circle text-white"></i> Actualiza Datos</a></li>
             <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white"></a>
