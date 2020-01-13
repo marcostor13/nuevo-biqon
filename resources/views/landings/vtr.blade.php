@@ -66,7 +66,7 @@ $enddate=strtotime("+3 days", $startdate);
 </style>
 
 <div class="oscurecer p-3">
-<div class="content container-fluid d-flex flex-column justify-content-start">
+<div class="content container-fluid d-flex flex-column  col-12 justify-content-start">
             <img style="max-width:55px; max-height:55px " class="img-fluid col-6 col-md-3" src="{{$landing->logo}}" alt="VTR">  
             <a class="col-2" onclick="eventosLanding('Facebook');" href=""><img width="10" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
@@ -75,9 +75,9 @@ $enddate=strtotime("+3 days", $startdate);
             <a class="col-2" onclick="eventosLanding('Youtube');" href=""><img width="10" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
 
         </div></div>
-    <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">
+<div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">
 
-        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+    <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <!--<img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">-->
 
              <div id="cont1" class="p-5 ">
@@ -107,7 +107,7 @@ $enddate=strtotime("+3 days", $startdate);
             <br><br>
                 <p class="text-black">
                     Tu boleta asociada al servicio <strong> <span id="data2"></span></strong>, se encuentra <strong> <span id="data3"> </span> </strong>, por el monto de:
-                         <strong> <b>$ </b><b id="pay"></b> </strong>
+                         <strong> $ <span id="pay"></span> </strong>
                 </p>
                 <p>Recuerda que pagar tu boleta al día evita la suspensión de tus servicios.</p>
 
@@ -137,8 +137,6 @@ $enddate=strtotime("+3 days", $startdate);
                 </div>
 
         </div>
-                
-           
                 <div id="cont3" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
                         <div class="card-body">
@@ -146,8 +144,8 @@ $enddate=strtotime("+3 days", $startdate);
                         </div>
                     </div>
                 </div>
-
-   <div id="cont4" class="p-2 pl-5 pr-5 ">
+    <div class="oscurecer p-3">
+         <div id="cont4" class="p-2 pl-5 pr-5 ">
             <i class="fas fa-question text-danger"></i> Centro de ayuda</a></li>
             <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white"></a>
                    
