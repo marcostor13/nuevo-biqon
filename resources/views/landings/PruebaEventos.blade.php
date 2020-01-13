@@ -45,7 +45,7 @@ $enddate=strtotime("+7 days", $startdate);
             <img class="img-fluid col-10 col-md-3 mt-2" src="{{$landing->logo}}" alt="mundocredito">
 
             <div id="cont1" class="p-5 ">
-                <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"; >PAGAR</button> 
+                <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>PAGAR</button> 
 
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
