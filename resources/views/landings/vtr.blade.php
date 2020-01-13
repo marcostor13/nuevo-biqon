@@ -148,16 +148,16 @@ $enddate=strtotime("+3 days", $startdate);
                 </div>
 
    <div id="cont4" class="p-2 pl-5 pr-5 ">
-            <i class="fas fa-user text-danger"></i> Sucursal Virtual</a></li>
+            <i class="fas fa-question text-danger"></i> Centro de ayuda</a></li>
             <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white"></a>
                    
-            <i class="fas fa-question text-danger"></i> Centro de ayuda</a></li>
+            <i class="fas fa-question text-danger"></i> Reportar Abusos</a></li>
             <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-white"></a>
                     <br>
-            <i class="fas fa-exclamation-circle text-danger"></i> Reportar Abusos</a></li>
+            <i class="fas fa-exclamation-circle text-danger"></i> Actualiza Datos</a></li>
             <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white"></a>
             
-            <i class="fas fa-user text-danger"></i> Actualiza Datos</a></li>
+            <i class="fas fa-user text-danger"></i> Privacidad</a></li>
             <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-white"></a>
             <br>
             <img style="max-width:55px; max-height:55px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
