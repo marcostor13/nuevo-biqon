@@ -66,15 +66,25 @@ $enddate=strtotime("+3 days", $startdate);
 </style>
 
 <div class="oscurecer p-3">
-<div class="content container-fluid d-flex flex-column  col-12 justify-content-start">
-            <img style="max-width:55px; max-height:55px " class="img-fluid col-6 col-md-3" src="{{$landing->logo}}" alt="VTR">  
-            <a class="col-2" onclick="eventosLanding('Facebook');" href=""><img width="10" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+ <div class="oscurecer p-3">
+         <div id="cont4" class="p-2 pl-5 pr-5 "> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
+
+            <i class="fas fa-question text-danger"></i>
+            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white">Centro de ayuda<</a>
                    
-            <a class="col-2" onclick="eventosLanding('Twitter');" href=""><img width="10" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+            <i class="fas fa-question text-danger"></i>
+            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-white"> Reportar Abusos</a>
+                    <br>
+            <i class="fas fa-exclamation-circle text-danger"></i> 
+            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white"> Actualiza Datos</a>
+            
+            <i class="fas fa-user text-danger"></i>
+            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-white">  Privacidad</a>
+            <br>
+           
+        </div>
 
-            <a class="col-2" onclick="eventosLanding('Youtube');" href=""><img width="10" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
-
-        </div></div>
+        </div> </div>
 <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">
 
     <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
@@ -146,22 +156,24 @@ $enddate=strtotime("+3 days", $startdate);
                 </div>
     <div class="oscurecer p-3">
          <div id="cont4" class="p-2 pl-5 pr-5 ">
-            <i class="fas fa-question text-white"></i> Centro de ayuda</a></li>
-            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white"></a>
+            <i class="fas fa-question text-danger"></i>
+            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white">Centro de ayuda</a>
                    
-            <i class="fas fa-question text-white"></i> Reportar Abusos</a></li>
-            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-white"> Centro de ayuda </a>
+            <i class="fas fa-question text-danger"></i>
+            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-white"> Reportar Abusos</a>
                     <br>
-            <i class="fas fa-exclamation-circle text-white"></i> Actualiza Datos</a></li>
-            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white"></a>
+            <i class="fas fa-exclamation-circle text-danger"></i> 
+            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white"> Actualiza Datos</a>
             
-            <i class="fas fa-user text-white"></i> Privacidad</a></li>
-            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-white"></a>
+            <i class="fas fa-user text-danger"></i>
+            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-white">  Privacidad</a>
             <br>
-            <img style="max-width:55px; max-height:55px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
+            <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
         </div>
 
         </div>
+
+
     </div>
  </div>
 
