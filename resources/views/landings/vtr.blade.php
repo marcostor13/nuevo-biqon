@@ -64,23 +64,16 @@ $enddate=strtotime("+3 days", $startdate);
 
     
 </style>
-
+<!-- HEAD -->
 <div class="oscurecer p-3">
  <div class="oscurecer p-3">
-         <div id="cont4" class="p-2 pl-5 pr-5 "> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
+         <div id="head" class="p-2 pl-2 pr-2 "> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
 
-            <i class="fas fa-question text-danger"></i>
-            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white">Centro de ayuda<</a>
+             <a class="ml-4" onclick="eventosLanding('Facebook');" href="www.facebook.com"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
-            <i class="fas fa-question text-danger"></i>
-            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-white"> Reportar Abusos</a>
+             <a class="ml-4" onclick="eventosLanding('Twitter');" href="www.twitter.com"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                     <br>
-            <i class="fas fa-exclamation-circle text-danger"></i> 
-            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white"> Actualiza Datos</a>
-            
-            <i class="fas fa-user text-danger"></i>
-            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-white">  Privacidad</a>
-            <br>
+             <a class="ml-4" onclick="eventosLanding('Youtube');" href="www.youtube.com"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
            
         </div>
 
@@ -89,7 +82,7 @@ $enddate=strtotime("+3 days", $startdate);
 
     <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <!--<img style="max-width:120px; max-height:120px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VTR">-->
-
+<!-- MENU 1: INGRESAR -->
              <div id="cont1" class="p-5 ">
                 <br><br><br>
                 <h4 class="text-black text-center"><strong><span id="name"></span> </strong>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
@@ -97,19 +90,22 @@ $enddate=strtotime("+3 days", $startdate);
                 
                 <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> INGRESAR </button>
 
-                <button onclick="eve(); return false;" class="btn bg-danger text-white col-12 mt-4"> Contacto Equivocado </button>
+                <button onclick="eve2(); return false;" class="btn bg-danger text-white col-12 mt-4"> Contacto Equivocado </button>
 
-                <button onclick="eve1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Salir </button>
+                <button onclick="eve3(); return false;" class="btn bg-danger text-white col-12 mt-4"> Salir </button>
             </div>
-            <div id="cont5" class="p-2 pl-3 pr-3 hide">
+            <!-- ERROR 1 -->
+            <div id="error" class="p-2 pl-3 pr-3 hide">
                     <div class="card">     
                         <div class="card-body">
-                            <h5 id="error"class="text-black text-center mt-5"></h5>
+                            <h5 id="error"class="text-black text-center mt-5">
+                                
+                            </h5>
                          </div>
                     </div>
             </div>
 
-
+<!-- MENU 2: MENU -->
             <div id="cont2" class="p-5 hide">
                 <div class="text-white col-md-12">
                 <h6 class="text-white text-center"> <strong> <span id="name"></span></strong></h6>
@@ -121,41 +117,106 @@ $enddate=strtotime("+3 days", $startdate);
                 </p>
                 <p>Recuerda que pagar tu boleta al día evita la suspensión de tus servicios.</p>
 
-                <button onclick='url(); eventosLanding("PagoExpress"); ' class="btn bg-danger text-white col-12 mt-4"> Pagar</button>
+                <button onclick='url1(); eventosLanding("PagoExpress"); ' class="btn bg-danger text-white col-12 mt-4"> Pagar</button>
 
-                <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span> Compromiso de pago </span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
+                <button onclick='url2(); eventosLanding("Compromiso de Pago"); ' class="btn bg-danger text-white col-12 mt-4"> Compromiso de Pago</button>
 
-                <button onclick='url9(); eventosLanding("LLamar"); ' class="btn bg-danger text-white col-12 mt-4"> Quiero que me llamen </button>
+                <button onclick='url3(); eventosLanding("LLamar"); ' class="btn bg-danger text-white col-12 mt-4"> Quiero que me llamen </button>
 
-                <button onclick='url10(); eventosLanding("Informaciones"); ' class="btn bg-danger text-white col-12 mt-4"> Tarifas |Sucursales | Informaciones</button>
+                <button onclick='url4(); eventosLanding("Informaciones"); ' class="btn bg-danger text-white col-12 mt-4"> Tarifas |Sucursales | Informaciones</button>
 
-                <button onclick='url11(); eventosLanding("Ultima Boleta"); ' class="btn bg-danger text-white col-12 mt-4"> Ver última boleta</button>
+                <button onclick='url5(); eventosLanding("Ultima Boleta"); ' class="btn bg-danger text-white col-12 mt-4"> Ver última boleta</button>
                 
 
-                 <button onclick='url2(); eventosLanding("Problemas"); ' class="btn bg-danger text-white col-12 mt-4"> Tengo un problema</button>
+                 <button onclick='ur6(); eventosLanding("Problemas"); ' class="btn bg-danger text-white col-12 mt-4"> Tengo un problema</button>
                 
-              
-
-                    <div class="d-flex justify-content-around align-content-center mt-4"> 
+                <div class="d-flex justify-content-around align-content-center mt-4"> 
                     
-                     <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56933914095"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56967664209"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:ivonne.gonzalez@financoop.cl"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:cortezjesus01@gmail.com"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
 
         </div>
-                <div id="cont3" class="p-2 pl-5 pr-5 hide">
+
+        <!-- FECHA: PAGO -->
+        <div id="fecha" class="p-5 hide">
+                <div class="text-white col-md-12">
+            <h3 class="text-grey text-center">Para Renovar tu auto <br> Agenda tu Visita   <br> Y un ejecutivo te contactará</h3>
+                    
+                        
+            <div>
+                <label>Fecha:</label>
+                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+             </div> 
+                <button onclick="sendMail(); return false;" class="btn bg-warning text-white col-12 mt-4">Visitar</button>
+            </div>
+        </div>
+
+
+        <!-- MENU 2: INFORMACIONES -->
+            <div id="cont3" class="p-5 hide">
+                <div class="text-white col-md-12">
+                
+                <button onclick='url7(); eventosLanding("Tarifas"); ' class="btn bg-danger text-white col-12 mt-4"> Tarifas</button>
+
+                <button onclick='url8(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-white col-12 mt-4"> Lugares de Pago</button>
+
+                <button onclick='url9(); eventosLanding("Sucursales"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursales</button>
+
+                <button onclick='url10(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursal Virtual</button>
+
+        </div>
+
+
+         <!-- MENU 3: RECLAMO -->
+            <div id="cont4" class="p-5 hide">
+                <div class="text-white col-md-12">
+                
+                <button onclick='url11(); eventosLanding("Tarifas"); ' class="btn bg-danger text-white col-12 mt-4"> SubTel </button>
+
+                <button onclick='url12(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-white col-12 mt-4"> Lugares de Pago</button>
+
+                <button onclick='url13(); eventosLanding("Sucursales"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursales</button>
+
+                <button onclick='urll4(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursal Virtual</button>
+
+                <button onclick='url15(); eventosLanding("Tarifas"); ' class="btn bg-danger text-white col-12 mt-4"> Tarifas</button>
+
+                <button onclick='url16(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-white col-12 mt-4"> Lugares de Pago</button>
+
+                <button onclick='url17(); eventosLanding("Sucursales"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursales</button>
+
+                <button onclick='url18(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursal Virtual</button>
+
+                <button onclick='url19(); eventosLanding("Sucursales"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursales</button>
+
+                <button onclick='url20(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursal Virtual</button>
+
+        </div>
+
+
+<!-- MENSAJE SUCCESS -->
+                <div id="success" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
                         <div class="card-body">
                             <h5 id="message"class="text-grey text-center mt-4 hide"></h5>
                         </div>
                     </div>
                 </div>
+
+                <!-- Contacto Equivocado -->
+                <div id="success" class="p-2 pl-5 pr-5 hide">
+                    <div class="card">     
+                        <div class="card-body">
+                            <h5 id="message"class="text-grey text-center mt-4 hide"></h5>
+                        </div>
+                    </div>
+                </div>
+
+   <!-- PIE DE PAGINA -->             
     <div class="oscurecer p-3">
-         <div id="cont4" class="p-2 pl-2 pr-2 ">
+         <div id="pie" class="p-2 pl-2 pr-2 ">
             <i class="fas fa-question text-danger"></i>
             <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white">Centro de ayuda</a>
                    
@@ -185,7 +246,7 @@ $enddate=strtotime("+3 days", $startdate);
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(getAllUrlParameter())
+                'json_datos': JSON.stringify(getAllurlParameter())
             });
         }); 
 
@@ -193,7 +254,7 @@ $enddate=strtotime("+3 days", $startdate);
     
             let dataSend = {
                 'fourRut': $('#rut').val(),
-                'phone': getUrlParameter('telefono'),
+                'phone': geturlParameter('telefono'),
                 'landing_id': {!! $landing->id !!},
             } 
             
@@ -232,7 +293,7 @@ $enddate=strtotime("+3 days", $startdate);
 
         let eventosLanding = function(name){
             
-            let json_datos = getAllUrlParameter(); 
+            let json_datos = getAllurlParameter(); 
 
             //json_datos.nombre = $('#name').text();
             //json_datos.monto = $('#pay').text();
@@ -255,9 +316,9 @@ $enddate=strtotime("+3 days", $startdate);
                 data = {
                     'mensaje': msg,
                     'Nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
+                    //'monto': geturlParameter('monto'),
+                    'RUT': geturlParameter('rut'),
+                    'Telefono': geturlParameter('telefono'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -267,9 +328,9 @@ $enddate=strtotime("+3 days", $startdate);
                 data = {
                     'fecha': date,
                     'Nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
-                     'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
+                    //'monto': geturlParameter('monto'),
+                     'RUT': geturlParameter('rut'),
+                    'Telefono': geturlParameter('telefono'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
@@ -332,14 +393,14 @@ $enddate=strtotime("+3 days", $startdate);
 
         }
 
-        let getUrlParameter = function(sParam) {
-            var sPageURL = window.location.search.substring(1),
-            sURLVariables = sPageURL.split('&'),
+        let geturlParameter = function(sParam) {
+            var sPageurl = window.location.search.substring(1),
+            surlVariables = sPageurl.split('&'),
             sParameterName,
             i;
 
-            for (i = 0; i < sURLVariables.length; i++) {
-            sParameterName = sURLVariables[i].split('=');
+            for (i = 0; i < surlVariables.length; i++) {
+            sParameterName = surlVariables[i].split('=');
 
             if (sParameterName[0].toLowerCase() === sParam.toLowerCase()) {
                 return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
@@ -347,16 +408,16 @@ $enddate=strtotime("+3 days", $startdate);
             }
         };
 
-        let getAllUrlParameter = function() {
-            var sPageURL = window.location.search.substring(1),
-            sURLVariables = sPageURL.split('&'),
+        let getAllurlParameter = function() {
+            var sPageurl = window.location.search.substring(1),
+            surlVariables = sPageurl.split('&'),
             sParameterName,
             i;
 
             let obj = {}; 
 
-            for (i = 0; i < sURLVariables.length; i++) {
-            sParameterName = sURLVariables[i].split('=');
+            for (i = 0; i < surlVariables.length; i++) {
+            sParameterName = surlVariables[i].split('=');
 
             obj[sParameterName[0].toLowerCase()] = sParameterName[1];            
             }
@@ -367,7 +428,7 @@ $enddate=strtotime("+3 days", $startdate);
 
          function url(){
     var rut; 
-         rut= getUrlParameter('rut'); //1234  "76114143-0";
+         rut= geturlParameter('rut'); //1234  "76114143-0";
          // console.log(rut);
             swal({
              title: `Será Direccionado a la Página de Pagos`,//`el cododigo es: ${rut}`,
@@ -384,7 +445,7 @@ $enddate=strtotime("+3 days", $startdate);
 
             function url2(){
     var docid; 
-         docid= getUrlParameter('data1'); //"AFAEc%2FnhOohJncAMwniaD1w1inFcH147"; //1234  "76114143-0";
+         docid= geturlParameter('data1'); //"AFAEc%2FnhOohJncAMwniaD1w1inFcH147"; //1234  "76114143-0";
           
             swal({
              title:`Espere para Ver su Boleta Online`,// `el cododigo es: ${docid}`,
