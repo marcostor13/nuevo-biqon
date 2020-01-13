@@ -140,7 +140,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <button onclick='url24(); eventosLanding("CONTINUAR"); ' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
+                <h6 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h6>
                 </div>
                 <button onclick='url25(); eventosLanding("No quiero ingresar"); ' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
 
@@ -158,7 +158,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <button onclick='url27(); eventosLanding("CONTINUAR"); ' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
+                <h6 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h6>
                 </div>
                 <button onclick='url28(); eventosLanding("No quiero ingresar"); ' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
 
