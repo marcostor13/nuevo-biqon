@@ -9,6 +9,7 @@ $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
 
+
 <style type="text/css">
     
 .card {
