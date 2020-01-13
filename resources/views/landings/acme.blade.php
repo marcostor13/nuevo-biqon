@@ -84,19 +84,19 @@
                                <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>
 
-                               <!-- <div class="d-flex justify-content-around align-content-center mt-4">
+                               <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>
-                                </div>-->
+                                </div>
 
-                                <!--<div class="d-flex justify-content-around align-content-center mt-4">
+                                <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
                                 </div>
                                 
                                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png">
-                                </button>-->
+                                </button>
                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
                                     <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
