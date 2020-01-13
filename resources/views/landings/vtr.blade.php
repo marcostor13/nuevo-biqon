@@ -88,11 +88,11 @@ $enddate=strtotime("+3 days", $startdate);
                 <h4 class="text-black text-center"><strong><span id="name"></span> </strong>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> INGRESAR </button>
+                <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> INGRESAR </button>
 
-                <button onclick="eve2(); return false;" class="btn bg-danger text-white col-12 mt-4"> Contacto Equivocado </button>
+                <button onclick="eve2(); return false;" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
 
-                <button onclick="eve3(); return false;" class="btn bg-danger text-white col-12 mt-4"> Salir </button>
+                <button onclick="eve3(); return false;" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
             </div>
             <!-- ERROR 1 -->
             <div id="error" class="p-2 pl-3 pr-3 vvv">
@@ -107,60 +107,60 @@ $enddate=strtotime("+3 days", $startdate);
 
         <!-- FECHA: PAGO -->
         <div id="fecha" class="p-5 vvv">
-                <div class="text-white col-md-12">
+                <div class="text-black col-md-12">
             <h3 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.         
             <div>
                 <label>Fecha:</label>
                 <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
              </div> 
-                <button onclick="sendMail(); return false;" class="btn bg-warning text-white col-12 mt-4">Confirmar</button>
+                <button onclick="sendMail(); return false;" class="btn bg-warning text-black col-12 mt-4">Confirmar</button>
             </div>
         </div>
 
 <!-- MENU: CONTACTO EQUIVOCADO -->
             <div id="equiv" class="p-5 vvv">
-                <div class="text-white col-md-12">
-                <h6 class="text-white text-center"> ¿Conoces a <strong> <span id="name"></span></strong> ?</h6>
+                <div class="text-black col-md-12">
+                <h6 class="text-black text-center"> ¿Conoces a <strong> <span id="name"></span></strong> ?</h6>
                 </div>
 
-                <button onclick='url21(); eventosLanding("SI"); ' class="btn bg-danger text-white col-6 mt-4"> SI </button>
+                <button onclick='url21(); eventosLanding("SI"); ' class="btn bg-danger text-black col-6 mt-4"> SI </button>
 
-                <button onclick='url22(); eventosLanding("NO"); ' class="btn bg-danger text-white col-6 mt-4"> NO </button>
+                <button onclick='url22(); eventosLanding("NO"); ' class="btn bg-danger text-black col-6 mt-4"> NO </button>
         </div>
 
 <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
             <div id="equiv1" class="p-5 vvv">
-                <div class="text-white col-md-12">
-                <h6 class="text-white text-center"> Favor, ingresar número de teléfono</h6>
+                <div class="text-black col-md-12">
+                <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
                 </div>
                  <input id="telf" type="number" class="form-control mt-4 text-center text-black" >
 
-                <button onclick='url23(); eventosLanding("VALIDAR"); ' class="btn bg-danger text-white col-6 mt-4"> VALIDAR </button>
+                <button onclick='url23(); eventosLanding("VALIDAR"); ' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
 
-                <button onclick='url24(); eventosLanding("CONTINUAR"); ' class="btn bg-danger text-white col-6 mt-4"> CONTINUAR </button>
+                <button onclick='url24(); eventosLanding("CONTINUAR"); ' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
                 <br>
-                <div class="text-white col-md-12">
-                <h6 class="text-white text-center"> Favor, ingresar número de teléfono</h6>
+                <div class="text-black col-md-12">
+                <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
                 </div>
-                <button onclick='url25(); eventosLanding("No quiero ingresar"); ' class="btn bg-danger text-white col-6 mt-4"> No quiero ingresar </button>
+                <button onclick='url25(); eventosLanding("No quiero ingresar"); ' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
 
             </div>
 
 <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
             <div id="equiv1" class="p-5 vvv">
-                <div class="text-white col-md-12">
-                <h6 class="text-white text-center"> Favor, ingresar correo</h6>
+                <div class="text-black col-md-12">
+                <h6 class="text-black text-center"> Favor, ingresar correo</h6>
                 </div>
                  <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" >
 
-                <button onclick='url26(); eventosLanding("VALIDAR"); ' class="btn bg-danger text-white col-6 mt-4"> VALIDAR </button>
+                <button onclick='url26(); eventosLanding("VALIDAR"); ' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
 
-                <button onclick='url27(); eventosLanding("CONTINUAR"); ' class="btn bg-danger text-white col-6 mt-4"> CONTINUAR </button>
+                <button onclick='url27(); eventosLanding("CONTINUAR"); ' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
                 <br>
-                <div class="text-white col-md-12">
-                <h6 class="text-white text-center"> Favor, ingresar número de teléfono</h6>
+                <div class="text-black col-md-12">
+                <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
                 </div>
-                <button onclick='url28(); eventosLanding("No quiero ingresar"); ' class="btn bg-danger text-white col-6 mt-4"> No quiero ingresar </button>
+                <button onclick='url28(); eventosLanding("No quiero ingresar"); ' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
 
             </div>
 
@@ -168,42 +168,42 @@ $enddate=strtotime("+3 days", $startdate);
 
         <!-- MENU 2: INFORMACIONES -->
             <div id="cont3" class="p-5 vvv">
-                <div class="text-white col-md-12">
+                <div class="text-black col-md-12">
                 
-                <button onclick='url7(); eventosLanding("Tarifas"); ' class="btn bg-danger text-white col-12 mt-4"> Tarifas</button>
+                <button onclick='url7(); eventosLanding("Tarifas"); ' class="btn bg-danger text-black col-12 mt-4"> Tarifas</button>
 
-                <button onclick='url8(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-white col-12 mt-4"> Lugares de Pago</button>
+                <button onclick='url8(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-black col-12 mt-4"> Lugares de Pago</button>
 
-                <button onclick='url9(); eventosLanding("Sucursales"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursales</button>
+                <button onclick='url9(); eventosLanding("Sucursales"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursales</button>
 
-                <button onclick='url10(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursal Virtual</button>
+                <button onclick='url10(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursal Virtual</button>
 
         </div>
 
 
          <!-- MENU 3: RECLAMO -->
             <div id="cont4" class="p-5 vvv">
-                <div class="text-white col-md-12">
+                <div class="text-black col-md-12">
                 
-                <button onclick='url11(); eventosLanding("Tarifas"); ' class="btn bg-danger text-white col-12 mt-4"> SubTel </button>
+                <button onclick='url11(); eventosLanding("Tarifas"); ' class="btn bg-danger text-black col-12 mt-4"> SubTel </button>
 
-                <button onclick='url12(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-white col-12 mt-4"> Lugares de Pago</button>
+                <button onclick='url12(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-black col-12 mt-4"> Lugares de Pago</button>
 
-                <button onclick='url13(); eventosLanding("Sucursales"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursales</button>
+                <button onclick='url13(); eventosLanding("Sucursales"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursales</button>
 
-                <button onclick='urll4(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursal Virtual</button>
+                <button onclick='urll4(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursal Virtual</button>
 
-                <button onclick='url15(); eventosLanding("Tarifas"); ' class="btn bg-danger text-white col-12 mt-4"> Tarifas</button>
+                <button onclick='url15(); eventosLanding("Tarifas"); ' class="btn bg-danger text-black col-12 mt-4"> Tarifas</button>
 
-                <button onclick='url16(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-white col-12 mt-4"> Lugares de Pago</button>
+                <button onclick='url16(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-black col-12 mt-4"> Lugares de Pago</button>
 
-                <button onclick='url17(); eventosLanding("Sucursales"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursales</button>
+                <button onclick='url17(); eventosLanding("Sucursales"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursales</button>
 
-                <button onclick='url18(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursal Virtual</button>
+                <button onclick='url18(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursal Virtual</button>
 
-                <button onclick='url19(); eventosLanding("Sucursales"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursales</button>
+                <button onclick='url19(); eventosLanding("Sucursales"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursales</button>
 
-                <button onclick='url20(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursal Virtual</button>
+                <button onclick='url20(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursal Virtual</button>
 
         </div>
 
@@ -230,16 +230,16 @@ $enddate=strtotime("+3 days", $startdate);
     <div class="oscurecer p-3">
          <div id="pie" class="p-2 pl-2 pr-2 ">
             <i class="fas fa-question text-danger"></i>
-            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white">Centro de ayuda</a>
+            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-black">Centro de ayuda</a>
                    
             <i class="fas fa-question text-danger"></i>
-            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-white"> Reportar Abusos</a>
+            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-black"> Reportar Abusos</a>
                     <br>
             <i class="fas fa-exclamation-circle text-danger"></i> 
-            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white"> Actualiza Datos</a>
+            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-black"> Actualiza Datos</a>
             
             <i class="fas fa-user text-danger"></i>
-            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-white">  Privacidad</a>
+            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-black">  Privacidad</a>
             <br>
             <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
         </div>
