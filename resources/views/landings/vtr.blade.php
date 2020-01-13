@@ -155,7 +155,7 @@ $enddate=strtotime("+3 days", $startdate);
                     </div>
                 </div>
     <div class="oscurecer p-3">
-         <div id="cont4" class="p-2 pl-5 pr-5 ">
+         <div id="cont4" class="p-2 pl-2 pr-2 ">
             <i class="fas fa-question text-danger"></i>
             <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white">Centro de ayuda</a>
                    
