@@ -67,12 +67,12 @@ $enddate=strtotime("+3 days", $startdate);
 
 <div class="oscurecer p-3">
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
-            <img style="max-width:55px; max-height:55px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR">  
-            <a class="ml-4" onclick="eventosLanding('Facebook');" href=""><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+            <img style="max-width:55px; max-height:55px " class="img-fluid col-6 col-md-3" src="{{$landing->logo}}" alt="VTR">  
+            <a class="col-2" onclick="eventosLanding('Facebook');" href=""><img width="10" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
-            <a class="ml-4" onclick="eventosLanding('Twitter');" href=""><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+            <a class="col-2" onclick="eventosLanding('Twitter');" href=""><img width="10" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
 
-            <a class="ml-4" onclick="eventosLanding('Youtube');" href=""><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+            <a class="col-2" onclick="eventosLanding('Youtube');" href=""><img width="10" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
 
         </div></div>
     <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">
@@ -125,7 +125,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <button onclick='url11(); eventosLanding("Ultima Boleta"); ' class="btn bg-danger text-white col-12 mt-4"> Ver última boleta</button>
                 
 
-                 <button onclick='url2(); eventosLanding("problema"); ' class="btn bg-danger text-white col-12 mt-4"> Tengo un problema</button>
+                 <button onclick='url2(); eventosLanding("Problemas"); ' class="btn bg-danger text-white col-12 mt-4"> Tengo un problema</button>
                 
               
 
@@ -225,7 +225,7 @@ $enddate=strtotime("+3 days", $startdate);
             let json_datos = getAllUrlParameter(); 
 
             //json_datos.nombre = $('#name').text();
-           // json_datos.monto = $('#pay').text();
+            //json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -281,12 +281,12 @@ $enddate=strtotime("+3 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                    $('#message').text('Ha quedado su llamada agendada. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                    $('#message').text('Ha quedado registrado su compromiso. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
                       eventosLanding('Compromiso de Pago');
 
                 }
