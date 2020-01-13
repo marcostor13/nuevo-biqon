@@ -95,7 +95,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <button onclick="eve3(); return false;" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
             </div>
             <!-- ERROR 1 -->
-            <div id="error" class="p-2 pl-3 pr-3 vvv">
+            <div id="error" class="p-2 pl-3 pr-3 hide">
                     <div class="card">     
                         <div class="card-body">
                             <h5 id="error"class="text-black text-center mt-5">
@@ -106,7 +106,7 @@ $enddate=strtotime("+3 days", $startdate);
             </div>
 
         <!-- FECHA: PAGO -->
-        <div id="fecha" class="p-5 vvv">
+        <div id="fecha" class="p-5 hide">
                 <div class="text-black col-md-12">
             <h3 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.         
             <div>
@@ -118,7 +118,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
 <!-- MENU: CONTACTO EQUIVOCADO -->
-            <div id="equiv" class="p-5 vvv">
+            <div id="equiv" class="p-5 hide">
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> ¿Conoces a <strong> <span id="name"></span></strong> ?</h6>
                 </div>
@@ -129,7 +129,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
 <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
-            <div id="equiv1" class="p-5 vvv">
+            <div id="equiv1" class="p-5 hide">
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
                 </div>
@@ -140,14 +140,14 @@ $enddate=strtotime("+3 days", $startdate);
                 <button onclick='url24(); eventosLanding("CONTINUAR"); ' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
+                <h6 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h6>
                 </div>
                 <button onclick='url25(); eventosLanding("No quiero ingresar"); ' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
 
             </div>
 
 <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
-            <div id="equiv1" class="p-5 vvv">
+            <div id="equiv1" class="p-5 hide">
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Favor, ingresar correo</h6>
                 </div>
@@ -158,7 +158,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <button onclick='url27(); eventosLanding("CONTINUAR"); ' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
+                <h6 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h6>
                 </div>
                 <button onclick='url28(); eventosLanding("No quiero ingresar"); ' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
 
@@ -167,7 +167,7 @@ $enddate=strtotime("+3 days", $startdate);
 
 
         <!-- MENU 2: INFORMACIONES -->
-            <div id="cont3" class="p-5 vvv">
+            <div id="cont3" class="p-5 hide">
                 <div class="text-black col-md-12">
                 
                 <button onclick='url7(); eventosLanding("Tarifas"); ' class="btn bg-danger text-black col-12 mt-4"> Tarifas</button>
@@ -182,7 +182,7 @@ $enddate=strtotime("+3 days", $startdate);
 
 
          <!-- MENU 3: RECLAMO -->
-            <div id="cont4" class="p-5 vvv">
+            <div id="cont4" class="p-5 hide">
                 <div class="text-black col-md-12">
                 
                 <button onclick='url11(); eventosLanding("Tarifas"); ' class="btn bg-danger text-black col-12 mt-4"> SubTel </button>
@@ -209,19 +209,19 @@ $enddate=strtotime("+3 days", $startdate);
 
 
 <!-- MENSAJE SUCCESS -->
-                <div id="success" class="p-2 pl-5 pr-5 vvv">
+                <div id="success" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
                         <div class="card-body">
-                            <h5 id="message"class="text-grey text-center mt-4 vvv"></h5>
+                            <h5 id="message"class="text-grey text-center mt-4 hide"></h5>
                         </div>
                     </div>
                 </div>
 
                 <!-- Contacto Equivocado -->
-                <div id="success" class="p-2 pl-5 pr-5 vvv">
+                <div id="success" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
                         <div class="card-body">
-                            <h5 id="message"class="text-grey text-center mt-4 vvv"></h5>
+                            <h5 id="message"class="text-grey text-center mt-4 hide"></h5>
                         </div>
                     </div>
                 </div>
@@ -283,10 +283,10 @@ $enddate=strtotime("+3 days", $startdate);
                 e = JSON.parse(e); 
 
                 if(e.code == 200){
-                    $('#cont1').addClass('vvv');
+                    $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                    $('#cont2').removeClass('vvv');
+                    $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
                             sendMail();
@@ -361,14 +361,14 @@ $enddate=strtotime("+3 days", $startdate);
             $.post( "/sendMail", dataSend,function() {
                 console.log(dataSend);
                 if(msg !== false){
-                    $('#message').removeClass('vvv');
-                     $('#cont2').addClass('vvv');
-                    $('#cont3').removeClass('vvv');
+                    $('#message').removeClass('hide');
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
                     $('#message').text('Ha quedado su llamada agendada. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
                 }else{
-                    $('#message').removeClass('vvv');
-                     $('#cont2').addClass('vvv');
-                    $('#cont3').removeClass('vvv');
+                    $('#message').removeClass('hide');
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
                     $('#message').text('Ha quedado registrado su compromiso. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
                       eventosLanding('Compromiso de Pago');
 
