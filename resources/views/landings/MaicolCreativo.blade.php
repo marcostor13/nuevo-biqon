@@ -55,7 +55,8 @@ $enddate=strtotime("+5 days", $startdate);
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 20%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="PRUEBAS">
-
+            
+            <!-- COntenido de SEGURIDAD-->
              <div id="cont1" class="p-5 ">
                 <h3 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
@@ -63,26 +64,37 @@ $enddate=strtotime("+5 days", $startdate);
                 <h5 id="error"class="text-grey text-center mt-5"></h5>
             </div>
 
-            <div id="cont2" class="p-5 hide">|
-                <h3 class="text-grey text-center">Estimado(a) <span id="name"></span></h3>
+            <div id="cont2" class="p-5 hide">
 
+                <!--NOMBRE-->
+                <h3 class="text-grey text-center">Estimado(a) <span id="name"></span></h3>
+                    
+                    <!--TEXTO DE LA LANDING-->
                 <p class="text-grey">
                     Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
                     <b>$ </b><b id="pay"></b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
                 </p>
                 <div class="date btn bg-danger text-grey col-12 mt-4">
+
+                    <!--COMPROMISO DE PAGO-->
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
+
+                <!--IR A PAGAR-->
                 <button onclick='window.location.href="https://pagos.uss.cl/";eventosLanding("Pagina de Pagos");' class="btn bg-danger text-grey col-12 mt-4">PAGAR AHORA</button>
                 
+                <!--TEXTO DE LA LANDING-->
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-grey col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <!--<a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56964386131&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>-->
-                    <a onclick="eventosLanding('Llamar', 'tel:+56225940241') "><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                   <!-- <a onclick="eventosLanding('Correo', 'mailto:rodrigo.calderon@davila.cl');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>-->
+
+                    <a onclick="eventosLanding('Whatsapp', 'https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta')"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
+
+                    <a onclick="eventosLanding('Llamar', 'tel:+56967664209') "><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
+
+                   <a onclick="eventosLanding('Correo', 'mailto:jesus.binteraction@gmail.com');" ><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
                 
             </div>
