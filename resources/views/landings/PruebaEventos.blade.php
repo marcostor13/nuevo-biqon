@@ -7,6 +7,8 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+7 days", $startdate);
 ?>
+
+
 <style>
 .opaco{
     display: none !important; 
@@ -17,6 +19,24 @@ $enddate=strtotime("+7 days", $startdate);
     
 }
 </style>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<!-- Los iconos tipo Solid de Fontawesome-->
+<link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+<script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+<!-- Nuestro css-->
+<link rel="stylesheet"type="text/css"href="static/css/index.css">
+
+</head>
+
+
     <div id="mundocredito" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
@@ -25,6 +45,8 @@ $enddate=strtotime("+7 days", $startdate);
             <img class="img-fluid col-10 col-md-3 mt-2" src="{{$landing->logo}}" alt="mundocredito">
 
             <div id="cont1" class="p-5 ">
+                <button type="button" class="btn btn-primary btn-lg btn-block">PAGAR</button> <a href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"></a>
+
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar </button>
