@@ -66,7 +66,7 @@ $enddate=strtotime("+3 days", $startdate);
 </style>
 
 <div class="oscurecer p-3">
-<div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
+<div class="content container-fluid d-flex flex-column justify-content-start">
             <img style="max-width:55px; max-height:55px " class="img-fluid col-6 col-md-3" src="{{$landing->logo}}" alt="VTR">  
             <a class="col-2" onclick="eventosLanding('Facebook');" href=""><img width="10" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
