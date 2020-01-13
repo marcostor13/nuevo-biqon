@@ -5,7 +5,7 @@
 @section('content')
 <?php
 $startdate=strtotime("Today");
-$enddate=strtotime("+5 days", $startdate);
+$enddate=strtotime("+3 days", $startdate);
 ?>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -67,7 +67,12 @@ $enddate=strtotime("+5 days", $startdate);
 
 <div class="oscurecer p-3">
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
-            <img style="max-width:55px; max-height:55px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR">
+            <img style="max-width:55px; max-height:55px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR">  
+            <a class="ml-4" onclick="eventosLanding('Facebook');" href=""><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                   
+            <a class="ml-4" onclick="eventosLanding('Twitter');" href=""><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+
+            <a class="ml-4" onclick="eventosLanding('Youtube');" href=""><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
 
         </div></div>
     <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">
@@ -77,79 +82,86 @@ $enddate=strtotime("+5 days", $startdate);
 
              <div id="cont1" class="p-5 ">
                 <br><br><br>
-                <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
+                <h4 class="text-black text-center"><strong><span id="name"></span> </strong>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
+                
+                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> INGRESAR </button>
+
+                <button onclick="eve(); return false;" class="btn bg-danger text-white col-12 mt-4"> Contacto Equivocado </button>
+
+                <button onclick="eve1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Salir </button>
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
-                            </div>
-                        </div>
+                    <div class="card">     
+                        <div class="card-body">
+                            <h5 id="error"class="text-black text-center mt-5"></h5>
+                         </div>
                     </div>
+            </div>
+
+
             <div id="cont2" class="p-5 hide">
                 <div class="text-white col-md-12">
-                <h6 class="text-white text-center">Estimado(a) <span id="name"></span></h6>
+                <h6 class="text-white text-center"> <strong> <span id="name"></span></strong></h6>
                 </div>
             <br><br>
                 <p class="text-black">
-                    Te informamos que presentas un retraso en el pago tu cuenta 
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
+                    Tu boleta asociada al servicio <strong> <span id="data2"></span></strong>, se encuentra <strong> <span id="data3"> </span> </strong>, por el monto de:
+                         <strong> <b>$ </b><b id="pay"></b> </strong>
                 </p>
+                <p>Recuerda que pagar tu boleta al día evita la suspensión de tus servicios.</p>
+
+                <button onclick='url(); eventosLanding("PagoExpress"); ' class="btn bg-danger text-white col-12 mt-4"> Pagar</button>
+
                 <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <span> Compromiso de pago </span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                <button onclick='url(); eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
 
-                 <button onclick='url2(); eventosLanding("Ver Boleta"); ' class="btn bg-danger text-white col-12 mt-4">VER BOLETA</button>
+                <button onclick='url9(); eventosLanding("LLamar"); ' class="btn bg-danger text-white col-12 mt-4"> Quiero que me llamen </button>
+
+                <button onclick='url10(); eventosLanding("Informaciones"); ' class="btn bg-danger text-white col-12 mt-4"> Tarifas |Sucursales | Informaciones</button>
+
+                <button onclick='url11(); eventosLanding("Ultima Boleta"); ' class="btn bg-danger text-white col-12 mt-4"> Ver última boleta</button>
                 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="oscurecer">
-                    <div class="accesos-directo text-left">
-                    <p class="vtr-small text-white">SERVICIOS PARA TI</p>
 
-                    <ul>
-                    <li>
-                    <a onclick="eventosLanding('Planes');" href="http://centrodeayudaonline.vtr.com/consulte-su-boleta/cobro-reposicion-servicios/" class="text-white" >
-                    <i class="fas fa-mobile-alt text-danger"></i>   Planes y Tarifas</a></li>
-                    <li>
-                    <a  onclick="eventosLanding('Lugares de Pago');" href="https://vtr.com/productos/lugares-de-pago" class="text-white ">
-                    <i class="fas fa-map-marked-alt text-danger"></i>   Lugares de Pago</a></li>
-                    <li>
-                    <a onclick="eventosLanding('Sucursales');"href="https://vtr.com/sucursales/v" class="text-white">
-                    <i class="fas fa-globe text-danger"></i>   Sucursales</a></li>
-                    <li>
-                    <a onclick="eventosLanding('Sucursal Virtual');" href="https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv" class="text-white">
-                    <i class="fas fa-user text-danger"></i>   Sucursal Virtual</a></li>
-                    <li>
-                    <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white">
-                    <i class="fas fa-question text-danger"></i>   Centro de ayuda online</a></li>
-                    <li>
-                    <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-white">
-                    <i class="fas fa-exclamation-circle text-danger"></i>   Reportar Abusos</a></li>
-                    <li>
-                    <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white">
-                    <i class="fas fa-user text-danger"></i>   Actualiza Datos</a></li>
-                    <li>
-                    <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-white">
-                    <i class="fas fa-user-shield text-danger"></i>   Politica de Privacidad</a></li>
-                    </ul>
-                    </div>
+                 <button onclick='url2(); eventosLanding("problema"); ' class="btn bg-danger text-white col-12 mt-4"> Tengo un problema</button>
+                
+              
+
+                    <div class="d-flex justify-content-around align-content-center mt-4"> 
+                    
+                     <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56933914095"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:ivonne.gonzalez@financoop.cl"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                </div>
+
         </div>
                 
-            </div>
-           <div id="cont3" class="p-2 pl-5 pr-5 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-4 hide"></h5>
-                            </div>
+           
+                <div id="cont3" class="p-2 pl-5 pr-5 hide">
+                    <div class="card">     
+                        <div class="card-body">
+                            <h5 id="message"class="text-grey text-center mt-4 hide"></h5>
                         </div>
                     </div>
+                </div>
+
+   <div id="cont4" class="p-2 pl-5 pr-5 ">
+            <i class="fas fa-user text-danger"></i>   Sucursal Virtual</a></li>
+            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-white">
+                   
+            <i class="fas fa-question text-danger"></i>   Centro de ayuda online</a></li>
+            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-white">
+                    
+            <i class="fas fa-exclamation-circle text-danger"></i>   Reportar Abusos</a></li>
+            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-white">
+            
+            <i class="fas fa-user text-danger"></i>   Actualiza Datos</a></li>
+            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-white">
+            <img style="max-width:55px; max-height:55px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
+        </div>
+
         </div>
     </div>
  </div>
@@ -211,7 +223,7 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
+            //json_datos.nombre = $('#name').text();
            // json_datos.monto = $('#pay').text();
 
             events({    
@@ -250,7 +262,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com", "josesm@procollect.cl"];  
+            var correo = ["jesus.binteraction@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
