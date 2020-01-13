@@ -67,13 +67,13 @@ $enddate=strtotime("+3 days", $startdate);
 <!-- HEAD -->
 <div class="oscurecer p-3">
  <div class="oscurecer p-3">
-         <div id="head" class="p-2 pl-2 pr-2 "> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
+         <div id="head" class="p-2 pl-2 pr-2 "> <img style="max-width:100px; max-height:50px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
 
-             <a class="ml-4" onclick="eventosLanding('Facebook');" href="www.facebook.com"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+             <a class="ml-4" onclick="eventosLanding('Facebook');" href="www.facebook.com"><img width="20" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
-             <a class="ml-4" onclick="eventosLanding('Twitter');" href="www.twitter.com"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+             <a class="ml-4" onclick="eventosLanding('Twitter');" href="www.twitter.com"><img width="20" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                     <br>
-             <a class="ml-4" onclick="eventosLanding('Youtube');" href="www.youtube.com"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+             <a class="ml-4" onclick="eventosLanding('Youtube');" href="www.youtube.com"><img width="20" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
            
         </div>
 
