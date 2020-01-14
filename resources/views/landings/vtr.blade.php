@@ -106,7 +106,7 @@ $enddate=strtotime("+3 days", $startdate);
             </div>
 
              <!-- MENU2:  -->
-        <div id="cont3" class="p-5 hide">
+        <div id="cont2" class="p-5 hide">
                 <div class="text-black col-md-12">
                 
                 <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-black col-12 mt-4"> Tarifas</button>
