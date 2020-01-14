@@ -94,9 +94,9 @@ $enddate=strtotime("+3 days", $startdate);
 
                 <button onclick="eve3(); return false;" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
 
-<li onclick="myFunction(1)">Producto1</li>
+<!--<li onclick="myFunction(1)">Producto1</li>
 <li onclick="myFunction(2)">Producto2</li>
-<li onclick="myFunction(3)">Producto3</li>
+<li onclick="myFunction(3)">Producto3</li>-->
 
 <div id="producto1" style="display:none;">
    <div class="tituloDiv">
@@ -107,14 +107,14 @@ $enddate=strtotime("+3 days", $startdate);
    </div>
 </div>
 
-<div id="producto2" style="display:none;">
+<!--<div id="producto2" style="display:none;">
      <div class="tituloDiv">
         <h3>Producto1</h3>
      </div>
      <div class="contenidoDiv">
         <p>Descripción producto2.</p>
      </div>
-</div>
+</div>-->
 
 <div id="producto3" style="display:none;">
     <div class="tituloDiv">
