@@ -411,13 +411,20 @@ $enddate=strtotime("+3 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#calend').addClass('hide');
                     $('#success').removeClass('hide');
-                    $('#message').text('Ha quedado su llamada agendada. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
-                }else{
+                    $('#message').text('Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
+                }else if (msg !== false & time1 !== false){
                     $('#message').removeClass('hide');
                      $('#calend').addClass('hide');
                     $('#success').removeClass('hide');
                     $('#message').text('Ha quedado registrado su compromiso. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
                       eventosLanding('Compromiso de Pago');
+
+                }else {
+                    $('#message').removeClass('hide');
+                     $('#llamen').addClass('hide');
+                    $('#success').removeClass('hide');
+                    $('#message').text('Ha quedado su llamada agendada. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
+                      eventosLanding('agendo llamada');
 
                 }
             })
@@ -428,11 +435,6 @@ $enddate=strtotime("+3 days", $startdate);
                 console.log( "error" );
             });
 
-        }
-
-        function url2(){
-        $('#cont2').addClass('hide');
-        $('#calend').removeClass('hide'); 
         }
 
 
