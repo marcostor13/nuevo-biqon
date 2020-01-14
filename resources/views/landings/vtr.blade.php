@@ -106,7 +106,7 @@ $enddate=strtotime("+3 days", $startdate);
             </div>
 
              <!-- MENU2:  -->
-        <div id="cont2" class="p-5 hide">
+        <div id="cont2" class="p-5  hide ">
                 <div class="text-black col-md-12">
                 
                 <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-black col-12 mt-4"> Pagar</button>
@@ -124,7 +124,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
         <!-- FECHA: PAGO -->
-        <div id="calend" class="p-5 hide">
+        <div id="calend" class="p-5 hide ">
                 <div class="text-black col-md-12">
             <h3 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.         
             <div>
@@ -136,7 +136,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
 <!-- MENU: CONTACTO EQUIVOCADO -->
-            <div id="equiv" class="p-5 hide">
+            <div id="equiv" class="p-5 hide ">
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> ¿Conoces a <strong> <span id="name"></span></strong> ?</h6>
                 </div>
@@ -147,7 +147,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
 <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
-            <div id="equiv1" class="p-5 hide">
+            <div id="equiv1" class="p-5 hide ">
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
                 </div>
@@ -165,7 +165,7 @@ $enddate=strtotime("+3 days", $startdate);
             </div>
 
 <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
-            <div id="equiv2" class="p-5 hide">
+            <div id="equiv2" class="p-5 hide ">
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Favor, ingresar correo</h6>
                 </div>
@@ -185,7 +185,7 @@ $enddate=strtotime("+3 days", $startdate);
 
 
         <!-- MENU 2: INFORMACIONES -->
-            <div id="cont3" class="p-5 hide">
+            <div id="cont3" class="p-5 hide ">
                 <div class="text-black col-md-12">
                 
                 <button onclick='url7(); eventosLanding("Tarifas"); ' class="btn bg-danger text-black col-12 mt-4"> Tarifas</button>
@@ -200,7 +200,7 @@ $enddate=strtotime("+3 days", $startdate);
 
 
          <!-- MENU 3: RECLAMO -->
-            <div id="cont4" class="p-5 hide">
+            <div id="cont4" class="p-5 hide ">
                 <div class="text-black col-md-12">
                 
                 <button onclick='url11(); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-12 mt-4"> SubTel|Sernac </button>
@@ -477,12 +477,6 @@ $enddate=strtotime("+3 days", $startdate);
             //function(){
             $('#cont2').addClass('hide');
             $('#calend').removeClass('hide');
-            $('#date1').on('change', function(){
-                        if($('#date1').val() != ''){
-                            sendMail();
-                        }
-                    });
-
            // }
         }
 
