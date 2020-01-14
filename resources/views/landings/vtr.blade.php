@@ -146,7 +146,7 @@ $enddate=strtotime("+3 days", $startdate);
                 </h3>       
             <div>
                 <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                <input id="date2"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
 
                 <label>Hora:</label>
                 <input id="time1"  type="time" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
@@ -381,7 +381,7 @@ $enddate=strtotime("+3 days", $startdate);
                     'Landing': '{!! $landing->name !!}'
                 } 
             } else{
-                let date = $('#date1').val();
+                let date = $('#date2').val();
                 let time = $('#time1').val();
                 data = {
                     'Fecha': date,
