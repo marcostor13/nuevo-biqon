@@ -90,9 +90,9 @@ $enddate=strtotime("+3 days", $startdate);
                 
                 <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Ingresar </button>
 
-                <button onclick="myFunction(2)" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
+                <button onclick="eve()" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
 
-                <button onclick="myFunction(3)" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
+                <button onclick="even()" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
 
 <!--<li onclick="myFunction(1)">Producto1</li>
 <li onclick="myFunction(2)">Producto2</li>
@@ -155,7 +155,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
         <!-- FECHA: PAGO -->
-        <div id="producto2" class="p-5"  style="display:none;">
+        <div id="calend" class="p-5 hide" >
                 <div class="text-black col-md-12">
             <h3 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.         
             <div>
@@ -167,7 +167,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
 <!-- MENU: CONTACTO EQUIVOCADO -->
-            <div id="producto2" class="p-5"  style="display:none;">
+            <div id="usrbad" class="p-5 hide" >
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> ¿Conoces a <strong> <span id="name"></span></strong> ?</h6>
                 </div>
@@ -178,7 +178,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
 <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
-            <div id="equiv1" class="p-5"  style="display:none;">
+            <div id="equiv1" class="p-5 hide" >
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
                 </div>
@@ -196,7 +196,7 @@ $enddate=strtotime("+3 days", $startdate);
             </div>
 
 <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
-            <div id="equiv2" class="p-5"  style="display:none;">
+            <div id="equiv2" class="p-5 hide" >
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Favor, ingresar correo</h6>
                 </div>
@@ -216,7 +216,7 @@ $enddate=strtotime("+3 days", $startdate);
 
 
         <!-- MENU 2: INFORMACIONES -->
-            <div id="cont3" class="p-5"  style="display:none;">
+            <div id="cont3" class="p-5 hide" >
                 <div class="text-black col-md-12">
                 
                 <button onclick='url7(); eventosLanding("Tarifas"); ' class="btn bg-danger text-black col-12 mt-4"> Tarifas</button>
@@ -231,7 +231,7 @@ $enddate=strtotime("+3 days", $startdate);
 
 
          <!-- MENU 3: RECLAMO -->
-            <div id="cont4" class="p-5 "  style="display:none;">
+            <div id="cont4" class="p-5 hide">
                 <div class="text-black col-md-12">
                 
                 <button onclick='url11(); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-12 mt-4"> SubTel|Sernac </button>
@@ -552,8 +552,8 @@ function myFunction(idButton) {
  case 2:
           //$('#cont1').addClass('hide');
           $('#cont2').addClass('hide');
-          producto2.style.display = 'block';
-          $('#success').removeClass('hide');
+         // producto2.style.display = 'block';
+          $('#cont4').removeClass('hide');
     break;
 
  case 3:
