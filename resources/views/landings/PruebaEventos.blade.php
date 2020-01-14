@@ -50,6 +50,12 @@ $enddate=strtotime("+7 days", $startdate);
                 <!-- CALENDARIO-->
                  <label for="start">Start date:</label>
                  <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2030-12-31">
+                 <!--calendario 2-->
+                <div class="md-form mx-5 my-5">
+                <input placeholder="Date and Time" type="text" data-open="picker2" class="form-control date-time picker-opener">
+                <input placeholder="Selected date" type="text" id="picker2"  class="datepicker form-control time-date-ghost">
+                <input placeholder="Selected time" data-open="picker2" type="text" class="form-control timepicker time-date-ghost">
+                </div>
 
                 <!--<h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>-->
                 <!--<input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>-->
