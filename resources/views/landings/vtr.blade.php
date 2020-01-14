@@ -93,6 +93,37 @@ $enddate=strtotime("+3 days", $startdate);
                 <button onclick="eve2(); return false;" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
 
                 <button onclick="eve3(); return false;" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
+
+                <li onclick="myFunction(1)">Producto1</li>
+<li onclick="myFunction(2)">Producto2</li>
+<li onclick="myFunction(3)">Producto3</li>
+
+<div id="producto1" style="display:none;">
+   <div class="tituloDiv">
+      <h3>Producto1</h3>
+   </div>
+   <div class="contenidoDiv">
+      <p>Descripción producto1.</p>
+   </div>
+</div>
+
+<div id="producto2" style="display:none;">
+     <div class="tituloDiv">
+        <h3>Producto1</h3>
+     </div>
+     <div class="contenidoDiv">
+        <p>Descripción producto2.</p>
+     </div>
+</div>
+
+<div id="producto3" style="display:none;">
+    <div class="tituloDiv">
+         <h3>Producto1</h3>
+    </div>
+    <div class="contenidoDiv">
+        <p>Descripción producto3.</p>
+    </div>
+</div>
             </div>
             <!-- ERROR 1 -->
             <div id="error" class="p-2 pl-3 pr-3 hide">
@@ -335,10 +366,7 @@ $enddate=strtotime("+3 days", $startdate);
             });
         }
 
-        let url2 = function(name) {
-        $('#cont2').addClass('hide');
-        $('#calend').removeClass('hide'); 
-        }
+        
 
         function sendMail(msg = false){
 
@@ -403,6 +431,12 @@ $enddate=strtotime("+3 days", $startdate);
             });
 
         }
+
+        function url2(){
+        $('#cont2').addClass('hide');
+        $('#calend').removeClass('hide'); 
+        }
+
 
         let events = function(data){     
 
@@ -499,6 +533,39 @@ $enddate=strtotime("+3 days", $startdate);
 
         } 
 
+
+function myFunction(idButton) {
+  var producto1 = document.getElementById('producto1');
+  var producto2 = document.getElementById('producto2');
+  var producto3 = document.getElementById('producto3');
+
+
+
+ switch(idButton) {
+ case 1:
+
+          producto1.style.display = 'block';
+          producto2.style.display = 'none';
+          producto3.style.display = 'none';
+    break;
+
+ case 2:
+          producto1.style.display = 'none';
+          producto2.style.display = 'block';
+          producto3.style.display = 'none';
+    break;
+
+ case 3:
+          producto1.style.display = 'none';
+          producto2.style.display = 'none';
+          producto3.style.display = 'block';
+    break;
+
+default:
+          alert("hay un problema: No existe el producto.")
+        }
+
+   }
     
     </script>
 
