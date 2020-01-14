@@ -73,7 +73,7 @@ $enddate=strtotime("+3 days", $startdate);
              <a class="ml-4" onclick="eventosLanding('Facebook');" href="www.facebook.com"><img width="20" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
              <a class="ml-4" onclick="eventosLanding('Twitter');" href="www.twitter.com"><img width="20" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
-                    <br>
+
              <a class="ml-4" onclick="eventosLanding('Youtube');" href="www.youtube.com"><img width="20" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
            
         </div>
@@ -114,15 +114,15 @@ $enddate=strtotime("+3 days", $startdate);
                 
                 <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-black col-12 mt-4"> Pagar</button>
 
-                <button onclick='myFunction(2);' class="btn bg-danger text-black col-12 mt-4"> Compromiso de Pago</button>
+                <button onclick='url(1);' class="btn bg-danger text-black col-12 mt-4"> Compromiso de Pago</button>
 
-                <button onclick='url3();' class="btn bg-danger text-black col-12 mt-4"> Quiero que me llamen</button>
+                <button onclick='url(2);' class="btn bg-danger text-black col-12 mt-4"> Quiero que me llamen</button>
 
-                <button onclick='myFunction(3);' class="btn bg-danger text-black col-12 mt-4"> Tarifas | Sucursales | Informaciones</button>
+                <button onclick='url(3);' class="btn bg-danger text-black col-12 mt-4"> Tarifas | Sucursales | Informaciones</button>
 
                 <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-danger text-black col-12 mt-4"> Boleta</button>
 
-                <button onclick='url6();' class="btn bg-danger text-black col-12 mt-4"> tengo un problema</button>
+                <button onclick='url(4);' class="btn bg-danger text-black col-12 mt-4"> Tengo un problema</button>
             </div>  
         </div>
 
@@ -503,35 +503,32 @@ $enddate=strtotime("+3 days", $startdate);
         } 
 
 
-function myFunction(idButton) {
-  var url1 = document.getElementById('producto1');
-  var producto2 = document.getElementById('producto2');
-  var producto3 = document.getElementById('producto3');
+function url(idButton) {
+  //var producto1 = document.getElementById('producto1');
+  //var producto2 = document.getElementById('producto2');
+  //var producto3 = document.getElementById('producto3');
 
 
 
  switch(idButton) {
  case 1:
-
-          producto1.style.display = 'block';
-          producto2.style.display = 'none';
-          producto3.style.display = 'none';
-    break;
-
- case 2:
-          //$('#cont1').addClass('hide');
           $('#cont2').addClass('hide');
-         // producto2.style.display = 'block';
           $('#calend').removeClass('hide');
     break;
 
- case 3:
-        //$('#cont1').addClass('hide');
+ case 2:
           $('#cont2').addClass('hide');
-         // producto2.style.display = 'block';
-          $('#cont3').removeClass('hide'); 
+          $('#usrbad').removeClass('hide');
     break;
 
+ case 3:
+          $('#cont2').addClass('hide');
+          $('#cont3').removeClass('hide'); 
+    break;
+ case 3:
+          $('#cont2').addClass('hide');
+          $('#cont4').removeClass('hide'); 
+    break;
 default:
           alert("hay un problema: No existe el producto.")
         }
