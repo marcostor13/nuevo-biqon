@@ -357,9 +357,9 @@ $enddate=strtotime("+3 days", $startdate);
         function sendMail(msg = false){
 
             console.log('{!! $landing->name !!}'); 
-        let date = $('#date1').val();
-        let date = $('#date2').val();
-        let time = $('#time1').val();
+        let date1 = $('#date1').val();
+        let date2 = $('#date2').val();
+        let time1 = $('#time1').val();
 
             let data; 
             if(msg !== false & date1 == false){
@@ -374,9 +374,9 @@ $enddate=strtotime("+3 days", $startdate);
                     
                 }
             }else if (msg !== false & date1 == false){
-                let date = $('#date1').val();
+                //let date = $('#date1').val();
                 data = {
-                    'fecha': date,
+                    'fecha': date1,
                     'Nombre': $('#name').text(),
                     //'monto': geturlParameter('monto'),
                      'RUT': geturlParameter('rut'),
@@ -384,11 +384,11 @@ $enddate=strtotime("+3 days", $startdate);
                     'Landing': '{!! $landing->name !!}'
                 } 
             } else{
-                let date = $('#date2').val();
-                let time = $('#time1').val();
+                //let date = $('#date2').val();
+                //let time = $('#time1').val();
                 data = {
-                    'Fecha': date,
-                    'Hora': time,
+                    'Fecha': date2,
+                    'Hora': time1,
                     'Nombre': $('#name').text(),
                     //'monto': geturlParameter('monto'),
                      'RUT': geturlParameter('rut'),
