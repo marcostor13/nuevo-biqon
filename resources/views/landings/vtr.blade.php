@@ -335,7 +335,10 @@ $enddate=strtotime("+3 days", $startdate);
             });
         }
 
-     
+        let url2 = function(name) {
+        $('#cont2').addClass('hide');
+        $('#calend').removeClass('hide'); 
+        }
 
         function sendMail(msg = false){
 
