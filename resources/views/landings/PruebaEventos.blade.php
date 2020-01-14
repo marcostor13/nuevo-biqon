@@ -51,10 +51,11 @@ $enddate=strtotime("+7 days", $startdate);
                 
                 <!-- CALENDARIO-->
                  <label class="text-white" for="start">Fecha:</label><br>
-                 <input type="date" id="start" name="trip-start" value="2018-07-22" min="2020-01-01" max="2030-12-31"><br>
+                 <input type="date" id="start" name="trip-start" value="2018-07-22" min="2020-01-01" max="2030-12-31">
+                 <br>
                 
                  <!-- YA PAGUE-->
-                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="javascript:alert("YA PAGO")>YA PAGUÉ</button> 
+                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="javascript:alert("YA PAGO")'>YA PAGUÉ</button> 
                  
                  <!-- CONTACTO-->
                  <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>CONTACTO</button> 
@@ -63,7 +64,8 @@ $enddate=strtotime("+7 days", $startdate);
                  <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>PAGO EN CUOTAS</button> 
                  
                  <!-- YA PAGUE-->
-                      
+                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUÉ </button>
+            </div>  
 
 
 
