@@ -201,27 +201,27 @@ $enddate=strtotime("+3 days", $startdate);
          </div>
     <!-- MENU 3: RECLAMO -->
             <div id="cont4" class="p-5 hide">
-                <div class="text-black col-md-12">
+                <div class="text-black col-md-12 text-center align-items-center justify-content-start p-0">
                 
-                <button onclick='url11(); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-12 mt-4"> SubTel|Sernac </button>
+                <button onclick='url11(); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-5 mt-4"> SubTel|Sernac </button>
 
-                <button onclick='url12(); eventosLanding("Problemas Económicos); ' class="btn bg-danger text-black col-12 mt-4"> Problemas Economicos</button>
+                <button onclick='url12(); eventosLanding("Problemas Económicos); ' class="btn bg-danger text-black col-5 mt-4"> Problemas Economicos</button>
 
-                <button onclick='url13(); eventosLanding("No Reconozco Deuda"); ' class="btn bg-danger text-black col-12 mt-4"> No Reconozco Deuda</button>
+                <button onclick='url13(); eventosLanding("No Reconozco Deuda"); ' class="btn bg-danger text-black col-5 mt-4"> No Reconozco Deuda</button>
 
-                <button onclick='urll4(); eventosLanding("Problema Técnico"); ' class="btn bg-danger text-black col-12 mt-4"> Problema Tecnico</button>
+                <button onclick='urll4(); eventosLanding("Problema Técnico"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Tecnico</button>
 
-                <button onclick='url15(); eventosLanding("Problema Comercial"); ' class="btn bg-danger text-black col-12 mt-4"> Problema Comercial</button>
+                <button onclick='url15(); eventosLanding("Problema Comercial"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Comercial</button>
 
-                <button onclick='url16(); eventosLanding("Pago no aplicado"); ' class="btn bg-danger text-black col-12 mt-4"> Pago no aplicado</button>
+                <button onclick='url16(); eventosLanding("Pago no aplicado"); ' class="btn bg-danger text-black col-5 mt-4"> Pago no aplicado</button>
 
-                <button onclick='url17(); eventosLanding("Fraude"); ' class="btn bg-danger text-black col-12 mt-4"> Fraude</button>
+                <button onclick='url17(); eventosLanding("Fraude"); ' class="btn bg-danger text-black col-5 mt-4"> Fraude</button>
 
-                <button onclick='url18(); eventosLanding("Titular fallecido"); ' class="btn bg-danger text-black col-12 mt-4"> Titular fallecido</button>
+                <button onclick='url18(); eventosLanding("Titular fallecido"); ' class="btn bg-danger text-black col-5 mt-4"> Titular fallecido</button>
 
-                <button onclick='url19(); eventosLanding("Baja no ingresanda"); ' class="btn bg-danger text-black col-12 mt-4"> Baja no ingresada</button>
+                <button onclick='url19(); eventosLanding("Baja no ingresanda"); ' class="btn bg-danger text-black col-5 mt-4"> Baja no ingresada</button>
 
-                <button onclick='url20(); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-black col-12 mt-4"> Me cambie de Compañía</button>
+                <button onclick='url20(); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-black col-5 mt-4"> Me cambie de Compañía</button>
 
         </div>
         </div>
@@ -380,13 +380,13 @@ $enddate=strtotime("+3 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
-                    $('#cont3').removeClass('hide');
+                     $('#calend').addClass('hide');
+                    $('#success').removeClass('hide');
                     $('#message').text('Ha quedado su llamada agendada. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
-                    $('#cont3').removeClass('hide');
+                     $('#calend').addClass('hide');
+                    $('#success').removeClass('hide');
                     $('#message').text('Ha quedado registrado su compromiso. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
                       eventosLanding('Compromiso de Pago');
 
@@ -525,9 +525,13 @@ function url(idButton) {
           $('#cont2').addClass('hide');
           $('#cont3').removeClass('hide'); 
     break;
- case 3:
+ case 4:
           $('#cont2').addClass('hide');
           $('#cont4').removeClass('hide'); 
+    break;
+    case 5:
+          $('#cont2').addClass('hide');
+          $('#').removeClass('hide'); 
     break;
 default:
           alert("hay un problema: No existe el producto.")
