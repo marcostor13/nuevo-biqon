@@ -472,7 +472,7 @@ $enddate=strtotime("+3 days", $startdate);
 
         } 
 
-        let url2(){
+        function url2(){
 
             //function(){
             $('#cont2').addClass('hide');
