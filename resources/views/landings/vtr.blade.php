@@ -90,11 +90,11 @@ $enddate=strtotime("+3 days", $startdate);
                 
                 <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Ingresar </button>
 
-                <button onclick="eve2(); return false;" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
+                <button onclick="myFunction(2); return false;" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
 
                 <button onclick="eve3(); return false;" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
 
-                <li onclick="myFunction(1)">Producto1</li>
+<li onclick="myFunction(1)">Producto1</li>
 <li onclick="myFunction(2)">Producto2</li>
 <li onclick="myFunction(3)">Producto3</li>
 
@@ -167,7 +167,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
 <!-- MENU: CONTACTO EQUIVOCADO -->
-            <div id="equiv" class="p-5 hide ">
+            <div id="producto2" class="p-5"  style="display:none;">
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> ¿Conoces a <strong> <span id="name"></span></strong> ?</h6>
                 </div>
@@ -178,7 +178,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
 <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
-            <div id="equiv1" class="p-5 hide ">
+            <div id="equiv1" class="p-5"  style="display:none;">
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
                 </div>
