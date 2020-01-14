@@ -43,8 +43,8 @@ $enddate=strtotime("+7 days", $startdate);
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56945619928&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56945619928"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=569945619928&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+569945619928"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
                     <a onclick="eventosLanding('Correo');" href="mailto:ipalma@mafchile.com"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
                </div>
@@ -59,8 +59,8 @@ $enddate=strtotime("+7 days", $startdate);
         </div>
     </div>
 
-    <script>
 
+    <script>
         $(function(){
             events({    
                 'name': 'Visita',
@@ -116,8 +116,8 @@ $enddate=strtotime("+7 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            //json_datos.nombre = $('#name').text();
-            //json_datos.monto = $('#pay').text();
+            json_datos.nombre = $('#name').text();
+            json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -136,11 +136,11 @@ $enddate=strtotime("+7 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre':  $('#name').text(),,
+                    'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Ejecutivo': getUrlParameter('data1'),
+                     'Ejecutivo': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                    
                     
