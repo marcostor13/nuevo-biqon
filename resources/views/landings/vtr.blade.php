@@ -357,7 +357,10 @@ $enddate=strtotime("+3 days", $startdate);
         function sendMail(msg = false){
 
             console.log('{!! $landing->name !!}'); 
-            
+        let date = $('#date1').val();
+        let date = $('#date2').val();
+        let time = $('#time1').val();
+
             let data; 
             if(msg !== false & date1 == false){
                 data = {
@@ -370,7 +373,7 @@ $enddate=strtotime("+3 days", $startdate);
                    
                     
                 }
-            }else if (msg !== false & time1 == false){
+            }else if (msg !== false & date1 == false){
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
