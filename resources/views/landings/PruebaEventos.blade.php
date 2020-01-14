@@ -48,10 +48,12 @@ $enddate=strtotime("+7 days", $startdate);
                 <!-- BOTON PAGAR-->
                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>PAGAR</button> 
                 <!-- CALENDARIO-->
-                 <label for="start">Start date:</label>
-                 <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2030-12-31">
+                 <label class="text-white" for="start">Fecha:</label><br>
+                 <input type="date" id="start" name="trip-start" value="2018-07-22" min="2020-01-01" max="2030-12-31">
                  <!--calendario 2-->
-                <div class="md-form mx-5 my-5">
+
+                 <div id="cont1" class="md-form mx-5 my-5" >
+                <!--<div class="md-form mx-5 my-5">-->
                 <input placeholder="Date and Time" type="text" data-open="picker2" class="form-control date-time picker-opener">
                 <input placeholder="Selected date" type="text" id="picker2"  class="datepicker form-control time-date-ghost">
                 <input placeholder="Selected time" data-open="picker2" type="text" class="form-control timepicker time-date-ghost">
