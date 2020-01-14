@@ -140,6 +140,8 @@ $enddate=strtotime("+7 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                     'Ejecutivo': getUrlParameter('data1'),
+                    'landing': '{!! $landing->name !!}'
                    
                     
                 }
@@ -150,7 +152,8 @@ $enddate=strtotime("+7 days", $startdate);
                     'nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
                     'rut': getUrlParameter('rut'),
-                    'phone': getUrlParameter('telefono'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Ejecutivo': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
