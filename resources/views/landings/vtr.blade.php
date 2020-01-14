@@ -84,18 +84,18 @@ $enddate=strtotime("+3 days", $startdate);
     <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             
 <!-- MENU 1: INGRESAR -->
-             <div id="cont1" class="p-5 ">
+        <div id="cont1" class="p-5 ">
                 <br><br><br>
-                <h4 class="text-black text-center"><strong><span id="name"></span> </strong>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-black">
+            <h4 class="text-black text-center"><strong><span id="name"></span> </strong>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
+            <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 
-                <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Ingresar </button>
+            <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Ingresar </button>
 
-                <button onclick="eve()" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
+            <button onclick="eve()" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
 
-                <button onclick="even()" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
+            <button onclick="even()" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
 
-                 </div>
+        </div>
 
             <!-- ERROR 1 -->
             <div id="error" class="p-2 pl-3 pr-3 hide">
@@ -112,24 +112,25 @@ $enddate=strtotime("+3 days", $startdate);
         <div id="cont2" class="p-5 hide" >
             <div class="text-black col-md-12">
                 
-            <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-black col-12 mt-4"> Pagar</button>
+                <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-black col-12 mt-4"> Pagar</button>
 
-            <button onclick='myFunction(2);' class="btn bg-danger text-black col-12 mt-4"> Compromiso de Pago</button>
+                <button onclick='myFunction(2);' class="btn bg-danger text-black col-12 mt-4"> Compromiso de Pago</button>
 
-             <button onclick='url3();' class="btn bg-danger text-black col-12 mt-4"> Quiero que me llamen</button>
+                <button onclick='url3();' class="btn bg-danger text-black col-12 mt-4"> Quiero que me llamen</button>
 
-            <button onclick='myFunction(3);' class="btn bg-danger text-black col-12 mt-4"> Tarifas | Sucursales | Informaciones</button>
+                <button onclick='myFunction(3);' class="btn bg-danger text-black col-12 mt-4"> Tarifas | Sucursales | Informaciones</button>
 
-            <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-danger text-black col-12 mt-4"> Boleta</button>
+                <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-danger text-black col-12 mt-4"> Boleta</button>
 
-            <button onclick='url6();' class="btn bg-danger text-black col-12 mt-4"> tengo un problema</button>
+                <button onclick='url6();' class="btn bg-danger text-black col-12 mt-4"> tengo un problema</button>
             </div>  
         </div>
 
         <!-- FECHA: PAGO -->
         <div id="calend" class="p-5 hide" >
             <div class="text-black col-md-12">
-            <h3 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.   </h3>       
+                <h3 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.   
+                </h3>       
             <div>
                 <label>Fecha:</label>
                 <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
