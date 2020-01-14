@@ -142,7 +142,7 @@ $enddate=strtotime("+3 days", $startdate);
                 
                 <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-black col-12 mt-4"> Pagar</button>
 
-                <button onclick='url2();' class="btn bg-danger text-black col-12 mt-4"> Compromiso de Pago</button>
+                <button onclick='myFunction(2);' class="btn bg-danger text-black col-12 mt-4"> Compromiso de Pago</button>
 
                 <button onclick='url3();' class="btn bg-danger text-black col-12 mt-4"> Quiero que me llamen</button>
 
@@ -155,7 +155,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
         <!-- FECHA: PAGO -->
-        <div id="calend" class="p-5"  style="display:none;">
+        <div id="producto2" class="p-5"  style="display:none;">
                 <div class="text-black col-md-12">
             <h3 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.         
             <div>
@@ -535,7 +535,7 @@ $enddate=strtotime("+3 days", $startdate);
 
 
 function myFunction(idButton) {
-  var producto1 = document.getElementById('producto1');
+  var url1 = document.getElementById('producto1');
   var producto2 = document.getElementById('producto2');
   var producto3 = document.getElementById('producto3');
 
