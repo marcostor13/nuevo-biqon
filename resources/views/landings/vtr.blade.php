@@ -359,7 +359,7 @@ $enddate=strtotime("+3 days", $startdate);
             console.log('{!! $landing->name !!}'); 
             
             let data; 
-            if(msg !== false){
+            if(msg !== false & date1 !== false){
                 data = {
                     'mensaje': msg,
                     'Nombre': $('#name').text(),
@@ -407,12 +407,13 @@ $enddate=strtotime("+3 days", $startdate);
             });
             $.post( "/sendMail", dataSend,function() {
                 console.log(dataSend);
-                if(msg !== false & time1 == false & date1 == false){
+                if(msg !== false & date1 !== false){
                     $('#message').removeClass('hide');
                      $('#calend').addClass('hide');
                     $('#success').removeClass('hide');
                     $('#message').text('Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
-                }else if (msg !== false & time1 == false){
+
+                }else if (msg !== false & time1 !== false){
                     $('#message').removeClass('hide');
                      $('#calemd').addClass('hide');
                     $('#success').removeClass('hide');
