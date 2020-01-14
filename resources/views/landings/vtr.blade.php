@@ -370,7 +370,7 @@ $enddate=strtotime("+3 days", $startdate);
                    
                     
                 }
-            }else if (msg !== false) && ( time1 !== false){
+            }else if (msg !== false & time1 !== false){
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
