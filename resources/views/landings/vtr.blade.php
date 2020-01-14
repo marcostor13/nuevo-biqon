@@ -105,6 +105,24 @@ $enddate=strtotime("+3 days", $startdate);
                     </div>
             </div>
 
+             <!-- MENU2:  -->
+        <div id="cont3" class="p-5 hide">
+                <div class="text-black col-md-12">
+                
+                <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-black col-12 mt-4"> Tarifas</button>
+
+                <button onclick='url2();' class="btn bg-danger text-black col-12 mt-4"> Compromiso de Pago</button>
+
+                <button onclick='url3();' class="btn bg-danger text-black col-12 mt-4"> Quiero que me llamen</button>
+
+                <button onclick='url4();' class="btn bg-danger text-black col-12 mt-4"> Tarifas|Sucursales|Informaciones</button>
+
+                <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-danger text-black col-12 mt-4"> Boleta</button>
+
+                <button onclick='url6();' class="btn bg-danger text-black col-12 mt-4"> tengo un problema</button>
+
+        </div>
+
         <!-- FECHA: PAGO -->
         <div id="fecha" class="p-5 hide">
                 <div class="text-black col-md-12">
