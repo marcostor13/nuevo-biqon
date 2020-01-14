@@ -201,7 +201,7 @@ $enddate=strtotime("+3 days", $startdate);
          </div>
     <!-- MENU 3: RECLAMO -->
             <div id="cont4" class="p-5 hide">
-                <div class="text-black col-md-12">
+                <div class="text-black col-md-12 text-center d-flex flex-column align-items-center justify-content-start p-0">
                 
                 <button onclick='url11(); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-5 mt-4"> SubTel|Sernac </button>
 
