@@ -124,7 +124,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
         <!-- FECHA: PAGO -->
-        <div id="fecha" class="p-5 hide">
+        <div id="calend" class="p-5 hide">
                 <div class="text-black col-md-12">
             <h3 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.         
             <div>
@@ -474,7 +474,7 @@ $enddate=strtotime("+3 days", $startdate);
 
         function url2(){
             $('#cont2').addClass('hide');
-            $('#fecha').removeClass('hide');
+            $('#calend').removeClass('hide');
 
         }
 
