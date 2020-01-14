@@ -43,9 +43,9 @@ $enddate=strtotime("+7 days", $startdate);
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <!--<a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56994378883&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56994378883"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>-->
-                    <a onclick="eventosLanding('Correo');" href="mailto:maf@prainabogados.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=569972079494&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+569972079494"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:ltheza@prainabogados.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
                </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -155,7 +155,7 @@ $enddate=strtotime("+7 days", $startdate);
                 } 
             }
 
-           var correo = ["maf@prainabogados.cl"];
+           var correo = ["maf@prainabogados.cl","ccastillo@mafchile.cl","ipalma@mafchile.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
