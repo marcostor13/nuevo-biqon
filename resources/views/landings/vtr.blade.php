@@ -231,7 +231,7 @@ $enddate=strtotime("+3 days", $startdate);
 
 
          <!-- MENU 3: RECLAMO -->
-            <div id="cont4" class="p-5"  style="display:none;">
+            <div id="cont4" class="p-5 "  style="display:none;">
                 <div class="text-black col-md-12">
                 
                 <button onclick='url11(); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-12 mt-4"> SubTel|Sernac </button>
@@ -261,7 +261,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <div id="success" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
                         <div class="card-body">
-                            <h5 id="message"class="text-grey text-center mt-4 hide"></h5>
+                            <h5 id="message"class="text-grey text-center mt-4 "></h5>
                         </div>
                     </div>
                 </div>
@@ -270,7 +270,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <div id="error" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
                         <div class="card-body">
-                            <h5 id="message"class="text-grey text-center mt-4 hide"></h5>
+                            <h5 id="message"class="text-grey text-center mt-4 "></h5>
                         </div>
                     </div>
                 </div>
@@ -553,7 +553,7 @@ function myFunction(idButton) {
           //$('#cont1').addClass('hide');
           $('#cont2').addClass('hide');
           producto2.style.display = 'block';
-          producto3.style.display = 'none';
+          $('#success').removeClass('hide');
     break;
 
  case 3:
