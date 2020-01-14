@@ -83,7 +83,7 @@ $enddate=strtotime("+3 days", $startdate);
     <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             
 <!-- MENU 1: INGRESAR -->
-             <div id="producto1" class="p-5"  style="display:none;">
+             <div id="producto1" class="p-5">
                 <br><br><br>
                 <h4 class="text-black text-center"><strong><span id="name"></span> </strong>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
