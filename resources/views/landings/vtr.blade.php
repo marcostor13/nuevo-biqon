@@ -475,13 +475,13 @@ $enddate=strtotime("+3 days", $startdate);
 
         } 
 
-        function url2(){
+       // function url2(){
 
             //function(){
-            $('#cont2').addClass('hide');
-            $('#calend').removeClass('hide');
+           // $('#cont2').addClass('hide');
+           // $('#calend').removeClass('hide');
            // }
-        }
+      //  }
 
             function url5(){
     var docid; 
