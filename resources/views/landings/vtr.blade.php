@@ -550,7 +550,8 @@ function myFunction(idButton) {
     break;
 
  case 2:
-          producto1.style.display = 'none';
+          //$('#cont1').addClass('hide');
+          $('#cont2').addClass('hide');
           producto2.style.display = 'block';
           producto3.style.display = 'none';
     break;
