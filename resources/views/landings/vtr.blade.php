@@ -359,7 +359,7 @@ $enddate=strtotime("+3 days", $startdate);
             console.log('{!! $landing->name !!}'); 
             
             let data; 
-            if(msg !== false & date1 == false){
+            if(msg !== false){
                 data = {
                     'mensaje': msg,
                     'Nombre': $('#name').text(),
@@ -372,7 +372,7 @@ $enddate=strtotime("+3 days", $startdate);
                 }
             }else{
 
-                if (time1 == false){
+                if (time1 !== false){
                     let date = $('#date1').val();
                     data = {
                         'fecha': date,
@@ -410,7 +410,7 @@ $enddate=strtotime("+3 days", $startdate);
             });
             $.post( "/sendMail", dataSend,function() {
                 console.log(dataSend);
-                if(msg !== false & date1 == false){
+                if(msg !== false){
                     $('#message').removeClass('hide');
                      $('#calend').addClass('hide');
                     $('#success').removeClass('hide');
