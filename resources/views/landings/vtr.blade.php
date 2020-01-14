@@ -520,7 +520,7 @@ function myFunction(idButton) {
           //$('#cont1').addClass('hide');
           $('#cont2').addClass('hide');
          // producto2.style.display = 'block';
-          $('#cont4').removeClass('hide');
+          $('#calend').removeClass('hide');
     break;
 
  case 3:
