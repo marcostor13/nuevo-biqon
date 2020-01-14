@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'Mundo Credito')
+@section('title', 'Prueba de Eventos')
 
 @section('content')
 <?php
@@ -45,11 +45,15 @@ $enddate=strtotime("+7 days", $startdate);
             <img class="img-fluid col-10 col-md-3 mt-2" src="{{$landing->logo}}" alt="mundocredito">
 
             <div id="cont1" class="p-5 ">
+                <!-- BOTON PAGAR-->
                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>PAGAR</button> 
+                <!-- CALENDARIO-->
+                 <label for="start">Start date:</label>
+                 <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2030-12-31">
 
-                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
-                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar </button>
+                <!--<h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>-->
+                <!--<input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>-->
+                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUÉ </button>
             </div>
 
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
@@ -83,11 +87,11 @@ $enddate=strtotime("+7 days", $startdate);
                 </div>       
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                            </div>
-                        </div>
+                 <div class="card">     
+                     <div class="card-body">
+                         <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                     </div>
+                 </div>
             </div>
         </div>
     </div>
@@ -189,7 +193,7 @@ $enddate=strtotime("+7 days", $startdate);
                 } 
             }
 
-            var correo = ["mundocredito@prainabogados.cl"];
+            var correo = ["luis.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
