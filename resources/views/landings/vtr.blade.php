@@ -407,7 +407,7 @@ $enddate=strtotime("+3 days", $startdate);
             });
             $.post( "/sendMail", dataSend,function() {
                 console.log(dataSend);
-                if(msg !== false){
+                if(msg !== false & time1 !== false & date1 !== false){
                     $('#message').removeClass('hide');
                      $('#calend').addClass('hide');
                     $('#success').removeClass('hide');
