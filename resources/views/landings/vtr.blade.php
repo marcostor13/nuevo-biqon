@@ -525,9 +525,13 @@ function url(idButton) {
           $('#cont2').addClass('hide');
           $('#cont3').removeClass('hide'); 
     break;
- case 3:
+ case 4:
           $('#cont2').addClass('hide');
           $('#cont4').removeClass('hide'); 
+    break;
+    case 5:
+          $('#cont2').addClass('hide');
+          $('#').removeClass('hide'); 
     break;
 default:
           alert("hay un problema: No existe el producto.")
