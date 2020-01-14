@@ -322,11 +322,11 @@ $enddate=strtotime("+3 days", $startdate);
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
-                    $('#date1').on('change', function(){
-                        if($('#date1').val() != ''){
-                            sendMail();
-                        }
-                    });
+                    //$('#date1').on('change', function(){
+                       // if($('#date1').val() != ''){
+                       //  //   sendMail();
+                       // }
+                   // });
                 }else{
                     $('#error').text(e.msg);
                 }
