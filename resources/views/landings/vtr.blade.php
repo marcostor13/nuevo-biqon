@@ -96,6 +96,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <button onclick="even()" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
 
                  </div>
+
             <!-- ERROR 1 -->
             <div id="error" class="p-2 pl-3 pr-3 hide">
                     <div class="card">     
@@ -117,7 +118,7 @@ $enddate=strtotime("+3 days", $startdate);
 
              <button onclick='url3();' class="btn bg-danger text-black col-12 mt-4"> Quiero que me llamen</button>
 
-            <button onclick='url4();' class="btn bg-danger text-black col-12 mt-4"> Tarifas | Sucursales | Informaciones</button>
+            <button onclick='myFunction(3);' class="btn bg-danger text-black col-12 mt-4"> Tarifas | Sucursales | Informaciones</button>
 
             <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-danger text-black col-12 mt-4"> Boleta</button>
 
@@ -524,9 +525,10 @@ function myFunction(idButton) {
     break;
 
  case 3:
-          producto1.style.display = 'none';
-          producto2.style.display = 'none';
-          producto3.style.display = 'block';
+        //$('#cont1').addClass('hide');
+          $('#cont2').addClass('hide');
+         // producto2.style.display = 'block';
+          $('#cont3').removeClass('hide'); 
     break;
 
 default:
