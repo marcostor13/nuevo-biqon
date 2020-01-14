@@ -380,7 +380,7 @@ $enddate=strtotime("+3 days", $startdate);
                     'Telefono': geturlParameter('telefono'),
                     'Landing': '{!! $landing->name !!}'
                 } 
-            } }else{
+            } else{
                 let date = $('#date1').val();
                 let date = $('#time1').val();
                 data = {
