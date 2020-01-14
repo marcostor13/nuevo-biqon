@@ -51,10 +51,10 @@ $enddate=strtotime("+7 days", $startdate);
                 
                 <!-- CALENDARIO-->
                  <label class="text-white" for="start">Fecha:</label><br>
-                 <input type="date" id="start" name="trip-start" value="2018-07-22" min="2020-01-01" max="2030-12-31">
+                 <input type="date" id="start" name="trip-start" value="2018-07-22" min="2020-01-01" max="2030-12-31"><br>
                 
                  <!-- YA PAGUE-->
-                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>YA PAGUÉ</button> 
+                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="javascript:alert("YA PAGO")>YA PAGUÉ</button> 
                  
                  <!-- CONTACTO-->
                  <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>CONTACTO</button> 
