@@ -382,10 +382,10 @@ $enddate=strtotime("+3 days", $startdate);
                 } 
             } else{
                 let date = $('#date1').val();
-                let date = $('#time1').val();
+                let time = $('#time1').val();
                 data = {
                     'Fecha': date,
-                    'Hora': time1,
+                    'Hora': time,
                     'Nombre': $('#name').text(),
                     //'monto': geturlParameter('monto'),
                      'RUT': geturlParameter('rut'),
