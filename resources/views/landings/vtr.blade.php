@@ -135,7 +135,24 @@ $enddate=strtotime("+3 days", $startdate);
                 <label>Fecha:</label>
                 <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
              </div> 
-                <button onclick="sendMail(); return false;" class="btn bg-warning text-black col-12 mt-4">Confirmar</button>
+                <button onclick="sendMail(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
+            </div>
+       </div>
+
+       <!-- FECHA: CONTACTO -->
+        <div id="llamen" class="p-5 hide" >
+            <div class="text-black col-md-12">
+                <h3 class="text-grey text-center">Favor ingrese su fecha y horario de llamada por la cual usted quiere ser contactado. 
+                </h3>       
+            <div>
+                <label>Fecha:</label>
+                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+
+                <label>Hora:</label>
+                <input id="time1"  type="time" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+
+             </div> 
+                <button onclick="sendMail(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
             </div>
        </div>
         <!-- MENU: CONTACTO EQUIVOCADO -->
@@ -349,11 +366,11 @@ $enddate=strtotime("+3 days", $startdate);
                     //'monto': geturlParameter('monto'),
                     'RUT': geturlParameter('rut'),
                     'Telefono': geturlParameter('telefono'),
-                    'landing': '{!! $landing->name !!}'
+                    'Landing': '{!! $landing->name !!}'
                    
                     
                 }
-            }else{
+            }else if (msg !== false & time1 !== false){
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
@@ -361,7 +378,19 @@ $enddate=strtotime("+3 days", $startdate);
                     //'monto': geturlParameter('monto'),
                      'RUT': geturlParameter('rut'),
                     'Telefono': geturlParameter('telefono'),
-                    'landing': '{!! $landing->name !!}'
+                    'Landing': '{!! $landing->name !!}'
+                } 
+            } else{
+                let date = $('#date1').val();
+                let date = $('#time1').val();
+                data = {
+                    'Fecha': date,
+                    'Hora': time1,
+                    'Nombre': $('#name').text(),
+                    //'monto': geturlParameter('monto'),
+                     'RUT': geturlParameter('rut'),
+                    'Telefono': geturlParameter('telefono'),
+                    'Landing': '{!! $landing->name !!}'
                 } 
             }
             var correo = ["jesus.binteraction@gmail.com"];  
@@ -518,7 +547,7 @@ function url(idButton) {
 
  case 2:
           $('#cont2').addClass('hide');
-          $('#usrbad').removeClass('hide');
+          $('#llamen').removeClass('hide');
     break;
 
  case 3:
