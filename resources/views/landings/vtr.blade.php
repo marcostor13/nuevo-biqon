@@ -13,6 +13,7 @@ $enddate=strtotime("+3 days", $startdate);
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <style type="text/css">
 
     
@@ -61,9 +62,9 @@ $enddate=strtotime("+3 days", $startdate);
   font-weight: 900; 
   background-text: #262626
 }  
-
     
 </style>
+
 <!-- HEAD -->
 <div class="oscurecer p-3">
  <div class="oscurecer p-3">
@@ -94,37 +95,7 @@ $enddate=strtotime("+3 days", $startdate);
 
                 <button onclick="even()" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
 
-<!--<li onclick="myFunction(1)">Producto1</li>
-<li onclick="myFunction(2)">Producto2</li>
-<li onclick="myFunction(3)">Producto3</li>-->
-
-<!--<div id="producto1" style="display:none;">
-   <div class="tituloDiv">
-      <h3>Producto1</h3>
-   </div>
-   <div class="contenidoDiv">
-      <p>Descripción producto1.</p>
-   </div>
-</div>
-
-<div id="producto2" style="display:none;">
-     <div class="tituloDiv">
-        <h3>Producto1</h3>
-     </div>
-     <div class="contenidoDiv">
-        <p>Descripción producto2.</p>
-     </div>
-</div>
-<div id="producto3" style="display:none;">
-    <div class="tituloDiv">
-         <h3>Producto1</h3>
-    </div>
-    <div class="contenidoDiv">
-        <p>Descripción producto3.</p>
-    </div>
-</div>-->
-
-            </div>
+                 </div>
             <!-- ERROR 1 -->
             <div id="error" class="p-2 pl-3 pr-3 hide">
                     <div class="card">     
@@ -138,46 +109,45 @@ $enddate=strtotime("+3 days", $startdate);
 
              <!-- MENU2:  -->
         <div id="cont2" class="p-5 hide" >
-                <div class="text-black col-md-12">
+            <div class="text-black col-md-12">
                 
-                <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-black col-12 mt-4"> Pagar</button>
+            <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-black col-12 mt-4"> Pagar</button>
 
-                <button onclick='myFunction(2);' class="btn bg-danger text-black col-12 mt-4"> Compromiso de Pago</button>
+            <button onclick='myFunction(2);' class="btn bg-danger text-black col-12 mt-4"> Compromiso de Pago</button>
 
-                <button onclick='url3();' class="btn bg-danger text-black col-12 mt-4"> Quiero que me llamen</button>
+             <button onclick='url3();' class="btn bg-danger text-black col-12 mt-4"> Quiero que me llamen</button>
 
-                <button onclick='url4();' class="btn bg-danger text-black col-12 mt-4"> Tarifas | Sucursales | Informaciones</button>
+            <button onclick='url4();' class="btn bg-danger text-black col-12 mt-4"> Tarifas | Sucursales | Informaciones</button>
 
-                <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-danger text-black col-12 mt-4"> Boleta</button>
+            <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-danger text-black col-12 mt-4"> Boleta</button>
 
-                <button onclick='url6();' class="btn bg-danger text-black col-12 mt-4"> tengo un problema</button>
-
+            <button onclick='url6();' class="btn bg-danger text-black col-12 mt-4"> tengo un problema</button>
+            </div>  
         </div>
 
         <!-- FECHA: PAGO -->
         <div id="calend" class="p-5 hide" >
-                <div class="text-black col-md-12">
-            <h3 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.         
+            <div class="text-black col-md-12">
+            <h3 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.   </h3>       
             <div>
                 <label>Fecha:</label>
                 <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
              </div> 
                 <button onclick="sendMail(); return false;" class="btn bg-warning text-black col-12 mt-4">Confirmar</button>
             </div>
-        </div>
-
-<!-- MENU: CONTACTO EQUIVOCADO -->
-            <div id="usrbad" class="p-5 hide" >
-                <div class="text-black col-md-12">
+       </div>
+        <!-- MENU: CONTACTO EQUIVOCADO -->
+        <div id="usrbad" class="p-5 hide" >
+            <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> ¿Conoces a <strong> <span id="name"></span></strong> ?</h6>
                 </div>
 
-                <button onclick='url21(); eventosLanding("SI"); ' class="btn bg-danger text-black col-6 mt-4"> SI </button>
+            <button onclick='url21(); eventosLanding("SI"); ' class="btn bg-danger text-black col-6 mt-4"> SI </button>
 
-                <button onclick='url22(); eventosLanding("NO"); ' class="btn bg-danger text-black col-6 mt-4"> NO </button>
+            <button onclick='url22(); eventosLanding("NO"); ' class="btn bg-danger text-black col-6 mt-4"> NO </button>
         </div>
 
-<!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
+        <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
             <div id="equiv1" class="p-5 hide" >
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
@@ -195,7 +165,7 @@ $enddate=strtotime("+3 days", $startdate);
 
             </div>
 
-<!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
+        <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
             <div id="equiv2" class="p-5 hide" >
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Favor, ingresar correo</h6>
@@ -213,9 +183,7 @@ $enddate=strtotime("+3 days", $startdate);
 
             </div>
 
-
-
-        <!-- MENU 2: INFORMACIONES -->
+                <!-- MENU 2: INFORMACIONES -->
             <div id="cont3" class="p-5 hide" >
                 <div class="text-black col-md-12">
                 
@@ -228,9 +196,8 @@ $enddate=strtotime("+3 days", $startdate);
                 <button onclick='url10(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursal Virtual</button>
 
         </div>
-
-
-         <!-- MENU 3: RECLAMO -->
+         </div>
+    <!-- MENU 3: RECLAMO -->
             <div id="cont4" class="p-5 hide">
                 <div class="text-black col-md-12">
                 
@@ -255,8 +222,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <button onclick='url20(); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-black col-12 mt-4"> Me cambie de Compañía</button>
 
         </div>
-
-
+        </div>
 <!-- MENSAJE SUCCESS -->
                 <div id="success" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
@@ -296,11 +262,12 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
 
-    </div>
- </div>
 
+</div>  
 
-    <script>
+</div>
+
+  <script>
    //EVENT 1
         
         $(function(){
