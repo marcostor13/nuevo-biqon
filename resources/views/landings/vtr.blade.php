@@ -393,8 +393,9 @@ $enddate=strtotime("+3 days", $startdate);
 
         function sendMail2(msg = false){
         console.log('{!! $landing->name !!}');  
+            let date = $('#date1').val(); 
             let data;
-             let date = $('#date1').val(); 
+             
                 data = {
                     'Fecha': date1,
                     'Nombre': $('#name').text(),
@@ -431,9 +432,9 @@ $enddate=strtotime("+3 days", $startdate);
 
         function sendMail3(msg = false){
         console.log('{!! $landing->name !!}');  
-            let data;
             let date = $('#date2').val();
-            let time = $('#time1').val(); 
+            let time = $('#time1').val();
+            let data;
                 data = {
                     'Fecha': date2,
                     'Hora': time1,
