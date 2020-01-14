@@ -135,7 +135,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <label>Fecha:</label>
                 <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
              </div> 
-                <button onclick="sendMail(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
+                <button onclick="sendMail2(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
             </div>
        </div>
 
@@ -152,7 +152,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <input id="time1"  type="time" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
 
              </div> 
-                <button onclick="sendMail(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
+                <button onclick="sendMail3(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
             </div>
        </div>
         <!-- MENU: CONTACTO EQUIVOCADO -->
@@ -322,11 +322,11 @@ $enddate=strtotime("+3 days", $startdate);
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
-                    $('#date1').on('change', function(){
-                        if($('#date1').val() != ''){
-                            sendMail();
-                        }
-                    });
+                    //$('#date1').on('change', function(){
+                       // if($('#date1').val() != ''){
+                       //  //   sendMail();
+                       // }
+                   // });
                 }else{
                     $('#error').text(e.msg);
                 }
@@ -355,44 +355,16 @@ $enddate=strtotime("+3 days", $startdate);
         
 
         function sendMail(msg = false){
-
-            console.log('{!! $landing->name !!}'); 
-            
+        console.log('{!! $landing->name !!}');  
             let data; 
-            if(msg !== false & date1 !== false){
                 data = {
                     'mensaje': msg,
                     'Nombre': $('#name').text(),
                     //'monto': geturlParameter('monto'),
                     'RUT': geturlParameter('rut'),
                     'Telefono': geturlParameter('telefono'),
-                    'Landing': '{!! $landing->name !!}'
-                   
-                    
-                }
-            }else if (msg !== false & time1 !== false){
-                let date = $('#date1').val();
-                data = {
-                    'fecha': date,
-                    'Nombre': $('#name').text(),
-                    //'monto': geturlParameter('monto'),
-                     'RUT': geturlParameter('rut'),
-                    'Telefono': geturlParameter('telefono'),
-                    'Landing': '{!! $landing->name !!}'
-                } 
-            } else{
-                let date = $('#date2').val();
-                let time = $('#time1').val();
-                data = {
-                    'Fecha': date,
-                    'Hora': time,
-                    'Nombre': $('#name').text(),
-                    //'monto': geturlParameter('monto'),
-                     'RUT': geturlParameter('rut'),
-                    'Telefono': geturlParameter('telefono'),
-                    'Landing': '{!! $landing->name !!}'
-                } 
-            }
+                    'Landing': '{!! $landing->name !!}' 
+                }  
             var correo = ["jesus.binteraction@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
@@ -401,33 +373,15 @@ $enddate=strtotime("+3 days", $startdate);
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                }
+        headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') }
             });
             $.post( "/sendMail", dataSend,function() {
                 console.log(dataSend);
-                if(msg !== false & date1 !== false){
-                    $('#message').removeClass('hide');
-                     $('#calend').addClass('hide');
-                    $('#success').removeClass('hide');
-                    $('#message').text('Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
-
-                }else if (msg !== false & time1 !== false){
-                    $('#message').removeClass('hide');
-                     $('#calemd').addClass('hide');
-                    $('#success').removeClass('hide');
-                    $('#message').text('Ha quedado su llamada agendada. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
-                      eventosLanding('Compromiso de Pago');
-
-                }else {
-                    $('#message').removeClass('hide');
-                     $('#llamen').addClass('hide');
-                    $('#success').removeClass('hide');
-                    $('#message').text('Ha quedado registrado su compromiso. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
-                      eventosLanding('agendo llamada');
-
-                }
+            
+            $('#message').removeClass('hide');
+            $('#calend').addClass('hide');
+            $('#success').removeClass('hide');
+            $('#message').text('Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
             })
             .done(function(e) {
                 console.log(e);
@@ -435,7 +389,85 @@ $enddate=strtotime("+3 days", $startdate);
             .fail(function() {
                 console.log( "error" );
             });
+        }
 
+        function sendMail2(msg = false){
+        console.log('{!! $landing->name !!}');  
+            let date = $('#date1').val(); 
+            let data;
+             
+                data = {
+                    'Fecha': date1,
+                    'Nombre': $('#name').text(),
+                    //'monto': geturlParameter('monto'),
+                    'RUT': geturlParameter('rut'),
+                    'Telefono': geturlParameter('telefono'),
+                    'Landing': '{!! $landing->name !!}' 
+                }  
+            var correo = ["jesus.binteraction@gmail.com"];  
+            let dataSend = {
+                'data': JSON.stringify(data),
+                'email': correo
+                //'email': '{!! $landing->email !!}'
+                //'email': 'marcostor13@gmail.com'
+            }
+            $.ajaxSetup({
+        headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') }
+            });
+            $.post( "/sendMail", dataSend,function() {
+                console.log(dataSend);
+            
+            $('#message').removeClass('hide');
+            $('#calend').addClass('hide');
+            $('#success').removeClass('hide');
+            $('#message').text('Ha quedado registrado su compromiso.Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
+            })
+            .done(function(e) {
+                console.log(e);
+            })
+            .fail(function() {
+                console.log( "error" );
+            });
+        }
+
+        function sendMail3(msg = false){
+        console.log('{!! $landing->name !!}');  
+            let date = $('#date2').val();
+            let time = $('#time1').val();
+            let data;
+                data = {
+                    'Fecha': date2,
+                    'Hora': time1,
+                    'Nombre': $('#name').text(),
+                    //'monto': geturlParameter('monto'),
+                    'RUT': geturlParameter('rut'),
+                    'Telefono': geturlParameter('telefono'),
+                    'Landing': '{!! $landing->name !!}' 
+                }  
+            var correo = ["jesus.binteraction@gmail.com"];  
+            let dataSend = {
+                'data': JSON.stringify(data),
+                'email': correo
+                //'email': '{!! $landing->email !!}'
+                //'email': 'marcostor13@gmail.com'
+            }
+            $.ajaxSetup({
+        headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') }
+            });
+            $.post( "/sendMail", dataSend,function() {
+                console.log(dataSend);
+            
+            $('#message').removeClass('hide');
+            $('#calend').addClass('hide');
+            $('#success').removeClass('hide');
+            $('#message').text('Ha quedado su llamada agendada. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
+            })
+            .done(function(e) {
+                console.log(e);
+            })
+            .fail(function() {
+                console.log( "error" );
+            });
         }
 
 
