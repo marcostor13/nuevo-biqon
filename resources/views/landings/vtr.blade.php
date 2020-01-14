@@ -473,10 +473,16 @@ $enddate=strtotime("+3 days", $startdate);
         } 
 
         function url2(){
+            function(){
             $('#cont2').addClass('hide');
             $('#calend').removeClass('hide');
+            $('#date1').on('change', function(){
+                        if($('#date1').val() != ''){
+                            sendMail();
+                        }
+                    }
 
-        }
+        } }
 
 
             function url5(){
