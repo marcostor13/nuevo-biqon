@@ -370,31 +370,28 @@ $enddate=strtotime("+3 days", $startdate);
                    
                     
                 }
-            }else{
-
-                if (time1 == false){
-                    let date = $('#date1').val();
-                    data = {
-                        'fecha': date,
-                        'Nombre': $('#name').text(),
-                        //'monto': geturlParameter('monto'),
-                         'RUT': geturlParameter('rut'),
-                        'Telefono': geturlParameter('telefono'),
-                        'Landing': '{!! $landing->name !!}'
-                    } 
-                }else{
-                    let date = $('#date2').val();
-                    let time = $('#time1').val();
-                    data = {
-                        'Fecha': date,
-                        'Hora': time,
-                        'Nombre': $('#name').text(),
-                        //'monto': geturlParameter('monto'),
-                         'RUT': geturlParameter('rut'),
-                        'Telefono': geturlParameter('telefono'),
-                        'Landing': '{!! $landing->name !!}'
-                    } 
-                }
+            }else if (msg !== false & time1 == false){
+                let date = $('#date1').val();
+                data = {
+                    'fecha': date,
+                    'Nombre': $('#name').text(),
+                    //'monto': geturlParameter('monto'),
+                     'RUT': geturlParameter('rut'),
+                    'Telefono': geturlParameter('telefono'),
+                    'Landing': '{!! $landing->name !!}'
+                } 
+            } else{
+                let date = $('#date2').val();
+                let time = $('#time1').val();
+                data = {
+                    'Fecha': date,
+                    'Hora': time,
+                    'Nombre': $('#name').text(),
+                    //'monto': geturlParameter('monto'),
+                     'RUT': geturlParameter('rut'),
+                    'Telefono': geturlParameter('telefono'),
+                    'Landing': '{!! $landing->name !!}'
+                } 
             }
             var correo = ["jesus.binteraction@gmail.com"];  
             let dataSend = {
@@ -410,30 +407,26 @@ $enddate=strtotime("+3 days", $startdate);
             });
             $.post( "/sendMail", dataSend,function() {
                 console.log(dataSend);
-                if(msg !== false & date1 == false){
+                if(msg !== false & & date1 == false){
                     $('#message').removeClass('hide');
                      $('#calend').addClass('hide');
                     $('#success').removeClass('hide');
                     $('#message').text('Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
-
-                }else{
-
-                if (time1 == false){
+                }else if (msg !== false & time1 == false){
                     $('#message').removeClass('hide');
-                     $('#calemd').addClass('hide');
+                     $('#llamen').addClass('hide');
                     $('#success').removeClass('hide');
                     $('#message').text('Ha quedado su llamada agendada. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
                       eventosLanding('Compromiso de Pago');
 
                 }else {
                     $('#message').removeClass('hide');
-                     $('#llamen').addClass('hide');
+                     $('#calend').addClass('hide');
                     $('#success').removeClass('hide');
                     $('#message').text('Ha quedado registrado su compromiso. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
                       eventosLanding('agendo llamada');
 
                 }
-            }
             })
             .done(function(e) {
                 console.log(e);
