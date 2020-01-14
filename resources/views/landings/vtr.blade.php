@@ -88,7 +88,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <h4 class="text-black text-center"><strong><span id="name"></span> </strong>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 
-                <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> INGRESAR </button>
+                <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Ingresar </button>
 
                 <button onclick="eve2(); return false;" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
 
@@ -147,7 +147,7 @@ $enddate=strtotime("+3 days", $startdate);
             </div>
 
 <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
-            <div id="equiv1" class="p-5 hide">
+            <div id="equiv2" class="p-5 hide">
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Favor, ingresar correo</h6>
                 </div>
@@ -185,25 +185,25 @@ $enddate=strtotime("+3 days", $startdate);
             <div id="cont4" class="p-5 hide">
                 <div class="text-black col-md-12">
                 
-                <button onclick='url11(); eventosLanding("Tarifas"); ' class="btn bg-danger text-black col-12 mt-4"> SubTel </button>
+                <button onclick='url11(); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-12 mt-4"> SubTel|Sernac </button>
 
-                <button onclick='url12(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-black col-12 mt-4"> Lugares de Pago</button>
+                <button onclick='url12(); eventosLanding("Problemas Económicos); ' class="btn bg-danger text-black col-12 mt-4"> Problemas Economicos</button>
 
-                <button onclick='url13(); eventosLanding("Sucursales"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursales</button>
+                <button onclick='url13(); eventosLanding("No Reconozco Deuda"); ' class="btn bg-danger text-black col-12 mt-4"> No Reconozco Deuda</button>
 
-                <button onclick='urll4(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursal Virtual</button>
+                <button onclick='urll4(); eventosLanding("Problema Técnico"); ' class="btn bg-danger text-black col-12 mt-4"> Problema Tecnico</button>
 
-                <button onclick='url15(); eventosLanding("Tarifas"); ' class="btn bg-danger text-black col-12 mt-4"> Tarifas</button>
+                <button onclick='url15(); eventosLanding("Problema Comercial"); ' class="btn bg-danger text-black col-12 mt-4"> Problema Comercial</button>
 
-                <button onclick='url16(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-black col-12 mt-4"> Lugares de Pago</button>
+                <button onclick='url16(); eventosLanding("Pago no aplicado"); ' class="btn bg-danger text-black col-12 mt-4"> Pago no aplicado</button>
 
-                <button onclick='url17(); eventosLanding("Sucursales"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursales</button>
+                <button onclick='url17(); eventosLanding("Fraude"); ' class="btn bg-danger text-black col-12 mt-4"> Fraude</button>
 
-                <button onclick='url18(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursal Virtual</button>
+                <button onclick='url18(); eventosLanding("Titular fallecido"); ' class="btn bg-danger text-black col-12 mt-4"> Titular fallecido</button>
 
-                <button onclick='url19(); eventosLanding("Sucursales"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursales</button>
+                <button onclick='url19(); eventosLanding("Baja no ingresanda"); ' class="btn bg-danger text-black col-12 mt-4"> Baja no ingresada</button>
 
-                <button onclick='url20(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursal Virtual</button>
+                <button onclick='url20(); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-black col-12 mt-4"> Me cambie de Compañía</button>
 
         </div>
 
@@ -218,7 +218,7 @@ $enddate=strtotime("+3 days", $startdate);
                 </div>
 
                 <!-- Contacto Equivocado -->
-                <div id="success" class="p-2 pl-5 pr-5 hide">
+                <div id="error" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
                         <div class="card-body">
                             <h5 id="message"class="text-grey text-center mt-4 hide"></h5>
@@ -438,7 +438,7 @@ $enddate=strtotime("+3 days", $startdate);
         };
 
 
-         function url(){
+         function url1(){
     var rut; 
          rut= geturlParameter('rut'); //1234  "76114143-0";
          // console.log(rut);
@@ -455,7 +455,7 @@ $enddate=strtotime("+3 days", $startdate);
         } 
 
 
-            function url2(){
+            function url5(){
     var docid; 
          docid= geturlParameter('data1'); //"AFAEc%2FnhOohJncAMwniaD1w1inFcH147"; //1234  "76114143-0";
           
