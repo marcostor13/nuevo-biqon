@@ -45,19 +45,27 @@ $enddate=strtotime("+7 days", $startdate);
             <img class="img-fluid col-10 col-md-3 mt-2" src="{{$landing->logo}}" alt="mundocredito">
 
             <div id="cont1" class="p-5 ">
+                
                 <!-- BOTON PAGAR-->
                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>PAGAR</button> 
+                
                 <!-- CALENDARIO-->
                  <label class="text-white" for="start">Fecha:</label><br>
                  <input type="date" id="start" name="trip-start" value="2018-07-22" min="2020-01-01" max="2030-12-31">
-                 <!--calendario 2-->
+                
+                 <!-- YA PAGUE-->
+                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>YA PAGUÉ</button> 
+                 
+                 <!-- CONTACTO-->
+                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>CONTACTO</button> 
+                 
+                 <!-- PAGO EN CUOTAS-->
+                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>PAGO EN CUOTAS</button> 
+                 
+                 <!-- YA PAGUE-->
+                      
 
-                 <div id="cont1" class="md-form mx-5 my-5" >
-                <!--<div class="md-form mx-5 my-5">-->
-                <input placeholder="Date and Time" type="text" data-open="picker2" class="form-control date-time picker-opener">
-                <input placeholder="Selected date" type="text" id="picker2"  class="datepicker form-control time-date-ghost">
-                <input placeholder="Selected time" data-open="picker2" type="text" class="form-control timepicker time-date-ghost">
-                </div>
+
 
                 <!--<h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>-->
                 <!--<input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>-->
