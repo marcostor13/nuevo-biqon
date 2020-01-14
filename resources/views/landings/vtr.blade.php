@@ -83,22 +83,22 @@ $enddate=strtotime("+3 days", $startdate);
     <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             
 <!-- MENU 1: INGRESAR -->
-             <div id="cont1" class="p-5 ">
+             <div id="producto1" class="p-5"  style="display:none;">
                 <br><br><br>
                 <h4 class="text-black text-center"><strong><span id="name"></span> </strong>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 
                 <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Ingresar </button>
 
-                <button onclick="myFunction(2); return false;" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
+                <button onclick="myFunction(2)" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
 
-                <button onclick="eve3(); return false;" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
+                <button onclick="myFunction(3)" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
 
 <!--<li onclick="myFunction(1)">Producto1</li>
 <li onclick="myFunction(2)">Producto2</li>
 <li onclick="myFunction(3)">Producto3</li>-->
 
-<div id="producto1" style="display:none;">
+<!--<div id="producto1" style="display:none;">
    <div class="tituloDiv">
       <h3>Producto1</h3>
    </div>
@@ -107,15 +107,14 @@ $enddate=strtotime("+3 days", $startdate);
    </div>
 </div>
 
-<!--<div id="producto2" style="display:none;">
+<div id="producto2" style="display:none;">
      <div class="tituloDiv">
         <h3>Producto1</h3>
      </div>
      <div class="contenidoDiv">
         <p>Descripción producto2.</p>
      </div>
-</div>-->
-
+</div>
 <div id="producto3" style="display:none;">
     <div class="tituloDiv">
          <h3>Producto1</h3>
@@ -123,7 +122,8 @@ $enddate=strtotime("+3 days", $startdate);
     <div class="contenidoDiv">
         <p>Descripción producto3.</p>
     </div>
-</div>
+</div>-->
+
             </div>
             <!-- ERROR 1 -->
             <div id="error" class="p-2 pl-3 pr-3 hide">
@@ -137,7 +137,7 @@ $enddate=strtotime("+3 days", $startdate);
             </div>
 
              <!-- MENU2:  -->
-        <div id="cont2" class="p-5  hide ">
+        <div id="producto3" class="p-5"  style="display:none;">
                 <div class="text-black col-md-12">
                 
                 <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-black col-12 mt-4"> Pagar</button>
@@ -155,7 +155,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
         <!-- FECHA: PAGO -->
-        <div id="calend" class="p-5 hide ">
+        <div id="calend" class="p-5"  style="display:none;">
                 <div class="text-black col-md-12">
             <h3 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.         
             <div>
@@ -196,7 +196,7 @@ $enddate=strtotime("+3 days", $startdate);
             </div>
 
 <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
-            <div id="equiv2" class="p-5 hide ">
+            <div id="equiv2" class="p-5"  style="display:none;">
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Favor, ingresar correo</h6>
                 </div>
@@ -216,7 +216,7 @@ $enddate=strtotime("+3 days", $startdate);
 
 
         <!-- MENU 2: INFORMACIONES -->
-            <div id="cont3" class="p-5 hide ">
+            <div id="cont3" class="p-5"  style="display:none;">
                 <div class="text-black col-md-12">
                 
                 <button onclick='url7(); eventosLanding("Tarifas"); ' class="btn bg-danger text-black col-12 mt-4"> Tarifas</button>
@@ -231,7 +231,7 @@ $enddate=strtotime("+3 days", $startdate);
 
 
          <!-- MENU 3: RECLAMO -->
-            <div id="cont4" class="p-5 hide ">
+            <div id="cont4" class="p-5"  style="display:none;">
                 <div class="text-black col-md-12">
                 
                 <button onclick='url11(); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-12 mt-4"> SubTel|Sernac </button>
