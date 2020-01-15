@@ -93,7 +93,7 @@ $enddate=strtotime("+3 days", $startdate);
 
             <button onclick="url(5)" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
 
-            <button onclick="even()" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
+            <button onclick="window.location.href='closer()'; return false;" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
 
         </div>
 
