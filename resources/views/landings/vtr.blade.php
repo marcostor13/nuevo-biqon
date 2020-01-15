@@ -393,18 +393,33 @@ $enddate1=strtotime("+5 days", $startdate);
                     
                 }
             }else{
+                
                 if ($('#date1').val().length == 0){ 
                   let date = $('#date2').val();
-                }else{
-                  let date = $('#date1').val();
-                }
-                data = {
+                  data = {
                     'Fecha': date,
                     'Nombre': $('#name').text(),
                     'Rut': geturlParameter('rut'),
                     'Telefono': geturlParameter('telefono'),
                     'Landing': '{!! $landing->name !!}'
                 } 
+                }else{
+                  let date = $('#date1').val();
+                  data = {
+                    'Fecha': date,
+                    'Nombre': $('#name').text(),
+                    'Rut': geturlParameter('rut'),
+                    'Telefono': geturlParameter('telefono'),
+                    'Landing': '{!! $landing->name !!}'
+                } 
+                }
+               // data = {
+                 //   'Fecha': date,
+                  //  'Nombre': $('#name').text(),
+                  //  'Rut': geturlParameter('rut'),
+                  //  'Telefono': geturlParameter('telefono'),
+                  //  'Landing': '{!! $landing->name !!}'
+               // } 
             }
              var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
