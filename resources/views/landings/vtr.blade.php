@@ -68,14 +68,14 @@ $enddate=strtotime("+3 days", $startdate);
 <!-- HEAD -->
 
  <div class="oscurecer p-3">
-        <div id="head" class="p-2 pl-2 pr-2 "> <img class="img-fluid col-10 col-md-6" src="{{$landing->logo}}" alt="VTR"> 
+        <div id="head" class="p-2 pl-2 pr-2 "> <img class="img-fluid col-10 col-md-4" src="{{$landing->logo}}" alt="VTR"> 
         
         
-             <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="20" height="20"  src="https://k61.kn3.net/taringa/A/C/7/7/E/B/Seb37/7C2.png"></a>
+             <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="20" height="20"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
                    
-             <a class="ml-1" onclick="eventosLanding('Twitter');" href="https://twitter.com/vtrchile"><img width="20" height="20" src="https://k60.kn3.net/taringa/7/6/C/E/5/5/Seb37/C49.png"></a>
+             <a class="ml-1" onclick="eventosLanding('Twitter');" href="https://twitter.com/vtrchile"><img width="20" height="20" src="https://image.flaticon.com/icons/svg/174/174876.svg"></a>
 
-             <a class="ml-1" onclick="eventosLanding('Youtube');" href="https://www.youtube.com/user/VTRChile"><img width="20" height="20" src="https://k60.kn3.net/taringa/E/D/B/D/4/2/Seb37/129.png"></a>
+             <a class="ml-1" onclick="eventosLanding('Youtube');" href="https://www.youtube.com/user/VTRChile"><img width="20" height="20" src="https://image.flaticon.com/icons/svg/174/174883.svg"></a>
             </div>
 
         </div>
