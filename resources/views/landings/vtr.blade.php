@@ -262,7 +262,7 @@ $enddate=strtotime("+3 days", $startdate);
 
    <!-- PIE DE PAGINA -->             
     <div class="oscurecer p-3">
-         <div id="pie" class="p-2 pl-2 pr-2 ">
+        <!-- <div id="pie" class="p-2 pl-2 pr-2 ">
             <i class="fas fa-question text-danger"></i>
             <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-black">Centro de ayuda</a>
                    
@@ -276,9 +276,9 @@ $enddate=strtotime("+3 days", $startdate);
             <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-black">  Privacidad</a>
             <br>
             <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
-        </div>
+        </div> -->
 
-        <table class="table table-bordered table-dark">
+        <table class="table table table-dark">
   <!--<thead>
     <tr>
       <th scope="col">1</th>
@@ -304,7 +304,7 @@ $enddate=strtotime("+3 days", $startdate);
         </tr>
         <tr>
           <td colspan="3"> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> </td>
-          <td colspan="5">  </td>
+          <td colspan="5"> © 2020 VTR Comunicaciones SPA </td>
         </tr>
   
  <tbody>
