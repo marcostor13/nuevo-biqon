@@ -279,7 +279,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div>
 
         <table class="table table-bordered table-dark">
-  <thead>
+  <!--<thead>
     <tr>
       <th scope="col">1</th>
       <th scope="col">2</th>
@@ -290,18 +290,24 @@ $enddate=strtotime("+3 days", $startdate);
       <th scope="col">7</th>
       <th scope="col">8</th>
     </tr>
+    </thead> -->
     <tbody>
-      <td colspan="2"> <i class="fas fa-question text-danger"></i>
+        <tr>
+          <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
             <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-black">Centro de ayuda</a> </th>
-      <td colspan="2"> <i class="fas fa-question text-danger"></i>
+          <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
             <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-black"> Reportar Abusos</a> </td>
-
-      <td colspan="2"> <i class="fas fa-exclamation-circle text-danger"></i> 
+          <td colspan="2"> <!--<i class="fas fa-exclamation-circle text-danger"></i> -->
             <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-black"> Actualiza Datos</a> </td>
-      <td colspan="2"> <i class="fas fa-user text-danger"></i>
+          <td colspan="2"> <!--<i class="fas fa-user text-danger"></i>-->
             <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-black">  Privacidad</a> </td>
-  </thead>
-
+        </tr>
+        <tr>
+          <td colspan="3"> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> </td>
+          <td colspan="5">  </td>
+        </tr>
+  
+ <tbody>
         </div>
 
 
