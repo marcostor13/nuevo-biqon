@@ -55,10 +55,10 @@ $enddate=strtotime("+7 days", $startdate);
                 <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="2019-12-20"/>
                 
                  <!-- YA PAGUE-->
-                  <button onclick="event1(); return false;" class="btn btn-primary btn-lg btn-block">YA PAGUÉ </button>
+                  <button onclick="; return false;" class="btn btn-primary btn-lg btn-block">YA PAGUÉ </button>
                  
                  <!-- CONTACTO-->
-                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>CONTACTO</button> 
+                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://api.whatsapp.com/send?phone=56979201461&text=contactado%20por%20whatsapp%20xd" '>CONTACTO</button> 
                  
                  <!-- PAGO EN CUOTAS-->
                  <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>PAGO EN CUOTAS</button> 
