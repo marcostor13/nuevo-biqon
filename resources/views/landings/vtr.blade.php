@@ -193,7 +193,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div>
-                <button onclick='url25();' class="btn bg-danger text-black col-10 mt-4"> No quiero ingresar </button>
+                <button onclick='url(7);' class="btn bg-danger text-black col-10 mt-4"> No quiero ingresar </button>
 
             </div>
 
@@ -621,8 +621,9 @@ $enddate1=strtotime("+5 days", $startdate);
 
                function  valtlf(){      
              if ($('#telf').val().length == 9){ 
+
                  $('#button01').addClass('hide');
-         // $('#calend').removeClass('hide');
+
              }else{
                  alert("El telefono es incorecto");
              }
