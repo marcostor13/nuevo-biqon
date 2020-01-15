@@ -68,7 +68,7 @@ $enddate=strtotime("+3 days", $startdate);
 <!-- HEAD -->
 <div class="oscurecer p-3">
  <div class="oscurecer p-3">
-         <div id="head" class="p-2 pl-2 pr-2 "> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
+         <div id="head" class="p-2 pl-2 pr-2 "> <img class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
 
              <a class="ml-4" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="20" src="https://k61.kn3.net/taringa/A/C/7/7/E/B/Seb37/7C2.png"></a>
                    
