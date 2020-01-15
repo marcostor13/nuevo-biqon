@@ -220,25 +220,25 @@ $enddate=strtotime("+3 days", $startdate);
             <div id="cont4" class="p-5 hide">
                 <div class="text-black col-md-12 text-center align-items-center justify-content-start p-0">
                 
-                <button onclick='url11(); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-5 mt-4"> SubTel|Sernac </button>
+                <button onclick='url10(); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-5 mt-4"> SubTel|Sernac </button>
 
-                <button onclick='url12(); eventosLanding("Problemas Económicos); ' class="btn bg-danger text-black col-5 mt-4"> Problemas Economicos</button>
+                <button onclick='url10(); eventosLanding("Problemas Económicos); ' class="btn bg-danger text-black col-5 mt-4"> Problemas Economicos</button>
 
-                <button onclick='url13(); eventosLanding("No Reconozco Deuda"); ' class="btn bg-danger text-black col-5 mt-4"> No Reconozco Deuda</button>
+                <button onclick='url10(); eventosLanding("No Reconozco Deuda"); ' class="btn bg-danger text-black col-5 mt-4"> No Reconozco Deuda</button>
 
-                <button onclick='urll4(); eventosLanding("Problema Técnico"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Tecnico</button>
+                <button onclick='urll0(); eventosLanding("Problema Técnico"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Tecnico</button>
 
-                <button onclick='url15(); eventosLanding("Problema Comercial"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Comercial</button>
+                <button onclick='url10(); eventosLanding("Problema Comercial"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Comercial</button>
 
-                <button onclick='url16(); eventosLanding("Pago no aplicado"); ' class="btn bg-danger text-black col-5 mt-4"> Pago no aplicado</button>
+                <button onclick='url10(); eventosLanding("Pago no aplicado"); ' class="btn bg-danger text-black col-5 mt-4"> Pago no aplicado</button>
 
-                <button onclick='url17(); eventosLanding("Fraude"); ' class="btn bg-danger text-black col-5 mt-4"> Fraude</button>
+                <button onclick='url10(); eventosLanding("Fraude"); ' class="btn bg-danger text-black col-5 mt-4"> Fraude</button>
 
-                <button onclick='url18(); eventosLanding("Titular fallecido"); ' class="btn bg-danger text-black col-5 mt-4"> Titular fallecido</button>
+                <button onclick='url10(); eventosLanding("Titular fallecido"); ' class="btn bg-danger text-black col-5 mt-4"> Titular fallecido</button>
 
-                <button onclick='url19(); eventosLanding("Baja no ingresanda"); ' class="btn bg-danger text-black col-5 mt-4"> Baja no ingresada</button>
+                <button onclick='url10(); eventosLanding("Baja no ingresanda"); ' class="btn bg-danger text-black col-5 mt-4"> Baja no ingresada</button>
 
-                <button onclick='url20(); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-black col-5 mt-4"> Me cambie de Compañía</button>
+                <button onclick='url10(); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-black col-5 mt-4"> Me cambie de Compañía</button>
 
         </div>
         </div>
@@ -549,6 +549,19 @@ $enddate=strtotime("+3 days", $startdate);
         } 
 
 
+                function url10(){ //sucursal Virtual
+        var rut; 
+         rut= geturlParameter('rut');
+            swal({
+             title: `Será Direccionado a Paguina de Reclamos`,
+             type: "success",
+             timer: 3000
+        }, 
+        function(){
+             window.location.href = "https://vtr.com/productos/reclamos";
+        })
+        } 
+
 function url(idButton) {
 
  switch(idButton) {
@@ -583,7 +596,7 @@ function url(idButton) {
           $('#equiv1').removeClass('hide'); 
     break;
 default:
-          alert("hay un problema: No existe el producto.")
+          alert("OPCION INVALIDA.")
         }
 
    }
