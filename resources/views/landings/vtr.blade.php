@@ -302,13 +302,13 @@ $name = $_GET['NOMBRE'];
     <tbody>
         <tr>
           <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
-            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-danger"> <h6>Centro de ayuda </h6> </a> </td>
+            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-danger"><p>Centro de ayuda</p> </a> </td>
           <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
-            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-black"> Reportar Abusos</a> </td>
+            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-black"><h6>Reportar Abusos</h6></a> </td>
           <td colspan="2"> <!--<i class="fas fa-exclamation-circle text-danger"></i> -->
-            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-black"> Actualiza Datos</a> </td>
+            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-black"><h6>Actualiza Datos</h6> </a> </td>
           <td colspan="2"> <!--<i class="fas fa-user text-danger"></i>-->
-            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-black">  Privacidad</a> </td>
+            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-black"><h6>Privacidad</h6> </a> </td>
         </tr>
         <tr>
           <td colspan="3"> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> </td>
