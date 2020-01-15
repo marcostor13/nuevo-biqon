@@ -8,8 +8,8 @@ $startdate=strtotime("Today");
 $enddate=strtotime("+3 days", $startdate);
 
 $name = $_GET['NOMBRE'];
-$servicio = $_GET['DATA1'];
-$estado = $_GET['DATA2'];
+$servicio = $_GET['DATA2'];
+$estado = $_GET['DATA3'];
 $pay = $_GET['MONTO'];
 ?>
 
