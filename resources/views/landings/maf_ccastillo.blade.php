@@ -47,7 +47,7 @@ $enddate=strtotime("+7 days", $startdate);
                     <br>
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56930733111&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
                     <a onclick="eventosLanding('Llamar');" href="tel:+569930733111"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                    <a onclick="eventosLanding('Correo');" href="mailto:ccastillo@mafchile.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:ccastillo@mafchile.com"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
                </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -160,7 +160,7 @@ $enddate=strtotime("+7 days", $startdate);
                 } 
             }
 
-           var correo = ["ccastillo@mafchile.cl"];
+           var correo = ["ccastillo@mafchile.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
