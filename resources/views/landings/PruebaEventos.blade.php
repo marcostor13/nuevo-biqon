@@ -55,6 +55,9 @@ $enddate=strtotime("+7 days", $startdate);
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="2019-12-20"/>
                 </div>
                 <br>
+                <br>
+                <br>
+                
                 
                  <!-- YA PAGUE-->
                   <button onclick="; return false;" class="btn btn-primary btn-lg btn-block">YA PAGUÉ </button>
