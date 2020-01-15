@@ -171,12 +171,12 @@ $enddate1=strtotime("+5 days", $startdate);
         <!-- MENU: CONTACTO EQUIVOCADO -->
         <div id="usrbad" class="p-5 hide" >
             <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> ¿Conoces a <strong> <span id="name"></span></strong> ?</h6>
+                <h6 class="text-black text-center"> ¿Conoces a <strong> <span id="name"> </span> </strong> ?</h6>
                 </div>
 
-            <button onclick='url(6); ' class="btn bg-danger text-black col-6 mt-4"> SI </button>
+            <button onclick='url(6); ' class="btn bg-danger text-black col-5 mt-4"> SI </button>
 
-            <button onclick='url22(); eventosLanding("NO CONTACTO"); ' class="btn bg-danger text-black col-6 mt-4"> NO </button>
+            <button onclick='url22(); eventosLanding("NO CONTACTO"); ' class="btn bg-danger text-black col-5 mt-4"> NO </button>
         </div>
 
         <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
@@ -186,9 +186,9 @@ $enddate1=strtotime("+5 days", $startdate);
                 </div>
                  <input id="telf" type="number" class="form-control mt-4 text-center text-black" required>
 
-                <button onclick='url_v();' class="btn bg-danger text-black col-5 mt-4"> VALIDAR </button>
+                <button onclick='url_v();' class="btn bg-warning text-black col-6 mt-4"> VALIDAR </button>
 
-                <button onclick='url(7);' class="btn bg-danger text-black col-5 mt-4"> CONTINUAR </button>
+                <button onclick='url(7);' class="btn bg-danger text-black col-10 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
@@ -204,7 +204,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 </div>
                  <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required>
 
-                <button onclick='url_v1();' class="btn bg-danger text-black col-5 mt-4"> VALIDAR </button>
+                <button onclick='url_v1();' class="btn bg-warning text-black col-5 mt-4"> VALIDAR </button>
 
                 <button onclick='urldatos();' class="btn bg-danger text-black col-5 mt-4"> CONTINUAR </button>
                 <br>
@@ -649,10 +649,12 @@ function url(idButton) {
     break;
      case 6:
           $('#usrbad').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
           $('#equiv1').removeClass('hide'); 
     break;
      case 7:
           $('#equiv2').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
           $('#equiv1').removeClass('hide'); 
     break;
 default:
