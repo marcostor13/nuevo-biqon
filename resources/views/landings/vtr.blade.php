@@ -206,13 +206,13 @@ $enddate=strtotime("+3 days", $startdate);
             <div id="cont3" class="p-5 hide" >
                 <div class="text-black col-md-12">
                 
-                <button onclick='url7(); eventosLanding("Tarifas"); ' class="btn bg-danger text-black col-12 mt-4"> Tarifas</button>
+                <button onclick='url6(); eventosLanding("Tarifas"); ' class="btn bg-danger text-black col-12 mt-4"> Tarifas</button>
 
-                <button onclick='url8(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-black col-12 mt-4"> Lugares de Pago</button>
+                <button onclick='url7(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-black col-12 mt-4"> Lugares de Pago</button>
 
-                <button onclick='url9(); eventosLanding("Sucursales"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursales</button>
+                <button onclick='url8(); eventosLanding("Sucursales"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursales</button>
 
-                <button onclick='url10(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursal Virtual</button>
+                <button onclick='url9(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-black col-12 mt-4"> Sucursal Virtual</button>
 
         </div>
          </div>
@@ -470,53 +470,86 @@ $enddate=strtotime("+3 days", $startdate);
         };
 
 
-         function url1(){
-    var rut; 
-         rut= geturlParameter('rut'); //1234  "76114143-0";
-         // console.log(rut);
+         function url1(){ //Pagar
+        var rut; 
+         rut= geturlParameter('rut');
             swal({
-             title: `Será Direccionado a la Página de Pagos`,//`el cododigo es: ${rut}`,
-             //text: "Expandir la Pantalla",
+             title: `Será Direccionado a la Página de Pagos`,
              type: "success",
-             timer: 5000
+             timer: 3000
         }, 
         function(){
              window.location.href = "https://vtr.com/miregistro/paymentExpress.jsp?_dyncharset=UTF-8&c-rut="+rut+"&_D:c-rut=+&_DARGS=/vtr/cartridges/VtrHOHeaderBarPayYourAccountCart/VtrHOHeaderBarPayYourAccountCart.jsp";
         })
-
         } 
 
-       // function url2(){
-
-            //function(){
-           // $('#cont2').addClass('hide');
-           // $('#calend').removeClass('hide');
-           // }
-      //  }
-
-            function url5(){
-    var docid; 
-         docid= geturlParameter('data1'); //"AFAEc%2FnhOohJncAMwniaD1w1inFcH147"; //1234  "76114143-0";
-          
+            function url5(){ // Ver Boleta
+        var docid; 
+         docid= geturlParameter('data1');
             swal({
-             title:`Espere para Ver su Boleta Online`,// `el cododigo es: ${docid}`,
-             //text: "Expandir la Pantalla",
+             title:`Espere para Ver su Boleta Online`,
              type: "success",
-             timer: 5000
+             timer: 3000
         }, 
         function(){
              window.location.href = " https://vtr.com/ss/vboleta/index.html#/home.html?docid="+docid;
         })
+        } 
 
+        function url6(){ //tarifa
+        var rut; 
+         rut= geturlParameter('rut');
+            swal({
+             title: `Será Direccionado a la Página de Tarifas`,
+             type: "success",
+             timer: 3000
+        }, 
+        function(){
+             window.location.href = "https://vtr.com/";
+        })
+        } 
+
+                function url7(){ //Lugar de Pago
+        var rut; 
+         rut= geturlParameter('rut');
+            swal({
+             title: `Será Direccionado a la Página de Lugares de Pago`,
+             type: "success",
+             timer: 3000
+        }, 
+        function(){
+             window.location.href = "https://vtr.com/productos/lugares-de-pago";
+        })
+        } 
+
+                function url8(){ //Sucursales
+        var rut; 
+         rut= geturlParameter('rut');
+            swal({
+             title: `Será Direccionado a la Página de Sucursales`,
+             type: "success",
+             timer: 3000
+        }, 
+        function(){
+             window.location.href = "https://vtr.com/sucursales/v";
+        })
+        } 
+
+                function url9(){ //sucursal Virtual
+        var rut; 
+         rut= geturlParameter('rut');
+            swal({
+             title: `Será Direccionado a Sucursal Virtual`,
+             type: "success",
+             timer: 3000
+        }, 
+        function(){
+             window.location.href = "https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv";
+        })
         } 
 
 
 function url(idButton) {
-  //var producto1 = document.getElementById('producto1');
-  //var producto2 = document.getElementById('producto2');
-  //var producto3 = document.getElementById('producto3');
-
-
 
  switch(idButton) {
  case 1:
