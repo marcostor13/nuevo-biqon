@@ -304,7 +304,7 @@ $enddate=strtotime("+3 days", $startdate);
         </tr>
         <tr>
           <td colspan="3"> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> </td>
-          <td colspan="5"> © 2020 VTR Comunicaciones SPA </td>
+          <td colspan="5"> <h5 id="message"class="text-white text-center mt-4 "> © 2020 VTR Comunicaciones SPA </h5> </td>
         </tr>
   
  <tbody>
