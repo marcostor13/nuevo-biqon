@@ -278,7 +278,7 @@ $enddate=strtotime("+3 days", $startdate);
             <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
         </div> -->
 
-        <table class="table table table-dark">
+        <table class="table .table-hover">
   <!--<thead>
     <tr>
       <th scope="col">1</th>
