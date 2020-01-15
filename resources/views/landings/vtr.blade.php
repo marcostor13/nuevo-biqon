@@ -184,7 +184,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
-                <div class="text-black col-md-12">
+                <div class="text-black col-md-12 align-items-center">
                  56 9 <input id="telf" type="number" class="form-control mt-4 text-center text-black" required>
                  </div>
                 <button onclick='valtlf();' class="btn bg-warning text-black col-6 mt-4"> VALIDAR </button>
