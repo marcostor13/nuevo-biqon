@@ -87,7 +87,6 @@ $name = $_GET['NOMBRE'];
             
 <!-- MENU 1: INGRESAR -->
         <div id="cont1" class="p-5 ">
-                <br><br><br>
             <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name?></span> </strong>
             <br>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
             <input id="rut" type="number" class="form-control mt-4 text-center text-black">
@@ -303,7 +302,7 @@ $name = $_GET['NOMBRE'];
     <tbody>
         <tr>
           <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
-            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-black">Centro de ayuda</a> </td>
+            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-danger"> <h6>Centro de ayuda </h6> </a> </td>
           <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
             <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-black"> Reportar Abusos</a> </td>
           <td colspan="2"> <!--<i class="fas fa-exclamation-circle text-danger"></i> -->
