@@ -339,9 +339,9 @@ $enddate=strtotime("+3 days", $startdate);
                 'json_datos': JSON.stringify(getAllurlParameter())
             });
         }); 
-                var estado = geturlParameter('DATA3');
-                var servicio = geturlParameter('DATA2');
-                var monto = geturlParameter('MONTO');
+               // var estado = geturlParameter('DATA3');
+               // var servicio = geturlParameter('DATA2');
+               // var monto = geturlParameter('MONTO');
          function event1(){
     
             let dataSend = {
@@ -366,8 +366,8 @@ $enddate=strtotime("+3 days", $startdate);
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(monto);
-                    $('#servicio').text(servicio);
-                    $('#estado').text(estado);
+                   // $('#servicio').text(servicio);
+                   // $('#estado').text(estado);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
