@@ -159,10 +159,10 @@ $enddate1=strtotime("+5 days", $startdate);
                 </h3>       
             <div>
                 <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required/>
-
+                <input id="date1"  type="date" class=" btn-date text-black form-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required/>
+                <br>
                 <label>Hora:</label>
-                <input id="time1"  type="time" class=" btn-date text-blackform-control input-min-width-95p" max="17:30:00" min="08:00:00" step="3600" required/>
+                <input id="time1"  type="time" class=" btn-time text-black form-control input-min-width-95p" max="19:30:00" min="08:30:00" step="3600" required/>
 
              </div> 
                 <button onclick="sendMail(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
@@ -233,25 +233,25 @@ $enddate1=strtotime("+5 days", $startdate);
             <div id="cont4" class="p-5 hide">
                 <div class="text-black col-md-12 text-center align-items-center justify-content-start p-0">
                 
-                <button onclick='url10(); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-5 mt-4"> SubTel|Sernac </button>
+                <button onclick='sendMail("El cliente indica que ya pagó"); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-5 mt-4"> SubTel|Sernac </button>
 
-                <button onclick='url10(); eventosLanding("Problemas Económicos); ' class="btn bg-danger text-black col-5 mt-4"> Problemas Economicos</button>
+                <button onclick='sendMail("El cliente indica que ya pagó"); eventosLanding("Problemas Económicos); ' class="btn bg-danger text-black col-5 mt-4"> Problemas Economicos</button>
 
-                <button onclick='url10(); eventosLanding("No Reconozco Deuda"); ' class="btn bg-danger text-black col-5 mt-4"> No Reconozco Deuda</button>
+                <button onclick='sendMail("El cliente indica que ya pagó"); eventosLanding("No Reconozco Deuda"); ' class="btn bg-danger text-black col-5 mt-4"> No Reconozco Deuda</button>
 
-                <button onclick='urll0(); eventosLanding("Problema Técnico"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Tecnico</button>
+                <button onclick='sendMail("El cliente indica que ya pagó"); eventosLanding("Problema Técnico"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Tecnico</button>
 
-                <button onclick='url10(); eventosLanding("Problema Comercial"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Comercial</button>
+                <button onclick='sendMail("El cliente indica que ya pagó"); eventosLanding("Problema Comercial"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Comercial</button>
 
-                <button onclick='url10(); eventosLanding("Pago no aplicado"); ' class="btn bg-danger text-black col-5 mt-4"> Pago no aplicado</button>
+                <button onclick='sendMail("El cliente indica que ya pagó"); eventosLanding("Pago no aplicado"); ' class="btn bg-danger text-black col-5 mt-4"> Pago no aplicado</button>
 
-                <button onclick='url10(); eventosLanding("Fraude"); ' class="btn bg-danger text-black col-5 mt-4"> Fraude</button>
+                <button onclick='sendMail("El cliente indica que ya pagó"); eventosLanding("Fraude"); ' class="btn bg-danger text-black col-5 mt-4"> Fraude</button>
 
-                <button onclick='url10(); eventosLanding("Titular fallecido"); ' class="btn bg-danger text-black col-5 mt-4"> Titular fallecido</button>
+                <button onclick='sendMail("El cliente indica que ya pagó"); eventosLanding("Titular fallecido"); ' class="btn bg-danger text-black col-5 mt-4"> Titular fallecido</button>
 
-                <button onclick='url10(); eventosLanding("Baja no ingresanda"); ' class="btn bg-danger text-black col-5 mt-4"> Baja no ingresada</button>
+                <button onclick='sendMail("El cliente indica que ya pagó"); eventosLanding("Baja no ingresanda"); ' class="btn bg-danger text-black col-5 mt-4"> Baja no ingresada</button>
 
-                <button onclick='url10(); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-black col-5 mt-4"> Me cambie de Compañía</button>
+                <button onclick='sendMail("El cliente indica que ya pagó"); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-black col-5 mt-4"> Me cambie de Compañía</button>
 
         </div>
         </div>
@@ -595,6 +595,7 @@ function url(idButton) {
 
  case 2:
           $('#cont2').addClass('hide');
+           $('#name').text(e.data.nombre);
           $('#llamen').removeClass('hide');
     break;
 
