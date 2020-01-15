@@ -272,42 +272,14 @@ $enddate1=strtotime("+5 days", $startdate);
                 <div id="error" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
                         <div class="card-body">
-                            <h5 id="messagee"class="text-grey text-center mt-4 "></h5>
+                            <h5 id="messagee"class="text-black text-center mt-4 "> </h5>
                         </div>
                     </div>
                 </div>
 </div> 
    <!-- PIE DE PAGINA -->             
     <div id="pie" class="oscurecer p-3 pl-2 pr-2">
-        <!-- <div id="pie" class="p-2 pl-2 pr-2 ">
-            <i class="fas fa-question text-danger"></i>
-            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-black">Centro de ayuda</a>
-                   
-            <i class="fas fa-question text-danger"></i>
-            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-black"> Reportar Abusos</a>
-                    <br>
-            <i class="fas fa-exclamation-circle text-danger"></i> 
-            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-black"> Actualiza Datos</a>
-            
-            <i class="fas fa-user text-danger"></i>
-            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-black">  Privacidad</a>
-            <br>
-            <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
-        </div> -->
-
         <table class="table .table-hover">
-  <!--<thead>
-    <tr>
-      <th scope="col">1</th>
-      <th scope="col">2</th>
-      <th scope="col">3</th>
-      <th scope="col">4</th>
-      <th scope="col">5</th>
-      <th scope="col">6</th>
-      <th scope="col">7</th>
-      <th scope="col">8</th>
-    </tr>
-    </thead> -->
     <tbody>
         <tr>
           <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
@@ -381,7 +353,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 }else{
                    $('#cont1').addClass('hide');
                      $('#error').removeClass('hide');
-                    $('#messagee').text("Validación incorrecta, Por favor Comuniquese Aquí.");
+                    $('#messagee').text("Validación incorrecta, Por favor Comuniquese Aquí. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.");
                 }
             })
             .fail(function() {
