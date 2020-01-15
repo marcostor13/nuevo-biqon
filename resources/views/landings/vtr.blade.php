@@ -393,11 +393,13 @@ $enddate1=strtotime("+5 days", $startdate);
                     
                 }
             }else{
-                
+
                 if ($('#date1').val().length == 0){ 
                   let date = $('#date2').val();
+                  let fecha = $('#time1').val();
                   data = {
                     'Fecha': date,
+                    'Hora': fecha,
                     'Nombre': $('#name').text(),
                     'Rut': geturlParameter('rut'),
                     'Telefono': geturlParameter('telefono'),
