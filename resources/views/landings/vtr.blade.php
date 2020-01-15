@@ -615,7 +615,7 @@ $enddate1=strtotime("+5 days", $startdate);
             var msg1;
             msg1 = " El cliente Informa que el telefono es "+telf+" y el correo es "+ecorr+".";
 
-            alert (msg1);
+            alert (msg1)
             //sendMail(msg);
         }
 
