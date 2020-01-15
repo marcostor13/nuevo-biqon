@@ -259,8 +259,8 @@ $enddate1=strtotime("+5 days", $startdate);
                 <div id="success" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
                         <div class="card-body">
-                            <h5 id="message"class="text-grey text-center mt-4 "></h5>
-                             <h5 id="message"class="text-grey text-center mt-4 "> Gracias por su tiempo. 
+                            <h5 id="messages"class="text-grey text-center mt-4 "></h5>
+                             <h5 class="text-grey text-center mt-4 "> Gracias por su tiempo. 
                                 <br>VTR le desea que tenga un excelente día. 
                                 <br>Cualquier duda al 600 800 9000.
                             </h5>
@@ -272,7 +272,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 <div id="error" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
                         <div class="card-body">
-                            <h5 id="message"class="text-grey text-center mt-4 "></h5>
+                            <h5 id="messagee"class="text-grey text-center mt-4 "></h5>
                         </div>
                     </div>
                 </div>
@@ -379,7 +379,9 @@ $enddate1=strtotime("+5 days", $startdate);
                         }
                     });
                 }else{
-                    $('#error').text(e.msg);
+                   $('#cont1').addClass('hide');
+                     $('#error').removeClass('hide');
+                    $('#messagee').text("Validación incorrecta, Por favor Comuniquese Aquí.");
                 }
             })
             .fail(function() {
@@ -446,12 +448,12 @@ $enddate1=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                    $('#messages').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
                      $('#calend').addClass('hide');
                     $('#success').removeClass('hide');
-                    $('#message').text('Ha quedado registrado su compromiso');
+                    $('#messages').text('Ha quedado registrado su compromiso');
                 }
             })
             .done(function(e) {
