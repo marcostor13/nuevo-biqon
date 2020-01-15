@@ -81,7 +81,7 @@ $name = $_GET['NOMBRE'];
             </div>
 
         </div>
-<div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">
+<!--<div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">-->
 
     <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             
@@ -116,7 +116,7 @@ $name = $_GET['NOMBRE'];
             <div class="text-black col-md-12">
                 <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name?></span> </strong> 
                 <br> 
-                Tu boleta asociada al servicio <span id="servicio">, se encuentra <span id="estado">, por el monto de:
+                Tu boleta asociada al servicio <span id="servicio"></span>, se encuentra <span id="estado"></span>, por el monto de:
                     <br> <b>$ </b><b id="pay"></b> <br>
                 Recuerda que pagar tu boleta al día evita la suspensión de tus servicios.
                 </h4>
@@ -268,9 +268,9 @@ $name = $_GET['NOMBRE'];
                         </div>
                     </div>
                 </div>
-
+</div> 
    <!-- PIE DE PAGINA -->             
-    <div class="oscurecer p-3">
+    <div id="pie" class="oscurecer p-3 pl-2 pr-2">
         <!-- <div id="pie" class="p-2 pl-2 pr-2 ">
             <i class="fas fa-question text-danger"></i>
             <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-black">Centro de ayuda</a>
@@ -303,7 +303,7 @@ $name = $_GET['NOMBRE'];
     <tbody>
         <tr>
           <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
-            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-black">Centro de ayuda</a> </th>
+            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-black">Centro de ayuda</a> </td>
           <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
             <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-black"> Reportar Abusos</a> </td>
           <td colspan="2"> <!--<i class="fas fa-exclamation-circle text-danger"></i> -->
@@ -316,8 +316,9 @@ $name = $_GET['NOMBRE'];
           <td colspan="5"> <h6 class="text-white text-center"> © 2020 VTR Comunicaciones SPA </h6> </td>
         </tr>
   
- <tbody>
-        </div>
+        </tbody>
+   </table>
+    </div>
 
 
 
