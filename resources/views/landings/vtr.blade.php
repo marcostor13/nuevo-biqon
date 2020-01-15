@@ -616,6 +616,7 @@ $enddate1=strtotime("+5 days", $startdate);
             msg =" El cliente Informa que el telefono es "+telf+" y el correo es "+ecorr+".";
 
             alert (msg);
+            //sendMail(msg);
         }
 
 
@@ -643,7 +644,7 @@ function url(idButton) {
     break;
     case 5:
           $('#cont1').addClass('hide');
-            $('#name').text(geturlParameter('nombre'));
+          $('#name').text(geturlParameter('nombre'));
           $('#usrbad').removeClass('hide'); 
     break;
      case 6:
