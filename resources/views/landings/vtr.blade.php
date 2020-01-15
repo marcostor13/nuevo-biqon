@@ -290,6 +290,11 @@ $enddate=strtotime("+3 days", $startdate);
       <th scope="col">7</th>
       <th scope="col">8</th>
     </tr>
+    <tbody>
+      <td colspan="2">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td colspan="2">Larry the Bird</td>
+      <td colspan="2">Larry the Bird</td>
   </thead>
 
         </div>
