@@ -192,7 +192,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 <br>
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
-                </div>
+                </div> 
                 <button onclick='url(7);' class="btn bg-danger text-black col-10 mt-4"> No quiero ingresar </button>
 
             </div>
