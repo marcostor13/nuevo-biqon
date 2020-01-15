@@ -182,7 +182,7 @@ $enddate1=strtotime("+5 days", $startdate);
         <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
             <div id="equiv1" class="p-5 hide" >
                 <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
+                <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
                  <input id="telf" type="number" class="form-control mt-4 text-center text-black" required>
 
@@ -191,7 +191,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 <button onclick='url(7);' class="btn bg-danger text-black col-5 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h6>
+                <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div>
                 <button onclick='url25();' class="btn bg-danger text-black col-10 mt-4"> No quiero ingresar </button>
 
@@ -200,16 +200,17 @@ $enddate1=strtotime("+5 days", $startdate);
         <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
             <div id="equiv2" class="p-5 hide" >
                 <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> Favor, ingresar correo</h6>
+                <h5 class="text-black text-center"> Favor, ingresar correo</h5>
                 </div>
                  <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required>
 
                 <button onclick='url_v1();' class="btn bg-danger text-black col-5 mt-4"> VALIDAR </button>
 
-                <button onclick='url(8);' class="btn bg-danger text-black col-5 mt-4"> CONTINUAR </button>
+                <button onclick='url_datos();' class="btn bg-danger text-black col-5 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h6>
+                    <br>
+                <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div>
                 <button onclick='url8(); ' class="btn bg-danger text-black col-10 mt-4"> No quiero ingresar </button>
 
@@ -606,6 +607,17 @@ $enddate1=strtotime("+5 days", $startdate);
              window.location.href = "https://vtr.com/productos/reclamos";
         })
         } 
+
+        url_datos(){
+
+            var telf = $('#telf').val();
+            var ecorr = $('#ecorr').val();
+            var msg;
+            msg =" El cliente Informa que el telefono es "+telf+" y el correo es "+ecorr+".";
+
+            alert (msg);
+        }
+
 
 function url(idButton) {
 
