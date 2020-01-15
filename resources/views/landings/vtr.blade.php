@@ -424,6 +424,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 }else{
                     $('#message').removeClass('hide');
                      $('#calend').addClass('hide');
+                     $('#llamen').addClass('hide');
                     $('#success').removeClass('hide');
                     $('#messages').text('Ha quedado registrado su compromiso');
                 }
