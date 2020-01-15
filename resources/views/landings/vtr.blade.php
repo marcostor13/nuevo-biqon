@@ -364,9 +364,10 @@ $enddate=strtotime("+3 days", $startdate);
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                   $('#servicio').text(getUrlParameter('data2'));
-                   $('#estado').text(getUrlParameter('data3'));
                     $('#cont2').removeClass('hide');
+                    $('#servicio').text(geturlParameter('data2'));
+                    $('#estado').text(geturlParameter('data3'));
+                    //$('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
                             sendMail();
@@ -388,7 +389,7 @@ $enddate=strtotime("+3 days", $startdate);
             let json_datos = getAllurlParameter(); 
             //json_datos.nombre = $('#name').text();
             //json_datos.monto = $('#pay').text();
-            
+
             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
@@ -407,8 +408,8 @@ $enddate=strtotime("+3 days", $startdate);
                 data = {
                     'Mensaje': msg,
                     'Nombre': $('#name').text(),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
+                    'RUT': geturlParameter('rut'),
+                    'Telefono': geturlParameter('telefono'),
 
                     'Landing': '{!! $landing->name !!}'
                     
@@ -418,8 +419,8 @@ $enddate=strtotime("+3 days", $startdate);
                 data = {
                     'Fecha': date,
                     'Nombre': $('#name').text(),
-                    'Rut': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
+                    'Rut': geturlParameter('rut'),
+                    'Telefono': geturlParameter('telefono'),
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
