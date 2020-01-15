@@ -445,8 +445,8 @@ $enddate1=strtotime("+5 days", $startdate);
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
-                    $('#cont3').removeClass('hide');
+                     $('#calend').addClass('hide');
+                    $('#success').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
                 }
             })
