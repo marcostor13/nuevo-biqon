@@ -88,7 +88,7 @@ $name = $_GET['NOMBRE'];
 <!-- MENU 1: INGRESAR -->
         <div id="cont1" class="p-5 ">
                 <br><br><br>
-            <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name?></span> < </strong>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
+            <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name?></span> <br> </strong>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
             <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 
             <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Ingresar </button>
