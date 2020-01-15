@@ -644,7 +644,7 @@ function url(idButton) {
     break;
     case 5:
           $('#cont1').addClass('hide');
-          $('#name').text(geturlParameter('nombre'));
+          //$('#name').text(geturlParameter('nombre'));
           $('#usrbad').removeClass('hide'); 
     break;
      case 6:
