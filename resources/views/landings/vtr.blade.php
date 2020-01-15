@@ -206,7 +206,7 @@ $enddate1=strtotime("+5 days", $startdate);
 
                 <button onclick='url_v1();' class="btn bg-danger text-black col-5 mt-4"> VALIDAR </button>
 
-                <button onclick='url_datos();' class="btn bg-danger text-black col-5 mt-4"> CONTINUAR </button>
+                <button onclick='urldatos();' class="btn bg-danger text-black col-5 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
                     <br>
@@ -608,7 +608,7 @@ $enddate1=strtotime("+5 days", $startdate);
         })
         } 
 
-      function  url_datos{
+      function  urldatos(){
 
             var telf = $('#telf').val();
             var ecorr = $('#ecorr').val();
