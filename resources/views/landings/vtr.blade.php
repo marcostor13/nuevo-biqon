@@ -8,6 +8,9 @@ $startdate=strtotime("Today");
 $enddate=strtotime("+3 days", $startdate);
 
 $name = $_GET['NOMBRE'];
+$servicio = $_GET['DATA1'];
+$estado = $_GET['DATA2'];
+$pay = $_GET['MONTO'];
 ?>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -113,10 +116,10 @@ $name = $_GET['NOMBRE'];
              <!-- MENU2:  -->
         <div id="cont2" class="p-5 hide" >
             <div class="text-black col-md-12">
-                <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name?></span> </strong> 
+                <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name?></span> </strong> 
                 <br> 
-                Tu boleta asociada al servicio <span id="servicio"></span>, se encuentra <span id="estado"></span>, por el monto de:
-                    <br> <b>$ </b><b id="pay"></b> <br>
+                Tu boleta asociada al servicio <span id="servicio"><?php echo $servicio ?></span>, se encuentra <span id="estado"> <?php echo $estado ?> </span>, por el monto de:
+                    <br> <b>$ </b><b id="pay"> <?php echo $monto ?></b> <br>
                 Recuerda que pagar tu boleta al día evita la suspensión de tus servicios.
                 </h4>
                 
@@ -181,7 +184,7 @@ $name = $_GET['NOMBRE'];
                 </div>
                  <input id="telf" type="number" class="form-control mt-4 text-center text-black" >
 
-                <button onclick='url23();' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
+                <button onclick='url_v();' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
 
                 <button onclick='url(7);' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
                 <br>
@@ -199,14 +202,14 @@ $name = $_GET['NOMBRE'];
                 </div>
                  <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" >
 
-                <button onclick='url26(); eventosLanding("VALIDAR"); ' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
+                <button onclick='url_v1();' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
 
-                <button onclick='url27(); eventosLanding("CONTINUAR"); ' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
+                <button onclick='url(8);' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h6>
                 </div>
-                <button onclick='url28(); ' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
+                <button onclick='url8(); ' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
 
             </div>
 
@@ -312,7 +315,7 @@ $name = $_GET['NOMBRE'];
         </tr>
         <tr>
           <td colspan="3"> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> </td>
-          <td colspan="5"> <p class="text-white"> ©2020 VTR Comunicaciones SPA </p> </td>
+          <td colspan="5"> <p class="text-white">©2020 VTR Comunicaciones SPA</p> </td>
         </tr>
   
         </tbody>
