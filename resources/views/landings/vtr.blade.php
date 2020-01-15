@@ -94,7 +94,7 @@ $enddate1=strtotime("+5 days", $startdate);
         <div id="cont1" class="p-5 ">
             <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong>
             <br>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
-            <input id="rut" type="number" class="form-control mt-4 text-center text-black">
+            <input id="rut" type="number" class="form-control mt-4 text-center text-black" required>
                 
             <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Ingresar </button>
 
@@ -184,7 +184,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
                 </div>
-                 <input id="telf" type="number" class="form-control mt-4 text-center text-black" >
+                 <input id="telf" type="number" class="form-control mt-4 text-center text-black" required>
 
                 <button onclick='url_v();' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
 
@@ -202,7 +202,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Favor, ingresar correo</h6>
                 </div>
-                 <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" >
+                 <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required>
 
                 <button onclick='url_v1();' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
 
@@ -631,6 +631,7 @@ function url(idButton) {
     break;
     case 5:
           $('#cont1').addClass('hide');
+            $('#name').text(geturlParameter('nombre'));
           $('#usrbad').removeClass('hide'); 
     break;
      case 6:
