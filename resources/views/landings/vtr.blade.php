@@ -69,7 +69,7 @@ $enddate=strtotime("+3 days", $startdate);
 <div class="oscurecer p-3">
  <div class="oscurecer p-3">
          <div id="head" class="p-2 pl-2 pr-2 "> <img class="img-fluid col-8 col-md-3" src="{{$landing->logo}}" alt="VTR"> </div>
-<div class="img-fluid col-4 col-md-3">
+<div class="img-fluid col-4 col-md-3 d-flex flex-row-reverse">
              <a class="ml-4" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="20" src="https://k61.kn3.net/taringa/A/C/7/7/E/B/Seb37/7C2.png"></a>
                    
              <a class="ml-4" onclick="eventosLanding('Twitter');" href="https://twitter.com/vtrchile"><img width="20" src="https://k60.kn3.net/taringa/7/6/C/E/5/5/Seb37/C49.png"></a>
@@ -81,7 +81,7 @@ $enddate=strtotime("+3 days", $startdate);
         </div> </div>
 <div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">
 
-    <div class="content container-fluid d-flex flex-column d-flex flex-row-reverse justify-content-start p-0">
+    <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             
 <!-- MENU 1: INGRESAR -->
         <div id="cont1" class="p-5 ">
