@@ -7,11 +7,11 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+3 days", $startdate);
 
-$name = $_GET['NOMBRE'];
-$servicio = $_GET['DATA2'];
-$estado = $_GET['DATA3'];
-$pago = $_GET['MONTO'];
-echo $pago;
+//$name = $_GET['NOMBRE'];
+//$servicio = $_GET['DATA2'];
+//$estado = $_GET['DATA3'];
+//$pago = $_GET['MONTO'];
+//echo $pago;
 ?>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -91,7 +91,7 @@ echo $pago;
             
 <!-- MENU 1: INGRESAR -->
         <div id="cont1" class="p-5 ">
-            <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong>
+            <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong>
             <br>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
             <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 
@@ -117,10 +117,10 @@ echo $pago;
              <!-- MENU2:  -->
         <div id="cont2" class="p-5 hide" >
             <div class="text-black col-md-12">
-                <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong> 
+                <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong> 
                 <br> 
-                Tu boleta asociada al servicio <span id="servicio"><?php echo $servicio; ?></span>, se encuentra <span id="estado"> <?php echo $estado; ?></span>, por el monto de:
-                    <br> $ <span id="pay"> <?php echo $pago; ?></span> <br></h4>
+                Tu boleta asociada al servicio <span id="servicio"><?php //echo $servicio; ?></span>, se encuentra <span id="estado"> <?php //echo $estado; ?></span>, por el monto de:
+                    <br> $ <span id="pay"> <?php //echo $pago; ?></span> <br></h4>
                <p> Recuerda que pagar tu boleta al día evita la suspensión de tus servicios. </p>
                 
                 
@@ -359,11 +359,15 @@ echo $pago;
             .done(function(e) {
                 console.log(e);
                 e = JSON.parse(e); 
-
+                var estado = geturlParameter(data3);
+                var servicio = geturlParameter(data2);
+                var monto = geturlParameter(monto);
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
+                    $('#pay').text(monto);
+                    $('#servicio').text(servicio);
+                    $('#estado').text(estado);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
