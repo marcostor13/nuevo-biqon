@@ -6,6 +6,8 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+3 days", $startdate);
+
+$name = $_GET['NOMBRE'];
 ?>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -71,11 +73,11 @@ $enddate=strtotime("+3 days", $startdate);
         <div id="head" class="p-1 pl-1 pr-1 "> <img class="img-fluid col-8 col-md-10" src="{{$landing->logo}}" alt="VTR"> 
         
         
-             <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="20" height="20"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
+             <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="30" height="30"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
                    
-             <a class="ml-1" onclick="eventosLanding('Twitter');" href="https://twitter.com/vtrchile"><img width="20" height="20" src="https://image.flaticon.com/icons/svg/174/174876.svg"></a>
+             <a class="ml-1" onclick="eventosLanding('Twitter');" href="https://twitter.com/vtrchile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174876.svg"></a>
 
-             <a class="ml-1" onclick="eventosLanding('Youtube');" href="https://www.youtube.com/user/VTRChile"><img width="20" height="20" src="https://image.flaticon.com/icons/svg/174/174883.svg"></a>
+             <a class="ml-1" onclick="eventosLanding('Youtube');" href="https://www.youtube.com/user/VTRChile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174883.svg"></a>
             </div>
 
         </div>
