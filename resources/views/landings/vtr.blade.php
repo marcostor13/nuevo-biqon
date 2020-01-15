@@ -146,7 +146,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 </h3>       
             <div>
                 <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required/>
              </div> 
                 <button onclick="sendMail(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
             </div>
@@ -159,10 +159,10 @@ $enddate1=strtotime("+5 days", $startdate);
                 </h3>       
             <div>
                 <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>"/>
+                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required/>
 
                 <label>Hora:</label>
-                <input id="time1"  type="time" class=" btn-date text-blackform-control input-min-width-95p" max="17:30:00" min="08:00:00"/>
+                <input id="time1"  type="time" class=" btn-date text-blackform-control input-min-width-95p" max="17:30:00" min="08:00:00" step="3600" required/>
 
              </div> 
                 <button onclick="sendMail(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
