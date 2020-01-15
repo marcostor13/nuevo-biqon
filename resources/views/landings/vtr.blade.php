@@ -339,7 +339,9 @@ $enddate=strtotime("+3 days", $startdate);
                 'json_datos': JSON.stringify(getAllurlParameter())
             });
         }); 
-
+                var estado = geturlParameter(data3);
+                var servicio = geturlParameter(data2);
+                var monto = geturlParameter(monto);
          function event1(){
     
             let dataSend = {
@@ -359,9 +361,7 @@ $enddate=strtotime("+3 days", $startdate);
             .done(function(e) {
                 console.log(e);
                 e = JSON.parse(e); 
-                var estado = geturlParameter(data3);
-                var servicio = geturlParameter(data2);
-                var monto = geturlParameter(monto);
+               
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
