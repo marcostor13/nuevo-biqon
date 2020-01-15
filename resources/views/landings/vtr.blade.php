@@ -441,7 +441,7 @@ $enddate1=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont4').addClass('hide');
                     $('#success').removeClass('hide');
-                    $('#messages').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                    $('#messages').text('Su reclamo ha quedado registrado.');
                 }else{
                     $('#message').removeClass('hide');
                      $('#calend').addClass('hide');
