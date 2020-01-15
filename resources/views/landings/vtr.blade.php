@@ -70,7 +70,7 @@ $name = $_GET['NOMBRE'];
 <!-- HEAD -->
 
  <div class="oscurecer p-3">
-        <div id="head" class="p-1 pl-1 pr-1 "> <img class="img-fluid col-8 col-md-10" src="{{$landing->logo}}" alt="VTR"> 
+        <div id="head" class="p-1 pl-1 pr-1 "> <img class="img-fluid col-7 col-md-10" src="{{$landing->logo}}" alt="VTR"> 
         
         
              <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="30" height="30"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
@@ -302,13 +302,13 @@ $name = $_GET['NOMBRE'];
     <tbody>
         <tr>
           <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
-            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-danger"><p>Centro de ayuda</p> </a> </td>
+            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-danger"><h6>Centro Ayuda</h6> </a> </td>
           <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
-            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-black"><h6>Reportar Abusos</h6></a> </td>
+            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-danger"><h6>Reportar Abusos</h6></a> </td>
           <td colspan="2"> <!--<i class="fas fa-exclamation-circle text-danger"></i> -->
-            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-black"><h6>Actualiza Datos</h6> </a> </td>
+            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-danger"><h6>Actualiza Datos</h6> </a> </td>
           <td colspan="2"> <!--<i class="fas fa-user text-danger"></i>-->
-            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-black"><h6>Privacidad</h6> </a> </td>
+            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-danger"><h6>Privacidad</h6> </a> </td>
         </tr>
         <tr>
           <td colspan="3"> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> </td>
