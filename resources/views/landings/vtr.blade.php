@@ -11,6 +11,7 @@ $name = $_GET['NOMBRE'];
 $servicio = $_GET['DATA2'];
 $estado = $_GET['DATA3'];
 $pago = $_GET['MONTO'];
+echo $pago;
 ?>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -119,7 +120,7 @@ $pago = $_GET['MONTO'];
                 <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong> 
                 <br> 
                 Tu boleta asociada al servicio <span id="servicio"><?php echo $servicio; ?></span>, se encuentra <span id="estado"> <?php echo $estado; ?></span>, por el monto de:
-                    <br> <span id="pay"><?php echo $pago; ?></span> <br></h4>
+                    <br> $ <span id="pay"> <?php echo $pago; ?> </span> <br></h4>
                <p> Recuerda que pagar tu boleta al día evita la suspensión de tus servicios. </p>
                 
                 
