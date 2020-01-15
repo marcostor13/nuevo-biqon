@@ -10,7 +10,7 @@ $enddate=strtotime("+3 days", $startdate);
 $name = $_GET['NOMBRE'];
 $servicio = $_GET['DATA2'];
 $estado = $_GET['DATA3'];
-$pay = $_GET['MONTO'];
+$pago = $_GET['MONTO'];
 ?>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -119,9 +119,9 @@ $pay = $_GET['MONTO'];
                 <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong> 
                 <br> 
                 Tu boleta asociada al servicio <span id="servicio"><?php echo $servicio; ?></span>, se encuentra <span id="estado"> <?php echo $estado; ?> </span>, por el monto de:
-                    <br> <b>$ </b><b id="pay"> <?php echo $pay; ?></b> <br>
-                Recuerda que pagar tu boleta al día evita la suspensión de tus servicios.
-                </h4>
+                    <br> <b>$ </b><b id="pay"> <?php echo $pago; ?></b> <br></h4>
+               <p> Recuerda que pagar tu boleta al día evita la suspensión de tus servicios. </p>
+                
                 
                 <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-black col-12 mt-4"> Pagar</button>
 
