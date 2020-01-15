@@ -394,9 +394,9 @@ $enddate1=strtotime("+5 days", $startdate);
                 }
             }else{
                 if ($('#date1').val().length == 0){ 
-                  let date = $('#date1').val();
-                }else{
                   let date = $('#date2').val();
+                }else{
+                  let date = $('#date1').val();
                 }
                 data = {
                     'Fecha': date,
