@@ -159,7 +159,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 </h3>       
             <div>
                 <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-black form-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required/>
+                <input id="date2"  type="date" class=" btn-date text-black form-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required/>
                 <br>
                 <label>Hora:</label>
                 <input id="time1"  type="time" class=" btn-date text-black form-control input-min-width-95p" max="19:30:00" min="08:30:00" step="3600" required/>
@@ -393,7 +393,11 @@ $enddate1=strtotime("+5 days", $startdate);
                     
                 }
             }else{
-                let date = $('#date1').val();
+                if ($('#date1').val().length == 0){ 
+                  let date = $('#date1').val();
+                }else{
+                  let date = $('#date2').val();
+                }
                 data = {
                     'Fecha': date,
                     'Nombre': $('#name').text(),
