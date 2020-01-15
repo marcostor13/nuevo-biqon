@@ -272,7 +272,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 <div id="error" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
                         <div class="card-body">
-                            <h5 id="messagee"class="text-black text-center mt-4 "> </h5>
+                            <h5 id="messagee"class="text-black text-center mt-4 "> Validación incorrecta, Por favor Comuniquese Aquí. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000. </h5>
                         </div>
                     </div>
                 </div>
