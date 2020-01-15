@@ -291,10 +291,15 @@ $enddate=strtotime("+3 days", $startdate);
       <th scope="col">8</th>
     </tr>
     <tbody>
-      <td colspan="2">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td colspan="2">Larry the Bird</td>
-      <td colspan="2">Larry the Bird</td>
+      <td colspan="2"> <i class="fas fa-question text-danger"></i>
+            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-black">Centro de ayuda</a> </th>
+      <td colspan="2"> <i class="fas fa-question text-danger"></i>
+            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-black"> Reportar Abusos</a> </td>
+
+      <td colspan="2"> <i class="fas fa-exclamation-circle text-danger"></i> 
+            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-black"> Actualiza Datos</a> </td>
+      <td colspan="2"> <i class="fas fa-user text-danger"></i>
+            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-black">  Privacidad</a> </td>
   </thead>
 
         </div>
