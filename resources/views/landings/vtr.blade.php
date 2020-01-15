@@ -365,7 +365,7 @@ $enddate=strtotime("+3 days", $startdate);
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#pay').text(monto);
+                    $('#pay').text(e.data.monto);
                    // $('#servicio').text(servicio);
                    // $('#estado').text(estado);
                     $('#cont2').removeClass('hide');
