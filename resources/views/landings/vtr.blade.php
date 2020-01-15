@@ -186,14 +186,14 @@ $enddate1=strtotime("+5 days", $startdate);
                 </div>
                  <input id="telf" type="number" class="form-control mt-4 text-center text-black" required>
 
-                <button onclick='url_v();' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
+                <button onclick='url_v();' class="btn bg-danger text-black col-5 mt-4"> VALIDAR </button>
 
-                <button onclick='url(7);' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
+                <button onclick='url(7);' class="btn bg-danger text-black col-5 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h6>
                 </div>
-                <button onclick='url25();' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
+                <button onclick='url25();' class="btn bg-danger text-black col-10 mt-4"> No quiero ingresar </button>
 
             </div>
 
@@ -204,14 +204,14 @@ $enddate1=strtotime("+5 days", $startdate);
                 </div>
                  <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required>
 
-                <button onclick='url_v1();' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
+                <button onclick='url_v1();' class="btn bg-danger text-black col-5 mt-4"> VALIDAR </button>
 
-                <button onclick='url(8);' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
+                <button onclick='url(8);' class="btn bg-danger text-black col-5 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h6>
                 </div>
-                <button onclick='url8(); ' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
+                <button onclick='url8(); ' class="btn bg-danger text-black col-10 mt-4"> No quiero ingresar </button>
 
             </div>
 
@@ -237,11 +237,11 @@ $enddate1=strtotime("+5 days", $startdate);
 
                 <button onclick='sendMail("El cliente indica que tiene Problemas Economicos"); eventosLanding("Problemas Económicos); ' class="btn bg-danger text-black col-5 mt-4"> Problemas Economicos</button>
 
-                <button onclick='sendMail("El cliente indica que No Reconozco Deuda"); eventosLanding("No Reconozco Deuda"); ' class="btn bg-danger text-black col-5 mt-4"> No Reconozco Deuda</button>
+                <button onclick='sendMail("El cliente indica que No Reconoce Deuda"); eventosLanding("No Reconozco Deuda"); ' class="btn bg-danger text-black col-5 mt-4"> No Reconozco Deuda</button>
 
                 <button onclick='sendMail("El cliente indica que tiene Problemas Tecnicos"); eventosLanding("Problema Técnico"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Tecnico</button>
 
-                <button onclick='sendMail("El cliente indica que tiene Problema Conercial"); eventosLanding("Problema Comercial"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Comercial</button>
+                <button onclick='sendMail("El cliente indica que tiene Problema Comercial"); eventosLanding("Problema Comercial"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Comercial</button>
 
                 <button onclick='sendMail("El cliente indica que tiene problemas con Pago no aplicado"); eventosLanding("Pago no aplicado"); ' class="btn bg-danger text-black col-5 mt-4"> Pago no aplicado</button>
 
@@ -251,7 +251,7 @@ $enddate1=strtotime("+5 days", $startdate);
 
                 <button onclick='sendMail("El cliente indica que tiene problemas con Baja no ingresada"); eventosLanding("Baja no ingresanda"); ' class="btn bg-danger text-black col-5 mt-4"> Baja no ingresada</button>
 
-                <button onclick='sendMail("El cliente indica que tiene problemas con Me cambie de Compañía"); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-black col-5 mt-4"> Me cambie de Compañía</button>
+                <button onclick='sendMail("El cliente indica que se cambio de Compañía"); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-black col-5 mt-4"> Me cambie de Compañía</button>
 
         </div>
         </div>
