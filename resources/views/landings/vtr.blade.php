@@ -260,6 +260,10 @@ $enddate1=strtotime("+5 days", $startdate);
                     <div class="card">     
                         <div class="card-body">
                             <h5 id="message"class="text-grey text-center mt-4 "></h5>
+                             <h5 id="message"class="text-grey text-center mt-4 "> Gracias por su tiempo. 
+                                <br>VTR le desea que tenga un excelente día. 
+                                <br>Cualquier duda al 600 800 9000.
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -447,7 +451,7 @@ $enddate1=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#calend').addClass('hide');
                     $('#success').removeClass('hide');
-                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                    $('#message').text('Ha quedado registrado su compromiso');
                 }
             })
             .done(function(e) {
