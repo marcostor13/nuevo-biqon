@@ -118,7 +118,7 @@ $pay = $_GET['MONTO'];
             <div class="text-black col-md-12">
                 <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong> 
                 <br> 
-                Tu boleta asociada al servicio <span id="servicio"><?php echo $servicio; ?></span>, se encuentra <span id="estado"> <?php echo $estado: ?> </span>, por el monto de:
+                Tu boleta asociada al servicio <span id="servicio"><?php echo $servicio; ?></span>, se encuentra <span id="estado"> <?php echo $estado; ?> </span>, por el monto de:
                     <br> <b>$ </b><b id="pay"> <?php echo $monto; ?></b> <br>
                 Recuerda que pagar tu boleta al día evita la suspensión de tus servicios.
                 </h4>
