@@ -148,7 +148,7 @@
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["luis.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
