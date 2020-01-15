@@ -70,11 +70,11 @@ $enddate=strtotime("+3 days", $startdate);
  <div class="oscurecer p-3">
          <div id="head" class="p-2 pl-2 pr-2 "> <img style="max-width:100px; max-height:50px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
 
-             <a class="ml-4" onclick="eventosLanding('Facebook');" href="www.facebook.com"><img width="20" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+             <a class="ml-4" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="20" src="https://k61.kn3.net/taringa/A/C/7/7/E/B/Seb37/7C2.png"></a>
                    
-             <a class="ml-4" onclick="eventosLanding('Twitter');" href="www.twitter.com"><img width="20" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+             <a class="ml-4" onclick="eventosLanding('Twitter');" href="https://twitter.com/vtrchile"><img width="20" src="https://k60.kn3.net/taringa/7/6/C/E/5/5/Seb37/C49.png"></a>
 
-             <a class="ml-4" onclick="eventosLanding('Youtube');" href="www.youtube.com"><img width="20" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+             <a class="ml-4" onclick="eventosLanding('Youtube');" href="https://www.youtube.com/user/VTRChile"><img width="20" src="https://k60.kn3.net/taringa/E/D/B/D/4/2/Seb37/129.png"></a>
            
         </div>
 
@@ -91,7 +91,7 @@ $enddate=strtotime("+3 days", $startdate);
                 
             <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Ingresar </button>
 
-            <button onclick="eve()" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
+            <button onclick="url(5)" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
 
             <button onclick="even()" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
 
@@ -149,7 +149,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
 
                 <label>Hora:</label>
-                <input id="time1"  type="time" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                <input id="time1"  type="time" class=" btn-date text-blackform-control input-min-width-95p"/>
 
              </div> 
                 <button onclick="sendMail(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
@@ -161,9 +161,9 @@ $enddate=strtotime("+3 days", $startdate);
                 <h6 class="text-black text-center"> ¿Conoces a <strong> <span id="name"></span></strong> ?</h6>
                 </div>
 
-            <button onclick='url21(); eventosLanding("SI"); ' class="btn bg-danger text-black col-6 mt-4"> SI </button>
+            <button onclick='url(6); ' class="btn bg-danger text-black col-6 mt-4"> SI </button>
 
-            <button onclick='url22(); eventosLanding("NO"); ' class="btn bg-danger text-black col-6 mt-4"> NO </button>
+            <button onclick='url22(); eventosLanding("NO CONTACTO"); ' class="btn bg-danger text-black col-6 mt-4"> NO </button>
         </div>
 
         <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
@@ -173,14 +173,14 @@ $enddate=strtotime("+3 days", $startdate);
                 </div>
                  <input id="telf" type="number" class="form-control mt-4 text-center text-black" >
 
-                <button onclick='url23(); eventosLanding("VALIDAR"); ' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
+                <button onclick='url23();' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
 
-                <button onclick='url24(); eventosLanding("CONTINUAR"); ' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
+                <button onclick='url(7);' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h6>
                 </div>
-                <button onclick='url25(); eventosLanding("No quiero ingresar"); ' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
+                <button onclick='url25();' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
 
             </div>
 
@@ -198,7 +198,7 @@ $enddate=strtotime("+3 days", $startdate);
                 <div class="text-black col-md-12">
                 <h6 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h6>
                 </div>
-                <button onclick='url28(); eventosLanding("No quiero ingresar"); ' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
+                <button onclick='url28(); ' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
 
             </div>
 
@@ -354,53 +354,36 @@ $enddate=strtotime("+3 days", $startdate);
 
         
 
-        function sendMail(msg = false){
+         function sendMail(msg = false){
 
             console.log('{!! $landing->name !!}'); 
-        let date1 = $('#date1').val();
-        let date2 = $('#date2').val();
-        let time1 = $('#time1').val();
-
+            
             let data; 
-            if(msg !== false & date1 == false){
+            if(msg !== false){
                 data = {
-                    'mensaje': msg,
+                    'Mensaje': msg,
                     'Nombre': $('#name').text(),
-                    //'monto': geturlParameter('monto'),
-                    'RUT': geturlParameter('rut'),
-                    'Telefono': geturlParameter('telefono'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+
                     'Landing': '{!! $landing->name !!}'
-                   
                     
                 }
-            }else if (msg !== false & date1 == false){
-                //let date = $('#date1').val();
+            }else{
+                let date = $('#date1').val();
                 data = {
-                    'fecha': date1,
+                    'Fecha': date,
                     'Nombre': $('#name').text(),
-                    //'monto': geturlParameter('monto'),
-                     'RUT': geturlParameter('rut'),
-                    'Telefono': geturlParameter('telefono'),
-                    'Landing': '{!! $landing->name !!}'
-                } 
-            } else{
-                //let date = $('#date2').val();
-                //let time = $('#time1').val();
-                data = {
-                    'Fecha': date1,
-                    'Hora': time1,
-                    'Nombre': $('#name').text(),
-                    //'monto': geturlParameter('monto'),
-                     'RUT': geturlParameter('rut'),
-                    'Telefono': geturlParameter('telefono'),
+                    'Rut': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com"];  
+             var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email': '{!! $landing->email !!}'
+               // 'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -410,25 +393,16 @@ $enddate=strtotime("+3 days", $startdate);
             });
             $.post( "/sendMail", dataSend,function() {
                 console.log(dataSend);
-                if(msg !== false & date1 == false){
+                if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#calend').addClass('hide');
-                    $('#success').removeClass('hide');
-                    $('#message').text('Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
-                }else if (msg !== false & time1 == false){
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                }else{
                     $('#message').removeClass('hide');
-                     $('#llamen').addClass('hide');
-                    $('#success').removeClass('hide');
-                    $('#message').text('Ha quedado su llamada agendada. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
-                      eventosLanding('Compromiso de Pago');
-
-                }else {
-                    $('#message').removeClass('hide');
-                     $('#calend').addClass('hide');
-                    $('#success').removeClass('hide');
-                    $('#message').text('Ha quedado registrado su compromiso. Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000.');
-                      eventosLanding('agendo llamada');
-
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
                 }
             })
             .done(function(e) {
@@ -564,8 +538,16 @@ function url(idButton) {
           $('#cont4').removeClass('hide'); 
     break;
     case 5:
-          $('#cont2').addClass('hide');
-          $('#').removeClass('hide'); 
+          $('#cont1').addClass('hide');
+          $('#usrbad').removeClass('hide'); 
+    break;
+     case 6:
+          $('#usrbad').addClass('hide');
+          $('#equiv1').removeClass('hide'); 
+    break;
+     case 7:
+          $('#equiv2').addClass('hide');
+          $('#equiv1').removeClass('hide'); 
     break;
 default:
           alert("hay un problema: No existe el producto.")
