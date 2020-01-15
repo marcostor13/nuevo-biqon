@@ -56,18 +56,15 @@ $enddate=strtotime("+7 days", $startdate);
                 </div>
                 <br>
                 <br>
-                <br>
-                
-                
+                  
                  <!-- YA PAGUE-->
                   <button onclick="; return false;" class="btn btn-primary btn-lg btn-block">YA PAGUÉ </button>
                  
                  <!-- CONTACTO-->
                  <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://api.whatsapp.com/send?phone=56979201461&text=contactado%20por%20whatsapp%20xd" '>CONTACTO</button> 
                  
-                 <!-- PAGO EN CUOTAS-->
-                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf" '>PAGO EN CUOTAS</button> 
-             </div>  
+                <!-- ENVIAR CORREO-->
+                  <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="mailto:maicol.binteraction@gmail.com" '>Enviar Correo</button> 
 
 
 
