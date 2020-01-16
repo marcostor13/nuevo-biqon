@@ -201,8 +201,8 @@ $name = $_GET['NOMBRE'];
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
-                <div class="text-black col-md-12 align-items-center">
-                 56 9 <input id="telf" type="number" class="form-control col-md-6 mt-4 text-center text-black">
+                <div class="text-black col-10 align-items-center">
+                 56 9 <input id="telf" type="number" class="form-control col-8 mt-4 text-center text-black"/>
                  </div>
                 <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
 
