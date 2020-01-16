@@ -20,10 +20,10 @@ $name = $_GET['NOMBRE'];
         display: none;
     }
 </style>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/css/bootstrap-timepicker.min.css" />
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/js/bootstrap-timepicker.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/js/bootstrap-timepicker.min.js"></script>-->
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -172,8 +172,8 @@ $name = $_GET['NOMBRE'];
                 <input id="date2"  type="date" class=" btn-date text-black form-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required=”required”/>
                 <br>
                 <label>Hora:</label>
-                <input id="timepicker" type="text" class=" btn-date text-black form-control input-min-width-95p">
-                <!--<input id="time1"  type="time" class=" btn-date text-black form-control input-min-width-95p" max="19:30:00" min="08:30:00" step="3600" required=”required”/>-->
+                <!--<input id="timepicker" type="text" class=" btn-date text-black form-control input-min-width-95p">-->
+                <input id="time1"  type="time" class=" btn-date text-black form-control input-min-width-95p" max="19:30:00" min="08:30:00" step="3600" required=”required”/>
 
                <!-- <div class="input-append date form_datetime" data-date="2012-12-21T15:25:00Z">
                     <input size="16" type="text" value="" readonly>
@@ -351,12 +351,12 @@ $name = $_GET['NOMBRE'];
                     autoclose: true,
                     todayBtn: true
                      });*/
-    $(function () {
+   /* $(function () {
         $('#timepicker').timepicker({
             showMeridian: true,
             showInputs: true
         });
-    });
+    });*/
 
         $(function(){
             events({    
