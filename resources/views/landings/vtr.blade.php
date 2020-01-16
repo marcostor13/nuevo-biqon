@@ -14,14 +14,24 @@ $name = $_GET['NOMBRE'];
 //$pago = $_GET['MONTO'];
 //echo $pago;
 ?>
+<style type="text/css">
+    .bootstrap-timepicker-meridian, .meridian-column
+    {
+        display: none;
+    }
+</style>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/css/bootstrap-timepicker.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/js/bootstrap-timepicker.min.js"></script>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<!--<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">-->
 <style type="text/css">
 
     
@@ -146,7 +156,7 @@ $name = $_GET['NOMBRE'];
                 </h5>       
             <div>
                 <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required/>
+                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required=”required”/>
              </div> 
                 <button onclick="sendMail(); eventosLanding('Compromiso de Pago'); return false;" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
             </div>
@@ -159,16 +169,17 @@ $name = $_GET['NOMBRE'];
                 </h5>       
             <div>
                 <label>Fecha:</label>
-                <!--<input id="date2"  type="date" class=" btn-date text-black form-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required/>
+                <input id="date2"  type="date" class=" btn-date text-black form-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required=”required”/>
                 <br>
                 <label>Hora:</label>
-                <input id="time1"  type="time" class=" btn-date text-black form-control input-min-width-95p" max="19:30:00" min="08:30:00" step="3600" required/>-->
+                <input id="timepicker" type="text" class=" btn-date text-black form-control input-min-width-95p">
+                <!--<input id="time1"  type="time" class=" btn-date text-black form-control input-min-width-95p" max="19:30:00" min="08:30:00" step="3600" required=”required”/>-->
 
-                <div class="input-append date form_datetime" data-date="2012-12-21T15:25:00Z">
+               <!-- <div class="input-append date form_datetime" data-date="2012-12-21T15:25:00Z">
                     <input size="16" type="text" value="" readonly>
                     <span class="add-on"><i class="icon-remove"></i></span>
                     <span class="add-on"><i class="icon-th"></i></span>
-                </div>
+                </div>-->
 
              </div> 
                 <button onclick="sendMail(); return false; eventosLanding('Agendo llamada');" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
@@ -334,6 +345,19 @@ $name = $_GET['NOMBRE'];
 
   <script>
    //EVENT 
+   /*$(".form_datetime").datetimepicker({
+                    format: "dd MM yyyy - HH:ii P",
+                    showMeridian: true,
+                    autoclose: true,
+                    todayBtn: true
+                     });*/
+    $(function () {
+        $('#timepicker').timepicker({
+            showMeridian: true,
+            showInputs: true
+        });
+    });
+
         $(function(){
             events({    
                 'name': 'Visita',
@@ -376,12 +400,7 @@ $name = $_GET['NOMBRE'];
                         ///}
                    // });
 
-                   $(".form_datetime").datetimepicker({
-                    format: "dd MM yyyy - HH:ii P",
-                    showMeridian: true,
-                    autoclose: true,
-                    todayBtn: true
-                     });
+                   
                 }else{
                    $('#cont1').addClass('hide');
                      $('#success').removeClass('hide');
