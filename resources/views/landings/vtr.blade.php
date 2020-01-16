@@ -204,9 +204,9 @@ $name = $_GET['NOMBRE'];
                 <div class="text-black col-md-12 align-items-center">
                  56 9 <input id="telf" type="number" class="form-control col-md-6 mt-4 text-center text-black">
                  </div>
-                <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-6 mt-4"> VALIDAR </button>
+                <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
 
-                <!--<button onclick='url(7);' class="btn bg-danger text-white col-10 mt-4 hide"> CONTINUAR </button>-->
+                <button onclick='url(7);' class="btn bg-danger text-white col-5 mt-4 hide"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
@@ -216,16 +216,16 @@ $name = $_GET['NOMBRE'];
             </div>
 
           <div id="equiv10" class="p-5 hide" >
-                <div class="text-black col-md-12">
+               <!--<div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
                  56 9 <input id="tfl" type="number" class="form-control mt-4 text-center text-black" required>
 
-                <!--<button onclick='valtlf();' class="btn bg-warning text-black col-6 mt-4"> VALIDAR </button>-->
+                <button onclick='valtlf();' class="btn bg-warning text-black col-6 mt-4"> VALIDAR </button>
 
                 <button id="button01" onclick='url(7);' class="btn bg-danger text-white col-10 mt-4"> CONTINUAR </button>
                 <br>
-                <!--<div class="text-black col-md-12">
+                <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div> 
                 <button onclick='url(7);' class="btn bg-danger text-white col-10 mt-4"> No quiero ingresar </button>-->
@@ -683,7 +683,7 @@ $name = $_GET['NOMBRE'];
 
         function validarEmail(valor) {
            campo = event.target;
-    valido = document.getElementById('ecorr');
+    valido = document.getElementById('#ecorr');
         
     emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
     //Se muestra un texto a modo de ejemplo, luego va a ser un icono
