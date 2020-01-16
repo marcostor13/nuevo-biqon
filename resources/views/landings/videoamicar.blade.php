@@ -43,7 +43,7 @@ $enddate=strtotime("+15 days", $startdate);
                    
                     <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56978789305"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:carla.torres@amicar.cl"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:carla.torres@amicar.cl?subject=Landing%20Video%20Amicar"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
         </div>
 
