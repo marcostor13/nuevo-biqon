@@ -240,7 +240,7 @@ $name = $_GET['NOMBRE'];
                 </div>
                  <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required>
 
-                <button id="validate" onclick='validarEmail01();' class="btn bg-warning text-black col-5 mt-4"> VALIDAR </button>
+                <button id="validate" class="btn bg-warning text-black col-5 mt-4"> VALIDAR </button>
 
                 <button onclick='urldatos();' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
                 <br>
@@ -690,16 +690,7 @@ $name = $_GET['NOMBRE'];
         alert('La direccón de correo no es válida');
     }
 });
-            function validarEmail() {
 
-                   var valor = $('#ecorr').val();
-             alert (valor);
-              if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/.test(valor)){
-               alert("La dirección de email " + valor + " es correcta.");
-              } else {
-               alert("La dirección de email es incorrecta.");
-              }
-            }
 
 function url(idButton) {
 
