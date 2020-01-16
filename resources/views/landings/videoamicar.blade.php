@@ -1,68 +1,58 @@
 @extends('layouts.landing')
 
-@section('title', 'MafChile')
+@section('title', 'AMICAR')
 
 @section('content')
- <?php
-$startdate=strtotime("Today");
-$enddate=strtotime("+7 days", $startdate);
-?>
-    <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+
+<style>
+.opaco{
+    display: none !important; 
+}
+</style>
+
+    <!--<div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="opaco"></div>
 
-        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="MAFCHILE">
+       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AMICAR">
 
-            <div id="cont1" class="p-5 ">
-                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-white">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
+            <div id="cont1">
+                <div class="videoWrapper">        
+                    <iframe width="400" height="320" src="{{asset('/files/video1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="card">     
+                <div class="card-body">
+                <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> </div> </div>
+
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
             </div>
-            <div id="cont5" class="p-2 pl-3 pr-3 hide">
+            
+<!--<div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:contacto@binteraction.com"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                </div>
+        </div>-->
+
+        <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
+                                <h5 id="message"class="text-black text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-3 hide">
-                <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
+            <!--<div class=" tagline w3-center w3-animate-top black-text">Binteraction.com</div>-->
+        
+    <!--</div>-->
 
-                <p class="text-white">
-                    Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz.
-                    
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
-                </p>
-                <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-                <button onclick='window.location.href="https://www.mafchile.com/client/login";eventosLanding("Pagina de Pagos");' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
-
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
-                <br>
-                <div class="d-flex justify-content-around align-content-center mt-4 ">
-                    <br>
-                    <br>
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56930733111&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
-                    <a onclick="eventosLanding('Llamar');" href="tel:+569930733111"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                    <a onclick="eventosLanding('Correo');" href="mailto:ccastillo@mafchile.com"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
-                </div>
-               </div>
-                           <div id="cont3" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                            </div>
-                        </div>
-            </div>
-
-        </div>
-    </div>
-
-
-    <script>
+   
+     <script>
+   //EVENT 1
+        
         $(function(){
             events({    
                 'name': 'Visita',
@@ -102,9 +92,7 @@ $enddate=strtotime("+7 days", $startdate);
                         }
                     });
                 }else{
-                    $('#cont1').addClass('hide');
-                     $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
+                    $('#error').text(e.msg);
                 }
             })
             .fail(function() {
@@ -118,8 +106,8 @@ $enddate=strtotime("+7 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+           // json_datos.nombre = $('#name').text();
+           // json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -138,33 +126,33 @@ $enddate=strtotime("+7 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#name').text(),
+                    'Mombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
-                     'Ejecutivo': getUrlParameter('data1'),
-                    'landing': '{!! $landing->name !!}'
-                   
+                    'Phone': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                     'Direccion': getUrlParameter('data1'),
+                     'Comuna': getUrlParameter('data2')                
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'fecha': date,
-                    'nombre': $('#name').text(),
+                    'Fecha': date,
+                    'Mombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
-                    'rut': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
-                    'Ejecutivo': getUrlParameter('data1'),
+                    'Phone': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                     'Direccion': getUrlParameter('data1'),
+                     'Comuna': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-           var correo = ["ccastillo@mafchile.com"];
+            var correo = ["luis.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email': '{!! $landing->email !!}' "alsanchez@prainabogados.cl"
+                //'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -176,7 +164,7 @@ $enddate=strtotime("+7 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
+                     $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
@@ -184,7 +172,6 @@ $enddate=strtotime("+7 days", $startdate);
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
-                     eventosLanding('Compromiso de Pago');
                 }
             })
             .done(function(e) {

@@ -6,6 +6,13 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+3 days", $startdate);
+$enddate1=strtotime("+5 days", $startdate);
+
+//$name = $_GET['NOMBRE'];
+//$servicio = $_GET['DATA2'];
+//$estado = $_GET['DATA3'];
+//$pago = $_GET['MONTO'];
+//echo $pago;
 ?>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -68,26 +75,26 @@ $enddate=strtotime("+3 days", $startdate);
 <!-- HEAD -->
 
  <div class="oscurecer p-3">
-        <div id="head" class="p-1 pl-1 pr-1 "> <img class="img-fluid col-8 col-md-10" src="{{$landing->logo}}" alt="VTR"> 
+        <div id="head" class="p-1 pl-1 pr-1 "> <img class="img-fluid col-7 col-md-10" src="{{$landing->logo}}" alt="VTR"> 
         
         
-             <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="20" height="20"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
+             <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="30" height="30"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
                    
-             <a class="ml-1" onclick="eventosLanding('Twitter');" href="https://twitter.com/vtrchile"><img width="20" height="20" src="https://image.flaticon.com/icons/svg/174/174876.svg"></a>
+             <a class="ml-1" onclick="eventosLanding('Twitter');" href="https://twitter.com/vtrchile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174876.svg"></a>
 
-             <a class="ml-1" onclick="eventosLanding('Youtube');" href="https://www.youtube.com/user/VTRChile"><img width="20" height="20" src="https://image.flaticon.com/icons/svg/174/174883.svg"></a>
+             <a class="ml-1" onclick="eventosLanding('Youtube');" href="https://www.youtube.com/user/VTRChile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174883.svg"></a>
             </div>
 
         </div>
-<div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">
+<!--<div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">-->
 
     <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             
 <!-- MENU 1: INGRESAR -->
         <div id="cont1" class="p-5 ">
-                <br><br><br>
-            <h4 class="text-black text-center"><strong><span id="name"></span> </strong>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
-            <input id="rut" type="number" class="form-control mt-4 text-center text-black">
+            <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong>
+            <br>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
+            <input id="rut" type="number" class="form-control mt-4 text-center text-black" required>
                 
             <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Ingresar </button>
 
@@ -111,6 +118,12 @@ $enddate=strtotime("+3 days", $startdate);
              <!-- MENU2:  -->
         <div id="cont2" class="p-5 hide" >
             <div class="text-black col-md-12">
+                <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong> 
+                <br> 
+                Tu boleta asociada al servicio <span id="servicio"><?php //echo $servicio; ?></span>, se encuentra <span id="estado"> <?php //echo $estado; ?></span>, por el monto de:
+                    <br> $ <span id="pay"> <?php //echo $pago; ?></span> <br></h4>
+               <p> Recuerda que pagar tu boleta al día evita la suspensión de tus servicios. </p>
+                
                 
                 <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-black col-12 mt-4"> Pagar</button>
 
@@ -133,7 +146,7 @@ $enddate=strtotime("+3 days", $startdate);
                 </h3>       
             <div>
                 <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required/>
              </div> 
                 <button onclick="sendMail(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
             </div>
@@ -146,10 +159,10 @@ $enddate=strtotime("+3 days", $startdate);
                 </h3>       
             <div>
                 <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-
+                <input id="date2"  type="date" class=" btn-date text-black form-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required/>
+                <br>
                 <label>Hora:</label>
-                <input id="time1"  type="time" class=" btn-date text-blackform-control input-min-width-95p"/>
+                <input id="time1"  type="time" class=" btn-date text-black form-control input-min-width-95p" max="19:30:00" min="08:30:00" step="3600" required/>
 
              </div> 
                 <button onclick="sendMail(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
@@ -158,47 +171,67 @@ $enddate=strtotime("+3 days", $startdate);
         <!-- MENU: CONTACTO EQUIVOCADO -->
         <div id="usrbad" class="p-5 hide" >
             <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> ¿Conoces a <strong> <span id="name"></span></strong> ?</h6>
+                 <h4 class="text-black text-center">¿Conoces a <strong><span id="name"> <?php //echo $name; ?></span> </strong> ? </h4>
                 </div>
 
-            <button onclick='url(6); ' class="btn bg-danger text-black col-6 mt-4"> SI </button>
+            <button onclick='url(6); ' class="btn bg-danger text-black col-5 mt-4"> SI </button>
 
-            <button onclick='url22(); eventosLanding("NO CONTACTO"); ' class="btn bg-danger text-black col-6 mt-4"> NO </button>
+            <button onclick='url22(); eventosLanding("NO CONTACTO"); ' class="btn bg-danger text-black col-5 mt-4"> NO </button>
         </div>
 
         <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
             <div id="equiv1" class="p-5 hide" >
                 <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> Favor, ingresar número de teléfono</h6>
+                <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
-                 <input id="telf" type="number" class="form-control mt-4 text-center text-black" >
+                <div class="text-black col-md-12 align-items-center">
+                 56 9 <input id="telf" type="number" class="form-control mt-4 text-center text-black" required>
+                 </div>
+                <button onclick='valtlf();' class="btn bg-warning text-black col-6 mt-4"> VALIDAR </button>
 
-                <button onclick='url23();' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
-
-                <button onclick='url(7);' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
+                <!--<button onclick='url(7);' class="btn bg-danger text-black col-10 mt-4 hide"> CONTINUAR </button>-->
                 <br>
                 <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h6>
-                </div>
-                <button onclick='url25();' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
+                <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
+                </div> 
+                <button onclick='url(7);' class="btn bg-danger text-black col-10 mt-4"> No quiero ingresar </button>
 
             </div>
+
+            <div id="equiv10" class="p-5 hide" >
+                <div class="text-black col-md-12">
+                <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
+                </div>
+                 56 9 <input id="tfl" type="number" class="form-control mt-4 text-center text-black" required>
+
+                <!--<button onclick='valtlf();' class="btn bg-warning text-black col-6 mt-4"> VALIDAR </button>-->
+
+                <button id="button01" onclick='url(7);' class="btn bg-danger text-black col-10 mt-4"> CONTINUAR </button>
+                <br>
+                <!--<div class="text-black col-md-12">
+                <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
+                </div> 
+                <button onclick='url(7);' class="btn bg-danger text-black col-10 mt-4"> No quiero ingresar </button>-->
+
+            </div>
+
 
         <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
             <div id="equiv2" class="p-5 hide" >
                 <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> Favor, ingresar correo</h6>
+                <h5 class="text-black text-center"> Favor, ingresar correo</h5>
                 </div>
-                 <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" >
+                 <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required>
 
-                <button onclick='url26(); eventosLanding("VALIDAR"); ' class="btn bg-danger text-black col-6 mt-4"> VALIDAR </button>
+                <button onclick='validarEmail();' class="btn bg-warning text-black col-5 mt-4"> VALIDAR </button>
 
-                <button onclick='url27(); eventosLanding("CONTINUAR"); ' class="btn bg-danger text-black col-6 mt-4"> CONTINUAR </button>
+                <button onclick='urldatos();' class="btn bg-danger text-black col-5 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
-                <h6 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h6>
+                    <br>
+                <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div>
-                <button onclick='url28(); ' class="btn bg-danger text-black col-6 mt-4"> No quiero ingresar </button>
+                <button onclick='url8(); ' class="btn bg-danger text-black col-10 mt-4"> No quiero ingresar </button>
 
             </div>
 
@@ -220,25 +253,25 @@ $enddate=strtotime("+3 days", $startdate);
             <div id="cont4" class="p-5 hide">
                 <div class="text-black col-md-12 text-center align-items-center justify-content-start p-0">
                 
-                <button onclick='url10(); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-5 mt-4"> SubTel|Sernac </button>
+                <button onclick='sendMail("El cliente indica que tiene problemas con SubTel|Sernac"); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-black col-5 mt-4"> SubTel|Sernac </button>
 
-                <button onclick='url10(); eventosLanding("Problemas Económicos); ' class="btn bg-danger text-black col-5 mt-4"> Problemas Economicos</button>
+                <button onclick='sendMail("El cliente indica que tiene Problemas Economicos"); eventosLanding("Problemas Económicos); ' class="btn bg-danger text-black col-5 mt-4"> Problemas Economicos</button>
 
-                <button onclick='url10(); eventosLanding("No Reconozco Deuda"); ' class="btn bg-danger text-black col-5 mt-4"> No Reconozco Deuda</button>
+                <button onclick='sendMail("El cliente indica que No Reconoce Deuda"); eventosLanding("No Reconozco Deuda"); ' class="btn bg-danger text-black col-5 mt-4"> No Reconozco Deuda</button>
 
-                <button onclick='urll0(); eventosLanding("Problema Técnico"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Tecnico</button>
+                <button onclick='sendMail("El cliente indica que tiene Problemas Tecnicos"); eventosLanding("Problema Técnico"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Tecnico</button>
 
-                <button onclick='url10(); eventosLanding("Problema Comercial"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Comercial</button>
+                <button onclick='sendMail("El cliente indica que tiene Problema Comercial"); eventosLanding("Problema Comercial"); ' class="btn bg-danger text-black col-5 mt-4"> Problema Comercial</button>
 
-                <button onclick='url10(); eventosLanding("Pago no aplicado"); ' class="btn bg-danger text-black col-5 mt-4"> Pago no aplicado</button>
+                <button onclick='sendMail("El cliente indica que tiene problemas con Pago no aplicado"); eventosLanding("Pago no aplicado"); ' class="btn bg-danger text-black col-5 mt-4"> Pago no aplicado</button>
 
-                <button onclick='url10(); eventosLanding("Fraude"); ' class="btn bg-danger text-black col-5 mt-4"> Fraude</button>
+                <button onclick='sendMail("El cliente indica que tiene problemas con Fraude"); eventosLanding("Fraude"); ' class="btn bg-danger text-black col-5 mt-4"> Fraude</button>
 
-                <button onclick='url10(); eventosLanding("Titular fallecido"); ' class="btn bg-danger text-black col-5 mt-4"> Titular fallecido</button>
+                <button onclick='sendMail("El cliente indica que tiene problemas con Titular fallecido"); eventosLanding("Titular fallecido"); ' class="btn bg-danger text-black col-5 mt-4"> Titular fallecido</button>
 
-                <button onclick='url10(); eventosLanding("Baja no ingresanda"); ' class="btn bg-danger text-black col-5 mt-4"> Baja no ingresada</button>
+                <button onclick='sendMail("El cliente indica que tiene problemas con Baja no ingresada"); eventosLanding("Baja no ingresanda"); ' class="btn bg-danger text-black col-5 mt-4"> Baja no ingresada</button>
 
-                <button onclick='url10(); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-black col-5 mt-4"> Me cambie de Compañía</button>
+                <button onclick='sendMail("El cliente indica que se cambio de Compañía"); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-black col-5 mt-4"> Me cambie de Compañía</button>
 
         </div>
         </div>
@@ -246,7 +279,11 @@ $enddate=strtotime("+3 days", $startdate);
                 <div id="success" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
                         <div class="card-body">
-                            <h5 id="message"class="text-grey text-center mt-4 "></h5>
+                            <h5 id="messages"class="text-grey text-center mt-4 "></h5>
+                             <h5 class="text-grey text-center mt-4 "> Gracias por su tiempo. 
+                                <br>VTR le desea que tenga un excelente día. 
+                                <br>Cualquier duda al 600 800 9000.
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -255,44 +292,33 @@ $enddate=strtotime("+3 days", $startdate);
                 <div id="error" class="p-2 pl-5 pr-5 hide">
                     <div class="card">     
                         <div class="card-body">
-                            <h5 id="message"class="text-grey text-center mt-4 "></h5>
+                            <h5 id="messagee"class="text-black text-center mt-4 "> Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000. </h5>
                         </div>
                     </div>
                 </div>
-
+</div> 
    <!-- PIE DE PAGINA -->             
-    <div class="oscurecer p-3">
-         <div id="pie" class="p-2 pl-2 pr-2 ">
-            <i class="fas fa-question text-danger"></i>
-            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-black">Centro de ayuda</a>
-                   
-            <i class="fas fa-question text-danger"></i>
-            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-black"> Reportar Abusos</a>
-                    <br>
-            <i class="fas fa-exclamation-circle text-danger"></i> 
-            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-black"> Actualiza Datos</a>
-            
-            <i class="fas fa-user text-danger"></i>
-            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-black">  Privacidad</a>
-            <br>
-            <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> 
-        </div>
-
-        <table class="table table-bordered table-dark">
-  <thead>
-    <tr>
-      <th scope="col">1</th>
-      <th scope="col">2</th>
-      <th scope="col">3</th>
-      <th scope="col">4</th>
-      <th scope="col">5</th>
-      <th scope="col">6</th>
-      <th scope="col">7</th>
-      <th scope="col">8</th>
-    </tr>
-  </thead>
-
-        </div>
+    <div id="pie" class="oscurecer p-3 pl-2 pr-2">
+        <table class="table .table-hover">
+    <tbody>
+        <tr>
+          <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
+            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-danger"><h6>Centro Ayuda</h6> </a> </td>
+          <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
+            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-danger"><h6>Reportar Abusos</h6></a> </td>
+          <td colspan="2"> <!--<i class="fas fa-exclamation-circle text-danger"></i> -->
+            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-danger"><h6>Actualiza Datos</h6> </a> </td>
+          <td colspan="2"> <!--<i class="fas fa-user text-danger"></i>-->
+            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-danger"><h6>Privacidad</h6> </a> </td>
+        </tr>
+        <tr>
+          <td colspan="3"> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> </td>
+          <td colspan="5"> <p class="text-white">©2020 VTR Comunicaciones SPA</p> </td>
+        </tr>
+  
+        </tbody>
+   </table>
+    </div>
 
 
 
@@ -330,19 +356,24 @@ $enddate=strtotime("+3 days", $startdate);
             .done(function(e) {
                 console.log(e);
                 e = JSON.parse(e); 
-
+               
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
+                    $('#servicio').text(geturlParameter('data2'));
+                    $('#estado').text(geturlParameter('data3'));
+                    //$('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
                             sendMail();
                         }
                     });
                 }else{
-                    $('#error').text(e.msg);
+                   $('#cont1').addClass('hide');
+                     $('#success').removeClass('hide');
+                    $('#messages').text("Validación incorrecta.");
                 }
             })
             .fail(function() {
@@ -355,7 +386,6 @@ $enddate=strtotime("+3 days", $startdate);
         let eventosLanding = function(name){
             
             let json_datos = getAllurlParameter(); 
-
             //json_datos.nombre = $('#name').text();
             //json_datos.monto = $('#pay').text();
 
@@ -377,21 +407,41 @@ $enddate=strtotime("+3 days", $startdate);
                 data = {
                     'Mensaje': msg,
                     'Nombre': $('#name').text(),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
-
+                    'RUT': geturlParameter('rut'),
+                    'Telefono': geturlParameter('telefono'),
                     'Landing': '{!! $landing->name !!}'
                     
                 }
             }else{
-                let date = $('#date1').val();
-                data = {
+
+                if ($('#date1').val().length == 0){ 
+                  let date = $('#date2').val();
+                  let fecha = $('#time1').val();
+                  data = {
                     'Fecha': date,
+                    'Hora': fecha,
                     'Nombre': $('#name').text(),
-                    'Rut': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
+                    'Rut': geturlParameter('rut'),
+                    'Telefono': geturlParameter('telefono'),
                     'Landing': '{!! $landing->name !!}'
                 } 
+                }else{
+                  let date = $('#date1').val();
+                  data = {
+                    'Fecha': date,
+                    'Nombre': $('#name').text(),
+                    'Rut': geturlParameter('rut'),
+                    'Telefono': geturlParameter('telefono'),
+                    'Landing': '{!! $landing->name !!}'
+                } 
+                }
+               // data = {
+                 //   'Fecha': date,
+                  //  'Nombre': $('#name').text(),
+                  //  'Rut': geturlParameter('rut'),
+                  //  'Telefono': geturlParameter('telefono'),
+                  //  'Landing': '{!! $landing->name !!}'
+               // } 
             }
              var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
@@ -409,14 +459,15 @@ $enddate=strtotime("+3 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
-                    $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                     $('#cont4').addClass('hide');
+                    $('#success').removeClass('hide');
+                    $('#messages').text('Su reclamo ha quedado registrado.');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
-                    $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                     $('#calend').addClass('hide');
+                     $('#llamen').addClass('hide');
+                    $('#success').removeClass('hide');
+                    $('#messages').text('Ha quedado registrado su compromiso');
                 }
             })
             .done(function(e) {
@@ -576,6 +627,39 @@ $enddate=strtotime("+3 days", $startdate);
         })
         } 
 
+      function  urldatos(){
+
+            var telf = $('#telf').val();
+            var ecorr = $('#ecorr').val();
+            var msg1;
+            msg1 = " El cliente Informa que el telefono es "+telf+" y el correo es "+ecorr+".";
+
+            alert (msg1)
+            //sendMail(msg);
+        }
+
+               function  valtlf(){      
+             if ($('#telf').val().length == 8){ 
+
+                $('#equiv1').addClass('hide');
+                $('#telf').text();
+                $('#telf').val();
+                $('#equiv10').removeClass('hide');
+
+             }else{
+                 alert("El telefono es incorecto");
+             }
+                 }
+
+
+        function validarEmail(valor) {
+            if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/.test(valor)){
+               alert("La dirección de email " + valor + " es correcta.");
+            } else {
+               alert("La dirección de email es incorrecta.");
+            }
+        }
+
 function url(idButton) {
 
  switch(idButton) {
@@ -586,6 +670,7 @@ function url(idButton) {
 
  case 2:
           $('#cont2').addClass('hide');
+           $('#name').text(geturlParameter('nombre'));
           $('#llamen').removeClass('hide');
     break;
 
@@ -599,14 +684,17 @@ function url(idButton) {
     break;
     case 5:
           $('#cont1').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
           $('#usrbad').removeClass('hide'); 
     break;
      case 6:
           $('#usrbad').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
           $('#equiv1').removeClass('hide'); 
     break;
      case 7:
           $('#equiv2').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
           $('#equiv1').removeClass('hide'); 
     break;
 default:
