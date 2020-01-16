@@ -202,7 +202,7 @@ $name = $_GET['NOMBRE'];
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
                 <div class="text-black col-md-12 align-items-center">
-                 56 9 <input id="telf" type="number" class="form-control col-md-6 mt-4 text-center text-black" onkeyup="valor()">
+                 56 9 <input id="telf" type="number" class="form-control col-md-6 mt-4 text-center text-black">
                  </div>
                 <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-6 mt-4"> VALIDAR </button>
 
@@ -670,9 +670,6 @@ $name = $_GET['NOMBRE'];
             //sendMail(msg);
         }
 
-function Valor(){
-document.getElementById("tfl").value = document.getElementById("telf").value;
-}
 
                function  valtlf(){      
              if ($('#telf').val().length == 8){ 
