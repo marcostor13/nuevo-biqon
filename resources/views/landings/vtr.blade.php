@@ -206,7 +206,7 @@ $name = $_GET['NOMBRE'];
                  </div>
                 <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
 
-                <button onclick='url(7);' class="btn bg-danger text-white col-5 mt-4 hide"> CONTINUAR </button>
+                <button onclick='url(7);' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
@@ -248,7 +248,7 @@ $name = $_GET['NOMBRE'];
                     <br>
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div>
-                <button onclick='url8(); ' class="btn bg-danger text-white col-10 mt-4"> No quiero ingresar </button>
+                <button onclick='url22(); ' class="btn bg-danger text-white col-10 mt-4"> No quiero ingresar </button>
 
             </div>
 
