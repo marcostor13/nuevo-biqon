@@ -28,10 +28,10 @@ $enddate=strtotime("+15 days", $startdate);
 
                     <h5 class="text-black text-center"> <strong> Desea agendar su visita</strong> </h5>
 
-                          <div class="date btn bg-warning text-black col-12 mt-4">
+                        <div class="date btn bg-warning text-black col-12 mt-4">
                     <span>AGENDAR</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
+                     </div>
 
                        </div> </div>
                 
@@ -169,7 +169,7 @@ $enddate=strtotime("+15 days", $startdate);
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
+                     $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
                 }
