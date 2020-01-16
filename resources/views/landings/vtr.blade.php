@@ -683,7 +683,7 @@ $name = $_GET['NOMBRE'];
 
     var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
 
-    if (regex.test($('#email').val().trim())) {
+    if (regex.test($('#ecorr').val().trim())) {
         alert('Correo validado');
 
     } else {
