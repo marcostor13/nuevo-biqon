@@ -664,17 +664,16 @@ $name = $_GET['NOMBRE'];
             var telf = $('#telf').val();
             var ecorr = $('#ecorr').val();
             var msg1;
-            msg1 = " El cliente Informa que el telefono es "+telf+" y el correo es "+ecorr+".";
+            msg1 = " El cliente Informa que el telefono es 569"+telf+" y el correo es "+ecorr+".";
 
-            alert (msg1)
-            //sendMail(msg);
+            alert (msg1);
+            sendMail(msg1);
         }
 
 
                function  valtlf(){      
              if ($('#telf').val().length == 8){ 
-                $('#equiv1').addClass('hide');
-                $('#equiv10').removeClass('hide');
+               alert("El Largo del telefono es correcto");
              }else{
                  alert("El telefono es incorecto");
              }
