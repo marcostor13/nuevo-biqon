@@ -92,15 +92,16 @@ $enddate1=strtotime("+5 days", $startdate);
             
 <!-- MENU 1: INGRESAR -->
         <div id="cont1" class="p-5 ">
-            <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong>
+            <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong>
             <br>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
-            <input id="rut" type="number" class="form-control mt-4 text-center text-black" required>
+            <input id="rut" type="number" cla
+            ss="form-control mt-4 text-center text-black" required>
                 
             <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Ingresar </button>
 
             <button onclick="url(5)" class="btn bg-danger text-black col-12 mt-4"> Contacto Equivocado </button>
 
-            <button onclick="window.location.href='closer()'; return false;" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
+            <button onclick="url22(); return false;" class="btn bg-danger text-black col-12 mt-4"> Salir </button>
 
         </div>
 
@@ -148,7 +149,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 <label>Fecha:</label>
                 <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required/>
              </div> 
-                <button onclick="sendMail(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
+                <button onclick="sendMail(); eventosLanding('Compromiso de Pago'); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
             </div>
        </div>
 
@@ -165,13 +166,13 @@ $enddate1=strtotime("+5 days", $startdate);
                 <input id="time1"  type="time" class=" btn-date text-black form-control input-min-width-95p" max="19:30:00" min="08:30:00" step="3600" required/>
 
              </div> 
-                <button onclick="sendMail(); return false;" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
+                <button onclick="sendMail(); return false; eventosLanding('Agendo llamada');" class="btn bg-danger text-black col-12 mt-4">Confirmar</button>
             </div>
        </div>
         <!-- MENU: CONTACTO EQUIVOCADO -->
         <div id="usrbad" class="p-5 hide" >
             <div class="text-black col-md-12">
-                 <h4 class="text-black text-center">¿Conoces a <strong><span id="name"> <?php //echo $name; ?></span> </strong> ? </h4>
+                 <h4 class="text-black text-center">¿Conoces a <strong><span id="name"> <?php echo $name; ?></span> </strong> ? </h4>
                 </div>
 
             <button onclick='url(6); ' class="btn bg-danger text-black col-5 mt-4"> SI </button>
@@ -198,7 +199,7 @@ $enddate1=strtotime("+5 days", $startdate);
 
             </div>
 
-            <div id="equiv10" class="p-5 hide" >
+          <div id="equiv10" class="p-5 hide" >
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
@@ -612,6 +613,19 @@ $enddate1=strtotime("+5 days", $startdate);
              window.location.href = "https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv";
         })
         } 
+
+        function url22(){ //tarifa
+       // var rut; 
+         //rut= geturlParameter('rut');
+            swal({
+             title: `Gracias por su tiempo. VTR le desea un excelente dia. Cualquier duda al 600 800 9000`,
+             type: "success",
+             timer: 3000
+        }, 
+        function(){
+             window.location.href = "https://vtr.com/";
+        })
+        }
 
 
                 function url10(){ //sucursal Virtual
