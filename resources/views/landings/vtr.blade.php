@@ -240,7 +240,7 @@ $name = $_GET['NOMBRE'];
                 </div>
                  <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required>
 
-                <button onclick='validarEmail();' class="btn bg-warning text-black col-5 mt-4"> VALIDAR </button>
+                <button id="validate" onclick='validarEmail01();' class="btn bg-warning text-black col-5 mt-4"> VALIDAR </button>
 
                 <button onclick='urldatos();' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
                 <br>
@@ -679,7 +679,17 @@ $name = $_GET['NOMBRE'];
              }
                  }
 
-           
+           $('#validate').click(function() {
+
+    var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+
+    if (regex.test($('#email').val().trim())) {
+        alert('Correo validado');
+
+    } else {
+        alert('La direccón de correo no es válida');
+    }
+});
             function validarEmail() {
 
                    var valor = $('#ecorr').val();
