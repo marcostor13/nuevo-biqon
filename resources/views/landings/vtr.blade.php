@@ -97,7 +97,6 @@ $name = $_GET['NOMBRE'];
             </div>
 
         </div>
-<!--<div id="VTR" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; ">-->
 
     <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             
@@ -175,12 +174,6 @@ $name = $_GET['NOMBRE'];
                 <!--<input id="timepicker" type="text" class=" btn-date text-black form-control input-min-width-95p">-->
                 <input id="time1"  type="time" data-format="hh:mm A" class=" btn-date text-black form-control input-min-width-95p" max="20:00:00" min="08:00:00" step="60" required="required"/>
 
-               <!-- <div class="input-append date form_datetime" data-date="2012-12-21T15:25:00Z">
-                    <input size="16" type="text" value="" readonly>
-                    <span class="add-on"><i class="icon-remove"></i></span>
-                    <span class="add-on"><i class="icon-th"></i></span>
-                </div>-->
-
              </div> 
                 <button onclick="sendMail(); return false; eventosLanding('Agendo llamada');" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
             </div>
@@ -214,24 +207,6 @@ $name = $_GET['NOMBRE'];
                 <button onclick='url(7);' class="btn bg-danger text-white col-10 mt-4"> No quiero ingresar </button>
 
             </div>
-
-          <div id="equiv10" class="p-5 hide" >
-               <!--<div class="text-black col-md-12">
-                <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
-                </div>
-                 56 9 <input id="tfl" type="number" class="form-control mt-4 text-center text-black" required>
-
-                <button onclick='valtlf();' class="btn bg-warning text-black col-6 mt-4"> VALIDAR </button>
-
-                <button id="button01" onclick='url(7);' class="btn bg-danger text-white col-10 mt-4"> CONTINUAR </button>
-                <br>
-                <div class="text-black col-md-12">
-                <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
-                </div> 
-                <button onclick='url(7);' class="btn bg-danger text-white col-10 mt-4"> No quiero ingresar </button>-->
-
-            </div>
-
 
         <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
             <div id="equiv2" class="p-5 hide" >
@@ -381,14 +356,7 @@ $name = $_GET['NOMBRE'];
                     $('#cont2').removeClass('hide');
                     $('#servicio').text(geturlParameter('data2'));
                     $('#estado').text(geturlParameter('data3'));
-                    //$('#cont2').removeClass('hide');
-                   // $('#date1').on('change', function(){
-                        //if($('#date1').val() != ''){
-                         //   sendMail();
-                        ///}
-                   // });
 
-                   
                 }else{
                    $('#cont1').addClass('hide');
                      $('#success').removeClass('hide');
@@ -478,7 +446,8 @@ $name = $_GET['NOMBRE'];
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont4').addClass('hide');
+                    $('#cont4').addClass('hide');
+                    $('#equiv2').addClass('hide');
                     $('#success').removeClass('hide');
                     $('#messages').text('Su reclamo ha quedado registrado.');
                 }else{
@@ -666,7 +635,8 @@ $name = $_GET['NOMBRE'];
             var msg1;
             msg1 = " El cliente Informa que el telefono es 569 "+telf+" y el correo es "+ecorr+".";
 
-            alert (msg1);
+            //alert (msg1);
+
             sendMail(msg1);
         }
 
