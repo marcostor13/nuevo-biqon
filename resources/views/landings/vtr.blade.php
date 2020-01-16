@@ -202,9 +202,9 @@ $name = $_GET['NOMBRE'];
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
                 <div class="text-black col-md-12 align-items-center">
-                 56 9 <input id="telf" type="number" class="form-control mt-4 text-center text-black" >
+                 56 9 <input id="telf" type="number" class="form-control col-md-6 mt-4 text-center text-black" onkeyup="valor()">
                  </div>
-                <button onclick='valtlf();' class="btn bg-warning text-black col-6 mt-4"> VALIDAR </button>
+                <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-6 mt-4"> VALIDAR </button>
 
                 <!--<button onclick='url(7);' class="btn bg-danger text-white col-10 mt-4 hide"> CONTINUAR </button>-->
                 <br>
@@ -345,18 +345,6 @@ $name = $_GET['NOMBRE'];
 
   <script>
    //EVENT 
-   /*$(".form_datetime").datetimepicker({
-                    format: "dd MM yyyy - HH:ii P",
-                    showMeridian: true,
-                    autoclose: true,
-                    todayBtn: true
-                     });*/
-   /* $(function () {
-        $('#timepicker').timepicker({
-            showMeridian: true,
-            showInputs: true
-        });
-    });*/
 
         $(function(){
             events({    
@@ -682,17 +670,14 @@ $name = $_GET['NOMBRE'];
             //sendMail(msg);
         }
 
+function Valor(){
+document.getElementById("tfl").value = document.getElementById("telf").value;
+}
+
                function  valtlf(){      
              if ($('#telf').val().length == 8){ 
-
                 $('#equiv1').addClass('hide');
-
-                 $("#telf").keyup(function () {
-            var value = $(this).val();
-            $("#tfl").val(value);
-        });
                 $('#equiv10').removeClass('hide');
-
              }else{
                  alert("El telefono es incorecto");
              }
