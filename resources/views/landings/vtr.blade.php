@@ -689,7 +689,7 @@ $name = $_GET['NOMBRE'];
 
                  $("#telf").keyup(function () {
             var value = $(this).val();
-            $("#tlf").val(value);
+            $("#tfl").val(value);
         });
                 $('#equiv10').removeClass('hide');
 
