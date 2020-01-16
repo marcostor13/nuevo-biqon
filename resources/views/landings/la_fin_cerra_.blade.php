@@ -87,29 +87,12 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                  <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
                    
-                   <h4>FINANCOOP tiene un credito preaprobado para ti,
-                    envia ultima liquidacion y cedula de identidad</h4>
-                   <!-- <br>
-                    <h5>Ventajas del crédito</h5>
-                    <h6>-> Son de libre disposición y sin AVAL.<br>
-                    -> Cuotas: Hasta 60 meses de plazo.<br>
-                    -> Tasas reguladas por la Comisión para el Mercado Financiero (CMF).<br>
-                    -> Atendemos socios hasta los 93 años 11 meses.<br>
-                    -> Cobertura de Seguro de Desgravamen.<br>
-                    -> Abono directo en cuenta del socio o retiro en BancoEstado.<br>
-                    -> Evaluación inmediata.</h6>-->
-
-            
+                   <h4>FINANCOOP tiene un credito Pre-Aprobado para tí,
+                    envia última liquidación y Cédula de Identidad</h4>
+                           
             </div> 
 
             </div> 
-
-           
-                <!--<div class="date btn bg-warning text-black col-12 mt-4">
-                    <span>AGENDAR VISITA A NUESTRA SUCURSAL</span>
-                    <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-                </div>-->
-
 
                 <button onclick='window.location.href="tel:+56933914095" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
