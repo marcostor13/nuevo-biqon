@@ -3,14 +3,15 @@
 @section('title', 'AMICAR')
 
 @section('content')
-
+<?php
+$startdate=strtotime("Today");
+$enddate=strtotime("+15 days", $startdate);
+?>
 <style>
 .opaco{
     display: none !important; 
 }
 </style>
-
-    <!--<div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="opaco"></div>
 
@@ -24,19 +25,18 @@
 
                 <div class="card">     
                 <div class="card-body">
+
+                    <label>Fecha:</label>
+
+                          <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+
+
                 <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> </div> </div>
 
                 <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
             </div>
             
-<!--<div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
-                   
-                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:contacto@binteraction.com"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
-                </div>
-        </div>-->
+
 
         <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -45,9 +45,6 @@
                             </div>
                         </div>
                     </div>
-            <!--<div class=" tagline w3-center w3-animate-top black-text">Binteraction.com</div>-->
-        
-    <!--</div>-->
 
    
      <script>
@@ -138,7 +135,7 @@
                 let date = $('#date1').val();
                 data = {
                     'Fecha': date,
-                    'Mombre': getUrlParameter('nombre'),
+                    'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
