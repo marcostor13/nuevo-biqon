@@ -26,13 +26,14 @@ $enddate=strtotime("+15 days", $startdate);
                 <div class="card">     
                 <div class="card-body">
 
-                    <h3 class="text-black text-center"> <strong> Indique fecha para agendar su visita </strong> </h3>
+                    <h5 class="text-black text-center"> <strong> Desea agendar su visita</strong> </h5>
 
                     <center><label>Fecha:</label>
 
-                          <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/></center>
-
-                          <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>AGENDAR</strong> </h3> </button>
+                          <div class="date btn bg-warning text-black col-12 mt-4">
+                    <span>AGENDAR VISITA</span>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
 
                        </div> </div>
                 
