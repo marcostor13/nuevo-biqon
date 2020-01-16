@@ -58,7 +58,7 @@ $enddate=strtotime("+7 days", $startdate);
                 <br>
                   
                  <!-- YA PAGUE-->
-                  <button onclick="; return false;" class="btn btn-primary btn-lg btn-block">YA PAGUÉ </button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
                  
                  <!-- CONTACTO-->
                  <button type="button" class="btn btn-primary btn-lg btn-block" onclick='window.location.href="https://api.whatsapp.com/send?phone=56979201461&text=contactado%20por%20whatsapp%20xd" '>CONTACTO</button> 
@@ -93,14 +93,14 @@ $enddate=strtotime("+7 days", $startdate);
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="2019-12-20"/>
                 </div>
-                <button onclick='window.location.href="http://www.mundocredito.cl/pagos.html"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="http://www.mundocrdito.cl/pagos.html"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967599344&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png"></a>
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56967599344"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-                    <a onclick="eventosLanding('Correo');" href="mailto:mundocredito@prainabogados.cl?subject=Landing%20Mundo%20Credito"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+566599344"><img width="40" src="https://purtascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:mndocredito@prainabogados.cl?subject=Landing%20Mundo%20Credito"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>       
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
