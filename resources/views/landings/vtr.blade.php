@@ -94,8 +94,7 @@ $name = $_GET['NOMBRE'];
         <div id="cont1" class="p-5 ">
             <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong>
             <br>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
-            <input id="rut" type="number" cla
-            ss="form-control mt-4 text-center text-black" required>
+            <input id="rut" type="number" class="form-control mt-4 text-center text-black" required>
                 
             <button onclick="event1(); return false;" class="btn bg-danger text-black col-12 mt-4"> Ingresar </button>
 
@@ -119,8 +118,7 @@ $name = $_GET['NOMBRE'];
              <!-- MENU2:  -->
         <div id="cont2" class="p-5 hide" >
             <div class="text-black col-md-12">
-                <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong> 
-                <br> 
+                <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong> 
                 Tu boleta asociada al servicio <span id="servicio"><?php //echo $servicio; ?></span>, se encuentra <span id="estado"> <?php //echo $estado; ?></span>, por el monto de:
                     <br> $ <span id="pay"> <?php //echo $pago; ?></span> <br></h4>
                <p> Recuerda que pagar tu boleta al día evita la suspensión de tus servicios. </p>
