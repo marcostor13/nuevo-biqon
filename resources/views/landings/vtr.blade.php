@@ -156,7 +156,7 @@ $name = $_GET['NOMBRE'];
                 </h5>       
             <div>
                 <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required=”required”/>
+                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required="required"/>
              </div> 
                 <button onclick="sendMail(); eventosLanding('Compromiso de Pago'); return false;" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
             </div>
@@ -169,11 +169,11 @@ $name = $_GET['NOMBRE'];
                 </h5>       
             <div>
                 <label>Fecha:</label>
-                <input id="date2"  type="date" class=" btn-date text-black form-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required=”required”/>
+                <input id="date2"  type="date" class=" btn-date text-black form-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required="required"/>
                 <br>
                 <label>Hora:</label>
                 <!--<input id="timepicker" type="text" class=" btn-date text-black form-control input-min-width-95p">-->
-                <input id="time1"  type="time" class=" btn-date text-black form-control input-min-width-95p" max="19:30:00" min="08:30:00" step="3600" required=”required”/>
+                <input id="time1"  type="time" class=" btn-date text-black form-control input-min-width-95p" max="20:00:00" min="08:00:00" step="60" required="required"/>
 
                <!-- <div class="input-append date form_datetime" data-date="2012-12-21T15:25:00Z">
                     <input size="16" type="text" value="" readonly>
@@ -188,7 +188,7 @@ $name = $_GET['NOMBRE'];
         <!-- MENU: CONTACTO EQUIVOCADO -->
         <div id="usrbad" class="p-5 hide" >
             <div class="text-black col-md-12">
-                 <h4 class="text-black text-center">¿Conoces a <strong><span id="name"> <?php echo $name; ?></span> </strong> ? </h4>
+                 <h5 class="text-black text-center">¿Conoces a <strong><span id="name"> <?php echo $name; ?></span> </strong> ? </h5>
                 </div>
 
             <button onclick='url(6); ' class="btn bg-danger text-white col-5 mt-4"> SI </button>
@@ -202,7 +202,7 @@ $name = $_GET['NOMBRE'];
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
                 <div class="text-black col-md-12 align-items-center">
-                 56 9 <input id="telf" type="number" class="form-control mt-4 text-center text-black" required>
+                 56 9 <input id="telf" type="number" class="form-control mt-4 text-center text-black" >
                  </div>
                 <button onclick='valtlf();' class="btn bg-warning text-black col-6 mt-4"> VALIDAR </button>
 
