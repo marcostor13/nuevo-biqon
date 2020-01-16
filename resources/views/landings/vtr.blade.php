@@ -173,7 +173,7 @@ $name = $_GET['NOMBRE'];
                 <br>
                 <label>Hora:</label>
                 <!--<input id="timepicker" type="text" class=" btn-date text-black form-control input-min-width-95p">-->
-                <input id="time1"  type="time" class=" btn-date text-black form-control input-min-width-95p" max="20:00:00" min="08:00:00" step="60" required="required"/>
+                <input id="time1"  type="time" data-format="hh:mm A" class=" btn-date text-black form-control input-min-width-95p" max="20:00:00" min="08:00:00" step="60" required="required"/>
 
                <!-- <div class="input-append date form_datetime" data-date="2012-12-21T15:25:00Z">
                     <input size="16" type="text" value="" readonly>
@@ -727,7 +727,7 @@ function url(idButton) {
      case 7:
           $('#equiv2').addClass('hide');
           $('#name').text(geturlParameter('nombre'));
-          $('#equiv1').removeClass('hide'); 
+          $('#equiv10').removeClass('hide'); 
     break;
 default:
           alert("OPCION INVALIDA.")
