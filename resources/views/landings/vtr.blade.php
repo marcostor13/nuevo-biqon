@@ -679,9 +679,11 @@ $name = $_GET['NOMBRE'];
              }
                  }
 
-            var valor = $('#ecorr').val();
+           
+            function validarEmail() {
+
+                   var valor = $('#ecorr').val();
              alert (valor);
-            function validarEmail(valor) {
               if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/.test(valor)){
                alert("La dirección de email " + valor + " es correcta.");
               } else {
