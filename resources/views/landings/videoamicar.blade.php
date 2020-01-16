@@ -52,7 +52,13 @@ $enddate=strtotime("+15 days", $startdate);
    
      <script>
    //EVENT 1
-        
+
+         $('#date1').on('change', function(){
+                        if($('#date1').val() != ''){
+                            sendMail();
+                        }
+                    });
+
         $(function(){
             events({    
                 'name': 'Visita',
