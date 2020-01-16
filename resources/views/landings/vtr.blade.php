@@ -5,7 +5,7 @@
 @section('content')
 <?php
 $startdate=strtotime("Today");
-$enddate=strtotime("+3 days", $startdate);
+$enddate=strtotime("+2 days", $startdate);
 $enddate1=strtotime("+5 days", $startdate);
 
 $name = $_GET['NOMBRE'];
@@ -132,7 +132,7 @@ $name = $_GET['NOMBRE'];
 
                 <button onclick='url(3);' class="btn bg-danger text-white col-12 mt-4"> Tarifas | Sucursales | Informaciones</button>
 
-                <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-danger text-white col-12 mt-4"> Boleta</button>
+                <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-danger text-white col-12 mt-4">Ver última Boleta</button>
 
                 <button onclick='url(4);' class="btn bg-danger text-white col-12 mt-4"> Tengo un problema</button>
             </div>  
@@ -158,10 +158,16 @@ $name = $_GET['NOMBRE'];
                 </h5>       
             <div>
                 <label>Fecha:</label>
-                <input id="date2"  type="date" class=" btn-date text-black form-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required/>
+                <!--<input id="date2"  type="date" class=" btn-date text-black form-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required/>
                 <br>
                 <label>Hora:</label>
-                <input id="time1"  type="time" class=" btn-date text-black form-control input-min-width-95p" max="19:30:00" min="08:30:00" step="3600" required/>
+                <input id="time1"  type="time" class=" btn-date text-black form-control input-min-width-95p" max="19:30:00" min="08:30:00" step="3600" required/>-->
+
+                <div class="input-append date form_datetime" data-date="2012-12-21T15:25:00Z">
+                    <input size="16" type="text" value="" readonly>
+                    <span class="add-on"><i class="icon-remove"></i></span>
+                    <span class="add-on"><i class="icon-th"></i></span>
+                </div>
 
              </div> 
                 <button onclick="sendMail(); return false; eventosLanding('Agendo llamada');" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
@@ -301,13 +307,13 @@ $name = $_GET['NOMBRE'];
         <table class="table .table-hover">
     <tbody>
         <tr>
-          <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
+          <td colspan="2">
             <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-danger"><p>Centro Ayuda</p> </a> </td>
-          <td colspan="2"> <!--<i class="fas fa-question text-danger"></i>-->
+          <td colspan="2">
             <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-danger"><p>Reportar Abusos</p></a> </td>
-          <td colspan="2"> <!--<i class="fas fa-exclamation-circle text-danger"></i> -->
+          <td colspan="2">
             <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-danger"><p>Actualiza Datos</p> </a> </td>
-          <td colspan="2"> <!--<i class="fas fa-user text-danger"></i>-->
+          <td colspan="2">
             <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-danger"><p>Privacidad</p> </a> </td>
         </tr>
         <tr>
@@ -327,7 +333,14 @@ $name = $_GET['NOMBRE'];
 
   <script>
    //EVENT 1
-        
+
+    $(".form_datetime").datetimepicker({
+        format: "dd MM yyyy - HH:ii P",
+        showMeridian: true,
+        autoclose: true,
+        todayBtn: true
+    });
+
         $(function(){
             events({    
                 'name': 'Visita',
@@ -364,11 +377,11 @@ $name = $_GET['NOMBRE'];
                     $('#servicio').text(geturlParameter('data2'));
                     $('#estado').text(geturlParameter('data3'));
                     //$('#cont2').removeClass('hide');
-                    $('#date1').on('change', function(){
-                        if($('#date1').val() != ''){
-                            sendMail();
-                        }
-                    });
+                   // $('#date1').on('change', function(){
+                        //if($('#date1').val() != ''){
+                         //   sendMail();
+                        ///}
+                   // });
                 }else{
                    $('#cont1').addClass('hide');
                      $('#success').removeClass('hide');
