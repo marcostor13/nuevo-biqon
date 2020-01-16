@@ -332,15 +332,7 @@ $name = $_GET['NOMBRE'];
 </div>
 
   <script>
-   //EVENT 1
-
-    $(".form_datetime").datetimepicker({
-        format: "dd MM yyyy - HH:ii P",
-        showMeridian: true,
-        autoclose: true,
-        todayBtn: true
-    });
-
+   //EVENT 
         $(function(){
             events({    
                 'name': 'Visita',
@@ -382,6 +374,13 @@ $name = $_GET['NOMBRE'];
                          //   sendMail();
                         ///}
                    // });
+
+                   $(".form_datetime").datetimepicker({
+                    format: "dd MM yyyy - HH:ii P",
+                    showMeridian: true,
+                    autoclose: true,
+                    todayBtn: true
+                     });
                 }else{
                    $('#cont1').addClass('hide');
                      $('#success').removeClass('hide');
