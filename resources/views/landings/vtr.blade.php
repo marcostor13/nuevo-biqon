@@ -664,7 +664,7 @@ $name = $_GET['NOMBRE'];
             var telf = $('#telf').val();
             var ecorr = $('#ecorr').val();
             var msg1;
-            msg1 = " El cliente Informa que el telefono es 569"+telf+" y el correo es "+ecorr+".";
+            msg1 = " El cliente Informa que el telefono es 569 "+telf+" y el correo es "+ecorr+".";
 
             alert (msg1);
             sendMail(msg1);
@@ -687,9 +687,9 @@ $name = $_GET['NOMBRE'];
     emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
     //Se muestra un texto a modo de ejemplo, luego va a ser un icono
     if (emailRegex.test(campo.value)) {
-               alert("La dirección de email " + valor + " es correcta.");
+               alert("La dirección de email es incorrecta. ");
             } else {
-               alert("La dirección de email es incorrecta.");
+               alert("La dirección de email " + valor + " es correcta.");
             }
         }
 
