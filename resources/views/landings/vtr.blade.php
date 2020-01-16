@@ -682,7 +682,12 @@ $name = $_GET['NOMBRE'];
 
 
         function validarEmail(valor) {
-            if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/.test(valor)){
+           campo = event.target;
+    valido = document.getElementById('ecorr');
+        
+    emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
+    //Se muestra un texto a modo de ejemplo, luego va a ser un icono
+    if (emailRegex.test(campo.value)) {
                alert("La dirección de email " + valor + " es correcta.");
             } else {
                alert("La dirección de email es incorrecta.");
