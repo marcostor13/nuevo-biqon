@@ -92,8 +92,8 @@ $name = $_GET['NOMBRE'];
             
 <!-- MENU 1: INGRESAR -->
         <div id="cont1" class="p-5 ">
-            <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong>
-            <br>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h4>
+            <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong> </h4>
+            <h5> <br>Te damos la bienvenida a la interfaz de VTR, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h5>
             <input id="rut" type="number" class="form-control mt-4 text-center text-black" required>
                 
             <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Ingresar </button>
@@ -118,9 +118,9 @@ $name = $_GET['NOMBRE'];
              <!-- MENU2:  -->
         <div id="cont2" class="p-5 hide" >
             <div class="text-black col-md-12">
-                <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong> 
-                Tu boleta asociada al servicio <span id="servicio"><?php //echo $servicio; ?></span>, se encuentra <span id="estado"> <?php //echo $estado; ?></span>, por el monto de:
-                    <br> $ <span id="pay"> <?php //echo $pago; ?></span> <br></h4>
+                <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong> </h4>
+                <h5> <br>Tu boleta asociada al servicio <span id="servicio"><?php //echo $servicio; ?></span>, se encuentra <span id="estado"> <?php //echo $estado; ?></span>, por el monto de:
+                    <br> $ <span id="pay"> <?php //echo $pago; ?></span> <br></h5>
                <p> Recuerda que pagar tu boleta al día evita la suspensión de tus servicios. </p>
                 
                 
@@ -141,8 +141,8 @@ $name = $_GET['NOMBRE'];
         <!-- FECHA: PAGO -->
         <div id="calend" class="p-5 hide" >
             <div class="text-black col-md-12">
-                <h3 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.   
-                </h3>       
+                <h5 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.   
+                </h5>       
             <div>
                 <label>Fecha:</label>
                 <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required/>
@@ -154,8 +154,8 @@ $name = $_GET['NOMBRE'];
        <!-- FECHA: CONTACTO -->
         <div id="llamen" class="p-5 hide" >
             <div class="text-black col-md-12">
-                <h3 class="text-grey text-center">Favor ingrese su fecha y horario de llamada por la cual usted quiere ser contactado. 
-                </h3>       
+                <h5 class="text-grey text-center">Favor ingrese su fecha y horario de llamada por la cual usted quiere ser contactado. 
+                </h5>       
             <div>
                 <label>Fecha:</label>
                 <input id="date2"  type="date" class=" btn-date text-black form-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required/>
