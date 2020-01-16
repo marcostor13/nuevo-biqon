@@ -725,9 +725,10 @@ function url(idButton) {
           $('#equiv1').removeClass('hide'); 
     break;
      case 7:
-          $('#equiv2').addClass('hide');
+          $('#equiv1').addClass('hide');
+           $('#equiv10').addClass('hide');
           $('#name').text(geturlParameter('nombre'));
-          $('#equiv10').removeClass('hide'); 
+          $('#equiv2').removeClass('hide'); 
     break;
 default:
           alert("OPCION INVALIDA.")
