@@ -686,8 +686,11 @@ $name = $_GET['NOMBRE'];
              if ($('#telf').val().length == 8){ 
 
                 $('#equiv1').addClass('hide');
-                $('#telf').text();
-                $('#telf').val();
+
+                 $("#telf").keyup(function () {
+            var value = $(this).val();
+            $("#tlf").val(value);
+        });
                 $('#equiv10').removeClass('hide');
 
              }else{
