@@ -73,9 +73,17 @@ $enddate=strtotime("+15 days", $startdate);
          <div class="d-flex justify-content-around align-content-center mt-1"> 
                   
 
-                  <button type="button" class="btn btn-outline-success"><a href="https://cuentacorriente.bancofalabella.cl/#/">CUENTA CORRIENTE</a></button>
-                  <button type="button" class="btn btn-outline-success"><a href="https://www.bancofalabella.cl/credito-de-consumo?utm_source=sitio_clientes&utm_medium=lugar_principal">PIDE TU CREDITO</a></button>
-                  <button type="button" class="btn btn-outline-success"><a href="https://solicitudes.cmr.cl/?feature=insurance_v1&utm_expid=.PbkBPSTwQjuqM_GpPiVRFA.1&utm_referrer=">TARJETA CMR</a></button>
+                  <div>
+                    <button type="button" class="btn btn-success"><a href="https://cuentacorriente.bancofalabella.cl/#/">CUENTA CORRIENTE</a></button>
+                      
+                  </div>
+                  <div>
+                      <button type="button" class="btn btn-success"><a href="https://www.bancofalabella.cl/credito-de-consumo?utm_source=sitio_clientes&utm_medium=lugar_principal">PIDE TU CREDITO</a></button>
+                  </div>
+                  <div>
+                      <button type="button" class="btn btn-success"><a href="https://solicitudes.cmr.cl/?feature=insurance_v1&utm_expid=.PbkBPSTwQjuqM_GpPiVRFA.1&utm_referrer=">TARJETA CMR</a></button>
+                  </div>
+                  
    
                 </div>
           
