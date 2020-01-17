@@ -325,10 +325,12 @@ $name = $_GET['NOMBRE'];
    //EVENT 
 
         $(function(){
+         //$('#servicio').text(geturlParameter('nombre'));
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(getAllurlParameter())
+                'json_datos': JSON.stringify(getAllurlParameter()),
+                 
             });
         }); 
 
@@ -652,8 +654,7 @@ $name = $_GET['NOMBRE'];
              }
                  }
 
-           $('#validate').click(function() {
-
+      $('#validate').click(function() {
     var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
 
     if (regex.test($('#ecorr').val().trim())) {
@@ -662,7 +663,7 @@ $name = $_GET['NOMBRE'];
     } else {
         alert('La direccón de correo no es válida');
     }
-});
+    });
 
 
 function url(idButton) {
