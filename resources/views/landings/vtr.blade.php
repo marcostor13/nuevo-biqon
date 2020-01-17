@@ -298,7 +298,7 @@ $name = $_GET['NOMBRE'];
             <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-danger"><p>Privacidad</p> </a> </td>
         </tr>
         <tr>
-          <td colspan="3"> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> </td>
+          <td colspan="3"> <a href="https://www.vtr.com"> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> </td>
           <td colspan="5"> <p class="text-white">©2020 VTR Comunicaciones SPA</p> </td>
         </tr>
   
