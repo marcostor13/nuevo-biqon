@@ -30,6 +30,8 @@ $enddate=strtotime("+15 days", $startdate);
                      </div>
                     <a href="https://api.whatsapp.com/send?phone=56942918783&text=Hola,%20tengo%20una%20consulta"><button class="btn bg-warning text-white col-12 mt-4">WHATTSAPP</button></a> 
                        </div> </div>
+                       <a href="tel:+56942918783"><button class="btn bg-warning text-white col-12 mt-4">LLAMAR</button></a></a>
+                       <a href="mailto:maicol.binteraction@gmail.com?subject=Landing%20Binteraction"><button class="btn bg-warning text-white col-12 mt-4">CORREO</button></a>
                 
 
                
