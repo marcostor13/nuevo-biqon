@@ -20,12 +20,17 @@ $enddate=strtotime("+15 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="MEGA-YOSOYLORENZO">
 
-            <div id="cont1">
-                <div class="videoWrapper">     
-                    <h1><strong>Disfruta de nuestra Teleserie a las 20:00hrs </strong></h1>
+            <h1><strong>Disfruta de nuestra Teleserie a las 20:00hrs </strong></h1>
 
-                    <iframe width="400" height="320" src="{{asset('/files/ysl.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div id="cont1">
+                <div class="videoWrapper">   
+                <center>
+                     <iframe width="400" height="320" src="{{asset('/files/ysl.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                </center>  
+                    
+
+                   
 
                  <div class="d-flex justify-content-around align-content-center mt-1"> 
                   
