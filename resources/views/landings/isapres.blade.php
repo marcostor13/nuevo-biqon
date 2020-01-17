@@ -110,14 +110,14 @@
                               </ol>
                               <div class="carousel-inner">
                                 <<div class="carousel-item active">
-                                  <img src="..." alt="...">
+                                  <img src="https://i.imgur.com/bOwqBIN.jpg" alt="...">
                                   <div class="carousel-caption d-none d-md-block">
                                     <h5> DATA 1 </h5>
                                     <p>Seleccione</p>
                                   </div>
                                 </div>
                                   <div class="carousel-item">
-                                  <img src="..." alt="...">
+                                  <img src="https://i.imgur.com/GT7Rvro.jpg" alt="...">
                                   <div class="carousel-caption d-none d-md-block">
                                     <h5> DATA 2 </h5>
                                     <p>Seleccione</p>
