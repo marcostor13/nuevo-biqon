@@ -74,6 +74,10 @@ $name = $_GET['NOMBRE'];
   font-weight: 900; 
   background-text: #262626
 }  
+.label .telf{
+  display: inline;
+}
+
     
 </style>
 
@@ -189,7 +193,7 @@ $name = $_GET['NOMBRE'];
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
                 <div lass="text-black col-md-10">
-                <label>56 9</label> <input id="telf"  type="number" class=" btn-date text-blackform-control col-md-5" maxlength="8" required="required"/>
+                <label id="label">56 9</label> <input id="telf"  type="number" class=" btn-date text-blackform-control col-md-5" maxlength="8" required="required"/>
                 </div>
 
                 <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
