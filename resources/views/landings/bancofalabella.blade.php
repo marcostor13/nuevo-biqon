@@ -75,33 +75,14 @@ $enddate=strtotime("+15 days", $startdate);
             <div>
                  <button onclick='window.location.herf="https://cuentacorriente.bancofalabella.cl/#/"' type="button" class="btn bg-warning text-white col-10 mt-4" >CUENTA CORRIENTE</button>
                  <div>
-                      <button type="button" onclick="" class="btn bg-warning text-white col-10 mt-4">PIDE TU CREDITO<a href="https://www.bancofalabella.cl/credito-de-consumo?utm_source=sitio_clientes&utm_medium=lugar_principal"></a></button>
+                        <button onclick='window.location.herf="https://www.bancofalabella.cl/credito-de-consumo?utm_source=sitio_clientes&utm_medium=lugar_principal"' type="button" class="btn bg-warning text-white col-10 mt-4" >PIDE TU CREDITO</button>
                       <div>
-                           <button type="button" class="btn bg-warning text-white col-10 mt-4">TARJETA CMR<a href="https://solicitudes.cmr.cl/?feature=insurance_v1&utm_expid=.PbkBPSTwQjuqM_GpPiVRFA.1&utm_referrer=" type="text color green"></a></button>
-                      </div>
+                        <button onclick='window.location.herf="https://solicitudes.cmr.cl/?feature=insurance_v1&utm_expid=.PbkBPSTwQjuqM_GpPiVRFA.1&utm_referrer="' type="button" class="btn bg-warning text-white col-10 mt-4" >TARJETA CMR</button>
+                    </div>                   
                  </div>
-
-                 <button onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"; eventosLanding("Pagina de Pagos");' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
-
             </div>
-                  
-
-                   
-                      
-                         
-
-                                      
-                    
-                 
-                      
-                     
-                
-                  
-             
-                  
-                  
-   
-                </div>
+                                                            
+            </div>
           
      <script>
    //EVENT 1
