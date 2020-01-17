@@ -156,8 +156,8 @@ $name = $_GET['NOMBRE'];
        </div>
 
        <!-- FECHA: CONTACTO -->
-        <div id="llamen" class="p-5 align-items-center hide" >
-            <div class="text-black align-items-center col-md-12">
+        <div id="llamen" class="p-5 hide" >
+            <div class="text-black col-md-12">
                 <h5 class="text-grey text-center">Favor ingrese su fecha y horario de llamada por la cual usted quiere ser contactado. 
                 </h5>       
             <div>
@@ -184,26 +184,26 @@ $name = $_GET['NOMBRE'];
         </div>
 
         <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
-            <div id="equiv1" class=" align-items-center col-md-12 p-5 hide" >
-                <div class="text-black col-md-10">
+            <div id="equiv1" class="p-5 hide" >
+                <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
                 <!--<div class="text-black col-md-8 align-items-center">
                 <label>56 9</label>
                 <input id="telf" type="number" class="col-md-4 text-black form-control" required="required"/>
                 </div>-->
-                <div lass="text-black col-md-10">
+                <div lass="text-black col-md-12">
                 <label>56 9</label> <input id="telf"  type="number" class=" btn-date text-blackform-control" maxlength="8s" required="required"/>
                 </div>
 
-                <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
+                <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-6 mt-4"> VALIDAR </button>
 
-                <button onclick='url(7);' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
+                <button onclick='url(7);' class="btn bg-danger text-white col-6 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-10">
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div> 
-                <button onclick='url(7);' class="btn bg-danger text-white col-10 mt-4"> No quiero ingresar </button>
+                <button onclick='url(7);' class="btn bg-danger text-white col-12 mt-4"> No quiero ingresar </button>
 
             </div>
 
