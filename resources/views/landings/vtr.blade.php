@@ -185,17 +185,16 @@ $name = $_GET['NOMBRE'];
 
         <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
             <div id="equiv1" class=" align-items-center col-md-12 p-5 hide" >
-                <div class="text-black col-md-10 align-items-center">
+                <div class="text-black col-md-10">
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
-                <div class="text-black col-md-8 align-items-center">
+                <!--<div class="text-black col-md-8 align-items-center">
                 <label>56 9</label>
                 <input id="telf" type="number" class="col-md-4 text-black form-control" required="required"/>
+                </div>-->
+                <div lass="text-black col-md-10">
+                <label>56 9</label> <input id="telf"  type="number" class=" btn-date text-blackform-control" maxlength="8s" required="required"/>
                 </div>
-                <div>
-                <label>569</label>
-                <input id="telf"  type="number" class=" btn-date text-blackform-control input-min-width-75p" required="required"/>
-             </div>
 
                 <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
 
