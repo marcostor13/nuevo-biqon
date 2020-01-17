@@ -58,13 +58,13 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="MCDONALS">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="MCDONALS" width="500" height="1000">
 
             <div id="cont1">
                             <div class="card">     
                 <div class="card-body">
 
-                    <img src="https://d701vexhkz032.cloudfront.net/media/images/promotion-pill/5b50e80fb0db44.35366624_mccombo-cl-2018-07-19.png" width="500" height="800">
+                    <img src="https://d701vexhkz032.cloudfront.net/media/images/promotion-pill/5b50e80fb0db44.35366624_mccombo-cl-2018-07-19.png" width="800" height="500">
                 
                         </div>
                 <div class="d-flex justify-content-around align-content-center mt-2"> 
