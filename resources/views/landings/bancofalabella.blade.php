@@ -81,6 +81,8 @@ $enddate=strtotime("+15 days", $startdate);
                       </div>
                  </div>
 
+                 <button onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"; eventosLanding("Pagina de Pagos");' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
+
             </div>
                   
 
