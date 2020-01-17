@@ -193,9 +193,10 @@ $name = $_GET['NOMBRE'];
                 <input id="telf" type="number" class="col-md-4 text-black form-control" required="required"/>
                 </div>
                 <div>
-                <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required="required"/>
+                <label>569</label>
+                <input id="telf"  type="number" class=" btn-date text-blackform-control input-min-width-95p" required="required"/>
              </div>
+
                 <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
 
                 <button onclick='url(7);' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
