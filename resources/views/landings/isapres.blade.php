@@ -88,8 +88,8 @@
                         <br>
                         <br>
                         <br>
-                <div class="card">     
-                    <div class="card-body">
+                <!--<div class="card">     
+                    <div class="card-body">-->
                         
                          <h4 class="text-grey text-center"> 
                         Deseas mejorar ti plan de Salud?</h4>
@@ -151,8 +151,8 @@
            
                             <a onclick="eventosLanding('Correo');" href="mailto:williamzuniga@gmail.com?subject=Landing%20Isapres"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                              </div>
-                            </div>   
-                        </div>
+                            <!--</div>   
+                        </div>-->
                     </div>
           
              
@@ -163,7 +163,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
        </div>
