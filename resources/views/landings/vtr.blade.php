@@ -196,7 +196,7 @@ $name = $_GET['NOMBRE'];
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
-                <div lass="text-black col-md-10">
+                <div class="text-black col-md-10">
                 <label id="label">56 9</label> <input id="telf"  type="number" class=" btn-date text-blackform-control col-md-5" maxlength="8" required="required"/>
                 </div>
 
