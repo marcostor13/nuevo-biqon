@@ -73,16 +73,12 @@ $enddate=strtotime("+15 days", $startdate);
          <div class="d-flex justify-content-around align-content-center mt-1"> 
                   
 
-                  <div>
-                    <button type="button" class="btn bg-warning text-white col-10 mt-4">CUENTA CORRIENTE<a href="https://cuentacorriente.bancofalabella.cl/#/"></a></button>
+                    <button onclick='window.location.herf="https://cuentacorriente.bancofalabella.cl/#/"' type="button" class="btn bg-warning text-white col-10 mt-4" >CUENTA CORRIENTE</button>
                       
-                      <div>
-                          <button type="button" class="btn bg-warning text-white col-10 mt-4">PIDE TU CREDITO<a href="https://www.bancofalabella.cl/credito-de-consumo?utm_source=sitio_clientes&utm_medium=lugar_principal"></a></button>
+                          <button type="button" onclick="" class="btn bg-warning text-white col-10 mt-4">PIDE TU CREDITO<a href="https://www.bancofalabella.cl/credito-de-consumo?utm_source=sitio_clientes&utm_medium=lugar_principal"></a></button>
 
-                          <div>
                                        <button type="button" class="btn bg-warning text-white col-10 mt-4">TARJETA CMR<a href="https://solicitudes.cmr.cl/?feature=insurance_v1&utm_expid=.PbkBPSTwQjuqM_GpPiVRFA.1&utm_referrer=" type="text color green"></a></button>
-                          </div>
-                      </div>
+                    
                  
                       
                      
