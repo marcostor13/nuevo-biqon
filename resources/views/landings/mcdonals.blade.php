@@ -64,12 +64,10 @@ $enddate=strtotime("+15 days", $startdate);
                             <div class="card">     
                 <div class="card-body">
 
-                    <img src="https://d701vexhkz032.cloudfront.net/media/images/promotion-pill/5b50e80fb0db44.35366624_mccombo-cl-2018-07-19.png">
+                    <img src="https://d701vexhkz032.cloudfront.net/media/images/promotion-pill/5b50e80fb0db44.35366624_mccombo-cl-2018-07-19.png" width="500" height="500">
                 
-
-               
-            </div>
-            <div class="d-flex justify-content-around align-content-center mt-4"> 
+                        </div>
+                <div class="d-flex justify-content-around align-content-center mt-2"> 
                     <a class="ml-2" onclick="eventosLanding('facebook');" href="https://www.facebook.com/McDonaldsChile/?__tn__=%2Cd%2CP-R&eid=ARBpyD1ayIw7ugjuuexEPEuWBi-WFByeU2kr2pIt6lkKeu0NqI_jMrZiihsZaUiRGo6QLsqFLAbBl0TB"><img width="70" src="http://pluspng.com/img-png/facebook-logo-png-image-2335-1403.png"></a>
                    
                     <a class="ml-4" onclick="eventosLanding('Instagram');" href="https://www.instagram.com/mcdonalds_cl/?hl=es-la"><img width="60" src="http://pluspng.com/img-png/instagram-png-instagram-png-icon-1024.png"></a>
