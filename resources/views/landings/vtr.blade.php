@@ -74,7 +74,11 @@ $name = $_GET['NOMBRE'];
   font-weight: 900; 
   background-text: #262626
 }  
-#label #telf{
+#label{
+  display: inline;
+}
+
+#telf{
   display: inline;
 }
 
