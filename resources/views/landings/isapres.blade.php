@@ -46,8 +46,7 @@
     
 </style>
 
-   <!--<div id="ISAPRES" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
-
+  
      <div class="opaco">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
@@ -55,15 +54,6 @@
             
             <div class=col-md-12>
            
-                     <!--<div id="cont1" class="p-2 pl-5 pr-5">
-                         <div class="card">
-                        <div class="card-body">
-                        <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
-                        <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
-                        <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
-                       </div>
-                       </div> 
-                    </div>-->
                      <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -74,26 +64,16 @@
                     <div id="cont2" class="p-2 pl-3 pr-3">
                         <div class="card">     
                             <div class="card-body">
-                                <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>
-                                 <p class="text-white"> <h4> 
-                                Deseas mejorar ti plan de Salud?</h4>  </p>
-                                <!--<p> Su ID admisión es: </p> 
-                               <strong> <h4><p id="dato1" class="dato1"> </p> </h4>  </strong>-->
+                                
+                                 <h4 class="text-grey text-center"> 
+                                Deseas mejorar ti plan de Salud?</h4>
+                               
                                 <h4 class="text-grey text-center"> Nosotros te ayudamos </h4>
 
                                <button onclick="window.location.href='+56996891048' ;" class="btn bg-primary text-white col-12 mt-2">Contactar </button>
 
                                <a href="tel:+56996891048" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
 
-                               <!-- <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
-                                    <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>
-                                </div>
-
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
-                                    <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
-                                </div>-->
                                 
                                      <div class="d-flex justify-content-around align-content-center mt-4"> 
                                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996891048&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
