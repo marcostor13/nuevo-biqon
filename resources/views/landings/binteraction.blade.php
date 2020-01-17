@@ -11,6 +11,48 @@ $enddate=strtotime("+15 days", $startdate);
 .opaco{
     display: none !important; 
 }
+.opaco{
+    display: none !important; 
+
+}
+.input{
+  border-color: #A1CBF3 !important;
+}
+     
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border: 0;
+  font-weight: 400;
+}
+.card[class*=border] {
+  border: 1px solid #9e9e9e;
+  box-shadow: none;
+}
+.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
+  font-weight: 400;
+}
+.card .card-body .card-title a {
+  transition: 0.2s ease-in-out;
+}
+.card .card-body .card-title a:hover {
+  transition: 0.2s ease-in-out;
+}
+.card .card-body .card-text {
+  color: #747373;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.card .md-form label {
+  font-weight: 300;
+}
+
+.oscurecer {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    )
+    }
 </style>
 
         <div class="opaco"></div>
@@ -125,7 +167,7 @@ $enddate=strtotime("+15 days", $startdate);
             });
         }
 
-     
+     // 
 
         function sendMail(msg = false){
 
