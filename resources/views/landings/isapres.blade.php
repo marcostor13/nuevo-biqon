@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'CLINICA DAVILA')
+@section('title', 'ISAPRES')
 
 @section('content')
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -46,16 +46,16 @@
     
 </style>
 
-    <div id="CLINICA_DAVILA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+   <!--<div id="ISAPRES" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
 
      <div class="opaco">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="ISAPRES">
             
             <div class=col-md-12>
            
-                     <div id="cont1" class="p-2 pl-5 pr-5">
+                     <!--<div id="cont1" class="p-2 pl-5 pr-5">
                          <div class="card">
                         <div class="card-body">
                         <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
@@ -63,7 +63,7 @@
                         <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
                        </div>
                        </div> 
-                    </div>
+                    </div>-->
                      <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="cont2" class="p-2 pl-3 pr-3 hide">
+                    <div id="cont2" class="p-2 pl-3 pr-3">
                         <div class="card">     
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>
