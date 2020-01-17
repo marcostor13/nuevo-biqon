@@ -202,7 +202,7 @@ $name = $_GET['NOMBRE'];
 
                 <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
 
-                <button onclick='url(7);' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
+                <button onclick='url(7);' class="btn bg-danger text-white col-6 mt-4"> CONTINUAR </button>
                 <br> <br>  <br>  <br>
                 <div class="text-black col-md-10">
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
