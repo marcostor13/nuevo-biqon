@@ -71,11 +71,13 @@ $enddate=strtotime("+15 days", $startdate);
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                      </div>
                    
-                    <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">DESEAS QUE TE CONTACTEMOS</button>
+                    <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">DESEAS QUE TE CONTACTEMOS></button>
                 
 
                
-            </div>
+            </div> </div>
+
+
             <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56942918783&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
