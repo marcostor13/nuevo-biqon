@@ -64,7 +64,7 @@ $enddate=strtotime("+15 days", $startdate);
                             <div class="card">     
                 <div class="card-body">
 
-                    <img src="https://images.ctfassets.net/p6eyia4djstu/5oj5hTw71L3rtnRxNAUus5/2203798888a10a0a13ca2d26b5dbf28d/LN-BNR50_CTAJOVEN_0.jpg?fm=jpg&q=70" width="700" height="400">
+                    <img src="https://images.ctfassets.net/p6eyia4djstu/5oj5hTw71L3rtnRxNAUus5/2203798888a10a0a13ca2d26b5dbf28d/LN-BNR50_CTAJOVEN_0.jpg?fm=jpg&q=70" width="550" height="350">
                     <center>
                          <div>
                  <button onclick='window.location.href="https://cuentacorriente.bancofalabella.cl/#/"' type="button" class="btn bg-warning text-white col-10 mt-4" >CUENTA CORRIENTE</button>
