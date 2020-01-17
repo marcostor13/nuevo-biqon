@@ -73,11 +73,10 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="d-flex justify-content-around align-content-center mt-1"> 
                   
                   <a class="ml-2" onclick="eventosLanding('facebook');" href="https://www.facebook.com/McDonaldsChile/?__tn__=%2Cd%2CP-R&eid=ARBpyD1ayIw7ugjuuexEPEuWBi-WFByeU2kr2pIt6lkKeu0NqI_jMrZiihsZaUiRGo6QLsqFLAbBl0TB"><img width="70" src="http://pluspng.com/img-png/facebook-logo-png-image-2335-1403.png"></a>
-                         <a class="ml-4" onclick="eventosLanding('Instagram');" href="https://www.instagram.com/mcdonalds_cl/?hl=es-la"><img width="60" src="http://pluspng.com/img-png/instagram-png-instagram-png-logo-1455.png"></a>
+                         <a class="ml-4" onclick="eventosLanding('Instagram');" href="https://www.instagram.com/mcdonalds_cl/?hl=es-la"><img width="60" src="http://pluspng.com/img-png/instagram-png-instagram-png-icon-1024.png"></a>
 
    
                 </div>
- <body background="https://i.pinimg.com/originals/ff/f0/c0/fff0c0dcdc19b29102c9709e5a385fba.jpg"></body>
           
      <script>
    //EVENT 1
