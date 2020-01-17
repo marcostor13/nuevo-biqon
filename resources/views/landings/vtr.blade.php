@@ -80,9 +80,9 @@ $name = $_GET['NOMBRE'];
 <!-- HEAD -->
 
  <div class="oscurecer p-3">
-        <div id="head" class="p-1 pl-1 pr-1 "> <a href="https://www.vtr.com"> <img class="img-fluid col-7 col-md-10" src="{{$landing->logo}}" alt="VTR"> 
-        
-        
+        <div id="head" class="p-1 pl-1 pr-1 col-7 col-md-10"> <a href="https://www.vtr.com"> <img class="img-fluid col-7 col-md-10" src="{{$landing->logo}}" alt="VTR"> 
+        </div>
+        <div id="head" class="p-1 pl-1 pr-1 col-3 "> 
              <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="30" height="30"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
                    
              <a class="ml-1" onclick="eventosLanding('Twitter');" href="https://twitter.com/vtrchile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174876.svg"></a>
@@ -189,7 +189,7 @@ $name = $_GET['NOMBRE'];
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
                 <div class="text-black col-10 align-items-center">
-                 56 9 <input id="telf" type="number" class="form-control col-8 mt-4 text-center text-black"/>
+                <p> 56 9 </p><input id="telf" type="number" class="form-control col-8 mt-4 text-center text-black"/>
                  </div>
                 <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
 
