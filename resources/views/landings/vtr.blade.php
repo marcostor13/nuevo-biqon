@@ -196,14 +196,14 @@ $name = $_GET['NOMBRE'];
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
-                <div lass="text-black col-md-10">
-                <label id="label">56 9</label> <input id="telf"  type="number" class=" btn-date text-blackform-control col-md-5" maxlength="8" required="required"/>
+                <div class="text-black col-md-11">
+                <label id="label" class="col-md-3">56 9</label><input id="telf"  type="number" class=" text-black form-control input-min-width-95p col-5" maxlength="8" required="required"/>
                 </div>
 
                 <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
 
-                <button onclick='url(7);' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
-                <br>
+                <button onclick='url(7);' class="btn bg-danger text-white col-6 mt-4"> CONTINUAR </button>
+                <br> <br>  <br>  <br>
                 <div class="text-black col-md-10">
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div> 
@@ -223,7 +223,7 @@ $name = $_GET['NOMBRE'];
                 <button onclick='urldatos();' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
-                    <br>
+                    <br>  <br>  <br>  <br>
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div>
                 <button onclick='url22(); ' class="btn bg-danger text-white col-10 mt-4"> No quiero ingresar </button>
