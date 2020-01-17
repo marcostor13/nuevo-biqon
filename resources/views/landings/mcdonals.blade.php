@@ -77,6 +77,7 @@ $enddate=strtotime("+15 days", $startdate);
 
    
                 </div>
+ <body background="https://images.ctfassets.net/ww1ie0z745y7/1a6cvXToLzBpwP2uhFHTWW/7d15a83b89bbb9359c7a44219f0d4f7c/pattern-yellow-desktop.svg"></body>
           
      <script>
    //EVENT 1
