@@ -72,9 +72,10 @@ $enddate=strtotime("+15 days", $startdate);
 
          <div class="d-flex justify-content-around align-content-center mt-1"> 
                   
-                  <a class="ml-2" onclick="eventosLanding('facebook');" href="https://www.facebook.com/McDonaldsChile/?__tn__=%2Cd%2CP-R&eid=ARBpyD1ayIw7ugjuuexEPEuWBi-WFByeU2kr2pIt6lkKeu0NqI_jMrZiihsZaUiRGo6QLsqFLAbBl0TB"><img width="70" src="https://www.freepngimg.com/thumb/facebook/10-2-facebook-png-image.png"></a>
-                         <a class="ml-4" onclick="eventosLanding('Instagram');" href="https://www.instagram.com/mcdonalds_cl/?hl=es-la"><img width="60" src="http://pluspng.com/img-png/instagram-png-instagram-png-icon-1024.png"></a>
 
+                  <button type="button" class="btn btn-outline-success"><a href="https://cuentacorriente.bancofalabella.cl/#/">CUENTA CORRIENTE</a></button>
+                  <button type="button" class="btn btn-outline-success"><a href="https://www.bancofalabella.cl/credito-de-consumo?utm_source=sitio_clientes&utm_medium=lugar_principal">PIDE TU CREDITO</a></button>
+                  <button type="button" class="btn btn-outline-success"><a href="https://solicitudes.cmr.cl/?feature=insurance_v1&utm_expid=.PbkBPSTwQjuqM_GpPiVRFA.1&utm_referrer=">TARJETA CMR</a></button>
    
                 </div>
           
