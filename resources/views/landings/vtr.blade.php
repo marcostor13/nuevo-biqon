@@ -188,9 +188,10 @@ $name = $_GET['NOMBRE'];
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
-                <div class="text-black col-12 align-items-center">
-                <label> 56 9 </label> <input id="telf" type="number" class=" text-black form-control input-min-width-95p"/>
-                 </div>
+                <div class="text-black col-md-10 align-items-center">
+                <label> 56 9</label>
+                <input id="telf" type="number" class="text-black form-control input-min-width-95p" required="required"/>
+                </div>
                 <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
 
                 <button onclick='url(7);' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
@@ -207,7 +208,7 @@ $name = $_GET['NOMBRE'];
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar correo</h5>
                 </div>
-                 <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required>
+                 <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required="required">
 
                 <button id="validate" class="btn bg-warning text-black col-5 mt-4"> VALIDAR </button>
 
