@@ -74,13 +74,21 @@ $name = $_GET['NOMBRE'];
   font-weight: 900; 
   background-text: #262626
 }  
+#label{
+  display: inline;
+}
+
+#telf{
+  display: inline;
+}
+
     
 </style>
 
 <!-- HEAD -->
 
  <div class="oscurecer p-3">
-        <div id="head" class="p-1 pl-1 pr-1 "> <img class="img-fluid col-7 col-md-10" src="{{$landing->logo}}" alt="VTR"> 
+        <div id="head" class="p-1 pl-1 pr-1 "> <a href="https://www.vtr.com"> <img class="img-fluid col-7 col-md-10" src="{{$landing->logo}}" alt="VTR"> 
         
         
              <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="30" height="30"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
@@ -174,7 +182,7 @@ $name = $_GET['NOMBRE'];
        </div>
         <!-- MENU: CONTACTO EQUIVOCADO -->
         <div id="usrbad" class="p-5 hide" >
-            <div class="text-black col-md-12">
+            <div class="text-black align-items-center col-md-12">
                  <h5 class="text-black text-center">¿Conoces a <strong><span id="name"> <?php echo $name; ?></span> </strong> ? </h5>
                 </div>
 
@@ -188,17 +196,18 @@ $name = $_GET['NOMBRE'];
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
-                <div class="text-black col-10 align-items-center">
-                 56 9 <input id="telf" type="number" class="form-control col-8 mt-4 text-center text-black"/>
-                 </div>
+                <div lass="text-black col-md-10">
+                <label id="label">56 9</label> <input id="telf"  type="number" class=" btn-date text-blackform-control col-md-5" maxlength="8" required="required"/>
+                </div>
+
                 <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
 
                 <button onclick='url(7);' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
                 <br>
-                <div class="text-black col-md-12">
+                <div class="text-black col-md-10">
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div> 
-                <button onclick='url(7);' class="btn bg-danger text-white col-10 mt-4"> No quiero ingresar </button>
+                <button onclick='url(7);' class="btn bg-danger text-white col-12 mt-4"> No quiero ingresar </button>
 
             </div>
 
@@ -207,7 +216,7 @@ $name = $_GET['NOMBRE'];
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar correo</h5>
                 </div>
-                 <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required>
+                 <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required="required">
 
                 <button id="validate" class="btn bg-warning text-black col-5 mt-4"> VALIDAR </button>
 
@@ -298,7 +307,7 @@ $name = $_GET['NOMBRE'];
             <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-danger"><p>Privacidad</p> </a> </td>
         </tr>
         <tr>
-          <td colspan="3"> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> </td>
+          <td colspan="3"> <a href="https://www.vtr.com"> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> </td>
           <td colspan="5"> <p class="text-white">©2020 VTR Comunicaciones SPA</p> </td>
         </tr>
   
