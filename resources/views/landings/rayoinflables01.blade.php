@@ -219,7 +219,6 @@ $enddate=strtotime("+5 days", $startdate);
         </div>
     </div>
 
-
     <script>
    //EVENT 1
         
@@ -232,7 +231,6 @@ $enddate=strtotime("+5 days", $startdate);
         }); 
 
          function event1(){
-    
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
@@ -268,16 +266,11 @@ $enddate=strtotime("+5 days", $startdate);
             .fail(function() {
                 console.log( "error" );
             });
-
         }
         
-
         let eventosLanding = function(name){
             
             let json_datos = getAllUrlParameter(); 
-
-           // json_datos.nombre = $('#name').text();
-           // json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -300,9 +293,7 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'landing': '{!! $landing->name !!}'
-                   
-                    
+                    'landing': '{!! $landing->name !!}'       
                 }
             }else{
                 let date = $('#date1').val();
@@ -319,8 +310,6 @@ $enddate=strtotime("+5 days", $startdate);
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com' ,"rayoinflables@gmail.com"
             }
             $.ajaxSetup({
                 headers: {
@@ -406,39 +395,6 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-
-         function url(){
-    var rut; 
-         rut= getUrlParameter('rut'); //1234  "76114143-0";
-         // console.log(rut);
-            swal({
-             title: `Será Direccionado a la Página de Pagos`,//`el cododigo es: ${rut}`,
-             //text: "Expandir la Pantalla",
-             type: "success",
-             timer: 5000
-        }, 
-        function(){
-             window.location.href = "https://vtr.com/miregistro/paymentExpress.jsp?_dyncharset=UTF-8&c-rut="+rut+"&_D:c-rut=+&_DARGS=/vtr/cartridges/VtrHOHeaderBarPayYourAccountCart/VtrHOHeaderBarPayYourAccountCart.jsp";
-        })
-
-        } 
-
-
-            function url2(){
-    var docid; 
-         docid= getUrlParameter('data1'); //"AFAEc%2FnhOohJncAMwniaD1w1inFcH147"; //1234  "76114143-0";
-          
-            swal({
-             title:`Espere para Ver su Boleta Online`,// `el cododigo es: ${docid}`,
-             //text: "Expandir la Pantalla",
-             type: "success",
-             timer: 5000
-        }, 
-        function(){
-             window.location.href = " https://vtr.com/ss/vboleta/index.html#/home.html?docid="+docid;
-        })
-
-        } 
 
     
     </script>
