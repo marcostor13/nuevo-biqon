@@ -77,7 +77,7 @@ $enddate=strtotime("+15 days", $startdate);
 
    
                 </div>
- <body background="https://images.ctfassets.net/ww1ie0z745y7/1a6cvXToLzBpwP2uhFHTWW/7d15a83b89bbb9359c7a44219f0d4f7c/pattern-yellow-desktop.svg"></body>
+ <body background="https://www.itl.cat/pngfile/big/135-1355235_preview-wallpaper-mcdonalds-french-fries-food-fast-do.jpg"></body>
           
      <script>
    //EVENT 1
