@@ -64,7 +64,7 @@ $enddate=strtotime("+15 days", $startdate);
                             <div class="card">     
                 <div class="card-body">
 
-                    <img src="https://d701vexhkz032.cloudfront.net/media/images/promotion-pill/5b50e80fb0db44.35366624_mccombo-cl-2018-07-19.png" width="500" height="500">
+                    <img src="https://d701vexhkz032.cloudfront.net/media/images/promotion-pill/5b50e80fb0db44.35366624_mccombo-cl-2018-07-19.png" width="500" height="800">
                 
                         </div>
                 <div class="d-flex justify-content-around align-content-center mt-2"> 
