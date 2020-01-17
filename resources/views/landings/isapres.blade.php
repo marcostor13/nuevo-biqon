@@ -70,8 +70,6 @@
                                
                                 <h4 class="text-grey text-center"> Nosotros te ayudamos </h4>
 
-                               <!--<button onclick="window.location.href='+56996891048' ;" class="btn bg-primary text-white col-12 mt-2">Contactar </button>-->
-
                                <a href="tel:+56996891048" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
 
                                 
