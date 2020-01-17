@@ -216,7 +216,7 @@ $enddate=strtotime("+15 days", $startdate);
                 if(msg !== false){
                     $('#message').removeClass('hide');
                      $('#cont1').addClass('hide');
-                    $('#cont3').removeClass('hide');
+                    $('#cont3').addClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
