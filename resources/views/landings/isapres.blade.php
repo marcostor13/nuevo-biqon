@@ -1,8 +1,12 @@
 @extends('layouts.landing')
 
-@section('title', 'ISAPRES')
+@section('title', 'isapres')
 
 @section('content')
+<?php
+$startdate=strtotime("Today");
+$enddate=strtotime("+5 days", $startdate);
+?>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -17,6 +21,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Compiled and minified Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
 
 <style type="text/css">  
 .card {
@@ -68,109 +73,152 @@
     
 </style>
 
-  
-     <div class="opaco">
+<!--<<div class="oscurecer p-3">
+<div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
+            <img style="max-width:55px; max-height:55px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="isapres">
 
-        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="ISAPRES">-->
-            
-            <div class=col-md-12>
-           
-                     <div id="cont5" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="cont2" class="p-2 pl-3 pr-3">
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                <!--<div class="card">     
-                    <div class="card-body">-->
+        </div></div>-->
+    <div id="isapres" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover; ">
+
+        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+             <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="isapres">
+
+             <div id="cont1" class="p-2 ">
+                   <div class="mask rgba-white-light d-flex justify-content-center align-items-center">
                         
-                         <h4 class="text-grey text-center"> 
-                        Deseas mejorar ti plan de Salud?</h4>
-                       
-                        <h4 class="text-grey text-center"> Nosotros te ayudamos </h4>
-
-                         <img  class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="ISAPRES">
-
-
-                       <a href="tel:+56996891048" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
-                            <!--CARRUSEL-->
-                              
-                              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                              <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                              </ol>
-                              <div class="carousel-inner">
-                                <<div class="carousel-item active">
-                                  <img src="https://i.imgur.com/bOwqBIN.jpg" alt="...">
-                                  <div class="carousel-caption d-none d-md-block">
-                                    <h5> DATA 1 </h5>
-                                    <p>Seleccione</p>
-                                  </div>
-                                </div>
-                                  <div class="carousel-item">
-                                  <img src="https://i.imgur.com/GT7Rvro.jpg" alt="...">
-                                  <div class="carousel-caption d-none d-md-block">
-                                    <h5> DATA 2 </h5>
-                                    <p>Seleccione</p>
-                                  </div>
-                                </div>
-                                  <div class="carousel-item">
-                                  <img src="..." alt="...">
-                                  <div class="carousel-caption d-none d-md-block">
-                                    <h5> DATA 3 </h5>
-                                    <p>Seleccione</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                              </a>
-                              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                              </a>
-                            </div>
+      <!-- Content -->
+      <div class="container">
+    
+        <!--Grid row-->
+       <div class="card-body ">
+            <h3 class="text-danger text-center">
+            <!--Arriendo de Juegos para Cumpleaños <br> -->
+            Disfurta la Vida<br> 
+            <strong>Tenemos el Mejor Plan <br>para Ti y tu Familia </strong> </h3> 
+            <h3 class="text-black text-center">
+             <strong> <br>   </strong> 
+              <strong> <br>  </strong> 
+           </h3> 
+             <!--  <hr class="hr-light">
+            <h4 class="text-warning text-center">
+                  Parque Inflables
+             <br> Bungee Jump
+             <br> Carrito de Pop Corn 
+             <br> Tobogán Inflable
+             <br> Y Mucho Más
+              </h4>  
+            <h4 class="text-danger text-center">
+                  Promoción Valida hasta el 31 de Diciembre de 2019 
+            </h4>-->
+            <!--<h4 class="text-blak text-center">
+                  *Presenta este mensaje para acceder al descuento al contratar*
+              </h4>-->
+        </div>
 
 
+           <div id="cont1" class="text-danger text-center">
+               <!-- <div class="videoWrapper">        
+                    <iframe width="400" height="320" src="{{asset('/files/rayoinflables1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>-->
+             <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+     <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>
+        <li data-target="#myCarousel" data-slide-to="9"></li>
+    </ol> 
 
-                                
-                             <div class="d-flex justify-content-around align-content-center mt-4"> 
-                            <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996891048&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-           
-                            <a onclick="eventosLanding('Llamar');" href="tel:+56996891048"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-           
-                            <a onclick="eventosLanding('Correo');" href="mailto:williamzuniga@gmail.com?subject=Landing%20Isapres"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
-                             </div>
-                            <!--</div>   
-                        </div>-->
-                    </div>
-          
-             
-                    <div id="cont3" class="p-2 pl-5 pr-5 hide">
+    <!-- Wrapper for slides -->
+     <div class="carousel-inner">
+        <div class="item active">
+            <img src="https://i.imgur.com/bOwqBIN.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/GT7Rvro.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/GM2COsl.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/zmMOH0H.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/ajWLQfD.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/k5BhXdB.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/ffFqOZV.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/2CHHy41.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/dWn1nBG.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/Ry5jv4g.jpg" alt="">
+        </div>
+
+    </div>
+
+    <!-- Controls -->
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<br>
+<br>
+            <!--<div class="card">
+              <div class="card-body">-->
+                 
+
+                <div class="green-text text-center"> <br> <strong>¡¡Siguenos en Nuestras Redes Sociales!! </strong>  <hr>
+                  <div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/rayoinflables/?hl=es-la"> <img width="50" src="https://i.imgur.com/7HwfV5p.png"> </a>
+
+                    <a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/rayoinflables/"> <img width="50" src="https://i.imgur.com/dKFrTvU.png"> </a>
+
+                  <!-- <a onclick="eventosLanding('Llamar');" href="tel:+56996413264 "><img width="50" src="https://i.imgur.com/oqKGe5C.png"></a>-->
+
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996413264&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/b1duJxb.png"></a>
+                   <!-- <a onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> </a>-->
+                   <a  href="https://goo.gl/maps/84vSihPQqcWrHefN8"><img  width="50" src="https://icon-library.net/images/google-map-logo-icon/google-map-logo-icon-5.jpg" /></a>
+
+                  </div>                    
+                </div>
+             <!-- </div>
+            </div>-->
+      </div>
+
+  </div>
+            </div>
+
+                  <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
+            
+        </div>
+    </div>
 
-                </div>
-            </div>
-       </div>
-   </div>
-
-
-  <script>
+    <script>
    //EVENT 1
         
         $(function(){
@@ -181,10 +229,7 @@
             });
         }); 
 
-         function event1(){ 
-          var id_adm; 
-         id_adm= getUrlParameter('data1'); 
-
+         function event1(){
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
@@ -206,7 +251,7 @@
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#dato1').text(id_adm);
+                    $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -214,18 +259,14 @@
                         }
                     });
                 }else{
-                    $('#cont1').addClass('hide');
-                     $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
+                    $('#error').text(e.msg);
                 }
             })
             .fail(function() {
                 console.log( "error" );
             });
-
         }
         
-
         let eventosLanding = function(name){
             
             let json_datos = getAllUrlParameter(); 
@@ -246,29 +287,29 @@
             let data; 
             if(msg !== false){
                 data = {
-                    'Mensaje': msg,
+                    'mensaje': msg,
                     'Nombre': $('#name').text(),
+                    //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Landing': '{!! $landing->name !!}'
-                    
+                    'landing': '{!! $landing->name !!}'       
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'Fecha': date,
+                    'fecha': date,
                     'Nombre': $('#name').text(),
-                    'Rut': getUrlParameter('rut'),
+                    //'monto': getUrlParameter('monto'),
+                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Landing': '{!! $landing->name !!}'
+                    'landing': '{!! $landing->name !!}'
                 } 
             }
-             var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
             }
-
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -286,6 +327,8 @@
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                      eventosLanding('Compromiso de Pago');
+
                 }
             })
             .done(function(e) {
@@ -351,47 +394,8 @@
             return obj;  
         };
 
-       function Mens(){
-   // var id_adm; 
-        // id_adm= getUrlParameter('data1'); //1234;
-          
-            swal({
-             title: `Para Comunicarse, seleccione la opcion 2`,
-             //text: "Expandir la Pantalla",
-             type: "success",
-             timer: 5000
-        }, 
-        function(){
-             window.location.href = "tel:+56227308000";
-        })
 
-
-        } 
-        
-       function Mens1(){
-    var id_adm; 
-         id_adm= getUrlParameter('data1'); //1234;
-          
-            swal({
-             title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
-             //text: "Expandir la Pantalla",
-             type: "success",
-             timer: 5000
-        }, 
-        function(){
-             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
-        })
-
-
-        } 
-
-
-     function Mens2(){
-     $('#cont2').addClass('hide');
-     $('#cont4').removeClass('hide');
-
-        } 
-    </script>
     
+    </script>
 
 @endsection
