@@ -28,7 +28,7 @@ $enddate=strtotime("+15 days", $startdate);
 
                  <div class="d-flex justify-content-around align-content-center mt-1"> 
                   
-                  <a class="ml-2" onclick="eventosLanding('facebook');" href="https://www.facebook.com/MEGACL/"><img width="70" src="https://www.freepngimg.com/thumb/facebook/10-2-facebook-png-image.png"></a>
+                  <a class="ml-2" onclick="eventosLanding('facebook');" href="https://www.facebook.com/MEGACL/"><img width="60" src="https://www.freepngimg.com/thumb/facebook/10-2-facebook-png-image.png"></a>
                          <a class="ml-4" onclick="eventosLanding('Instagram');" href="https://www.instagram.com/mega.tv/?hl=es-la"><img width="60" src="http://pluspng.com/img-png/instagram-png-instagram-png-icon-1024.png"></a>
                           <a class="ml-6" onclick="eventosLanding('Pagina');" href="https://www.mega.cl/home/"><img width="60" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mega2013oficial.png/1200px-Mega2013oficial.png"></a>
 
