@@ -3,12 +3,22 @@
 @section('title', 'ISAPRES')
 
 @section('content')
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<style type="text/css">
-    
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<!-- Compiled and minified Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<!-- Minified JS library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Compiled and minified Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+<style type="text/css">  
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border: 0;
@@ -28,7 +38,7 @@
   transition: 0.2s ease-in-out;
 }
 .card .card-body .card-text {
-  color: #747373;
+  text: #747373;
   font-size: 0.9rem;
   font-weight: 400;
 }
@@ -39,10 +49,22 @@
 .oscurecer {
   background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0),
+      rgba(0, 0, 0)
     )
     }
+
+.accesos-directo {
+    /*position: relative;*/
+    background-text: #262626;
+    padding: 40px 30px;
+}
+ .fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; 
+  background-text: #262626
+}  
+
     
 </style>
 
@@ -64,27 +86,71 @@
                     <div id="cont2" class="p-2 pl-3 pr-3">
                         <br>
                         <br>
-<br>
-<br>
+                        <br>
+                        <br>
+                <div class="card">     
+                    <div class="card-body">
+                        
+                         <h4 class="text-grey text-center"> 
+                        Deseas mejorar ti plan de Salud?</h4>
+                       
+                        <h4 class="text-grey text-center"> Nosotros te ayudamos </h4>
 
-                        <div class="card">     
-                            <div class="card-body">
-                                
-                                 <h4 class="text-grey text-center"> 
-                                Deseas mejorar ti plan de Salud?</h4>
-                               
-                                <h4 class="text-grey text-center"> Nosotros te ayudamos </h4>
-                                 <img  class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="ISAPRES">
-                               <a href="tel:+56996891048" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
+                         <img  class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="ISAPRES">
+
+
+                       <a href="tel:+56996891048" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
+                            <!--CARRUSEL-->
+                              
+                              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                              </ol>
+                              <div class="carousel-inner">
+                                <<div class="carousel-item active">
+                                  <img src="..." alt="...">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5> DATA 1 </h5>
+                                    <p>Seleccione</p>
+                                  </div>
+                                </div>
+                                  <div class="carousel-item">
+                                  <img src="..." alt="...">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5> DATA 2 </h5>
+                                    <p>Seleccione</p>
+                                  </div>
+                                </div>
+                                  <div class="carousel-item">
+                                  <img src="..." alt="...">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5> DATA 3 </h5>
+                                    <p>Seleccione</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+
+
 
                                 
-                                     <div class="d-flex justify-content-around align-content-center mt-4"> 
-                                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996891048&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-                                    <a onclick="eventosLanding('Llamar');" href="tel:+56996891048"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-                   
-                                    <a onclick="eventosLanding('Correo');" href="mailto:williamzuniga@gmail.com?subject=Landing%20Isapres"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
-                                     </div>
+                             <div class="d-flex justify-content-around align-content-center mt-4"> 
+                            <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996891048&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+           
+                            <a onclick="eventosLanding('Llamar');" href="tel:+56996891048"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+           
+                            <a onclick="eventosLanding('Correo');" href="mailto:williamzuniga@gmail.com?subject=Landing%20Isapres"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                             </div>
                             </div>   
                         </div>
                     </div>
@@ -97,20 +163,7 @@
                             </div>
                         </div>
                     </div>
-                   <!-- <div id="cont4" class="p-2 pl-5 pr-5 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                        <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); '>
-                                    <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
-                                </div>
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
-                                </div>
-                                </div>
-                        </div>
-                    </div>-->
+                    
                 </div>
             </div>
        </div>
@@ -177,9 +230,6 @@
             
             let json_datos = getAllUrlParameter(); 
 
-           // json_datos.nombre = $('#name').text();
-            //json_datos.monto = $('#pay').text();
-
             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
@@ -198,13 +248,8 @@
                 data = {
                     'Mensaje': msg,
                     'Nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    //'Id_Admision': getUrlParameter('data1'),
-                    //'Prevision': getUrlParameter('data2'),
-                    //'Estado': getUrlParameter('data2'),
-                    //'Ley': getUrlParameter('data4')
                     'Landing': '{!! $landing->name !!}'
                     
                 }
@@ -213,13 +258,8 @@
                 data = {
                     'Fecha': date,
                     'Nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
                     'Rut': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    //'Id_Admision': getUrlParameter('data1'),
-                    //'Prevision': getUrlParameter('data2'),
-                    //'Estado': getUrlParameter('data2'),
-                    //'Ley': getUrlParameter('data4'),
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
@@ -227,9 +267,8 @@
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-               // 'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
             }
+
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
