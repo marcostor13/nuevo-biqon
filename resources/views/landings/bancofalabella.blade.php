@@ -57,14 +57,14 @@ $enddate=strtotime("+15 days", $startdate);
 
         <div class="opaco"></div>
 
-       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
+       <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="BANCO FALABELLA" width="500" height="1000">
 
             <div id="cont1">
                             <div class="card">     
                 <div class="card-body">
 
-                    <img src="https://images.ctfassets.net/p6eyia4djstu/5oj5hTw71L3rtnRxNAUus5/2203798888a10a0a13ca2d26b5dbf28d/LN-BNR50_CTAJOVEN_0.jpg?fm=jpg&q=70" width="700" height="400">
+                    <img src="https://images.ctfassets.net/p6eyia4djstu/5oj5hTw71L3rtnRxNAUus5/2203798888a10a0a13ca2d26b5dbf28d/LN-BNR50_CTAJOVEN_0.jpg?fm=jpg&q=70" width="400" height="250">
                     <center>
                          <div>
                  <button onclick='window.location.href="https://cuentacorriente.bancofalabella.cl/#/"' type="button" class="btn bg-warning text-white col-10 mt-4" >CUENTA CORRIENTE</button>
