@@ -88,8 +88,8 @@
                         <br>
                         <br>
                         <br>
-                <div class="card">     
-                    <div class="card-body">
+                <!--<div class="card">     
+                    <div class="card-body">-->
                         
                          <h4 class="text-grey text-center"> 
                         Deseas mejorar ti plan de Salud?</h4>
@@ -110,14 +110,14 @@
                               </ol>
                               <div class="carousel-inner">
                                 <<div class="carousel-item active">
-                                  <img src="..." alt="...">
+                                  <img src="https://i.imgur.com/bOwqBIN.jpg" alt="...">
                                   <div class="carousel-caption d-none d-md-block">
                                     <h5> DATA 1 </h5>
                                     <p>Seleccione</p>
                                   </div>
                                 </div>
                                   <div class="carousel-item">
-                                  <img src="..." alt="...">
+                                  <img src="https://i.imgur.com/GT7Rvro.jpg" alt="...">
                                   <div class="carousel-caption d-none d-md-block">
                                     <h5> DATA 2 </h5>
                                     <p>Seleccione</p>
@@ -151,8 +151,8 @@
            
                             <a onclick="eventosLanding('Correo');" href="mailto:williamzuniga@gmail.com?subject=Landing%20Isapres"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                              </div>
-                            </div>   
-                        </div>
+                            <!--</div>   
+                        </div>-->
                     </div>
           
              
@@ -163,7 +163,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
        </div>
