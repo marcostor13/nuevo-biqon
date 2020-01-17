@@ -50,7 +50,7 @@
      <div class="opaco">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="ISAPRES">
+            <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="ISAPRES">-->
             
             <div class=col-md-12>
            
@@ -69,7 +69,7 @@
                                 Deseas mejorar ti plan de Salud?</h4>
                                
                                 <h4 class="text-grey text-center"> Nosotros te ayudamos </h4>
-
+                                 <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="ISAPRES">
                                <a href="tel:+56996891048" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
 
                                 
