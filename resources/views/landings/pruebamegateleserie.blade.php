@@ -22,6 +22,7 @@ $enddate=strtotime("+15 days", $startdate);
 
             <div id="cont1">
                 <div class="videoWrapper">     
+                    <h1><strong>Disfruta de nuestra Teleserie a las 20:00hrs </strong></h1>
 
                     <iframe width="400" height="320" src="{{asset('/files/ysl.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
