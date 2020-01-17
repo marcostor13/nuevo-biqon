@@ -74,7 +74,7 @@ $enddate=strtotime("+15 days", $startdate);
                   
 
                   <div>
-                    <button type="button" class="btn btn-success"><a href="https://cuentacorriente.bancofalabella.cl/#/">CUENTA CORRIENTE</a></button>
+                    <button type="button" class="btn bg-warning text-white col-10 mt-4"><a href="https://cuentacorriente.bancofalabella.cl/#/">CUENTA CORRIENTE</a></button>
                       
                   </div>
                   <div>
