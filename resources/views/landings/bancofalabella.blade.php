@@ -65,6 +65,16 @@ $enddate=strtotime("+15 days", $startdate);
                 <div class="card-body">
 
                     <img src="https://images.ctfassets.net/p6eyia4djstu/5oj5hTw71L3rtnRxNAUus5/2203798888a10a0a13ca2d26b5dbf28d/LN-BNR50_CTAJOVEN_0.jpg?fm=jpg&q=70" width="700" height="400">
+
+                    <div>
+                 <button onclick='window.location.href="https://cuentacorriente.bancofalabella.cl/#/"' type="button" class="btn bg-warning text-white col-10 mt-4" >CUENTA CORRIENTE</button>
+                 <div>
+                        <button onclick='window.location.href="https://www.bancofalabella.cl/credito-de-consumo?utm_source=sitio_clientes&utm_medium=lugar_principal"' type="button" class="btn bg-warning text-white col-10 mt-4" >PIDE TU CREDITO</button>
+                      <div>
+                        <button onclick='window.location.href="https://solicitudes.cmr.cl/?feature=insurance_v1&utm_expid=.PbkBPSTwQjuqM_GpPiVRFA.1&utm_referrer="' type="button" class="btn bg-warning text-white col-10 mt-4" >TARJETA CMR</button>
+                    </div>                   
+                 </div>
+            </div>
                 
                         </div>
                 
@@ -72,15 +82,7 @@ $enddate=strtotime("+15 days", $startdate);
 
          <div class="d-flex justify-content-around align-content-center mt-1"> 
 
-            <div>
-                 <button onclick='window.location.herf="https://cuentacorriente.bancofalabella.cl/#/"' type="button" class="btn bg-warning text-white col-10 mt-4" >CUENTA CORRIENTE</button>
-                 <div>
-                        <button onclick='window.location.herf="https://www.bancofalabella.cl/credito-de-consumo?utm_source=sitio_clientes&utm_medium=lugar_principal"' type="button" class="btn bg-warning text-white col-10 mt-4" >PIDE TU CREDITO</button>
-                      <div>
-                        <button onclick='window.location.herf="https://solicitudes.cmr.cl/?feature=insurance_v1&utm_expid=.PbkBPSTwQjuqM_GpPiVRFA.1&utm_referrer="' type="button" class="btn bg-warning text-white col-10 mt-4" >TARJETA CMR</button>
-                    </div>                   
-                 </div>
-            </div>
+            
                                                             
             </div>
           
