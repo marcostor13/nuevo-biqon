@@ -435,7 +435,7 @@ $name = $_GET['NOMBRE'];
                   //  'Landing': '{!! $landing->name !!}'
                // } 
             }
-             var correo = ["jesus.binteraction@gmail.com"];
+             var correo = ["jesus.binteraction@gmail.com","josesm@procollect.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
