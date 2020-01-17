@@ -58,7 +58,7 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="MCDONALS" width="500" height="1000">
+            <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="MCDONALS" width="500" height="1000">
 
             <div id="cont1">
                             <div class="card">     
@@ -73,11 +73,11 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="d-flex justify-content-around align-content-center mt-1"> 
                   
                   <a class="ml-2" onclick="eventosLanding('facebook');" href="https://www.facebook.com/McDonaldsChile/?__tn__=%2Cd%2CP-R&eid=ARBpyD1ayIw7ugjuuexEPEuWBi-WFByeU2kr2pIt6lkKeu0NqI_jMrZiihsZaUiRGo6QLsqFLAbBl0TB"><img width="70" src="http://pluspng.com/img-png/facebook-logo-png-image-2335-1403.png"></a>
-                         <a class="ml-4" onclick="eventosLanding('Instagram');" href="https://www.instagram.com/mcdonalds_cl/?hl=es-la"><img width="60" src="http://pluspng.com/img-png/instagram-png-instagram-png-icon-1024.png"></a>
+                         <a class="ml-4" onclick="eventosLanding('Instagram');" href="https://www.instagram.com/mcdonalds_cl/?hl=es-la"><img width="60" src="http://pluspng.com/img-png/instagram-png-instagram-png-logo-1455.png"></a>
 
    
                 </div>
- <body background="https://www.itl.cat/pngfile/big/135-1355235_preview-wallpaper-mcdonalds-french-fries-food-fast-do.jpg"></body>
+ <body background="https://i.pinimg.com/originals/ff/f0/c0/fff0c0dcdc19b29102c9709e5a385fba.jpg"></body>
           
      <script>
    //EVENT 1
