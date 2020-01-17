@@ -29,7 +29,7 @@ $enddate=strtotime("+15 days", $startdate);
   box-shadow: none;
 }
 .card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
-  font-weight: 400;
+  font-weight: 600;
 }
 .card .card-body .card-title a {
   transition: 0.2s ease-in-out;
@@ -40,7 +40,7 @@ $enddate=strtotime("+15 days", $startdate);
 .card .card-body .card-text {
   color: #747373;
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 .card .md-form label {
   font-weight: 300;
