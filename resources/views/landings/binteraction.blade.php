@@ -28,7 +28,7 @@ $enddate=strtotime("+15 days", $startdate);
                     <span>AGENDAR</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                      </div>
-
+                    <a href="https://api.whatsapp.com/send?phone=56942918783&text=Hola,%20tengo%20una%20consulta"><button class="btn bg-warning text-white col-12 mt-4">WHATTSAPP</button></a> 
                        </div> </div>
                 
 
@@ -180,7 +180,7 @@ $enddate=strtotime("+15 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su visita fue agendada');
+                    $('#message').text('Gracias, lo contactaremos');
                 }
             })
             .done(function(e) {
