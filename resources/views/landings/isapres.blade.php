@@ -138,36 +138,29 @@ $enddate=strtotime("+5 days", $startdate);
     <!-- Wrapper for slides -->
      <div class="carousel-inner">
         <div class="item active">
-            <img src="https://i.imgur.com/bOwqBIN.jpg" alt="">
+          <!--colmena-->
+            <img src="https://i.imgur.com/d7PRyo1.jpg" alt="">
         </div>
         <div class="item">
-            <img src="https://i.imgur.com/GT7Rvro.jpg" alt="">
+          <!--vida tres-->
+            <img src="https://i.imgur.com/2WSrvwc.png" alt="">
         </div>
         <div class="item">
-            <img src="https://i.imgur.com/GM2COsl.jpg" alt="">
+          <!--mas vida-->
+            <img src="https://i.imgur.com/sTstu5U.jpg" alt="">
         </div>
         <div class="item">
-            <img src="https://i.imgur.com/zmMOH0H.jpg" alt="">
+          <!--cruz blanca-->
+            <img src="https://i.imgur.com/tmF2cn6.jpg" alt="">
         </div>
         <div class="item">
-            <img src="https://i.imgur.com/ajWLQfD.jpg" alt="">
+          <!--consalud-->
+            <img src="https://i.imgur.com/qUSFUe3.png" alt="">
         </div>
         <div class="item">
-            <img src="https://i.imgur.com/k5BhXdB.jpg" alt="">
+          <!--banmedica-->
+            <img src="https://i.imgur.com/uERS6xP.png" alt="">
         </div>
-        <div class="item">
-            <img src="https://i.imgur.com/ffFqOZV.jpg" alt="">
-        </div>
-        <div class="item">
-            <img src="https://i.imgur.com/2CHHy41.jpg" alt="">
-        </div>
-        <div class="item">
-            <img src="https://i.imgur.com/dWn1nBG.jpg" alt="">
-        </div>
-        <div class="item">
-            <img src="https://i.imgur.com/Ry5jv4g.jpg" alt="">
-        </div>
-
     </div>
 
     <!-- Controls -->
