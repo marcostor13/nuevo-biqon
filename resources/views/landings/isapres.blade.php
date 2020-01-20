@@ -76,7 +76,7 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
- <div id="Isapres" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: auto;" >
+ <div id="Isapres" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 800px 600px;" >
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
              
