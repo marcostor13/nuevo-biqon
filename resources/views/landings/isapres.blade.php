@@ -99,56 +99,13 @@ $enddate=strtotime("+5 days", $startdate);
              <strong> <br>   </strong> 
               <strong> <br>  </strong> 
            </h3> 
-             <!--  <hr class="hr-light">
-            <h4 class="text-warning text-center">
-                  Parque Inflables
-             <br> Bungee Jump
-             <br> Carrito de Pop Corn 
-             <br> Tobogán Inflable
-             <br> Y Mucho Más
-              </h4>  
-            <h4 class="text-danger text-center">
-                  Promoción Valida hasta el 31 de Diciembre de 2019 
-            </h4>-->
-            <!--<h4 class="text-blak text-center">
-                  *Presenta este mensaje para acceder al descuento al contratar*
-              </h4>-->
+           
         </div>
 
 
            <div id="cont1" class="text-danger text-center">
-             
-
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  </ol>
-                  <div class="carousel-item">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100" src="https://i.imgur.com/2WSrvwc.png" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="https://i.imgur.com/d7PRyo1.jpg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="https://i.imgur.com/sTstu5U.jpg" alt="Third slide">
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-
-
-
-             <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
      <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -168,13 +125,13 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="item active">
           <!--colmena-->
             <img src="https://i.imgur.com/d7PRyo1.jpg" alt="">
-            <div class="carousel-caption d-none d-md-block">
+            <!--<div class="carousel-caption d-none d-md-block">
               <h5 class="text-danger text-center">hola</h5>
               <p class="text-danger text-center">isapre</p>
-            </div>
+            </div>-->
         </div>
 
-        <div class="carousel-item">
+        <div class="item">
           <img src="https://i.imgur.com/d7PRyo1.jpg" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>...</h5>
