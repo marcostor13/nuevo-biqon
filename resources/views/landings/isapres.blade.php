@@ -86,7 +86,7 @@ $enddate=strtotime("+5 days", $startdate);
                         
       <!-- Content -->
       <div class="container">
-    <br> <br> <br> <br> <br> 
+  
 
         <!--Grid row-->
          <div class="card">     
@@ -97,6 +97,12 @@ $enddate=strtotime("+5 days", $startdate);
             <strong>Disfurta la Vida<br> 
             Tenemos el Mejor Plan <br>
             para Ti y tu Familia </strong> </h2> 
+
+            </div>
+        </div>
+          <br> <br> <br> <br> <br> 
+            <div class="card">     
+                <div class="card-body">
             <h3 class="text-danger text-center"> 
             <strong> Somos expertos en Isapres, <br>
             acá encontraras fácil y rápido el mejor plan de salud.  
