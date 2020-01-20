@@ -90,11 +90,11 @@ $enddate=strtotime("+5 days", $startdate);
          <div class="card">     
                <!-- <div class="card-body">-->
        <div class="card-body ">
-            <h2 class="text-danger text-center">
+            <h5 class="text-danger text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
             <strong>Disfurta la Vida<br> 
             Tenemos el Mejor Plan <br>
-            para Ti y tu Familia </strong> </h2> 
+            para Ti y tu Familia </strong> </h5> 
 
             </div>
         </div>
@@ -102,10 +102,10 @@ $enddate=strtotime("+5 days", $startdate);
           <br> <br> <br> <br> <br> 
             <div class="card">     
                 <div class="card-body">
-            <h3 class="text-danger text-center"> 
+            <h6 class="text-danger text-center"> 
             <strong> Somos expertos en Isapres, <br>
             acá encontraras fácil y rápido el mejor plan de salud.  
-           </strong> </h3> 
+           </strong> </h6> 
            
         </div>
         </div>
