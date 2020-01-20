@@ -73,7 +73,7 @@ $enddate=strtotime("+5 days", $startdate);
   background-text: #262626
 }  
 h4 {
-  text-shadow: 2px 2px #ffffff;
+  text-shadow: 2px 2px #000000;
 }
     
 </style>
@@ -92,7 +92,7 @@ h4 {
          <!--<div class="card">     
               
        <div class="card-body ">-->
-            <h4 class="text-black text-center">
+            <h4 class="text-white text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
             <strong>Disfurta la Vida<br> 
             Tenemos el Mejor Plan <br>
@@ -104,7 +104,7 @@ h4 {
           <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
             <!--<div class="card">     
                 <div class="card-body">-->
-            <h4 class="text-black text-center"> 
+            <h4 class="text-white text-center"> 
             <strong> Somos expertos en Isapres, <br>
             acá encontraras fácil y rápido el mejor plan de salud.  
            </strong> </h4> 
