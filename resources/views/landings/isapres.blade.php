@@ -76,7 +76,7 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-
+ <div id="Isapres" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
              
@@ -118,7 +118,7 @@ $enddate=strtotime("+5 days", $startdate);
             <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>-->
           <!--<div class="align-bottom p-2 bg-primary text-white" onclick="Mens1();">COLMENA</div>-->
-            <button onclick='window.location.href="tel:+56933914095" 'class="btn align-bottom bg-warning text-black">CONSULTAS</button>
+            <!--<button onclick='window.location.href="tel:+56933914095" 'class="btn align-bottom bg-warning text-black">CONSULTAS</button>-->
 
           </div>
         </div>
@@ -178,7 +178,7 @@ $enddate=strtotime("+5 days", $startdate);
 </div>
 <br>
 <br>
-       <button onclick='window.location.href="tel:+56996891048" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
+       <button onclick='window.location.href="tel:+56996891048" 'class="btn bg-warning text-black col-12 mt-4">LLAMAR</button>
 
        <button onclick='Mens1();' class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
