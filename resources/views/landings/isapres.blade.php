@@ -135,6 +135,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="item">
           <!--consalud-->
             <img src="https://i.imgur.com/z3d5mwC.png" alt="">
+        </div>    
         <div class="item">
           <!--banmedica-->
             <img src="https://i.imgur.com/zRZEcDB.png" alt="">
