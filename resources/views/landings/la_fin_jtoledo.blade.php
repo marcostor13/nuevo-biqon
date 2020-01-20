@@ -55,7 +55,7 @@ $name = $_GET['NOMBRE'];
     )
     }
 </style>
-   <div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+  <!-- <div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
 
         
         <div class="opaco"></div>
@@ -90,7 +90,7 @@ $name = $_GET['NOMBRE'];
                 <!--<h4><p class="text-black"> <strong>
                   Financoop líder en la atención a pensionados desde hace más de diez años, quieremos invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>-->
                    
-                   <h3>FINANCOOP tiene un credito para ti de hasta $1.500.000. envia ultima liquidacion y c. identidad</h3>
+                   <h3>FINANCOOP TE ESPERA EN ESTAS VACACIONES CON UN  CRÉDITO PARA TI HASTA $1,5 MM ENVIA  ULT. LIQUID. Y C. DE IDENT. VIA WHATSAPP</h3>
 
             
             </div> 
