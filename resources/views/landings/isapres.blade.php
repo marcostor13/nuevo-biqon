@@ -86,12 +86,14 @@ $enddate=strtotime("+5 days", $startdate);
     
         <!--Grid row-->
        <div class="card-body ">
-            <h3 class="text-danger text-center">
+            <h2 class="text-danger text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
-            Disfurta la Vida<br> 
-            <strong>Tenemos el Mejor Plan <br>para Ti y tu Familia </strong> </h3> 
+            <strong>Disfurta la Vida<br> 
+            Tenemos el Mejor Plan <br>
+            para Ti y tu Familia </strong> </h2> 
             <h3 class="text-black text-center">
-             <strong> <br>   </strong> 
+            Somos expertos en Isapres, <br>
+            acá encontraras fácil y rápido el mejor plan de salud.  
               <strong> <br>  </strong> 
            </h3> 
            
