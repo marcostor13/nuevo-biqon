@@ -90,7 +90,7 @@ $enddate=strtotime("+5 days", $startdate);
 
         <!--Grid row-->
          <div class="card">     
-                <div class="card-body">
+              <div class="card-body">
             <h2 class="text-danger text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
             <strong>Disfurta la Vida<br> 
