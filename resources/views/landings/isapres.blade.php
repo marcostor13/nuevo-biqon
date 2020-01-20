@@ -124,16 +124,8 @@ $enddate=strtotime("+5 days", $startdate);
      <div class="carousel-inner">
         <div class="item active">
           <!--colmena-->
-            <img src="https://i.imgur.com/d7PRyo1.jpg" alt="">
-            <!--<div class="carousel-caption d-none d-md-block">
-              <h5 class="text-danger text-center">hola</h5>
-              <p class="text-danger text-center">isapre</p>
-            </div>-->
-        </div>
-
-        <div class="item">
           <img src="https://i.imgur.com/d7PRyo1.jpg" alt="...">
-          <div class="carousel-caption ">
+          <div class="carousel-caption d-md-block">
             <h5 class="text-danger text-center">HOLA</h5>
             <p class="text-danger text-center">COLMENA</p>
           </div>
