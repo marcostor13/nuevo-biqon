@@ -114,7 +114,7 @@ $enddate=strtotime("+5 days", $startdate);
     <!-- Wrapper for slides -->
      <div class="carousel-inner">
         <div class="carousel-item">
-          <img src="https://i.imgur.com/d7PRyo1.jpg" alt="COLMENA">
+          <img src="https://i.imgur.com/GT7Rvro.jpg" alt="">
           <!--<div class="carousel-caption d-none d-md-block">
             <h5>COLMENA</h5>
             <p>Porque tu salud es lo mas importante</p>
