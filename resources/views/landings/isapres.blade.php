@@ -102,15 +102,15 @@ h4 {
         </div>-->
 
           <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
-            <div class="card">     
-                <div class="card-body">
-            <h6 class="text-black text-center"> 
+            <!--<div class="card">     
+                <div class="card-body">-->
+            <h4 class="text-black text-center"> 
             <strong> Somos expertos en Isapres, <br>
             acá encontraras fácil y rápido el mejor plan de salud.  
-           </strong> </h6> 
+           </strong> </h4> 
            
-        </div>
-        </div>
+       <!-- </div>
+        </div>-->
     
 
 
