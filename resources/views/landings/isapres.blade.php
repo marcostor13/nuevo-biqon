@@ -72,7 +72,9 @@ $enddate=strtotime("+5 days", $startdate);
   font-weight: 900; 
   background-text: #262626
 }  
-
+h4 {
+  text-shadow: 2px 2px #ff0000;
+}
     
 </style>
 
@@ -102,7 +104,7 @@ $enddate=strtotime("+5 days", $startdate);
           <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
             <div class="card">     
                 <div class="card-body">
-            <h6 class="text-danger text-center"> 
+            <h6 class="text-black text-center"> 
             <strong> Somos expertos en Isapres, <br>
             acá encontraras fácil y rápido el mejor plan de salud.  
            </strong> </h6> 
