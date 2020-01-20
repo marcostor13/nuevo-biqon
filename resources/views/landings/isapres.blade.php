@@ -91,7 +91,7 @@ $enddate=strtotime("+5 days", $startdate);
     
         <!--Grid row-->
        <div class="card-body ">
-            <h2 class="text-danger text-center">
+            <h2 class="text-black text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
             Disfurta la Vida<br> 
             <strong>Tenemos el Mejor Plan <br>para Ti y tu Familia </strong> </h2> 
@@ -99,27 +99,12 @@ $enddate=strtotime("+5 days", $startdate);
              <strong> <br>   </strong> 
               <strong> <br>  </strong> 
            </h3> 
-             <!--  <hr class="hr-light">
-            <h4 class="text-warning text-center">
-                  Parque Inflables
-             <br> Bungee Jump
-             <br> Carrito de Pop Corn 
-             <br> Tobogán Inflable
-             <br> Y Mucho Más
-              </h4>  
-            <h4 class="text-danger text-center">
-                  Promoción Valida hasta el 31 de Diciembre de 2019 
-            </h4>-->
-            <!--<h4 class="text-blak text-center">
-                  *Presenta este mensaje para acceder al descuento al contratar*
-              </h4>-->
+             
         </div>
 
 
            <div id="cont1" class="text-danger text-center">
-               <!-- <div class="videoWrapper">        
-                    <iframe width="400" height="320" src="{{asset('/files/rayoinflables1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>-->
+            
              <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
      <ol class="carousel-indicators">
@@ -137,8 +122,12 @@ $enddate=strtotime("+5 days", $startdate);
 
     <!-- Wrapper for slides -->
      <div class="carousel-inner">
-        <div class="item active">
-            <img src="https://i.imgur.com/bOwqBIN.jpg" alt="">
+        <div class="carousel-item">
+          <img src="https://i.imgur.com/d7PRyo1.jpg" alt="COLMENA">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>COLMENA</h5>
+            <p>Porque tu salud es lo mas importante</p>
+        </div>
         </div>
         <div class="item">
             <img src="https://i.imgur.com/GT7Rvro.jpg" alt="">
