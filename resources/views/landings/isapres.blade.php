@@ -125,7 +125,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="item active">
           <!--colmena-->
           <img src="https://i.imgur.com/d7PRyo1.jpg" alt="...">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-md-block">
             <h5 class="text-danger text-center">HOLA</h5>
             <p class="text-danger text-center">COLMENA</p>
           </div>
