@@ -90,7 +90,8 @@ $enddate=strtotime("+5 days", $startdate);
 
         <!--Grid row-->
          <div class="card">     
-              <div class="card-body">
+               <!-- <div class="card-body">-->
+       <div class="card-body ">
             <h2 class="text-danger text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
             <strong>Disfurta la Vida<br> 
@@ -99,7 +100,6 @@ $enddate=strtotime("+5 days", $startdate);
 
             </div>
         </div>
-        
 
           <br> <br> <br> <br> <br> 
             <div class="card">     
@@ -109,16 +109,16 @@ $enddate=strtotime("+5 days", $startdate);
             acá encontraras fácil y rápido el mejor plan de salud.  
            </strong> </h3> 
            
-     
         </div>
         </div>
-</div>
+        </div>
 
-           
+
+           <div id="cont1" class="text-danger text-center">
              <button onclick='window.location.href="tel:+56996891048" 'class="btn bg-warning text-black col-12 mt-4">LLAMAR</button>
 
        <button onclick='Mens1();' class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
-<br> 
+<br> <br>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
     <!-- Wrapper for slides -->
