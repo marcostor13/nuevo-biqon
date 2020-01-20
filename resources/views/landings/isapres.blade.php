@@ -80,9 +80,7 @@ $enddate=strtotime("+5 days", $startdate);
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
              
-
-             <div id="cont1" class="p-2 ">
-                   <div class="mask rgba-white-light d-flex justify-content-center align-items-center">
+                  <div class="mask rgba-white-light d-flex justify-content-center align-items-center">
                         
       <!-- Content -->
       <div class="container">
@@ -111,7 +109,7 @@ $enddate=strtotime("+5 days", $startdate);
            
         </div>
         </div>
-        </div>
+    
 
 
            <div id="cont1" class="text-danger text-center">
