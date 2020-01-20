@@ -91,10 +91,10 @@ $enddate=strtotime("+5 days", $startdate);
     
         <!--Grid row-->
        <div class="card-body ">
-            <h3 class="text-danger text-center">
+            <h2 class="text-danger text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
             Disfurta la Vida<br> 
-            <strong>Tenemos el Mejor Plan <br>para Ti y tu Familia </strong> </h3> 
+            <strong>Tenemos el Mejor Plan <br>para Ti y tu Familia </strong> </h2> 
             <h3 class="text-black text-center">
              <strong> <br>   </strong> 
               <strong> <br>  </strong> 
@@ -129,10 +129,10 @@ $enddate=strtotime("+5 days", $startdate);
         <li data-target="#myCarousel" data-slide-to="3"></li>
         <li data-target="#myCarousel" data-slide-to="4"></li>
         <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <!--<li data-target="#myCarousel" data-slide-to="6"></li>
         <li data-target="#myCarousel" data-slide-to="7"></li>
         <li data-target="#myCarousel" data-slide-to="8"></li>
-        <li data-target="#myCarousel" data-slide-to="9"></li>
+        <li data-target="#myCarousel" data-slide-to="9"></li>-->
     </ol> 
 
     <!-- Wrapper for slides -->
@@ -155,7 +155,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="item">
             <img src="https://i.imgur.com/k5BhXdB.jpg" alt="">
         </div>
-        <div class="item">
+        <!--<div class="item">
             <img src="https://i.imgur.com/ffFqOZV.jpg" alt="">
         </div>
         <div class="item">
@@ -166,7 +166,7 @@ $enddate=strtotime("+5 days", $startdate);
         </div>
         <div class="item">
             <img src="https://i.imgur.com/Ry5jv4g.jpg" alt="">
-        </div>
+        </div>-->
 
     </div>
 
@@ -181,24 +181,17 @@ $enddate=strtotime("+5 days", $startdate);
     </a>
 </div>
 <br>
-<br>
+
             <!--<div class="card">
               <div class="card-body">-->
                  
 
-                <div class="green-text text-center"> <br> <strong>¡¡Siguenos en Nuestras Redes Sociales!! </strong>  <hr>
                   <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/rayoinflables/?hl=es-la"> <img width="50" src="https://i.imgur.com/7HwfV5p.png"> </a>
-
-                    <a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/rayoinflables/"> <img width="50" src="https://i.imgur.com/dKFrTvU.png"> </a>
-
-                  <!-- <a onclick="eventosLanding('Llamar');" href="tel:+56996413264 "><img width="50" src="https://i.imgur.com/oqKGe5C.png"></a>-->
-
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996413264&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/b1duJxb.png"></a>
-                   <!-- <a onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> </a>-->
-                   <a  href="https://goo.gl/maps/84vSihPQqcWrHefN8"><img  width="50" src="https://icon-library.net/images/google-map-logo-icon/google-map-logo-icon-5.jpg" /></a>
-
-                  </div>                    
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996891048&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                   
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56996891048"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                   
+                    <a onclick="eventosLanding('Correo');" href="mailto:williamzuniga@gmail.com"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
              <!-- </div>
             </div>-->
@@ -305,7 +298,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com"];  
+            var correo = ["williamzuniga@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
