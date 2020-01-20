@@ -106,7 +106,7 @@ $enddate=strtotime("+5 days", $startdate);
      <div class="carousel-inner">
         <div class="item active">
           <!--colmena-->
-          <img src="https://i.imgur.com/d7PRyo1.jpg" alt="...">
+          <img src="https://i.imgur.com/87CPX6U.png" alt="...">
           <div class="carousel-caption d-md-block">
             <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>
@@ -116,7 +116,7 @@ $enddate=strtotime("+5 days", $startdate);
 
         <div class="item">
           <!--vida tres-->
-            <img src="https://i.imgur.com/2WSrvwc.png" alt="">
+            <img src="https://i.imgur.com/vA1O1sj.png" alt="">
             <div class="carousel-caption d-md-block">
             <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>
@@ -124,7 +124,7 @@ $enddate=strtotime("+5 days", $startdate);
         </div>
         <div class="item">
           <!--mas vida-->
-            <img src="https://i.imgur.com/sTstu5U.jpg" alt="">
+            <img src="https://i.imgur.com/EzLv3Wb.png" alt="">
             <div class="carousel-caption d-md-block">
             <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>
@@ -132,7 +132,7 @@ $enddate=strtotime("+5 days", $startdate);
         </div>
         <div class="item">
           <!--cruz blanca-->
-            <img src="https://i.imgur.com/tmF2cn6.jpg" alt="">
+            <img src="https://i.imgur.com/ZtD4H89.png" alt="">
             <div class="carousel-caption d-md-block">
             <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>
@@ -140,7 +140,7 @@ $enddate=strtotime("+5 days", $startdate);
         </div>
         <div class="item">
           <!--consalud-->
-            <img src="https://i.imgur.com/qUSFUe3.png" alt="">
+            <img src="https://i.imgur.com/z3d5mwC.png" alt="">
             <div class="carousel-caption d-md-block">
             <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>
@@ -148,7 +148,7 @@ $enddate=strtotime("+5 days", $startdate);
         </div>
         <div class="item">
           <!--banmedica-->
-            <img src="https://i.imgur.com/uERS6xP.png" alt="">
+            <img src="https://i.imgur.com/zRZEcDB.png" alt="">
             <div class="carousel-caption d-md-block">
             <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>
