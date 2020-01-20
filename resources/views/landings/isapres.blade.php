@@ -145,6 +145,16 @@ $enddate=strtotime("+5 days", $startdate);
               <p class="text-danger text-center">isapre</p>
             </div>
         </div>
+
+        <div class="carousel-item">
+          <img src="https://i.imgur.com/d7PRyo1.jpg" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>...</h5>
+            <p>...</p>
+          </div>
+        </div>
+
+
         <div class="item">
           <!--vida tres-->
             <img src="https://i.imgur.com/2WSrvwc.png" alt="">
