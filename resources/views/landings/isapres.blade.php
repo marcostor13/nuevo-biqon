@@ -86,8 +86,11 @@ $enddate=strtotime("+5 days", $startdate);
                         
       <!-- Content -->
       <div class="container">
-    
+    <br> <br> <br> <br> <br> 
+
         <!--Grid row-->
+         <div class="card">     
+                <div class="card-body">
        <div class="card-body ">
             <h2 class="text-danger text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
@@ -99,6 +102,8 @@ $enddate=strtotime("+5 days", $startdate);
             acá encontraras fácil y rápido el mejor plan de salud.  
            </strong> </h3> 
            
+        </div>
+        </div>
         </div>
 
 
