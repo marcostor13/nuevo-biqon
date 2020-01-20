@@ -94,16 +94,15 @@ $enddate=strtotime("+5 days", $startdate);
             <strong>Disfurta la Vida<br> 
             Tenemos el Mejor Plan <br>
             para Ti y tu Familia </strong> </h2> 
-            <h3 class="text-black text-center">
-            Somos expertos en Isapres, <br>
+            <h3 class="text-danger text-center"> 
+            <strong> Somos expertos en Isapres, <br>
             acá encontraras fácil y rápido el mejor plan de salud.  
-           </h3> 
+           </strong> </h3> 
            
         </div>
 
 
            <div id="cont1" class="text-danger text-center">
-<br> <br>
              <button onclick='window.location.href="tel:+56996891048" 'class="btn bg-warning text-black col-12 mt-4">LLAMAR</button>
 
        <button onclick='Mens1();' class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
