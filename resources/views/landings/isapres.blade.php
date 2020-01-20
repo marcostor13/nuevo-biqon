@@ -107,7 +107,7 @@ $enddate=strtotime("+5 days", $startdate);
             
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
-     <ol class="carousel-indicators">
+    <!-- <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -118,7 +118,7 @@ $enddate=strtotime("+5 days", $startdate);
         <li data-target="#myCarousel" data-slide-to="7"></li>
         <li data-target="#myCarousel" data-slide-to="8"></li>
         <li data-target="#myCarousel" data-slide-to="9"></li>
-    </ol> 
+    </ol> -->
 
     <!-- Wrapper for slides -->
      <div class="carousel-inner">
@@ -135,22 +135,42 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="item">
           <!--vida tres-->
             <img src="https://i.imgur.com/2WSrvwc.png" alt="">
+            <div class="carousel-caption d-md-block">
+            <h5 class="text-danger text-center">HOLA</h5>
+            <p class="text-danger text-center">COLMENA</p>
+          </div>
         </div>
         <div class="item">
           <!--mas vida-->
             <img src="https://i.imgur.com/sTstu5U.jpg" alt="">
+            <div class="carousel-caption d-md-block">
+            <h5 class="text-danger text-center">HOLA</h5>
+            <p class="text-danger text-center">COLMENA</p>
+          </div>
         </div>
         <div class="item">
           <!--cruz blanca-->
             <img src="https://i.imgur.com/tmF2cn6.jpg" alt="">
+            <div class="carousel-caption d-md-block">
+            <h5 class="text-danger text-center">HOLA</h5>
+            <p class="text-danger text-center">COLMENA</p>
+          </div>
         </div>
         <div class="item">
           <!--consalud-->
             <img src="https://i.imgur.com/qUSFUe3.png" alt="">
+            <div class="carousel-caption d-md-block">
+            <h5 class="text-danger text-center">HOLA</h5>
+            <p class="text-danger text-center">COLMENA</p>
+          </div>
         </div>
         <div class="item">
           <!--banmedica-->
             <img src="https://i.imgur.com/uERS6xP.png" alt="">
+            <div class="carousel-caption d-md-block">
+            <h5 class="text-danger text-center">HOLA</h5>
+            <p class="text-danger text-center">COLMENA</p>
+          </div>
         </div>
     </div>
 
