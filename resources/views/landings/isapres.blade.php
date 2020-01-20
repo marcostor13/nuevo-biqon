@@ -72,16 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
 
     
 </style>
-
-<!--<<div class="oscurecer p-3">
-<div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
-            <img style="max-width:55px; max-height:55px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="isapres">
-
-        </div></div>-->
-    <!--<div id="isapres" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover; ">-->
-
-        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-             <!--<img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="isapres">-->
+       <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
 
              <div id="cont1" class="p-2 ">
                    <div class="mask rgba-white-light d-flex justify-content-center align-items-center">
@@ -159,7 +150,7 @@ $enddate=strtotime("+5 days", $startdate);
 
     </div>
 
-    <!-- Controls -->
+  <div>  <!-- Controls -->
      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
         <span class="sr-only">Previous</span>
@@ -198,7 +189,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
             
         </div>
-    </div>
+    </div> </div>
 
     <script>
    //EVENT 1
