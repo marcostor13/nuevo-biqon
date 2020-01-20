@@ -115,8 +115,6 @@ $enddate=strtotime("+5 days", $startdate);
           <!--colmena-->
           <img src="https://i.imgur.com/87CPX6U.png" alt="...">
         </div>
-
-
         <div class="item">
           <!--vida tres-->
             <img src="https://i.imgur.com/vA1O1sj.png" alt="">
@@ -132,14 +130,10 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="item">
           <!--consalud-->
             <img src="https://i.imgur.com/z3d5mwC.png" alt="">
-            <div class="carousel-caption d-md-block">
-        </div>
         <div class="item">
           <!--banmedica-->
             <img src="https://i.imgur.com/zRZEcDB.png" alt="">
-            <div class="carousel-caption d-md-block">
         </div>
-    </div>
 
     <!-- Controls -->
      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
