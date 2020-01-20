@@ -117,8 +117,9 @@ $enddate=strtotime("+5 days", $startdate);
             <!--<div class="d-inline p-2 bg-primary text-white">d-inline</div>
             <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>-->
-           <!-- <div class="d-inline p-2 bg-primary text-white" onclick="Mens1();">COLMENA</div>
-            <button onclick='window.location.href="tel:+56933914095" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>-->
+          <div class="align-bottom p-2 bg-primary text-white" onclick="Mens1();">COLMENA</div>
+            <button onclick='window.location.href="tel:+56933914095" 'class="btn align-bottom bg-warning text-black col-12 mt-4">CONSULTAS</button>
+            
           </div>
         </div>
 
