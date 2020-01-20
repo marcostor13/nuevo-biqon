@@ -170,9 +170,8 @@ $enddate=strtotime("+5 days", $startdate);
       </div>
 
   </div>
-            </div>
 
-                  <div id="cont3" class="p-2 pl-3 pr-3 hide">
+    <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
@@ -187,6 +186,9 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     <a onclick="eventosLanding('Correo');" href="mailto:williamzuniga@gmail.com"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
+            </div>
+
+
             
         </div>
     </div> </div>
