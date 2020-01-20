@@ -13,7 +13,10 @@ $enddate=strtotime("+5 days", $startdate);
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <!-- Compiled and minified Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
@@ -114,7 +117,8 @@ $enddate=strtotime("+5 days", $startdate);
             <!--<div class="d-inline p-2 bg-primary text-white">d-inline</div>
             <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>-->
-            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white" onclick="Mens1();">COLMENA</div>
+            <button onclick='window.location.href="tel:+56933914095" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
           </div>
         </div>
 
@@ -374,7 +378,22 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
+ function Mens1(){
+    var id_adm; 
+         id_adm= getUrlParameter('data1'); //1234;
+          
+            swal({
+             title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
+             //text: "Expandir la Pantalla",
+             type: "success",
+             timer: 5000
+        }, 
+        function(){
+             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
+        })
 
+
+        } 
     
     </script>
 
