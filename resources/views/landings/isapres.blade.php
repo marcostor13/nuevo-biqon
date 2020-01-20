@@ -110,6 +110,7 @@ $enddate=strtotime("+5 days", $startdate);
           <!--colmena-->
           <img src="https://i.imgur.com/87CPX6U.png" alt="...">
           <div class="carousel-caption d-md-block">
+            <br><br><br>
             <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>
           </div>
