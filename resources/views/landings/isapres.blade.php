@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'isapres')
+@section('title', 'Isapres')
 
 @section('content')
 <?php
@@ -97,14 +97,17 @@ $enddate=strtotime("+5 days", $startdate);
             <h3 class="text-black text-center">
             Somos expertos en Isapres, <br>
             acá encontraras fácil y rápido el mejor plan de salud.  
-              <strong> <br>  </strong> 
            </h3> 
            
         </div>
 
 
            <div id="cont1" class="text-danger text-center">
-            
+<br> <br>
+             <button onclick='window.location.href="tel:+56996891048" 'class="btn bg-warning text-black col-12 mt-4">LLAMAR</button>
+
+       <button onclick='Mens1();' class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
+<br> <br>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
     <!-- Wrapper for slides -->
@@ -112,57 +115,30 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="item active">
           <!--colmena-->
           <img src="https://i.imgur.com/87CPX6U.png" alt="...">
-          <div class="carousel-caption d-md-block">
-            <br><br><br>
-            <!--<div class="d-inline p-2 bg-primary text-white">d-inline</div>
-            <h5 class="text-danger text-center">ISAPRE</h5>
-            <p class="text-danger text-center">COLMENA</p>-->
-          <!--<div class="align-bottom p-2 bg-primary text-white" onclick="Mens1();">COLMENA</div>-->
-            <!--<button onclick='window.location.href="tel:+56933914095" 'class="btn align-bottom bg-warning text-black">CONSULTAS</button>-->
-
-          </div>
         </div>
 
 
         <div class="item">
           <!--vida tres-->
             <img src="https://i.imgur.com/vA1O1sj.png" alt="">
-            <div class="carousel-caption d-md-block">
-            <!--<h5 class="text-danger text-center">ISAPRE</h5>
-            <p class="text-danger text-center">COLMENA</p>-->
-          </div>
         </div>
         <div class="item">
           <!--mas vida-->
             <img src="https://i.imgur.com/EzLv3Wb.png" alt="">
-            <div class="carousel-caption d-md-block">
-            <!--<h5 class="text-danger text-center">ISAPRE</h5>
-            <p class="text-danger text-center">COLMENA</p>-->
-          </div>
         </div>
         <div class="item">
           <!--cruz blanca-->
             <img src="https://i.imgur.com/ZtD4H89.png" alt="">
-            <div class="carousel-caption d-md-block">
-           <!-- <h5 class="text-danger text-center">ISAPRE</h5>
-            <p class="text-danger text-center">COLMENA</p>-->
-          </div>
         </div>
         <div class="item">
           <!--consalud-->
             <img src="https://i.imgur.com/z3d5mwC.png" alt="">
             <div class="carousel-caption d-md-block">
-            <!--<h5 class="text-danger text-center">ISAPRE</h5>
-            <p class="text-danger text-center">COLMENA</p>-->
-          </div>
         </div>
         <div class="item">
           <!--banmedica-->
             <img src="https://i.imgur.com/zRZEcDB.png" alt="">
             <div class="carousel-caption d-md-block">
-            <!--<h5 class="text-danger text-center">ISAPRE</h5>
-            <p class="text-danger text-center">COLMENA</p>-->
-          </div>
         </div>
     </div>
 
@@ -176,11 +152,8 @@ $enddate=strtotime("+5 days", $startdate);
         <span class="sr-only">Next</span>
     </a>
 </div>
-<br>
-<br>
-       <button onclick='window.location.href="tel:+56996891048" 'class="btn bg-warning text-black col-12 mt-4">LLAMAR</button>
 
-       <button onclick='Mens1();' class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
+      
 
 
         <div class="d-flex justify-content-around align-content-center mt-4"> 
