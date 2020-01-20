@@ -73,15 +73,10 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-<!--<<div class="oscurecer p-3">
-<div class="content container-fluid d-flex flex-column align-items-center justify-content-start">
-            <img style="max-width:55px; max-height:55px " class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="isapres">
 
-        </div></div>-->
-    <!--<div id="isapres" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover; ">-->
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-             <!--<img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="isapres">-->
+             
 
              <div id="cont1" class="p-2 ">
                    <div class="mask rgba-white-light d-flex justify-content-center align-items-center">
@@ -106,19 +101,6 @@ $enddate=strtotime("+5 days", $startdate);
            <div id="cont1" class="text-danger text-center">
             
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <!-- <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>
-        <li data-target="#myCarousel" data-slide-to="9"></li>
-    </ol> -->
 
     <!-- Wrapper for slides -->
      <div class="carousel-inner">
@@ -126,7 +108,7 @@ $enddate=strtotime("+5 days", $startdate);
           <!--colmena-->
           <img src="https://i.imgur.com/d7PRyo1.jpg" alt="...">
           <div class="carousel-caption d-md-block">
-            <h5 class="text-danger text-center">HOLA</h5>
+            <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>
           </div>
         </div>
@@ -135,40 +117,40 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="item">
           <!--vida tres-->
             <img src="https://i.imgur.com/2WSrvwc.png" alt="">
-            <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-danger text-center">HOLA</h5>
+            <div class="carousel-caption d-md-block">
+            <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>
           </div>
         </div>
         <div class="item">
           <!--mas vida-->
             <img src="https://i.imgur.com/sTstu5U.jpg" alt="">
-            <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-danger text-center">HOLA</h5>
+            <div class="carousel-caption d-md-block">
+            <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>
           </div>
         </div>
         <div class="item">
           <!--cruz blanca-->
             <img src="https://i.imgur.com/tmF2cn6.jpg" alt="">
-            <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-danger text-center">HOLA</h5>
+            <div class="carousel-caption d-md-block">
+            <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>
           </div>
         </div>
         <div class="item">
           <!--consalud-->
             <img src="https://i.imgur.com/qUSFUe3.png" alt="">
-            <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-danger text-center">HOLA</h5>
+            <div class="carousel-caption d-md-block">
+            <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>
           </div>
         </div>
         <div class="item">
           <!--banmedica-->
             <img src="https://i.imgur.com/uERS6xP.png" alt="">
-            <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-danger text-center">HOLA</h5>
+            <div class="carousel-caption d-md-block">
+            <h5 class="text-danger text-center">ISAPRE</h5>
             <p class="text-danger text-center">COLMENA</p>
           </div>
         </div>
@@ -186,26 +168,15 @@ $enddate=strtotime("+5 days", $startdate);
 </div>
 <br>
 <br>
-            <!--<div class="card">
-              <div class="card-body">-->
-                 
+        
 
-                <div class="green-text text-center"> <br> <strong>¡¡Siguenos en Nuestras Redes Sociales!! </strong>  <hr>
-                  <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/rayoinflables/?hl=es-la"> <img width="50" src="https://i.imgur.com/7HwfV5p.png"> </a>
-
-                    <a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/rayoinflables/"> <img width="50" src="https://i.imgur.com/dKFrTvU.png"> </a>
-
-                  <!-- <a onclick="eventosLanding('Llamar');" href="tel:+56996413264 "><img width="50" src="https://i.imgur.com/oqKGe5C.png"></a>-->
-
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996413264&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/b1duJxb.png"></a>
-                   <!-- <a onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> </a>-->
-                   <a  href="https://goo.gl/maps/84vSihPQqcWrHefN8"><img  width="50" src="https://icon-library.net/images/google-map-logo-icon/google-map-logo-icon-5.jpg" /></a>
-
-                  </div>                    
-                </div>
-             <!-- </div>
-            </div>-->
+        <div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56996891048&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                   
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56996891048"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                   
+                    <a onclick="eventosLanding('Correo');" href="mailto:williamzuniga@gmail.com"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                </div>   
       </div>
 
   </div>
@@ -309,7 +280,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com"];  
+            var correo = ["williamzuniga@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
