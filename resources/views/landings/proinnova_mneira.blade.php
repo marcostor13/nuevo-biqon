@@ -74,7 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black">
-                  Le Informamos que su deuda de: <strong> Clinica Dávila y Servicios Medicos SPA </strong> se encuentra en cobranza <span id="data1"></span>, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones de cobranza, le ofrecemos las siguientes opciones:
+                  Le Informamos que su deuda de: <strong> Clinica Dávila</strong> se encuentra en cobranza <span id="data1"></span>, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones de cobranza, le ofrecemos las siguientes opciones:
                 </p>
 
                 
