@@ -1,18 +1,32 @@
 @extends('layouts.landing')
 
-@section('title', 'CMP Abogados')
+@section('title', 'Isapres')
 
 @section('content')
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<style type="text/css">
-    
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Compiled and minified Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<!-- Minified JS library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Compiled and minified Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+
+<style type="text/css">  
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border: 0;
@@ -32,7 +46,7 @@ $enddate=strtotime("+5 days", $startdate);
   transition: 0.2s ease-in-out;
 }
 .card .card-body .card-text {
-  color: #747373;
+  text: #747373;
   font-size: 0.9rem;
   font-weight: 400;
 }
@@ -43,74 +57,131 @@ $enddate=strtotime("+5 days", $startdate);
 .oscurecer {
   background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0),
+      rgba(0, 0, 0)
     )
     }
+
+.accesos-directo {
+    /*position: relative;*/
+    background-text: #262626;
+    padding: 40px 30px;
+}
+ .fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; 
+  background-text: #262626
+}  
+h4 {
+  text-shadow: 1px 1px #000000;
+}
     
 </style>
 
-     <!-- <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">-->
-
-        <div class="opaco"></div>
+ <div id="Isapres" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain;" >
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:250px; max-height:250px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CMPAbogados">
+             
+                  <div class="mask rgba-white-light d-flex justify-content-center align-items-center">
+                        
+      <!-- Content -->
+      <div class="container">
+  
 
-             <div id="cont1" class="p-5 ">
-                <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-primary text-black col-12 mt-4"> Validar </button>
+        <!--Grid row-->
+         <!--<div class="card">     
+              
+       <div class="card-body ">-->
+            <h4 class="text-white text-center">
+            <!--Arriendo de Juegos para Cumpleaños <br> -->
+            <strong>Disfurta la Vida<br> 
+            Tenemos el Mejor Plan <br>
+            para Ti y tu Familia </strong> </h4> 
+
+            <!--</div>
+        </div>-->
+
+          <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+            <!--<div class="card">     
+                <div class="card-body">-->
+            <h4 class="text-white text-center"> 
+            <strong> Somos expertos en Isapres, <br>
+            acá encontraras fácil y rápido el mejor plan de salud.  
+           </strong> </h4> 
+           
+       <!-- </div>
+        </div>-->
+    
+
+
+           <div id="cont1" class="text-danger text-center">
+             <button onclick='window.location.href="tel:+56959808452" 'class="btn bg-warning text-black col-12 mt-4">LLAMAR</button>
+
+       <button onclick='Mens1();' class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
+<br> <br>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <!-- Wrapper for slides -->
+     <div class="carousel-inner">
+        <div class="item active">
+          <!--consalud-->
+          <img src="https://i.imgur.com/z3d5mwC.png" alt="">
+        </div>
+        <div class="item">
+          <!--vida tres-->
+            <img src="https://i.imgur.com/vA1O1sj.png" alt="">
+        </div>
+        <div class="item">
+          <!--mas vida-->
+            <img src="https://i.imgur.com/EzLv3Wb.png" alt="">
+        </div>
+        <div class="item">
+          <!--cruz blanca-->
+            <img src="https://i.imgur.com/ZtD4H89.png" alt="">
+        </div>
+        <div class="item">
+           <!--colmena-->
+          <img src="https://i.imgur.com/87CPX6U.png" alt="...">
+        </div>    
+        <div class="item">
+          <!--banmedica-->
+            <img src="https://i.imgur.com/zRZEcDB.png" alt="">
+        </div>
+
+    <!-- Controls -->
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+      
+
+
+        <div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56959808452&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                   
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56959808452"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                   
+                    <a onclick="eventosLanding('Correo');" href="mailto:eduardo.pradenas@hotmail.com"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                </div>   
+      </div>
+
+  </div>
             </div>
-            <div id="cont5" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
-                                 <a href="tel:+56930681341" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
-                            </div>
-                        </div>
-                    </div>
-            <div id="cont2" class="p-5 hide">
-                <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
-                <p class="text-black">
-                  Le Informamos que su deuda de: <strong> TANNER </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
-                </p>
-
-                
-              <div class="date btn bg-primary text-black col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-
-               <!-- <button  class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar
-                  <a href="tel:+34678567876">Aquí el texto que quieras</a>        
-                 class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar</button>-->
-
-                <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
-                    <!--<span>Convenio de pago, Contactar</span>-->
-                    <a href="tel:+56932505512" class="btn bg-primary text-black col-12 mt-4"> Convenio de pago, Contactar</a> 
-                <!-- <</div>-->
-               <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
-                
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
-                
-                <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56932505512&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56932505512"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-
-                    <a onclick="eventosLanding('Correo');" href="mailto:sgomez@cmpabogados.cl?subject=Landing%20CMP%20Abogados"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
-                </div>
-                
-            </div>
-           <div id="cont3" class="p-2 pl-5 pr-5 hide">
+                  <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
+            
         </div>
     </div>
 
@@ -126,7 +197,6 @@ $enddate=strtotime("+5 days", $startdate);
         }); 
 
          function event1(){
-    
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
@@ -156,24 +226,17 @@ $enddate=strtotime("+5 days", $startdate);
                         }
                     });
                 }else{
-                        $('#cont1').addClass('hide');
-                     $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí.");
+                    $('#error').text(e.msg);
                 }
             })
             .fail(function() {
                 console.log( "error" );
             });
-
         }
         
-
         let eventosLanding = function(name){
             
             let json_datos = getAllUrlParameter(); 
-
-            json_datos.nombre = $('#name').text();
-            //json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -196,31 +259,23 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Ejecutivo': getUrlParameter('data1'),
-                    'Credito Cliente': getUrlParameter('data2'),
-                    'landing': '{!! $landing->name !!}'
-                   
-                    
+                    'landing': '{!! $landing->name !!}'       
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': $('#name').text(),
+                    'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
-                    'rut': getUrlParameter('rut'),
+                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Ejecutivo': getUrlParameter('data1'),
-                    'Credito Cliente': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["sgomez@cmpabogados.cl"];  
+            var correo = ["eduardo.pradenas@hotmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
                 headers: {
@@ -306,6 +361,23 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-     </script>
+ function Mens1(){
+   // var id_adm; 
+        // id_adm= getUrlParameter('data1'); //1234;
+          
+            swal({
+             title: `Será atendido por uno de nuestros asesores via Whatsapp`,
+             //text: "Expandir la Pantalla",
+             type: "success",
+             timer: 5000
+        }, 
+        function(){
+             window.location.href = "https://api.whatsapp.com/send?phone=56996891048&text=Hola,%20tengo%20una%20consulta";
+        })
+
+
+        } 
+    
+    </script>
 
 @endsection

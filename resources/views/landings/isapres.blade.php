@@ -124,8 +124,8 @@ h4 {
     <!-- Wrapper for slides -->
      <div class="carousel-inner">
         <div class="item active">
-          <!--colmena-->
-          <img src="https://i.imgur.com/87CPX6U.png" alt="...">
+          <!--consalud-->
+          <img src="https://i.imgur.com/z3d5mwC.png" alt="">
         </div>
         <div class="item">
           <!--vida tres-->
@@ -140,8 +140,8 @@ h4 {
             <img src="https://i.imgur.com/ZtD4H89.png" alt="">
         </div>
         <div class="item">
-          <!--consalud-->
-            <img src="https://i.imgur.com/z3d5mwC.png" alt="">
+           <!--colmena-->
+          <img src="https://i.imgur.com/87CPX6U.png" alt="...">
         </div>    
         <div class="item">
           <!--banmedica-->
