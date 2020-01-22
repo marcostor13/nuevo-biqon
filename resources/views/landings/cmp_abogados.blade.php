@@ -196,6 +196,8 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                    'Ejecutivo': getUrlParameter('data1'),
+                    'Credito Cliente': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -208,10 +210,12 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'rut': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                    'Ejecutivo': getUrlParameter('data1'),
+                    'Credito Cliente': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com", "sgomez@cmpabogados.cl"];  
+            var correo = ["sgomez@cmpabogados.cl"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
