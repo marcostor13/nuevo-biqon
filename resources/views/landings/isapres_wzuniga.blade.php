@@ -167,7 +167,7 @@ h4 {
                    
                     <a onclick="eventosLanding('Llamar');" href="tel:+56996891048"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                    
-                    <a onclick="eventosLanding('Correo');" href="mailto:williamzuniga24@gmail.com"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:williamzuniga21@gmail.com"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>   
       </div>
 
@@ -272,7 +272,7 @@ h4 {
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["williamzuniga24@gmail.com"];  
+            var correo = ["williamzuniga21@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
