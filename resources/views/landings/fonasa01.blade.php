@@ -188,9 +188,10 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
                     'mensaje': msg,
                     'Nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                    'Monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                    'Estado': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -199,10 +200,11 @@ $enddate=strtotime("+5 days", $startdate);
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
-                    'phone': getUrlParameter('telefono'),
-                     'rut': getUrlParameter('rut'),
+                    'Nombre': $('#name').text(),
+                    'Monto': getUrlParameter('monto'),
+                    'Telefono': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                     'Estado': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
