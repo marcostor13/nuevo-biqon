@@ -168,7 +168,7 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
+           // json_datos.nombre = $('#name').text();
            // json_datos.monto = $('#pay').text();
 
             events({    
@@ -188,7 +188,7 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#name').text(),
+                    'Nombre': getUrlParameter('nombre'),
                     'Monto': getUrlParameter('monto'),
                     'Telefono': getUrlParameter('telefono'),
                     'Rut': getUrlParameter('rut'),
@@ -201,7 +201,7 @@ $enddate=strtotime("+5 days", $startdate);
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'Nombre': $('#name').text(),
+                    'Nombre': getUrlParameter('nombre'),
                     'Monto': getUrlParameter('monto'),
                     'Telefono': getUrlParameter('telefono'),
                     'Rut': getUrlParameter('rut'),
