@@ -56,7 +56,7 @@ $enddate=strtotime("+5 days", $startdate);
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 50%" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/os4Euyd.jpg" alt="HerediaAbogados">
+            <img style="size: 40% " class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/os4Euyd.jpg" alt="HerediaAbogados">
             <img style="max-width: 90%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">
 
             <div id="cont1" class="p-5 ">
@@ -68,9 +68,9 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error"class="text-white text-center mt-5"></h5>
+                                 <h5 id="error"class="text-black text-center mt-5"></h5>
                                  <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a href="tel:+56226385232" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
+                    <a href="tel:+56226331354" class="btn bg-danger text-black col-12 mt-4"> Contactar</a>
                      </div>
 
                             </div>
