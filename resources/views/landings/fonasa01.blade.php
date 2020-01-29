@@ -56,8 +56,8 @@ $enddate=strtotime("+5 days", $startdate);
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 50%" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/os4Euyd.jpg" alt="HerediaAbogados">
-            <img style="max-width: 50%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">
+            <img style="max-width: 90%" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/os4Euyd.jpg" alt="HerediaAbogados">
+            <img style="max-width: 90%" class="img-fluid col-md-6 mt-1" src="{{$landing->logo}}" alt="">
 
             <div id="cont1" class="p-5 ">
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
@@ -68,8 +68,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
-                                <!-- <a href="tel:+56226331354" class="btn bg-danger text-black col-12 mt-4"> Contactar </a>-->
+                                 <h5 id="error"class="text-white text-center mt-5"></h5>
                             </div>
                         </div>
                     </div>
@@ -93,9 +92,9 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56226331354"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56226331354"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
-                    <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
             </div>
@@ -153,8 +152,8 @@ $enddate=strtotime("+5 days", $startdate);
                     });
                 }else{
                     $('#cont1').addClass('hide');
-                    $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí. ");
+                     $('#cont5').removeClass('hide');
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a alguna de nuestras sucursales.");
                 }
             })
             .fail(function() {
@@ -168,8 +167,8 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-           // json_datos.nombre = $('#name').text();
-           // json_datos.monto = $('#pay').text();
+            json_datos.nombre = $('#name').text();
+            json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -188,11 +187,10 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': getUrlParameter('nombre'),
-                    'Monto': getUrlParameter('monto'),
+                    'Nombre': $('#name').text(),
+                    'monto': getUrlParameter('monto'),
+                    'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Rut': getUrlParameter('rut'),
-                    'Estado': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -201,17 +199,15 @@ $enddate=strtotime("+5 days", $startdate);
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'Nombre': getUrlParameter('nombre'),
-                    'Monto': getUrlParameter('monto'),
-                    'Telefono': getUrlParameter('telefono'),
-                    'Rut': getUrlParameter('rut'),
-                    'Estado': getUrlParameter('data1'),
+                    'nombre': $('#name').text(),
+                    'monto': getUrlParameter('monto'),
+                    'phone': getUrlParameter('telefono'),
+                     'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-            var correo  ["jesus.binteraction@gmail.com"];
-            // var correo = ["heredia.binteraction@gmail.com", "judicial@herediaabogados.cl"];
+             var correo = ["heredia.binteraction@gmail.com", "judicial@herediaabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
