@@ -68,7 +68,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error"class="text-white text-center mt-5"></h5>
+                                 <h5 id="error"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
                     </div>
@@ -168,7 +168,7 @@ $enddate=strtotime("+5 days", $startdate);
             let json_datos = getAllUrlParameter(); 
 
             json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+           // json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
