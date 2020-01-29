@@ -211,7 +211,7 @@ $enddate=strtotime("+5 days", $startdate);
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'fecha': date,
+                    'Fecha Compromiso': date,
                     'Nombre': getUrlParameter('nombre'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
