@@ -56,7 +56,7 @@ $enddate=strtotime("+5 days", $startdate);
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="size: 40% " class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/os4Euyd.jpg" alt="HerediaAbogados">
+            <img style="size: 20% " class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/os4Euyd.jpg" alt="HerediaAbogados">
             <img style="max-width: 90%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">
 
             <div id="cont1" class="p-5 ">
@@ -93,9 +93,11 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">Ya pague</button>
                 
-                <div class="card">     
-                            <div class="card-body">
+                
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
+
+                    <div class="card">     
+                            <div class="card-body">
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
                     <a onclick="eventosLanding('Llamar');" href="tel:+56226331354"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
