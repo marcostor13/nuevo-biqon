@@ -69,6 +69,7 @@ $enddate=strtotime("+5 days", $startdate);
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
+                                 <a href="tel:+56226331354 " class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
@@ -153,7 +154,7 @@ $enddate=strtotime("+5 days", $startdate);
                 }else{
                     $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a alguna de nuestras sucursales.");
+                    $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí. ");
                 }
             })
             .fail(function() {
