@@ -81,8 +81,8 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
             <div id="cont2" class="p-5 hide">
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
-
-                <h5 class="text-black">
+                <!--text-black-->
+                <h5 class="text-white">
                   Le Informamos que su deuda de: <strong>*****</strong> se encuentra en cobranza *****, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
                 </h5>
 
