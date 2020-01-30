@@ -53,9 +53,10 @@ $enddate=strtotime("+5 days", $startdate);
      <div id="fernandezyasociados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100% ">
 
         <div class="opaco"></div>
+        <img style="max-width:250px; max-height:150px " class="img-float-left col-10  mt-2" src="{{$landing->logo}}" alt="Fernandez y Asociados">
         <!--logo-->
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:250px; max-height:150px " class="img-float-left col-10  mt-2" src="{{$landing->logo}}" alt="Fernandez y Asociados">
+            
 
              <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
