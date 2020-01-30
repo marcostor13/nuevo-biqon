@@ -50,6 +50,9 @@ $enddate=strtotime("+5 days", $startdate);
     h4 {
   text-shadow: 1px 1px #ffffff;
 }
+  h5 {
+  text-shadow: 1px 1px #ffffff;
+}
     
 </style>
     <!--bground-->
@@ -79,9 +82,9 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 hide">
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
-                <h4 class="text-black">
+                <h5 class="text-black">
                   Le Informamos que su deuda de: <strong>*****</strong> se encuentra en cobranza *****, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
-                </h4>
+                </h5>
 
                 
               <div class="date btn bg-primary text-white col-12 mt-4">
