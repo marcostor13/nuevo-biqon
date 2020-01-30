@@ -195,7 +195,7 @@ $enddate=strtotime("+5 days", $startdate);
 
             //json_datos.nombre = $('#name').text();
            // json_datos.monto = $('#pay').text();
-            json_datos.nombre=getUrlParameter('nombre');
+           // json_datos.nombre=getUrlParameter('nombre');
             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
