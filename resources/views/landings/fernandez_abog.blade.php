@@ -48,7 +48,7 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
     h4 {
-  text-shadow: 1px 1px #000000;
+  text-shadow: 1px 1px #ffffff;
 }
     
 </style>
