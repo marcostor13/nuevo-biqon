@@ -47,14 +47,18 @@ $enddate=strtotime("+5 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
+    h4 {
+  text-shadow: 1px 1px #000000;
+}
     
 </style>
     <!--bground-->
      <div id="fernandezyasociados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100% ">
 
         <div class="opaco"></div>
-        <img style="max-width:250px; max-height:150px " class="img-float-left col-10  mt-2" src="{{$landing->logo}}" alt="Fernandez y Asociados">
         <!--logo-->
+        <img style="max-width:250px; max-height:150px " class="img-float-left col-10  mt-2" src="{{$landing->logo}}" alt="Fernandez y Asociados">
+        
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             
 
@@ -75,9 +79,9 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 hide">
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
-                <p class="text-black">
+                <h4 class="text-black">
                   Le Informamos que su deuda de: <strong>*****</strong> se encuentra en cobranza *****, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
-                </p>
+                </h4>
 
                 
               <div class="date btn bg-primary text-black col-12 mt-4">
