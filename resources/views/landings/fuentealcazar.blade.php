@@ -83,8 +83,8 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="md-form">
                     <select class="form-control" id="Comuna" required>
-                      <option value="0" data-select2-id="4">COMUNA</option>
-                      <option value="1" data-select2-id="4"> CASABLANCA </option>
+                      <option value="COMUNA" data-select2-id="4">COMUNA</option>
+                      <option value="CASABLANCA" data-select2-id="4"> CASABLANCA </option>
                       <option value="2" data-select2-id="4"> CONCÓN </option>
                       <option value="3" data-select2-id="4"> HIJUELAS </option>
                       <option value="3" data-select2-id="4"> INDEPENDENCIA </option>
