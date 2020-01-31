@@ -63,13 +63,15 @@ $enddate=strtotime("+5 days", $startdate);
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
           <div class="med align-items-center ">
-            <img style="max-width: 40%" class="img-fluid align-items-center  col-md-12" src="{{$landing->logo}}" alt="FUENTE-ALCAZAR">
+            <img style="max-width: 60%" class="img-fluid align-items-center  col-md-12" src="{{$landing->logo}}" alt="FUENTE-ALCAZAR">
           </div>
          
           <div id="cont1" class="p-3 ">
                   <div class="med align-items-center mt-2">
                   <!-- Heading -->
+                  <br>
                   <h4 class="dark-grey-text text-center">
+
                     <strong> Buscas Arriendo o Comprar una propiedad<br>
 
                     NOSOTROS TE AYUDAMOS<br>
