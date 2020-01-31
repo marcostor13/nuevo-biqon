@@ -85,55 +85,55 @@ $enddate=strtotime("+5 days", $startdate);
                     <select class="form-control" id="Comuna" required>
                       <option value="COMUNA" data-select2-id="4">COMUNA</option>
                       <option value="CASABLANCA" data-select2-id="4"> CASABLANCA </option>
-                      <option value="2" data-select2-id="4"> CONCÓN </option>
-                      <option value="3" data-select2-id="4"> HIJUELAS </option>
-                      <option value="3" data-select2-id="4"> INDEPENDENCIA </option>
-                      <option value="4" data-select2-id="4"> LA REINA </option>                      
-                      <option value="5" data-select2-id="4"> LAMPA </option>
-                      <option value="6" data-select2-id="4"> LAS CONDES </option>
-                      <option value="7" data-select2-id="4"> LIMACHE </option>
-                      <option value="8" data-select2-id="4"> LITUECHE </option>
-                      <option value="9" data-select2-id="4"> MACUL </option>
-                      <option value="10" data-select2-id="4"> MAIPÚ </option>
-                      <option value="11" data-select2-id="4"> ÑUÑOA </option>
-                      <option value="12" data-select2-id="4"> PROVIDENCIA </option>
-                      <option value="13" data-select2-id="4"> PUENTE ALTO </option>
-                      <option value="14" data-select2-id="4"> QUINTA NORMAL </option>
-                      <option value="15" data-select2-id="4"> SAN MIGUEL </option>
-                      <option value="16" data-select2-id="4"> SANTIAGO CENTRO </option>
-                      <option value="17" data-select2-id="4"> VALPARAÍSO </option>
-                      <option value="18" data-select2-id="4"> VIÑA DEL MAR </option>
+                      <option value="CONCÓN" data-select2-id="4"> CONCÓN </option>
+                      <option value="HIJUELAS" data-select2-id="4"> HIJUELAS </option>
+                      <option value="INDEPENDENCIA" data-select2-id="4"> INDEPENDENCIA </option>
+                      <option value="LA REINA" data-select2-id="4"> LA REINA </option>                
+                      <option value="LAMPA" data-select2-id="4"> LAMPA </option>
+                      <option value="LAS CONDES" data-select2-id="4"> LAS CONDES </option>
+                      <option value="LIMACHE" data-select2-id="4"> LIMACHE </option>
+                      <option value="LITUECHE" data-select2-id="4"> LITUECHE </option>
+                      <option value="MACUL" data-select2-id="4"> MACUL </option>
+                      <option value="MAIPÚ" data-select2-id="4"> MAIPÚ </option>
+                      <option value="ÑUÑOA" data-select2-id="4"> ÑUÑOA </option>
+                      <option value="PROVIDENCIA" data-select2-id="4"> PROVIDENCIA </option>
+                      <option value="PUENTE ALTO" data-select2-id="4"> PUENTE ALTO </option>
+                      <option value="QUINTA NORMAL" data-select2-id="4"> QUINTA NORMAL </option>
+                      <option value="SAN MIGUEL" data-select2-id="4"> SAN MIGUEL </option>
+                      <option value="SANTIAGO CENTRO" data-select2-id="4"> SANTIAGO CENTRO </option>
+                      <option value="VALPARAÍSO" data-select2-id="4"> VALPARAÍSO </option>
+                      <option value="VIÑA DEL MAR" data-select2-id="4"> VIÑA DEL MAR </option>
 
                     </select>
                   </div>
                   <br>
                   <div class="md-form">
                     <select class="form-control" id="Tipo" required>
-                      <option value="0" data-select2-id="4">TIPO</option>
-                      <option value="1" data-select2-id="4"> CASA </option>
-                      <option value="2" data-select2-id="4"> DEPARTAMENTO </option>
-                      <option value="3" data-select2-id="4"> TERRENO </option>
-                      <option value="4" data-select2-id="4"> BODEGA </option>
-                      <option value="5" data-select2-id="4"> OFICINA </option>
-                      <option value="6" data-select2-id="4"> LOTE </option>
-                      <option value="7" data-select2-id="4"> LOCAL COMERCIAL</option>
-                      <option value="8" data-select2-id="4"> ESTACIONAMIENTO</option>                      
+                      <option value="TIPO" data-select2-id="4">TIPO</option>
+                      <option value="CASA" data-select2-id="4"> CASA </option>
+                      <option value="DEPARTAMENTO" data-select2-id="4"> DEPARTAMENTO </option>
+                      <option value="TERRENO" data-select2-id="4"> TERRENO </option>
+                      <option value="BODEGA" data-select2-id="4"> BODEGA </option>
+                      <option value="OFICINA" data-select2-id="4"> OFICINA </option>
+                      <option value="LOTE" data-select2-id="4"> LOTE </option>
+                      <option value="LOCAL COMERCIAL" data-select2-id="4"> LOCAL COMERCIAL</option>
+                      <option value="ESTACIONAMIENTO" data-select2-id="4"> ESTACIONAMIENTO</option>                      
 
                     </select>
                   </div>
                   <br>
                   <div class="md-form">
                     <select class="form-control" id="Contrato" required>
-                      <option value="0" data-select2-id="4">Contrato</option>
-                      <option value="1" data-select2-id="4"> VENTA </option>
-                      <option value="2" data-select2-id="4"> ARRIENDO </option>                      
+                      <option value="Contrato" data-select2-id="4">Contrato</option>
+                      <option value="VENTA" data-select2-id="4"> VENTA </option>
+                      <option value="ARRIENDO" data-select2-id="4"> ARRIENDO </option>                      
 
                     </select>
                   </div>
                   <br>
                   <div class="md-form">
                     <select class="form-control" id="Dormitorios" required>
-                      <option value="0" data-select2-id="4">Dormitorios</option>
+                      <option value="Dormitorios" data-select2-id="4">Dormitorios</option>
                       <option value="1" data-select2-id="4"> 1 </option>
                       <option value="2" data-select2-id="4"> 2 </option>
                       <option value="3" data-select2-id="4"> 3 </option>                      
@@ -145,7 +145,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <br>
                   <div class="md-form">
                     <select class="form-control" id="Baños" required>
-                      <option value="0" data-select2-id="4">Baños</option>
+                      <option value="Baños" data-select2-id="4">Baños</option>
                       <option value="1" data-select2-id="4"> 1 </option>
                       <option value="2" data-select2-id="4"> 2 </option>
                       <option value="3" data-select2-id="4"> 3 </option>                      
