@@ -56,7 +56,7 @@ $enddate=strtotime("+5 days", $startdate);
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
           <div class="card">
-            <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="FUENTE-ALCAZAR">
+            <img style="max-width: 40%" class="img-fluid align-items-center  col-md-3 mt-2" src="{{$landing->logo}}" alt="FUENTE-ALCAZAR">
           </div>
           <hr>
           <br>
