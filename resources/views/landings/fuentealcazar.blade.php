@@ -64,6 +64,7 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
           <div class="med align-items-center ">
             <img class="img" src="{{$landing->logo}}" alt="FUENTE-ALCAZAR">
+            <br>
           </div>
          
           <div id="cont1" class="p-3 ">
