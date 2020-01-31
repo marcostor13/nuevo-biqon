@@ -65,8 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
           <div class="med align-items-center ">
             <img style="max-width: 40%" class="img-fluid align-items-center  col-md-12" src="{{$landing->logo}}" alt="FUENTE-ALCAZAR">
           </div>
-          <hr>
-          <br>
+         
           <div id="cont1" class="p-3 ">
                   <div class="med align-items-center mt-2">
                   <!-- Heading -->
