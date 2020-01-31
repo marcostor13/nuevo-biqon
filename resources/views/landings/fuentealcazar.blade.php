@@ -68,7 +68,7 @@ $enddate=strtotime("+5 days", $startdate);
           <hr>
           <br>
           <div id="cont1" class="p-3 ">
-                  
+                  <div class="med align-items-center">
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
                     <strong> Buscas Arriendo o Comprar una propiedad<br>
@@ -170,7 +170,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:jaime.rojas@propiedadesfuentesalcazar.cl?subject=Landing%20Fuente%20Salazar"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
 
-
+              </div>
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
