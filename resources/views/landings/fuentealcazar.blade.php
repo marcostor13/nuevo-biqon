@@ -73,7 +73,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <br>
                   <h4 class="dark-grey-text text-center">
 
-                    <strong> Buscas Arriendo o Comprar una propiedad<br>
+                    <strong> Buscas Arriendo, Comprar o Vender una propiedad<br>
 
                     NOSOTROS TE AYUDAMOS<br>
 
