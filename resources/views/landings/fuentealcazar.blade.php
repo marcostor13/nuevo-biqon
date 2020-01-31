@@ -61,8 +61,7 @@ $enddate=strtotime("+5 days", $startdate);
           <hr>
           <br>
           <div id="cont1" class="p-3 ">
-                  <div class="card">     
-                <div class="card-body">
+                  
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
                     <strong> Buscas Arriendo o Comprar una propiedad<br>
@@ -153,8 +152,8 @@ $enddate=strtotime("+5 days", $startdate);
                     <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
                     
                   </div>
-                    </div>
-                        </div>
+                    
+                       
 
                <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56956294380&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
