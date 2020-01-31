@@ -139,7 +139,7 @@ $enddate=strtotime("+5 days", $startdate);
                       <option value="3" data-select2-id="4"> 3 </option>                      
                       <option value="4" data-select2-id="4"> 4 </option>
                       <option value="5" data-select2-id="4"> 5 </option>
-                      <option value="6" data-select2-id="4"> +5 </option>
+                      <option value="+5" data-select2-id="4"> +5 </option>
                     </select>
                   </div>
                   <br>
@@ -151,7 +151,7 @@ $enddate=strtotime("+5 days", $startdate);
                       <option value="3" data-select2-id="4"> 3 </option>                      
                       <option value="4" data-select2-id="4"> 4 </option>
                       <option value="5" data-select2-id="4"> 5 </option>
-                      <option value="6" data-select2-id="4"> +5 </option>                     
+                      <option value="+5" data-select2-id="4"> +5 </option>                     
 
                     </select>
                   </div>
@@ -263,12 +263,12 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#Comuna').val(),
-                    'Apellido': $('#Tipo').val(),
-                    'RUT': $('#Contrato').val(),
-                    'Telefono': $('#Dormitorios').val(),
-                    'E-mail': $('#Baños').val(),
-                    'Carrera': $('#carrera').val()                
+                    'Comuna': $('#Comuna').val(),
+                    'Tipo': $('#Tipo').val(),
+                    'Contrato': $('#Contrato').val(),
+                    'Dormitorios': $('#Dormitorios').val(),
+                    'Baños': $('#Baños').val(),
+                                    
                 }
             }else{
                 let date = $('#date1').val();
