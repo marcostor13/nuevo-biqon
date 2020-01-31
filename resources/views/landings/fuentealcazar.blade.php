@@ -53,7 +53,9 @@ $enddate=strtotime("+5 days", $startdate);
 </style>
     <div id="FUENTE-ALCAZAR" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
-        <!--<div class="opaco"></div>-->
+        <div class="card">
+          <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="FUENTE-ALCAZAR">
+        </div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="FUENTE-ALCAZAR">
@@ -63,8 +65,11 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
-                    <strong> ¿TIENES CONSULTAS?
-                    NOSOTROS TE AYUDAMOS </strong>
+                    <strong> Buscas Arriendo o Comprar una propiedad<br>
+
+                    NOSOTROS TE AYUDAMOS<br>
+
+                    LLena estos datos y  nuestros ejecutivos te contactaran! </strong>
                   </h4>
                   <hr>
 
@@ -93,6 +98,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     </select>
                   </div>
+                  <br>
                   <div class="md-form">
                     <select class="form-control" id="TIPO" required>
                       <option value="0" data-select2-id="4">TIPO</option>
@@ -107,6 +113,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     </select>
                   </div>
+                  <br>
                   <div class="md-form">
                     <select class="form-control" id="Contrato" required>
                       <option value="0" data-select2-id="4">Contrato</option>
@@ -115,7 +122,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     </select>
                   </div>
-
+                  <br>
                   <div class="md-form">
                     <select class="form-control" id="Dormitorios" required>
                       <option value="0" data-select2-id="4">Dormitorios</option>
@@ -127,7 +134,7 @@ $enddate=strtotime("+5 days", $startdate);
                       <option value="6" data-select2-id="4"> +5 </option>
                     </select>
                   </div>
-
+                  <br>
                   <div class="md-form">
                     <select class="form-control" id="Baños" required>
                       <option value="0" data-select2-id="4">Baños</option>
@@ -140,6 +147,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     </select>
                   </div>
+                  <br>
                   <div class="text-center">
                     <hr>
                     <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
@@ -156,7 +164,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:jaime.rojas@propiedadesfuentesalcazar.cl?subject=Landing%20Fuente%20Salazar"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
 
-                
+
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
