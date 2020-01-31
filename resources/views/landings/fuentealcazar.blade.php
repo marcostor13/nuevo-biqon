@@ -62,7 +62,7 @@ $enddate=strtotime("+5 days", $startdate);
      
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-          <div class="med align-items-center mt-4"> <br>
+          <div class="med align-items-center mt-4">
             <img class="img mt-2" src="{{$landing->logo}}" alt="FUENTE-ALCAZAR"> <br> 
             <br>
           </div>
@@ -82,7 +82,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <hr>
 
                   <div class="md-form">
-                    <select class="form-control" id="COMUNA" required>
+                    <select class="form-control" id="Comuna" required>
                       <option value="0" data-select2-id="4">COMUNA</option>
                       <option value="1" data-select2-id="4"> CASABLANCA </option>
                       <option value="2" data-select2-id="4"> CONCÓN </option>
@@ -108,7 +108,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>
                   <br>
                   <div class="md-form">
-                    <select class="form-control" id="TIPO" required>
+                    <select class="form-control" id="Tipo" required>
                       <option value="0" data-select2-id="4">TIPO</option>
                       <option value="1" data-select2-id="4"> CASA </option>
                       <option value="2" data-select2-id="4"> DEPARTAMENTO </option>
@@ -155,11 +155,10 @@ $enddate=strtotime("+5 days", $startdate);
 
                     </select>
                   </div>
-                  <br>
+                 </div>
+
                   <div class="text-center">
-                    <hr>
-                    <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
-                    
+                   <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
                   </div>
                     
                        
@@ -173,7 +172,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </div>
 
               </div>
-            </div>
+        
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -240,12 +239,12 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#nombre').val();
-            json_datos.apellido = $('#apellido').val();
-            json_datos.rut = $('#rut').val();
-            json_datos.telefono = $('#telefono').val();
-            json_datos.correo = $('#email').val();
-            json_datos.carrera =  $('#carrera').val();
+            //json_datos.nombre = $('#nombre').val();
+            //json_datos.apellido = $('#apellido').val();
+           // json_datos.rut = $('#rut').val();
+           // json_datos.telefono = $('#telefono').val();
+           // json_datos.correo = $('#email').val();
+           // json_datos.carrera =  $('#carrera').val();
 
             events({    
                 'name': name,
@@ -264,11 +263,11 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#nombre').val(),
-                    'Apellido': $('#apellido').val(),
-                    'RUT': $('#rut').val(),
-                    'Telefono': $('#telefono').val(),
-                    'E-mail': $('#email').val(),
+                    'Nombre': $('#Comuna').val(),
+                    'Apellido': $('#Tipo').val(),
+                    'RUT': $('#Contrato').val(),
+                    'Telefono': $('#Dormitorios').val(),
+                    'E-mail': $('#Baños').val(),
                     'Carrera': $('#carrera').val()                
                 }
             }else{
