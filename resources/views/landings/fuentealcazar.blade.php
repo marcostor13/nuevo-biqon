@@ -239,12 +239,14 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            //json_datos.nombre = $('#nombre').val();
-            //json_datos.apellido = $('#apellido').val();
-           // json_datos.rut = $('#rut').val();
-           // json_datos.telefono = $('#telefono').val();
-           // json_datos.correo = $('#email').val();
-           // json_datos.carrera =  $('#carrera').val();
+            json_datos.nombre = getUrlParameter('nombre');
+            json_datos.apellido = getUrlParameter('telefono');
+            json_datos.rut = getUrlParameter('rut');
+            json_datos.comuna = $('#Comuna').val();
+            json_datos.tipo = $('#Tipo').val();
+            json_datos.contrato = $('#Contrato').val();
+            json_datos.dormitorios = $('#Dormitorios').val();
+            json_datos.baños = $('#Baños').val();
 
             events({    
                 'name': name,
@@ -263,11 +265,15 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
+                    'Nombre': getUrlParameter('nombre'),
+                    'Telefono': getUrlParameter('telefono'),
+                     'RUT': getUrlParameter('rut'),
                     'Comuna': $('#Comuna').val(),
                     'Tipo': $('#Tipo').val(),
                     'Contrato': $('#Contrato').val(),
                     'Dormitorios': $('#Dormitorios').val(),
                     'Baños': $('#Baños').val(),
+                    'landing': '{!! $landing->name !!}'
                                     
                 }
             }else{
@@ -275,13 +281,14 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
-                    'phone': getUrlParameter('telefono'),
-                 //   'Id_Admision': getUrlParameter('data1'),
-                 //   'Prevision': getUrlParameter('data2'),
-                 //   'Estado': getUrlParameter('data3'),
-                 //   'Ley': getUrlParameter('data4'),
-                     'rut': getUrlParameter('rut'),
+                    'Nombre': getUrlParameter('nombre'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'RUT': getUrlParameter('rut'),
+                    'Comuna': $('#Comuna').val(),
+                    'Tipo': $('#Tipo').val(),
+                    'Contrato': $('#Contrato').val(),
+                    'Dormitorios': $('#Dormitorios').val(),
+                    'Baños': $('#Baños').val(),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
