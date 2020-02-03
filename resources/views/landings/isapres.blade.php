@@ -259,6 +259,7 @@ h4 {
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                    'Cargo': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'       
                 }
             }else{
@@ -272,7 +273,7 @@ h4 {
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["williamzuniga@gmail.com"];  
+            var correo = ["jesus.binteraction@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
