@@ -71,6 +71,18 @@ $enddate=strtotime("+15 days", $startdate);
                 
             </div>
                     </center>
+
+                    </div>
+
+        <div class="d-flex justify-content-around align-content-center mt-1"> 
+                  
+                  <a class="ml-2" onclick="eventosLanding('facebook');" href="https://www.https://www.facebook.com/ChileAtiende"><img width="70" src="https://www.freepngimg.com/thumb/facebook/10-2-facebook-png-image.png"></a>
+                         <a class="ml-4" onclick="eventosLanding('Instagram');" href="https://www.https://www.instagram.com/chileatiende/"><img width="60" src="http://pluspng.com/img-png/instagram-png-instagram-png-icon-1024.png"></a>
+                          <a class="ml-4" onclick="eventosLanding('Twiter');" href="https://www.https://twitter.com/ChileAtiende"><img width="60" src="https://cdn.pixabay.com/photo/2018/06/22/19/03/logo-3491390_960_720.png"></a>
+
+   
+                </div>
+          
                    
                 
                         </div>
