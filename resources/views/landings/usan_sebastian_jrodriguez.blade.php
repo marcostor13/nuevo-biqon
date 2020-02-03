@@ -96,6 +96,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
                   </div> 
 
+
                   <div class="md-form col-12 m-0">
                     <input type="text" id="email" class="form-control" required placeholder="E-mail">
                     <label for="form2"></label>
@@ -133,16 +134,13 @@ $enddate=strtotime("+5 days", $startdate);
                     
                   </div>
 
-
-                  </div>
-           <!-- <div class="d-flex justify-content-around align-content-center mt-4"> 
-              <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56988178302&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+            <div class="d-flex justify-content-around align-content-center mt-4"> 
+              <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56989002595&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
-              <a onclick="eventosLanding('Llamar');" href="tel:+56988178302"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
+              <a onclick="eventosLanding('Llamar');" href="tel:++56989002595"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
-              <a onclick="eventosLanding('Correo');" href="mailto: jeannette.onate@uss.cl?subject=Landing%20USS"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
-            </div>-->
-
+              <a onclick="eventosLanding('Correo');" href="mailto: jaqueline.rodriguez@uss.cl?subject=Landing%20USS"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+            </div>
                     </div>
                         </div>
                
@@ -217,7 +215,7 @@ $enddate=strtotime("+5 days", $startdate);
             json_datos.apellido = $('#apellido').val();
             json_datos.rut = $('#rut').val();
             json_datos.telefono = $('#telefono').val();
-            json_datos.correo = $('#email').val();
+            json_datos.correo = $('#correo').val();
             json_datos.carrera =  $('#carrera').val();
 
             events({    
@@ -241,7 +239,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'Apellido': $('#apellido').val(),
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
-                    'E-mail': $('#email').val(),
+                    'E-mail': $('#correo').val(),
                     'Carrera': $('#carrera').val()                
                 }
             }else{
@@ -259,13 +257,13 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jeannette.onate@uss.cl"];
+            var correo = ["jacqueline.rodriguez@uss.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'jeannette.onate@uss.cl'
-            }
+                //'email': 'jaqueline.rodriguez@uss.cl'
+            } 
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')

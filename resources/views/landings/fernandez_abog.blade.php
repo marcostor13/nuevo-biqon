@@ -1,21 +1,18 @@
 @extends('layouts.landing')
 
-@section('title', 'HerediaAbogados')
+@section('title', 'Fernandez Abogados')
 
 @section('content')
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
-<style>
-.opaco{
-    display: none !important; 
-
-}
-.input{
-  border-color: #A1CBF3 !important;
-}
-     
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style type="text/css">
+    
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border: 0;
@@ -50,76 +47,83 @@ $enddate=strtotime("+5 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
+    h4 {
+  text-shadow: 1px 1px #ffffff;
+}
+  h5 {
+  text-shadow: 1px 1px #ffffff;
+}
+    
 </style>
+    <!--bground-->
+     <div id="fernandezyasociados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100% ">
 
-      <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >
-
-        <!--<div class="opaco"></div>-->
-       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/os4Euyd.jpg" alt="HerediaAbogados">
-
-
-           <!-- <img style="max-width: 90%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">-->
-
-            <div id="cont1" class="p-5 ">
-                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4">Validar</button>
-            </div>
+        <div class="opaco"></div>
+        <!--logo-->
+        <img style="max-width:250px; max-height:150px " class="img-float-left col-10  mt-2" src="{{$landing->logo}}" alt="Fernandez y Asociados">
+        
+        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             
+
+             <div id="cont1" class="p-5 ">
+                <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
+
+                <input id="rut" type="number" class="form-control mt-4 text-center text-black">
+                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4"> Validar </button>
+            </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
-                                 <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a href="tel:+56226331354" class="btn bg-danger text-black col-12 mt-4"> Contactar</a>
-                     </div>
-
+                                 <a href="tel:+56227060710" class="btn bg-primary text-white col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
-
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-white text-center">Estimado (a) <strong><span id="name"></span> </strong></h3>
+                <h4 class="text-white text-center">Estimado(a) <span id="name"></span></h4>
+                <!--text-black-->
+                <h5 class="text-white">
+                  Le Informamos que su deuda de: <strong>*****</strong> se encuentra en cobranza *****, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
+                </h5>
 
-                <h4><p class="text-white">
-                   Le informamos que su deuda de <strong> FONASA </strong> se encuentra en cobranza judicial por concepto de no pago de cotizaciones de salud.
-                     <br>
-                    Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
-                </p></h4>
-                <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>Agendar compromiso de pago</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                
+              <div class="date btn bg-primary text-white col-12 mt-4">
+                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                    <button onclick="sendMail('El cliente indica paga en cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-danger text-white col-12 mt-4">Pagar en cuotas, Contactar</button>
 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">Ya pague</button>
-                
-                
-                <div class="d-flex justify-content-around align-content-center mt-2"> 
+               <!-- <button  class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar
+                  <a href="tel:+34678567876">Aquí el texto que quieras</a>        
+                 class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar</button>-->
 
-                   
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta"><img width="42" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56226331354"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-                   
-                    <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
+                <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
+                    <!--<span>Convenio de pago, Contactar</span>-->
+                    <a href="tel:+56227060710" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                <!-- <</div>-->
+               <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
+                
+                <div class="d-flex justify-content-around align-content-center mt-4">
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56227060710"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+
+                    <a onclick="eventosLanding('Correo');" href="mailto:sfernandez@fernandezyasociados.cl?subject=Landing%20FernandezYAsoc%20Abogados"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
                 </div>
                 
             </div>
-            <div id="cont3" class="p-2 pl-3 pr-3 hide">
+           <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
-
         </div>
     </div>
 
-     <script>
+    <script>
    //EVENT 1
         
         $(function(){
@@ -161,7 +165,7 @@ $enddate=strtotime("+5 days", $startdate);
                         }
                     });
                 }else{
-                    $('#cont1').addClass('hide');
+                        $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
                     $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí.");
                 }
@@ -177,8 +181,8 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            //json_datos.nombre = $('#name').text();
-           // json_datos.monto = $('#pay').text();
+            json_datos.nombre = $('#name').text();
+            //json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -197,11 +201,12 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': getUrlParameter('nombre'),
+                    'Nombre': $('#name').text(),
+                    //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Monto': getUrlParameter('monto'),
-                    'Estado': getUrlParameter('data1'),
+                    'Ejecutivo': getUrlParameter('data1'),
+                    'Credito Cliente': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -209,18 +214,17 @@ $enddate=strtotime("+5 days", $startdate);
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'Fecha Compromiso': date,
-                    'Nombre': getUrlParameter('nombre'),
-                    'RUT': getUrlParameter('rut'),
+                    'fecha': date,
+                    'nombre': $('#name').text(),
+                    //'monto': getUrlParameter('monto'),
+                    'rut': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Monto': getUrlParameter('monto'),
-                    'Estado': getUrlParameter('data1'),
+                    'Ejecutivo': getUrlParameter('data1'),
+                    'Credito Cliente': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-
-            var correo = ["heredia.binteraction@gmail.com", "judicial@herediaabogados.cl"];
-           // var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -243,8 +247,9 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su compromiso de pago fue agendado. Nos pondremos en contacto con usted en los próximos días');
-                     eventosLanding('Compromiso de Pago');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                      eventosLanding('Compromiso de Pago');
+
                 }
             })
             .done(function(e) {
@@ -310,10 +315,6 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-      
-        
-    
-    </script>
-    
+     </script>
 
 @endsection

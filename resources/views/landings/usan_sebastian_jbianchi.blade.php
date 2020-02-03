@@ -83,7 +83,7 @@ $enddate=strtotime("+5 days", $startdate);
                       <label for="form2"></label>
                     </div>
                   </div>
-                  
+                   
                  <div class="d-flex justify-content-between">
 
                     <div class="md-form col-6  m-0">
@@ -135,7 +135,13 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>
                     </div>
                         </div>
-               
+               <!--<div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56967664209"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:jesus.binteraction@gmail.com?subject=Landing%20Cobranza"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                </div>-->
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -219,8 +225,6 @@ $enddate=strtotime("+5 days", $startdate);
 
      
 
-
-
         function sendMail(msg = false){
 
             console.log('{!! $landing->name !!}'); 
@@ -251,12 +255,12 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["joaquin.calvo@uss.cl"];
+            var correo = ["jose.bianchi@uss.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'joaquin.clavo@uss.cl'
+                //'email': 'jose.bianchi@uss.cl'
             }
             $.ajaxSetup({
                 headers: {

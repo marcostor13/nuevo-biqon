@@ -133,17 +133,15 @@ $enddate=strtotime("+5 days", $startdate);
                     <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
                     
                   </div>
-
-             <!-- <div class="d-flex justify-content-around align-content-center mt-4"> 
-              <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56988178302&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-              <a onclick="eventosLanding('Llamar');" href="tel:+56988178302"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
-                   
-              <a onclick="eventosLanding('Correo');" href="mailto: jaqueline.rodriguez@uss.cl?subject=Landing%20USS"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
-            </div>-->
                     </div>
                         </div>
-               
+               <!--<div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56967664209"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:jesus.binteraction@gmail.com?subject=Landing%20Cobranza"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                </div>-->
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -215,7 +213,7 @@ $enddate=strtotime("+5 days", $startdate);
             json_datos.apellido = $('#apellido').val();
             json_datos.rut = $('#rut').val();
             json_datos.telefono = $('#telefono').val();
-            json_datos.correo = $('#correo').val();
+            json_datos.correo = $('#email').val();
             json_datos.carrera =  $('#carrera').val();
 
             events({    
@@ -226,6 +224,8 @@ $enddate=strtotime("+5 days", $startdate);
         }
 
      
+
+
 
         function sendMail(msg = false){
 
@@ -239,7 +239,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'Apellido': $('#apellido').val(),
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
-                    'E-mail': $('#correo').val(),
+                    'E-mail': $('#email').val(),
                     'Carrera': $('#carrera').val()                
                 }
             }else{
@@ -257,13 +257,13 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jacqueline.rodriguez@uss.cl"];
+            var correo = ["joaquin.calvo@uss.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'jaqueline.rodriguez@uss.cl'
-            } 
+                //'email': 'joaquin.clavo@uss.cl'
+            }
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
