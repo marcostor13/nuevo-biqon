@@ -259,6 +259,7 @@ h4 {
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                     'Cargo': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'       
                 }
             }else{
@@ -269,6 +270,7 @@ h4 {
                     //'monto': getUrlParameter('monto'),
                      'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                     'Cargo': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
