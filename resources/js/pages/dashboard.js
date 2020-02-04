@@ -184,7 +184,9 @@ if (path == '/dashboard'  ) {
                            event: element.evento,
                            name: element.name,
                            fecha: element.fecha,
-                           datos: element.datos
+                           name: dataJson.NOMBRE,
+                           phone: dataJson.TELEFONO,
+                           rut: dataJson.RUT
                        })
 
                        num4++;
