@@ -40023,7 +40023,10 @@ if (path == '/dashboard') {
           id: num3,
           name: element.name,
           fecha: element.fecha,
-          datos: element.datos
+          datosRut: dataJson.rut,
+          datosId: dataJson.id,
+          datosTelefono: dataJson.telefono,
+          datosNombre: dataJson.nombre
         });
         num3++;
       });
@@ -40033,7 +40036,10 @@ if (path == '/dashboard') {
           event: element.evento,
           name: element.name,
           fecha: element.fecha,
-          datos: element.datos
+          datosRut: dataJson.rut,
+          datosId: dataJson.id,
+          datosTelefono: dataJson.telefono,
+          datosNombre: dataJson.nombre
         });
         num4++;
       });
