@@ -61,6 +61,10 @@ $enddate=strtotime("+15 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
+
+    .d-flex justify-content-around align-content-center mt-1{
+        margin: 20px;
+    }
 </style>
 
         <div class="opaco"></div>
