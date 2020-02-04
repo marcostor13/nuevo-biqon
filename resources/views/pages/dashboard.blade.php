@@ -129,10 +129,7 @@
                             <th data-field="event">Evento</th>
                             <th data-field="name">Landing</th>
                             <th data-field="fecha">Fecha</th>
-                            <th data-field="datosRut">Rut</th>
-                            <th data-field="datosId">Id</th>
-                            <th data-field="datosTelefono">Telefono</th>
-                            <th data-field="datosNombre">Nombre</th> 
+                            <th data-field="datos">Datos</th> 
                         </tr>
                     </thead>
 
