@@ -112,7 +112,7 @@ $enddate=strtotime("+15 days", $startdate);
 
         <div class="d-flex justify-content-around align-content-center mt-1"> 
                   
-                  <a class="ml-2" onclick="eventosLanding('facebook');" href="https://www.facebook.com/lidercl/"><img width="70" src="https://www.freepngimg.com/thumb/facebook/10-2-facebook-png-image.png"></a>
+                  <a class="ml-2" onclick="eventosLanding('facebook');" href="https://www.facebook.com/lidercl/"><img width="60" src="https://www.freepngimg.com/thumb/facebook/10-2-facebook-png-image.png"></a>
                          <a class="ml-4" onclick="eventosLanding('Instagram');" href="https://www.instagram.com/lider_cl/"><img width="60" src="http://pluspng.com/img-png/instagram-png-instagram-png-icon-1024.png"></a>
 
    
