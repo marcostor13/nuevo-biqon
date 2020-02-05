@@ -89,7 +89,8 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                  <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
                    
-                   <h4>Aprovecha nuestro convenio y solicita tu crédito pre aprobado con Financoop</h4>
+                 <h4>FINANCOOP tiene un credito Pre-Aprobado para tí,
+                    envia última liquidación y Cédula de Identidad</h4>
                    
             </div> 
 
