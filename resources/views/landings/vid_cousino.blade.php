@@ -162,7 +162,7 @@ $enddate=strtotime("+15 days", $startdate);
                 } 
             }
 
-            var correo = ["oscar@cousinoltda.cl"];
+            var correo = ["contacto@cousinoltda.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
