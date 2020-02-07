@@ -55,7 +55,7 @@ $enddate=strtotime("+5 days", $startdate);
     }
 </style>
 
-   <div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+   <!--<div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
 
         
         <div class="opaco"></div>
@@ -82,7 +82,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
 
-             <div id="cont2" class="p-3">
+             <div id="cont2" class="p-3 ">
                 <div class="card">     
                 <div class="card-body">
                  <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
@@ -94,19 +94,21 @@ $enddate=strtotime("+5 days", $startdate);
 
             </div> 
 
-                <button onclick='window.location.href="tel:+56963101244" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
+                 <button onclick='window.location.href="tel:+56948635859" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">CLICK AQUÍ SI DESEAS QUE TE CONTACTEMOS</button>
+               <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3">  DESEAS QUE TE CONTACTEMOS </button>
+
                 
+
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56963101244&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56948635859&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56963101244"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56948635859"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
-                    <a onclick="eventosLanding('Correo');" href="mailto: belen.maldonado@financoop.cl"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto: vanesa.campos@financoop.cl?subject=Solicito%20Informacion"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
-                
-            </div>
+               </div>  
+            
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -120,6 +122,7 @@ $enddate=strtotime("+5 days", $startdate);
 
      <script>
    //EVENT 1
+        
         
         $(function(){
             events({    
@@ -160,9 +163,7 @@ $enddate=strtotime("+5 days", $startdate);
                         }
                     });
                 }else{
-                    $('#cont1').addClass('hide');
-                     $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a alguna de nuestras sucursales.");
+                    $('#error').text(e.msg);
                 }
             })
             .fail(function() {
@@ -176,9 +177,9 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
-
+            //json_datos.nombre = $('#name').text();
+           // json_datos.monto = $('#pay').text();
+            json_datos.nombre=getUrlParameter('nombre');
             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
@@ -221,19 +222,13 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-
-            var correo = ["belen.maldonado@financoop.cl"];
+            var correo = ["vanesa.campos@financoop.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com, ivonne.gonzalez@financoop.cl'
+                //'email': 'marcostor13@gmail.com'
             }
-            /*
-            
-
-
-            */
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -250,8 +245,7 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su visita fue agendada');
-                     eventosLanding('Agendo Visita');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
                 }
             })
             .done(function(e) {
