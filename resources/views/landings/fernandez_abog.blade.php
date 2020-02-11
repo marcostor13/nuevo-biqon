@@ -88,7 +88,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </h5>
                 <h5>Desea saber más información</h5>
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                  <a onclick="eventosLanding('Contacto')" href="mailto:sfernandez@fernandezyasociados.cl?subject=Landing%20FernandezYAsoc%20Abogados" class="btn bg-primary text-white col-12 mt-4">SI</a>
+                  <a onclick="eventosLanding('Contacto')" href="mailto:monateh@fernandezyasociados.cl?subject=Landing%20FernandezYAsoc%20Abogados" class="btn bg-primary text-white col-12 mt-4">SI</a>
                   </div>  
 
                 
@@ -103,7 +103,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
-                    <a href="mailto:sfernandez@fernandezyasociados.cl?subject=Landing%20FernandezYAsoc%20Abogados" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                    <a href="mailto:monateh@fernandezyasociados.cl?subject=Landing%20FernandezYAsoc%20Abogados" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
                <!--<button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
@@ -114,7 +114,7 @@ $enddate=strtotime("+5 days", $startdate);
                 
                     <a onclick="eventosLanding('Llamar');" href="tel:+56227060710207"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
-                    <a onclick="eventosLanding('Correo');" href="mailto:sfernandez@fernandezyasociados.cl?subject=Landing%20FernandezYAsoc%20Abogados"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:monateh@fernandezyasociados.cl?subject=Landing%20FernandezYAsoc%20Abogados"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
                 </div>
                 
             </div>
