@@ -83,10 +83,10 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
                 <!--text-black-->
                 <h5 class="text-black">
-                  Su deuda de Crédito Comercial se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales,
+                  Su deuda de crédito comercial se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales,
                    le ofrecemos las siguientes opciones:
                 </h5>
-                <h5>Desea Saber mas inoformacion</h5>
+                <h5>Desea saber más información</h5>
                 <div class="d-flex justify-content-around align-content-center mt-4">
                   <a onclick="eventosLanding('Contacto')" href="mailto:sfernandez@fernandezyasociados.cl?subject=Landing%20FernandezYAsoc%20Abogados" class="btn bg-primary text-white col-12 mt-4">SI</a>
                   </div>  
@@ -112,7 +112,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56227060710"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56227060710207"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
                     <a onclick="eventosLanding('Correo');" href="mailto:sfernandez@fernandezyasociados.cl?subject=Landing%20FernandezYAsoc%20Abogados"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
                 </div>
