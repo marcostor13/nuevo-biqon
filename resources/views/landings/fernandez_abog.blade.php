@@ -87,8 +87,9 @@ $enddate=strtotime("+5 days", $startdate);
                    le ofrecemos las siguientes opciones:
                 </h5>
                 <h5>Desea Saber mas inoformacion</h5>
-                  <button onclick="eventosLanding('Contacto');" href="mailto:sfernandez@fernandezyasociados.cl?subject=Landing%20FernandezYAsoc%20Abogados" class="btn bg-primary text-white col-12 mt-4">SI</button>
-                    
+                <div class="d-flex justify-content-around align-content-center mt-4">
+                  <a onclick="eventosLanding('Contacto')" href="mailto:sfernandez@fernandezyasociados.cl?subject=Landing%20FernandezYAsoc%20Abogados" class="btn bg-primary text-white col-12 mt-4">SI</a>
+                  </div>  
 
                 
               <div class="date btn bg-primary text-white col-12 mt-4">
@@ -104,7 +105,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <!--<span>Convenio de pago, Contactar</span>-->
                     <a href="tel:+56227060710" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
-               <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
+               <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
                 
