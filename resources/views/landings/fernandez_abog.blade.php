@@ -83,8 +83,12 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
                 <!--text-black-->
                 <h5 class="text-black">
-                  Le Informamos que su deuda de Crédito se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
+                  Su deuda de Crédito Comercial se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales,
+                   le ofrecemos las siguientes opciones:
                 </h5>
+                <h5>Desea Saber mas inoformacion</h5>
+                  <button onclick="eventosLanding('Contacto');" href="mailto:sfernandez@fernandezyasociados.cl?subject=Landing%20FernandezYAsoc%20Abogados" class="btn bg-primary text-white col-12 mt-4">SI</button>
+                    
 
                 
               <div class="date btn bg-primary text-white col-12 mt-4">
