@@ -80,11 +80,16 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
-                <h4 class="text-white text-center">Estimado(a) <span id="name"></span></h4>
+                <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
                 <!--text-black-->
-                <h5 class="text-white">
-                  Le Informamos que su deuda de: <strong>*****</strong> se encuentra en cobranza *****, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
+                <h5 class="text-black">
+                  Su deuda de crédito comercial se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales,
+                   le ofrecemos las siguientes opciones:
                 </h5>
+                <h5>Desea saber más información</h5>
+                <div class="d-flex justify-content-around align-content-center mt-4">
+                  <a onclick="eventosLanding('Informacion')" href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20Hacer%20Convenio%20de%20Pago" class="btn bg-primary text-white col-12 mt-4">SI</a>
+                  </div>  
 
                 
               <div class="date btn bg-primary text-white col-12 mt-4">
@@ -98,18 +103,20 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
-                    <a href="tel:+56227060710" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                    <a href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20Hacer%20Convenio%20de%20Pago" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
-               <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
+               <!--<button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
+               <!-- <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>-->
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56952247063&text=Hola%20Marta,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+
+                <!--<a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56986096220&text=Hola%20Camila,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
+
                     <a onclick="eventosLanding('Llamar');" href="tel:+56227060710"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
-                    <a onclick="eventosLanding('Correo');" href="mailto:sfernandez@fernandezyasociados.cl?subject=Landing%20FernandezYAsoc%20Abogados"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20mas%20Informacion%20sobre%20mi%20deuda"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
                 </div>
                 
             </div>
@@ -224,12 +231,12 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com"];  
+            var correo = ["monateh@fernandezyasociados.cl"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                //'email': 'marcostor13@gmail.com', "jesus.binteraction@gmail.com",
             }
             $.ajaxSetup({
                 headers: {
