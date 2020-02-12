@@ -88,7 +88,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </h5>
                 <h5>Desea saber más información</h5>
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                  <a onclick="eventosLanding('Informacion')" href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20Hacer%20Convenio%20de%20Pago" class="btn bg-primary text-white col-12 mt-4">SI</a>
+                  <a onclick="eventosLanding('Informacion')" href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20recibir%20más%20información%20de%20mi%20deuda" class="btn bg-primary text-white col-12 mt-4">SI</a>
                   </div>  
 
                 
@@ -103,7 +103,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
-                    <a href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20Hacer%20Convenio%20de%20Pago" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                    <a href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20recibir%20más%20información%20de%20mi%20deuda" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
                <!--<button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
@@ -116,7 +116,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <a onclick="eventosLanding('Llamar');" href="tel:+56227060710"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
-                    <a onclick="eventosLanding('Correo');" href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20mas%20Informacion%20sobre%20mi%20deuda"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20recibir%20más%20información%20de%20mi%20deuda"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
                 </div>
                 
             </div>
