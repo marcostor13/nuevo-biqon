@@ -86,6 +86,7 @@ $enddate=strtotime("+5 days", $startdate);
                   Su deuda de crédito comercial se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales,
                    le ofrecemos las siguientes opciones:
                 </h5>
+                
                 <h5>Desea saber más información</h5>
                 <div class="d-flex justify-content-around align-content-center mt-4">
                   <a onclick="eventosLanding('Informacion')" href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20recibir%20más%20información%20de%20mi%20deuda" class="btn bg-primary text-white col-12 mt-4">SI</a>
