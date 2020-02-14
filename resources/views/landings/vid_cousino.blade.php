@@ -41,7 +41,7 @@ $enddate=strtotime("+15 days", $startdate);
                    
                     <a class="ml-4" onclick="eventosLanding('Instagram');" href="https://www.instagram.com/empresascousino/"><img width="60" src="http://pluspng.com/img-png/instagram-png-instagram-png-icon-1024.png"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+227731690"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56227731690"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
                     <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:contacto@cousinoltda.cl?subject=Landing%20Video%20Cousiño"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
@@ -162,7 +162,7 @@ $enddate=strtotime("+15 days", $startdate);
                 } 
             }
 
-            var correo = ["contacto@cousinoltda.cl"];
+            var correo = ["contacto@cousinoltda.cl","oscar@cousinoltda.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
