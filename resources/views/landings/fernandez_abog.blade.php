@@ -106,7 +106,8 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
-                    <a href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20recibir%20más%20información%20de%20mi%20deuda" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                    <a href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20realizar%20un%20convenio%20de%20pago" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                    
                 <!-- <</div>-->
                <!--<button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
