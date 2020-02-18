@@ -115,7 +115,7 @@ h4 {
 
 
            <div id="cont1" class="text-danger text-center">
-             <button onclick='window.location.href="tel:+56959808452" 'class="btn bg-warning text-black col-12 mt-4">LLAMAR</button>
+             <button onclick="eventosLanding('Llamar');" 'window.location.href="tel:+56959808452" 'class="btn bg-warning text-black col-12 mt-4">LLAMAR</button>
 
        <button onclick='Mens1();' class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 <br> <br>
