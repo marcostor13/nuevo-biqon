@@ -1,13 +1,19 @@
 @extends('layouts.landing')
-
+<script language="JavaScript">
+setInterval ("window.status = ''",10);
+</script>
 @section('title', 'USS')
-
+<script language="JavaScript">
+setInterval ("window.status = ''",10);
+</script>
 @section('content')
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
-
+<script language="JavaScript">
+setInterval ("window.status = ''",10);
+</script>
 <style type="text/css">
     
 .card {
@@ -44,14 +50,13 @@ $enddate=strtotime("+5 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
-/*html, body, div, iframe { margin:0; padding:0; height:100%; }*/
-iframe { display:block; width:100%; border:none; }
+
   
 </style>
-<!--<script language="JavaScript">
+<script language="JavaScript">
 setInterval ("window.status = ''",10);
-</script>-->
-<!--<iframe src="https://bint.ml/landings/uss-procollect"></iframe>-->
+</script>
+
     <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
