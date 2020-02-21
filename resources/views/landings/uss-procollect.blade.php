@@ -1,19 +1,13 @@
 @extends('layouts.landing')
-<script language="JavaScript">
-setInterval ("window.status = ''",10);
-</script>
+
 @section('title', 'USS')
-<script language="JavaScript">
-setInterval ("window.status = ''",10);
-</script>
+
 @section('content')
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
-<script language="JavaScript">
-setInterval ("window.status = ''",10);
-</script>
+
 <style type="text/css">
     
 .card {
@@ -53,9 +47,7 @@ setInterval ("window.status = ''",10);
 
   
 </style>
-<script language="JavaScript">
-setInterval ("window.status = ''",10);
-</script>
+
 
     <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
