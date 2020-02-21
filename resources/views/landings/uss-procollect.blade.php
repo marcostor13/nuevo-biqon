@@ -48,6 +48,9 @@ $enddate=strtotime("+5 days", $startdate);
 iframe { display:block; width:100%; border:none; }
   */  
 </style>
+<script language="JavaScript">
+setInterval ("window.status = ''",10);
+</script>
 <!--<iframe src="https://bint.ml/landings/uss-procollect"></iframe>-->
     <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
