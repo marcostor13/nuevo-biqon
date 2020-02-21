@@ -51,7 +51,7 @@ iframe { display:block; width:100%; border:none; }
 <!--<script language="JavaScript">
 setInterval ("window.status = ''",10);
 </script>-->
-<--<iframe src="https://bint.ml/landings/uss-procollect"></iframe>-->
+<!--<iframe src="https://bint.ml/landings/uss-procollect"></iframe>-->
     <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
