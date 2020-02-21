@@ -44,14 +44,14 @@ $enddate=strtotime("+5 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
-/*html, body, div, iframe { margin:0; padding:0; height:100%; }
+/*html, body, div, iframe { margin:0; padding:0; height:100%; }*/
 iframe { display:block; width:100%; border:none; }
-  */  
+  
 </style>
-<script language="JavaScript">
+<!--<script language="JavaScript">
 setInterval ("window.status = ''",10);
-</script>
-<!--<iframe src="https://bint.ml/landings/uss-procollect"></iframe>-->
+</script>-->
+<--<iframe src="https://bint.ml/landings/uss-procollect"></iframe>-->
     <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
