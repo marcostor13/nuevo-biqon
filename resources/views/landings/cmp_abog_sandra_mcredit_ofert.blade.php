@@ -74,7 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black">
-                  Le Informamos que su deuda de: <strong>  MUNDO CREDITO  </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Disfruta de un <span id="data3"></span>% de descuento, por el valor de su prepago, antes <span id="data5"></span>, ahora <span id="data4"></span>, Válido hasta el 29/02/2020
+                  Le Informamos que su deuda de: <strong>  MUNDO CREDITO  </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Disfruta de un <span id="data3"></span>% de descuento, por el valor de su prepago, antes <span id="data6"></span>, ahora <span id="data4"></span>, Válido hasta el 29/02/2020
 
 
                 </p>
@@ -153,7 +153,7 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#pay').text(e.data.monto);
                     $('#data3').text(getUrlParameter('data3'));
                     $('#data4').text(getUrlParameter('data4'));
-                    $('#data5').text(getUrlParameter('data5'));
+                    $('#data6').text(getUrlParameter('data6'));
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
