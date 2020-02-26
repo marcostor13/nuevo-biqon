@@ -176,8 +176,9 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+            json_datos.nombre=getUrlParameter('nombre');
+            //json_datos.nombre = $('#name').text();
+            //json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,

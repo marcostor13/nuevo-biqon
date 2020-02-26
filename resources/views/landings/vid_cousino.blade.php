@@ -19,7 +19,7 @@ $enddate=strtotime("+15 days", $startdate);
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Cousiño">
-                <br><br>
+                <br>
             <div id="cont1">
                 <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/Cousinno.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -28,7 +28,7 @@ $enddate=strtotime("+15 days", $startdate);
                 <div class="card">     
                 <div class="card-body">
 
-                   <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> </div> </div>
+                   <h4 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h4> </div> </div>
 
                 <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
             </div>
@@ -41,7 +41,7 @@ $enddate=strtotime("+15 days", $startdate);
                    
                     <a class="ml-4" onclick="eventosLanding('Instagram');" href="https://www.instagram.com/empresascousino/"><img width="60" src="http://pluspng.com/img-png/instagram-png-instagram-png-icon-1024.png"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+227731690"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56227731690"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
                     <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:contacto@cousinoltda.cl?subject=Landing%20Video%20Cousiño"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
@@ -162,7 +162,7 @@ $enddate=strtotime("+15 days", $startdate);
                 } 
             }
 
-            var correo = ["contacto@cousinoltda.cl"];
+            var correo = ["contacto@cousinoltda.cl","oscar@cousinoltda.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
