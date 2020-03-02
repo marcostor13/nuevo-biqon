@@ -55,7 +55,7 @@ $enddate=strtotime("+5 days", $startdate);
 }
 </style>
 
-  <div id="UNIACC" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+  <div id="UNIACC" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain;" >
 
         <div class="opaco"></div>
 
