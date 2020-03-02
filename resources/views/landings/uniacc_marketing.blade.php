@@ -127,7 +127,8 @@ $enddate=strtotime("+5 days", $startdate);
   <optgroup label="Postgrado Online">
   <option value="" data-select2-id="1">Magíster en Administración de Empresa - MBA(OL)</option>
   <option value="" data-select2-id="2">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
-</optgroup>
+</optgroup> 
+<option value="" data-select2-id=""></option>
   <optgroup label="Postgrado SemiPresencial">
   <option value="" data-select2-id="1">Magíster en Building Information Modeling Management - BIM (SP)</option>
   <option value="" data-select2-id="2">Magíster en Diseño Arquitectónico Sustentable (SP)</option>
@@ -140,6 +141,7 @@ $enddate=strtotime("+5 days", $startdate);
   <option value="" data-select2-id="9">Magíster en Gestión Estratégica de la Comunicación (SP)</option>
   <option value="" data-select2-id="10">Magíster en Intervención con Jóvenes y Adolescentes (SP)</option>
 </optgroup>
+ <option value="" data-select2-id=""></option>
    <optgroup label="Pregrado Diurno">
   <option value="" data-select2-id="1">Arquitectura</option>
   <option value="" data-select2-id="2">Artes Visuales</option>
@@ -161,12 +163,14 @@ $enddate=strtotime("+5 days", $startdate);
   <option value="" data-select2-id="18">Teatro y Comunicación Escénica</option>
   <option value="" data-select2-id="19">Traducción e Interpretariado Bilingüe (Inglés - Español)</option>
 </optgroup>
+ <option value="" data-select2-id=""></option>
   <<optgroup label="Pregrado Vespertino">
   <option value="" data-select2-id="1">Derecho (Vesp.)</option>
   <option value="" data-select2-id="2">Ingeniería Comercial (Vesp.)</option>
   <option value="" data-select2-id="3">Psicología (Vesp.)</option>
   <option value="" data-select2-id="4">Teatro y Comunicación Escénica (Vesp.)</option>
 </optgroup>
+ <option value="" data-select2-id=""></option>
   <optgroup label="Pregrado Online">
   <option value="" data-select2-id="1">Administración Pública (OL)</option>
   <option value="" data-select2-id="2">Administración Pública - Técnico  (OL)</option>
@@ -185,14 +189,15 @@ $enddate=strtotime("+5 days", $startdate);
   <option value="" data-select2-id="15">Licenciatura en Trabajo Social (OL)</option>
   <option value="" data-select2-id="16">Trabajo Social - Técnico (OL)</option>
 </optgroup>
+ <option value="" data-select2-id=""></option>
   <optgroup label="Pregrado Semipresencial">
   <option value="" data-select2-id="1">Arquitectura (SP)</option>
   <option value="" data-select2-id="2">Diseño de Interiores y Ambientes (SP)</option>
   <option value="" data-select2-id="3">Psicología (SP)</option>
   <option value="" data-select2-id="4"> Periodismo (SP)</option>
 </optgroup>
+ <option value="" data-select2-id=""></option>
 <optgroup label="Diplomado y Postitulos">
-  <option value="7" data-select2-id="8"></option>
   <option value="" data-select2-id="1">Diplomado en Estrategia y Comunicación Digital (SP)</option>
   <option value="" data-select2-id="2">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
   <option value="" data-select2-id="3">Diplomado en Finanzas y Gestión de Proyectos (OL)</option>
