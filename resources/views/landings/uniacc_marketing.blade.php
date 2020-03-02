@@ -133,7 +133,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </select>
                   </div>
 
-                  <div class="md-form " id="carrera_postonline">
+                  <div class="md-form hide" id="carrera_postonline">
                     <select class="form-control" id="postonline" required>
                       <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
                       <option value="" data-select2-id="1">Magíster en Administración de Empresa - MBA(OL)</option>
@@ -141,7 +141,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </select>
                   </div>
 
-                  <div class="md-form" id="carrera_postsemip">
+                  <div class="md-form hide" id="carrera_postsemip">
                     <select class="form-control" id="postsemip" required>
                       <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
                       <option value="" data-select2-id="1">Magíster en Building Information Modeling Management - BIM (SP)</option>
@@ -157,7 +157,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </select>
                   </div>
 
-                   <div class="md-form " id="carrera_pregdiurno">
+                   <div class="md-form hide" id="carrera_pregdiurno">
                     <select class="form-control" id="pregdiurno" required>
                       <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
                       <option value="" data-select2-id="1">Arquitectura</option>
@@ -182,7 +182,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </select>
                   </div>
 
-                   <div class="md-form " id="carrera_pregvespert">
+                   <div class="md-form hide" id="carrera_pregvespert">
                     <select class="form-control" id="pregvespert" required>
                       <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
                       <option value="" data-select2-id="1">Derecho (Vesp.)</option>
@@ -192,7 +192,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </select>
                   </div>
 
-                   <div class="md-form " id="carrera_pregonline">
+                   <div class="md-form hide" id="carrera_pregonline">
                     <select class="form-control" id="pregonline" required>
                       <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
                       <option value="" data-select2-id="1">Administración Pública (OL)</option>
@@ -214,7 +214,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </select>
                   </div>
 
-                   <div class="md-form " id="carrera_pregsemip">
+                   <div class="md-form hide" id="carrera_pregsemip">
                     <select class="form-control" id="pregsemip" required>
                       <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
                       <option value="" data-select2-id="1">Arquitectura (SP)</option>
@@ -224,7 +224,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </select>
                   </div>
 
-                   <div class="md-form " id="carrera_diplomado">
+                   <div class="md-form hide" id="carrera_diplomado">
                     <select class="form-control" id="diplomado" required>
                       <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
                       <option value="" data-select2-id="1">Diplomado en Estrategia y Comunicación Digital (SP)</option>
