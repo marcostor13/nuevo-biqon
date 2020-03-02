@@ -53,8 +53,19 @@ $enddate=strtotime("+5 days", $startdate);
     h4 {
   text-shadow: 1px 1px #ffffff;
 }
-#purple {  background-color: #db0780;}
-#orange {  background-color: #eb600f;}
+.purple {  background-color: #db0780;}
+.orange {  background-color: #eb600f;}
+
+ .boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
 </style>
     <div id="UNIACC" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
