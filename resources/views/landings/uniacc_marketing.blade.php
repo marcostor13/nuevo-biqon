@@ -80,7 +80,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont1" class="p-3 ">
                  
                   <!-- Heading -->
-                  <h4 class="text-black text-center">
+                  <h4 class="text-white text-center">
                     <strong>CONOCE NUESTRAS BECAS Y BENEFICIOS
                    </strong>
                    EN UNIACC TE APOYAMOS PARA CRECER Y CREAR JUNTOS EL FUTURO
@@ -119,16 +119,14 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="md-form" id="modalidad">
                     <select class="form-control" id="modalidad" required>
-                      <option value="" data-select2-id="0">Selecciona una carrera</option>
-                      
+                      <option value="" data-select2-id="0">Selecciona una carrera</option>  
                 <option value="1" data-select2-id="1">Pregrado Diurno</option>
                 <option value="2" data-select2-id="2">Pregrado Vespertino</option>
-                <option value="3" data-select2-id="3">Pregrado Presencial</option>
-                <option value="4" data-select2-id="4">Pregrado Online</option>
-                <option value="5" data-select2-id="5">Pregrado Semipresencial</option>
-                <option value="6" data-select2-id="6">Postgrado Online</option>
-                <option value="7" data-select2-id="7">Postgrado SemiPresencial</option>
-                <option value="8" data-select2-id="8">Diplomado y Postitulos</option>
+                <option value="3" data-select2-id="4">Pregrado Online</option>
+                <option value="4" data-select2-id="5">Pregrado Semipresencial</option>
+                <option value="5" data-select2-id="6">Postgrado Online</option>
+                <option value="6" data-select2-id="7">Postgrado SemiPresencial</option>
+                <option value="7" data-select2-id="8">Diplomado y Postitulos</option>
 
                     </select>
                   </div>
@@ -477,7 +475,7 @@ $enddate=strtotime("+5 days", $startdate);
 
       */
 
-     $(function() {
+   /*  $(function() {
 
   $("#modalidad").on('change', function() {
 
@@ -549,7 +547,37 @@ $enddate=strtotime("+5 days", $startdate);
     break;
 
   }
-  ).change();
+
+});*/
+
+  $(function() {
+
+  $("#modalidad").on('change', function() {
+
+    var selectValue = $(this).val();
+    switch (selectValue) {
+
+      case "1":
+        $("#carrera_postonline").show();
+        $("#carrera_pregonline").hide();
+        $("#carrera_pregsemip").hide();
+        break;
+
+      case "2":
+        $("#div1").hide();
+        $("#div2").show();
+        $("#div3").hide();
+        break;
+
+      case "3":
+        $("#div1").hide();
+        $("#div2").hide();
+        $("#div3").show();
+        break;
+
+    }
+
+  }).change();
 
 });
 
