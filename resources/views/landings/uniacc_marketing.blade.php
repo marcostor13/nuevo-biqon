@@ -51,7 +51,7 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
     h4 {
-  text-shadow: 1px 1px #ffffff;
+  text-shadow: 1px 1px #000000;
 }
 .purple {  background-color: #db0780;}
 .orange {  background-color: #eb600f;}
@@ -118,28 +118,34 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>  
 
                   <div class="md-form">
-                    <select class="form-control" id="carrera" required>
+                    <select class="form-control" id="modalidad" required>
                       <option value="" data-select2-id="4">Selecciona una carrera</option>
                       
-     <!-- <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
-      <option value="Ingeniería en Administración de Empresas Mención Gestión Empresarial" data-select2-id="9">Ingeniería en Administración de Empresas Mención Gestión Empresarial</option>
-      <option value="Ingeniería en Gestión en Tecnologías de la Información" data-select2-id="10">Ingeniería en Gestión en Tecnologías de la Información</option>
-      <option value="Ingeniería en Tecnologías de la Información y Comunicaciones" data-select2-id="11">Ingeniería en  Tecnologías de la Información y Comunicaciones</option>
-      <option value="Ingeniería Industrial" data-select2-id="12">Ingeniería Industrial</option>
-      <option value="Contador Auditor" data-select2-id="13">Contador Auditor</option>
-      <option value="Ingeniería Civil Industrial" data-select2-id="14">Ingeniería Civil Industrial</option>
-      <option value="Ingeniería en Prevención de Riesgos" data-select2-id="15">Ingeniería en Prevención de Riesgos</option>
-      <option value="Ingeniería en Comercio Internacional" data-select2-id="16">Ingeniería en Comercio Internacional </option>
-      <option value="Ingeniería en Logística y Transporte" data-select2-id="17">Ingeniería en Logística y Transporte </option>
-      <option value="Administración Pública" data-select2-id="18">Administración Pública</option>
-      <option value="Ingeniería en Administración de Empresas Mención Control de Gestión" data-select2-id="19">Ingeniería en Administración de Empresas Mención Control de Gestión</option>
-      <option value="Ingeniería en Administración de Empresas Mención Gestión de Personas" data-select2-id="20">Ingeniería en Administración de Empresas Mención Gestión de Personas</option>
-      <option value="Ingeniería en Administración de Empresas Mención Finanzas Corporativas" data-select2-id="21">Ingeniería  en Administración de Empresas Mención Finanzas Corporativas</option>
-      <option value="Ingeniería en Administración de Empresas Mención Marketing Digital" data-select2-id="22">Ingeniería en  Administración de Empresas Mención Marketing Digital</option>
-      <option value="Psicología" data-select2-id="23">Psicología</option>
-      <option value="Pedagogía en Educación Diferencial" data-select2-id="24">Pedagogía en Educación Diferencial</option>
-      <option value="Trabajo Social" data-select2-id="25">Trabajo Social</option>-->
+                <option value="Pregrado Diurno" data-select2-id="1">Pregrado Diurno</option>
+                <option value="Pregrado Vespertino" data-select2-id="2">Pregrado Vespertino</option>
+                <option value="Pregrado Presencial" data-select2-id="3">Pregrado Presencial</option>
+                <option value="Pregrado Online" data-select2-id="4">Pregrado Online</option>
+                <option value="Pregrado Semipresencial" data-select2-id="5">Pregrado Semipresencial</option>
+                <option value="Postgrado Online" data-select2-id="6">Postgrado Online</option>
+                <option value="Postgrado SemiPresencial" data-select2-id="7">Postgrado SemiPresencial</option>
+                <option value="Diplomado y Postitulos" data-select2-id="8">Diplomado y Postitulos</option>
 
+                    </select>
+                  </div>
+
+                  <div class="md-form ">
+                    <select class="form-control" id="carrera_postOnline" required>
+                      <option value="" data-select2-id="4">Selecciona una carrera de interes</option>
+                      <option value="" data-select2-id="4">Magíster en Administración de Empresa - MBA(OL)</option>
+                      <option value="" data-select2-id="4">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
+                    </select>
+                  </div>
+
+                  <div class="md-form">
+                    <select class="form-control" id="carrera" required>
+                      <option value="" data-select2-id="4">Selecciona una carrera de interes</option>
+                      <option value="" data-select2-id="4">Magíster en Administración de Empresa - MBA(OL)</option>
+                      <option value="" data-select2-id="4">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
                     </select>
                   </div>
 
@@ -255,6 +261,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
                     'E-mail': $('#email').val(),
+                    'Modalidad de Estudio': $('#modalidad').val(),
                     'Carrera': $('#carrera').val()                
                 }
             }else{
