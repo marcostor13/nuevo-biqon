@@ -118,7 +118,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>  
 
                   <div class="md-form" id="modalidad">
-                    <select class="form-control" id="mod" required>
+                    <select class="form-control" id="modalidad" required>
                       <option value="" data-select2-id="0">Selecciona una carrera</option>
                       
                 <option value="1" data-select2-id="1">Pregrado Diurno</option>
@@ -467,13 +467,21 @@ $enddate=strtotime("+5 days", $startdate);
 
             return obj;  
         };
-
+/*
     $(function() {
 
   $("#modalidad").on('change', function() {
 
     var selectValue = $(this).val();
     switch (selectValue) {
+
+      */
+
+     $(function() {
+
+  $("#modalidad").on('change', function() {
+
+ switch(modalidad) {
  case 1:
           $('#carrera_diplomado').addClass('hide');
           $('#carrera_postonline').addClass('hide');
@@ -539,12 +547,9 @@ $enddate=strtotime("+5 days", $startdate);
           $('#carrera_pregonline').addClass('hide');
           $('#carrera_pregsemip').addClass('hide');
     break;
-default:
-          alert("OPCION INVALIDA.")
-        
-    }
 
-  }).change();
+  }
+  ).change();
 
 });
 
