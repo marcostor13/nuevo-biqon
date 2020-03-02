@@ -126,90 +126,90 @@ $enddate=strtotime("+5 days", $startdate);
 <select class="form-control" id="carrera" required>
  <option value="" data-select2-id="0" selected="selected"></option>
   <optgroup label="Postgrado Online">
-  <option value="" data-select2-id="1">Magíster en Administración de Empresa - MBA(OL)</option>
-  <option value="" data-select2-id="2">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
+  <option value="Magíster en Administración de Empresa - MBA(OL)" data-select2-id="1">Magíster en Administración de Empresa - MBA(OL)</option>
+  <option value="Magíster en Tecnólogia Educativa E Innovacion (OL)" data-select2-id="2">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
 </optgroup> 
 <option value="" data-select2-id=""></option>
   <optgroup label="Postgrado SemiPresencial">
-  <option value="" data-select2-id="1">Magíster en Building Information Modeling Management - BIM (SP)</option>
-  <option value="" data-select2-id="2">Magíster en Diseño Arquitectónico Sustentable (SP)</option>
-  <option value="" data-select2-id="3">Magíster en Intervención Sostenible del Patrimonio Cultural Arquitectónico (SP)</option>
-  <option value="" data-select2-id="4">Magíster en Paisajismo Urbano (SP)</option>
-  <option value="" data-select2-id="5">Magíster en Estética de Música Popular (SP)</option>
-  <option value="" data-select2-id="6">Magíster en Gestión de Proyectos Artísticos (SP)</option>
-  <option value="" data-select2-id="7">Magíster en Coaching Organizacional (SP)</option>
-  <option value="" data-select2-id="8">Magíster en Derecho de Familia e Intervención Familiar (SP)</option>
-  <option value="" data-select2-id="9">Magíster en Gestión Estratégica de la Comunicación (SP)</option>
-  <option value="" data-select2-id="10">Magíster en Intervención con Jóvenes y Adolescentes (SP)</option>
+  <option value="Magíster en Building Information Modeling Management - BIM (SP)" data-select2-id="1">Magíster en Building Information Modeling Management - BIM (SP)</option>
+  <option value="Magíster en Diseño Arquitectónico Sustentable (SP)" data-select2-id="2">Magíster en Diseño Arquitectónico Sustentable (SP)</option>
+  <option value="Magíster en Intervención Sostenible del Patrimonio Cultural Arquitectónico (SP)" data-select2-id="3">Magíster en Intervención Sostenible del Patrimonio Cultural Arquitectónico (SP)</option>
+  <option value="Magíster en Paisajismo Urbano (SP)" data-select2-id="4">Magíster en Paisajismo Urbano (SP)</option>
+  <option value="Magíster en Estética de Música Popular (SP)" data-select2-id="5">Magíster en Estética de Música Popular (SP)</option>
+  <option value="Magíster en Gestión de Proyectos Artísticos (SP)" data-select2-id="6">Magíster en Gestión de Proyectos Artísticos (SP)</option>
+  <option value="Magíster en Coaching Organizacional (SP)" data-select2-id="7">Magíster en Coaching Organizacional (SP)</option>
+  <option value="Magíster en Derecho de Familia e Intervención Familiar (SP)" data-select2-id="8">Magíster en Derecho de Familia e Intervención Familiar (SP)</option>
+  <option value="Magíster en Gestión Estratégica de la Comunicación (SP)" data-select2-id="9">Magíster en Gestión Estratégica de la Comunicación (SP)</option>
+  <option value="Magíster en Intervención con Jóvenes y Adolescentes (SP)" data-select2-id="10">Magíster en Intervención con Jóvenes y Adolescentes (SP)</option>
 </optgroup>
  <option value="" data-select2-id=""></option>
    <optgroup label="Pregrado Diurno">
-  <option value="" data-select2-id="1">Arquitectura</option>
-  <option value="" data-select2-id="2">Artes Visuales</option>
-  <option value="" data-select2-id="3">Comunicación Audiovisual - Cine</option>
-  <option value="" data-select2-id="4">Comunicación Audiovisual - Guiones</option>
-  <option value="" data-select2-id="5">Comunicación Audiovisual - Televisión</option>
-  <option value="" data-select2-id="6">Comunicación Digital - Animación Digital</option>
-  <option value="" data-select2-id="7">Comunicación Digital - Diseño y Desarrollo de Videojuegos</option>
-  <option value="" data-select2-id="8">Danza y Coreografía</option>
-  <option value="" data-select2-id="9">Derecho</option>
-  <option value="" data-select2-id="10">Diseño Gráfico - Especialidad Multimedia</option>
-  <option value="" data-select2-id="11">Diseño de Imagen - Especialidad Moda</option>
-  <option value="" data-select2-id="12">Ingeniería Comercial</option>
-  <option value="" data-select2-id="13">Música e Interpretación</option>
-  <option value="" data-select2-id="14">Música y Composición</option>
-  <option value="" data-select2-id="15">Periodismo</option>
-  <option value="" data-select2-id="16">Psicología</option>
-  <option value="" data-select2-id="17">Publicidad</option>
-  <option value="" data-select2-id="18">Teatro y Comunicación Escénica</option>
-  <option value="" data-select2-id="19">Traducción e Interpretariado Bilingüe (Inglés - Español)</option>
+  <option value="Arquitectura" data-select2-id="1">Arquitectura</option>
+  <option value="Artes Visuales" data-select2-id="2">Artes Visuales</option>
+  <option value="Comunicación Audiovisual - Cine" data-select2-id="3">Comunicación Audiovisual - Cine</option>
+  <option value="Comunicación Audiovisual - Guiones" data-select2-id="4">Comunicación Audiovisual - Guiones</option>
+  <option value="Comunicación Audiovisual - Televisión" data-select2-id="5">Comunicación Audiovisual - Televisión</option>
+  <option value="Comunicación Digital - Animación Digital" data-select2-id="6">Comunicación Digital - Animación Digital</option>
+  <option value="Comunicación Digital - Diseño y Desarrollo de Videojuegos" data-select2-id="7">Comunicación Digital - Diseño y Desarrollo de Videojuegos</option>
+  <option value="Danza y Coreografía" data-select2-id="8">Danza y Coreografía</option>
+  <option value="Derecho" data-select2-id="9">Derecho</option>
+  <option value="Diseño Gráfico - Especialidad Multimedia" data-select2-id="10">Diseño Gráfico - Especialidad Multimedia</option>
+  <option value="Diseño de Imagen - Especialidad Moda" data-select2-id="11">Diseño de Imagen - Especialidad Moda</option>
+  <option value="Ingeniería Comercial" data-select2-id="12">Ingeniería Comercial</option>
+  <option value="Música e Interpretación" data-select2-id="13">Música e Interpretación</option>
+  <option value="Música y Composición" data-select2-id="14">Música y Composición</option>
+  <option value="Periodismo" data-select2-id="15">Periodismo</option>
+  <option value="Psicología" data-select2-id="16">Psicología</option>
+  <option value="Publicidad" data-select2-id="17">Publicidad</option>
+  <option value="Teatro y Comunicación Escénica" data-select2-id="18">Teatro y Comunicación Escénica</option>
+  <option value="Traducción e Interpretariado Bilingüe (Inglés - Español)" data-select2-id="19">Traducción e Interpretariado Bilingüe (Inglés - Español)</option>
 </optgroup>
  <option value="" data-select2-id=""></option>
   <<optgroup label="Pregrado Vespertino">
-  <option value="" data-select2-id="1">Derecho (Vesp.)</option>
-  <option value="" data-select2-id="2">Ingeniería Comercial (Vesp.)</option>
-  <option value="" data-select2-id="3">Psicología (Vesp.)</option>
-  <option value="" data-select2-id="4">Teatro y Comunicación Escénica (Vesp.)</option>
+  <option value="Derecho (Vesp.)" data-select2-id="1">Derecho (Vesp.)</option>
+  <option value="Ingeniería Comercial (Vesp.)" data-select2-id="2">Ingeniería Comercial (Vesp.)</option>
+  <option value="Psicología (Vesp.)" data-select2-id="3">Psicología (Vesp.)</option>
+  <option value="Teatro y Comunicación Escénica (Vesp.)" data-select2-id="4">Teatro y Comunicación Escénica (Vesp.)</option>
 </optgroup>
  <option value="" data-select2-id=""></option>
   <optgroup label="Pregrado Online">
-  <option value="" data-select2-id="1">Administración Pública (OL)</option>
-  <option value="" data-select2-id="2">Administración Pública - Técnico  (OL)</option>
-  <option value="" data-select2-id="3">Bibliotecología y Gestión de la Información - Técnico (OL)</option>
-  <option value="" data-select2-id="4">Bibliotecología y Gestión de la Información (OL)</option>
-  <option value="" data-select2-id="5">Ingeniería en Administración y Gestión de Negocios (OL)</option>
-  <option value="" data-select2-id="6">Contador Auditor (OL)</option>
-  <option value="" data-select2-id="7">Contador Auditor - Técnico  (OL)</option>
-  <option value="" data-select2-id="8">Ingeniería Comercial (OL)</option>
-  <option value="" data-select2-id="9">Ingeniería Comercial - Profesional (OL)</option>
-  <option value="" data-select2-id="10">Ingeniería Comercial - Técnico (OL)</option>
-  <option value="" data-select2-id="11">Ingeniería en Control de Gestión (OL)</option>
-  <option value="" data-select2-id="12">Ingeniería Informática Multimedia (OL)</option>
-  <option value="" data-select2-id="13">Ingeniería Informática Multimedia - Técnico (OL)</option>
-  <option value="" data-select2-id="14">Trabajo Social (OL)</option>
-  <option value="" data-select2-id="15">Licenciatura en Trabajo Social (OL)</option>
-  <option value="" data-select2-id="16">Trabajo Social - Técnico (OL)</option>
+  <option value="Administración Pública (OL)" data-select2-id="1">Administración Pública (OL)</option>
+  <option value="Administración Pública - Técnico  (OL)" data-select2-id="2">Administración Pública - Técnico  (OL)</option>
+  <option value="Bibliotecología y Gestión de la Información - Técnico (OL)" data-select2-id="3">Bibliotecología y Gestión de la Información - Técnico (OL)</option>
+  <option value="Bibliotecología y Gestión de la Información (OL)" data-select2-id="4">Bibliotecología y Gestión de la Información (OL)</option>
+  <option value="Ingeniería en Administración y Gestión de Negocios (OL)" data-select2-id="5">Ingeniería en Administración y Gestión de Negocios (OL)</option>
+  <option value="Contador Auditor (OL)" data-select2-id="6">Contador Auditor (OL)</option>
+  <option value="Contador Auditor - Técnico  (OL)" data-select2-id="7">Contador Auditor - Técnico  (OL)</option>
+  <option value="Ingeniería Comercial (OL)" data-select2-id="8">Ingeniería Comercial (OL)</option>
+  <option value="Ingeniería Comercial - Profesional (OL)" data-select2-id="9">Ingeniería Comercial - Profesional (OL)</option>
+  <option value="Ingeniería Comercial - Técnico (OL)" data-select2-id="10">Ingeniería Comercial - Técnico (OL)</option>
+  <option value="Ingeniería en Control de Gestión (OL)" data-select2-id="11">Ingeniería en Control de Gestión (OL)</option>
+  <option value="Ingeniería Informática Multimedia (OL)" data-select2-id="12">Ingeniería Informática Multimedia (OL)</option>
+  <option value="Ingeniería Informática Multimedia - Técnico (OL)" data-select2-id="13">Ingeniería Informática Multimedia - Técnico (OL)</option>
+  <option value="Trabajo Social (OL)" data-select2-id="14">Trabajo Social (OL)</option>
+  <option value="Licenciatura en Trabajo Social (OL)" data-select2-id="15">Licenciatura en Trabajo Social (OL)</option>
+  <option value="Trabajo Social - Técnico (OL)" data-select2-id="16">Trabajo Social - Técnico (OL)</option>
 </optgroup>
  <option value="" data-select2-id=""></option>
   <optgroup label="Pregrado Semipresencial">
-  <option value="" data-select2-id="1">Arquitectura (SP)</option>
-  <option value="" data-select2-id="2">Diseño de Interiores y Ambientes (SP)</option>
-  <option value="" data-select2-id="3">Psicología (SP)</option>
-  <option value="" data-select2-id="4"> Periodismo (SP)</option>
+  <option value="Arquitectura (SP)" data-select2-id="1">Arquitectura (SP)</option>
+  <option value="Diseño de Interiores y Ambientes (SP)" data-select2-id="2">Diseño de Interiores y Ambientes (SP)</option>
+  <option value="Psicología (SP)" data-select2-id="3">Psicología (SP)</option>
+  <option value="Periodismo (SP)" data-select2-id="4"> Periodismo (SP)</option>
 </optgroup>
  <option value="" data-select2-id=""></option>
 <optgroup label="Diplomado y Postitulos">
-  <option value="" data-select2-id="1">Diplomado en Estrategia y Comunicación Digital (SP)</option>
-  <option value="" data-select2-id="2">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
-  <option value="" data-select2-id="3">Diplomado en Finanzas y Gestión de Proyectos (OL)</option>
-  <option value="" data-select2-id="4">Diplomado en Gestión de Negocios (OL)</option>
-  <option value="" data-select2-id="5">Diplomado en Habilidad Directivas (SP)</option>
-  <option value="" data-select2-id="6">Diplomado en Interoperabilidad y Plataformas BIM (SP)</option>
-  <option value="" data-select2-id="7">Diplomado en Juventud y Adolescencia (SP)</option>
-  <option value="" data-select2-id="8">Diplomado en Negociación y Liderazgo en Escenarios de Conflicto (SP)</option>
-  <option value="" data-select2-id="9">Diplomado en Protocolos Obtención de Datos 3D e Infraestructura (SP)</option>
-  <option value="" data-select2-id="10">Postítulo en Intervención con Jóvenes y Adolecentes (SP)</option>
-  <option value="" data-select2-id="11">Diplomado en Coaching Fenomenológico (SP)</option>
+  <option value="Diplomado en Estrategia y Comunicación Digital (SP)" data-select2-id="1">Diplomado en Estrategia y Comunicación Digital (SP)</option>
+  <option value="Magíster en Tecnólogia Educativa E Innovacion (OL)" data-select2-id="2">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
+  <option value="Diplomado en Finanzas y Gestión de Proyectos (OL)" data-select2-id="3">Diplomado en Finanzas y Gestión de Proyectos (OL)</option>
+  <option value="Diplomado en Gestión de Negocios (OL)" data-select2-id="4">Diplomado en Gestión de Negocios (OL)</option>
+  <option value="Diplomado en Habilidad Directivas (SP)" data-select2-id="5">Diplomado en Habilidad Directivas (SP)</option>
+  <option value="Diplomado en Interoperabilidad y Plataformas BIM (SP)" data-select2-id="6">Diplomado en Interoperabilidad y Plataformas BIM (SP)</option>
+  <option value="Diplomado en Juventud y Adolescencia (SP)" data-select2-id="7">Diplomado en Juventud y Adolescencia (SP)</option>
+  <option value="Diplomado en Negociación y Liderazgo en Escenarios de Conflicto (SP)" data-select2-id="8">Diplomado en Negociación y Liderazgo en Escenarios de Conflicto (SP)</option>
+  <option value="Diplomado en Protocolos Obtención de Datos 3D e Infraestructura (SP)" data-select2-id="9">Diplomado en Protocolos Obtención de Datos 3D e Infraestructura (SP)</option>
+  <option value="Postítulo en Intervención con Jóvenes y Adolecentes (SP)" data-select2-id="10">Postítulo en Intervención con Jóvenes y Adolecentes (SP)</option>
+  <option value="Diplomado en Coaching Fenomenológico (SP)" data-select2-id="11">Diplomado en Coaching Fenomenológico (SP)</option>
   </optgroup>
 </select>
                   </div>
