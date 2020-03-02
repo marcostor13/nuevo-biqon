@@ -124,6 +124,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="md-form">
 <select class="form-control" id="carrera" required>
+ <option value="" data-select2-id="0" selected="selected"></option>
   <optgroup label="Postgrado Online">
   <option value="" data-select2-id="1">Magíster en Administración de Empresa - MBA(OL)</option>
   <option value="" data-select2-id="2">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
@@ -212,136 +213,6 @@ $enddate=strtotime("+5 days", $startdate);
   </optgroup>
 </select>
                   </div>
-
-                  <!--<div class="md-form" id="mod">
-                    <select class="form-control" id="modalidad" required>
-                <option value="0" data-select2-id="0">Selecciona una carrera</option>  
-                <option value="1" data-select2-id="1">Pregrado Diurno</option>
-                <option value="2" data-select2-id="2">Pregrado Vespertino</option>
-                <option value="3" data-select2-id="4">Pregrado Online</option>
-                <option value="4" data-select2-id="5">Pregrado Semipresencial</option>
-                <option value="5" data-select2-id="6">Postgrado Online</option>
-                <option value="6" data-select2-id="7">Postgrado SemiPresencial</option>
-                <option value="7" data-select2-id="8">Diplomado y Postitulos</option>
-
-                    </select>
-                  </div>
-
-                  <div class="md-form hide" id="carrera_postonline">
-                    <select class="form-control" id="postonline" required>
-                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
-                      <option value="" data-select2-id="1">Magíster en Administración de Empresa - MBA(OL)</option>
-                      <option value="" data-select2-id="2">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
-                    </select>
-                  </div>
-
-                  <div class="md-form hide" id="carrera_postsemip">
-                    <select class="form-control" id="postsemip" required>
-                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
-                      <option value="" data-select2-id="1">Magíster en Building Information Modeling Management - BIM (SP)</option>
-                      <option value="" data-select2-id="2">Magíster en Diseño Arquitectónico Sustentable (SP)</option>
-                      <option value="" data-select2-id="3">Magíster en Intervención Sostenible del Patrimonio Cultural Arquitectónico (SP)</option>
-                      <option value="" data-select2-id="4">Magíster en Paisajismo Urbano (SP)</option>
-                      <option value="" data-select2-id="5">Magíster en Estética de Música Popular (SP)</option>
-                      <option value="" data-select2-id="6">Magíster en Gestión de Proyectos Artísticos (SP)</option>
-                      <option value="" data-select2-id="7">Magíster en Coaching Organizacional (SP)</option>
-                      <option value="" data-select2-id="8">Magíster en Derecho de Familia e Intervención Familiar (SP)</option>
-                      <option value="" data-select2-id="9">Magíster en Gestión Estratégica de la Comunicación (SP)</option>
-                      <option value="" data-select2-id="10">Magíster en Intervención con Jóvenes y Adolescentes (SP)</option>
-                    </select>
-                  </div>
-
-                   <div class="md-form hide" id="carrera_pregdiurno">
-                    <select class="form-control" id="pregdiurno" required>
-                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
-                      <option value="" data-select2-id="1">Arquitectura</option>
-                      <option value="" data-select2-id="2">Artes Visuales</option>
-                      <option value="" data-select2-id="3">Comunicación Audiovisual - Cine</option>
-                      <option value="" data-select2-id="4">Comunicación Audiovisual - Guiones</option>
-                      <option value="" data-select2-id="5">Comunicación Audiovisual - Televisión</option>
-                      <option value="" data-select2-id="6">Comunicación Digital - Animación Digital</option>
-                      <option value="" data-select2-id="7">Comunicación Digital - Diseño y Desarrollo de Videojuegos</option>
-                      <option value="" data-select2-id="8">Danza y Coreografía</option>
-                      <option value="" data-select2-id="9">Derecho</option>
-                      <option value="" data-select2-id="10">Diseño Gráfico - Especialidad Multimedia</option>
-                      <option value="" data-select2-id="11">Diseño de Imagen - Especialidad Moda</option>
-                      <option value="" data-select2-id="12">Ingeniería Comercial</option>
-                      <option value="" data-select2-id="13">Música e Interpretación</option>
-                      <option value="" data-select2-id="14">Música y Composición</option>
-                      <option value="" data-select2-id="15">Periodismo</option>
-                      <option value="" data-select2-id="16">Psicología</option>
-                      <option value="" data-select2-id="17">Publicidad</option>
-                      <option value="" data-select2-id="18">Teatro y Comunicación Escénica</option>
-                      <option value="" data-select2-id="19">Traducción e Interpretariado Bilingüe (Inglés - Español)</option>
-                    </select>
-                  </div>
-
-                   <div class="md-form hide" id="carrera_pregvespert">
-                    <select class="form-control" id="pregvespert" required>
-                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
-                      <option value="" data-select2-id="1">Derecho (Vesp.)</option>
-                      <option value="" data-select2-id="2">Ingeniería Comercial (Vesp.)</option>
-                      <option value="" data-select2-id="3">Psicología (Vesp.)</option>
-                      <option value="" data-select2-id="4">Teatro y Comunicación Escénica (Vesp.)</option>
-                    </select>
-                  </div>
-
-                   <div class="md-form hide" id="carrera_pregonline">
-                    <select class="form-control" id="pregonline" required>
-                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
-                      <option value="" data-select2-id="1">Administración Pública (OL)</option>
-                      <option value="" data-select2-id="2">Administración Pública - Técnico  (OL)</option>
-                      <option value="" data-select2-id="3">Bibliotecología y Gestión de la Información - Técnico (OL)</option>
-                      <option value="" data-select2-id="4">Bibliotecología y Gestión de la Información (OL)</option>
-                      <option value="" data-select2-id="5">Ingeniería en Administración y Gestión de Negocios (OL)</option>
-                      <option value="" data-select2-id="6">Contador Auditor (OL)</option>
-                      <option value="" data-select2-id="7">Contador Auditor - Técnico  (OL)</option>
-                      <option value="" data-select2-id="8">Ingeniería Comercial (OL)</option>
-                      <option value="" data-select2-id="9">Ingeniería Comercial - Profesional (OL)</option>
-                      <option value="" data-select2-id="10">Ingeniería Comercial - Técnico (OL)</option>
-                      <option value="" data-select2-id="11">Ingeniería en Control de Gestión (OL)</option>
-                      <option value="" data-select2-id="12">Ingeniería Informática Multimedia (OL)</option>
-                      <option value="" data-select2-id="13">Ingeniería Informática Multimedia - Técnico (OL)</option>
-                      <option value="" data-select2-id="14">Trabajo Social (OL)</option>
-                      <option value="" data-select2-id="15">Licenciatura en Trabajo Social (OL)</option>
-                      <option value="" data-select2-id="16">Trabajo Social - Técnico (OL)</option>
-                    </select>
-                  </div>
-
-                   <div class="md-form hide" id="carrera_pregsemip">
-                    <select class="form-control" id="pregsemip" required>
-                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
-                      <option value="" data-select2-id="1">Arquitectura (SP)</option>
-                      <option value="" data-select2-id="2">Diseño de Interiores y Ambientes (SP)</option>
-                      <option value="" data-select2-id="3">Psicología (SP)</option>
-                      <option value="" data-select2-id="4"> Periodismo (SP)</option>
-                    </select>
-                  </div>
-
-                   <div class="md-form hide" id="carrera_diplomado">
-                    <select class="form-control" id="diplomado" required>
-                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
-                      <option value="" data-select2-id="1">Diplomado en Estrategia y Comunicación Digital (SP)</option>
-                      <option value="" data-select2-id="2">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
-                      <option value="" data-select2-id="3">Diplomado en Finanzas y Gestión de Proyectos (OL)</option>
-                      <option value="" data-select2-id="4">Diplomado en Gestión de Negocios (OL)</option>
-                      <option value="" data-select2-id="5">Diplomado en Habilidad Directivas (SP)</option>
-                      <option value="" data-select2-id="6">Diplomado en Interoperabilidad y Plataformas BIM (SP)</option>
-                      <option value="" data-select2-id="7">Diplomado en Juventud y Adolescencia (SP)</option>
-                      <option value="" data-select2-id="8">Diplomado en Negociación y Liderazgo en Escenarios de Conflicto (SP)</option>
-                      <option value="" data-select2-id="9">Diplomado en Protocolos Obtención de Datos 3D e Infraestructura (SP)</option>
-                      <option value="" data-select2-id="10">Postítulo en Intervención con Jóvenes y Adolecentes (SP)</option>
-                      <option value="" data-select2-id="11">Diplomado en Coaching Fenomenológico (SP)</option>
-                    </select>
-                  </div>-->
-
-                   <!--<div class="md-form ">
-                    <select class="form-control" id="carrera_postG_Online" required>
-                      <option value="" data-select2-id="4">Selecciona una carrera de interes</option>
-                      <option value="" data-select2-id="4">Magíster en Administración de Empresa - MBA(OL)</option>
-                      <option value="" data-select2-id="4">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
-                    </select>
-                  </div>-->
 
                   <div class="text-center">
                     <hr>
@@ -456,24 +327,24 @@ $enddate=strtotime("+5 days", $startdate);
                     'Telefono': $('#telefono').val(),
                     'E-mail': $('#email').val(),
                     'Modalidad de Estudio': $('#modalidad').val(),
-                    'Carrera': $('#carrera').val()                
+                    'Carrera': $('#carrera').val(),
+                    'landing': '{!! $landing->name !!}'                
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
-                    'phone': getUrlParameter('telefono'),
-                 //   'Id_Admision': getUrlParameter('data1'),
-                 //   'Prevision': getUrlParameter('data2'),
-                 //   'Estado': getUrlParameter('data3'),
-                 //   'Ley': getUrlParameter('data4'),
-                     'rut': getUrlParameter('rut'),
+                    'Nombre': $('#nombre').val(),
+                    'Apellido': $('#apellido').val(),
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
+                    'E-mail': $('#email').val(),
+                    'Modalidad de Estudio': $('#modalidad').val(),
+                    'Carrera': $('#carrera').val(),    
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteracction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -564,82 +435,7 @@ $enddate=strtotime("+5 days", $startdate);
 
 
 
-     $(function() {
-
-  $("#modalidad").on('change', function() {
- var selectValue = $(this).val();
-    switch (selectValue) {
- case "1":
-          $('#carrera_diplomado').addClass('hide');
-          $('#carrera_postonline').addClass('hide');
-          $('#carrera_postsemip').addClass('hide');
-          $('#carrera_pregdiurno').removeClass('hide');
-          $('#carrera_pregvespert').addClass('hide');
-          $('#carrera_pregonline').addClass('hide');
-          $('#carrera_pregsemip').addClass('hide');
-
-    break;
-
- case "2":
-         $('#carrera_diplomado').addClass('hide');
-          $('#carrera_postonline').addClass('hide');
-          $('#carrera_postsemip').addClass('hide');
-          $('#carrera_pregdiurno').addClass('hide');
-          $('#carrera_pregvespert').removeClass('hide');
-          $('#carrera_pregonline').addClass('hide');
-          $('#carrera_pregsemip').addClass('hide');
-    break;
-
- case "3":
-          $('#carrera_diplomado').addClass('hide');
-          $('#carrera_postonline').addClass('hide');
-          $('#carrera_postsemip').addClass('hide');
-          $('#carrera_pregdiurno').addClass('hide');
-          $('#carrera_pregvespert').addClass('hide');
-          $('#carrera_pregonline').removeClass('hide');
-          $('#carrera_pregsemip').addClass('hide');
- case "4":
-          $('#carrera_diplomado').addClass('hide');
-          $('#carrera_postonline').addClass('hide');
-          $('#carrera_postsemip').addClass('hide');
-          $('#carrera_pregdiurno').addClass('hide');
-          $('#carrera_pregvespert').addClass('hide');
-          $('#carrera_pregonline').addClass('hide');
-          $('#carrera_pregsemip').removeClass('hide');
-    break;
-    case "5":
-          $('#carrera_diplomado').addClass('hide');
-          $('#carrera_postonline').removeClass('hide');
-          $('#carrera_postsemip').addClass('hide');
-          $('#carrera_pregdiurno').addClass('hide');
-          $('#carrera_pregvespert').addClass('hide');
-          $('#carrera_pregonline').addClass('hide');
-          $('#carrera_pregsemip').addClass('hide'); 
-    break;
-     case "6":
-          $('#carrera_diplomado').addClass('hide');
-          $('#carrera_postonline').addClass('hide');
-          $('#carrera_postsemip').removeClass('hide');
-          $('#carrera_pregdiurno').addClass('hide');
-          $('#carrera_pregvespert').addClass('hide');
-          $('#carrera_pregonline').addClass('hide');
-          $('#carrera_pregsemip').addClass('hide');
-    break;
-     case "7":
-          $('#carrera_diplomado').removeClass('hide');
-          $('#carrera_postonline').addClass('hide');
-          $('#carrera_postsemip').addClass('hide');
-          $('#carrera_pregdiurno').addClass('hide');
-          $('#carrera_pregvespert').addClass('hide');
-          $('#carrera_pregonline').addClass('hide');
-          $('#carrera_pregsemip').addClass('hide');
-    break;
-default:
-          alert("OPCION INVALIDA.")
-        }
-  }
-
-});    
+   
 </script>
     
 
