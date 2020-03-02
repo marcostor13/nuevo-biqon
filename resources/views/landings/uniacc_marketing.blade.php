@@ -121,14 +121,14 @@ $enddate=strtotime("+5 days", $startdate);
                     <select class="form-control" id="modalidad" required>
                       <option value="" data-select2-id="0">Selecciona una carrera</option>
                       
-                <option value="Pregrado Diurno" data-select2-id="1">Pregrado Diurno</option>
-                <option value="Pregrado Vespertino" data-select2-id="2">Pregrado Vespertino</option>
-                <option value="Pregrado Presencial" data-select2-id="3">Pregrado Presencial</option>
-                <option value="Pregrado Online" data-select2-id="4">Pregrado Online</option>
-                <option value="Pregrado Semipresencial" data-select2-id="5">Pregrado Semipresencial</option>
-                <option value="Postgrado Online" data-select2-id="6">Postgrado Online</option>
-                <option value="Postgrado SemiPresencial" data-select2-id="7">Postgrado SemiPresencial</option>
-                <option value="Diplomado y Postitulos" data-select2-id="8">Diplomado y Postitulos</option>
+                <option value="1" data-select2-id="1">Pregrado Diurno</option>
+                <option value="2" data-select2-id="2">Pregrado Vespertino</option>
+                <option value="3" data-select2-id="3">Pregrado Presencial</option>
+                <option value="4" data-select2-id="4">Pregrado Online</option>
+                <option value="5" data-select2-id="5">Pregrado Semipresencial</option>
+                <option value="6" data-select2-id="6">Postgrado Online</option>
+                <option value="7" data-select2-id="7">Postgrado SemiPresencial</option>
+                <option value="8" data-select2-id="8">Diplomado y Postitulos</option>
 
                     </select>
                   </div>
