@@ -51,7 +51,7 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
     h4 {
-  text-shadow: 1px 1px #000000;
+  text-shadow: 1px 1px #ffffff;
 }
 </style>
     <div id="UNIACC" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
@@ -78,7 +78,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
-                  <h4 class="text-white text-center">
+                  <h4 class="text-black text-center">
                     <strong>CONOCE NUESTRAS BECAS Y BENEFICIOS
                    </strong>
                    EN UNIACC TE APOYAMOS PARA CRECER Y CREAR JUNTOS EL FUTURO
