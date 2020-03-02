@@ -118,7 +118,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <select class="form-control" id="carrera" required>
                       <option value="" data-select2-id="4">Selecciona una carrera</option>
                       
-      <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
+     <!-- <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
       <option value="Ingeniería en Administración de Empresas Mención Gestión Empresarial" data-select2-id="9">Ingeniería en Administración de Empresas Mención Gestión Empresarial</option>
       <option value="Ingeniería en Gestión en Tecnologías de la Información" data-select2-id="10">Ingeniería en Gestión en Tecnologías de la Información</option>
       <option value="Ingeniería en Tecnologías de la Información y Comunicaciones" data-select2-id="11">Ingeniería en  Tecnologías de la Información y Comunicaciones</option>
@@ -135,7 +135,7 @@ $enddate=strtotime("+5 days", $startdate);
       <option value="Ingeniería en Administración de Empresas Mención Marketing Digital" data-select2-id="22">Ingeniería en  Administración de Empresas Mención Marketing Digital</option>
       <option value="Psicología" data-select2-id="23">Psicología</option>
       <option value="Pedagogía en Educación Diferencial" data-select2-id="24">Pedagogía en Educación Diferencial</option>
-      <option value="Trabajo Social" data-select2-id="25">Trabajo Social</option>
+      <option value="Trabajo Social" data-select2-id="25">Trabajo Social</option>-->
 
                     </select>
                   </div>
