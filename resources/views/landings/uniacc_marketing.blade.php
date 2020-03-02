@@ -193,7 +193,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>
 
                    <div class="md-form ">
-                    <select class="form-control" id="carrera_pregOnline" required>
+                    <select class="form-control" id="carrera_pregonline" required>
                       <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
                       <option value="" data-select2-id="1">Administración Pública (OL)</option>
                       <option value="" data-select2-id="2">Administración Pública - Técnico  (OL)</option>
@@ -225,7 +225,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>
 
                    <div class="md-form ">
-                    <select class="form-control" id="carrera_diplomypostit" required>
+                    <select class="form-control" id="carrera_diplomado" required>
                       <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
                       <option value="" data-select2-id="1">Diplomado en Estrategia y Comunicación Digital (SP)</option>
                       <option value="" data-select2-id="2">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
@@ -468,8 +468,87 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-      
+    $(function() {
+
+  $("#modalidad").on('change', function() {
+
+    var selectValue = $(this).val();
+    switch (selectValue) {
+ case 1:
+          $('#carrera_diplomado').addClass('hide');
+          $('#carrera_postonline').addClass('hide');
+          $('#carrera_postsemip').addClass('hide');
+          $('#carrera_pregdiurno').removeClass('hide');
+          $('#carrera_pregvespert').addClass('hide');
+          $('#carrera_pregonline').addClass('hide');
+          $('#carrera_pregsemip').addClass('hide');
+
+    break;
+
+ case 2:
+         $('#carrera_diplomado').addClass('hide');
+          $('#carrera_postonline').addClass('hide');
+          $('#carrera_postsemip').addClass('hide');
+          $('#carrera_pregdiurno').addClass('hide');
+          $('#carrera_pregvespert').removeClass('hide');
+          $('#carrera_pregonline').addClass('hide');
+          $('#carrera_pregsemip').addClass('hide');
+    break;
+
+ case 3:
+          $('#carrera_diplomado').addClass('hide');
+          $('#carrera_postonline').addClass('hide');
+          $('#carrera_postsemip').addClass('hide');
+          $('#carrera_pregdiurno').addClass('hide');
+          $('#carrera_pregvespert').addClass('hide');
+          $('#carrera_pregonline').removeClass('hide');
+          $('#carrera_pregsemip').addClass('hide');
+ case 4:
+          $('#carrera_diplomado').addClass('hide');
+          $('#carrera_postonline').addClass('hide');
+          $('#carrera_postsemip').addClass('hide');
+          $('#carrera_pregdiurno').addClass('hide');
+          $('#carrera_pregvespert').addClass('hide');
+          $('#carrera_pregonline').addClass('hide');
+          $('#carrera_pregsemip').removeClass('hide');
+    break;
+    case 5:
+          $('#carrera_diplomado').addClass('hide');
+          $('#carrera_postonline').removeClass('hide');
+          $('#carrera_postsemip').addClass('hide');
+          $('#carrera_pregdiurno').addClass('hide');
+          $('#carrera_pregvespert').addClass('hide');
+          $('#carrera_pregonline').addClass('hide');
+          $('#carrera_pregsemip').addClass('hide'); 
+    break;
+     case 6:
+          $('#carrera_diplomado').addClass('hide');
+          $('#carrera_postonline').addClass('hide');
+          $('#carrera_postsemip').removeClass('hide');
+          $('#carrera_pregdiurno').addClass('hide');
+          $('#carrera_pregvespert').addClass('hide');
+          $('#carrera_pregonline').addClass('hide');
+          $('#carrera_pregsemip').addClass('hide');
+    break;
+     case 7:
+          $('#carrera_diplomado').removeClass('hide');
+          $('#carrera_postonline').addClass('hide');
+          $('#carrera_postsemip').addClass('hide');
+          $('#carrera_pregdiurno').addClass('hide');
+          $('#carrera_pregvespert').addClass('hide');
+          $('#carrera_pregonline').addClass('hide');
+          $('#carrera_pregsemip').addClass('hide');
+    break;
+default:
+          alert("OPCION INVALIDA.")
         
+    }
+
+  }).change();
+
+});
+
+
     
     </script>
     
