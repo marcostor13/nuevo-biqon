@@ -1,123 +1,78 @@
 @extends('layouts.landing')
 
-@section('title', 'La Polar')
+@section('title', 'Mundo Credito')
 
 @section('content')
 <?php
 $startdate=strtotime("Today");
-$enddate=strtotime("+5 days", $startdate);
+$enddate=strtotime("+15 days", $startdate);
 ?>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<style type="text/css">
-    
-.card {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  border: 0;
-  font-weight: 400;
-}
-.card[class*=border] {
-  border: 1px solid #9e9e9e;
-  box-shadow: none;
-}
-.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
-  font-weight: 400;
-}
-.card .card-body .card-title a {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-title a:hover {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-text {
-  color: #747373;
-  font-size: 0.9rem;
-  font-weight: 400;
-}
-.card .md-form label {
-  font-weight: 300;
-}
+<style>
+.opaco{
+    display: none !important; 
 
-.oscurecer {
-  background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    )
-    }
+}
+.input{
+  border-color: #A1CBF3 !important;
     
+}
 </style>
-
-   <!-- <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">-->
+    <div id="mundocredito" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:200px; max-height:150px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="lapolar">
+            <img style="max-width:250px; max-height:100px " class="img-fluid col-10 col-md-3 mt-2" src="{{$landing->logo}}" alt="mundocredito">
 
-             <div id="cont1" class="p-5 ">
-                <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
+            <div id="cont1" class="p-5 ">
+                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
+                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar </button>
             </div>
+
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
-                                 <a href="tel:+56967664209" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
+
             <div id="cont2" class="p-5 hide">
-                <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
+                <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                 <p class="text-black">
-                  Le Informamos que su deuda de: <strong> LA POLAR</strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
+                   Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz.
+                    
+                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
                 </p>
-
-                
-              <div class="date btn bg-danger text-white col-12 mt-4">
+                <div class="date btn bg-primary text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
+                <button onclick='window.location.href="http://www.mundocredito.cl/pagos.html"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
 
-               <!-- <button  class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar
-                  <a href="tel:+34678567876">Aquí el texto que quieras</a>        
-                 class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar</button>-->
-
-                <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
-                    <!--<span>Convenio de pago, Contactar</span>-->
-                    <a href="tel:+56967664209" class="btn bg-danger text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
-                <!-- <</div>-->
-               <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
                 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
-                
-                <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56967664209"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-
-                    <a onclick="eventosLanding('Correo');" href="mailto:jesus.binteraction@gmail.com?subject=Landing%20La%20Polar"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
-                </div>
-                
+                <div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56964386129&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56964386129"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:mundocredito@prainabogados.cl?subject=Landing%20Mundo%20Credito"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                </div>       
             </div>
-           <div id="cont3" class="p-2 pl-5 pr-5 hide">
+            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
-                    </div>
+            </div>
         </div>
     </div>
 
     <script>
-   //EVENT 1
-        
-        $(function(){
+
+     $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
@@ -156,9 +111,9 @@ $enddate=strtotime("+5 days", $startdate);
                         }
                     });
                 }else{
-                        $('#cont1').addClass('hide');
+                    $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí.");
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
                 }
             })
             .fail(function() {
@@ -173,8 +128,7 @@ $enddate=strtotime("+5 days", $startdate);
             let json_datos = getAllUrlParameter(); 
 
             json_datos.nombre = $('#name').text();
-            //json_datos.monto = $('#pay').text();
-
+            
             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
@@ -196,10 +150,8 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Ejecutivo': getUrlParameter('data1'),
-                    'Credito Cliente': getUrlParameter('data2'),
-                    'landing': '{!! $landing->name !!}'
-                   
+                     'ejecutivo': getUrlParameter('data1'),
+                   'landing': '{!! $landing->name !!}'
                     
                 }
             }else{
@@ -207,15 +159,15 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
+                   // 'monto': getUrlParameter('monto'),
                     'rut': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
-                    'Ejecutivo': getUrlParameter('data1'),
-                    'Credito Cliente': getUrlParameter('data2'),
+                    'phone': getUrlParameter('telefono'),
+                    'ejecutivo': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com"];  
+
+            var correo = ["mundocredito@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -239,8 +191,7 @@ $enddate=strtotime("+5 days", $startdate);
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
-                      eventosLanding('Compromiso de Pago');
-
+                     eventosLanding('Compromiso de Pago');
                 }
             })
             .done(function(e) {
@@ -306,6 +257,10 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-     </script>
+      
+        
+    
+    </script>
+    
 
 @endsection
