@@ -53,6 +53,8 @@ $enddate=strtotime("+5 days", $startdate);
    p {
   text-shadow: 1px 1px #ffffff;
 }
+.purple {  background-color: #db0780;}
+.orange {  background-color: #eb600f;}
 </style>
 
   <div id="UNIACC" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
@@ -65,13 +67,13 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
+                <button onclick="event1(); return false;" class="btn orange text-white col-12 mt-4"> Validar </button>
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
-                                 <a href="tel:+56967664209" class="btn bg-danger text-black col-12 mt-4"> Contactar</a>
+                                 <a href="tel:+56967664209" class="btn orange text-black col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
@@ -79,11 +81,11 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black">
-                  Le Informamos que su deuda de: <strong> UNIACC</strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
+                  Usted, tiene una deuda con <strong> UNIACC</strong> por concepto de no pago. <br> Le ofrecemos las siguientes opciones, para regularizar su deuda pendiente:
                 </p>
 
                 
-              <div class="date btn bg-danger text-white col-12 mt-4">
+              <div class="date btn purple text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
@@ -94,11 +96,11 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
-                    <a href="tel:+56967664209" class="btn bg-danger text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                    <a href="tel:+56967664209" class="btn orange text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
                <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn purple text-white col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
               <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
