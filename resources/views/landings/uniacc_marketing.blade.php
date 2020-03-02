@@ -75,8 +75,7 @@ $enddate=strtotime("+5 days", $startdate);
             </a>
 
             <div id="cont1" class="p-3 ">
-                  <div class="card">     
-                <div class="card-body">
+                 
                   <!-- Heading -->
                   <h4 class="text-black text-center">
                     <strong>CONOCE NUESTRAS BECAS Y BENEFICIOS
@@ -84,7 +83,8 @@ $enddate=strtotime("+5 days", $startdate);
                    EN UNIACC TE APOYAMOS PARA CRECER Y CREAR JUNTOS EL FUTURO
                   </h4>
                   <hr>
-
+                   <div class="card">     
+                <div class="card-body">
                   <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
