@@ -7,6 +7,11 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
 <style>
 .opaco{
     display: none !important; 
@@ -465,15 +470,8 @@ $enddate=strtotime("+5 days", $startdate);
 
             return obj;  
         };
-/*
-    $(function() {
 
-  $("#modalidad").on('change', function() {
 
-    var selectValue = $(this).val();
-    switch (selectValue) {
-
-      */
 
      $(function() {
 
@@ -545,45 +543,13 @@ $enddate=strtotime("+5 days", $startdate);
           $('#carrera_pregonline').addClass('hide');
           $('#carrera_pregsemip').addClass('hide');
     break;
-
+default:
+          alert("OPCION INVALIDA.")
+        }
   }
 
-});
-
- /* $(function() {
-
-  $("#modalidad").on('change', function() {
-
-    var selectValue = $(this).val();
-    switch (selectValue) {
-
-      case "1":
-        $("#carrera_postonline").show();
-        $("#carrera_pregonline").hide();
-        $("#carrera_pregsemip").hide();
-        break;
-
-      case "2":
-        $("#div1").hide();
-        $("#div2").show();
-        $("#div3").hide();
-        break;
-
-      case "3":
-        $("#div1").hide();
-        $("#div2").hide();
-        $("#div3").show();
-        break;
-
-    }
-
-  }).change();
-
-});*/
-
-
-    
-    </script>
+});    
+</script>
     
 
 @endsection
