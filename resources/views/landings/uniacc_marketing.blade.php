@@ -475,12 +475,12 @@ $enddate=strtotime("+5 days", $startdate);
 
       */
 
-   /*  $(function() {
+     $(function() {
 
   $("#modalidad").on('change', function() {
 
  switch(modalidad) {
- case 1:
+ case "1":
           $('#carrera_diplomado').addClass('hide');
           $('#carrera_postonline').addClass('hide');
           $('#carrera_postsemip').addClass('hide');
@@ -491,7 +491,7 @@ $enddate=strtotime("+5 days", $startdate);
 
     break;
 
- case 2:
+ case "2":
          $('#carrera_diplomado').addClass('hide');
           $('#carrera_postonline').addClass('hide');
           $('#carrera_postsemip').addClass('hide');
@@ -501,7 +501,7 @@ $enddate=strtotime("+5 days", $startdate);
           $('#carrera_pregsemip').addClass('hide');
     break;
 
- case 3:
+ case "3":
           $('#carrera_diplomado').addClass('hide');
           $('#carrera_postonline').addClass('hide');
           $('#carrera_postsemip').addClass('hide');
@@ -509,7 +509,7 @@ $enddate=strtotime("+5 days", $startdate);
           $('#carrera_pregvespert').addClass('hide');
           $('#carrera_pregonline').removeClass('hide');
           $('#carrera_pregsemip').addClass('hide');
- case 4:
+ case "4":
           $('#carrera_diplomado').addClass('hide');
           $('#carrera_postonline').addClass('hide');
           $('#carrera_postsemip').addClass('hide');
@@ -518,7 +518,7 @@ $enddate=strtotime("+5 days", $startdate);
           $('#carrera_pregonline').addClass('hide');
           $('#carrera_pregsemip').removeClass('hide');
     break;
-    case 5:
+    case "5":
           $('#carrera_diplomado').addClass('hide');
           $('#carrera_postonline').removeClass('hide');
           $('#carrera_postsemip').addClass('hide');
@@ -527,7 +527,7 @@ $enddate=strtotime("+5 days", $startdate);
           $('#carrera_pregonline').addClass('hide');
           $('#carrera_pregsemip').addClass('hide'); 
     break;
-     case 6:
+     case "6":
           $('#carrera_diplomado').addClass('hide');
           $('#carrera_postonline').addClass('hide');
           $('#carrera_postsemip').removeClass('hide');
@@ -536,7 +536,7 @@ $enddate=strtotime("+5 days", $startdate);
           $('#carrera_pregonline').addClass('hide');
           $('#carrera_pregsemip').addClass('hide');
     break;
-     case 7:
+     case "7":
           $('#carrera_diplomado').removeClass('hide');
           $('#carrera_postonline').addClass('hide');
           $('#carrera_postsemip').addClass('hide');
@@ -548,9 +548,9 @@ $enddate=strtotime("+5 days", $startdate);
 
   }
 
-});*/
+});
 
-  $(function() {
+ /* $(function() {
 
   $("#modalidad").on('change', function() {
 
@@ -579,7 +579,7 @@ $enddate=strtotime("+5 days", $startdate);
 
   }).change();
 
-});
+});*/
 
 
     
