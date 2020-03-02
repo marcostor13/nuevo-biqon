@@ -122,7 +122,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <label for="form2"></label>
                   </div>  
 
-                  <div class="md-form" id="modalidad">
+                  <div class="md-form" id="mod">
                     <select class="form-control" id="modalidad" required>
                       <option value="" data-select2-id="0">Selecciona una carrera</option>  
                 <option value="1" data-select2-id="1">Pregrado Diurno</option>
@@ -476,8 +476,8 @@ $enddate=strtotime("+5 days", $startdate);
      $(function() {
 
   $("#modalidad").on('change', function() {
-
- switch(modalidad) {
+ var selectValue = $(this).val();
+    switch (selectValue) {
  case "1":
           $('#carrera_diplomado').addClass('hide');
           $('#carrera_postonline').addClass('hide');
