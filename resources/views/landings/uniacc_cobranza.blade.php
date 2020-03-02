@@ -46,8 +46,13 @@ $enddate=strtotime("+5 days", $startdate);
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     )
-    }
-    
+    }h4
+     {
+  text-shadow: 1px 1px #000000;
+}
+   p {
+  text-shadow: 1px 1px #000000;
+}
 </style>
 
   <div id="UNIACC" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
