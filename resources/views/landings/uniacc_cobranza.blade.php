@@ -62,7 +62,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UNIACC">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UNIACC ">
 
              <div id="cont1" class="p-5 ">
                 <h4 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
@@ -83,6 +83,8 @@ $enddate=strtotime("+5 days", $startdate);
                 <p class="text-black">
                   Usted, tiene una deuda con <strong> UNIACC</strong> por concepto de no pago. <br> Le ofrecemos las siguientes opciones, para regularizar su deuda pendiente:
                 </p>
+
+                <div></div>
 
                 
               <div class="date btn purple text-white col-12 mt-4">
