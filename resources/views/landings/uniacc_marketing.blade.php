@@ -59,15 +59,15 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UNIACC">
             
 
-            <a target="_blank" href="https://www.uniacc.cl/" class="btn bg-primary text-white col-8 mt-4">Ir a la página web
+            <a target="_blank" href="https://www.uniacc.cl/" class="btn bg-danger text-white col-4 mt-4">Ir a la página web
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
-            <a target="_blank" href="https://universidad.uniacc.cl/admision2020#carreras" class="btn bg-primary text-white col-8 mt-4">Carreras
+            <a target="_blank" href="https://universidad.uniacc.cl/admision2020#carreras" class="btn bg-primary text-white col-4 mt-4">Carreras
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
-            <a target="_blank" href="https://universidad.uniacc.cl/admision2020#beca-beneficio" class="btn bg-primary text-white col-8 mt-4">Becas
+            <a target="_blank" href="https://universidad.uniacc.cl/admision2020#beca-beneficio" class="btn bg-warning text-white col-4 mt-4">Becas
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
