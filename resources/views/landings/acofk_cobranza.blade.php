@@ -1,4 +1,4 @@
-@extends('layouts.landing')
+nds('layouts.landing')
 
 @section('title', 'ACOFK LMTDA')
 
