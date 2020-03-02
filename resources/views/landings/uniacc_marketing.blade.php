@@ -78,7 +78,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
-                  <h4 class="dark-grey-text text-center">
+                  <h4 class="text-white text-center">
                     <strong>CONOCE NUESTRAS BECAS Y BENEFICIOS
                    </strong>
                    EN UNIACC TE APOYAMOS PARA CRECER Y CREAR JUNTOS EL FUTURO
