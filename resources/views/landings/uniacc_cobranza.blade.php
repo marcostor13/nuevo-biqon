@@ -48,10 +48,10 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }h4
      {
-  text-shadow: 3px 3px #000000;
+  text-shadow: 2px 2px #000000;
 }
    p {
-  text-shadow: 3px 3px #000000;
+  text-shadow: 2px 2px #000000;
 }
 .purple {  background-color: #db0780;}
 .orange {  background-color: #eb600f;}
