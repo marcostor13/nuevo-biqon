@@ -53,8 +53,8 @@ $enddate=strtotime("+5 days", $startdate);
     h4 {
   text-shadow: 1px 1px #ffffff;
 }
-#purple { bg-color: #db0780;}
-#orange { bg-color: #eb600f;}
+#purple {  background-color: #db0780;}
+#orange {  background-color: #eb600f;}
 </style>
     <div id="UNIACC" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
@@ -72,7 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
-            <a target="_blank" href="https://universidad.uniacc.cl/admision2020#beca-beneficio" class="btn bg-warning text-white col-4 mt-4">Becas
+            <a target="_blank" href="https://universidad.uniacc.cl/admision2020#beca-beneficio" class="btn orange text-white col-4 mt-4">Becas
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
