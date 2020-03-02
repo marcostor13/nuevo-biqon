@@ -119,7 +119,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="md-form">
                     <select class="form-control" id="modalidad" required>
-                      <option value="" data-select2-id="4">Selecciona una carrera</option>
+                      <option value="" data-select2-id="0">Selecciona una carrera</option>
                       
                 <option value="Pregrado Diurno" data-select2-id="1">Pregrado Diurno</option>
                 <option value="Pregrado Vespertino" data-select2-id="2">Pregrado Vespertino</option>
@@ -134,20 +134,120 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>
 
                   <div class="md-form ">
-                    <select class="form-control" id="carrera_postOnline" required>
-                      <option value="" data-select2-id="4">Selecciona una carrera de interes</option>
-                      <option value="" data-select2-id="4">Magíster en Administración de Empresa - MBA(OL)</option>
-                      <option value="" data-select2-id="4">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
+                    <select class="form-control" id="carrera_postonline" required>
+                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
+                      <option value="" data-select2-id="1">Magíster en Administración de Empresa - MBA(OL)</option>
+                      <option value="" data-select2-id="2">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
                     </select>
                   </div>
 
                   <div class="md-form">
-                    <select class="form-control" id="carrera" required>
+                    <select class="form-control" id="carrera_postsemip" required>
+                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
+                      <option value="" data-select2-id="1">Magíster en Building Information Modeling Management - BIM (SP)</option>
+                      <option value="" data-select2-id="2">Magíster en Diseño Arquitectónico Sustentable (SP)</option>
+                      <option value="" data-select2-id="3">Magíster en Intervención Sostenible del Patrimonio Cultural Arquitectónico (SP)</option>
+                      <option value="" data-select2-id="4">Magíster en Paisajismo Urbano (SP)</option>
+                      <option value="" data-select2-id="5">Magíster en Estética de Música Popular (SP)</option>
+                      <option value="" data-select2-id="6">Magíster en Gestión de Proyectos Artísticos (SP)</option>
+                      <option value="" data-select2-id="7">Magíster en Coaching Organizacional (SP)</option>
+                      <option value="" data-select2-id="8">Magíster en Derecho de Familia e Intervención Familiar (SP)</option>
+                      <option value="" data-select2-id="9">Magíster en Gestión Estratégica de la Comunicación (SP)</option>
+                      <option value="" data-select2-id="10">Magíster en Intervención con Jóvenes y Adolescentes (SP)</option>
+                    </select>
+                  </div>
+
+                   <div class="md-form ">
+                    <select class="form-control" id="carrera_pregdiurno" required>
+                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
+                      <option value="" data-select2-id="1">Arquitectura</option>
+                      <option value="" data-select2-id="2">Artes Visuales</option>
+                      <option value="" data-select2-id="3">Comunicación Audiovisual - Cine</option>
+                      <option value="" data-select2-id="4">Comunicación Audiovisual - Guiones</option>
+                      <option value="" data-select2-id="5">Comunicación Audiovisual - Televisión</option>
+                      <option value="" data-select2-id="6">Comunicación Digital - Animación Digital</option>
+                      <option value="" data-select2-id="7">Comunicación Digital - Diseño y Desarrollo de Videojuegos</option>
+                      <option value="" data-select2-id="8">Danza y Coreografía</option>
+                      <option value="" data-select2-id="9">Derecho</option>
+                      <option value="" data-select2-id="10">Diseño Gráfico - Especialidad Multimedia</option>
+                      <option value="" data-select2-id="11">Diseño de Imagen - Especialidad Moda</option>
+                      <option value="" data-select2-id="12">Ingeniería Comercial</option>
+                      <option value="" data-select2-id="13">Música e Interpretación</option>
+                      <option value="" data-select2-id="14">Música y Composición</option>
+                      <option value="" data-select2-id="15">Periodismo</option>
+                      <option value="" data-select2-id="16">Psicología</option>
+                      <option value="" data-select2-id="17">Publicidad</option>
+                      <option value="" data-select2-id="18">Teatro y Comunicación Escénica</option>
+                      <option value="" data-select2-id="19">Traducción e Interpretariado Bilingüe (Inglés - Español)</option>
+                    </select>
+                  </div>
+
+                   <div class="md-form ">
+                    <select class="form-control" id="carrera_pregvespert" required>
+                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
+                      <option value="" data-select2-id="1">Derecho (Vesp.)</option>
+                      <option value="" data-select2-id="2">Ingeniería Comercial (Vesp.)</option>
+                      <option value="" data-select2-id="3">Psicología (Vesp.)</option>
+                      <option value="" data-select2-id="4">Teatro y Comunicación Escénica (Vesp.)</option>
+                    </select>
+                  </div>
+
+                   <div class="md-form ">
+                    <select class="form-control" id="carrera_pregOnline" required>
+                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
+                      <option value="" data-select2-id="1">Administración Pública (OL)</option>
+                      <option value="" data-select2-id="2">Administración Pública - Técnico  (OL)</option>
+                      <option value="" data-select2-id="3">Bibliotecología y Gestión de la Información - Técnico (OL)</option>
+                      <option value="" data-select2-id="4">Bibliotecología y Gestión de la Información (OL)</option>
+                      <option value="" data-select2-id="5">Ingeniería en Administración y Gestión de Negocios (OL)</option>
+                      <option value="" data-select2-id="6">Contador Auditor (OL)</option>
+                      <option value="" data-select2-id="7">Contador Auditor - Técnico  (OL)</option>
+                      <option value="" data-select2-id="8">Ingeniería Comercial (OL)</option>
+                      <option value="" data-select2-id="9">Ingeniería Comercial - Profesional (OL)</option>
+                      <option value="" data-select2-id="10">Ingeniería Comercial - Técnico (OL)</option>
+                      <option value="" data-select2-id="11">Ingeniería en Control de Gestión (OL)</option>
+                      <option value="" data-select2-id="12">Ingeniería Informática Multimedia (OL)</option>
+                      <option value="" data-select2-id="13">Ingeniería Informática Multimedia - Técnico (OL)</option>
+                      <option value="" data-select2-id="14">Trabajo Social (OL)</option>
+                      <option value="" data-select2-id="15">Licenciatura en Trabajo Social (OL)</option>
+                      <option value="" data-select2-id="16">Trabajo Social - Técnico (OL)</option>
+                    </select>
+                  </div>
+
+                   <div class="md-form ">
+                    <select class="form-control" id="carrera_pregsemip" required>
+                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
+                      <option value="" data-select2-id="1">Arquitectura (SP)</option>
+                      <option value="" data-select2-id="2">Diseño de Interiores y Ambientes (SP)</option>
+                      <option value="" data-select2-id="3">Psicología (SP)</option>
+                      <option value="" data-select2-id="4"> Periodismo (SP)</option>
+                    </select>
+                  </div>
+
+                   <div class="md-form ">
+                    <select class="form-control" id="carrera_diplomypostit" required>
+                      <option value="" data-select2-id="0">Selecciona una carrera de interes</option>
+                      <option value="" data-select2-id="1">Diplomado en Estrategia y Comunicación Digital (SP)</option>
+                      <option value="" data-select2-id="2">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
+                      <option value="" data-select2-id="3">Diplomado en Finanzas y Gestión de Proyectos (OL)</option>
+                      <option value="" data-select2-id="4">Diplomado en Gestión de Negocios (OL)</option>
+                      <option value="" data-select2-id="5">Diplomado en Habilidad Directivas (SP)</option>
+                      <option value="" data-select2-id="6">Diplomado en Interoperabilidad y Plataformas BIM (SP)</option>
+                      <option value="" data-select2-id="7">Diplomado en Juventud y Adolescencia (SP)</option>
+                      <option value="" data-select2-id="8">Diplomado en Negociación y Liderazgo en Escenarios de Conflicto (SP)</option>
+                      <option value="" data-select2-id="9">Diplomado en Protocolos Obtención de Datos 3D e Infraestructura (SP)</option>
+                      <option value="" data-select2-id="10">Postítulo en Intervención con Jóvenes y Adolecentes (SP)</option>
+                      <option value="" data-select2-id="11">Diplomado en Coaching Fenomenológico (SP)</option>
+                    </select>
+                  </div>
+
+                   <!--<div class="md-form ">
+                    <select class="form-control" id="carrera_postG_Online" required>
                       <option value="" data-select2-id="4">Selecciona una carrera de interes</option>
                       <option value="" data-select2-id="4">Magíster en Administración de Empresa - MBA(OL)</option>
                       <option value="" data-select2-id="4">Magíster en Tecnólogia Educativa E Innovacion (OL)</option>
                     </select>
-                  </div>
+                  </div>-->
 
                   <div class="text-center">
                     <hr>
