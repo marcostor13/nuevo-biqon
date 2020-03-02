@@ -56,16 +56,6 @@ $enddate=strtotime("+5 days", $startdate);
 .purple {  background-color: #db0780;}
 .orange {  background-color: #eb600f;}
 
- .boton_personalizado{
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffffff;
-    background-color: #1883ba;
-    border-radius: 6px;
-    border: 2px solid #0016b0;
-  }
 </style>
     <div id="UNIACC" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
@@ -75,7 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UNIACC">
             
 
-            <a target="_blank" href="https://www.uniacc.cl/" class="btn bg-danger text-white col-4 mt-4">Ir a la página web
+            <a target="_blank" href="https://www.uniacc.cl/" class="btn bg-primary text-white col-4 mt-4">Ir a la página web
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
@@ -155,7 +145,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="text-center">
                     <hr>
-                    <button class="btn bg-warning text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
+                    <button class="btn orange text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
                     
                   </div>
             <div class="d-flex justify-content-around align-content-center mt-4"> 
