@@ -122,7 +122,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <label for="form2"></label>
                   </div>  
 
-                  <div class="md-form hide" id="carrera_postonline">
+                  <div class="md-form">
 <select class="form-control" id="carrera" required>
   <optgroup label="Postgrado Online">
   <option value="" data-select2-id="1">Magíster en Administración de Empresa - MBA(OL)</option>
