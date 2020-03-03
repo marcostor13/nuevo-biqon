@@ -78,7 +78,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
-                <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
+                <h4 class="text-white text-center">Estimado(a) <span id="name"></span></h4>
 
                 <h4 class="text-white">
                   Usted, tiene una deuda con <strong> UNIACC</strong> por concepto de no pago. <br> Le ofrecemos las siguientes opciones, para regularizar su deuda pendiente:
