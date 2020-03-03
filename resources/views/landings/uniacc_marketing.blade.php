@@ -73,11 +73,11 @@ $enddate=strtotime("+5 days", $startdate);
             <a target="_blank" href="https://www.uniacc.cl/" class="btn bg-primary text-white col-4 ">Ir a la página web
               <!--  <i class="fas fa-graduation-cap ml-2"></i>-->
             </a>
-
+            <br>
             <a target="_blank" href="https://universidad.uniacc.cl/admision2020#carreras" class="btn purple text-white col-3 ">Carreras
                <!-- <i class="fas fa-graduation-cap ml-2"></i>-->
             </a>
-
+            <br>
             <a target="_blank" href="https://universidad.uniacc.cl/admision2020#beca-beneficio" class="btn orange text-white col-3">Becas
             <i class="fas fa-graduation-cap ml-2"></i>-->
             </a>
