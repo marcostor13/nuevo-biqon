@@ -109,7 +109,7 @@ $enddate=strtotime("+5 days", $startdate);
                    
               <a onclick="eventosLanding('Llamar');" href="tel:+56967664209"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
-              <a onclick="eventosLanding('Correo');" href="mailto: jesus.binteracction@gmail.com?subject=Landing%20USS"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+              <a onclick="eventosLanding('Correo');" href="mailto: jesus.binteracction@gmail.com?subject=Landing%20UNIACC"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
             </div>
                 
             </div>
