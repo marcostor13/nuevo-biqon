@@ -7,11 +7,11 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-$name = $_GET['NOMBRE'];
+$name = $_GET['Nombre'];
 //echo "El identificador de este cliente es: $identificador";
 
 //ARICA
-?>
+?> 
 <style>
 .opaco{
     display: none !important; 
