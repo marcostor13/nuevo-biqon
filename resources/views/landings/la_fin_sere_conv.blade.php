@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-//$name = $_GET['NOMBRE'];
+$name = $_GET['NOMBRE'];
 //echo "El identificador de este cliente es: $identificador";
 
 //LAURA
@@ -88,9 +88,9 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont1" class="p-5 ">
                 <div class="card">     
                 <div class="card-body">
-                 <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
+                <h3 class="text-black text-center"> <strong> Estimado(a) <span><?php echo $name; ?></span>  </strong> </h3>
                    
-                   <h4>Aprovecha nuestro convenio y solicita tu crédito pre aprobado con Financoop</h4>
+                    <h4> Aprovecha nuestro convenio y solicita tu crédito pre aprobado con Financoop, para lo que necesites </h4>
                    
             </div> 
 
@@ -178,8 +178,9 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+             //json_datos.nombre = $('#name').text();
+           // json_datos.monto = $('#pay').text();
+            json_datos.nombre=getUrlParameter('nombre');
 
             events({    
                 'name': name,
