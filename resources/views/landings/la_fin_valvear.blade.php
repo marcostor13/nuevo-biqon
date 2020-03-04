@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-$name = $_GET['NOMBRE'];
+//$name = $_GET['NOMBRE'];
 //echo "El identificador de este cliente es: $identificador";
 ?>
 <style>
