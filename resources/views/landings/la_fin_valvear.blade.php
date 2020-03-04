@@ -92,7 +92,7 @@ $name = $_GET['NOMBRE'];
                   Financoop líder en la atención a pensionados desde hace más de diez años, quieremos invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>-->
                    
                    
-                    <h3>FINANCOOP TE ESPERA EN ESTAS VACACIONES CON UN  CRÉDITO PARA TI HASTA $1,5 MM ENVIA  ULT. LIQUID. Y C. DE IDENT. VIA WHATSAPP</h3>
+                    <h3>FINANCOOP EN MARZO  TE AYUDA CON UN CRÉDITO ESPECIAL PARA TI HASTA $1,5 MM ENVIA  ULT. LIQUID. Y C. DE IDENT. VIA WHATSAPP</h3>
 
             
             </div> 
