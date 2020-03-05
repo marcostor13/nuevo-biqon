@@ -196,7 +196,7 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Tipo Deuda': getUrlParameter('data1'),
+                    //'Tipo Deuda': getUrlParameter('data1'),
                    
                     
                 }
@@ -208,7 +208,7 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
                      'rut': getUrlParameter('rut'),
-                     'Tipo Deuda': getUrlParameter('data1'),
+                    // 'Tipo Deuda': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
