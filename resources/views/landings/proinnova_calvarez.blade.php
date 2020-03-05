@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-$data1 = $_GET['DATA1'];
+//$data1 = $_GET['DATA1'];
 ?>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
@@ -199,7 +199,7 @@ $data1 = $_GET['DATA1'];
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Tipo Deuda': getUrlParameter('data1'),
+                    //'Tipo Deuda': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -212,7 +212,7 @@ $data1 = $_GET['DATA1'];
                     //'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
                      'rut': getUrlParameter('rut'),
-                    'Tipo Deuda': getUrlParameter('data1'),
+                    //'Tipo Deuda': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
