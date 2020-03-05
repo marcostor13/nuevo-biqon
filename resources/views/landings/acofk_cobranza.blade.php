@@ -197,7 +197,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                     'Ejecutivo': getUrlParameter('data1'),
-                    'Credito Cliente': getUrlParameter('data2'),
+                    //'Credito Cliente': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -211,7 +211,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'rut': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                     'Ejecutivo': getUrlParameter('data1'),
-                    'Credito Cliente': getUrlParameter('data2'),
+                   // 'Credito Cliente': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
