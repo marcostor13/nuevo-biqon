@@ -94,7 +94,7 @@ h4 {
        <div class="card-body ">-->
             <h4 class="text-white text-center">
             <!--Arriendo de Juegos para Cumpleaños <br> -->
-            <strong>Disfurta la Vida<br> 
+            <strong>Disfruta la Vida<br> 
             Tenemos el Mejor Plan <br>
             para Ti y tu Familia </strong> </h4> 
 
