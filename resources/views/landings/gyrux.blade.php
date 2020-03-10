@@ -71,8 +71,8 @@ $enddate=strtotime("+5 days", $startdate);
                         <!--<div class="card">     
                             <div class="card-body">-->
                                 <!--<h3 class="text-white text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>-->
-                                 <p class="text-white"> <h4> 
-                                Gyrux <br> La Evolucion en Accesorios Mobile</h4> </p>
+                                 <p class="text-white"> <h4 class="text-white"> 
+                                Gyrux La Evolucion en Accesorios Mobile</h4> </p>
                                <!-- <p> Su ID admisión es: </p> 
                                <strong> <h4><p id="dato1" class="dato1"> </p> </h4>  </strong>
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
@@ -99,7 +99,7 @@ $enddate=strtotime("+5 days", $startdate);
                                     <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-hogar/arma-tu-play/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533781511.png"></a>
                                     </div>
 
-                                    <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <div class="d-flex text-white justify-content-around align-content-center mt-4">
                                       <!--<p>AUDIO</p>-->  <span>AUDIO</span>  <br><br>             
                                     <a onclick='window.location.href = "https://tienda.clarochile.cl/catalogo" '><img width="85" src="https://i.imgur.com/bjyoy12.png"> </a>
 
