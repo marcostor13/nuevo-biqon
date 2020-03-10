@@ -95,16 +95,16 @@ $enddate=strtotime("+5 days", $startdate);
                                      <!-- <p class="text-white text-center">ENERGIA</p>--> <!--<span class="text-white text-center">ENERGIA</span>--> <br>  <br>               
                                     <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-moviles/prepago/" '><span class="text-white text-center">ENERGIA</span><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533759347.png"></a>
 
-                                     <p  class="text-white text-center">PROTECCION</p> <!--<span class="text-white text-center">PROTECCION</span>--> <br> <br>
-                                    <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-hogar/arma-tu-play/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533781511.png"></a>
+                                    <!-- <p  class="text-white text-center">PROTECCION</p> <span class="text-white text-center">PROTECCION</span>--> <br> <br>
+                                    <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-hogar/arma-tu-play/" '><span class="text-white text-center">PROTECCION</span><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533781511.png"></a>
                                     </div>
 
                                     <div class="d-flex text-white justify-content-around align-content-center mt-4">
-                                      <p class="text-white text-center">AUDIO</p>  <!--<span class="text-white text-center">AUDIO</span>-->  <br><br>
-                                        <a onclick='window.location.href = "https://tienda.clarochile.cl/catalogo" '><img width="85" src="https://i.imgur.com/bjyoy12.png"> </a>
+                                     <!-- <p class="text-white text-center">AUDIO</p>  <span class="text-white text-center">AUDIO</span>-->  <br><br>
+                                        <a onclick='window.location.href = "https://tienda.clarochile.cl/catalogo" '><span class="text-white text-center">AUDIO</span><img width="85" src="https://i.imgur.com/bjyoy12.png"> </a>
 
-                                     <p class="text-white text-center"> ALMACENAMIENTO</p>  <!--<span class="text-white text-center">ALMACENAMIENTO</span>--> <br><br>
-                                    <a onclick='window.location.href = "https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta" '><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                                   <!--  <p class="text-white text-center"> ALMACENAMIENTO</p>  <span class="text-white text-center">ALMACENAMIENTO</span>--> <br><br>
+                                    <a onclick='window.location.href = "https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta" '><span class="text-white text-center">ALMACENAMIENTO</span><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                     </div>
                             <!--</div>   
                         </div>-->
