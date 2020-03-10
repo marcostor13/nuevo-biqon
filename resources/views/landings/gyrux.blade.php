@@ -70,16 +70,16 @@ $enddate=strtotime("+5 days", $startdate);
                     <div id="cont2" class="p-2 pl-3 pr-3">
                         <!--<div class="card">     
                             <div class="card-body">-->
-                                <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>
+                                <!--<h3 class="text-white text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>-->
                                  <p class="text-white"> <h4> 
-                                Gyrux informa que puedes acceder a Todos estos Productos y Servicios.</h4> </p>
+                                Gyrux <br> La Evolucion en Accesorios Mobile</h4> </p>
                                <!-- <p> Su ID admisión es: </p> 
                                <strong> <h4><p id="dato1" class="dato1"> </p> </h4>  </strong>
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
                                <button onclick="Mens1();" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>-->
-                                <h4 class="text-grey text-center"> <p>INNOVACION Y TENDENCIAS</p> </h4>
+                                <h4 class="text-white text-center"> <p>INNOVACION Y TENDENCIAS</p> </h4>
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='window.location.href = "https://www.clarochile.cl/personas/cyber-planes-equipos/"'>
@@ -91,10 +91,10 @@ $enddate=strtotime("+5 days", $startdate);
                                     <img width="250" src="http://movilarena.com/wp-content/uploads/2012/01/sony-accesorios.jpg"></a>
                                 </div>-->
                                 
-                                <div class="d-flex justify-content-around align-content-center mt-4">
+                                <div class="d-flex text-white justify-content-around align-content-center mt-4">
                                       <p>ENERGIA</p> <br>  <br>               
                                     <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-moviles/prepago/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533759347.png"></a>
-                                    
+
                                      <p>PROTECCION</p><br> <br>
                                     <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-hogar/arma-tu-play/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533781511.png"></a>
                                     </div>
