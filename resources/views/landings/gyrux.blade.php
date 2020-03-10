@@ -79,29 +79,29 @@ $enddate=strtotime("+5 days", $startdate);
 
                                <button onclick="Mens1();" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>-->
-                                <h4 class="text-grey text-center"> <p>AUDIFONOS</p> </h4>
+                                <h4 class="text-grey text-center"> <p>INNOVACION Y TENDENCIAS</p> </h4>
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='window.location.href = "https://www.clarochile.cl/personas/cyber-planes-equipos/"'>
                                     <img width="250" src="https://i.imgur.com/P4qbN1u.png"></a>
                                 </div>
-                                 <h4 class="text-grey text-center"> <p>CARGADORES</p> </h4>
+                                 <!--<h4 class="text-grey text-center"> <p>CARGADORES</p> </h4>
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='window.location.href = "https://accesorios.clarochile.cl/"'>
                                     <img width="250" src="http://movilarena.com/wp-content/uploads/2012/01/sony-accesorios.jpg"></a>
-                                </div>
+                                </div>-->
                                 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                      <p>ALMACENAMIENTO</p>                  
+                                      <p>ENERGIA</p>                  
                                     <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-moviles/prepago/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533759347.png"></a>
-                                     <p>SOPORTES</p> 
+                                     <p>PROTECCION</p> 
                                     <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-hogar/arma-tu-play/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533781511.png"></a>
                                     </div>
 
                                     <div class="d-flex justify-content-around align-content-center mt-4">
-                                      <p>SELFIE STICK</p>                 
-                                    <a onclick='window.location.href = "https://tienda.clarochile.cl/catalogo" '><img width="85" src="https://i.imgur.com/bjyoy12.png"></a>
-                                     <p>CONTACTACTANOS</p> 
+                                      <!--<p>AUDIO</p>-->  <span>AUDIO</span>               
+                                    <a onclick='window.location.href = "https://tienda.clarochile.cl/catalogo" '><img width="85" src="https://i.imgur.com/bjyoy12.png"> </a>
+                                     <!--<p>ALMACENAMIENTO</p>-->  <span>ALMACENAMIENTO</span> 
                                     <a onclick='window.location.href = "https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta" '><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                     </div>
                             <!--</div>   
