@@ -68,8 +68,8 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>-->
 
                     <div id="cont2" class="p-2 pl-3 pr-3">
-                        <div class="card">     
-                            <div class="card-body">
+                        <!--<div class="card">     
+                            <div class="card-body">-->
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>
                                  <p class="text-white"> <h4> 
                                 Gyrux informa que puedes acceder a Todos estos Productos y Servicios.</h4> </p>
@@ -104,8 +104,8 @@ $enddate=strtotime("+5 days", $startdate);
                                      <p>CONTACTACTANOS</p> 
                                     <a onclick='window.location.href = "https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta" '><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                     </div>
-                            </div>   
-                        </div>
+                            <!--</div>   
+                        </div>-->
                     </div>
           
              
