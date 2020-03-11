@@ -154,7 +154,7 @@ $enddate=strtotime("+7 days", $startdate);
             let json_datos = getAllUrlParameter(); 
 
             json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+           // json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -174,21 +174,21 @@ $enddate=strtotime("+7 days", $startdate);
                 data = {
                     'mensaje': msg,
                     'Nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                    //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                   
+                   'Landing': '{!! $landing->name !!}'
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
-                    'rut': getUrlParameter('rut'),
-                    'phone': getUrlParameter('telefono'),
-                    'landing': '{!! $landing->name !!}'
+                    'Nombre': $('#name').text(),
+                    //'monto': getUrlParameter('monto'),
+                    'Rut': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Landing': '{!! $landing->name !!}'
                 } 
             }
 
