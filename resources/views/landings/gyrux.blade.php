@@ -135,7 +135,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
 
-
+                    <br><br> <hr> <br><br> 
                     <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967664209&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
