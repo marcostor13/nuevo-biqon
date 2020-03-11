@@ -56,58 +56,28 @@ $enddate=strtotime("+5 days", $startdate);
             
             <div class=col-md-12>
            
-                     <!--<div id="cont1" class="p-2 pl-5 pr-5">
-                         <div class="card">
-                        <div class="card-body">
-                        <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
-                        <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
-                        <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
-                        <h5 id="error"class="text-grey text-center mt-5"></h5>
-                       </div>
-                       </div> 
-                    </div>-->
-
                     <div id="cont2" class="p-2 pl-3 pr-3">
-                        <!--<div class="card">     
-                            <div class="card-body">-->
-                                <!--<h3 class="text-white text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>-->
-                                 <p class="text-white"> <h4 class="text-white text-center"> 
-                                Gyrux La Evolucion en Accesorios Mobile</h4> </p>
-                               <!-- <p> Su ID admisión es: </p> 
-                               <strong> <h4><p id="dato1" class="dato1"> </p> </h4>  </strong>
-                                <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
+                        <p class="text-white"> <h4 class="text-white text-center">Gyrux La Evolucion en Accesorios Mobile</h4> </p>   
+                        <h4 class="text-white text-center"> <p>INNOVACION Y TENDENCIAS</p> </h4>
+                            <div class="d-flex justify-content-around align-content-center mt-4">
+                                <a onclick='window.location.href = "#"'> <!--IR a Facebook / Instagram / tienda Online-->
+                                <img width="200" src="https://www.tecnobits.xyz/wp-content/uploads/2018/02/los-mejores-celulares-del-momento.jpg"></a>
+                            </div>   
+                            <div class="d-flex text-white justify-content-around align-content-center mt-4">
+                                 <br>  <br>               
+                                <a onclick='url(1);'><span class="text-white text-center">ENERGIA</span><img width="50" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533759347.png"></a>
 
-                               <button onclick="Mens1();" class="btn bg-primary text-white col-12 mt-2">PAGAR
-                                </button>-->
-                                <h4 class="text-white text-center"> <p>INNOVACION Y TENDENCIAS</p> </h4>
-
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='window.location.href = "#"'>
-                                    <img width="200" src="https://www.tecnobits.xyz/wp-content/uploads/2018/02/los-mejores-celulares-del-momento.jpg"></a>
+                                 <br> <br>
+                                <a onclick='url(2);'><span class="text-white text-center">PROTECCION</span><img width="50" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533781511.png"></a>
                                 </div>
-                                 <!--<h4 class="text-grey text-center"> <p>CARGADORES</p> </h4>
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='window.location.href = "https://accesorios.clarochile.cl/"'>
-                                    <img width="250" src="http://movilarena.com/wp-content/uploads/2012/01/sony-accesorios.jpg"></a>
-                                </div>-->
-                                
+
                                 <div class="d-flex text-white justify-content-around align-content-center mt-4">
-                                     <!-- <p class="text-white text-center">ENERGIA</p>--> <!--<span class="text-white text-center">ENERGIA</span>--> <br>  <br>               
-                                    <a onclick='window.location.href = "#" '><span class="text-white text-center">ENERGIA</span><img width="50" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533759347.png"></a>
+                                   <br><br>
+                                <a onclick='url(3);'><span class="text-white text-center">AUDIO</span><img width="50" src="https://i.imgur.com/bjyoy12.png"> </a>
 
-                                    <!-- <p  class="text-white text-center">PROTECCION</p> <span class="text-white text-center">PROTECCION</span>--> <br> <br>
-                                    <a onclick='window.location.href = "#" '><span class="text-white text-center">PROTECCION</span><img width="50" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533781511.png"></a>
-                                    </div>
-
-                                    <div class="d-flex text-white justify-content-around align-content-center mt-4">
-                                     <!-- <p class="text-white text-center">AUDIO</p>  <span class="text-white text-center">AUDIO</span>-->  <br><br>
-                                    <a onclick='window.location.href = "#" '><span class="text-white text-center">AUDIO</span><img width="50" src="https://i.imgur.com/bjyoy12.png"> </a>
-
-                                   <!--  <p class="text-white text-center"> ALMACENAMIENTO</p>  <span class="text-white text-center">ALMACENAMIENTO</span>--> <br><br>
-                                    <a onclick='window.location.href = "#" '><span class="text-white text-center">ALMACENAMIENTO</span><img width="50" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-                                    </div>
-                            <!--</div>   
-                        </div>-->
+                                 <br><br>
+                                <a onclick='url(4);'><span class="text-white text-center">ALMACENAMIENTO</span><img width="50" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                            </div>
                     </div>
           
              
@@ -118,24 +88,72 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-                    <!--<div id="cont4" class="p-2 pl-5 pr-5 hide">
-                        <div class="card">     
-                            <div class="card-body">
+
+                    <div id="c1" class="p-2 pl-5 pr-5 hide"> <!-- Energia-->
                         <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='window.location.href = "https://www.clarochile.cl/negocios/chat-servicios-moviles/" '>
-                                    <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
-                                </div>
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
-                                </div>
-                                </div>
+                            <a onclick='window.location.href = "#" '><img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
                         </div>
-                    </div>-->
+                        <div class="d-flex justify-content-around align-content-center mt-4">
+                            <a onclick='window.location.href="#" '><img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>    
+                        </div>
+                    </div>
+ 
+                    <div id="c2" class="p-2 pl-5 pr-5 hide"> <!-- Proteccion-->
+                        <div class="d-flex justify-content-around align-content-center mt-4">
+                            <a onclick='window.location.href = "#" '><img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
+                        </div>
+                        <div class="d-flex justify-content-around align-content-center mt-4">
+                            <a onclick='window.location.href="#" '><img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>    
+                        </div>
+                    </div>
+
+                    <div id="c3" class="p-2 pl-5 pr-5 hide"> <!-- Audio-->
+                        <div class="d-flex justify-content-around align-content-center mt-4">
+                            <a onclick='window.location.href = "#" '><img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
+                        </div>
+                        <div class="d-flex justify-content-around align-content-center mt-4">
+                            <a onclick='window.location.href="#" '><img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>    
+                        </div>
+                    </div>
+
+                    <div id="c4" class="p-2 pl-5 pr-5 hide"> <!-- Almacenamiento-->
+                        <div class="d-flex justify-content-around align-content-center mt-4">
+                            <a onclick='window.location.href = "#" '><img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
+                        </div>
+                        <div class="d-flex justify-content-around align-content-center mt-4">
+                            <a onclick='window.location.href="#" '><img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>    
+                        </div>
+                    </div>
+
+
+                    <div id="vale" class="p-2 pl-5 pr-5 hide"> <!-- Solicitud-->
+                        <div class="d-flex justify-content-around align-content-center mt-4">
+                            <a onclick='window.location.href = "#" '><img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
+                        </div>
+                        <div class="d-flex justify-content-around align-content-center mt-4">
+                            <a onclick='window.location.href="#" '><img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>    
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967664209&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56967664209"><img width="60" src="https://i.imgur.com/Oh5DCRW.png"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:sprieto@naztech.cl?subject=Landing%20Gyrux"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+
+                    <a class="ml-4" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/Gyruxcl/"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+
+                    <a class="ml-4" onclick="eventosLanding('Instagram');" href="https://www.instagram.com/gyruxcl/"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                </div>
+
                 </div>
             </div>
        </div>
    </div>
+
+
 
 
   <script>
@@ -196,9 +214,6 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
-
             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
@@ -242,10 +257,12 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                'email': correo
+                //'email': '{!! $landing->email !!}'
+                //'email': 'jose.bianchi@uss.cl'
             }
             $.ajaxSetup({
                 headers: {
@@ -346,7 +363,33 @@ $enddate=strtotime("+5 days", $startdate);
 
         } 
         
+    function url(idButton) {
+
+ switch(idButton) {
+ case 1:
+          $('#cont2').addClass('hide');
+          $('#c1').removeClass('hide');
+    break;
+
+ case 2:
+          $('#cont2').addClass('hide');
+          $('#c2').removeClass('hide');
+    break;
+
+ case 3:
+          $('#cont2').addClass('hide');
+          $('#c3').removeClass('hide'); 
+    break;
+ case 4:
+          $('#cont2').addClass('hide');
+          $('#c4').removeClass('hide'); 
+    break;
     
+default:
+          alert("OPCION INVALIDA.")
+        }
+
+   }
 
 
   
