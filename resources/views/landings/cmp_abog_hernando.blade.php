@@ -74,7 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black">
-                  Le Informamos que su deuda de: <strong> TANNER </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
+                 <strong>Tanner </strong>  informa que su crédito N°<span id="data1"></span> fue enviado a cobranza judicial, para suspender estas acciones contactarse urgente a N° <span id="data2"></span>
                 </p>
 
                 
@@ -126,7 +126,11 @@ $enddate=strtotime("+5 days", $startdate);
         }); 
 
          function event1(){
-    
+          var data1; 
+         data1= getUrlParameter('data1'); 
+          var data2; 
+         data2= getUrlParameter('data2'); 
+
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
@@ -148,7 +152,8 @@ $enddate=strtotime("+5 days", $startdate);
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
+                    $('#data1').text(data1);
+                    $('#data2').text(data2);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -196,8 +201,8 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Ejecutivo': getUrlParameter('data1'),
-                    'Credito Cliente': getUrlParameter('data2'),
+                    'Ejecutivo': getUrlParameter('data3'),
+                    'Credito Cliente': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -206,12 +211,12 @@ $enddate=strtotime("+5 days", $startdate);
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': $('#name').text(),
+                    'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
-                    'rut': getUrlParameter('rut'),
+                    'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Ejecutivo': getUrlParameter('data1'),
-                    'Credito Cliente': getUrlParameter('data2'),
+                    'Ejecutivo': getUrlParameter('data3'),
+                    'Credito Cliente': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
