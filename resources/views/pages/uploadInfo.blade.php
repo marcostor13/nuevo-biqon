@@ -37,7 +37,7 @@
             if(inputFile.prop('files').length > 0){
                 file =inputFile.prop('files')[0];
                 formdata.append("file", file);
-                formdata.append("pathname", window.location.pathname);
+                formdata.append("pathname", window.location.href);
             }
 
             $.ajaxSetup({

@@ -9,9 +9,7 @@ use Google\Cloud\Core\ExponentialBackoff;
 class GoogleController extends Controller
 {
     public function uploadDataBigQuery(Request $request){
-
-
-        return $request->pathname;
+        
 
         $pos = strpos($request->pathname, 'bint'); 
         if ($pos === false) {
