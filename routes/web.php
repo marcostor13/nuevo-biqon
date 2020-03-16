@@ -16,10 +16,13 @@ Route::get('/', function () {
 });
 
 Route::get('/urls', 'URLController@index'); 
+Route::get('/uploadInfo', 'URLController@uploadInfo'); 
 Route::get('/sinurls', 'URLController@indexSinUrls'); 
 Route::get('/dashboard', 'URLController@indexDashboard'); 
 Route::get('/uploads', 'URLController@indexUploads'); 
 Route::get('/newLanding', 'URLController@indexNewLanding'); 
+
+
 
 Route::get('/landings/{name}', 'LandingController@index'); 
 
@@ -30,6 +33,7 @@ Route::get('/messages', function () {
 });
 
 
+Route::post('/uploadDataBigQuery', 'GoogleController@uploadDataBigQuery'); 
 Route::post('/uploadFile', 'fileController@uploadFile'); 
 Route::post('/getItemsExcel', 'fileController@getItemsExcel'); 
 Route::post('/getURLs', 'fileController@getURLs'); 

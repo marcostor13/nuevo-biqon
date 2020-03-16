@@ -77,6 +77,13 @@ class URLController extends Controller
         return view('pages.urls',['path' => 'urls', 'role' => $role_user->role_id]);
     }
 
+    public function uploadInfo(Request $request){
+        $request->user()->authorizeRoles(['user', 'admin']);
+        $id = Auth::id();
+        $role_user = Role_User::where('user_id', $id)->first();       
+        return view('pages.uploadInfo',['path' => 'uploadInfo', 'role' => $role_user->role_id]);
+    }
+
     public function indexSinUrls(Request $request)
     {
         $request->user()->authorizeRoles(['user', 'admin']);
@@ -504,6 +511,9 @@ class URLController extends Controller
 
         return array('code' => 200, 'msg' => 'Datos Ingresados');
     }
+
+
+    
 
 
     /**
