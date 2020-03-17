@@ -76,7 +76,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black">
-                  Le Informamos que usted posee una deuda con <strong>  ISAPRE CONSALUD, S.A </strong> favor comunicarse con nosotros para su regularización a la brevedad. <br>  </p>
+                  Le Informamos que usted posee una deuda con <strong> ISAPRE COLMENA GOLDEN CROSS S.A. </strong> favor comunicarse con nosotros para su regularización a la brevedad. <br>  </p>
 
                 
               <div class="date btn bg-primary text-black col-12 mt-4">
