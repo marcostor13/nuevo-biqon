@@ -77,7 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
                   Le Informamos que su deuda de: <strong> Autopista Cental </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
                 </p>-->
                      <p class="text-black">
-                  Le Informamos que usted posee una deuda con <strong> Autopista Cental </strong> favor comunicarse con nosotros para su regularización a la brevedad. <br>  </p>
+                  Le Informamos que usted posee una deuda con <strong> Autopista Central </strong> favor comunicarse con nosotros para su regularización a la brevedad. <br>  </p>
 
 
                 
