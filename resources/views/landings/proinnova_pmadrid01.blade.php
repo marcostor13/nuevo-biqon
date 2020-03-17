@@ -74,9 +74,8 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-3 hide">
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
-               <p class="text-black">
-                  Le Informamos que su deuda de: <strong>  ISAPRE CONSALUD, S.A </strong> se encuentra en cobranza <span id="data1"></span>, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones de cobranza, le ofrecemos las siguientes opciones:
-                </p>
+                <p class="text-black">
+                  Le Informamos que usted posee una deuda con <strong> ISAPRE COLMENA GOLDEN CROSS S.A. </strong> favor comunicarse con nosotros para su regularización a la brevedad. <br>  </p>
 
                 
               <div class="date btn bg-primary text-black col-12 mt-4">
