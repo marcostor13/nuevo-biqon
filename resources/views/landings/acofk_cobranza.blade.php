@@ -73,9 +73,12 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 hide">
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
-                <p class="text-black">
-                  Le Informamos que su deuda de: <strong> ACOFK LMTDA</strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
-                </p>
+               <!-- <p class="text-black">
+                  Le Informamos que su deuda de: <strong> Autopista Cental </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
+                </p>-->
+                     <p class="text-black">
+                  Le Informamos que usted posee una deuda con <strong> Autopista Cental </strong> favor comunicarse con nosotros para su regularización a la brevedad. <br>  </p>
+
 
                 
               <div class="date btn bg-danger text-white col-12 mt-4">
