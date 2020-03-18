@@ -55,8 +55,8 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-           <img style="max-width:200px; max-height:150px " class="img-fluid col-10 col-md-3 mt-4" src="http://www.padsol.com/wp-content/uploads/2013/02/logo-autopista-central.png" alt="ACOFK LMTDA">
-            <img style="max-width:100px; max-height:100px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="ACOFK LMTDA">
+           <img style="max-width:220px; max-height:170px " class="img-fluid col-10 col-md-3 mt-2" src="http://www.padsol.com/wp-content/uploads/2013/02/logo-autopista-central.png" alt="ACOFK LMTDA">
+            <img style="max-width:100px; max-height:100px " class="img-fluid col-10 col-md-3 mt-2" src="{{$landing->logo}}" alt="ACOFK LMTDA">
 
              <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
