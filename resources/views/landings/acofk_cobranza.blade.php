@@ -50,10 +50,6 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-   <!-- <div id="ACOFK LMTDA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover; ">-->
-
-        <div class="opaco"></div>
-
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
            <img style="max-width:300px; max-height:250px " class="img-fluid col-10 col-md-3 mt-0" src="http://www.padsol.com/wp-content/uploads/2013/02/logo-autopista-central.png" alt="ACOFK LMTDA">
             <img style="max-width:100px; max-height:100px " class="img-fluid col-10 col-md-3 mt-0" src="{{$landing->logo}}" alt="ACOFK LMTDA">
