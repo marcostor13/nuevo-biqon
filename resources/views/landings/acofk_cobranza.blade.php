@@ -55,7 +55,8 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:200px; max-height:150px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="ACOFK LMTDA">
+           <img style="max-width:200px; max-height:150px " class="img-fluid col-10 col-md-3 mt-4" src="http://www.padsol.com/wp-content/uploads/2013/02/logo-autopista-central.png" alt="ACOFK LMTDA">
+            <img style="max-width:100px; max-height:100px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="ACOFK LMTDA">
 
              <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
@@ -92,18 +93,18 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
-                    <a href="tel:+56959085905" class="btn bg-danger text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                    <a href="tel:+56949008074" class="btn bg-danger text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
                <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56959085905&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56949008074&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56959085905"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56228981011"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
-                    <a onclick="eventosLanding('Correo');" href="mailto:pperez@acofk.cl?subject=Landing%20ACOFK%20LTDA"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:sms_leanding@acofk.cl?subject=Landing%20ACOFK%20LTDA"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>
                 
             </div>
@@ -218,7 +219,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["pperez@acofk.cl"];  
+            var correo = ["sms_leanding@acofk.cl"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
