@@ -106,7 +106,7 @@ $enddate=strtotime("+5 days", $startdate);
                                 <!--<button onclick="Mens3(); eventosLanding('Problema');" class="btn bg-primary text-white col-12 mt-2">TENGO UN PROBLEMA
                                 </button>-->
 
-                                <a onclick="eventosLanding('Problema'); Mens();" class="btn bg-primary text-black col-12 mt-4">TENGO UN PROBLEMA</a>
+                                <a onclick="eventosLanding('Problema'); Mens();" class="btn bg-primary text-white col-12 mt-4">TENGO UN PROBLEMA</a>
 
 
                                     <div class="d-flex justify-content-around align-content-center mt-4">
@@ -307,6 +307,8 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
                     $('#message').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
                 }
