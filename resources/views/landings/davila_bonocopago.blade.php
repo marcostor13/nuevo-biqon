@@ -83,8 +83,8 @@ $enddate=strtotime("+5 days", $startdate);
                                 Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</h4> </p>
                                 <h4> Su ID admisión es: </h4> <strong> <h4><p id="dato2" class="dato2"> </p> </h4>  </strong>
 
-                                <p><h4> Agradecemos contactar con </h4></p> 
-                                <p> <h4> <b  id="dato1" class="dato1"></b> para solicitud de bonos pendientes.</h4></p>
+                                <p><h4> Agradecemos contactar con: </h4>  
+                                 <h4> <b  id="dato1" class="dato1"></b> para solicitud de bonos pendientes.</h4></p>
                                
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
