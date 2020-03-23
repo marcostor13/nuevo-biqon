@@ -106,6 +106,8 @@ $enddate=strtotime("+5 days", $startdate);
                                 <button onclick="Mens3(); eventosLanding('Problema');" class="btn bg-primary text-white col-12 mt-2">TENGO UN PROBLEMA
                                 </button>
 
+                               <!-- <a onclick="eventosLanding('Problema'); Mens();" class="btn bg-primary text-black col-12 mt-4">TENGO UN PROBLEMA</a>-->
+
 
                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
@@ -202,7 +204,7 @@ $enddate=strtotime("+5 days", $startdate);
                 numero = 'https://www.nuevamasvida.cl/';
               }else if (prevision.indexOf('RIO BLANCO') > -1) {
                 numero = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
-              }else if (prevision.indexOf('COLMENA') > -1) {
+              }else if (prevision.indexOf('COLMENA GOLDEN CROSS') > -1) {
                 numero = 'https://www.colmena.cl/afiliados/#/login';
               }else if (prevision.indexOf('CHUQUICAMATA') > -1) {
                 numero = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
@@ -263,9 +265,9 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Id_Admision': getUrlParameter('data1'),
-                    'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data3'),
+                    'ISAPRE': getUrlParameter('data1'),
+                    'Id_Admision': getUrlParameter('data2'),
+                   // 'Estado': getUrlParameter('data3'),
                    // 'Ley': getUrlParameter('data4')
                     
                 }
@@ -277,10 +279,10 @@ $enddate=strtotime("+5 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'phone': getUrlParameter('telefono'),
-                    'Id_Admision': getUrlParameter('data1'),
-                    'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data3'),
-                    'Ley': getUrlParameter('data4'),
+                    'ISAPRE': getUrlParameter('data1'),
+                    'Id_Admision': getUrlParameter('data2'),
+                   // 'Estado': getUrlParameter('data3'),
+                   // 'Ley': getUrlParameter('data4'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
