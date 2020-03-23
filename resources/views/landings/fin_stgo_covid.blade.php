@@ -86,14 +86,14 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card">     
                 <div class="card-body">
                         <div class="d-flex justify-content-around align-content-center mt-4">
-                        <img width="150" src="https://www.financoop.cl/wp-content/uploads/2020/03/MG_0075-copy_MG_0075-copy.jpg">
+                        <img width="150" height="250" src="https://www.financoop.cl/wp-content/uploads/2020/03/MG_0075-copy_MG_0075-copy.jpg">
                          </div>
                    
                  <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
                    
                    <h4>Nos Preocupamos por tu bienestar y seguridad</h4>
                    <p> En Financoop tenemos un compromiso de corazón por estar siempre cerca de Ustedes y sus familias, apoyándolos en todo lo que necesiten. En ese contexto, estamos realizando todos nuestros esfuerzos para asegurar un servicio continuo para nuestros socios y clientes ante la contingencia del COVID-19, siempre resguardando a nuestros colaboradores, socios y la comunidad.
-                   </br> De igual manera, lo invitamos preferentemente a realizar sus consultas lamando directamente a los números telefónicos correspondientes, y nuestros ejecutivos se encargarán de atender sus requerimientos.</p>
+                   </br> De igual manera, lo invitamos preferentemente a realizar sus consultas llamando directamente a los números telefónicos correspondientes, y nuestros ejecutivos se encargarán de atender sus requerimientos.</p>
                            
             </div> 
 
