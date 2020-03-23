@@ -85,6 +85,10 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont2" class="p-3">
                 <div class="card">     
                 <div class="card-body">
+                        <div class="d-flex justify-content-around align-content-center mt-4">
+                        <img width="150" src="https://www.financoop.cl/wp-content/uploads/2020/03/MG_0075-copy_MG_0075-copy.jpg">
+                         </div>
+                   
                  <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
                    
                    <h4>Nos Preocupamos por tu bienestar y seguridad</h4>
