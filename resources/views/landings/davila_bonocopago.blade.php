@@ -75,7 +75,7 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-                    <div id="cont2" class="p-2 pl-3 pr-3 ">
+                    <div id="cont2" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>
@@ -103,7 +103,7 @@ $enddate=strtotime("+5 days", $startdate);
                                 
                                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
 
-                                <button onclick="Mens3(); eventosLanding('Problema');" class="btn bg-primary text-white col-12 mt-2">Tengo un problema
+                                <button onclick="Mens3(); eventosLanding('Problema');" class="btn bg-primary text-white col-12 mt-2">TENGO UN PROBLEMA
                                 </button>
 
 
