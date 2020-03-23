@@ -103,10 +103,10 @@ $enddate=strtotime("+5 days", $startdate);
                                 
                                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
 
-                                <button onclick="Mens3(); eventosLanding('Problema');" class="btn bg-primary text-white col-12 mt-2">TENGO UN PROBLEMA
-                                </button>
+                                <!--<button onclick="Mens3(); eventosLanding('Problema');" class="btn bg-primary text-white col-12 mt-2">TENGO UN PROBLEMA
+                                </button>-->
 
-                               <!-- <a onclick="eventosLanding('Problema'); Mens();" class="btn bg-primary text-black col-12 mt-4">TENGO UN PROBLEMA</a>-->
+                                <a onclick="eventosLanding('Problema'); Mens();" class="btn bg-primary text-black col-12 mt-4">TENGO UN PROBLEMA</a>
 
 
                                     <div class="d-flex justify-content-around align-content-center mt-4">
