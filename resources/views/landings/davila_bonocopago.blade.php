@@ -81,11 +81,11 @@ $enddate=strtotime("+5 days", $startdate);
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>
                                  <p class="text-white"> <h4> 
                                 Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</h4> </p>
-                                <p> Su ID admisión es: </p> 
+                                <p> Su ID admisión es: </p> <strong> <h4><p id="dato2" class="dato2"> </p> </h4>  </strong>
 
                                 <p><h4> Agradecemos contactar con </h4></p> 
                                 <p> <h4> <b  id="dato1" class="dato1"></b> para solicitud de bonos pendientes.</h4></p>
-                               <strong> <h4><p id="dato1" class="dato1"> </p> </h4>  </strong>
+                               
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
                             <!-- <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
@@ -95,7 +95,7 @@ $enddate=strtotime("+5 days", $startdate);
                                     <a href="" id="isapre2" class="btn bg-primary text-white col-12 mt-2s">BONO ISAPRE</a>
                                 </div>
 
-                                <div class="date btn bg-primary text-black col-12 mt-4">
+                                <div class="date btn bg-primary text-white col-12 mt-4">
                                 <span>AGENDAR COMPROMISO DE PAGO</span>
                                 <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                                     </div>
@@ -159,6 +159,8 @@ $enddate=strtotime("+5 days", $startdate);
          function event1(){
           var prevision;
           var numero;  
+            var id_adm; 
+         id_adm= getUrlParameter('data2'); 
          prevision= getUrlParameter('data1'); 
 
             let dataSend = {
@@ -183,6 +185,7 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#dato1').text(prevision);
+                    $('#dato2').text(id_adm);
                     $('#cont2').removeClass('hide');
 
               if (prevision.indexOf('CRUZ BLANCA')> -1){
@@ -263,7 +266,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'Id_Admision': getUrlParameter('data1'),
                     'Prevision': getUrlParameter('data2'),
                     'Estado': getUrlParameter('data3'),
-                    'Ley': getUrlParameter('data4')
+                   // 'Ley': getUrlParameter('data4')
                     
                 }
             }else{
