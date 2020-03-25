@@ -3,10 +3,6 @@
 @section('title', 'EMODERNA')
 
 @section('content')
- <?php
-$startdate=strtotime("Today");
-$enddate=strtotime("+7 days", $startdate);
-?>
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
@@ -299,7 +295,7 @@ $enddate=strtotime("+7 days", $startdate);
                title: `Para Pagar Online, Tranfiera en la Cuenta Banco de Chile: 1640663409`,
              text: " Rut:78206800-8  INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA",
              type: "success",
-             timer: 8000
+             timer: 5000
         }, 
         function(){
              window.location.href = "https://emoderna.cl/";
