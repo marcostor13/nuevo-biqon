@@ -34,18 +34,21 @@ $enddate=strtotime("+7 days", $startdate);
                     
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
                 </p>
-                <div class="date btn bg-danger text-white col-12 mt-4">
+               <!-- <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
+                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
+                </div>-->
                 <button onclick='window.location.href="https://www.mafchile.com/client/login";eventosLanding("Pagina de Pagos");' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
+               <!-- <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>-->
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=569972079494&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
-                    <a onclick="eventosLanding('Llamar');" href="tel:+569972079494"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                    <a onclick="eventosLanding('Correo');" href="mailto:ltheza@prainabogados.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
+
+                   <!-- <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=569972079494&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>-->
+
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56989000026"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
+
+                    <a onclick="eventosLanding('Correo');" href="mailto:cobranzas@emoderna.cl"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
                 </div>
                </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -155,7 +158,7 @@ $enddate=strtotime("+7 days", $startdate);
                 } 
             }
 
-           var correo = ["maf@prainabogados.cl","ccastillo@mafchile.cl","ipalma@mafchile.com"];
+           var correo = ["cobranzas@emoderna.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
