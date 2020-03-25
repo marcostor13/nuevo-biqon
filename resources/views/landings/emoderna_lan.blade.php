@@ -201,12 +201,12 @@ $enddate=strtotime("+7 days", $startdate);
                 } 
             }
 
-           var correo = ["cobranzas@emoderna.cl"];
+           var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}' "alsanchez@prainabogados.cl"
-                //'email': 'marcostor13@gmail.com'
+                //'email': 'marcostor13@gmail.com cobranzas@emoderna.cl'
             }
             $.ajaxSetup({
                 headers: {
