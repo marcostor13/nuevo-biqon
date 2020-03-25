@@ -84,9 +84,9 @@
                                <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>
 
-                                <div class="d-flex justify-content-around align-content-center mt-4">
+                              <!--  <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
-                                    <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>
+                                    <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>-->
                                 </div>
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
