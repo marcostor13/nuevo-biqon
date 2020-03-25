@@ -60,7 +60,7 @@
                         <div class="card-body">
                         <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
                         <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
-                        <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
+                        <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4">Validar</button>
                        </div>
                        </div> 
                     </div>
@@ -74,29 +74,15 @@
                     <div id="cont2" class="p-2 pl-3 pr-3"><!--HIDE-->
                         <div class="card">     
                             <div class="card-body">
-                                <h3 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h3>
-                                 <p class="text-white"> <h4> 
-                                 Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
-                                <p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> 
-                               <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
-                                <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
+                             <h3 class="text-black text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h3>
+                            <p class="text-black"> 
+                              Debido a la contingencia que vive el país, <h4> Instituto Profecional Escuela Moderna SPA</h4> le suguere pagar por el siguiente medio </p>
 
-                               <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
+                               <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR
                                 </button>
 
-                              <!--  <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
-                                    <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>-->
                                 </div>
 
-                              <!--  <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
-                                    <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
-                                </div>-->
-                                
-                                <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
-                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png">
-                                </button>-->
                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
                                     <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
@@ -219,9 +205,9 @@
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Id_Admision': getUrlParameter('data1'),
+                    //'Id_Admision': getUrlParameter('data1'),
                     //'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data2'),
+                    //'Estado': getUrlParameter('data2'),
                     //'Ley': getUrlParameter('data4')
                     'Landing': '{!! $landing->name !!}'
                     
@@ -234,14 +220,14 @@
                     //'monto': getUrlParameter('monto'),
                     'Rut': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Id_Admision': getUrlParameter('data1'),
+                    //'Id_Admision': getUrlParameter('data1'),
                     //'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data2'),
+                    //'Estado': getUrlParameter('data2'),
                     //'Ley': getUrlParameter('data4'),
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
-             var correo = ["infopagatucuenta@davila.cl"];
+             var correo = ["jesus.binteraction@gmai.com", "cobranzas@emoderna.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
