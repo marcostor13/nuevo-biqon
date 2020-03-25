@@ -71,7 +71,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="cont2" class="p-2 pl-3 pr-3"><!--HIDE-->
+                    <div id="cont2" class="p-2 pl-3 pr-3 hide"><!--HIDE-->
                         <div class="card">     
                             <div class="card-body">
                              <h3 class="text-black text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h3>
