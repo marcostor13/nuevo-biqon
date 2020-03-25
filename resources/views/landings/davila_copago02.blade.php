@@ -74,10 +74,10 @@
                     <div id="cont2" class="p-2 pl-3 pr-3">
                         <div class="card">     
                             <div class="card-body">
-                                <h3 class="text-grey text-center"> Estimado(a) <strong>PACIENTE <span id="name"></span> </strong> </h3>
+                                <h3 class="text-grey text-center"> Estimado(a) <strong>Paciente <span id="name"></span> </strong> </h3>
                                  <p class="text-white"> <h4> 
-                                 Debido a la contingencia nacional, Clinica Davila, le suguiere la modalidad de pago OnLine de su cuenta en estado Copago.</h4> </p>
-                                <p> Su ID admisión es: 111111-1</p> 
+                                 Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
+                                <p> El N° de admisión correspondiente a su cuenta es: 111111-1</p> 
                                <strong> <h4><p id="dato1" class="dato1"> </p> </h4>  </strong>
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
