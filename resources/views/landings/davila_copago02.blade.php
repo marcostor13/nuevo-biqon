@@ -55,7 +55,7 @@
             
             <div class=col-md-12>
            
-                     <div id="cont1" class="p-2 pl-5 pr-5 hide">
+                     <div id="cont1" class="p-2 pl-5 pr-5 ">
                          <div class="card">
                         <div class="card-body">
                         <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
@@ -71,13 +71,13 @@
                             </div>
                         </div>
                     </div>
-                    <div id="cont2" class="p-2 pl-3 pr-3">
+                    <div id="cont2" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong>Paciente <span id="name"></span> </strong> </h3>
                                  <p class="text-white"> <h4> 
                                  Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
-                                <p> El N° de admisión correspondiente a su cuenta es: 111111-1</p> 
+                                <p> El N° de admisión correspondiente a su cuenta es:</p> 
                                <strong> <h4><p id="dato1" class="dato1"> </p> </h4>  </strong>
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
@@ -352,7 +352,7 @@
          id_adm= getUrlParameter('data1'); //1234;
           
             swal({
-             title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N°  111111-1`,
+               title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
              //text: "Expandir la Pantalla",
              type: "success",
              timer: 5000
