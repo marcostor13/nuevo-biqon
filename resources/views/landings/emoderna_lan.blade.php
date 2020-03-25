@@ -46,7 +46,7 @@
     }
     
 </style>
-   <!-- <div id="EMODERNA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
+   <div id="EMODERNA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
 
@@ -293,7 +293,7 @@
              
             swal({
                title: `Para Pagar Online, Tranfiera en la Cuenta Banco de Chile: 1640663409`,
-             text: " Rut:78206800-8  INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA",
+            // text: " Rut:78206800-8  INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA",
              type: "success",
              timer: 5000
         }, 
