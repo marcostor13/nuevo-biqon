@@ -3,12 +3,10 @@
 @section('title', 'EMODERNA')
 
 @section('content')
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style type="text/css">
     
 .card {
@@ -47,63 +45,99 @@
     }
     
 </style>
-  <!-- <div id="EMODERNA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
-        <div class="opaco"></div>
+    <!--<div id="EMODERNA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
 
-        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="EMODERNA">
+     <div class="opaco">
 
-            <div id="cont1" class="p-5 ">
-                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-white"/>
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
-            </div>
-            <div id="cont5" class="p-2 pl-3 pr-3 hide">
+        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="EMODERNA">
+            
+            <div class=col-md-12>
+           
+                     <div id="cont1" class="p-2 pl-5 pr-5 ">
+                         <div class="card">
+                        <div class="card-body">
+                        <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
+                        <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
+                        <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
+                       </div>
+                       </div> 
+                    </div>
+                     <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 "><!--hide-->
-                <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
+                    <div id="cont2" class="p-2 pl-3 pr-3"><!--HIDE-->
+                        <div class="card">     
+                            <div class="card-body">
+                                <h3 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h3>
+                                 <p class="text-white"> <h4> 
+                                 Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
+                                <p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> 
+                               <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
+                                <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
-                <p class="text-white">
-                   Estimado FInancista, el INSTITUTO PROFESIONAL 
-                </p>
-               <!-- <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
-                </div>-->
-               
-                 <!--<div class="date btn bg-danger text-white col-12 mt-4">-->
-                     <a onclick="Mens1();" "eventosLanding('Pagar');" class="date btn bg-danger text-white col-12 mt-4">PAGAR</a>
-                <!--</div>-->
-               <!-- <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>-->
-                
-                <div class="d-flex justify-content-around align-content-center mt-4">
+                               <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
+                                </button>
 
-                   <!-- <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=569972079494&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>-->
+                              <!--  <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
+                                    <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>-->
+                                </div>
 
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56989000026"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-
-                    <a onclick="eventosLanding('Correo');" href="mailto:cobranzas@emoderna.cl"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
-                </div>
-               </div>
-                           <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                              <!--  <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
+                                    <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
+                                </div>-->
+                                
+                                <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
+                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png">
+                                </button>-->
+                                    <div class="d-flex justify-content-around align-content-center mt-4">
+                                                       
+                                    <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                                   
+                                    <a onclick="eventosLanding('Correo');" href="mailto:cobranzas@emoderna.cl?subject=Landing%20Copago"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                                    </div>
+                            </div>   
+                        </div>
+                    </div>
+          
+             
+                    <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
+                    </div>
+                    <div id="cont4" class="p-2 pl-5 pr-5 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                        <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a onclick='Mens1(); '>
+                                    <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
+                                </div>
+                                <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
+                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+       </div>
+   </div>
 
-        </div>
-    </div>
 
-    <script>
-
+  <script>
+   //EVENT 1
+        
         $(function(){
             events({    
                 'name': 'Visita',
@@ -112,8 +146,10 @@
             });
         }); 
 
-         function event1(){
-    
+         function event1(){ 
+          var id_adm; 
+         id_adm= getUrlParameter('data1'); 
+
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
@@ -135,7 +171,7 @@
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
+                    $('#dato1').text(id_adm);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -178,32 +214,39 @@
             let data; 
             if(msg !== false){
                 data = {
-                    'mensaje': msg,
+                    'Mensaje': msg,
                     'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                   
+                    'Id_Admision': getUrlParameter('data1'),
+                    //'Prevision': getUrlParameter('data2'),
+                    'Estado': getUrlParameter('data2'),
+                    //'Ley': getUrlParameter('data4')
+                    'Landing': '{!! $landing->name !!}'
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'fecha': date,
-                    'nombre': $('#name').text(),
+                    'Fecha': date,
+                    'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
-                    'rut': getUrlParameter('rut'),
-                    'phone': getUrlParameter('telefono'),
-                    'landing': '{!! $landing->name !!}'
+                    'Rut': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Id_Admision': getUrlParameter('data1'),
+                    //'Prevision': getUrlParameter('data2'),
+                    'Estado': getUrlParameter('data2'),
+                    //'Ley': getUrlParameter('data4'),
+                    'Landing': '{!! $landing->name !!}'
                 } 
             }
-
-           var correo = ["jesus.binteraction@gmail.com"];
+             var correo = ["infopagatucuenta@davila.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email': '{!! $landing->email !!}' "alsanchez@prainabogados.cl"
-                //'email': 'marcostor13@gmail.com cobranzas@emoderna.cl'
+               // 'email': '{!! $landing->email !!}'
+                //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
                 headers: {
@@ -222,7 +265,6 @@
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
-                     eventosLanding('Compromiso de Pago');
                 }
             })
             .done(function(e) {
@@ -288,21 +330,46 @@
             return obj;  
         };
 
-      
-         function Mens1(){
-             
+       function Mens(){
+   // var id_adm; 
+        // id_adm= getUrlParameter('data1'); //1234;
+          
             swal({
-               title: `Para Pagar Online, Tranfiera en la Cuenta Banco de Chile: 1640663409`,
-            // text: " Rut:78206800-8  INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA",
+             title: `Si esta ocupado, favor espere`,
+             //text: "Expandir la Pantalla",
              type: "success",
              timer: 5000
         }, 
         function(){
-             window.location.href = "https://emoderna.cl/";
+             window.location.href = "tel:+56989000026";
         })
 
 
-    
+        } 
+        
+       function Mens1(){
+    //var id_adm; 
+       //  id_adm= getUrlParameter('data1'); //1234;
+          
+            swal({
+               title: `Para `,
+             //text: "Expandir la Pantalla",
+             type: "success",
+             timer: 5000
+        }, 
+        function(){
+             window.location.href = "https://emoderna.cl";
+        })
+
+
+        } 
+
+
+     function Mens2(){
+     $('#cont2').addClass('hide');
+     $('#cont4').removeClass('hide');
+
+        } 
     </script>
     
 
