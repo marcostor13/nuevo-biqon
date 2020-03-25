@@ -74,7 +74,7 @@
                     <div id="cont2" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h3 class="text-grey text-center"> Estimado(a) <strong>Paciente <span id="name"></span> </strong> </h3>
+                                <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>
                                  <p class="text-white"> <h4> 
                                  Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
                                 <p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> 
