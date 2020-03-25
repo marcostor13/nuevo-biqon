@@ -47,7 +47,7 @@
     }
     
 </style>
-   <div id="EMODERNA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+  <!-- <div id="EMODERNA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="opaco"></div>
 
@@ -77,9 +77,9 @@
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
                 </div>-->
                
-                 <div class="date btn bg-danger text-white col-12 mt-4">
-                     <a onclick="Mens1(); eventosLanding('Pagar');"><span>PAGAR</span></a>
-                </div>
+                 <!--<div class="date btn bg-danger text-white col-12 mt-4">-->
+                     <a onclick="Mens1();" "eventosLanding('Pagar');" class="date btn bg-danger text-white col-12 mt-4">PAGAR</a>
+                <!--</div>-->
                <!-- <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>-->
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
