@@ -76,7 +76,7 @@
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong>PACIENTE <span id="name"></span> </strong> </h3>
                                  <p class="text-white"> <h4> 
-                                Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</h4> </p>
+                                Estimado paciente, debido a la contingencia nacional, Clinica Davila, le suguiere la modalidad de pago OnLine.</h4> </p>
                                 <p> Su ID admisión es: </p> 
                                <strong> <h4><p id="dato1" class="dato1"> </p> </h4>  </strong>
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
