@@ -81,7 +81,8 @@ $enddate=strtotime("+7 days", $startdate);
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
                 </div>-->
-                <button onclick='Mens1(); eventosLanding("Pagar Banco Chile");' class="btn bg-danger text-white col-12 mt-4">PAGAR </button>
+               <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR
+                                </button>
 
                <!-- <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>-->
                 
