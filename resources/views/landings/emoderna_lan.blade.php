@@ -7,6 +7,49 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+7 days", $startdate);
 ?>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <style type="text/css">
+    
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border: 0;
+  font-weight: 400;
+}
+.card[class*=border] {
+  border: 1px solid #9e9e9e;
+  box-shadow: none;
+}
+.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
+  font-weight: 400;
+}
+.card .card-body .card-title a {
+  transition: 0.2s ease-in-out;
+}
+.card .card-body .card-title a:hover {
+  transition: 0.2s ease-in-out;
+}
+.card .card-body .card-text {
+  color: #747373;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.card .md-form label {
+  font-weight: 300;
+}
+
+.oscurecer {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    )
+    }
+    
+</style>
    <!-- <div id="EMODERNA" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="opaco"></div>
@@ -38,7 +81,7 @@ $enddate=strtotime("+7 days", $startdate);
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
                 </div>-->
-                <button onclick='window.location.href="https://www.mafchile.com/client/login";eventosLanding("Pagina de Pagos");' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='Mens1(); eventosLanding("Pagar Banco Chile");' class="btn bg-danger text-white col-12 mt-4">PAGAR </button>
 
                <!-- <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>-->
                 
@@ -249,7 +292,19 @@ $enddate=strtotime("+7 days", $startdate);
         };
 
       
-        
+         function Mens1(){
+             
+            swal({
+               title: `Para Pagar Online, Tranfiera en la Cuenta Banco de Chile: 1640663409`,
+             text: " Rut:78206800-8  INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA",
+             type: "success",
+             timer: 8000
+        }, 
+        function(){
+             window.location.href = "https://emoderna.cl/";
+        })
+
+
     
     </script>
     
