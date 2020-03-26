@@ -345,7 +345,8 @@
         }, 
       //  function(){
         //     window.location.href = "https://emoderna.cl";
-       // })
+       )
+       
 
 
         } 
