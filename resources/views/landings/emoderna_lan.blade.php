@@ -64,22 +64,30 @@
                        </div>
                        </div> 
                     </div>
-                     <div id="cont5" class="p-2 pl-3 pr-3 hide">
+                     <div id="cont5" class="p-2 pl-3 pr-3 ">
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
+                                 <a onclick="eventosLanding('Correo Error');" href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna"> Contactar</a>
                             </div>
                         </div>
                     </div>
-                    <div id="cont2" class="p-2 pl-3 pr-3 hide"><!--HIDE-->
+                    <div id="cont2" class="p-2 pl-3 pr-3 "><!--HIDE-->
                         <div class="card">     
                             <div class="card-body">
                              <h3 class="text-black text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h3>
                             <p class="text-black"> 
-                              Debido a la contingencia que vive el país, <strong> INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA</strong> le recomienda pagar por el siguiente medio </p>
+                              Debido a la contingencia que sufre el país, <strong>INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA </strong>, le sugiere pagar por el siguiente medio. </p>
 
                                <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR
                                 </button>
+
+                                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
+
+                                <a onclick="eventosLanding('Consulta');" 'window.location.href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna"' class="btn bg-primary text-black col-12 mt-4">Consultas</a>
+
+                                <button onclick='window.location.href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna" eventosLanding("Consulta"); return false;' class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
+
 
                                 </div>
 
@@ -87,7 +95,7 @@
                                                        
                                     <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                    
-                                    <a onclick="eventosLanding('Correo');" href="mailto:cobranzas@emoderna.cl?subject=Landing%20Copago"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                                    <a onclick="eventosLanding('Correo');" href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                                     </div>
                             </div>   
                         </div>
@@ -167,7 +175,7 @@
                 }else{
                     $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  https://emoderna.cl/ o enviarnos un correo electronico ");
                 }
             })
             .fail(function() {
