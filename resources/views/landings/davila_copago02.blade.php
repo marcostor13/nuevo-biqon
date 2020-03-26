@@ -220,9 +220,9 @@
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                     'Id_Admision': getUrlParameter('data1'),
-                    //'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data2'),
-                    //'Ley': getUrlParameter('data4')
+                    'Liquidacion': getUrlParameter('data2'),
+                    'Clasificacion': getUrlParameter('data3'),
+                    'Cuentas': getUrlParameter('data5'),
                     'Landing': '{!! $landing->name !!}'
                     
                 }
@@ -232,12 +232,12 @@
                     'Fecha': date,
                     'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
-                    'Rut': getUrlParameter('rut'),
+                    'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                     'Id_Admision': getUrlParameter('data1'),
-                    //'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data2'),
-                    //'Ley': getUrlParameter('data4'),
+                    'Liquidacion': getUrlParameter('data2'),
+                    'Clasificacion': getUrlParameter('data3'),
+                    'Cuentas': getUrlParameter('data5'),
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
