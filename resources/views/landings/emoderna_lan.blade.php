@@ -343,9 +343,9 @@
              type: "success",
              timer: 5000
         }, 
-        function(){
-             window.location.href = "https://emoderna.cl";
-        })
+      //  function(){
+        //     window.location.href = "https://emoderna.cl";
+       // })
 
 
         } 
