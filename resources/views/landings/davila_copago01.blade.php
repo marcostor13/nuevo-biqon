@@ -139,13 +139,16 @@
    //EVENT 1
         
         $(function(){
+
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
                 'json_datos': JSON.stringify(getAllUrlParameter())
             });
         }); 
-
+        var id_adm; 
+         id_adm= getUrlParameter('data1');
+         $('#dato1').text(id_adm);
          function event1(){ 
           var id_adm; 
          id_adm= getUrlParameter('data1'); 
