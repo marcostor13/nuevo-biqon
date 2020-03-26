@@ -68,6 +68,8 @@
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
+                                 <a onclick="" href="https://emoderna.cl" class="btn bg-danger text-white col-12 mt-2"> Ir a Web</a>
+
                                  <a onclick="eventosLanding('Correo Error');" href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna" class="btn bg-danger text-white col-12 mt-2"> Contactar</a>
                             </div>
                         </div>
@@ -178,7 +180,7 @@
                 }else{
                     $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  https://emoderna.cl/ o enviarnos un correo electronico ");
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web o enviarnos un correo electronico ");
                 }
             })
             .fail(function() {
