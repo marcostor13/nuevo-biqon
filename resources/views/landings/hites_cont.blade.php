@@ -18,7 +18,7 @@
 
             <div id="cont1">
                 <div class="videoWrapper">        
-                    <iframe width="400" height="320" src="{{asset('/files/Hites02_35seg.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="380" height="300" src="{{asset('/files/Hites02_35seg.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
             </div>
