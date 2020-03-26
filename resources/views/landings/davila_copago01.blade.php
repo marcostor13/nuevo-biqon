@@ -354,7 +354,7 @@ $name = $_GET['data1'];
         
        function Mens1(){
           var id_adm; 
-         id_adm= getUrlParameter('data1'); //1234;
+         id_adm= getUrlParameter('data1');
           
             swal({
                title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
