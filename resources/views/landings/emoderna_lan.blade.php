@@ -115,14 +115,14 @@
                         <div class="card">     
                             <div class="card-body">
                         
-                            <h5 class="text-black"> 
+                            <h6 class="text-black"> 
                               Transferencia a BANCO DE CHILE  <br>
                               cuenta corriente Nº 1640663409<br>
                               INSTITUTO PROFESIONAL  EMM SPA<br>
                               RUT 78206800-8<br>
                               Email: cobranzas@emoderna.cl   
 
-                               </h5>
+                               </h6>
                                 </div>
                         </div>
                     </div>
