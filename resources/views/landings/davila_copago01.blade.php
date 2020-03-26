@@ -3,16 +3,12 @@
 @section('title', 'CLINICA DAVILA')
 
 @section('content')
-
-
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style type="text/css">
-    <?php
-$name = $_GET['data1'];
-?>
+    
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border: 0;
@@ -81,7 +77,7 @@ $name = $_GET['data1'];
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h3>
                                  <p class="text-white"> <h4> 
                                  Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
-                                <p> El N° de admisión correspondiente a su cuenta es:  <h4> <span><?php echo $name; ?></span>  </h4></p> 
+                                <p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> 
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
@@ -149,8 +145,7 @@ $name = $_GET['data1'];
                 'json_datos': JSON.stringify(getAllUrlParameter())
             });
         }); 
-        
-         $('#dato1').text(id_adm);
+
          function event1(){ 
           var id_adm; 
          id_adm= getUrlParameter('data1'); 
@@ -353,8 +348,8 @@ $name = $_GET['data1'];
         } 
         
        function Mens1(){
-          var id_adm; 
-         id_adm= getUrlParameter('data1');
+    var id_adm; 
+         id_adm= getUrlParameter('data1'); //1234;
           
             swal({
                title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
