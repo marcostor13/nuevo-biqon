@@ -137,7 +137,13 @@
 
   <script>
    //EVENT 1
-        
+   $(function(){
+        var id_adm; 
+         id_adm= getUrlParameter('data1'); 
+          $('#dato1').text(id_adm);
+  });
+
+   
         $(function(){
             events({    
                 'name': 'Visita',
