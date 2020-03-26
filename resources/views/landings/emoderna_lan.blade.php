@@ -64,7 +64,7 @@
                        </div>
                        </div> 
                     </div>
-                     <div id="cont5" class="p-2 pl-3 pr-3 ">
+                     <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
@@ -72,7 +72,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="cont2" class="p-2 pl-3 pr-3 "><!--HIDE-->
+                    <div id="cont2" class="p-2 pl-3 pr-3 hide"><!--HIDE-->
                         <div class="card">     
                             <div class="card-body">
                              <h3 class="text-black text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h3>
@@ -112,14 +112,15 @@
                     <div id="cont4" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
                             <div class="card-body">
-                        <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); '>
-                                    <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
-                                </div>
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
-                                </div>
+                        
+                            <h4 class="text-black"> 
+                              Transferencia a BANCO DE CHILE  <br>
+                              cuenta corriente Nº 1640663409<br>
+                              INSTITUTO PROFESIONAL  EMM SPA<br>
+                              RUT 78206800-8<br>
+                              Email: cobranzas@emoderna.cl   
+
+                               </h4>
                                 </div>
                         </div>
                     </div>
@@ -346,17 +347,8 @@
        function Mens1(){
     //var id_adm; 
        //  id_adm= getUrlParameter('data1'); //1234;
-          
-            swal({
-               title: `Para pagar, realice una transferencia a la cuenta: 1640663409   BANCO DE CHILE`,
-             text: " Rut:  78206800-8      INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA",
-             type: "success",
-             timer: 5000
-        }, 
-      //  function(){
-        //     window.location.href = "https://emoderna.cl";
-       )
-       
+           $('#cont2').addClass('hide');
+          $('#cont4').removeClass('hide');   
 
 
         } 
