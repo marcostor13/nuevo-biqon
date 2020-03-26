@@ -85,7 +85,7 @@ $name = $_GET['data1'];
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h3>
                                  <p class="text-white"> <h4> 
                                  Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
-                                <p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> <span><?php echo $name; ?></span>  </h4></p> 
+                                <p> El N° de admisión correspondiente a su cuenta es:  <h4> <span><?php echo $name; ?></span>  </h4></p> 
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
