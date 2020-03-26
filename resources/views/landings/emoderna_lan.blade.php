@@ -76,7 +76,7 @@
                             <div class="card-body">
                              <h3 class="text-black text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h3>
                             <p class="text-black"> 
-                              Debido a la contingencia que vive el país, <strong> INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA</strong> le suguere pagar por el siguiente medio </p>
+                              Debido a la contingencia que vive el país, <strong> INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA</strong> le recomienda pagar por el siguiente medio </p>
 
                                <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR
                                 </button>
