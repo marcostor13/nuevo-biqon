@@ -78,13 +78,13 @@ $enddate=strtotime("+5 days", $startdate);
                     <div id="cont2" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>
-                                 <p class="text-white"> <h4> 
-                                Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</h4> </p>
-                                <h4> Su ID admisión es: </h4> <strong> <h4><p id="dato2" class="dato2"> </p> </h4>  </strong>
+                                <h3 class="text-grey text-center"> Estimado(a) <strong> PACIENTE <!--<span id="name"></span> </strong>--> </h3>
+                                <!-- <p class="text-white"> <h4> 
+                                Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</h4> </p>-->
+                                <h4> Agradecemos contactar con su ISAPRE </h4> <strong> <h4><p id="dato2" class="dato2"> </p> </h4>  </strong>
 
                                 <p><h4> Agradecemos contactar con: </h4>  
-                                 <h4> <b  id="dato1" class="dato1"></b> para solicitud de bonos pendientes.</h4></p>
+                                 <h4> <b  id="dato1" class="dato1"></b> y solicitar fecha de Emisión de Bonos por hospitalización pendiente. De esta forma podemos  gestionar su cuenta. </h4></p>
                                
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
@@ -160,7 +160,8 @@ $enddate=strtotime("+5 days", $startdate);
 
          function event1(){
           var prevision;
-          var numero;  
+          var numero;
+          var web;  
             var id_adm; 
          id_adm= getUrlParameter('data2'); 
          prevision= getUrlParameter('data1'); 
@@ -191,29 +192,52 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#cont2').removeClass('hide');
 
               if (prevision.indexOf('CRUZ BLANCA')> -1){
-                numero = 'https://www.cruzblanca.cl/cruzblanca/site/edic/base/port/acceso_privado.html'; 
+                numero = 'tel:+56229981000'; 
+                web = 'https://www.cruzblanca.cl/cruzblanca/site/edic/base/port/acceso_privado.html'; 
+
               }else if (prevision.indexOf('CONSALUD')> -1) {
-                numero = 'https://clientes.consalud.cl/';
+                numero = 'tel:+56223325020';
+                web = 'https://clientes.consalud.cl/';
+
               }else if (prevision.indexOf('BANMEDICA')> -1) {
-                numero = 'https://www.isaprebanmedica.cl/LoginBanmedica.aspx';
+                numero = 'tel:+56222706800';
+                web = 'https://www.isaprebanmedica.cl/LoginBanmedica.aspx';
+
               }else if (prevision.indexOf('FUNDACION BANCO ESTADO') > -1) {
-                numero = 'https://www.isaprefundacion.cl/';
+                numero = 'tel:+56223479000';
+                web = 'https://www.isaprefundacion.cl/';
+
               }else if (prevision.indexOf('VIDA TRES') > -1) {
-                numero = 'https://www.isaprevidatres.cl/LoginVidaTres.aspx';
+                numero = 'tel:+56225403600';
+                web = 'https://www.isaprevidatres.cl/LoginVidaTres.aspx';
+
               }else if (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
-                numero = 'https://www.nuevamasvida.cl/';
+                numero = 'tel:6006000262';
+                web = 'https://www.nuevamasvida.cl/';
+
               }else if (prevision.indexOf('RIO BLANCO') > -1) {
-                numero = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
+                numero = 'tel:800835400';
+                web = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
+
               }else if (prevision.indexOf('COLMENA GOLDEN CROSS') > -1) {
+                numero = 'tel:+56229594040';
                 numero = 'https://www.colmena.cl/afiliados/#/login';
+
               }else if (prevision.indexOf('CHUQUICAMATA') > -1) {
-                numero = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
+                numero = 'tel:800835400';
+                web = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
+
               }else if (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
-                numero = 'https://www.nuevamasvida.cl/';
+                numero = 'tel:6006000262';
+                web = 'https://www.nuevamasvida.cl/';
+
               }else if (prevision.indexOf('CHUQUICAMATA LTDA') > -1) {
-                numero = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
+                numero = 'tel:800835400';
+                web = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
+
               }else if (prevision.indexOf('SAN LORENZO') > -1) {
-                numero = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
+                numero = 'tel:800835400';
+                web = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
               }
 
               console.log(numero);
