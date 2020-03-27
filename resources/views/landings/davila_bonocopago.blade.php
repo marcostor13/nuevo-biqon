@@ -75,7 +75,7 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-                    <div id="cont2" class="p-2 pl-3 pr-3 "><!--hide-->
+                    <div id="cont2" class="p-2 pl-3 pr-3 hide"><!--hide-->
                         <div class="card">     
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> PACIENTE <!--<span id="name"></span> </strong>--> </h3>
@@ -231,7 +231,7 @@ $enddate=strtotime("+5 days", $startdate);
                 numero = 'tel:800835400';
                 web = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
 
-              }else if (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
+              }else if (prevision.indexOf('NUEVA MAS VIDA') > -1) {
                 numero = 'tel:6006000262';
                 web = 'https://www.nuevamasvida.cl/';
 
