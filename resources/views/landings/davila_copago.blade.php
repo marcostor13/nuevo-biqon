@@ -66,7 +66,7 @@
                        </div> 
                     </div>
 
-                    <div id="cont2" class="p-2 pl-5 pr-5 hide">
+                    <div id="cont2" class="p-2 pl-5 pr-5 ">
                         <div class="card">     
                             <div class="card-body">
                                 <h4 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h4>
@@ -85,6 +85,8 @@
                                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
                                 </div>
+
+                                <a onclick="eventosLanding('Correo'); sendMail('El cliente quiere ser contactado');"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                             </div>
                         </div>
                     </div>
