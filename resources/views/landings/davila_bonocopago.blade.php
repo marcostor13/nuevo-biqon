@@ -92,28 +92,32 @@ $enddate=strtotime("+5 days", $startdate);
                                 </button>-->
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a href="" id="isapre2" class="btn bg-primary text-white col-12 mt-2s">BONO ISAPRE</a>
+                                    <a href="" id="isapre2" class="btn bg-primary text-white col-12 mt-2s">CONTACTAR ISAPRE</a>
                                 </div>
 
-                                <div class="date btn bg-primary text-white col-12 mt-4">
+                                <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a href="" id="isapre3" class="btn bg-primary text-white col-12 mt-2s">PAG. WEB ISAPRE</a>
+                                </div>
+
+                               <!-- <div class="date btn bg-primary text-white col-12 mt-4">
                                 <span>AGENDAR COMPROMISO DE PAGO</span>
-                                <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                                    </div>
+                                <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
+                                    </div>-->
 
                                 
-                                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
+                                <button onclick="sendMail('El cliente desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
 
                                 <!--<button onclick="Mens3(); eventosLanding('Problema');" class="btn bg-primary text-white col-12 mt-2">TENGO UN PROBLEMA
                                 </button>-->
 
-                                <a onclick="eventosLanding('Problema'); Mens();" class="btn bg-primary text-white col-12 mt-4">TENGO UN PROBLEMA</a>
+                                <!--<a onclick="eventosLanding('Problema'); Mens();" class="btn bg-primary text-white col-12 mt-4">TENGO UN PROBLEMA</a>-->
 
 
                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
                                     <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                    
-                                    <a onclick="eventosLanding('Correo');" href="mailto:infopagatucuenta@davila.cl?subject=Landing%20Copago"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                                    <a onclick="eventosLanding('Correo'); sendMail('El cliente quiere ser contactado');"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                                     </div>
                             </div>   
                         </div>
@@ -241,8 +245,10 @@ $enddate=strtotime("+5 days", $startdate);
               }
 
               console.log(numero);
+              console.log(web);
 
               $('#isapre2').attr('href', numero);
+               $('#isapre3').attr('href', web);
 
 
                     $('#date1').on('change', function(){
