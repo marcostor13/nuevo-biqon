@@ -435,7 +435,7 @@ $enddate=strtotime("+5 days", $startdate);
          id_adm= getUrlParameter('data1'); 
          var rut; 
          rut= getUrlParameter('rut'); 
-   window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Bonificaciones&body=Id Admision: "+id_adm+"   RUT:  "+rut;
+   window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Bonificaciones&body=ISAPRE: "+id_adm+"   RUT:  "+rut;
 
 
         } 
