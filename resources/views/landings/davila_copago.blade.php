@@ -55,39 +55,55 @@
             
             <div class=col-md-12>
            
-                     <div id="cont1" class="p-2 pl-5 pr-5">
+                     <div id="cont1" class="p-2 pl-5 pr-5 ">
                          <div class="card">
                         <div class="card-body">
                         <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
                         <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
                         <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
-                        <h5 id="error"class="text-grey text-center mt-5"></h5>
                        </div>
                        </div> 
                     </div>
-
-                    <div id="cont2" class="p-2 pl-5 pr-5 ">
+                     <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h4 class="text-grey text-center"> Estimado(a) <span id="name"></span> </h4>
+                                 <h5 id="error"class="text-black text-center mt-5"></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cont2" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h3 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h3>
                                  <p class="text-white"> <h4> 
-                                Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</p>
-                                <p> Su ID admisión es: </p> 
-                                <p id="dato1" class="dato1"> </p><h4>
+                                 Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
+                                <p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> 
+                               <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
-                                <button onclick="Mens(); eventosLanding('Pagina de Pagos');" class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA</button>
-                                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                                    <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
-                                </div>
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
+
+                               <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
+                                </button>
+
+                              <!--  <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
+                                    <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>-->
                                 </div>
 
-                                <a onclick="eventosLanding('Correo'); sendMail('El cliente quiere ser contactado');"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
-                            </div>
+                                <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
+                                    <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
+                                </div>
+                                
+                                <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
+                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png">
+                                </button>-->
+                                    <div class="d-flex justify-content-around align-content-center mt-4">
+                                                       
+                                    <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                                   
+                                   <a onclick="eventosLanding('Correo'); sendMail('El cliente quiere ser contactado');"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                                    </div>
+                            </div>   
                         </div>
                     </div>
           
@@ -99,7 +115,20 @@
                             </div>
                         </div>
                     </div>
-
+                    <div id="cont4" class="p-2 pl-5 pr-5 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                        <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a onclick='Mens1(); '>
+                                    <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
+                                </div>
+                                <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
+                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
                 </div>
             </div>
        </div>
@@ -117,8 +146,7 @@
             });
         }); 
 
-         function event1(){
-          var id_adm; 
+         function event1(){ 
           var id_adm; 
          id_adm= getUrlParameter('data1'); 
 
@@ -151,7 +179,9 @@
                         }
                     });
                 }else{
-                    $('#error').text(e.msg);
+                    $('#cont1').addClass('hide');
+                     $('#cont5').removeClass('hide');
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
                 }
             })
             .fail(function() {
@@ -184,34 +214,34 @@
             let data; 
             if(msg !== false){
                 data = {
-                    'mensaje': msg,
+                    'Mensaje': msg,
                     'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                     'Id_Admision': getUrlParameter('data1'),
-                    'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data3'),
-                    'Ley': getUrlParameter('data4')
+                    'Liquidacion': getUrlParameter('data2'),
+                    'Clasificacion': getUrlParameter('data3'),
+                    'Cuentas': getUrlParameter('data5'),
+                    'Landing': '{!! $landing->name !!}'
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'fecha': date,
-                    'nombre': $('#name').text(),
+                    'Fecha': date,
+                    'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
-                    'phone': getUrlParameter('telefono'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
                     'Id_Admision': getUrlParameter('data1'),
-                    'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data3'),
-                    'Ley': getUrlParameter('data4'),
-                     'rut': getUrlParameter('rut'),
-                    'landing': '{!! $landing->name !!}'
+                    'Liquidacion': getUrlParameter('data2'),
+                    'Clasificacion': getUrlParameter('data3'),
+                    'Cuentas': getUrlParameter('data5'),
+                    'Landing': '{!! $landing->name !!}'
                 } 
             }
-
-             var correo = ["jesus.binteraction@gmail.com"];
+             var correo = ["infopagatucuenta@davila.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -301,11 +331,28 @@
         };
 
        function Mens(){
+   // var id_adm; 
+        // id_adm= getUrlParameter('data1'); //1234;
+          
+            swal({
+             title: `Para Comunicarse, seleccione la opcion 2`,
+             //text: "Expandir la Pantalla",
+             type: "success",
+             timer: 5000
+        }, 
+        function(){
+             window.location.href = "tel:+56227308000";
+        })
+
+
+        } 
+        
+       function Mens1(){
     var id_adm; 
          id_adm= getUrlParameter('data1'); //1234;
           
             swal({
-             title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
+               title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
              //text: "Expandir la Pantalla",
              type: "success",
              timer: 5000
@@ -316,8 +363,13 @@
 
 
         } 
-        
-    
+
+
+     function Mens2(){
+     $('#cont2').addClass('hide');
+     $('#cont4').removeClass('hide');
+
+        } 
     </script>
     
 
