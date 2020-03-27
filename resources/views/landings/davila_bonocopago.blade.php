@@ -198,47 +198,36 @@ $enddate=strtotime("+5 days", $startdate);
               if (prevision.indexOf('CRUZ BLANCA')> -1){
                 numero = 'tel:+56229981000'; 
                 web = 'https://www.cruzblanca.cl/cruzblanca/site/edic/base/port/acceso_privado.html'; 
-
               }else if (prevision.indexOf('CONSALUD')> -1) {
                 numero = 'tel:+56223325020';
                 web = 'https://clientes.consalud.cl/';
-
               }else if (prevision.indexOf('BANMEDICA')> -1) {
                 numero = 'tel:+56222706800';
                 web = 'https://www.isaprebanmedica.cl/LoginBanmedica.aspx';
-
               }else if (prevision.indexOf('FUNDACION BANCO ESTADO') > -1) {
                 numero = 'tel:+56223479000';
                 web = 'https://www.isaprefundacion.cl/';
-
               }else if (prevision.indexOf('VIDA TRES') > -1) {
                 numero = 'tel:+56225403600';
                 web = 'https://www.isaprevidatres.cl/LoginVidaTres.aspx';
-
               }else if (prevision.indexOf('NUEVA MÁS VIDA') > -1) {
                 numero = 'tel:6006000262';
                 web = 'https://www.nuevamasvida.cl/';
-
               }else if (prevision.indexOf('RIO BLANCO') > -1) {
                 numero = 'tel:800835400';
                 web = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
-
               }else if (prevision.indexOf('COLMENA GOLDEN CROSS') > -1) {
                 numero = 'tel:+56229594040';
                 numero = 'https://www.colmena.cl/afiliados/#/login';
-
               }else if (prevision.indexOf('CHUQUICAMATA') > -1) {
                 numero = 'tel:800835400';
                 web = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
-
               }else if (prevision.indexOf('NUEVA MAS VIDA') > -1) {
                 numero = 'tel:6006000262';
                 web = 'https://www.nuevamasvida.cl/';
-
               }else if (prevision.indexOf('CHUQUICAMATA LTDA') > -1) {
                 numero = 'tel:800835400';
                 web = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
-
               }else if (prevision.indexOf('SAN LORENZO') > -1) {
                 numero = 'tel:800835400';
                 web = 'https://www.isapredecodelco.cl/SucursalVirtual/Authentication/Login?iid=63&tuid=1';
