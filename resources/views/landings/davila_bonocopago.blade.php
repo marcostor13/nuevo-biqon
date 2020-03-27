@@ -92,11 +92,11 @@ $enddate=strtotime("+5 days", $startdate);
                                 </button>-->
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a href="" id="isapre2" class="btn bg-primary text-white col-12 mt-2s">CONTACTAR ISAPRE</a>
+                                    <a onclick="eventosLanding('Llamar ISAPRE'); return false;" href="" id="isapre2" class="btn bg-primary text-white col-12 mt-2s">CONTACTAR ISAPRE</a>
                                 </div>
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a href="" id="isapre3" class="btn bg-primary text-white col-12 mt-2s">PAG. WEB ISAPRE</a>
+                                    <a  onclick="eventosLanding('web ISAPRE'); return false;"  href="" id="isapre3" class="btn bg-primary text-white col-12 mt-2s">PAG. WEB ISAPRE</a>
                                 </div>
 
                                <!-- <div class="date btn bg-primary text-white col-12 mt-4">
