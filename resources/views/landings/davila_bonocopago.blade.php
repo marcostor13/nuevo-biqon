@@ -307,7 +307,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-           var correo = ["jesus.binteraction@gmail.com"];  
+           var correo = ["infopagatucuenta@davila.cl"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
