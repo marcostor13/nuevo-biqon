@@ -103,7 +103,8 @@
                                    
                                   <a onclick="eventosLanding('Correo');" href="mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Escribe aquí si tienes preguntas"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                                     
- <a onclick='window.location.href = "mailto:miemail@gmail.com??subject=Pago%20de%20Cuenta&body=Escribe aquí si tienes preguntas"+id_adm;'><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+ <!--<a href = "mailto:miemail@gmail.com??subject=Pago%20de%20Cuenta&body=Escribe aquí si tienes preguntas".id_adm;><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
+   <a onclick="Mens2();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
                                     </div>
 
@@ -356,8 +357,10 @@
 
 
      function Mens2(){
-     $('#cont2').addClass('hide');
-     $('#cont4').removeClass('hide');
+       var id_adm; 
+         id_adm= getUrlParameter('data1'); 
+   window.location.href = "mailto:miemail@gmail.com??subject=Pago%20de%20Cuenta&body=Escribe aquí si tienes preguntas"+id_adm;
+
 
         } 
     </script>
