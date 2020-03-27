@@ -116,7 +116,9 @@ $enddate=strtotime("+5 days", $startdate);
                                                        
                                     <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                    
-                                    <a onclick="eventosLanding('Correo'); sendMail('El cliente quiere ser contactado');"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                                    <!--<a onclick="eventosLanding('Correo');" href="mailto:infopagatucuenta@davila.cl?subject=Landing%20Copago"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
+
+                                    <a onclick="eventosLanding('Correo'); Mens2();"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                                     </div>
                             </div>   
                         </div>
@@ -428,7 +430,15 @@ $enddate=strtotime("+5 days", $startdate);
 
         } 
         
-    
+     function Mens2(){
+       var id_adm; 
+         id_adm= getUrlParameter('data1'); 
+         var rut; 
+         rut= getUrlParameter('rut'); 
+   window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Bonificaciones&body=Id Admision: "+id_adm+"   RUT:  "+rut;
+
+
+        } 
     </script>
     
 
