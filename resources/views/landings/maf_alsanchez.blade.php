@@ -26,7 +26,7 @@ $enddate=strtotime("+7 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-3 ">
+            <div id="cont2" class="p-3 hide">
                 <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
 
                 <p class="text-white">
