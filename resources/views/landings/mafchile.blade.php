@@ -155,7 +155,7 @@ $enddate=strtotime("+7 days", $startdate);
                 } 
             }
 
-           var correo = ["maf@prainabogados.cl","ccastillo@mafchile.cl","ipalma@mafchile.com"];
+           var correo = ["edelafuente@mafchile.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
