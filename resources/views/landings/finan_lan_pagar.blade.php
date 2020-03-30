@@ -354,10 +354,7 @@ DESARROLLO FINANCOOP, RUT 65.677.500- 9, Email: cobranzas@financoop.cl ${id_adm}
 
 
      function Mens5(){
-       var id_adm; 
-         id_adm= getUrlParameter('data1'); 
-         var rut; 
-         rut= getUrlParameter('rut'); 
+      
    window.location.href = "http://www.bancoestado.cl";
 
 
