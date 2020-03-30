@@ -3,6 +3,10 @@
 @section('title', 'CMP Abogados')
 
 @section('content')
+<?php
+$startdate=strtotime("Today");
+$enddate=strtotime("+5 days", $startdate);
+?>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
@@ -322,8 +326,6 @@ Si tienes dudas puedes enviar un mail a <a onclick="eventosLanding('correo');" h
          var rut; 
          rut= getUrlParameter('rut'); 
    window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Id Admision: "+id_adm+"   RUT:  "+rut;
-
-
         } 
      </script>
 
