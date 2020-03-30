@@ -88,8 +88,8 @@ Para acceder a esta opción debes ingresar tus datos hasta el jueves 2 de abril 
 <button onclick='window.location.href="https://forms.office.com/Pages/ResponsePage.aspx?id=ngP91nPl9EmH0nIS1-_5-pp2PomBIF1Ig9MZK3TNywRUNzg4TVlGU1BDRlhCS0s3STVMMUNMU09WSyQlQCN0PWcu"; eventosLanding("Formulario"); ' class="btn bg-primary text-black col-12 mt-4">Quiero que me Contacten</button>
 
                 <p> Si no te interesa esta propuesta, no estás al día antes de fin de mes o no cumples con el envío de la información pertinente, tu calendario se mantendrá sin cambios.
-
-Si tienes dudas puedes enviar un mail a <a onclick="eventosLanding('correo');" href="mailto:sgomez@cmpabogados.cl?subject=Landing%20CMP%20Abogados"></a>sgomez@cmpabogados.cl</p>
+<br>
+Si tienes dudas puedes enviar Contactarte a </p>
             <!--  <div class="date btn bg-primary text-black col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
