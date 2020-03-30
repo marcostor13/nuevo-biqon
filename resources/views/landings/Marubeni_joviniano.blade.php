@@ -78,7 +78,7 @@ $enddate=strtotime("+7 days", $startdate);
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo// date('Y-m-d') ?>" max="<?php// echo// date("Y-m-d", $enddate) ?>"/>-->
                 </div>
-                <button onclick='window.location.href="https://www.marubeni.cl/contacto/"; eventosLanding("Pagina de Pagos");' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="https://www.unired.cl/Home/CuentasNoRegistradasPaso?IdEmpresaRubro_autocomplete=Marubeni+Credit+&IdEmpresaRubro=e%252fqx7LzT1zmaWV%252fNBX8gb9qrTzsyLHq%252by%252bmLPJ6hHz8%253d"; eventosLanding("Pagina de Pagos");' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56959577379&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
