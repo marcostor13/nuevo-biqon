@@ -89,7 +89,7 @@ Para acceder a esta opción debes ingresar tus datos hasta el jueves 2 de abril 
 
                 <p> Si no te interesa esta propuesta, no estás al día antes de fin de mes o no cumples con el envío de la información pertinente, tu calendario se mantendrá sin cambios.
 
-Si tienes dudas puedes enviar un mail a <a onclick="eventosLanding('correo');" href="mailto:serviciostanner@tanner.cl?subject=Landing%20CMP%20Abogados"></a>serviciostanner@tanner.cl</p>
+Si tienes dudas puedes enviar un mail a <a onclick="eventosLanding('correo');" href="mailto:sgomez@cmpabogados.cl?subject=Landing%20CMP%20Abogados"></a>sgomez@cmpabogados.cl</p>
             <!--  <div class="date btn bg-primary text-black col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
