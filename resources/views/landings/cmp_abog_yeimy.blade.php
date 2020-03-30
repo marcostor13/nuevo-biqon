@@ -91,7 +91,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <!--<span>Convenio de pago, Contactar</span>-->
                     <a href="tel:+56935237368" class="btn bg-primary text-black col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
-              <button onclick='window.location.href="http://servipag.mundocredito.cl/PagoCuotas.php"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>
+              <button onclick='window.location.href="https://tanner.cl/acceso-clientes/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>
                 
                <!-- <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>-->
                 
