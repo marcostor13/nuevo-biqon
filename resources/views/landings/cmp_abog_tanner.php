@@ -11,10 +11,6 @@ $enddate=strtotime("+5 days", $startdate);
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style type="text/css">
     
 .card {
@@ -54,12 +50,12 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-   <!-- <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">-->
+     <!-- <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">-->
 
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-             <img style="max-width:250px; max-height:200px "  class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CMPAbogados">
+            <img style="max-width:250px; max-height:200px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CMPAbogados">
 
              <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
@@ -70,7 +66,7 @@ $enddate=strtotime("+5 days", $startdate);
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
-                                 <a href="tel:+56932935338" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
+                                 <a href="tel:+56935237368" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
@@ -78,20 +74,14 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black">
-                 Preparamos una campaña especial solo para los clientes que están al día y que hayan pagado su cuota de marzo 2020 antes del 31 de marzo a las 23:59 hrs. Si cumples con estos requisitos podrás refinanciar tu crédito automotriz y desfasar el pago de hasta 3 cuotas a tasa preferencial.
-<br>
-Para acceder a esta opción debes ingresar tus datos hasta el jueves 2 de abril haciendo click en el siguiente botón y uno de nuestros ejecutivos se comunicará contigo dentro de los próximos tres días hábiles:
+                 <strong>Tanner </strong>  informa que su crédito N°<span id="data1"></span> fue enviado a cobranza judicial, para suspender estas acciones contactarse urgente a N° <span id="data2"></span>
                 </p>
 
-<button onclick='window.location.href="https://forms.office.com/Pages/ResponsePage.aspx?id=ngP91nPl9EmH0nIS1-_5-pp2PomBIF1Ig9MZK3TNywRUNzg4TVlGU1BDRlhCS0s3STVMMUNMU09WSyQlQCN0PWcu"; eventosLanding("Formulario"); ' class="btn bg-primary text-black col-12 mt-4">Quiero que me Contacten</button>
-
-                <p> Si no te interesa esta propuesta, no estás al día antes de fin de mes o no cumples con el envío de la información pertinente, tu calendario se mantendrá sin cambios.
-
-Si tienes dudas puedes enviar un mail a <a onclick="eventosLanding('correo');" href="mailto:serviciostanner@tanner.cl?subject=Landing%20CMP%20Abogados"></a>serviciostanner@tanner.cl</p>
-            <!--  <div class="date btn bg-primary text-black col-12 mt-4">
+                
+              <div class="date btn bg-primary text-black col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
-                </div>-->
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
 
                <!-- <button  class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar
                   <a href="tel:+34678567876">Aquí el texto que quieras</a>        
@@ -99,18 +89,18 @@ Si tienes dudas puedes enviar un mail a <a onclick="eventosLanding('correo');" h
 
                 <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
-                  <!--  <a href="tel:+56932935338" class="btn bg-primary text-black col-12 mt-4"> Convenio de pago, Contactar</a>--> 
+                    <a href="tel:+56935237368" class="btn bg-primary text-black col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
-            <!--  <button onclick='window.location.href="https://tanner.cl/acceso-clientes/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button> -->
+              <button onclick='window.location.href="https://tanner.cl/acceso-clientes/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>
                 
                <!-- <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>-->
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56932935338&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56935237368&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56932935338"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56935237368"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
-                    <a onclick="eventosLanding('Correo');" href="mailto:fcortes@cmpabogados.cl?subject=Landing%20CMP%20Abogados"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:ylambis@cmpabogados.cl?subject=Landing%20CMP%20Abogados"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>
                 
             </div>
@@ -135,7 +125,7 @@ Si tienes dudas puedes enviar un mail a <a onclick="eventosLanding('correo');" h
             });
         }); 
 
-        function event1(){
+         function event1(){
           var data1; 
          data1= getUrlParameter('data1'); 
           var data2; 
@@ -230,7 +220,7 @@ Si tienes dudas puedes enviar un mail a <a onclick="eventosLanding('correo');" h
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["fcortes@cmpabogados.cl"];  
+            var correo = ["ylambis@cmpabogados.cl"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -320,13 +310,7 @@ Si tienes dudas puedes enviar un mail a <a onclick="eventosLanding('correo');" h
 
             return obj;  
         };
-  function Mens2(){
-       var id_adm; 
-         id_adm= getUrlParameter('data1'); 
-         var rut; 
-         rut= getUrlParameter('rut'); 
-   window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Id Admision: "+id_adm+"   RUT:  "+rut;
-        } 
+
      </script>
 
 @endsection
