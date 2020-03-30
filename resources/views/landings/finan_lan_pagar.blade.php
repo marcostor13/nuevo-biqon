@@ -76,35 +76,34 @@ extends('layouts.landing')
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h3>
                                  <p class="text-white"> <h4> 
-                                 Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
-                                <p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> 
+                                 Debido a la contingencia que sufre el país, FINANCOOP, le sugiere pagar su cuota por el siguiente medio..</h4> </p>
+                               
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
-                               <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
+                               <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-primary text-white col-12 mt-2">PAGAR POR TRANSFERENCIA
                                 </button>
+                                   <button onclick="Mens5(); eventosLanding('Pago Banco Estado ');" class="btn bg-primary text-white col-12 mt-2">PAGAR POR BANCO ESTADO
+                                </button>
+                                    <button onclick="Mens6(); eventosLanding('Ya Pague ');" class="btn bg-primary text-white col-12 mt-2">YA PAGUE
+                                </button>
+                                 <button onclick="Mens7(); eventosLanding('Consultas ');" class="btn bg-primary text-white col-12 mt-2">CONSULTAS
+                                </button>
+
 
                               <!--  <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>-->
                                 </div>
-
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
-                                    <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
-                                </div>
                                 
                                 <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png">
                                 </button>-->
-                                    <div class="d-flex justify-content-around align-content-center mt-4">
-                                                       
-                                    <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                                  
                                    
                                 <!--  <a onclick="eventosLanding('Correo');" href="mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Escribe aquí si tienes preguntas"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
                                     
  <!--<a href = "mailto:miemail@gmail.com??subject=Pago%20de%20Cuenta&body=Escribe aquí si tienes preguntas".id_adm;><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
-   <a onclick="eventosLanding('Correo'); Mens2();"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
 
                                     </div>
 
@@ -343,28 +342,45 @@ extends('layouts.landing')
          id_adm= getUrlParameter('data1'); //1234;
           
             swal({
-               title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
+               title: `Transferencia a BANCO XXXX,  cta cte Nº XXXXXX, COOPERATIVA DE AHORRO Y CREDITO PARA EL
+DESARROLLO FINANCOOP, RUT 65.677.500- 9, Email: cobranzas@financoop.cl ${id_adm}`,
              //text: "Expandir la Pantalla",
              type: "success",
              timer: 5000
-        }, 
-        function(){
-             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
-        })
+        }, )
 
 
         } 
 
 
-     function Mens2(){
+     function Mens5(){
+       var id_adm; 
+         id_adm= getUrlParameter('data1'); 
+         var rut; 
+         rut= getUrlParameter('rut'); 
+   window.location.href = "http://www.bancoestado.cl";
+
+
+        } 
+
+
+         function Mens6(){
        var id_adm; 
          id_adm= getUrlParameter('data1'); 
          var rut; 
          rut= getUrlParameter('rut'); 
    window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Id Admision: "+id_adm+"   RUT:  "+rut;
+ }
+
+            function Mens7(){
+       var id_adm; 
+         id_adm= getUrlParameter('data1'); 
+         var rut; 
+         rut= getUrlParameter('rut'); 
+   window.location.href = "mailto:cobranzas@financoop.cl?subject=Pago%20de%20Cuenta&body=Id Admision: "+id_adm+"   RUT:  "+rut;
 
 
-        } 
+ }
     </script>
     
 
