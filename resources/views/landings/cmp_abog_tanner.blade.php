@@ -59,7 +59,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-             <img style="max-width:250px; max-height:200px "  class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CMPAbogados">
+           <!--  <img style="max-width:250px; max-height:200px "  class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CMPAbogados">-->
 
             <!-- <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
@@ -76,7 +76,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
             <div id="cont2" class="p-5 ">
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
-  <img style="max-width:250px; max-height:200px "  class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/mZPtMyS.jpg" alt="CMPAbogados">
+  <img  class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/mZPtMyS.jpg" alt="CMPAbogados">
                 <p class="text-black">
                  Preparamos una campaña especial solo para los clientes que están al día y que hayan pagado su cuota de marzo 2020 antes del 31 de marzo a las 23:59 hrs. Si cumples con estos requisitos podrás refinanciar tu crédito automotriz y desfasar el pago de hasta 3 cuotas a tasa preferencial.
 <br>
