@@ -164,7 +164,7 @@ $enddate=strtotime("+15 days", $startdate);
                 } 
             }
 
-            var correo = ["luis.binteraction@gmail.com"];
+            var correo = ["edelafuente@mafchile.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
