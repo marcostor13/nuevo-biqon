@@ -372,7 +372,7 @@
          id_adm= getUrlParameter('data1'); 
          var rut; 
          rut= getUrlParameter('rut'); 
-   window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Id Admision: "+id_adm+"   RUT:  "+rut;
+   window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta%20Id_Admision:%20"+id_adm+"%20RUT:%20"+rut;
 
 
         }  
