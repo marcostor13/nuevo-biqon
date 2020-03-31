@@ -46,7 +46,7 @@
     
 </style>
 
-    <div id="CLINICA_DAVILA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+   <!-- <div id="CLINICA_DAVILA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
 
      <div class="opaco">
 
@@ -74,9 +74,9 @@
                     <div id="cont2" class="p-2 pl-3 pr-3 ">
                         <div class="card">     
                             <div class="card-body">
-                                <h3 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h3>
+                                <h3 class="text-grey text-center"> Estimado(a) <strong>  <span id="name"></span> </strong> </h3>
                                  <p class="text-white"> <h4> 
-                                 Debido a la contingencia que sufre el país, FINANCOOP, le sugiere pagar su cuota por el siguiente medio..</h4> </p>
+                                 Debido a la contingencia que sufre el país, FINANCOOP, le sugiere pagar su cuota por el siguiente medio</h4> </p>
                                
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
@@ -85,11 +85,11 @@
                                 </button>
                                    <button onclick="Mens5(); eventosLanding('Pago Banco Estado ');" class="btn bg-primary text-white col-12 mt-2">PAGAR POR BANCO ESTADO
                                 </button>
-                                    <button onclick="Mens6(); eventosLanding('Ya Pague ');" class="btn bg-primary text-white col-12 mt-2">YA PAGUE
-                                </button>
+                                    
+                                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
+
                                  <button onclick="Mens7(); eventosLanding('Consultas ');" class="btn bg-primary text-white col-12 mt-2">CONSULTAS
                                 </button>
-
 
                               <!--  <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
@@ -343,7 +343,8 @@
           
             swal({
                title: `Transferencia a BANCO XXXX,  cta cte Nº XXXXXX, COOPERATIVA DE AHORRO Y CREDITO PARA EL
-DESARROLLO FINANCOOP, RUT 65.677.500- 9, Email: cobranzas@financoop.cl ${id_adm}`,
+DESARROLLO FINANCOOP, RUT 65.677.500- 9, Email: cobranzas@financoop.cl`,
+
              //text: "Expandir la Pantalla",
              type: "success",
              timer: 5000
@@ -362,19 +363,15 @@ DESARROLLO FINANCOOP, RUT 65.677.500- 9, Email: cobranzas@financoop.cl ${id_adm}
 
 
          function Mens6(){
-       var id_adm; 
-         id_adm= getUrlParameter('data1'); 
          var rut; 
          rut= getUrlParameter('rut'); 
-   window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Id Admision: "+id_adm+"   RUT:  "+rut;
+   window.location.href = "mailto:cobranzas@financoop.cl?subject=Pago%20de%20Cuenta&body=RUT: "+rut;
  }
 
-            function Mens7(){
-       var id_adm; 
-         id_adm= getUrlParameter('data1'); 
+            function Mens7(){     
          var rut; 
          rut= getUrlParameter('rut'); 
-   window.location.href = "mailto:cobranzas@financoop.cl?subject=Pago%20de%20Cuenta&body=Id Admision: "+id_adm+"   RUT:  "+rut;
+   window.location.href = "mailto:cobranzas@financoop.cl?subject=Pago%20de%20Cuenta&body=RUT:  "+rut;
 
 
  }
