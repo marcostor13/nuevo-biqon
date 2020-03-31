@@ -371,7 +371,7 @@
          var rut; 
          rut= getUrlParameter('rut'); 
 
-         var body_message = "%0D%0D%0D%0DEstimado paciente, %0D%0D%0D%0Dfavor envíe su consulta relacionada al pago de su cuenta hospitalaria. Saludos cordiales Atte.  %0D%0D%0D%0DContact Center Clínica Dávila %0D%0D%0D%0DFono: 22730800 opción 2";
+         var body_message = "%0D%0A DEstimado paciente, %0D%0A favor envíe su consulta relacionada al pago de su cuenta hospitalaria. Saludos cordiales Atte.  %0D%0A Contact Center Clínica Dávila %0D%0A DFono: 22730800 opción 2";
 
    window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta%20&body=Id_Admision:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
 
