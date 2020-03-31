@@ -62,7 +62,7 @@ $enddate=strtotime("+5 days", $startdate);
            
 
         <div id="cont1" class="p-5 ">
-            
+
                 <img style="max-width:250px; max-height:200px "  class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CMPAbogados">
 
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
@@ -216,8 +216,8 @@ Si tienes dudas puedes enviar Contactarte a </p>
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Ejecutivo': getUrlParameter('data3'),
-                    'Credito Cliente': getUrlParameter('data1'),
+                    'Ejecutivo': getUrlParameter('data1'),
+                    //'Credito Cliente': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -230,8 +230,8 @@ Si tienes dudas puedes enviar Contactarte a </p>
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Ejecutivo': getUrlParameter('data3'),
-                    'Credito Cliente': getUrlParameter('data1'),
+                    'Ejecutivo': getUrlParameter('data1'),
+                    //'Credito Cliente': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
