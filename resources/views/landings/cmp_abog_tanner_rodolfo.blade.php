@@ -56,16 +56,19 @@ $enddate=strtotime("+5 days", $startdate);
 
    <!-- <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">-->
 
-        <div class="opaco"></div>
+         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-           <!--  <img style="max-width:250px; max-height:200px "  class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CMPAbogados">-->
+           
 
-            <!-- <div id="cont1" class="p-5 ">
+        <div id="cont1" class="p-5 ">
+
+                <img style="max-width:250px; max-height:200px "  class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CMPAbogados">
+
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-primary text-black col-12 mt-4"> Validar </button>
-            </div>-->
+            </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -74,7 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 ">
+            <div id="cont2" class="p-5 hide">
                 
   <img style="max-width: 60%"  class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/mZPtMyS.jpg" alt="CMPAbogados">
                
