@@ -342,10 +342,8 @@
          id_adm= getUrlParameter('data1'); //1234;
           
             swal({
-               title: `Transferencia a BANCO XXXX,  cta cte Nº XXXXXX, COOPERATIVA DE AHORRO Y CREDITO PARA EL
-DESARROLLO FINANCOOP, RUT 65.677.500- 9, Email: cobranzas@financoop.cl`,
-
-             //text: "Expandir la Pantalla",
+               title: `Transferencia a BANCO XXXX,  cta cte Nº XXXXXX,`,
+             text: "COOPERATIVA DE AHORRO Y CREDITO PARA EL DESARROLLO FINANCOOP, RUT 65.677.500- 9, Email: cobranzas@financoop.cl",
              type: "success",
              timer: 5000
         }, )
