@@ -86,7 +86,7 @@
                                    <button onclick="Mens5(); eventosLanding('Pago Banco Estado ');" class="btn bg-primary text-white col-12 mt-2">PAGAR POR BANCO ESTADO
                                 </button>
                                     
-                                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
+                                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
 
                                  <button onclick="Mens7(); eventosLanding('Consultas ');" class="btn bg-primary text-white col-12 mt-2">CONSULTAS
                                 </button>
@@ -231,7 +231,7 @@
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
-             var correo = ["infopagatucuenta@davila.cl"];
+             var correo = ["cobranzas@financoop.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -356,7 +356,7 @@ DESARROLLO FINANCOOP, RUT 65.677.500- 9, Email: cobranzas@financoop.cl`,
 
      function Mens5(){
       
-   window.location.href = "http://www.bancoestado.cl";
+   window.location.href = "https://www.bancoestado.cl/imagenes/comun2008/banca-en-linea-personas.html";
 
 
         } 
