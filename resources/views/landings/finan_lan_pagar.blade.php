@@ -76,7 +76,7 @@
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong>  <span id="name"></span> </strong> </h3>
                                  <p class="text-white"> <h4> 
-                                 Debido a la contingencia que sufre el país, FINANCOOP, le sugiere pagar su cuota por el siguiente medio</h4> </p>
+                                 Sabemos que muchos de ustedes atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19. En FINANCOOP, estamos aquí para apoyarlos y ayudarlos a que pueda seguir funcionando lo mejor posible en los próximos meses y no salga de su casa, le ofrecemos las siguientes opciones de pago</h4> </p>
                                
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
