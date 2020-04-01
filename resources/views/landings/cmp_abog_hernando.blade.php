@@ -60,13 +60,13 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-primary text-black col-12 mt-4"> Validar </button>
+                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4"> Validar </button>
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
-                                 <a href="tel:+56949288698" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
+                                 <a href="tel:+56949288698" class="btn bg-primary text-white col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </p>
 
                 
-              <div class="date btn bg-primary text-black col-12 mt-4">
+              <div class="date btn bg-primary text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
@@ -89,9 +89,9 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
-                    <a href="tel:+56949288698" class="btn bg-primary text-black col-12 mt-4"> Convenio de pago, Contactar</a> 
+                    <a href="tel:+56949288698" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
-               <button onclick='window.location.href="https://tanner.cl/acceso-clientes/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>
+               <button onclick='window.location.href="https://tanner.cl/acceso-clientes/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
                 
                <!-- <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>-->
                 
