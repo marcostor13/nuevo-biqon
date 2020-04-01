@@ -32,7 +32,7 @@ $enddate=strtotime("+15 days", $startdate);
 
                         <div class="date btn bg-primary text-white col-12 mt-4">
                     <span>AGENDAR</span>
-                    <input id="date1"  type="date" class="btn-date text-white input-min-width-95p" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-blak input-min-width-95p" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                      </div>
 
                        </div>
