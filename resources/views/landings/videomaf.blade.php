@@ -30,14 +30,28 @@ $enddate=strtotime("+15 days", $startdate);
 
                     <h5 class="text-black text-center"> <strong> Desea agendar su visita</strong> </h5>
 
-                        <div class="date btn bg-warning text-black col-12 mt-4">
+                        <div class="date btn bg-primary text-white col-12 mt-4">
                     <span>AGENDAR</span>
-                    <input id="date1"  type="date" class="btn-date text-primary input-min-width-95p" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-white input-min-width-95p" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                      </div>
 
                        </div>
                    </div>
-                
+                <!-- colores
+                azul=primary 
+                amarillo = warning
+                rojo= danger 
+                verde = success
+                negro = blak
+                blanco = white
+                El codigo para cambiar el color es en CLASS" bg-"
+                El codigo para cambiar el color de la fuente es CLASS" text-"
+
+                RECUERDA QUE PARA QUE SE VEAN BIEN EL ESCRITO DEBES USAR LETRAS OSCURAS EN FONDOS CLAROS - O - LETRAS CLARAS EN FONDOS OCUROS!!
+                POR ESO EL FONDO AZUL Y LETRAS BLANCAS
+                OK??SI
+                GUARDA ESTA INFORMACION PARA Q LA TENGAS Y EDITA LA LANDING.. AVISAME PARA REVISARLA YO ANTES Q LILI O GUILLERMO POR SI HAY ALGO MAL :) Y AYUDARTE, oka
+            -->
 
                
             
