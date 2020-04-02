@@ -55,7 +55,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:250px; max-height:200px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CMPAbogados" height="1000" width="400">
+            <img style="max-width:350px; max-height:250px" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CMPAbogados">
 
              <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
@@ -72,8 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 hide">
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
-                <p class="text-black
-            ">
+                <p class="text-black">
                     Te informamos que presentas un retraso en el pago del servicio.
                     
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
@@ -100,9 +99,6 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
             </div>
         </div>
-
-        </div>
-    </div>
 
     <script>
 
