@@ -7,7 +7,8 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+7 days", $startdate);
 ?>
-    <div id="mafchile" >
+    <div id="mafchile" style="background: url('https://haciendabelloamanecer.com/wp-content/uploads/2015/06/background-azul-logo.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="BINTERACTION">
@@ -53,7 +54,9 @@ $enddate=strtotime("+7 days", $startdate);
                             </div>
                         </div>
             </div>
+        </div>
 
+        </div>
     </div>
 
     <script>
