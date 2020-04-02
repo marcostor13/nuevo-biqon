@@ -103,7 +103,7 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     <a onclick="eventosLanding('Llamar');" href="tel:+56942626416"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
-                    <a onclick="eventosLanding('Correo');" href="mailto: valeska.vasquez@financoop.clcoop.cl"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto: valeska.vasquez@financoop.cl"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
             </div>
