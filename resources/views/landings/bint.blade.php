@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+7 days", $startdate);
 ?>
-    <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+    <div id="mafchile" >
 
         <div class="opaco"></div>
 
