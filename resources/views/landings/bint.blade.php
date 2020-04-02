@@ -61,13 +61,13 @@ $enddate=strtotime("+7 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="BINTERACTION">
+            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="BINTERACTION" height="600" width="400">
 
             <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
               
 
-                <input id="rut" type="number" class="form-control mt-4 text-center text-white">
+                <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 
 
                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4"> Validar </button>
