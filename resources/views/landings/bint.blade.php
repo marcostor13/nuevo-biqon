@@ -9,8 +9,6 @@ $enddate=strtotime("+7 days", $startdate);
 ?>
     <div id="mafchile" >
 
-        <div class="opaco"></div>
-
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="BINTERACTION">
 
@@ -56,7 +54,6 @@ $enddate=strtotime("+7 days", $startdate);
                         </div>
             </div>
 
-        </div>
     </div>
 
     <script>
