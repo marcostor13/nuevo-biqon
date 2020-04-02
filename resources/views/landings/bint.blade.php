@@ -29,7 +29,7 @@ $enddate=strtotime("+7 days", $startdate);
                 <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
 
                 <p class="text-white">
-                    Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz.
+                    Te informamos que presentas un retraso en el pago del servicio.
                     
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
                 </p>
