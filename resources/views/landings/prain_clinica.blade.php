@@ -81,12 +81,10 @@
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
-                                <a href="tel:+56983106646" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                                <a href="tel:+56983106646" class="btn bg-primary text-white col-12 mt-4">Contactar</a> 
 
-                              <!--  <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
-                                    <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>-->
-                                </div>
+                                <a onclick='Mens2();'  class="btn bg-primary text-white col-12 mt-4">Enviar Correo</a>
+                               
 
                                <!-- <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
