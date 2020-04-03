@@ -372,7 +372,7 @@
          id_adm= getUrlParameter('data1'); 
          var rut; 
          rut= getUrlParameter('rut'); 
-   window.location.href = "mailto:smunoz@prainabogados.cl?subject=Pago%20de%20Cuenta%20Id_Admision:%20"+id_adm+"%20RUT:%20"+rut;
+   window.location.href = "mailto:smunoz@prainabogados.cl?subject=Pago%20de%20Cuenta%20%20RUT:%20"+rut;
 
 
         }  
