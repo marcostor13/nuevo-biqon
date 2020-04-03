@@ -377,12 +377,6 @@
 
         }  
 
-
-     function Mens2(){
-     $('#cont2').addClass('hide');
-     $('#cont4').removeClass('hide');
-
-        } 
     </script>
     
 
