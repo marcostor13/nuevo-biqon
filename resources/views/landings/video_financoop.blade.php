@@ -249,6 +249,17 @@ window.location.href="mailto:contacto@binteraction.com";
  href="tel:+56985296912";
  }
 
+    }else if(data1="MNUEZ")  && (data2="SERENA"){
+ ws(){
+    window.location.href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta";
+ }
+ email(){
+window.location.href="mailto:contacto@binteraction.com";
+ }
+ telf(){
+ href="tel:+56985296912";
+ }
+
     }
 
     
