@@ -83,7 +83,7 @@ $enddate=strtotime("+5 days", $startdate);
                                 Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</h4> </p>-->
                                 <!--<h4> Si ID de Admision es:<strong> <p id="dato1" class="dato2"> </p> </h4>  </strong>-->
 
-                                <p><h5> Agradecemos contactar con su ISAPRE:  <b  id="dato1" class="dato1"></b> <br> y solicitar fecha de Emisión de Bonos por hospitalización pendiente. <br> De esta forma podemos  gestionar su cuenta. </h5></p>
+                                <p><h5> Debido al acontecer Nacional,<br> queremos apoyar la tramitacion de su cuenta,<br> gradecemos contactar con su ISAPRE:  <b  id="dato1" class="dato1"></b> <br> y solicitar fecha de Emisión de Bonos por hospitalización </h5></p>
                                
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
@@ -91,11 +91,11 @@ $enddate=strtotime("+5 days", $startdate);
                                 </button>-->
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick="eventosLanding('Llamar ISAPRE'); window.location.href='' " id="isapre2" class="btn bg-primary text-white col-12 mt-2s">CONTACTAR ISAPRE</a>
+                                    <a onclick="eventosLanding('Llamar ISAPRE'); window.location.href='' " id="isapre2" class="btn bg-primary text-white col-12 mt-2s">CONTACTAR CON SU ISAPRE</a>
                                 </div>
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a  href="" id="isapre3" class="btn bg-primary text-white col-12 mt-2s">PAG. WEB ISAPRE</a>
+                                    <a  href="" id="isapre3" class="btn bg-primary text-white col-12 mt-2s">PAG. WEB DE SU ISAPRE</a>
                                 </div>
 
                                <!-- <div class="date btn bg-primary text-white col-12 mt-4">
@@ -440,7 +440,7 @@ $enddate=strtotime("+5 days", $startdate);
 
          //var body_message = "%0A%20Estimado%20paciente,%0A%20favor%20env%C3%ADe%20su%20consulta%20relacionada%20al%20pago%20de%20su%20cuenta%20hospitalaria.%20%0A%20Saludos%20cordiales%20%0A%20%0A%20Atte.%20Contact%20Center%20%0A%20Cl%C3%ADnica%20D%C3%A1vila%20%0A%20Fono:%2022730800%20opci%C3%B3n%202";
 
-   window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta%20&body=ISAPRE:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+   window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Informacion%20de%20Bonificacion%20&body=ISAPRE:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
 
  }
     </script>
