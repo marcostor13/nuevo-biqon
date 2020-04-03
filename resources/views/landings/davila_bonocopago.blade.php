@@ -83,7 +83,7 @@ $enddate=strtotime("+5 days", $startdate);
                                 Clínica Dávila informa que en nuestros registros mantiene copago pendiente por servicios de hospitalización.</h4> </p>-->
                                 <!--<h4> Si ID de Admision es:<strong> <p id="dato1" class="dato2"> </p> </h4>  </strong>-->
 
-                                <p><h5> Debido al acontecer Nacional,<br> queremos apoyar la tramitacióde su cuenta, <br> agradecemos contactar con su ISAPRE:  <b  id="dato1" class="dato1"></b> <br> y solicitar fecha de Emisión de Bonos por hospitalización </h5></p>
+                                <p><h5> Debido al acontecer Nacional,<br> queremos apoyar la tramitación de su cuenta, <br> agradecemos contactar con su ISAPRE:  <b  id="dato1" class="dato1"></b> <br> y solicitar fecha de Emisión de Bonos por hospitalización </h5></p>
                                
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
