@@ -30,11 +30,11 @@
             </div>
             
 <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp'); ws();"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                    <a class="ml-4" onclick="eventosLanding('Llamar'); telf();"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:contacto@binteraction.com"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a class="ml-4" onclick="eventosLanding('Correo'); email();"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
         </div>
 
@@ -236,9 +236,21 @@
 
             return obj;  
         };
+var data1=getUrlParameter(data1);
+var data2=getUrlParameter(data2);  
+       if(data1="MNUEZ")  && (data2="SERENA"){
+ ws(){
+    window.location.href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta";
+ }
+ email(){
+window.location.href="mailto:contacto@binteraction.com";
+ }
+ telf(){
+ href="tel:+56985296912";
+ }
 
-      
-        
+    }
+
     
     </script>
     
