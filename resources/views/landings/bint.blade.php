@@ -81,7 +81,9 @@ $enddate=strtotime("+5 days", $startdate);
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                <button onclick='window.location.href="https://www.binteraction.cl";eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
+               
+
+                <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA
 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
                 
@@ -286,7 +288,20 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-      
+       function Mens1(){
+    var id_adm; 
+         id_adm= getUrlParameter('data1'); //1234;
+          
+            swal({
+               title: `Transferencia a BANCO ESTADO,  Cuenta Vista Nº 29170729925,`,
+             text: "BINTERACTION CHILE SPA, RUT 76.929.825-8, contacto@binteraction.com",
+             type: "success",
+             timer: 5000
+        }, )
+
+
+        } 
+
         
     
     </script>
