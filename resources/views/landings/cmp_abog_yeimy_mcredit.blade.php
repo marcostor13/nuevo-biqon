@@ -1,24 +1,18 @@
 @extends('layouts.landing')
 
-@section('title', 'Financoop')
+@section('title', 'CMP Abogados')
 
 @section('content')
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
-
-//$name = $_GET['NOMBRE'];
-//echo "El identificador de este cliente es: $identificador";
 ?>
-<style>
-.opaco{
-    display: none !important; 
-
-}
-.input{
-  border-color: #A1CBF3 !important;
-}
-     
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style type="text/css">
+    
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border: 0;
@@ -53,72 +47,74 @@ $enddate=strtotime("+5 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
+    
 </style>
 
-   <div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+     <!-- <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">-->
 
-        
         <div class="opaco"></div>
 
-       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Financoop">
+        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+            <img style="max-width:250px; max-height:250px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CMPAbogados">
 
-           
-
-           <div id="cont1" class="p-5 hide">
-                <div class="card">     
-                <div class="card-body">
-                <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
-                <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4">Validar</button>
+             <div id="cont1" class="p-5 ">
+                <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-black">
+                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4"> Validar </button>
             </div>
-
-
-               <div id="cont5" class="p-2 pl-3 pr-3 hide">
+            <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
+                                 <a href="tel:+56932505512" class="btn bg-primary text-white col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
+            <div id="cont2" class="p-5 hide">
+                <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
-             <div id="cont2" class="p-3">
-                <div class="card">     
-                <div class="card-body">
-                 <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
-                   
-                   <h4>FINANCOOP tiene un credito Pre-Aprobado para tí,
-                    envia última liquidación y Cédula de Identidad</h4>
-                           
-            </div> 
+                <p class="text-black">
+                  Le Informamos que su deuda de: <strong>  MUNDO CREDITO  </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
+                </p>
 
-            </div> 
-
-                <button onclick='window.location.href="tel:+56942626416" 'class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
-
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">CLICK AQUÍ SI DESEAS QUE TE CONTACTEMOS</button>
                 
-                <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56942626416&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56942626416"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
-                   
-                    <a onclick="eventosLanding('Correo');" href="mailto: valeska.vasquez@financoop.cl"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+              <div class="date btn bg-primary text-white col-12 mt-4">
+                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
+
+               <!-- <button  class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar
+                  <a href="tel:+34678567876">Aquí el texto que quieras</a>        
+                 class="btn bg-primary text-black col-12 mt-4">Convenio de pago, Contactar</button>-->
+
+                <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
+                    <!--<span>Convenio de pago, Contactar</span>-->
+                    <a href="tel:+56932505512" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                <!-- <</div>-->
+               <button onclick='window.location.href="http://servipag.mundocredito.cl/PagoCuotas.php"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
+                
+               <!-- <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>-->
+                
+                 <div class="d-flex justify-content-around align-content-center mt-4">
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56935237368&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56935237368"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+
+                    <a onclick="eventosLanding('Correo');" href="mailto:ylambis@cmpabogados.cl?subject=Landing%20CMP%20Abogados"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>
                 
             </div>
-            <div id="cont3" class="p-2 pl-3 pr-3 hide">
+           <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-black text-center mt-3 hide"></h5>
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
-
         </div>
     </div>
 
-     <script>
+    <script>
    //EVENT 1
         
         $(function(){
@@ -160,9 +156,9 @@ $enddate=strtotime("+5 days", $startdate);
                         }
                     });
                 }else{
-                    $('#cont1').addClass('hide');
+                        $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a alguna de nuestras sucursales.");
+                    $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí.");
                 }
             })
             .fail(function() {
@@ -176,8 +172,7 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre=getUrlParameter('nombre');
-            //json_datos.nombre = $('#name').text();
+            json_datos.nombre = $('#name').text();
             //json_datos.monto = $('#pay').text();
 
             events({    
@@ -197,44 +192,36 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Mombre': getUrlParameter('nombre'),
+                    'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
-                    'Phone': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
-                     'Sucursal': getUrlParameter('data1'),
-                     'Campaña': getUrlParameter('data2'),
-                     'Ejecutivo': getUrlParameter('data3'),
-                                     
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Ejecutivo': getUrlParameter('data1'),
+                    'Credito Cliente': getUrlParameter('data2'),
+                    'landing': '{!! $landing->name !!}'
+                   
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'Fecha': date,
-                    'Mombre': getUrlParameter('nombre'),
+                    'fecha': date,
+                    'nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
-                    'Phone': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
-                     'Sucursal': getUrlParameter('data1'),
-                     'Campaña': getUrlParameter('data2'),
-                     'Ejecutivo': getUrlParameter('data3'),
+                    'rut': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Ejecutivo': getUrlParameter('data1'),
+                    'Credito Cliente': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-
-
-            var correo = ["valeska.vasquez@financoop.cl"];
+            var correo = ["ylambis@cmpabogados.cl"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com, ivonne.gonzalez@financoop.cl'
+                //'email': 'marcostor13@gmail.com'
             }
-            /*
-            
-
-
-            */
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -251,8 +238,9 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su visita fue agendada');
-                     eventosLanding('Agendo Visita');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                      eventosLanding('Compromiso de Pago');
+
                 }
             })
             .done(function(e) {
@@ -318,10 +306,6 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-      
-        
-    
-    </script>
-    
+     </script>
 
 @endsection
