@@ -76,33 +76,31 @@
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h3>
                                  <p class="text-white"> <h4> 
-                                 Debido a la contingencia que vive el país, Clínica  sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
+                                 Le Informamos que su deuda de: <strong> CLINICA </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones: </p>
                                 <!--<p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> -->
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
-                               <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
-                                </button>
+                                <a href="tel:+56983106646" class="btn bg-primary text-black col-12 mt-4"> Convenio de pago, Contactar</a> 
 
                               <!--  <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>-->
                                 </div>
 
-                                <div class="d-flex justify-content-around align-content-center mt-4">
+                               <!-- <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
-                                </div>
+                                </div>-->
                                 
                                 <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png">
                                 </button>-->
                                     <div class="d-flex justify-content-around align-content-center mt-4">
+
+                                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56983106646&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                                                        
                                     <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-                                   
-                                   <!--<a onclick="eventosLanding('Correo'); sendMail('El cliente quiere ser contactado');"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
-                                    <!--<a onclick="eventosLanding('Correo');" href="mailto:infopagatucuenta@davila.cl?subject=Landing%20Copago"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
 
                                     <a onclick="eventosLanding('Correo'); Mens2();"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                                     </div>
