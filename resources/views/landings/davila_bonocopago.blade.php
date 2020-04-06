@@ -104,7 +104,7 @@ $enddate=strtotime("+5 days", $startdate);
                                     </div>-->
 
                                 
-                                <button onclick="sendMail('El cliente desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
+                                <!--<button onclick="sendMail('El cliente desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>-->
 
                                 <!--<button onclick="Mens3(); eventosLanding('Problema');" class="btn bg-primary text-white col-12 mt-2">TENGO UN PROBLEMA
                                 </button>-->
