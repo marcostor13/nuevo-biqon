@@ -95,7 +95,7 @@ $enddate=strtotime("+5 days", $startdate);
                                 </div>
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a  onclick="eventosLanding('Llamar ISAPRE'); window.location.href='' " id="isapre3" class="btn bg-primary text-white col-12 mt-2s">PAGINA WEB ISAPRE</a>
+                                    <a  onclick="eventosLanding('Web ISAPRE'); window.location.href='' " id="isapre3" class="btn bg-primary text-white col-12 mt-2s">PAGINA WEB ISAPRE</a>
                                 </div>
 
                                <!-- <div class="date btn bg-primary text-white col-12 mt-4">
