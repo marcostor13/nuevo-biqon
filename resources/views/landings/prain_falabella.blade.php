@@ -79,26 +79,26 @@ $enddate=strtotime("+7 days", $startdate);
                         <div class="card">     
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h3>
-                                 <p class="text-white"> <h4> 
-                                 Sabemos que muchos de ustedes, atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19<br> 
-                                 <strong> PRAIN ABOGADOS</strong> por mandatos de <strong>  NUEVA CLINICA CORDILLERA </strong>, informa que tiene una cuenta pendiente, si requiere informacion le ofecemos las siguientes opciones opciones: </p>
+                             <p class="text-white"> <h4> 
+                            Sabemos que muchos de ustedes, atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19<br> 
+                            <strong> PRAIN ABOGADOS </strong> por mandatos de <strong> CMR FALABELLA</strong>, informa que tiene una cuenta pendiente, si requiere información le ofecemos las siguientes opciones: </p>
                                 <!--<p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> -->
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <!--<h4 class="text-grey text-center"> Seleccione una Opcion </h4>-->
 
                       <a onclick="eventosLanding('Whatsapp');" href="tel:+56986338377" class="btn bg-primary text-white col-12 mt-4">Llamar a Ejecutivo</a> 
 
-                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56986338377&text=Hola,%20tengo%20una%20consulta">Contactar por WHATSAPP</a>
+                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56986338377&text=Hola,%20tengo%20una%20consulta">Contactar por WhatsApp</a>
                                
 
                       <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-4">Correo a Ejecutivo</a>
 
                       <div class="date btn bg-danger text-white col-12 mt-4">
-                        <span>AGENDAR COMPROMISO DE PAGO</span>
+                        <span>Agendar Compromiso de Pago</span>
                           <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                       </div>
 
-                       <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
+                       <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">Ya Pague</button>
 
 
                                <!-- <div class="d-flex justify-content-around align-content-center mt-4">
