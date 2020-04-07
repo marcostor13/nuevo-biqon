@@ -88,7 +88,7 @@ $enddate=strtotime("+7 days", $startdate);
 
                       <a onclick="eventosLanding('Whatsapp');" href="tel:+56986338377" class="btn bg-primary text-white col-12 mt-4">Llamar a Ejecutivo</a> 
 
-                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56986338377&text=Hola,%20tengo%20una%20consulta">Contactar por WhatsApp</a>
+                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56986338377&text=Hola,%20tengo%20una%20consulta"  class="date btn bg-primary text-white col-12 mt-4">Contactar por WhatsApp</a>
                                
 
                       <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-4">Correo a Ejecutivo</a>
