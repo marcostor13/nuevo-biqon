@@ -93,12 +93,12 @@ $enddate=strtotime("+7 days", $startdate);
 
                       <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-4">Correo a Ejecutivo</a>
 
-                      <div class="date btn bg-danger text-white col-12 mt-4">
+                      <div class="date btn bg-primary text-white col-12 mt-4">
                         <span>Agendar Compromiso de Pago</span>
-                          <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                          <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                       </div>
 
-                       <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">Ya Pague</button>
+                       <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">Ya Pague</button>
 
 
                                <!-- <div class="d-flex justify-content-around align-content-center mt-4">
