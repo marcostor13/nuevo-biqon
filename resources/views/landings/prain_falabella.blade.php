@@ -86,37 +86,19 @@ $enddate=strtotime("+7 days", $startdate);
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <!--<h4 class="text-grey text-center"> Seleccione una Opcion </h4>-->
 
-                      <a onclick="eventosLanding('Whatsapp');" href="tel:+56986338377" class="btn bg-primary text-white col-12 mt-4">Llamar a Ejecutivo</a> 
-
-                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56986338377&text=Hola,%20tengo%20una%20consulta"  class="date btn bg-primary text-white col-12 mt-4">Contactar por WhatsApp</a>
-                               
-
-                      <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-4">Correo a Ejecutivo</a>
-
                       <div class="date btn bg-primary text-white col-12 mt-4">
                         <span>Agendar Compromiso de Pago</span>
                           <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                      </div>
+                      </div>          
+
+                      <a onclick="eventosLanding('Llamar');" href="tel:+56986338377" class="btn bg-primary text-white col-12 mt-4">Llamar a Ejecutivo</a> 
+
+                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56986338377&text=Hola,%20tengo%20una%20consulta"  class="date btn bg-primary text-white col-12 mt-4">Contactar por WhatsApp</a>  
+
+                      <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-4">Correo a Ejecutivo</a>
 
                        <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">Ya Pague</button>
 
-
-                               <!-- <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
-                                    <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
-                                </div>-->
-                                
-                                <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
-                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png">
-                                </button>-->
-                                   <!-- <div class="d-flex justify-content-around align-content-center mt-4">
-
-                                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56983106646&text=Hola,%20tengo%20una%20consulta"><img width="85" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                                                       
-                                    <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-
-                                    <a onclick="eventosLanding('Correo'); Mens2();"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
-                                    </div>-->
                             </div>   
                         </div>
                     </div>
@@ -375,7 +357,7 @@ $enddate=strtotime("+7 days", $startdate);
          id_adm= getUrlParameter('data1'); 
          var rut; 
          rut= getUrlParameter('rut'); 
-   window.location.href = "mailto:smunoz@prainabogados.cl?subject=Pago%20de%20Cuenta%20%20RUT:%20"+rut;
+   window.location.href = "mailto:vcruz@prainabogados.cl?subject=Pago%20de%20Cuenta%20%20RUT:%20"+rut;
 
 
         }  
