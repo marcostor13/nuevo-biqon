@@ -91,11 +91,11 @@ $enddate=strtotime("+5 days", $startdate);
                                 </button>-->
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick="eventosLanding('Llamar ISAPRE'); window.location.href='' " id="isapre2" class="btn bg-primary text-white col-12 mt-2s">CONTACTAR CON SU ISAPRE</a>
+                                    <a onclick="eventosLanding('Llamar ISAPRE'); window.location.href='' " id="isapre2" class="btn bg-primary text-white col-12 mt-2s">LLAMAR A ISAPRE</a>
                                 </div>
 
                                 <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a  href="" id="isapre3" class="btn bg-primary text-white col-12 mt-2s">PAG. WEB DE SU ISAPRE</a>
+                                    <a  href="" id="isapre3" class="btn bg-primary text-white col-12 mt-2s">PAGINA WEB ISAPRE</a>
                                 </div>
 
                                <!-- <div class="date btn bg-primary text-white col-12 mt-4">
@@ -114,11 +114,11 @@ $enddate=strtotime("+5 days", $startdate);
 
                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
-                                    <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                                    <!--<a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>-->
                                    
                                     <!--<a onclick="eventosLanding('Correo');" href="mailto:infopagatucuenta@davila.cl?subject=Landing%20Copago"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
 
-                                    <a onclick="eventosLanding('Correo'); Mens2();"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                                    <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2s"><!--<img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">-->CONTACTO CLINICA DAVILA</a>
                                     </div>
                             </div>   
                         </div>
