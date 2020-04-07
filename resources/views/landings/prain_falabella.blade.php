@@ -81,14 +81,14 @@ $enddate=strtotime("+7 days", $startdate);
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h3>
                                  <p class="text-white"> <h4> 
                                  Sabemos que muchos de ustedes, atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19<br> 
-                                 <strong> PRAIN ABOGADOS</strong> por mandatos de <strong>  NUEVA CLINICA CORDILLERA </strong>, informa que tiene una cuenta pendiente, si requiere informacion le ofecemos las siguientes opcioness pociones: </p>
+                                 <strong> PRAIN ABOGADOS</strong> por mandatos de <strong>  NUEVA CLINICA CORDILLERA </strong>, informa que tiene una cuenta pendiente, si requiere informacion le ofecemos las siguientes opciones opciones: </p>
                                 <!--<p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> -->
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
-                                <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
+                                <!--<h4 class="text-grey text-center"> Seleccione una Opcion </h4>-->
 
-                      <a onclick="eventosLanding('Whatsapp');" href="tel:+56983106646" class="btn bg-primary text-white col-12 mt-4">Llamar a Ejecutivo</a> 
+                      <a onclick="eventosLanding('Whatsapp');" href="tel:+56986338377" class="btn bg-primary text-white col-12 mt-4">Llamar a Ejecutivo</a> 
 
-                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56983106646&text=Hola,%20tengo%20una%20consulta">Contactar por WHATSAPP</a>
+                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56986338377&text=Hola,%20tengo%20una%20consulta">Contactar por WHATSAPP</a>
                                
 
                       <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-4">Correo a Ejecutivo</a>
@@ -130,7 +130,7 @@ $enddate=strtotime("+7 days", $startdate);
                         </div>
                     </div>
                     <div id="cont4" class="p-2 pl-5 pr-5 hide">
-                        <div class="card">     
+                       <!-- <div class="card">     
                             <div class="card-body">
                         <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); '>
@@ -139,7 +139,7 @@ $enddate=strtotime("+7 days", $startdate);
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
-                                </div>
+                                </div>-->
                                 </div>
                         </div>
                     </div>
@@ -228,34 +228,26 @@ $enddate=strtotime("+7 days", $startdate);
             let data; 
             if(msg !== false){
                 data = {
-                    'Mensaje': msg,
+                    'mensaje': msg,
                     'Nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
+                    'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Id_Admision': getUrlParameter('data1'),
-                    'Liquidacion': getUrlParameter('data2'),
-                    'Clasificacion': getUrlParameter('data3'),
-                    'Cuentas': getUrlParameter('data5'),
-                    'Landing': '{!! $landing->name !!}'
+                   
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'Fecha': date,
-                    'Nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
-                    'Id_Admision': getUrlParameter('data1'),
-                    'Liquidacion': getUrlParameter('data2'),
-                    'Clasificacion': getUrlParameter('data3'),
-                    'Cuentas': getUrlParameter('data5'),
-                    'Landing': '{!! $landing->name !!}'
+                    'fecha': date,
+                    'nombre': $('#name').text(),
+                    'monto': getUrlParameter('monto'),
+                    'rut': getUrlParameter('rut'),
+                    'phone': getUrlParameter('telefono'),
+                    'landing': '{!! $landing->name !!}'
                 } 
             }
-             var correo = ["smunoz@prainabogados.cl"];
+             var correo = ["vcruz@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
