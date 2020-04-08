@@ -1,7 +1,10 @@
-@section('title', 'ZONASUR')
+@extends('layouts.landing')
 
-@section('co@extends('layouts.landing')
-ntent')
+@section('title', 'ZonaSur')
+
+@section('content')
+
+
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
