@@ -66,7 +66,7 @@ $enddate=strtotime("+5 days", $startdate);
                         <div class="card-body">
                         <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
                         <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
-                        <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
+                        <button onclick="event1(); return false;" class="btn bg-succes text-white col-12 mt-4">Validar</button>
                        </div>
                        </div> 
                     </div>
