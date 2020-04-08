@@ -81,7 +81,7 @@ $enddate=strtotime("+7 days", $startdate);
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h3>
                              <p class="text-white"> <h4> 
                             Sabemos que muchos de ustedes, atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19<br> 
-                            <strong> PRAIN ABOGADOS </strong> por orden de <strong> Nueva Clínica Cordillera</strong>, informa que tiene una cuenta pendiente, si requiere información le ofecemos las siguientes opciones: </p>
+                            <strong> PRAIN ABOGADOS </strong> por orden de <strong> Nueva Clínica Cordillera</strong>,informa campaña especial por su cuenta pendiente, si requiere información le ofecemos las siguientes opciones: </p>
                                 <!--<p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> -->
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <!--<h4 class="text-grey text-center"> Seleccione una Opcion </h4>-->
@@ -89,10 +89,10 @@ $enddate=strtotime("+7 days", $startdate);
                         <span>Agendar Compromiso de Pago</span>
                           <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                       </div>          
+                                                          
+                      <a onclick="eventosLanding('Llamar');" href="tel:+56934438927" class="btn bg-primary text-white col-12 mt-4">Llamar a Ejecutivo</a> 
 
-                      <a onclick="eventosLanding('Llamar');" href="tel:+56983106646" class="btn bg-primary text-white col-12 mt-4">Llamar a Ejecutivo</a> 
-
-                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56983106646&text=Hola,%20tengo%20una%20consulta"  class="date btn bg-primary text-white col-12 mt-4">Contactar por WhatsApp</a>  
+                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56934438927&text=Hola,%20tengo%20una%20consulta"  class="date btn bg-primary text-white col-12 mt-4">Contactar por WhatsApp</a>  
 
                       <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-4">Correo a Ejecutivo</a>
 
@@ -247,7 +247,7 @@ $enddate=strtotime("+7 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-             var correo = ["smunoz@prainabogados.cl"];
+             var correo = ["glandaeta@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -347,7 +347,7 @@ $enddate=strtotime("+7 days", $startdate);
              timer: 5000
         }, 
         function(){
-             window.location.href = "tel:+5698310646";
+             window.location.href = "tel:+56934438927";
         })
 
 
