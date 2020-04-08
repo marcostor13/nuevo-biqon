@@ -81,9 +81,7 @@ $enddate=strtotime("+5 days", $startdate);
                
 
                 <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
-
                    <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-4">YA PAGUE</button>
-
                     <div class="date btn bg-success text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
@@ -91,7 +89,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </div>
                 
                 <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>     
-                    <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+                 <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
 
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -103,7 +101,7 @@ $enddate=strtotime("+5 days", $startdate);
             </div>
         </div>
 
-    <script>
+     <script>
 
         $(function(){
             events({    
@@ -146,7 +144,7 @@ $enddate=strtotime("+5 days", $startdate);
                 }else{
                     $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta");
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web https://binteraction.cl/.");
                 }
             })
             .fail(function() {
@@ -199,7 +197,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-           var correo = ["arojas@zonasursa.cl"];
+           var correo = ["lilian.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -288,7 +286,6 @@ $enddate=strtotime("+5 days", $startdate);
 
             return obj;  
         };
-
     
            function Mens1(){
       
