@@ -85,7 +85,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                                 <p><h5> Debido a la contingencia que vive el pais,<br> sugerimos apoyar la tramitación de su cuenta <br> con su ISAPRE:  <b  id="dato1" class="dato1"></b> <br> y solicitar fecha de Emisión de Bonos correspondiente a su hospitalización </h5></p>
                                
-                                <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
+                                <h4 class="text-grey text-center"> Seleccione una Opción </h4>
 
                             <!-- <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>-->
