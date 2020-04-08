@@ -75,7 +75,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
                 <p class="text-black">
-                    Sabemos que muchos de ustedes, atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se estan produciendo como consecuencia de la crisis del COVID-19. ZONA SUR, Por mandato de TANNER, informa que tiene una cuenta pendiente, si requiere información le ofrecemos las siguientes opciones:
+                    Sabemos que muchos de ustedes, atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19. ZONA SUR, Por mandato de TANNER, informa que tiene una cuenta pendiente, si requiere información le ofrecemos las siguientes opciones:
                 </p>
                
                
