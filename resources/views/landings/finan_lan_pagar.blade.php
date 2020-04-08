@@ -76,12 +76,23 @@
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong>  <span id="name"></span> </strong> </h3>
                                  <p class="text-white"> <h4> 
-                                 Sabemos que muchos de ustedes atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19. En FINANCOOP, estamos aquí para apoyarlos y ayudarlos a que pueda seguir funcionando lo mejor posible en los próximos meses y no salga de su casa, le ofrecemos las siguientes opciones de pago</h4> </p>
+                                 Sabemos que muchos de ustedes atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19. En FINANCOOP, Contamos hoy con un servicio a domicilio para sacar la firma de sus creditos aprobados, para luego transferir a su cuenta RUT el prestamo.</h4> </p>
                                
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
-                               <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-primary text-white col-12 mt-2">PAGAR POR TRANSFERENCIA
+                                <button onclick="Mens1(); eventosLanding('Llamar');" class="btn bg-primary text-white col-12 mt-2">LLAMAR A EJECUTIVO</button>
+
+                                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-primary text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
+
+                                <div class="date btn bg-success text-white col-12 mt-4">
+                                 <span>AGENDAR VISITA</span>
+                                 <input id="date1"  type="date" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                                <button onclick="Mens4(); eventosLanding('Correo');" class="btn bg-primary text-white col-12 mt-2">CONSULTAS POR CORREO
+                                </button>
+
+
+                              <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-primary text-white col-12 mt-2">PAGAR POR TRANSFERENCIA
                                 </button>
                                    <button onclick="Mens5(); eventosLanding('Pago Banco Estado ');" class="btn bg-primary text-white col-12 mt-2">PAGAR POR BANCO ESTADO
                                 </button>
@@ -91,7 +102,7 @@
                                  <button onclick="Mens7(); eventosLanding('Consultas ');" class="btn bg-primary text-white col-12 mt-2">CONSULTAS
                                 </button>
 
-                              <!--  <div class="d-flex justify-content-around align-content-center mt-4">
+                                <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>-->
                                 </div>
@@ -319,6 +330,192 @@
 
             return obj;  
         };
+            $(function(){
+            events({    
+                'name': 'Visita',
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(getAllUrlParameter())
+            });
+        }); 
+
+         function event1(){
+    
+            let dataSend = {
+                'fourRut': $('#rut').val(),
+                'phone': getUrlParameter('telefono'),
+                'landing_id': {!! $landing->id !!},
+            } 
+            
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+            $.post( "/validateRut", dataSend,function() {
+                console.log(dataSend);
+            })
+            .done(function(e) {
+                console.log(e);
+                e = JSON.parse(e); 
+
+                if(e.code == 200){
+                    $('#cont1').addClass('hide');
+                    $('#name').text(e.data.nombre);
+                    $('#pay').text(e.data.monto);
+                    $('#cont2').removeClass('hide');
+                    $('#date1').on('change', function(){
+                        if($('#date1').val() != ''){
+                            sendMail();
+                        }
+                    });
+                }else{
+                    $('#cont1').addClass('hide');
+                     $('#cont5').removeClass('hide');
+                    $('#error').text("Validación incorrecta");
+                }
+            })
+            .fail(function() {
+                console.log( "error" );
+            });
+
+        }
+        
+
+        let eventosLanding = function(name){
+            
+            let json_datos = getAllUrlParameter(); 
+
+            json_datos.nombre = $('#name').text();
+            json_datos.monto = $('#pay').text();
+
+            events({    
+                'name': name,
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(json_datos)
+            });
+        }
+
+     
+
+        function sendMail(msg = false){
+
+            console.log('{!! $landing->name !!}'); 
+            
+            let data; 
+            if(msg !== false){
+                data = {
+                    'mensaje': msg,
+                    'Nombre': $('#name').text(),
+                    //'monto': getUrlParameter('monto'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                   
+                    
+                }
+            }else{
+                let date = $('#date1').val();
+                data = {
+                    'fecha': date,
+                    'nombre': $('#name').text(),
+                    //'monto': getUrlParameter('monto'),
+                    'rut': getUrlParameter('rut'),
+                    'phone': getUrlParameter('telefono'),
+                    'landing': '{!! $landing->name !!}'
+                } 
+            }
+
+           var correo = ["cobranzas@financoop.cl"];
+            let dataSend = {
+                'data': JSON.stringify(data),
+                'email': correo
+                //'email': '{!! $landing->email !!}' "alsanchez@prainabogados.cl"
+                //'email': 'marcostor13@gmail.com'
+            }
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+            $.post( "/sendMail", dataSend,function() {
+                console.log(dataSend);
+                if(msg !== false){
+                    $('#message').removeClass('hide');
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                }else{
+                    $('#message').removeClass('hide');
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                     eventosLanding('Compromiso de Pago');
+                }
+            })
+            .done(function(e) {
+                console.log(e);
+            })
+            .fail(function() {
+                console.log( "error" );
+            });
+
+        }
+
+        let events = function(data){     
+
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+
+            $.post( "/events", data, function() {
+                
+            })
+            .done(function(e) {
+                console.log(e);
+                console.log(e.msg);
+             
+            })
+            .fail(function(e) {
+                console.log(e);               
+            });
+
+        }
+
+        let getUrlParameter = function(sParam) {
+            var sPageURL = window.location.search.substring(1),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+            for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            if (sParameterName[0].toLowerCase() === sParam.toLowerCase()) {
+                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+            }
+            }
+        };
+
+        let getAllUrlParameter = function() {
+            var sPageURL = window.location.search.substring(1),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+            let obj = {}; 
+
+            for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            obj[sParameterName[0].toLowerCase()] = sParameterName[1];            
+            }
+
+            return obj;  
+        };
+
+
+
 
        function Mens(){
    // var id_adm; 
@@ -337,36 +534,24 @@
 
         } 
         
-       function Mens1(){
-    var id_adm; 
-         id_adm= getUrlParameter('data1'); //1234;
-          
-            swal({
-               title: `Transferencia a BANCO XXXX,  cta cte Nº XXXXXX,`,
-             text: "COOPERATIVA DE AHORRO Y CREDITO PARA EL DESARROLLO FINANCOOP, RUT 65.677.500- 9, Email: cobranzas@financoop.cl",
-             type: "success",
-             timer: 5000
-        }, )
+          function Mens1(){
 
-
+        window.location.href ="tel:+56944735189";
+    
         } 
 
 
-     function Mens5(){
-      
-   window.location.href = "https://www.bancoestado.cl/imagenes/comun2008/banca-en-linea-personas.html";
+    function Mens3(){
 
-
+        window.location.href = "https://api.whatsapp.com/send?phone=56944735189&text=Hola,%20tengo%20una%20consulta";
+    
         } 
 
 
-         function Mens6(){
-         var rut; 
-         rut= getUrlParameter('rut'); 
-   window.location.href = "mailto:cobranzas@financoop.cl?subject=Pago%20de%20Cuenta&body=RUT: "+rut;
- }
 
-            function Mens7(){     
+     
+
+            function Mens4(){     
          var rut; 
          rut= getUrlParameter('rut'); 
    window.location.href = "mailto:cobranzas@financoop.cl?subject=Pago%20de%20Cuenta&body=RUT:  "+rut;
