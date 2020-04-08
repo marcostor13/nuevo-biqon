@@ -85,24 +85,28 @@ $enddate=strtotime("+5 days", $startdate);
                     <div class="date btn bg-success text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                    </div>
-                
-                <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>     
-                 <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
                 </div>
+                
+                <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>   
+
+                 <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+
+             </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-black text-center mt-3"></h5>
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
             </div>
         </div>
 
      <script>
+   //EVENT 1
 
         $(function(){
+
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
@@ -141,9 +145,9 @@ $enddate=strtotime("+5 days", $startdate);
                         }
                     });
                 }else{
-                    $('#cont1').addClass('hide');
+                        $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web https://binteraction.cl/.");
+                    $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí.");
                 }
             })
             .fail(function() {
@@ -178,10 +182,10 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
                     'mensaje': msg,
                     'Nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
+                    'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                   
+                   'landing': '{!! $landing->name !!}'
                     
                 }
             }else{
@@ -189,23 +193,20 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
-                    'rut': getUrlParameter('rut'),
+                    'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
+                     'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-<<<<<<< HEAD
-           var correo = ["lilian.binteraction@gmail.com"];
-=======
-           var correo = ["jesus.binteraction@gmail.com"];
->>>>>>> 2feec223c0e1da4437925fd3232c6784b2a5d080
+            var correo = ["jesus.binteraction@gmail.com"];  
+
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email': '{!! $landing->email !!}' "alsanchez@prainabogados.cl"
-                //'email': 'marcostor13@gmail.com'
+                //'email': '{!! $landing->email !!}'
+                //'email': 'arojas@zonasursa.cl', "arojas@zonasursa.cl"
             }
             $.ajaxSetup({
                 headers: {
@@ -224,7 +225,8 @@ $enddate=strtotime("+5 days", $startdate);
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
-                     eventosLanding('Compromiso de Pago');
+                      eventosLanding('Compromiso de Pago');
+
                 }
             })
             .done(function(e) {
@@ -289,7 +291,8 @@ $enddate=strtotime("+5 days", $startdate);
 
             return obj;  
         };
-    
+
+
            function Mens1(){
       
    window.location.href = "https://ww3.servipag.com/pagoenlinea/portal/desktop/public/todas/!ut/p/b1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNgs0CLZ0MHQ38zQPcDBx9gs1CzAK9Df0DTYAKIvEo8DanTL-HEXH6DXAARwNC-r30o9Jz8pOAXg3Xj8KrGOQXvApAjgUrwOMaP4_83FT9gtzQ0IjKYE9dR0VFADNEynw!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/?idServicio=34&idBiller=843?TELEFONO=985296912&ID=79849235&URL=https://ww3.servipag.com/pagoenlinea/portal/desktop/public/todas/!ut/p/b1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNgs0CLZ0MHQ38zQPcDBx9gs1CzAK9Df0DTYAKIvEo8DanTL-HEXH6DXAARwNC-r30o9Jz8pOAXg3Xj8KrGOQXvApAjgUrwOMaP4_83FT9gtzQ0IjKYE9dR0VFADNEynw!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/?idServicio=34&idBiller=843";
