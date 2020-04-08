@@ -75,13 +75,13 @@ $enddate=strtotime("+7 days", $startdate);
                             </div>
                         </div>
                     </div>
-                    <div id="cont2" class="p-2 pl-3 pr-3 ">
+                    <div id="cont2" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h3>
                              <p class="text-white"> <h4> 
                             Sabemos que muchos de ustedes, atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19<br> 
-                            <strong> PRAIN ABOGADOS </strong> por mandatos de <strong> Nueva Clínica Cosdillera</strong>, informa que tiene una cuenta pendiente, si requiere información le ofecemos las siguientes opciones: </p>
+                            <strong> PRAIN ABOGADOS </strong> por mandatos de <strong> Nueva Clínica Cordillera</strong>, informa que tiene una cuenta pendiente, si requiere información le ofecemos las siguientes opciones: </p>
                                 <!--<p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> -->
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <!--<h4 class="text-grey text-center"> Seleccione una Opcion </h4>-->
