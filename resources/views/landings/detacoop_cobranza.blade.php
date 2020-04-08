@@ -66,7 +66,7 @@ $enddate=strtotime("+5 days", $startdate);
                         <div class="card-body">
                         <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
                         <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
-                        <button onclick="event1(); return false;" class="btn bg-succes text-white col-12 mt-4">Validar</button>
+                        <button onclick="event1(); return false;" class="btn bg-success text-white col-12 mt-4">Validar</button>
                        </div>
                        </div> 
                     </div>
@@ -87,14 +87,14 @@ $enddate=strtotime("+5 days", $startdate);
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opción </h4>
 
-                                <button onclick="Mens1(); eventosLanding('Llamar');" class="btn bg-succes text-white col-12 mt-2">LLAMAR A EJECUTIVO</button>
+                                <button onclick="Mens1(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO</button>
 
-                                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-succes text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
+                                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-success text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
 
-                                <button onclick="Mens4(); eventosLanding('Correo');" class="btn bg-succes text-white col-12 mt-2">CONSULTAS POR CORREO
+                                <button onclick="Mens4(); eventosLanding('Correo');" class="btn bg-success text-white col-12 mt-2">CONSULTAS POR CORREO
                                 </button>
 
-                                <button onclick="Mens3(); eventosLanding('Correo');" class="btn bg-succes text-white col-12 mt-2">VISITE NUESTRA PAGINA WEB
+                                <button onclick="Mens3(); eventosLanding('Correo');" class="btn bg-success text-white col-12 mt-2">VISITE NUESTRA PAGINA WEB
                                 </button>
 
 
