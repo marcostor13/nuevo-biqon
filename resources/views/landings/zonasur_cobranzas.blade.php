@@ -1,4 +1,4 @@
-@section('title', 'ZONA SUR')
+@section('title', 'ZONASUR')
 
 @section('co@extends('layouts.landing')
 ntent')
