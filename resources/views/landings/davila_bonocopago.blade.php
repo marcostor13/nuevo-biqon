@@ -115,12 +115,12 @@ $enddate=strtotime("+5 days", $startdate);
                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
                                     <!--<a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>-->
-                                    <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2s"><!--<img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">-->LLamanos</a>
+                                    <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2s"><!--<img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">-->LLÁMANOS</a>
                                    </div>
                                    <div class="d-flex justify-content-around align-content-center mt-4">
                                     <!--<a onclick="eventosLanding('Correo');" href="mailto:infopagatucuenta@davila.cl?subject=Landing%20Copago"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
 
-                                    <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2s"><!--<img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">-->Escribenos</a>
+                                    <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2s"><!--<img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">-->ESCRÍBENOS</a>
                                     </div>
                             </div>   
                         </div>
