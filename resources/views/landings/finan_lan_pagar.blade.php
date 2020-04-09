@@ -93,13 +93,13 @@ $startdate=('Y-m-d\TH:i:s');
 
                                   <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-primary text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
 
-                                <div class="date btn bg-primary text-white col-12 mt-4">
+                                <!--<div class="date btn bg-primary text-white col-12 mt-4">
                                  <span>PROGRAMAR VISITA MOTOBOY</span>
-                                 <input id="date1"  type="datetime-local" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d\TH:i:s') ?>" max="<?php echo date('2020-04-30\T18:00:00') ?>"/>
-                               </div>
+                                 <input id="date1"  type="datetime-local" class="btn-date text-white" style="border: none;" min="<?php //echo date('Y-m-d\TH:i:s') ?>" max="<?php //echo date('2020-04-30\T18:00:00') ?>"/>
+                               </div>-->
                                <!-- <div class="date btn bg-primary text-white col-12 mt-4">
                                  <span>PROGRAMAR VISITA VISITA MOTOBOY 1</span>
-                                  <input type='text' name='todate' step='1'  value="<?php echo date('Y-m-d\TH:i:s'); ?>" required/> </div>-->
+                                  <input type='text' name='todate' step='1'  value="<?php //echo date('Y-m-d\TH:i:s'); ?>" required/> </div>-->
 
                                 <button onclick="Mens4(); eventosLanding('Correo');" class="btn bg-primary text-white col-12 mt-2">CONSULTAS POR CORREO
                                 </button>
