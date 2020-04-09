@@ -5,7 +5,8 @@
 @section('content')
 
 <?php
-$startdate=strtotime("Today");
+//$startdate=strtotime("Today");
+$startdate=('Y-m-d\TH:i:s');
 $enddate=strtotime("+5 days", $startdate);
 ?>
 
