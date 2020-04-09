@@ -8,7 +8,7 @@
 //$startdate=strtotime("Today");
 $startdate=('Y-m-d\TH:i:s');
 //$enddate=strtotime("+5 days", $startdate);
-$enddate=('Y-m-d\TH:i:s');
+//$enddate=('Y-m-d\TH:i:s');
 ?>
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -95,7 +95,7 @@ $enddate=('Y-m-d\TH:i:s');
 
                                 <div class="date btn bg-primary text-white col-12 mt-4">
                                  <span>PROGRAMAR VISITA VISITA MOTOBOY</span>
-                                 <input id="date1"  type="datetime" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                                 <input id="date1"  type="datetime" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d\TH:i:s') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
                                </div>
                                 <button onclick="Mens4(); eventosLanding('Correo');" class="btn bg-primary text-white col-12 mt-2">CONSULTAS POR CORREO
                                 </button>
