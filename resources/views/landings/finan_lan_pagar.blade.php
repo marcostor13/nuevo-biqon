@@ -95,7 +95,7 @@ $startdate=('Y-m-d\TH:i:s');
 
                                 <div class="date btn bg-primary text-white col-12 mt-4">
                                  <span>PROGRAMAR VISITA MOTOBOY</span>
-                                 <input id="date1"  type="datetime-local" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d\TH:i:s') ?>" max="<?php echo date('2020-04-30\TH:i:s') ?>"/>
+                                 <input id="date1"  type="datetime-local" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d\TH:i:s') ?>" max="<?php echo date('2020-04-30\T18:00:00') ?>"/>
                                </div>
                                <!-- <div class="date btn bg-primary text-white col-12 mt-4">
                                  <span>PROGRAMAR VISITA VISITA MOTOBOY 1</span>
