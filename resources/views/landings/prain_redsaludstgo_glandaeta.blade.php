@@ -364,7 +364,7 @@ $enddate=strtotime("+7 days", $startdate);
              timer: 5000
         }, 
         function(){
-             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
+           // window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
         })
 
 
@@ -375,7 +375,7 @@ $enddate=strtotime("+7 days", $startdate);
          id_adm= getUrlParameter('data1'); 
          var rut; 
          rut= getUrlParameter('rut'); 
-   window.location.href = "mailto:smunoz@prainabogados.cl?subject=Pago%20de%20Cuenta%20%20RUT:%20"+rut;
+   window.location.href = "mailto:glandaeta@prainabogados.cl?subject=Pago%20de%20Cuenta%20%20RUT:%20"+rut;
 
 
         }  
