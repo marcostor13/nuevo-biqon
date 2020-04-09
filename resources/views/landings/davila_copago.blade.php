@@ -89,11 +89,7 @@
                                     <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>-->
                                 </div>
 
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
-                                    <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
-                                </div>
-                                
+                               
                                 <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png">
                                 </button>-->
@@ -107,6 +103,12 @@
    <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2s"><!--<img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">-->ESCRÍBENOS</a>
 
                                     </div>
+
+                                <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
+                                    <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
+                                </div>
+                                
 
                             </div>   
                         </div>
