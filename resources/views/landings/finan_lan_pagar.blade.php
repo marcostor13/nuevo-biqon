@@ -7,7 +7,8 @@
 <?php
 //$startdate=strtotime("Today");
 $startdate=('Y-m-d\TH:i:s');
-$enddate=strtotime("+5 days", $startdate);
+//$enddate=strtotime("+5 days", $startdate);
+$enddate=('Y-m-d\TH:i:s');
 ?>
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
