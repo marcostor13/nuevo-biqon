@@ -100,9 +100,9 @@
                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
                                     <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2s"><!--<img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">-->LLÁMANOS</a>
-                                   
+                                    </div>
                                 <!--  <a onclick="eventosLanding('Correo');" href="mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Escribe aquí si tienes preguntas"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
-                                    
+                                   <div class="d-flex justify-content-around align-content-center mt-4">  
  <!--<a href = "mailto:miemail@gmail.com??subject=Pago%20de%20Cuenta&body=Escribe aquí si tienes preguntas".id_adm;><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
    <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2s"><!--<img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">-->ESCRÍBENOS</a>
 
