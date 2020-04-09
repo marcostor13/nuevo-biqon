@@ -84,7 +84,7 @@ $startdate=('Y-m-d\TH:i:s');
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong>  <span id="name"></span> </strong> </h3>
                                  <p class="text-white"> <h4> 
-                                 Sabemos que muchos de ustedes atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19. En FINANCOOP, Contamos hoy con un servicio a domicilio para sacar la firma de sus créditos aprobados, para luego transferir a su cuenta RUT el préstamo.</h4> </p>
+                                 Sabemos que muchos de ustedes atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19. En FINANCOOP, contamos hoy con un servicio a domicilio para sacar la firma de sus créditos aprobados, para luego transferir a su cuenta RUT el préstamo.</h4> </p>
                                
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opción </h4>
