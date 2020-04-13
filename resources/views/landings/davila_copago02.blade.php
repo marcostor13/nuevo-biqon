@@ -94,6 +94,13 @@
                               <!--  <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>-->
+
+                                     <div class="d-flex justify-content-around align-content-center mt-4">
+                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
+                                    <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
+                                </div>
+
+                                
                                 </div>
 
                                
@@ -111,10 +118,7 @@
 
                                     </div>
 
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
-                                    <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
-                                </div>
+                               
                                 
 
                             </div>   
