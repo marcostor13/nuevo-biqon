@@ -255,7 +255,7 @@ $startdate=('Y-m-d\TH:i:s');
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
-             var correo = ["jesus.binteraction@gmail.com"];
+             var correo = ["rodrigo.ramirez@financoop.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -383,7 +383,7 @@ $startdate=('Y-m-d\TH:i:s');
             function Mens4(){     
          var rut; 
          rut= getUrlParameter('rut'); 
-   window.location.href = "mailto:cobranzas@financoop.cl?subject=Pago%20de%20Cuenta&body=RUT:  "+rut;
+   window.location.href = "mailto:rodrigo.ramirez@financoop.cl?subject=Pago%20de%20Cuenta&body=RUT:  "+rut;
 
 
  }
