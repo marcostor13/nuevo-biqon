@@ -6,7 +6,8 @@
 
 <?php
 //$startdate=strtotime("Today");
-$startdate=('Y-m-d\TH:i:s');
+//$startdate=('Y-m-d\TH:i:s');
+$name = $_GET['NOMBRE'];
 //$enddate=strtotime("+5 days", $startdate);
 //$enddate=('Y-m-d\TH:i:s');
 ?>
@@ -82,7 +83,7 @@ $startdate=('Y-m-d\TH:i:s');
                     <div id="cont2" class="p-2 pl-3 pr-3">
                         <div class="card">     
                             <div class="card-body">
-                                <h3 class="text-grey text-center"> Estimado(a) <strong>  <span id="name"></span> </strong> </h3>
+                                <h3 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h3>
                                  <p class="text-white"> <h4> 
                                  En estos momentos dificiles que estamos pasando a nivel pais en <strong class="text-primary">FINANCOOP</strong>, no queremos que salga de casa y hemos facilitado la forma en que puede acceder a un <strong> Crédito Especial para pensionados</strong>. Si desea información ingrese a las siguientes opciones:</h4> </p>
                                
