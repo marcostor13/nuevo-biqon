@@ -162,7 +162,7 @@ $startdate=('Y-m-d\TH:i:s');
 
          function event1(){ 
           var id_adm; 
-         id_adm= getUrlParameter('data1'); 
+         id_adm= getUrlParameter('nombre'); 
 
             let dataSend = {
                 'fourRut': $('#rut').val(),
@@ -185,7 +185,7 @@ $startdate=('Y-m-d\TH:i:s');
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#dato1').text(id_adm);
+                    $('#name').text(id_adm);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
