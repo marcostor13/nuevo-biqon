@@ -6,7 +6,8 @@
 
 <?php
 //$startdate=strtotime("Today");
-$startdate=('Y-m-d\TH:i:s');
+//$startdate=('Y-m-d\TH:i:s');
+$name = $_GET['NOMBRE'];
 //$enddate=strtotime("+5 days", $startdate);
 //$enddate=('Y-m-d\TH:i:s');
 ?>
@@ -63,7 +64,7 @@ $startdate=('Y-m-d\TH:i:s');
             
             <div class=col-md-12>
            
-                     <div id="cont1" class="p-2 pl-5 pr-5 ">
+                       <div id="cont1" class="p-2 pl-5 pr-5 hide">
                          <div class="card">
                         <div class="card-body">
                         <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
@@ -79,16 +80,12 @@ $startdate=('Y-m-d\TH:i:s');
                             </div>
                         </div>
                     </div>
-                    <div id="cont2" class="p-2 pl-3 pr-3 hide">
+                    <div id="cont2" class="p-2 pl-3 pr-3">
                         <div class="card">     
                             <div class="card-body">
-                                <h3 class="text-grey text-center"> Estimado(a) <strong>  <span id="name"></span> </strong> </h3>
+                                <h3 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h3>
                                  <p class="text-white"> <h4> 
-                                 Sabemos que muchos de ustedes atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19. En FINANCOOP, contamos hoy con un servicio a domicilio para sacar la firma de sus créditos aprobados, para luego transferir a su cuenta RUT el préstamo.</h4> </p>
-                               
-                               <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
-                                <h4 class="text-grey text-center"> Seleccione una Opción </h4>
-
+                                 En estos momentos dificiles que estamos pasando a nivel pais en <strong class="text-primary">FINANCOOP</strong>, no queremos que salga de casa y hemos facilitado la forma en que puede acceder a un <strong> Crédito Especial para pensionados</strong>. Si desea información ingrese a las siguientes opciones:</h4> </p>
                                 <button onclick="Mens1(); eventosLanding('Llamar');" class="btn bg-primary text-white col-12 mt-2">LLAMAR A EJECUTIVO</button>
 
                                   <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-primary text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
