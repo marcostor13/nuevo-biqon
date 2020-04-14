@@ -84,7 +84,7 @@ $startdate=('Y-m-d\TH:i:s');
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong>  <span id="name"></span> </strong> </h3>
                                  <p class="text-white"> <h4> 
-                                 En estos momentos dificiles que estamos pasando a nivel pais en <strong>FINANCOOP</strong>, no queremos que salga de casa y hemos facilitado la forma en que puede acceder a un <strong> Crédito Especial para pensionados</strong>. Si desea información ingrese a las siguientes opciones.</h4> </p>
+                                 En estos momentos dificiles que estamos pasando a nivel pais en <strong class="text-primary">FINANCOOP</strong>, no queremos que salga de casa y hemos facilitado la forma en que puede acceder a un <strong> Crédito Especial para pensionados</strong>. Si desea información ingrese a las siguientes opciones.</h4> </p>
                                
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opción </h4>
