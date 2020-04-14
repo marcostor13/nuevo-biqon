@@ -5,8 +5,10 @@
 @section('content')
 
 <?php
-$startdate=strtotime("Today");
-$enddate=strtotime("+5 days", $startdate);
+//$startdate=strtotime("Today");
+$startdate=('Y-m-d\TH:i:s');
+//$enddate=strtotime("+5 days", $startdate);
+//$enddate=('Y-m-d\TH:i:s');
 ?>
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -82,7 +84,7 @@ $enddate=strtotime("+5 days", $startdate);
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong>  <span id="name"></span> </strong> </h3>
                                  <p class="text-white"> <h4> 
-                                 Sabemos que muchos de ustedes atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19. En FINANCOOP, Contamos hoy con un servicio a domicilio para sacar la firma de sus créditos aprobados, para luego transferir a su cuenta RUT el préstamo.</h4> </p>
+                                 Sabemos que muchos de ustedes atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19. En FINANCOOP, contamos hoy con un servicio a domicilio para sacar la firma de sus créditos aprobados, para luego transferir a su cuenta RUT el préstamo.</h4> </p>
                                
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opción </h4>
@@ -91,10 +93,14 @@ $enddate=strtotime("+5 days", $startdate);
 
                                   <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-primary text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
 
-                                <div class="date btn bg-primary text-white col-12 mt-4">
-                                 <span>AGENDAR VISITA</span>
-                                 <input id="date1"  type="date" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                               </div>
+                                <!--<div class="date btn bg-primary text-white col-12 mt-4">
+                                 <span>PROGRAMAR VISITA MOTOBOY</span>
+                                 <input id="date1"  type="datetime-local" class="btn-date text-white" style="border: none;" min="<?php //echo date('Y-m-d\TH:i:s') ?>" max="<?php //echo date('2020-04-30\T18:00:00') ?>"/>
+                               </div>-->
+                               <!-- <div class="date btn bg-primary text-white col-12 mt-4">
+                                 <span>PROGRAMAR VISITA VISITA MOTOBOY 1</span>
+                                  <input type='text' name='todate' step='1'  value="<?php //echo date('Y-m-d\TH:i:s'); ?>" required/> </div>-->
+
                                 <button onclick="Mens4(); eventosLanding('Correo');" class="btn bg-primary text-white col-12 mt-2">CONSULTAS POR CORREO
                                 </button>
 
@@ -249,12 +255,12 @@ $enddate=strtotime("+5 days", $startdate);
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
-             var correo = ["cobranzas@financoop.cl"];
+             var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                // 'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                //'email': 'marcostor13@gmail.com' cobranzas@financoop.cl
             }
             $.ajaxSetup({
                 headers: {

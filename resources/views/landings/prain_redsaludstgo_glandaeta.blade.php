@@ -81,7 +81,7 @@ $enddate=strtotime("+7 days", $startdate);
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h3>
                              <p class="text-white"> <h4> 
                             Sabemos que muchos de ustedes, atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19<br> 
-                            <strong> PRAIN ABOGADOS </strong> por orden de <strong> Nueva Clínica Cordillera</strong>,informa campaña especial por su cuenta pendiente, si requiere información le ofecemos las siguientes opciones: </p>
+                            <strong> PRAIN ABOGADOS </strong> por orden de <strong> RED SALUD - SANTIAGO</strong>,informa campaña especial por su cuenta pendiente, si requiere información le ofecemos las siguientes opciones: </p>
                                 <!--<p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> -->
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <!--<h4 class="text-grey text-center"> Seleccione una Opcion </h4>-->
@@ -364,7 +364,7 @@ $enddate=strtotime("+7 days", $startdate);
              timer: 5000
         }, 
         function(){
-             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
+           // window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
         })
 
 
@@ -375,7 +375,7 @@ $enddate=strtotime("+7 days", $startdate);
          id_adm= getUrlParameter('data1'); 
          var rut; 
          rut= getUrlParameter('rut'); 
-   window.location.href = "mailto:smunoz@prainabogados.cl?subject=Pago%20de%20Cuenta%20%20RUT:%20"+rut;
+   window.location.href = "mailto:glandaeta@prainabogados.cl?subject=Pago%20de%20Cuenta%20%20RUT:%20"+rut;
 
 
         }  
