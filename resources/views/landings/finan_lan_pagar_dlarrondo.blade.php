@@ -378,9 +378,9 @@ $name = $_GET['Nombre'];
          var rut; 
          rut= getUrlParameter('rut'); 
          var Nombre; 
-         rut= getUrlParameter('Nombre'); 
+         Nombre= getUrlParameter('Nombre'); 
          var Telefono; 
-         rut= getUrlParameter('Telefono'); 
+         Telefono= getUrlParameter('Telefono'); 
    window.location.href = "mailto:daniela.larrondo@financoop.cl?subject=Necesito%20Informacion&body=RUT:  "+rut+" Nombre:"+Nombre+" Telefono"+Telefono;
 
 
