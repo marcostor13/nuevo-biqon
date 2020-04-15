@@ -55,7 +55,7 @@ $enddate=strtotime("+5 days", $startdate);
 
         <div class="opaco"></div>
 
-       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
+       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
             <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="USS">-->
             <img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://www.advance.uss.cl/wp-content/themes/uss/img/logo-uss-advance.png" alt="USS">
 
