@@ -153,7 +153,7 @@ $enddate=strtotime("+5 days", $startdate);
               </div>
             </div>
           </div>
-          <!--<div id="cont2" class="p-3 ">
+       <!-- <div id="cont2" class="p-3 ">
             <div class="card">     
               <div class="card-body">
                         <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-4" >LLÁMANOS</a>
@@ -161,7 +161,7 @@ $enddate=strtotime("+5 days", $startdate);
                         <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-4" >ESCRÍBENOS</a>
               </div>
             </div>
-          </div>->
+          </div>-->
                
             </div>
             <div id="cont4" class="p-2 pl-3 pr-3 hide">
