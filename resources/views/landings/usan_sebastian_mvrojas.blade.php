@@ -114,8 +114,6 @@ $enddate=strtotime("+5 days", $startdate);
                     </select>
                   </div>
 
-<br>
-
                   <div class="md-form">
       <select class="form-control" id="carrera" required>
       <option value="" data-select2-id="4">Selecciona una carrera</option>                
