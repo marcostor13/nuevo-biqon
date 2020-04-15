@@ -113,7 +113,7 @@ $enddate=strtotime("+5 days", $startdate);
       <option value="Concepción" data-select2-id="10">Concepción</option>
       <option value="Valdivia" data-select2-id="11">Valdivia</option>
       <option value="Puerto Montt" data-select2-id="12">Puerto Montt</option>
-                    </select>
+                    </select><br>
                   </div>
 
                   <div class="md-form col-12 m-0"> 
