@@ -37,10 +37,10 @@ $enddate=strtotime("+5 days", $startdate);
 .card .card-body .card-text {
   color: #747373;
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 .card .md-form label {
-  font-weight: 300;
+  font-weight: 280;
 }
 
 .oscurecer {
