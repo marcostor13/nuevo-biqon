@@ -63,7 +63,7 @@ $enddate=strtotime("+5 days", $startdate);
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
-            <div id="cont1" class="p-3 ">
+            <div id="cont2" class="p-3 ">
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
@@ -103,10 +103,22 @@ $enddate=strtotime("+5 days", $startdate);
                     <label for="form2"></label>
                   </div>  
 
+                   <div class="md-form">
+      <select class="form-control" id="carrera" required>
+      <option value="" data-select2-id="4">Selecciona una sede</option>                
+      <option value="Los Leones" data-select2-id="8">Los Leones</option>
+      <option value="Santiago" data-select2-id="9">Santiago</option>
+      <option value="Concepción" data-select2-id="10">Concepción</option>
+      <option value="Valdivia" data-select2-id="11">Valdivia</option>
+      <option value="Puerto Montt" data-select2-id="12">Puerto Montt</option>
+                    </select>
+                  </div>
+
+
+
                   <div class="md-form">
-                    <select class="form-control" id="carrera" required>
-                      <option value="" data-select2-id="4">Selecciona una carrera</option>
-                      
+      <select class="form-control" id="carrera" required>
+      <option value="" data-select2-id="4">Selecciona una carrera</option>                
       <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
       <option value="Ingeniería en Administración de Empresas Mención Gestión Empresarial" data-select2-id="9">Ingeniería en Administración de Empresas Mención Gestión Empresarial</option>
       <option value="Ingeniería en Gestión en Tecnologías de la Información" data-select2-id="10">Ingeniería en Gestión en Tecnologías de la Información</option>
@@ -125,7 +137,6 @@ $enddate=strtotime("+5 days", $startdate);
       <option value="Psicología" data-select2-id="23">Psicología</option>
       <option value="Pedagogía en Educación Diferencial" data-select2-id="24">Pedagogía en Educación Diferencial</option>
       <option value="Trabajo Social" data-select2-id="25">Trabajo Social</option>
-
                     </select>
                   </div>
 
@@ -142,9 +153,10 @@ $enddate=strtotime("+5 days", $startdate);
               <a onclick="eventosLanding('Correo');" href="mailto: mariavictoria.rojas@uss.cl?subject=Landing%20USS"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
             </div>-->
 
-                    </div>
-                        </div>
-          <div id="cont3" class="p-2 pl-3 pr-3 ">
+              </div>
+            </div>
+          </div>
+          <div id="cont2" class="p-2 pl-3 pr-3 ">
             <div class="card">     
               <div class="card-body">
                         <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-2">LLÁMANOS</a>
