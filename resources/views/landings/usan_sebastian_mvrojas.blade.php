@@ -63,7 +63,7 @@ $enddate=strtotime("+5 days", $startdate);
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
-            <div id="cont2" class="p-3 ">
+            <div id="cont1" class="p-3 ">
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
@@ -106,7 +106,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>  
 
                    <div class="md-form col-12 m-0"> 
-      <select class="form-control" id="carrera" required>
+      <select class="form-control" id="sede" required>
       <option value="" data-select2-id="4">Selecciona una sede</option>                
       <option value="Los Leones" data-select2-id="8">Los Leones</option>
       <option value="Santiago" data-select2-id="9">Santiago</option>
@@ -235,6 +235,7 @@ $enddate=strtotime("+5 days", $startdate);
             json_datos.rut = $('#rut').val();
             json_datos.telefono = $('#telefono').val();
             json_datos.correo = $('#email').val();
+            json_datos.correo = $('#sede').val();
             json_datos.carrera =  $('#carrera').val();
 
             events({    
@@ -259,6 +260,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
                     'E-mail': $('#email').val(),
+                    'Sede': $('#sede').val(),
                     'Carrera': $('#carrera').val()                
                 }
             }else{
@@ -297,7 +299,7 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
+                     $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }
