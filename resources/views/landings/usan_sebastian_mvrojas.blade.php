@@ -67,7 +67,8 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
-                  <h4 class="dark-grey-text text-center">
+                
+                 <h4 class="dark-grey-text text-center">
                     <strong>¿TIENES CONSULTAS?
                     NOSOTROS TE AYUDAMOS</strong>
                   </h4>
@@ -130,22 +131,31 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="text-center">
                     <hr>
-                    <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
+                    <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
                     
                   </div>
-            <div class="d-flex justify-content-around align-content-center mt-4"> 
+           <!-- <div class="d-flex justify-content-around align-content-center mt-4"> 
               <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56956889198&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
               <a onclick="eventosLanding('Llamar');" href="tel:+56956889198"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
               <a onclick="eventosLanding('Correo');" href="mailto: mariavictoria.rojas@uss.cl?subject=Landing%20USS"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
-            </div>
+            </div>-->
 
                     </div>
                         </div>
+          <div id="cont3" class="p-2 pl-3 pr-3 ">
+            <div class="card">     
+              <div class="card-body">
+                        <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-2">LLÁMANOS</a>
+
+                        <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-2">ESCRÍBENOS</a>
+              </div>
+            </div>
+          </div>
                
             </div>
-            <div id="cont3" class="p-2 pl-3 pr-3 hide">
+            <div id="cont4" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
