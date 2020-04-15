@@ -148,7 +148,7 @@ $enddate=strtotime("+5 days", $startdate);
 
               <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56956889198&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"> Contactanos</a>
             
-              <a onclick="eventosLanding('Correo');" href="mailto: mariavictoria.rojas@uss.cl?subject=Landing%20USS" class="btn bg-danger text-white col-12 mt-4"><img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> Escríbenos</a>
+              <a onclick="eventosLanding('Correo');" href="mailto: mariavictoria.rojas@uss.cl?subject=Consulta%20Cursos%20Advance" class="btn bg-danger text-white col-12 mt-4"><img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> Escríbenos</a>
 
               </div>
             </div>
