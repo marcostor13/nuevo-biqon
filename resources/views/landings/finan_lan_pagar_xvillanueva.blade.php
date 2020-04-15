@@ -377,13 +377,14 @@ $name = $_GET['Nombre'];
 
 
      
-
-            function Mens4(){     
+function Mens4(){     
          var rut; 
          rut= getUrlParameter('rut'); 
-   window.location.href = "mailto:ximena.villanueva@financoop.cl?subject=Pago%20de%20Cuenta&body=RUT:  "+rut;
-
-
+         var Nombre; 
+         Nombre= getUrlParameter('Nombre'); 
+         var Telefono; 
+         Telefono= getUrlParameter('Telefono'); 
+   window.location.href = "mailto:ximena.villanueva@financoop.cl?subject=Necesito%20Informacion&body=RUT:  "+rut+" Nombre: "+Nombre+" Telefono: "+Telefono;
  }
     </script>
     
