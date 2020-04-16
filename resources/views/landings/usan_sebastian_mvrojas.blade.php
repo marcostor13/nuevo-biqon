@@ -273,7 +273,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
+                     'Rut': getUrlParameter('rut')
                     // '': getUrlParameter('data1'),               
                 }
             }else{
