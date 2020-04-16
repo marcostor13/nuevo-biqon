@@ -234,13 +234,14 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#nombre').val();
-            json_datos.apellido = $('#apellido').val();
-            json_datos.rut = $('#rut').val();
-            json_datos.telefono = $('#telefono').val();
-            json_datos.correo = $('#email').val();
-            json_datos.correo = $('#sede').val();
-            json_datos.carrera =  $('#carrera').val();
+            //json_datos.nombre = $('#nombre').val();
+            //json_datos.apellido = $('#apellido').val();
+            //json_datos.rut = $('#rut').val();
+            //json_datos.telefono = $('#telefono').val();
+            //json_datos.correo = $('#email').val();
+            //json_datos.correo = $('#sede').val();
+            //json_datos.carrera =  $('#carrera').val();
+
 
             events({    
                 'name': name,
@@ -258,14 +259,22 @@ $enddate=strtotime("+5 days", $startdate);
             let data; 
             if(msg !== false){
                 data = {
+
                     'mensaje': msg,
+                    'Datos Formulario',
                     'Nombre': $('#nombre').val(),
                     'Apellido': $('#apellido').val(),
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
                     'E-mail': $('#email').val(),
                     'Sede': $('#sede').val(),
-                    'Carrera': $('#carrera').val()                
+                    'Carrera': $('#carrera').val(),
+                    'Datos URL',
+                    'Nombre': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
+                    'Phone': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                    // '': getUrlParameter('data1'),               
                 }
             }else{
                 let date = $('#date1').val();
@@ -282,7 +291,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["mariavictoria.rojas@uss.cl"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
