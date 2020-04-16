@@ -383,7 +383,7 @@ $enddate=strtotime("+5 days", $startdate);
 
          var body_message = "Estoy%20Interesado%20en%20conocermas%20sobre%20los%20cursos%20";
 
-   window.location.href = "mailtomariavictoria.rojas@uss.cl?subject=Consulta%20Cursos%20Advance%20&body=Telefono:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+   window.location.href = "mailto:mariavictoria.rojas@uss.cl?subject=Consulta%20Cursos%20Advance%20&body=Telefono:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
 
  }
     </script>
