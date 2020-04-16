@@ -79,7 +79,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
-                      <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
+                    <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
                       <label for="form3"></label>
                     </div>
                     <div class="md-form col-6  m-0">
@@ -262,7 +262,7 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
 
                     'mensaje': msg,
-                    'Datos_Formulario': $('nombre').val(),
+                    'Datos_Formulario': $('#nombre1').val(),
                     'Nombre': $('#nombre').val(),
                     'Apellido': $('#apellido').val(),
                     'RUT': $('#rut').val(),
@@ -270,11 +270,11 @@ $enddate=strtotime("+5 days", $startdate);
                     'E-mail': $('#email').val(),
                     'Sede': $('#sede').val(),
                     'Carrera': $('#carrera').val(),
-                    'Datos_URL': $('nombre').val(),
-                    'Nombre': getUrlParameter('nombre'),
+                    'Datos_URL': $('#nombre1').val(),
+                    'Nombre_URL': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
-                    'Phone': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut')
+                    'Telefono_URL': getUrlParameter('telefono'),
+                     'Rut_URL': getUrlParameter('rut')
                     // '': getUrlParameter('data1'),               
                 }
             }else{
