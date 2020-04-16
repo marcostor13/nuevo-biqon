@@ -261,7 +261,7 @@ $enddate=strtotime("+5 days", $startdate);
                 data = {
 
                     'mensaje': msg,
-                    'Datos Formulario',
+                    'Datos_Formulario': $('nombre').val(),
                     'Nombre': $('#nombre').val(),
                     'Apellido': $('#apellido').val(),
                     'RUT': $('#rut').val(),
@@ -269,7 +269,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'E-mail': $('#email').val(),
                     'Sede': $('#sede').val(),
                     'Carrera': $('#carrera').val(),
-                    'Datos URL',
+                    'Datos _URL': $('nombre').val(),,
                     'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
