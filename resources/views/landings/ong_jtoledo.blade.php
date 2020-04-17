@@ -92,7 +92,7 @@ $name = $_GET['NOMBRE'];
                                 <br>  Nuevo monto de crédito $ 1.600.000
                                 <br>  Plazo 90  días ( descuento en Junio)
                                 <br>  Créditos socios nuevos o Compras de cartera hasta $ 1.500.000
-                                <br>  Ult.Liquid. + carnet de Ident.+ Comp. Domicilio vía wasap foto
+                                <br>  Ult.Liquid. + carnet de Ident.+ Comp. Domicilio vía WHATSAPP foto
 
                                </p></h4>
 
