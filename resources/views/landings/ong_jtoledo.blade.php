@@ -87,13 +87,13 @@ $name = $_GET['NOMBRE'];
                                  <p class="text-grey"> <h5> 
                                   En estos difíciles días que estamos pasando en el país, <strong class="text-primary">FINANCOOP</strong>, tiene un Crédito refinanciamiento con dinero disponible para los socios al día</h5>
 
-
+                                  <h5> 
                                 <br>Crédito refinanciamiento con dinero disponible para los socios al día
                                 <br>  Nuevo monto de crédito $ 1.600.000
                                 <br>  Plazo 90  días ( descuento en Junio)
                                 <br>  Créditos socios nuevos o Compras de cartera hasta $ 1.500.000
                                 <br>  Ult.Liquid. + carnet de Ident.+ Comp. Domicilio vía WHATSAPP foto
-
+                                    </h5>
                                </p></h4>
 
                                 <button onclick="Mens1(); eventosLanding('Llamar');" class="btn bg-primary text-white col-12 mt-2">LLAMAR A EJECUTIVO</button>
