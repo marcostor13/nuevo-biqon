@@ -358,7 +358,7 @@ $name = $_GET['NOMBRE'];
              timer: 5000
         }, 
         function(){
-             window.location.href = "tel:+56997389226";
+             window.location.href = "tel:+56951492591";
         })
 
 
@@ -366,14 +366,14 @@ $name = $_GET['NOMBRE'];
         
           function Mens1(){
 
-        window.location.href ="tel:+56997389226";
+        window.location.href ="tel:+56951492591";
     
         } 
 
 
     function Mens2(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56997389226&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56951492591&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
@@ -388,7 +388,7 @@ $name = $_GET['NOMBRE'];
          Nombre= getUrlParameter('Nombre'); 
          var Telefono; 
          Telefono= getUrlParameter('Telefono'); 
-   window.location.href = "mailto:jorge.toledo@financoop.cl?subject=Necesito%20Informacion&body= Nombre: "+Nombre+" Telefono: "+Telefono;
+   window.location.href = "mailto:victor.alvear@financoop.cl?subject=Necesito%20Informacion&body= Nombre: "+Nombre+" Telefono: "+Telefono;
 
 
  }
