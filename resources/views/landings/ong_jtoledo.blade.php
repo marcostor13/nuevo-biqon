@@ -84,8 +84,8 @@ $name = $_GET['NOMBRE'];
                         <div class="card">     
                             <div class="card-body">
                                 <h4 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h4>
-                                 <p class="text-grey"> <h5> 
-                                  En estos difíciles días que estamos pasando en el país, <strong class="text-primary">FINANCOOP</strong>, tiene un Crédito refinanciamiento con dinero disponible <strong class="text-primary">para los socios al día</strong></h5>
+                          <p class="text-grey"> <h5> <strong> 
+                            En estos difíciles días que estamos pasando en el país,</strong> <strong class="text-primary">FINANCOOP</strong><strong>, tiene un Crédito refinanciamiento con dinero disponible </strong><strong class="text-primary">para los socios al día</strong></h5>
                                   <h5> <strong> 
                               <br>* Nuevo monto de crédito $ 1.600.000<br>
                               <br>* Plazo 90  días, descuento en Junio<br>
