@@ -90,7 +90,7 @@ $name = $_GET['NOMBRE'];
                               <br>* Nuevo monto de crédito $ 1.600.000<br>
                               <br>* Plazo 90  días, descuento en Junio<br>
                               <br>* Créditos socios nuevos o Compras de cartera hasta $ 1.500.000<br>
-                              <br>* Enviar foto por WhatsApp de Ultima Liquidación de Sueldo  + C de Identidad + Comprobante de  Domicilio<br>
+                              <br>* Enviar foto por WhatsApp de Ultima Liquidación de Sueldo + C. de Identidad + Comprobante de Domicilio<br>
                                    </strong> </h6>
                                </p></h4>
 
