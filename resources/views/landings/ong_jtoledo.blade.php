@@ -83,17 +83,15 @@ $name = $_GET['NOMBRE'];
                     <div id="cont2" class="p-2 pl-3 pr-3">
                         <div class="card">     
                             <div class="card-body">
-                                <h3 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h3>
+                                <h4 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h4>
                                  <p class="text-grey"> <h5> 
-                                  En estos difíciles días que estamos pasando en el país, <strong class="text-primary">FINANCOOP</strong>, tiene un Crédito refinanciamiento con dinero disponible <strong class="text-primary">para los socios al día</strong></h5>
-
-                                  <h5> <strong> 
-                              <br>* Crédito refinanciamiento con dinero disponible para los socios al día
-                              <br>* Nuevo monto de crédito $ 1.600.000
-                              <br>* Plazo 90  días, descuento en Junio
-                              <br>* Créditos socios nuevos o Compras de cartera hasta $ 1.500.000
-                              <br>* Enviar foto por WhatsApp de Ultima Liquidación de Sueldo  + C de Identidad + Comprobante de  Domicilio
-                                   </strong> </h5>
+                                  En estos difíciles días que estamos pasando en el país, <strong class="text-primary">FINANCOOP</strong>, tiene un Crédito refinanciamiento con dinero disponible <strong class="text-primary">para los socios al día</strong></h5>
+                                  <h6> <strong> 
+                              <br>* Nuevo monto de crédito $ 1.600.000<br>
+                              <br>* Plazo 90  días, descuento en Junio<br>
+                              <br>* Créditos socios nuevos o Compras de cartera hasta $ 1.500.000<br>
+                              <br>* Enviar foto por WhatsApp de Ultima Liquidación de Sueldo  + C de Identidad + Comprobante de  Domicilio<br>
+                                   </strong> </h6>
                                </p></h4>
 
                                 <button onclick="Mens1(); eventosLanding('Llamar');" class="btn bg-primary text-white col-12 mt-2">LLAMAR A EJECUTIVO</button>
