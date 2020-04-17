@@ -84,7 +84,7 @@ $name = $_GET['NOMBRE'];
                         <div class="card">     
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h3>
-                                 <p class="text-white"> <!--<h4> 
+                                 <p class="text-grey"> <!--<h4> 
                                  En estos momentos dificiles que estamos pasando a nivel pais en <strong class="text-primary">FINANCOOP</strong>, no queremos que salga de casa y hemos facilitado la forma en que puede acceder a un <strong> Crédito Especial para pensionados</strong>. Si desea información ingrese a las siguientes opciones:</h4> -->
 
                                 <br>Crédito refinanciamiento con dinero disponible para los socios al día
