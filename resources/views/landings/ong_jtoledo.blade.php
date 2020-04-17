@@ -84,8 +84,8 @@ $name = $_GET['NOMBRE'];
                         <div class="card">     
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h3>
-                                 <p class="text-grey"> <!--<h4> 
-                                 En estos momentos dificiles que estamos pasando a nivel pais en <strong class="text-primary">FINANCOOP</strong>, no queremos que salga de casa y hemos facilitado la forma en que puede acceder a un <strong> Crédito Especial para pensionados</strong>. Si desea información ingrese a las siguientes opciones:</h4> -->
+                                 <p class="text-grey"> <h4> 
+                                 <!--En estos momentos dificiles que estamos pasando a nivel pais en <strong class="text-primary">FINANCOOP</strong>, no queremos que salga de casa y hemos facilitado la forma en que puede acceder a un <strong> Crédito Especial para pensionados</strong>. Si desea información ingrese a las siguientes opciones:</h4> -->
 
                                 <br>Crédito refinanciamiento con dinero disponible para los socios al día
                                 <br>  Nuevo monto de crédito $ 1.600.000
@@ -93,7 +93,7 @@ $name = $_GET['NOMBRE'];
                                 <br>  Créditos socios nuevos o Compras de cartera hasta $ 1.500.000
                                 <br>  Ult.Liquid. + carnet de Ident.+ Comp. Domicilio vía wasap foto
 
-                               </p>
+                               </p></h4>
 
                                 <button onclick="Mens1(); eventosLanding('Llamar');" class="btn bg-primary text-white col-12 mt-2">LLAMAR A EJECUTIVO</button>
 
