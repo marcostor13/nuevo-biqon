@@ -85,14 +85,14 @@ $name = $_GET['NOMBRE'];
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h3>
                                  <p class="text-grey"> <h5> 
-                                  En estos difíciles días que estamos pasando en el país, <strong class="text-primary">FINANCOOP</strong>, tiene un Crédito refinanciamiento con dinero disponible para los socios al día</h5>
+                                  En estos difíciles días que estamos pasando en el país, <strong class="text-primary">FINANCOOP</strong>, tiene un Crédito refinanciamiento con dinero disponible <strong class="text-primary">para los socios al día</strong></h5>
 
                                   <h5> <strong> 
-                                <br>Crédito refinanciamiento con dinero disponible para los socios al día
-                                <br>  Nuevo monto de crédito $ 1.600.000
-                                <br>  Plazo 90  días ( descuento en Junio)
-                                <br>  Créditos socios nuevos o Compras de cartera hasta $ 1.500.000
-                                <br>  Ult.Liquid. + carnet de Ident.+ Comp. Domicilio vía WHATSAPP foto
+                              <br>* Crédito refinanciamiento con dinero disponible para los socios al día
+                              <br>* Nuevo monto de crédito $ 1.600.000
+                              <br>* Plazo 90  días, descuento en Junio
+                              <br>* Créditos socios nuevos o Compras de cartera hasta $ 1.500.000
+                              <br>* Enviar foto por WhatsApp de Ultima Liquidación de Sueldo  + C de Identidad + Comprobante de  Domicilio
                                    </strong> </h5>
                                </p></h4>
 
