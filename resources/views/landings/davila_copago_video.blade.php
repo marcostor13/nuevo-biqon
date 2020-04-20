@@ -46,7 +46,7 @@
     
 </style>
 
-    <div id="CLINICA_DAVILA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+   <!-- <div id="CLINICA_DAVILA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
 
      <div class="opaco">
 
@@ -72,54 +72,44 @@
                         </div>
                     </div>
                     <div id="cont2" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
+                        <!--<div class="card">     
+                            <div class="card-body">-->
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h3>
                                  <p class="text-white"> <h4> 
                                  Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
                                 
-                                <div class="videoWrapper">        
-                                  <iframe width="400" height="320" src="{{asset('/files/vid_davila.mp4')}}" frameborder="0" autoplay allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
+                            <div class="videoWrapper">        
+                            <iframe width="400" height="320" src="{{asset('/files/vid_davila.mp4')}}" frameborder="0" autoplay allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
 
 
-                                <p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> 
-                               <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
+                                <p> <h4> El N° de admisión correspondiente a su cuenta es:  </h4> <h4 id="dato1" class="dato1"> </h4></p> 
+                              
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
                                <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>
 
+                                 <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2">LLÁMANOS</a>
 
-                                 <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2"><!--<img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">-->LLÁMANOS</a>
+                                  <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2">ESCRÍBENOS</a>
 
-
-                                  <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"><!--<img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">-->ESCRÍBENOS</a>
-
-
-                              <!--  <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); eventosLanding("Pagar"); '>
-                                    <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>-->
-
-                                     <div class="d-flex justify-content-around align-content-center mt-4">
+                               <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
                                 </div>
 
                                 
-                                </div>
+                               <!-- </div>-->
 
                                
-                                <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
-                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png">
-                                </button>-->
                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
                                    
                                     </div>
-                                <!--  <a onclick="eventosLanding('Correo');" href="mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Escribe aquí si tienes preguntas"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
+                               
                                    <div class="d-flex justify-content-around align-content-center mt-4">  
- <!--<a href = "mailto:miemail@gmail.com??subject=Pago%20de%20Cuenta&body=Escribe aquí si tienes preguntas".id_adm;><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
+
   
 
                                     </div>
@@ -127,10 +117,9 @@
                                
                                 
 
-                            </div>   
+                            <!--</div>  --> 
                         </div>
-                    </div>
-          
+                    <!--</div-->          
              
                     <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
