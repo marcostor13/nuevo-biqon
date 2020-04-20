@@ -78,9 +78,9 @@
                                  <p class="text-white"> <h4> 
                                  Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
                                 
-                                <div class="videoWrapper">        
-                                  <iframe width="400" height="320" src="{{asset('/files/vid_davila.mp4')}}" frameborder="0" autoplay allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
+                            <div class="videoWrapper">        
+                            <iframe width="400" height="320" src="{{asset('/files/vid_davila.mp4')}}" frameborder="0" autoplay allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
 
 
                                 <p> <h4> El N° de admisión correspondiente a su cuenta es:  </h4> <h4 id="dato1" class="dato1"> </h4></p> 
@@ -118,7 +118,7 @@
                                 
 
                             <!--</div>  --> 
-                        </div>-->
+                        </div>
                     <!--</div-->          
              
                     <div id="cont3" class="p-2 pl-5 pr-5 hide">
