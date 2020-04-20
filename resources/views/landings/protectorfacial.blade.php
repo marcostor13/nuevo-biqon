@@ -72,11 +72,11 @@ $enddate=strtotime("+15 days", $startdate);
                        <h3> 3. Frente de mica transparente de 200 micrones.</h3>
                        <h3> 4. Producto plegable fácil de llevar.</h3>
                        <h3> 5. Fácil de limpiar y desinfectar.</h3>
-                       <h3> 6. Elaboración Chilea.</h3>
+                       <h3> 6. Elaboración Chilena.</h3>
 
                     <h2><Strong>Formato</Strong></h2>
 
-                         <h3>100 unidades por caja.</h3>
+                         <h3>100 Unidades por caja.</h3>
 
                     <h2><Strong>Precios<Strong><h2>
  
