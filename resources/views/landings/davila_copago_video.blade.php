@@ -78,7 +78,8 @@
                                  Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
                                 
                             <div class="videoWrapper">        
-                            <iframe width="400" height="320" src="{{asset('/files/vid_davila.mp4')}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="380" height="300" src="{{asset('/files/vid_davila.mp4')}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                             </div>
 
 
