@@ -53,7 +53,6 @@
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
             
-            <div class=col-md-12>
            
                      <div id="cont1" class="p-2 pl-5 pr-5 ">
                          <div class="card">
@@ -79,7 +78,8 @@
                                  Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
                                 
                             <div class="videoWrapper">        
-                            <iframe width="400" height="320" src="{{asset('/files/vid_davila.mp4')}}" frameborder="0" autoplay allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="380" height="300" src="{{asset('/files/vid_davila.mp4')}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                             </div>
 
 
