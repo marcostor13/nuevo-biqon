@@ -89,14 +89,14 @@ $enddate1=strtotime("+5 days", $startdate);
 
  <div class="oscurecer p-3">
        <!-- <div id="head" class="p-1 pl-1 pr-1 "> <a href="https://www.vtr.com"> <img class="img-fluid col-7 col-md-10" src="{{$landing->logo}}" alt="VTR"> -->
-          <img style="max-width:250px; max-height:100px" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="MUNDOCREDITO">
+          <img style="max-width:150px; max-height:100px" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="MUNDOCREDITO">
         
         
-             <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="30" height="30"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
+            <!-- <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="30" height="30"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
                    
              <a class="ml-1" onclick="eventosLanding('Twitter');" href="https://twitter.com/vtrchile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174876.svg"></a>
 
-             <a class="ml-1" onclick="eventosLanding('Youtube');" href="https://www.youtube.com/user/VTRChile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174883.svg"></a>
+             <a class="ml-1" onclick="eventosLanding('Youtube');" href="https://www.youtube.com/user/VTRChile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174883.svg"></a>-->
             </div>
 
         </div>
@@ -111,7 +111,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 
             <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4"> Ingresar </button>
 
-            <button onclick="url(5)" class="btn bg-primary text-white col-12 mt-4"> Contacto Equivocado </button>
+            <!--<button onclick="url(5)" class="btn bg-primary text-white col-12 mt-4"> Contacto Equivocado </button>-->
 
             <button onclick="url22(); return false;" class="btn bg-primary text-white col-12 mt-4"> Salir </button>
 
@@ -134,19 +134,18 @@ $enddate1=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center"><strong><span id="name"> <?php // echo $name; ?></span> </strong> </h4>
                 <!--<h5 class="text-black text-center"> <br>Tu boleta asociada al servicio <span id="servicio"><?php //echo $servicio; ?></span>, se encuentra <span id="estado"> <?php //echo $estado; ?></span>, por el monto de:
                     <br> $ <span id="pay"> <?php //echo $pago; ?></span> <br></h5>-->
-                    <p class="text-white"> <h4 class="text-white text-center">Gyrux La Evolucion en Accesorios Mobile</h4> </p>  
+          <p class="text-white"> <h4 class="text-white text-center">Gyrux La Evolucion en Accesorios Mobile</h4> </p>  
               <!-- <p class="text-black text-center"> Recuerda que pagar tu boleta al día evita la suspensión de tus servicios. </p>-->
-                
-                
-                <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-primary text-white col-12 mt-4"> Energia</button>
+                    
+          <button onclick='url(1);' class="btn bg-primary text-white col-12 mt-4"> Energia</button>
 
-                <button onclick='url(1);' class="btn bg-primary text-white col-12 mt-4"> Proteccion</button>
+          <button onclick='url(2);' class="btn bg-primary text-white col-12 mt-4"> Proteccion</button>
 
-                <button onclick='url(2);' class="btn bg-primary text-white col-12 mt-4"> Audio</button>
+          <button onclick='url(3);' class="btn bg-primary text-white col-12 mt-4"> Audio</button>
 
-                <button onclick='url(3);' class="btn bg-primary text-white col-12 mt-4"> Almacenamiento</button>
+          <button onclick='url(4);' class="btn bg-primary text-white col-12 mt-4"> Almacenamiento</button>
 
-                <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</button>
+          <button onclick='url(5);' class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</button>
 
                 <!--<button onclick='url(4);' class="btn bg-primary text-white col-12 mt-4"> Tengo un problema</button>-->
             </div>  
@@ -155,81 +154,137 @@ $enddate1=strtotime("+5 days", $startdate);
         <!-- ENERGIA -->
         <div id="calend" class="p-5 " >
             <div class="text-black col-md-12">
-                <h5 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.   
-                </h5>       
+                <h5 class="text-grey text-center"> ENERGIA - CARGADORES</h5>       
             <div>
-                <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required="required"/>
+                <label>GYRUX POWERBANK 10000 MAH G56</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
              </div> 
-                <button onclick="sendMail(); eventosLanding('Compromiso de Pago'); return false;" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+                <div>
+                <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+                <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+            </div>
+
+            <div class="text-black col-md-12">      
+            <div>
+                <label>CARGADOR PARED CON CABLE LIGHTNING UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+               <div>
+                <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
             </div>
        </div>
 
        <!-- PROTECCION -->
         <div id="llamen" class="p-5 " >
             <div class="text-black col-md-12">
-                <h5 class="text-grey text-center">Favor ingrese su fecha y horario de llamada por la cual usted quiere ser contactado. 
-                </h5>       
+                <h5 class="text-grey text-center"> PROTECCION - FORROS</h5>       
             <div>
-                <label>Fecha:</label>
-                <input id="date2"  type="date" class=" btn-date text-black form-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate1) ?>" required="required"/>
-                <br>
-                <label>Hora:</label>
-                <!--<input id="timepicker" type="text" class=" btn-date text-black form-control input-min-width-95p">-->
-                <input id="time1"  type="time" data-format="hh:mm A" class=" btn-date text-black form-control input-min-width-95p" max="20:00:00" min="08:00:00" step="60" required="required"/>
-
+                <label>GYRUX POWERBANK 10000 MAH G56</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
              </div> 
-                <button onclick="sendMail(); return false; eventosLanding('Agendo llamada');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+                <div>
+                <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+                <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+            </div>
+
+            <div class="text-black col-md-12">      
+            <div>
+                <label>CARGADOR PARED CON CABLE LIGHTNING UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+               <div>
+                <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
             </div>
        </div>
 
         <!-- MENU: CONTACTO EQUIVOCADO -->
         <div id="usrbad" class="p-5 " >
-            <div class="text-black align-items-center col-md-12">
-                 <h5 class="text-black text-center">¿Conoces a <strong><span id="name"> <?php // echo $name; ?></span> </strong> ? </h5>
-                </div>
+          <div class="text-black col-md-12">
+                <h5 class="text-grey text-center"> Audio y Parlantes</h5>       
+            <div>
+                <label>GYRUX POWERBANK 10000 MAH G56</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+                <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
-            <button onclick='url(6); ' class="btn bg-primary text-white col-5 mt-4"> SI </button>
+                <div>
+                <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+                <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
-            <button onclick='url22(); eventosLanding("NO CONTACTO"); ' class="btn bg-primary text-white col-5 mt-4"> NO </button>
-        </div>
+            </div>
+
+            <div class="text-black col-md-12">      
+            <div>
+                <label>CARGADOR PARED CON CABLE LIGHTNING UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+               <div>
+                <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+            </div>
+       </div>
 
         <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
             <div id="equiv1" class="p-5 " >
                 <div class="text-black col-md-12">
-                <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
-                </div>
-                <div class="text-black col-md-11">
-                <label id="label" class="col-md-3">56 9</label><input id="telf"  type="number" class=" text-black form-control input-min-width-95p col-5" maxlength="8" required="required"/>
-                </div>
+                <h5 class="text-grey text-center"> Almacenamiento</h5>       
+            <div>
+                <label>GYRUX POWERBANK 10000 MAH G56</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+                <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
-                <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
-
-                <button onclick='url(7);' class="btn bg-primary text-white col-6 mt-4"> CONTINUAR </button>
-                <br> <br>  <br>  <br>
-                <div class="text-black col-md-10">
-                <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
-                </div> 
-                <button onclick='url(7);' class="btn bg-primary text-white col-12 mt-4"> No quiero ingresar </button>
+                <div>
+                <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+                <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
             </div>
 
+            <div class="text-black col-md-12">      
+            <div>
+                <label>CARGADOR PARED CON CABLE LIGHTNING UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+               <div>
+                <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+            </div>
+       </div>
+
         <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
-            <div id="equiv2" class="p-5 " >
-                <div class="text-black col-md-12">
-                <h5 class="text-black text-center"> Favor, ingresar correo</h5>
-                </div>
-                 <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required="required">
-
-                <button id="validate" class="btn bg-warning text-black col-5 mt-4"> VALIDAR </button>
-
-                <button onclick='urldatos();' class="btn bg-primary text-white col-5 mt-4"> CONTINUAR </button>
-                <br>
-                <div class="text-black col-md-12">
-                    <br>  <br>  <br>  <br>
-                <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
-                </div>
-                <button onclick='url22(); ' class="btn bg-primary text-white col-10 mt-4"> No quiero ingresar </button>
+            
 
             </div>
 
