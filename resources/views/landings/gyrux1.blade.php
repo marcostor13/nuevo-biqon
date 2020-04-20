@@ -89,14 +89,14 @@ $enddate1=strtotime("+5 days", $startdate);
 
  <div class="oscurecer p-3">
        <!-- <div id="head" class="p-1 pl-1 pr-1 "> <a href="https://www.vtr.com"> <img class="img-fluid col-7 col-md-10" src="{{$landing->logo}}" alt="VTR"> -->
-          <img style="max-width:250px; max-height:100px" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="MUNDOCREDITO">
+          <img style="max-width:150px; max-height:100px" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="MUNDOCREDITO">
         
         
-             <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="30" height="30"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
+            <!-- <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="30" height="30"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
                    
              <a class="ml-1" onclick="eventosLanding('Twitter');" href="https://twitter.com/vtrchile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174876.svg"></a>
 
-             <a class="ml-1" onclick="eventosLanding('Youtube');" href="https://www.youtube.com/user/VTRChile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174883.svg"></a>
+             <a class="ml-1" onclick="eventosLanding('Youtube');" href="https://www.youtube.com/user/VTRChile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174883.svg"></a>-->
             </div>
 
         </div>
@@ -111,7 +111,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 
             <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4"> Ingresar </button>
 
-            <button onclick="url(5)" class="btn bg-primary text-white col-12 mt-4"> Contacto Equivocado </button>
+            <!--<button onclick="url(5)" class="btn bg-primary text-white col-12 mt-4"> Contacto Equivocado </button>-->
 
             <button onclick="url22(); return false;" class="btn bg-primary text-white col-12 mt-4"> Salir </button>
 
@@ -134,19 +134,18 @@ $enddate1=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center"><strong><span id="name"> <?php // echo $name; ?></span> </strong> </h4>
                 <!--<h5 class="text-black text-center"> <br>Tu boleta asociada al servicio <span id="servicio"><?php //echo $servicio; ?></span>, se encuentra <span id="estado"> <?php //echo $estado; ?></span>, por el monto de:
                     <br> $ <span id="pay"> <?php //echo $pago; ?></span> <br></h5>-->
-                    <p class="text-white"> <h4 class="text-white text-center">Gyrux La Evolucion en Accesorios Mobile</h4> </p>  
+          <p class="text-white"> <h4 class="text-white text-center">Gyrux La Evolucion en Accesorios Mobile</h4> </p>  
               <!-- <p class="text-black text-center"> Recuerda que pagar tu boleta al día evita la suspensión de tus servicios. </p>-->
-                
-                
-                <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-primary text-white col-12 mt-4"> Energia</button>
+                    
+          <button onclick='url(1);' class="btn bg-primary text-white col-12 mt-4"> Energia</button>
 
-                <button onclick='url(1);' class="btn bg-primary text-white col-12 mt-4"> Proteccion</button>
+          <button onclick='url(2);' class="btn bg-primary text-white col-12 mt-4"> Proteccion</button>
 
-                <button onclick='url(2);' class="btn bg-primary text-white col-12 mt-4"> Audio</button>
+          <button onclick='url(3);' class="btn bg-primary text-white col-12 mt-4"> Audio</button>
 
-                <button onclick='url(3);' class="btn bg-primary text-white col-12 mt-4"> Almacenamiento</button>
+          <button onclick='url(4);' class="btn bg-primary text-white col-12 mt-4"> Almacenamiento</button>
 
-                <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</button>
+          <button onclick='url(5);' class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</button>
 
                 <!--<button onclick='url(4);' class="btn bg-primary text-white col-12 mt-4"> Tengo un problema</button>-->
             </div>  
@@ -155,13 +154,20 @@ $enddate1=strtotime("+5 days", $startdate);
         <!-- ENERGIA -->
         <div id="calend" class="p-5 " >
             <div class="text-black col-md-12">
-                <h5 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.   
-                </h5>       
+                <h5 class="text-grey text-center"> ENERGIA - CARGADORES</h5>       
             <div>
-                <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required="required"/>
+                <label>GYRUX POWERBANK 10000 MAH G56</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
              </div> 
-                <button onclick="sendMail(); eventosLanding('Compromiso de Pago'); return false;" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+            </div>
+
+            <div class="text-black col-md-12">      
+            <div>
+                <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
             </div>
        </div>
 
