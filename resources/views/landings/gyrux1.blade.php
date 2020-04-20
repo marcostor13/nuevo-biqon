@@ -130,7 +130,7 @@ $enddate1=strtotime("+5 days", $startdate);
              <!-- MENU2:  -->
         <div id="cont2" class="p-5 hide" >
             <div class="text-black col-md-12">
-                <h4 class="text-black text-center"><strong><span id="name"> <?php echo //$name; ?></span> </strong> </h4>
+                <h4 class="text-black text-center"><strong><span id="name"> <?php // echo $name; ?></span> </strong> </h4>
                 <!--<h5 class="text-black text-center"> <br>Tu boleta asociada al servicio <span id="servicio"><?php //echo $servicio; ?></span>, se encuentra <span id="estado"> <?php //echo $estado; ?></span>, por el monto de:
                     <br> $ <span id="pay"> <?php //echo $pago; ?></span> <br></h5>-->
                     <p class="text-white"> <h4 class="text-white text-center">Gyrux La Evolucion en Accesorios Mobile</h4> </p>  
@@ -185,7 +185,7 @@ $enddate1=strtotime("+5 days", $startdate);
         <!-- MENU: CONTACTO EQUIVOCADO -->
         <div id="usrbad" class="p-5 hide" >
             <div class="text-black align-items-center col-md-12">
-                 <h5 class="text-black text-center">¿Conoces a <strong><span id="name"> <?php echo //$name; ?></span> </strong> ? </h5>
+                 <h5 class="text-black text-center">¿Conoces a <strong><span id="name"> <?php // echo $name; ?></span> </strong> ? </h5>
                 </div>
 
             <button onclick='url(6); ' class="btn bg-danger text-white col-5 mt-4"> SI </button>
