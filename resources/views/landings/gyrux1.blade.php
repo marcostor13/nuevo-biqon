@@ -117,7 +117,7 @@ $enddate1=strtotime("+5 days", $startdate);
         </div>-->
 
             <!-- ERROR 1 -->
-            <div id="error" class="p-2 pl-3 pr-3 hide">
+            <div id="error" class="p-2 pl-3 pr-3 ">
                     <div class="card">     
                         <div class="card-body">
                             <h5 id="error"class="text-black text-center mt-5">
@@ -128,7 +128,7 @@ $enddate1=strtotime("+5 days", $startdate);
             </div>
 
              <!-- MENU2:  -->
-        <div id="cont2" class="p-5 hide" >
+        <div id="cont2" class="p-5 " >
             <div class="text-black col-md-12">
                 <h4 class="text-black text-center"><strong><span id="name"> <?php // echo $name; ?></span> </strong> </h4>
                 <!--<h5 class="text-black text-center"> <br>Tu boleta asociada al servicio <span id="servicio"><?php //echo $servicio; ?></span>, se encuentra <span id="estado"> <?php //echo $estado; ?></span>, por el monto de:
@@ -152,7 +152,7 @@ $enddate1=strtotime("+5 days", $startdate);
         </div>
 
         <!-- ENERGIA -->
-        <div id="calend" class="p-5 hide" >
+        <div id="calend" class="p-5 " >
             <div class="text-black col-md-12">
                 <h5 class="text-grey text-center">Favor ingrese la fecha en la cual podrá realizar el pago. Solo podrá agendar su pago por 3 días de lo contrario lo volveremos a contactar.   
                 </h5>       
@@ -165,7 +165,7 @@ $enddate1=strtotime("+5 days", $startdate);
        </div>
 
        <!-- PROTECCION -->
-        <div id="llamen" class="p-5 hide" >
+        <div id="llamen" class="p-5 " >
             <div class="text-black col-md-12">
                 <h5 class="text-grey text-center">Favor ingrese su fecha y horario de llamada por la cual usted quiere ser contactado. 
                 </h5>       
@@ -183,7 +183,7 @@ $enddate1=strtotime("+5 days", $startdate);
        </div>
 
         <!-- MENU: CONTACTO EQUIVOCADO -->
-        <div id="usrbad" class="p-5 hide" >
+        <div id="usrbad" class="p-5 " >
             <div class="text-black align-items-center col-md-12">
                  <h5 class="text-black text-center">¿Conoces a <strong><span id="name"> <?php // echo $name; ?></span> </strong> ? </h5>
                 </div>
@@ -194,7 +194,7 @@ $enddate1=strtotime("+5 days", $startdate);
         </div>
 
         <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
-            <div id="equiv1" class="p-5 hide" >
+            <div id="equiv1" class="p-5 " >
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
@@ -214,7 +214,7 @@ $enddate1=strtotime("+5 days", $startdate);
             </div>
 
         <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
-            <div id="equiv2" class="p-5 hide" >
+            <div id="equiv2" class="p-5 " >
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar correo</h5>
                 </div>
@@ -233,7 +233,7 @@ $enddate1=strtotime("+5 days", $startdate);
             </div>
 
                 <!-- AUDIO -->
-            <div id="cont3" class="p-5 hide" >
+            <div id="cont3" class="p-5 " >
                 <div class="text-black col-md-12">
                 
                 <button onclick='url6(); eventosLanding("Tarifas"); ' class="btn bg-primary text-white col-12 mt-4"> Tarifas</button>
@@ -247,7 +247,7 @@ $enddate1=strtotime("+5 days", $startdate);
         </div>
          </div>
     <!-- ALMACENAMIENTO -->
-            <div id="cont4" class="p-5 hide">
+            <div id="cont4" class="p-5 ">
                 <div class="text-black col-md-12 text-center align-items-center justify-content-start p-0">
                 
                 <button onclick='sendMail("El cliente indica que tiene problemas con SubTel|Sernac"); eventosLanding("SubTel|Sernac"); ' class="btn bg-primary text-white col-5 mt-4"> SubTel|Sernac </button>
@@ -273,7 +273,7 @@ $enddate1=strtotime("+5 days", $startdate);
         </div>
         </div>
 <!-- MENSAJE SUCCESS -->
-                <div id="success" class="p-2 pl-5 pr-5 hide">
+                <div id="success" class="p-2 pl-5 pr-5 ">
                     <div class="card">     
                         <div class="card-body">
                             <h5 id="messages"class="text-grey text-center mt-4 "></h5>
@@ -286,7 +286,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 </div>
 
                 <!-- Contacto Equivocado -->
-                <div id="error" class="p-2 pl-5 pr-5 hide">
+                <div id="error" class="p-2 pl-5 pr-5 ">
                     <div class="card">     
                         <div class="card-body">
                             <h5 id="messagee"class="text-black text-center mt-4 "> Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000. </h5>
@@ -357,16 +357,16 @@ $enddate1=strtotime("+5 days", $startdate);
                 e = JSON.parse(e); 
                
                 if(e.code == 200){
-                    $('#cont1').addClass('hide');
+                    $('#cont1').addClass('');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                    $('#cont2').removeClass('hide');
+                    $('#cont2').removeClass('');
                     $('#servicio').text(geturlParameter('data2'));
                     $('#estado').text(geturlParameter('data3'));
 
                 }else{
-                   $('#cont1').addClass('hide');
-                     $('#success').removeClass('hide');
+                   $('#cont1').addClass('');
+                     $('#success').removeClass('');
                     $('#messages').text("Validación incorrecta.");
                 }
             })
@@ -452,16 +452,16 @@ $enddate1=strtotime("+5 days", $startdate);
             $.post( "/sendMail", dataSend,function() {
                 console.log(dataSend);
                 if(msg !== false){
-                    $('#message').removeClass('hide');
-                    $('#cont4').addClass('hide');
-                    $('#equiv2').addClass('hide');
-                    $('#success').removeClass('hide');
+                    $('#message').removeClass('');
+                    $('#cont4').addClass('');
+                    $('#equiv2').addClass('');
+                    $('#success').removeClass('');
                     $('#messages').text('Su reclamo ha quedado registrado.');
                 }else{
-                    $('#message').removeClass('hide');
-                     $('#calend').addClass('hide');
-                     $('#llamen').addClass('hide');
-                    $('#success').removeClass('hide');
+                    $('#message').removeClass('');
+                     $('#calend').addClass('');
+                     $('#llamen').addClass('');
+                    $('#success').removeClass('');
                     $('#messages').text('Ha quedado registrado su compromiso');
                 }
             })
@@ -672,39 +672,39 @@ function url(idButton) {
 
  switch(idButton) {
  case 1:
-          $('#cont2').addClass('hide');
-          $('#calend').removeClass('hide');
+          $('#cont2').addClass('');
+          $('#calend').removeClass('');
     break;
 
  case 2:
-          $('#cont2').addClass('hide');
+          $('#cont2').addClass('');
            $('#name').text(geturlParameter('nombre'));
-          $('#llamen').removeClass('hide');
+          $('#llamen').removeClass('');
     break;
 
  case 3:
-          $('#cont2').addClass('hide');
-          $('#cont3').removeClass('hide'); 
+          $('#cont2').addClass('');
+          $('#cont3').removeClass(''); 
     break;
  case 4:
-          $('#cont2').addClass('hide');
-          $('#cont4').removeClass('hide'); 
+          $('#cont2').addClass('');
+          $('#cont4').removeClass(''); 
     break;
     case 5:
-          $('#cont1').addClass('hide');
+          $('#cont1').addClass('');
           $('#name').text(geturlParameter('nombre'));
-          $('#usrbad').removeClass('hide'); 
+          $('#usrbad').removeClass(''); 
     break;
      case 6:
-          $('#usrbad').addClass('hide');
+          $('#usrbad').addClass('');
           $('#name').text(geturlParameter('nombre'));
-          $('#equiv1').removeClass('hide'); 
+          $('#equiv1').removeClass(''); 
     break;
      case 7:
-          $('#equiv1').addClass('hide');
-           $('#equiv10').addClass('hide');
+          $('#equiv1').addClass('');
+           $('#equiv10').addClass('');
           $('#name').text(geturlParameter('nombre'));
-          $('#equiv2').removeClass('hide'); 
+          $('#equiv2').removeClass(''); 
     break;
 default:
           alert("OPCION INVALIDA.")
