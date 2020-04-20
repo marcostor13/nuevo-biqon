@@ -58,11 +58,15 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="PROTECTOR FACIAL" width="500" height="1000">
+            <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{https://mediateca.educa.madrid.org/imagen.php?id=mlcavpjp6mo7oeml&type=2&m=550}" alt="PROTECTOR FACIAL" width="500" height="1000">
 
             <div id="cont1">
                             <div class="card">     
-                <div class="card-body">
+                <div class="card-body" >
+
+
+                    <div class="text-align:right">
+
 
                   <p class="text-white">
                   <h1><strong>PROTECTOR FACIAL DE CARA COMPLETA ANTI COVID-19</strong></h1>
@@ -85,6 +89,7 @@ $enddate=strtotime("+15 days", $startdate);
                        <h3>Mayor a 1.000 Unidades $ 3.000.-</h3>
                         </p>
                     <center>
+                        </div>
                          <div>
                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-primary text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
 
