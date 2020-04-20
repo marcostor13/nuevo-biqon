@@ -187,7 +187,7 @@ $enddate1=strtotime("+5 days", $startdate);
        <!-- PROTECCION -->
         <div id="llamen" class="p-5 " >
             <div class="text-black col-md-12">
-                <h5 class="text-grey text-center"> ENERGIA - CARGADORES</h5>       
+                <h5 class="text-grey text-center"> PROTECCION - FORROS</h5>       
             <div>
                 <label>GYRUX POWERBANK 10000 MAH G56</label>
                 <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
@@ -220,7 +220,7 @@ $enddate1=strtotime("+5 days", $startdate);
         <!-- MENU: CONTACTO EQUIVOCADO -->
         <div id="usrbad" class="p-5 " >
           <div class="text-black col-md-12">
-                <h5 class="text-grey text-center"> ENERGIA - CARGADORES</h5>       
+                <h5 class="text-grey text-center"> Audio y Parlantes</h5>       
             <div>
                 <label>GYRUX POWERBANK 10000 MAH G56</label>
                 <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
@@ -253,7 +253,7 @@ $enddate1=strtotime("+5 days", $startdate);
         <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
             <div id="equiv1" class="p-5 " >
                 <div class="text-black col-md-12">
-                <h5 class="text-grey text-center"> ENERGIA - CARGADORES</h5>       
+                <h5 class="text-grey text-center"> Almacenamiento</h5>       
             <div>
                 <label>GYRUX POWERBANK 10000 MAH G56</label>
                 <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
@@ -284,37 +284,7 @@ $enddate1=strtotime("+5 days", $startdate);
        </div>
 
         <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
-            <div id="equiv2" class="p-5 " >
-                <div class="text-black col-md-12">
-                <h5 class="text-grey text-center"> ENERGIA - CARGADORES</h5>       
-            <div>
-                <label>GYRUX POWERBANK 10000 MAH G56</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-                <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-                <div>
-                <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-                <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-            </div>
-
-            <div class="text-black col-md-12">      
-            <div>
-                <label>CARGADOR PARED CON CABLE LIGHTNING UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-               <div>
-                <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-            </div>
-       </div>
+            
 
             </div>
 
