@@ -84,7 +84,7 @@ $enddate=strtotime("+15 days", $startdate);
 
                     <h2><Strong>Precios<Strong><h2>
  
-                       <h3>Menor a 300 Unidades   $ 4.000.-</h3>
+                       <h3>Menor a 300 Unidades    $ 4.000.-</h3>
                        <h3>Menor a 1.000 Unidades $ 3.500.-</h3>
                        <h3>Mayor a 1.000 Unidades $ 3.000.-</h3>
                         </p>
