@@ -104,7 +104,7 @@ $enddate1=strtotime("+5 days", $startdate);
             
 <!-- MENU 1: INGRESAR -->
         <div id="cont1" class="p-5 ">
-            <h4 class="text-black text-center"><strong><span id="name"> <?php echo// $name; ?></span> </strong> </h4>
+            <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong> </h4>
             <h5 class="text-black text-center"> <br>Te damos la bienvenida a la interfaz de Gyrux, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h5>
             <input id="rut" type="number" class="form-control mt-4 text-center text-black" required>
                 
