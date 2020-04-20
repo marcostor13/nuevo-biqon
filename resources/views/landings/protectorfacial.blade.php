@@ -65,14 +65,14 @@ $enddate=strtotime("+15 days", $startdate);
                 <div class="card-body">
 
                   <p class="text-white">
-                  <h1><strong>PROTECTOR FACIAL DE CARA COMPLETA ANTI COVID 19</strong></h1>
+                  <h1><strong>PROTECTOR FACIAL DE CARA COMPLETA ANTI COVID-19</strong></h1>
 
-                    <h3>1.Confección en cintillo ajustable a la nuca en PAI(Policarbonato de alto impacto
-                        2.Elástico con hebilla ajustable a la medida
-                        3.Frente de mica transparente de 200 micrones
-                        4.Producto plegable fácil de llevar.
-                        5.Fácil de limpiar y desinfectar
-                        6.Elaboración Chilea<h3>
+                       <h3>1.Confección en cintillo ajustable a la nuca en PAI(Policarbonato de alto impacto</h3>
+                       <h3> 2.Elástico con hebilla ajustable a la medida</h3>
+                       <h3>  3.Frente de mica transparente de 200 micrones</h3>
+                       <h3>4.Producto plegable fácil de llevar.</h3>
+                       <h3> 5.Fácil de limpiar y desinfectar</h3>
+                       <h3> 6.Elaboración Chilea</h3>
 
                     <h2><Strong>Formato</Strong></h2>
 
@@ -80,9 +80,9 @@ $enddate=strtotime("+15 days", $startdate);
 
                     <h2><Strong>Precios<Strong><h2>
  
-                    <h3>Menor a 300 Unidades   $ 4.000.-
-                       Menor a 1.000 Unidades $ 3.500.-
-                       Mayor a 1.000 Unidades $ 3.000.-<h3>
+                       <h3>Menor a 300 Unidades   $ 4.000.-</h3>
+                       <h3>Menor a 1.000 Unidades $ 3.500.-</h3>
+                       <h3>Mayor a 1.000 Unidades $ 3.000.-</h3>
                         </p>
                     <center>
                          <div>
