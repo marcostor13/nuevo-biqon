@@ -160,11 +160,24 @@ $enddate1=strtotime("+5 days", $startdate);
                 <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
              </div> 
                 <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+                <div>
+                <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+                <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
             </div>
 
             <div class="text-black col-md-12">      
             <div>
-                <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
+                <label>CARGADOR PARED CON CABLE LIGHTNING UMANNO</label>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+             </div> 
+               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+               <div>
+                <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
                 <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
              </div> 
                <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
