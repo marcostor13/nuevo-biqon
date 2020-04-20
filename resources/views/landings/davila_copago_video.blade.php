@@ -46,7 +46,7 @@
     
 </style>
 
-    <div id="CLINICA_DAVILA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+   <!-- <div id="CLINICA_DAVILA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
 
      <div class="opaco">
 
@@ -83,7 +83,7 @@
                                 </div>
 
 
-                                <p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> 
+                                <p> <h4> El N° de admisión correspondiente a su cuenta es:  </h4> <h4 id="dato1" class="dato1"> </h4></p> 
                               
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
