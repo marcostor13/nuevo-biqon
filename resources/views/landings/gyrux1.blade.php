@@ -103,18 +103,18 @@ $enddate1=strtotime("+5 days", $startdate);
     <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             
 <!-- MENU 1: INGRESAR -->
-        <div id="cont1" class="p-5 ">
+      <!--  <div id="cont1" class="p-5 ">
             <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong> </h4>
             <h5 class="text-black text-center"> <br>Te damos la bienvenida a la interfaz de Gyrux, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h5>
             <input id="rut" type="number" class="form-control mt-4 text-center text-black" required>
                 
-            <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Ingresar </button>
+            <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4"> Ingresar </button>
 
-            <button onclick="url(5)" class="btn bg-danger text-white col-12 mt-4"> Contacto Equivocado </button>
+            <button onclick="url(5)" class="btn bg-primary text-white col-12 mt-4"> Contacto Equivocado </button>
 
-            <button onclick="url22(); return false;" class="btn bg-danger text-white col-12 mt-4"> Salir </button>
+            <button onclick="url22(); return false;" class="btn bg-primary text-white col-12 mt-4"> Salir </button>
 
-        </div>
+        </div>-->
 
             <!-- ERROR 1 -->
             <div id="error" class="p-2 pl-3 pr-3 hide">
@@ -137,17 +137,17 @@ $enddate1=strtotime("+5 days", $startdate);
               <!-- <p class="text-black text-center"> Recuerda que pagar tu boleta al día evita la suspensión de tus servicios. </p>-->
                 
                 
-                <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-white col-12 mt-4"> Energia</button>
+                <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-primary text-white col-12 mt-4"> Energia</button>
 
-                <button onclick='url(1);' class="btn bg-danger text-white col-12 mt-4"> Proteccion</button>
+                <button onclick='url(1);' class="btn bg-primary text-white col-12 mt-4"> Proteccion</button>
 
-                <button onclick='url(2);' class="btn bg-danger text-white col-12 mt-4"> Audio</button>
+                <button onclick='url(2);' class="btn bg-primary text-white col-12 mt-4"> Audio</button>
 
-                <button onclick='url(3);' class="btn bg-danger text-white col-12 mt-4"> Almacenamiento</button>
+                <button onclick='url(3);' class="btn bg-primary text-white col-12 mt-4"> Almacenamiento</button>
 
-                <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-danger text-white col-12 mt-4">Pagar Movistar</button>
+                <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</button>
 
-                <!--<button onclick='url(4);' class="btn bg-danger text-white col-12 mt-4"> Tengo un problema</button>-->
+                <!--<button onclick='url(4);' class="btn bg-primary text-white col-12 mt-4"> Tengo un problema</button>-->
             </div>  
         </div>
 
@@ -160,7 +160,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 <label>Fecha:</label>
                 <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required="required"/>
              </div> 
-                <button onclick="sendMail(); eventosLanding('Compromiso de Pago'); return false;" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
+                <button onclick="sendMail(); eventosLanding('Compromiso de Pago'); return false;" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
             </div>
        </div>
 
@@ -178,7 +178,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 <input id="time1"  type="time" data-format="hh:mm A" class=" btn-date text-black form-control input-min-width-95p" max="20:00:00" min="08:00:00" step="60" required="required"/>
 
              </div> 
-                <button onclick="sendMail(); return false; eventosLanding('Agendo llamada');" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
+                <button onclick="sendMail(); return false; eventosLanding('Agendo llamada');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
             </div>
        </div>
 
@@ -188,9 +188,9 @@ $enddate1=strtotime("+5 days", $startdate);
                  <h5 class="text-black text-center">¿Conoces a <strong><span id="name"> <?php // echo $name; ?></span> </strong> ? </h5>
                 </div>
 
-            <button onclick='url(6); ' class="btn bg-danger text-white col-5 mt-4"> SI </button>
+            <button onclick='url(6); ' class="btn bg-primary text-white col-5 mt-4"> SI </button>
 
-            <button onclick='url22(); eventosLanding("NO CONTACTO"); ' class="btn bg-danger text-white col-5 mt-4"> NO </button>
+            <button onclick='url22(); eventosLanding("NO CONTACTO"); ' class="btn bg-primary text-white col-5 mt-4"> NO </button>
         </div>
 
         <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
@@ -204,12 +204,12 @@ $enddate1=strtotime("+5 days", $startdate);
 
                 <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
 
-                <button onclick='url(7);' class="btn bg-danger text-white col-6 mt-4"> CONTINUAR </button>
+                <button onclick='url(7);' class="btn bg-primary text-white col-6 mt-4"> CONTINUAR </button>
                 <br> <br>  <br>  <br>
                 <div class="text-black col-md-10">
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div> 
-                <button onclick='url(7);' class="btn bg-danger text-white col-12 mt-4"> No quiero ingresar </button>
+                <button onclick='url(7);' class="btn bg-primary text-white col-12 mt-4"> No quiero ingresar </button>
 
             </div>
 
@@ -222,13 +222,13 @@ $enddate1=strtotime("+5 days", $startdate);
 
                 <button id="validate" class="btn bg-warning text-black col-5 mt-4"> VALIDAR </button>
 
-                <button onclick='urldatos();' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
+                <button onclick='urldatos();' class="btn bg-primary text-white col-5 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
                     <br>  <br>  <br>  <br>
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div>
-                <button onclick='url22(); ' class="btn bg-danger text-white col-10 mt-4"> No quiero ingresar </button>
+                <button onclick='url22(); ' class="btn bg-primary text-white col-10 mt-4"> No quiero ingresar </button>
 
             </div>
 
@@ -236,13 +236,13 @@ $enddate1=strtotime("+5 days", $startdate);
             <div id="cont3" class="p-5 hide" >
                 <div class="text-black col-md-12">
                 
-                <button onclick='url6(); eventosLanding("Tarifas"); ' class="btn bg-danger text-white col-12 mt-4"> Tarifas</button>
+                <button onclick='url6(); eventosLanding("Tarifas"); ' class="btn bg-primary text-white col-12 mt-4"> Tarifas</button>
 
-                <button onclick='url7(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-white col-12 mt-4"> Lugares de Pago</button>
+                <button onclick='url7(); eventosLanding("Lugares de Pago"); ' class="btn bg-primary text-white col-12 mt-4"> Lugares de Pago</button>
 
-                <button onclick='url8(); eventosLanding("Sucursales"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursales</button>
+                <button onclick='url8(); eventosLanding("Sucursales"); ' class="btn bg-primary text-white col-12 mt-4"> Sucursales</button>
 
-                <button onclick='url9(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursal Virtual</button>
+                <button onclick='url9(); eventosLanding("Sucursal Virtual"); ' class="btn bg-primary text-white col-12 mt-4"> Sucursal Virtual</button>
 
         </div>
          </div>
@@ -250,25 +250,25 @@ $enddate1=strtotime("+5 days", $startdate);
             <div id="cont4" class="p-5 hide">
                 <div class="text-black col-md-12 text-center align-items-center justify-content-start p-0">
                 
-                <button onclick='sendMail("El cliente indica que tiene problemas con SubTel|Sernac"); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-white col-5 mt-4"> SubTel|Sernac </button>
+                <button onclick='sendMail("El cliente indica que tiene problemas con SubTel|Sernac"); eventosLanding("SubTel|Sernac"); ' class="btn bg-primary text-white col-5 mt-4"> SubTel|Sernac </button>
 
-                <button onclick='sendMail("El cliente indica que tiene Problemas Economicos"); eventosLanding("Problemas Económicos); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Economicos</button>
+                <button onclick='sendMail("El cliente indica que tiene Problemas Economicos"); eventosLanding("Problemas Económicos); ' class="btn bg-primary text-white col-5 mt-4"> Problemas Economicos</button>
 
-                <button onclick='sendMail("El cliente indica que No Reconoce Deuda"); eventosLanding("No Reconozco Deuda"); ' class="btn bg-danger text-white col-5 mt-4"> No Reconozco Deuda</button>
+                <button onclick='sendMail("El cliente indica que No Reconoce Deuda"); eventosLanding("No Reconozco Deuda"); ' class="btn bg-primary text-white col-5 mt-4"> No Reconozco Deuda</button>
 
-                <button onclick='sendMail("El cliente indica que tiene Problemas Tecnicos"); eventosLanding("Problema Técnico"); ' class="btn bg-danger text-white col-5 mt-4"> Problema Tecnico</button>
+                <button onclick='sendMail("El cliente indica que tiene Problemas Tecnicos"); eventosLanding("Problema Técnico"); ' class="btn bg-primary text-white col-5 mt-4"> Problema Tecnico</button>
 
-                <button onclick='sendMail("El cliente indica que tiene Problema Comercial"); eventosLanding("Problema Comercial"); ' class="btn bg-danger text-white col-5 mt-4"> Problema Comercial</button>
+                <button onclick='sendMail("El cliente indica que tiene Problema Comercial"); eventosLanding("Problema Comercial"); ' class="btn bg-primary text-white col-5 mt-4"> Problema Comercial</button>
 
-                <button onclick='sendMail("El cliente indica que tiene problemas con Pago no aplicado"); eventosLanding("Pago no aplicado"); ' class="btn bg-danger text-white col-5 mt-4"> Pago no aplicado</button>
+                <button onclick='sendMail("El cliente indica que tiene problemas con Pago no aplicado"); eventosLanding("Pago no aplicado"); ' class="btn bg-primary text-white col-5 mt-4"> Pago no aplicado</button>
 
-                <button onclick='sendMail("El cliente indica que tiene problemas con Fraude"); eventosLanding("Fraude"); ' class="btn bg-danger text-white col-5 mt-4"> Fraude</button>
+                <button onclick='sendMail("El cliente indica que tiene problemas con Fraude"); eventosLanding("Fraude"); ' class="btn bg-primary text-white col-5 mt-4"> Fraude</button>
 
-                <button onclick='sendMail("El cliente indica que tiene problemas con Titular fallecido"); eventosLanding("Titular fallecido"); ' class="btn bg-danger text-white col-5 mt-4"> Titular fallecido</button>
+                <button onclick='sendMail("El cliente indica que tiene problemas con Titular fallecido"); eventosLanding("Titular fallecido"); ' class="btn bg-primary text-white col-5 mt-4"> Titular fallecido</button>
 
-                <button onclick='sendMail("El cliente indica que tiene problemas con Baja no ingresada"); eventosLanding("Baja no ingresanda"); ' class="btn bg-danger text-white col-5 mt-4"> Baja no ingresada</button>
+                <button onclick='sendMail("El cliente indica que tiene problemas con Baja no ingresada"); eventosLanding("Baja no ingresanda"); ' class="btn bg-primary text-white col-5 mt-4"> Baja no ingresada</button>
 
-                <button onclick='sendMail("El cliente indica que se cambio de Compañía"); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-white col-5 mt-4"> Me cambie de Compañía</button>
+                <button onclick='sendMail("El cliente indica que se cambio de Compañía"); eventosLanding("Me cambie de Compañía"); ' class="btn bg-primary text-white col-5 mt-4"> Me cambie de Compañía</button>
 
         </div>
         </div>
@@ -437,7 +437,7 @@ $enddate1=strtotime("+5 days", $startdate);
                   //  'Landing': '{!! $landing->name !!}'
                // } 
             }
-             var correo = ["jesus.binteraction@gmail.com","josesm@procollect.cl"];
+             var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
