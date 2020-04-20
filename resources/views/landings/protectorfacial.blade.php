@@ -101,6 +101,8 @@ $enddate=strtotime("+15 days", $startdate);
                          <div>
                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-primary text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
 
+                  <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-primary text-white col-12 mt-2">ESCRÍBENOS</a> 
+
                 
             </div>
                     </center>
@@ -355,6 +357,20 @@ $enddate=strtotime("+15 days", $startdate);
     
         } 
         
+         function Mens(){
+       var id_adm; 
+         id_adm= getUrlParameter('data1'); 
+         var rut; 
+         rut= getUrlParameter('rut');
+
+        // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
+
+         var body_message = "%0A%20Estimado%20paciente,%0A%20favor%20env%C3%ADe%20su%20consulta%20relacionada%20al%20pago%20de%20su%20cuenta%20hospitalaria.%20%0A%20Saludos%20cordiales%20%0A%20%0A%20Atte.%20Contact%20Center%20%0A%20Cl%C3%ADnica%20D%C3%A1vila%20%0A%20Fono:%2022730800%20opci%C3%B3n%202";
+
+   window.location.href = "mailto:maicol.binteraction@gmail.com?subject=Quiero%20Consultar%20Sobre%20las%20Mascarillas&body=%20RUT:%20"+rut+" "+body_message;
+
+ }
+    </script>
     
     </script>
     
