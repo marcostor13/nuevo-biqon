@@ -64,7 +64,7 @@
                        </div> 
                     </div>
 
-                    
+
                      <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -85,7 +85,8 @@
                             <div class="videoWrapper">        
                             <iframe width="380" height="300" src="{{asset('/files/vid_davila.mp4')}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
-
+                              <div class="card">     
+                            <div class="card-body">
 
                                 <p> <h4> El N° de admisión correspondiente a su cuenta es:  </h4> <h4 id="dato1" class="dato1"> </h4></p> 
                               
