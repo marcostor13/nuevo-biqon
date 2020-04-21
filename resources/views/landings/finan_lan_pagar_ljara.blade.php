@@ -83,21 +83,18 @@ $name = $_GET['Nombre'];
                     <div id="cont2" class="p-2 pl-3 pr-3">
                         <div class="card">     
                             <div class="card-body">
-                                <h3 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h3>
-                                 <p class="text-white"> <h4> 
-                                 En estos momentos dificiles que estamos pasando a nivel pais en <strong class="text-primary">FINANCOOP</strong>, no queremos que salga de casa y hemos facilitado la forma en que puede acceder a un <strong> Crédito Especial para pensionados</strong>. Si desea información ingrese a las siguientes opciones:</h4> </p>
+                                <h4 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h4>
+                          <p class="text-grey"> <h5> <strong> 
+                            En estos difíciles días que estamos pasando en el país,</strong> <strong class="text-primary">FINANCOOP</strong><strong>, tiene un Crédito refinanciamiento con dinero disponible </strong><strong class="text-primary">para los socios al día</strong></h5>
+                                  <h5> <strong> 
+                              <br>* El Convenio se encuentra  activado<br>
+                              <br>* Crédito pre aprobado<br>
+                              <br>* Créditos socios nuevos o Compras de cartera<br>
+                              <br>* Enviar foto por WhatsApp de Ultima Liquidación de Sueldo + C. de Identidad + Comprobante de Domicilio<br>
 
                                 <button onclick="Mens1(); eventosLanding('Llamar');" class="btn bg-primary text-white col-12 mt-2">LLAMAR A EJECUTIVO</button>
 
                                   <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-primary text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
-
-                                <!--<div class="date btn bg-primary text-white col-12 mt-4">
-                                 <span>PROGRAMAR VISITA MOTOBOY</span>
-                                 <input id="date1"  type="datetime-local" class="btn-date text-white" style="border: none;" min="<?php //echo date('Y-m-d\TH:i:s') ?>" max="<?php //echo date('2020-04-30\T18:00:00') ?>"/>
-                               </div>-->
-                               <!-- <div class="date btn bg-primary text-white col-12 mt-4">
-                                 <span>PROGRAMAR VISITA VISITA MOTOBOY 1</span>
-                                  <input type='text' name='todate' step='1'  value="<?php //echo date('Y-m-d\TH:i:s'); ?>" required/> </div>-->
 
                                 <button onclick="Mens4(); eventosLanding('Correo');" class="btn bg-primary text-white col-12 mt-2">CONSULTAS POR CORREO
                                 </button>
