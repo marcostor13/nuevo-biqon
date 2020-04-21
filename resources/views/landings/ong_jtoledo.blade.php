@@ -256,7 +256,7 @@ $name = $_GET['NOMBRE'];
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
-             var correo = ["cobranzas@financoop.cl"];
+             var correo = ["jorge.toledo@financoop.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
