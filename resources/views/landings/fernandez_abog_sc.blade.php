@@ -77,7 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
-                                 <a href="tel:+56227060710" class="btn bg-primary text-white col-12 mt-4"> Contactar</a>
+                                 <a href="tel:+56998131955" class="btn bg-primary text-white col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
@@ -106,20 +106,20 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
-                    <a href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20realizar%20un%20convenio%20de%20pago" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                    <a href="mailto:cherrera@fernandezyasociados.cl?subject=Deseo%20realizar%20un%20convenio%20de%20pago" class="btn bg-primary text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
                <!--<button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
                <!-- <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>-->
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56952247063&text=Hola%20Marta,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56998131955&text=Hola%20Marta,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
 
                 <!--<a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56986096220&text=Hola%20Camila,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
 
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56227060710"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56998131955"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
-                    <a onclick="eventosLanding('Correo');" href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20recibir%20más%20información%20de%20mi%20deuda"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:cherrera@fernandezyasociados.cl?subject=Deseo%20recibir%20más%20información%20de%20mi%20deuda"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
                 </div>
                 
             </div>
@@ -234,7 +234,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["monateh@fernandezyasociados.cl"];  
+            var correo = ["cherrera@fernandezyasociados.cl"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
