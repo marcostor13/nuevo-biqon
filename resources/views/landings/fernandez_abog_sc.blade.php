@@ -91,7 +91,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <h5>Desea saber más información</h5>
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                  <a onclick="eventosLanding('Informacion')" href="mailto:monateh@fernandezyasociados.cl?subject=Deseo%20recibir%20más%20información%20de%20mi%20deuda" class="btn bg-primary text-white col-12 mt-4">SI</a>
+                  <a onclick="eventosLanding('Informacion')" href="mailto:cherrera@fernandezyasociados.cl?subject=Deseo%20recibir%20más%20información%20de%20mi%20deuda" class="btn bg-primary text-white col-12 mt-4">SI</a>
                   </div>  
 
                 
