@@ -54,7 +54,7 @@
             </div>
 
 
-            <div  id="cont5" class="p-3 ">
+            <div  id="cont5" class="p-3 hide">
                 <img class="img-fluid align-items-center col-10 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
                 <a onclick="Cor1();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
                 <br>
@@ -282,7 +282,8 @@
 
  function Activa(){
 
-
+  $('#cont2').addClass('hide');
+  $('#cont5').removeClass('hide');
  }
     
     </script>
