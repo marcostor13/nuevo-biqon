@@ -37,10 +37,10 @@ $enddate=strtotime("+5 days", $startdate);
 .card .card-body .card-text {
   color: #747373;
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 .card .md-form label {
-  font-weight: 300;
+  font-weight: 280;
 }
 
 .oscurecer {
@@ -51,23 +51,26 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
 </style>
-    <div id="USS" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+   <div id="USS" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
         <div class="opaco"></div>
 
-       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="USS">
-            
+       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
+            <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="USS">-->
+            <img style="max-width: 120%" class="img-fluid col-md-3 mt-2" src="https://www.advance.uss.cl/wp-content/themes/uss/img/logo-uss-advance.png" alt="USS">
 
-            <a target="_blank" href="https://www.advance.uss.cl/?utm_source=google&utm_medium=search&utm_campaign=advance&utm_term=generico&utm_content=nacional&gclid=EAIaIQobChMIsLn10Z-e4wIVFwSRCh0QaAqIEAAYASAAEgJdNvD_BwE" class="btn bg-primary text-white col-8 mt-4">Ir a la página web
+           <!-- <a target="_blank" href="https://www.advance.uss.cl/?utm_source=google&utm_medium=search&utm_campaign=advance&utm_term=generico&utm_content=nacional&gclid=EAIaIQobChMIsLn10Z-e4wIVFwSRCh0QaAqIEAAYASAAEgJdNvD_BwE" class="btn bg-danger text-white col-8 mt-4">Ir a la página web
               <i class="fas fa-graduation-cap ml-2"></i>
-            </a>
+            </a>-->
 
             <div id="cont1" class="p-3 ">
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
-                  <h4 class="dark-grey-text text-center">
+                 <h4 class="text-danger text-center">
+                    <strong>ADMISION JUNIO 2020</strong>
+                  </h4>
+                 <h4 class="dark-grey-text text-center">
                     <strong>¿TIENES CONSULTAS?
                     NOSOTROS TE AYUDAMOS</strong>
                   </h4>
@@ -76,6 +79,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
+                    <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
                       <label for="form3"></label>
                     </div>
                     <div class="md-form col-6  m-0">
@@ -102,10 +106,20 @@ $enddate=strtotime("+5 days", $startdate);
                     <label for="form2"></label>
                   </div>  
 
-                  <div class="md-form">
-                    <select class="form-control" id="carrera" required>
-                      <option value="" data-select2-id="4">Selecciona una carrera</option>
-                      
+                   <div class="md-form col-12 m-0"> 
+      <select class="form-control" id="sede" required>
+      <option value="" data-select2-id="4">Selecciona una sede</option>                
+      <option value="Los Leones" data-select2-id="8">Los Leones</option>
+      <option value="Santiago" data-select2-id="9">Santiago</option>
+      <option value="Concepción" data-select2-id="10">Concepción</option>
+      <option value="Valdivia" data-select2-id="11">Valdivia</option>
+      <option value="Puerto Montt" data-select2-id="12">Puerto Montt</option>
+                    </select><br>
+                  </div>
+
+                  <div class="md-form col-12 m-0"> 
+      <select class="form-control" id="carrera" required>
+      <option value="" data-select2-id="4">Selecciona una carrera</option>                
       <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
       <option value="Ingeniería en Administración de Empresas Mención Gestión Empresarial" data-select2-id="9">Ingeniería en Administración de Empresas Mención Gestión Empresarial</option>
       <option value="Ingeniería en Gestión en Tecnologías de la Información" data-select2-id="10">Ingeniería en Gestión en Tecnologías de la Información</option>
@@ -124,26 +138,29 @@ $enddate=strtotime("+5 days", $startdate);
       <option value="Psicología" data-select2-id="23">Psicología</option>
       <option value="Pedagogía en Educación Diferencial" data-select2-id="24">Pedagogía en Educación Diferencial</option>
       <option value="Trabajo Social" data-select2-id="25">Trabajo Social</option>
-
                     </select>
                   </div>
 
                   <div class="text-center">
                     <hr>
-                    <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
+                    <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Quiero saber mas</button>
                     
                   </div>
 
-            <div class="d-flex justify-content-around align-content-center mt-4"> 
+                   <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56989002595&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"> Contactanos</a>
+            
+              <a onclick="eventosLanding('Correo');Mens2();" class="btn bg-danger text-white col-12 mt-4"><img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> Escríbenos</a>
+
+              </div>
+            </div>
+          </div>
+           <!-- <div class="d-flex justify-content-around align-content-center mt-4"> 
               <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56989002595&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
               <a onclick="eventosLanding('Llamar');" href="tel:++56989002595"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                    
               <a onclick="eventosLanding('Correo');" href="mailto: jaqueline.rodriguez@uss.cl?subject=Landing%20USS"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
-            </div>
-                    </div>
-                        </div>
-               
+            </div>-->
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -155,6 +172,7 @@ $enddate=strtotime("+5 days", $startdate);
 
         </div>
     </div>
+
 
      <script>
    //EVENT 1
@@ -346,7 +364,19 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-      
+           function Mens2(){
+       var id_adm; 
+         id_adm= getUrlParameter('Telefono'); 
+         var rut; 
+         rut= getUrlParameter('rut');
+
+        // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
+
+         var body_message = "Estoy%20Interesado%20en%20conocer%20mas%20sobre%20el%20Programa%20Advance";
+
+   window.location.href = "mailto:jaqueline.rodriguez@uss.cl?subject=Consulta%20Cursos%20Advance%20&body=Telefono:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+
+ }
         
     
     </script>
