@@ -1,18 +1,18 @@
 @extends('layouts.landing')
 
-@section('title', 'MafChile')
+@section('title', 'Simple')
 
 @section('content')
  <?php
-$startdate=strtotime("Today");
-$enddate=strtotime("+7 days", $startdate);
+//$startdate=strtotime("Today");
+//$enddate=strtotime("+7 days", $startdate);
 ?>
-    <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+   <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="MAFCHILE">
+            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
 
             <div id="cont1" class="p-5 ">
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
@@ -276,7 +276,6 @@ $enddate=strtotime("+7 days", $startdate);
 
           function Mens2(){
 
-        // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
 
          var body_message = "Quiero tener mas informacion sobre la el servicio de Portabilidad";
 
