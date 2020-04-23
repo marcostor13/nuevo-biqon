@@ -54,7 +54,7 @@
             </div>
 
 
-            <div  id="cont5" class="p-2 pl-3 pr-3 hide">
+            <div  id="cont5" class="p-2 pl-3 pr-3">
                 <div>
                 <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
                 <a onclick="Cor1();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
