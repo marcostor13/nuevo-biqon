@@ -27,42 +27,23 @@
                         </div>
                     </div>
             <div id="cont2" class="p-3 ">
-                <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
+                <!--<h3 class="text-white text-center">Estimado <span id="name"></span></h3>-->
 
                 <p class="text-white"> <h3>
                     Nuevo PLAN 25GB + 700 MIN con 33% de dscto, a solo $10.000 x 24 meses!
                 </h3></p>
-                      <button onclick='window.location.href="https://cambiate.virginmobile.cl/?utm_source=sms&utm_medium=sms&utm_content=2019-10-14-m-v1&utm_campaign=pidechip-octubre-2019";eventosLanding("IR A WEB");' class="btn bg-danger text-white col-12 mt-4">Solicita Aqui</button>
+                      <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">Solicita Aqui</button>
                 <p class="text-white"> <h3>
                     Ingresa tus datos y te despachamos el chip GRATIS! </h3>
                 </p>
-               <!-- <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
-
-                -->
 
                 <br>
-                 <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2">LLÁMANOS</a>
+                 <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-2">LLÁMANOS</a>
 
-                 <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-primary text-white col-12 mt-2">WHATSAPP</a>
+                 <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-danger text-white col-12 mt-2">WHATSAPP</a>
 
-                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2">ESCRÍBENOS</a>
+                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-2">ESCRÍBENOS</a>
 
-                
-
-               <!-- <div class="d-flex justify-content-around align-content-center mt-4 ">
-                    <br>
-                    <br>
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56993443007&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
-                   
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56993443007"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
-                    
-                    <a onclick="eventosLanding('Correo');" href="mailto:inttegrados@gmail.com"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
-                </div>-->
                </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -72,6 +53,22 @@
                         </div>
             </div>
 
+
+            <div  id="cont5" class="p-3 ">
+                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
+                <a onclick="Cor1();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
+                <br>
+                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
+                <a onclick="Cor2();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
+                <br>
+                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">
+                <a onclick="Cor3();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
+                <br>
+                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+                <a onclick="Cor4();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
+                <br>
+               
+            </div>
         </div>
     </div>
 
@@ -280,6 +277,11 @@
          var body_message = "Quiero tener mas informacion sobre la el servicio de Portabilidad";
 
    window.location.href = "mailto:inttegrados@gmail.com?subject=Portabilidad%20Virging%20Mobile&body"+body_message;
+
+ }
+
+ function Activa(){
+
 
  }
     
