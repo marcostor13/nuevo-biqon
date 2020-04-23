@@ -32,7 +32,9 @@
                 <p class="text-white"> <h3>
                     Nuevo PLAN 25GB + 700 MIN con 33% de dscto, a solo $10.000 x 24 meses!
                 </h3></p>
-                      <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">Solicita Aqui</button>
+                      <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">PORTABILIDAD</button>
+
+                      <button onclick='activa1();' class="btn bg-danger text-white col-12 mt-4">LINEA NUEVA</button>
                 <p class="text-white"> <h3>
                     Ingresa tus datos y te despachamos el chip GRATIS! </h3>
                 </p>
@@ -73,6 +75,27 @@
                 <br>
                </div>
             </div>
+
+            <div  id="cont6" class="p-2 pl-3 pr-3">
+                <div>
+                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
+                <a onclick="Cor1();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
+
+                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
+                <a onclick="Cor2();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
+                <br>
+                </div>
+
+                <div>
+                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">
+                <a onclick="Cor3();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
+
+                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+                <a onclick="Cor4();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
+                <br>
+               </div>
+            </div>
+
         </div>
     </div>
 
@@ -288,6 +311,12 @@
 
   $('#cont2').addClass('hide');
   $('#cont5').removeClass('hide');
+ }
+
+  function activa1(){
+
+  $('#cont2').addClass('hide');
+  $('#cont6').removeClass('hide');
  }
     
     </script>
