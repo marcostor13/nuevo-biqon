@@ -54,18 +54,20 @@
             </div>
 
 
-            <div  id="cont5" class="p-3 hide">
+            <div  id="cont5" class="p-2 pl-3 pr-3 hide">
                 <div>
                 <img class="img-fluid align-items-center col-10 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
                 <a onclick="Cor1();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
-                <br>
+
                 <img class="img-fluid align-items-center col-10 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
                 <a onclick="Cor2();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
                 <br>
-                </div><div>
+                </div>
+
+                <div>
                 <img class="img-fluid align-items-center col-10 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">
                 <a onclick="Cor3();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
-                <br>
+                
                 <img class="img-fluid align-items-center col-10 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
                 <a onclick="Cor4();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
                 <br>
