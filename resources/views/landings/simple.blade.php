@@ -30,7 +30,7 @@
                 <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
 
                 <p class="text-white"> <h3>
-                    Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotrizNuevo PLAN 25GB + 700 MIN con 33% de dscto, a solo $10.000 x 24 meses!
+                    Nuevo PLAN 25GB + 700 MIN con 33% de dscto, a solo $10.000 x 24 meses!
                 </h3></p>
                       <button onclick='window.location.href="https://cambiate.virginmobile.cl/?utm_source=sms&utm_medium=sms&utm_content=2019-10-14-m-v1&utm_campaign=pidechip-octubre-2019";eventosLanding("IR A WEB");' class="btn bg-danger text-white col-12 mt-4">Solicita Aqui</button>
                 <p class="text-white"> <h3>
