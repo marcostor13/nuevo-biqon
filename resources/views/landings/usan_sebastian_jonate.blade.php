@@ -234,12 +234,13 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#nombre').val();
-            json_datos.apellido = $('#apellido').val();
-            json_datos.rut = $('#rut').val();
-            json_datos.telefono = $('#telefono').val();
-            json_datos.correo = $('#email').val();
-            json_datos.carrera =  $('#carrera').val();
+            //json_datos.nombre = $('#nombre').val();
+            //json_datos.apellido = $('#apellido').val();
+            //json_datos.rut = $('#rut').val();
+            //json_datos.telefono = $('#telefono').val();
+            //json_datos.correo = $('#email').val();
+            //json_datos.correo = $('#sede').val();
+            //json_datos.carrera =  $('#carrera').val();
 
             events({    
                 'name': name,
@@ -263,7 +264,21 @@ $enddate=strtotime("+5 days", $startdate);
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
                     'E-mail': $('#email').val(),
-                    'Carrera': $('#carrera').val()                
+                    'Carrera': $('#carrera').val()  'mensaje': msg,
+                    'Datos_Formulario': $('#nombre1').val(),
+                    'Nombre': $('#nombre').val(),
+                    'Apellido': $('#apellido').val(),
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
+                    'E-mail': $('#email').val(),
+                    'Sede': $('#sede').val(),
+                    'Carrera': $('#carrera').val(),
+                    'Datos_URL': $('#nombre1').val(),
+                    'Nombre_URL': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
+                    'Telefono_URL': getUrlParameter('telefono'),
+                     'Rut_URL': getUrlParameter('rut')
+                    // '': getUrlParameter('data1'),                     
                 }
             }else{
                 let date = $('#date1').val();
