@@ -269,14 +269,14 @@
 
      function Mens1(){
      
-   window.location.href = "https://api.whatsapp.com/send?phone=56993443007&text=Hola,%20tengo%20una%20consulta";
+   window.location.href = "https://api.whatsapp.com/send?phone=56993443007&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
         } 
 
 
           function Mens2(){
 
 
-         var body_message = "Quiero tener mas informacion sobre la el servicio de Portabilidad";
+         var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
 
    window.location.href = "mailto:inttegrados@gmail.com?subject=Portabilidad%20Virging%20Mobile&body"+body_message;
 
