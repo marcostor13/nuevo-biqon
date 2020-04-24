@@ -83,7 +83,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </p></h4>
                 <div class="date btn bg-danger text-white col-12 mt-4">
 
-                    <span>Agendar compromiso de pago</span>
+                    <span>Compromiso de Pago</span>
                     <input id="date1"  type="date"  style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                      <button onclick="sendMail(); return false;" class="btn-date text-white bg-danger">AGENDAR</button>
                 </div>
@@ -169,11 +169,6 @@ $enddate=strtotime("+5 days", $startdate);
 
         }
 
-        $('#date1').on('change', function(){
-                        if($('#date1').val() != ''){
-                            sendMail();
-                        }
-                    } 
 
         let eventosLanding = function(name){
             
