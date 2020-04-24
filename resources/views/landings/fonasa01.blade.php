@@ -82,6 +82,7 @@ $enddate=strtotime("+5 days", $startdate);
                   Le informamos que como estudio jurídico nos encontramos tramitando una demanda por cobro de peaje que se adeuda a <strong> FONDO NACIONAL DE SALUD </strong> <a href="https://www.fonasa.cl/sites/fonasa/inicio">www.fonasa.cl</a> Entendiendo el momento que actualmente estamos viviendo queremos ofrecer las siguientes alternativas:
                 </p></h4>
                 <div class="date btn bg-danger text-white col-12 mt-4">
+
                     <span>Agendar compromiso de pago</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
@@ -165,7 +166,11 @@ $enddate=strtotime("+5 days", $startdate);
             });
 
         }
-        
+        $(function(){
+        if($('#date1').val() != ''){
+                            sendMail();
+                        }
+                    }); 
 
         let eventosLanding = function(name){
             
