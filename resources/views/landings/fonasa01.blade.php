@@ -87,9 +87,9 @@ $enddate=strtotime("+5 days", $startdate);
                     <input id="date1"  type="date"  style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                      <button onclick="sendMail(); return false;" class="btn-date text-white bg-danger">AGENDAR</button>
                 </div>
-                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-danger text-white col-12 mt-4">Deseo que me Contacten</button>
+                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-danger text-white col-12 mt-4">Deseo que me Contacten</button>
 
-                <button onclick="sendMail('No quiero llegar a un acuerdo de pago'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">No quiero llegar a un acuerdo</button>
+                <button onclick="sendMail('No quiero llegar a un acuerdo de pago'); eventosLanding('Sin Acuerdo'); return false;" class="btn bg-danger text-white col-12 mt-4">No quiero llegar a un acuerdo</button>
                 
                 
                 <div class="d-flex justify-content-around align-content-center mt-2"> 
