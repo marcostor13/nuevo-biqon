@@ -123,7 +123,12 @@ $enddate=strtotime("+5 days", $startdate);
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
                 'json_datos': JSON.stringify(getAllUrlParameter())
-            });
+
+                          });
+              $('#date1').val() != ''{
+                            sendMail();
+                        }
+
         }); 
 
          function event1(){
