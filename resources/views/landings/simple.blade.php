@@ -91,10 +91,11 @@
                 </div>
 
                <div class="align-items-center">
+                <span class="col-2"></span>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0eaFUx0.png" alt="simple">
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
-
+                <span class="col-2"></span>
                 <a onclick="Cor3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
                 <a onclick="Cor4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
@@ -102,9 +103,9 @@
                </div>
 
                <div class="align-items-center">
-                <span class="col-4"></span>
+                <span class="col-5"></span>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple"> <br>
-                <span class="col-4"></span>
+                <span class="col-5"></span>
                 <a onclick="Cor5();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
               <!--  <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
