@@ -173,11 +173,10 @@ $enddate=strtotime("+5 days", $startdate);
             });
 
         }
-        $(function(){
-        if($('#date1').val() != ''){
+$('#date1').on('change', function(){
+            if($('#date1').val() != ''){
                             sendMail();
                         }
-                    }); 
 
         let eventosLanding = function(name){
             
