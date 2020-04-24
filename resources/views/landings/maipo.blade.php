@@ -80,7 +80,7 @@ $name = $_GET['NOMBRE'];
                 <h5 class="text-black text-center">Estimado (a) <strong><span><?php echo $name; ?></span></strong></h5>
 
                 <h5><p class="text-black">
-                  Te queremos informar que nos encontramos tramitando una demanda por una deuda con <strong> Ruta del Maipo Sociedad Concesionaria S.A </strong> <a href="https://www.rutamaipo.cl/taginterurbano/pagar-deuda">www.rutamaipo.cl</a> Entendiendo el momento que actualmente estamos viviendo queremos ofrecer las siguientes alternativas:
+                  Te queremos informar que nos encontramos tramitando una demanda por una deuda con <strong> Ruta del Maipo Sociedad Concesionaria S.A </strong> <a href="http://bit.ly/2kAAUJB">www.rutamaipo.cl</a> Entendiendo el momento que actualmente estamos viviendo queremos ofrecer las siguientes alternativas:
                 </p></h5>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
