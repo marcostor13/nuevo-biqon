@@ -56,7 +56,7 @@
             </div>
 
 
-            <div  id="cont5" class="p-2 pl-3 pr-3 hide">
+            <div  id="cont7" class="p-2 pl-3 pr-3 hide">
                 <div>
                 <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
                 <a onclick="Cor1();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
@@ -79,9 +79,13 @@
             <div  id="cont6" class="p-2 pl-3 pr-3 hide">
                 <div>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
-                <a onclick="Cor1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
+
+                <a onclick="Cor1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+
+                
                 <a onclick="Cor2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br>
                 </div>
@@ -330,7 +334,7 @@
  function activa(){
 
   $('#cont2').addClass('hide');
-  $('#cont5').removeClass('hide');
+  $('#cont7').removeClass('hide');
  }
 
   function activa1(){
