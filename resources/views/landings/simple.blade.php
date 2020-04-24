@@ -141,7 +141,7 @@
                                     <input type="text" name="telefono" />
 
                                 </div>
-                                 <button onclick='sendMail()' class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                                 <button  onclick="sendMail('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                                 </div>
                         </div>
             </div>
@@ -149,24 +149,51 @@
             <div id="port2" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                            </div>
+                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">  
+                                <div>
+                                    <label>RUT:</label>
+                                    <input type="text" name="rut" />
+                                    <br>
+                                    <label>TELEFONO:</label>
+                                    <input type="text" name="telefono" />
+
+                                </div>
+                                 <button  onclick="sendMail('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                                </div>
                         </div>
             </div>
 
             <div id="port3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                            </div>
+                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">  
+                                <div>
+                                    <label>RUT:</label>
+                                    <input type="text" name="rut" />
+                                    <br>
+                                    <label>TELEFONO:</label>
+                                    <input type="text" name="telefono" />
+
+                                </div>
+                                 <button  onclick="sendMail('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                                </div>
                         </div>
             </div>
 
             <div id="port4" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                            </div>
+                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">  
+                                <div>
+                                    <label>RUT:</label>
+                                    <input type="text" name="rut" />
+                                    <br>
+                                    <label>TELEFONO:</label>
+                                    <input type="text" name="telefono" />
+
+                                </div>
+                                 <button  onclick="sendMail('PORTABILIDAD PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                                </div>
                         </div>
             </div>
 
@@ -295,9 +322,9 @@
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#name').text(),
+                    //'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
-                   'rut': $('#rut').text(),
+                    'rut': $('#rut').text(),
                     'Telefono': $('#telefono').text(),
                     'landing': '{!! $landing->name !!}'
                    
