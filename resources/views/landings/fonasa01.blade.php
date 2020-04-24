@@ -125,11 +125,6 @@ $enddate=strtotime("+5 days", $startdate);
                 'json_datos': JSON.stringify(getAllUrlParameter())
 
                           });
-               $('#date1').on('change', function(){
-                        if($('#date1').val() != ''){
-                            sendMail();
-                        }
-
         }); 
 
          function event1(){
@@ -173,10 +168,12 @@ $enddate=strtotime("+5 days", $startdate);
             });
 
         }
-$('#date1').on('change', function(){
-            if($('#date1').val() != ''){
+
+        $('#date1').on('change', function(){
+                        if($('#date1').val() != ''){
                             sendMail();
                         }
+                    } 
 
         let eventosLanding = function(name){
             
