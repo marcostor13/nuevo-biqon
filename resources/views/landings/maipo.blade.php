@@ -51,45 +51,57 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
 </style>
-     <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >
+
+      <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-             <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/m4gyOpr.jpg" alt="HerediaAbogados">
+    <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/5qw8Kz1.png" alt="HerediaAbogados">
 
 
            <!-- <img style="max-width: 90%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">-->
 
-          
+             
+            
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error"class="text-white text-center mt-5"></h5>
+                                 <h5 id="error"class="text-black text-center mt-5"></h5>
+                                 <div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <a href="tel:+56226331354" class="btn bg-danger text-black col-12 mt-4"> Contactar</a>
+                     </div>
+
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5">
+
+            <div id="cont2" class="p-5 ">
                 <h3 class="text-white text-center">Estimado (a) <strong><span id="name"></span> </strong></h3>
 
                 <h4><p class="text-white">
-                   Le informamos que su deuda de <strong> RUTA DEL MAIPO </strong>se encuentra en cobranza judicial por concepto de no pago de peajes.
-                     <br>
-                    Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
+                  Le informamos que como estudio jurídico nos encontramos tramitando una demanda por cobro de peaje que se adeuda a <strong> Ruta del Maipo Sociedad Concesionaria S.A </strong> <a href=" https://www.rutamaipo.cl">www.rutamaipo.cl</a> Entendiendo el momento que actualmente estamos viviendo queremos ofrecer las siguientes alternativas:
                 </p></h4>
-                <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>Agendar compromiso de pago</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-                    <button onclick="sendMail('El cliente indica paga en cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-danger text-white col-12 mt-4">Pagar en cuotas, Contactar</button>
+                <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">Ya pague</button>
+                    <span>Compromiso de Pago</span>
+                    <input id="date1"  type="date"  style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" onclick="sendMail();"/>
+                </div>-->
+                <button onclick="sendMail('Solicito pagar en Cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-danger text-white col-12 mt-4">Pagar en Cuotas</button>
+
+                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-danger text-white col-12 mt-4">Deseo que me Contacten</button>
+
+                <button onclick="sendMail('No quiero llegar a un acuerdo de pago'); eventosLanding('Sin Acuerdo'); return false;" class="btn bg-danger text-white col-12 mt-4">No quiero llegar a un acuerdo</button>
                 
-                <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                
+                <div class="d-flex justify-content-around align-content-center mt-2"> 
+
                    
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56226331354"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta"><img width="42" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
-                    <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Ruta%20del%20Maipo"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56226331354"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                   
+                    <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Ruta%20del%20Maipo"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
+                
                 </div>
                 
             </div>
@@ -112,7 +124,8 @@ $enddate=strtotime("+5 days", $startdate);
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
                 'json_datos': JSON.stringify(getAllUrlParameter())
-            });
+
+                          });
         }); 
 
          function event1(){
@@ -148,7 +161,7 @@ $enddate=strtotime("+5 days", $startdate);
                 }else{
                     $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a alguna de nuestras sucursales.");
+                    $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí.");
                 }
             })
             .fail(function() {
@@ -156,14 +169,14 @@ $enddate=strtotime("+5 days", $startdate);
             });
 
         }
-        
+
 
         let eventosLanding = function(name){
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+            //json_datos.nombre = $('#name').text();
+           // json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -182,10 +195,11 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
+                    'Nombre': getUrlParameter('nombre'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                    'Monto': getUrlParameter('monto'),
+                    'Estado': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -193,16 +207,18 @@ $enddate=strtotime("+5 days", $startdate);
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'fecha': date,
-                    'nombre': $('#name').text(),
-                    'monto': getUrlParameter('monto'),
-                    'phone': getUrlParameter('telefono'),
-                     'rut': getUrlParameter('rut'),
+                    'Fecha Compromiso': date,
+                    'Nombre': getUrlParameter('nombre'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Monto': getUrlParameter('monto'),
+                    'Estado': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-             var correo = ["heredia.binteraction@gmail.com", "judicial@herediaabogados.cl "];
+           // var correo = ["heredia.binteraction@gmail.com", "judicial@herediaabogados.cl"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
