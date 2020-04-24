@@ -470,22 +470,34 @@
  function nuev2(){
 
   $('#cont6').addClass('hide');
+   $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
   $('#nuev2').removeClass('hide');
+   $('#nuev22').removeClass('hide');
  }
  function nuev3(){
 
   $('#cont6').addClass('hide');
+    $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
   $('#nuev3').removeClass('hide');
+   $('#nuev33').removeClass('hide');
  }
  function nuev4(){
 
   $('#cont6').addClass('hide');
+   $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
   $('#nuev4').removeClass('hide');
+   $('#nuev44').removeClass('hide');
  }
  function nuev5(){
 
   $('#cont6').addClass('hide');
+   $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
   $('#nuev5').removeClass('hide');
+   $('#nuev55').removeClass('hide');
  }
 
 
