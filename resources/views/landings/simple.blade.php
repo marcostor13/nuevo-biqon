@@ -224,7 +224,8 @@
                       <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
                       <label for="form2"></label>
                     </div>
-               
+                  </div> 
+                 <div class="md-form">
                     <spam>¿Cuantos CHIP's quieres?</spam>
                    <select class="form-control" id="valor" required>
                   <option value="1" data-select2-id="1">1</option>
@@ -233,8 +234,8 @@
                   <option value="4" data-select2-id="4">4</option>
                   <option value="5" data-select2-id="5">5</option>
                     </select>
-                     </div> 
-                <button  onclick="sendMail('NUEVA LINEA PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                                 <button  onclick="sendMail('NUEVA LINEA PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                                 </div>
                         </div>
             </div>
@@ -383,8 +384,8 @@
             
             let json_datos = getAllUrlParameter(); 
 
-            //json_datos.nombre = $('#name').text();
-            //json_datos.monto = $('#pay').text();
+            json_datos.nombre = $('#name').text();
+            json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -405,7 +406,6 @@
                     'mensaje': msg,
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
-                    'CHIPs': $('#valor').val(),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -416,7 +416,6 @@
                     'fecha': date,
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
-                    'CHIPs': $('#valor').val(),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
