@@ -359,6 +359,17 @@
                 if(msg !== false){
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
+                     $('#cont7').addClass('hide');
+                     $('#cont6').addClass('hide');
+                     $('#port4').addClass('hide');
+                        $('#port3').addClass('hide');
+                        $('#port2').addClass('hide');
+                        $('#port1').addClass('hide');
+                        $('#nuev5').addClass('hide');
+                        $('#nuev4').addClass('hide');
+                        $('#nuev3').addClass('hide');
+                        $('#nuev2').addClass('hide');
+                        $('#nuev1').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
