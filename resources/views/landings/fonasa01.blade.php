@@ -52,11 +52,11 @@ $enddate=strtotime("+5 days", $startdate);
     }
 </style>
 
-      <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >
+     <!-- <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >-->
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/m4gyOpr.jpg" alt="HerediaAbogados">
+    <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/5qw8Kz1.png" alt="HerediaAbogados">
 
 
            <!-- <img style="max-width: 90%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">-->
@@ -79,17 +79,15 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-white text-center">Estimado (a) <strong><span id="name"></span> </strong></h3>
 
                 <h4><p class="text-white">
-                   Le informamos que su deuda de <strong> FONASA </strong> se encuentra en cobranza judicial por concepto de no pago de cotizaciones de salud.
-                     <br>
-                    Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
+                  Le informamos que como estudio jurídico nos encontramos tramitando una demanda por cobro de peaje que se adeuda a <strong> FONDO NACIONAL DE SALUD </strong> <a href="https://www.fonasa.cl/sites/fonasa/inicio">www.fonasa.cl</a> Entendiendo el momento que actualmente estamos viviendo queremos ofrecer las siguientes alternativas:
                 </p></h4>
                 <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>Agendar compromiso de pago</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                    <button onclick="sendMail('El cliente indica paga en cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-danger text-white col-12 mt-4">Pagar en cuotas, Contactar</button>
+                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-danger text-white col-12 mt-4">Deseo que me Contacten</button>
 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">Ya pague</button>
+                <button onclick="sendMail('No quiero llegar a un acuerdo de pago'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">No quiero llegar a un acuerdo</button>
                 
                 
                 <div class="d-flex justify-content-around align-content-center mt-2"> 
