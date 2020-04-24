@@ -233,7 +233,7 @@
             <div id="nuev2" class="p-2 pl-3 pr-3 hide">
             <div class="card">     
                             <div class="card-body">
-                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">  
+                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">  
                                <div class="d-flex justify-content-between">
 
                     <div class="md-form col-6  m-0">
