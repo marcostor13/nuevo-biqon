@@ -218,7 +218,7 @@ $name = $_GET['NOMBRE'];
                 } 
             }
 
-           var correo = ["heredia.binteraction@gmail.com", "judicial@herediaabogados.cl"];
+           var correo = ["judicial@herediaabogados.cl"];
            // var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
