@@ -62,9 +62,9 @@
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
 
-                <a onclick="port(1);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-                <a onclick="port(2);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br>
                 </div>
 
@@ -73,9 +73,9 @@
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
 
-                <a onclick="port(3);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="port3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-                <a onclick="port(4);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="port4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br>
                </div>
             </div>
@@ -87,10 +87,10 @@
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
 
-                <a onclick="nuev(1);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="nuev1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
 
-                <a onclick="nuev(2);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="nuev2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br>
                 </div>
 
@@ -100,9 +100,9 @@
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
                 <span class="col-2"></span>
-                <a onclick="nuev(3);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="nuev3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-                <a onclick="nuev(4);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="nuev4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br>
                </div>
 
@@ -110,7 +110,7 @@
                 <span class="col-5"></span>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple"> <br>
                 <span class="col-5"></span>
-                <a onclick="nuev(5);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="nuev5();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
               <!--  <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
                 <a onclick="Cor6();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>-->
@@ -128,6 +128,92 @@
 
 
             </div>
+<!-- PORTABILIDAD-->
+            <div id="port1" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">  
+                                <div>
+                                    <label>RUT:</label>
+                                    <input type="text" name="rut" />
+
+                                    <label>TELEFONO:</label>
+                                    <input type="text" name="telefono" />
+
+                                </div>
+                                 <button onclick='sendMail()' class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                                </div>
+                        </div>
+            </div>
+
+            <div id="port2" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
+            </div>
+
+            <div id="port3" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
+            </div>
+
+            <div id="port4" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
+            </div>
+
+            <!-- NUEVA LINEA -->
+            <div id="nuev1" class="p-2 pl-3 pr-3 hide">
+            <div class="card">     
+                <div class="card-body">
+                    <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                </div>
+            </div>
+            </div>
+
+            <div id="nuev2" class="p-2 pl-3 pr-3 hide">
+            <div class="card">     
+                <div class="card-body">
+                    <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                </div>
+            </div>
+            </div>
+            
+
+            <div id="nuev3" class="p-2 pl-3 pr-3 hide">
+            <div class="card">     
+                <div class="card-body">
+                    <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                </div>
+            </div>
+            </div>
+            
+
+            <div id="nuev4" class="p-2 pl-3 pr-3 hide">
+            <div class="card">     
+                <div class="card-body">
+                    <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                </div>
+            </div>
+            </div>
+            
+
+            <div id="nuev5" class="p-2 pl-3 pr-3 hide">
+            <div class="card">     
+                <div class="card-body">
+                    <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                </div>
+            </div>
+            </div>
+
 
         </div>
     </div>
@@ -211,8 +297,9 @@
                     'mensaje': msg,
                     'Nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
+                   'rut': $('#rut').text(),
+                    'Telefono': $('#telefono').text(),
+                    'landing': '{!! $landing->name !!}'
                    
                     
                 }
@@ -222,8 +309,8 @@
                     'fecha': date,
                     'nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
-                    'rut': getUrlParameter('rut'),
-                    'phone': getUrlParameter('telefono'),
+                    'rut': $('#rut').text(),
+                    'Telefono': $('#telefono').text(),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
@@ -351,95 +438,57 @@
   $('#cont2').addClass('hide');
   $('#cont6').removeClass('hide');
  }
+//portabilidad 4 planes
+ function port1(){
+
+  $('#cont6').addClass('hide');
+  $('#port1').removeClass('hide');
+ }
+ function port2(){
+
+  $('#cont6').addClass('hide');
+  $('#port2').removeClass('hide');
+ }
+  function port3(){
+
+  $('#cont6').addClass('hide');
+  $('#port3').removeClass('hide');
+ }
+ function port4(){
+
+  $('#cont6').addClass('hide');
+  $('#port4').removeClass('hide');
+ }
+//linea nueva 5 planes
+ function nuev1(){
+
+  $('#cont6').addClass('hide');
+  $('#nuev1').removeClass('hide');
+ }
+ function nuev2(){
+
+  $('#cont6').addClass('hide');
+  $('#nuev2').removeClass('hide');
+ }
+ function nuev3(){
+
+  $('#cont6').addClass('hide');
+  $('#nuev3').removeClass('hide');
+ }
+ function nuev4(){
+
+  $('#cont6').addClass('hide');
+  $('#nuev4').removeClass('hide');
+ }
+ function nuev5(){
+
+  $('#cont6').addClass('hide');
+  $('#nuev5').removeClass('hide');
+ }
 
 
-    function nuev(card) {
 
- switch(card) {
- case 1:
-          $('#cont2').addClass('hide');
-          $('#calend').removeClass('hide');
-    break;
 
- case 2:
-          $('#cont2').addClass('hide');
-           $('#name').text(geturlParameter('nombre'));
-          $('#llamen').removeClass('hide');
-    break;
-
- case 3:
-          $('#cont2').addClass('hide');
-          $('#cont3').removeClass('hide'); 
-    break;
- case 4:
-          $('#cont2').addClass('hide');
-          $('#cont4').removeClass('hide'); 
-    break;
-    case 5:
-          $('#cont1').addClass('hide');
-          $('#name').text(geturlParameter('nombre'));
-          $('#usrbad').removeClass('hide'); 
-    break;
-     case 6:
-          $('#usrbad').addClass('hide');
-          $('#name').text(geturlParameter('nombre'));
-          $('#equiv1').removeClass('hide'); 
-    break;
-     case 7:
-          $('#equiv1').addClass('hide');
-           $('#equiv10').addClass('hide');
-          $('#name').text(geturlParameter('nombre'));
-          $('#equiv2').removeClass('hide'); 
-    break;
-default:
-          alert("OPCION INVALIDA.")
-        }
-
-   }
-
-   function port(dad) {
-
- switch(dad) {
- case 1:
-          $('#cont2').addClass('hide');
-          $('#calend').removeClass('hide');
-    break;
-
- case 2:
-          $('#cont2').addClass('hide');
-           $('#name').text(geturlParameter('nombre'));
-          $('#llamen').removeClass('hide');
-    break;
-
- case 3:
-          $('#cont2').addClass('hide');
-          $('#cont3').removeClass('hide'); 
-    break;
- case 4:
-          $('#cont2').addClass('hide');
-          $('#cont4').removeClass('hide'); 
-    break;
-    case 5:
-          $('#cont1').addClass('hide');
-          $('#name').text(geturlParameter('nombre'));
-          $('#usrbad').removeClass('hide'); 
-    break;
-     case 6:
-          $('#usrbad').addClass('hide');
-          $('#name').text(geturlParameter('nombre'));
-          $('#equiv1').removeClass('hide'); 
-    break;
-     case 7:
-          $('#equiv1').addClass('hide');
-           $('#equiv10').addClass('hide');
-          $('#name').text(geturlParameter('nombre'));
-          $('#equiv2').removeClass('hide'); 
-    break;
-default:
-          alert("OPCION INVALIDA.")
-        }
-
-   }
     </script>
     
 
