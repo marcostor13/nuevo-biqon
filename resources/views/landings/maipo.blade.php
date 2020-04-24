@@ -89,9 +89,9 @@ $name = $_GET['NOMBRE'];
                 </div>-->
                 <button onclick="sendMail('Solicito pagar en Cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar en Cuotas</button>
 
-                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-danger text-white col-12 mt-4">Deseo que me Contacten</button>
+                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-dark text-white col-12 mt-4">Deseo que me Contacten</button>
 
-                <button onclick="sendMail('No quiero llegar a un acuerdo de pago'); eventosLanding('Sin Acuerdo'); return false;" class="btn bg-danger text-white col-12 mt-4">No quiero llegar a un acuerdo</button>
+                <button onclick="sendMail('No quiero llegar a un acuerdo de pago'); eventosLanding('Sin Acuerdo'); return false;" class="btn bg-dark text-white col-12 mt-4">No quiero llegar a un acuerdo</button>
                 
                 
                 <div class="d-flex justify-content-around align-content-center mt-2"> 
