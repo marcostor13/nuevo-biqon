@@ -6,6 +6,7 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
+$name = $_GET['NOMBRE'];
 ?>
 <style>
 .opaco{
@@ -52,11 +53,11 @@ $enddate=strtotime("+5 days", $startdate);
     }
 </style>
 
-      <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >
+     <!-- <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >-->
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-    <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/5qw8Kz1.png" alt="HerediaAbogados">
+   <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/5qw8Kz1.png" alt="HerediaAbogados">
 
 
            <!-- <img style="max-width: 90%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">-->
@@ -76,10 +77,10 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
 
             <div id="cont2" class="p-5 ">
-                <h3 class="text-white text-center">Estimado (a) <strong><span id="name"></span> </strong></h3>
+                <h3 class="text-black text-center">Estimado (a) <strong><span><?php echo $name; ?></span> </strong></h3>
 
-                <h4><p class="text-white">
-                  Le informamos que como estudio jurídico nos encontramos tramitando una demanda por cobro de peaje que se adeuda a <strong> FONDO NACIONAL DE SALUD </strong> <a href="https://www.fonasa.cl/sites/fonasa/inicio">www.fonasa.cl</a> Entendiendo el momento que actualmente estamos viviendo queremos ofrecer las siguientes alternativas:
+                <h4><p class="text-black">
+                   Te queremos informar que nos encontramos tramitando una demanda por una deuda con <strong> FONDO NACIONAL DE SALUD </strong> <a href="https://www.fonasa.cl/sites/fonasa/inicio">www.fonasa.cl</a> Entendiendo el momento que actualmente estamos viviendo queremos ofrecer las siguientes alternativas:
                 </p></h4>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
