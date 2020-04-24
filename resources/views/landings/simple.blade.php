@@ -77,7 +77,7 @@
             </div>
 
             <div  id="cont6" class="p-2 pl-3 pr-3 hide">
-                <div>
+                <div class="align-items-center">
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
                 
 
@@ -90,7 +90,7 @@
                 <br>
                 </div>
 
-                <div>
+               <div class="align-items-center">
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
@@ -101,7 +101,7 @@
                 <br>
                </div>
 
-               <div>
+               <div class="align-items-center">
                 <span class="col-3"></span>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple"> <br>
                 <span class="col-3"></span>
