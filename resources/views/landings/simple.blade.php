@@ -323,6 +323,7 @@
                         $('#nuev3').addClass('hide');
                         $('#nuev2').addClass('hide');
                         $('#nuev1').addClass('hide');
+                        $('#form').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
