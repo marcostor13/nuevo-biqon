@@ -87,7 +87,7 @@ $name = $_GET['NOMBRE'];
                     <span>Compromiso de Pago</span>
                     <input id="date1"  type="date"  style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" onclick="sendMail();"/>
                 </div>-->
-                <button onclick="sendMail('Solicito pagar en Cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-danger text-white col-12 mt-4">Pagar en Cuotas</button>
+                <button onclick="sendMail('Solicito pagar en Cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-black text-white col-12 mt-4">Pagar en Cuotas</button>
 
                     <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-danger text-white col-12 mt-4">Deseo que me Contacten</button>
 
