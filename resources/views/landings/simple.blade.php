@@ -102,8 +102,10 @@
                </div>
 
                <div>
-                <img class="img-fluid col-6 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">
-                <a onclick="Cor5();" class="btn bg-danger text-white col-6 mt-2">Comprar</a>
+                <span class="col-3"></span>
+                <img class="img-fluid col- col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple"> <br>
+                <span class="col-3"></span>
+                <a onclick="Cor5();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
               <!--  <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
                 <a onclick="Cor6();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>-->
