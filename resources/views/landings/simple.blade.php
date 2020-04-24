@@ -440,23 +440,32 @@
  function port2(){
 
   $('#cont7').addClass('hide');
+   $('#form').removeClass('hide');
   $('#port2').removeClass('hide');
+  $('#port22').removeClass('hide');
  }
   function port3(){
 
   $('#cont7').addClass('hide');
+  $('#form').removeClass('hide');
   $('#port3').removeClass('hide');
+  $('#port33').removeClass('hide');
  }
  function port4(){
 
   $('#cont7').addClass('hide');
+  $('#form').removeClass('hide');
   $('#port4').removeClass('hide');
+  $('#port44').removeClass('hide');
  }
 //linea nueva 5 planes
  function nuev1(){
 
   $('#cont6').addClass('hide');
+    $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
   $('#nuev1').removeClass('hide');
+   $('#nuev11').removeClass('hide');
  }
  function nuev2(){
 
