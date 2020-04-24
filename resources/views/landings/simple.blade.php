@@ -78,22 +78,42 @@
 
             <div  id="cont6" class="p-2 pl-3 pr-3">
                 <div>
-                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
-                <a onclick="Cor1();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
+                <img class="img-fluid col-3 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
+                <a onclick="Cor1();" class="btn bg-danger text-white col-3 mt-2">Comprar</a>
 
-                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
-                <a onclick="Cor2();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
+                <img class="img-fluid col-3 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
+                <a onclick="Cor2();" class="btn bg-danger text-white col-3 mt-2">Comprar</a>
                 <br>
                 </div>
 
                 <div>
-                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">
-                <a onclick="Cor3();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
+                <img class="img-fluid col-3 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">
+                <a onclick="Cor3();" class="btn bg-danger text-white col-3 mt-2">Comprar</a>
 
-                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
-                <a onclick="Cor4();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>
+                <img class="img-fluid col-3 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+                <a onclick="Cor4();" class="btn bg-danger text-white col-3 mt-2">Comprar</a>
                 <br>
                </div>
+
+               <div>
+                <img class="img-fluid col-3 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">
+                <a onclick="Cor5();" class="btn bg-danger text-white col-3 mt-2">Comprar</a>
+
+              <!--  <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+                <a onclick="Cor6();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>-->
+
+                <select class="form-control" id="Valor" required>
+                  <option value="1" data-select2-id="1">1</option>
+                  <option value="2" data-select2-id="2">2</option>
+                  <option value="3" data-select2-id="3">3</option>
+                  <option value="4" data-select2-id="4">4</option>
+                  <option value="5" data-select2-id="5">5</option>
+
+                    </select>
+                <br>
+               </div>
+
+
             </div>
 
         </div>
