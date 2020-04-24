@@ -136,7 +136,7 @@
                                 <div>
                                     <label>RUT:</label>
                                     <input type="text" name="rut" />
-
+                                    <br>
                                     <label>TELEFONO:</label>
                                     <input type="text" name="telefono" />
 
@@ -315,11 +315,11 @@
                 } 
             }
 
-           var correo = ["inttegrados@gmail.com","jesus.binteraction@gmail.com"];
+           var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email': '{!! $landing->email !!}' "alsanchez@prainabogados.cl"
+                //'email': '{!! $landing->email !!}' "inttegrados@gmail.com",
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -441,22 +441,22 @@
 //portabilidad 4 planes
  function port1(){
 
-  $('#cont6').addClass('hide');
+  $('#cont7').addClass('hide');
   $('#port1').removeClass('hide');
  }
  function port2(){
 
-  $('#cont6').addClass('hide');
+  $('#cont7').addClass('hide');
   $('#port2').removeClass('hide');
  }
   function port3(){
 
-  $('#cont6').addClass('hide');
+  $('#cont7').addClass('hide');
   $('#port3').removeClass('hide');
  }
  function port4(){
 
-  $('#cont6').addClass('hide');
+  $('#cont7').addClass('hide');
   $('#port4').removeClass('hide');
  }
 //linea nueva 5 planes
