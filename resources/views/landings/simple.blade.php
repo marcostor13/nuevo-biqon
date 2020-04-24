@@ -133,14 +133,17 @@
                         <div class="card">     
                             <div class="card-body">
                                  <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">  
-                                <div>
-                                    <label>RUT:</label>
-                                    <input type="text" name="rut" />
-                                    <br>
-                                    <label>TELEFONO:</label>
-                                    <input type="text" name="telefono" />
+                               <div class="d-flex justify-content-between">
 
-                                </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <label for="form2"></label>
+                    </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
+                      <label for="form2"></label>
+                    </div>
+                  </div> 
                                  <button  onclick="sendMail('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                                 </div>
                         </div>
@@ -150,14 +153,17 @@
                         <div class="card">     
                             <div class="card-body">
                                  <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">  
-                                <div>
-                                    <label>RUT:</label>
-                                    <input type="text" name="rut" />
-                                    <br>
-                                    <label>TELEFONO:</label>
-                                    <input type="text" name="telefono" />
+                                <div class="d-flex justify-content-between">
 
-                                </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <label for="form2"></label>
+                    </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
+                      <label for="form2"></label>
+                    </div>
+                  </div> 
                                  <button  onclick="sendMail('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                                 </div>
                         </div>
@@ -167,14 +173,17 @@
                         <div class="card">     
                             <div class="card-body">
                                  <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">  
-                                <div>
-                                    <label>RUT:</label>
-                                    <input type="text" name="rut" />
-                                    <br>
-                                    <label>TELEFONO:</label>
-                                    <input type="text" name="telefono" />
+                                <div class="d-flex justify-content-between">
 
-                                </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <label for="form2"></label>
+                    </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
+                      <label for="form2"></label>
+                    </div>
+                  </div> 
                                  <button  onclick="sendMail('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                                 </div>
                         </div>
@@ -184,14 +193,17 @@
                         <div class="card">     
                             <div class="card-body">
                                  <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">  
-                                <div>
-                                    <label>RUT:</label>
-                                    <input type="text" name="rut" />
-                                    <br>
-                                    <label>TELEFONO:</label>
-                                    <input type="text" name="telefono" />
+                                <div class="d-flex justify-content-between">
 
-                                </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <label for="form2"></label>
+                    </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
+                      <label for="form2"></label>
+                    </div>
+                  </div> 
                                  <button  onclick="sendMail('PORTABILIDAD PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                                 </div>
                         </div>
