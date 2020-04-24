@@ -60,7 +60,7 @@ $name = $_GET['NOMBRE'];
    <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/5qw8Kz1.png" alt="HerediaAbogados">
 
 
-           <img style="max-width: 90%" class="img-fluid col-md-6 mt-1" src="{{$landing->logo}}" alt="">
+           <img style="max-width: 50%" class="img-fluid col-md-6 mt-1" src="{{$landing->logo}}" alt="">
 
              
             
