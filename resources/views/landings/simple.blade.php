@@ -212,45 +212,105 @@
             <!-- NUEVA LINEA -->
             <div id="nuev1" class="p-2 pl-3 pr-3 hide">
             <div class="card">     
-                <div class="card-body">
-                    <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                </div>
-            </div>
+                            <div class="card-body">
+                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">  
+                               <div class="d-flex justify-content-between">
+
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <label for="form2"></label>
+                    </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
+                      <label for="form2"></label>
+                    </div>
+                  </div> 
+                                 <button  onclick="sendMail('NUEVA LINEA PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                                </div>
+                        </div>
             </div>
 
             <div id="nuev2" class="p-2 pl-3 pr-3 hide">
             <div class="card">     
-                <div class="card-body">
-                    <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                </div>
-            </div>
+                            <div class="card-body">
+                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">  
+                               <div class="d-flex justify-content-between">
+
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <label for="form2"></label>
+                    </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
+                      <label for="form2"></label>
+                    </div>
+                  </div> 
+                                 <button  onclick="sendMail('NUEVA LINEA PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                                </div>
+                        </div>
             </div>
             
 
             <div id="nuev3" class="p-2 pl-3 pr-3 hide">
             <div class="card">     
-                <div class="card-body">
-                    <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                </div>
-            </div>
+                            <div class="card-body">
+                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0eaFUx0.png" alt="simple">  
+                               <div class="d-flex justify-content-between">
+
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <label for="form2"></label>
+                    </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
+                      <label for="form2"></label>
+                    </div>
+                  </div> 
+                                 <button  onclick="sendMail('NUEVA LINEA PLAN 3);" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                                </div>
+                        </div>
             </div>
             
 
             <div id="nuev4" class="p-2 pl-3 pr-3 hide">
             <div class="card">     
-                <div class="card-body">
-                    <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                </div>
-            </div>
+                            <div class="card-body">
+                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">  
+                               <div class="d-flex justify-content-between">
+
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <label for="form2"></label>
+                    </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
+                      <label for="form2"></label>
+                    </div>
+                  </div> 
+                                 <button  onclick="sendMail('NUEVA LINEA PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                                </div>
+                        </div>
             </div>
             
 
             <div id="nuev5" class="p-2 pl-3 pr-3 hide">
-            <div class="card">     
-                <div class="card-body">
-                    <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                </div>
-            </div>
+           <div class="card">     
+                            <div class="card-body">
+                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple">  
+                               <div class="d-flex justify-content-between">
+
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <label for="form2"></label>
+                    </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
+                      <label for="form2"></label>
+                    </div>
+                  </div> 
+                                 <button  onclick="sendMail('NUEVA LINEA PLAN 5');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                                </div>
+                        </div>
             </div>
 
 
