@@ -125,7 +125,8 @@ $enddate=strtotime("+5 days", $startdate);
                 'json_datos': JSON.stringify(getAllUrlParameter())
 
                           });
-              $('#date1').val() != ''{
+               $('#date1').on('change', function(){
+                        if($('#date1').val() != ''){
                             sendMail();
                         }
 
