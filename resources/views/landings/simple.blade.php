@@ -62,20 +62,20 @@
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
 
-                <a onclick="Cor1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="port(1);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-                <a onclick="Cor2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="port(2);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br>
                 </div>
 
                 <div>
-                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">            
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">            
 
-                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
 
-                <a onclick="Cor3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="port(3);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-                <a onclick="Cor4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="port(4);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br>
                </div>
             </div>
@@ -87,10 +87,10 @@
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
 
-                <a onclick="Cor1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="nuev(1);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
 
-                <a onclick="Cor2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="nuev(2);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br>
                 </div>
 
@@ -100,9 +100,9 @@
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
                 <span class="col-2"></span>
-                <a onclick="Cor3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="nuev(3);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-                <a onclick="Cor4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="nuev(4);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br>
                </div>
 
@@ -110,7 +110,7 @@
                 <span class="col-5"></span>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple"> <br>
                 <span class="col-5"></span>
-                <a onclick="Cor5();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="nuev(5);" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
               <!--  <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
                 <a onclick="Cor6();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>-->
@@ -351,7 +351,95 @@
   $('#cont2').addClass('hide');
   $('#cont6').removeClass('hide');
  }
-    
+
+ 
+    function nuev(idButton) {
+
+ switch(idButton) {
+ case 1:
+          $('#cont2').addClass('hide');
+          $('#calend').removeClass('hide');
+    break;
+
+ case 2:
+          $('#cont2').addClass('hide');
+           $('#name').text(geturlParameter('nombre'));
+          $('#llamen').removeClass('hide');
+    break;
+
+ case 3:
+          $('#cont2').addClass('hide');
+          $('#cont3').removeClass('hide'); 
+    break;
+ case 4:
+          $('#cont2').addClass('hide');
+          $('#cont4').removeClass('hide'); 
+    break;
+    case 5:
+          $('#cont1').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
+          $('#usrbad').removeClass('hide'); 
+    break;
+     case 6:
+          $('#usrbad').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
+          $('#equiv1').removeClass('hide'); 
+    break;
+     case 7:
+          $('#equiv1').addClass('hide');
+           $('#equiv10').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
+          $('#equiv2').removeClass('hide'); 
+    break;
+default:
+          alert("OPCION INVALIDA.")
+        }
+
+   }
+
+   function port(idButton) {
+
+ switch(idButton) {
+ case 1:
+          $('#cont2').addClass('hide');
+          $('#calend').removeClass('hide');
+    break;
+
+ case 2:
+          $('#cont2').addClass('hide');
+           $('#name').text(geturlParameter('nombre'));
+          $('#llamen').removeClass('hide');
+    break;
+
+ case 3:
+          $('#cont2').addClass('hide');
+          $('#cont3').removeClass('hide'); 
+    break;
+ case 4:
+          $('#cont2').addClass('hide');
+          $('#cont4').removeClass('hide'); 
+    break;
+    case 5:
+          $('#cont1').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
+          $('#usrbad').removeClass('hide'); 
+    break;
+     case 6:
+          $('#usrbad').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
+          $('#equiv1').removeClass('hide'); 
+    break;
+     case 7:
+          $('#equiv1').addClass('hide');
+           $('#equiv10').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
+          $('#equiv2').removeClass('hide'); 
+    break;
+default:
+          alert("OPCION INVALIDA.")
+        }
+
+   }
     </script>
     
 
