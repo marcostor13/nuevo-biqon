@@ -334,10 +334,8 @@
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    //'Nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
-                    'rut': $('#rut').text(),
-                    'Telefono': $('#telefono').text(),
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -346,10 +344,8 @@
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
-                    'rut': $('#rut').text(),
-                    'Telefono': $('#telefono').text(),
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
