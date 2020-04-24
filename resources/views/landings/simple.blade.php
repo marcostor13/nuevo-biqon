@@ -352,10 +352,10 @@
   $('#cont6').removeClass('hide');
  }
 
- 
-    function nuev(idButton) {
 
- switch(idButton) {
+    function nuev(card) {
+
+ switch(card) {
  case 1:
           $('#cont2').addClass('hide');
           $('#calend').removeClass('hide');
@@ -397,9 +397,9 @@ default:
 
    }
 
-   function port(idButton) {
+   function port(dad) {
 
- switch(idButton) {
+ switch(dad) {
  case 1:
           $('#cont2').addClass('hide');
           $('#calend').removeClass('hide');
