@@ -103,7 +103,7 @@
 
                <div>
                 <span class="col-3"></span>
-                <img class="img-fluid col- col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple"> <br>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple"> <br>
                 <span class="col-3"></span>
                 <a onclick="Cor5();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
