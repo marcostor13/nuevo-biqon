@@ -154,7 +154,7 @@
                     </div>
                   </div> 
                   <div id="nuevo" class="md-form hide">
-                      <select class="form-control" id="Valor" required>
+                      <select class="form-control" id="valor" required>
                   <option value="1" data-select2-id="1">1</option>
                   <option value="2" data-select2-id="2">2</option>
                   <option value="3" data-select2-id="3">3</option>
@@ -279,7 +279,7 @@
                     'mensaje': msg,
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
-                    'Chips': $('#nuevo').val(),
+                    'Chips': $('#valor').val(),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -290,7 +290,7 @@
                     'fecha': date,
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
-                    'Chips': $('#nuevo').val(),
+                    'Chips': $('#valor').val(),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
