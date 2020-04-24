@@ -3,22 +3,15 @@
 @section('title', 'Simple')
 
 @section('content')
- <?php
-//$startdate=strtotime("Today");
-//$enddate=strtotime("+7 days", $startdate);
-?>
-   <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
-        <div class="opaco"></div>
+
+
+   <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
 
-            <!--<div id="cont1" class="p-5 ">
-                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-white">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
-            </div>-->
+
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -112,28 +105,44 @@
                 <span class="col-5"></span>
                 <a onclick="nuev5();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-              <!--  <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
-                <a onclick="Cor6();" class="btn bg-danger text-white col-12 mt-2">Comprar</a>-->
-
-                <!--<select class="form-control" id="Valor" required>
-                  <option value="1" data-select2-id="1">1</option>
-                  <option value="2" data-select2-id="2">2</option>
-                  <option value="3" data-select2-id="3">3</option>
-                  <option value="4" data-select2-id="4">4</option>
-                  <option value="5" data-select2-id="5">5</option>
-
-                    </select>-->
                 <br>
                </div>
 
 
             </div>
 <!-- PORTABILIDAD-->
-            <div id="port1" class="p-2 pl-3 pr-3 hide">
+            <div id="form" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">  
-                               <div class="d-flex justify-content-between">
+                        <div id="port1" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
+                        </div> 
+                        <div id="port2" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
+                        </div>
+                        <div id="port3" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple"> 
+                        </div>
+                        <div id="port4" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+                        </div>
+
+                        <div id="nuev1" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">
+                        </div>
+                        <div id="nuev2" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
+                        </div>
+                        <div id="nuev3" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0eaFUx0.png" alt="simple">
+                        </div>
+                        <div id="nuev4" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
+                        </div>
+                        <div id="nuev5" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple">
+                        </div>
+                    <div class="d-flex justify-content-between">
 
                     <div class="md-form col-6  m-0">
                       <input type="text" id="rut" class="form-control" required placeholder="RUT">
@@ -144,179 +153,52 @@
                       <label for="form2"></label>
                     </div>
                   </div> 
-                                 <button  onclick="sendMail('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                                </div>
-                        </div>
+                  <div id="nuevo" class="md-form hide">
+                      <select class="form-control" id="Valor" required>
+                  <option value="1" data-select2-id="1">1</option>
+                  <option value="2" data-select2-id="2">2</option>
+                  <option value="3" data-select2-id="3">3</option>
+                  <option value="4" data-select2-id="4">4</option>
+                  <option value="5" data-select2-id="5">5</option>
+
+                    </select>
+                  </div>
+                   <div id="port11" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="send('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="port22" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="send('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="port33" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="send('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="port44" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="send('PORTABILIDAD PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+
+                    <div id="nuev11" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="send('LINEA NUEVA PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="nuev22" class="p-2 pl-3 pr-3 hide">
+                     <button  onclick="send('LINEA NUEVA PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="nuev33" class="p-2 pl-3 pr-3 hide">
+                     <button  onclick="send('LINEA NUEVA PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="nuev44" class="p-2 pl-3 pr-3 hide">
+                     <button  onclick="send('LINEA NUEVA PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="nuev55" class="p-2 pl-3 pr-3 hide">
+                     <button  onclick="send('LINEA NUEVA PLAN 5');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                
             </div>
 
-            <div id="port2" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">  
-                                <div class="d-flex justify-content-between">
-
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
-                      <label for="form2"></label>
-                    </div>
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
-                      <label for="form2"></label>
-                    </div>
-                  </div> 
-                                 <button  onclick="sendMail('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                                </div>
-                        </div>
-            </div>
-
-            <div id="port3" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">  
-                                <div class="d-flex justify-content-between">
-
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
-                      <label for="form2"></label>
-                    </div>
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
-                      <label for="form2"></label>
-                    </div>
-                  </div> 
-                                 <button  onclick="sendMail('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                                </div>
-                        </div>
-            </div>
-
-            <div id="port4" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">  
-                                <div class="d-flex justify-content-between">
-
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
-                      <label for="form2"></label>
-                    </div>
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
-                      <label for="form2"></label>
-                    </div>
-                  </div> 
-                                 <button  onclick="sendMail('PORTABILIDAD PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                                </div>
-                        </div>
-            </div>
-
-            <!-- NUEVA LINEA -->
-            <div id="nuev1" class="p-2 pl-3 pr-3 hide">
-            <div class="card">     
-                            <div class="card-body">
-                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">  
-                               <div class="d-flex justify-content-between">
-
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
-                      <label for="form2"></label>
-                    </div>
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
-                      <label for="form2"></label>
-                    </div>
-                  </div> 
-                  
-                                 <button  onclick="sendMail('NUEVA LINEA PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                                </div>
-                        </div>
-            </div>
-
-            <div id="nuev2" class="p-2 pl-3 pr-3 hide">
-            <div class="card">     
-                            <div class="card-body">
-                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">  
-                               <div class="d-flex justify-content-between">
-
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
-                      <label for="form2"></label>
-                    </div>
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
-                      <label for="form2"></label>
-                    </div>
-                  </div> 
-                                 <button  onclick="sendMail('NUEVA LINEA PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                                </div>
-                        </div>
-            </div>
-            
-
-            <div id="nuev3" class="p-2 pl-3 pr-3 hide">
-            <div class="card">     
-                            <div class="card-body">
-                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0eaFUx0.png" alt="simple">  
-                               <div class="d-flex justify-content-between">
-
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
-                      <label for="form2"></label>
-                    </div>
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
-                      <label for="form2"></label>
-                    </div>
-                  </div> 
-                                 <button  onclick="sendMail('NUEVA LINEA PLAN 3);" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                                </div>
-                        </div>
-            </div>
-            
-
-            <div id="nuev4" class="p-2 pl-3 pr-3 hide">
-            <div class="card">     
-                            <div class="card-body">
-                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">  
-                               <div class="d-flex justify-content-between">
-
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
-                      <label for="form2"></label>
-                    </div>
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
-                      <label for="form2"></label>
-                    </div>
-                  </div> 
-                                 <button  onclick="sendMail('NUEVA LINEA PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                                </div>
-                        </div>
-            </div>
-            
-
-            <div id="nuev5" class="p-2 pl-3 pr-3 hide">
-           <div class="card">     
-                            <div class="card-body">
-                                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple">  
-                               <div class="d-flex justify-content-between">
-
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
-                      <label for="form2"></label>
-                    </div>
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
-                      <label for="form2"></label>
-                    </div>
-                  </div> 
-                                 <button  onclick="sendMail('NUEVA LINEA PLAN 5');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                                </div>
-                        </div>
-            </div>
 
 
         </div>
     </div>
+</div>
 
     <script>
 
@@ -375,8 +257,8 @@
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+            //json_datos.nombre = $('#name').text();
+           // json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -397,6 +279,7 @@
                     'mensaje': msg,
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
+                    'Chips': $('#nuevo').val(),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -407,6 +290,7 @@
                     'fecha': date,
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
+                    'Chips': $('#nuevo').val(),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
@@ -549,7 +433,9 @@
  function port1(){
 
   $('#cont7').addClass('hide');
+  $('#form').removeClass('hide');
   $('#port1').removeClass('hide');
+  $('#port11').removeClass('hide');
  }
  function port2(){
 
