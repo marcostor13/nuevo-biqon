@@ -77,11 +77,11 @@ $name = $_GET['NOMBRE'];
                     </div>
 
             <div id="cont2" class="p-5 ">
-                <h3 class="text-black text-center">Estimado (a) <strong><span><?php echo $name; ?></span> </strong></h3>
+                <h5 class="text-black text-center">Estimado (a) <strong><span><?php echo $name; ?></span> </strong></h5>
 
-                <h4><p class="text-black">
-                   Te queremos informar que nos encontramos tramitando una demanda por una deuda con <strong> FONDO NACIONAL DE SALUD </strong> <a href="https://www.fonasa.cl/sites/fonasa/inicio">www.fonasa.cl</a> Entendiendo el momento que actualmente estamos viviendo queremos ofrecer las siguientes alternativas:
-                </p></h4>
+                <h5><p class="text-black">
+                   Te queremos informar que nos encontramos tramitando una demanda por una deuda con <strong> FONDO NACIONAL DE SALUD </strong> <a href="https://www.fonasa.cl/sites/fonasa/inicio">www.fonasa.cl.</a> Entendiendo el momento que actualmente estamos viviendo queremos ofrecer las siguientes alternativas:
+                </p></h5>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
                     <span>Compromiso de Pago</span>
