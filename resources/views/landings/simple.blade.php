@@ -78,10 +78,10 @@
 
             <div  id="cont6" class="p-2 pl-3 pr-3 hide">
                 <div class="align-items-center">
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">
                 
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
 
                 <a onclick="Cor1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
@@ -91,9 +91,9 @@
                 </div>
 
                <div class="align-items-center">
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0eaFUx0.png" alt="simple">
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
 
                 <a onclick="Cor3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
@@ -102,9 +102,9 @@
                </div>
 
                <div class="align-items-center">
-                <span class="col-3"></span>
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple"> <br>
-                <span class="col-3"></span>
+                <span class="col-4"></span>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple"> <br>
+                <span class="col-4"></span>
                 <a onclick="Cor5();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
               <!--  <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
