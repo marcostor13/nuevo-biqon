@@ -164,32 +164,32 @@
                     </select>
                   </div>
                    <div id="port11" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="send('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="port22" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="send('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="port33" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="send('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="port44" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="send('PORTABILIDAD PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
 
                     <div id="nuev11" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="send('LINEA NUEVA PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    <button  onclick="sendMail('LINEA NUEVA PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="nuev22" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="send('LINEA NUEVA PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="nuev33" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="send('LINEA NUEVA PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="nuev44" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="send('LINEA NUEVA PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="nuev55" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="send('LINEA NUEVA PLAN 5');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 5');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                 
             </div>
