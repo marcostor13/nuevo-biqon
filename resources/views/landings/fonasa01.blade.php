@@ -85,7 +85,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <span>Agendar compromiso de pago</span>
                     <input id="date1"  type="date"  style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                     <button onclick="sendMail(); return false;" class="btn-date text-danger">AGENDAR</button>
+                     <button onclick="sendMail(); return false;" class="btn-date text-white bg-danger">AGENDAR</button>
                 </div>
                     <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-danger text-white col-12 mt-4">Deseo que me Contacten</button>
 
