@@ -396,34 +396,34 @@
   $('#port44').removeClass('hide');
  }
 //linea nueva 5 planes
- function nuev1(){
+ function url1(){
 
-  $('#cont6').addClass('hide');
-    $('#form').removeClass('hide');
+  $('#cont2').addClass('hide');
+    $('#cont6').removeClass('hide');
   $('#nuevo').removeClass('hide');
   $('#nuev1').removeClass('hide');
    $('#nuev11').removeClass('hide');
  }
- function nuev2(){
+ function url2(){
 
-  $('#cont6').addClass('hide');
-   $('#form').removeClass('hide');
+  $('#cont2').addClass('hide');
+   $('#cont7').removeClass('hide');
   $('#nuevo').removeClass('hide');
   $('#nuev2').removeClass('hide');
    $('#nuev22').removeClass('hide');
  }
- function nuev3(){
+ function url3(){
 
-  $('#cont6').addClass('hide');
-    $('#form').removeClass('hide');
+  $('#cont2').addClass('hide');
+    $('#cont8').removeClass('hide');
   $('#nuevo').removeClass('hide');
   $('#nuev3').removeClass('hide');
    $('#nuev33').removeClass('hide');
  }
- function nuev4(){
+ function url4(){
 
-  $('#cont6').addClass('hide');
-   $('#form').removeClass('hide');
+  $('#cont2').addClass('hide');
+   $('#cont9').removeClass('hide');
   $('#nuevo').removeClass('hide');
   $('#nuev4').removeClass('hide');
    $('#nuev44').removeClass('hide');
