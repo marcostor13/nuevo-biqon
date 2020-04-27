@@ -41,7 +41,7 @@
                <!-- <p class="text-white"> <h3>
                     Ingresa tus datos y te despachamos el chip GRATIS! </h3>
                 </p>-->
-
+                <hr>
                 <br>
                 <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2">LLÁMANOS</a>
 
