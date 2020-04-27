@@ -309,7 +309,7 @@
                 } 
             }
 
-           var correo = ["inttegrados@gmail.com"];
+           var correo = ["inttegrados@gmail.com","jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
