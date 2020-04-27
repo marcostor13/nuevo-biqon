@@ -59,14 +59,14 @@
                     <label>GYRUX POWERBANK 10000 MAH G56</label>
                     <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/6OvrYhi.png" alt="Gyrux">
                  </div> 
-                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail('GYRUX POWERBANK 10000 MAH G56');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                     <div>
                     <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
                     <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/qA4wleS.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail('CARGADOR PARED CON CABLE MICRO USB');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                 </div>
 
@@ -76,14 +76,14 @@
                     <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/1Gmpess.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                   <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                   <button onclick="sendMail('CARGADOR PARED CON CABLE LIGHTNING');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                    <div>
                     <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
                     <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/dXOrQMf.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                   <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                   <button onclick="sendMail('CARGADOR PARED CON CABLE Tipo C');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
                 </div>
             </div>
 
@@ -95,14 +95,14 @@
                     <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/QrFAeyN.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail('Soporte Magnetico para Auto');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                     <div>
                     <label>Selfie Stick Gyrux Bluetooth</label>
                     <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/AT8zGt8.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail('Selfie Stick Gyrux Bluetooth');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                 </div>
             </div>
@@ -115,7 +115,7 @@
                     <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/9nIUmlM.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail('Audifono YK810 UMANNO');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                </div>
                </div>
@@ -129,7 +129,7 @@
                     <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/XrKTAlQ.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail('Memoria Micro SD');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                     <div>
                     <label>Pendrive SanDisk Cruzer Blade USB</label>
@@ -137,7 +137,7 @@
                     <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/V5Q06wX.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail('Pendrive SanDisk ');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                 </div>
             </div>
