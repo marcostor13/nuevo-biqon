@@ -32,7 +32,7 @@
 
           <button onclick='url4();' class="btn bg-primary text-white col-12 mt-4"> Almacenamiento</button>
 
-          <button onclick='url5();' class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</button>
+          <button herf="https://ww2.movistar.cl/recarga/" class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</button>
 
                 <hr>
                 <br>
