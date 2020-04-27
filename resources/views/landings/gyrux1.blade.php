@@ -22,8 +22,8 @@
 
             <div id="cont2" class="p-3 ">
                 <!--<h3 class="text-white text-center">Estimado <span id="name"></span></h3>-->
-            <p class="text-white"> <h3>Gyrux La Evolucion en Accesorios Mobile</h3></p>
-
+           <center> <p class="text-white"> <h3>Gyrux La Evolucion en Accesorios Mobile</h3></p>
+                        </center>
           <button onclick='url1();' class="btn bg-primary text-white col-12 mt-4"> Energia</button>
 
           <button onclick='url2();' class="btn bg-primary text-white col-12 mt-4"> Proteccion</button>
@@ -32,7 +32,7 @@
 
           <button onclick='url4();' class="btn bg-primary text-white col-12 mt-4"> Almacenamiento</button>
 
-          <a herf="https://ww2.movistar.cl/recarga/" class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</a>
+          <!-- <a herf="https://ww2.movistar.cl/recarga/" class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</a>-->
 
                 <hr>
                 <br>
