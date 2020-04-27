@@ -111,8 +111,8 @@
                  </div> 
                     <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
-               <div>
-            </div>
+               </div>
+               </div>
 
              <div  id="cont9" class="p-2 pl-3 pr-3 hide">
                     <div class="text-black col-md-12">
