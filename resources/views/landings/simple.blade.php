@@ -23,7 +23,8 @@
                 <!--<h3 class="text-white text-center">Estimado <span id="name"></span></h3>-->
 
                 <p class="text-white"> <h3>
-                    Nuevo PLAN 25GB + 700 MIN con 33% de dscto, a solo $10.000 x 24 meses!
+                    8GB + 300 MIN + 100 SMS Desde $4.990 Oferta Limitada para Portabilidad Prepagos y Planes.
+
                 </h3></p>
                       <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">PORTABILIDAD</button>
 
@@ -153,6 +154,18 @@
                       <label for="form2"></label>
                     </div>
                   </div> 
+                  <div id="actual" class="md-form hide">
+                      <select class="form-control" id="valor01" required>
+                  <option value="" data-select2-id="1">compañia actual</option>
+                  <option value="CLARO" data-select2-id="1">CLARO</option>
+                  <option value="ENTEL" data-select2-id="1">ENTEL</option>
+                  <option value="MOVISTAR" data-select2-id="2">MOVISTAR</option>
+                  <option value="WOM" data-select2-id="3">WOM</option>
+                  <option value="VIRGIN" data-select2-id="4">VIRGIN</option>
+                  <option value="VTR" data-select2-id="5">VTR</option>
+                   <option value="OTRA" data-select2-id="6">OTRA</option>
+                    </select>
+                  </div>
                   <div id="nuevo" class="md-form hide">
                       <select class="form-control" id="valor" required>
                   <option value="1" data-select2-id="1">1</option>
@@ -280,6 +293,7 @@
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
                     'Chips': $('#valor').val(),
+                    'compañia': $('#valor01').val(),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -324,6 +338,7 @@
                         $('#nuev2').addClass('hide');
                         $('#nuev1').addClass('hide');
                         $('#form').addClass('hide');
+                        $('#actual').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
@@ -415,7 +430,7 @@
 
          var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
 
-   window.location.href = "mailto:inttegrados@gmail.com?subject=Portabilidad%20Virging%20Mobile&body"+body_message;
+   window.location.href = "mailto:inttegrados@gmail.com?subject=Portabilidad%20Simple&body"+body_message;
 
  }
 
@@ -435,6 +450,7 @@
 
   $('#cont7').addClass('hide');
   $('#form').removeClass('hide');
+  $('#actual').removeClass('hide');
   $('#port1').removeClass('hide');
   $('#port11').removeClass('hide');
  }
@@ -442,6 +458,7 @@
 
   $('#cont7').addClass('hide');
    $('#form').removeClass('hide');
+   $('#actual').removeClass('hide');
   $('#port2').removeClass('hide');
   $('#port22').removeClass('hide');
  }
@@ -449,6 +466,7 @@
 
   $('#cont7').addClass('hide');
   $('#form').removeClass('hide');
+  $('#actual').removeClass('hide');
   $('#port3').removeClass('hide');
   $('#port33').removeClass('hide');
  }
@@ -456,6 +474,7 @@
 
   $('#cont7').addClass('hide');
   $('#form').removeClass('hide');
+  $('#actual').removeClass('hide');
   $('#port4').removeClass('hide');
   $('#port44').removeClass('hide');
  }
@@ -500,7 +519,6 @@
   $('#nuev5').removeClass('hide');
    $('#nuev55').removeClass('hide');
  }
-
 
 
 
