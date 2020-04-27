@@ -57,12 +57,13 @@
                     <h5 class="text-grey text-center"> ENERGIA - CARGADORES</h5>       
                 <div>
                     <label>GYRUX POWERBANK 10000 MAH G56</label>
-                    <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/6OvrYhi.png" alt="Gyrux">
                  </div> 
                     <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                     <div>
                     <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/qA4wleS.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
                     <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
@@ -72,12 +73,14 @@
                 <div class="text-black col-md-12">      
                 <div>
                     <label>CARGADOR PARED CON CABLE LIGHTNING UMANNO</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/1Gmpess.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                    <div>
                     <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/dXOrQMf.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
@@ -89,12 +92,14 @@
                     <h5 class="text-grey text-center"> PROTECCION - FORROS</h5>       
                 <div>
                     <label>Soporte Magnetico para Auto</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/QrFAeyN.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
                     <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                     <div>
                     <label>Selfie Stick Gyrux Bluetooth</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/AT8zGt8.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
                     <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
@@ -107,6 +112,7 @@
                 <h5 class="text-grey text-center"> Audio y Parlantes</h5>       
                 <div>
                     <label>Audifono YK810 UMANNO</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/9nIUmlM.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
                     <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
@@ -120,6 +126,7 @@
                 <div>
                     <label>Memoria Micro SD SanDisk Clase 10</label>
                     <label>16 GB - 32 GB - 64 GB</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/XrKTAlQ.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
                     <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
@@ -127,6 +134,7 @@
                     <div>
                     <label>Pendrive SanDisk Cruzer Blade USB</label>
                     <label>16 GB - 32 GB - 64 GB</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/V5Q06wX.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
                     <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
