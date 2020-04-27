@@ -3,392 +3,220 @@
 @section('title', 'Gyrux')
 
 @section('content')
-<?php
-$startdate=strtotime("Today");
-$enddate=strtotime("+2 days", $startdate);
-$enddate1=strtotime("+5 days", $startdate);
 
-//$name = $_GET['NOMBRE'];
-//$servicio = $_GET['DATA2'];
-//$estado = $_GET['DATA3'];
-//$pago = $_GET['MONTO'];
-//echo $pago;
-?>
-<style type="text/css">
-    .bootstrap-timepicker-meridian, .meridian-column
-    {
-        display: none;
-    }
-</style>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<style type="text/css">
 
-    
-.card {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  border: 0;
-  font-weight: 400;
-}
-.card[class*=border] {
-  border: 1px solid #9e9e9e;
-  box-shadow: none;
-}
-.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
-  font-weight: 400;
-}
-.card .card-body .card-title a {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-title a:hover {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-text {
-  text: #747373;
-  font-size: 0.9rem;
-  font-weight: 400;
-}
-.card .md-form label {
-  font-weight: 300;
-}
+   <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
-.oscurecer {
-  background-image: 
-    linear-gradient(
-      rgba(0, 0, 0),
-      rgba(0, 0, 0)
-    )
-    }
+        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="Gyrux">
 
-.accesos-directo {
-    /*position: relative;*/
-    background-text: #262626;
-    padding: 40px 30px;
-}
- .fas {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900; 
-  background-text: #262626
-}  
-#label{
-  display: inline;
-}
 
-#telf{
-  display: inline;
-}
-
-    
-</style>
-
-<!-- HEAD -->
-
- <div class="oscurecer p-3">
-       <!-- <div id="head" class="p-1 pl-1 pr-1 "> <a href="https://www.vtr.com"> <img class="img-fluid col-7 col-md-10" src="{{$landing->logo}}" alt="VTR"> -->
-          <img style="max-width:150px; max-height:100px" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="MUNDOCREDITO">
-        
-        
-            <!-- <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="30" height="30"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
-                   
-             <a class="ml-1" onclick="eventosLanding('Twitter');" href="https://twitter.com/vtrchile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174876.svg"></a>
-
-             <a class="ml-1" onclick="eventosLanding('Youtube');" href="https://www.youtube.com/user/VTRChile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174883.svg"></a>-->
-            </div>
-
-        </div>
-
-    <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            
-<!-- MENU 1: INGRESAR -->
-       <div id="cont1" class="p-5 ">
-            <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong> </h4>
-            <h5 class="text-black text-center"> <br>Te damos la bienvenida a la interfaz de Gyrux, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h5>
-            <input id="rut" type="number" class="form-control mt-4 text-center text-black" required>
-                
-            <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4"> Ingresar </button>
-
-            <!--<button onclick="url(5)" class="btn bg-primary text-white col-12 mt-4"> Contacto Equivocado </button>-->
-
-            <button onclick="url22(); return false;" class="btn bg-primary text-white col-12 mt-4"> Salir </button>
-
-        </div>
-
-            <!-- ERROR 1 -->
-            <div id="error" class="p-2 pl-3 pr-3 ">
-                    <div class="card">     
-                        <div class="card-body">
-                            <h5 id="error"class="text-black text-center mt-5">
-                                
-                            </h5>
-                         </div>
-                    </div>
-            </div>
-
-             <!-- MENU2:  -->
-        <div id="cont2" class="p-5 " >
-            <div class="text-black col-md-12">
-                <h4 class="text-black text-center"><strong><span id="name"> <?php // echo $name; ?></span> </strong> </h4>
-                <!--<h5 class="text-black text-center"> <br>Tu boleta asociada al servicio <span id="servicio"><?php //echo $servicio; ?></span>, se encuentra <span id="estado"> <?php //echo $estado; ?></span>, por el monto de:
-                    <br> $ <span id="pay"> <?php //echo $pago; ?></span> <br></h5>-->
-          <p class="text-white"> <h4 class="text-white text-center">Gyrux La Evolucion en Accesorios Mobile</h4> </p>  
-              <!-- <p class="text-black text-center"> Recuerda que pagar tu boleta al día evita la suspensión de tus servicios. </p>-->
-                    
-          <button onclick='url(1);' class="btn bg-primary text-white col-12 mt-4"> Energia</button>
-
-          <button onclick='url(2);' class="btn bg-primary text-white col-12 mt-4"> Proteccion</button>
-
-          <button onclick='url(3);' class="btn bg-primary text-white col-12 mt-4"> Audio</button>
-
-          <button onclick='url(4);' class="btn bg-primary text-white col-12 mt-4"> Almacenamiento</button>
-
-          <button onclick='url(5);' class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</button>
-
-                <!--<button onclick='url(4);' class="btn bg-primary text-white col-12 mt-4"> Tengo un problema</button>-->
-            </div>  
-        </div>
-
-        <!-- ENERGIA -->
-        <div id="calend" class="p-5 " >
-            <div class="text-black col-md-12">
-                <h5 class="text-grey text-center"> ENERGIA - CARGADORES</h5>       
-            <div>
-                <label>GYRUX POWERBANK 10000 MAH G56</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-                <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-                <div>
-                <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-                <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-            </div>
-
-            <div class="text-black col-md-12">      
-            <div>
-                <label>CARGADOR PARED CON CABLE LIGHTNING UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-               <div>
-                <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-            </div>
-       </div>
-
-       <!-- PROTECCION -->
-        <div id="llamen" class="p-5 " >
-            <div class="text-black col-md-12">
-                <h5 class="text-grey text-center"> PROTECCION - FORROS</h5>       
-            <div>
-                <label>GYRUX POWERBANK 10000 MAH G56</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-                <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-                <div>
-                <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-                <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-            </div>
-
-            <div class="text-black col-md-12">      
-            <div>
-                <label>CARGADOR PARED CON CABLE LIGHTNING UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-               <div>
-                <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-            </div>
-       </div>
-
-        <!-- MENU: CONTACTO EQUIVOCADO -->
-        <div id="usrbad" class="p-5 " >
-          <div class="text-black col-md-12">
-                <h5 class="text-grey text-center"> Audio y Parlantes</h5>       
-            <div>
-                <label>GYRUX POWERBANK 10000 MAH G56</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-                <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-                <div>
-                <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-                <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-            </div>
-
-            <div class="text-black col-md-12">      
-            <div>
-                <label>CARGADOR PARED CON CABLE LIGHTNING UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-               <div>
-                <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-            </div>
-       </div>
-
-        <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
-            <div id="equiv1" class="p-5 " >
-                <div class="text-black col-md-12">
-                <h5 class="text-grey text-center"> Almacenamiento</h5>       
-            <div>
-                <label>GYRUX POWERBANK 10000 MAH G56</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-                <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-                <div>
-                <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-                <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-            </div>
-
-            <div class="text-black col-md-12">      
-            <div>
-                <label>CARGADOR PARED CON CABLE LIGHTNING UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-
-               <div>
-                <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
-                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-             </div> 
-               <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
-            </div>
-       </div>
-
-        <!-- MENU2: CONTACTO EQUIVOCADO: INGRESE CORREO -->
-            
-
-            </div>
-
-                <!-- AUDIO -->
-            <div id="cont3" class="p-5 " >
-                <div class="text-black col-md-12">
-                
-                <button onclick='url6(); eventosLanding("Tarifas"); ' class="btn bg-primary text-white col-12 mt-4"> Tarifas</button>
-
-                <button onclick='url7(); eventosLanding("Lugares de Pago"); ' class="btn bg-primary text-white col-12 mt-4"> Lugares de Pago</button>
-
-                <button onclick='url8(); eventosLanding("Sucursales"); ' class="btn bg-primary text-white col-12 mt-4"> Sucursales</button>
-
-                <button onclick='url9(); eventosLanding("Sucursal Virtual"); ' class="btn bg-primary text-white col-12 mt-4"> Sucursal Virtual</button>
-
-        </div>
-         </div>
-    <!-- ALMACENAMIENTO -->
-            <div id="cont4" class="p-5 ">
-                <div class="text-black col-md-12 text-center align-items-center justify-content-start p-0">
-                
-                <button onclick='sendMail("El cliente indica que tiene problemas con SubTel|Sernac"); eventosLanding("SubTel|Sernac"); ' class="btn bg-primary text-white col-5 mt-4"> SubTel|Sernac </button>
-
-                <button onclick='sendMail("El cliente indica que tiene Problemas Economicos"); eventosLanding("Problemas Económicos); ' class="btn bg-primary text-white col-5 mt-4"> Problemas Economicos</button>
-
-                <button onclick='sendMail("El cliente indica que No Reconoce Deuda"); eventosLanding("No Reconozco Deuda"); ' class="btn bg-primary text-white col-5 mt-4"> No Reconozco Deuda</button>
-
-                <button onclick='sendMail("El cliente indica que tiene Problemas Tecnicos"); eventosLanding("Problema Técnico"); ' class="btn bg-primary text-white col-5 mt-4"> Problema Tecnico</button>
-
-                <button onclick='sendMail("El cliente indica que tiene Problema Comercial"); eventosLanding("Problema Comercial"); ' class="btn bg-primary text-white col-5 mt-4"> Problema Comercial</button>
-
-                <button onclick='sendMail("El cliente indica que tiene problemas con Pago no aplicado"); eventosLanding("Pago no aplicado"); ' class="btn bg-primary text-white col-5 mt-4"> Pago no aplicado</button>
-
-                <button onclick='sendMail("El cliente indica que tiene problemas con Fraude"); eventosLanding("Fraude"); ' class="btn bg-primary text-white col-5 mt-4"> Fraude</button>
-
-                <button onclick='sendMail("El cliente indica que tiene problemas con Titular fallecido"); eventosLanding("Titular fallecido"); ' class="btn bg-primary text-white col-5 mt-4"> Titular fallecido</button>
-
-                <button onclick='sendMail("El cliente indica que tiene problemas con Baja no ingresada"); eventosLanding("Baja no ingresanda"); ' class="btn bg-primary text-white col-5 mt-4"> Baja no ingresada</button>
-
-                <button onclick='sendMail("El cliente indica que se cambio de Compañía"); eventosLanding("Me cambie de Compañía"); ' class="btn bg-primary text-white col-5 mt-4"> Me cambie de Compañía</button>
-
-        </div>
-        </div>
-<!-- MENSAJE SUCCESS -->
-                <div id="success" class="p-2 pl-5 pr-5 ">
-                    <div class="card">     
-                        <div class="card-body">
-                            <h5 id="messages"class="text-grey text-center mt-4 "></h5>
-                             <h5 class="text-grey text-center mt-4 "> Gracias por su tiempo. 
-                                <br>VTR le desea que tenga un excelente día. 
-                                <br>Cualquier duda al 600 800 9000.
-                            </h5>
+            <div id="cont5" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                 <h5 id="error"class="text-black text-center mt-5"></h5>
+                            </div>
                         </div>
                     </div>
+            <div id="cont2" class="p-3 ">
+                <!--<h3 class="text-white text-center">Estimado <span id="name"></span></h3>-->
+
+                <p class="text-white"> <h3>
+                    Gyrux La Evolucion en Accesorios Mobile
+                </h3></p>
+        <!-- <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">PORTABILIDAD</button>
+
+        <button onclick='activa1();' class="btn bg-danger text-white col-12 mt-4">LINEA NUEVA</button>-->
+
+          <button onclick='url1();' class="btn bg-primary text-white col-12 mt-4"> Energia</button>
+
+          <button onclick='url2();' class="btn bg-primary text-white col-12 mt-4"> Proteccion</button>
+
+          <button onclick='url3();' class="btn bg-primary text-white col-12 mt-4"> Audio</button>
+
+          <button onclick='url4();' class="btn bg-primary text-white col-12 mt-4"> Almacenamiento</button>
+
+          <button onclick='url5();' class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</button>
+               <!-- <p class="text-white"> <h3>
+                    Ingresa tus datos y te despachamos el chip GRATIS! </h3>
+                </p>-->
+
+                <br>
+                <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2">LLÁMANOS</a>
+
+                <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-primary text-white col-12 mt-2">WHATSAPP</a>
+
+                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2">ESCRÍBENOS</a>
+
+               </div>
+                           <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
+            </div>
+
+
+            <div  id="cont7" class="p-2 pl-3 pr-3 hide">
+                <div>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">             
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
+
+                <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+
+                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <br>
                 </div>
 
-                <!-- Contacto Equivocado -->
-                <div id="error" class="p-2 pl-5 pr-5 ">
-                    <div class="card">     
-                        <div class="card-body">
-                            <h5 id="messagee"class="text-black text-center mt-4 "> Gracias por su tiempo. VTR le desea que tenga un excelente día. Cualquier duda al 600 800 9000. </h5>
-                        </div>
-                    </div>
+                <div>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">            
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+
+                <a onclick="port3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+
+                <a onclick="port4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <br>
+               </div>
+            </div>
+
+            <div  id="cont6" class="p-2 pl-3 pr-3 hide">
+                <div class="align-items-center">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">
+                
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
+
+                <a onclick="nuev1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+
+
+                <a onclick="nuev2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <br>
                 </div>
-</div> 
-   <!-- PIE DE PAGINA -->             
-    <div id="pie" class="oscurecer p-1 pl-1 pr-1">
-        <table class="table .table-hover">
-    <tbody>
-        <tr>
-          <td colspan="2">
-            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-danger"><p>Centro Ayuda</p> </a> </td>
-          <td colspan="2">
-            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-danger"><p>Reportar Abusos</p></a> </td>
-          <td colspan="2">
-            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-danger"><p>Actualiza Datos</p> </a> </td>
-          <td colspan="2">
-            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-danger"><p>Privacidad</p> </a> </td>
-        </tr>
-        <tr>
-          <td colspan="3"> <a href="https://www.vtr.com"> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> </td>
-          <td colspan="5"> <p class="text-white">©2020 VTR Comunicaciones SPA</p> </td>
-        </tr>
-  
-        </tbody>
-   </table>
+
+               <div class="align-items-center">
+                <span class="col-2"></span>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0eaFUx0.png" alt="simple">
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
+                <span class="col-2"></span>
+                <a onclick="nuev3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+
+                <a onclick="nuev4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <br>
+               </div>
+
+               <div class="align-items-center">
+                <span class="col-5"></span>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple"> <br>
+                <span class="col-5"></span>
+                <a onclick="nuev5();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+
+                <br>
+               </div>
+
+
+            </div>
+<!-- PORTABILIDAD-->
+            <div id="form" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                        <div id="port1" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
+                        </div> 
+                        <div id="port2" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
+                        </div>
+                        <div id="port3" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple"> 
+                        </div>
+                        <div id="port4" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+                        </div>
+
+                        <div id="nuev1" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">
+                        </div>
+                        <div id="nuev2" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
+                        </div>
+                        <div id="nuev3" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0eaFUx0.png" alt="simple">
+                        </div>
+                        <div id="nuev4" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
+                        </div>
+                        <div id="nuev5" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple">
+                        </div>
+                    <div class="d-flex justify-content-between">
+
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <label for="form2"></label>
+                    </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
+                      <label for="form2"></label>
+                    </div>
+                  </div> 
+                  <div id="nuevo" class="md-form hide">
+                      <select class="form-control" id="valor" required>
+                  <option value="1" data-select2-id="1">1</option>
+                  <option value="2" data-select2-id="2">2</option>
+                  <option value="3" data-select2-id="3">3</option>
+                  <option value="4" data-select2-id="4">4</option>
+                  <option value="5" data-select2-id="5">5</option>
+
+                    </select>
+                  </div>
+                   <div id="port11" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="port22" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="port33" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="port44" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+
+                    <div id="nuev11" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="sendMail('LINEA NUEVA PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="nuev22" class="p-2 pl-3 pr-3 hide">
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="nuev33" class="p-2 pl-3 pr-3 hide">
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="nuev44" class="p-2 pl-3 pr-3 hide">
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="nuev55" class="p-2 pl-3 pr-3 hide">
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 5');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                
+            </div>
+
+
+
+        </div>
     </div>
-
-
-
-</div>  
-
 </div>
 
-  <script>
-   //EVENT 
+    <script>
 
         $(function(){
-         //$('#servicio').text(geturlParameter('nombre'));
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(getAllurlParameter()),
-                 
+                'json_datos': JSON.stringify(getAllUrlParameter())
             });
         }); 
 
@@ -396,7 +224,7 @@ $enddate1=strtotime("+5 days", $startdate);
     
             let dataSend = {
                 'fourRut': $('#rut').val(),
-                'phone': geturlParameter('telefono'),
+                'phone': getUrlParameter('telefono'),
                 'landing_id': {!! $landing->id !!},
             } 
             
@@ -411,19 +239,21 @@ $enddate1=strtotime("+5 days", $startdate);
             .done(function(e) {
                 console.log(e);
                 e = JSON.parse(e); 
-               
+
                 if(e.code == 200){
-                    $('#cont1').addClass('');
+                    $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                    $('#cont2').removeClass('');
-                    $('#servicio').text(geturlParameter('data2'));
-                    $('#estado').text(geturlParameter('data3'));
-
+                    $('#cont2').removeClass('hide');
+                    $('#date1').on('change', function(){
+                        if($('#date1').val() != ''){
+                            sendMail();
+                        }
+                    });
                 }else{
-                   $('#cont1').addClass('');
-                     $('#success').removeClass('');
-                    $('#messages').text("Validación incorrecta.");
+                    $('#cont1').addClass('hide');
+                     $('#cont5').removeClass('hide');
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
                 }
             })
             .fail(function() {
@@ -435,9 +265,10 @@ $enddate1=strtotime("+5 days", $startdate);
 
         let eventosLanding = function(name){
             
-            let json_datos = getAllurlParameter(); 
+            let json_datos = getAllUrlParameter(); 
+
             //json_datos.nombre = $('#name').text();
-            //json_datos.monto = $('#pay').text();
+           // json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -446,58 +277,39 @@ $enddate1=strtotime("+5 days", $startdate);
             });
         }
 
-        
+     
 
-         function sendMail(msg = false){
+        function sendMail(msg = false){
 
             console.log('{!! $landing->name !!}'); 
             
             let data; 
             if(msg !== false){
                 data = {
-                    'Mensaje': msg,
-                    'Nombre': $('#name').text(),
-                    'RUT': geturlParameter('rut'),
-                    'Telefono': geturlParameter('telefono'),
-                    'Landing': '{!! $landing->name !!}'
+                    'mensaje': msg,
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
+                    'Chips': $('#valor').val(),
+                    'landing': '{!! $landing->name !!}'
+                   
                     
                 }
             }else{
-
-                if ($('#date1').val().length == 0){ 
-                  let date = $('#date2').val();
-                  let fecha = $('#time1').val();
-                  data = {
-                    'Fecha': date,
-                    'Hora': fecha,
-                    'Nombre': $('#name').text(),
-                    'Rut': geturlParameter('rut'),
-                    'Telefono': geturlParameter('telefono'),
-                    'Landing': '{!! $landing->name !!}'
+                let date = $('#date1').val();
+                data = {
+                    'fecha': date,
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
+                    'Chips': $('#valor').val(),
+                    'landing': '{!! $landing->name !!}'
                 } 
-                }else{
-                  let date = $('#date1').val();
-                  data = {
-                    'Fecha': date,
-                    'Nombre': $('#name').text(),
-                    'Rut': geturlParameter('rut'),
-                    'Telefono': geturlParameter('telefono'),
-                    'Landing': '{!! $landing->name !!}'
-                } 
-                }
-               // data = {
-                 //   'Fecha': date,
-                  //  'Nombre': $('#name').text(),
-                  //  'Rut': geturlParameter('rut'),
-                  //  'Telefono': geturlParameter('telefono'),
-                  //  'Landing': '{!! $landing->name !!}'
-               // } 
             }
-             var correo = ["jesus.binteraction@gmail.com"];
+
+           var correo = ["inttegrados@gmail.com","jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-               // 'email': '{!! $landing->email !!}'
+                //'email': '{!! $landing->email !!}' "inttegrados@gmail.com",
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -508,17 +320,28 @@ $enddate1=strtotime("+5 days", $startdate);
             $.post( "/sendMail", dataSend,function() {
                 console.log(dataSend);
                 if(msg !== false){
-                    $('#message').removeClass('');
-                    $('#cont4').addClass('');
-                    $('#equiv2').addClass('');
-                    $('#success').removeClass('');
-                    $('#messages').text('Su reclamo ha quedado registrado.');
+                    $('#message').removeClass('hide');
+                     $('#cont2').addClass('hide');
+                     $('#cont7').addClass('hide');
+                     $('#cont6').addClass('hide');
+                     $('#port4').addClass('hide');
+                        $('#port3').addClass('hide');
+                        $('#port2').addClass('hide');
+                        $('#port1').addClass('hide');
+                        $('#nuev5').addClass('hide');
+                        $('#nuev4').addClass('hide');
+                        $('#nuev3').addClass('hide');
+                        $('#nuev2').addClass('hide');
+                        $('#nuev1').addClass('hide');
+                        $('#form').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
-                    $('#message').removeClass('');
-                     $('#calend').addClass('');
-                     $('#llamen').addClass('');
-                    $('#success').removeClass('');
-                    $('#messages').text('Ha quedado registrado su compromiso');
+                    $('#message').removeClass('hide');
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                     eventosLanding('Compromiso de Pago');
                 }
             })
             .done(function(e) {
@@ -529,7 +352,6 @@ $enddate1=strtotime("+5 days", $startdate);
             });
 
         }
-
 
         let events = function(data){     
 
@@ -553,14 +375,14 @@ $enddate1=strtotime("+5 days", $startdate);
 
         }
 
-        let geturlParameter = function(sParam) {
-            var sPageurl = window.location.search.substring(1),
-            surlVariables = sPageurl.split('&'),
+        let getUrlParameter = function(sParam) {
+            var sPageURL = window.location.search.substring(1),
+            sURLVariables = sPageURL.split('&'),
             sParameterName,
             i;
 
-            for (i = 0; i < surlVariables.length; i++) {
-            sParameterName = surlVariables[i].split('=');
+            for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
 
             if (sParameterName[0].toLowerCase() === sParam.toLowerCase()) {
                 return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
@@ -568,16 +390,16 @@ $enddate1=strtotime("+5 days", $startdate);
             }
         };
 
-        let getAllurlParameter = function() {
-            var sPageurl = window.location.search.substring(1),
-            surlVariables = sPageurl.split('&'),
+        let getAllUrlParameter = function() {
+            var sPageURL = window.location.search.substring(1),
+            sURLVariables = sPageURL.split('&'),
             sParameterName,
             i;
 
             let obj = {}; 
 
-            for (i = 0; i < surlVariables.length; i++) {
-            sParameterName = surlVariables[i].split('=');
+            for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
 
             obj[sParameterName[0].toLowerCase()] = sParameterName[1];            
             }
@@ -585,189 +407,114 @@ $enddate1=strtotime("+5 days", $startdate);
             return obj;  
         };
 
+      
+         function Mens(){
+  
+             window.location.href = "tel:+56993443007";
+        }  
 
-         function url1(){ //Pagar
-        var rut; 
-         rut= geturlParameter('rut');
-            swal({
-             title: `Será Direccionado a la Página de Pagos`,
-             type: "success",
-             timer: 3000
-        }, 
-        function(){
-             window.location.href = "https://vtr.com/miregistro/paymentExpress.jsp?_dyncharset=UTF-8&c-rut="+rut+"&_D:c-rut=+&_DARGS=/vtr/cartridges/VtrHOHeaderBarPayYourAccountCart/VtrHOHeaderBarPayYourAccountCart.jsp";
-        })
+
+     function Mens1(){
+     
+   window.location.href = "https://api.whatsapp.com/send?phone=56993443007&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
         } 
 
-            function url5(){ // Ver Boleta
-        var docid; 
-         docid= geturlParameter('data1');
-            swal({
-             title:`Espere para Ver su Boleta Online`,
-             type: "success",
-             timer: 3000
-        }, 
-        function(){
-             window.location.href = " https://vtr.com/ss/vboleta/index.html#/home.html?docid="+docid;
-        })
-        } 
 
-        function url6(){ //tarifa
-        var rut; 
-         rut= geturlParameter('rut');
-            swal({
-             title: `Será Direccionado a la Página de Tarifas`,
-             type: "success",
-             timer: 3000
-        }, 
-        function(){
-             window.location.href = "https://vtr.com/";
-        })
-        } 
-
-                function url7(){ //Lugar de Pago
-        var rut; 
-         rut= geturlParameter('rut');
-            swal({
-             title: `Será Direccionado a la Página de Lugares de Pago`,
-             type: "success",
-             timer: 3000
-        }, 
-        function(){
-             window.location.href = "https://vtr.com/productos/lugares-de-pago";
-        })
-        } 
-
-                function url8(){ //Sucursales
-        var rut; 
-         rut= geturlParameter('rut');
-            swal({
-             title: `Será Direccionado a la Página de Sucursales`,
-             type: "success",
-             timer: 3000
-        }, 
-        function(){
-             window.location.href = "https://vtr.com/sucursales/v";
-        })
-        } 
-
-                function url9(){ //sucursal Virtual
-        var rut; 
-         rut= geturlParameter('rut');
-            swal({
-             title: `Será Direccionado a Sucursal Virtual`,
-             type: "success",
-             timer: 3000
-        }, 
-        function(){
-             window.location.href = "https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv";
-        })
-        } 
-
-        function url22(){ //tarifa
-       // var rut; 
-         //rut= geturlParameter('rut');
-            swal({
-             title: `Gracias por su tiempo. VTR le desea un excelente dia. Cualquier duda al 600 800 9000`,
-             type: "success",
-             timer: 3000
-        }, 
-        function(){
-             window.location.href = "https://vtr.com/";
-        })
-        }
+          function Mens2(){
 
 
-                function url10(){ //sucursal Virtual
-        var rut; 
-         rut= geturlParameter('rut');
-            swal({
-             title: `Será Direccionado a Paguina de Reclamos`,
-             type: "success",
-             timer: 3000
-        }, 
-        function(){
-             window.location.href = "https://vtr.com/productos/reclamos";
-        })
-        } 
+         var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
 
-      function  urldatos(){
+   window.location.href = "mailto:inttegrados@gmail.com?subject=Portabilidad%20Virging%20Mobile&body"+body_message;
 
-            var telf = $('#telf').val();
-            var ecorr = $('#ecorr').val();
-            var msg1;
-            msg1 = " El cliente Informa que el telefono es 569 "+telf+" y el correo es "+ecorr+".";
+ }
 
-            //alert (msg1);
+ function activa(){
 
-            sendMail(msg1);
-        }
+  $('#cont2').addClass('hide');
+  $('#cont7').removeClass('hide');
+ }
+
+  function activa1(){
+
+  $('#cont2').addClass('hide');
+  $('#cont6').removeClass('hide');
+ }
+//portabilidad 4 planes
+ function port1(){
+
+  $('#cont7').addClass('hide');
+  $('#form').removeClass('hide');
+  $('#port1').removeClass('hide');
+  $('#port11').removeClass('hide');
+ }
+ function port2(){
+
+  $('#cont7').addClass('hide');
+   $('#form').removeClass('hide');
+  $('#port2').removeClass('hide');
+  $('#port22').removeClass('hide');
+ }
+  function port3(){
+
+  $('#cont7').addClass('hide');
+  $('#form').removeClass('hide');
+  $('#port3').removeClass('hide');
+  $('#port33').removeClass('hide');
+ }
+ function port4(){
+
+  $('#cont7').addClass('hide');
+  $('#form').removeClass('hide');
+  $('#port4').removeClass('hide');
+  $('#port44').removeClass('hide');
+ }
+//linea nueva 5 planes
+ function nuev1(){
+
+  $('#cont6').addClass('hide');
+    $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev1').removeClass('hide');
+   $('#nuev11').removeClass('hide');
+ }
+ function nuev2(){
+
+  $('#cont6').addClass('hide');
+   $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev2').removeClass('hide');
+   $('#nuev22').removeClass('hide');
+ }
+ function nuev3(){
+
+  $('#cont6').addClass('hide');
+    $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev3').removeClass('hide');
+   $('#nuev33').removeClass('hide');
+ }
+ function nuev4(){
+
+  $('#cont6').addClass('hide');
+   $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev4').removeClass('hide');
+   $('#nuev44').removeClass('hide');
+ }
+ function nuev5(){
+
+  $('#cont6').addClass('hide');
+   $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev5').removeClass('hide');
+   $('#nuev55').removeClass('hide');
+ }
 
 
-               function  valtlf(){      
-             if ($('#telf').val().length == 8){ 
-               alert("El Largo del telefono es correcto");
-             }else{
-                 alert("El telefono es incorecto");
-             }
-                 }
-
-      $('#validate').click(function() {
-    var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
-
-    if (regex.test($('#ecorr').val().trim())) {
-        alert('Correo validado');
-
-    } else {
-        alert('La direccón de correo no es válida');
-    }
-    });
 
 
-function url(idButton) {
-
- switch(idButton) {
- case 1:
-          $('#cont2').addClass('');
-          $('#calend').removeClass('');
-    break;
-
- case 2:
-          $('#cont2').addClass('');
-           $('#name').text(geturlParameter('nombre'));
-          $('#llamen').removeClass('');
-    break;
-
- case 3:
-          $('#cont2').addClass('');
-          $('#cont3').removeClass(''); 
-    break;
- case 4:
-          $('#cont2').addClass('');
-          $('#cont4').removeClass(''); 
-    break;
-    case 5:
-          $('#cont1').addClass('');
-          $('#name').text(geturlParameter('nombre'));
-          $('#usrbad').removeClass(''); 
-    break;
-     case 6:
-          $('#usrbad').addClass('');
-          $('#name').text(geturlParameter('nombre'));
-          $('#equiv1').removeClass(''); 
-    break;
-     case 7:
-          $('#equiv1').addClass('');
-           $('#equiv10').addClass('');
-          $('#name').text(geturlParameter('nombre'));
-          $('#equiv2').removeClass(''); 
-    break;
-default:
-          alert("OPCION INVALIDA.")
-        }
-
-   }
-    
     </script>
+    
 
 @endsection
