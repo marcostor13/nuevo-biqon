@@ -295,11 +295,11 @@
                 } 
             }
 
-           var correo = ["inttegrados@gmail.com","jesus.binteraction@gmail.com"];
+           var correo = ["inttegrados@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email': '{!! $landing->email !!}' "inttegrados@gmail.com",
+                //'email': '{!! $landing->email !!}' "inttegrados@gmail.com", ,"jesus.binteraction@gmail.com"
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
