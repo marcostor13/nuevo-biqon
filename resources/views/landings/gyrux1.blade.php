@@ -59,13 +59,13 @@
                     <label>GYRUX POWERBANK 10000 MAH G56</label>
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                     <div>
                     <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                 </div>
 
@@ -74,13 +74,13 @@
                     <label>CARGADOR PARED CON CABLE LIGHTNING UMANNO</label>
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                   <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                   <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                    <div>
                     <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                   <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                   <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
                 </div>
             </div>
 
@@ -91,13 +91,13 @@
                     <label>Soporte Magnetico para Auto</label>
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                     <div>
                     <label>Selfie Stick Gyrux Bluetooth</label>
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                 </div>
             </div>
@@ -109,7 +109,7 @@
                     <label>Audifono YK810 UMANNO</label>
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                <div>
             </div>
@@ -122,14 +122,14 @@
                     <label>16 GB - 32 GB - 64 GB</label>
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="url(6);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                     <div>
                     <label>Pendrive SanDisk Cruzer Blade USB</label>
                     <label>16 GB - 32 GB - 64 GB</label>
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="url(7);" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail();" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
                 </div>
             </div>
