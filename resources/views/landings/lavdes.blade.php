@@ -88,11 +88,11 @@ $enddate=strtotime("+15 days", $startdate);
                        <h4 class="text-danger text-align:right"> <strong> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray. </strong></h4>
                     
 
-                        <h3 class="text-warning text-align:right"><Strong>Valores</Strong></h3>
+                        <h2 class="text-warning text-align:right"><Strong>Valores</Strong></h2>
 
-                       <h3 class="text-warning text-align:right"> <strong> 2.5 litros -  $ 4.800</strong> </h3>
-                       <h3 class="text-warning text-align:right"> <strong> 5 litros   -  $ 9.200</strong> </h3>
-                       <h3 class="text-black text-align:right"> <strong> 20 litros  -  $ 28.000</strong> </h3>
+                       <h2 class="text-warning text-align:right"> <strong> 2.5 litros -  $ 4.800</strong> </h2>
+                       <h2 class="text-warning text-align:right"> <strong> 5 litros   -  $ 9.200</strong> </h2>
+                       <h2 class="text-black text-align:right"> <strong> 20 litros  -  $ 28.000</strong> </h2>
                         </p>
 
                         <h3 class="text-danger text-align:right"> <strong>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo </strong></h3>
