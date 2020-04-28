@@ -62,10 +62,10 @@ $enddate=strtotime("+15 days", $startdate);
     )
     }
     h4 {
-  text-shadow: 1px 1px #ffffff;
+  text-shadow: 1px 1px #000000;
 }
     h3 {
-  text-shadow: 1px 1px #ffffff;
+  text-shadow: 1px 1px #000000;
 }
 </style>
 
@@ -81,7 +81,7 @@ $enddate=strtotime("+15 days", $startdate);
                 <!--<div class="card">     
                 <div class="card-body" >-->
                   <p class="text-white">
-                  <h3><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h3>
+                  <h3 class="text-white"><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h3>
 
                        <h4> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </h4>
 
