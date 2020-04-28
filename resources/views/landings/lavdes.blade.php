@@ -72,7 +72,7 @@ $enddate=strtotime("+15 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/FD5RsDA.png" alt="LAVAGGIO & DESINFECKTION SPA">
 
             <div id="cont1">
-                            <div class="card">     
+                            <div >     
                 <div >
 
 
