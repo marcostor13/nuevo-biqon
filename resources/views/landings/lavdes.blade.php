@@ -93,9 +93,9 @@ $enddate=strtotime("+15 days", $startdate);
 
                    
  
-                       <h3 class="text-primary">2.5 litros   $ 4.800.-</h3>
-                       <h3 class="text-danger">5 litros     $ 9.200.-</h3>
-                       <h3 class="text-success">20 litros    $ 28.000.-</h3>
+                       <h3>2.5 litros   $ 4.800.-</h3>
+                       <h3>5 litros     $ 9.200.-</h3>
+                       <h3>20 litros    $ 28.000.-</h3>
                         </p>
 
                         <h3>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo</h3>
