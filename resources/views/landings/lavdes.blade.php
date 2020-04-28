@@ -54,11 +54,11 @@ $enddate=strtotime("+15 days", $startdate);
   font-weight: 300;
 }
 
-.oscurecer {
+#oscurecer {
   background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.9),
-      rgba(0, 0, 0, 0.9)
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
     )
     }
     h4 {
