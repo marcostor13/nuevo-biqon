@@ -66,19 +66,13 @@ $enddate=strtotime("+15 days", $startdate);
 
  <div id="LAVDES" class="oscurecer" style="background: url('https://i.imgur.com/Y36Y2nZ.jpg'); background-repeat: no-repeat; background-size: cover; background-opacity: 5%" >
 
-        <div class="opaco"></div>
-
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/FD5RsDA.png" alt="LAVAGGIO & DESINFECKTION SPA">
 
-            <div id="cont1">
-                            <div >     
-                <div >
+            <div id="cont1" class="p-2 pl-3 pr-3">
+              <div class="text-align:right">
 
-
-                    <div class="text-align:right">
-
-                      <div class="card">     
+                <div class="card">     
                 <div class="card-body" >
                   <p class="text-white">
                   <h1><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h1>
@@ -87,37 +81,28 @@ $enddate=strtotime("+15 days", $startdate);
 
                        <h3> 100% Seguro de usar. No mancha, no destiñe, no es tóxico</h3>
 
-                       <h3> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray.
+                       <h3> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray.</h3>
                     
 
                         <h2><Strong>Valores</Strong></h2>
-                        
+
                        <h3>2.5 litros   $ 4.800.-</h3>
                        <h3>5 litros     $ 9.200.-</h3>
                        <h3>20 litros    $ 28.000.-</h3>
                         </p>
 
                         <h3>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo</h3>
-                          <center>
-                        </div>
-
-                        </div>
-                        </div>
-
-                        
-                         <div>
-                 <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-success text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
+                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-success text-white col-12 mt-2">CONTACTAR PORWHATSAPP</button>
 
                   <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-success text-white col-12 mt-2">CONTACTAR POR CORREO</a>
+                        </div>
 
-
-
-                
-            </div>
-                    </center>
-
+                        </div>
+                        </div>
                     </div>
                   </div>
+                </div>
+
 
 
  
