@@ -65,7 +65,7 @@ $enddate=strtotime("+15 days", $startdate);
   text-shadow: 1px 2px #000000;
 }
     h3 {
-  text-shadow: 1px 2px #ffffff;
+  text-shadow: 1px 2px #000000;
 }
 </style>
 
