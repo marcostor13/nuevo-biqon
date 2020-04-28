@@ -75,29 +75,26 @@ $enddate=strtotime("+15 days", $startdate);
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 90%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/FD5RsDA.png" alt="LAVAGGIO & DESINFECKTION SPA">
 
-            <div id="cont1" class="p-2 pl-3 pr-3">
+            <div id="cont1">
               <div class="text-align:right">
-
-                <!--<div class="card">     
-                <div class="card-body" >-->
                   <p class="text-white">
-                  <h3 class="text-white"><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h3>
+                  <h3 class="text-success"><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h3>
 
-                       <h4 class="text-danger"> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </h4>
+                       <h4 class="text-success"> <strong> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </strong> </h4>
 
-                       <h4 class="text-primary"> 100% Seguro de usar. No mancha, no destiñe, no es tóxico</h4>
+                       <h4 class="text-success"> <strong> 100% Seguro de usar. No mancha, no destiñe, no es tóxico </strong></h4>
 
-                       <h4 class="text-success"> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray.</h4>
+                       <h4 class="text-success"> <strong> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray. </strong></h4>
                     
 
-                        <h4 class="text-white"><Strong>Valores</Strong></h4>
+                        <h4 class="text-success"><Strong>Valores</Strong></h4>
 
-                       <h4 class="text-white">2.5 litros -  $ 4.800</h4>
-                       <h4 class="text-white">5 litros   -  $ 9.200</h4>
-                       <h4 class="text-white">20 litros  -  $ 28.000</h4>
+                       <h4 class="text-danger">2.5 litros -  $ 4.800</h4>
+                       <h4 class="text-danger">5 litros   -  $ 9.200</h4>
+                       <h4 class="text-danger">20 litros  -  $ 28.000</h4>
                         </p>
 
-                        <h3 class="text-white">Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo</h3>
+                        <h3 class="text-success"> <strong>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo </strong></h3>
                   <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-success text-white col-12 mt-2">CONTACTAR PORWHATSAPP</button>
 
                   <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-success text-white col-12 mt-2">CONTACTAR POR CORREO</a>
