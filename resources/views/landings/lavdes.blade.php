@@ -102,9 +102,9 @@ $enddate=strtotime("+15 days", $startdate);
                     <center>
                         </div>
                          <div>
-                 <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-dark text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
+                 <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-success text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
 
-                  <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-dark text-white col-12 mt-2">CONTACTAR POR CORREO</a> 
+                  <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-success text-white col-12 mt-2">CONTACTAR POR CORREO</a> 
 
                 
             </div>
