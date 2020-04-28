@@ -30,8 +30,8 @@
                       <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">PORTABILIDAD</button>
 
                       <button onclick='activa1();' class="btn bg-danger text-white col-12 mt-4">LINEA NUEVA</button>
-                <p class="text-white"> <h1 class="text-danger">
-                    Ingresa tus datos y te despachamos el chip GRATIS! </h1>
+                <p class="text-white"> <h2 class="text-danger">
+                    Ingresa tus datos y te despachamos el chip GRATIS! </h2>
                 </p>
 
                 <br>
