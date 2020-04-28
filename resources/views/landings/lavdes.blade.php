@@ -66,7 +66,7 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/UFxCTud.jpg" alt="PROTECTOR FACIAL" width="500" height="1000">
+            <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/UFxCTud.jpg" alt="PROTECTOR FACIAL" width="800" height="1300">
 
             <div id="cont1">
                             <div class="card">     
