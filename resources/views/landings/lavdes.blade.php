@@ -78,7 +78,8 @@ $enddate=strtotime("+15 days", $startdate);
 
                     <div class="text-align:right">
 
-
+                      <div class="card">     
+                <div class="card-body" >
                   <p class="text-white">
                   <h1><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h1>
 
@@ -89,17 +90,18 @@ $enddate=strtotime("+15 days", $startdate);
                        <h3> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray.
                     
 
-                    <h2><Strong>Valores</Strong></h2>
-
-                   
- 
+                        <h2><Strong>Valores</Strong></h2>
+                        
                        <h3>2.5 litros   $ 4.800.-</h3>
                        <h3>5 litros     $ 9.200.-</h3>
                        <h3>20 litros    $ 28.000.-</h3>
                         </p>
 
                         <h3>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo</h3>
-                    <center>
+                          <center>
+                        </div>
+
+                        </div>
                         </div>
 
                         
