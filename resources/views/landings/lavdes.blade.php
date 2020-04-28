@@ -66,7 +66,7 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/UFxCTud.jpg" alt="PROTECTOR FACIAL" width="800" height="1300">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/UFxCTud.jpg" alt="PROTECTOR FACIAL" width="800" height="1300">
 
             <div id="cont1">
                             <div class="card">     
@@ -77,7 +77,7 @@ $enddate=strtotime("+15 days", $startdate);
 
 
                   <p class="text-white">
-                  <h1><strong>DILUSION P AMONIO CUATERNARIO AL 10%</strong></h1>
+                  <h1><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h1>
 
                        <h3> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </h3>
 
