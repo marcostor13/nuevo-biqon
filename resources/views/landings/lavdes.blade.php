@@ -61,6 +61,12 @@ $enddate=strtotime("+15 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
+    h4 {
+  text-shadow: 1px 1px #000000;
+}
+    h3 {
+  text-shadow: 1px 1px #000000;
+}
 </style>
 
 
@@ -72,23 +78,23 @@ $enddate=strtotime("+15 days", $startdate);
             <div id="cont1" class="p-2 pl-3 pr-3">
               <div class="text-align:right">
 
-                <div class="card">     
-                <div class="card-body" >
+                <!--<div class="card">     
+                <div class="card-body" >-->
                   <p class="text-white">
-                  <h1><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h1>
+                  <h3><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h3>
 
-                       <h3> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </h3>
+                       <h4> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </h4>
 
-                       <h3> 100% Seguro de usar. No mancha, no destiñe, no es tóxico</h3>
+                       <h4> 100% Seguro de usar. No mancha, no destiñe, no es tóxico</h4>
 
-                       <h3> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray.</h3>
+                       <h4> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray.</h4>
                     
 
-                        <h2><Strong>Valores</Strong></h2>
+                        <h4><Strong>Valores</Strong></h4>
 
-                       <h3>2.5 litros   $ 4.800.-</h3>
-                       <h3>5 litros     $ 9.200.-</h3>
-                       <h3>20 litros    $ 28.000.-</h3>
+                       <h4>2.5 litros -  $ 4.800</h4>
+                       <h4>5 litros   -  $ 9.200</h4>
+                       <h4>20 litros  -  $ 28.000</h4>
                         </p>
 
                         <h3>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo</h3>
@@ -98,8 +104,8 @@ $enddate=strtotime("+15 days", $startdate);
                         </div>
 
                         </div>
-                        </div>
-                    </div>
+                       <!-- </div>
+                    </div>-->
                   </div>
                 </div>
 
