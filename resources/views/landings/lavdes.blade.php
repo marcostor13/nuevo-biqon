@@ -62,15 +62,15 @@ $enddate=strtotime("+15 days", $startdate);
     )
     }
     h4 {
-  text-shadow: 1px 1px #000000;
+  text-shadow: 1px 1px #ffffff;
 }
     h3 {
-  text-shadow: 1px 1px #000000;
+  text-shadow: 1px 1px #ffffff;
 }
 </style>
 
 
- <div id="LAVDES" class="oscurecer" style="background: url('https://i.imgur.com/Y36Y2nZ.jpg'); background-repeat: no-repeat; background-size: cover; background-opacity: 5%" >
+ <div id="LAVDES" class="oscurecer" style="background: url('https://i.imgur.com/Y36Y2nZ.jpg'); background-repeat: no-repeat; background-size: 100%; background-opacity: 5%" >
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/FD5RsDA.png" alt="LAVAGGIO & DESINFECKTION SPA">
