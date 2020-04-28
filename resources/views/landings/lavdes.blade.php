@@ -78,7 +78,7 @@ $enddate=strtotime("+15 days", $startdate);
             <div id="cont1">
               <div class="text-align:right">
                   <p class="text-white">
-                  <h3 class="text-success"><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h3>
+                  <h3 class="text-danger"><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h3>
 
                        <h4 class="text-success"> <strong> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </strong> </h4>
 
@@ -95,9 +95,9 @@ $enddate=strtotime("+15 days", $startdate);
                         </p>
 
                         <h3 class="text-success"> <strong>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo </strong></h3>
-                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-success text-white col-12 mt-2">CONTACTAR PORWHATSAPP</button>
+                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-success text-white col-8 mt-2">CONTACTAR PORWHATSAPP</button>
 
-                  <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-success text-white col-12 mt-2">CONTACTAR POR CORREO</a>
+                  <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-success text-white col-8 mt-2">CONTACTAR POR CORREO</a>
                         </div>
 
                         </div>
