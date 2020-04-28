@@ -57,8 +57,8 @@ $enddate=strtotime("+15 days", $startdate);
 .oscurecer {
   background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.9)
     )
     }
     h4 {
@@ -70,7 +70,7 @@ $enddate=strtotime("+15 days", $startdate);
 </style>
 
 
- <div id="LAVDES" class="oscurecer" style="background: url('https://i.imgur.com/Y36Y2nZ.jpg'); background-repeat: no-repeat; background-size: 100% 100%; background-opacity: 15%"; >
+ <div id="LAVDES" class="oscurecer" style="background: url('https://i.imgur.com/Y36Y2nZ.jpg'); background-repeat: no-repeat; background-size: 100% 100%;" >
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/FD5RsDA.png" alt="LAVAGGIO & DESINFECKTION SPA">
