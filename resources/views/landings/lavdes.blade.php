@@ -61,57 +61,54 @@ $enddate=strtotime("+15 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
+    h4 {
+  text-shadow: 1px 2px #000000;
+}
+    h3 {
+  text-shadow: 1px 2px #000000;
+}
 </style>
 
 
- <div id="LAVDES" class="oscurecer" style="background: url('https://live.staticflickr.com/3155/2938383763_db80b6fdaf_b.jpg'); background-repeat: no-repeat; background-size: cover;" >
-
-        <div class="opaco"></div>
+ <div id="LAVDES" class="oscurecer" style="background: url('https://i.imgur.com/Y36Y2nZ.jpg'); background-repeat: no-repeat; background-size: 100% 100%; " >
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/UFxCTud.jpg" alt="LAVAGGIO & DESINFECKTION SPA" width="800" height="1300">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/FD5RsDA.png" alt="LAVAGGIO & DESINFECKTION SPA">
 
-            <div id="cont1">
-                            <div class="card">     
-                <div class="card-body" >
+            <div id="cont1" class="p-2 pl-3 pr-3">
+              <div class="text-align:right">
 
-
-                    <div class="text-align:right">
-
-
+                <!--<div class="card">     
+                <div class="card-body" >-->
                   <p class="text-white">
-                  <h1><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h1>
+                  <h3 class="text-white"><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h3>
 
-                       <h3> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </h3>
+                       <h4 class="text-white"> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </h4>
 
-                       <h3> 100% Seguro de usar. No mancha, no destiñe, no es tóxico</h3>
+                       <h4 class="text-white"> 100% Seguro de usar. No mancha, no destiñe, no es tóxico</h4>
 
-                       <h3> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray.
+                       <h4 class="text-white"> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray.</h4>
                     
 
-                    <h2><Strong>Valores</Strong></h2>
+                        <h4 class="text-white"><Strong>Valores</Strong></h4>
 
-                   
- 
-                       <h3>2.5 litros   $ 4.800.-</h3>
-                       <h3>5 litros     $ 9.200.-</h3>
-                       <h3>20 litros    $ 28.000.-</h3>
+                       <h4 class="text-white">2.5 litros -  $ 4.800</h4>
+                       <h4 class="text-white">5 litros   -  $ 9.200</h4>
+                       <h4 class="text-white">20 litros  -  $ 28.000</h4>
                         </p>
 
-                        <h3>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo</h3>
-                    <center>
+                        <h3 class="text-white">Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo</h3>
+                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-success text-white col-12 mt-2">CONTACTAR PORWHATSAPP</button>
+
+                  <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-success text-white col-12 mt-2">CONTACTAR POR CORREO</a>
                         </div>
-                         <div>
-                 <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-dark text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
 
-                  <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-dark text-white col-12 mt-2">CONTACTAR POR CORREO</a> 
-
-                
-            </div>
-                    </center>
-
-                    </div>
+                        </div>
+                       <!-- </div>
+                    </div>-->
                   </div>
+                </div>
+
 
 
  
