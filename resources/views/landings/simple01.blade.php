@@ -30,8 +30,8 @@
                       <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">REVISA PLANES PORTABILIDAD</button>
 
                       <button onclick='activa1();' class="btn bg-danger text-white col-12 mt-4">REVISA PLANES LINEAS NUEVAS</button>
-                <p class="text-white"> <h2 class="text-danger">
-                    Ingresa tus datos y te despachamos el chip GRATIS! </h2>
+                <p class="text-white"> <h3 class="text-danger">
+                    Ingresa tus datos y te despachamos el chip GRATIS! </h3>
                 </p>
 
                 <br>
