@@ -79,23 +79,23 @@ $enddate=strtotime("+15 days", $startdate);
             <div id="cont1">
               <div class="text-align:right">
                   <p class="text-white">
-                  <h3 class="text-primary"><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h3>
+                  <h3 class="text-danger"><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h3>
 
-                       <h4 class="text-primary"> <strong> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </strong> </h4>
+                       <h4 class="text-danger text-align:right"> <strong> Nuestro producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </strong> </h4>
 
-                       <h4 class="text-primary"> <strong> 100% Seguro de usar. No mancha, no destiñe, no es tóxico </strong></h4>
+                       <h4 class="text-danger"> <strong> 100% Seguro de usar. No mancha, no destiñe, no es tóxico </strong></h4>
 
-                       <h4 class="text-primary"> <strong> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray. </strong></h4>
+                       <h4 class="text-danger"> <strong> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray. </strong></h4>
                     
 
-                        <h4 class="text-primary"><Strong>Valores</Strong></h4>
+                        <h4 class="text-danger"><Strong>Valores</Strong></h4>
 
-                       <h4 class="text-primary">2.5 litros -  $ 4.800</h4>
-                       <h4 class="text-primary">5 litros   -  $ 9.200</h4>
-                       <h4 class="text-primary">20 litros  -  $ 28.000</h4>
+                       <h4 class="text-danger">2.5 litros -  $ 4.800</h4>
+                       <h4 class="text-danger">5 litros   -  $ 9.200</h4>
+                       <h4 class="text-danger">20 litros  -  $ 28.000</h4>
                         </p>
 
-                        <h3 class="text-primary"> <strong>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo </strong></h3>
+                        <h3 class="text-danger"> <strong>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo </strong></h3>
                   <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-success text-white col-8 mt-2">CONTACTAR PORWHATSAPP</button>
 
                   <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-success text-white col-8 mt-2">CONTACTAR POR CORREO</a>
