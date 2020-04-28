@@ -83,21 +83,21 @@ $enddate=strtotime("+15 days", $startdate);
                   <p class="text-white">
                   <h3 class="text-white"><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h3>
 
-                       <h4> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </h4>
+                       <h4 class="text-white"> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </h4>
 
-                       <h4> 100% Seguro de usar. No mancha, no destiñe, no es tóxico</h4>
+                       <h4 class="text-white"> 100% Seguro de usar. No mancha, no destiñe, no es tóxico</h4>
 
-                       <h4> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray.</h4>
+                       <h4 class="text-white"> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray.</h4>
                     
 
-                        <h4><Strong>Valores</Strong></h4>
+                        <h4 class="text-white"><Strong>Valores</Strong></h4>
 
-                       <h4>2.5 litros -  $ 4.800</h4>
-                       <h4>5 litros   -  $ 9.200</h4>
-                       <h4>20 litros  -  $ 28.000</h4>
+                       <h4 class="text-white">2.5 litros -  $ 4.800</h4>
+                       <h4 class="text-white">5 litros   -  $ 9.200</h4>
+                       <h4 class="text-white">20 litros  -  $ 28.000</h4>
                         </p>
 
-                        <h3>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo</h3>
+                        <h3 class="text-white">Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo</h3>
                   <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-success text-white col-12 mt-2">CONTACTAR PORWHATSAPP</button>
 
                   <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-success text-white col-12 mt-2">CONTACTAR POR CORREO</a>
