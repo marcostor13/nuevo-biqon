@@ -27,9 +27,9 @@
                <!-- <p class="text-white"> <h3>
                     8GB + 300 MIN + 100 SMS Desde $4.990 Oferta Limitada para Portabilidad Prepagos y Planes.
                 </h3></p>-->
-                      <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">PORTABILIDAD</button>
+                      <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">REVISA PLANES PORTABILIDAD</button>
 
-                      <button onclick='activa1();' class="btn bg-danger text-white col-12 mt-4">LINEA NUEVA</button>
+                      <button onclick='activa1();' class="btn bg-danger text-white col-12 mt-4">REVISA PLANES LINEAS NUEVAS</button>
                 <p class="text-white"> <h2 class="text-danger">
                     Ingresa tus datos y te despachamos el chip GRATIS! </h2>
                 </p>
