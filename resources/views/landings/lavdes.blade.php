@@ -82,19 +82,20 @@ h2 {
             <div id="cont1">
               <div class="text-align:right">
                   <p class="text-white">
-                  <h3 class="text-danger"><strong>DILUSION AMONIO CAUTERNARIO AL 10%</strong></h3>
+                  <h3 class="text-primary"><strong>DILUSION AMONIO CAUTERNARIO AL 10%</strong></h3>
 
-                       <h4 class="text-danger text-align:right"> <strong> Nuestro producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </strong> </h4>
+                       <h4 class="text-primary text-align:right"> <strong> Nuestro producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </strong> </h4>
 
-                       <h4 class="text-danger text-align:right"> <strong> 100% Seguro de usar. No mancha, no destiñe, no es tóxico </strong></h4>
+                       <h4 class="text-primary text-align:right"> <strong> 100% Seguro de usar. No mancha, no destiñe, no es tóxico </strong></h4>
 
-                       <h4 class="text-danger text-align:right"> <strong> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray. </strong></h4>
+                       <h4 class="text-primary text-align:right"> <strong> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray. </strong></h4>
+                        
                         <h2 class="text-warning text-align:right"><Strong>Valores
                         <br> 2.5 litros -  $ 4.800
                         <br> 5 litros   -  $ 9.200
                         <br> 20 litros  -  $ 28.000</strong> </h2> </p>
 
-                        <h3 class="text-danger text-align:right"> <strong>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo </strong></h3>
+                        <h3 class="text-primary text-align:right"> <strong>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo </strong></h3>
                   <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-warning text-black col-8 mt-2"> <strong>CONTACTAR POR WHATSAPP</strong></button>
 
                   <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-warning text-black col-8 mt-2"> <strong>CONTACTAR POR CORREO </strong></a>
