@@ -64,7 +64,7 @@ $enddate=strtotime("+15 days", $startdate);
 </style>
 
 
- <div id="LAVDES" class="oscurecer" style="background: url('https://live.staticflickr.com/3155/2938383763_db80b6fdaf_b.jpghttps://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fumigacionesbravo.com%2F&psig=AOvVaw1Tgchqdreqf1_CCCe39uUt&ust=1588178132239000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOij5-XGi-kCFQAAAAAdAAAAABAa'); background-repeat: no-repeat; background-size: cover;" >
+ <div id="LAVDES" class="oscurecer" style="background: url('https://i.imgur.com/Y36Y2nZ.jpg'); background-repeat: no-repeat; background-size: cover;" >
 
         <div class="opaco"></div>
 
@@ -102,7 +102,7 @@ $enddate=strtotime("+15 days", $startdate);
                     <center>
                         </div>
 
-                        <img src="https://static.websguru.com.ar/var/m_f/f0/f0b/132538/1859648-Fenix-Control-de-Plagas-fumigaciones.jpg"> 
+                        
                          <div>
                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-success text-white col-12 mt-2">CONTACTAR POR WHATSAPP</button>
 
