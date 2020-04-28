@@ -73,7 +73,7 @@ $enddate=strtotime("+15 days", $startdate);
  <div id="LAVDES" class="oscurecer" style="background: url('https://i.imgur.com/Y36Y2nZ.jpg'); background-repeat: no-repeat; background-size: 100% 100%; " >
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/FD5RsDA.png" alt="LAVAGGIO & DESINFECKTION SPA">
+            <img style="max-width: 90%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/FD5RsDA.png" alt="LAVAGGIO & DESINFECKTION SPA">
 
             <div id="cont1" class="p-2 pl-3 pr-3">
               <div class="text-align:right">
@@ -83,11 +83,11 @@ $enddate=strtotime("+15 days", $startdate);
                   <p class="text-white">
                   <h3 class="text-white"><strong>DILUSION AMONIO CUATERNARIO AL 10%</strong></h3>
 
-                       <h4 class="text-white"> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </h4>
+                       <h4 class="text-danger"> Nuevo producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </h4>
 
-                       <h4 class="text-white"> 100% Seguro de usar. No mancha, no destiñe, no es tóxico</h4>
+                       <h4 class="text-primary"> 100% Seguro de usar. No mancha, no destiñe, no es tóxico</h4>
 
-                       <h4 class="text-white"> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray.</h4>
+                       <h4 class="text-success"> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray.</h4>
                     
 
                         <h4 class="text-white"><Strong>Valores</Strong></h4>
