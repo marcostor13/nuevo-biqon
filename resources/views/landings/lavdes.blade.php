@@ -61,12 +61,12 @@ $enddate=strtotime("+15 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
-    h4 {
+ /*   h4 {
   text-shadow: 1px 1px #ffffff;
 }
     h3 {
   text-shadow: 1px 1px #ffffff;
-}
+}*/
 </style>
 
  <div class="oscurecer">
