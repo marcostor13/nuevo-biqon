@@ -63,6 +63,9 @@ $enddate=strtotime("+15 days", $startdate);
     }
 </style>
 
+
+ <div id="LAVDES" class="oscurecer" style="background: url('https://live.staticflickr.com/3155/2938383763_db80b6fdaf_b.jpg'); background-repeat: no-repeat; background-size: cover;" >
+
         <div class="opaco"></div>
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
@@ -108,6 +111,7 @@ $enddate=strtotime("+15 days", $startdate);
                     </center>
 
                     </div>
+                  </div>
 
 
  
