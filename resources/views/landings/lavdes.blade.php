@@ -88,17 +88,17 @@ $enddate=strtotime("+15 days", $startdate);
                        <h4 class="text-danger text-align:right"> <strong> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray. </strong></h4>
                     
 
-                        <h4 class="text-danger text-align:right"><Strong>Valores</Strong></h4>
+                        <h3 class="text-danger text-align:right"><Strong>Valores</Strong></h3>
 
-                       <h4 class="text-danger text-align:right">2.5 litros -  $ 4.800</h4>
-                       <h4 class="text-danger text-align:right">5 litros   -  $ 9.200</h4>
-                       <h4 class="text-danger text-align:right">20 litros  -  $ 28.000</h4>
+                       <h3 class="text-danger text-align:right"> <strong> 2.5 litros -  $ 4.800</strong> </h3>
+                       <h3 class="text-danger text-align:right"> <strong> 5 litros   -  $ 9.200</strong> </h3>
+                       <h3 class="text-danger text-align:right"> <strong> 20 litros  -  $ 28.000</strong> </h3>
                         </p>
 
                         <h3 class="text-danger text-align:right"> <strong>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo </strong></h3>
-                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-warning text-black col-8 mt-2">CONTACTAR POR WHATSAPP</button>
+                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-warning text-black col-8 mt-2"> <strong>CONTACTAR POR WHATSAPP</strong></button>
 
-                  <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-warning text-black col-8 mt-2">CONTACTAR POR CORREO</a>
+                  <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-warning text-black col-8 mt-2"> <strong>CONTACTAR POR CORREO </strong></a>
                   <br>
                   <br>
                         </div>
