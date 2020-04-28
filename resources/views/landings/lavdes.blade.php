@@ -71,7 +71,7 @@ $enddate=strtotime("+15 days", $startdate);
 
  <div class="oscurecer">
 <!-- <div id="LAVDES" class="oscurecer" style="background: url('https://i.imgur.com/DzPdczX.jpg'); background-repeat: no-repeat; background-size: 100% 100%; " >-->
-  <div id="LAVDES" style="background: url('https://imgur.com/a/pgUPcLY'); background-repeat: no-repeat; background-size: 100% 100%; " >
+  <div id="LAVDES" style="background: url('https://i.imgur.com/vCuU0aH.png'); background-repeat: no-repeat; background-size: 100% 100%; " >
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 90%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/FD5RsDA.png" alt="LAVAGGIO & DESINFECKTION SPA">
