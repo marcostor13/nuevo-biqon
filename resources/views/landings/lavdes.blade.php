@@ -67,6 +67,9 @@ $enddate=strtotime("+15 days", $startdate);
     h3 {
   text-shadow: 1px 1px #000000;
 }*/
+h2 {
+  text-shadow: 1px 1px #000000;
+}
 </style>
 
  <div class="oscurecer">
@@ -92,7 +95,7 @@ $enddate=strtotime("+15 days", $startdate);
 
                        <h2 class="text-warning text-align:right"> <strong> 2.5 litros -  $ 4.800</strong> </h2>
                        <h2 class="text-warning text-align:right"> <strong> 5 litros   -  $ 9.200</strong> </h2>
-                       <h2 class="text-black text-align:right"> <strong> 20 litros  -  $ 28.000</strong> </h2>
+                       <h2 class="text-warning text-align:right"> <strong> 20 litros  -  $ 28.000</strong> </h2>
                         </p>
 
                         <h3 class="text-danger text-align:right"> <strong>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo </strong></h3>
