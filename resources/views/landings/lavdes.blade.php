@@ -96,9 +96,9 @@ $enddate=strtotime("+15 days", $startdate);
                         </p>
 
                         <h3 class="text-danger text-align:right"> <strong>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo </strong></h3>
-                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-success text-white col-8 mt-2">CONTACTAR POR WHATSAPP</button>
+                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-warning text-black col-8 mt-2">CONTACTAR POR WHATSAPP</button>
 
-                  <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-success text-white col-8 mt-2">CONTACTAR POR CORREO</a>
+                  <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-warning text-black col-8 mt-2">CONTACTAR POR CORREO</a>
                   <br>
                   <br>
                         </div>
