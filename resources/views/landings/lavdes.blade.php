@@ -46,7 +46,8 @@ $enddate=strtotime("+15 days", $startdate);
   transition: 0.2s ease-in-out;
 }
 .card .card-body .card-text {
-  color: #747373;
+
+  color: #ff0000 ;
   font-size: 0.9rem;
   font-weight: 400;
 }
@@ -98,9 +99,9 @@ $enddate=strtotime("+15 days", $startdate);
                         </div>
                          <div>
                           <div class="container-fluid text-center pagination-centered center-block"> 
-                 <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-danger text-black col-5 mt-1"> <strong> LLamar </strong></button>
+                 <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-warning text-black col-5 mt-1"> <strong> LLAMAR </strong></button>
 
-                         <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-danger text-black col-5 mt-1"> <strong> CORREO </strong></a>
+                         <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-warning text-black col-5 mt-1"> <strong> CORREO ELECTRONICO </strong></a>
 
                          </div>
 
