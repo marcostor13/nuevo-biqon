@@ -98,7 +98,7 @@ $enddate=strtotime("+15 days", $startdate);
                         </div>
                          <div>
                           <div class="container-fluid text-center pagination-centered center-block"> 
-                 <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-danger text-black col-5 mt-1"> <strong> WHATSAPP </strong></button>
+                 <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-danger text-black col-5 mt-1"> <strong> LLamar </strong></button>
 
                          <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-danger text-black col-5 mt-1"> <strong> CORREO </strong></a>
 
@@ -316,7 +316,8 @@ $enddate=strtotime("+15 days", $startdate);
       
        function Mens2(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56981868778&text=Hola,%20tengo%20una%20consulta";
+       
+        window.location.href ="tel:+56944735189";
     
         } 
         
