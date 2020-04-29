@@ -64,7 +64,7 @@ $enddate=strtotime("+15 days", $startdate);
     }
 </style>
 
-<div style='background-color:#8a9597';>
+<div style='background-color:#F0F0F0';>
 
         <div class="opaco"></div>
 
