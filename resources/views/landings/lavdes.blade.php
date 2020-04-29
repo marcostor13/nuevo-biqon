@@ -77,11 +77,13 @@ h2 {
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
              <img style="max-width: 90%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/FD5RsDA.png" alt="LAVAGGIO & DESINFECKTION SPA">
 
+             <center><img src="https://i.imgur.com/vCuU0aH.png"></center>
+
             <div id="cont1">
                             <div class="card">     
                 <div class="card-body" >
 
-                  <img src="https://i.imgur.com/vCuU0aH.png">
+                  
 
 
 
@@ -105,9 +107,9 @@ h2 {
 
                         <h3 >Consultas a: </h3>
 
-                         <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-warning text-black col-8 mt-2"> <strong>CONTACTAR POR WHATSAPP</strong></button>
+                         <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-danger text-black col-8 mt-2"> <strong>CONTACTAR POR WHATSAPP</strong></button>
 
-                         <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-warning text-black col-8 mt-2"> <strong>CONTACTAR POR CORREO </strong></a>
+                         <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-danger text-black col-8 mt-2"> <strong>CONTACTAR POR CORREO </strong></a>
                         </p>
                     <center>
                         </div>
