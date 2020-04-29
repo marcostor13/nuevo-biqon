@@ -72,43 +72,46 @@ h2 {
 }
 </style>
 
- <div class="oscurecer">
-<!-- <div id="LAVDES" class="oscurecer" style="background: url('https://i.imgur.com/DzPdczX.jpg'); background-repeat: no-repeat; background-size: 100% 100%; " >-->
-  <div id="LAVDES" style="background: url('https://i.imgur.com/vCuU0aH.png'); background-repeat: no-repeat; background-size: 100% 100%; " >
+ <div class="opaco"></div>
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 90%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/FD5RsDA.png" alt="LAVAGGIO & DESINFECKTION SPA">
+             <img style="max-width: 90%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/FD5RsDA.png" alt="LAVAGGIO & DESINFECKTION SPA">
 
             <div id="cont1">
-              <div class="text-align:right">
+                            <div class="card">     
+                <div class="card-body" >
+
+                  <img src="https://i.imgur.com/vCuU0aH.png">
+
+
+
+
+                    <div class="text-align:right">
+
+
                   <p class="text-white">
-                  <h3 class="text-primary"><strong>DILUSION AMONIO CAUTERNARIO AL 10%</strong></h3>
+                  <h1><strong> DILUSION AMONIO CAUTERNARIO AL 10% </strong></h1>
 
-                       <h4 class="text-primary text-align:right"> <strong> Nuestro producto, es un limpiador desinfectante neutro, diseñado especialmente para limpiar y desinfectar baños y pisos de alto brillo. Permitiendo la eliminación de bacterias y microorganismos en un 99% </strong> </h4>
+                       <h4>  Nuestro producto, es un limpiador desinfectante diluido, neutro y diseñado especialmente para limpiar y desinfectar baños, pisos, paredes y otras superficies en hospitales, colegios, hoteles, restaurantes, etc. Permitiendo la eliminación de bacterias y microorganismos en un 99%  </h4>
 
-                       <h4 class="text-primary text-align:right"> <strong> 100% Seguro de usar. No mancha, no destiñe, no es tóxico </strong></h4>
+                       <h3>100% Seguro de usar. No mancha, no destiñe, no es tóxico</h3>
 
-                       <h4 class="text-primary text-align:right"> <strong> Diluido y listo para aplicar en pisos, paredes y otras superficies de hospitales, colegios, hoteles, restaurantes, en salas de baño y artefactos sanitarios, aplicar con mopa, paño o spray. </strong></h4>
+                       <h3>Aplicar con mopa, paño o spray.</h3>
                         
-                        <h2 class="text-warning text-align:right"><Strong>Valores
+                        <h2> Precio por Bidones:
                         <br> 2.5 litros -  $ 4.800
                         <br> 5 litros   -  $ 9.200
-                        <br> 20 litros  -  $ 28.000</strong> </h2> </p>
+                        <br> 20 litros  -  $ 28.000</h2>
 
-                        <h3 class="text-primary text-align:right"> <strong>Paga con: Tarjeta de Débito, Crédito, Transferencia, Efectivo </strong></h3>
-                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-warning text-black col-8 mt-2"> <strong>CONTACTAR POR WHATSAPP</strong></button>
+                        <h3 >Consultas a: </h3>
 
-                  <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-warning text-black col-8 mt-2"> <strong>CONTACTAR POR CORREO </strong></a>
-                  <br>
-                  <br>
+                         <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-warning text-black col-8 mt-2"> <strong>CONTACTAR POR WHATSAPP</strong></button>
+
+                         <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-warning text-black col-8 mt-2"> <strong>CONTACTAR POR CORREO </strong></a>
+                        </p>
+                    <center>
                         </div>
-
-                        </div>
-                       <!-- </div>
-                    </div>-->
-                  </div>
-                </div>
-               </div>
+                         <div>
 
 
 
