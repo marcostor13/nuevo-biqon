@@ -103,7 +103,7 @@ $enddate=strtotime("+15 days", $startdate);
                           <div class="container-fluid text-center pagination-centered center-block"> 
                  <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-warning text-black col-5 mt-1"> <strong> LLAMAR </strong></button>
 
-                         <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-warning text-black col-5 mt-1"> <strong> CORREO ELECTRONICO </strong></a>
+                         <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-warning text-black col-5 mt-1">EMAIL</a>
 
                          </div>
 
