@@ -75,7 +75,7 @@ $enddate=strtotime("+15 days", $startdate);
 
             <div id="cont1">
                             <div class="card">     
-                <div class="card-body" >
+                <div class="card-body" style="background-color: #F0F0F0" ;>
 
 
                     <div class="text-align:right">
