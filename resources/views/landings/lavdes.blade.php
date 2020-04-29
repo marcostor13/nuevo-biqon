@@ -64,6 +64,8 @@ $enddate=strtotime("+15 days", $startdate);
     }
 </style>
 
+<div style='background-color:#8a9597';>
+
         <div class="opaco"></div>
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
@@ -120,6 +122,7 @@ $enddate=strtotime("+15 days", $startdate);
             
                                                             
             </div>
+          </div>
           
      <script>
    //EVENT 1
