@@ -178,32 +178,32 @@
                     </select>
                   </div>
                    <div id="port11" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 1'); eventosLanding('PORTABILIDAD PLAN 1'');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="port22" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 2'); eventosLanding('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="port33" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 3'); eventosLanding('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="port44" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('PORTABILIDAD PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 4'); eventosLanding('PORTABILIDAD PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
 
                     <div id="nuev11" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('LINEA NUEVA PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    <button  onclick="sendMail('LINEA NUEVA PLAN 1'); eventosLanding('LINEA NUEVA PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="nuev22" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="sendMail('LINEA NUEVA PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 2'); eventosLanding('LINEA NUEVA PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="nuev33" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="sendMail('LINEA NUEVA PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 3'); eventosLanding('LINEA NUEVA PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="nuev44" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="sendMail('LINEA NUEVA PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 4'); eventosLanding('LINEA NUEVA PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="nuev55" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="sendMail('LINEA NUEVA PLAN 5');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 5'); eventosLanding('LINEA NUEVA PLAN 5');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                 
             </div>
@@ -342,12 +342,13 @@
                         $('#actual').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
-                     eventosLanding('Compromiso de Pago');
+                     eventosLanding('Solicitud de Plan');
                 }
             })
             .done(function(e) {
