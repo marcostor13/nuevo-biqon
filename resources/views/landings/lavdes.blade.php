@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'PROTECTOR FACIAL')
+@section('title', 'LAVAGGIO & DESINFECKTION SPA')
 
 @section('content')
 <?php
@@ -116,10 +116,7 @@ $enddate=strtotime("+15 days", $startdate);
  
                 
         </div>
-
-         <div class="d-flex justify-content-around align-content-center mt-1"> 
-
-            
+       
                                                             
             </div>
           </div>
