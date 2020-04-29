@@ -68,7 +68,7 @@ $enddate=strtotime("+15 days", $startdate);
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 90%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/FD5RsDA.png" alt="LAVAGGIO & DESINFECKTION SPA" width="500" height="1000">
 
-               <center><img style="max-width: 80%" src="https://i.imgur.com/vCuU0aH.png" height="200" width="300"></center>
+               <center><img style="max-width: 90%" src="https://i.imgur.com/vCuU0aH.png" height="200" width="300"></center>
 
             <div id="cont1">
                             <div class="card">     
@@ -97,9 +97,12 @@ $enddate=strtotime("+15 days", $startdate);
                     <center>
                         </div>
                          <div>
+                          <div class="container-fluid text-center pagination-centered center-block"> 
                  <button onclick="Mens2(); eventosLanding('WhatsApp');" class="btn bg-danger text-black col-8 mt-2"> <strong>CONTACTAR POR WHATSAPP</strong></button>
 
                          <a onclick="eventosLanding('Correo'); Mens();" class="btn bg-danger text-black col-8 mt-2"> <strong>CONTACTAR POR CORREO </strong></a>
+
+                         </div>
 
                 
             </div>
