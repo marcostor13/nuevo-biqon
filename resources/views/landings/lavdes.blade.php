@@ -82,7 +82,7 @@ $enddate=strtotime("+15 days", $startdate);
 
 
                   <p class="text-white">
-                  <h1><strong> DILUSION AMONIO CAUTERNARIO AL 10% </strong></h1>
+                  <h2><strong> DILUSION AMONIO CAUTERNARIO AL 10% </strong></h2>
 
                        <h4>  Nuestro producto, es un limpiador desinfectante diluido, neutro y diseñado especialmente para limpiar y desinfectar baños, pisos, paredes y otras superficies en hospitales, colegios, hoteles, restaurantes, etc. Permitiendo la eliminación de bacterias y microorganismos en un 99%  </h4>
 
