@@ -86,14 +86,14 @@ $enddate=strtotime("+15 days", $startdate);
 
                        <h4>  Nuestro producto, es un limpiador desinfectante diluido, neutro y diseñado especialmente para limpiar y desinfectar baños, pisos, paredes y otras superficies en hospitales, colegios, hoteles, restaurantes, etc. Permitiendo la eliminación de bacterias y microorganismos en un 99%  </h4>
 
-                       <h3>100% Seguro de usar. No mancha, no destiñe, no es tóxico</h3>
+                       <h4>100% Seguro de usar. No mancha, no destiñe, no es tóxico</4>
 
-                       <h3>Aplicar con mopa, paño o spray.</h3>
+                       <h4>Aplicar con mopa, paño o spray.</h4>
                         
-                        <h2> Precio por Bidones:
+                        <h4> Precio por Bidones:
                         <br> 2.5 litros -  $ 4.800
                         <br> 5 litros   -  $ 9.200
-                        <br> 20 litros  -  $ 28.000</h2>
+                        <br> 20 litros  -  $ 28.000</h4>
 
                         <h3 >Consultas a: </h3>
 
