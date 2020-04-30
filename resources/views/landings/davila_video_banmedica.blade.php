@@ -92,8 +92,8 @@
                               
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
-                               <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
-                                </button>
+                              <!-- <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
+                                </button>-->
 
                                  <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2">LLÁMANOS</a>
 
