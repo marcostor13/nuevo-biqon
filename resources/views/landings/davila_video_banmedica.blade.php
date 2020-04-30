@@ -77,8 +77,8 @@
                         <div class="card">     
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h3>
-                                 <p class="text-white"> <h4> 
-                                 Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
+                                <p class="text-white"> <h4> 
+                                 Clinica Davila te informa que puedes acceder a la página web de tu isapre para comprar tus bonos GES</h4> <br> Mira como en el siguiente vídeo</p>
                                 </div>
                               </div>
 
@@ -231,7 +231,7 @@
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
-             var correo = ["infopagatucuenta@davila.cl"];
+             var correo = ["francis.Castillo@davila.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -355,13 +355,13 @@
         } 
 
 
-     function Mens2(){
+    /* function Mens2(){
        var id_adm; 
          id_adm= getUrlParameter('data1'); 
          var rut; 
          rut= getUrlParameter('rut'); 
    window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Id Admision: "+id_adm+"   RUT:  "+rut;
-        } 
+        } */
 
 
           function Mens2(){
@@ -374,7 +374,7 @@
 
          var body_message = "%0A%20Estimado%20paciente,%0A%20favor%20env%C3%ADe%20su%20consulta%20relacionada%20al%20pago%20de%20su%20cuenta%20hospitalaria.%20%0A%20Saludos%20cordiales%20%0A%20%0A%20Atte.%20Contact%20Center%20%0A%20Cl%C3%ADnica%20D%C3%A1vila%20%0A%20Fono:%2022730800%20opci%C3%B3n%202";
 
-   window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta%20&body=Id_Admision:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+   window.location.href = "mailto:francis.Castillo@davila.cl?subject=Pago%20de%20Cuenta%20&body=Id_Admision:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
 
  }
     </script>
