@@ -83,26 +83,26 @@
                               </div>
 
                             <div class="videoWrapper">        
-                            <iframe width="400" height="320" src="{{asset('/files/cdavilabanmedica.mp4')}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="380" height="300" src="{{asset('/files/cdavilabanmedica.mp4')}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                               <div class="card">     
                             <div class="card-body">
 
-                                <p> <h4> El N° de admisión correspondiente a su cuenta es:  </h4> <h4 id="dato1" class="dato1"> </h4></p> 
+                                <p> <h5> El N° de admisión correspondiente a su cuenta es:  </h5> <h5 id="dato1" class="dato1"> </h5></p> 
                               
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
                               <!-- <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>-->
 
-                                 <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2">LLÁMANOS</a>
+                                 <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-10 mt-2">LLÁMANOS</a>
 
-                                  <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2">ESCRÍBENOS</a>
+                                  <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-10 mt-2">ESCRÍBENOS</a>
 
-                               <div class="d-flex justify-content-around align-content-center mt-4">
+                               <!--<div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
-                                </div>
+                                </div>-->
 
                                 
                                </div>
