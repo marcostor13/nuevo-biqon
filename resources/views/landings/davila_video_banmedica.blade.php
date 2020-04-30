@@ -94,11 +94,11 @@
 
                               <!-- <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>-->
-<center>
+                              <center>
                                  <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-10 mt-2">LLÁMANOS</a>
 
                                   <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-10 mt-2">ESCRÍBENOS</a>
-</center>
+                              </center>
                                <!--<div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
