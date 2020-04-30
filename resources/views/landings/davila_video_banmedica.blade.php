@@ -83,7 +83,7 @@
                               </div>
 
                             <div class="videoWrapper">        
-                            <iframe width="380" height="300" src="{{asset('/files/cdavilabanmedica.mp4')}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="400" height="320" src="{{asset('/files/cdavilabanmedica.mp4')}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                               <div class="card">     
                             <div class="card-body">
