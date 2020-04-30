@@ -78,7 +78,7 @@
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h3> <center>
                                 <p class="text-white"> <h4> 
-                                 Clinica Davila te informa que puedes acceder a la página web de tu isapre para comprar tus bonos GES</h4> <br> <h5>Mira como en el siguiente vídeo </h5></p> </center>
+                                 Clinica Davila te informa que puedes acceder a la página web de tu isapre para comprar tus bonos GES</h4> <br> <h5>Mira como, en el siguiente vídeo </h5></p> </center>
                                 </div>
                               </div>
 
