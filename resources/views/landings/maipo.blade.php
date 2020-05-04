@@ -80,7 +80,7 @@ $name = $_GET['NOMBRE'];
                 <h5 class="text-black text-center">Estimado (a) <strong><span><?php echo $name; ?></span></strong></h5>
 
                 <h5><p class="text-black">
-                  Te queremos informar que nos encontramos tramitando una demanda por una deuda con <strong> Ruta del Maipo Sociedad Concesionaria S.A </strong> <a href="http://bit.ly/2kAAUJB">www.rutamaipo.cl.</a> Entendiendo el momento que actualmente estamos viviendo queremos ofrecer las siguientes alternativas:
+                  Te informamos que nos encontramos tramitando una demanda por una deuda con Ruta del Maipo Sociedad Concesionaria S.A. </strong> <a href="http://bit.ly/2kAAUJB">www.rutamaipo.cl.</a> Entendiendo el momento que actualmente estamos viviendo y que necesitamos de cada uno para avanzar, queremos ofrecer las siguientes alternativas:
                 </p></h5>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
@@ -89,9 +89,11 @@ $name = $_GET['NOMBRE'];
                 </div>-->
                 <button onclick="sendMail('Solicito pagar en Cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar en Cuotas</button>
 
-                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-dark text-white col-12 mt-4">Deseo que me Contacten</button>
+                <button onclick="sendMail('Solicito pagar en Cuotas con descuento'); eventosLanding('Cuotas con Descuento'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar en Cuotas con Descuento</button>
 
-                <button onclick="sendMail('No quiero llegar a un acuerdo de pago'); eventosLanding('Sin Acuerdo'); return false;" class="btn bg-dark text-white col-12 mt-4">No quiero llegar a un acuerdo</button>
+                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-dark text-white col-12 mt-4">Quiero que me Contacten</button>
+
+                <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4">El teléfono no corresponde </button>
                 
                 
                 <div class="d-flex justify-content-around align-content-center mt-2"> 
