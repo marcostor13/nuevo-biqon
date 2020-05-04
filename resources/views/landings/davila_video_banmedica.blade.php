@@ -88,7 +88,7 @@
                               <div class="card">     
                             <div class="card-body">
 
-                                <p> <h5> El N° de admisión correspondiente a su cuenta es:  </h5> <h5 id="dato1" class="dato1"> </h5></p> 
+                               <!-- <p> <h5> El N° de admisión correspondiente a su cuenta es:  </h5> <h5 id="dato1" class="dato1"> </h5></p>--> 
                               
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
