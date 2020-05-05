@@ -92,7 +92,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br>
                 </div>
-
+                <br>
                  <div class="row">
                  <div class="col">  
                 <a  href="https://maps.app.goo.gl/KjBS3At284ux1A2C8"><img  width="40" src="https://icon-library.net/images/google-map-logo-icon/google-map-logo-icon-5.jpg" /></a> 
