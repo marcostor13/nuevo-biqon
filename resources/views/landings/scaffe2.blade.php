@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'SCoffe')
+@section('title', 'Pastelería Sweet Coffee')
 
 @section('content')
 <?php
@@ -76,7 +76,8 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont1" class="p-5 ">
                     <div class="title text-center">
                         <h3 class="dark-blue-text text-center">
-                          Reserva un exquisito Cheesecascke de mora o de frutilla, Tartaletas de frutas y Pie de Limón. Despacho a pedidos solo días sábados. (porción para 10 personas).</h3>
+                          Reserva un exquisito Cheesecascke de mora o de frutilla, Tartaletas de frutas y Pie de Limón. Despacho a pedidos solo días sábados. (porción para 10 personas).
+                          <br>consultas a través de Correo Electrónico y Whatsapp</h3>
 
 
                   <div id="myCarousel" class="carousel slide" data-ride="carousel">
