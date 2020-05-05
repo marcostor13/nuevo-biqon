@@ -67,9 +67,9 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/a1ITnT4.jpg" alt="simple">
 
-                <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <!--<a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
                 <br>
                 </div>
                 <div>
@@ -77,9 +77,9 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/JifbUix.jpg" alt="simple">
 
-                <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <!--<a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
                 <br>
                 </div>
                 <div>
@@ -87,9 +87,9 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/anQoA5Z.jpg" alt="simple">
 
-                <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+              <!--  <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
                 <br>
                 </div>
                 <br>
