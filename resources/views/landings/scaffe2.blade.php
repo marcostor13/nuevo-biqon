@@ -51,19 +51,50 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
 </style>
-    <div id="SCoffe" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: repeat; background-size: cover;" >
+   <!-- <div id="SCoffe" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: repeat; background-size: cover;" >-->
 
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 90%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="SCoffe">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="SCoffe">
 
             <div id="cont1" class="p-5 ">
                     <div class="title text-center">
                         <h2 class="dark-blue-text text-center">
-                          <br> <strong>  Síguenos en Instagram <br> y adquiere esta promoción!
+                          <br> <strong> 
                   </strong>Reserva un exquisito Cheesecascke de mora o de frutilla, Tartaletas de frutas y Pie de Limón. Despacho a pedidos solo días sábados. (porción para 10 personas).</h2>
-                    <br><br><br>
+                    <br>
+                    <div>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/x5fCwx0.jpg" alt="simple">             
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/a1ITnT4.jpg" alt="simple">
+
+                <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+
+                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <br>
+                </div>
+                <div>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VMP6Riq.jpg" alt="simple">             
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/JifbUix.jpg" alt="simple">
+
+                <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+
+                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <br>
+                </div>
+                <div>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/xzGTqdC.jpg" alt="simple">             
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/anQoA5Z.jpg" alt="simple">
+
+                <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+
+                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <br>
+                </div>
+                
                  <div class="row">
                  <div class="col">  
                 <a  href="https://maps.app.goo.gl/KjBS3At284ux1A2C8"><img  width="40" src="https://icon-library.net/images/google-map-logo-icon/google-map-logo-icon-5.jpg" /></a> 
