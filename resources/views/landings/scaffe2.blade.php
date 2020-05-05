@@ -62,36 +62,70 @@ $enddate=strtotime("+5 days", $startdate);
                     <div class="title text-center">
                         <h3 class="dark-blue-text text-center">
                           Reserva un exquisito Cheesecascke de mora o de frutilla, Tartaletas de frutas y Pie de Limón. Despacho a pedidos solo días sábados. (porción para 10 personas).</h3>
-                    <div>
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/x5fCwx0.jpg" alt="simple">             
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/a1ITnT4.jpg" alt="simple">
 
-                <!--<a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+     <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li><!--
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>
+        <li data-target="#myCarousel" data-slide-to="9"></li>-->
+    </ol> 
 
-                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
-                <br>
-                </div>
-                <div>
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VMP6Riq.jpg" alt="simple">             
+    <!-- Wrapper for slides -->
+     <div class="carousel-inner">
+        <div class="item active">
+            <img src="https://i.imgur.com/VMP6Riq.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/JifbUix.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/a1ITnT4.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/x5fCwx0.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/xzGTqdC.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/anQoA5Z.jpg" alt="">
+        </div>
+       <!-- <div class="item">
+            <img src="https://i.imgur.com/ffFqOZV.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/2CHHy41.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/dWn1nBG.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/Ry5jv4g.jpg" alt="">
+        </div>-->
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/JifbUix.jpg" alt="simple">
+    </div>
 
-                <!--<a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+    <!-- Controls -->
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 
-                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
-                <br>
-                </div>
-                <div>
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/xzGTqdC.jpg" alt="simple">             
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/anQoA5Z.jpg" alt="simple">
-
-              <!--  <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-
-                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
-                <br>
-                </div>
                 <br>
                  <div class="row">
                  <div class="col">  
