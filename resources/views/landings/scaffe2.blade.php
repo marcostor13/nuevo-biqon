@@ -101,10 +101,10 @@ $enddate=strtotime("+5 days", $startdate);
                 <a  href="https://www.instagram.com/cafeteriasweetcoffee/"><img  width="40" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" /></a>
                 </div>
                  <div class="col">  
-                <a  href="mailto:cortezjesus01@gmail.com?subject=promoción%20de%20Pasteles"><img  width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg" /></a> 
+                <a  href="mailto:cafeteriasweetcoffee2019@gmail.com?subject=promoción%20de%20Pasteles"><img  width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg" /></a> 
                 </div>
                 <div class="col">
-                <a  href="https://api.whatsapp.com/send?phone=+56983106646&text=Hola,%20estoy%20interesado%20en%20Reservar%20"><img  width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png" /></a>
+                <a  href="https://api.whatsapp.com/send?phone=+56975885064&text=Hola,%20estoy%20interesado%20en%20Reservar%20"><img  width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png" /></a>
                 </div>
                  </div> 
                 
