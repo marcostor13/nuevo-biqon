@@ -88,8 +88,8 @@ $name = $_GET['NOMBRE'];
                             En estos difíciles días que estamos pasando en el país,</strong> <strong class="text-primary">FINANCOOP</strong><strong>, tiene un Crédito refinanciamiento con dinero disponible </strong><strong class="text-primary">para los socios al día</strong></h5>
                                   <h5> <strong> 
                               <br>* Nuevo monto de crédito $ 1.600.000<br>
-                              <br>* Plazo 90  días, descuento en Junio<br>
-                              <br>* Créditos socios nuevos o Compras de cartera hasta $ 1.500.000<br>
+                              <br>* Plazo 90  días, descuento en Julio<br>
+                              <!--<br>* Créditos socios nuevos o Compras de cartera hasta $ 1.500.000<br>-->
                               <br>* Enviar foto por WhatsApp de Ultima Liquidación de Sueldo + C. de Identidad + Comprobante de Domicilio<br>
                                    </strong> </h5>
                                </p></h4>
@@ -358,7 +358,7 @@ $name = $_GET['NOMBRE'];
              timer: 5000
         }, 
         function(){
-             window.location.href = "tel:+56951492591";
+             window.location.href = "tel:+56951492592";
         })
 
 
@@ -366,14 +366,14 @@ $name = $_GET['NOMBRE'];
         
           function Mens1(){
 
-        window.location.href ="tel:+56951492591";
+        window.location.href ="tel:+56951492592";
     
         } 
 
 
     function Mens2(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56951492591&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56951492592&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
