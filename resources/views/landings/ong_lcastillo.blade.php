@@ -7,7 +7,7 @@
 <?php
 //$startdate=strtotime("Today");
 //$startdate=('Y-m-d\TH:i:s');
-$name = $_GET['NOMBRE'];
+//$name = $_GET['NOMBRE'];
 //$enddate=strtotime("+5 days", $startdate);
 //$enddate=('Y-m-d\TH:i:s');
 ?>
@@ -83,7 +83,7 @@ $name = $_GET['NOMBRE'];
                     <div id="cont2" class="p-2 pl-3 pr-3">
                         <div class="card">     
                             <div class="card-body">
-                                <h4 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h4>
+                                <h4 class="text-grey text-center"> Estimado(a)  Socio<strong>   <!--<span><?php //echo $name; ?></span>--->  </strong> </h4>
                           <p class="text-grey"> <h5> <strong> 
                             En estos difíciles días que estamos pasando en el país,</strong> <strong class="text-primary">FINANCOOP</strong><strong>, tiene un Crédito refinanciamiento con dinero disponible </strong><strong class="text-primary">para los socios al día</strong></h5>
                                   <h5> <strong> 
