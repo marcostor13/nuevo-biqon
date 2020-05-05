@@ -88,8 +88,8 @@ $name = $_GET['NOMBRE'];
                             En estos difíciles días que estamos pasando en el país,</strong> <strong class="text-primary">FINANCOOP</strong><strong>, tiene un Crédito refinanciamiento con dinero disponible </strong><strong class="text-primary">para los socios al día</strong></h5>
                                   <h5> <strong> 
                               <br>* Nuevo monto de crédito $ 1.600.000<br>
-                              <br>* Plazo 90  días, descuento en Junio<br>
-                              <br>* Créditos socios nuevos o Compras de cartera hasta $ 1.500.000<br>
+                              <br>* Plazo 90  días, descuento en Julio<br>
+                              <!--<br>* Créditos socios nuevos o Compras de cartera hasta $ 1.500.000<br>-->
                               <br>* Enviar foto por WhatsApp de Ultima Liquidación de Sueldo + C. de Identidad + Comprobante de Domicilio<br>
                                    </strong> </h5>
                                </p></h4>
