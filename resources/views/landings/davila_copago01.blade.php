@@ -84,25 +84,43 @@
                                <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>
 
+
+                                 <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2"><!--<img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">-->LLÁMANOS</a>
+
+
+                                  <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"><!--<img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">-->ESCRÍBENOS</a>
+
+
                               <!--  <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="250" src="https://i.imgur.com/8icgXNz.png"></a>-->
-                                </div>
 
-                                <div class="d-flex justify-content-around align-content-center mt-4">
+                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='Mens1(); eventosLanding("Pagar"); '>
                                     <img width="150" src="https://i.imgur.com/2MYzfWg.png"></a>
                                 </div>
+
                                 
+                                </div>
+
+                               
                                 <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE 
                                     <img width="200" src="https://i.imgur.com/rFQ2FWM.png">
                                 </button>-->
                                     <div class="d-flex justify-content-around align-content-center mt-4">
                                                        
-                                    <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                                    
-                      <a onclick="eventosLanding('Correo');" href="mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Escribe aquí si tienes preguntas"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                                     </div>
+                                <!--  <a onclick="eventosLanding('Correo');" href="mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Escribe aquí si tienes preguntas"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
+                                   <div class="d-flex justify-content-around align-content-center mt-4">  
+ <!--<a href = "mailto:miemail@gmail.com??subject=Pago%20de%20Cuenta&body=Escribe aquí si tienes preguntas".id_adm;><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>-->
+  
+
+                                    </div>
+
+                               
+                                
+
                             </div>   
                         </div>
                     </div>
@@ -115,20 +133,6 @@
                             </div>
                         </div>
                     </div>
-                    <div id="cont4" class="p-2 pl-5 pr-5 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                        <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='Mens1(); '>
-                                    <img width="200" src="https://i.imgur.com/hw0CNnw.png"></a>
-                                </div>
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='window.location.href="http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/" '>
-                                    <img width="200" src="https://i.imgur.com/rFQ2FWM.png"></a>
-                                </div>
-                                </div>
-                        </div>
-                    </div>
                 </div>
             </div>
        </div>
@@ -137,13 +141,7 @@
 
   <script>
    //EVENT 1
-   $(function(){
-        var id_adm; 
-         id_adm= getUrlParameter('data1'); 
-          $('#dato1').text(id_adm);
-  });
-
-   
+        
         $(function(){
             events({    
                 'name': 'Visita',
@@ -201,8 +199,8 @@
             
             let json_datos = getAllUrlParameter(); 
 
-           // json_datos.nombre = $('#name').text();
-           // json_datos.monto = $('#pay').text();
+            json_datos.nombre = $('#name').text();
+            json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -226,9 +224,9 @@
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                     'Id_Admision': getUrlParameter('data1'),
-                    'Liquidacion': getUrlParameter('data2'),
-                    'Clasificacion': getUrlParameter('data3'),
-                    'Cuentas': getUrlParameter('data5'),
+                    'Prevision': getUrlParameter('data2'),
+                    //'Clasificacion': getUrlParameter('data3'),
+                    'Cuentas': getUrlParameter('data3'),
                     'Landing': '{!! $landing->name !!}'
                     
                 }
@@ -241,9 +239,9 @@
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                     'Id_Admision': getUrlParameter('data1'),
-                    'Liquidacion': getUrlParameter('data2'),
-                    'Clasificacion': getUrlParameter('data3'),
-                    'Cuentas': getUrlParameter('data5'),
+                    'Prevision': getUrlParameter('data2'),
+                    //'Clasificacion': getUrlParameter('data3'),
+                    'Cuentas': getUrlParameter('data3'),
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
@@ -372,10 +370,27 @@
 
 
      function Mens2(){
-     $('#cont2').addClass('hide');
-     $('#cont4').removeClass('hide');
-
+       var id_adm; 
+         id_adm= getUrlParameter('data1'); 
+         var rut; 
+         rut= getUrlParameter('rut'); 
+   window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Id Admision: "+id_adm+"   RUT:  "+rut;
         } 
+
+
+          function Mens2(){
+       var id_adm; 
+         id_adm= getUrlParameter('data1'); 
+         var rut; 
+         rut= getUrlParameter('rut');
+
+        // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
+
+         var body_message = "%0A%20Estimado%20paciente,%0A%20favor%20env%C3%ADe%20su%20consulta%20relacionada%20al%20pago%20de%20su%20cuenta%20hospitalaria.%20%0A%20Saludos%20cordiales%20%0A%20%0A%20Atte.%20Contact%20Center%20%0A%20Cl%C3%ADnica%20D%C3%A1vila%20%0A%20Fono:%2022730800%20opci%C3%B3n%202";
+
+   window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta%20&body=Id_Admision:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+
+ }
     </script>
     
 
