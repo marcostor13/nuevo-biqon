@@ -88,7 +88,7 @@
 
                                <!-- <a onclick="eventosLanding('Consulta'); window.location.href='mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna' "; class="btn bg-danger text-black col-12 mt-4">CONSULATAS</a>-->
                                <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna" ; eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-4">
-                                <img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"> </a>
+                                <img width="30" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png">CONSULTAS </a>
                                 <!--<button onclick='window.location.href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna" ; eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-4">CONSULTAS
                                   </button>-->
                               <!--</div>-->
