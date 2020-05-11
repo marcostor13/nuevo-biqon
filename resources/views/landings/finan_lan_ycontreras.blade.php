@@ -90,7 +90,7 @@ $name = $_GET['NOMBRE'];
                               <br>* El Convenio se encuentra  activado<br>
                               <br>* Crédito pre aprobado<br>
                               <br>* Descuento por Planilla<br>
-                              <br>* Enviar foto por WhatsApp de Ultima Liquidación de Sueldo + C. de Identidad + Comprobante de Domicilio<br>
+                              <br>* Enviar foto por WhatsApp de las Ultimas 3 Liquidaciones de Sueldo + C. de Identidad + Comprobante de Domicilio<br>
 
                                 <button onclick="Mens1(); eventosLanding('Llamar');" class="btn bg-primary text-white col-12 mt-2">LLAMAR A EJECUTIVO</button>
 
