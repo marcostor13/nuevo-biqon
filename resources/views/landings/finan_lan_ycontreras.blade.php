@@ -383,7 +383,7 @@ function Mens4(){
          Nombre= getUrlParameter('Nombre'); 
          var Telefono; 
          Telefono= getUrlParameter('Telefono'); 
-   window.location.href = "mailto:yasna.contreras@financoop.cl?subject=Necesito%20Informacion&body=RUT:  "+rut+" Nombre: "+Nombre+" Telefono: "+Telefono;
+   window.location.href = "mailto:yasna.contreras@financoop.cl?subject=Necesito%20Informacion&body=Nombre: "+Nombre+" Telefono: "+Telefono;
  }
     </script>
     
