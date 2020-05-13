@@ -55,9 +55,9 @@
 
                 <img class="img-fluid col-6 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
 
-                <a onclick="port1();" class="btn bg-danger text-white col-6 mt-2">Comprar</a>
+                <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-                <a onclick="port2();" class="btn bg-danger text-white col-6 mt-2">Comprar</a>
+                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
                 <br>
                 
