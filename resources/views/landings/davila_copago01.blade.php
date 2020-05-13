@@ -6,7 +6,7 @@
 <?php
 //$startdate=strtotime("Today");
 //$startdate=('Y-m-d\TH:i:s');
-//$name = $_GET['DATA1'];
+$name = $_GET['DATA1'];
 //$enddate=strtotime("+5 days", $startdate);
 //$enddate=('Y-m-d\TH:i:s');
 ?>
@@ -84,7 +84,7 @@
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h3>
                                  <p class="text-white"> <h4> 
                                  Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
-                                <p> El N° de admisión correspondiente a su cuenta es: <!-- <h4 id="dato1" class="dato1"> <span><?php echo $name; ?></span> </h4> --></p> 
+                                <p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> <span><?php echo $name; ?></span> </h4></p> 
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
 
