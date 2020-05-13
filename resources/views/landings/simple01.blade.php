@@ -94,7 +94,7 @@
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0eaFUx0.png" alt="simple">
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
-                
+                <br>
                 <a onclick="nuev3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
                 <a onclick="nuev4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
