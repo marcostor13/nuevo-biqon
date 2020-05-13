@@ -293,7 +293,7 @@ $enddate=strtotime("+5 days", $startdate);
    // var id_adm; 
         // id_adm= getUrlParameter('data1'); //1234;
            $('#cont2').addClass('hide');
-            $('#cont5').removeClass('hide');
+            $('#cont6').removeClass('hide');
            // swal({
            //  title: `Para Comunicarse, seleccione la opcion 2`,
              //text: "Expandir la Pantalla",
@@ -313,12 +313,12 @@ $enddate=strtotime("+5 days", $startdate);
 
     function Mens6(){
    
-             window.location.href = "tel:60055060000";
+             window.location.href = "https://www.multicaja.cl/";
         } 
 
     function Mens5(){
    
-             window.location.href = "tel:60055060000";
+             window.location.href = "www.sencillito.com";
         } 
 
 
