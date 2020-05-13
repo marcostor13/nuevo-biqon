@@ -63,11 +63,11 @@
                 </div>
 
                 <div>
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">            
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
-                
-                <a onclick="port3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-                <a onclick="port4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">            
+                <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+
+                <a onclick="port3();" class="btn bg-danger text-white col-10 mt-2">Comprar</a>
+                <a onclick="port4();" class="btn bg-danger text-white col-10 mt-2">Comprar</a>
                 <br>
                </div>
                <a onclick="p0();" class="btn bg-danger text-white col-5 mt-2">ATRAS</a>
@@ -107,7 +107,7 @@
 
                 <br>
                </div>
-               <a onclick="p0();" class="btn bg-danger text-white col-5 mt-2">ATRAS</a>
+               <a onclick="p0();" class="btn bg-danger text-white col-12 mt-2">ATRAS</a>
 
             </div>
 <!-- PORTABILIDAD-->
@@ -212,7 +212,7 @@
 
 
         </div>
-        <a onclick="p0();" class="btn bg-danger text-white col-5 mt-2">ATRAS</a>
+        <a onclick="p0();" class="btn bg-danger text-white col-12 mt-2">ATRAS</a>
     </div>
 </div>
 
