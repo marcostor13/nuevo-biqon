@@ -62,19 +62,19 @@
                 </div>
  <!--<img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple" onclick="port1();"> -->
 
-                <div>
+                <div class="col-md-6"> <center>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple" onclick="port3();">            
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple" onclick="port4();" >
 
                <!-- <a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <a class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
-                <br>
+                <br>  </center>
                </div>
                <a onclick="p0();" class="btn bg-danger text-white col-5 mt-2">ATRAS</a>
             </div>
 
             <div  id="cont6" class="p-2 pl-3 pr-3 hide">
-                <div class="align-items-center">
+                <div class="col-md-6"> <center>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple" onclick="nuev1();">
                 
 
@@ -82,11 +82,10 @@
 
                <!--<a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
-                <br>
+                <br> </center>
                 </div>
 
-               <div class="align-items-center">
-                <span class="col-2"></span>
+              <div class="col-md-6"> <center>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0eaFUx0.png" alt="simple" onclick="nuev3();">
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple" onclick="nuev4();">
@@ -94,11 +93,10 @@
                 <!--<a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
                 <a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
-                <br>
+                <br> </center>
                </div>
 
-               <div class="align-items-center">
-               <!-- <span class="col-5"></span>--> <center>
+               <div class="col-md-6"> <center>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple" onclick="nuev5();"> <br>
                 <!--<span class="col-5"></span>
                 <a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
