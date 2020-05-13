@@ -42,23 +42,24 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">  De forma rápida y segura </h3>
 
                  <div class="date btn bg-primary text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/512px-Google_Calendar_icon.svg.png"> 
+ <span>AGENDAR COMPROMISO DE PAGO</span> <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
 
-                <button onclick='window.location.href="https://pagofacil.hites.com/"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR ONLINE</button>
+                <button onclick='window.location.href="https://pagofacil.hites.com/"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4"> <img width="30" src="https://image.flaticon.com/icons/png/512/712/712742.png"> PAGAR ONLINE</button>
 
-                <button onclick='mas(); eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">VER CANALES DE PAGO</button>
+                <button onclick='mas(); eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4"> <img width="30" src="https://www.pngkey.com/png/full/961-9610665_icono-cuentas-por-pagar-icono-cuentas-por-pagar.png">  VER CANALES DE PAGO</button>
 
-                <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2"><img width="30" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"> LLÁMANOS</a>
+                <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2"> <img width="30" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"> LLÁMANOS</a>
 
-                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"><img width="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"> ESCRÍBENOS</a>
+                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"> <img width="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"> ESCRÍBENOS</a>
 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4"><img width="30" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Light_green_check.svg"> YA PAGUE</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4"> <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Light_green_check.svg"> YA PAGUE</button>
             </div>
             
-
-        </div>
+<!--<img width="30" src="https://image.flaticon.com/icons/png/512/712/712742.png">
+<img width="30" src="https://www.pngkey.com/png/full/961-9610665_icono-cuentas-por-pagar-icono-cuentas-por-pagar.png">
+  -->      </div>
 
         <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
