@@ -25,7 +25,7 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Hites">
 
 
-            <div id="cont1" class="p-5 hide">
+            <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4"> Validar </button>
@@ -38,7 +38,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
         </div>
-            <div id="cont2"  class="p-4 "><!--hide-->
+            <div id="cont2"  class="p-4 hide"><!--hide-->
                    <h3 class="text-black text-center"> <strong> <span id="name"></span> </strong></h3>
                     <h3 class="text-black text-center"> <strong> Con Hites, ahora es mas Fácil Pagar tu cuenta </strong> </h3>
                 
@@ -293,7 +293,7 @@ $enddate=strtotime("+5 days", $startdate);
    // var id_adm; 
         // id_adm= getUrlParameter('data1'); //1234;
            $('#cont2').addClass('hide');
-            $('#cont5').removeClass('hide');
+            $('#cont6').removeClass('hide');
            // swal({
            //  title: `Para Comunicarse, seleccione la opcion 2`,
              //text: "Expandir la Pantalla",
@@ -313,12 +313,12 @@ $enddate=strtotime("+5 days", $startdate);
 
     function Mens6(){
    
-             window.location.href = "tel:60055060000";
+             window.location.href = "https://www.multicaja.cl/";
         } 
 
     function Mens5(){
    
-             window.location.href = "tel:60055060000";
+             window.location.href = "www.sencillito.com";
         } 
 
 
