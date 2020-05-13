@@ -56,9 +56,9 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <button onclick='window.location.href="https://pagofacil.hites.com/"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4"> <img width="30" src="https://image.flaticon.com/icons/png/512/712/712742.png"> PAGAR ONLINE</button>
 
-                <button onclick='mas(); eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4"> <img width="30" src="https://www.pngkey.com/png/full/961-9610665_icono-cuentas-por-pagar-icono-cuentas-por-pagar.png">  VER CANALES DE PAGO</button>
+                <button onclick='Mas(); eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4"> <img width="30" src="https://www.pngkey.com/png/full/961-9610665_icono-cuentas-por-pagar-icono-cuentas-por-pagar.png">  VER CANALES DE PAGO</button>
 
-                <button onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2"> <img width="30" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"> LLÁMANOS</button>
+                <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2"> <img width="30" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"> LLÁMANOS</a>
 
                 <button onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"> <img width="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"> ESCRÍBENOS</button>
 
@@ -79,7 +79,24 @@ $enddate=strtotime("+5 days", $startdate);
             <!--<div class=" tagline w3-center w3-animate-top black-text">Binteraction.com</div>-->
         
     <!--</div>-->
+            <div id="cont6" class="p-2 pl-3 pr-3 hide">
+                     <div class="text-black col-md-12">
+                    <!--<h5 class="text-grey text-center"> ENERGIA - CARGADORES</h5> -->      
+                <div>
+                    <label>SENCILLITO</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://web.costaneranorte.cl/wp-content/uploads/2019/08/logo_sencillitocom_new2.png" alt="sencillito">
+                 </div> 
+                    <button  onclick="eventosLanding('SENCILLITO'); Mens6();" class="btn bg-primary text-white col-12 mt-2">Confirmar</button>
 
+                    <div>
+                    <label>MULTICAJA</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://www.multicaja.cl/image/layout_set_logo?img_id=68720&t=1588213540367" alt="multicaja">
+                    <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+                 </div> 
+                    <button  onclick="eventosLanding('MULTICAJA'); Mens5();" class="btn bg-primary text-white col-12 mt-2">Confirmar</button>
+
+                </div>
+            </div>
    
      <script>
    //EVENT 1
@@ -272,23 +289,38 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-      
-         function Mens(){
+        function Mas(){
    // var id_adm; 
         // id_adm= getUrlParameter('data1'); //1234;
-          
-            swal({
-             title: `Para Comunicarse, seleccione la opcion 2`,
+           $('#cont2').addClass('hide');
+            $('#cont5').removeClass('hide');
+           // swal({
+           //  title: `Para Comunicarse, seleccione la opcion 2`,
              //text: "Expandir la Pantalla",
-             type: "success",
-             timer: 5000
-        }, 
-        function(){
-             window.location.href = "tel:60055060000";
-        })
+           //  type: "success",
+           //  timer: 5000
+       // }, 
+       // function(){
+       // })
 
 
         } 
+      
+         function Mens(){
+   
+             window.location.href = "tel:60055060000";
+        } 
+
+    function Mens6(){
+   
+             window.location.href = "tel:60055060000";
+        } 
+
+    function Mens5(){
+   
+             window.location.href = "tel:60055060000";
+        } 
+
 
 
       function Mens2(){
