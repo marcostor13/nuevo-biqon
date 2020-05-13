@@ -404,6 +404,7 @@
         $('#cont2').addClass('hide');
         $('#form').removeClass('hide'); 
         $('#CONT').removeClass('hide');
+        $('#actual').addClass('hide');
 
  }
 
@@ -496,35 +497,30 @@
 
  function p0(){
 
-  $('#cont7').addClass('hide');
-  $('#cont6').addClass('hide');
-  $('#form').addClass('hide');
-  $('#cont2').removeClass('hide');
-                       //$('#message').removeClass('hide');
-                    // $('#cont2').addClass('hide');
-                    // $('#cont7').addClass('hide');
-                     //$('#cont6').addClass('hide');
-                     $('#port4').addClass('hide');
-                     $('#port3').addClass('hide');
-                     $('#port2').addClass('hide');
-                     $('#port1').addClass('hide');
-                     $('#nuev5').addClass('hide');
-                     $('#nuev4').addClass('hide');
-                     $('#nuev3').addClass('hide');
-                     $('#nuev2').addClass('hide');
-                     $('#nuev1').addClass('hide');
-                     $('#port44').addClass('hide');
-                     $('#port33').addClass('hide');
-                     $('#port22').addClass('hide');
-                     $('#port11').addClass('hide');
-                     $('#nuev55').addClass('hide');
-                     $('#nuev44').addClass('hide');
-                     $('#nuev33').addClass('hide');
-                     $('#nuev22').addClass('hide');
-                     $('#nuev11').addClass('hide');
-                    // $('#form').addClass('hide');
-                     $('#actual').addClass('hide');
-                    $('#cont3').addClass('hide');
+    $('#cont7').addClass('hide');
+    $('#cont6').addClass('hide');
+    $('#form').addClass('hide');
+    $('#cont2').removeClass('hide');
+    $('#port4').addClass('hide');
+    $('#port3').addClass('hide');
+    $('#port2').addClass('hide');
+    $('#port1').addClass('hide');
+    $('#nuev5').addClass('hide');
+    $('#nuev4').addClass('hide');
+    $('#nuev3').addClass('hide');
+    $('#nuev2').addClass('hide');
+    $('#nuev1').addClass('hide');
+    $('#port44').addClass('hide');
+    $('#port33').addClass('hide');
+    $('#port22').addClass('hide');
+    $('#port11').addClass('hide');
+    $('#nuev55').addClass('hide');
+    $('#nuev44').addClass('hide');
+    $('#nuev33').addClass('hide');
+    $('#nuev22').addClass('hide');
+    $('#nuev11').addClass('hide');
+    $('#actual').addClass('hide');
+    $('#cont3').addClass('hide');
  }
 
 
