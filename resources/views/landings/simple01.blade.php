@@ -80,7 +80,7 @@
 <!-- PORTABILIDAD-->
             <div id="form" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
-                            <div class="card-body">
+                            <div class="card-body"> <center>
                         <div id="port1" class="p-2 pl-3 pr-3 hide">
                         <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
                         </div> 
@@ -108,7 +108,7 @@
                         </div>
                         <div id="nuev5" class="p-2 pl-3 pr-3 hide">
                         <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple">
-                        </div>
+                        </div></center>
                     <div class="d-flex justify-content-between">
 
                     <div class="md-form col-6  m-0">
