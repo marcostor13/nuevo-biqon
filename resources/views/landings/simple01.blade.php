@@ -51,11 +51,10 @@
 
             <div  id="cont7" class="p-2 pl-3 pr-3 hide">
                 <div> <center>
-                <img class="img-fluid col-6 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">             
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">     
+                <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>        
 
-                <img class="img-fluid col-6 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
-
-                <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
 
                 <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
