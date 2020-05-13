@@ -19,7 +19,7 @@ $enddate=strtotime("+5 days", $startdate);
 
     <!--<div id="Hites" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
-        <div class="opaco"></div>
+       <!-- <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Hites">
@@ -37,7 +37,7 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-        </div>
+        </div>-->
             <div id="cont2"  class="p-4 hide"><!--hide-->
                    <h3 class="text-black text-center"> <strong> <span id="name"></span> </strong></h3>
                     <h3 class="text-black text-center"> <strong> Con Hites, ahora es mas Fácil Pagar tu cuenta </strong> </h3>
