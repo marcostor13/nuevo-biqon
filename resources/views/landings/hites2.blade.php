@@ -3,7 +3,10 @@
 @section('title', 'Hites')
 
 @section('content')
-
+<?php
+$startdate=strtotime("Today");
+$enddate=strtotime("+5 days", $startdate);
+?>
 <style>
 .opaco{
     display: none !important; 
@@ -16,6 +19,8 @@
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Hites">
+
+
             <div id="cont1" class="p-5 hide">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
@@ -36,26 +41,23 @@
 
                 <h3 class="text-black text-center">  De forma rápida y segura </h3>
 
-                <button onclick='window.location.href="#"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">AGENDAR COMPROMISO DE PAGO</button>
+                 <div class="date btn bg-primary text-white col-12 mt-4">
+                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
 
                 <button onclick='window.location.href="https://pagofacil.hites.com/"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR ONLINE</button>
 
-                <button onclick='window.location.href="#"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">VER CANALES DE PAGO</button>
+                <button onclick='mas(); eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">VER CANALES DE PAGO</button>
 
-                <button onclick='window.location.href="#"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">CONTACTAR</button>
+                <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">LLÁMANOS</a>
 
-                <button onclick='window.location.href="#"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">ESCRIBENOS</button>
+                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">ESCRÍBENOS</a>
 
-                <button onclick='window.location.href="#"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
             </div>
             
-<div class="d-flex justify-content-around align-content-center mt-4"> 
-                   <!-- <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
-                   
-                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:contacto@binteraction.com"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>-->
-                </div>
+
         </div>
 
         <div id="cont3" class="p-2 pl-3 pr-3 hide">
