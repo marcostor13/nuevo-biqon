@@ -37,7 +37,7 @@
                 <br>
             <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-danger text-white col-12 mt-2">WHATSAPP</a>
             <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-2">LLÁMANOS</a>
-            <a onclick="eventosLanding('Contacto'); Mens3();" class="btn bg-danger text-white col-12 mt-2">Te Llamamos</a>
+            <a onclick="eventosLanding('Contacto'); Mens3();" class="btn bg-danger text-white col-12 mt-2">TE LLAMAMOS</a>
             <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-2">ESCRÍBENOS</a>
                </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -51,13 +51,13 @@
 
             <div  id="cont7" class="p-2 pl-3 pr-3 hide">
                 <div> <center>
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">             
+                <img class="img-fluid col-6 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">             
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
+                <img class="img-fluid col-6 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
 
-                <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="port1();" class="btn bg-danger text-white col-6 mt-2">Comprar</a>
 
-                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <a onclick="port2();" class="btn bg-danger text-white col-6 mt-2">Comprar</a>
 
                 <br>
                 
@@ -111,7 +111,7 @@
 
                 <br>
                </div>
-
+               <a onclick="p0();" class="btn bg-danger text-white col-5 mt-2">ATRAS</a>
 
             </div>
 <!-- PORTABILIDAD-->
@@ -438,6 +438,17 @@
 
  }
 
+
+  function Mens3(){
+
+   //var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+
+   //window.location.href = "mailto:inttegrados@gmail.com?subject=Portabilidad%20Simple&body"+body_message;
+        $('#form').removeClass('hide');
+
+
+ }
+
  function activa(){
 
   $('#cont2').addClass('hide');
@@ -528,6 +539,7 @@
  function p0(){
 
   $('#cont7').addClass('hide');
+   $('#cont6').addClass('hide');
    $('#cont2').removeClass('hide');
  }
 
