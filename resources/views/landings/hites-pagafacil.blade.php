@@ -37,6 +37,8 @@
                 <h3 class="text-black text-center">  De forma rápida y segura </h3>
 
                 <button onclick='window.location.href="https://pagofacil.hites.com/"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGA FACIL</button>
+
+                <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2"> <img width="30" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"> LLÁMANOS</a>
             </div>
             
 <div class="d-flex justify-content-around align-content-center mt-4"> 
@@ -252,7 +254,10 @@
         };
 
       
-        
+          function Mens(){
+
+             window.location.href = "tel:60055060000"
+        } 
     
     </script>
     
