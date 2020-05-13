@@ -19,13 +19,13 @@ $enddate=strtotime("+5 days", $startdate);
 
     <!--<div id="Hites" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
-       <div class="opaco"></div>
+        <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Hites">
 
 
-          <!--  <div id="cont1" class="p-5 ">
+             <!--<div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4"> Validar </button>
@@ -36,8 +36,8 @@ $enddate=strtotime("+5 days", $startdate);
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
-                    </div>-->
-        </div>
+                    </div>
+        </div>-->
             <div id="cont2"  class="p-4 "><!--hide-->
                    <h3 class="text-black text-center"> <strong> <span id="name"></span> </strong></h3>
                     <h3 class="text-black text-center"> <strong> Con Hites, ahora es mas Fácil Pagar tu cuenta </strong> </h3>
@@ -333,7 +333,7 @@ $enddate=strtotime("+5 days", $startdate);
 
          var body_message = "%0A%20Estimado%20Cliente,%0A%20favor%20env%C3%ADe%20su%20consulta%20relacionada%20al%20pago%20de%20su%20cuenta%20.%20%0A%20Saludos%20cordiales%20%0A%20%0A%20Atte.%20Hites";
 
-   window.location.href = "mailto:jesus.binteraction@gmail.com?subject=Pago%20de%20Cuenta%20& "+body_message;
+   window.location.href = "mailto:jesus.binteraction@gmail.com?subject=Pago%20de%20Cuenta%20&body= "+body_message;
 
  }
 
