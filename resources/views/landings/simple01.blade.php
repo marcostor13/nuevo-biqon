@@ -53,24 +53,16 @@
                 <div class="col-md-6"> <center>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple" onclick="port1();" >     
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple" onclick="port2();">
-                <!-- <a  class="btn bg-danger text-white col-5 mt-2"> Comprar</a>   
-                <a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
-
-                <br>
-                
+             <!--  <br>
                 </center>
                 </div>
- <!--<img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple" onclick="port1();"> -->
 
-                <div class="col-md-6"> <center>
+                <div class="col-md-6"> <center>-->
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple" onclick="port3();">            
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple" onclick="port4();" >
-
-               <!-- <a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-                <a class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
                 <br>  </center>
                </div>
-               <a onclick="p0();" class="btn bg-danger text-white col-5 mt-2">ATRAS</a>
+               <a onclick="p0();" class="btn bg-danger text-white col-10 mt-2">ATRAS</a>
             </div>
 
             <div  id="cont6" class="p-2 pl-3 pr-3 hide">
