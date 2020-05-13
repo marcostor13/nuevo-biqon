@@ -256,7 +256,7 @@
       
           function Mens(){
 
-             window.location.href = "tel:60055060000"
+             window.location.href = "tel:6005506000"
         } 
     
     </script>
