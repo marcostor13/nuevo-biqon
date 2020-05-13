@@ -333,7 +333,7 @@ $enddate=strtotime("+5 days", $startdate);
 
          var body_message = "%0A%20Estimado%20Cliente,%0A%20favor%20env%C3%ADe%20su%20consulta%20relacionada%20al%20pago%20de%20su%20cuenta%20.%20%0A%20Saludos%20cordiales%20%0A%20%0A%20Atte.%20Hites";
 
-   window.location.href = "mailto:jesus.binteraction@gmail.com?subject=Pago%20de%20Cuenta%20&body=Id_Admision:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+   window.location.href = "mailto:jesus.binteraction@gmail.com?subject=Pago%20de%20Cuenta%20&";
 
  }
 
