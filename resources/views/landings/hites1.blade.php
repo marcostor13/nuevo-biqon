@@ -43,7 +43,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <h3 class="text-black text-center"> <strong> Con Hites, ahora es mas Fácil Pagar tu cuenta </strong> </h3>
                 
 
-               <p class="text-white">
+               <p class="text-black">
                     Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
                     <b>$ </b><b id="pay">$ 500</b>
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
