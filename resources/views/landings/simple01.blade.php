@@ -207,7 +207,7 @@
                     <div id="nuev55" class="p-2 pl-3 pr-3 hide">
                      <button  onclick="sendMail('LINEA NUEVA PLAN 5'); eventosLanding('LINEA NUEVA PLAN 5');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
-                    <div id="nuev55" class="p-2 pl-3 pr-3 hide">
+                    <div id="CONT" class="p-2 pl-3 pr-3 hide">
                      <button  onclick="sendMail('DESEO QUE ME LLAMEN'); eventosLanding('Contacto');" class="btn bg-danger text-white col-12 mt-4">CONTACTAR</button>
                     </div>
                 
@@ -448,8 +448,8 @@
 
    //window.location.href = "mailto:inttegrados@gmail.com?subject=Portabilidad%20Simple&body"+body_message;
         $('#cont2').addClass('hide');
-        $('#form').removeClass('hide');
-
+        $('#form').removeClass('hide'); 
+        $('#CONT').removeClass('hide');
 
  }
 
