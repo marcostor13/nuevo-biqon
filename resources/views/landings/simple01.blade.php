@@ -521,6 +521,7 @@
     $('#nuev11').addClass('hide');
     $('#actual').addClass('hide');
     $('#cont3').addClass('hide');
+    $('#CONT').addClass('hide');
  }
 
 
