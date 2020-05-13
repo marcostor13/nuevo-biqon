@@ -50,12 +50,11 @@
 
 
             <div  id="cont7" class="p-2 pl-3 pr-3 hide">
-                <div> <center>
+                <div class="col-md-6"> <center>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">     
                 <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>        
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
-
                 <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
                 <br>
@@ -65,11 +64,9 @@
 
                 <div>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">            
-
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
-
+                
                 <a onclick="port3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-
                 <a onclick="port4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br>
                </div>
@@ -215,6 +212,7 @@
 
 
         </div>
+        <a onclick="p0();" class="btn bg-danger text-white col-5 mt-2">ATRAS</a>
     </div>
 </div>
 
@@ -543,6 +541,7 @@
 
   $('#cont7').addClass('hide');
    $('#cont6').addClass('hide');
+    $('#form').addClass('hide');
    $('#cont2').removeClass('hide');
  }
 
