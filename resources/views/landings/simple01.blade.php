@@ -513,6 +513,15 @@
                      $('#nuev3').addClass('hide');
                      $('#nuev2').addClass('hide');
                      $('#nuev1').addClass('hide');
+                     $('#port44').addClass('hide');
+                     $('#port33').addClass('hide');
+                     $('#port22').addClass('hide');
+                     $('#port11').addClass('hide');
+                     $('#nuev55').addClass('hide');
+                     $('#nuev44').addClass('hide');
+                     $('#nuev33').addClass('hide');
+                     $('#nuev22').addClass('hide');
+                     $('#nuev11').addClass('hide');
                     // $('#form').addClass('hide');
                      $('#actual').addClass('hide');
                     $('#cont3').addClass('hide');
