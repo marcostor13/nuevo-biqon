@@ -67,7 +67,7 @@
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">            
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
-
+<br>
                 <a onclick="port3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
                 <a onclick="port4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
