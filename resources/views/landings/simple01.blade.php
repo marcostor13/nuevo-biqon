@@ -60,7 +60,7 @@
                 
                 </center>
                 </div>
- <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2"> <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple"> Comprar</a>  
+ <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple" onclick="port1();"> 
 
                 <div>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">            
