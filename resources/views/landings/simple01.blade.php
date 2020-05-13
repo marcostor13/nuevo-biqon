@@ -62,22 +62,20 @@
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple" onclick="port4();" >
                 <br>  </center>
                </div>
-               <a onclick="p0();" class="btn bg-danger text-white col-10 mt-2">ATRAS</a>
+               <a onclick="p0();" class="btn bg-danger text-white col-12 mt-2">ATRAS</a>
             </div>
 
             <div  id="cont6" class="p-2 pl-3 pr-3 hide">
                 <div class="col-md-6"> <center>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple" onclick="nuev1();">
-                
-
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple" onclick="nuev2();">
 
                <!--<a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
-                <br> </center>
+               <!-- <br> </center>
                 </div>
 
-              <div class="col-md-6"> <center>
+              <div class="col-md-6"> <center>-->
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0eaFUx0.png" alt="simple" onclick="nuev3();">
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple" onclick="nuev4();">
@@ -85,10 +83,10 @@
                 <!--<a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
                 <a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
-                <br> </center>
+               <!-- <br> </center>
                </div>
 
-               <div class="col-md-6"> <center>
+               <div class="col-md-6"> <center>-->
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple" onclick="nuev5();"> <br>
                 <!--<span class="col-5"></span>
                 <a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
