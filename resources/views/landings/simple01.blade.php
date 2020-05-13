@@ -53,11 +53,7 @@
                 <div class="col-md-6"> <center>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple" onclick="port1();" >     
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple" onclick="port2();">
-             <!--  <br>
-                </center>
-                </div>
 
-                <div class="col-md-6"> <center>-->
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple" onclick="port3();">            
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple" onclick="port4();" >
                 <br>  </center>
@@ -70,26 +66,11 @@
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple" onclick="nuev1();">
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple" onclick="nuev2();">
 
-               <!--<a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-                <a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
-               <!-- <br> </center>
-                </div>
-
-              <div class="col-md-6"> <center>-->
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0eaFUx0.png" alt="simple" onclick="nuev3();">
-
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple" onclick="nuev4();">
                 <span class="col-2"></span>
-                <!--<a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-                <a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
-               <!-- <br> </center>
-               </div>
-
-               <div class="col-md-6"> <center>-->
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple" onclick="nuev5();"> <br>
-                <!--<span class="col-5"></span>
-                <a  class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
                 </center>
                 <br>
                </div>
@@ -404,32 +385,22 @@
 
       
          function Mens(){
-  
              window.location.href = "tel:+56993443007";
         }  
 
 
      function Mens1(){
-     
    window.location.href = "https://api.whatsapp.com/send?phone=56993443007&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
         } 
 
 
-          function Mens2(){
-
-
+    function Mens2(){
          var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
-
-   window.location.href = "mailto:inttegrados@gmail.com?subject=Portabilidad%20Simple&body"+body_message;
-
+             window.location.href = "mailto:inttegrados@gmail.com?subject=Portabilidad%20Simple&body"+body_message;
  }
 
 
   function Mens3(){
-
-   //var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
-
-   //window.location.href = "mailto:inttegrados@gmail.com?subject=Portabilidad%20Simple&body"+body_message;
         $('#cont2').addClass('hide');
         $('#form').removeClass('hide'); 
         $('#CONT').removeClass('hide');
@@ -526,9 +497,25 @@
  function p0(){
 
   $('#cont7').addClass('hide');
-   $('#cont6').addClass('hide');
-    $('#form').addClass('hide');
-   $('#cont2').removeClass('hide');
+  $('#cont6').addClass('hide');
+  $('#form').addClass('hide');
+  $('#cont2').removeClass('hide');
+                       //$('#message').removeClass('hide');
+                     $('#cont2').addClass('hide');
+                     $('#cont7').addClass('hide');
+                     $('#cont6').addClass('hide');
+                     $('#port4').addClass('hide');
+                     $('#port3').addClass('hide');
+                     $('#port2').addClass('hide');
+                     $('#port1').addClass('hide');
+                     $('#nuev5').addClass('hide');
+                     $('#nuev4').addClass('hide');
+                     $('#nuev3').addClass('hide');
+                     $('#nuev2').addClass('hide');
+                     $('#nuev1').addClass('hide');
+                     $('#form').addClass('hide');
+                     $('#actual').addClass('hide');
+                    $('#cont3').addClass('hide');
  }
 
 
