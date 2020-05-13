@@ -3,7 +3,14 @@
 @section('title', 'Hites')
 
 @section('content')
-
+<?php
+$startdate=strtotime("Today");
+$enddate=strtotime("+5 days", $startdate);
+?>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style>
 .opaco{
     display: none !important; 
@@ -16,6 +23,8 @@
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Hites">
+
+
             <div id="cont1" class="p-5 hide">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
@@ -34,29 +43,31 @@
                     <h3 class="text-black text-center"> <strong> Con Hites, ahora es mas Fácil Pagar tu cuenta </strong> </h3>
                 
 
-                <h3 class="text-black text-center">  De forma rápida y segura </h3>
+               <p class="text-white">
+                    Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
+                    <b>$ </b><b id="pay">$ 500</b>
+                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
+                </p>
 
-                <button onclick='window.location.href="#"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">AGENDAR COMPROMISO DE PAGO</button>
+                 <div class="date btn bg-primary text-white col-12 mt-4">
+                    <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/512px-Google_Calendar_icon.svg.png"> 
+ <span>AGENDAR COMPROMISO DE PAGO</span> <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
 
-                <button onclick='window.location.href="https://pagofacil.hites.com/"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR ONLINE</button>
+                <button onclick='window.location.href="https://pagofacil.hites.com/"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4"> <img width="30" src="https://image.flaticon.com/icons/png/512/712/712742.png"> PAGAR ONLINE</button>
 
-                <button onclick='window.location.href="#"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">VER CANALES DE PAGO</button>
+                <button onclick='mas(); eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4"> <img width="30" src="https://www.pngkey.com/png/full/961-9610665_icono-cuentas-por-pagar-icono-cuentas-por-pagar.png">  VER CANALES DE PAGO</button>
 
-                <button onclick='window.location.href="#"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">CONTACTAR</button>
+                <button onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2"> <img width="30" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"> LLÁMANOS</button>
 
-                <button onclick='window.location.href="#"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">ESCRIBENOS</button>
+                <button onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"> <img width="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"> ESCRÍBENOS</button>
 
-                <button onclick='window.location.href="#"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4"> <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Light_green_check.svg"> YA PAGUE</button>
             </div>
             
-<div class="d-flex justify-content-around align-content-center mt-4"> 
-                   <!-- <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
-                   
-                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:contacto@binteraction.com"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>-->
-                </div>
-        </div>
+<!--<img width="30" src="https://image.flaticon.com/icons/png/512/712/712742.png">
+<img width="30" src="https://www.pngkey.com/png/full/961-9610665_icono-cuentas-por-pagar-icono-cuentas-por-pagar.png">
+  -->      </div>
 
         <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
