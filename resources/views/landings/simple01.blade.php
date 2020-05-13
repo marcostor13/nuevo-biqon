@@ -74,7 +74,7 @@
                 <br>  
               
            </center>
-               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2">ATRAS</a>
+               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
             </div>
 
             <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
@@ -105,7 +105,7 @@
                 
                 <a onclick="nuev5();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 </center>
-               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2">ATRAS</a>
+               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
 
             </div>
 <!-- PORTABILIDAD-->
@@ -210,7 +210,7 @@
 
 
         </div>
-        <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2">ATRAS</a>
+        <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
     </div>
 </div>
 
