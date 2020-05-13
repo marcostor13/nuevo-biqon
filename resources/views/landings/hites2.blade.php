@@ -50,9 +50,9 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <button onclick='mas(); eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4"> <img width="30" src="https://www.pngkey.com/png/full/961-9610665_icono-cuentas-por-pagar-icono-cuentas-por-pagar.png">  VER CANALES DE PAGO</button>
 
-                <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2"> <img width="30" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"> LLÁMANOS</a>
+                <button onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2"> <img width="30" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"> LLÁMANOS</button>
 
-                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"> <img width="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"> ESCRÍBENOS</a>
+                <button onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"> <img width="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"> ESCRÍBENOS</button>
 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4"> <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Light_green_check.svg"> YA PAGUE</button>
             </div>
