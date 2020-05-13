@@ -501,9 +501,9 @@
   $('#form').addClass('hide');
   $('#cont2').removeClass('hide');
                        //$('#message').removeClass('hide');
-                     $('#cont2').addClass('hide');
-                     $('#cont7').addClass('hide');
-                     $('#cont6').addClass('hide');
+                    // $('#cont2').addClass('hide');
+                    // $('#cont7').addClass('hide');
+                     //$('#cont6').addClass('hide');
                      $('#port4').addClass('hide');
                      $('#port3').addClass('hide');
                      $('#port2').addClass('hide');
@@ -513,7 +513,7 @@
                      $('#nuev3').addClass('hide');
                      $('#nuev2').addClass('hide');
                      $('#nuev1').addClass('hide');
-                     $('#form').addClass('hide');
+                    // $('#form').addClass('hide');
                      $('#actual').addClass('hide');
                     $('#cont3').addClass('hide');
  }
