@@ -270,20 +270,8 @@ $enddate=strtotime("+5 days", $startdate);
 
       
          function Mens(){
-   // var id_adm; 
-        // id_adm= getUrlParameter('data1'); //1234;
-          
-            swal({
-             title: `Para Comunicarse, seleccione la opcion 2`,
-             //text: "Expandir la Pantalla",
-             type: "success",
-             timer: 5000
-        }, 
-        function(){
-             window.location.href = "tel:60055060000";
-        })
 
-
+             window.location.href = "tel:60055060000"
         } 
 
 
