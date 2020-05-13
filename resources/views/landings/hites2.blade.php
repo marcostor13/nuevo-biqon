@@ -52,9 +52,9 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">LLÁMANOS</a>
 
-                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">ESCRÍBENOS</a>
+                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png">ESCRÍBENOS</a>
 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
             </div>
             
 
