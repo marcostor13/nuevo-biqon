@@ -85,7 +85,7 @@ $name = $_GET['NOMBRE'];
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h3>
                                  <p class="text-white"> <h4> 
-                                 En estos momentos dificiles que estamos pasando a nivel pais en <strong class="text-primary">FINANCOOP</strong>, no queremos que salga de casa y hemos facilitado la forma en que puede acceder a un <strong> Crédito Especial para pensionados</strong>. <strong class="text-primary">  Podemos ir a buscar los documentos a su casa.</strong>  Si desea información ingrese a las siguientes opciones:</h4> </p>
+                                 En estos momentos dificiles que estamos pasando a nivel pais en <strong class="text-primary">FINANCOOP</strong>, no queremos que salga de casa y hemos facilitado la forma en que puede acceder a un <strong> Crédito Pre abobado</strong>. <strong class="text-primary">  Podemos ir a buscar los documentos a su casa.</strong>  Si desea información ingrese a las siguientes opciones:</h4> </p>
 
                                 <button onclick="Mens1(); eventosLanding('Llamar');" class="btn bg-primary text-white col-12 mt-2">LLAMAR A EJECUTIVO</button>
 
@@ -386,7 +386,7 @@ function Mens4(){
          Nombre= getUrlParameter('Nombre'); 
          var Telefono; 
          Telefono= getUrlParameter('Telefono'); 
-   window.location.href = "mailto:valeska.vasquez@financoop.cl?subject=Necesito%20Informacion&body=RUT:  "+rut+" Nombre: "+Nombre+" Telefono: "+Telefono;
+   window.location.href = "mailto:valeska.vasquez@financoop.cl?subject=Necesito%20Informacion&body= Nombre: "+Nombre+" Telefono: "+Telefono;
  }
     </script>
     
