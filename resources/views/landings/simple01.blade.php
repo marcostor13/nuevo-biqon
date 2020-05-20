@@ -169,7 +169,7 @@
                     </select>
                   </div>
                    <div id="port11" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('PORTABILIDAD PLAN 1'); eventosLanding('PORTABILIDAD PLAN 1'');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 1'); eventosLanding('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="port22" class="p-2 pl-3 pr-3 hide">
                     <button  onclick="sendMail('PORTABILIDAD PLAN 2'); eventosLanding('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
