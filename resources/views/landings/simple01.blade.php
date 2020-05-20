@@ -311,12 +311,12 @@
                 } 
             }
 
-           var correo = ["jesus.binteraction@gmail.com"];
+           var correo = ["ventas@trademovil.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}' "inttegrados@gmail.com", ,"jesus.binteraction@gmail.com" 
-                //'email': 'marcostor13@gmail.com' ,"jesus.binteraction@gmail.com" ventas@trademovil.cl 
+                //'email': 'marcostor13@gmail.com' ,"jesus.binteraction@gmail.com" 
             }
             $.ajaxSetup({
                 headers: {
