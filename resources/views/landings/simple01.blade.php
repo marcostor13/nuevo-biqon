@@ -312,12 +312,12 @@
                 } 
             }
 
-           var correo = ["inttegrados@gmail.com","jesus.binteraction@gmail.com"];
+           var correo = ["ventas@trademovil.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}' "inttegrados@gmail.com", ,"jesus.binteraction@gmail.com" 
-                //'email': 'marcostor13@gmail.com'
+                //'email': 'marcostor13@gmail.com' ,"jesus.binteraction@gmail.com"
             }
             $.ajaxSetup({
                 headers: {
@@ -418,18 +418,18 @@
 
       
          function Mens(){
-             window.location.href = "tel:+56993443007";
+             window.location.href = "tel:+56952208933";
         }  
 
 
      function Mens1(){
-   window.location.href = "https://api.whatsapp.com/send?phone=56993443007&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+   window.location.href = "https://api.whatsapp.com/send?phone=56952208933&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
         } 
 
 
     function Mens2(){
          var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
-             window.location.href = "mailto:inttegrados@gmail.com?subject=Portabilidad%20Simple&body"+body_message;
+             window.location.href = "mailto:ventas@trademovil.cl ?subject=Portabilidad%20Simple&body"+body_message;
  }
 
 
