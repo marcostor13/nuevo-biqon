@@ -138,6 +138,9 @@
                       <label for="form2"></label>
                     </div>
                     <div class="md-form col-6  m-0">
+                    <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
+                    </div>
+                    <div class="md-form col-6  m-0">
                       <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
                       <label for="form2"></label>
                     </div>
@@ -283,10 +286,15 @@
             if(msg !== false){
                 data = {
                     'mensaje': msg,
+                    'Datos_Formulario': $('#nombre1').val(),
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
                     'Chips': $('#valor').val(),
-                    'compañia': $('#valor01').val(),
+                    'Compañia': $('#valor01').val(),
+                    'Datos_URL': $('#nombre1').val(),
+                    'Nombre_URL': getUrlParameter('nombre'),
+                    'Telefono_URL': getUrlParameter('telefono'),
+                    'Rut_URL': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -302,12 +310,12 @@
                 } 
             }
 
-           var correo = ["ventas@trademovil.cl"];
+           var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}' "inttegrados@gmail.com", ,"jesus.binteraction@gmail.com" 
-                //'email': 'marcostor13@gmail.com' ,"jesus.binteraction@gmail.com"
+                //'email': 'marcostor13@gmail.com' ,"jesus.binteraction@gmail.com" ventas@trademovil.cl 
             }
             $.ajaxSetup({
                 headers: {
