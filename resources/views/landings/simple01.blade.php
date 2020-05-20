@@ -135,11 +135,12 @@
 
                     <div class="md-form col-6  m-0">
                       <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
                       <label for="form2"></label>
                     </div>
-                    <div class="md-form col-6  m-0">
-                    <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
-                    </div>
+                    
+                    
+                    
                     <div class="md-form col-6  m-0">
                       <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
                       <label for="form2"></label>
