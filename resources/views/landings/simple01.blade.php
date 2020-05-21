@@ -53,7 +53,8 @@
                
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/oz5xXYM.png" alt="simple">
+                
                 <br>
                 <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
@@ -76,25 +77,33 @@
             <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
                 <center>
                 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">
+                <!--<img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">-->
                 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/NK81GiD.png" alt="simple">
                 <br>
-                <a onclick="nuev1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+               <!-- <a onclick="nuev1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
 
                 <a onclick="nuev2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+
+                <a onclick="nuev3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br>
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0eaFUx0.png" alt="simple">
+                
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple"> <br>
                 <br>
-                <a onclick="nuev3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                
 
                 <a onclick="nuev4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-                <br>
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple"> <br>
-                
+
                 <a onclick="nuev5();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <br>
+                
+                
+                
                 </center> <br>
                <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong> ATRAS </strong></a>
 
@@ -107,7 +116,7 @@
                         <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
                         </div> 
                         <div id="port2" class="p-2 pl-3 pr-3 hide">
-                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0hhuMHg.png" alt="simple">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/oz5xXYM.png" alt="simple">
                         </div>
                         <div id="port3" class="p-2 pl-3 pr-3 hide">
                         <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple"> 
@@ -123,7 +132,7 @@
                         <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
                         </div>
                         <div id="nuev3" class="p-2 pl-3 pr-3 hide">
-                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/0eaFUx0.png" alt="simple">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/NK81GiD.png" alt="simple">
                         </div>
                         <div id="nuev4" class="p-2 pl-3 pr-3 hide">
                         <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
