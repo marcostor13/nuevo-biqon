@@ -11,7 +11,7 @@
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
 
           <div style="background-color: #54C86B">
-            <img class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Yc3aiQM.png" alt="FALABELLA"> 
+            <img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Yc3aiQM.png" alt="FALABELLA"> 
              <h3 class="text-grey text-rigth"> Estimado(a) <strong>  <span id="name"></span> <!-- <?php //echo $name; ?> --></strong> </h3>
           </div>
 
