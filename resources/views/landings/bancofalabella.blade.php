@@ -1,85 +1,46 @@
 @extends('layouts.landing')
 
-@section('title', 'FALABELLA')
+@section('title', 'Simple')
 
 @section('content')
-<?php
-$startdate=strtotime("Today");
-$enddate=strtotime("+15 days", $startdate);
-?>
-<style>
-.opaco{
-    display: none !important; 
-}
-.opaco{
-    display: none !important; 
-
-}
-.input{
-  border-color: #A1CBF3 !important;
-}
-     
-.card {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  border: 0;
-  font-weight: 400;
-}
-.card[class*=border] {
-  border: 1px solid #9e9e9e;
-  box-shadow: none;
-}
-.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
-  font-weight: 400;
-}
-.card .card-body .card-title a {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-title a:hover {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-text {
-  color: #747373;
-  font-size: 0.9rem;
-  font-weight: 400;
-}
-.card .md-form label {
-  font-weight: 300;
-}
-
-.oscurecer {
-  background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    )
-    }
-</style>
-
-        
-
-       <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-        <div style="background-color:#54C86B; " class="col-md-10 mt-2">
-        <img class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Yc3aiQM.png" alt="FALABELLA"> 
-        <h3 class="text-grey text-rigth"> Estimado(a) <strong>  <span id="name"></span> <!-- <?php //echo $name; ?> --></strong> </h3>
-        </div>
-            <div id="cont1" class="p-2 pl-5 pr-5 ">
 
 
-            <center> <img src="https://i.imgur.com/un6vWpt.jpg"> </center>
-          
-            <div> <!--texto--><br><center>
-                <h3>¡Paga tu CMR en línea!</h3>
+
+   <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
+
+        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+
+
+            <img class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Yc3aiQM.png" alt="FALABELLA"> 
+             <h3 class="text-grey text-rigth"> Estimado(a) <strong>  <span id="name"></span> <!-- <?php //echo $name; ?> --></strong> </h3>
+
+
+            <div id="cont2" class="p-3 ">
+
+                <img src="https://i.imgur.com/un6vWpt.jpg">
+
+                <center><h3 class="text-white bg-danger">
+                    <h3>¡Paga tu CMR en línea!</h3>
                 <h3>¿Solo has pagado en sucursales y nunca por la web?</h3>
                 <div > 
                     <h4>¡No te preocupes!<br>
                     nosotros te enseñamos </h4>
                     <img class="img-fluid col-md-3 mt-0" src="https://i.imgur.com/DCPCot4.jpg" alt="FALABELLA">
-                </div>  
-                </center>
-            </div> 
+                </div>  </center>
+                    <br>
+      
+               </div>
+                           <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
+            </div>
 
-            <div class="p-2 pl-3 pr-3"> 
-                <center> <!--IMAGENES-->
+
+            <div  id="cont7" class="p-2 pl-3 pr-3"> <center>
+               
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/cU90gV4.jpg" alt="FALABELLA">
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/piA0aT3.jpg" alt="FALABELLA">
                 <br>
@@ -91,27 +52,159 @@ $enddate=strtotime("+15 days", $startdate);
                 <br>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/XUTkNVy.jpg" alt="FALABELLA">
                 <br>
-                <img style="max-width: 40%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/PWFmHww.jpg" alt="FALABELLA"><img style="max-width: 16%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TCmWgnf.jpg" alt="FALABELLA">
-            </center>
+                <img style="max-width: 40%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/PWFmHww.jpg" alt="FALABELLA"><img style="max-width: 16%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TCmWgnf.jpg" alt="FALABELLA"> 
+              
+           </center>
+           <br>
+               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
             </div>
 
-            <div> <!--FIN--><br>
-                <p>El pago con Tarjetas de Crédito puede tener costos asociados. Consultar al emisor para mayor información. Infórmese sobre la garantía estatal de los depósitos en su banco o <a href="www.cmfchile.cl">cmfchile.cl</a></p>
-            </div> 
-    
+            <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
+                <center>
+                
+                <!--<img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">-->
+                
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
 
-         <div class="d-flex justify-content-around align-content-center mt-1">                                                  
-        </div>
-        </div>  
-        </div>
-     <script>
-   //EVENT 1
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/NK81GiD.png" alt="simple">
+                <br>
+               <!-- <a onclick="nuev1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
 
-         $('#date1').on('change', function(){
-                        if($('#date1').val() != ''){
-                            sendMail();
-                        }
-                    });
+                <a onclick="nuev2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+
+                <a onclick="nuev3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <br>
+                
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple"> <br>
+                <br>
+                
+
+                <a onclick="nuev4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+
+                <a onclick="nuev5();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <br>
+                
+                
+                
+                </center> <br>
+               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong> ATRAS </strong></a>
+
+            </div>
+<!-- PORTABILIDAD-->
+            <div id="form" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body"> <center>
+                        <div id="port1" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
+                        </div> 
+                        <div id="port2" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/oz5xXYM.png" alt="simple">
+                        </div>
+                        <div id="port3" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple"> 
+                        </div>
+                        <div id="port4" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+                        </div>
+
+                        <div id="nuev1" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">
+                        </div>
+                        <div id="nuev2" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
+                        </div>
+                        <div id="nuev3" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/NK81GiD.png" alt="simple">
+                        </div>
+                        <div id="nuev4" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
+                        </div>
+                        <div id="nuev5" class="p-2 pl-3 pr-3 hide">
+                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple">
+                        </div></center>
+                    <div class="d-flex justify-content-between">
+
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
+                      <label for="form2"></label>
+                    </div>
+                    
+                    
+                    
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
+                      <label for="form2"></label>
+                    </div>
+                  </div> 
+                  <div id="actual" class="md-form hide">
+                      <select class="form-control" id="valor01" required>
+                  <option value="" data-select2-id="1">compañia actual</option>
+                  <option value="CLARO" data-select2-id="1">CLARO</option>
+                  <option value="ENTEL" data-select2-id="1">ENTEL</option>
+                  <option value="MOVISTAR" data-select2-id="2">MOVISTAR</option>
+                  <option value="WOM" data-select2-id="3">WOM</option>
+                  <option value="VIRGIN" data-select2-id="4">VIRGIN</option>
+                  <option value="VTR" data-select2-id="5">VTR</option>
+                   <option value="OTRA" data-select2-id="6">OTRA</option>
+                    </select>
+                  </div>
+                  <div id="nuevo" class="md-form hide">
+                      <select class="form-control" id="valor" required>
+                  <option value="1" data-select2-id="1">1</option>
+                  <option value="2" data-select2-id="2">2</option>
+                  <option value="3" data-select2-id="3">3</option>
+                  <option value="4" data-select2-id="4">4</option>
+                  <option value="5" data-select2-id="5">5</option>
+
+                    </select>
+                  </div>
+                   <div id="port11" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 1'); eventosLanding('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="port22" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 2'); eventosLanding('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="port33" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 3'); eventosLanding('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="port44" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 4'); eventosLanding('PORTABILIDAD PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+
+                    <div id="nuev11" class="p-2 pl-3 pr-3 hide">
+                    <button  onclick="sendMail('LINEA NUEVA PLAN 1'); eventosLanding('LINEA NUEVA PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="nuev22" class="p-2 pl-3 pr-3 hide">
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 2'); eventosLanding('LINEA NUEVA PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="nuev33" class="p-2 pl-3 pr-3 hide">
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 3'); eventosLanding('LINEA NUEVA PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="nuev44" class="p-2 pl-3 pr-3 hide">
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 4'); eventosLanding('LINEA NUEVA PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="nuev55" class="p-2 pl-3 pr-3 hide">
+                     <button  onclick="sendMail('LINEA NUEVA PLAN 5'); eventosLanding('LINEA NUEVA PLAN 5');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    </div>
+                    <div id="CONT" class="p-2 pl-3 pr-3 hide">
+                     <button  onclick="sendMail('DESEO QUE ME LLAMEN'); eventosLanding('Contacto');" class="btn bg-danger text-white col-12 mt-4">CONTACTAR</button>
+                    </div>
+                
+            </div>
+
+
+
+        </div>
+        <br>
+        <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
+    </div>
+</div>
+
+    <script>
 
         $(function(){
             events({    
@@ -152,7 +245,9 @@ $enddate=strtotime("+15 days", $startdate);
                         }
                     });
                 }else{
-                    $('#error').text(e.msg);
+                    $('#cont1').addClass('hide');
+                     $('#cont5').removeClass('hide');
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
                 }
             })
             .fail(function() {
@@ -166,7 +261,7 @@ $enddate=strtotime("+15 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-           // json_datos.nombre = $('#name').text();
+            //json_datos.nombre = $('#name').text();
            // json_datos.monto = $('#pay').text();
 
             events({    
@@ -176,7 +271,7 @@ $enddate=strtotime("+15 days", $startdate);
             });
         }
 
-     // 
+     
 
         function sendMail(msg = false){
 
@@ -186,34 +281,36 @@ $enddate=strtotime("+15 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Mombre': getUrlParameter('nombre'),
-                    //'monto': getUrlParameter('monto'),
-                    'Phone': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2')                
+                    'Datos_Formulario': $('#nombre1').val(),
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
+                    'Chips': $('#valor').val(),
+                    'Compañia': $('#valor01').val(),
+                    //'Datos_URL': $('#nombre1').val(),
+                    //'Nombre_URL': getUrlParameter('nombre'),
+                    //'Telefono_URL': getUrlParameter('telefono'),
+                    //'Rut_URL': getUrlParameter('rut'),
+                    'landing': '{!! $landing->name !!}'
+                   
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'Fecha': date,
-                    'Nombre': getUrlParameter('nombre'),
-                    //'monto': getUrlParameter('monto'),
-                    'Phone': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2'),
+                    'fecha': date,
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
+                    'Chips': $('#valor').val(),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-            var correo = ["maicol.binteraction@gmail.com"];
+           var correo = ["ventas@trademovil.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                //'email': '{!! $landing->email !!}' "inttegrados@gmail.com", ,"jesus.binteraction@gmail.com" 
+                //'email': 'marcostor13@gmail.com' ,"jesus.binteraction@gmail.com" 
             }
             $.ajaxSetup({
                 headers: {
@@ -224,14 +321,29 @@ $enddate=strtotime("+15 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont1').addClass('hide');
-                    $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                     $('#cont2').addClass('hide');
+                     $('#cont7').addClass('hide');
+                     $('#cont6').addClass('hide');
+                     $('#port4').addClass('hide');
+                     $('#port3').addClass('hide');
+                     $('#port2').addClass('hide');
+                     $('#port1').addClass('hide');
+                     $('#nuev5').addClass('hide');
+                     $('#nuev4').addClass('hide');
+                     $('#nuev3').addClass('hide');
+                     $('#nuev2').addClass('hide');
+                     $('#nuev1').addClass('hide');
+                     $('#form').addClass('hide');
+                     $('#actual').addClass('hide');
+                     $('#cont3').removeClass('hide');
+                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont1').addClass('hide');
+                     $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, lo contactaremos');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                     eventosLanding('Solicitud de Plan');
                 }
             })
             .done(function(e) {
@@ -298,8 +410,148 @@ $enddate=strtotime("+15 days", $startdate);
         };
 
       
-        
-    
+         function Mens(){
+             window.location.href = "tel:+56952208933";
+        }  
+
+
+     function Mens1(){
+   window.location.href = "https://api.whatsapp.com/send?phone=56992213123&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+        } 
+
+
+    function Mens2(){
+         var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+             window.location.href = "mailto:ventas@trademovil.cl ?subject=Portabilidad%20Simple&body"+body_message;
+ }
+
+
+  function Mens3(){
+        $('#cont2').addClass('hide');
+        $('#form').removeClass('hide'); 
+        $('#CONT').removeClass('hide');
+        $('#actual').addClass('hide');
+
+ }
+
+ function activa(){
+
+  $('#cont2').addClass('hide');
+  $('#cont7').removeClass('hide');
+ }
+
+  function activa1(){
+
+  $('#cont2').addClass('hide');
+  $('#cont6').removeClass('hide');
+ }
+//portabilidad 4 planes
+ function port1(){
+
+  $('#cont7').addClass('hide');
+  $('#form').removeClass('hide');
+  $('#actual').removeClass('hide');
+  $('#port1').removeClass('hide');
+  $('#port11').removeClass('hide');
+ }
+ function port2(){
+
+  $('#cont7').addClass('hide');
+   $('#form').removeClass('hide');
+   $('#actual').removeClass('hide');
+  $('#port2').removeClass('hide');
+  $('#port22').removeClass('hide');
+ }
+  function port3(){
+
+  $('#cont7').addClass('hide');
+  $('#form').removeClass('hide');
+  $('#actual').removeClass('hide');
+  $('#port3').removeClass('hide');
+  $('#port33').removeClass('hide');
+ }
+ function port4(){
+
+  $('#cont7').addClass('hide');
+  $('#form').removeClass('hide');
+  $('#actual').removeClass('hide');
+  $('#port4').removeClass('hide');
+  $('#port44').removeClass('hide');
+ }
+//linea nueva 5 planes
+ function nuev1(){
+
+  $('#cont6').addClass('hide');
+    $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev1').removeClass('hide');
+   $('#nuev11').removeClass('hide');
+ }
+ function nuev2(){
+
+  $('#cont6').addClass('hide');
+   $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev2').removeClass('hide');
+   $('#nuev22').removeClass('hide');
+ }
+ function nuev3(){
+
+  $('#cont6').addClass('hide');
+    $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev3').removeClass('hide');
+   $('#nuev33').removeClass('hide');
+ }
+ function nuev4(){
+
+  $('#cont6').addClass('hide');
+   $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev4').removeClass('hide');
+   $('#nuev44').removeClass('hide');
+ }
+ function nuev5(){
+
+  $('#cont6').addClass('hide');
+   $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev5').removeClass('hide');
+   $('#nuev55').removeClass('hide');
+ }
+
+
+ function p0(){
+
+    $('#cont7').addClass('hide');
+    $('#cont6').addClass('hide');
+    $('#form').addClass('hide');
+    $('#cont2').removeClass('hide');
+    $('#port4').addClass('hide');
+    $('#port3').addClass('hide');
+    $('#port2').addClass('hide');
+    $('#port1').addClass('hide');
+    $('#nuev5').addClass('hide');
+    $('#nuev4').addClass('hide');
+    $('#nuev3').addClass('hide');
+    $('#nuev2').addClass('hide');
+    $('#nuev1').addClass('hide');
+    $('#port44').addClass('hide');
+    $('#port33').addClass('hide');
+    $('#port22').addClass('hide');
+    $('#port11').addClass('hide');
+    $('#nuev55').addClass('hide');
+    $('#nuev44').addClass('hide');
+    $('#nuev33').addClass('hide');
+    $('#nuev22').addClass('hide');
+    $('#nuev11').addClass('hide');
+    $('#actual').addClass('hide');
+    $('#cont3').addClass('hide');
+    $('#CONT').addClass('hide');
+ }
+
+
+
     </script>
     
 
