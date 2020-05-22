@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'Simple')
+@section('title', 'Falabella')
 
 @section('content')
 
@@ -47,6 +47,7 @@
                 <img style="max-width: 100%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/PWFmHww.jpg" alt="FALABELLA"><img style="max-width: 80%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TCmWgnf.jpg" alt="FALABELLA"> 
               
            </center>
+           <p>El pago con Tarjetas de Crédito puede tener costos asociados. Consultar al emisor para mayor información. Infórmese sobre la garantía estatal de los depósitos en su banco o <a href="www.cmfchile.cl">www.cmfchile.cl</a> </p>
             </div>
 
 <!-- PORTABILIDAD-->
