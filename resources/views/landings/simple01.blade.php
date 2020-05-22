@@ -9,7 +9,7 @@
    <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
+            <img style="max-width:450px; max-height:250px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
 
 
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
@@ -54,7 +54,7 @@
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/oz5xXYM.png" alt="simple">
-                
+
                 <br>
                 <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
@@ -431,7 +431,7 @@
 
 
      function Mens1(){
-   window.location.href = "https://api.whatsapp.com/send?phone=56952208933&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+   window.location.href = "https://api.whatsapp.com/send?phone=56992213123&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
         } 
 
 
