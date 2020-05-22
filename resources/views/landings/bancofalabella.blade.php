@@ -30,178 +30,29 @@
                     <br>
       
                </div>
-                           <div id="cont3" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                            </div>
-                        </div>
-            </div>
-
-
+               
             <div  id="cont7" class="p-2 pl-3 pr-3"> <center>
                
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/cU90gV4.jpg" alt="FALABELLA">
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/piA0aT3.jpg" alt="FALABELLA">
+                <img style="max-width: 100%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/cU90gV4.jpg" alt="FALABELLA">
+                <img style="max-width: 100%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/piA0aT3.jpg" alt="FALABELLA">
                 <br>
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/a69Upgt.jpg" alt="FALABELLA">
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/wRp1ijh.jpg" alt="FALABELLA">
+                <img style="max-width: 100%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/a69Upgt.jpg" alt="FALABELLA">
+                <img style="max-width: 100%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/wRp1ijh.jpg" alt="FALABELLA">
                 <br>
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/bXzEs8W.jpg" alt="FALABELLA">
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/2gHQpku.jpg" alt="FALABELLA">
+                <img style="max-width: 100%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/bXzEs8W.jpg" alt="FALABELLA">
+                <img style="max-width: 100%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/2gHQpku.jpg" alt="FALABELLA">
                 <br>
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/XUTkNVy.jpg" alt="FALABELLA">
+                <img style="max-width: 100%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/XUTkNVy.jpg" alt="FALABELLA">
                 <br>
-                <img style="max-width: 40%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/PWFmHww.jpg" alt="FALABELLA"><img style="max-width: 16%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TCmWgnf.jpg" alt="FALABELLA"> 
+                <img style="max-width: 100%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/PWFmHww.jpg" alt="FALABELLA"><img style="max-width: 80%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TCmWgnf.jpg" alt="FALABELLA"> 
               
            </center>
            <br>
                <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
             </div>
 
-            <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
-                <center>
-                
-                <!--<img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">-->
-                
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
-
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/NK81GiD.png" alt="simple">
-                <br>
-               <!-- <a onclick="nuev1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
-
-                <a onclick="nuev2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-
-                <a onclick="nuev3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-                <br>
-                
-
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
-
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple"> <br>
-                <br>
-                
-
-                <a onclick="nuev4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-
-                <a onclick="nuev5();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-                <br>
-                
-                
-                
-                </center> <br>
-               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong> ATRAS </strong></a>
-
-            </div>
 <!-- PORTABILIDAD-->
-            <div id="form" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body"> <center>
-                        <div id="port1" class="p-2 pl-3 pr-3 hide">
-                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
-                        </div> 
-                        <div id="port2" class="p-2 pl-3 pr-3 hide">
-                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/oz5xXYM.png" alt="simple">
-                        </div>
-                        <div id="port3" class="p-2 pl-3 pr-3 hide">
-                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple"> 
-                        </div>
-                        <div id="port4" class="p-2 pl-3 pr-3 hide">
-                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
-                        </div>
-
-                        <div id="nuev1" class="p-2 pl-3 pr-3 hide">
-                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">
-                        </div>
-                        <div id="nuev2" class="p-2 pl-3 pr-3 hide">
-                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
-                        </div>
-                        <div id="nuev3" class="p-2 pl-3 pr-3 hide">
-                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/NK81GiD.png" alt="simple">
-                        </div>
-                        <div id="nuev4" class="p-2 pl-3 pr-3 hide">
-                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
-                        </div>
-                        <div id="nuev5" class="p-2 pl-3 pr-3 hide">
-                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple">
-                        </div></center>
-                    <div class="d-flex justify-content-between">
-
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
-                      <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
-                      <label for="form2"></label>
-                    </div>
-                    
-                    
-                    
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
-                      <label for="form2"></label>
-                    </div>
-                  </div> 
-                  <div id="actual" class="md-form hide">
-                      <select class="form-control" id="valor01" required>
-                  <option value="" data-select2-id="1">compañia actual</option>
-                  <option value="CLARO" data-select2-id="1">CLARO</option>
-                  <option value="ENTEL" data-select2-id="1">ENTEL</option>
-                  <option value="MOVISTAR" data-select2-id="2">MOVISTAR</option>
-                  <option value="WOM" data-select2-id="3">WOM</option>
-                  <option value="VIRGIN" data-select2-id="4">VIRGIN</option>
-                  <option value="VTR" data-select2-id="5">VTR</option>
-                   <option value="OTRA" data-select2-id="6">OTRA</option>
-                    </select>
-                  </div>
-                  <div id="nuevo" class="md-form hide">
-                      <select class="form-control" id="valor" required>
-                  <option value="1" data-select2-id="1">1</option>
-                  <option value="2" data-select2-id="2">2</option>
-                  <option value="3" data-select2-id="3">3</option>
-                  <option value="4" data-select2-id="4">4</option>
-                  <option value="5" data-select2-id="5">5</option>
-
-                    </select>
-                  </div>
-                   <div id="port11" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('PORTABILIDAD PLAN 1'); eventosLanding('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                    </div>
-                    <div id="port22" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('PORTABILIDAD PLAN 2'); eventosLanding('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                    </div>
-                    <div id="port33" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('PORTABILIDAD PLAN 3'); eventosLanding('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                    </div>
-                    <div id="port44" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('PORTABILIDAD PLAN 4'); eventosLanding('PORTABILIDAD PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                    </div>
-
-                    <div id="nuev11" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('LINEA NUEVA PLAN 1'); eventosLanding('LINEA NUEVA PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                    </div>
-                    <div id="nuev22" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="sendMail('LINEA NUEVA PLAN 2'); eventosLanding('LINEA NUEVA PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                    </div>
-                    <div id="nuev33" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="sendMail('LINEA NUEVA PLAN 3'); eventosLanding('LINEA NUEVA PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                    </div>
-                    <div id="nuev44" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="sendMail('LINEA NUEVA PLAN 4'); eventosLanding('LINEA NUEVA PLAN 4');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                    </div>
-                    <div id="nuev55" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="sendMail('LINEA NUEVA PLAN 5'); eventosLanding('LINEA NUEVA PLAN 5');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
-                    </div>
-                    <div id="CONT" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="sendMail('DESEO QUE ME LLAMEN'); eventosLanding('Contacto');" class="btn bg-danger text-white col-12 mt-4">CONTACTAR</button>
-                    </div>
-                
-            </div>
-
-
-
-        </div>
-        <br>
-        <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
-    </div>
+            
 </div>
 
     <script>
