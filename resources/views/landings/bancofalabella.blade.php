@@ -58,8 +58,9 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-        <div style="background-color:#54C86B;">
-        <img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Yc3aiQM.png" alt="FALABELLA"> <h3 class="text-grey text-left"> Estimado(a) <strong>  <span id="name"></span> <!-- <?php //echo $name; ?> --></strong> </h3>
+        <div style="background-color:#54C86B; " class="col-md-10 mt-2">
+        <img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Yc3aiQM.png" alt="FALABELLA"> 
+        <h3 class="text-grey text-left"> Estimado(a) <strong>  <span id="name"></span> <!-- <?php //echo $name; ?> --></strong> </h3>
         </div>
             <div id="cont1">
                           <!--  <div class="card">     
