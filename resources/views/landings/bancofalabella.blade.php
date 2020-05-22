@@ -59,7 +59,7 @@ $enddate=strtotime("+15 days", $startdate);
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
         <div style="background-color:#FF0000;">
-        <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Yc3aiQM.png" alt="FALABELLA"> <h3 class="text-grey text-center"> Estimado(a) <strong>  <span id="name"></span> </strong> </h3>
+        <img  class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Yc3aiQM.png" alt="FALABELLA"> <h3 class="text-grey text-center"> Estimado(a) <strong>  <span id="name"></span> </strong> </h3>
         </div>
             <div id="cont1">
                           <!--  <div class="card">     
@@ -80,8 +80,8 @@ $enddate=strtotime("+15 days", $startdate);
                 <h3>¡Paga tu CMR en línea!</h3>
                 <h3>¿Solo has pagado en sucursales y nunca por la web?</h3>
                 <div class="card-body" > 
-                    <h3>¡No te preocupes!<br>
-                    nosotros te enseñamos </h3> <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/DCPCot4.jpg" alt="FALABELLA">
+                    <h3 class="col-md-3 mt-2">¡No te preocupes!<br>
+                    nosotros te enseñamos </h3> <img class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/DCPCot4.jpg" alt="FALABELLA">
                 </div>  
 
             </div> 
