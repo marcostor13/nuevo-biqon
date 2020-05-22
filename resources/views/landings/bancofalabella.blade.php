@@ -81,7 +81,7 @@ $enddate=strtotime("+15 days", $startdate);
                 <h3>¿Solo has pagado en sucursales y nunca por la web?</h3>
                 <div class="card-body col-md-7" > 
                     <h3 class="col-md-3">¡No te preocupes!<br>
-                    nosotros te enseñamos </h3> <img class="img-fluid col-md-3" src="https://i.imgur.com/DCPCot4.jpg" alt="FALABELLA">
+                    nosotros te enseñamos <img class="img-fluid col-md-3" src="https://i.imgur.com/DCPCot4.jpg" alt="FALABELLA"></h3> 
                 </div>  
 
             </div> 
