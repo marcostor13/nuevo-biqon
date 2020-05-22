@@ -81,8 +81,9 @@ $enddate=strtotime("+15 days", $startdate);
                 <h3>¡Paga tu CMR en línea!</h3>
                 <h3>¿Solo has pagado en sucursales y nunca por la web?</h3>
                 <div  class="p-2 pl-3 pr-3"> 
-                    <h3>¡No te preocupes!<br>
-                    nosotros te enseñamos </h3> <img class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/DCPCot4.jpg" alt="FALABELLA">
+                    <h4>¡No te preocupes!<br>
+                    nosotros te enseñamos </h4>
+                    <img class="img-fluid col-md-3 mt-0" src="https://i.imgur.com/DCPCot4.jpg" alt="FALABELLA">
                 </div>  
 
             </div> 
