@@ -86,8 +86,8 @@ $enddate=strtotime("+15 days", $startdate);
 
             <div class="p-2 pl-3 pr-3"> 
                 <center> <!--IMAGENES-->
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="FALABELLA">
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="FALABELLA">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/cU90gV4.jpg" alt="FALABELLA">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/cU90gV4.jpg" alt="FALABELLA">
                 <br>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="FALABELLA">
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="FALABELLA">
