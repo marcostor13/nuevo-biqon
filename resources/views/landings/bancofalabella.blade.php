@@ -99,7 +99,7 @@ $enddate=strtotime("+15 days", $startdate);
                 <br>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/XUTkNVy.jpg" alt="FALABELLA">
                 <br>
-                <img style="max-width: 100%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/PWFmHww.jpg" alt="FALABELLA"><img style="max-width: 50%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TCmWgnf.jpg" alt="FALABELLA">
+                <img style="max-width: 40%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/PWFmHww.jpg" alt="FALABELLA"><img style="max-width: 30%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TCmWgnf.jpg" alt="FALABELLA">
             </center>
             </div>
 
