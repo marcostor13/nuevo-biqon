@@ -104,7 +104,7 @@ $enddate=strtotime("+15 days", $startdate);
             </center>
             </div>
 
-            <div> <!--FIN-->
+            <div> <!--FIN--><br>
                 <p>El pago con Tarjetas de Crédito puede tener costos asociados. Consultar al emisor para mayor información. Infórmese sobre la garantía estatal de los depósitos en su banco o <a href="www.cmfchile.cl">cmfchile.cl</a></p>
             </div> 
                    
