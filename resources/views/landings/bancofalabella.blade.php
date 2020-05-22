@@ -58,15 +58,15 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="BANCO FALABELLA" width="500" height="1000">
+            <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="BANCO FALABELLA">
 
             <div id="cont1">
-                            <div class="card">     
-                <div class="card-body">
+                          <!--  <div class="card">     
+                <div class="card-body">-->
 
-                    <img src="https://images.ctfassets.net/p6eyia4djstu/5oj5hTw71L3rtnRxNAUus5/2203798888a10a0a13ca2d26b5dbf28d/LN-BNR50_CTAJOVEN_0.jpg?fm=jpg&q=70" width="400" height="250">
-                    <center>
-                         <div>
+                     <center> <img src="https://images.ctfassets.net/p6eyia4djstu/5oj5hTw71L3rtnRxNAUus5/2203798888a10a0a13ca2d26b5dbf28d/LN-BNR50_CTAJOVEN_0.jpg?fm=jpg&q=70"> </center>
+                  
+                        <!-- <div>
                  <button onclick='window.location.href="https://cuentacorriente.bancofalabella.cl/#/"' type="button" class="btn bg-warning text-white col-10 mt-4" >CUENTA CORRIENTE</button>
                  <div>
                         <button onclick='window.location.href="https://www.bancofalabella.cl/credito-de-consumo?utm_source=sitio_clientes&utm_medium=lugar_principal"' type="button" class="btn bg-warning text-white col-10 mt-4" >PIDE TU CREDITO</button>
@@ -74,13 +74,40 @@ $enddate=strtotime("+15 days", $startdate);
                         <button onclick='window.location.href="https://solicitudes.cmr.cl/?feature=insurance_v1&utm_expid=.PbkBPSTwQjuqM_GpPiVRFA.1&utm_referrer="' type="button" class="btn bg-warning text-white col-10 mt-4" >TARJETA CMR</button>
                     </div>                   
                  </div>
+            </div>-->
+            <div > <!--texto-->
+                <h3>¡Paga tu CMR en línea!</h3>
+                <h3>¿Solo has pagado en sucursales y nunca por la web?</h3>
+                <div class="card-body" > 
+                    <h3>¡No te preocupes!<br>
+                    nosotros te enseñamos </h3>
+                </div>  <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="BANCO FALABELLA">
+            </div> 
+
+            <div class="p-2 pl-3 pr-3"> 
+                <center> <!--IMAGENES-->
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="FALABELLA">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="FALABELLA">
+                <br>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="FALABELLA">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="FALABELLA">
+                <br>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="FALABELLA">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="FALABELLA">
+                <br>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="FALABELLA">
+                <br>
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="FALABELLA">
+            </center>
             </div>
-                    </center>
+
+            <div> <!--FIN-->
+                <p>El pago con Tarjetas de Crédito puede tener costos asociados. Consultar al emisor para mayor información. Infórmese sobre la garantía estatal de los depósitos en su banco o <a href="www.cmfchile.cl"></a>cmfchile.cl</p>
+            </div> 
                    
                 
-                        </div>
-                
-        </div>
+   <!-- </div>
+        </div>-->
 
          <div class="d-flex justify-content-around align-content-center mt-1"> 
 
