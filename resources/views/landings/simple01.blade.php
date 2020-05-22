@@ -301,10 +301,10 @@
                     'Telefono': $('#telefono').val(),
                     'Chips': $('#valor').val(),
                     'Compañia': $('#valor01').val(),
-                    'Datos_URL': $('#nombre1').val(),
-                    'Nombre_URL': getUrlParameter('nombre'),
-                    'Telefono_URL': getUrlParameter('telefono'),
-                    'Rut_URL': getUrlParameter('rut'),
+                    //'Datos_URL': $('#nombre1').val(),
+                    //'Nombre_URL': getUrlParameter('nombre'),
+                    //'Telefono_URL': getUrlParameter('telefono'),
+                    //'Rut_URL': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                    
                     
