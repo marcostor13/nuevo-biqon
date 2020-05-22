@@ -9,7 +9,7 @@
    <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:450px; max-height:250px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
+            <img style="max-width:450px; max-height:200px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
 
 
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
