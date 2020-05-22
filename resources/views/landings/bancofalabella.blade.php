@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'BANCO FALABELLA')
+@section('title', 'FALABELLA')
 
 @section('content')
 <?php
@@ -59,7 +59,7 @@ $enddate=strtotime("+15 days", $startdate);
 
        <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
         <div style="background-color:#54C86B;">
-        <img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Yc3aiQM.png" alt="FALABELLA"> <h3 class="text-grey text-left"> Estimado(a) <strong>  <span id="name"></span> </strong> </h3>
+        <img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Yc3aiQM.png" alt="FALABELLA"> <h3 class="text-grey text-left"> Estimado(a) <strong>  <span id="name"></span> <!-- <?php //echo $name; ?> --></strong> </h3>
         </div>
             <div id="cont1">
                           <!--  <div class="card">     
@@ -99,12 +99,12 @@ $enddate=strtotime("+15 days", $startdate);
                 <br>
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/XUTkNVy.jpg" alt="FALABELLA">
                 <br>
-                <img style="max-width: 40%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/PWFmHww.jpg" alt="FALABELLA"><img style="max-width: 15%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TCmWgnf.jpg" alt="FALABELLA">
+                <img style="max-width: 40%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/PWFmHww.jpg" alt="FALABELLA"><img style="max-width: 16%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TCmWgnf.jpg" alt="FALABELLA">
             </center>
             </div>
 
             <div> <!--FIN-->
-                <p>El pago con Tarjetas de Crédito puede tener costos asociados. Consultar al emisor para mayor información. Infórmese sobre la garantía estatal de los depósitos en su banco o </p><a href="www.cmfchile.cl">cmfchile.cl</a>
+                <p>El pago con Tarjetas de Crédito puede tener costos asociados. Consultar al emisor para mayor información. Infórmese sobre la garantía estatal de los depósitos en su banco o <a href="www.cmfchile.cl">cmfchile.cl</a></p>
             </div> 
                    
                 
