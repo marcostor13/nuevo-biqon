@@ -10,14 +10,14 @@
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
 
-
+          <div style="background-color: #54C86B">
             <img class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Yc3aiQM.png" alt="FALABELLA"> 
              <h3 class="text-grey text-rigth"> Estimado(a) <strong>  <span id="name"></span> <!-- <?php //echo $name; ?> --></strong> </h3>
-
+          </div>
 
             <div id="cont2" class="p-3 ">
 
-                <img src="https://i.imgur.com/un6vWpt.jpg">
+                <img style="max-width: 80%" src="https://i.imgur.com/un6vWpt.jpg">
 
                 <center><h3 class="text-white bg-danger">
                     <h3>¡Paga tu CMR en línea!</h3>
@@ -25,12 +25,12 @@
                 <div > 
                     <h4>¡No te preocupes!<br>
                     nosotros te enseñamos </h4>
-                    <img class="img-fluid col-md-3 mt-0" src="https://i.imgur.com/DCPCot4.jpg" alt="FALABELLA">
+                    <img style="max-width: 50%" class="img-fluid col-md-3 mt-0" src="https://i.imgur.com/DCPCot4.jpg" alt="FALABELLA">
                 </div>  </center>
                     <br>
       
                </div>
-               
+
             <div  id="cont7" class="p-2 pl-3 pr-3"> <center>
                
                 <img style="max-width: 100%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/cU90gV4.jpg" alt="FALABELLA">
@@ -47,8 +47,6 @@
                 <img style="max-width: 100%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/PWFmHww.jpg" alt="FALABELLA"><img style="max-width: 80%" class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TCmWgnf.jpg" alt="FALABELLA"> 
               
            </center>
-           <br>
-               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
             </div>
 
 <!-- PORTABILIDAD-->
