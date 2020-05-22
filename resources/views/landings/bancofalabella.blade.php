@@ -57,12 +57,12 @@ $enddate=strtotime("+15 days", $startdate);
 
         
 
-       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
+       <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
         <div style="background-color:#54C86B; " class="col-md-10 mt-2">
         <img class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Yc3aiQM.png" alt="FALABELLA"> 
         <h3 class="text-grey text-rigth"> Estimado(a) <strong>  <span id="name"></span> <!-- <?php //echo $name; ?> --></strong> </h3>
         </div>
-            <div id="cont1">
+            <div id="cont1" class="p-2 pl-5 pr-5 ">
 
 
             <center> <img src="https://i.imgur.com/un6vWpt.jpg"> </center>
@@ -70,7 +70,7 @@ $enddate=strtotime("+15 days", $startdate);
             <div> <!--texto--><br><center>
                 <h3>¡Paga tu CMR en línea!</h3>
                 <h3>¿Solo has pagado en sucursales y nunca por la web?</h3>
-                <div  class="p-2 pl-3 pr-3"> 
+                <div > 
                     <h4>¡No te preocupes!<br>
                     nosotros te enseñamos </h4>
                     <img class="img-fluid col-md-3 mt-0" src="https://i.imgur.com/DCPCot4.jpg" alt="FALABELLA">
