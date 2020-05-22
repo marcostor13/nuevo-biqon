@@ -57,27 +57,17 @@ $enddate=strtotime("+15 days", $startdate);
 
         <div class="opaco"></div>
 
-       <div align="center" class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
+       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
         <div style="background-color:#54C86B; " class="col-md-10 mt-2">
         <img class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Yc3aiQM.png" alt="FALABELLA"> 
         <h3 class="text-grey text-rigth"> Estimado(a) <strong>  <span id="name"></span> <!-- <?php //echo $name; ?> --></strong> </h3>
         </div>
             <div id="cont1">
-                          <!--  <div class="card">     
-                <div class="card-body">-->
 
-                     <center> <img src="https://i.imgur.com/un6vWpt.jpg"> </center>
-                  
-                        <!-- <div>
-                 <button onclick='window.location.href="https://cuentacorriente.bancofalabella.cl/#/"' type="button" class="btn bg-warning text-white col-10 mt-4" >CUENTA CORRIENTE</button>
-                 <div>
-                        <button onclick='window.location.href="https://www.bancofalabella.cl/credito-de-consumo?utm_source=sitio_clientes&utm_medium=lugar_principal"' type="button" class="btn bg-warning text-white col-10 mt-4" >PIDE TU CREDITO</button>
-                      <div>
-                        <button onclick='window.location.href="https://solicitudes.cmr.cl/?feature=insurance_v1&utm_expid=.PbkBPSTwQjuqM_GpPiVRFA.1&utm_referrer="' type="button" class="btn bg-warning text-white col-10 mt-4" >TARJETA CMR</button>
-                    </div>                   
-                 </div>
-            </div>-->
-            <div > <!--texto--><br>
+
+            <center> <img src="https://i.imgur.com/un6vWpt.jpg"> </center>
+          
+            <div> <!--texto--><br>
                 <h3>¡Paga tu CMR en línea!</h3>
                 <h3>¿Solo has pagado en sucursales y nunca por la web?</h3>
                 <div  class="p-2 pl-3 pr-3"> 
@@ -108,16 +98,10 @@ $enddate=strtotime("+15 days", $startdate);
             <div> <!--FIN--><br>
                 <p>El pago con Tarjetas de Crédito puede tener costos asociados. Consultar al emisor para mayor información. Infórmese sobre la garantía estatal de los depósitos en su banco o <a href="www.cmfchile.cl">cmfchile.cl</a></p>
             </div> 
-                   
-                
-   <!-- </div>
-        </div>-->
+    
 
-         <div class="d-flex justify-content-around align-content-center mt-1"> 
-
-            
-                                                            
-            </div>
+         <div class="d-flex justify-content-around align-content-center mt-1">                                                  
+        </div>
           
      <script>
    //EVENT 1
