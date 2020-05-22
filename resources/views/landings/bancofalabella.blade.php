@@ -17,7 +17,7 @@
 
             <div id="cont2" class="p-3 ">
 
-                <img style="max-width: 80%" src="https://i.imgur.com/un6vWpt.jpg">
+                <img style="max-width: 100%" src="https://i.imgur.com/un6vWpt.jpg">
 
                 <center><h3 class="text-white bg-danger">
                     <h3>¡Paga tu CMR en línea!</h3>
@@ -25,7 +25,7 @@
                 <div > 
                     <h4>¡No te preocupes!<br>
                     nosotros te enseñamos </h4>
-                    <img style="max-width: 50%" class="img-fluid col-md-3 mt-0" src="https://i.imgur.com/DCPCot4.jpg" alt="FALABELLA">
+                    <img style="max-width: 75%" class="img-fluid col-md-3 mt-0" src="https://i.imgur.com/DCPCot4.jpg" alt="FALABELLA">
                 </div>  </center>
                     <br>
       
