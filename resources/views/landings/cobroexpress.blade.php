@@ -66,7 +66,7 @@ $enddate=strtotime("+5 days", $startdate);
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
-                                 <a href="tel:+56226385232" class="btn bg-dark text-white col-12 mt-4"> Contactar</a>
+                                 <a href="tel:+56985020598" class="btn bg-dark text-white col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
