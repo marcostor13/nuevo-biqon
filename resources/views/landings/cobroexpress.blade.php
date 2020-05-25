@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'ProInnova')
+@section('title', 'COEX')
 
 @section('content')
 <?php
@@ -94,7 +94,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <a onclick="eventosLanding('Correo');" href="mailto:wsherringtonon@cobroexpress.cl?subject=Landing%20ProInnova"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>
-               
+
             </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
