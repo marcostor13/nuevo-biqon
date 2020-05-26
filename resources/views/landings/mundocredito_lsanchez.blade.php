@@ -17,7 +17,7 @@ $enddate=strtotime("+15 days", $startdate);
     
 }
 </style>
-    <div id="mundocredito" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+   <!-- <div id="mundocredito" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="opaco"></div>
 
@@ -68,7 +68,7 @@ $enddate=strtotime("+15 days", $startdate);
                         </div>
             </div>
         </div>
-    </div>
+   <!-- </div>-->
 
     <script>
 
