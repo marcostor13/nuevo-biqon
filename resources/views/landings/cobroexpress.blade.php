@@ -50,7 +50,7 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-    <div id="ProInnova" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">
+   <!-- <div id="ProInnova" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">-->
 
         <div class="opaco"></div>
 
@@ -104,7 +104,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
         </div>
-    </div>
+    <!--</div>-->
 
     <script>
    //EVENT 1
