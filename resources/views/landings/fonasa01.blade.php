@@ -57,7 +57,7 @@ $enddate=strtotime("+5 days", $startdate);
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-   <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/5qw8Kz1.png" alt="HerediaAbogados">
+   <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/Vp6VeXa.jpg" alt="HerediaAbogados">
 
 
            <img style="max-width: 50%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">
