@@ -83,7 +83,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 hide">
                 <h5 class="text-black text-center">Estimado (a) <strong> <span id="name"></span><!--<span><?php //echo $name; ?></span>--></strong></h5>
 
-                <h5><p class="text-black">
+                <h5><p class="text-black"  align="justify">
                   Te informamos que el estado de tu causa conforme al art. 42 de la Ley de Concesiones, tramitada en el Jdo. Policía Local de La Granja <span id="data1"> es: <span id="data2">
                     <br>
                 Entendiendo el momento que actualmente estamos viviendo y que necesitamos de cada uno para avanzar, queremos ofrecer las siguientes alternativas:
