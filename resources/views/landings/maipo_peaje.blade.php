@@ -85,8 +85,8 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <h5><p class="text-black"  align="justify">
                   Te informamos que el estado de tu causa conforme al art. 42 de la Ley de Concesiones, tramitada en el Jdo. Policía Local de La Granja <br>
-                  ROL: <span id="data1"></span><br>
-                  Estado Judicial: <span id="data2"></span>
+                  ROL: <span id="data1"></span>,<br>
+                  Es: <span id="data2"></span>
                     <br>
                 Entendiendo el momento que actualmente estamos viviendo y que necesitamos de cada uno para avanzar, queremos ofrecer las siguientes alternativas:
 
