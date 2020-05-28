@@ -6,7 +6,7 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
-$name = $_GET['NOMBRE'];
+//$name = $_GET['NOMBRE'];
 ?>
 <style>
 .opaco{
@@ -77,21 +77,24 @@ $name = $_GET['NOMBRE'];
                     </div>
 
             <div id="cont2" class="p-5 ">
-                <h5 class="text-black text-center">Estimado (a) <strong><span><?php echo $name; ?></span> </strong></h5>
+                <h5 class="text-black text-center">Estimado (a) <strong><span id="name"></span> </strong> </strong></h5>
 
                 <h5><p class="text-black">
-                   Te informamos que nos encontramos tramitando una demanda por una deuda con Fondo Nacional de Salud (Fonasa).  </strong> <a href="https://www.fonasa.cl/sites/fonasa/inicio">www.fonasa.cl.</a> Entendiendo el momento que actualmente estamos viviendo y que necesitamos de cada uno para avanzar, queremos ofrecer las siguientes alternativas:
+                   Te informamos que por concepto de no pago de cotizaciones de salud a Fonasa, estamos iniciando las acciones civiles y penales correspondientes.Entendiendo el momento que actualmente estamos viviendo y que necesitamos de cada uno para avanzar, queremos ofrecer las siguientes alternativas
+
                 </p></h5>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
                     <span>Compromiso de Pago</span>
                     <input id="date1"  type="date"  style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" onclick="sendMail();"/>
                 </div>-->
-                <button onclick="sendMail('Solicito pagar en Cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar en Cuotas</button>
+                <button onclick="sendMail('Solicito forma de pago'); eventosLanding('Solicitud'); return false;" class="btn bg-dark text-white col-12 mt-4">Solicito forma de pago</button>
 
-                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-dark text-white col-12 mt-4">Quiero que me Contacten</button>
+                <!--<button onclick="sendMail('Solicito pagar el Total con descuento'); eventosLanding('total con Descuento'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar el Total con Descuento</button>
 
-                <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4">El teléfono no corresponde </button>
+                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-dark text-white col-12 mt-4">Quiero que me Contacten</button>-->
+
+                <button onclick="window.location.href 'https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>
                 
                 
                 <div class="d-flex justify-content-around align-content-center mt-2"> 
