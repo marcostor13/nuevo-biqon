@@ -83,7 +83,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 hide">
                 <h5 class="text-black text-center">Estimado (a) <strong> <span id="name"></span><!--<span><?php //echo $name; ?></span>--></strong></h5>
 
-                <h5><p class="text-black">
+                <h5><p class="text-black" align="justify">
                   Te informamos que queremos lograr un acuerdo extrajudicial respecto de los daños provocados a Ruta del Maipo Sociedad Concesionaria en el accidente de fecha <span id="data1"></span>/04/2020 
                     <br>
                 Entendiendo el momento que actualmente estamos viviendo y que necesitamos de cada uno para avanzar, queremos ofrecer las siguientes alternativas:
