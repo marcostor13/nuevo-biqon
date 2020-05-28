@@ -98,7 +98,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-dark text-white col-12 mt-4">Quiero que me Contacten</button>-->
 
-                <button onclick="window.location.href 'https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>
+                <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>
                 
                 
                 <div class="d-flex justify-content-around align-content-center mt-2"> 
