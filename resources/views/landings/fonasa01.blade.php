@@ -84,7 +84,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h5 class="text-black text-center">Estimado (a) <strong><span id="name"></span> </strong> </strong></h5>
 
                 <h5><p class="text-black">
-                   Te informamos que por concepto de no pago de cotizaciones de salud a Fonasa, estamos iniciando las acciones civiles y penales correspondientes.Entendiendo el momento que actualmente estamos viviendo y que necesitamos de cada uno para avanzar, queremos ofrecer las siguientes alternativas
+                   Te informamos que por concepto de no pago de cotizaciones de salud a Fonasa, estamos iniciando las acciones civiles y penales correspondientes. <br> Entendiendo el momento que actualmente estamos viviendo y que necesitamos de cada uno para avanzar, queremos ofrecer las siguientes alternativas
 
                 </p></h5>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
