@@ -7,7 +7,7 @@
 <?php
 //$startdate=strtotime("Today");
 //$startdate=('Y-m-d\TH:i:s');
-//$name = $_GET['NOMBRE'];
+$name = $_GET['NOMBRE'];
 //$enddate=strtotime("+5 days", $startdate);
 //$enddate=('Y-m-d\TH:i:s');
 ?>
@@ -64,7 +64,7 @@
             
             <div class=col-md-12>
            
-                        <div id="cont1" class="p-2 pl-5 pr-5 hide">
+                       <!-- <div id="cont1" class="p-2 pl-5 pr-5 hide">
                          <div class="card">
                         <div class="card-body">
                         <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
@@ -72,7 +72,7 @@
                         <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
                        </div>
                        </div> 
-                    </div>
+                    </div>-->
                      <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -83,12 +83,12 @@
                     <div id="cont2" class="p-2 pl-3 pr-3">
                         <div class="card">     
                             <div class="card-body">
-                                <h4 class="text-grey text-center"> Estimado(a)  Socio<strong>   <!--<span><?php //echo $name; ?></span>--->  </strong> </h4>
+                                <h4 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h4>
                           <p class="text-grey"> <h5> <strong> 
-                            En estos difíciles días que estamos pasando en el país,</strong> <strong class="text-primary">FINANCOOP</strong><strong>, tiene un Crédito refinanciamiento con dinero disponible </strong><strong class="text-primary">para los socios al día</strong></h5>
+                            En este mes de Junio,</strong> <strong class="text-primary">FINANCOOP</strong><strong>, quiere apoyarte con un crédito  pre- aprobado</strong><strong class="text-primary"></strong></h5>
                                   <h5> <strong> 
                               <br>* Nuevo monto de crédito $ 1.600.000<br>
-                              <br>* Plazo 90  días, descuento en Julio<br>
+                              <br>* Plazo 90  días, descuento en AGOSTO<br>
                               <!--<br>* Créditos socios nuevos o Compras de cartera hasta $ 1.500.000<br>-->
                               <br>* Enviar foto por WhatsApp de Ultima Liquidación de Sueldo + C. de Identidad + Comprobante de Domicilio<br>
                                    </strong> </h5>
@@ -104,6 +104,7 @@
                                </div>-->
                                 <button onclick="Mens4(); eventosLanding('Correo');" class="btn bg-primary text-white col-12 mt-2">CONSULTAS POR CORREO
                                 </button>
+
 
 
                               <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-primary text-white col-12 mt-2">PAGAR POR TRANSFERENCIA
