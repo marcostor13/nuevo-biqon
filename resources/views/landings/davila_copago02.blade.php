@@ -225,8 +225,8 @@
                     'Telefono': getUrlParameter('telefono'),
                     'Id_Admision': getUrlParameter('data1'),
                     'Prevision': getUrlParameter('data2'),
-                    //'Clasificacion': getUrlParameter('data3'),
-                    'Cuentas': getUrlParameter('data3'),
+                    'Estado': getUrlParameter('data3'),
+                    'Liquidacion': getUrlParameter('data4'),
                     'Landing': '{!! $landing->name !!}'
                     
                 }
@@ -240,8 +240,8 @@
                     'Telefono': getUrlParameter('telefono'),
                     'Id_Admision': getUrlParameter('data1'),
                     'Prevision': getUrlParameter('data2'),
-                    //'Clasificacion': getUrlParameter('data3'),
-                    'Cuentas': getUrlParameter('data3'),
+                    'Estado': getUrlParameter('data3'),
+                    'Liquidacion': getUrlParameter('data4'),
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
