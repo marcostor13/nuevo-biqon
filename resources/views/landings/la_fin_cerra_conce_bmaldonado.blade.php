@@ -359,7 +359,7 @@ $name = $_GET['NOMBRE'];
              timer: 5000
         }, 
         function(){
-             window.location.href = "tel:+569963101244";
+             window.location.href = "tel:+56963101244";
         })
 
 
@@ -367,14 +367,14 @@ $name = $_GET['NOMBRE'];
         
           function Mens1(){
 
-        window.location.href ="tel:+569963101244";
+        window.location.href ="tel:+56963101244";
     
         } 
 
 
     function Mens2(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=569963101244&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56963101244&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
