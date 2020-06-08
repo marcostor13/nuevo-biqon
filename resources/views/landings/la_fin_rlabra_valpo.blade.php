@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-//$name = $_GET['NOMBRE'];
+$name = $_GET['NOMBRE'];
 //echo "El identificador de este cliente es: $identificador";
 ?>
 <style>
@@ -55,7 +55,7 @@ $enddate=strtotime("+5 days", $startdate);
     }
 </style>
 
-   <div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+   <!-- <div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
 
         
         <div class="opaco"></div>
@@ -65,7 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
 
            
 
-           <div id="cont1" class="p-5 ">
+           <!--<div id="cont1" class="p-5 ">
                 <div class="card">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
@@ -80,25 +80,15 @@ $enddate=strtotime("+5 days", $startdate);
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
 
-             <div id="cont2" class="p-3 hide">
+             <div id="cont1" class="p-5 ">
                 <div class="card">     
                 <div class="card-body">
-                 <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
+                <h3 class="text-black text-center"> <strong> Estimado(a) <span><?php echo $name; ?></span>  </strong> </h3>
                    
-                   <h4>Refinancia tu crédito con Financoop y llévese un monto a favor para lo que necesite. Para mayor información</h4>
-                   <!-- <br>
-                    <h5>Ventajas del crédito</h5>
-                    <h6>-> Son de libre disposición y sin AVAL.<br>
-                    -> Cuotas: Hasta 60 meses de plazo.<br>
-                    -> Tasas reguladas por la Comisión para el Mercado Financiero (CMF).<br>
-                    -> Atendemos socios hasta los 93 años 11 meses.<br>
-                    -> Cobertura de Seguro de Desgravamen.<br>
-                    -> Abono directo en cuenta del socio o retiro en BancoEstado.<br>
-                    -> Evaluación inmediata.</h6>-->
-
-            
+                    <h4>Refinancia tu crédito con Financoop y llévese un monto a favor para lo que necesite. Para mayor información</h4>
+                   
             </div> 
 
             </div> 
