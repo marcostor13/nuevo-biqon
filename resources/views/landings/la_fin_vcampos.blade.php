@@ -90,7 +90,7 @@ $name = $_GET['NOMBRE'];
                 <!--<h4><p class="text-black"> <strong>
                   Financoop líder en la atención a pensionados desde hace más de diez años, quieremos invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>-->
                    
-                   <h3>Financoop tiene buenas noticias para ti, tienes un crédito aprobado en excelentes condiciones, para mas información comunícate con tu ejecutivo en el siguiente link.</h3>
+                   <h3>Financoop tiene buenas noticias para ti, tienes un crédito aprobado en excelentes condiciones, para mas información comunícate con tu ejecutivo.</h3>
 
             
             </div> 
