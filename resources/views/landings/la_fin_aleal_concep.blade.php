@@ -87,7 +87,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                  <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
                    
-                   <h4>Financoop tiene buenas noticias para ti, tienes un crédito aprobado en excelentes condiciones, para mas información comunícate con tu ejecutivo en el siguiente link.</h4>
+                   <h3>Financoop tiene buenas noticias para ti, tienes un crédito aprobado en excelentes condiciones, para mas información comunícate con tu ejecutivo.</h3>
                    <!-- <br>
                     <h5>Ventajas del crédito</h5>
                     <h6>-> Son de libre disposición y sin AVAL.<br>
