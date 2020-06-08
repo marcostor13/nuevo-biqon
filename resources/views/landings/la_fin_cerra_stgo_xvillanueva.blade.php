@@ -85,7 +85,7 @@ $name = $_GET['NOMBRE'];
              <div id="cont2" class="p-3">
                 <div class="card">     
                 <div class="card-body">
-                 <h3 class="text-white text-center">Estimado  Estimado(a) <span><?php echo $name; ?></span></h3>
+                 <h3 class="text-black text-center">Estimado  Estimado(a) <span><?php echo $name; ?></span></h3>
                    
                    <h4>FINANCOOP tiene un credito Pre-Aprobado para tí,
                     envia última liquidación y Cédula de Identidad</h4>
