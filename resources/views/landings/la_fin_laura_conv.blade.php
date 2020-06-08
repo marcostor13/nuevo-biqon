@@ -89,7 +89,7 @@ $name = $_GET['NOMBRE'];
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Estimado(a) <span><?php echo $name; ?></span>  </strong> </h3>
                    
-                    <h4> Aprovecha nuestro convenio y solicita tu crédito pre aprobado con Financoop, para lo que necesites </h4>
+                    <h4>Refinancia tu crédito con Financoop y llévese un monto a favor para lo que necesite. Para mayor información</h4>
                    
             </div> 
 
