@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-//$name = $_GET['NOMBRE'];
+$name = $_GET['NOMBRE'];
 //echo "El identificador de este cliente es: $identificador";
 ?>
 <style>
@@ -55,7 +55,7 @@ $enddate=strtotime("+5 days", $startdate);
     }
 </style>
 
-   <div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+  <!-- <div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
 
         
         <div class="opaco"></div>
@@ -65,7 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
 
            
 
-           <div id="cont1" class="p-5 ">
+          <!-- <div id="cont1" class="p-5 ">
                 <div class="card">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
@@ -80,7 +80,7 @@ $enddate=strtotime("+5 days", $startdate);
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
 
              <div id="cont2" class="p-3 hide">
                 <div class="card">     
