@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-//$name = $_GET['NOMBRE'];
+$name = $_GET['NOMBRE'];
 //echo "El identificador de este cliente es: $identificador";
 ?>
 <style>
@@ -55,7 +55,7 @@ $enddate=strtotime("+5 days", $startdate);
     }
 </style>
 
-   <div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+   <!--<div id="Financoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
 
         
         <div class="opaco"></div>
@@ -85,7 +85,7 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont2" class="p-3">
                 <div class="card">     
                 <div class="card-body">
-                 <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
+                 <h3 class="text-black text-center">Estimado(a) <span><?php echo $name; ?></span></h3>
                    
                    <h4>FINANCOOP tiene un credito Pre-Aprobado para tí,
                     envia última liquidación y Cédula de Identidad</h4>
