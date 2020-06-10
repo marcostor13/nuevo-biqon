@@ -69,16 +69,19 @@
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
+                <div class="card">     
+                <div class="card-body">
 
-                <p class="text-white">
+                <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
+
+                <p class="text-black">
                     Tenemos una propuesta para regularizar tus cuotas pendientes. <br> Tienes disponible descuentos en Intereses,  gastos de cobranza y de capital <br> Si te interesa recibir más información, comunícate con nosotros o solicita que te llamemos.
                 </p>
                <!-- <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
 
-                </div>-->
+                </div>--></div> </div>
 
                 <button onclick="sendMail('Quiero Que me llamen'); eventosLanding('LLAMADA'); return false;" class="btn bg-danger text-white col-12 mt-4">QUIERO QUE ME LLAMEN</button>
 
