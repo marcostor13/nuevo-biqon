@@ -72,9 +72,7 @@
                 <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
 
                 <p class="text-white">
-                    Te informamos que presentas un retraso en el pago tus cuotas por un monto total de:
-                   <!-- <b>$ </b><b id="pay"></b>-->
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
+                    Tenemos una propuesta para regularizar tus cuotas pendientes. <br> Tienes disponible descuentos en Intereses,  gastos de cobranza y de capital <br> Si te interesa recibir más información, comunícate con nosotros o solicita que te llamemos.
                 </p>
                <!-- <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
