@@ -57,7 +57,10 @@
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="USS">
 
              <div id="cont1" class="p-5 ">
-                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 6 dígitos de tu RUT</h3>
+                <div class="card">     
+                <div class="card-body">
+                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 6 dígitos de tu RUT</h3>
+                </div> </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
             </div>
