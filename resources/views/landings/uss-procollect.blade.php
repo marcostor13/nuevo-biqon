@@ -3,9 +3,9 @@
 @section('title', 'USS')
 
 @section('content')
-<?php
-$startdate=strtotime("Today");
-$enddate=strtotime("+5 days", $startdate);
+<?php 
+//$startdate=strtotime("Today");
+//$enddate=strtotime("+5 days", $startdate);
 ?>
 
 <style type="text/css">
@@ -57,7 +57,10 @@ $enddate=strtotime("+5 days", $startdate);
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="USS">
 
              <div id="cont1" class="p-5 ">
-                <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <div class="card">     
+                <div class="card-body">
+                <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 6 dígitos de tu RUT</h4>
+                </div> </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
             </div>
@@ -69,26 +72,38 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
+                <div class="card">     
+                <div class="card-body">
 
-                <p class="text-white">
-                    Te informamos que presentas un retraso en el pago tus cuotas por un monto total de:
-                    <b>$ </b><b id="pay"></b>
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
-                </p>
-                <div class="date btn bg-danger text-white col-12 mt-4">
+                <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
+
+                <h5 class="text-black">
+                    Tenemos una propuesta para regularizar tus cuotas pendientes. <br> Tienes disponible descuentos en Intereses,  gastos de cobranza y de capital <br> Si te interesa recibir más información, comunícate con nosotros o solicita que te llamemos.
+                </h5>
+               <!-- <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-                <button onclick='window.location.href="https://pagos.uss.cl/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
+                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
+
+                </div>--></div> </div>
+
+                <button onclick="sendMail('Quiero Que me llamen'); eventosLanding('LLAMADA'); return false;" class="btn bg-danger text-white col-12 mt-4">QUIERO QUE ME LLAMEN</button>
+
+                <a onclick="eventosLanding('CORREO'); Mens2();" class="btn bg-danger text-white col-12 mt-4"> ESCRÍBENOS <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+
+
+                <button onclick='window.location.href="https://pagos.uss.cl"; eventosLanding("PAGINA DE PAGOS USS"); ' class="btn bg-danger text-white col-12 mt-4">REVISAR DEUDA COMPLETA</button>
+
+
+
+                <!-- <button onclick='window.location.href="https://pagos.uss.cl/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>-->
                 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
+               
                 
-                <div class="d-flex justify-content-around align-content-center mt-4">
+               <!-- <div class="d-flex justify-content-around align-content-center mt-4">
                     
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56225940241"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56225940241"> LLAMAR</a>
                    
-                </div>
+                </div>-->
                 
             </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
@@ -164,7 +179,7 @@ $enddate=strtotime("+5 days", $startdate);
             let json_datos = getAllUrlParameter(); 
 
             json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+          //  json_datos.monto = $('#pay').text();
            // json_datos.date = $('#date1').val();
 
             events({    
@@ -205,7 +220,7 @@ $enddate=strtotime("+5 days", $startdate);
  
            
             
-            var correo = ["josesm@procollect.cl"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -295,7 +310,18 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-      
+        function Mens2(){
+       var id_adm; 
+         id_adm= getUrlParameter('data1'); 
+         var rut; 
+         rut= getUrlParameter('rut');
+
+        // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
+
+         var body_message = "%0A%20Estimado%20estudiante,%0A%20favor%20env%C3%ADe%20su%20consulta%20relacionada%20al%20pago%20de%20su%20cuenta.%20%0A%20Saludos%20cordiales%20";
+   window.location.href = "mailto:uss@procollect.cl?subject=Pago%20de%20Cuenta%20&body=RUT:%20"+rut+" "+body_message;
+
+ }
         
     
     </script>
