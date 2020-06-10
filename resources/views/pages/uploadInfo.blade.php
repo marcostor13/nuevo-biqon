@@ -19,10 +19,21 @@
         <span id="response"></span>
     </form>
 
+
+    {{-- <div class="row">
+
+        <div class="form-group">
+            <select onchange="getTables()" id="database" class="form-control">
+                <option value="binterac_baserut">binterac_baserut</option>
+            </select>
+            <select id="table"></select>
+        </div>
+        
+    </div> --}}
+
     <script>
 
-        $('#navPrincipal').hide();
-     
+        $('#navPrincipal').hide();    
         
         let uploadData = function(){
 
@@ -64,6 +75,37 @@
             });
             
         }
+
+
+        // let getTables = function(){
+
+           
+        //     let database = $('#database').val();
+
+        //     let data = {
+        //        'database': database,            
+        //    }           
+
+        //     $.ajaxSetup({
+        //         headers: {
+        //             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        //         }
+        //     }); 
+
+        //     $.post("/getQueryBigquery", data, function () {
+        //         console.log(data);
+        //     })
+        //     .done(function (e) {
+        //         console.log(e);
+
+        //     })
+        //     .fail(function () {
+        //         console.log("error");
+        //     });
+            
+        // }
+
+
 
        
     

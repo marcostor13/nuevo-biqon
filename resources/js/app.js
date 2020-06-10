@@ -16,6 +16,7 @@ require('./bootstrap');
 require('./pages/home');
 require('./pages/messages');
 require('./pages/dashboard');
+require('./pages/dashboard-biqon');
 require('./general');
 
 import $ from 'jquery';

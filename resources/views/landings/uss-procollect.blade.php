@@ -113,44 +113,48 @@ $enddate=strtotime("+5 days", $startdate);
         }); 
 
          function event1(){
-    
-            let dataSend = {
-                'fourRut': $('#rut').val(),
-                'phone': getUrlParameter('telefono'),
-                'landing_id': {!! $landing->id !!},
-            } 
-            
-            $.ajaxSetup({
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                }
-            });
-            $.post( "/validateRut", dataSend,function() {
-                console.log(dataSend);
-            })
-            .done(function(e) {
-                console.log(e);
-                e = JSON.parse(e); 
 
-                if(e.code == 200){
-                    $('#cont1').addClass('hide');
-                    $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
-                    $('#cont2').removeClass('hide');
-                    $('#date1').on('change', function(){
-                        if($('#date1').val() != ''){
-                            sendMail();
-                        }
-                    });
-                }else{
-                    $('#cont1').addClass('hide');
-                    $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
-                }
-            })
-            .fail(function() {
-                console.log( "error" );
-            });
+             if($('#rut').val().length != 6){
+                 $('#error').text("Debe ingresar 6 dígitos");
+             }else{
+                let dataSend = {
+                    'fourRut': $('#rut').val(),
+                    'phone': getUrlParameter('telefono'),
+                    'landing_id': {!! $landing->id !!},
+                } 
+                
+                $.ajaxSetup({
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    }
+                });
+                $.post( "/validateRut", dataSend,function() {
+                    console.log(dataSend);
+                })
+                .done(function(e) {
+                    console.log(e);
+                    e = JSON.parse(e); 
+
+                    if(e.code == 200){
+                        $('#cont1').addClass('hide');
+                        $('#name').text(e.data.nombre);
+                        $('#pay').text(e.data.monto);
+                        $('#cont2').removeClass('hide');
+                        $('#date1').on('change', function(){
+                            if($('#date1').val() != ''){
+                                sendMail();
+                            }
+                        });
+                    }else{
+                        $('#cont1').addClass('hide');
+                        $('#cont5').removeClass('hide');
+                        $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
+                    }
+                })
+                .fail(function() {
+                    console.log( "error" );
+                });
+             }   
 
         }
         
