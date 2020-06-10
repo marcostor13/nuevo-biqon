@@ -75,7 +75,7 @@
                 <div class="card">     
                 <div class="card-body">
 
-                <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
+                <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <h5 class="text-black">
                     Tenemos una propuesta para regularizar tus cuotas pendientes. <br> Tienes disponible descuentos en Intereses,  gastos de cobranza y de capital <br> Si te interesa recibir más información, comunícate con nosotros o solicita que te llamemos.
