@@ -88,7 +88,7 @@
 
                 <button onclick="sendMail('Quiero Que me llamen'); eventosLanding('LLAMADA'); return false;" class="btn bg-danger text-white col-12 mt-4">QUIERO QUE ME LLAMEN</button>
 
-                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-4"> <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png">ESCRÍBENOS</a>
+                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-4"> <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> ESCRÍBENOS</a>
 
 
                 <button onclick='window.location.href="https://pagos.uss.cl"; eventosLanding("Pagina de USS"); ' class="btn bg-danger text-white col-12 mt-4">REVISAR DEUDA COMPLETA</button>
