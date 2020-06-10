@@ -59,7 +59,7 @@
              <div id="cont1" class="p-5 ">
                 <div class="card">     
                 <div class="card-body">
-                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 6 dígitos de tu RUT</h3>
+                <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 6 dígitos de tu RUT</h4>
                 </div> </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
