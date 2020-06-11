@@ -333,7 +333,7 @@
                 for (i = 0; i < variables.length; i++) {
                     sParameterName = sURLVariables[i].split('=');
                     obj2[sParameterName[0].toLowerCase()] = sParameterName[1];           
-                    console.log(obj2);    
+                    console.log('obj2',obj2);    
                     return obj2;
 
                 }
