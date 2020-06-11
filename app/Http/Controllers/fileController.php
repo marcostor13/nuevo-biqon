@@ -408,7 +408,7 @@ class fileController extends Controller
 
                 $flights->url  = $u[0].'?id="'.$encrypted.'"';   
 
-                return redirect($flights->url);
+                return redirect(str_replace(PHP_EOL, '', $flights->url));
 
             }
 
