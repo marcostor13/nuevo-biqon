@@ -128,7 +128,9 @@
         }); 
 
          function event1(){
-    
+    if( $('#rut').val().length !=6){
+            $('#error').text("Debe ingresar 6 digitos")
+    }else{
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
@@ -166,6 +168,8 @@
             .fail(function() {
                 console.log( "error" );
             });
+
+        }
 
         }
         
