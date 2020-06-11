@@ -54,13 +54,13 @@
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width: 70%" class="img-fluid col-10 col-md-2 mt-3" src="{{$landing->logo}}" alt="USS">
-            <img style="max-width: 40%" class="img-fluid col-10 col-md-2 mt-3" src="https://i.imgur.com/GF2MsLL.png" alt="USS">
+            <img style="max-width: 60%" class="img-fluid col-10 col-md-2 mt-2" src="{{$landing->logo}}" alt="USS">
+            <img style="max-width: 30%" class="img-fluid col-10 col-md-2 mt-2" src="https://i.imgur.com/GF2MsLL.png" alt="USS">
 
              <div id="cont1" class="p-5 ">
                 <div class="card">     
                 <div class="card-body">
-                <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 6 dígitos de tu RUT</h4>
+                <h5 class="text-black text-center">Por tu seguridad, confírmanos los primeros 6 dígitos de tu RUT</h5>
                 </div> </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black"  min="6" max="6" maxlength="6">
                 <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
@@ -83,17 +83,11 @@
             <div id="cont2" class="p-5 hide">
                 <div class="card">     
                 <div class="card-body">
-
                 <h5 class="text-black text-center">Estimado(a) <span id="name"></span></h5>
                 <h5 class="text-black">
                     Tenemos una propuesta para regularizar tus cuotas pendientes. <br> Tienes disponible descuentos en Intereses,  gastos de cobranza y de capital <br> Si te interesa recibir más información, comunícate con nosotros o solicita que te llamemos.
                 </h5>
              </div> </div>
-               <!-- <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-
-                </div>-->
 
                 <button onclick="sendMail('Quiero Que me llamen'); eventosLanding('LLAMADA'); return false;" class="btn bg-danger text-white col-12 mt-4">QUIERO QUE ME LLAMEN</button>
 
