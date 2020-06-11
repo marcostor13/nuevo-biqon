@@ -389,9 +389,16 @@ class fileController extends Controller
         $pos = strpos($flights->url, 'uss-procollect');
 
         if ($pos !== false) {
+
+            
            
             $u = explode('?', $flights->url);
-            $flights->url  = $u[0].'?id='.$this->encrypt($u[1]);            
+            $message = $u[1];
+            $key = hex2bin('000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f');
+            $encrypted = $this->encrypt($message, $key);
+
+            $flights->url  = $u[0].'?id='.$encrypted;   
+
 
         }
                  
@@ -414,14 +421,7 @@ class fileController extends Controller
                  
         //ONLY PROCOLLET LANDING
 
-        $pos = strpos($flights->url, 'uss-procollect');
-
-        if ($pos !== false) {
-           
-            $u = explode('?', $flights->url);
-            $flights->url  = $u[0].'?id='.$this->encrypt($u[1]);            
-
-        }
+        $pos = strpos($flights->url, 'uss-procollect');       
 
 
         if($flights == ''){
@@ -439,16 +439,72 @@ class fileController extends Controller
         
     }
 
-    private $Key = "libido16";
 
-    public function encrypt ($string) {
-        return base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_256, md5('libido16'),
-        $string, MCRYPT_MODE_CBC, md5(md5('libido16'))));
+
+    // public function encrypt ($string) {
+    //     return base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_256, md5('libido16'),
+    //     $string, MCRYPT_MODE_CBC, md5(md5('libido16'))));
+    // }
+
+    // public function decrypt ($string) {
+    //     return rtrim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, md5('libido16'), 
+    //     base64_decode($string), MCRYPT_MODE_CBC, md5(md5('libido16'))), "\0");
+    // }
+
+    const METHOD = 'aes-256-ctr';
+
+
+    public static function encrypt($message, $key, $encode = false)
+    {
+        $nonceSize = openssl_cipher_iv_length(self::METHOD);
+        $nonce = openssl_random_pseudo_bytes($nonceSize);
+
+        $ciphertext = openssl_encrypt(
+            $message,
+            self::METHOD,
+            $key,
+            OPENSSL_RAW_DATA,
+            $nonce
+        );
+
+        // Now let's pack the IV and the ciphertext together
+        // Naively, we can just concatenate
+        if ($encode) {
+            return base64_encode($nonce.$ciphertext);
+        }
+        return $nonce.$ciphertext;
     }
 
-    public function decrypt ($string) {
-        return rtrim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, md5('libido16'), 
-        base64_decode($string), MCRYPT_MODE_CBC, md5(md5('libido16'))), "\0");
+    /**
+     * Decrypts (but does not verify) a message
+     * 
+     * @param string $message - ciphertext message
+     * @param string $key - encryption key (raw binary expected)
+     * @param boolean $encoded - are we expecting an encoded string?
+     * @return string
+     */
+    public static function decrypt($message, $key, $encoded = false)
+    {
+        if ($encoded) {
+            $message = base64_decode($message, true);
+            if ($message === false) {
+                throw new Exception('Encryption failure');
+            }
+        }
+
+        $nonceSize = openssl_cipher_iv_length(self::METHOD);
+        $nonce = mb_substr($message, 0, $nonceSize, '8bit');
+        $ciphertext = mb_substr($message, $nonceSize, null, '8bit');
+
+        $plaintext = openssl_decrypt(
+            $ciphertext,
+            self::METHOD,
+            $key,
+            OPENSSL_RAW_DATA,
+            $nonce
+        );
+
+        return $plaintext;
     }
 
     
