@@ -127,7 +127,7 @@
                 'json_datos': JSON.stringify(getAllUrlParameter())
             });
 
-            console.log('getAllUrlParameter', await getAllUrlParameter().getValue());
+            console.log('getAllUrlParameter', await getAllUrlParameter());
         }); 
 
       
