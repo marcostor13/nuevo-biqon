@@ -54,9 +54,8 @@
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width: 70%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="USS">
-
-            <img style="max-width: 40%" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/GF2MsLL.png" alt="USS">
+            <img style="max-width: 70%" class="img-fluid col-10 col-md-2 mt-3" src="{{$landing->logo}}" alt="USS">
+            <img style="max-width: 40%" class="img-fluid col-10 col-md-2 mt-3" src="https://i.imgur.com/GF2MsLL.png" alt="USS">
 
              <div id="cont1" class="p-5 ">
                 <div class="card">     
