@@ -406,9 +406,9 @@ class fileController extends Controller
                 $key = hex2bin('1234');
                 $encrypted = $this->encrypt($message, $key);
 
-                $flights->url  = $u[0].'?id="'.$encrypted.'"';   
+                $flights->url  = $u[0].'?id="'.str_replace(PHP_EOL, '', $encrypted).'"';   
 
-                return redirect(str_replace(PHP_EOL, '', $flights->url));
+                return redirect($flights->url);
 
             }
 
