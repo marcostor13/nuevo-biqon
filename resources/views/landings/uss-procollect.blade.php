@@ -318,26 +318,19 @@
                 }
             });
 
-            await $.post( "/getUrlByCode", obj, function() {
+            return await $.post( "/getUrlByCode", obj, function() {
                 
             })
             .done(function(e) {
 
-                console.log('e', e);
-
                 var variables = e.split('&');
-
                 let obj2 = {}; 
-
                 for (i = 0; i < variables.length; i++) {
                     sParameterNameV = variables[i].split('=');
                     obj2[sParameterNameV[0].toLowerCase()] = sParameterNameV[1];           
                     console.log('obj2',obj2);    
-
                 }
                 return obj2;
-
-                console.log(e);
              
             })
             .fail(function(e) {
