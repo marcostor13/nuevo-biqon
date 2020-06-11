@@ -323,14 +323,16 @@
             })
             .done(function(e) {
 
-                var variables = e.split('&');
-                let obj2 = {}; 
-                for (i = 0; i < variables.length; i++) {
-                    sParameterNameV = variables[i].split('=');
-                    obj2[sParameterNameV[0].toLowerCase()] = sParameterNameV[1];           
-                    console.log('obj2',obj2);    
-                }
-                return obj2;
+                return e;
+
+                // var variables = e.split('&');
+                // let obj2 = {}; 
+                // for (i = 0; i < variables.length; i++) {
+                //     sParameterNameV = variables[i].split('=');
+                //     obj2[sParameterNameV[0].toLowerCase()] = sParameterNameV[1];           
+                //     console.log('obj2',obj2);    
+                // }
+                // return obj2;
              
             })
             .fail(function(e) {
