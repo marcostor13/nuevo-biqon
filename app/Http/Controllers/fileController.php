@@ -421,7 +421,7 @@ class fileController extends Controller
             $logurl->code = $code;
             $logurl->userid = $flights->userid;
             $logurl->save();
-            return redirect($flights->url);
+            return redirect('http://google.com.pe');
         }
         
 
