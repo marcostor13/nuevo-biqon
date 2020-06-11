@@ -120,14 +120,14 @@
     <script>
    //EVENT 1
         
-        $(function(){
+        $(async function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
                 'json_datos': JSON.stringify(getAllUrlParameter())
             });
 
-            console.log('getAllUrlParameter', getAllUrlParameter());
+            console.log('getAllUrlParameter', await getAllUrlParameter());
         }); 
 
       
@@ -318,7 +318,7 @@
                 }
             });
 
-            return await $.post( "/getUrlByCode", obj, function() {
+            await $.post( "/getUrlByCode", obj, function() {
                 
             })
             .done(function(e) {
