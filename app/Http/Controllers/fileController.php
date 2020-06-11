@@ -403,10 +403,8 @@ class fileController extends Controller
             
                 $u = explode('?', $flights->url);
                 $message = $u[1];
-                $key = hex2bin('1234');
-                $encrypted = $this->encrypt($message, $key);
-
-                $flights->url  = $u[0].'?id="'.str_replace(PHP_EOL, '', $encrypted).'"';   
+                $encrypted = $this->encrypt($message);
+                $flights->url  = $u[0].'?id='. $encrypted;   
 
                 return redirect($flights->url);
 
@@ -438,71 +436,73 @@ class fileController extends Controller
 
 
 
-    // public function encrypt ($string) {
-    //     return base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_256, md5('libido16'),
-    //     $string, MCRYPT_MODE_CBC, md5(md5('libido16'))));
-    // }
-
-    // public function decrypt ($string) {
-    //     return rtrim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, md5('libido16'), 
-    //     base64_decode($string), MCRYPT_MODE_CBC, md5(md5('libido16'))), "\0");
-    // }
-
-    const METHOD = 'aes-256-ctr';
-
-
-    public static function encrypt($message, $key, $encode = false)
-    {
-        $nonceSize = openssl_cipher_iv_length(self::METHOD);
-        $nonce = openssl_random_pseudo_bytes($nonceSize);
-
-        $ciphertext = openssl_encrypt(
-            $message,
-            self::METHOD,
-            $key,
-            OPENSSL_RAW_DATA,
-            $nonce
-        );
-
-        // Now let's pack the IV and the ciphertext together
-        // Naively, we can just concatenate
-        if ($encode) {
-            return base64_encode($nonce.$ciphertext);
-        }
-        return $nonce.$ciphertext;
+    public function encrypt ($q) {
+        $cryptKey  = 'qJB0rGtIn5UB1xG03efyCp';
+        $qEncoded      = base64_encode( mcrypt_encrypt( MCRYPT_RIJNDAEL_256, md5( $cryptKey ), $q, MCRYPT_MODE_CBC, md5( md5( $cryptKey ) ) ) );
+        return( $qEncoded );
     }
 
-    /**
-     * Decrypts (but does not verify) a message
-     * 
-     * @param string $message - ciphertext message
-     * @param string $key - encryption key (raw binary expected)
-     * @param boolean $encoded - are we expecting an encoded string?
-     * @return string
-     */
-    public static function decrypt($message, $key, $encoded = false)
-    {
-        if ($encoded) {
-            $message = base64_decode($message, true);
-            if ($message === false) {
-                throw new Exception('Encryption failure');
-            }
-        }
-
-        $nonceSize = openssl_cipher_iv_length(self::METHOD);
-        $nonce = mb_substr($message, 0, $nonceSize, '8bit');
-        $ciphertext = mb_substr($message, $nonceSize, null, '8bit');
-
-        $plaintext = openssl_decrypt(
-            $ciphertext,
-            self::METHOD,
-            $key,
-            OPENSSL_RAW_DATA,
-            $nonce
-        );
-
-        return $plaintext;
+    public function decrypt ($q) {
+        $cryptKey  = 'qJB0rGtIn5UB1xG03efyCp';
+        $qDecoded      = rtrim( mcrypt_decrypt( MCRYPT_RIJNDAEL_256, md5( $cryptKey ), base64_decode( $q ), MCRYPT_MODE_CBC, md5( md5( $cryptKey ) ) ), "\0");
+        return( $qDecoded );
     }
+
+    // const METHOD = 'aes-256-ctr';
+
+
+    // public static function encrypt($message, $key, $encode = false)
+    // {
+    //     $nonceSize = openssl_cipher_iv_length(self::METHOD);
+    //     $nonce = openssl_random_pseudo_bytes($nonceSize);
+
+    //     $ciphertext = openssl_encrypt(
+    //         $message,
+    //         self::METHOD,
+    //         $key,
+    //         OPENSSL_RAW_DATA,
+    //         $nonce
+    //     );
+
+    //     // Now let's pack the IV and the ciphertext together
+    //     // Naively, we can just concatenate
+    //     if ($encode) {
+    //         return base64_encode($nonce.$ciphertext);
+    //     }
+    //     return $nonce.$ciphertext;
+    // }
+
+    // /**
+    //  * Decrypts (but does not verify) a message
+    //  * 
+    //  * @param string $message - ciphertext message
+    //  * @param string $key - encryption key (raw binary expected)
+    //  * @param boolean $encoded - are we expecting an encoded string?
+    //  * @return string
+    //  */
+    // public static function decrypt($message, $key, $encoded = false)
+    // {
+    //     if ($encoded) {
+    //         $message = base64_decode($message, true);
+    //         if ($message === false) {
+    //             throw new Exception('Encryption failure');
+    //         }
+    //     }
+
+    //     $nonceSize = openssl_cipher_iv_length(self::METHOD);
+    //     $nonce = mb_substr($message, 0, $nonceSize, '8bit');
+    //     $ciphertext = mb_substr($message, $nonceSize, null, '8bit');
+
+    //     $plaintext = openssl_decrypt(
+    //         $ciphertext,
+    //         self::METHOD,
+    //         $key,
+    //         OPENSSL_RAW_DATA,
+    //         $nonce
+    //     );
+
+    //     return $plaintext;
+    // }
 
     
 
