@@ -331,8 +331,8 @@
                 let obj2 = {}; 
 
                 for (i = 0; i < variables.length; i++) {
-                    sParameterName = sURLVariables[i].split('=');
-                    obj2[sParameterName[0].toLowerCase()] = sParameterName[1];           
+                    sParameterNameV = variables[i].split('=');
+                    obj2[sParameterNameV[0].toLowerCase()] = sParameterNameV[1];           
                     console.log('obj2',obj2);    
                     return obj2;
 
