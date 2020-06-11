@@ -383,6 +383,17 @@ class fileController extends Controller
     public function routes($company, $code){   
                 
         $flights = Url::where('code', $code)->first();
+
+        //ONLY PROCOLLET LANDING
+
+        $pos = strpos($flights->url, 'uss-procollect');
+
+        if ($pos !== false) {
+           
+            $u = explode('?', $flights->url);
+            $flights->url  = $u[0].'?id='.$this->encrypt($u[1]);            
+
+        }
                  
         if($flights == ''){
             return 'No se puede encontrar la página'; 
@@ -421,7 +432,7 @@ class fileController extends Controller
             $logurl->code = $code;
             $logurl->userid = $flights->userid;
             $logurl->save();
-            return redirect('http://google.com.pe');
+            return redirect($flights->url);
         }
         
 
