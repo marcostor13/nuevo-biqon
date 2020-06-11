@@ -403,10 +403,10 @@ class fileController extends Controller
             if ($pos !== false) {            
             
                 $u = explode('?', $flights->url);
-                $message = $u[1];
-                $key = hex2bin('000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f');
-                $encrypted = $this->encrypt($message, $key);
-                $flights->url  = $u[0].'?id='. $encrypted;   
+                // $message = $u[1];
+                // $key = hex2bin('000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f');
+                // $encrypted = $this->encrypt($message, $key);
+                $flights->url = $u[0].'?id='. $code;   
 
                 return redirect($flights->url);
 
