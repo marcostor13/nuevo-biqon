@@ -119,7 +119,7 @@
 
     <script>
    //EVENT 1
-        
+        var = params = {}; 
         $(async function(){
             events({    
                 'name': 'Visita',
@@ -127,7 +127,9 @@
                 'json_datos': JSON.stringify(getAllUrlParameter())
             });
 
-            console.log('getAllUrlParameter', await getAllUrlParameter());
+            params = await getAllUrlParameter();
+
+            console.log('getAllUrlParameter',params);
         }); 
 
       
@@ -139,7 +141,7 @@
              }else{
                 let dataSend = {
                     'fourRut': $('#rut').val(),
-                    'phone': getUrlParameter('telefono'),
+                    'phone': params.telefono,
                     'landing_id': {!! $landing->id !!},
                 } 
                 
@@ -206,9 +208,9 @@
                 data = {
                     'Mensaje': msg,
                     'Nombre': $('#name').text(),
-                    'Monto': getUrlParameter('monto'),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
+                    'Monto': params.monto,
+                    'RUT': params.rut,
+                    'Telefono': params.telefono,
                    
                     
                 }
@@ -217,9 +219,9 @@
                 data = {
                     'Fecha': date,
                     'Nombre': $('#name').text(),
-                    'Monto': getUrlParameter('monto'),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),                    
+                    'Monto': params.monto,
+                    'RUT': params.rut,
+                    'Telefono': params.telefono,                    
                     'landing': '{!! $landing->name !!}'
                 } 
             }
@@ -345,9 +347,9 @@
 
         function Mens2(){
        var id_adm; 
-         id_adm= getUrlParameter('data1'); 
+         id_adm= params.id; 
          var rut; 
-         rut= getUrlParameter('rut');
+         rut= params.rut;
 
         // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
 
