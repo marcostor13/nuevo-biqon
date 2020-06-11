@@ -84,9 +84,8 @@
                 <div class="card">     
                 <div class="card-body">
                 <h5 class="text-black text-center">Estimado(a) <span id="name"></span></h5>
-                <h5 class="text-black">
-                    Tenemos una propuesta para regularizar tus cuotas pendientes. <br> Tienes disponible descuentos en Intereses,  gastos de cobranza y de capital <br> Si te interesa recibir más información, comunícate con nosotros o solicita que te llamemos.
-                </h5>
+                <p class="text-black">
+                    Tenemos una propuesta para regularizar tus cuotas pendientes. <br> Tienes disponible descuentos en Intereses,  gastos de cobranza y de capital <br> Si te interesa recibir más información, comunícate con nosotros o solicita que te llamemos.</p>
              </div> </div>
 
                 <button onclick="sendMail('Quiero Que me llamen'); eventosLanding('LLAMADA'); return false;" class="btn bg-danger text-white col-12 mt-4">QUIERO QUE ME LLAMEN</button>
