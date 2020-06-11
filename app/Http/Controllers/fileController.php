@@ -384,23 +384,7 @@ class fileController extends Controller
                 
         $flights = Url::where('code', $code)->first();
 
-        //ONLY PROCOLLET LANDING
-
-        $pos = strpos($flights->url, 'uss-procollect');
-
-        if ($pos !== false) {
-
-            
-           
-            $u = explode('?', $flights->url);
-            $message = $u[1];
-            $key = hex2bin('000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f');
-            $encrypted = $this->encrypt($message, $key);
-
-            $flights->url  = $u[0].'?id='.$encrypted;   
-
-
-        }
+        
                  
         if($flights == ''){
             return 'No se puede encontrar la página'; 
@@ -419,11 +403,6 @@ class fileController extends Controller
                 
         $flights = Url::where('code', $code)->first();
                  
-        //ONLY PROCOLLET LANDING
-
-        $pos = strpos($flights->url, 'uss-procollect');       
-
-
         if($flights == ''){
             return 'No se puede encontrar la página'; 
         }else{
@@ -432,6 +411,23 @@ class fileController extends Controller
             $logurl->code = $code;
             $logurl->userid = $flights->userid;
             $logurl->save();
+
+            //ONLY PROCOLLET LANDING
+
+            $pos = strpos($flights->url, 'uss-procollect');
+
+            if ($pos !== false) {            
+            
+                $u = explode('?', $flights->url);
+                $message = $u[1];
+                $key = hex2bin('000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f');
+                $encrypted = $this->encrypt($message, $key);
+
+                $flights->url  = $u[0].'?id='.$encrypted;   
+
+
+            }
+
             return redirect($flights->url);
         }
         
