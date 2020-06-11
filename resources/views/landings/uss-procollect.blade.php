@@ -66,7 +66,7 @@
                 <div id="cont6" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error1"class="text-black text-center mt-5"></h5>
+                                 <h5 id="error"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
+                                 <h5 id="error1"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
                     </div>
