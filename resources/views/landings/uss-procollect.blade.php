@@ -129,6 +129,8 @@
 
          function event1(){
     if( $('#rut').val().length !=6){
+            $('#cont1').addClass('hide');
+            $('#cont5').removeClass('hide');
             $('#error').text("Debe ingresar 6 digitos")
     }else{
             let dataSend = {
