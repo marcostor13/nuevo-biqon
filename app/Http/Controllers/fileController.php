@@ -387,7 +387,7 @@ class fileController extends Controller
         $obj = [];
         for ($i=0; $i <count($params) ; $i++) { 
             $item = explode('=', $params[$i]);
-            $obj[$item[0]] = $item[1];
+            $obj[strtolower($item[0])] = $item[1];
         }
         return $obj;
     }
