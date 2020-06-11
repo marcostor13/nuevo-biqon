@@ -63,6 +63,14 @@
                 </div> </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black"  min="6" max="6" maxlength="6">
                 <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
+
+                <div id="cont6" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                 <h5 id="error"class="text-black text-center mt-5"></h5>
+                            </div>
+                        </div>
+                    </div>
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -129,8 +137,8 @@
 
          function event1(){
     if( $('#rut').val().length !=6){
-            $('#cont1').addClass('hide');
-            $('#cont5').removeClass('hide');
+            //$('#cont1').addClass('hide');
+            $('#cont6').removeClass('hide');
             $('#error').text("Debe ingresar 6 digitos")
     }else{
             let dataSend = {
