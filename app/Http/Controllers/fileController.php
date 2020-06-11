@@ -408,6 +408,7 @@ class fileController extends Controller
 
                 $flights->url  = $u[0].'?id='.$encrypted;   
 
+                return $flights->url;
 
             }
 
