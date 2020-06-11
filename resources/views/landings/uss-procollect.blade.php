@@ -324,6 +324,8 @@
             })
             .done(function(e) {
 
+                console.log('e', e);
+
                 sURLVariables = e.split('&'),
                 sParameterName,
                 i;
