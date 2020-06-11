@@ -47,44 +47,44 @@
 
   
 </style>
-
-
     <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
-        <div class="opaco"></div>
+        <div class="oscurecer">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="USS">
+            <img style="max-width: 60%" class="img-fluid col-10 col-md-2 mt-1" src="{{$landing->logo}}" alt="USS">
+            <img style="max-width: 30%" class="img-fluid col-10 col-md-2 mt-1" src="https://i.imgur.com/whNYFHQ.png" alt="USS">
 
-             <div id="cont1" class="p-5 ">
+             <div id="cont1" class="p-2 ">
                 <div class="card">     
                 <div class="card-body">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 6 dígitos de tu RUT</h4>
                 </div> </div>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-black">
+                <input id="rut" type="number" class="form-control mt-4 text-center text-black"  min="6" max="6" maxlength="6">
                 <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
-            </div>
-            <div id="cont5" class="p-2 pl-3 pr-3 hide">
+
+                <div id="cont6" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 hide">
+            </div>
+            <div id="cont5" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                 <h5 id="error1"class="text-black text-center mt-5"></h5>
+                            </div>
+                        </div>
+                    </div>
+            <div id="cont2" class="p-1 hide">
                 <div class="card">     
                 <div class="card-body">
-
-                <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
-
-                <h5 class="text-black">
-                    Tenemos una propuesta para regularizar tus cuotas pendientes. <br> Tienes disponible descuentos en Intereses,  gastos de cobranza y de capital <br> Si te interesa recibir más información, comunícate con nosotros o solicita que te llamemos.
-                </h5>
-               <!-- <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-
-                </div>--></div> </div>
+                <h5 class="text-black text-center">Estimado(a) <span id="name"></span></h5>
+                <p class="text-black">
+                    Tenemos una propuesta para regularizar tus cuotas pendientes. <br> Tienes disponible descuentos en Intereses,  gastos de cobranza y de capital <br> Si te interesa recibir más información, comunícate con nosotros o solicita que te llamemos.</p>
+             </div> </div>
 
                 <button onclick="sendMail('Quiero Que me llamen'); eventosLanding('LLAMADA'); return false;" class="btn bg-danger text-white col-12 mt-4">QUIERO QUE ME LLAMEN</button>
 
@@ -114,6 +114,7 @@
                         </div>
                     </div>
         </div>
+      </div>
     </div>
 
     <script>
@@ -172,6 +173,8 @@
              }   
 
         }
+
+        }
         
 
         let eventosLanding = function(name){
@@ -220,7 +223,7 @@
  
            
             
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["uss@procollect.cl","josesm@procollect.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
