@@ -381,7 +381,7 @@ class fileController extends Controller
     }
 
     public function getUrlByCode(Request $request){
-        $flights = Url::where('code', $code)->first();
+        $flights = Url::where('code', $request->id)->first();
         return $flights->url;
     }
 

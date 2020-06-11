@@ -126,7 +126,11 @@
                 'landing_id': {!! $landing->id !!},
                 'json_datos': JSON.stringify(getAllUrlParameter())
             });
+
+            console.log(getAllUrlParameter())
         }); 
+
+      
 
          function event1(){
 
@@ -296,7 +300,7 @@
             }
         };
 
-        let getAllUrlParameter = function() {
+        let getAllUrlParameter = async function() {
             var sPageURL = window.location.search.substring(1),
             sURLVariables = sPageURL.split('&'),
             sParameterName,
@@ -309,6 +313,43 @@
 
             obj[sParameterName[0].toLowerCase()] = sParameterName[1];            
             }
+
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+
+            return await $.post( "/getUrlByCode", obj, function() {
+                
+            })
+            .done(function(e) {
+
+                sURLVariables = e.split('&'),
+                sParameterName,
+                i;
+
+                let obj2 = {}; 
+
+                for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+
+                obj2[sParameterName[0].toLowerCase()] = sParameterName[1];            
+
+                console.log(obj2)    
+
+                return obj2;
+
+            }
+
+
+                console.log(e);
+             
+            })
+            .fail(function(e) {
+                console.log(e);               
+            });
+
 
             return obj;  
         };
