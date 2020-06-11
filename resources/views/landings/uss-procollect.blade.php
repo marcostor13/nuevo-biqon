@@ -119,7 +119,7 @@
 
     <script>
    //EVENT 1
-        var = params = {}; 
+        var params = {}; 
         $(async function(){
             events({    
                 'name': 'Visita',
