@@ -20,5 +20,5 @@
     RewriteRule ^ index.php [L]
 
     RewriteEngine On
-RewriteRule ^uss-procollect/?$ /uss-procollect/USS/
+RewriteRule ^uss-procollect/?$ /landings/uss-procollect/
 </IfModule>
