@@ -308,9 +308,8 @@
             let obj = {}; 
 
             for (i = 0; i < sURLVariables.length; i++) {
-            sParameterName = sURLVariables[i].split('=');
-
-            obj[sParameterName[0].toLowerCase()] = sParameterName[1];            
+                sParameterName = sURLVariables[i].split('=');
+                obj[sParameterName[0].toLowerCase()] = sParameterName[1];            
             }
 
             $.ajaxSetup({
@@ -346,7 +345,7 @@
             });
 
 
-            return obj;  
+            // return obj;  
         };
 
         function Mens2(){
