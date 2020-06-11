@@ -230,7 +230,7 @@
  
            
             
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["uss@procollect.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
