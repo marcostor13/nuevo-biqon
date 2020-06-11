@@ -47,17 +47,15 @@
 
   
 </style>
-
-
     <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width: 60%" class="img-fluid col-10 col-md-2 mt-2" src="{{$landing->logo}}" alt="USS">
-            <img style="max-width: 30%" class="img-fluid col-10 col-md-2 mt-2" src="https://i.imgur.com/GF2MsLL.png" alt="USS">
+            <img style="max-width: 60%" class="img-fluid col-10 col-md-2 mt-1" src="{{$landing->logo}}" alt="USS">
+            <img style="max-width: 30%" class="img-fluid col-10 col-md-2 mt-1" src="https://i.imgur.com/GF2MsLL.png" alt="USS">
 
-             <div id="cont1" class="p-3 ">
+             <div id="cont1" class="p-2 ">
                 <div class="card">     
                 <div class="card-body">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 6 dígitos de tu RUT</h4>
@@ -80,7 +78,7 @@
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-2 hide">
+            <div id="cont2" class="p-1 hide">
                 <div class="card">     
                 <div class="card-body">
                 <h5 class="text-black text-center">Estimado(a) <span id="name"></span></h5>
