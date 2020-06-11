@@ -69,7 +69,7 @@
                 <div id="cont6" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
+                                 <h5 id="error1"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                 }else{
                     $('#cont1').addClass('hide');
                     $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
+                    $('#error1').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
                 }
             })
             .fail(function() {
