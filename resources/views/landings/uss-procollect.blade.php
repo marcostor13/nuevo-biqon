@@ -326,22 +326,17 @@
 
                 console.log('e', e);
 
-                sURLVariables = e.split('&'),
-                sParameterName,
-                i;
+                var variables = e.split('&');
 
                 let obj2 = {}; 
 
-                for (i = 0; i < sURLVariables.length; i++) {
-                sParameterName = sURLVariables[i].split('=');
+                for (i = 0; i < variables.length; i++) {
+                    sParameterName = sURLVariables[i].split('=');
+                    obj2[sParameterName[0].toLowerCase()] = sParameterName[1];           
+                    console.log(obj2);    
+                    return obj2;
 
-                obj2[sParameterName[0].toLowerCase()] = sParameterName[1];            
-
-                console.log(obj2)    
-
-                return obj2;
-
-            }
+                }
 
 
                 console.log(e);
