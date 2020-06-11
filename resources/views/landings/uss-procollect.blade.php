@@ -53,7 +53,7 @@
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <img style="max-width: 60%" class="img-fluid col-10 col-md-2 mt-1" src="{{$landing->logo}}" alt="USS">
-            <img style="max-width: 30%" class="img-fluid col-10 col-md-2 mt-1" src="https://i.imgur.com/GF2MsLL.png" alt="USS">
+            <img style="max-width: 30%" class="img-fluid col-10 col-md-2 mt-1" src="https://i.imgur.com/whNYFHQ.png" alt="USS">
 
              <div id="cont1" class="p-2 ">
                 <div class="card">     
