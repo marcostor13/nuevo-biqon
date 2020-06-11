@@ -401,6 +401,18 @@ class fileController extends Controller
                 
         $flights = Url::where('code', $code)->first();
                  
+        //ONLY PROCOLLET LANDING
+
+        $pos = strpos($flights->url, 'uss-procollect');
+
+        if ($pos !== false) {
+           
+            $u = explode('?', $flights->url);
+            $flights->url  = $u[0].'?id='.$this->encrypt($u[1]);            
+
+        }
+
+
         if($flights == ''){
             return 'No se puede encontrar la página'; 
         }else{
@@ -411,6 +423,8 @@ class fileController extends Controller
             $logurl->save();
             return redirect($flights->url);
         }
+        
+
         
     }
 
