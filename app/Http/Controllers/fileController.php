@@ -383,7 +383,13 @@ class fileController extends Controller
     public function getUrlByCode(Request $request){
         $flights = Url::where('code', $request->id)->first();
         $u = explode('?', $flights->url);
-        return $u[1];
+        $params = explode('&', $u[1]);
+        $obj = [];
+        for ($i=0; $i <count($params) ; $i++) { 
+            $item = explode('=', $params[$i]);
+            $obj[$item[0]] = $item[1];
+        }
+        return $obj;
     }
 
     
