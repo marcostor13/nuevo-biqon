@@ -47,7 +47,7 @@
 
   
 </style>
-    <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 300px 100px;">
+    <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;">
 
         <div class="oscurecer"></div>
 
@@ -77,9 +77,9 @@
                         <br>
                          <br>
                           <br>
-                           <br>
+                           <!--<br>
                             <br>
-                             <br>
+                             <br>-->
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
