@@ -47,7 +47,7 @@
 
   
 </style>
-    <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain;">
+    <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: auto;">
 
         <div class="oscurecer">
 
