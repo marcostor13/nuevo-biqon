@@ -124,7 +124,7 @@
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(getAllUrlParameter())
+                'json_datos': JSON.stringify(await getAllUrlParameter())
             });
 
             params = await getAllUrlParameter();
@@ -184,7 +184,7 @@
 
         let eventosLanding = function(name){
             
-            let json_datos = getAllUrlParameter(); 
+            let json_datos = await getAllUrlParameter(); 
 
             json_datos.nombre = $('#name').text();
           //  json_datos.monto = $('#pay').text();
