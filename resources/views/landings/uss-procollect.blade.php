@@ -129,7 +129,7 @@
 
             params = await getAllUrlParameter();
 
-            console.log('getAllUrlParameter',params);
+            // console.log('getAllUrlParameter',params);
         }); 
 
       
