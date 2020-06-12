@@ -49,9 +49,9 @@
 </style>
     <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;;">
 
-        <div class="oscurecer">
+        <div class="oscurecer"></div>
 
-        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+        <div class="content container d-flex flex-column align-items-center justify-content-start p-0">
             <img style="max-width: 60%" class="img-fluid col-10 col-md-2 mt-1" src="{{$landing->logo}}" alt="USS">
             <img style="max-width: 30%" class="img-fluid col-10 col-md-2 mt-1" src="https://i.imgur.com/whNYFHQ.png" alt="USS">
 
@@ -114,7 +114,7 @@
                         </div>
                     </div>
         </div>
-      </div>
+     <!-- </div>-->
     </div>
 
     <script>
