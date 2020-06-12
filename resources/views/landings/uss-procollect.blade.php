@@ -122,9 +122,9 @@
                         <br>
                          <br>
                           <br>
-                           <br>
+                          <!-- <br>
                             <br>
-                             <br>
+                             <br>-->
             </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
