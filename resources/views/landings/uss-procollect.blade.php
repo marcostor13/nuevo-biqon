@@ -182,7 +182,7 @@
 
         
 
-        let eventosLanding = function(name){
+        let eventosLanding = async function(name){
             
             let json_datos = await getAllUrlParameter(); 
 
