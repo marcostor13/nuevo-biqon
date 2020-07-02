@@ -91,7 +91,7 @@
                                 <img width="30" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png">CONSULTAS </a>
 
                                 <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-4">
-                                <img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">LLAMAR </a>
+                                <img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">LLAMAR </a>
                                 <!--<button onclick='window.location.href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna" ; eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-4">CONSULTAS
                                   </button>-->
                               <!--</div>-->
