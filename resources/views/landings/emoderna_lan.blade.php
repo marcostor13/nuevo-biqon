@@ -242,7 +242,7 @@
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
-             var correo = ["jesus.binteraction@gmai.com"];
+             var correo = ["cobranzas@emoderna.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
