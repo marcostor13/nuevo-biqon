@@ -79,7 +79,7 @@
                             <div class="card-body">
                              <h3 class="text-black text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h3>
                             <p class="text-black"> 
-                              Debido a la contingencia que sufre el país, <strong>INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA </strong>, le sugiere pagar por el siguiente medio. </p>
+                              <strong>INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA </strong> Le informa que su cuota se encuentra pendiente de pago, le invitamos a realizar el pago en linea o solicitar informacion:</p>
 
                                <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA
                                 </button>
@@ -89,6 +89,9 @@
                                <!-- <a onclick="eventosLanding('Consulta'); window.location.href='mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna' "; class="btn bg-danger text-black col-12 mt-4">CONSULATAS</a>-->
                                <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna" ; eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-4">
                                 <img width="30" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png">CONSULTAS </a>
+
+                                <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-4">
+                                <img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">LLAMAR </a>
                                 <!--<button onclick='window.location.href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna" ; eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-4">CONSULTAS
                                   </button>-->
                               <!--</div>-->
