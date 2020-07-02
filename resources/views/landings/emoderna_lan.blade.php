@@ -70,14 +70,14 @@
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
                                  <a onclick="" href="https://emoderna.cl" class="btn bg-danger text-white col-12 mt-2"> Ir a Web</a>
 
-                                 <a onclick="eventosLanding('Correo Error');" href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna" class="btn bg-danger text-white col-12 mt-2"> Contactar</a>
+                                 <a onclick="eventosLanding('Correo Error');" href="mailto:cobranzas@emoderna.cl?subject=Cobranza%20Escuela%20Moderna" class="btn bg-danger text-white col-12 mt-2"> Contactar</a>
                             </div>
                         </div>
                     </div>
                     <div id="cont2" class="p-2 pl-3 pr-3 "><!--HIDE-->
                         <div class="card">     
                             <div class="card-body">
-                             <h3 class="text-black text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h3>
+                             <h4 class="text-black text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h4>
                             <p class="text-black"> 
                               <strong>INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA </strong> Le informa que su cuota se encuentra pendiente de pago, le invitamos a realizar el pago en linea o solicitar informacion:</p>
 
@@ -87,11 +87,13 @@
                                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
 
                                <!-- <a onclick="eventosLanding('Consulta'); window.location.href='mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna' "; class="btn bg-danger text-black col-12 mt-4">CONSULATAS</a>-->
-                               <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna" ; eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-4">
-                                <img width="30" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png">CONSULTAS </a>
+                               <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="mailto:cobranzas@emoderna.cl?subject=Cobranza%20Escuela%20Moderna" ; eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-4">
+                                <img width="30" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"> CONSULTAS </a>
 
                                 <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-4">
-                                <img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">LLAMAR </a>
+                                <img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> LLAMAR </a>
+
+                                <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56932919230&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">  Whatsapp </a>
                                 <!--<button onclick='window.location.href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna" ; eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-4">CONSULTAS
                                   </button>-->
                               <!--</div>-->
