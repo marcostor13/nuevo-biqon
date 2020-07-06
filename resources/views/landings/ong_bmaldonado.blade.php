@@ -85,10 +85,10 @@ $name = $_GET['NOMBRE'];
                             <div class="card-body">
                                 <h4 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h4>
                           <p class="text-grey"> <h5> <strong> 
-                            En este mes de Junio,</strong> <strong class="text-primary">FINANCOOP</strong><strong>, quiere apoyarte con un crédito  pre- aprobado</strong><strong class="text-primary"></strong></h5>
+                            En este mes de Julio,</strong> <strong class="text-primary">FINANCOOP</strong><strong>, quiere apoyarte con un crédito  pre- aprobado</strong><strong class="text-primary"></strong></h5>
                                   <h5> <strong> 
-                              <br>* Nuevo monto de crédito $ 1.600.000<br>
-                              <br>* Plazo 90  días, descuento en AGOSTO<br>
+                              <br>* Nuevo monto de crédito $ 1.800.000<br>
+                              <br>* Plazo 90  días, descuento en SEPTIEMBRE<br>
                               <!--<br>* Créditos socios nuevos o Compras de cartera hasta $ 1.500.000<br>-->
                               <br>* Enviar foto por WhatsApp de Ultima Liquidación de Sueldo + C. de Identidad + Comprobante de Domicilio<br>
                                    </strong> </h5>
