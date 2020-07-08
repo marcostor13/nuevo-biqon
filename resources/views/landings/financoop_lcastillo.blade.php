@@ -363,7 +363,7 @@
              timer: 5000
         }, 
         function(){
-             window.location.href = "tel:+56997353030";
+             window.location.href = "tel:+56942059840";
         })
 
 
@@ -371,14 +371,14 @@
         
           function Mens1(){
 
-        window.location.href ="tel:+56997353030";
+        window.location.href ="tel:+56942059840"; 
     
         } 
 
 
     function Mens2(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56997353030&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56942059840&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
