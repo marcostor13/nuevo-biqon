@@ -85,7 +85,7 @@
                             <div class="card-body">
                                 <!--<h4 class="text-grey text-center"> Estimado(a) <strong>   <span><?php //echo $name; ?></span>  </strong> </h4>-->
                           <p class="text-grey"> <h5> 
-                            <strong>Estimado Socio debido a que su cuota del mes de Marzo no se descontó  por tema de Pandemia, En </strong> 
+                            <strong>Estimado Socio debido a que su cuota del mes de Marzo no se descontó  por tema de Pandemia,<br> En </strong> 
                             <strong class="text-primary">FINANCOOP</strong>
                             <strong>,  tenemos una</strong>
                             <strong class="text-primary">Gran Solución para Usted</strong>
