@@ -7,7 +7,7 @@
 <?php
 //$startdate=strtotime("Today");
 //$startdate=('Y-m-d\TH:i:s');
-//$name = $_GET['NOMBRE'];
+$name = $_GET['NOMBRE'];
 //$enddate=strtotime("+5 days", $startdate);
 //$enddate=('Y-m-d\TH:i:s');
 ?>
@@ -83,9 +83,9 @@
                     <div id="cont2" class="p-2 pl-3 pr-3">
                         <div class="card">     
                             <div class="card-body">
-                                <!--<h4 class="text-grey text-center"> Estimado(a) <strong>   <span><?php //echo $name; ?></span>  </strong> </h4>-->
+                        <h4 class="text-grey text-center"> Estimado(a) <strong>   <span><?php echo $name; ?></span>  </strong> </h4>
                           <p class="text-grey"> <h5> 
-                            <strong>Estimado Socio debido a que su cuota del mes de Marzo no se descontó  por tema de Pandemia,<br> En </strong> 
+                            <strong>Debido a que su cuota del mes de Marzo no se descontó  por tema de Pandemia,<br> En </strong> 
                             <strong class="text-primary">FINANCOOP</strong>
                             <strong>,  tenemos una</strong>
                             <strong class="text-primary">Gran Solución para Usted</strong>
