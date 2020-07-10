@@ -136,15 +136,17 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="text-center">
                     <hr>
                     <button class="btn bg-primary text-white col-10 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> Quiero saber mas</button>
-                    
+                    <br>
+                    <br>
                   </div>
               </div>
                </div>
-               
+
                 <div class="text-center">
               <button onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56956889198&text=Hola,%20tengo%20una%20consulta" class="btn bg-primary text-white col-10 mt-4"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"> Contactanos</button>
             
              <!-- <a onclick="eventosLanding('Correo');Mens2();" class="btn bg-danger text-white col-12 mt-4"><img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> Escríbenos</a>-->
+                <br>  <br>
                 </div>
              
            
