@@ -18,7 +18,7 @@ $enddate=strtotime("+5 days", $startdate);
      
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  background-color: #007bff;
+  background-color: #6610f2;
   border: 0;
   font-weight: 400;
 }
@@ -89,7 +89,7 @@ $enddate=strtotime("+5 days", $startdate);
                       
                     </div>
                   </div>
-                  
+                  <br>
                  <div class="d-flex justify-content-between">
 
                     <div class="md-form col-6  m-0">
@@ -104,7 +104,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
                   </div> 
 
-
+ <br>
                   <div class="md-form col-12 m-0">
                     <label for="form2">Email</label>
                     <input type="text" id="email" class="form-control" required placeholder="E-mail">
