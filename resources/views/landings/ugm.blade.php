@@ -18,11 +18,12 @@ $enddate=strtotime("+5 days", $startdate);
      
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  background-color: #007bff;
   border: 0;
   font-weight: 400;
 }
 .card[class*=border] {
-  border: 1px solid #9e9e9e;
+  border: 1px solid #007bff;
   box-shadow: none;
 }
 .card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
@@ -109,7 +110,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <input type="text" id="email" class="form-control" required placeholder="E-mail">
                     
                   </div>  
-
+<br> <br>
            
                 <select name="select_carreras" class="form-control" id="carrera" required>
 <option value="0">Seleccionar Carrera</option>
