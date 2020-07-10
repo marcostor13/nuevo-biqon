@@ -35,7 +35,7 @@ $enddate=strtotime("+5 days", $startdate);
   transition: 0.2s ease-in-out;
 }
 .card .card-body .card-text {
-  color: #747373;
+  color: #007bff;
   font-size: 0.9rem;
   font-weight: 300;
 }
@@ -77,32 +77,37 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
-                      <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
-                    <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
                       <label for="form3">Nombre</label>
+                      <input type="text" id="nombre" class="form-control" required placeholder="">
+                    <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
+                      
                     </div>
                     <div class="md-form col-6  m-0">
-                      <input type="text" id="apellido" class="form-control" required placeholder="Apellido">
                       <label for="form2">Apellido</label>
+                      <input type="text" id="apellido" class="form-control" required placeholder="">
+                      
                     </div>
                   </div>
                   
                  <div class="d-flex justify-content-between">
 
                     <div class="md-form col-6  m-0">
-                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
                       <label for="form2">RUT</label>
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      
                     </div>
                     <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
                       <label for="form2">Teléfono</label>
+                      <input type="text" id="telefono" class="form-control" required placeholder="">
+                      
                     </div>
                   </div> 
 
 
                   <div class="md-form col-12 m-0">
-                    <input type="text" id="email" class="form-control" required placeholder="E-mail">
                     <label for="form2">Email</label>
+                    <input type="text" id="email" class="form-control" required placeholder="E-mail">
+                    
                   </div>  
 
            
