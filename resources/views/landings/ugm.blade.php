@@ -71,8 +71,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <strong>ADMISION OCTUBRE 2020</strong>
                   </h4>
                  <h4 class="dark-grey-text text-center">
-                    <strong>CONSULTA POR TU BECA
-                    NOSOTROS TE AYUDAMOS</strong>
+                    <strong>INGRESA TUS DATOS Y TE CONTACTAREMOS A LA BREVEDAD</strong>
                   </h4>
                   <hr>
 
@@ -80,11 +79,11 @@ $enddate=strtotime("+5 days", $startdate);
                     <div class="md-form col-6  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
                     <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
-                      <label for="form3"></label>
+                      <label for="form3">Nombre</label>
                     </div>
                     <div class="md-form col-6  m-0">
                       <input type="text" id="apellido" class="form-control" required placeholder="Apellido">
-                      <label for="form2"></label>
+                      <label for="form2">Apellido</label>
                     </div>
                   </div>
                   
@@ -92,57 +91,24 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <div class="md-form col-6  m-0">
                       <input type="text" id="rut" class="form-control" required placeholder="RUT">
-                      <label for="form2"></label>
+                      <label for="form2">RUT</label>
                     </div>
                     <div class="md-form col-6  m-0">
                       <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
-                      <label for="form2"></label>
+                      <label for="form2">Teléfono</label>
                     </div>
                   </div> 
 
 
                   <div class="md-form col-12 m-0">
                     <input type="text" id="email" class="form-control" required placeholder="E-mail">
-                    <label for="form2"></label>
+                    <label for="form2">Email</label>
                   </div>  
 
-                   <!--<div class="md-form col-12 m-0"> 
-      <select class="form-control" id="sede" required>
-      <option value="" data-select2-id="4">Selecciona una sede</option>                
-      <option value="Los Leones" data-select2-id="8">Los Leones</option>
-      <option value="Santiago" data-select2-id="9">Santiago</option>
-      <option value="Concepción" data-select2-id="10">Concepción</option>
-      <option value="Valdivia" data-select2-id="11">Valdivia</option>
-      <option value="Puerto Montt" data-select2-id="12">Puerto Montt</option>
-                    </select><br>
-                  </div>-->
-
-                <!--  <div class="md-form col-12 m-0"> 
-      <select class="form-control" id="carrera" required>
-      <option value="" data-select2-id="4">Selecciona una carrera</option>                
-      <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
-      <option value="Ingeniería en Administración de Empresas Mención Gestión Empresarial" data-select2-id="9">Ingeniería en Administración de Empresas Mención Gestión Empresarial</option>
-      <option value="Ingeniería en Gestión en Tecnologías de la Información" data-select2-id="10">Ingeniería en Gestión en Tecnologías de la Información</option>
-      <option value="Ingeniería en Tecnologías de la Información y Comunicaciones" data-select2-id="11">Ingeniería en  Tecnologías de la Información y Comunicaciones</option>
-      <option value="Ingeniería Industrial" data-select2-id="12">Ingeniería Industrial</option>
-      <option value="Contador Auditor" data-select2-id="13">Contador Auditor</option>
-      <option value="Ingeniería Civil Industrial" data-select2-id="14">Ingeniería Civil Industrial</option>
-      <option value="Ingeniería en Prevención de Riesgos" data-select2-id="15">Ingeniería en Prevención de Riesgos</option>
-      <option value="Ingeniería en Comercio Internacional" data-select2-id="16">Ingeniería en Comercio Internacional </option>
-      <option value="Ingeniería en Logística y Transporte" data-select2-id="17">Ingeniería en Logística y Transporte </option>
-      <option value="Administración Pública" data-select2-id="18">Administración Pública</option>
-      <option value="Ingeniería en Administración de Empresas Mención Control de Gestión" data-select2-id="19">Ingeniería en Administración de Empresas Mención Control de Gestión</option>
-      <option value="Ingeniería en Administración de Empresas Mención Gestión de Personas" data-select2-id="20">Ingeniería en Administración de Empresas Mención Gestión de Personas</option>
-      <option value="Ingeniería en Administración de Empresas Mención Finanzas Corporativas" data-select2-id="21">Ingeniería  en Administración de Empresas Mención Finanzas Corporativas</option>
-      <option value="Ingeniería en Administración de Empresas Mención Marketing Digital" data-select2-id="22">Ingeniería en  Administración de Empresas Mención Marketing Digital</option>
-      <option value="Psicología" data-select2-id="23">Psicología</option>
-      <option value="Pedagogía en Educación Diferencial" data-select2-id="24">Pedagogía en Educación Diferencial</option>
-      <option value="Trabajo Social" data-select2-id="25">Trabajo Social</option>
-                    </select>-->
-
-                            <select name="select_carreras" class="form-control" id="carrera" required>
+           
+                <select name="select_carreras" class="form-control" id="carrera" required>
 <option value="0">Seleccionar Carrera</option>
-            <option value="Psicología">Psicología</option>
+<option value="Psicología">Psicología</option>
 <option value="Ingeniería Comercial">Ingeniería Comercial</option>
 <option value="Ingeniería Civil Industrial">Ingeniería Civil Industrial</option>
 <option value="Administración Pública">Administración Pública</option>
@@ -150,7 +116,6 @@ $enddate=strtotime("+5 days", $startdate);
 <option value="Ingeniería en Administración de Empresas Mención Gestión de Personas">Ingeniería en Administración de Empresas Mención Gestión de Personas</option>
 <option value="Ingeniería en Administración de Empresas Mención Finanzas Corporativas y Control de Gestión">Ingeniería en Administración de Empresas Mención Finanzas Corporativas y Control de Gestión</option>
 <option value="Ingeniería en Administración de Empresas Mención Marketing Digital">Ingeniería en Administración de Empresas Mención Marketing Digital</option>
-<!--<option value="Ingeniería en Administración de Empresas Mención Recursos Humanos">Ingeniería en Administración de Empresas Mención Recursos Humanos</option>-->
 <option value="Ingeniería en Computación e Informática Mención Desarrollo de Aplicaciones Empresariales y Ciberseguridad">Ingeniería en Computación e Informática Mención Desarrollo de Aplicaciones Empresariales y Ciberseguridad</option>
 <option value="Ingeniería en Computación e Informática Mnción Gestión de Proyectos – PMO">Ingeniería en Computación e Informática Mención Gestión de Proyectos – PMO</option>
 <option value="Ingeniería en Computación e Informática Mención Redes e Infraestructura">Ingeniería en Computación e Informática Mención Redes e Infraestructura</option>
@@ -159,8 +124,6 @@ $enddate=strtotime("+5 days", $startdate);
 <option value="Ingeniería Industrial Mención Logística y Transporte">Ingeniería Industrial Mención Logística y Transporte</option>
 <option value="Trabajo Social">Trabajo Social</option>
 <option value="Licenciatura en Trabajo Social">Licenciatura en Trabajo Social</option>
-
-
         </select>
                   </div>
 
