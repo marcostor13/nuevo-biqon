@@ -68,10 +68,10 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
-                 <h4 class="text-danger text-center">
+                 <h4 class="text-white text-center">
                     <strong>ADMISION OCTUBRE 2020</strong>
                   </h4>
-                 <h4 class="dark-grey-text text-center">
+                 <h4 class="text-white text-center">
                     <strong>INGRESA TUS DATOS Y TE CONTACTAREMOS A LA BREVEDAD</strong>
                   </h4>
                   <hr>
@@ -134,8 +134,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>
 
                   <div class="text-center">
-                    <hr>
-                    <button class="btn bg-primary text-white col-10 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> Quiero saber mas</button>
+              <button class="btn bg-primary text-white col-10 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;"> Quiero saber mas</button>
                     <br>
                     <br>
                   </div>
