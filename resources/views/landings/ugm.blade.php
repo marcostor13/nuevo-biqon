@@ -69,7 +69,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                   <!-- Heading -->
                  <h4 class="text-danger text-center">
-                    <strong>ADMISION OCTUBRE 2020</strong>
+                    <strong>ADMISION PROGRAMA ADVANCE</strong>
                   </h4>
                  <h4 class="text-white text-center">
                     <strong>Consulta por tus Becas anticipadas para Octubre 2020</strong>
@@ -278,7 +278,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["maria.rojas@ugm.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -379,7 +379,7 @@ $enddate=strtotime("+5 days", $startdate);
 
          var body_message = "Estoy%20Interesado%20en%20conocer%20mas%20sobre%20el%20Programa%20Advance";
 
-   window.location.href = "mailto:mariavictoria.rojas@uss.cl?subject=Consulta%20Cursos%20Advance%20&body=Telefono:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+   window.location.href = "mailto:maria.rojas@ugm.cl?subject=Consulta%20Cursos%20Advance%20&body=Telefono:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
 
  }
     </script>
