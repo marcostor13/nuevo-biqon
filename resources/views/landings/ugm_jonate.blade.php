@@ -72,7 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <strong>ADMISION PROGRAMA ADVANCE</strong>
                   </h4>
                  <h4 class="text-white text-center">
-                    <strong>Consulta por tus Becas anticipadas para Octubre 2020</strong>
+                    <strong>Consulta por tus Becas de Matricula para Octubre 2020</strong>
                   </h4>
                   <hr>
 
