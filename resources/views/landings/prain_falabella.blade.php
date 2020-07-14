@@ -91,9 +91,9 @@ $enddate=strtotime("+7 days", $startdate);
                           <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                       </div>          
 
-                      <a onclick="eventosLanding('Llamar');" href="tel:+56986338377" class="btn bg-primary text-white col-12 mt-4">Llamar a Ejecutivo</a> 
+                      <a onclick="eventosLanding('Llamar');" href="tel:+56954211358" class="btn bg-primary text-white col-12 mt-4">Llamar a Ejecutivo</a> 
 
-                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56986338377&text=Hola,%20tengo%20una%20consulta"  class="date btn bg-primary text-white col-12 mt-4">Contactar por WhatsApp</a>  
+                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56954211358&text=Hola,%20tengo%20una%20consulta"  class="date btn bg-primary text-white col-12 mt-4">Contactar por WhatsApp</a>  
 
                       <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-4">Correo a Ejecutivo</a>
 
@@ -229,7 +229,7 @@ $enddate=strtotime("+7 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-             var correo = ["vcruz@prainabogados.cl"];
+             var correo = ["lfreites@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -329,7 +329,7 @@ $enddate=strtotime("+7 days", $startdate);
              timer: 5000
         }, 
         function(){
-             window.location.href = "tel:+5698310646";
+             window.location.href = "tel:+56954211358";
         })
 
 
@@ -357,7 +357,7 @@ $enddate=strtotime("+7 days", $startdate);
          id_adm= getUrlParameter('data1'); 
          var rut; 
          rut= getUrlParameter('rut'); 
-   window.location.href = "mailto:vcruz@prainabogados.cl?subject=Pago%20de%20Cuenta%20%20RUT:%20"+rut;
+   window.location.href = "mailto:lfreites@prainabogados.cl?subject=Pago%20de%20Cuenta%20%20RUT:%20"+rut;
 
 
         }  
