@@ -77,7 +77,7 @@ $name = $_GET['NOMBRE'];
                     </div>
 
             <div id="cont2" class="p-5 ">
-                <h5 class="text-black text-center">Estimado (a) <strong><span><?php echo $name; ?></span></strong></h5>
+                <h5 class="text-black text-center">Estimado (a) <strong><span><?php //echo $name; ?></span></strong></h5>
 
                 <h5><p class="text-black">
                   Te informamos que nos encontramos tramitando una demanda por una deuda con Ruta del Maipo Sociedad Concesionaria S.A. </strong> <a href="http://bit.ly/2kAAUJB">www.rutamaipo.cl.</a> Entendiendo el momento que actualmente estamos viviendo y que necesitamos de cada uno para avanzar, queremos ofrecer las siguientes alternativas:
