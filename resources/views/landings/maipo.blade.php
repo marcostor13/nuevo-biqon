@@ -53,16 +53,20 @@ $enddate=strtotime("+5 days", $startdate);
     }
 </style>
 
-      <!--<div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >-->
+     <!-- <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >-->
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-   <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/5qw8Kz1.png" alt="HerediaAbogados">
+   <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/O8odGey.jpg" alt="HerediaAbogados">
+   <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/8E4iFKk.png" alt="HerediaAbogados">
 
+           <img style="max-width: 50%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">
 
-            <img style="max-width: 50%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">
-
-             
+               <div id="cont1" class="p-5 hide">
+                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
+                <button onclick="event1(); return false;" class="btn bg-dark text-white col-12 mt-4">Validar </button>
+            </div>
             
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -77,26 +81,33 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
 
             <div id="cont2" class="p-5 ">
-                <h5 class="text-black text-center">Estimado (a) <strong><span><?php //echo $name; ?></span></strong></h5>
+                <h5 class="text-black text-center">Hola <strong><span><?php //echo $name; ?></span></strong></h5>
 
                 <h5><p class="text-black">
-                  Te informamos que nos encontramos tramitando una demanda por una deuda con Ruta del Maipo Sociedad Concesionaria S.A. </strong> <a href="http://bit.ly/2kAAUJB">www.rutamaipo.cl.</a> Entendiendo el momento que actualmente estamos viviendo y que necesitamos de cada uno para avanzar, queremos ofrecer las siguientes alternativas:
+                  Te informamos que por concepto de no de la tarifa o peaje de RUTA DEL MAIPO, hemos iniciados acciones legales.<br> Coméntanos dónde enviamos detalle y propuesta para que logremos un buen acuerdo de pago:
                 </p></h5>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
                     <span>Compromiso de Pago</span>
                     <input id="date1"  type="date"  style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" onclick="sendMail();"/>
                 </div>-->
-                <button onclick="sendMail('Solicito pagar en Cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar en Cuotas</button>
+            <!--    <button onclick="sendMail('Solicito pagar en Cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar en Cuotas</button>
 
                 <button onclick="sendMail('Solicito pagar el Total con descuento'); eventosLanding('total con Descuento'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar el Total con Descuento</button>
 
                     <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-dark text-white col-12 mt-4">Quiero que me Contacten</button>
 
-                <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4">El teléfono no corresponde </button>
+                <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4">El teléfono no corresponde </button>-->
+
+
+                    <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4">Enviar propuesta de pago por Whastapp  <img width="30" src="https://i.imgur.com/Rtw9BXz.png"></a>
+
+                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4">Enviar propuesta de pago por email <img width="30" src="https://i.imgur.com/EpCpCdx.png"></a>
+
+                  <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-white text-dark col-12 mt-4">Solicito que me llamen  <img width="30" src="https://i.imgur.com/lKsQG4U.png"></a>
+
                 
-                
-                <div class="d-flex justify-content-around align-content-center mt-2"> 
+             <!--   <div class="d-flex justify-content-around align-content-center mt-2"> 
 
                    
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta"><img width="42" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
@@ -105,9 +116,9 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Ruta%20del%20Maipo"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
                 
-                </div>
+                </div>-->
                 
-            </div>
+             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -117,6 +128,11 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
 
         </div>
+        <div>
+         <h5 id="message"class="text-grey text-center mt-3">Contáctanos </h5>
+        
+          </div>
+        <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/aWzOg2b.png" alt="HerediaAbogados">
     </div>
 
      <script>
