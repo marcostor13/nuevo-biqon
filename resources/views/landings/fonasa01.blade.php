@@ -123,10 +123,8 @@ $enddate=strtotime("+5 days", $startdate);
         </div>
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
          <h5 id="message"class="text-grey text-center mt-3">Contáctanos </h5>
-        
-          
-        <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/aWzOg2b.png" alt="HerediaAbogados">
         </div>
+           <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/aWzOg2b.png" alt="HerediaAbogados">
     </div>
 
      <script>
