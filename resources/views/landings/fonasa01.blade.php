@@ -96,7 +96,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                  <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4">Enviar propuesta de pago por email <img width="40" src="https://i.imgur.com/EpCpCdx.png"></a>
 
-                  <a onclick="eventosLanding('Llamen'); Mens2();" class="btn bg-white text-dark col-12 mt-4">Solicito que me llamen  <img width="40" src="https://i.imgur.com/lKsQG4U.png"></a>
+                  <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-white text-dark col-12 mt-4">Solicito que me llamen  <img width="40" src="https://i.imgur.com/lKsQG4U.png"></a>
                 
                 
             <!--    <div class="d-flex justify-content-around align-content-center mt-2"> 
