@@ -236,8 +236,8 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-           //var correo = ["judicial@herediaabogados.cl"];
-            var correo = ["jesus.binteraction@gmail.com"];
+           var correo = ["judicial@herediaabogados.cl"];
+           // var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
