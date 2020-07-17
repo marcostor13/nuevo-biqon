@@ -109,7 +109,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
                 
                 </div>-->
-                <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/aWzOg2b.png" alt="HerediaAbogados">
+                
                 
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -121,6 +121,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
 
         </div>
+        <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/aWzOg2b.png" alt="HerediaAbogados">
     </div>
 
      <script>
