@@ -92,11 +92,11 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>-->
 
-                <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4">Enviar propuesta de pago por Whastapp  <img width="40" src="https://i.imgur.com/Rtw9BXz.png"></a>
+                <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4">Enviar propuesta de pago por Whastapp  <img width="30" src="https://i.imgur.com/Rtw9BXz.png"></a>
 
-                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4">Enviar propuesta de pago por email <img width="40" src="https://i.imgur.com/EpCpCdx.png"></a>
+                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4">Enviar propuesta de pago por email <img width="30" src="https://i.imgur.com/EpCpCdx.png"></a>
 
-                  <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-white text-dark col-12 mt-4">Solicito que me llamen  <img width="40" src="https://i.imgur.com/lKsQG4U.png"></a>
+                  <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-white text-dark col-12 mt-4">Solicito que me llamen  <img width="30" src="https://i.imgur.com/lKsQG4U.png"></a>
                 
                 
             <!--    <div class="d-flex justify-content-around align-content-center mt-2"> 
