@@ -236,8 +236,8 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-           var correo = ["judicial@herediaabogados.cl"];
-           // var correo = ["jesus.binteraction@gmail.com"];
+           //var correo = ["judicial@herediaabogados.cl"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -330,6 +330,18 @@ $enddate=strtotime("+5 days", $startdate);
       
         
     
+  function Mens2(){
+
+         var rut; 
+         rut= getUrlParameter('rut');
+
+        // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
+
+         var body_message = "%0A%20Estimado,%0A%20favor%20env%C3%ADe%20su%20propuesta%20relacionada%20al%20pago%20de%20mi%20cuenta%20";
+
+   window.location.href = "mailto:judicial@herediaabogados.cl?subject=Pago%20de%20Cuenta%20&body=%20RUT:%20"+rut+" "+body_message;
+
+ }
     </script>
     
 
