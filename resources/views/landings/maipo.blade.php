@@ -81,7 +81,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
 
             <div id="cont2" class="p-5 ">
-                <h5 class="text-black text-center">Hola <strong><span><?php //echo $name; ?></span></strong></h5>
+                <h5 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h5>
 
                 <h5><p class="text-black" align="justify">
                   Te informamos que por concepto de no pago de la tarifa o peaje de RUTA DEL MAIPO, hemos iniciados acciones legales.<br> Coméntanos dónde enviamos detalle y propuesta para que logremos un buen acuerdo de pago:
