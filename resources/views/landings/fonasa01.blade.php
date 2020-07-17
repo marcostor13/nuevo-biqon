@@ -94,9 +94,9 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4"  style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por Whastapp  <img width="30" src="https://i.imgur.com/Rtw9BXz.png"></a>
 
-                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4">Enviar propuesta de pago por email <img width="30" src="https://i.imgur.com/EpCpCdx.png"></a>
+                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4" style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por email <img width="30" src="https://i.imgur.com/EpCpCdx.png"></a>
 
-                  <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-white text-dark col-12 mt-4">Solicito que me llamen  <img width="30" src="https://i.imgur.com/lKsQG4U.png"></a>
+                  <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-white text-dark col-12 mt-4" style="  border: 1px solid #9e9e9e;">Solicito que me llamen  <img width="30" src="https://i.imgur.com/lKsQG4U.png"></a>
                 
                 
             <!--    <div class="d-flex justify-content-around align-content-center mt-2"> 
