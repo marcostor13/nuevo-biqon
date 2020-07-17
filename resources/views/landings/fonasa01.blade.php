@@ -92,7 +92,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>-->
 
-                <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4">Enviar propuesta de pago por Whastapp  <img width="30" src="https://i.imgur.com/Rtw9BXz.png"></a>
+                <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4"  style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por Whastapp  <img width="30" src="https://i.imgur.com/Rtw9BXz.png"></a>
 
                  <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4">Enviar propuesta de pago por email <img width="30" src="https://i.imgur.com/EpCpCdx.png"></a>
 
