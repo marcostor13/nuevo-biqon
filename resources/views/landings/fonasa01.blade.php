@@ -58,7 +58,7 @@ $enddate=strtotime("+5 days", $startdate);
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
    <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/O8odGey.jpg" alt="HerediaAbogados">
-   <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/8E4iFKk.png" alt="HerediaAbogados">
+   <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/8E4iFKk.png" alt="HerediaAbogados">
 
            <img style="max-width: 50%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">
 
@@ -92,11 +92,11 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>-->
 
-                <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta;" class="btn bg-primary text-white col-12 mt-2"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">Enviar propuesta de pago por Whastapp</a>
+                <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta;" class="btn bg-primary text-white col-12 mt-2"><img width="40" src="https://i.imgur.com/Rtw9BXz.png">Enviar propuesta de pago por Whastapp</a>
 
-                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">Enviar propuesta de pago por email</a>
+                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"><img width="40" src="https://i.imgur.com/EpCpCdx.png">Enviar propuesta de pago por email</a>
 
-                  <a onclick="eventosLanding('Llamen'); Mens2();" class="btn bg-primary text-white col-12 mt-2"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">Solicito que me llamen</a>
+                  <a onclick="eventosLanding('Llamen'); Mens2();" class="btn bg-primary text-white col-12 mt-2"><img width="40" src="https://i.imgur.com/lKsQG4U.png">Solicito que me llamen</a>
                 
                 
             <!--    <div class="d-flex justify-content-around align-content-center mt-2"> 
@@ -109,7 +109,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
                 
                 </div>-->
-                <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/aWzOg2b.png" alt="HerediaAbogados">
+                <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/aWzOg2b.png" alt="HerediaAbogados">
                 
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
