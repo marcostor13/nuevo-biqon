@@ -57,8 +57,8 @@ $enddate=strtotime("+5 days", $startdate);
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-   <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/Vp6VeXa.jpg" alt="HerediaAbogados">
-
+   <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/O8odGey.jpg" alt="HerediaAbogados">
+   <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/8E4iFKk.png" alt="HerediaAbogados">
 
            <img style="max-width: 50%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">
 
@@ -86,22 +86,20 @@ $enddate=strtotime("+5 days", $startdate);
                 <h5><p class="text-black"  align="justify">
                    Te informamos que por concepto de no pago de cotizaciones de salud a Fonasa, estamos iniciando las acciones civiles y penales correspondientes. <br> Entendiendo el momento que actualmente estamos viviendo y que necesitamos de cada uno para avanzar, queremos ofrecer las siguientes alternativas
 
-                </p></h5>
-                <!--<div class="date btn bg-danger text-white col-12 mt-4">
+                </p> </h5>
+               
+               <!-- <button onclick="sendMail('Solicito forma de pago'); eventosLanding('Solicitud'); return false;" class="btn bg-dark text-white col-12 mt-4">Solicito forma de pago</button>
 
-                    <span>Compromiso de Pago</span>
-                    <input id="date1"  type="date"  style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" onclick="sendMail();"/>
-                </div>-->
-                <button onclick="sendMail('Solicito forma de pago'); eventosLanding('Solicitud'); return false;" class="btn bg-dark text-white col-12 mt-4">Solicito forma de pago</button>
+                <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>-->
 
-                <!--<button onclick="sendMail('Solicito pagar el Total con descuento'); eventosLanding('total con Descuento'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar el Total con Descuento</button>
+                <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta;" class="btn bg-primary text-white col-12 mt-2"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">Enviar propuesta de pago por Whastapp</a>
 
-                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-dark text-white col-12 mt-4">Quiero que me Contacten</button>-->
+                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">Enviar propuesta de pago por email</a>
 
-                <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>
+                  <a onclick="eventosLanding('Llamen'); Mens2();" class="btn bg-primary text-white col-12 mt-2"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg">Solicito que me llamen</a>
                 
                 
-                <div class="d-flex justify-content-around align-content-center mt-2"> 
+            <!--    <div class="d-flex justify-content-around align-content-center mt-2"> 
 
                    
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta"><img width="42" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
@@ -110,7 +108,8 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
                 
-                </div>
+                </div>-->
+                <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/aWzOg2b.png" alt="HerediaAbogados">
                 
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -319,6 +318,18 @@ $enddate=strtotime("+5 days", $startdate);
       
         
     
+  function Mens2(){
+
+         var rut; 
+         rut= getUrlParameter('rut');
+
+        // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
+
+         var body_message = "%0A%20Estimado%20Cliente,%0A%20favor%20env%C3%ADe%20su%20propuesta%20relacionada%20al%20pago%20de%20su%20cuenta%202";
+
+   window.location.href = "mailto:judicial@herediaabogados.cl?subject=Pago%20de%20Cuenta%20&body=%20RUT:%20"+rut+" "+body_message;
+
+ }
     </script>
     
 
