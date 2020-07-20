@@ -292,7 +292,7 @@ $enddate=strtotime("+5 days", $startdate);
             }
 
             return obj;  
-        };
+        }; 
 
      </script>
 
