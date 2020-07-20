@@ -71,7 +71,7 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 ">
+            <div id="cont2" class="p-5 hide">
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                 <p class="text-black">
@@ -81,8 +81,8 @@ $enddate=strtotime("+5 days", $startdate);
                
 
                 <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
-                   <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-4">YA PAGUE</button>
-                    <div class="date btn bg-success text-white col-12 mt-4">
+                   <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
+                    <div class="date btn bg-success text-white col-12 mt-2">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
 
@@ -137,7 +137,7 @@ $enddate=strtotime("+5 days", $startdate);
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
+                   // $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -161,8 +161,8 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+            //json_datos.nombre = $('#name').text();
+           // json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
