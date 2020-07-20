@@ -200,7 +200,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com"];  
+            var correo = ["arojas@zonasursa.cl"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
@@ -237,7 +237,7 @@ $enddate=strtotime("+5 days", $startdate);
             });
 
         }
-
+ 
         let events = function(data){     
 
             $.ajaxSetup({
