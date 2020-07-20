@@ -72,7 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 ">
-                <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
+                <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                 <p class="text-black">
                     Sabemos que muchos de ustedes, atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19. ZONA SUR, Por mandato de TANNER, informa que tiene una cuenta pendiente, si requiere información le ofrecemos las siguientes opciones:
@@ -84,7 +84,7 @@ $enddate=strtotime("+5 days", $startdate);
                    <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-4">YA PAGUE</button>
                     <div class="date btn bg-success text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
 
                 </div>
                 
