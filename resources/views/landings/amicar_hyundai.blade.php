@@ -39,21 +39,12 @@ $enddate=strtotime("+15 days", $startdate);
 
                        </div>
                    </div>-->
-                 <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/u7eUfAn.png" alt="simple">
-                <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/ForBfaH.png" alt="simple">
-
-                <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/CUNfPsP.png" alt="simple">
+                 <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/u7eUfAn.png" alt="simple"> <span class=" col-3 col-md-3 mt-2">GRAND i10</span> <a onclick="port1();" class="btn bg-danger text-white col-3 mt-2">Contactar</a>
+                 <br>
+                <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/ForBfaH.png" alt="simple"> <span  class=" col-3 col-md-3 mt-2">ATOS</span> <a onclick="port2();" class="btn bg-danger text-white col-3 mt-2">Contactar</a>
                 <br>
-                <span class=" col-3 col-md-3 mt-2">GRAND i10</span>
-                <span  class=" col-3 col-md-3 mt-2">ATOS</span>
-                <span class="col-3 col-md-3 mt-2">VERNA</span>
 
-                <br>
-                <a onclick="port1();" class="btn bg-danger text-white col-3 mt-2">Comprar</a>
-
-                <a onclick="port2();" class="btn bg-danger text-white col-3 mt-2">Comprar</a>
-
-                <a onclick="port2();" class="btn bg-danger text-white col-3 mt-2">Comprar</a>
+                <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/CUNfPsP.png" alt="simple">   <span class="col-3 col-md-3 mt-2">VERNA</span>  <a onclick="port2();" class="btn bg-danger text-white col-3 mt-2">Contactar</a>
 
                
             
