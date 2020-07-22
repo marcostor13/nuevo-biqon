@@ -39,13 +39,13 @@ $enddate=strtotime("+15 days", $startdate);
 
                        </div>
                    </div>-->
-                    <span align="text-center">GRAND i10</span><br>
+                    <label align="text-center">GRAND i10</label><br>
                  <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/u7eUfAn.png" alt="simple"><a onclick="port1();" class="btn bg-warning text-white col-3 mt-2">Contactar</a>
                  <br>  <br>  <br>
-                  <span>ATOS</span><br>
+                  <label align="text-center">ATOS</label><br>
                 <img  style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/ForBfaH.png" alt="simple"><a onclick="port2();" class="btn bg-warning text-white col-3 mt-2">Contactar</a>
                 <br>  <br>  <br>
-                    <span>VERNA</span><br>
+                    <label align="text-center" class=" col-6 col-md-12 mt-2">VERNA</label><br>
                 <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/CUNfPsP.png" alt="simple"><a onclick="port2();" class="btn bg-warning text-white col-3 mt-2">Contactar</a>
 
                
