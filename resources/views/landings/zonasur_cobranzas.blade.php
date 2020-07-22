@@ -77,7 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <p class="text-black">
                     La seguridad de nuestro equipo y de nuestros clientes es lo primero. Por eso, aborda tus inquietudes por nuestros medios de contacto a distancia. Así, evitamos que te expongas.  
 <br>
- Prefiere lo digital www.tanner.cl
+ Prefiere lo digital <a href="www.tanner.cl"> www.tanner.cl </a>
 <br>
 #EstamosJuntosEnEsto
                 </p>
