@@ -20,7 +20,7 @@ $enddate=strtotime("+15 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AMICAR">
 
-            <div id="cont1">
+            <div id="cont1" align="align-items-center align-content-center">
                 <br>
                 <br>
               <!--  <div class="videoWrapper">        
@@ -39,11 +39,14 @@ $enddate=strtotime("+15 days", $startdate);
 
                        </div>
                    </div>-->
-                 <img class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/u7eUfAn.png" alt="simple"><span>GRAND i10</span>
+                 <img class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/u7eUfAn.png" alt="simple">
+                <img class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/ForBfaH.png" alt="simple">
 
-                <img class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/ForBfaH.png" alt="simple"><span>ATOS</span>
-
-                <img class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/CUNfPsP.png" alt="simple"><span>VERNA</span>
+                <img class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/CUNfPsP.png" alt="simple">
+                <br>
+                <span class=" col-3 col-md-3 mt-2">GRAND i10</span>
+                <span  class=" col-3 col-md-3 mt-2">ATOS</span>
+                <span class="col-3 col-md-3 mt-2">VERNA</span>
 
                 <br>
                 <a onclick="port1();" class="btn bg-danger text-white col-3 mt-2">Comprar</a>
