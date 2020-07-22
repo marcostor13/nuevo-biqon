@@ -20,7 +20,9 @@ $enddate=strtotime("+15 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AMICAR">
 
-            <div id="cont1">
+            <div id="cont1" align="align-items-center align-content-center">
+                <br>
+               
               <!--  <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/videoami.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>-->
@@ -37,23 +39,14 @@ $enddate=strtotime("+15 days", $startdate);
 
                        </div>
                    </div>-->
-                 <img class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/u7eUfAn.png" alt="simple">
-                <img class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/ForBfaH.png" alt="simple">
-
-                <img class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/CUNfPsP.png" alt="simple">
-                <br>
-                <span class="col-md-3 mt-2">GRAND i10</span>
-                <span  class="col-md-3 mt-2">ATOS</span>
-                <span class="col-md-3 mt-2">VERNA</span>
-
-                <br>
-                <a onclick="port1();" class="btn bg-danger text-white col-3 mt-2">Contactar</a>
-
-                <a onclick="port2();" class="btn bg-danger text-white col-3 mt-2">Contactar</a>
-
-                <a onclick="port2();" class="btn bg-danger text-white col-3 mt-2">Contactar</a>
-
-               
+                    <label align="text-center" class=" col-10 col-md-12 mt-1">Fortaleza - V3</label><br>
+                 <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/eX2Gb1D.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo Fortaleza - V3');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-1">Contactar</a>
+                 <br>  
+                  <label align="text-center" class=" col-10 col-md-12 mt-1">Fortaleza - X25</label><br>
+                <img  style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/HYQVajl.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo Fortaleza - X25');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-1">Contactar</a>
+                <br>  
+                    <label align="text-center" class=" col-10 col-md-12 mt-1">Fortaleza - KUV 100</label><br>
+                <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/Qmh7ADw.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo Fortaleza - KUV 100');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-1">Contactar</a>
 
                
             
@@ -180,7 +173,7 @@ $enddate=strtotime("+15 days", $startdate);
                 } 
             }
 
-            var correo = ["edelafuente@mafchile.com"];
+            var correo = ["carla.torres@amicar.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
