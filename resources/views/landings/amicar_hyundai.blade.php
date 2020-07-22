@@ -37,18 +37,18 @@ $enddate=strtotime("+15 days", $startdate);
 
                        </div>
                    </div>-->
-                 <img class="img-fluid col-4 col-md-3 mt-2" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
+                 <img class="img-fluid col-4 col-md-3 mt-2" src="https://i.imgur.com/u7eUfAn.png" alt="simple"><span>GRAND i10</span>
 
-                <img class="img-fluid col-4 col-md-3 mt-2" src="https://i.imgur.com/oz5xXYM.png" alt="simple">
+                <img class="img-fluid col-4 col-md-3 mt-2" src="https://i.imgur.com/ForBfaH.png" alt="simple"><span>ATOS</span>
 
-                <img class="img-fluid col-4 col-md-3 mt-2" src="https://i.imgur.com/oz5xXYM.png" alt="simple">
+                <img class="img-fluid col-4 col-md-3 mt-2" src="https://i.imgur.com/CUNfPsP.png" alt="simple"><span>VERNA</span>
 
                 <br>
-                <a onclick="port1();" class="btn bg-danger text-white col-4 mt-2">Comprar</a>
+                <a onclick="port1();" class="btn bg-danger text-white col-3 mt-2">Comprar</a>
 
-                <a onclick="port2();" class="btn bg-danger text-white col-4 mt-2">Comprar</a>
+                <a onclick="port2();" class="btn bg-danger text-white col-3 mt-2">Comprar</a>
 
-                <a onclick="port2();" class="btn bg-danger text-white col-4 mt-2">Comprar</a>
+                <a onclick="port2();" class="btn bg-danger text-white col-3 mt-2">Comprar</a>
 
                
             
