@@ -22,7 +22,7 @@ $enddate=strtotime("+15 days", $startdate);
 
             <div id="cont1" align="align-items-center align-content-center">
                 <br>
-                <br>
+               
               <!--  <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/videoami.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>-->
@@ -39,14 +39,14 @@ $enddate=strtotime("+15 days", $startdate);
 
                        </div>
                    </div>-->
-                    <label align="text-center" class=" col-10 col-md-12 mt-2">GRAND i10</label><br>
-                 <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/u7eUfAn.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo GRAND i10');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-2">Contactar</a>
-                 <br>  <br>  <br>
-                  <label align="text-center" class=" col-10 col-md-12 mt-2">ATOS</label><br>
-                <img  style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/ForBfaH.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo ATOS');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-2">Contactar</a>
-                <br>  <br>  <br>
-                    <label align="text-center" class=" col-10 col-md-12 mt-2">VERNA</label><br>
-                <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/CUNfPsP.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo VERNA');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-2">Contactar</a>
+                    <label align="text-center" class=" col-10 col-md-12 mt-1">GRAND i10</label><br>
+                 <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/u7eUfAn.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo GRAND i10');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-1">Contactar</a>
+                 <br>  <br> 
+                  <label align="text-center" class=" col-10 col-md-12 mt-1">ATOS</label><br>
+                <img  style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/ForBfaH.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo ATOS');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-1">Contactar</a>
+                <br>  <br>
+                    <label align="text-center" class=" col-10 col-md-12 mt-1">VERNA</label><br>
+                <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/CUNfPsP.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo VERNA');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-1">Contactar</a>
 
                
             
