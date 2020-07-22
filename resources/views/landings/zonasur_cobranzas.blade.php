@@ -75,7 +75,11 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                 <p class="text-black">
-                    Sabemos que muchos de ustedes, atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19. ZONA SUR, Por mandato de TANNER, informa que tiene una cuenta pendiente, si requiere información le ofrecemos las siguientes opciones:
+                    La seguridad de nuestro equipo y de nuestros clientes es lo primero. Por eso, aborda tus inquietudes por nuestros medios de contacto a distancia. Así, evitamos que te expongas.  
+<br>
+ Prefiere lo digital www.tanner.cl
+<br>
+#EstamosJuntosEnEsto
                 </p>
                
                
@@ -200,7 +204,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["arojas@zonasursa.cl"];  
+            var correo = ["orojas@zonasursa.cl"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
@@ -304,13 +308,13 @@ $enddate=strtotime("+5 days", $startdate);
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56961706239&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56964350887&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56961706239";
+        window.location.href ="tel:+56964350887";
     
         } 
     </script>
