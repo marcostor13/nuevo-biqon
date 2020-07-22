@@ -21,6 +21,8 @@ $enddate=strtotime("+15 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AMICAR">
 
             <div id="cont1">
+                <br>
+                <br>
               <!--  <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/videoami.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>-->
@@ -37,11 +39,11 @@ $enddate=strtotime("+15 days", $startdate);
 
                        </div>
                    </div>-->
-                 <img class="img-fluid col-4 col-md-3 mt-2" src="https://i.imgur.com/u7eUfAn.png" alt="simple"><span>GRAND i10</span>
+                 <img class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/u7eUfAn.png" alt="simple"><span>GRAND i10</span>
 
-                <img class="img-fluid col-4 col-md-3 mt-2" src="https://i.imgur.com/ForBfaH.png" alt="simple"><span>ATOS</span>
+                <img class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/ForBfaH.png" alt="simple"><span>ATOS</span>
 
-                <img class="img-fluid col-4 col-md-3 mt-2" src="https://i.imgur.com/CUNfPsP.png" alt="simple"><span>VERNA</span>
+                <img class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/CUNfPsP.png" alt="simple"><span>VERNA</span>
 
                 <br>
                 <a onclick="port1();" class="btn bg-danger text-white col-3 mt-2">Comprar</a>
