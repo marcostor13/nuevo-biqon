@@ -173,7 +173,7 @@ $enddate=strtotime("+15 days", $startdate);
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["carla.torres@amicar.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
