@@ -190,7 +190,7 @@
                     }else{
                         $('#cont1').addClass('hide');
                         $('#cont5').removeClass('hide');
-                        $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
+                        $('#error1').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
                     }
                 })
                 .fail(function() {
