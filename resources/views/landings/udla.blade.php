@@ -318,7 +318,7 @@
 
         }
 
-        let events = function(data){     
+       let events = function(data){     
 
             $.ajaxSetup({
                 headers: {
@@ -355,7 +355,7 @@
             }
         };
 
-        let getAllUrlParameter = async function() {
+        let getAllUrlParameter = function() {
             var sPageURL = window.location.search.substring(1),
             sURLVariables = sPageURL.split('&'),
             sParameterName,
@@ -364,41 +364,16 @@
             let obj = {}; 
 
             for (i = 0; i < sURLVariables.length; i++) {
-                sParameterName = sURLVariables[i].split('=');
-                obj[sParameterName[0].toLowerCase()] = sParameterName[1];            
+            sParameterName = sURLVariables[i].split('=');
+
+            obj[sParameterName[0].toLowerCase()] = sParameterName[1];            
             }
 
-            $.ajaxSetup({
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                }
-            });
-
-            return await $.post( "/getUrlByCode", obj, function() {
-                
-            })
-            .done(function(e) {
-
-                return e;
-
-                // var variables = e.split('&');
-                // let obj2 = {}; 
-                // for (i = 0; i < variables.length; i++) {
-                //     sParameterNameV = variables[i].split('=');
-                //     obj2[sParameterNameV[0].toLowerCase()] = sParameterNameV[1];           
-                //     console.log('obj2',obj2);    
-                // }
-                // return obj2;
-             
-            })
-            .fail(function(e) {
-                console.log(e);               
-            });
-
-
-            // return obj;  
+            return obj;  
         };
 
+
+        
         function Mens2(){
        var id_adm; 
          id_adm= params.id; 
