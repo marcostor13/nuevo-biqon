@@ -308,13 +308,13 @@ Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56964350887&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56961706239&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56964350887";
+        window.location.href ="tel:+56961706239";
     
         } 
     </script>
