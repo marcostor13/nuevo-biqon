@@ -200,6 +200,10 @@ $name = $_GET['NOMBRE'];
                 </table>
                     </div>
                       </div> 
+            <button onclick="Mens9();" class="btn orange text-white col-12 mt-2">IR A MENU</button>
+
+
+
                   </div>
 
         </div>
@@ -448,6 +452,11 @@ $name = $_GET['NOMBRE'];
      $('#data3').text(data3);
      $('#data4').text(data4);
      $('#data5').text(data5);
+ }
+
+  function Mens9(){
+     $('#cont7').addClass('hide');
+     $('#cont2').removeClass('hide');
  }
     </script>
  
