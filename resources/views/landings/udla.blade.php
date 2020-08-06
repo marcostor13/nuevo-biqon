@@ -88,7 +88,7 @@ $name = $_GET['NOMBRE'];
             <div id="no" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5">Disculpe las molestias.<br> Muchas gracias por su tiempo. Que tenga un buen día</h5>
+                                 <h5 id="error3"class="text-black text-center mt-5">Disculpe las molestias.<br> Muchas gracias por su tiempo. Que tenga un buen día</h5>
                             </div>
                         </div>
             </div>
@@ -188,6 +188,7 @@ $name = $_GET['NOMBRE'];
 
          function event1(){
             if($('#rut').val().length != 6){
+                $('#cont6').removeClass('hide');
                  $('#error').text("Debe ingresar 6 dígitos");
              }else{
             let dataSend = {
