@@ -109,7 +109,8 @@
                     </div>
                 </div>
 
-                <a onclick="eventosLanding('LLAMAR'); Mens5();" class="btn orange text-white col-12 mt-2"> LLAMAR <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+               <button onclick="eventosLanding('LLAMAR'); Mens5();" class="btn orange text-white col-12 mt-2"> LLAMAR</button>
+
 
 
                 <button onclick="Mens6();" class="btn orange text-white col-12 mt-2">Contáctenme</button>
