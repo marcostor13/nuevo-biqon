@@ -148,7 +148,9 @@
                   <option value="En la Noche" data-select2-id="10">En la Noche</option>
                     </select><br>
 
-                <button onclick="sendMail('Deseo ser Contactado') return false; eventosLanding('CONTACTENME');" class="btn orange text-white col-12 mt-4"> Validar </button>
+               <!-- <button onclick="sendMail('Deseo ser Contactado') return false; eventosLanding('CONTACTENME');" class="btn orange text-white col-12 mt-4"> Validar </button>-->
+
+                <button class="btn orange text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Contactarse');">Quiero saber mas</button>
                     </div>
 
              <div id="cont8" class="p-2 pl-5 pr-5 hide">
