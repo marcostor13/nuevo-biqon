@@ -64,7 +64,7 @@ $name = $_GET['NOMBRE'];
                 </div> </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black"  min="6" max="6" maxlength="6">
                 <button onclick="event1(); return false;" class="btn orange text-white col-12 mt-4"> Validar </button>
-                <button onclick="no(); return false; eventosLanding('Revisar Oferta')" class="btn orange text-white col-12 mt-4"> No </button>
+                <button onclick="no(); eventosLanding('NO')" class="btn orange text-white col-12 mt-4"> No </button>
 
                 <div id="cont6" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
