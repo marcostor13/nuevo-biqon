@@ -77,25 +77,35 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 ">
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
-                <p class="text-black">
-                    Te informamos que presentas un retraso en el pago tus cuotas por un monto total, mas recargos por mora:
-                    <b>$ </b><b id="pay">$</b>
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
+               p class="text-black" align="text-center">
+                    La seguridad de nuestro equipo y de nuestros clientes es lo primero. Por eso, aborda tus inquietudes por nuestros medios de contacto a distancia. Así, evitamos que te expongas.  
+<br>
+ Prefiere lo digital <a href="www.tanner.cl"> www.tanner.cl </a>
+<br>
+#EstamosJuntosEnEsto
                 </p>
+
+
+
                 <div class="date btn bg-success text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                 <button onclick='window.location.href="https://www.webpay.cl/portalpagodirecto/pages/index.jsf"; eventosLanding("Pagina de Pagos");' class="btn bg-success text-white col-12 mt-4">PAGAR AHORA</button>
+                
+                 <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
                 
 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-4">YA PAGUE</button>
 
-                <div class="d-flex justify-content-around align-content-center mt-4">
+                 <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>   
+
+                 <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+
+              <!--  <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961706239&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                     <a onclick="eventosLanding('Llamar');" href="tel:+56961706239"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
                     <a onclick="eventosLanding('Correo');" href="mailto:arojas@zonasursa.cl?subject=Landing%20ZonaSur"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
-                </div>
+                </div> -->
              </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -294,6 +304,26 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         }; 
 
-     </script>
+           function Mens1(){
+      
+ /*  window.location.href = "https://ww3.servipag.com/pagoenlinea/portal/desktop/public/todas/!ut/p/b1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNgs0CLZ0MHQ38zQPcDBx9gs1CzAK9Df0DTYAKIvEo8DanTL-HEXH6DXAARwNC-r30o9Jz8pOAXg3Xj8KrGOQXvApAjgUrwOMaP4_83FT9gtzQ0IjKYE9dR0VFADNEynw!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/?idServicio=34&idBiller=843?TELEFONO=985296912&ID=79849235&URL=https://ww3.servipag.com/pagoenlinea/portal/desktop/public/todas/!ut/p/b1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNgs0CLZ0MHQ38zQPcDBx9gs1CzAK9Df0DTYAKIvEo8DanTL-HEXH6DXAARwNC-r30o9Jz8pOAXg3Xj8KrGOQXvApAjgUrwOMaP4_83FT9gtzQ0IjKYE9dR0VFADNEynw!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/?idServicio=34&idBiller=843";*/
+
+     window.location.href = "https://tanner.cl/formas-de-pago/";
+
+
+        } 
+
+    function Mens3(){
+
+        window.location.href = "https://api.whatsapp.com/send?phone=56964350887&text=Hola,%20tengo%20una%20consulta";
+    
+        } 
+
+           function Mens2(){
+
+        window.location.href ="tel:+56964350887";
+    
+        } 
+    </script>
 
 @endsection
