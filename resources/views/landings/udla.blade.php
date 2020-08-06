@@ -109,7 +109,7 @@
                     </div>
                 </div>
 
-               <button onclick="eventosLanding('LLAMAR'); Mens5();" class="btn orange text-white col-12 mt-2"> LLAMAR</button>
+               <a onclick="eventosLanding('LLAMAR'); Mens5();" class="btn orange text-white col-12 mt-2"> LLAMAR</a>
 
 
 
