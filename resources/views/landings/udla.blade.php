@@ -115,7 +115,7 @@
 
                 <button onclick="Mens6();" class="btn orange text-white col-12 mt-2">Contáctenme</button>
 
-                <button onclick="Mens7(); eventosLanding('Revisar Oferta')" class="btn orange text-white col-12 mt-2">Contáctenme</button>
+                <button onclick="Mens7(); eventosLanding('Revisar Oferta')" class="btn orange text-white col-12 mt-2">Revisar Oferta</button>
 
                <!-- <button onclick="eventosLanding('REVISAR DEUDA'); Mens7();" class="btn orange text-white col-12 mt-2">Revisar Oferta</button>-->
 
@@ -138,6 +138,7 @@
                 <h4 class="text-black text-center">Por favor indíquenos su teléfono de contacto para llamarle próximamente.</h4>
                 </div> </div>
                 <input id="telefono1" type="number" class="form-control mt-4 text-center text-black" placeholder="Telefono">
+                <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
 
 
                 <select class="form-control" id="jornada" required>
@@ -253,7 +254,22 @@
                     'mensaje': msg,
                     'Nombre': getUrlParameter('nombre'),
                     'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
+                    //'Telefono': getUrlParameter('telefono'),
+
+                    'Datos_Formulario': $('#nombre1').val(),
+                    //'Nombre': $('#nombre').val(),
+                    //'Apellido': $('#apellido').val(),
+                    //'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono1').val(),
+                   // 'E-mail': $('#email').val(),
+                    'jornada': $('#jornada').val(),
+                    //'Carrera': $('#carrera').val(),
+                    //'Datos_URL': $('#nombre1').val(),
+                    //'Nombre_URL': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
+                    //'Telefono_URL': getUrlParameter('telefono'),
+                     //'Rut_URL': getUrlParameter('rut')
+
                     //'Monto': getUrlParameter('monto'),
                     //'Estado': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
