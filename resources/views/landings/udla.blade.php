@@ -4,6 +4,7 @@
 
 @section('content')
 <?php 
+$name = $_GET['NOMBRE'];
 //$startdate=strtotime("Today");
 //$enddate=strtotime("+5 days", $startdate);
 ?>
@@ -58,7 +59,7 @@
              <div id="cont1" class="p-2 ">
                 <div class="card">     
                 <div class="card-body">
-                    <h3 class="text-black text-center"><span id="name"></span>, bienvenido a la sucursal virtual de UDLA.</h3>
+                    <h3 class="text-black text-center"><span><?php echo $name; ?></span>, bienvenido a la sucursal virtual de UDLA.</h3>
                 <h4 class="text-black text-center">Para validar su identidad, favor digitar los 6 primeros dígitos del rut, si no es usted, presionar No.</h4>
                 </div> </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black"  min="6" max="6" maxlength="6">
@@ -220,7 +221,7 @@
                 }else{
                     $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí.");
+                    $('#error1').text("Validación incorrecta.");
                 }
             })
             .fail(function() {
