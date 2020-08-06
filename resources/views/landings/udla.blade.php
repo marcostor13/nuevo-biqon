@@ -159,17 +159,48 @@ $name = $_GET['NOMBRE'];
                 <div class="card-body">
                     <!--<h3 class="text-black text-center"><span id="name"></span>, bienvenido a la sucursal virtual de UDLA.</h3>-->
                 <h4 class="text-black text-center">Revisar Oferta</h4>
-                </div> </div>
+              
 
-                <ul>
-                    <li>Deuda capital           <span id="monto"></span></li>
-                    <li>Multas por mora         <span id="data1"></span></li>
-                    <li>Gastos de cobranza      <span id="data2"></span></li>
-                    <li>Deuda total             <span id="data3"></span></li>
-                    <li>Monto descuento         <span id="data4"></span></li>
-                    <li>Monto oferta a pagar    <span id="data5"></span></li>
-                </ul>
+              <!--  <ul>
+                    <li>Deuda capital           </li>
+                    <li>         </li>
+                    <li>     </li>
+                    <li>             </span></li>
+                    <li>         </span></li>
+                    <li>Monto oferta a pagar    </span></li>
+                </ul>-->
+
+                <table class="table table-striped">
+                    <tbody>
+        <tr>
+            <td>Deuda capital</td>
+            <td><span id="monto"></span></td>
+        </tr>
+        <tr>
+            <td>Multas por mora</td>
+            <td><span id="data1"></span></td>
+        </tr>
+        <tr>
+            <td>Gastos de cobranza </td>
+            <td><span id="data2"></td>
+        </tr>
+        <tr>
+            <td>Deuda total</td>
+            <td><span id="data3"></span></td>
+        </tr>
+        <tr>
+            <td>Monto descuento</td>
+            <td><span id="data4"></span></td>
+        </tr>
+        <tr>
+            <td>Monto oferta a pagar</td>
+            <td><span id="data5"></span></td>
+        </tr>
+    </tbody>
+                </table>
                     </div>
+                      </div> 
+                  </div>
 
         </div>
      <!-- </div>
