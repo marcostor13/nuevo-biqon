@@ -141,7 +141,7 @@ $name = $_GET['NOMBRE'];
                 <input id="telefono1" type="number" class="form-control mt-4 text-center text-black" placeholder="Telefono">
                 <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
 
-
+<br> <br>
                 <select class="form-control" id="jornada" required>
                   <option value="" data-select2-id="4">Jonada</option>                
                   <option value="En La Mañana" data-select2-id="8">En La Mañana</option>
