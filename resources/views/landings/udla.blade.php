@@ -53,7 +53,7 @@
 
         <div class="content container d-flex flex-column align-items-center justify-content-start p-0">
           <img style="max-width:200px; max-height:60px" class="img-fluid col-10 col-md-2 mt-1" src="{{$landing->logo}}" alt="USS">
-          <img style="max-width:200px; max-height:50px" class="img-fluid col-10 col-md-2 mt-1" src="https://i.imgur.com/whNYFHQ.png" alt="USS">
+          <!--<img style="max-width:200px; max-height:50px" class="img-fluid col-10 col-md-2 mt-1" src="https://i.imgur.com/whNYFHQ.png" alt="USS">-->
 
              <div id="cont1" class="p-2 ">
                 <div class="card">     
@@ -282,7 +282,7 @@
  
            
             
-            var correo = ["uss@procollect.cl","josesm@procollect.cl"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
