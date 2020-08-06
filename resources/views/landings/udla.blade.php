@@ -103,10 +103,10 @@ $name = $_GET['NOMBRE'];
                 <div class="card">     
                 <div class="card-body">
                 <h5 class="text-black text-center"></h5>
-                    <p class="text-black">
+                    <h4 class="text-black">
                     Sabemos que son momentos difíciles <span id="name"></span>, por este motivo queremos entregarle una atractiva oferta para liquidar su deuda con la universidad, con rebaja del 100% en las  multas por mora, 100% de los gastos de cobranza y un atractivo descuento en capital.<br><br>
 
-                    Si le interesa recibir más información, comuníquese con nosotros o solicite que sea contactado.</p>
+                    Si le interesa recibir más información, comuníquese con nosotros o solicite que sea contactado.</h4>
                     </div>
                 </div>
 
@@ -266,7 +266,7 @@ $name = $_GET['NOMBRE'];
 
         }
 
-
+}
         let eventosLanding = function(name){
             
             let json_datos = getAllUrlParameter(); 
@@ -280,7 +280,7 @@ $name = $_GET['NOMBRE'];
                 'json_datos': JSON.stringify(json_datos)
             });
         }
-    }
+    
      
 
         function sendMail(msg = false){
