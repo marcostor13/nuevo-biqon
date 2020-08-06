@@ -161,12 +161,12 @@
                 </div> </div>
 
                 <ul>
-                    <li>Deuda capital           <span id="name"></span></li>
-                    <li>Multas por mora         <span id="name"></span></li>
-                    <li>Gastos de cobranza      <span id="name"></span></li>
-                    <li>Deuda total             <span id="name"></span></li>
-                    <li>Monto descuento         <span id="name"></span></li>
-                    <li>Monto oferta a pagar    <span id="name"></span></li>
+                    <li>Deuda capital           <span id="monto"></span></li>
+                    <li>Multas por mora         <span id="data1"></span></li>
+                    <li>Gastos de cobranza      <span id="data2"></span></li>
+                    <li>Deuda total             <span id="data3"></span></li>
+                    <li>Monto descuento         <span id="data4"></span></li>
+                    <li>Monto oferta a pagar    <span id="data5"></span></li>
                 </ul>
                     </div>
 
@@ -399,8 +399,22 @@
  }
 
   function Mens7(){
+    var monto,data1,data2,data3,data4,data5; 
+         monto= getUrlParameter('monto');
+         data1= getUrlParameter('data1');
+         data2= getUrlParameter('data2');
+         data3= getUrlParameter('data3');
+         data4= getUrlParameter('data4');
+         data5= getUrlParameter('data5');
+
      $('#cont2').addClass('hide');
      $('#cont8').removeClass('hide');
+     $('#monto').text(monto);
+     $('#data1').text(data1);
+     $('#data2').text(data2);
+     $('#data3').text(data3);
+     $('#data4').text(data4);
+     $('#data5').text(data5);
  }
     </script>
  
