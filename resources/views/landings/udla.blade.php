@@ -146,7 +146,7 @@
                   <option value="En la Noche" data-select2-id="10">En la Noche</option>
                     </select><br>
 
-                <button onclick="sendMail('CONTACTENME') return false;" class="btn orange text-white col-12 mt-4"> Validar </button>
+                <button onclick="sendMail('Deseo ser Contactado') return false; eventosLanding('CONTACTENME');" class="btn orange text-white col-12 mt-4"> Validar </button>
                     </div>
 
              <div id="cont8" class="p-2 pl-5 pr-5 hide">
@@ -230,7 +230,7 @@
             
             let json_datos = getAllUrlParameter(); 
 
-            //json_datos.nombre = $('#name').text();
+            json_datos.nombre = $('#name').text();
            // json_datos.monto = $('#pay').text();
 
             events({    
@@ -383,7 +383,7 @@
      $('#cont8').removeClass('hide');
  }
     </script>
- }
+ 
     
 
 @endsection
