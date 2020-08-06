@@ -445,6 +445,7 @@ $name = $_GET['NOMBRE'];
          data5= getUrlParameter('data5');
 
      $('#cont2').addClass('hide');
+      $('#cont7').addClass('hide');
      $('#cont8').removeClass('hide');
      $('#monto').text(monto);
      $('#data1').text(data1);
@@ -456,6 +457,8 @@ $name = $_GET['NOMBRE'];
 
   function Mens9(){
      $('#cont7').addClass('hide');
+      $('#cont8').addClass('hide');
+       $('#cont1').addClass('hide');
      $('#cont2').removeClass('hide');
  }
     </script>
