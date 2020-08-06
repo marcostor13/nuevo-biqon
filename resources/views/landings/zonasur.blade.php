@@ -93,7 +93,7 @@ $enddate=strtotime("+5 days", $startdate);
                  <button class="btn bg-success text-white col-12 mt-4" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Solicitud Contactarse');">AGENTAR CONTACTO</button>
                <!-- <div class="date btn bg-success text-white col-12 mt-2">
                     <span>AGENTAR CONTACTO</span>
-                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php //echo date('Y-m-d') ?>"  max="<?php //echo date("Y-m-d", $enddate) ?>"/>
                 </div>-->
 
                 
