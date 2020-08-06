@@ -148,7 +148,7 @@
                 <button onclick="sendMail('CONTACTENME') return false;" class="btn orange text-white col-12 mt-4"> Validar </button>
                     </div>
 
-             <div id="cont7" class="p-2 pl-5 pr-5 hide">
+             <div id="cont8" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
                 <div class="card-body">
                     <!--<h3 class="text-black text-center"><span id="name"></span>, bienvenido a la sucursal virtual de UDLA.</h3>-->
@@ -163,9 +163,6 @@
                     <li>Monto descuento         <span id="name"></span></li>
                     <li>Monto oferta a pagar    <span id="name"></span></li>
                 </ul>
-
-
-                                <!--<button onclick="sendMail('CONTACTENME') return false;" class="btn orange text-white col-12 mt-4"> Validar </button>-->
                     </div>
 
         </div>
@@ -376,13 +373,13 @@
  }
 
   function Mens6(){
-     $('#cont1').addClass('hide');
+     $('#cont2').addClass('hide');
      $('#cont7').removeClass('hide');
  }
 
   function Mens7(){
-     $('#cont1').addClass('hide');
-     $('#no').removeClass('hide');
+     $('#cont2').addClass('hide');
+     $('#cont8').removeClass('hide');
  }
     </script>
  }
