@@ -44,7 +44,7 @@
       rgba(0, 0, 0, 0.5)
     )
     }
-
+.orange {  background-color: #eb600f;}
   
 </style>
    <!-- <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;">-->
@@ -62,8 +62,8 @@
                 <h4 class="text-black text-center">Para validar su identidad, favor digitar los 6 primeros dígitos del rut, si no es usted, presionar No.</h4>
                 </div> </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black"  min="6" max="6" maxlength="6">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
-                <button onclick="no(); return false;" class="btn bg-danger text-white col-12 mt-4"> No </button>
+                <button onclick="event1(); return false;" class="btn orange text-white col-12 mt-4"> Validar </button>
+                <button onclick="no(); return false;" class="btn orange text-white col-12 mt-4"> No </button>
 
                 <div id="cont6" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -83,7 +83,7 @@
                            <br>
                             <br>
                              <br>-->
-            </div>
+            </div> 
             <div id="no" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -109,13 +109,13 @@
                     </div>
                 </div>
 
-                <a onclick="eventosLanding('LLAMAR'); Mens5();" class="btn bg-danger text-white col-12 mt-2"> LLAMAR <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                <a onclick="eventosLanding('LLAMAR'); Mens5();" class="btn orange text-white col-12 mt-2"> LLAMAR <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
 
 
-                <button onclick="Mens6();" class="btn bg-danger text-white col-12 mt-2">Contáctenme</button>
+                <button onclick="Mens6();" class="btn orange text-white col-12 mt-2">Contáctenme</button>
 
 
-                <button onclick="eventosLanding('REVISAR DEUDA'); Mens7();" class="btn bg-danger text-white col-12 mt-2">Revisar Oferta</button>
+                <button onclick="eventosLanding('REVISAR DEUDA'); Mens7();" class="btn orange text-white col-12 mt-2">Revisar Oferta</button>
 
                 <br>
                      <br>
@@ -145,7 +145,7 @@
                   <option value="En la Noche" data-select2-id="10">En la Noche</option>
                     </select><br>
 
-                <button onclick="sendMail('CONTACTENME') return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
+                <button onclick="sendMail('CONTACTENME') return false;" class="btn orange text-white col-12 mt-4"> Validar </button>
                     </div>
 
              <div id="cont7" class="p-2 pl-5 pr-5 hide">
@@ -165,7 +165,7 @@
                 </ul>
 
 
-                                <!--<button onclick="sendMail('CONTACTENME') return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>-->
+                                <!--<button onclick="sendMail('CONTACTENME') return false;" class="btn orange text-white col-12 mt-4"> Validar </button>-->
                     </div>
 
         </div>
