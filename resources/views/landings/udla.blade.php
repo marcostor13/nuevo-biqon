@@ -174,76 +174,66 @@
 
     <script>
    //EVENT 1
-   var name;
-         name= getUrlParameter('nombre');
-       $(function(){
+ $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
                 'json_datos': JSON.stringify(getAllUrlParameter())
-            });
-        });
 
-      
+                          });
+        }); 
 
-         function event1(){ 
-         var name;
-         name= getUrlParameter('nombre');
-
-             if($('#rut').val().length != 6){
-                $('#cont6').removeClass('hide');
+         function event1(){
+            if($('#rut').val().length != 6){
                  $('#error').text("Debe ingresar 6 dígitos");
              }else{
-                let dataSend = {
-                    'fourRut': $('#rut').val(),
-                    'phone': params.telefono,
-                    'landing_id': {!! $landing->id !!},
-                } 
-                
-                $.ajaxSetup({
-                    headers: {
-                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                    }
-                });
-                $.post( "/validateRut", dataSend,function() {
-                    console.log(dataSend);
-                })
-                .done(function(e) {
-                    console.log(e);
-                    e = JSON.parse(e); 
+            let dataSend = {
+                'fourRut': $('#rut').val(),
+                'phone': getUrlParameter('telefono'),
+                'landing_id': {!! $landing->id !!},
+            } 
+            
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+            $.post( "/validateRut", dataSend,function() {
+                console.log(dataSend);
+            })
+            .done(function(e) {
+                console.log(e);
+                e = JSON.parse(e); 
 
-                    if(e.code == 200){
-                        $('#cont1').addClass('hide');
-                        $('#name').text(e.data.nombre);
-                        $('#pay').text(e.data.monto);
-                        $('#cont2').removeClass('hide');
-                        $('#date1').on('change', function(){
-                            if($('#date1').val() != ''){
-                                sendMail();
-                            }
-                        });
-                    }else{
-                        $('#cont1').addClass('hide');
-                        $('#cont5').removeClass('hide');
-                        $('#error1').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
-                    }
-                })
-                .fail(function() {
-                    console.log( "error" );
-                });
-             }   
+                if(e.code == 200){
+                    $('#cont1').addClass('hide');
+                    $('#name').text(e.data.nombre);
+                    $('#pay').text(e.data.monto);
+                    $('#cont2').removeClass('hide');
+                    $('#date1').on('change', function(){
+                        if($('#date1').val() != ''){
+                            sendMail();
+                        }
+                    });
+                }else{
+                    $('#cont1').addClass('hide');
+                     $('#cont5').removeClass('hide');
+                    $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí.");
+                }
+            })
+            .fail(function() {
+                console.log( "error" );
+            });
 
         }
 
-        
 
-        let eventosLanding = async function(name){
+        let eventosLanding = function(name){
             
-            let json_datos = await getAllUrlParameter(); 
+            let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-          //  json_datos.monto = $('#pay').text();
-           // json_datos.date = $('#date1').val();
+            //json_datos.nombre = $('#name').text();
+           // json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -251,7 +241,7 @@
                 'json_datos': JSON.stringify(json_datos)
             });
         }
-
+    }
      
 
         function sendMail(msg = false){
@@ -261,33 +251,35 @@
             let data; 
             if(msg !== false){
                 data = {
-                    'Mensaje': msg,
-                    'Nombre': $('#name').text(),
-                    'Monto': params.monto,
-                    'RUT': params.rut,
-                    'Telefono': params.telefono,
+                    'mensaje': msg,
+                    'Nombre': getUrlParameter('nombre'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                    //'Monto': getUrlParameter('monto'),
+                    //'Estado': getUrlParameter('data1'),
+                    'landing': '{!! $landing->name !!}'
                    
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'Fecha': date,
-                    'Nombre': $('#name').text(),
-                    'Monto': params.monto,
-                    'RUT': params.rut,
-                    'Telefono': params.telefono,                    
+                    'Fecha Compromiso': date,
+                    'Nombre': getUrlParameter('nombre'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                   // 'Monto': getUrlParameter('monto'),
+                   // 'Estado': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
- 
-           
-            
-            var correo = ["jesus.binteraction@gmail.com"];
+
+           var correo = ["jesus.binteraction@gmail.com"];
+           // var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email':' {!! $landing->email !!}'
+                //'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -307,7 +299,7 @@
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado. Nos pondremos en contacto con usted en los próximos días');
-                    eventosLanding('Compromiso de Pago');
+                     eventosLanding('Compromiso de Pago');
                 }
             })
             .done(function(e) {
@@ -319,7 +311,7 @@
 
         }
 
-       let events = function(data){     
+        let events = function(data){     
 
             $.ajaxSetup({
                 headers: {
@@ -373,20 +365,7 @@
             return obj;  
         };
 
-
-
-        function Mens2(){
-       var id_adm; 
-         id_adm= params.id; 
-         var rut; 
-         rut= params.rut;
-
-        // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
-
-         var body_message = "%0A%20Estimado%20estudiante,%0A%20favor%20env%C3%ADe%20su%20consulta%20relacionada%20al%20pago%20de%20su%20cuenta.%20%0A%20Saludos%20cordiales%20";
-   window.location.href = "mailto:uss@procollect.cl?subject=Pago%20de%20Cuenta%20&body=RUT:%20"+rut+" "+body_message;
-
- }
+   
  function no(){
      $('#cont1').addClass('hide');
      $('#no').removeClass('hide');
