@@ -109,14 +109,15 @@
                     </div>
                 </div>
 
-               <a onclick="eventosLanding('LLAMAR'); Mens5();" class="btn orange text-white col-12 mt-2"> LLAMAR</a>
+              <!-- <a onclick="eventosLanding('LLAMAR'); Mens5();" class="btn orange text-white col-12 mt-2"> LLAMAR</a>-->
+               <button onclick="Mens5(); eventosLanding('Llamar')" class="btn orange text-white col-12 mt-2">Llamar</button>
                 
-                <a onclick="eventosLanding('CORREO'); Mens2();" class="btn bg-danger text-white col-12 mt-2"> ESCRÍBENOS <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
 
-                <button onclick="Mens6(); eventosLanding('LLAMAR')" class="btn orange text-white col-12 mt-2">Contáctenme</button>
+                <button onclick="Mens6();" class="btn orange text-white col-12 mt-2">Contáctenme</button>
 
+                <button onclick="Mens7(); eventosLanding('Revisar Oferta')" class="btn orange text-white col-12 mt-2">Contáctenme</button>
 
-                <button onclick="eventosLanding('REVISAR DEUDA'); Mens7();" class="btn orange text-white col-12 mt-2">Revisar Oferta</button>
+               <!-- <button onclick="eventosLanding('REVISAR DEUDA'); Mens7();" class="btn orange text-white col-12 mt-2">Revisar Oferta</button>-->
 
                 <br>
                      <br>
