@@ -74,23 +74,19 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 ">
+               <div id="cont2" class="p-5 hide">
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                    La seguridad de nuestro equipo y de nuestros clientes es lo primero. Por eso, aborda tus inquietudes por nuestros medios de contacto a distancia. Así, evitamos que te expongas.  
-<br>
- Prefiere lo digital <a href="www.tanner.cl"> www.tanner.cl </a>
-<br>
-#EstamosJuntosEnEsto
-                </p>
+                    Informamos que su crédito automotriz se encuentra en mora.
+                    <br>Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.<br> #EstamosJuntosEnEsto  <br></p>
 
                     <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
                 
 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
 
-                 <button class="btn bg-success text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">DESEO QUE ME CONTACTEN</button>
+                 <button class="btn bg-success text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">QUIERO QUE ME CONTACTEN</button>
             
                 
                  <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>   
