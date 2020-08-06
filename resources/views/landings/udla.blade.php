@@ -191,6 +191,7 @@
          name= getUrlParameter('nombre');
 
              if($('#rut').val().length != 6){
+                $('#cont6').removeClass('hide');
                  $('#error').text("Debe ingresar 6 dígitos");
              }else{
                 let dataSend = {
@@ -373,7 +374,7 @@
         };
 
 
-        
+
         function Mens2(){
        var id_adm; 
          id_adm= params.id; 
