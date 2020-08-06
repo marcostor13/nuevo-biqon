@@ -113,7 +113,7 @@
                 
                 <a onclick="eventosLanding('CORREO'); Mens2();" class="btn bg-danger text-white col-12 mt-2"> ESCRÍBENOS <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
 
-                <button onclick="Mens6();" class="btn orange text-white col-12 mt-2">Contáctenme</button>
+                <button onclick="Mens6(); eventosLanding('LLAMAR')" class="btn orange text-white col-12 mt-2">Contáctenme</button>
 
 
                 <button onclick="eventosLanding('REVISAR DEUDA'); Mens7();" class="btn orange text-white col-12 mt-2">Revisar Oferta</button>
