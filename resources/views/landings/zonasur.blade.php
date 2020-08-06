@@ -78,11 +78,13 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                    La seguridad de nuestro equipo y de nuestros clientes es lo primero. Por eso, aborda tus inquietudes por nuestros medios de contacto a distancia. Así, evitamos que te expongas.  
+                    Informamos que su crédito automotriz se encuentra en mora.
 <br>
- Prefiere lo digital <a href="www.tanner.cl"> www.tanner.cl </a>
+Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.
 <br>
-#EstamosJuntosEnEsto
+#EstamosJuntosEnEsto 
+<br>
+
                 </p>
 
                     <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
