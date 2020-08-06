@@ -91,21 +91,12 @@ $enddate=strtotime("+5 days", $startdate);
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
 
                  <button class="btn bg-success text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">DESEO QUE ME CONTACTEN</button>
-               <!-- <div class="date btn bg-success text-white col-12 mt-2">
-                    <span>AGENTAR CONTACTO</span>
-                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php //echo date('Y-m-d') ?>"  max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-                </div>-->
-
+            
                 
                  <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>   
 
                  <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
-              <!--  <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961706239&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56961706239"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
-                    <a onclick="eventosLanding('Correo');" href="mailto:arojas@zonasursa.cl?subject=Landing%20ZonaSur"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
-                </div> -->
              </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
