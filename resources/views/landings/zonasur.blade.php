@@ -77,7 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 ">
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
-               p class="text-black" align="text-center">
+               <p class="text-black" align="text-center">
                     La seguridad de nuestro equipo y de nuestros clientes es lo primero. Por eso, aborda tus inquietudes por nuestros medios de contacto a distancia. Así, evitamos que te expongas.  
 <br>
  Prefiere lo digital <a href="www.tanner.cl"> www.tanner.cl </a>
