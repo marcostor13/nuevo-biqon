@@ -293,7 +293,7 @@ $name = $_GET['NOMBRE'];
                     'RUT': getUrlParameter('rut'),
                     //'Telefono': getUrlParameter('telefono'),
 
-                    'Datos_Formulario': $('#nombre1').val(),
+                   // 'Datos_Formulario': $('#nombre1').val(),
                     //'Nombre': $('#nombre').val(),
                     //'Apellido': $('#apellido').val(),
                     //'RUT': $('#rut').val(),
