@@ -427,7 +427,7 @@ $name = $_GET['NOMBRE'];
  }
         
      function Mens5(){
-      window.location.href = "tel:+56227308000";
+      window.location.href = "tel:+56931981715";
  }
 
   function Mens6(){
