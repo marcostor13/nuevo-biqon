@@ -63,8 +63,8 @@ $name = $_GET['NOMBRE'];
                 <h4 class="text-black text-center">Para validar su identidad, favor digitar los 6 primeros dígitos del rut, si no es usted, presionar No.</h4>
                 </div> </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black"  min="6" max="6" maxlength="6">
-                <button onclick="event1(); return false;" class="btn orange text-white col-10 mt-4"> Validar </button>
-                <button onclick="no(); return false; eventosLanding('Revisar Oferta')" class="btn orange text-white col-10 mt-4"> No </button>
+                <button onclick="event1(); return false;" class="btn orange text-white col-12 mt-4"> Validar </button>
+                <button onclick="no(); return false; eventosLanding('Revisar Oferta')" class="btn orange text-white col-12 mt-4"> No </button>
 
                 <div id="cont6" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -110,11 +110,11 @@ $name = $_GET['NOMBRE'];
                 </div>
 
               <!-- <a onclick="eventosLanding('LLAMAR'); Mens5();" class="btn orange text-white col-12 mt-2"> LLAMAR</a>-->
-               <button onclick="Mens5(); eventosLanding('Llamar')" class="btn orange text-white col-10 mt-2">Llamar</button>
+               <button onclick="Mens5(); eventosLanding('Llamar')" class="btn orange text-white col-12 mt-2">Llamar</button>
                 
-                <button onclick="Mens6();" class="btn orange text-white col-10 mt-2">Contáctenme</button>
+                <button onclick="Mens6();" class="btn orange text-white col-12 mt-2">Contáctenme</button>
 
-                <button onclick="Mens7(); eventosLanding('Revisar Oferta')" class="btn orange text-white col-10 mt-2">Revisar Oferta</button>
+                <button onclick="Mens7(); eventosLanding('Revisar Oferta')" class="btn orange text-white col-12 mt-2">Revisar Oferta</button>
 
                <!-- <button onclick="eventosLanding('REVISAR DEUDA'); Mens7();" class="btn orange text-white col-12 mt-2">Revisar Oferta</button>-->
 
