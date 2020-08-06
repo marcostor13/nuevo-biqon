@@ -55,7 +55,7 @@
           <img style="max-width:200px; max-height:60px" class="img-fluid col-10 col-md-2 mt-1" src="{{$landing->logo}}" alt="UDLA">
           <!--<img style="max-width:200px; max-height:50px" class="img-fluid col-10 col-md-2 mt-1" src="https://i.imgur.com/whNYFHQ.png" alt="USS">-->
 
-             <div id="cont1" class="p-2 ">
+             <div id="cont1" class="p-2 hide">
                 <div class="card">     
                 <div class="card-body">
                     <h3 class="text-black text-center"><span id="name"></span>, bienvenido a la sucursal virtual de UDLA.</h3>
@@ -94,11 +94,11 @@
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="no"class="text-black text-center mt-5"></h5>
+                                 <h5 id="error1"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-1 hide">
+            <div id="cont2" class="p-1 ">
                 <div class="card">     
                 <div class="card-body">
                 <h5 class="text-black text-center"></h5>
@@ -174,6 +174,8 @@
 
     <script>
    //EVENT 1
+   var name;
+         name= getUrlParameter('nombre');
        $(function(){
             events({    
                 'name': 'Visita',
@@ -184,9 +186,7 @@
 
       
 
-         function event1(){
-             var id_adm; 
-         id_adm= getUrlParameter('data1'); 
+         function event1(){ 
          var name;
          name= getUrlParameter('nombre');
 
