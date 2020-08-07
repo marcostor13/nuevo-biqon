@@ -72,7 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
                         <div id="cont2" class="p-5 hide">
-                <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
+                <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
                     Informamos que su crédito automotriz se encuentra en mora.
