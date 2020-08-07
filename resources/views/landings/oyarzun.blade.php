@@ -73,10 +73,15 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 ">
-                <h3 class="text-black text-center">Estimado(a) <span id="name"></span> Cliente</h3>
+                <h3 class="text-black text-center">Estimado(a) <span id="name"></span> </h3>
 
                 <p class="text-black" align="text-center">
-                    Usted, tiene una deuda con <strong><a href="https://www.santanderconsumer.cl/">www.santanderconsumer.cl/ </a></strong> por concepto de no pago. <br> Le ofrecemos las siguientes opciones, para regularizar su deuda pendiente:  
+                   Le recordamos que actualmente usted mantiene una deuda vigente con Santander Consumer, con ocasión de un crédito automotriz cuyas cuotas se encuentran impagas y vencidas a la fecha, y por la cual además se ha interpuesto una demanda en su contra.<br>
+Es importante que tenga presente, que le podemos ofrecer diferentes alternativas de pago y así ayudarle a encontrar una solución a su problema.
+<br>
+Sin embargo, los intereses se acumulan día a día encareciendo su deuda, por lo que es importante que se ponga en contacto con nosotros para regularizar la situación.
+<br>
+A continuación, te ofrecemos alternativas que te pueden ayudar:  
 <!--<br>
  Prefiere lo digital 
 <br>
@@ -85,18 +90,32 @@ $enddate=strtotime("+5 days", $startdate);
                
                
 
-               <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>-->
-                   <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>
+               <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
 
-                    <div class="date btn bg-success text-white col-12 mt-2">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-                
-                
-                <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-warning text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>   
+<INFORMACIÓN DE TU DEUDA>
 
-                 <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-primary text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+<CONTACTA UN EJECUTIVO> 
+
+<COMPROMISO DE PAGO>
+
+<YA PAGUÉ> 
+
+<WHATSAPP EJECUTIVO>
+               -->
+    <button onclick="sendMail('El cliente solicita informacion'); eventosLanding('INFORMACIÓN');" class="btn bg-primary text-white col-12 mt-2">INFORMACIÓN DE TU DEUDA </button> 
+
+    <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-primary text-white col-12 mt-2"> CONTACTA UN EJECUTIVO </button> 
+
+    <div class="date btn bg-primary text-white col-12 mt-2"> <span>AGENDAR COMPROMISO DE PAGO</span>
+        <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+    </div>
+
+
+    <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
+                        
+  <!--  <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-warning text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>  --> 
+
+    <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-primary text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
              </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -310,13 +329,13 @@ $enddate=strtotime("+5 days", $startdate);
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56971409424&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56967664209&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56971409424";
+        window.location.href ="tel:+56967664209";
     
         } 
     </script>
