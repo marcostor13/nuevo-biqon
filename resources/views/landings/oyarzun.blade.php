@@ -268,13 +268,13 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com"];  
+            var correo = ["jesus.binteraction@gmail.com", "rgutierrez@oyarzunycia.cl"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'arojas@zonasursa.cl', "arojas@zonasursa.cl", "rgutierrez@oyarzunycia.cl"
+                //'email': 'arojas@zonasursa.cl', "arojas@zonasursa.cl"
             }
             $.ajaxSetup({
                 headers: {
