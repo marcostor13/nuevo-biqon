@@ -73,7 +73,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 ">
-                <h3 class="text-black text-center">Estimado(a) <span id="name"></span> </h3>
+                <h4 class="text-black text-center">Estimado(a) <span id="name"></span> </h4>
 
                 <p class="text-black" align="text-center">
                    Le recordamos que actualmente usted mantiene una deuda vigente con Santander Consumer, con ocasión de un crédito automotriz cuyas cuotas se encuentran impagas y vencidas a la fecha, y por la cual además se ha interpuesto una demanda en su contra.<br>
@@ -102,7 +102,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
 
 <WHATSAPP EJECUTIVO>
                -->
-    <button onclick="sendMail('El cliente solicita informacion'); eventosLanding('INFORMACIÓN');" class="btn bg-primary text-white col-12 mt-2">INFORMACIÓN DE TU DEUDA </button> 
+    <button onclick="Mens7(); eventosLanding('INFORMACIÓN');" class="btn bg-primary text-white col-12 mt-2">INFORMACIÓN DE TU DEUDA </button> 
 
     <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-primary text-white col-12 mt-2"> CONTACTA UN EJECUTIVO </button> 
 
@@ -125,6 +125,48 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                             </div>
                         </div>
             </div>
+
+                         <div id="cont8" class="p-2 pl-5 pr-5 hide">
+                        <div class="card">     
+                <div class="card-body">
+                    <!--<h3 class="text-black text-center"><span id="name"></span>, bienvenido a la sucursal virtual de UDLA.</h3>-->
+                <h4 class="text-black text-center">Revisar Oferta</h4>
+
+                <table class="table table-striped">
+                    <tbody>
+        <tr>
+            <td>Deuda capital</td>
+            <td><span id="monto"></span></td>
+        </tr>
+        <tr>
+            <td>Multas por mora</td>
+            <td><span id="data1"></span></td>
+        </tr>
+        <tr>
+            <td>Gastos de cobranza </td>
+            <td><span id="data2"></td>
+        </tr>
+        <tr>
+            <td>Deuda total</td>
+            <td><span id="data3"></span></td>
+        </tr>
+        <tr>
+            <td>Monto descuento</td>
+            <td><span id="data4"></span></td>
+        </tr>
+        <tr>
+            <td>Monto oferta a pagar</td>
+            <td><span id="data5"></span></td>
+        </tr>
+    </tbody>
+                </table>
+                    </div>
+                      </div> 
+            <button onclick="Mens9();" class="btn orange text-white col-12 mt-2">IR A MENU</button>
+
+
+
+                  </div>
         </div>
 
      <script>
@@ -338,6 +380,28 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
         window.location.href ="tel:+56967664209";
     
         } 
+
+         function Mens7(){
+    var monto,data1,data2,data3,data4,data5; 
+         monto= getUrlParameter('monto');
+         data1= getUrlParameter('data1');
+         data2= getUrlParameter('data2');
+         data3= getUrlParameter('data3');
+         data4= getUrlParameter('data4');
+         data5= getUrlParameter('data5');
+
+     $('#cont2').addClass('hide');
+      $('#cont7').addClass('hide');
+     $('#cont8').removeClass('hide');
+     $('#monto').text(monto);
+     $('#data1').text(data1);
+     $('#data2').text(data2);
+     $('#data3').text(data3);
+     $('#data4').text(data4);
+     $('#data5').text(data5);
+ }
+
+ 
     </script>
     
 
