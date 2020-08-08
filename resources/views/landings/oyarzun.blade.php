@@ -371,13 +371,13 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56967664209&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56971409424&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56967664209";
+        window.location.href ="tel:+56971409424";
     
         } 
 
