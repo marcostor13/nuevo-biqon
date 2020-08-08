@@ -60,7 +60,7 @@ $enddate=strtotime("+5 days", $startdate);
             <br><br>
              <img style="max-width:320px; max-height:180px" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Oyarzun"> <!--<h1> <strong>Oyarzun y Cia Ltda </strong></h1>-->
 
-             <div id="cont1" class="p-5 hide">
+             <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn wine text-white col-12 mt-4"> Validar </button>
@@ -72,7 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 ">
+            <div id="cont2" class="p-5 hide">
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span> </h4>
 
                 <p class="text-black" align="text-center">
