@@ -49,7 +49,7 @@ $enddate=strtotime("+5 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
-    
+    .wine {  background-color: #6b2737;}
 </style>
 
      <!-- <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">-->
@@ -63,7 +63,7 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont1" class="p-5 hide">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-success text-white col-12 mt-4"> Validar </button>
+                <button onclick="event1(); return false;" class="btn wine text-white col-12 mt-4"> Validar </button>
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -102,20 +102,20 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
 
 <WHATSAPP EJECUTIVO>
                -->
-    <button onclick="Mens7(); eventosLanding('INFORMACIÓN');" class="btn bg-primary text-white col-12 mt-2">INFORMACIÓN DE TU DEUDA </button> 
+    <button onclick="Mens7(); eventosLanding('INFORMACIÓN');" class="btn wine text-white col-12 mt-2">INFORMACIÓN DE TU DEUDA </button> 
 
-    <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-primary text-white col-12 mt-2"> CONTACTA UN EJECUTIVO </button> 
+    <button onclick="Mens2(); eventosLanding('Llamar');" class="btn wine text-white col-12 mt-2"> CONTACTA UN EJECUTIVO </button> 
 
-    <div class="date btn bg-primary text-white col-12 mt-2"> <span>AGENDAR COMPROMISO DE PAGO</span>
+    <div class="date btn wine text-white col-12 mt-2"> <span>AGENDAR COMPROMISO DE PAGO</span>
         <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
     </div>
 
 
-    <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA PAGUE</button>
+    <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn wine text-white col-12 mt-2">YA PAGUE</button>
                         
   <!--  <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-warning text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>  --> 
 
-    <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-primary text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+    <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn wine text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
              </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -135,34 +135,34 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                 <table class="table table-striped">
                     <tbody>
         <tr>
-            <td>Deuda capital</td>
+            <td>OP</td>
             <td><span id="monto"></span></td>
         </tr>
         <tr>
-            <td>Multas por mora</td>
+            <td>deuda + 10% </td>
             <td><span id="data1"></span></td>
         </tr>
         <tr>
-            <td>Gastos de cobranza </td>
+            <td>Campaña </td>
             <td><span id="data2"></td>
         </tr>
         <tr>
-            <td>Deuda total</td>
+            <td>Dias de mora</td>
             <td><span id="data3"></span></td>
         </tr>
         <tr>
-            <td>Monto descuento</td>
+            <td>Rol</td>
             <td><span id="data4"></span></td>
         </tr>
         <tr>
-            <td>Monto oferta a pagar</td>
+            <td>Tribunal</td>
             <td><span id="data5"></span></td>
         </tr>
     </tbody>
                 </table>
                     </div>
                       </div> 
-            <button onclick="Mens9();" class="btn orange text-white col-12 mt-2">IR A MENU</button>
+            <button onclick="Mens9();" class="btn wine text-white col-12 mt-2">IR A MENU</button>
 
 
 
@@ -214,7 +214,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                 }else{
                         $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí.");
+                    $('#error').text("Validación incorrecta");
                 }
             })
             .fail(function() {
@@ -267,7 +267,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com"];  
+            var correo = ["jesus.binteraction@gmail.com", "rgutierrez@oyarzunycia.cl"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
@@ -286,7 +286,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                    $('#message').text('Si ya pagaste, te rogamos ignorar nuestro mensaje');
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
@@ -401,7 +401,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
      $('#data5').text(data5);
  }
 
- 
+
     </script>
     
 
