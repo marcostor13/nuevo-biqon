@@ -65,7 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn wine text-white col-12 mt-4"> Validar </button>
             </div>
-            <div id="cont5" class="p-2 pl-3 pr-3 hide">
+            <div id="cont5" class="p-5 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
@@ -118,7 +118,8 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
     <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn wine text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
              </div>
-                           <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                           <div id="cont3" class="p-5 pl-3 pr-3 hide">
+                            
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
@@ -126,7 +127,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                         </div>
             </div>
 
-                         <div id="cont8" class="p-2 pl-5 pr-5 hide">
+                         <div id="cont8" class="p-5 pl-5 pr-5 hide">
                         <div class="card">     
                 <div class="card-body">
                     <!--<h3 class="text-black text-center"><span id="name"></span>, bienvenido a la sucursal virtual de UDLA.</h3>-->
@@ -258,7 +259,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'fecha': date,
+                    'Compromiso de Pago': date,
                     'nombre': $('#name').text(),
                    // 'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
