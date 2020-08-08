@@ -400,7 +400,12 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
      $('#data4').text(data4);
      $('#data5').text(data5);
  }
-
+  function Mens9(){
+     $('#cont7').addClass('hide');
+      $('#cont8').addClass('hide');
+       $('#cont1').addClass('hide');
+     $('#cont2').removeClass('hide');
+ }
 
     </script>
     
