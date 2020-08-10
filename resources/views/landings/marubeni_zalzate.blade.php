@@ -56,9 +56,9 @@ $enddate=strtotime("+15 days", $startdate);
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975887314&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png"></a>
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56975887314"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-                    <a onclick="eventosLanding('Correo');" href="mailto:mundocredito@prainabogados.cl?subject=Landing%20Mundo%20Credito"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967599345&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56967599345"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:zalzate@prainabogados.cl?subject=Landing%20Mundo%20Credito"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>       
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -169,7 +169,7 @@ $enddate=strtotime("+15 days", $startdate);
                 } 
             }
 
-            var correo = ["mundocredito@prainabogados.cl"];
+            var correo = ["zalzate@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
