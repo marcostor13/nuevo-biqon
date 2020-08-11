@@ -355,7 +355,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56936740979&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56936740979&text=Hola,%20Lorena%20tengo%20una%20consulta,%20respecto%20a%20mi%20deuda";
     
         } 
 
