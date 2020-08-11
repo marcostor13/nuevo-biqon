@@ -236,6 +236,10 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                    'EJECUTIVO': getUrlParameter('data1'),
+                     'TRAMO_MORA': getUrlParameter('data2'),
+                     'CAMPANA': getUrlParameter('data3'),
+                     'OPERACION': getUrlParameter('data4'),
                    'landing': '{!! $landing->name !!}'
                     
                 }
@@ -247,6 +251,10 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                    // 'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
                      'rut': getUrlParameter('rut'),
+                     'EJECUTIVO': getUrlParameter('data1'),
+                     'TRAMO_MORA': getUrlParameter('data2'),
+                     'CAMPANA': getUrlParameter('data3'),
+                     'OPERACION': getUrlParameter('data4'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
