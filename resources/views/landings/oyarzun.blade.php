@@ -102,7 +102,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
 
 <WHATSAPP EJECUTIVO>
                -->
-    <button onclick="Mens7(); eventosLanding('INFORMACIÓN');" class="btn wine text-white col-12 mt-2">INFORMACIÓN DE TU DEUDA </button> 
+  <!--  <button onclick="Mens7(); eventosLanding('INFORMACIÓN');" class="btn wine text-white col-12 mt-2">INFORMACIÓN DE TU DEUDA </button> -->
 
     <button onclick="Mens2(); eventosLanding('Llamar');" class="btn wine text-white col-12 mt-2"> CONTACTA UN EJECUTIVO </button> 
 
