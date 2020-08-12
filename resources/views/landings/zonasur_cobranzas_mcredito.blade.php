@@ -75,7 +75,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                    En tiempos difíciles nuestro compromiso es aún más fuerte con nuestros clientes, por eso hemos preparado para ti una oferta única para el pago de tus cuotas en mora.<br>Tienes un descuento pre-aprobado y mientras más cuotas pagues Mayor será tu descuento!! <br></p>
+                    En tiempos difíciles nuestro compromiso es aún más fuerte con nuestros clientes, por eso hemos preparado para ti una oferta única para el pago de tus cuotas en mora.<br><br><strong>Tienes un descuento pre-aprobado y mientras más cuotas pagues Mayor será tu descuento!! </strong><br></p>
 
                   <!--  <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>-->
                 
