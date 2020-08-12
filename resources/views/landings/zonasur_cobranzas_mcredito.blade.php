@@ -59,7 +59,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
              <img style="max-width:320px; max-height:180px" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="ZONASUR">
 
-             <div id="cont1" class="p-5 ">
+             <div id="cont1" class="p-5 hide">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-success text-white col-12 mt-4"> Validar </button>
@@ -71,14 +71,13 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-             <div id="cont2" class="p-5 hide">
+             <div id="cont2" class="p-5 ">
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                    Informamos que su crédito automotriz se encuentra en mora.
-                    <br>Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.<br> #EstamosJuntosEnEsto  <br></p>
+                    En tiempos difíciles nuestro compromiso es aún más fuerte con nuestros clientes, por eso hemos preparado para ti una oferta única para el pago de tus cuotas en mora.<br>Tienes un descuento pre-aprobado y mientras más cuotas pagues Mayor será tu descuento!! <br></p>
 
-                    <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
+                  <!--  <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>-->
                 
 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
