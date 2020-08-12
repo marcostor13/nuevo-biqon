@@ -145,7 +145,7 @@ $enddate=strtotime("+5 days", $startdate);
                 }else{
                         $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí.");
+                    $('#error').text("Validación incorrecta.");
                 }
             })
             .fail(function() {
