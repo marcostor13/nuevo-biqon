@@ -200,7 +200,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["orojas@zonasursa.cl"];  
+            var correo = ["arojas@zonasursa.cl"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
@@ -304,13 +304,13 @@ $enddate=strtotime("+5 days", $startdate);
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56964350887&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56961706239&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56964350887";
+        window.location.href ="tel:+56961706239";
     
         } 
     </script>
