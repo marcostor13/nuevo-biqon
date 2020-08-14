@@ -78,11 +78,12 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                    Su crédito automotriz se encuentra en mora y Tanner tiene una oferta para ti.
-                    <br>
-                    Tiene un ejecutivo asignado con quien evaluar las alternativas disponibles, contacta a continuación
-                    <br>
-                    #EstamosJuntosEnEsto<br>
+                Tanner ofrece diferentes opciones para regularizar su crédito automotriz actualmente en mora
+                <br>
+                Tiene un ejecutivo asignado con quien evaluar las alternativas disponibles, contacta a continuación
+                <br><strong>
+                #NoPierdasEstaOportunidad</strong>
+                <br>
                     <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR </button>
                 
 
