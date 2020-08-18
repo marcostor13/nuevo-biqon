@@ -317,7 +317,7 @@ $name = $_GET['NOMBRE'];
                 } 
             }
 
-           var correo = ["jesus.binteraction@gmail.com"];
+           var correo = ["msouza@globalcobro.cl"];
            // var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
