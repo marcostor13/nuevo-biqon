@@ -159,40 +159,31 @@ $name = $_GET['NOMBRE'];
                 <h4 class="text-black text-center">Revisar Oferta</h4>
               
 
-              <!--  <ul>
-                    <li>Deuda capital           </li>
-                    <li>         </li>
-                    <li>     </li>
-                    <li>             </span></li>
-                    <li>         </span></li>
-                    <li>Monto oferta a pagar    </span></li>
-                </ul>-->
-
                 <table class="table table-striped">
                     <tbody>
         <tr>
-            <td>Deuda capital</td>
-            <td><span id="monto"></span></td>
+            <td>Deuda Total</td>
+            <td><span id="data2"></span></td>
         </tr>
         <tr>
-            <td>Multas por mora</td>
-            <td><span id="data1"></span></td>
+            <td>Descuento por Multas por</td>
+            <td><span id=""></span>100%</td>
         </tr>
         <tr>
-            <td>Gastos de cobranza </td>
-            <td><span id="data2"></td>
+            <td>Descuentos Gastos de</td>
+            <td><span id="">100%</td>
         </tr>
         <tr>
-            <td>Deuda total</td>
+            <td>Descuento Capital</td>
             <td><span id="data3"></span></td>
         </tr>
-        <tr>
+        <!--<tr>
             <td>Monto descuento</td>
             <td><span id="data4"></span></td>
-        </tr>
+        </tr>-->
         <tr>
             <td>Monto oferta a pagar</td>
-            <td><span id="data5"></span></td>
+            <td><span id="data4"></span></td>
         </tr>
     </tbody>
                 </table>
