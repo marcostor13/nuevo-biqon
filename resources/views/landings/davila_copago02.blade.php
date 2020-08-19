@@ -175,7 +175,7 @@
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#dato2').text(id_adm);
+                    $('#dato1').text(id_adm);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -223,10 +223,10 @@
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Id_Admision': getUrlParameter('data1'),
-                    'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data3'),
-                    'Liquidacion': getUrlParameter('data4'),
+                    'Id_Admision': getUrlParameter('data2'),
+                    //'Prevision': getUrlParameter('data'),
+                    'Estado': getUrlParameter('data1'),
+                    'Liquidacion': getUrlParameter('data3'),
                     'Landing': '{!! $landing->name !!}'
                     
                 }
