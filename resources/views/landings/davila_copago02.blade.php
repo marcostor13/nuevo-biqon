@@ -152,7 +152,7 @@
 
          function event1(){ 
           var id_adm; 
-         id_adm= getUrlParameter('data1'); 
+         id_adm= getUrlParameter('data2'); 
 
             let dataSend = {
                 'fourRut': $('#rut').val(),
