@@ -89,8 +89,8 @@ $name = $_GET['NOMBRE'];
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error3"class="text-black text-center mt-5">Disculpe las molestias.<br> Muchas gracias por su tiempo.</h5>
-                                 
-                                 <a href="www.udla.cl" class="btn orange text-white col-12 mt-2">Salir </a>
+
+                                 <a href="https://udla.cl" class="btn orange text-white col-12 mt-2">Salir </a>
                             </div>
                         </div>
             </div>
