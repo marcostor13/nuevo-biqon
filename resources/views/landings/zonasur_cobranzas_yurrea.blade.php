@@ -75,8 +75,13 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                    Nuestro país enfrenta un desafío importante y hoy, más que nunca  <br> #EstamosJuntosEnEsto  <br>
-                    <br><strong>Es por eso hemos preparado para ti una oferta única para el pago Total de tu deuda.</strong></p>
+                    Normaliza tus cuotas en mora hasta el lunes 24 de agosto con descuentos preferentes en gastos e intereses. <br>
+                  <br>
+                Su ejecutivo asignado le entregará su detalle, contacta a continuación,
+                <br><strong>
+                 #NoPierdaEstaOportunidad  </strong><br>ierdasEstaOportunidad</strong>
+                <br></p>
+
 
                   <!--  <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>-->
                 
