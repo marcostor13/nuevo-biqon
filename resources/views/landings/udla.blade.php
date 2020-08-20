@@ -59,8 +59,8 @@ $name = $_GET['NOMBRE'];
              <div id="cont1" class="p-2 ">
                 <div class="card">     
                 <div class="card-body">
-                    <h3 class="text-black text-center"><span><?php echo $name; ?></span>, bienvenido a la sucursal virtual de UDLA.</h3>
-                <h4 class="text-black text-center">Para validar su identidad, favor digitar los 6 primeros dígitos del rut, si no es usted, presionar No.</h4>
+                    <h3 class="text-black text-center"><span><?php echo $name; ?></span>, bienvenido a la sucursal virtual de Universidad de Las Américas.</h3>
+                <h4 class="text-black text-center">Para validar su identidad, favor digitar los 6 primeros dígitos del Rut, si no es usted, presionar No.</h4>
                 </div> </div>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black"  min="6" max="6" maxlength="6">
                 <button onclick="event1(); return false;" class="btn orange text-white col-12 mt-4"> Validar </button>
@@ -88,7 +88,7 @@ $name = $_GET['NOMBRE'];
             <div id="no" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error3"class="text-black text-center mt-5">Disculpe las molestias.<br> Muchas gracias por su tiempo. Que tenga un buen día</h5>
+                                 <h5 id="error3"class="text-black text-center mt-5">Disculpe las molestias.<br> Muchas gracias por su tiempo.</h5>
                             </div>
                         </div>
             </div>
@@ -104,8 +104,8 @@ $name = $_GET['NOMBRE'];
                 <div class="card-body">
                 <h5 class="text-black text-center"></h5>
                     <h5 class="text-black">
-                    Sabemos que son momentos difíciles <span id="name"></span>, por este motivo queremos entregarle una atractiva oferta para liquidar su deuda con la universidad, con rebaja del 100% en las  multas por mora, 100% de los gastos de cobranza y un atractivo descuento en capital.<br>
-                    Si le interesa recibir más información, comuníquese con nosotros o solicite que sea contactado.</h5>
+                    Sabemos que son momentos difíciles para todos, por este motivo queremos informarle que tenemos un  beneficio para que pueda liquidar su deuda con la universidad, el que considera rebaja del 100% en las multas por mora, 100% de los gastos de cobranza y la oportunidad de descuento en capital.</h5><br>
+                    <h5 class="text-black">Si le interesa recibir más información, comuníquese con nosotros o solicite que sea contactado.</h5>
                     </div>
                 </div>
 
@@ -114,7 +114,7 @@ $name = $_GET['NOMBRE'];
                 
                 <button onclick="Mens6();" class="btn orange text-white col-12 mt-2">Contáctenme</button>
 
-                <button onclick="Mens7(); eventosLanding('Revisar Oferta')" class="btn orange text-white col-12 mt-2">Revisar Oferta</button>
+                <button onclick="Mens7(); eventosLanding('Revisar Oferta')" class="btn orange text-white col-12 mt-2">Revisar Beneficio</button>
 
                <!-- <button onclick="eventosLanding('REVISAR DEUDA'); Mens7();" class="btn orange text-white col-12 mt-2">Revisar Oferta</button>-->
 
@@ -149,7 +149,7 @@ $name = $_GET['NOMBRE'];
 
                <!-- <button onclick="sendMail('Deseo ser Contactado') return false; eventosLanding('CONTACTENME');" class="btn orange text-white col-12 mt-4"> Validar </button>-->
 
-                <button class="btn orange text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Contactarse');">Quiero saber mas</button>
+                <button class="btn orange text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Contactarse');">Confirmar</button>
                     </div>
 
              <div id="cont8" class="p-2 pl-5 pr-5 hide">
@@ -157,9 +157,12 @@ $name = $_GET['NOMBRE'];
                 <div class="card-body">
                     <!--<h3 class="text-black text-center"><span id="name"></span>, bienvenido a la sucursal virtual de UDLA.</h3>-->
                 <h4 class="text-black text-center">Revisar Oferta</h4>
-              
 
-                <table class="table table-striped">
+                <h4 class="text-black text-center">Detalle</h4>
+              
+            <h4 class="text-black text-center"><span id="name"></span>,  Su monto a pagar con los beneficios señalados es de:</h4>
+            <h4 class="text-black text-center"><span id="data4"></span></h4>
+               <!-- <table class="table table-striped">
                     <tbody>
         <tr>
             <td>Deuda Total</td>
@@ -177,16 +180,12 @@ $name = $_GET['NOMBRE'];
             <td>Descuento Capital</td>
             <td><span id="data3"></span></td>
         </tr>
-        <!--<tr>
-            <td>Monto descuento</td>
-            <td><span id="data4"></span></td>
-        </tr>-->
         <tr>
-            <td>Monto oferta a pagar</td>
-            <td><span id="data4"></span></td>
+            <td><h4 class="text-black text-center">Monto oferta a pagar</h4></td>
+            <td><h4 class="text-black text-center"><span id="data4"></span></h4></td>
         </tr>
     </tbody>
-                </table>
+                </table>-->
                     </div>
                       </div> 
             <button onclick="Mens9();" class="btn orange text-white col-12 mt-2">IR A MENU</button>
@@ -337,7 +336,7 @@ $name = $_GET['NOMBRE'];
                      $('#cont2').addClass('hide');
                       $('#cont7').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                    $('#message').text('Uno de nuestros ejecutivos se pondrá en contacto en el horario indicado.');
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
@@ -433,6 +432,7 @@ $name = $_GET['NOMBRE'];
          data4= getUrlParameter('data4');
          data5= getUrlParameter('data5');
 
+
      $('#cont2').addClass('hide');
       $('#cont7').addClass('hide');
      $('#cont8').removeClass('hide');
@@ -442,6 +442,7 @@ $name = $_GET['NOMBRE'];
      $('#data3').text(data3);
      $('#data4').text(data4);
      $('#data5').text(data5);
+     $('#name').text(e.data.nombre);
  }
 
   function Mens9(){
