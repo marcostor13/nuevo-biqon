@@ -89,6 +89,8 @@ $name = $_GET['NOMBRE'];
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error3"class="text-black text-center mt-5">Disculpe las molestias.<br> Muchas gracias por su tiempo.</h5>
+                                 
+                                 <a href="www.udla.cl" class="btn orange text-white col-12 mt-2">Salir </a>
                             </div>
                         </div>
             </div>
@@ -156,11 +158,11 @@ $name = $_GET['NOMBRE'];
                         <div class="card">     
                 <div class="card-body">
                     <!--<h3 class="text-black text-center"><span id="name"></span>, bienvenido a la sucursal virtual de UDLA.</h3>-->
-                <h4 class="text-black text-center">Revisar Oferta</h4>
+              <!--  <h4 class="text-black text-center">Revisar Oferta</h4>
 
-                <h4 class="text-black text-center">Detalle</h4>
+                <h4 class="text-black text-center">Detalle</h4>-->
               
-            <h4 class="text-black text-center"><span id="name"></span>,  Su monto a pagar con los beneficios señalados es de:</h4>
+            <h4 class="text-black text-center"><span id="name"></span>,  Su monto a pagar es de:</h4>
             <h4 class="text-black text-center"><span id="data4"></span></h4>
                <!-- <table class="table table-striped">
                     <tbody>
@@ -189,6 +191,8 @@ $name = $_GET['NOMBRE'];
                     </div>
                       </div> 
             <button onclick="Mens9();" class="btn orange text-white col-12 mt-2">IR A MENU</button>
+
+            <a href="www.udla.cl" class="btn orange text-white col-12 mt-2">Salir </a>
 
 
 
