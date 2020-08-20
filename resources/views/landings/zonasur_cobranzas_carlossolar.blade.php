@@ -78,13 +78,12 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                Tanner ofrece diferentes opciones para regularizar su crédito automotriz actualmente en mora
-                <br>
-                Tiene un ejecutivo asignado con quien evaluar las alternativas disponibles, contacta a continuación
+                        
+                Normaliza tus cuotas en mora hasta el lunes 24 de agosto con descuentos preferentes en gastos e intereses. <br>
+                  <br>
+                Su ejecutivo asignado le entregará su detalle, contacta a continuación,
                 <br><strong>
-                #NoPierdasEstaOportunidad</strong>
-                <br>
-
+                 #NoPierdaEstaOportunidad  </strong><br></p>
 
                     <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR </button>
                 
