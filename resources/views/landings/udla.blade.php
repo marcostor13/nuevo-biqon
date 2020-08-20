@@ -129,6 +129,9 @@ $name = $_GET['NOMBRE'];
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+
+                                <br><br><br>
+                                  <a href="https://udla.cl" class="btn orange text-white col-12 mt-2">Salir </a>
                             </div>
                         </div>
                     </div>
@@ -192,7 +195,7 @@ $name = $_GET['NOMBRE'];
                       </div> 
             <button onclick="Mens9();" class="btn orange text-white col-12 mt-2">IR A MENU</button>
 
-            <a href="www.udla.cl" class="btn orange text-white col-12 mt-2">Salir </a>
+            <a href="https://udla.cl" class="btn orange text-white col-12 mt-2">Salir </a>
 
 
 
