@@ -76,7 +76,7 @@ $name = $_GET['NOMBRE'];
                  <h4 class="dark-grey-text text-center">
                     <strong>XEPELIN </strong> es una empresa enfocada en ofrecer financiamiento directo de Pronto Pago pensado en empresas que necesiten financiar sus cuentas por cobrar o una alternativa al Factoring.
                     <br><br>
-                    Consulta tu opción de Financiamiento, completando el siguiente formulario o ingresando a nuestro sitio <a href="www.xepelin.com">xepelin.com </a>
+                    Consulta tu opción de Financiamiento, completando el siguiente formulario o ingresando a nuestro sitio <a href="https://www.xepelin.com">xepelin.com </a>
                   </h4>
                   <hr>
 
