@@ -29,10 +29,10 @@ $name = $_GET['NOMBRE'];
 }
 .card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
   font-weight: 400;
-}
+}   
 .card .card-body .card-title a {
   transition: 0.2s ease-in-out;
-}
+}  
 .card .card-body .card-title a:hover {
   transition: 0.2s ease-in-out;
 }
