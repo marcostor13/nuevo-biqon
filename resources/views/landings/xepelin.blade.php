@@ -154,7 +154,7 @@ $enddate=strtotime("+5 days", $startdate);
               <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-danger text-white col-12 mt-2">Llamar a Ejecutivo</button>   
 
                  <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-danger text-white col-12 mt-2">WhatsApp Ejecutivo</button>
-            
+
           </div>
        <!-- <div id="cont2" class="p-3 ">
 
@@ -294,7 +294,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["claudia.garay@uss.cl"];
+            var correo = ["angelo.castillo@solvencia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -401,13 +401,13 @@ $enddate=strtotime("+5 days", $startdate);
 
   function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56995429421&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56995429421";
+        window.location.href ="tel:+56975890470"; 
     
         } 
     </script>
