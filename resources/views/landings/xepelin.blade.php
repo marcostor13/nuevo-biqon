@@ -145,14 +145,16 @@ $enddate=strtotime("+5 days", $startdate);
                     
                   </div>
 
-              <a onclick="eventosLanding('Ir a Web');" href="https://www.xepelin.com/financiamiento.html" class="btn bg-danger text-white col-12 mt-4">Opciones de Financiamiento</a>
+             
+
+              </div>
+            </div>
+ <a onclick="eventosLanding('Ir a Web');" href="https://www.xepelin.com/financiamiento.html" class="btn bg-danger text-white col-12 mt-4">Opciones de Financiamiento</a>
             
               <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-danger text-white col-12 mt-2">Llamar a Ejecutivo</button>   
 
                  <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-danger text-white col-12 mt-2">WhatsApp Ejecutivo</button>
-
-              </div>
-            </div>
+            
           </div>
        <!-- <div id="cont2" class="p-3 ">
 
