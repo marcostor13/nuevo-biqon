@@ -59,8 +59,8 @@ $enddate=strtotime("+5 days", $startdate);
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
             <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="https://app.xepelin.com/static/media/logo-finmas.870a7c68.svg" alt="xepelin">-->
-            <img style="max-width: 120%" class="img-fluid col-md-3 mt-2" src="https://www.xepelin.com/assets/img/logo.png" alt="xepelin">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="https://app.xepelin.com/static/media/logo-finmas.870a7c68.svg" alt="xepelin">
+            <img style="max-width: 30%" class="img-fluid col-md-3 mt-2" src="https://www.xepelin.com/assets/img/logo.png" alt="xepelin">
+            <img style="max-width: 30%" class="img-fluid col-md-3 mt-2" src="https://app.xepelin.com/static/media/logo-finmas.870a7c68.svg" alt="xepelin">
 
            <!-- <a target="_blank" href="https://www.advance.uss.cl/?utm_source=google&utm_medium=search&utm_campaign=advance&utm_term=generico&utm_content=nacional&gclid=EAIaIQobChMIsLn10Z-e4wIVFwSRCh0QaAqIEAAYASAAEgJdNvD_BwE" class="btn bg-danger text-white col-8 mt-4">Ir a la página web
               <i class="fas fa-graduation-cap ml-2"></i>
@@ -70,7 +70,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
-                 <h4 class="text-danger text-center">
+                 <h4 class="dark-grey-text text-center">
                     <strong>Estimado(a) <span><?php// echo $name; ?></span></strong>
                   </h4>
                  <h4 class="dark-grey-text text-center">
@@ -147,9 +147,9 @@ $enddate=strtotime("+5 days", $startdate);
 
               <a onclick="eventosLanding('Ir a Web');" href="https://www.xepelin.com/financiamiento.html" class="btn bg-danger text-white col-12 mt-4"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">Opciones de Financiamiento</a>
             
-              <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>   
+              <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-danger text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>   
 
-                 <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+                 <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-danger text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
               </div>
             </div>
