@@ -59,8 +59,8 @@ $enddate=strtotime("+5 days", $startdate);
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
             <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="https://app.xepelin.com/static/media/logo-finmas.870a7c68.svg" alt="xepelin">-->
-            <img style="max-width: 30%" class="img-fluid col-md-3 mt-2" src="https://www.xepelin.com/assets/img/logo.png" alt="xepelin">
-            <img style="max-width: 30%" class="img-fluid col-md-3 mt-2" src="https://app.xepelin.com/static/media/logo-finmas.870a7c68.svg" alt="xepelin">
+            <img style="max-width: 10%" class="img-fluid col-md-3 mt-2" src="https://www.xepelin.com/assets/img/logo.png" alt="xepelin">
+            <img style="max-width: 10%" class="img-fluid col-md-3 mt-2" src="https://app.xepelin.com/static/media/logo-finmas.870a7c68.svg" alt="xepelin">
 
            <!-- <a target="_blank" href="https://www.advance.uss.cl/?utm_source=google&utm_medium=search&utm_campaign=advance&utm_term=generico&utm_content=nacional&gclid=EAIaIQobChMIsLn10Z-e4wIVFwSRCh0QaAqIEAAYASAAEgJdNvD_BwE" class="btn bg-danger text-white col-8 mt-4">Ir a la página web
               <i class="fas fa-graduation-cap ml-2"></i>
