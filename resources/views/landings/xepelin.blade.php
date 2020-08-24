@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-//$name = $_GET['NOMBRE'];
+$name = $_GET['NOMBRE'];
 ?>
 <style>
 .opaco{
@@ -71,7 +71,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                   <!-- Heading -->
                  <h4 class="dark-grey-text text-center">
-                    <strong>Estimado(a) <span><?php// echo $name; ?></span></strong>
+                    <strong>Estimado(a) <span><?php echo $name; ?></span></strong>
                   </h4>
                  <h4 class="dark-grey-text text-center">
                     <strong>XEPELIN </strong> es una empresa enfocada en ofrecer financiamiento directo de Pronto Pago pensado en empresas que necesiten financiar sus cuentas por cobrar o una alternativa al Factoring.
