@@ -145,11 +145,11 @@ $enddate=strtotime("+5 days", $startdate);
                     
                   </div>
 
-              <a onclick="eventosLanding('Ir a Web');" href="https://www.xepelin.com/financiamiento.html" class="btn bg-danger text-white col-12 mt-4"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">Opciones de Financiamiento</a>
+              <a onclick="eventosLanding('Ir a Web');" href="https://www.xepelin.com/financiamiento.html" class="btn bg-danger text-white col-12 mt-4">Opciones de Financiamiento</a>
             
-              <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-danger text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>   
+              <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-danger text-white col-12 mt-2">Llamar a Ejecutivo</button>   
 
-                 <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-danger text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+                 <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-danger text-white col-12 mt-2">WhatsApp Ejecutivo</button>
 
               </div>
             </div>
