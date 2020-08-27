@@ -87,7 +87,7 @@ $enddate=strtotime("+15 days", $startdate);
 </style>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <div id="AmiCar" class="align-items-center" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain;" >
+    <div id="AmiCar" class="align-items-center" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
         <div class="opaco"></div>
 
@@ -96,6 +96,36 @@ $enddate=strtotime("+15 days", $startdate);
 
             <div id="cont1" class="p-5 ">
                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                
                                 <br>
                                 <br>
                                 <br>
