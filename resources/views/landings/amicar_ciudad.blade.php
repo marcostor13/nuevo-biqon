@@ -105,20 +105,7 @@ $enddate=strtotime("+15 days", $startdate);
                                 <br>
                                 <br>
                                 <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
+                                
                                
               <!--<div class="card">
                         <div class="card-body">
