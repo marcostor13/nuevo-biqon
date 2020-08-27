@@ -46,6 +46,7 @@ $name = $_GET['NOMBRE'];
     )
     }
 .orange {  background-color: #eb600f;}
+  .red {  background-color: #EC0B0B;}
   
 </style>
    <!-- <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;">-->
@@ -171,7 +172,7 @@ $name = $_GET['NOMBRE'];
                     <tbody>
         <tr>
             <td>Deuda Total</td>
-            <td><span id="data2"></span></td>
+            <td> $ <span id="data2"></span></td>
         </tr>
         <tr>
             <td>Descuento por Multas por</td>
@@ -183,11 +184,11 @@ $name = $_GET['NOMBRE'];
         </tr>
         <tr>
             <td>Descuento Capital</td>
-            <td><span id="data3"></span></td>
+            <td> $ <span id="data3"></span></td>
         </tr>
         <tr>
-            <td><h4 class="text-black text-center">Monto oferta a pagar</h4></td>
-            <td><h4 class="text-black text-center"><span id="data4"></span></h4></td>
+            <td><h4 class="red text-center">Monto oferta a pagar</h4></td>
+            <td><h4 class="red text-center">$ <span id="data4"></span></h4></td>
         </tr>
     </tbody>
                 </table>
