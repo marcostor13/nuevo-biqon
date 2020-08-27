@@ -119,39 +119,7 @@ $enddate=strtotime("+15 days", $startdate);
                                 <br>
                                 <br>
                                 <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                 <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
+                               
               <!--<div class="card">
                         <div class="card-body">
                         <h3 class="text-grey text-center"> Nos pondremos en contacto, indícanos la ciudad donde te encuentras.</h3>
