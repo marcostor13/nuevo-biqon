@@ -187,8 +187,8 @@ $name = $_GET['NOMBRE'];
             <td> $ <span id="data3"></span></td>
         </tr>
         <tr>
-            <td><h4 class="red text-center">Monto oferta a pagar</h4></td>
-            <td><h4 class="red text-center">$ <span id="data4"></span></h4></td>
+            <td><h5 class="red text-center">Monto oferta a pagar</h5></td>
+            <td><h5 class="red text-center">$ <span id="data4"></span></h5></td>
         </tr>
     </tbody>
                 </table>
