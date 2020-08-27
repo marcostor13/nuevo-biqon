@@ -46,7 +46,7 @@ $name = $_GET['NOMBRE'];
     )
     }
 .orange {  background-color: #eb600f;}
-  .red {  background-color: #EC0B0B;}
+  .red {  color: #EC0B0B;}
   
 </style>
    <!-- <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;">-->
