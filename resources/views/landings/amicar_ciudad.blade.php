@@ -87,24 +87,21 @@ $enddate=strtotime("+15 days", $startdate);
 </style>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <div id="AmiCar" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+    <div id="AmiCar" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AmiCar">
+            <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AmiCar">-->
 
             <div id="cont1" class="p-5 ">
               <div class="card">
                         <div class="card-body">
-                        <h3 class="text-grey text-center"> Nos pondremos en contacto, indícanos la ciudad donde te encuentras.</h3>
+                       <!-- <h3 class="text-grey text-center"> Nos pondremos en contacto, indícanos la ciudad donde te encuentras.</h3>
                     
                         
                     <div>
-                    	<!--<label>Fecha:</label>-->
-    					<!--<input type="date" id="date1" onclick="" class="mt-4 form-control">
-    					<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
-    					  <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>-->
+              
                         
                     </div>
                    
@@ -149,9 +146,39 @@ $enddate=strtotime("+15 days", $startdate);
                     <hr>
                     <button class="btn bg-warning text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
 
-                       </div>
+                       </div>-->
                        </div>
                        <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
                                 <br>
                                 <br>
                                 <br>
