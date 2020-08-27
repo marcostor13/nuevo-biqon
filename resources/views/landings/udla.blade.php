@@ -161,13 +161,13 @@ $name = $_GET['NOMBRE'];
                         <div class="card">     
                 <div class="card-body">
                     <!--<h3 class="text-black text-center"><span id="name"></span>, bienvenido a la sucursal virtual de UDLA.</h3>-->
-              <!--  <h4 class="text-black text-center">Revisar Oferta</h4>
+                <h4 class="text-black text-center">Revisar Oferta</h4>
 
-                <h4 class="text-black text-center">Detalle</h4>-->
+                <h4 class="text-black text-center">Detalle</h4>
               
-            <h4 class="text-black text-center"><span id="name"></span>,  Su monto a pagar es de:</h4>
-            <h4 class="text-black text-center"><span id="data4"></span></h4>
-               <!-- <table class="table table-striped">
+            <!--<h4 class="text-black text-center"><span id="name"></span>,  Su monto a pagar es de:</h4>
+            <h4 class="text-black text-center"><span id="data4"></span></h4>-->
+                <table class="table table-striped">
                     <tbody>
         <tr>
             <td>Deuda Total</td>
@@ -190,7 +190,7 @@ $name = $_GET['NOMBRE'];
             <td><h4 class="text-black text-center"><span id="data4"></span></h4></td>
         </tr>
     </tbody>
-                </table>-->
+                </table>
                     </div>
                       </div> 
             <button onclick="Mens9();" class="btn orange text-white col-12 mt-2">IR A MENU</button>
