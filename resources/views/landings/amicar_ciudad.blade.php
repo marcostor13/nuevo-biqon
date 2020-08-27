@@ -95,9 +95,44 @@ $enddate=strtotime("+15 days", $startdate);
             <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AmiCar">-->
 
             <div id="cont1" class="p-5 ">
-              <div class="card">
+               <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+              <!--<div class="card">
                         <div class="card-body">
-                       <!-- <h3 class="text-grey text-center"> Nos pondremos en contacto, indícanos la ciudad donde te encuentras.</h3>
+                        <h3 class="text-grey text-center"> Nos pondremos en contacto, indícanos la ciudad donde te encuentras.</h3>
                     
                         
                     <div>
@@ -146,45 +181,11 @@ $enddate=strtotime("+15 days", $startdate);
                     <hr>
                     <button class="btn bg-warning text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
 
-                       </div>-->
+                       </div>
                        </div>
                        <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-             </div>
+
+             </div>-->
         </div>
 
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
