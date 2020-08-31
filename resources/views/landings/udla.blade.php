@@ -162,7 +162,7 @@ $name = $_GET['NOMBRE'];
                         <div class="card">     
                 <div class="card-body">
                     <!--<h3 class="text-black text-center"><span id="name"></span>, bienvenido a la sucursal virtual de UDLA.</h3>-->
-                <h4 class="text-black text-center">Revisar Oferta</h4>
+                <h4 class="text-black text-center">Revisar Beneficio</h4>
 
                 <h4 class="text-black text-center">Detalle</h4>
               
