@@ -237,9 +237,10 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                     'EJECUTIVO': getUrlParameter('data1'),
-                     'TRAMO_MORA': getUrlParameter('data2'),
-                     'CAMPANA': getUrlParameter('data3'),
+                     'PATENTE': getUrlParameter('data2'),
+                     'CARTERA': getUrlParameter('data3'),
                      'OPERACION': getUrlParameter('data4'),
+                     'CAMPANA': getUrlParameter('data5'),
                    'landing': '{!! $landing->name !!}'
                     
                 }
@@ -252,9 +253,10 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                     'phone': getUrlParameter('telefono'),
                      'rut': getUrlParameter('rut'),
                      'EJECUTIVO': getUrlParameter('data1'),
-                     'TRAMO_MORA': getUrlParameter('data2'),
-                     'CAMPANA': getUrlParameter('data3'),
+                     'PATENTE': getUrlParameter('data2'),
+                     'CARTERA': getUrlParameter('data3'),
                      'OPERACION': getUrlParameter('data4'),
+                     'CAMPANA': getUrlParameter('data5'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
