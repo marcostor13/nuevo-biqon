@@ -80,7 +80,6 @@ $enddate=strtotime("+5 days", $startdate);
                     Informamos que su crédito automotriz se encuentra en mora.
                     <br>Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.<br> #Contacta a continuación  <br></p>
                     
-                 #NoPierdaEstaOportunidad  </strong><br>ierdasEstaOportunidad</strong>
                 <br></p>
                     <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR </button>
                 
