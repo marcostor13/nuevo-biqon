@@ -122,7 +122,17 @@ $monto = $_GET["MONTO"];
         <div id="cont2" class="p-5 hide" >
             <div class="text-black col-md-12">
                 <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong> </h4>
-    <h5 class="text-black text-center"> <br>De acuerdo a nuestros registros, desde el día <?php echo $enddate; ?> se encuentra(n)<?php echo $num_cuota; ?>  pendiente(s) de su <?php echo $producto; ?> del <?php echo $entidad; ?> por un valor de <?php echo $monto; ?>. Cuando puede efectuar el Pago? <br></h5>
+    <h5 class="text-black text-center"> <br>De acuerdo a nuestros registros, desde el día 
+      <span id="enddate"><?php echo $enddate; ?></span>
+        se encuentra(n)
+     <span id="num_cuota"> <?php echo $num_cuota; ?></span>
+      pendiente(s) de su 
+   <span id="producto">  <?php echo $producto; ?> </span>
+      del 
+   <span id="entidad">   <?php echo $entidad; ?></span> 
+     por un valor de 
+    <span id="monto">  <?php echo $monto; ?></span>
+      . Cuando puede efectuar el Pago? <br></h5>
               <!-- <p class="text-black text-center"> De acuerdo a nuestros registros, desde el día (fecha_contrato) se encuentra(n) (num_cuota) pendiente(s) de su (producto) del (entidad) por un valor de (monto). Cuando puede efectuar el Pago? </p>-->
                 
                 
