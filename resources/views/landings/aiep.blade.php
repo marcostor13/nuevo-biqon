@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 $enddate1=strtotime("+5 days", $startdate);
-$cadena_fecha = "2020-09-20";
+$cadena_fecha = "2020-08-20";
 
 //$name = $_GET["NOMBRE"];
 $name=$_GET['NOMBRE'];
