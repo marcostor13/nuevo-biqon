@@ -175,7 +175,7 @@ $enddate1=strtotime("+5 days", $startdate);
         <!-- MENU: CONTACTO EQUIVOCADO -->
         <div id="usrbad" class="p-5 hide" >
             <div class="text-black align-items-center col-md-12">
-                 <h5 class="text-black text-center">¿Conoces a <strong><span id="name"> <?php// echo $name; ?></span> </strong> ? </h5>
+                 <h5 class="text-black text-center">¿Conoces a <strong><span id="name">  (nombre_cliente) <?php// echo $name; ?></span> </strong> ? </h5>
                 </div>
 
             <button onclick='url(6); ' class="btn bg-danger text-white col-5 mt-4"> SI </button>
@@ -529,7 +529,7 @@ $enddate1=strtotime("+5 days", $startdate);
              timer: 3000
         }, 
         function(){
-             window.location.href = "https://vtr.com/miregistro/paymentExpress.jsp?_dyncharset=UTF-8&c-rut="+rut+"&_D:c-rut=+&_DARGS=/vtr/cartridges/VtrHOHeaderBarPayYourAccountCart/VtrHOHeaderBarPayYourAccountCart.jsp";
+             window.location.href = "https://www.aiep.cl/";
         })
         } 
 
@@ -542,7 +542,7 @@ $enddate1=strtotime("+5 days", $startdate);
              timer: 3000
         }, 
         function(){
-             window.location.href = " https://vtr.com/ss/vboleta/index.html#/home.html?docid="+docid;
+             window.location.href = "https://www.aiep.cl/";
         })
         } 
 
@@ -555,7 +555,7 @@ $enddate1=strtotime("+5 days", $startdate);
              timer: 3000
         }, 
         function(){
-             window.location.href = "https://vtr.com/";
+             window.location.href = "https://www.aiep.cl/";
         })
         } 
 
@@ -568,7 +568,7 @@ $enddate1=strtotime("+5 days", $startdate);
              timer: 3000
         }, 
         function(){
-             window.location.href = "https://vtr.com/productos/lugares-de-pago";
+             window.location.href = "https://www.aiep.cl/";
         })
         } 
 
@@ -581,7 +581,7 @@ $enddate1=strtotime("+5 days", $startdate);
              timer: 3000
         }, 
         function(){
-             window.location.href = "https://vtr.com/sucursales/v";
+             window.location.href = "https://www.aiep.cl/";
         })
         } 
 
@@ -594,7 +594,7 @@ $enddate1=strtotime("+5 days", $startdate);
              timer: 3000
         }, 
         function(){
-             window.location.href = "https://vtr.com/?login=1&authn_try_count=0&contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fvtr.com%3Flogin%3D1&request_id=7587868025939220365&locale=es_ES&resource_url=https%253A%252F%252Fvtr.com%252Fmivtr%252Fpriv";
+             window.location.href = "https://www.aiep.cl/";
         })
         } 
 
@@ -602,12 +602,12 @@ $enddate1=strtotime("+5 days", $startdate);
        // var rut; 
          //rut= geturlParameter('rut');
             swal({
-             title: `Gracias por su tiempo. VTR le desea un excelente dia. Cualquier duda al 600 800 9000`,
+             title: `Gracias por su tiempo.`,
              type: "success",
              timer: 3000
         }, 
         function(){
-             window.location.href = "https://vtr.com/";
+             window.location.href = "https://www.aiep.cl/";
         })
         }
 
@@ -621,7 +621,7 @@ $enddate1=strtotime("+5 days", $startdate);
              timer: 3000
         }, 
         function(){
-             window.location.href = "https://vtr.com/productos/reclamos";
+             window.location.href = "https://www.aiep.cl/";
         })
         } 
 
