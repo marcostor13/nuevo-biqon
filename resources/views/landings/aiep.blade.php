@@ -6,9 +6,10 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
-$enddate1=strtotime("+5 days", $startdate);
+//$enddate1=strtotime("+5 days", $startdate);
 
-$name = $_GET["NOMBRE"];
+//$name = $_GET["NOMBRE"];
+$name = $_GET['NOMBRE'];
 $Nom_Asistente = $GET["DATA1"];
 $fecha_contrato $_GET["DATA5"];
 $num_cuota  = $_GET["DATA2"];
@@ -17,12 +18,7 @@ $entidad = $_GET["DATA4"];
 $monto = $_GET["MONTO"];
 
 ?>
-<style type="text/css">
-    .bootstrap-timepicker-meridian, .meridian-column
-    {
-        display: none;
-    }
-</style>
+
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -126,7 +122,7 @@ $monto = $_GET["MONTO"];
         <div id="cont2" class="p-5 hide" >
             <div class="text-black col-md-12">
                 <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong> </h4>
-                <h5 class="text-black text-center"> <br>De acuerdo a nuestros registros, desde el día <?php echo $fecha_contrato; ?> se encuentra(n)<?php echo $num_cuota; ?>  pendiente(s) de su <?php echo $producto; ?> del <?php echo $entidad; ?> por un valor de <?php echo $monto; ?>. Cuando puede efectuar el Pago? <br></h5>
+    <h5 class="text-black text-center"> <br>De acuerdo a nuestros registros, desde el día <?php echo $fecha_contrato; ?> se encuentra(n)<?php echo $num_cuota; ?>  pendiente(s) de su <?php echo $producto; ?> del <?php echo $entidad; ?> por un valor de <?php echo $monto; ?>. Cuando puede efectuar el Pago? <br></h5>
               <!-- <p class="text-black text-center"> De acuerdo a nuestros registros, desde el día (fecha_contrato) se encuentra(n) (num_cuota) pendiente(s) de su (producto) del (entidad) por un valor de (monto). Cuando puede efectuar el Pago? </p>-->
                 
                 
