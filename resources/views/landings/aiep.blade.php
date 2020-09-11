@@ -123,22 +123,21 @@ $enddate1=strtotime("+5 days", $startdate);
         <div id="cont2" class="p-5 hide" >
             <div class="text-black col-md-12">
                 <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong> </h4>
-                <h5 class="text-black text-center"> <br>Tu boleta asociada al servicio <span id="servicio"><?php //echo $servicio; ?></span>, se encuentra <span id="estado"> <?php //echo $estado; ?></span>, por el monto de:
-                    <br> $ <span id="pay"> <?php //echo $pago; ?></span> <br></h5>
-               <p class="text-black text-center"> Recuerda que pagar tu boleta al día evita la suspensión de tus servicios. </p>
+                <h5 class="text-black text-center"> <br>De acuerdo a nuestros registros, desde el día (fecha_contrato) se encuentra(n) (num_cuota) pendiente(s) de su (producto) del (entidad) por un valor de (monto). Cuando puede efectuar el Pago? <br></h5>
+              <!-- <p class="text-black text-center"> De acuerdo a nuestros registros, desde el día (fecha_contrato) se encuentra(n) (num_cuota) pendiente(s) de su (producto) del (entidad) por un valor de (monto). Cuando puede efectuar el Pago? </p>-->
                 
                 
-                <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-white col-12 mt-4"> Pagar</button>
+              <!-- <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-white col-12 mt-4"> Pagar</button>-->
 
-                <button onclick='url(1);' class="btn bg-danger text-white col-12 mt-4"> Compromiso de Pago</button>
+                <button onclick='url(1);' class="btn bg-danger text-white col-12 mt-4"> Elegir Fecha</button>
 
-                <button onclick='url(2);' class="btn bg-danger text-white col-12 mt-4"> Quiero que me llamen</button>
+                <!--<button onclick='url(2);' class="btn bg-danger text-white col-12 mt-4"> Quiero que me llamen</button>
 
                 <button onclick='url(3);' class="btn bg-danger text-white col-12 mt-4"> Tarifas | Sucursales | Informaciones</button>
 
-                <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-danger text-white col-12 mt-4">Ver última Boleta</button>
+                <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-danger text-white col-12 mt-4">Ver última Boleta</button>-->
 
-                <button onclick='url(4);' class="btn bg-danger text-white col-12 mt-4"> Tengo un problema</button>
+                <button onclick='url(4);' class="btn bg-danger text-white col-12 mt-4"> No PUEDO</button>
             </div>  
         </div>
 
