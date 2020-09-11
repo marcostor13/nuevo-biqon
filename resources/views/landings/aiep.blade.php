@@ -88,7 +88,7 @@ $monto=$_GET["MONTO"];
 <!-- HEAD -->
 
  <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-         <img style="max-width: 60%" class="img-fluid col-10 col-md-3 mt-0" src="{{$landing->logo}}" alt="AIEP">
+         <img style="max-width:200px; max-height:60px"class="img-fluid col-10 col-md-3 mt-0" src="{{$landing->logo}}" alt="AIEP">
 
         </div>
 
@@ -158,7 +158,7 @@ $monto=$_GET["MONTO"];
                 </h5>       
             <div>
                 <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required="required"/>
+                <input id="date1"  type="date" class=" btn-date text-blackform-control col-16 mt-2" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required="required"/>
              </div> 
                 <button onclick="sendMail(); eventolanding('Compromiso de Pago'); return false;" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
             </div>
