@@ -158,8 +158,14 @@ $monto=$_GET["MONTO"];
                 </h5>       
             <div>
                 <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control col-10 mt-4" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required="required"/>
+                <!--<input id="date1"  type="date" class=" btn-date text-blackform-control col-10 mt-4" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+              <div class="date btn bg-primary text-white col-12 mt-4">
+                    <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/512px-Google_Calendar_icon.svg.png">  <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
              </div> 
+
+             
+
                 <button onclick="sendMail(); eventolanding('Compromiso de Pago'); return false;" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
 <br>
 <br>
