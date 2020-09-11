@@ -8,12 +8,10 @@ $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 $enddate1=strtotime("+5 days", $startdate);
 
-
-$Nom_Asistente = $GET['DATA1'];
 $name = $_GET['NOMBRE'];
-$fecha_contrato;
-
-$num_cuota  = $_GET['data2'];
+$Nom_Asistente = $GET['DATA1'];
+$fecha_contrato $_GET['DATA5'];
+$num_cuota  = $_GET['DATA2'];
 $producto = $_GET['DATA3'];
 $entidad = $_GET['DATA4'];
 $monto = $_GET['MONTO'];
@@ -132,7 +130,7 @@ $monto = $_GET['MONTO'];
               <!-- <p class="text-black text-center"> De acuerdo a nuestros registros, desde el día (fecha_contrato) se encuentra(n) (num_cuota) pendiente(s) de su (producto) del (entidad) por un valor de (monto). Cuando puede efectuar el Pago? </p>-->
                 
                 
-              <!-- <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-white col-12 mt-4"> Pagar</button>-->
+              <!-- <button onclick='url1(); eventolanding("Pagar"); ' class="btn bg-danger text-white col-12 mt-4"> Pagar</button>-->
 
                 <button onclick='url(1);' class="btn bg-danger text-white col-12 mt-4"> Elegir Fecha</button>
 
@@ -140,7 +138,7 @@ $monto = $_GET['MONTO'];
 
                 <button onclick='url(3);' class="btn bg-danger text-white col-12 mt-4"> Tarifas | Sucursales | Informaciones</button>
 
-                <button onclick='url5(); eventosLanding("Boleta"); ' class="btn bg-danger text-white col-12 mt-4">Ver última Boleta</button>-->
+                <button onclick='url5(); eventolanding("Boleta"); ' class="btn bg-danger text-white col-12 mt-4">Ver última Boleta</button>-->
 
                 <button onclick='url(4);' class="btn bg-danger text-white col-12 mt-4"> No PUEDO</button>
             </div>  
@@ -155,10 +153,10 @@ $monto = $_GET['MONTO'];
                 <label>Fecha:</label>
                 <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>" required="required"/>
              </div> 
-                <button onclick="sendMail(); eventosLanding('Compromiso de Pago'); return false;" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
+                <button onclick="sendMail(); eventolanding('Compromiso de Pago'); return false;" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
             </div>
 
-            <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-white col-12 mt-4"> Pagar</button>
+            <button onclick='url1(); eventolanding("Pagar"); ' class="btn bg-danger text-white col-12 mt-4"> Pagar</button>
        </div>
 
        <!-- FECHA: CONTACTO -->
@@ -175,7 +173,7 @@ $monto = $_GET['MONTO'];
                 <input id="time1"  type="time" data-format="hh:mm A" class=" btn-date text-black form-control input-min-width-95p" max="20:00:00" min="08:00:00" step="60" required="required"/>
 
              </div> 
-                <button onclick="sendMail(); return false; eventosLanding('Agendo llamada');" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
+                <button onclick="sendMail(); return false; eventolanding('Agendo llamada');" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
             </div>
        </div>
         <!-- MENU: CONTACTO EQUIVOCADO -->
@@ -186,7 +184,7 @@ $monto = $_GET['MONTO'];
 
             <button onclick='url(6); ' class="btn bg-danger text-white col-5 mt-4"> SI </button>
 
-            <button onclick='url22(); eventosLanding("NO CONTACTO"); ' class="btn bg-danger text-white col-5 mt-4"> NO </button>
+            <button onclick='url22(); eventolanding("NO CONTACTO"); ' class="btn bg-danger text-white col-5 mt-4"> NO </button>
         </div>
 
         <!-- MENU1: CONTACTO EQUIVOCADO: INGRESE NUMERO -->
@@ -232,13 +230,13 @@ $monto = $_GET['MONTO'];
             <div id="cont3" class="p-5 hide" >
                 <div class="text-black col-md-12">
                 
-                <button onclick='url6(); eventosLanding("Tarifas"); ' class="btn bg-danger text-white col-12 mt-4"> Tarifas</button>
+                <button onclick='url6(); eventolanding("Tarifas"); ' class="btn bg-danger text-white col-12 mt-4"> Tarifas</button>
 
-                <button onclick='url7(); eventosLanding("Lugares de Pago"); ' class="btn bg-danger text-white col-12 mt-4"> Lugares de Pago</button>
+                <button onclick='url7(); eventolanding("Lugares de Pago"); ' class="btn bg-danger text-white col-12 mt-4"> Lugares de Pago</button>
 
-                <button onclick='url8(); eventosLanding("Sucursales"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursales</button>
+                <button onclick='url8(); eventolanding("Sucursales"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursales</button>
 
-                <button onclick='url9(); eventosLanding("Sucursal Virtual"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursal Virtual</button>
+                <button onclick='url9(); eventolanding("Sucursal Virtual"); ' class="btn bg-danger text-white col-12 mt-4"> Sucursal Virtual</button>
 
         </div>
          </div>
@@ -246,25 +244,27 @@ $monto = $_GET['MONTO'];
             <div id="cont4" class="p-5 hide">
                 <div class="text-black col-md-12 text-center align-items-center justify-content-start p-0">
                 
-                <button onclick='sendMail("El cliente indica que sla razon es Cesante"); eventosLanding("Cesante"); ' class="btn bg-danger text-white col-5 mt-4"> Cesante </button>
+                <button onclick='sendMail("El cliente indica que la razon es Cesante"); eventolanding("Cesante"); ' class="btn bg-danger text-white col-5 mt-4"> Cesante </button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Problemas Economicos"); eventosLanding("Problemas Económicos); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Economicos</button>
+              <!--  <button onclick='sendMail("El cliente indica que la razon es Problemas Economicos"); eventolanding("Problemas Económicos); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Economicos</button>-->
 
-                <button onclick='sendMail("El cliente indica que sla razon es Problemas Salud"); eventosLanding("Problemas Salud"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Salud</button>
+                <button onclick='sendMail("El cliente indica que la razon es Problemas Salud"); eventolanding("Problemas Economicos"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Economicos</button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Credito"); eventosLanding("Credito"); ' class="btn bg-danger text-white col-5 mt-4"> Credito</button>
+                <button onclick='sendMail("El cliente indica que la razon es Problemas Salud"); eventolanding("Problemas Salud"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Salud</button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Reclamo"); eventosLanding("Reclamo"); ' class="btn bg-danger text-white col-5 mt-4"> Reclamo</button>
+                <button onclick='sendMail("El cliente indica que la razon es Credito"); eventolanding("Credito"); ' class="btn bg-danger text-white col-5 mt-4"> Credito</button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Ya Pago "); eventosLanding("Ya Pago"); ' class="btn bg-danger text-white col-5 mt-4"> Ya Pago </button>
+                <button onclick='sendMail("El cliente indica que la razon es Reclamo"); eventolanding("Reclamo"); ' class="btn bg-danger text-white col-5 mt-4"> Reclamo</button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es  No Tengo Cupon "); eventosLanding("No Tengo Cupon"); ' class="btn bg-danger text-white col-5 mt-4"> No Tengo Cupon </button>
+                <button onclick='sendMail("El cliente indica que la razon es Ya Pago "); eventolanding("Ya Pago"); ' class="btn bg-danger text-white col-5 mt-4"> Ya Pago </button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Sinistro "); eventosLanding("Sinistro"); ' class="btn bg-danger text-white col-5 mt-4"> Sinistro</button>
+                <button onclick='sendMail("El cliente indica que la razon es  No Tengo Cupon "); eventolanding("No Tengo Cupon"); ' class="btn bg-danger text-white col-5 mt-4"> No Tengo Cupon </button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Olvido "); eventosLanding("Olvido"); ' class="btn bg-danger text-white col-5 mt-4"> Olvido</button>
+                <button onclick='sendMail("El cliente indica que la razon es Sinistro "); eventolanding("Sinistro"); ' class="btn bg-danger text-white col-5 mt-4"> Sinistro</button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Desconocida"); eventosLanding("Desconocida"); ' class="btn bg-danger text-white col-5 mt-4"> Desconocida</button>
+                <button onclick='sendMail("El cliente indica que la razon es Olvido "); eventolanding("Olvido"); ' class="btn bg-danger text-white col-5 mt-4"> Olvido</button>
+
+                <button onclick='sendMail("El cliente indica que la razon es Desconocida"); eventolanding("Desconocida"); ' class="btn bg-danger text-white col-5 mt-4"> Desconocida</button>
 
         </div>
         </div>
@@ -294,13 +294,13 @@ $monto = $_GET['MONTO'];
     <tbody>
         <tr>
           <td colspan="2">
-            <a onclick="eventosLanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-danger"><p>Centro Ayuda</p> </a> </td>
+            <a onclick="eventolanding('Centro de ayuda');" href="http://centrodeayudaonline.vtr.com/contactanos/" class="text-danger"><p>Centro Ayuda</p> </a> </td>
           <td colspan="2">
-            <a onclick="eventosLanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-danger"><p>Reportar Abusos</p></a> </td>
+            <a onclick="eventolanding('Reportar Abusos');"href="https://vtr.com/productos/reclamos" class="text-danger"><p>Reportar Abusos</p></a> </td>
           <td colspan="2">
-            <a onclick="eventosLanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-danger"><p>Actualiza Datos</p> </a> </td>
+            <a onclick="eventolanding('Actualiza Datos');"href="http://centrodeayudaonline.vtr.com/autoatencion/conocer-sucursal-virtual/" class="text-danger"><p>Actualiza Datos</p> </a> </td>
           <td colspan="2">
-            <a onclick="eventosLanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-danger"><p>Privacidad</p> </a> </td>
+            <a onclick="eventolanding('Privacidad');" href="https://vtr.com/productos/privacidad" class="text-danger"><p>Privacidad</p> </a> </td>
         </tr>
         <tr>
           <td colspan="3"> <a href="https://www.vtr.com"> <img style="max-width:100px; max-height:100px" class="img-fluid col-10 col-md-3" src="{{$landing->logo}}" alt="VTR"> </td>
@@ -371,7 +371,7 @@ $monto = $_GET['MONTO'];
         }
         
 
-        let eventosLanding = function(name){
+        let eventolanding = function(name){
             
             let json_datos = getAllurlParameter(); 
             //json_datos.nombre = $('#name').text();
