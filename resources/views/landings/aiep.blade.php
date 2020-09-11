@@ -160,7 +160,7 @@ $monto=$_GET["MONTO"];
                 <label>Fecha:</label>
                 <!--<input id="date1"  type="date" class=" btn-date text-blackform-control col-10 mt-4" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
               <div class="date btn bg-date text-black col-12 mt-4">
-                    <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/512px-Google_Calendar_icon.svg.png">  <input id="date1"  type="date" class="btn-date text-black col-10 "  style="height : 10px ;border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/512px-Google_Calendar_icon.svg.png">  <input id="date1"  type="date" class="btn-date text-black col-10 "  style="height : 60px ;border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
              </div> 
 
