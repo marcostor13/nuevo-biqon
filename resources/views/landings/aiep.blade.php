@@ -185,7 +185,7 @@ $monto=$_GET["MONTO"];
         <!-- MENU: CONTACTO EQUIVOCADO -->
         <div id="usrbad" class="p-5 hide" >
             <div class="text-black align-items-center col-md-12">
-                 <h5 class="text-black text-center">¿Conoces a <strong><span id="name">  (nombre_cliente) <?php// echo $name; ?></span> </strong> ? </h5>
+                 <h5 class="text-black text-center">¿Conoces a <strong> <span id="name"> <?php echo $name; ?> </strong> ? </h5>
                 </div>
 
             <button onclick='url(6); ' class="btn bg-danger text-white col-5 mt-4"> SI </button>
@@ -266,7 +266,7 @@ $monto=$_GET["MONTO"];
 
                 <button onclick='sendMail("El cliente indica que la razon es  No Tengo Cupon "); eventolanding("No Tengo Cupon"); ' class="btn bg-danger text-white col-5 mt-4"> No Tengo Cupon </button>
 
-                <button onclick='sendMail("El cliente indica que la razon es Sinistro "); eventolanding("Sinistro"); ' class="btn bg-danger text-white col-5 mt-4"> Sinistro</button>
+                <button onclick='sendMail("El cliente indica que la razon es Sinistro "); eventolanding("Siniestro"); ' class="btn bg-danger text-white col-5 mt-4"> Siniestro</button>
 
                 <button onclick='sendMail("El cliente indica que la razon es Olvido "); eventolanding("Olvido"); ' class="btn bg-danger text-white col-5 mt-4"> Olvido</button>
 
