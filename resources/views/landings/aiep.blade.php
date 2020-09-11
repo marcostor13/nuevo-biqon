@@ -87,17 +87,8 @@ $enddate1=strtotime("+5 days", $startdate);
 
 <!-- HEAD -->
 
- <div class="oscurecer p-3">
-        <div id="head" class="p-1 pl-1 pr-1 ">
+ <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
          <img style="max-width:100px; max-height:100px " class="img-fluid col-10 col-md-3 mt-0" src="{{$landing->logo}}" alt="AIEP">
-        
-        
-            <!-- <a class="ml-1" onclick="eventosLanding('Facebook');" href="https://www.facebook.com/VTRChile"><img width="30" height="30"  src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
-                   
-             <a class="ml-1" onclick="eventosLanding('Twitter');" href="https://twitter.com/vtrchile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174876.svg"></a>
-
-             <a class="ml-1" onclick="eventosLanding('Youtube');" href="https://www.youtube.com/user/VTRChile"><img width="30" height="30" src="https://image.flaticon.com/icons/svg/174/174883.svg"></a>-->
-            </div>
 
         </div>
 
