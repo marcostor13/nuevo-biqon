@@ -7,6 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 $enddate1=strtotime("+5 days", $startdate);
+$cadena_fecha = "2020-09-20";
 
 //$name = $_GET["NOMBRE"];
 $name=$_GET['NOMBRE'];
@@ -123,7 +124,7 @@ $monto=$_GET["MONTO"];
             <div class="text-black col-md-12">
                 <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong> </h4>
     <h5 class="text-black text-center"> <br>De acuerdo a nuestros registros, desde el día 
-      <span id="enddate"><?php echo $enddate; ?></span>
+      <span id="enddate"><?php echo $cadena_fecha; ?></span>
         se encuentra(n)
      <span id="num_cuota"> <?php echo $num_cuota; ?></span>
       pendiente(s) de su 
@@ -254,17 +255,17 @@ $monto=$_GET["MONTO"];
 
               <!--  <button onclick='sendMail("El cliente indica que la razon es Problemas Economicos"); eventolanding("Problemas Económicos); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Economicos</button>-->
 
-                <button onclick='sendMail("El cliente indica que la razon es Problemas Salud"); eventolanding("Problemas Economicos"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Economicos</button>
+                <button onclick='sendMail("El cliente indica que la razon es Problemas Salud"); eventolanding("Problemas Economicos"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Económicos</button>
 
                 <button onclick='sendMail("El cliente indica que la razon es Problemas Salud"); eventolanding("Problemas Salud"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Salud</button>
 
-                <button onclick='sendMail("El cliente indica que la razon es Credito"); eventolanding("Credito"); ' class="btn bg-danger text-white col-5 mt-4"> Credito</button>
+                <button onclick='sendMail("El cliente indica que la razon es Credito"); eventolanding("Credito"); ' class="btn bg-danger text-white col-5 mt-4"> Crédito</button>
 
                 <button onclick='sendMail("El cliente indica que la razon es Reclamo"); eventolanding("Reclamo"); ' class="btn bg-danger text-white col-5 mt-4"> Reclamo</button>
 
                 <button onclick='sendMail("El cliente indica que la razon es Ya Pago "); eventolanding("Ya Pago"); ' class="btn bg-danger text-white col-5 mt-4"> Ya Pago </button>
 
-                <button onclick='sendMail("El cliente indica que la razon es  No Tengo Cupon "); eventolanding("No Tengo Cupon"); ' class="btn bg-danger text-white col-5 mt-4"> No Tengo Cupon </button>
+                <button onclick='sendMail("El cliente indica que la razon es  No Tengo Cupon "); eventolanding("No Tengo Cupon"); ' class="btn bg-danger text-white col-5 mt-4"> No Tengo Cupón </button>
 
                 <button onclick='sendMail("El cliente indica que la razon es Sinistro "); eventolanding("Siniestro"); ' class="btn bg-danger text-white col-5 mt-4"> Siniestro</button>
 
