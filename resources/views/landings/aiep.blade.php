@@ -8,11 +8,16 @@ $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 $enddate1=strtotime("+5 days", $startdate);
 
-//$name = $_GET['NOMBRE'];
-//$servicio = $_GET['DATA2'];
-//$estado = $_GET['DATA3'];
-//$pago = $_GET['MONTO'];
-//echo $pago;
+
+$Nom_Asistente = $GET['DATA1'];
+$name = $_GET['NOMBRE'];
+$fecha_contrato;
+
+$num_cuota  = $_GET['data2'];
+$producto = $_GET['DATA3'];
+$entidad = $_GET['DATA4'];
+$monto = $_GET['MONTO'];
+
 ?>
 <style type="text/css">
     .bootstrap-timepicker-meridian, .meridian-column
@@ -97,7 +102,7 @@ $enddate1=strtotime("+5 days", $startdate);
 <!-- MENU 1: INGRESAR -->
         <div id="cont1" class="p-5 ">
             <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong> </h4>
-            <h5 class="text-black text-center"> <br>Buenos Dias, soy  ()Nom_Asistente) de AIEP, es usted Don(ña) (nombre_cliente)?</h5>
+            <h5 class="text-black text-center"> <br>Buenos Dias, soy  <?php echo $Nom_Asistente; ?> de AIEP, es usted Don(ña) <?php echo $name; ?> ?</h5>
            <!-- <input id="rut" type="number" class="form-control mt-4 text-center text-black" required>-->
                 
             <button onclick="event10(); return false;" class="btn bg-danger text-white col-12 mt-4"> SI </button>
@@ -122,8 +127,8 @@ $enddate1=strtotime("+5 days", $startdate);
              <!-- MENU2:  -->
         <div id="cont2" class="p-5 hide" >
             <div class="text-black col-md-12">
-                <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong> </h4>
-                <h5 class="text-black text-center"> <br>De acuerdo a nuestros registros, desde el día (fecha_contrato) se encuentra(n) (num_cuota) pendiente(s) de su (producto) del (entidad) por un valor de (monto). Cuando puede efectuar el Pago? <br></h5>
+                <h4 class="text-black text-center"><strong><span id="name"> <?php echo $name; ?></span> </strong> </h4>
+                <h5 class="text-black text-center"> <br>De acuerdo a nuestros registros, desde el día <?php echo $fecha_contrato; ?> se encuentra(n)<?php echo $num_cuota; ?>  pendiente(s) de su <?php echo $producto; ?> del <?php echo $entidad; ?> por un valor de <?php echo $monto; ?>. Cuando puede efectuar el Pago? <br></h5>
               <!-- <p class="text-black text-center"> De acuerdo a nuestros registros, desde el día (fecha_contrato) se encuentra(n) (num_cuota) pendiente(s) de su (producto) del (entidad) por un valor de (monto). Cuando puede efectuar el Pago? </p>-->
                 
                 
