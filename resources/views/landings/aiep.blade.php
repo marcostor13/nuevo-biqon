@@ -91,7 +91,7 @@ $monto = $_GET['MONTO'];
 <!-- HEAD -->
 
  <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-         <img style="max-width:100px; max-height:100px " class="img-fluid col-10 col-md-3 mt-0" src="{{$landing->logo}}" alt="AIEP">
+         <img style="max-width: 60%" class="img-fluid col-10 col-md-3 mt-0" src="{{$landing->logo}}" alt="AIEP">
 
         </div>
 
