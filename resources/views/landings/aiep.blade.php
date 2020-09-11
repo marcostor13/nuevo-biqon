@@ -705,11 +705,8 @@ default:
 
      function event10(){ 
         $('#cont1').addClass('hide');
-                    $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
-                    $('#cont2').removeClass('hide');
-                    $('#servicio').text(geturlParameter('data2'));
-                    $('#estado').text(geturlParameter('data3'));
+        $('#cont2').removeClass('hide');
+                    
         } 
     </script>
 
