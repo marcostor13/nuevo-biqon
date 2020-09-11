@@ -5,7 +5,7 @@
 @section('content')
 <?php
 $startdate=strtotime("Today");
-$enddate=strtotime("+2 days", $startdate);
+$enddate=strtotime("+5 days", $startdate);
 $enddate1=strtotime("+5 days", $startdate);
 
 //$name = $_GET['NOMBRE'];
@@ -152,6 +152,8 @@ $enddate1=strtotime("+5 days", $startdate);
              </div> 
                 <button onclick="sendMail(); eventosLanding('Compromiso de Pago'); return false;" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
             </div>
+
+            <button onclick='url1(); eventosLanding("Pagar"); ' class="btn bg-danger text-white col-12 mt-4"> Pagar</button>
        </div>
 
        <!-- FECHA: CONTACTO -->
@@ -239,25 +241,25 @@ $enddate1=strtotime("+5 days", $startdate);
             <div id="cont4" class="p-5 hide">
                 <div class="text-black col-md-12 text-center align-items-center justify-content-start p-0">
                 
-                <button onclick='sendMail("El cliente indica que sla razon es Cesante"); eventosLanding("SubTel|Sernac"); ' class="btn bg-danger text-white col-5 mt-4"> Cesante </button>
+                <button onclick='sendMail("El cliente indica que sla razon es Cesante"); eventosLanding("Cesante"); ' class="btn bg-danger text-white col-5 mt-4"> Cesante </button>
 
                 <button onclick='sendMail("El cliente indica que sla razon es Problemas Economicos"); eventosLanding("Problemas Económicos); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Economicos</button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Problemas Salud"); eventosLanding("No Reconozco Deuda"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Salud</button>
+                <button onclick='sendMail("El cliente indica que sla razon es Problemas Salud"); eventosLanding("Problemas Salud"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Salud</button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Credito"); eventosLanding("Problema Técnico"); ' class="btn bg-danger text-white col-5 mt-4"> Credito</button>
+                <button onclick='sendMail("El cliente indica que sla razon es Credito"); eventosLanding("Credito"); ' class="btn bg-danger text-white col-5 mt-4"> Credito</button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Reclamo"); eventosLanding("Problema Comercial"); ' class="btn bg-danger text-white col-5 mt-4"> Reclamo</button>
+                <button onclick='sendMail("El cliente indica que sla razon es Reclamo"); eventosLanding("Reclamo"); ' class="btn bg-danger text-white col-5 mt-4"> Reclamo</button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Ya Pago "); eventosLanding("Pago no aplicado"); ' class="btn bg-danger text-white col-5 mt-4"> Ya Pago </button>
+                <button onclick='sendMail("El cliente indica que sla razon es Ya Pago "); eventosLanding("Ya Pago"); ' class="btn bg-danger text-white col-5 mt-4"> Ya Pago </button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es  No Tengo Cupon "); eventosLanding("Fraude"); ' class="btn bg-danger text-white col-5 mt-4"> No Tengo Cupon </button>
+                <button onclick='sendMail("El cliente indica que sla razon es  No Tengo Cupon "); eventosLanding("No Tengo Cupon"); ' class="btn bg-danger text-white col-5 mt-4"> No Tengo Cupon </button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Sinistro "); eventosLanding("Titular fallecido"); ' class="btn bg-danger text-white col-5 mt-4"> Sinistro</button>
+                <button onclick='sendMail("El cliente indica que sla razon es Sinistro "); eventosLanding("Sinistro"); ' class="btn bg-danger text-white col-5 mt-4"> Sinistro</button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Olvido "); eventosLanding("Baja no ingresanda"); ' class="btn bg-danger text-white col-5 mt-4"> Olvido</button>
+                <button onclick='sendMail("El cliente indica que sla razon es Olvido "); eventosLanding("Olvido"); ' class="btn bg-danger text-white col-5 mt-4"> Olvido</button>
 
-                <button onclick='sendMail("El cliente indica que sla razon es Desconocida"); eventosLanding("Me cambie de Compañía"); ' class="btn bg-danger text-white col-5 mt-4"> Desconocida</button>
+                <button onclick='sendMail("El cliente indica que sla razon es Desconocida"); eventosLanding("Desconocida"); ' class="btn bg-danger text-white col-5 mt-4"> Desconocida</button>
 
         </div>
         </div>
