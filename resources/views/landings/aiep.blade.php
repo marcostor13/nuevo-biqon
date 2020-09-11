@@ -97,15 +97,15 @@ $enddate1=strtotime("+5 days", $startdate);
 <!-- MENU 1: INGRESAR -->
         <div id="cont1" class="p-5 ">
             <h4 class="text-black text-center"><strong><span id="name"> <?php //echo $name; ?></span> </strong> </h4>
-            <h5 class="text-black text-center"> <br>Te damos la bienvenida a la interfaz de AIEP, para ingresar valida tu identidad ingresando tu RUT sin el digito verificador</h5>
-            <input id="rut" type="number" class="form-control mt-4 text-center text-black" required>
+            <h5 class="text-black text-center"> <br>Buenos Dias, soy  ()Nom_Asistente) de AIEP, es usted Don(ña) (nombre_cliente)?</h5>
+           <!-- <input id="rut" type="number" class="form-control mt-4 text-center text-black" required>-->
                 
-            <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Ingresar </button>
+            <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> SI </button>
 
-            <button onclick="url(5)" class="btn bg-danger text-white col-12 mt-4"> Contacto Equivocado </button>
+            <button onclick="url(5)" class="btn bg-danger text-white col-12 mt-4"> NO </button>
 
-            <button onclick="url22(); return false;" class="btn bg-danger text-white col-12 mt-4"> Salir </button>
-
+           <!-- <button onclick="url22(); return false;" class="btn bg-danger text-white col-12 mt-4"> Salir </button>
+-->
         </div>
 
             <!-- ERROR 1 -->
