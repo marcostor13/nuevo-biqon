@@ -147,7 +147,7 @@ $monto=$_GET["MONTO"];
 
                 <button onclick='url5(); eventolanding("Boleta"); ' class="btn bg-danger text-white col-12 mt-4">Ver última Boleta</button>-->
 
-                <button onclick='url(4);' class="btn bg-danger text-white col-12 mt-4"> No PUEDO</button>
+                <button onclick='url(4);' class="btn bg-danger text-white col-12 mt-4"> NO PUEDO</button>
             </div>  
         </div>
 
