@@ -100,7 +100,7 @@ $enddate1=strtotime("+5 days", $startdate);
             <h5 class="text-black text-center"> <br>Buenos Dias, soy  ()Nom_Asistente) de AIEP, es usted Don(ña) (nombre_cliente)?</h5>
            <!-- <input id="rut" type="number" class="form-control mt-4 text-center text-black" required>-->
                 
-            <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> SI </button>
+            <button onclick="event10(); return false;" class="btn bg-danger text-white col-12 mt-4"> SI </button>
 
             <button onclick="url(5)" class="btn bg-danger text-white col-12 mt-4"> NO </button>
 
@@ -701,7 +701,16 @@ default:
         }
 
    }
-    
+
+
+     function event10(){ 
+        $('#cont1').addClass('hide');
+                    $('#name').text(e.data.nombre);
+                    $('#pay').text(e.data.monto);
+                    $('#cont2').removeClass('hide');
+                    $('#servicio').text(geturlParameter('data2'));
+                    $('#estado').text(geturlParameter('data3'));
+        } 
     </script>
 
 @endsection
