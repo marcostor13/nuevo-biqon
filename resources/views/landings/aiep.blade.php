@@ -447,7 +447,7 @@ $enddate1=strtotime("+5 days", $startdate);
                     $('#cont4').addClass('hide');
                     $('#equiv2').addClass('hide');
                     $('#success').removeClass('hide');
-                    $('#messages').text('Entiendo. Le informamos que tenemos alternativas para regularizar su deuda..');
+                    $('#messages').text('Entiendo. Le informamos que tenemos alternativas para regularizar su deuda. Nos pondremos en contacto con Ud., gracias por su atención');
                 }else{
                     $('#message').removeClass('hide');
                      $('#calend').addClass('hide');
