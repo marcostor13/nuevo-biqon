@@ -9,13 +9,13 @@ $enddate=strtotime("+5 days", $startdate);
 //$enddate1=strtotime("+5 days", $startdate);
 
 //$name = $_GET["NOMBRE"];
-$name = $_GET['NOMBRE'];
-$Nom_Asistente = $GET["DATA1"];
+$name = $POST['NOMBRE'];
+$Nom_Asistente = $POST["DATA1"];
 //$fecha_contrato $_GET["DATA5"];
-$num_cuota  = $_GET["DATA2"];
-$producto = $_GET["DATA3"];
-$entidad = $_GET["DATA4"];
-$monto = $_GET["MONTO"];
+$num_cuota  = $POST["DATA2"];
+$producto = $POST["DATA3"];
+$entidad = $POST["DATA4"];
+$monto = $POST["MONTO"];
 
 ?>
 
