@@ -57,7 +57,7 @@ $name = $_GET['NOMBRE'];
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-   <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/O8odGey.jpg" alt="HerediaAbogados">
+   <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/Z7pozIJ.jpeg" alt="HerediaAbogados">
    <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/8E4iFKk.png" alt="HerediaAbogados">
 
            <img style="max-width: 50%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">
@@ -81,11 +81,11 @@ $name = $_GET['NOMBRE'];
                     </div>
 
             <div id="cont2" class="p-5 ">
-                <h5 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h5>
+                <h4 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h4>
 
-                <h5><p class="text-black" align="justify">
-                  Te informamos que por concepto de no pago de la tarifa o peaje de RUTA DEL MAIPO, hemos iniciados acciones legales.<br> Coméntanos dónde enviamos detalle y propuesta para que logremos un buen acuerdo de pago:
-                </p></h5>
+                <h4><p class="text-black" align="justify">
+                  Te informamos que hasta el <strong> 21 de Septiembre del 2020 </strong> tenemos <strong> DESCUENTO </strong> en el peaje y honorarios de tu deuda demandada, para ello puedes:
+                </p></h4>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
                     <span>Compromiso de Pago</span>
@@ -100,11 +100,16 @@ $name = $_GET['NOMBRE'];
                 <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4">El teléfono no corresponde </button>-->
 
 
-                    <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4"style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por Whastapp  <img width="30" src="https://i.imgur.com/Rtw9BXz.png"></a>
+                   <!-- <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4"style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por Whastapp  <img width="30" src="https://i.imgur.com/Rtw9BXz.png"></a>
 
-                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4"style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por email <img width="30" src="https://i.imgur.com/EpCpCdx.png"></a>
+                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4"style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por email <img width="30" src="https://i.imgur.com/EpCpCdx.png"></a>-->
 
-                  <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-white text-dark col-12 mt-4"style="  border: 1px solid #9e9e9e;">Solicito que me llamen  <img width="30" src="https://i.imgur.com/lKsQG4U.png"></a>
+                  <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar detalle y forma de pago');" class="btn bg-white text-dark col-12 mt-4"style="  border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago </a>
+
+                  <a onclick="eventosLanding('Whatsapp');" href="http://bit.ly/2kAAUJB" class="btn bg-white text-dark col-12 mt-4"style="  border: 1px solid #9e9e9e;">> Consultar a la Autopista </a>
+
+
+                  <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4">El teléfono no corresponde </button>
 
                 
              <!--   <div class="d-flex justify-content-around align-content-center mt-2"> 
@@ -117,6 +122,11 @@ $name = $_GET['NOMBRE'];
                     <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Ruta%20del%20Maipo"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
                 
                 </div>-->
+
+                <br>
+                <p class="text-black" align="justify">
+                 Si al momento de recibir esta información, su cuenta está regularizada, rogamos omitir este aviso
+                </p>
                 
              </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -217,8 +227,9 @@ $name = $_GET['NOMBRE'];
                     'Nombre': getUrlParameter('nombre'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Monto': getUrlParameter('monto'),
-                    'Estado': getUrlParameter('data1'),
+                    'Deuda Total': getUrlParameter('monto'),
+                    'Dias Mora Max': getUrlParameter('data1'),
+                    'Dcto Interes': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -230,8 +241,9 @@ $name = $_GET['NOMBRE'];
                     'Nombre': getUrlParameter('nombre'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Monto': getUrlParameter('monto'),
-                    'Estado': getUrlParameter('data1'),
+                    'Deuda Total': getUrlParameter('monto'),
+                    'Dias Mora Max': getUrlParameter('data1'),
+                    'Dcto Interes': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
