@@ -60,10 +60,8 @@ $name = $_GET['NOMBRE'];
    <img style="height:100px; width:200px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/Z7pozIJ.jpeg" alt="HerediaAbogados">
    <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/8E4iFKk.png" alt="HerediaAbogados">
 
-   <img style="height:300px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/Z7pozIJ.jpeg" alt="HerediaAbogados">
-
-           <img style="max-width: 50%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">
-
+   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/Z7pozIJ.jpeg" alt="HerediaAbogados">
+   
                <div id="cont1" class="p-5 hide">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
