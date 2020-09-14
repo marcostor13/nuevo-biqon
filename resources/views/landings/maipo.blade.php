@@ -123,7 +123,7 @@ $name = $_GET['NOMBRE'];
                 
                 </div>-->
 
-                <br>
+                <br><br><br><br><br>
                 <p class="text-black" align="justify">
                  Si al momento de recibir esta información, su cuenta está regularizada, rogamos omitir este aviso
                 </p>
