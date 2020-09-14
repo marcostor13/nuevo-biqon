@@ -104,9 +104,9 @@ $name = $_GET['NOMBRE'];
 
                  <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4"style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por email <img width="30" src="https://i.imgur.com/EpCpCdx.png"></a>-->
 
-                  <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar detalle y forma de pago');" class="btn bg-white text-dark col-12 mt-4"style="  border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago </a>
+                  <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar detalle y forma de pago');" class="btn bg-dark text-white col-12 mt-4"style="  border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago </a>
 
-                  <a onclick="eventosLanding('Whatsapp');" href="http://bit.ly/2kAAUJB" class="btn bg-white text-dark col-12 mt-4"style="  border: 1px solid #9e9e9e;">> Consultar a la Autopista </a>
+                  <a onclick="eventosLanding('Whatsapp');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4"style="  border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>
 
 
                   <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4">El teléfono no corresponde </button>
