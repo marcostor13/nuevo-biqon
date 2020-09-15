@@ -77,7 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
               <p class="text-black" align="text-center">
                    Informamos que tenemos una solución a su deuda por crédito automotriz impago.
 <br> 
-Para conocer más detalles tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.disponibles.<br> #Contacta a continuación  <br></p>
+Para conocer más detalles tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.disponibles.<br> #EstamosJuntosEnEsto  <br></p>
 
 
               <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
