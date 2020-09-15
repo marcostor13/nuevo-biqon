@@ -303,13 +303,13 @@ $enddate=strtotime("+5 days", $startdate);
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56981491465&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56957594473&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56981491465";
+        window.location.href ="tel:+56957594473";
     
         } 
     </script>
