@@ -120,7 +120,12 @@ $name = $_GET['NOMBRE'];
                 </div>-->
                 
                 
-            </div>
+            <br><br><br><br><br>
+                <p class="text-black" align="justify">
+                 Si al momento de recibir esta información, su cuenta está regularizada, rogamos omitir este aviso
+                </p>
+                
+             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
