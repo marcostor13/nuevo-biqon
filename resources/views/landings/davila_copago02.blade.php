@@ -152,7 +152,7 @@
 
          function event1(){ 
           var id_adm; 
-         id_adm= getUrlParameter('data2'); 
+         id_adm= getUrlParameter('data1'); 
 
             let dataSend = {
                 'fourRut': $('#rut').val(),
@@ -353,7 +353,7 @@
         
        function Mens1(){
     var id_adm; 
-         id_adm= getUrlParameter('data2'); //1234;
+         id_adm= getUrlParameter('data1'); //1234;
           
             swal({
                title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
@@ -371,7 +371,7 @@
 
      function Mens2(){
        var id_adm; 
-         id_adm= getUrlParameter('data2'); 
+         id_adm= getUrlParameter('data1'); 
          var rut; 
          rut= getUrlParameter('rut'); 
    window.location.href = "mailto:infopagatucuenta@davila.cl?subject=Pago%20de%20Cuenta&body=Id Admision: "+id_adm+"   RUT:  "+rut;
@@ -380,7 +380,7 @@
 
           function Mens2(){
        var id_adm; 
-         id_adm= getUrlParameter('data2'); 
+         id_adm= getUrlParameter('data1'); 
          var rut; 
          rut= getUrlParameter('rut');
 
