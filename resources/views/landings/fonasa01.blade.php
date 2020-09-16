@@ -60,7 +60,7 @@ $name = $_GET['NOMBRE'];
    <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/D7yVAP7.jpeg" alt="HerediaAbogados">
    <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/8E4iFKk.png" alt="HerediaAbogados">
 
-   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/Z7pozIJ.jpeg" alt="HerediaAbogados">
+   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/A3wf62a.jpg" alt="HerediaAbogados">
 
              <div id="cont1" class="p-5 hide">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
