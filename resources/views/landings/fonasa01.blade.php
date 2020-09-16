@@ -84,7 +84,7 @@ $name = $_GET['NOMBRE'];
                 <h5 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h5>
 
                 <h5><p class="text-black"  align="justify">
-                  Te informamos que por concepto de no pago de cotizaciones de salud a Fondo Nacional de Salud (FONASA), hemos iniciados acciones legales. <br>Coméntanos dónde enviamos detalle y propuesta para que logremos un buen acuerdo de pago:
+                  Te informamos que te podemos ofrecer un convenio de pago de tu deuda por cotizaciones de salud impagas, para ello puedes:
 
                 </p> </h5>
                
@@ -92,14 +92,23 @@ $name = $_GET['NOMBRE'];
 
                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>-->
 
-                <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4"  style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por Whastapp  <img width="30" src="https://i.imgur.com/Rtw9BXz.png"></a>
+                <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar detalle y forma de pago');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago </a>
+
+                 <!-- <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
+
+
+                  <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;">El teléfono no corresponde </button>
+
+
+             <!--   <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4"  style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por Whastapp  <img width="30" src="https://i.imgur.com/Rtw9BXz.png"></a>
 
                  <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4" style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por email <img width="30" src="https://i.imgur.com/EpCpCdx.png"></a>
 
                   <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-white text-dark col-12 mt-4" style="  border: 1px solid #9e9e9e;">Solicito que me llamen  <img width="30" src="https://i.imgur.com/lKsQG4U.png"></a>
                 
                 
-            <!--    <div class="d-flex justify-content-around align-content-center mt-2"> 
+
+              <div class="d-flex justify-content-around align-content-center mt-2"> 
 
                    
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta"><img width="42" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
