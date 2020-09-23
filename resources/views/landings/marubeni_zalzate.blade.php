@@ -47,10 +47,10 @@ $enddate=strtotime("+15 days", $startdate);
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
                 </p>
                 
-                    <!-- <div class="date btn bg-primary text-white col-12 mt-4">
+                    <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php // echo date('Y-m-d') ?>"  max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-                </div>-->
+                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
                  <button onclick='window.location.href="https://www.unired.cl/Home/CuentasNoRegistradasPaso?IdEmpresaRubro_autocomplete=Marubeni+Credit+&IdEmpresaRubro=e%252fqx7LzT1zmaWV%252fNBX8gb9qrTzsyLHq%252by%252bmLPJ6hHz8%253d"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
@@ -58,7 +58,7 @@ $enddate=strtotime("+15 days", $startdate);
                 <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967599345&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png"></a>
                     <a onclick="eventosLanding('Llamar');" href="tel:+56967599345"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-                    <a onclick="eventosLanding('Correo');" href="mailto:zalzate@prainabogados.cl?subject=Landing%20Mundo%20Credito"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:zalzate@prainabogados.cl?subject=Landing%20Marubeni"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>       
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
