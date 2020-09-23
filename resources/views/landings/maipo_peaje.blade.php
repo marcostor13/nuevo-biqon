@@ -6,7 +6,8 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
-//$name = $_GET['NOMBRE'];
+$name = $_GET['NOMBRE'];
+
 ?>
 <style>
 .opaco{
@@ -53,16 +54,16 @@ $enddate=strtotime("+5 days", $startdate);
     }
 </style>
 
-      <!--<div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >-->
+     <!-- <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >-->
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-   <img style="height:180px; width:250px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/Vp6VeXa.jpg" alt="HerediaAbogados">
+   <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/OVLJEwn.jpg" alt="HerediaAbogados">
+   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/OVLJEwn.jpg" alt="HerediaAbogados">
 
+   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/OVLJEwn.jpg" alt="HerediaAbogados">
 
-            <img style="max-width: 50%" class="img-fluid col-md-6 mt-1 hide" src="{{$landing->logo}}" alt="">
-
-             <div id="cont1" class="p-5 ">
+               <div id="cont1" class="p-5 hide">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-dark text-white col-12 mt-4">Validar </button>
@@ -80,31 +81,43 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
 
-            <div id="cont2" class="p-5 hide">
-                <h5 class="text-black text-center">Estimado (a) <strong> <span id="name"></span><!--<span><?php //echo $name; ?></span>--></strong></h5>
+            <div id="cont2" class="p-5 ">
+                <h4 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h4>
 
-                <h5><p class="text-black"  align="justify">
-                  Te informamos que el estado de tu causa conforme al art. 42 de la Ley de Concesiones, tramitada en el Jdo. Policía Local de La Granja ROL: <span id="data1"></span>, Es: <span id="data2"></span>
-                    <br>
-                Entendiendo el momento que actualmente estamos viviendo y que necesitamos de cada uno para avanzar, queremos ofrecer las siguientes alternativas:
-
-
-                </p></h5>
+                <h4><p class="text-black" align="justify">
+                  Te informamos que hasta el <strong> 30 de Septiembre del 2020 </strong> tenemos <strong>  DESCUENTOs </strong> en el peaje de tu deuda demandada, para ello puedes:
+                </p></h4>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
                     <span>Compromiso de Pago</span>
                     <input id="date1"  type="date"  style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" onclick="sendMail();"/>
                 </div>-->
-                <button onclick="sendMail('Solicito forma de pago'); eventosLanding('Solicitud'); return false;" class="btn bg-dark text-white col-12 mt-4">Solicito forma de pago</button>
+            <!--    <button onclick="sendMail('Solicito pagar en Cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar en Cuotas</button>
 
-                <!--<button onclick="sendMail('Solicito pagar el Total con descuento'); eventosLanding('total con Descuento'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar el Total con Descuento</button>
+                <button onclick="sendMail('Solicito pagar el Total con descuento'); eventosLanding('total con Descuento'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar el Total con Descuento</button>
 
-                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-dark text-white col-12 mt-4">Quiero que me Contacten</button>-->
+                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-dark text-white col-12 mt-4">Quiero que me Contacten</button>
 
-                <button onclick="window.location.href='http://bit.ly/2kAAUJB'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a la Autopista</button>
-                
-                
-                <div class="d-flex justify-content-around align-content-center mt-2"> 
+                <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4">El teléfono no corresponde </button>-->
+
+
+                   <!-- <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4"style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por Whastapp  <img width="30" src="https://i.imgur.com/Rtw9BXz.png"></a>
+
+                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4"style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por email <img width="30" src="https://i.imgur.com/EpCpCdx.png"></a>-->
+
+                  <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar detalle y forma de pago');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago por Correo </a>
+
+                  <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4"style="  border: 1px solid #9e9e9e;">Solicitar detalle y forma de pago por Whastapp </a>
+
+                  <a onclick="eventosLanding('Contactenme');" href="tel:+56226331354" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago por LLamada </a>
+
+                  <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>
+
+
+                <!--  <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;">El teléfono no corresponde </button>-->
+
+              
+             <!--   <div class="d-flex justify-content-around align-content-center mt-2"> 
 
                    
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta"><img width="42" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
@@ -113,9 +126,14 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Ruta%20del%20Maipo"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
                 
-                </div>
+                </div>-->
+
+                <br><br><br><br><br>
+                <p class="text-black" align="justify">
+                 Si al momento de recibir esta información, su cuenta está regularizada, rogamos omitir este aviso
+                </p>
                 
-            </div>
+             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -125,6 +143,11 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
 
         </div>
+        <div>
+        <!--<h5 id="message"class="text-grey text-center mt-3">Contáctanos </h5>-->
+        
+          <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
+        <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/aWzOg2b.png" alt="HerediaAbogados">
     </div>
 
      <script>
@@ -163,8 +186,6 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                     $('#data1').text(getUrlParameter('data1'));
-                    $('#data2').text(getUrlParameter('data2'));
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -211,8 +232,9 @@ $enddate=strtotime("+5 days", $startdate);
                     'Nombre': getUrlParameter('nombre'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Monto': getUrlParameter('monto'),
-                    'Estado': getUrlParameter('data1'),
+                   // 'Deuda Total': getUrlParameter('monto'),
+                  // 'Dias Mora Max': getUrlParameter('data1'),
+                    'Dcto Interes': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -224,14 +246,15 @@ $enddate=strtotime("+5 days", $startdate);
                     'Nombre': getUrlParameter('nombre'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Monto': getUrlParameter('monto'),
-                    'Estado': getUrlParameter('data1'),
+                     // 'Deuda Total': getUrlParameter('monto'),
+                  // 'Dias Mora Max': getUrlParameter('data1'),
+                    'Dcto Interes': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-           var correo = ["judicial@herediaabogados.cl"];
-           // var correo = ["jesus.binteraction@gmail.com"];
+          var correo = ["judicial@herediaabogados.cl"];
+          // var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -249,12 +272,12 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área.');
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su compromiso de pago fue agendado. Nos pondremos en contacto con usted en los próximos días');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área.');
                      eventosLanding('Compromiso de Pago');
                 }
             })
@@ -324,6 +347,18 @@ $enddate=strtotime("+5 days", $startdate);
       
         
     
+  function Mens2(){
+
+         var rut; 
+         rut= getUrlParameter('rut');
+
+        // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
+
+         var body_message = "%0A%20Estimado,%0A%20favor%20env%C3%ADe%20su%20propuesta%20relacionada%20al%20pago%20de%20mi%20cuenta%20";
+
+   window.location.href = "mailto:judicial@herediaabogados.cl?subject=Pago%20de%20Cuenta%20&body=%20RUT:%20"+rut+" "+body_message;
+
+ }
     </script>
     
 
