@@ -46,9 +46,9 @@ $enddate=strtotime("+15 days", $startdate);
                     
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
                 </p>
-                 <div class="date btn bg-danger text-white col-12 mt-4">
+                 <div class="date btn bg-primary  text-white  col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-primary text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
                  <button onclick='window.location.href="https://www.unired.cl/Home/CuentasNoRegistradasPaso?IdEmpresaRubro_autocomplete=Marubeni+Credit+&IdEmpresaRubro=e%252fqx7LzT1zmaWV%252fNBX8gb9qrTzsyLHq%252by%252bmLPJ6hHz8%253d"; eventosLanding("Pagina de Pagos");' class="btn bg-primary  text-white col-12 mt-4">PAGAR AHORA</button>
 
