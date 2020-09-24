@@ -57,10 +57,10 @@ $name = $_GET['NOMBRE'];
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-   <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/ugXSXzy.jpg" alt="HerediaAbogados">
-   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/ugXSXzy.jpg" alt="HerediaAbogados">
+  <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/OVLJEwn.jpg" alt="HerediaAbogados">
+   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/OVLJEwn.jpg" alt="HerediaAbogados">
 
-   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/A3wf62a.jpg" alt="HerediaAbogados">
+   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/OVLJEwn.jpg" alt="HerediaAbogados">
 
              <div id="cont1" class="p-5 hide">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
@@ -84,7 +84,7 @@ $name = $_GET['NOMBRE'];
                 <h5 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h5>
 
                 <h5><p class="text-black"  align="justify">
-                  Te informamos que te podemos ofrecer un convenio de pago de tu deuda por cotizaciones de salud impagas, para ello puedes:
+                  Le informamos que debido a la deuda morosa que usted mantiene con FONASA se ha iniciado las gestiones judiciales en virtud de la Ley 17.322 de Cotizaciones previsionales impagas. Para evitar continuar con la demanda y con el fin de lograr un acuerdo, usted puede:
 
                 </p> </h5>
                
@@ -95,6 +95,7 @@ $name = $_GET['NOMBRE'];
                 <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar detalle y forma de pago');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago </a>
 
                  <!-- <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
+                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> • Consultar a Fondo Nacional de Salud </button>
 
 
                   <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;">El teléfono no corresponde </button>
