@@ -85,7 +85,7 @@ $name = $_GET['NOMBRE'];
                 <h4 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h4>
 
                 <h4><p class="text-black" align="justify">
-                  Te informamos que hasta el <strong> 30 de Septiembre del 2020 </strong> tenemos <strong>  DESCUENTOs </strong> en en intereses y gastos de cobranza de tu deuda demandada, para ello puedes:
+                  Te informamos que hasta el <strong> 30 de Septiembre del 2020 </strong> tenemos <strong>  DESCUENTOs </strong> en intereses y gastos de cobranza de tu deuda demandada, para ello puedes:
                 </p></h4>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
