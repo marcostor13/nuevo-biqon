@@ -107,7 +107,7 @@ $name = $_GET['NOMBRE'];
 
                   <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar detalle y forma de pago');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago por Correo </a>
 
-                  <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4"style="  border: 1px solid #9e9e9e;">Solicitar detalle y forma de pago por Whastapp </a>
+                  <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-dark text-white col-12 mt-4"style="  border: 1px solid #9e9e9e;">Solicitar detalle y forma de pago por Whastapp </a>
 
                   <a onclick="eventosLanding('Contactenme');" href="tel:+56226331354" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago por LLamada </a>
 
