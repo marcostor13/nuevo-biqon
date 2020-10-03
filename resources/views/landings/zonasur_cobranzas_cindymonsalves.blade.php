@@ -75,9 +75,9 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                   Informamos que tenemos una solución a su deuda por crédito automotriz impago.
+                   Informamos que su crédito automotriz se encuentra en mora.
 <br> 
-Para conocer más detalles tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.disponibles.<br> #EstamosJuntosEnEsto  <br></p>
+Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.<br> #EstamosJuntosEnEsto  <br></p>
 
 
               <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
