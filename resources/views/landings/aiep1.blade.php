@@ -499,8 +499,8 @@ body.dark a.btnLink {
         <h5 class="text-black text-center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <b><span class="cap"> ##NOMBRE##</b>?</h5>
     </div>
         <div class="">
-            <a class="btn bg-danger text-white col-12 mt-4" href="https://aiep.athenacampaign.com/p/views/home.html">NO</a>
-            <a class="btn bg-danger text-white col-12 mt-4" href="https://aiep.athenacampaign.com/p/views/home.html">SI</a>
+            <a class="btn bg-success text-white col-5 mt-4" href="https://aiep.athenacampaign.com/p/views/home.html">NO</a>
+            <a class="btn bg-success text-white col-5 mt-4" href="https://aiep.athenacampaign.com/p/views/home.html">SI</a>
         </div>
 </div>
 
