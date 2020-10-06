@@ -67,7 +67,7 @@
 <div class="page centered" ng-class="{&#39;appear&#39;:currentPage==&#39;confirmCommitment&#39;, &#39;hideToLeft&#39;:oldPage==&#39;confirmCommitment&#39;}">
     <div class="wrapper">
         <div class="robotBubble">
-            <p>Seleccionó el día <b> ##FECHAPAGO##<!--{{selectedCommitmentDate.format('LL')}} --></b> como fecha de compromiso de pago.</p>
+            <p>Seleccionó el día <b> ##FECHAPAGO##</b> como fecha de compromiso de pago.</p>
             <p>Muchas gracias. Que tenga un buen dia. Hasta luego</p>
         </div>
     </div>
