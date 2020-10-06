@@ -26,7 +26,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-<style type="text/css">
+<!--<style type="text/css">
 *, html, body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -484,7 +484,7 @@ body.dark a.btnLink {
 /*# sourceMappingURL=styles.css.map */
 }
     
-</style>
+</style>-->
 
 <!-- HEAD -->
 
