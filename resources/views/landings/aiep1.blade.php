@@ -31,11 +31,6 @@ $enddate1=strtotime("+5 days", $startdate);
 .oscurecer {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#6BBDA1), to(#4378AC));
   background-image: linear-gradient(180deg, #6BBDA1 0%, #4378AC 100%);
-  height: 100px;
-  padding: 10px 10px;
-  border-bottom: 1px solid #E6E2E2;
-  z-index: 1;
-  position: fixed;
   width: 100%;
 
 }
@@ -45,15 +40,14 @@ $enddate1=strtotime("+5 days", $startdate);
 
 <!-- HEAD -->
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+ 
  <div class="oscurecer p-5">
         <div id="head" class="p-1 pl-1 pr-1 "> <a href="#"> <img class="img-fluid col-2 col-md-2" src="{{$landing->logo}}" alt="AIEP">
         </div>
  </div>
 
-
-
     <div id="cont1" class="p-5 ">
-    <h5 class="text-black text-center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <span class="stn"> ##NOMBRE## </span> ? </h5>
+    <h5 class="text-black text-center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) ##NOMBRE## ?</h5>
             <a class="btn bg-success text-white col-5 mt-4" href="#">NO</a>
             <a class="btn bg-success text-white col-5 mt-4" href="#">SI</a>
         </div>
