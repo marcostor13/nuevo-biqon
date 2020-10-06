@@ -3,12 +3,12 @@
         <div class="robotBubble">
             <p>Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <b><span class="cap"> ##NOMBRE##<!--{{clientData.field1}}</span>--></b>?</p>
         </div>
-        <div class="twoButtonsWrapper" ng-if="isGreaterThanCurrentDate(split(clientData.field2, 1))">
+        <div class="twoButtonsWrapper">
             <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;iAmNot&#39;); saveInteraction(1,3,&#39;identidad_incorrecta&#39;);">NO</a>
             <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;yesIAm&#39;); saveInteraction(1,2,&#39;confirma_identidad&#39;);">SI</a>
         </div>
 
-        <div class="twoButtonsWrapper" ng-if="!isGreaterThanCurrentDate(split(clientData.field2, 1))">
+        <div class="twoButtonsWrapper" >
             <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;giveMeInformationAboutHim&#39;); setOldPage(&#39;initial&#39;); saveInteraction(1,3,&#39;identidad_incorrecta&#39;);">NO</a>
             <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;pendingPaymentInfo&#39;); setOldPage(&#39;initial&#39;); saveInteraction(1,2,&#39;confirma_identidad&#39;);">SI</a>
         </div>
@@ -85,7 +85,7 @@
         </div>
         <div id="datepicker" ng-init="initializeCalendar()"></div>
         <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;calendar&#39;)">Seleccionar fecha</a>
-        <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;iCannotPay&#39;); saveInteraction(1,9,&#39;no_puedo_pagar&#39;);" "="">No puedo</a>
+        <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;iCannotPay&#39;); saveInteraction(1,9,&#39;no_puedo_pagar&#39;);">No puedo</a>
     </div>
 </div>
 
