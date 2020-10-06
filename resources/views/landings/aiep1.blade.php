@@ -457,7 +457,7 @@ body.dark header {
 body.dark .robotBubble {
   background-color: #787878;
   border-color: #787878;
-  color: #F1F1F1;
+  color: #000000;
 }
 
 body.dark footer {
@@ -489,11 +489,6 @@ body.dark a.btnLink {
 
 <!-- HEAD -->
 
- <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-         <img style="max-width:200px; max-height:60px"class="img-fluid col-10 col-md-3 mt-0" src="{{$landing->logo}}" alt="AIEP">
-
-        </div>
-        
 <header>
     <span class="clientLogo"></span>
     <a class="iconMode" ng-class="{&#39;dark&#39;:darkMode}" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="switchDarkMode()"><img src="./home_files/mode.svg" alt=""></a>
