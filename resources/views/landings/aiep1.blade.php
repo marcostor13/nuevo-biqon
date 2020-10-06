@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'VTR')
+@section('title', 'AIEP')
 
 @section('content')
 <?php
@@ -45,8 +45,8 @@ $enddate1=strtotime("+5 days", $startdate);
 
 <!-- HEAD -->
 
- <div class="oscurecer p-3">
-        <div id="head" class="p-1 pl-1 pr-1 "> <a href="#"> <img class="img-fluid col-2 col-md-4" src="{{$landing->logo}}" alt="AIEP">
+ <div class="oscurecer p-1">
+        <div id="head" class="p-1 pl-1 pr-1 "> <a href="#"> <img class="img-fluid col-2 col-md-2" src="{{$landing->logo}}" alt="AIEP">
         </div>
 
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
@@ -59,9 +59,7 @@ $enddate1=strtotime("+5 days", $startdate);
         </div>
 </div>
 
-
-<!--
-<div class="page centered">
+<div id="cont2" class="p-5 ">
         <div class="p-5 ">
             <h5 class="center">AIEP le informa que la mensualidad de <b> ##CARRERA## </b> vence el día <b> ##FECHA_VENCE## </b> por un monto de <b> ##MONTO## </b>.<br>
             <br><br>¿Podrá pagar en la fecha indicada?</h5>
@@ -72,7 +70,7 @@ $enddate1=strtotime("+5 days", $startdate);
         </div>
 </div>
 
-<div class="page centered">
+<div id="cont3" class="p-5 ">
     <div class="p-5 ">
             <p>Muchas gracias. Le recordamos que puede pagar en </p><br>
             <p>
@@ -86,7 +84,7 @@ $enddate1=strtotime("+5 days", $startdate);
     </div>
 </div>
 
-<div class="page centered" >
+<div id="cont4" class="p-5 ">
          <div class="p-5 ">
             <p class="center">¿Nos podría indicar una fecha de pago?</p>
         </div>
@@ -94,20 +92,20 @@ $enddate1=strtotime("+5 days", $startdate);
         <a class="btn">Continuar</a>
 </div>
 
-<div class="page centered">
+<div id="cont5" class="p-5 ">
    <div class="p-5 ">
             <p class="center">Muchas gracias por su tiempo y disculpe las molestias</p>
     </div>
 </div>
 
-<div class="page centered">
+<div id="cont6" class="p-5 ">
     <div class="p-5 ">
             <p>Seleccionó el día <b> ##FECHAPAGO##</b> como fecha de compromiso de pago.</p>
             <p>Muchas gracias. Que tenga un buen dia. Hasta luego</p>
     </div>
 </div>
 
-<div class="page centered">
+<div id="cont7" class="p-5 ">
     <div class="p-5 ">
             <p>
                 De acuerdo a nuestros registros, desde el día <b> ##FECHA##</b> se encuentra(n) <b> ##NCUOTAS##</b> cuotas(s) pendiente(s) de su <b>> ##CARRERA##</b>
@@ -121,7 +119,7 @@ $enddate1=strtotime("+5 days", $startdate);
 </div>
 
 
-<div class="page centered">
+<div id="cont8" class="p-5 ">
     <div class="p-5 ">
             <p class="center">Conoce Ud a <b><span class="cap">##NOMBRE##</span></b>?</p>
     </div>
@@ -131,7 +129,7 @@ $enddate1=strtotime("+5 days", $startdate);
     </div>
 </div>
 
-<div class="page centered">
+<div id="cont9" class="p-5 ">
     <div class="p-5 ">
             <p class="center">Por favor indicar el motivo de su atraso</p>
         </div>
@@ -152,7 +150,7 @@ $enddate1=strtotime("+5 days", $startdate);
 </div>
 
 
-<div class="page centered">
+<div id="cont10" class="p-5 ">
     <div class="p-5 ">
             <p class="center">Sería tan amable de entregarme alguno de estos datos de contacto?</p>
         </div>
@@ -166,13 +164,13 @@ $enddate1=strtotime("+5 days", $startdate);
         </form>
 </div>
 
-<div class="page centered">
+<div id="cont11" class="p-5 ">
     <div class="p-5 ">
             <p>Gracias por la información de contacto, le agradecemos su ayuda</p>
     </div>
 </div>
 
-<div class="page centered">
+<div id="cont12" class="p-5 ">
     <div class="p-5 ">
             <p >Entiendo. Le informamos que tenemos alternativas para regularizar su deuda.</p>
             <p >Entiendo. Le informamos que tenemos alternativas para regularizar su deuda.</p>
@@ -183,7 +181,7 @@ $enddate1=strtotime("+5 days", $startdate);
             <p >Le recordamos que puede pagar directmente en el portal de pagos AIEP, ingresando a <a href="https://portalpago.aiep.cl/" target="_blank">https://portalpago.aiep.cl</a></p>
             <p >Nos pondremos en contacto con Ud., gracias por su atención.</p>
     </div>
-</div>-->
+</div>
 
 </div>
 
