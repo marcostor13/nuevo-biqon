@@ -58,21 +58,6 @@ header .clientLogo {
   background-position: 0 50%;
 }
 
-.page {
-  padding: 40px 40px;
-  width: 100%;
-  height: calc(100% - 220px);
-}
-
-.page.centered {
-  position: fixed;
-  height: calc(100% - 172px);
-  overflow-y: auto;
-}
-
-.page.centered > .wrapper {
-  position: relative;
-}
 
 
 }*/
@@ -86,12 +71,14 @@ header .clientLogo {
     <a class="iconMode" ng-class="{&#39;dark&#39;:darkMode}" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="switchDarkMode()"><img src="./home_files/mode.svg" alt=""></a>
 </header>
 
+<div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
 
-<div class="page centered" >
+
     <div id="cont1" class="p-5 ">
-        <h5 class="text-black text-center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <b><span class="cap"> ##NOMBRE##</b>?</h5>
+        <div>
+        <h5 class="text-black text-center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <b><span class="cap"> ##NOMBRE## </span> </b>?</h5>
     </div>
-        <div class="page centered">
+        <div >
             <a class="btn bg-success text-white col-5 mt-4" href="#">NO</a>
             <a class="btn bg-success text-white col-5 mt-4" href="#">SI</a>
         </div>
@@ -222,3 +209,5 @@ header .clientLogo {
             <p >Nos pondremos en contacto con Ud., gracias por su atención.</p>
     </div>
 </div>-->
+
+</div>
