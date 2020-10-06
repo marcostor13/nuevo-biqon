@@ -495,21 +495,15 @@ body.dark a.btnLink {
 
 
 <div class="page centered" >
-    <div class="wrapper">
-        <div class="robotBubble">
-            <p>Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <b><span class="cap"> ##NOMBRE##</b>?</p>
-        </div>
-        <div class="twoButtonsWrapper">
-            <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html">NO</a>
-            <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html">SI</a>
-        </div>
-
-        <div class="twoButtonsWrapper" >
-            <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;giveMeInformationAboutHim&#39;); setOldPage(&#39;initial&#39;); saveInteraction(1,3,&#39;identidad_incorrecta&#39;);">NO</a>
-            <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;pendingPaymentInfo&#39;); setOldPage(&#39;initial&#39;); saveInteraction(1,2,&#39;confirma_identidad&#39;);">SI</a>
-        </div>
+    <div id="cont1" class="p-5 ">
+        <h5 class="text-black text-center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <b><span class="cap"> ##NOMBRE##</b>?</h5>
     </div>
+        <div class="">
+            <a class="btn bg-danger text-white col-12 mt-4" href="https://aiep.athenacampaign.com/p/views/home.html">NO</a>
+            <a class="btn bg-danger text-white col-12 mt-4" href="https://aiep.athenacampaign.com/p/views/home.html">SI</a>
+        </div>
 </div>
+
 
 <div class="page centered" ng-class="{&#39;appear&#39;:currentPage==&#39;yesIAm&#39;, &#39;hideToLeft&#39;:oldPage==&#39;yesIAm&#39;}">
     <div class="wrapper">
