@@ -31,7 +31,7 @@ $enddate1=strtotime("+5 days", $startdate);
 .oscurecer {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#6BBDA1), to(#4378AC));
   background-image: linear-gradient(180deg, #6BBDA1 0%, #4378AC 100%);
-  height: 50px;
+  height: 100px;
   padding: 10px 10px;
   border-bottom: 1px solid #E6E2E2;
   z-index: 1;
