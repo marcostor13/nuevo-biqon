@@ -108,8 +108,8 @@ $enddate1=strtotime("+5 days", $startdate);
             </p>
         </div>
         <div id="datepicker" ng-init="initializeCalendar()"></div>
-        <a class="btn" href="#" >Seleccionar fecha</a>
-        <a class="btn" href="#" >No puedo</a>
+        <a class="btn bg-success text-white col-12 mt-4" onclick="url(3)" >Seleccionar fecha</a>
+        <a class="btn bg-success text-white col-12 mt-4" onclick="url(4)">No puedo</a>
     </div>
 </div>
 
@@ -386,16 +386,16 @@ function url(idButton) {
 
  case 2:
           $('#cont1').addClass('hide');
-          $('#cont2').removeClass('hide');
+          $('#cont7').removeClass('hide');
     break;
 
  case 3:
-          $('#cont2').addClass('hide');
-          $('#cont3').removeClass('hide'); 
+          $('#cont7').addClass('hide');
+          $('#cont4').removeClass('hide'); 
     break;
  case 4:
-          $('#cont2').addClass('hide');
-          $('#cont4').removeClass('hide'); 
+          $('#cont7').addClass('hide');
+          $('#cont9').removeClass('hide'); 
     break;
     case 5:
           $('#cont1').addClass('hide');
