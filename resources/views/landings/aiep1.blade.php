@@ -21,11 +21,11 @@
 ?>
 
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 <style type="text/css">
 *, html, body {
   -webkit-box-sizing: border-box;
@@ -457,7 +457,7 @@ body.dark header {
 body.dark .robotBubble {
   background-color: #787878;
   border-color: #787878;
-  color: #000000;
+  color: #F1F1F1;
 }
 
 body.dark footer {
@@ -483,7 +483,6 @@ body.dark a.btnLink {
 }
 /*# sourceMappingURL=styles.css.map */
 }
-
     
 </style>
 
@@ -495,14 +494,14 @@ body.dark a.btnLink {
 </header>
 
 
-<div class="page centered" ng-class="{&#39;appear&#39;:currentPage==&#39;initial&#39;, &#39;hideToLeft&#39;:oldPage==&#39;initial&#39;}">
+<div class="page centered" >
     <div class="wrapper">
         <div class="robotBubble">
             <p>Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <b><span class="cap"> ##NOMBRE##</b>?</p>
         </div>
         <div class="twoButtonsWrapper">
-            <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;iAmNot&#39;); saveInteraction(1,3,&#39;identidad_incorrecta&#39;);">NO</a>
-            <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;yesIAm&#39;); saveInteraction(1,2,&#39;confirma_identidad&#39;);">SI</a>
+            <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html">NO</a>
+            <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html">SI</a>
         </div>
 
         <div class="twoButtonsWrapper" >
