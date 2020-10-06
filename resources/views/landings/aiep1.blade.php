@@ -1,7 +1,7 @@
 <div class="page centered" ng-class="{&#39;appear&#39;:currentPage==&#39;initial&#39;, &#39;hideToLeft&#39;:oldPage==&#39;initial&#39;}">
     <div class="wrapper">
         <div class="robotBubble">
-            <p>Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <b><span class="cap"> ##NOMBRE##<!--{{clientData.field1}}</span>--></b>?</p>
+            <p>Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <b><span class="cap"> ##NOMBRE##</b>?</p>
         </div>
         <div class="twoButtonsWrapper">
             <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;iAmNot&#39;); saveInteraction(1,3,&#39;identidad_incorrecta&#39;);">NO</a>
@@ -18,7 +18,7 @@
 <div class="page centered" ng-class="{&#39;appear&#39;:currentPage==&#39;yesIAm&#39;, &#39;hideToLeft&#39;:oldPage==&#39;yesIAm&#39;}">
     <div class="wrapper">
         <div class="robotBubble">
-            <p class="center">AIEP le informa que la mensualidad de <b> ##CARRERA## <!--{{split(clientData.field2, 0)}}--></b> vence el día <b> ##FECHA_VENCE## <!--{{YMD2DMY(split(clientData.field2, 1))}}--></b> por un monto de <b> ##MONTO## <!--{{formatNumberCL(clientData.field3)}}--></b>.<br>
+            <p class="center">AIEP le informa que la mensualidad de <b> ##CARRERA## </b> vence el día <b> ##FECHA_VENCE## </b> por un monto de <b> ##MONTO## </b>.<br>
             <br><br>¿Podrá pagar en la fecha indicada?</p>
         </div>
         <div class="twoButtonsWrapper">
@@ -79,8 +79,8 @@
     <div class="wrapper">
         <div class="robotBubble">
             <p>
-                De acuerdo a nuestros registros, desde el día <b> ##FECHA##<!--{{YMD2DMY(split(clientData.field2, 1))}}--></b> se encuentra(n) <b><!--{{split(clientData.opcion, 0)}}--> ##NCUOTAS##</b> cuotas(s) pendiente(s) de su <b><!--{{split(clientData.opcion, 1)}}--> ##CARRERA##</b>
-                por un valor de <b><!--{{formatNumberCL(clientData.field3)}}--> ##MONTO##</b>. ¿Cuando puede efectuar el Pago?
+                De acuerdo a nuestros registros, desde el día <b> ##FECHA##</b> se encuentra(n) <b> ##NCUOTAS##</b> cuotas(s) pendiente(s) de su <b>> ##CARRERA##</b>
+                por un valor de <b> ##MONTO##</b>. ¿Cuando puede efectuar el Pago?
             </p>
         </div>
         <div id="datepicker" ng-init="initializeCalendar()"></div>
@@ -93,7 +93,7 @@
 <div class="page centered" ng-class="{&#39;appear&#39;:currentPage==&#39;giveMeInformationAboutHim&#39;, &#39;hideToLeft&#39;:oldPage==&#39;giveMeInformationAboutHim&#39;}">
     <div class="wrapper">
         <div class="robotBubble">
-            <p class="center">Conoce Ud a <b><span class="cap"><!--{{clientData.field1}}-->##NOMBRE##</span></b>?</p>
+            <p class="center">Conoce Ud a <b><span class="cap">##NOMBRE##</span></b>?</p>
         </div>
         <div class="twoButtonsWrapper">
             <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;fillInformationAboutHim&#39;)">SI</a>
