@@ -28,7 +28,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 <style type="text/css">
 
-header {
+.oscurecer {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#6BBDA1), to(#4378AC));
   background-image: linear-gradient(180deg, #6BBDA1 0%, #4378AC 100%);
   height: 110px;
@@ -48,28 +48,15 @@ header {
           justify-content: space-between;
 }
 
-header .clientLogo {
-  display: inline-block;
-  width: 45%;
-  height: 100%;
-  background-image: url(../img/logoDA.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 0 50%;
-}
-
-
-
-}*/
     
 </style>
 
 <!-- HEAD -->
 
-<header>
-    <span class="clientLogo"></span>
-    <a class="iconMode" ng-class="{&#39;dark&#39;:darkMode}" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="switchDarkMode()"><img src="./home_files/mode.svg" alt=""></a>
-</header>
+ <div class="oscurecer p-3">
+        <div id="head" class="p-1 pl-1 pr-1 "> <a href="#"> <img class="img-fluid col-7 col-md-10" src="{{$landing->logo}}" alt="AIEP">
+
+        </div>
 
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
 
