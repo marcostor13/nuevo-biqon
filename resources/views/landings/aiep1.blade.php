@@ -48,7 +48,7 @@ $enddate1=strtotime("+5 days", $startdate);
  <div class="oscurecer p-1">
         <div id="head" class="p-1 pl-1 pr-1 "> <a href="#"> <img class="img-fluid col-2 col-md-2" src="{{$landing->logo}}" alt="AIEP">
         </div>
-
+ </div>
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
 
 
@@ -57,7 +57,7 @@ $enddate1=strtotime("+5 days", $startdate);
             <a class="btn bg-success text-white col-5 mt-4" href="#">NO</a>
             <a class="btn bg-success text-white col-5 mt-4" href="#">SI</a>
         </div>
-</div>
+
 
 <div id="cont2" class="p-5 ">
         <div class="p-5 ">
