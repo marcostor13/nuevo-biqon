@@ -84,7 +84,7 @@ $enddate1=strtotime("+5 days", $startdate);
             <p class="center">¿Nos podría indicar una fecha de pago?</p>
         </div>
         <div id="datepicker"></div><br>
-        <a class="btn">Continuar</a>
+        <a class="btn bg-success text-white col-12 mt-4" >Continuar</a>
 </div>
 
 <div id="cont5" class="p-5 hide">
@@ -119,8 +119,8 @@ $enddate1=strtotime("+5 days", $startdate);
             <p class="center">Conoce Ud a <b><span class="cap">##NOMBRE##</span></b>?</p>
     </div>
     <div class="twoButtonsWrapper">
-            <a class="btn" href="#" >SI</a>
-            <a class="btn" href="#" >NO</a>
+            <a class="btn bg-success text-white col-12 mt-4"  href="#" >SI</a>
+            <a class="btn bg-success text-white col-12 mt-4"  href="#" >NO</a>
     </div>
 </div>
 
@@ -141,7 +141,7 @@ $enddate1=strtotime("+5 days", $startdate);
             <li ng-class="{&#39;selected&#39;:selectedReason==&#39;reason10&#39;}"><a href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="selectReason(&#39;reason10&#39;, &#39;&#39;)"> Otra</a></li>
         </ul>
         <textarea placeholder="Ingresa tu motivo de no pago (máximo 200 caracteres)" maxlength="200"></textarea>
-        <a class="btn" href="#">Continuar</a>
+        <a class="btn bg-success text-white col-12 mt-4"  href="#">Continuar</a>
 </div>
 
 
@@ -155,7 +155,7 @@ $enddate1=strtotime("+5 days", $startdate);
             <label>Email <span class="labelError" ng-if="contactForm.email.$invalid">(email inválido)</span></label>
             <input type="email" name="email" id="email" ng-model="contact.email" placeholder="Ingrese correo electrónico" inputmode="email" maxlength="50">
 
-            <a class="btn" href="#" oneclick="checkContactData()">Enviar</a>
+            <a class="btn bg-success text-white col-12 mt-4"  href="#" oneclick="checkContactData()">Enviar</a>
         </form>
 </div>
 
