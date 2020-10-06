@@ -98,6 +98,7 @@ header .clientLogo {
 </div>
 
 
+<!--
 <div class="page centered">
         <div class="p-5 ">
             <h5 class="center">AIEP le informa que la mensualidad de <b> ##CARRERA## </b> vence el día <b> ##FECHA_VENCE## </b> por un monto de <b> ##MONTO## </b>.<br>
@@ -143,8 +144,6 @@ header .clientLogo {
             <p>Muchas gracias. Que tenga un buen dia. Hasta luego</p>
     </div>
 </div>
-
-<!-- ----------------------------------------------------------------------------------------------- -->
 
 <div class="page centered">
     <div class="p-5 ">
@@ -222,4 +221,4 @@ header .clientLogo {
             <p >Le recordamos que puede pagar directmente en el portal de pagos AIEP, ingresando a <a href="https://portalpago.aiep.cl/" target="_blank">https://portalpago.aiep.cl</a></p>
             <p >Nos pondremos en contacto con Ud., gracias por su atención.</p>
     </div>
-</div>
+</div>-->
