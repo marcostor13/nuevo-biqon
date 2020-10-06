@@ -59,7 +59,7 @@ header .clientLogo {
 }
 
 .page {
-  padding: 20px 20px;
+  padding: 40px 40px;
   width: 100%;
   height: calc(100% - 220px);
 }
