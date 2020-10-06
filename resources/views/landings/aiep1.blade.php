@@ -47,13 +47,14 @@ $enddate1=strtotime("+5 days", $startdate);
  </div>
 
     <div id="cont1" class="p-5 ">
+        <div class="p-5 ">
     <h5 class="center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) ##NOMBRE## ?</h5>
             <a class="btn bg-success text-white col-5 mt-4" href="#">NO</a>
             <a class="btn bg-success text-white col-5 mt-4" href="#">SI</a>
         </div>
+</div>
 
-
-<div id="cont2" class="p-5 ">
+<div id="cont2" class="p-5 hide">
         <div class="p-5 ">
             <h5 class="center">AIEP le informa que la mensualidad de <b> ##CARRERA## </b> vence el día <b> ##FECHA_VENCE## </b> por un monto de <b> ##MONTO## </b>.<br>
             <br><br>¿Podrá pagar en la fecha indicada?</h5>
@@ -64,7 +65,7 @@ $enddate1=strtotime("+5 days", $startdate);
         </div>
 </div>
 
-<div id="cont3" class="p-5 ">
+<div id="cont3" class="p-5 hide">
     <div class="p-5 ">
             <p>Muchas gracias. Le recordamos que puede pagar en </p><br>
             <p>
@@ -78,7 +79,7 @@ $enddate1=strtotime("+5 days", $startdate);
     </div>
 </div>
 
-<div id="cont4" class="p-5 ">
+<div id="cont4" class="p-5 hide">
          <div class="p-5 ">
             <p class="center">¿Nos podría indicar una fecha de pago?</p>
         </div>
@@ -86,20 +87,20 @@ $enddate1=strtotime("+5 days", $startdate);
         <a class="btn">Continuar</a>
 </div>
 
-<div id="cont5" class="p-5 ">
+<div id="cont5" class="p-5 hide">
    <div class="p-5 ">
             <p class="center">Muchas gracias por su tiempo y disculpe las molestias</p>
     </div>
 </div>
 
-<div id="cont6" class="p-5 ">
+<div id="cont6" class="p-5 hide">
     <div class="p-5 ">
             <p>Seleccionó el día <b> ##FECHAPAGO##</b> como fecha de compromiso de pago.</p>
             <p>Muchas gracias. Que tenga un buen dia. Hasta luego</p>
     </div>
 </div>
 
-<div id="cont7" class="p-5 ">
+<div id="cont7" class="p-5 hide">
     <div class="p-5 ">
             <p>
                 De acuerdo a nuestros registros, desde el día <b> ##FECHA##</b> se encuentra(n) <b> ##NCUOTAS##</b> cuotas(s) pendiente(s) de su <b>> ##CARRERA##</b>
@@ -113,7 +114,7 @@ $enddate1=strtotime("+5 days", $startdate);
 </div>
 
 
-<div id="cont8" class="p-5 ">
+<div id="cont8" class="p-5 hide">
     <div class="p-5 ">
             <p class="center">Conoce Ud a <b><span class="cap">##NOMBRE##</span></b>?</p>
     </div>
@@ -123,7 +124,7 @@ $enddate1=strtotime("+5 days", $startdate);
     </div>
 </div>
 
-<div id="cont9" class="p-5 ">
+<div id="cont9" class="p-5 hide">
     <div class="p-5 ">
             <p class="center">Por favor indicar el motivo de su atraso</p>
         </div>
@@ -144,7 +145,7 @@ $enddate1=strtotime("+5 days", $startdate);
 </div>
 
 
-<div id="cont10" class="p-5 ">
+<div id="cont10" class="p-5 hide">
     <div class="p-5 ">
             <p class="center">Sería tan amable de entregarme alguno de estos datos de contacto?</p>
         </div>
@@ -158,13 +159,13 @@ $enddate1=strtotime("+5 days", $startdate);
         </form>
 </div>
 
-<div id="cont11" class="p-5 ">
+<div id="cont11" class="p-5 hide">
     <div class="p-5 ">
             <p>Gracias por la información de contacto, le agradecemos su ayuda</p>
     </div>
 </div>
 
-<div id="cont12" class="p-5 ">
+<div id="cont12" class="p-5 hide">
     <div class="p-5 ">
             <p >Entiendo. Le informamos que tenemos alternativas para regularizar su deuda.</p>
             <p >Entiendo. Le informamos que tenemos alternativas para regularizar su deuda.</p>
