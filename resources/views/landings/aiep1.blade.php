@@ -1,13 +1,12 @@
 @extends('layouts.landing')
 
-@section('title', 'AIEP1')
+@section('title', 'VTR')
 
 @section('content')
 <?php
-//$startdate=strtotime("Today");
-//$enddate=strtotime("+5 days", $startdate);
-//$enddate1=strtotime("+5 days", $startdate);
-//$cadena_fecha = "2020-08-20";
+$startdate=strtotime("Today");
+$enddate=strtotime("+2 days", $startdate);
+$enddate1=strtotime("+5 days", $startdate);
 
 //$name = $_GET["NOMBRE"];
 //$name=$_GET['NOMBRE'];
@@ -21,16 +20,24 @@
 ?>
 
 
-<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style type="text/css">
+
 
 .oscurecer {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#6BBDA1), to(#4378AC));
   background-image: linear-gradient(180deg, #6BBDA1 0%, #4378AC 100%);
+  height: 110px;
+  padding: 20px 20px;
+  border-bottom: 1px solid #E6E2E2;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+
 }
 
     
@@ -39,7 +46,7 @@
 <!-- HEAD -->
 
  <div class="oscurecer p-3">
-        <div id="head" class="p-1 pl-1 pr-1 "> <a href="#"> <img class="img-fluid col-2 col-md-4" src="{{$landing->logos}}" alt="AIEP">
+        <div id="head" class="p-1 pl-1 pr-1 "> <a href="#"> <img class="img-fluid col-2 col-md-4" src="{{$landing->logo}}" alt="AIEP">
         </div>
 
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
@@ -179,3 +186,204 @@
 </div>-->
 
 </div>
+
+   <script>
+   //EVENT 1
+        $( function() {
+    $( "#datepicker" ).datepicker();
+  } );  
+         $(function(){
+            events({    
+                'name': 'Visita',
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(getAllUrlParameter())
+            });
+        }); 
+
+         function event1(){
+    
+            let dataSend = {
+                'fourRut': $('#rut').val(),
+                'phone': getUrlParameter('telefono'),
+                'landing_id': {!! $landing->id !!},
+            } 
+            
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+            $.post( "/validateRut", dataSend,function() {
+                console.log(dataSend);
+            })
+            .done(function(e) {
+                console.log(e);
+                e = JSON.parse(e); 
+
+                if(e.code == 200){
+                    $('#cont1').addClass('hide');
+                    $('#name').text(e.data.nombre);
+                    $('#pay').text(e.data.monto);
+                    $('#cont2').removeClass('hide');
+                    $('#date1').on('change', function(){
+                        if($('#date1').val() != ''){
+                            sendMail();
+                        }
+                    });
+                }else{
+                    $('#cont1').addClass('hide');
+                     $('#cont5').removeClass('hide');
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
+                }
+            })
+            .fail(function() {
+                console.log( "error" );
+            });
+
+        }
+        
+
+        let eventosLanding = function(name){
+            
+            let json_datos = getAllUrlParameter(); 
+
+            json_datos.nombre = getUrlParameter('nombre');
+            json_datos.rut = getUrlParameter('rut');
+            json_datos.telefono = getUrlParameter('Telefono');
+            json_datos.fecha = $('#date1').val();
+           // json_datos.monto = $('#pay').text();
+
+            events({    
+                'name': name,
+                'landing_id': {!! $landing->id !!},
+                'json_datos': JSON.stringify(json_datos)
+            });
+        }
+
+     
+
+        function sendMail(msg = false){
+
+            console.log('{!! $landing->name !!}'); 
+            
+            let data; 
+            if(msg !== false){
+                data = {
+                    'mensaje': msg,
+                    'Nombre': getUrlParameter('nombre'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Marca': getUrlParameter('data1'),
+                    'Periodo': getUrlParameter('data2'),
+                    'landing': '{!! $landing->name !!}'
+                   
+                    
+                }
+            }else{
+                let date = $('#date1').val();
+                data = {
+                    'fecha': date,
+                    'Nombre': getUrlParameter('nombre'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Marca': getUrlParameter('data1'),
+                    'Periodo': getUrlParameter('data2'),
+                    'landing': '{!! $landing->name !!}'
+                } 
+            }
+
+              var correo = ["carla.torres@amicar.cl"];
+            let dataSend = {
+                'data': JSON.stringify(data),
+                'email': correo
+               // 'email': '{!! $landing->email !!}'
+                //'email': "carla.torres@amicar.cl jesus.binteraction@gmail.com"
+            }
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+            $.post( "/sendMail", dataSend,function() {
+                console.log(dataSend);
+                if(msg !== false){
+                    $('#message').removeClass('hide');
+                     $('#cont1').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                }else{
+                    $('#message').removeClass('hide');
+                     $('#cont1').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Gracias, Su visita fue agendada.  Nos pondremos en contacto con usted en los próximos días');
+                     eventosLanding('Agendo Visita');
+                }
+            })
+            .done(function(e) {
+                console.log(e);
+            })
+            .fail(function() {
+                console.log( "error" );
+            });
+
+        }
+
+        let events = function(data){     
+
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+
+            $.post( "/events", data, function() {
+                
+            })
+            .done(function(e) {
+                console.log(e);
+                console.log(e.msg);
+             
+            })
+            .fail(function(e) {
+                console.log(e);               
+            });
+
+        }
+
+        let getUrlParameter = function(sParam) {
+            var sPageURL = window.location.search.substring(1),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+            for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            if (sParameterName[0].toLowerCase() === sParam.toLowerCase()) {
+                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+            }
+            }
+        };
+
+        let getAllUrlParameter = function() {
+            var sPageURL = window.location.search.substring(1),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+            let obj = {}; 
+
+            for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            obj[sParameterName[0].toLowerCase()] = sParameterName[1];            
+            }
+
+            return obj;  
+        };
+       
+    
+    </script>
+    
+
+@endsection
