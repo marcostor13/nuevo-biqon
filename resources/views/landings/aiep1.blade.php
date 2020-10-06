@@ -47,15 +47,17 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.p-5 {
 
+    padding: 40px 40px; 
+}
     
 </style>
 
 <!-- HEAD -->
 
  <div class="oscurecer p-3">
-        <div id="head" class="p-1 pl-1 pr-1 "> <a href="#"> <img class="img-fluid col-7 col-md-10" src="{{$landing->logo}}" alt="AIEP">
-
+        <div id="head" class="p-1 pl-1 pr-1 "> <a href="#"> <img class="img-fluid col-2 col-md-4" src="{{$landing->logos}}" alt="AIEP">
         </div>
 
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
