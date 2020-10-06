@@ -26,7 +26,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-<!--<style type="text/css">
+<style type="text/css">
 *, html, body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -89,7 +89,7 @@ header .clientLogo {
 .page.centered > .wrapper {
   position: relative;
 }
-
+/*
 .popup {
   background-color: rgba(68, 88, 101, 0.5);
   position: absolute;
@@ -482,9 +482,9 @@ body.dark a.btnLink {
   background-image: linear-gradient(180deg, #5AA0A5 0%, #4C87AA 100%);
 }
 /*# sourceMappingURL=styles.css.map */
-}
+}*/
     
-</style>-->
+</style>
 
 <!-- HEAD -->
 
@@ -498,7 +498,7 @@ body.dark a.btnLink {
     <div id="cont1" class="p-5 ">
         <h5 class="text-black text-center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <b><span class="cap"> ##NOMBRE##</b>?</h5>
     </div>
-        <div class="">
+        <div class="page centered">
             <a class="btn bg-success text-white col-5 mt-4" href="https://aiep.athenacampaign.com/p/views/home.html">NO</a>
             <a class="btn bg-success text-white col-5 mt-4" href="https://aiep.athenacampaign.com/p/views/home.html">SI</a>
         </div>
