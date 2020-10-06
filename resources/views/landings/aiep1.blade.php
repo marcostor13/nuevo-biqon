@@ -31,26 +31,8 @@
 .oscurecer {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#6BBDA1), to(#4378AC));
   background-image: linear-gradient(180deg, #6BBDA1 0%, #4378AC 100%);
-  height: 110px;
-  padding: 20px 20px;
-  border-bottom: 1px solid #E6E2E2;
-  z-index: 1;
-  position: fixed;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
-.p-5 {
 
-    padding: 40px 40px; 
-}
     
 </style>
 
@@ -64,10 +46,7 @@
 
 
     <div id="cont1" class="p-5 ">
-        <div>
         <h5 class="text-black text-center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <b><span class="cap"> ##NOMBRE## </span> </b>?</h5>
-    </div>
-        <div >
             <a class="btn bg-success text-white col-5 mt-4" href="#">NO</a>
             <a class="btn bg-success text-white col-5 mt-4" href="#">SI</a>
         </div>
