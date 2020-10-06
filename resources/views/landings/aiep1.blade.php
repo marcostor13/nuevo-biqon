@@ -49,8 +49,8 @@ $enddate1=strtotime("+5 days", $startdate);
     <div id="cont1" class="p-5 ">
         <div class="p-5 ">
     <h5 class="center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) ##NOMBRE## ?</h5>
-            <a class="btn bg-success text-white col-5 mt-4" href="#">NO</a>
-            <a class="btn bg-success text-white col-5 mt-4" href="#">SI</a>
+            <a class="btn bg-success text-white col-5 mt-4" onclick="url(1)">NO</a>
+            <a class="btn bg-success text-white col-5 mt-4" onclick="url(2)">SI</a>
         </div>
 </div>
 
@@ -376,6 +376,49 @@ $enddate1=strtotime("+5 days", $startdate);
         };
        
     
+function url(idButton) {
+
+ switch(idButton) {
+ case 1:
+          $('#cont1').addClass('hide');
+          $('#cont8').removeClass('hide');
+    break;
+
+ case 2:
+          $('#cont1').addClass('hide');
+           $('#name').text(geturlParameter('nombre'));
+          $('#cont2').removeClass('hide');
+    break;
+
+ case 3:
+          $('#cont2').addClass('hide');
+          $('#cont3').removeClass('hide'); 
+    break;
+ case 4:
+          $('#cont2').addClass('hide');
+          $('#cont4').removeClass('hide'); 
+    break;
+    case 5:
+          $('#cont1').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
+          $('#usrbad').removeClass('hide'); 
+    break;
+     case 6:
+          $('#usrbad').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
+          $('#equiv1').removeClass('hide'); 
+    break;
+     case 7:
+          $('#equiv1').addClass('hide');
+           $('#equiv10').addClass('hide');
+          $('#name').text(geturlParameter('nombre'));
+          $('#equiv2').removeClass('hide'); 
+    break;
+default:
+          alert("OPCION INVALIDA.")
+        }
+
+   }
     </script>
     
 
