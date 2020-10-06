@@ -89,7 +89,7 @@ header .clientLogo {
 .page.centered > .wrapper {
   position: relative;
 }
-/*
+
 .popup {
   background-color: rgba(68, 88, 101, 0.5);
   position: absolute;
@@ -115,7 +115,7 @@ header .clientLogo {
   -webkit-box-shadow: 0 0 30px #6c7880;
           box-shadow: 0 0 30px #6c7880;
 }
-
+/*
 footer {
   position: fixed;
   bottom: 0;
@@ -142,6 +142,7 @@ footer span.athenaFooter {
   background-position: right bottom;
   background-repeat: no-repeat;
 }
+*/
 
 i {
   margin-right: 10px;
