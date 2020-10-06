@@ -1,8 +1,14 @@
 
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body><header>
+    <span class="clientLogo"></span>
+    <a class="iconMode" ng-class="{&#39;dark&#39;:darkMode}" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="switchDarkMode()"><img src="./home_files/mode.svg" alt=""></a>
+</header>
+
+<!-- <div ng-if="currentPage=='initial'" class="page centered"> -->
 <div class="page centered" ng-class="{&#39;appear&#39;:currentPage==&#39;initial&#39;, &#39;hideToLeft&#39;:oldPage==&#39;initial&#39;}">
     <div class="wrapper">
         <div class="robotBubble">
-            <p>Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <b><span class="cap">{{clientData.field1}}</span></b>?</p>
+            <p>Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <b><span class="cap" src="{{clientData.field1}}"></span></b>?</p>
         </div>
         <div class="twoButtonsWrapper" ng-if="isGreaterThanCurrentDate(split(clientData.field2, 1))">
             <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;iAmNot&#39;); saveInteraction(1,3,&#39;identidad_incorrecta&#39;);">NO</a>
@@ -19,7 +25,7 @@
 <div class="page centered" ng-class="{&#39;appear&#39;:currentPage==&#39;yesIAm&#39;, &#39;hideToLeft&#39;:oldPage==&#39;yesIAm&#39;}">
     <div class="wrapper">
         <div class="robotBubble">
-            <p class="center">AIEP le informa que la mensualidad de <b>{{split(clientData.field2, 0)}}</b> vence el día <b>{{YMD2DMY(split(clientData.field2, 1))}}</b> por un monto de <b>{{formatNumberCL(clientData.field3)}}</b>.<br>
+            <p class="center">AIEP le informa que la mensualidad de <b src="{{split(clientData.field2, 0)}}"></b> vence el día <b src="{{YMD2DMY(split(clientData.field2, 1))}}"></b> por un monto de <b src="{{formatNumberCL(clientData.field3)}}"></b>.<br>
             <br><br>¿Podrá pagar en la fecha indicada?</p>
         </div>
         <div class="twoButtonsWrapper">
@@ -68,7 +74,7 @@
 <div class="page centered" ng-class="{&#39;appear&#39;:currentPage==&#39;confirmCommitment&#39;, &#39;hideToLeft&#39;:oldPage==&#39;confirmCommitment&#39;}">
     <div class="wrapper">
         <div class="robotBubble">
-            <p>Seleccionó el día <b>{{selectedCommitmentDate.format('LL')}}</b> como fecha de compromiso de pago.</p>
+            <p>Seleccionó el día <b src="{{selectedCommitmentDate.format('LL')}}"></b> como fecha de compromiso de pago.</p>
             <p>Muchas gracias. Que tenga un buen dia. Hasta luego</p>
         </div>
     </div>
@@ -80,8 +86,8 @@
     <div class="wrapper">
         <div class="robotBubble">
             <p>
-                De acuerdo a nuestros registros, desde el día <b>{{YMD2DMY(split(clientData.field2, 1))}}</b> se encuentra(n) <b>{{split(clientData.opcion, 0)}}</b> cuotas(s) pendiente(s) de su <b>{{split(clientData.opcion, 1)}}</b>
-                por un valor de <b>{{formatNumberCL(clientData.field3)}}</b>. ¿Cuando puede efectuar el Pago?
+                De acuerdo a nuestros registros, desde el día <b src="{{YMD2DMY(split(clientData.field2, 1))}}"></b> se encuentra(n) <b src="{{split(clientData.opcion, 0)}}"></b> cuotas(s) pendiente(s) de su <b src="{{split(clientData.opcion, 1)}}"></b>
+                por un valor de <b src="{{formatNumberCL(clientData.field3)}}"></b>. ¿Cuando puede efectuar el Pago?
             </p>
         </div>
         <div id="datepicker" ng-init="initializeCalendar()"></div>
@@ -94,7 +100,7 @@
 <div class="page centered" ng-class="{&#39;appear&#39;:currentPage==&#39;giveMeInformationAboutHim&#39;, &#39;hideToLeft&#39;:oldPage==&#39;giveMeInformationAboutHim&#39;}">
     <div class="wrapper">
         <div class="robotBubble">
-            <p class="center">Conoce Ud a <b><span class="cap">{{clientData.field1}}</span></b>?</p>
+            <p class="center">Conoce Ud a <b><span class="cap" src="{{clientData.field1}}"></span></b>?</p>
         </div>
         <div class="twoButtonsWrapper">
             <a class="btn" href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="goPage(&#39;fillInformationAboutHim&#39;)">SI</a>
@@ -164,3 +170,6 @@
         </div>
     </div>
 </div>
+
+
+</body></html>
