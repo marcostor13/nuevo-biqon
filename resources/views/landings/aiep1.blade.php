@@ -386,7 +386,6 @@ function url(idButton) {
 
  case 2:
           $('#cont1').addClass('hide');
-           $('#name').text(geturlParameter('nombre'));
           $('#cont2').removeClass('hide');
     break;
 
