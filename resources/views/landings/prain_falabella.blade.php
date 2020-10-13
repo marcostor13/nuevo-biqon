@@ -6,6 +6,8 @@
  <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+7 days", $startdate);
+$rol = $_GET['DATA2'];
+$tribunal = $_GET['DATA3'];
 ?>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
@@ -78,10 +80,17 @@ $enddate=strtotime("+7 days", $startdate);
                     <div id="cont2" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h3>
-                             <p class="text-white"> <h4> 
-                            Sabemos que muchos de ustedes, atraviesan momentos de gran incertidumbre y hacen frente a enormes desafíos, debido a los drásticos cambios que se están produciendo como consecuencia de la crisis del COVID-19<br> 
-                            <strong> PRAIN ABOGADOS </strong> por orden de <strong> CMR FALABELLA</strong>, informa que tiene una cuenta pendiente, si requiere información le ofecemos las siguientes opciones: </p>
+                                <h3 class="text-grey text-center"> Señor (a): <strong> <span id="name"></span></strong> </h3>
+                             <p class="text-white"> <h4> De nuestra consideración: <br>
+
+     Informamos a usted que a la fecha, mantiene una deuda pendiente con nuestro cliente CMR FALABELLA.<br>
+ 
+     Asimismo, ponemos en su conocimiento que hemos iniciado las acciones judiciales para cobro, encontrándose, por ello, en actual tramitación, una demanda ejecutiva ingresada ante el   <strong> <?php echo $tribunal; ?></strong> de COMUNA JUZGADO ,cuyo rol es el   <strong> <?php echo $rol; ?> </strong>
+
+     Es del caso que nos acercamos a usted, con el propósito de ofrecer la posibilidad de pagar dicha deuda en condiciones más beneficiosas que las que resultan de los términos contenidos en la demanda ya aludida.<br>
+                          
+                          </h4>
+                             </p>
                                 <!--<p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> -->
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <!--<h4 class="text-grey text-center"> Seleccione una Opcion </h4>-->
