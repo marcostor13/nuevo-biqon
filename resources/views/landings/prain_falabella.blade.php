@@ -81,11 +81,11 @@ $tribunal = $_GET['DATA3'];
                         <div class="card">     
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Señor (a): <strong> <span id="name"></span></strong> </h3>
-                             <p class="text-white"> <h4> De nuestra consideración: <br>
+                             <p class="text-white"> <h4> De nuestra consideración: <br><br>
 
-     Informamos a usted que a la fecha, mantiene una deuda pendiente con nuestro cliente CMR FALABELLA.<br>
+     Informamos a usted que a la fecha, mantiene una deuda pendiente con nuestro cliente CMR FALABELLA.<br><br>
  
-     Asimismo, ponemos en su conocimiento que hemos iniciado las acciones judiciales para cobro, encontrándose, por ello, en actual tramitación, una demanda ejecutiva ingresada ante el   <strong> <?php echo $tribunal; ?></strong> de COMUNA JUZGADO ,cuyo rol es el   <strong> <?php echo $rol; ?> </strong>
+     Asimismo, ponemos en su conocimiento que hemos iniciado las acciones judiciales para cobro, encontrándose, por ello, en actual tramitación, una demanda ejecutiva ingresada ante el   <strong> <?php echo $tribunal; ?></strong> de COMUNA JUZGADO ,cuyo rol es el   <strong> <?php echo $rol; ?> </strong><br><br>
 
      Es del caso que nos acercamos a usted, con el propósito de ofrecer la posibilidad de pagar dicha deuda en condiciones más beneficiosas que las que resultan de los términos contenidos en la demanda ya aludida.<br>
                           
