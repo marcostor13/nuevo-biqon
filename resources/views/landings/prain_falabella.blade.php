@@ -6,9 +6,9 @@
  <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+7 days", $startdate);
-$rol = $_GET['DATA2'];
-$tribunal = $_GET['DATA3'];
-$comuna = $_GET['DATA4'];
+//$rol = $_GET['DATA2'];
+//$tribunal = $_GET['DATA3'];
+//$comuna = $_GET['DATA4'];
 ?>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
@@ -86,7 +86,7 @@ $comuna = $_GET['DATA4'];
 
      Informamos a usted que a la fecha, mantiene una deuda pendiente con nuestro cliente CMR FALABELLA.<br><br>
  
-     Asimismo, ponemos en su conocimiento que hemos iniciado las acciones judiciales para cobro, encontrándose, por ello, en actual tramitación, una demanda ejecutiva ingresada ante el   <strong> <?php echo $tribunal; ?></strong> de <strong> <?php echo $comuna; ?> </strong> ,cuyo rol es el   <strong> <?php echo $rol; ?> </strong><br><br>
+     <!--Asimismo, ponemos en su conocimiento que hemos iniciado las acciones judiciales para cobro, encontrándose, por ello, en actual tramitación, una demanda ejecutiva ingresada ante el   <strong> <?php //echo $tribunal; ?></strong> de <strong> <?php //echo $comuna; ?> </strong> ,cuyo rol es el   <strong> <?php// echo $rol; ?> </strong><br><br>-->
 
      Es del caso que nos acercamos a usted, con el propósito de ofrecer la posibilidad de pagar dicha deuda en condiciones más beneficiosas que las que resultan de los términos contenidos en la demanda ya aludida.<br>
                           
