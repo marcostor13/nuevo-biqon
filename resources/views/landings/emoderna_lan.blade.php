@@ -77,7 +77,7 @@
                     <div id="cont2" class="p-2 pl-3 pr-3 "><!--HIDE-->
                         <div class="card">     
                             <div class="card-body">
-                             <h4 class="text-black text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h4>
+                             <h5 class="text-black text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h5>
                             <p class="text-black"> 
                               <strong>INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA </strong> <br>
                               Le invitamos a realizar el pago de su(s) cuota(s) pendiente(s) mediante transferencia electrónica:
@@ -91,7 +91,7 @@
                                 Correo: cobranzas@emoderna.cl <br>
                                 <br>
 
-                                una vez realizada tu tranferencia de el pago de su(s) cuota(s) pendiente(s) enviar comprobante al correo de cobranzas<br>
+                                Una vez realizada tu tranferencia de el pago de su(s) cuota(s) pendiente(s) enviar comprobante al correo de cobranzas<br>
                                 Correo: cobranzas@emoderna.cl <br>
                             </p>
 
