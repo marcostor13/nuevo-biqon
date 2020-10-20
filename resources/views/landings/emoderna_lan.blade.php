@@ -79,7 +79,8 @@
                             <div class="card-body">
                              <h4 class="text-black text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h4>
                             <p class="text-black"> 
-                              <strong>INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA </strong> Le informa que su cuota se encuentra pendiente de pago, le invitamos a realizar el pago en linea o solicitar informacion:
+                              <strong>INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA </strong> <br>
+                              Le invitamos a realizar el pago de su(s) cuota(s) pendiente(s) mediante transferencia electrónica:
                               <br>
                                <br>
                               Para Realizar su pago cuota EMODERNA mediante transferencia: <br>
@@ -88,7 +89,10 @@
                                Cuenta Corriente:  1640663409 <br>
                                 RUT:  78206800-8   <br>
                                 Correo: cobranzas@emoderna.cl <br>
+                                <br>
 
+                                una vez realizada tu tranferencia de el pago de su(s) cuota(s) pendiente(s) enviar comprobante al correo de cobranzas<br>
+                                Correo: cobranzas@emoderna.cl <br>
                             </p>
 
 
