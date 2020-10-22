@@ -129,16 +129,16 @@ $enddate1=strtotime("+5 days", $startdate);
             <p class="center">Por favor indicar el motivo de su atraso</p>
         </div>
         <ul>
-            <li ng-class="{&#39;selected&#39;:selectedReason==&#39;reason1&#39;}"> <a href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="selectReason(&#39;reason1&#39;, &#39;Cesante&#39;)"> Cesante</a></li>
-            <li ng-class="{&#39;selected&#39;:selectedReason==&#39;reason2&#39;}"> <a href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="selectReason(&#39;reason2&#39;, &#39;Problema_economico&#39;)"> Problema económico</a></li>
-            <li ng-class="{&#39;selected&#39;:selectedReason==&#39;reason3&#39;}"> <a href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="selectReason(&#39;reason3&#39;, &#39;Problema_salud&#39;)"> Problema de salud</a></li>
-            <li ng-class="{&#39;selected&#39;:selectedReason==&#39;reason4&#39;}"> <a href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="selectReason(&#39;reason4&#39;, &#39;Crédito&#39;)"> Crédito</a></li>
-            <li ng-class="{&#39;selected&#39;:selectedReason==&#39;reason5&#39;}"> <a href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="selectReason(&#39;reason5&#39;, &#39;Reclamo&#39;)"> Reclamo</a></li>
-            <li ng-class="{&#39;selected&#39;:selectedReason==&#39;reason6&#39;}"> <a href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="selectReason(&#39;reason6&#39;, &#39;Ya_pagó&#39;)"> Ya pagó</a></li>
-            <li ng-class="{&#39;selected&#39;:selectedReason==&#39;reason7&#39;}"> <a href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="selectReason(&#39;reason7&#39;, &#39;No_tengo_cupón&#39;)"> No tengo cupón</a></li>
-            <li ng-class="{&#39;selected&#39;:selectedReason==&#39;reason8&#39;}"> <a href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="selectReason(&#39;reason8&#39;, &#39;Siniestro&#39;)"> Siniestro</a></li>
-            <li ng-class="{&#39;selected&#39;:selectedReason==&#39;reason9&#39;}"> <a href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="selectReason(&#39;reason9&#39;, &#39;Olvido&#39;)"> Olvido</a></li>
-            <li ng-class="{&#39;selected&#39;:selectedReason==&#39;reason10&#39;}"><a href="https://aiep.athenacampaign.com/p/views/home.html" ng-click="selectReason(&#39;reason10&#39;, &#39;&#39;)"> Otra</a></li>
+            <li > Cesante</li>
+            <li > Problema económico</li>
+            <li > Problema de salud</li>
+            <li > Crédito</li>
+            <li > Reclamo</li>
+            <li > Ya pagó</li>
+            <li > No tengo cupón</li>
+            <li > Siniestro</li>
+            <li > Olvido</li>
+            <li > Otra</li>
         </ul>
         <textarea placeholder="Ingresa tu motivo de no pago (máximo 200 caracteres)" maxlength="200"></textarea>
         <a class="btn bg-success text-white col-12 mt-4"  href="#">Continuar</a>
