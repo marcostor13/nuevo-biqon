@@ -45,7 +45,7 @@ $codigo = $_GET['DATA2'];
                 <p class="text-black">  
                     De nuestra consideración; <br>
                     <br>
-                    Nuestro cliente MUNDO CREDITO es consciente de la situación actual del país y por tal motivo reiteramos la importancia de mantener la comunicación y lograr brindar la mejor asesoría y respuesta para la regularización de su financiamiento.
+                    Nuestro cliente <strong>  MUNDO CREDITO </strong> es consciente de la situación actual del país y por tal motivo reiteramos la importancia de mantener la comunicación y lograr brindar la mejor asesoría y respuesta para la regularización de su financiamiento.
                     <br>
                     Informamos a usted que se procederá  a interponer  acciones de cobranza en su contra por la deuda que mantiene vigente de su crédito Automotriz correspondiente al código: <?php echo $codigo; ?>
                     <br>
