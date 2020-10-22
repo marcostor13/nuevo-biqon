@@ -47,7 +47,7 @@ $codigo = $_GET['DATA2'];
                     <br>
                     Nuestro cliente <strong>  MUNDO CREDITO </strong> es consciente de la situación actual del país y por tal motivo reiteramos la importancia de mantener la comunicación y lograr brindar la mejor asesoría y respuesta para la regularización de su financiamiento.
                     <br>
-                    Informamos a usted que se procederá  a interponer  acciones de cobranza en su contra por la deuda que mantiene vigente de su crédito Automotriz correspondiente al código: <?php echo $codigo; ?>
+                    Informamos a usted que se procederá  a interponer  acciones de cobranza en su contra por la deuda que mantiene vigente de su crédito Automotriz correspondiente al código: <strong> <?php echo $codigo; ?> </strong>
                     <br>
                     Le recordamos que el contrato de Prenda sin desplazamiento firmado por usted y la Ley 20.190, contienen una cláusula de aceleración que estipula que el no pago de dos o más cuotas hará exigible el total de la deuda.
                     <br>
