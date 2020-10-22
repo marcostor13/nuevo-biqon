@@ -270,7 +270,7 @@ $codigo = $_GET['DATA2'];
          var rut; 
          rut= getUrlParameter('rut'); 
    window.location.href = "mailto:anavella@prainabogados.cl?subject=Pago%20de%20Cuenta%20%20RUT:%20"+rut;
-    
+     }  
     </script>
     
 
