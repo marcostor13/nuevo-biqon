@@ -136,9 +136,8 @@ $monto=$_GET["MONTO"];
 
 <div id="cont7" class="p-5 hide">
     <div class="p-5 ">
-            <p>
-                   
-    <h5 class="text-black text-center"> <br>De acuerdo a nuestros registros, desde el día 
+
+        <h5 class="text-black text-center"> <br>De acuerdo a nuestros registros, desde el día 
       <span id="enddate"><?php echo $cadena_fecha; ?></span>
         se encuentra(n)
      <span id="num_cuota"> <?php echo $num_cuota; ?></span>
@@ -149,7 +148,10 @@ $monto=$_GET["MONTO"];
      por un valor de 
     <span id="monto">  <?php echo $monto; ?></span>
       . Cuando puede efectuar el Pago? <br></h5>
-            </p>
+          <!--  <p>
+                De acuerdo a nuestros registros, desde el día <b> ##FECHA##</b> se encuentra(n) <b> ##NCUOTAS##</b> cuotas(s) pendiente(s) de su <b>> ##CARRERA##</b>
+                por un valor de <b> ##MONTO##</b>. ¿Cuando puede efectuar el Pago?
+            </p>-->
         </div>
         <div id="datepicker" ng-init="initializeCalendar()"></div>
         <a class="btn bg-success text-white col-12 mt-4" onclick="url(3)" >Seleccionar fecha</a>
