@@ -39,13 +39,10 @@ $monto=$_GET["MONTO"];
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="js/jquery-ui-datepicker.min.js"></script>
 <script>
-    $('#calendar').datepicker({
-        inline: true,
-        firstDay: 1,
-        showOtherMonths: true,
-        dayNamesMin: ['DOM', 'LUN', 'MAR', 'MIE', 'JUE', 'VIE', 'SAB']
-    });
-</script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
 <style type="text/css">
 
 
@@ -258,7 +255,7 @@ $monto=$_GET["MONTO"];
             <p class="center">¿Nos podría indicar una fecha de pago?</p>
         </div>
 
-        <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
+        <p>FECHA: <input type="text" id="datepicker"></p>
         <!--<div class="date btn bg-date text-black col-12 mt-4">
                     <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/512px-Google_Calendar_icon.svg.png">  
 
