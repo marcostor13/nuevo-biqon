@@ -345,10 +345,10 @@ $enddate1=strtotime("+5 days", $startdate);
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont10').addClass('hide');
-                    $('#cont11').removeClass('hide');
+                     $('#cont4').addClass('hide');
+                    $('#cont6').removeClass('hide');
                     $('#message').text('Gracias, Su visita fue agendada.  Nos pondremos en contacto con usted en los próximos días');
-                     eventosLanding('Agendo Visita');
+                     eventosLanding('Agendo Pago');
                 }
             })
             .done(function(e) {
