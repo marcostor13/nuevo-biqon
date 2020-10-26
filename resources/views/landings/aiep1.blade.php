@@ -43,13 +43,11 @@ $enddate1=strtotime("+5 days", $startdate);
 }
 
 .hideClass{
-    margin-top: 0;
     animation-name: hideFrame;
     animation-duration: 1s;
 }
 
 .showClass{
-    margin-top: -100vh;
     animation-name: showFrame;
     animation-duration: 1s; 
 }
