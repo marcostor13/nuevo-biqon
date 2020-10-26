@@ -152,25 +152,25 @@ $enddate=strtotime("+5 days", $startdate);
             <p class="center">Por favor indicar el motivo de su atraso</p>
         </div>
 
-        <button onclick='sendMail("El cliente indica que la razon es Cesante"); eventolanding("Cesante"); ' class="btn bg-danger text-white col-5 mt-4"> Cesante </button>
+        <button onclick='url23();  eventolanding("Cesante"); ' class="btn bg-danger text-white col-5 mt-4"> Cesante </button>
 
-        <button onclick='sendMail("El cliente indica que la razon es Problemas Salud"); eventolanding("Problemas Economicos"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Económicos</button>
+        <button onclick='url23();  eventolanding("Problemas Economicos"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Económicos</button>
 
-        <button onclick='sendMail("El cliente indica que la razon es Problemas Salud"); eventolanding("Problemas Salud"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Salud</button>
+        <button onclick='url23();  eventolanding("Problemas Salud"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Salud</button>
 
-        <button onclick='sendMail("El cliente indica que la razon es Credito"); eventolanding("Credito"); ' class="btn bg-danger text-white col-5 mt-4"> Crédito</button>
+        <button onclick='url23();  eventolanding("Credito"); ' class="btn bg-danger text-white col-5 mt-4"> Crédito</button>
 
-        <button onclick='sendMail("El cliente indica que la razon es Reclamo"); eventolanding("Reclamo"); ' class="btn bg-danger text-white col-5 mt-4"> Reclamo</button>
+        <button onclick='url23();  eventolanding("Reclamo"); ' class="btn bg-danger text-white col-5 mt-4"> Reclamo</button>
 
-        <button onclick='sendMail("El cliente indica que la razon es Ya Pago "); eventolanding("Ya Pago"); ' class="btn bg-danger text-white col-5 mt-4"> Ya Pago </button>
+        <button onclick='url23();  eventolanding("Ya Pago"); ' class="btn bg-danger text-white col-5 mt-4"> Ya Pago </button>
 
-        <button onclick='sendMail("El cliente indica que la razon es  No Tengo Cupon "); eventolanding("No Tengo Cupon"); ' class="btn bg-danger text-white col-5 mt-4"> No Tengo Cupón </button>
+        <button onclick='url23();  eventolanding("No Tengo Cupon"); ' class="btn bg-danger text-white col-5 mt-4"> No Tengo Cupón </button>
 
-        <button onclick='sendMail("El cliente indica que la razon es Sinistro "); eventolanding("Siniestro"); ' class="btn bg-danger text-white col-5 mt-4"> Siniestro</button>
+        <button onclick='url23();  eventolanding("Siniestro"); ' class="btn bg-danger text-white col-5 mt-4"> Siniestro</button>
 
-        <button onclick='sendMail("El cliente indica que la razon es Olvido "); eventolanding("Olvido"); ' class="btn bg-danger text-white col-5 mt-4"> Olvido</button>
+        <button onclick='url23();  eventolanding("Olvido"); ' class="btn bg-danger text-white col-5 mt-4"> Olvido</button>
 
-        <button onclick='sendMail("El cliente indica que la razon es Desconocida"); eventolanding("Desconocida"); ' class="btn bg-danger text-white col-5 mt-4"> Desconocida</button>
+        <button onclick='url23(); eventolanding("Desconocida"); ' class="btn bg-danger text-white col-5 mt-4"> Desconocida</button>
 
 </div>
 
@@ -529,6 +529,20 @@ default:
          //rut= geturlParameter('rut');
             swal({
              title: `Gracias por su tiempo.`,
+             type: "success",
+             timer: 3000
+        }, 
+        function(){
+             window.location.href = "https://www.aiep.cl/";
+        })
+        }
+
+
+function url23(){ //tarifa
+       // var rut; 
+         //rut= geturlParameter('rut');
+            swal({
+             title: `Entiendo. Le informamos que tenemos alternativas para regularizar su deuda.`,
              type: "success",
              timer: 3000
         }, 
