@@ -179,7 +179,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
                 <div class="text-black col-md-11">
-                <label id="label" class="col-md-3">56 9</label><input id="telf"  type="number" class=" text-black col-4" maxlength="8" required="required"/>
+                <input id="telf"  type="number" class="form-control mt-4 text-center text-black" maxlength="8" required="required"/>
                 </div>
                 <br> 
                 <div class="text-black col-md-12">
@@ -187,7 +187,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 </div>
                  <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required="required">
 
-                <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
+               <!-- <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>-->
 
                 <button onclick='urldatos();' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
                 <br>
