@@ -351,7 +351,7 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont4').addClass('hide');
                     $('#cont6').removeClass('hide');
-                    $('#datesel').text('#date1').val();
+                    $('#datesel').#date1.val();
                     $('#message').text('Gracias, Su visita fue agendada.  Nos pondremos en contacto con usted en los próximos días');
                      eventosLanding('Agendo Pago');
                 }
