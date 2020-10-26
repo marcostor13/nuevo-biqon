@@ -137,8 +137,8 @@ $enddate1=strtotime("+5 days", $startdate);
             <p class="center">Conoce Ud a <b><span class="cap">##NOMBRE##</span></b>?</p>
     </div>
     <div class="twoButtonsWrapper">
-            <a class="btn bg-success text-white col-12 mt-4"  href="#" >SI</a>
-            <a class="btn bg-success text-white col-12 mt-4"  href="#" >NO</a>
+            <a class="btn bg-success text-white col-12 mt-4"  onclick="url(5)" >SI</a>
+            <a class="btn bg-success text-white col-12 mt-4"  onclick="url(6)" >NO</a>
     </div>
 </div>
 
@@ -437,24 +437,23 @@ function url(idButton) {
     break;
     case 5:
 
-          $('#cont1').addClass('hideClass').promise().done(function(){
-              $('#cont1').addClass('hide')
+           $('#cont8').addClass('hideClass').promise().done(function(){
+              $('#cont8').addClass('hide')
           });
-          $('#name').text(geturlParameter('nombre'));
-          $('#usrbad').removeClass('hide').promise().done(function(){              
-              $('#usrbad').addClass('showClass')
+          $('#cont10').removeClass('hide').promise().done(function(){
+              $('#cont10').addClass('showClass')
           });
+
 
 
     break;
      case 6:
 
-          $('#usrbad').addClass('hideClass').promise().done(function(){
-              $('#usrbad').addClass('hide')
+          $('#cont8').addClass('hideClass').promise().done(function(){
+              $('#cont8').addClass('hide')
           });
-          $('#name').text(geturlParameter('nombre'));
-          $('#equiv1').removeClass('hide').promise().done(function(){
-              $('#equiv1').addClass('showClass')
+          $('#cont5').removeClass('hide').promise().done(function(){
+              $('#cont5').addClass('showClass')
           });
 
 
