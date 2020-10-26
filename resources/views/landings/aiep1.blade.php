@@ -162,7 +162,7 @@ $monto=$_GET["MONTO"];
 
 <div id="cont8" class="p-5 hide">
     <div class="p-5 ">
-            <p class="center">Conoce Ud a <b><span class="cap">##NOMBRE##</span></b>?</p>
+            <p class="center">Conoce Ud a <b><strong> <span id="name"> <?php echo $name; ?></span> </strong></b>?</p>
     </div>
     <div class="twoButtonsWrapper">
             <a class="btn bg-success text-white col-12 mt-4"  onclick="url(5)" >SI</a>
