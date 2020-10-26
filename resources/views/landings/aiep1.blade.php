@@ -39,54 +39,7 @@ $monto=$_GET["MONTO"];
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="js/jquery-ui-datepicker.min.js"></script>
 <script>
- var $window = $(window);
-var $month = $('#js-month');
-var $tbody = $('#js-calendar-body');
 
-var today = new Date();
-var currentYear = today.getFullYear(),
-    currentMonth = today.getMonth();
-
-$window.on('load',function(){
-  calendarHeading(currentYear, currentMonth);
-  calendarBody(currentYear, currentMonth, today);
-});
-
-function calendarBody(year, month, today){
-  var todayYMFlag = today.getFullYear() === year && today.getMonth() === month ? true : false;
-  var startDate = new Date(year, month, 1);
-  var endDate  = new Date(year, month + 1 , 0);
-  var startDay = startDate.getDay();
-  var endDay = endDate.getDate();
-  var textSkip = true;
-  var textDate = 1;
-  var tableTd ='';
-  var tableBody ='';
-  
-  for (var row = 0; row < 6; row++){
-    var tr = '<tr>';
-    
-    for (var col = 0; col < 7; col++) {
-      if (row === 0 && startDay === col){
-        textSkip = false;
-      }
-      if (textDate > endDay) {
-        textSkip = true;
-      }
-      var addClass = todayYMFlag && textDate === today.getDate() && !textSkip ? 'is-today' : '';
-      var textTd = textSkip ? '&nbsp;' : textDate++;
-      var td = '<td class="'+addClass+'">'+textTd+'</td>';
-      tr += td;
-    }
-    tr += '</tr>';
-    tableBody += tr;
-  }
-  $tbody.html(tableBody);
-}
-
-function calendarHeading(year, month){
-  $month.text(month + 1);
-}
   </script>
 <style type="text/css">
 
@@ -355,9 +308,56 @@ function calendarHeading(year, month){
 
    <script>
    //EVENT 1
-        $( function() {
-    $( "#datepicker" ).datepicker();
-  } );  
+    var $window = $(window);
+var $month = $('#js-month');
+var $tbody = $('#js-calendar-body');
+
+var today = new Date();
+var currentYear = today.getFullYear(),
+    currentMonth = today.getMonth();
+
+$window.on('load',function(){
+  calendarHeading(currentYear, currentMonth);
+  calendarBody(currentYear, currentMonth, today);
+});
+
+function calendarBody(year, month, today){
+  var todayYMFlag = today.getFullYear() === year && today.getMonth() === month ? true : false;
+  var startDate = new Date(year, month, 1);
+  var endDate  = new Date(year, month + 1 , 0);
+  var startDay = startDate.getDay();
+  var endDay = endDate.getDate();
+  var textSkip = true;
+  var textDate = 1;
+  var tableTd ='';
+  var tableBody ='';
+  
+  for (var row = 0; row < 6; row++){
+    var tr = '<tr>';
+    
+    for (var col = 0; col < 7; col++) {
+      if (row === 0 && startDay === col){
+        textSkip = false;
+      }
+      if (textDate > endDay) {
+        textSkip = true;
+      }
+      var addClass = todayYMFlag && textDate === today.getDate() && !textSkip ? 'is-today' : '';
+      var textTd = textSkip ? '&nbsp;' : textDate++;
+      var td = '<td class="'+addClass+'">'+textTd+'</td>';
+      tr += td;
+    }
+    tr += '</tr>';
+    tableBody += tr;
+  }
+  $tbody.html(tableBody);
+}
+
+function calendarHeading(year, month){
+  $month.text(month + 1);
+}
+
+  
          $(function(){
             events({    
                 'name': 'Visita',
