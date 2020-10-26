@@ -71,7 +71,7 @@ $monto=$_GET["MONTO"];
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
  
  <div class="oscurecer p-5">
-        <div id="head" class="p-1 pl-1 pr-1 "> <a href="#"> <img class="img-fluid col-2 col-md-2" src="{{$landing->logo}}" alt="AIEP"></a>
+        <div id="head" class="p-1 pl-1 pr-1 "> <img style="max-width:60px; max-height:20px"class="img-fluid col-10 col-md-3 mt-0" src="{{$landing->logo}}" alt="AIEP"></a>
         </div>
  </div>
 
