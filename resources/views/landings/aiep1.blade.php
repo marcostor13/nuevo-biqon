@@ -381,8 +381,7 @@ function url(idButton) {
  switch(idButton) {
  case 1:
           console.log("prueba",idButton);
-          $('#cont1').hide("slide",{direction:"up"},1000);
-
+          $('#cont1').hide();
           $('#cont8').removeClass('hide');
     break;
 
