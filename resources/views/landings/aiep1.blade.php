@@ -398,7 +398,6 @@ function url(idButton) {
 
  switch(idButton) {
  case 1:
-          console.log("prueba",idButton);
           $('#cont1').addClass('hideClass').promise().done(function(){
               $('#cont1').addClass('hide')
           });
@@ -408,33 +407,70 @@ function url(idButton) {
     break;
 
  case 2:
-          $('#cont1').addClass('hide');
-          $('#cont7').removeClass('hide');
+           $('#cont1').addClass('hideClass').promise().done(function(){
+              $('#cont1').addClass('hide')
+          });
+          $('#cont7').removeClass('hide').promise().done(function(){
+              $('#cont7').addClass('showClass')
+          });
+
     break;
 
  case 3:
-          $('#cont7').addClass('hide');
-          $('#cont4').removeClass('hide'); 
+          $('#cont7').addClass('hideClass').promise().done(function(){
+              $('#cont7').addClass('hide')
+          });
+          $('#cont4').removeClass('hide').promise().done(function(){
+              $('#cont4').addClass('showClass')
+          });
+
     break;
  case 4:
-          $('#cont7').addClass('hide');
-          $('#cont9').removeClass('hide'); 
+
+          $('#cont7').addClass('hideClass').promise().done(function(){
+              $('#cont7').addClass('hide')
+          });
+          $('#cont9').removeClass('hide').promise().done(function(){
+              $('#cont9').addClass('showClass')
+          });
+
     break;
     case 5:
-          $('#cont1').addClass('hide');
+
+          $('#cont1').addClass('hideClass').promise().done(function(){
+              $('#cont1').addClass('hide')
+          });
           $('#name').text(geturlParameter('nombre'));
-          $('#usrbad').removeClass('hide'); 
+          $('#usrbad').removeClass('hide').promise().done(function(){              
+              $('#usrbad').addClass('showClass')
+          });
+
+
     break;
      case 6:
-          $('#usrbad').addClass('hide');
+
+          $('#usrbad').addClass('hideClass').promise().done(function(){
+              $('#usrbad').addClass('hide')
+          });
           $('#name').text(geturlParameter('nombre'));
-          $('#equiv1').removeClass('hide'); 
+          $('#equiv1').removeClass('hide').promise().done(function(){
+              $('#equiv1').addClass('showClass')
+          });
+
+
     break;
      case 7:
-          $('#equiv1').addClass('hide');
-           $('#equiv10').addClass('hide');
+
+          $('#equiv1').addClass('hideClass').promise().done(function(){
+              $('#equiv1').addClass('hide')
+          });
+          $('#equiv10').addClass('hideClass').promise().done(function(){
+              $('#equiv10').addClass('hide')
+          });
           $('#name').text(geturlParameter('nombre'));
-          $('#equiv2').removeClass('hide'); 
+          $('#equiv2').removeClass('hide').promise().done(function(){
+              $('#equiv2').addClass('showClass')
+          });
     break;
 default:
           alert("OPCION INVALIDA.")
