@@ -21,7 +21,7 @@ $enddate=strtotime("+5 days", $startdate);
 //$name = $_GET["NOMBRE"];
 $name=$_GET['NOMBRE'];
 $Nom_Asistente=$_GET["DATA1"];
-$cadena_fecha $_GET["DATA5"];
+$cadena_fecha=$_GET["DATA5"];
 $num_cuota=$_GET["DATA2"];
 $producto=$_GET["DATA3"];
 $entidad=$_GET["DATA4"];
