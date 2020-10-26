@@ -147,7 +147,7 @@ $enddate1=strtotime("+5 days", $startdate);
     <div class="p-5 ">
             <p class="center">Por favor indicar el motivo de su atraso</p>
         </div>
-        
+
         <button onclick='sendMail("El cliente indica que la razon es Cesante"); eventolanding("Cesante"); ' class="btn bg-danger text-white col-5 mt-4"> Cesante </button>
 
         <button onclick='sendMail("El cliente indica que la razon es Problemas Salud"); eventolanding("Problemas Economicos"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Económicos</button>
@@ -175,14 +175,36 @@ $enddate1=strtotime("+5 days", $startdate);
     <div class="p-5 ">
             <p class="center">Sería tan amable de entregarme alguno de estos datos de contacto?</p>
         </div>
-        <form name="contactForm" novalidate="">
-            <label>Teléfono <span ng-if="contactForm.phone.$invalid">Error</span></label>
-            <input type="text" name="phone" id="phone" ng-model="contact.phone" placeholder="+569" inputmode="tel" maxlength="12">
-            <label>Email <span class="labelError" ng-if="contactForm.email.$invalid">(email inválido)</span></label>
-            <input type="email" name="email" id="email" ng-model="contact.email" placeholder="Ingrese correo electrónico" inputmode="email" maxlength="50">
+        <div class="text-black col-md-12">
+                <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
+                </div>
+                <div class="text-black col-md-11">
+                <label id="label" class="col-md-3">56 9</label><input id="telf"  type="number" class=" text-black form-control input-min-width-95p col-5" maxlength="8" required="required"/>
+                </div>
 
-            <a class="btn bg-success text-white col-12 mt-4"  href="#" oneclick="checkContactData()" "sendMail()">Enviar</a>
-        </form>
+                <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
+
+                <button onclick='url(7);' class="btn bg-danger text-white col-6 mt-4"> CONTINUAR </button>
+                <br> <br>  <br>  <br>
+                <div class="text-black col-md-10">
+                <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
+                </div> 
+                <button onclick='url(7);' class="btn bg-danger text-white col-12 mt-4"> No quiero ingresar </button>
+
+                <div class="text-black col-md-12">
+                <h5 class="text-black text-center"> Favor, ingresar correo</h5>
+                </div>
+                 <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required="required">
+
+                <button id="validate" class="btn bg-warning text-black col-5 mt-4"> VALIDAR </button>
+
+                <button onclick='urldatos();' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
+                <br>
+                <div class="text-black col-md-12">
+                    <br>  <br>  <br>  <br>
+                <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
+                </div>
+                <button onclick='url22(); ' class="btn bg-danger text-white col-10 mt-4"> No quiero ingresar </button>
 </div>
 
 <div id="cont11" class="p-5 hide">
@@ -484,6 +506,25 @@ default:
         }
 
    }
+
+    function  valtlf(){      
+             if ($('#telf').val().length == 8){ 
+               alert("El Largo del telefono es correcto");
+             }else{
+                 alert("El telefono es incorecto");
+             }
+                 }
+
+      $('#validate').click(function() {
+    var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+
+    if (regex.test($('#ecorr').val().trim())) {
+        alert('Correo validado');
+
+    } else {
+        alert('La direccón de correo no es válida');
+    }
+    });
     </script>
     
 
