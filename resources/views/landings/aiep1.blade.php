@@ -167,7 +167,7 @@ $monto=$_GET["MONTO"];
             <h2 class="month-title" id="js-month"></h2>
             <table class="calendar-table">
             <thead>
-                <tr><th>日</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th></tr>
+                <tr><th>DOM</th><th>LUN</th><th>MAR</th><th>MIE</th><th>JUE</th><th>VIE</th><th>SAB</th></tr>
             </thead>
             <tbody id="js-calendar-body"></tbody>
             </table>
@@ -357,7 +357,7 @@ function calendarHeading(year, month){
   $month.text(month + 1);
 }
 
-  
+
          $(function(){
             events({    
                 'name': 'Visita',
