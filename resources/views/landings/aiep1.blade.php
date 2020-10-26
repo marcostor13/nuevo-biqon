@@ -66,7 +66,7 @@ $enddate1=strtotime("+5 days", $startdate);
         </div>
  </div>
 
-    <div id="cont1" class="p-5 todown">
+    <div id="cont1" class="p-5">
         <div class="p-5 ">
     <h5 class="center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) ##NOMBRE## ?</h5>
             <a class="btn bg-success text-white col-5 mt-4" onclick="url(1)">NO</a>
@@ -401,8 +401,12 @@ function url(idButton) {
  switch(idButton) {
  case 1:
           console.log("prueba",idButton);
-          $('#cont1').addClass('toup');
-          $('#cont8').addClass('todown');
+          $('#cont1').addClass('toup').promise().done(function(){
+              $('#cont1').addClass('hide')
+          });
+          $('#cont8').removeClass('hide').promise().done(function(){
+              $('#cont8').addClass('todown')
+          });
     break;
 
  case 2:
