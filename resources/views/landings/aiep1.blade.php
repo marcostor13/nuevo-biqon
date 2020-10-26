@@ -16,12 +16,12 @@ $enddate=strtotime("+5 days", $startdate);
 //$producto="PRODUCTO";
 //$entidad="ENTIDAD";
 //$monto=$_GET["MONTO"];
-$cadena_fecha = "2020-08-20";
+//$cadena_fecha = "2020-08-20";
 
 //$name = $_GET["NOMBRE"];
 $name=$_GET['NOMBRE'];
 $Nom_Asistente=$_GET["DATA1"];
-//$fecha_contrato $_GET["DATA5"];
+$cadena_fecha $_GET["DATA5"];
 $num_cuota=$_GET["DATA2"];
 $producto=$_GET["DATA3"];
 $entidad=$_GET["DATA4"];
@@ -77,7 +77,7 @@ $monto=$_GET["MONTO"];
 
     <div id="cont1" class="p-5">
         <div class="p-5 ">
-    <h5 class="center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <span id="name"> <?php echo $name; ?></span> ?</h5>
+    <h5 class="center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña)<strong> <span id="name"> <?php echo $name; ?></span> </strong>?</h5>
             <a class="btn bg-success text-white col-5 mt-4" onclick="url(1)">NO</a>
             <a class="btn bg-success text-white col-5 mt-4" onclick="url(2)">SI</a>
         </div>
@@ -138,15 +138,15 @@ $monto=$_GET["MONTO"];
     <div class="p-5 ">
 
         <h5 class="text-black text-center"> <br>De acuerdo a nuestros registros, desde el día 
-      <span id="enddate"><?php echo $cadena_fecha; ?></span>
+     <strong> <span id="enddate"><?php echo $cadena_fecha; ?></span> </strong>
         se encuentra(n)
-     <span id="num_cuota"> <?php echo $num_cuota; ?></span>
+     <strong>  <span id="num_cuota"> <?php echo $num_cuota; ?></span> </strong>
       pendiente(s) de su 
-   <span id="producto">  <?php echo $producto; ?> </span>
+   <strong>  <span id="producto">  <?php echo $producto; ?> </span> </strong>
       del 
-   <span id="entidad">   <?php echo $entidad; ?></span> 
+  <strong>   <span id="entidad">   <?php echo $entidad; ?></span> </strong>
      por un valor de 
-    <span id="monto">  <?php echo $monto; ?></span>
+    <strong>  <span id="monto">  <?php echo $monto; ?></span> </strong>
       . Cuando puede efectuar el Pago? <br></h5>
           <!--  <p>
                 De acuerdo a nuestros registros, desde el día <b> ##FECHA##</b> se encuentra(n) <b> ##NCUOTAS##</b> cuotas(s) pendiente(s) de su <b>> ##CARRERA##</b>
