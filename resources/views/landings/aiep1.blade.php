@@ -33,13 +33,13 @@ $enddate1=strtotime("+5 days", $startdate);
   background-image: linear-gradient(180deg, #6BBDA1 0%, #4378AC 100%);
   width: 100%;
 }
-@keyframe toup{
-    from { margin-top: 0 }
-    to { margin-top: -500px } 
+@keyframes toup{
+    0% { margin-top: 0 }
+    100% { margin-top: -500px } 
 }
-@keyframe todown{
-    from { margin-top: -500px }
-    to { margin-top: 0 } 
+@keyframes todown{
+    0% { margin-top: -500px }
+    100% { margin-top: 0 } 
 }
 
 .toup{
