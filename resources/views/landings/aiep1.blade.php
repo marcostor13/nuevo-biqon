@@ -43,12 +43,14 @@ $enddate1=strtotime("+5 days", $startdate);
 }
 
 .toup{
+    margin-top: 0;
     animation-name: toup;
     animation-duration: 1s;
 }
 
 .todown{
-   animation-name: todown;
+    margin-top: -500px;
+    animation-name: todown;
     animation-duration: 1s; 
 }
 
@@ -64,7 +66,7 @@ $enddate1=strtotime("+5 days", $startdate);
         </div>
  </div>
 
-    <div id="cont1" class="p-5 ">
+    <div id="cont1" class="p-5 todown">
         <div class="p-5 ">
     <h5 class="center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) ##NOMBRE## ?</h5>
             <a class="btn bg-success text-white col-5 mt-4" onclick="url(1)">NO</a>
