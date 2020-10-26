@@ -179,24 +179,15 @@ $enddate1=strtotime("+5 days", $startdate);
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
                 </div>
                 <div class="text-black col-md-11">
-                <label id="label" class="col-md-3">56 9</label><input id="telf"  type="number" class=" text-black form-control input-min-width-95p col-5" maxlength="8" required="required"/>
+                <label id="label" class="col-md-3">56 9</label><input id="telf"  type="number" class=" text-black col-4" maxlength="8" required="required"/>
                 </div>
-
-                <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
-
-                <button onclick='url(7);' class="btn bg-danger text-white col-6 mt-4"> CONTINUAR </button>
-                <br> <br>  <br>  <br>
-                <div class="text-black col-md-10">
-                <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
-                </div> 
-                <button onclick='url(7);' class="btn bg-danger text-white col-12 mt-4"> No quiero ingresar </button>
-
+                <br> 
                 <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar correo</h5>
                 </div>
                  <input id="ecorr" type="text" class="form-control mt-4 text-center text-black" required="required">
 
-                <button id="validate" class="btn bg-warning text-black col-5 mt-4"> VALIDAR </button>
+                <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>
 
                 <button onclick='urldatos();' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
                 <br>
