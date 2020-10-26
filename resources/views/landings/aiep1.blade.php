@@ -380,7 +380,7 @@ function url(idButton) {
 
  switch(idButton) {
  case 1:
-          $('#cont1').addClass('hide');
+          $('#cont1').hide("slide",{direction:"up"},1000);
           $('#cont8').removeClass('hide');
     break;
 
