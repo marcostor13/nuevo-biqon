@@ -118,7 +118,7 @@ $enddate=strtotime("+5 days", $startdate);
 
 <div id="cont6" class="p-5 hide">
     <div class="p-5 ">
-            <p>Seleccionó el día <b> ##FECHAPAGO##</b> como fecha de compromiso de pago.</p>
+            <p>Seleccionó el día <b><span id="datesel"> </span></b> como fecha de compromiso de pago.</p>
             <p>Muchas gracias. Que tenga un buen dia. Hasta luego</p>
     </div>
 </div>
@@ -177,7 +177,7 @@ $enddate=strtotime("+5 days", $startdate);
 
 <div id="cont10" class="p-5 hide">
     <div class="p-5 ">
-            <p class="center">Sería tan amable de entregarme alguno de estos datos de contacto?</p>
+            <h5 class="text-black text-center">Sería tan amable de entregarme alguno de estos datos de contacto?</h5>
         </div>
         <div class="text-black col-md-12">
                 <h5 class="text-black text-center"> Favor, ingresar número de teléfono</h5>
@@ -351,6 +351,7 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont4').addClass('hide');
                     $('#cont6').removeClass('hide');
+                    $('#datesel').text('#date1').val();
                     $('#message').text('Gracias, Su visita fue agendada.  Nos pondremos en contacto con usted en los próximos días');
                      eventosLanding('Agendo Pago');
                 }
