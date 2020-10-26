@@ -17,6 +17,17 @@ $enddate=strtotime("+5 days", $startdate);
 //$entidad="ENTIDAD";
 //$monto=$_GET["MONTO"];
 
+
+//$name = $_GET["NOMBRE"];
+$name=$_GET['NOMBRE'];
+$Nom_Asistente=$_GET["DATA1"];
+//$fecha_contrato $_GET["DATA5"];
+$num_cuota=$_GET["DATA2"];
+$producto="PRODUCTO";
+$entidad="ENTIDAD";
+$monto=$_GET["MONTO"];
+
+
 ?>
 
 
@@ -66,7 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
 
     <div id="cont1" class="p-5">
         <div class="p-5 ">
-    <h5 class="center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) ##NOMBRE## ?</h5>
+    <h5 class="center"> Buenos Dias, soy su asistente AIEP Finanzas, es usted Don(ña) <span id="name"> <?php echo $name; ?></span> ?</h5>
             <a class="btn bg-success text-white col-5 mt-4" onclick="url(1)">NO</a>
             <a class="btn bg-success text-white col-5 mt-4" onclick="url(2)">SI</a>
         </div>
@@ -126,8 +137,18 @@ $enddate=strtotime("+5 days", $startdate);
 <div id="cont7" class="p-5 hide">
     <div class="p-5 ">
             <p>
-                De acuerdo a nuestros registros, desde el día <b> ##FECHA##</b> se encuentra(n) <b> ##NCUOTAS##</b> cuotas(s) pendiente(s) de su <b>> ##CARRERA##</b>
-                por un valor de <b> ##MONTO##</b>. ¿Cuando puede efectuar el Pago?
+                   
+    <h5 class="text-black text-center"> <br>De acuerdo a nuestros registros, desde el día 
+      <span id="enddate"><?php echo $cadena_fecha; ?></span>
+        se encuentra(n)
+     <span id="num_cuota"> <?php echo $num_cuota; ?></span>
+      pendiente(s) de su 
+   <span id="producto">  <?php echo $producto; ?> </span>
+      del 
+   <span id="entidad">   <?php echo $entidad; ?></span> 
+     por un valor de 
+    <span id="monto">  <?php echo $monto; ?></span>
+      . Cuando puede efectuar el Pago? <br></h5>
             </p>
         </div>
         <div id="datepicker" ng-init="initializeCalendar()"></div>
