@@ -116,7 +116,7 @@ function calendarHeading(year, month){
 }
 
 
-.calendar
+.calendar{
     position absolute
     width 100%
     height 100%
@@ -125,7 +125,8 @@ function calendarHeading(year, month){
     padding-top 15%
     border 10px solid #fff
     font-family 'Josefin Sans', sans-serif
-    .month-title
+    }
+    .month-title{
         position absolute
         top -0.4em
         left -0.3em
@@ -135,27 +136,31 @@ function calendarHeading(year, month){
         letter-spacing 0
         color #fff
         opacity .15
-    .calendar-table
+        }
+    .calendar-table{
         position absolute
         width 100%
         height 85%
         border-collapse collapse
         color #fff
-        th, td
+        }
+        th, td{
             text-align center
             font-size 16px
-        td
+            }
+        td{
             cursor pointer
             transition opacity .3s ease
             &:not(.is-today)
                 opacity .5
             &:hover
                 opacity 1
-    .is-today
+                }
+    .is-today{
         opacity 1
         background-color #fff
         color $color-2
-
+}
     
 </style>
 
