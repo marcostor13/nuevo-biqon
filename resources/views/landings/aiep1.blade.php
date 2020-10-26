@@ -16,7 +16,7 @@ $enddate=strtotime("+5 days", $startdate);
 //$producto="PRODUCTO";
 //$entidad="ENTIDAD";
 //$monto=$_GET["MONTO"];
-
+$cadena_fecha = "2020-08-20";
 
 //$name = $_GET["NOMBRE"];
 $name=$_GET['NOMBRE'];
