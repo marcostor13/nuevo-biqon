@@ -5,8 +5,8 @@
 @section('content')
 <?php
 $startdate=strtotime("Today");
-$enddate=strtotime("+2 days", $startdate);
-$enddate1=strtotime("+5 days", $startdate);
+//$enddate=strtotime("+2 days", $startdate);
+$enddate=strtotime("+5 days", $startdate);
 
 //$name = $_GET["NOMBRE"];
 //$name=$_GET['NOMBRE'];
@@ -85,15 +85,15 @@ $enddate1=strtotime("+5 days", $startdate);
 
 <div id="cont3" class="p-5 hide">
     <div class="p-5 ">
-            <p>Muchas gracias. Le recordamos que puede pagar en </p><br>
-            <p>
+            <p>Muchas gracias. </p><br>
+           <!-- <p>
                 <a class="btnLink" href="https://bit.ly/3btocnI">Zumpago</a>
                 <a class="btnLink" href="https://portalpago.aiep.cl/">Portal de pago AIEP</a>
                 <a class="btnLink" href="https://www.sencillito.com/">Sencillito</a>
                 <a class="btnLink" href="https://www.servipag.cl/">Servipag</a>
                 <a class="btnLink" href="https://www.unired.cl/">Unired</a>
             </p><br>
-            <p>Además del pago presencial en ServiFácil, Sencillito, Unired, ServiEstado y CajaVecina</p>
+            <p>Además del pago presencial en ServiFácil, Sencillito, Unired, ServiEstado y CajaVecina</p>-->
     </div>
 </div>
 
@@ -102,8 +102,12 @@ $enddate1=strtotime("+5 days", $startdate);
             <p class="center">¿Nos podría indicar una fecha de pago?</p>
         </div>
         <div class="date btn bg-date text-black col-12 mt-4">
-                    <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/512px-Google_Calendar_icon.svg.png">  <input id="date1"  type="date" class="btn-date text-black col-10 "  style="height : 30px ;border: 1px;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/512px-Google_Calendar_icon.svg.png">  
+
+                    <input id="date1"  type="date" class="btn-date text-black col-10 "  style="height : 30px ;border: 1px;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
+
+                <button onclick="sendMail(); eventolanding('Compromiso de Pago'); return false;" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
 </div>
 
 <div id="cont5" class="p-5 hide">
@@ -200,7 +204,7 @@ $enddate1=strtotime("+5 days", $startdate);
 
 <div id="cont11" class="p-5 hide">
     <div class="p-5 ">
-            <p>Gracias por la información de contacto, le agradecemos su ayuda</p>
+            < <h5 id="messages"class="text-grey text-center mt-4 "></h5>
     </div>
 </div>
 
