@@ -39,9 +39,54 @@ $monto=$_GET["MONTO"];
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="js/jquery-ui-datepicker.min.js"></script>
 <script>
-  $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
+ var $window = $(window);
+var $month = $('#js-month');
+var $tbody = $('#js-calendar-body');
+
+var today = new Date();
+var currentYear = today.getFullYear(),
+    currentMonth = today.getMonth();
+
+$window.on('load',function(){
+  calendarHeading(currentYear, currentMonth);
+  calendarBody(currentYear, currentMonth, today);
+});
+
+function calendarBody(year, month, today){
+  var todayYMFlag = today.getFullYear() === year && today.getMonth() === month ? true : false;
+  var startDate = new Date(year, month, 1);
+  var endDate  = new Date(year, month + 1 , 0);
+  var startDay = startDate.getDay();
+  var endDay = endDate.getDate();
+  var textSkip = true;
+  var textDate = 1;
+  var tableTd ='';
+  var tableBody ='';
+  
+  for (var row = 0; row < 6; row++){
+    var tr = '<tr>';
+    
+    for (var col = 0; col < 7; col++) {
+      if (row === 0 && startDay === col){
+        textSkip = false;
+      }
+      if (textDate > endDay) {
+        textSkip = true;
+      }
+      var addClass = todayYMFlag && textDate === today.getDate() && !textSkip ? 'is-today' : '';
+      var textTd = textSkip ? '&nbsp;' : textDate++;
+      var td = '<td class="'+addClass+'">'+textTd+'</td>';
+      tr += td;
+    }
+    tr += '</tr>';
+    tableBody += tr;
+  }
+  $tbody.html(tableBody);
+}
+
+function calendarHeading(year, month){
+  $month.text(month + 1);
+}
   </script>
 <style type="text/css">
 
@@ -70,142 +115,47 @@ $monto=$_GET["MONTO"];
     animation-duration: .5s; 
 }
 
-.ui-datepicker,
-.ui-datepicker table,
-.ui-datepicker tr,
-.ui-datepicker td,
-.ui-datepicker th {
-    margin: 0;
-    padding: 0;
-    border: none;
-    border-spacing: 0;
-}
-.ui-datepicker {
-    display: none;
-    width: 294px;
-    padding: 35px;
-    cursor: default;
- 
-    text-transform: uppercase;
-    font-family: Tahoma;
-    font-size: 12px;
- 
-    background: #141517;
- 
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
- 
-    -webkit-box-shadow: 0px 1px 1px rgba(255,255,255, .1), inset 0px 1px 1px rgb(0,0,0);
-    -moz-box-shadow: 0px 1px 1px rgba(255,255,255, .1), inset 0px 1px 1px rgb(0,0,0);
-    box-shadow: 0px 1px 1px rgba(255,255,255, .1), inset 0px 1px 1px rgb(0,0,0);
-}
-.ui-datepicker-header {
-    position: relative;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #d6d6d6;
-}
- 
-.ui-datepicker-title { text-align: center; }
- 
-.ui-datepicker-month {
-    position: relative;
-    padding-right: 15px;
-    color: #565656;
-}
- 
-.ui-datepicker-year {
-    padding-left: 8px;
-    color: #a8a8a8;
-}
-.ui-datepicker-month:before {
-    display: block;
-    position: absolute;
-    top: 5px;
-    right: 0;
-    width: 5px;
-    height: 5px;
-    content: '';
- 
-    background: #a5cd4e;
-    background: -moz-linear-gradient(top, #a5cd4e 0%, #6b8f1a 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a5cd4e), color-stop(100%,#6b8f1a));
-    background: -webkit-linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
-    background: -o-linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
-    background: -ms-linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
-    background: linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
- 
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-}
-.ui-datepicker-prev,
-.ui-datepicker-next {
-    position: absolute;
-    top: -2px;
-    padding: 5px;
-    cursor: pointer;
-}
- 
-.ui-datepicker-prev {
-    left: 0;
-    padding-left: 0;
-}
- 
-.ui-datepicker-next {
-    right: 0;
-    padding-right: 0;
-}
- 
-.ui-datepicker-prev span,
-.ui-datepicker-next span{
-    display: block;
-    width: 5px;
-    height: 10px;
-    text-indent: -9999px;
- 
-    background-image: url(../img/arrows.png);
-}
- 
-.ui-datepicker-prev span { background-position: 0px 0px; }
- 
-.ui-datepicker-next span { background-position: -5px 0px; }
- 
-.ui-datepicker-prev-hover span { background-position: 0px -10px; }
- 
-.ui-datepicker-next-hover span { background-position: -5px -10px; }
 
-.ui-datepicker-calendar th {
-    padding-top: 15px;
-    padding-bottom: 10px;
- 
-    text-align: center;
-    font-weight: normal;
-    color: #a8a8a8;
-}
-.ui-datepicker-calendar td {
-    padding: 0 7px;
- 
-    text-align: center;
-    line-height: 26px;
-}
- 
-.ui-datepicker-calendar .ui-state-default {
-    display: block;
-    width: 26px;
-    outline: none;
- 
-    text-decoration: none;
-    color: #a8a8a8;
- 
-    border: 1px solid transparent;
-}
-.ui-datepicker-calendar .ui-state-active {
-    color: #6a9113;
-    border: 1px solid #6a9113;
-}
- 
-.ui-datepicker-other-month .ui-state-default { color: #565656; }
+.calendar
+    position absolute
+    width 100%
+    height 100%
+    margin-top 10%
+    margin-left 10%
+    padding-top 15%
+    border 10px solid #fff
+    font-family 'Josefin Sans', sans-serif
+    .month-title
+        position absolute
+        top -0.4em
+        left -0.3em
+        margin 0
+        font-size 400px
+        line-height 1
+        letter-spacing 0
+        color #fff
+        opacity .15
+    .calendar-table
+        position absolute
+        width 100%
+        height 85%
+        border-collapse collapse
+        color #fff
+        th, td
+            text-align center
+            font-size 16px
+        td
+            cursor pointer
+            transition opacity .3s ease
+            &:not(.is-today)
+                opacity .5
+            &:hover
+                opacity 1
+    .is-today
+        opacity 1
+        background-color #fff
+        color $color-2
+
     
 </style>
 
@@ -255,7 +205,15 @@ $monto=$_GET["MONTO"];
             <p class="center">¿Nos podría indicar una fecha de pago?</p>
         </div>
 
-        <p>FECHA: <input type="text" id="datepicker"></p>
+            <div class="calendar">
+            <h2 class="month-title" id="js-month"></h2>
+            <table class="calendar-table">
+            <thead>
+                <tr><th>日</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th></tr>
+            </thead>
+            <tbody id="js-calendar-body"></tbody>
+            </table>
+        </div>
         <!--<div class="date btn bg-date text-black col-12 mt-4">
                     <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/512px-Google_Calendar_icon.svg.png">  
 
