@@ -33,24 +33,24 @@ $enddate1=strtotime("+5 days", $startdate);
   background-image: linear-gradient(180deg, #6BBDA1 0%, #4378AC 100%);
   width: 100%;
 }
-@keyframes toup{
+@keyframes hideFrame{
     0% { margin-top: 0 }
-    100% { margin-top: -500px } 
+    100% { margin-top: -100vh } 
 }
-@keyframes todown{
-    0% { margin-top: -500px }
+@keyframes showFrame{
+    0% { margin-top: 200vh }
     100% { margin-top: 0 } 
 }
 
-.toup{
+.hideClass{
     margin-top: 0;
-    animation-name: toup;
+    animation-name: hideFrame;
     animation-duration: 1s;
 }
 
-.todown{
-    margin-top: -500px;
-    animation-name: todown;
+.showClass{
+    margin-top: -100vh;
+    animation-name: showFrame;
     animation-duration: 1s; 
 }
 
@@ -401,11 +401,11 @@ function url(idButton) {
  switch(idButton) {
  case 1:
           console.log("prueba",idButton);
-          $('#cont1').addClass('toup').promise().done(function(){
+          $('#cont1').addClass('hideClass').promise().done(function(){
               $('#cont1').addClass('hide')
           });
           $('#cont8').removeClass('hide').promise().done(function(){
-              $('#cont8').addClass('todown')
+              $('#cont8').addClass('showClass')
           });
     break;
 
