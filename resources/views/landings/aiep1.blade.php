@@ -195,7 +195,7 @@ $enddate1=strtotime("+5 days", $startdate);
                     <br>  <br>  <br>  <br>
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div>
-                <button onclick='url22(); ' class="btn bg-danger text-white col-10 mt-4"> No quiero ingresar </button>
+                <button onclick='url22();' class="btn bg-danger text-white col-10 mt-4"> No quiero ingresar </button>
 </div>
 
 <div id="cont11" class="p-5 hide">
@@ -324,12 +324,12 @@ $enddate1=strtotime("+5 days", $startdate);
                 } 
             }
 
-             var correo = ["jesus.binteraction@gmail.com","arturo.sthandier@gmail.com"];
+             var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                // 'email': '{!! $landing->email !!}'
-                //'email': "carla.torres@amicar.cl jesus.binteraction@gmail.com"
+                //'email': "carla.torres@amicar.cl jesus.binteraction@gmail.com" ,"arturo.sthandier@gmail.com"
             }
             $.ajaxSetup({
                 headers: {
@@ -516,6 +516,32 @@ default:
         alert('La direccón de correo no es válida');
     }
     });
+
+
+       function url22(){ //tarifa
+       // var rut; 
+         //rut= geturlParameter('rut');
+            swal({
+             title: `Gracias por su tiempo.`,
+             type: "success",
+             timer: 3000
+        }, 
+        function(){
+             window.location.href = "https://www.aiep.cl/";
+        })
+        }
+
+         function  urldatos(){
+
+            var telf = $('#telf').val();
+            var ecorr = $('#ecorr').val();
+            var msg1;
+            msg1 = " El cliente Informa que el telefono es 569 "+telf+" y el correo es "+ecorr+".";
+
+            //alert (msg1);
+
+            sendMail(msg1);
+        }
     </script>
     
 
