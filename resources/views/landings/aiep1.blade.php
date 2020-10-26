@@ -32,8 +32,26 @@ $enddate1=strtotime("+5 days", $startdate);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#6BBDA1), to(#4378AC));
   background-image: linear-gradient(180deg, #6BBDA1 0%, #4378AC 100%);
   width: 100%;
-
 }
+@keyframe toup{
+    from { margin-top: 0 }
+    to { margin-top: -500px } 
+}
+@keyframe todown{
+    from { margin-top: -500px }
+    to { margin-top: 0 } 
+}
+
+.toup{
+    animation-name: toup;
+    animation-duration: 1s;
+}
+
+.todown{
+   animation-name: todown;
+    animation-duration: 1s; 
+}
+
 
     
 </style>
@@ -381,8 +399,8 @@ function url(idButton) {
  switch(idButton) {
  case 1:
           console.log("prueba",idButton);
-          $('#cont1').hide();
-          $('#cont8').removeClass('hide');
+          $('#cont1').addclass('toup');
+          $('#cont8').addclass('todown');
     break;
 
  case 2:
