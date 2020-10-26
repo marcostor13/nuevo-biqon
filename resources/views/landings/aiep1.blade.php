@@ -101,8 +101,9 @@ $enddate1=strtotime("+5 days", $startdate);
          <div class="p-5 ">
             <p class="center">¿Nos podría indicar una fecha de pago?</p>
         </div>
-        <div id="datepicker"></div><br>
-        <a class="btn bg-success text-white col-12 mt-4" >Continuar</a>
+        <div class="date btn bg-date text-black col-12 mt-4">
+                    <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/512px-Google_Calendar_icon.svg.png">  <input id="date1"  type="date" class="btn-date text-black col-10 "  style="height : 30px ;border: 1px;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
 </div>
 
 <div id="cont5" class="p-5 hide">
@@ -146,20 +147,27 @@ $enddate1=strtotime("+5 days", $startdate);
     <div class="p-5 ">
             <p class="center">Por favor indicar el motivo de su atraso</p>
         </div>
-        <ul>
-            <li > Cesante</li>
-            <li > Problema económico</li>
-            <li > Problema de salud</li>
-            <li > Crédito</li>
-            <li > Reclamo</li>
-            <li > Ya pagó</li>
-            <li > No tengo cupón</li>
-            <li > Siniestro</li>
-            <li > Olvido</li>
-            <li > Otra</li>
-        </ul>
-        <textarea placeholder="Ingresa tu motivo de no pago (máximo 200 caracteres)" maxlength="200"></textarea>
-        <a class="btn bg-success text-white col-12 mt-4"  href="#">Continuar</a>
+        
+        <button onclick='sendMail("El cliente indica que la razon es Cesante"); eventolanding("Cesante"); ' class="btn bg-danger text-white col-5 mt-4"> Cesante </button>
+
+        <button onclick='sendMail("El cliente indica que la razon es Problemas Salud"); eventolanding("Problemas Economicos"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Económicos</button>
+
+        <button onclick='sendMail("El cliente indica que la razon es Problemas Salud"); eventolanding("Problemas Salud"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Salud</button>
+
+        <button onclick='sendMail("El cliente indica que la razon es Credito"); eventolanding("Credito"); ' class="btn bg-danger text-white col-5 mt-4"> Crédito</button>
+
+        <button onclick='sendMail("El cliente indica que la razon es Reclamo"); eventolanding("Reclamo"); ' class="btn bg-danger text-white col-5 mt-4"> Reclamo</button>
+
+        <button onclick='sendMail("El cliente indica que la razon es Ya Pago "); eventolanding("Ya Pago"); ' class="btn bg-danger text-white col-5 mt-4"> Ya Pago </button>
+
+        <button onclick='sendMail("El cliente indica que la razon es  No Tengo Cupon "); eventolanding("No Tengo Cupon"); ' class="btn bg-danger text-white col-5 mt-4"> No Tengo Cupón </button>
+
+        <button onclick='sendMail("El cliente indica que la razon es Sinistro "); eventolanding("Siniestro"); ' class="btn bg-danger text-white col-5 mt-4"> Siniestro</button>
+
+        <button onclick='sendMail("El cliente indica que la razon es Olvido "); eventolanding("Olvido"); ' class="btn bg-danger text-white col-5 mt-4"> Olvido</button>
+
+        <button onclick='sendMail("El cliente indica que la razon es Desconocida"); eventolanding("Desconocida"); ' class="btn bg-danger text-white col-5 mt-4"> Desconocida</button>
+
 </div>
 
 
@@ -173,7 +181,7 @@ $enddate1=strtotime("+5 days", $startdate);
             <label>Email <span class="labelError" ng-if="contactForm.email.$invalid">(email inválido)</span></label>
             <input type="email" name="email" id="email" ng-model="contact.email" placeholder="Ingrese correo electrónico" inputmode="email" maxlength="50">
 
-            <a class="btn bg-success text-white col-12 mt-4"  href="#" oneclick="checkContactData()">Enviar</a>
+            <a class="btn bg-success text-white col-12 mt-4"  href="#" oneclick="checkContactData()" "sendMail()">Enviar</a>
         </form>
 </div>
 
@@ -303,7 +311,7 @@ $enddate1=strtotime("+5 days", $startdate);
                 } 
             }
 
-              var correo = ["carla.torres@amicar.cl"];
+             var correo = ["jesus.binteraction@gmail.com","arturo.sthandier@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
