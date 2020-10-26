@@ -23,8 +23,8 @@ $name=$_GET['NOMBRE'];
 $Nom_Asistente=$_GET["DATA1"];
 //$fecha_contrato $_GET["DATA5"];
 $num_cuota=$_GET["DATA2"];
-$producto="PRODUCTO";
-$entidad="ENTIDAD";
+$producto=$_GET["DATA3"];
+$entidad=$_GET["DATA4"];
 $monto=$_GET["MONTO"];
 
 
