@@ -258,11 +258,11 @@ $monto=$_GET["MONTO"];
             <p class="center">¿Nos podría indicar una fecha de pago?</p>
         </div>
 
-        <div id="calendar"></div>
+        <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
         <!--<div class="date btn bg-date text-black col-12 mt-4">
                     <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/512px-Google_Calendar_icon.svg.png">  
 
-                    <input id="date1"  type="date" class="btn-date text-black col-10 "  style="height : 30px ;border: 1px;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-black col-10 "  style="height : 30px ;border: 1px;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
                 </div>-->
 
                 <button onclick="sendMail(); eventolanding('Compromiso de Pago'); return false;" class="btn bg-success text-white col-12 mt-4">Confirmar</button>
