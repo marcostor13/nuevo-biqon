@@ -107,7 +107,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <input id="date1"  type="date" class="btn-date text-black col-10 "  style="height : 30px ;border: 1px;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
 
-                <button onclick="sendMail(); eventolanding('Compromiso de Pago'); return false;" class="btn bg-danger text-white col-12 mt-4">Confirmar</button>
+                <button onclick="sendMail(); eventolanding('Compromiso de Pago'); return false;" class="btn bg-success text-white col-12 mt-4">Confirmar</button>
 </div>
 
 <div id="cont5" class="p-5 hide">
@@ -152,25 +152,25 @@ $enddate=strtotime("+5 days", $startdate);
             <p class="center">Por favor indicar el motivo de su atraso</p>
         </div>
 
-        <button onclick='url23();  eventolanding("Cesante"); ' class="btn bg-danger text-white col-5 mt-4"> Cesante </button>
+        <button onclick='url23();  eventolanding("Cesante"); ' class="btn bg-success text-white col-5 mt-4"> Cesante </button>
 
-        <button onclick='url23();  eventolanding("Problemas Economicos"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Económicos</button>
+        <button onclick='url23();  eventolanding("Problemas Economicos"); ' class="btn bg-success text-white col-5 mt-4"> Problemas Económicos</button>
 
-        <button onclick='url23();  eventolanding("Problemas Salud"); ' class="btn bg-danger text-white col-5 mt-4"> Problemas Salud</button>
+        <button onclick='url23();  eventolanding("Problemas Salud"); ' class="btn bg-success text-white col-5 mt-4"> Problemas Salud</button>
 
-        <button onclick='url23();  eventolanding("Credito"); ' class="btn bg-danger text-white col-5 mt-4"> Crédito</button>
+        <button onclick='url23();  eventolanding("Credito"); ' class="btn bg-success text-white col-5 mt-4"> Crédito</button>
 
-        <button onclick='url23();  eventolanding("Reclamo"); ' class="btn bg-danger text-white col-5 mt-4"> Reclamo</button>
+        <button onclick='url23();  eventolanding("Reclamo"); ' class="btn bg-success text-white col-5 mt-4"> Reclamo</button>
 
-        <button onclick='url23();  eventolanding("Ya Pago"); ' class="btn bg-danger text-white col-5 mt-4"> Ya Pago </button>
+        <button onclick='url23();  eventolanding("Ya Pago"); ' class="btn bg-success text-white col-5 mt-4"> Ya Pago </button>
 
-        <button onclick='url23();  eventolanding("No Tengo Cupon"); ' class="btn bg-danger text-white col-5 mt-4"> No Tengo Cupón </button>
+        <button onclick='url23();  eventolanding("No Tengo Cupon"); ' class="btn bg-success text-white col-5 mt-4"> No Tengo Cupón </button>
 
-        <button onclick='url23();  eventolanding("Siniestro"); ' class="btn bg-danger text-white col-5 mt-4"> Siniestro</button>
+        <button onclick='url23();  eventolanding("Siniestro"); ' class="btn bg-success text-white col-5 mt-4"> Siniestro</button>
 
-        <button onclick='url23();  eventolanding("Olvido"); ' class="btn bg-danger text-white col-5 mt-4"> Olvido</button>
+        <button onclick='url23();  eventolanding("Olvido"); ' class="btn bg-success text-white col-5 mt-4"> Olvido</button>
 
-        <button onclick='url23(); eventolanding("Desconocida"); ' class="btn bg-danger text-white col-5 mt-4"> Desconocida</button>
+        <button onclick='url23(); eventolanding("Desconocida"); ' class="btn bg-success text-white col-5 mt-4"> Desconocida</button>
 
 </div>
 
@@ -193,13 +193,13 @@ $enddate=strtotime("+5 days", $startdate);
 
                <!-- <button onclick='valtlf();' class="btn bg-warning align-items-center text-black col-5 mt-4"> VALIDAR </button>-->
 
-                <button onclick='urldatos();' class="btn bg-danger text-white col-5 mt-4"> CONTINUAR </button>
+                <button onclick='urldatos();' class="btn bg-success text-white col-5 mt-4"> CONTINUAR </button>
                 <br>
                 <div class="text-black col-md-12">
                     <br>  <br>  <br>  <br>
                 <h5 class="text-black text-center"> Si no quiere ingresar Datos, presione:</h5>
                 </div>
-                <button onclick='url22();' class="btn bg-danger text-white col-10 mt-4"> No quiero ingresar </button>
+                <button onclick='url22();' class="btn bg-success text-white col-10 mt-4"> No quiero ingresar </button>
 </div>
 
 <div id="cont11" class="p-5 hide">
