@@ -399,8 +399,8 @@ function url(idButton) {
  switch(idButton) {
  case 1:
           console.log("prueba",idButton);
-          $('#cont1').addclass('toup');
-          $('#cont8').addclass('todown');
+          $('#cont1').addClass('toup');
+          $('#cont8').addClass('todown');
     break;
 
  case 2:
