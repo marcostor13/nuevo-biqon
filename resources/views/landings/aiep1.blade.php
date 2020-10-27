@@ -138,7 +138,7 @@ $monto=$_GET["MONTO"];
      input[type="date"]::-webkit-inner-spin-button,
                   ::-webkit-calendar-picker-indicator,
                   ::-webkit-datetime-edit{
-        display: none;
+        display: inline;
     }
    
     /* mostrar el calendario al hacer click */
