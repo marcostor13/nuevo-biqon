@@ -188,6 +188,8 @@ $monto=$_GET["MONTO"];
 
 <input id="date1"  type="date" class="btn-date text-black col-10 "  style="height : 30px ;border: 1px;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
 
+<input type="text" id="date1">
+
                 <button onclick="sendMail(); eventolanding('Compromiso de Pago'); return false;" class="btn bg-success text-white col-12 mt-4">Confirmar</button>
 </div>
 
@@ -322,11 +324,13 @@ $monto=$_GET["MONTO"];
     prevText: '<i class="fa fa-fw fa-angle-left"></i>',
     nextText: '<i class="fa fa-fw fa-angle-right"></i>'
   });
-     var datw = $('#ui-datepicker-calendar').val();
-   
-    $('#date1').text(datw);
 });
 
+$(document).ready(function() {
+    $("#date1").datepicker({
+    dateFormat: 'dd/mm/yy',
+    }).datepicker("setDate", new Date());
+});
 
    //EVENT 1
 
