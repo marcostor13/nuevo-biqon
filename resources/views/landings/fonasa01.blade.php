@@ -92,17 +92,17 @@ $name = $_GET['NOMBRE'];
                <!-- <button onclick="sendMail('Solicito forma de pago'); eventosLanding('Solicitud'); return false;" class="btn bg-dark text-white col-12 mt-4">Solicito forma de pago</button>
 
                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>-->
-              <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">WHATSAPP EJECUTIVO </a>
+              <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4">WHATSAPP EJECUTIVO </a>
                    
-              <a onclick="eventosLanding('Llamar');" href="tel:+56934811384"class="btn bg-dark text-white col-12 mt-4"><img width="40" src="https://i.imgur.com/Oh5DCRW.png">LLAMAR A EJECUTIVO </a>
+              <a onclick="eventosLanding('Llamar');" href="tel:+56934811384"class="btn bg-dark text-white col-12 mt-4">LLAMAR A EJECUTIVO </a>
 
                <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"class="btn bg-dark text-white col-12 mt-4"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png">ESCRIBIR POR CORREO</a>
 
 
-               <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar CONTACTO');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> DESEO QUE ME CONTACTEN< </a>
+               <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar CONTACTO');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> DESEO QUE ME CONTACTEN </a>
 
                  <!-- <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
-                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultar a Fondo Nacional de Salud </button>
+                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> CONSULTAR EN FONASA </button>
 
 
                  <!-- <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;">El teléfono no corresponde </button>-->
