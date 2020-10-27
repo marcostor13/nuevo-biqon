@@ -86,16 +86,31 @@ $name1 = $_GET['DATA2'];
                 <h4 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h4>
 
                 <h4><p class="text-black" align="justify">
-                  Te informamos que hasta el <strong> 30 de Septiembre del 2020 </strong> tenemos <strong> <?php echo $name1; ?> % DESCUENTO </strong> en intereses y gastos de cobranza de tu deuda demandada, para ello puedes:
+                 Informamos a usted, que se encuentra presentada y en proceso de notificación demanda por cobro de peajes impagos por RUTA DEL MAIPO. Favor contáctenos para regularizar su deuda y con evitar la multa de 5 veces lo adeudado más las costas. 
                 </p></h4>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
                     <span>Compromiso de Pago</span>
                     <input id="date1"  type="date"  style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" onclick="sendMail();"/>
                 </div>-->
+
+                <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">WHATSAPP EJECUTIVO </a>
+                   
+              <a onclick="eventosLanding('Llamar');" href="tel:+56934811384"class="btn bg-dark text-white col-12 mt-4"><img width="40" src="https://i.imgur.com/Oh5DCRW.png">LLAMAR A EJECUTIVO </a>
+
+               <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"class="btn bg-dark text-white col-12 mt-4"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png">ESCRIBIR POR CORREO</a>
+
+
+               <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar CONTACTO');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> DESEO QUE ME CONTACTEN< </a>
+
+                 <!-- <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
+                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultar a Fondo Nacional de Salud </button>
+
+
             <!--    <button onclick="sendMail('Solicito pagar en Cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar en Cuotas</button>
 
                 <button onclick="sendMail('Solicito pagar el Total con descuento'); eventosLanding('total con Descuento'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar el Total con Descuento</button>
+  
 
                     <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-dark text-white col-12 mt-4">Quiero que me Contacten</button>
 
@@ -106,13 +121,13 @@ $name1 = $_GET['DATA2'];
 
                  <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4"style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por email <img width="30" src="https://i.imgur.com/EpCpCdx.png"></a>-->
 
-                  <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar detalle y forma de pago');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago por Correo </a>
+                <!--  <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar detalle y forma de pago');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago por Correo </a>
 
                   <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-dark text-white col-12 mt-4"style="  border: 1px solid #9e9e9e;">Solicitar detalle y forma de pago por Whastapp </a>
 
                   <a onclick="eventosLanding('Contactenme');" href="tel:+56226331354" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago por Llamada </a>
 
-                  <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>
+                  <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
 
 
                 <!--  <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;">El teléfono no corresponde </button>-->
