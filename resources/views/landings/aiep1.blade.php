@@ -224,7 +224,7 @@ $monto=$_GET["MONTO"];
                 por un valor de <b> ##MONTO##</b>. ¿Cuando puede efectuar el Pago?
             </p>-->
         </div>
-        <div id="datepicker" ng-init="initializeCalendar()"></div>
+        
         <a class="btn bg-success text-white col-12 mt-4" onclick="url(3)" >Seleccionar fecha</a>
         <a class="btn bg-success text-white col-12 mt-4" onclick="url(4)">No puedo</a>
     </div>
