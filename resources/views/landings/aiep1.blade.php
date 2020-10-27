@@ -134,6 +134,34 @@ $monto=$_GET["MONTO"];
   color: #d24d57;
 }
 
+      /* ocultar controles de input date */ 
+     input[type="date"]::-webkit-inner-spin-button,
+                  ::-webkit-calendar-picker-indicator,
+                  ::-webkit-datetime-edit{
+        display: none;
+    }
+    
+   
+    /* mostrar el calendario al hacer click */
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        display: block;
+        background: transparent;
+        bottom: 0;
+        color: transparent;
+        cursor: pointer;
+        height: auto;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: auto;
+    }
+   
+    /* mostrar la fecha seleccionada al estar en hover */
+   .input-min-width-95p {min-width:95%;}
+   .input-min-width-95p {min-height:5%;}
+    }
+
 </style>
 
 <!-- HEAD -->
@@ -181,10 +209,10 @@ $monto=$_GET["MONTO"];
          <div class="p-5 ">
             <p class="center">¿Nos podría indicar una fecha de pago?</p>
         </div>
-            <div class='datepicker'>
-  <!--<div class="datepicker-header"></div>-->
+             <!--<div class='datepicker'>
+ <div class="datepicker-header"></div>
   <div class="ui-datepicker-calendar"></div>
-</div>
+</div>-->
 
 <input id="date1"  type="date" class="btn-date text-black col-10 "  style="height : 30px ;border: 1px;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
 
