@@ -134,12 +134,7 @@ $monto=$_GET["MONTO"];
   color: #d24d57;
 }
 
-      /* ocultar controles de input date */ 
-     input[type="date"]::-webkit-inner-spin-button,
-                  ::-webkit-calendar-picker-indicator,
-                  ::-webkit-datetime-edit{
-        display: none;
-    }
+  
     
    
     /* mostrar el calendario al hacer click */
@@ -214,7 +209,7 @@ $monto=$_GET["MONTO"];
   <div class="ui-datepicker-calendar"></div>
 </div>-->
 
-<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" style="height : 30px ;border: 1px;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+<input id="date1"  type="date" class=" btn-date text-black input-min-width-95p" style="height : 30px ;border: 1px;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
 
                 <button onclick="sendMail(); eventolanding('Compromiso de Pago'); return false;" class="btn bg-success text-white col-12 mt-4">Confirmar</button>
 </div>
