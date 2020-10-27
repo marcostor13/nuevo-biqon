@@ -380,6 +380,12 @@ body {
 </div>
 
    <script>
+    $(document).ready(function () {
+  $(".datepicker").datepicker({
+    prevText: '<i class="fa fa-fw fa-angle-left"></i>',
+    nextText: '<i class="fa fa-fw fa-angle-right"></i>'
+  });
+});
    //EVENT 1
 /*    var $window = $(window);
 var $month = $('#js-month');
@@ -439,13 +445,7 @@ function calendarHeading(year, month){
             });
         }); 
 */
-$(document).ready(function() {
 
-  $(".datepicker").datepicker({
-    prevText: '<i class="fa fa-fw fa-angle-left"></i>',
-    nextText: '<i class="fa fa-fw fa-angle-right"></i>'
-  });
-});
 
          function event1(){
     
