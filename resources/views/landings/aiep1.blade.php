@@ -234,6 +234,7 @@ body {
         </div>
             <div class='datepicker'>
   <div class="datepicker-header"></div>
+  <div class="ui-datepicker-calendar"></div>
 </div>
            <!-- <div class="calendar">
             <h2 class="month-title" id="js-month"></h2>
