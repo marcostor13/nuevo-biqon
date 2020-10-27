@@ -58,7 +58,7 @@ $monto=$_GET["MONTO"];
     0% { margin-top: 200vh }
     100% { margin-top: 0 } 
 }
-/*
+
 .hideClass{
     animation-name: hideFrame;
     animation-duration: .5s;
@@ -69,58 +69,6 @@ $monto=$_GET["MONTO"];
     animation-duration: .5s; 
 }
 
-
-.calendar{
-    position absolute
-    width 100%
-    height 100%
-    margin-top 10%
-    margin-left 10%
-    padding-top 15%
-    border 10px solid #fff
-    font-family 'Josefin Sans', sans-serif
-    }
-    .month-title{
-        position absolute
-        top -0.4em
-        left -0.3em
-        margin 0
-        font-size 400px
-        line-height 1
-        letter-spacing 0
-        color #fff
-        opacity .15
-        }
-    .calendar-table{
-        position absolute
-        width 100%
-        height 85%
-        border-collapse collapse
-        color #fff
-        }
-        th, td{
-            text-align center
-            font-size 16px
-            }
-        td{
-            cursor pointer
-            transition opacity .3s ease
-            &:not(.is-today)
-                opacity .5
-            &:hover
-                opacity 1
-                }
-    .is-today{
-        opacity 1
-        background-color #fff
-        color $color-2
-}*/
-   
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 1em;
-  line-height: 1.6;
-}
 
 .datepicker {
   width: 400px;
@@ -234,23 +182,9 @@ body {
             <p class="center">¿Nos podría indicar una fecha de pago?</p>
         </div>
             <div class='datepicker'>
-  <div class="datepicker-header"></div>
+  <!--<div class="datepicker-header"></div>-->
   <div class="ui-datepicker-calendar"></div>
 </div>
-           <!-- <div class="calendar">
-            <h2 class="month-title" id="js-month"></h2>
-            <table class="calendar-table">
-            <thead>
-                <tr><th>DOM</th><th>LUN</th><th>MAR</th><th>MIE</th><th>JUE</th><th>VIE</th><th>SAB</th></tr>
-            </thead>
-            <tbody id="js-calendar-body"></tbody>
-            </table>
-        </div>-->
-        <!--<div class="date btn bg-date text-black col-12 mt-4">
-                    <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/512px-Google_Calendar_icon.svg.png">  
-
-                    <input id="date1"  type="date" class="btn-date text-black col-10 "  style="height : 30px ;border: 1px;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-                </div>-->
 
                 <button onclick="sendMail(); eventolanding('Compromiso de Pago'); return false;" class="btn bg-success text-white col-12 mt-4">Confirmar</button>
 </div>
@@ -387,66 +321,9 @@ body {
     nextText: '<i class="fa fa-fw fa-angle-right"></i>'
   });
 });
+
+
    //EVENT 1
-/*    var $window = $(window);
-var $month = $('#js-month');
-var $tbody = $('#js-calendar-body');
-
-var today = new Date();
-var currentYear = today.getFullYear(),
-    currentMonth = today.getMonth();
-
-$window.on('load',function(){
-  calendarHeading(currentYear, currentMonth);
-  calendarBody(currentYear, currentMonth, today);
-});
-
-function calendarBody(year, month, today){
-  var todayYMFlag = today.getFullYear() === year && today.getMonth() === month ? true : false;
-  var startDate = new Date(year, month, 1);
-  var endDate  = new Date(year, month + 1 , 0);
-  var startDay = startDate.getDay();
-  var endDay = endDate.getDate();
-  var textSkip = true;
-  var textDate = 1;
-  var tableTd ='';
-  var tableBody ='';
-  
-  for (var row = 0; row < 6; row++){
-    var tr = '<tr>';
-    
-    for (var col = 0; col < 7; col++) {
-      if (row === 0 && startDay === col){
-        textSkip = false;
-      }
-      if (textDate > endDay) {
-        textSkip = true;
-      }
-      var addClass = todayYMFlag && textDate === today.getDate() && !textSkip ? 'is-today' : '';
-      var textTd = textSkip ? '&nbsp;' : textDate++;
-      var td = '<td class="'+addClass+'">'+textTd+'</td>';
-      tr += td;
-    }
-    tr += '</tr>';
-    tableBody += tr;
-  }
-  $tbody.html(tableBody);
-}
-
-function calendarHeading(year, month){
-  $month.text(month + 1);
-}
-
-
-         $(function(){
-            events({    
-                'name': 'Visita',
-                'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(getAllUrlParameter())
-            });
-        }); 
-*/
-
 
          function event1(){
     
