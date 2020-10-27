@@ -96,7 +96,7 @@ $name = $_GET['NOMBRE'];
                    
               <a onclick="eventosLanding('Llamar');" href="tel:+56934811384"class="btn bg-dark text-white col-12 mt-4">LLAMAR A EJECUTIVO </a>
 
-               <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"class="btn bg-dark text-white col-12 mt-4"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png">ESCRIBIR POR CORREO</a>
+               <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"class="btn bg-dark text-white col-12 mt-4">ESCRIBIR POR CORREO</a>
 
 
                <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar CONTACTO');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> DESEO QUE ME CONTACTEN </a>
