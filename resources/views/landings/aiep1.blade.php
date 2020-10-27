@@ -114,16 +114,23 @@ $monto=$_GET["MONTO"];
         background-color #fff
         color $color-2
 }*/
-    .datepicker {
+   
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.datepicker {
   width: 400px;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 0 50px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
   margin: 50px auto;
   overflow: hidden;
   .datepicker-header {
     height: 250px;
-    background-image: url('https://cdn.dribbble.com/users/3178178/screenshots/6346366/lifeguard_on_duty.jpg');
+    background-image: url("https://cdn.dribbble.com/users/3178178/screenshots/6346366/lifeguard_on_duty.jpg");
     background-position: center center;
     background-size: 100%;
   }
@@ -135,7 +142,7 @@ $monto=$_GET["MONTO"];
     text-align: center;
     padding-bottom: 1em;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     .ui-datepicker-prev,
     .ui-datepicker-next {
       display: inline;
@@ -144,9 +151,9 @@ $monto=$_GET["MONTO"];
       font-size: 1.4em;
       padding: 0 10px;
       margin-top: -10px;
-      color: #CCC;
+      color: #ccc;
     }
-    
+
     .ui-datepicker-next {
       float: right;
     }
@@ -156,12 +163,13 @@ $monto=$_GET["MONTO"];
     width: 100%;
     text-align: center;
     thead {
-      color: #CCC;
+      color: #ccc;
     }
-    
+
     tr {
-      th, td {
-        padding-bottom: .5em;
+      th,
+      td {
+        padding-bottom: 0.5em;
       }
     }
     a {
@@ -176,13 +184,14 @@ $monto=$_GET["MONTO"];
       border: 1px solid transparent;
       cursor: pointer;
     }
-    
+
     .ui-state-highlight {
-      border-color: #D24D57;
-      color: #D24D57;
+      border-color: #d24d57;
+      color: #d24d57;
     }
   }
 }
+
 </style>
 
 <!-- HEAD -->
