@@ -57,7 +57,7 @@ $monto=$_GET["MONTO"];
     0% { margin-top: 200vh }
     100% { margin-top: 0 } 
 }
-
+/*
 .hideClass{
     animation-name: hideFrame;
     animation-duration: .5s;
@@ -113,8 +113,76 @@ $monto=$_GET["MONTO"];
         opacity 1
         background-color #fff
         color $color-2
-}
+}*/
+    .datepicker {
+  width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 50px 0 rgba(0,0,0,0.2);
+  margin: 50px auto;
+  overflow: hidden;
+  .datepicker-header {
+    height: 250px;
+    background-image: url('https://cdn.dribbble.com/users/3178178/screenshots/6346366/lifeguard_on_duty.jpg');
+    background-position: center center;
+    background-size: 100%;
+  }
+  .ui-datepicker-inline {
+    padding: 30px;
+  }
+
+  .ui-datepicker-header {
+    text-align: center;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    .ui-datepicker-prev,
+    .ui-datepicker-next {
+      display: inline;
+      float: left;
+      cursor: pointer;
+      font-size: 1.4em;
+      padding: 0 10px;
+      margin-top: -10px;
+      color: #CCC;
+    }
     
+    .ui-datepicker-next {
+      float: right;
+    }
+  }
+
+  .ui-datepicker-calendar {
+    width: 100%;
+    text-align: center;
+    thead {
+      color: #CCC;
+    }
+    
+    tr {
+      th, td {
+        padding-bottom: .5em;
+      }
+    }
+    a {
+      color: #444;
+      text-decoration: none;
+      display: block;
+      margin: 0 auto;
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      cursor: pointer;
+    }
+    
+    .ui-state-highlight {
+      border-color: #D24D57;
+      color: #D24D57;
+    }
+  }
+}
 </style>
 
 <!-- HEAD -->
@@ -162,8 +230,10 @@ $monto=$_GET["MONTO"];
          <div class="p-5 ">
             <p class="center">¿Nos podría indicar una fecha de pago?</p>
         </div>
-
-            <div class="calendar">
+            <div class='datepicker'>
+  <div class="datepicker-header"></div>
+</div>
+           <!-- <div class="calendar">
             <h2 class="month-title" id="js-month"></h2>
             <table class="calendar-table">
             <thead>
@@ -171,7 +241,7 @@ $monto=$_GET["MONTO"];
             </thead>
             <tbody id="js-calendar-body"></tbody>
             </table>
-        </div>
+        </div>-->
         <!--<div class="date btn bg-date text-black col-12 mt-4">
                     <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/512px-Google_Calendar_icon.svg.png">  
 
@@ -308,7 +378,7 @@ $monto=$_GET["MONTO"];
 
    <script>
    //EVENT 1
-    var $window = $(window);
+/*    var $window = $(window);
 var $month = $('#js-month');
 var $tbody = $('#js-calendar-body');
 
@@ -365,6 +435,14 @@ function calendarHeading(year, month){
                 'json_datos': JSON.stringify(getAllUrlParameter())
             });
         }); 
+*/
+$(document).ready(function() {
+
+  $(".datepicker").datepicker({
+    prevText: '<i class="fa fa-fw fa-angle-left"></i>',
+    nextText: '<i class="fa fa-fw fa-angle-right"></i>'
+  });
+});
 
          function event1(){
     
