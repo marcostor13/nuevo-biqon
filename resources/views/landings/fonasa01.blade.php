@@ -84,22 +84,35 @@ $name = $_GET['Nombre'];
                 <h5 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h5>
 
                 <h5><p class="text-black"  align="justify">
-                  Le informamos que debido a la deuda morosa que usted mantiene con FONASA se ha iniciado las gestiones judiciales en virtud de la Ley 17.322 de Cotizaciones previsionales impagas. Para evitar continuar con la demanda y con el fin de lograr un acuerdo, usted puede:
+                  Informamos a usted, que se encuentra presentada y en proceso de notificación demanda por previsional por FONDO NACIONAL DE SALUD. Favor contáctenos para regularizar su deuda y con evitar las multas y otras acciones legales 
 
                 </p> </h5>
                
                <!-- <button onclick="sendMail('Solicito forma de pago'); eventosLanding('Solicitud'); return false;" class="btn bg-dark text-white col-12 mt-4">Solicito forma de pago</button>
 
                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>-->
+              <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">WHATSAPP EJECUTIVO </a>
+                   
+              <a onclick="eventosLanding('Llamar');" href="tel:+56934811384"class="btn bg-dark text-white col-12 mt-4"><img width="40" src="https://i.imgur.com/Oh5DCRW.png">LLAMAR A EJECUTIVO </a>
 
-                <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar detalle y forma de pago');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago </a>
+               <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"class="btn bg-dark text-white col-12 mt-4"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png">ESCRIBIR POR CORREO</a>
+
+
+               <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar CONTACTO');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> DESEO QUE ME CONTACTEN< </a>
 
                  <!-- <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
                  <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultar a Fondo Nacional de Salud </button>
 
 
-                  <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;">El teléfono no corresponde </button>
+                 <!-- <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;">El teléfono no corresponde </button>-->
 
+
+                 <!--   <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">WHATSAPP</a>
+                   
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56934811384"class="btn bg-dark text-white col-12 mt-4"><img width="40" src="https://i.imgur.com/Oh5DCRW.png">LLAMAR</a>-->
+                   
+                   
+           
 
              <!--   <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4"  style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por Whastapp  <img width="30" src="https://i.imgur.com/Rtw9BXz.png"></a>
 
