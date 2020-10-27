@@ -323,10 +323,7 @@ $monto=$_GET["MONTO"];
     prevText: '<i class="fa fa-fw fa-angle-left"></i>',
     nextText: '<i class="fa fa-fw fa-angle-right"></i>'
   });
-});
-
-$(document).ready(function() {
-    $("#date1").datepicker({
+   $("#date1").datepicker({
     dateFormat: 'dd/mm/yy',
     }).datepicker("setDate", new Date());
 });
