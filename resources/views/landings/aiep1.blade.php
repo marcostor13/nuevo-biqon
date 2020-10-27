@@ -147,7 +147,7 @@ $monto=$_GET["MONTO"];
         display: block;
         background: transparent;
         bottom: 0;
-        color: transparent;
+        color: black;
         cursor: pointer;
         height: auto;
         left: 0;
