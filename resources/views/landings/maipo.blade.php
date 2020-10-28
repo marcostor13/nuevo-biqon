@@ -86,7 +86,7 @@ $name = $_GET['NOMBRE'];
                 <h4 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h4>
 
                 <h4><p class="text-black" align="justify">
-                 Informamos a usted, que se encuentra presentada y en proceso de notificación demanda por cobro de peajes impagos por RUTA DEL MAIPO. Favor contáctenos para regularizar su deuda y con evitar la multa de 5 veces lo adeudado más las costas. 
+                 Informamos a usted, que se encuentra presentada y en proceso de notificación demanda por cobro de peajes impagos por RUTA DEL MAIPO. Favor contáctenos para regularizar su deuda y evitar la multa de 5 veces lo adeudado más las costas. 
                 </p></h4>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
