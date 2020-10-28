@@ -85,7 +85,7 @@ $name = $_GET['NOMBRE'];
                 <h5 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h5>
 
                 <h5><p class="text-black"  align="justify">
-                  Informamos a usted, que se encuentra presentada y en proceso de notificación demanda por previsional por FONDO NACIONAL DE SALUD. Favor contáctenos para regularizar su deuda y con evitar las multas y otras acciones legales 
+                  Informamos a usted, que se encuentra presentada y en proceso de notificación demanda por deuda previsional de FONDO NACIONAL DE SALUD. Favor contáctenos para regularizar su deuda y evitar multas y otras acciones legales 
 
                 </p> </h5>
                
