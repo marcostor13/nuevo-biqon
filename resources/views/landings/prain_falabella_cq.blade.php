@@ -93,7 +93,7 @@ $enddate=strtotime("+7 days", $startdate);
 
      Informamos a usted que a la fecha, mantiene una deuda pendiente con nuestro cliente CMR FALABELLA.<br><br>
  
-     Asimismo, ponemos en su conocimiento que hemos iniciado las acciones judiciales para cobro, encontrándose, por ello, en actual tramitación, una demanda ejecutiva ingresada en su contra. 
+     Así mismo, ponemos en su conocimiento que hemos iniciado las acciones judiciales para cobro, encontrándose, por ello, en actual tramitación, una demanda ejecutiva ingresada en su contra. 
 <br><br>
 Nos acercamos para reiterarle que al realizar el pago total de su deuda, incluso documentando la misma con CHEQUES, cuenta con excelentes beneficios como lo son: Egreso de boletín comercial, detención del proceso de demanda y además uso de su CMR.<br><br>
  
