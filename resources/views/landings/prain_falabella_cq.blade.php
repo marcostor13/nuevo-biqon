@@ -67,7 +67,7 @@ $enddate=strtotime("+7 days", $startdate);
                         <div class="card-body">
                         <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
                         <input id="rut" type="number" class="form-control mt-4 text-center text-grey">
-                        <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar</button>
+                        <button onclick="event1(); return false;" class="btn bg-success text-white col-12 mt-4">Validar</button>
                        </div>
                        </div> 
                     </div>
@@ -104,18 +104,18 @@ Nos acercamos para reiterarle que al realizar el pago total de su deuda, incluso
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <!--<h4 class="text-grey text-center"> Seleccione una Opcion </h4>-->
 
-                      <div class="date btn bg-primary text-white col-12 mt-4">
+                      <div class="date btn bg-success text-white col-12 mt-4">
                         <span>Agendar Compromiso de Pago</span>
-                          <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                          <input id="date1"  type="date" class="btn-date text-success" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                       </div>          
 
-                      <a onclick="eventosLanding('Llamar');" href="tel:+56954211358" class="btn bg-primary text-white col-12 mt-4">Llamar a Ejecutivo</a> 
+                      <a onclick="eventosLanding('Llamar');" href="tel:+56954211358" class="btn bg-success text-white col-12 mt-4">Llamar a Ejecutivo</a> 
 
-                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56954211358&text=Hola,%20tengo%20una%20consulta"  class="date btn bg-primary text-white col-12 mt-4">Contactar por WhatsApp</a>  
+                      <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56954211358&text=Hola,%20tengo%20una%20consulta"  class="date btn bg-success text-white col-12 mt-4">Contactar por WhatsApp</a>  
 
-                      <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-4">Correo a Ejecutivo</a>
+                      <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-4">Correo a Ejecutivo</a>
 
-                       <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">Ya Pague</button>
+                       <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-4">Ya Pague</button>
 
                             </div>   
                         </div>
