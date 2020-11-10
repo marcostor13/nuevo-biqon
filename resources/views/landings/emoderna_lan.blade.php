@@ -92,7 +92,7 @@ $name = $_GET['NOMBRE'];
                             <p class="text-black"> 
                               Te informamos que presenta <span><?php echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php echo $monto; ?></span>. 
 
-                              <br> Le  recordamos que no podrá realizar matricula 2021 si presenta más de 3 cuotas pendientes del arancel 2020.
+                              <br> Le  recordamos que no podrá realizar matricula 2021 si presenta más de 2 cuotas pendientes del arancel 2020.
                               <br>
                                <br> Pinche su opción:
                               <!--<strong>INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA </strong> <br>
