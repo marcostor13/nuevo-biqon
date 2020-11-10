@@ -9,6 +9,7 @@
 //$startdate=('Y-m-d\TH:i:s');
 $monto = $_GET['MONTO'];
 $cuota = $_GET['DATA1'];
+$name = $_GET['NOMBRE'];
 //$enddate=strtotime("+5 days", $startdate);
 //$enddate=('Y-m-d\TH:i:s');
 ?>
