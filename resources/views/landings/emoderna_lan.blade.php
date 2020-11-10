@@ -88,7 +88,7 @@ $name = $_GET['NOMBRE'];
                     <div id="cont2" class="p-2 pl-3 pr-3 "><!--HIDE-->
                         <div class="card">     
                             <div class="card-body">
-                             <h5 class="text-black text-center"> Estimado(a) <strong> <span id="name"></span></strong> </h5>
+                             <h5 class="text-black text-center"> Estimado(a) <strong> <span><?php echo $name; ?></span></strong> </h5>
                             <p class="text-black"> 
                               Te informamos que presenta <span><?php echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php echo $monto; ?></span>. 
 
