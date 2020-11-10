@@ -92,7 +92,7 @@ $name = $_GET['NOMBRE'];
                             <p class="text-black"> 
                               Te informamos que presenta <span><?php echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php echo $monto; ?></span>. 
 
-                              <br> Le  recordamos que no podrá realizar matricula 2021 si presenta más de 3 cuotas pendientes del arancel 2020. 
+                              <br> Le  recordamos que no podrá realizar matricula 2021 si presenta más de 2 cuotas pendientes del arancel 2020. 
                               <br>
                               <br>Para facilitar el pago de arancel 2021 realice matricula optando a los beneficios CAE y BECA.
                               <br>
