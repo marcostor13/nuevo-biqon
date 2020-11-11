@@ -78,7 +78,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                 <p class="text-black" align="text-center">
-                    Informamos que su crédito automotriz se encuentra en mora.
+                    Su crédito automotriz mantiene cuotas pendientes de pago.
                     <br>Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.<br> #Contacta a continuación  <br></p>
 
                     <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR </button>
