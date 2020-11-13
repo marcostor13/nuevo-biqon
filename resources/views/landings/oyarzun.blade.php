@@ -372,7 +372,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56944000698&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56944000698&text=Hola,%20Moris%20tengo%20una%20consulta";
     
         } 
 
