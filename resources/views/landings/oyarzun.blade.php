@@ -268,7 +268,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                 } 
             }
 
-            var correo = ["jesus.binteraction@gmail.com", "rgutierrez@oyarzunycia.cl"];  
+            var correo = ["mrabi@oyarzunycia.cl", "lparada@oyarzunycia.cl"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
@@ -372,13 +372,13 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56971409424&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56944000698&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56971409424";
+        window.location.href ="tel:+56944000698";
     
         } 
 
