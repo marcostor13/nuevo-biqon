@@ -261,7 +261,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                 } 
             }
 
-            var correo = ["jcuevas@oyarzunycia.cl"];  
+            var correo = ["jcuevas@oyarzunycia.cl","lparada@oyarzunycia.cl"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
