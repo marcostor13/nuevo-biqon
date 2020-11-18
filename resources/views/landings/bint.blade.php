@@ -69,7 +69,7 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5">
+            <div id="cont2" class="p-5 ">
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
                 <p class="text-black">
@@ -86,6 +86,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA
 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
+                
                  
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56995251902&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://pngimage.net/wp-content/uploads/2018/05/celular-icono-azul-png-1.png"></a>
