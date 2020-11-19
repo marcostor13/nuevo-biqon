@@ -9,6 +9,8 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
+
+
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
@@ -52,7 +54,7 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-     <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">
+     <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="opaco"></div>
 
@@ -63,6 +65,28 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-success text-white col-12 mt-4"> Validar </button>
+
+                <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
+
+               <p class="text-black" align="text-center">
+                   Informamos que su crédito automotriz se encuentra en mora.
+<br> 
+Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.<br> #EstamosJuntosEnEsto  <br></p>
+
+
+              <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
+                
+
+             <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
+
+             <button class="btn bg-success text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">NECESITO QUE ME CONTACTEN</button>
+
+                
+             <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>
+
+             <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+
+             
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
