@@ -52,7 +52,7 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-     <!-- <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">-->
+     <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">
 
         <div class="opaco"></div>
 
@@ -101,7 +101,7 @@ Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las
                         </div>
             </div>
         </div>
-
+ </div>
      <script>
    //EVENT 1
 
