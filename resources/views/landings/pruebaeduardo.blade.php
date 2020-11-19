@@ -62,19 +62,19 @@ $enddate=strtotime("+5 days", $startdate);
              <img style="max-width:320px; max-height:180px" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="ZONASUR">
 
              <div id="cont1" class="p-5 ">
-                <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
+                <h4 class="text-black text-center">Por Favor Ingresa con los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-success text-white col-12 mt-4"> Validar </button>
 
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                   Informamos que su crédito automotriz se encuentra en mora.
+                   Informamos que su cuenta en ABCIN se encuentra en mora.
 <br> 
 Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.<br> #EstamosJuntosEnEsto  <br></p>
 
 
-              <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
+              <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-black col-12 mt-2">PAGAR AHORA </button>
                 
 
              <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
@@ -86,7 +86,8 @@ Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las
 
              <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
-             
+         <button onclick="Mens4(); eventosLanding('instagram');" class="btn bg-success text-white col-12 mt-2">INSTAGRAM EJECUTIVO </button>
+
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -99,7 +100,7 @@ Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                   Informamos que su crédito automotriz se encuentra en mora.
+                   Informamos que su cuenta En ABCDIN Esta Tempotalmente Desactivada.
 <br> 
 Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.<br> #EstamosJuntosEnEsto  <br></p>
 
@@ -107,9 +108,9 @@ Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las
               <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
                 
 
-             <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
+             <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-grey col-12 mt-2">YA PAGUE</button>
 
-             <button class="btn bg-success text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">NECESITO QUE ME CONTACTEN</button>
+             <button class="btn bg-success text-black col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">NECESITO QUE ME CONTACTEN</button>
 
                 
              <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>
@@ -328,13 +329,13 @@ Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56950808820&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56945369456&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56959808820";
+        window.location.href ="tel:+56945369456";
     
         } 
     </script>
