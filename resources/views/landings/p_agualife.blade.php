@@ -64,7 +64,7 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por Favor Ingresa con los primeros 4 dígitos de tu RUT Para adquirir el servicio </h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
+                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4"> Validar </button>
 
                
 
@@ -85,19 +85,19 @@ $enddate=strtotime("+5 days", $startdate);
 Para adquirir Los paquetes selecciona de estas Opciones y Contactar con unos de los Agentes Especializados.<br> #La mejor agua tratada y purificada por osmosis inversa y técnicamente esterilizada por rayos ultravioleta. <br></p>
 
 
-              <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-danger text-white col-12 mt-2">CONTRATAR SERVICIO </button>
+              <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-primary text-white col-12 mt-2">CONTRATAR SERVICIO </button>
                 
 
-             <button onclick="sendMail('El cliente indica Que ya cuenta con el servicio'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA CUENTO CON EL SERVICIO</button>
+             <button onclick="sendMail('El cliente indica Que ya cuenta con el servicio'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-2">YA CUENTO CON EL SERVICIO</button>
 
-             <button class="btn bg-danger text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse con un Agente ESPECIALIZADO');eventosLanding('Contactarse');">CONTACTAR AGENTE ESPECIALIZADO</button>
+             <button class="btn bg-primary text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse con un Agente ESPECIALIZADO');eventosLanding('Contactarse');">CONTACTAR AGENTE ESPECIALIZADO</button>
 
                 
-             <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-danger text-white col-12 mt-2">LLAMAR A EL AGENTE </button>
+             <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-primary text-white col-12 mt-2">LLAMAR A EL AGENTE </button>
 
-             <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-danger text-white col-12 mt-2">WHATSAPP DE EL AGENTE </button>
+             <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-primary text-white col-12 mt-2">WHATSAPP DE EL AGENTE </button>
 
-         <button onclick="Mens4(); eventosLanding('instagram');" class="btn bg-danger text-white col-12 mt-2">INSTAGRAM DE EL AGENTE </button>
+         <button onclick="Mens4(); eventosLanding('instagram');" class="btn bg-primary text-white col-12 mt-2">INSTAGRAM DE EL AGENTE </button>
 
              </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
