@@ -54,7 +54,7 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-     <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+      <!--<div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="opaco"></div>
 
@@ -69,7 +69,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                   Informamos que su cuenta en ABCIN se encuentra en mora.
+                   Informamos que su cuenta en ABCDIN se encuentra en mora.
 <br> 
 Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.<br> #EstamosJuntosEnEsto  <br></p>
 
@@ -126,7 +126,7 @@ Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las
                         </div>
             </div>
         </div>
- </div>
+ <!--</div>-->
      <script>
    //EVENT 1
 
@@ -322,22 +322,29 @@ Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las
       
  /*  window.location.href = "https://ww3.servipag.com/pagoenlinea/portal/desktop/public/todas/!ut/p/b1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNgs0CLZ0MHQ38zQPcDBx9gs1CzAK9Df0DTYAKIvEo8DanTL-HEXH6DXAARwNC-r30o9Jz8pOAXg3Xj8KrGOQXvApAjgUrwOMaP4_83FT9gtzQ0IjKYE9dR0VFADNEynw!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/?idServicio=34&idBiller=843?TELEFONO=985296912&ID=79849235&URL=https://ww3.servipag.com/pagoenlinea/portal/desktop/public/todas/!ut/p/b1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNgs0CLZ0MHQ38zQPcDBx9gs1CzAK9Df0DTYAKIvEo8DanTL-HEXH6DXAARwNC-r30o9Jz8pOAXg3Xj8KrGOQXvApAjgUrwOMaP4_83FT9gtzQ0IjKYE9dR0VFADNEynw!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/?idServicio=34&idBiller=843";*/
 
-     window.location.href = "https://tanner.cl/formas-de-pago/";
+     window.location.href = "https://www.abcserviciosfinancieros.cl/paga-tu-cuenta";
 
 
         } 
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56945369456&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56950808820&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56945369456";
+        window.location.href ="tel:+56950808820";
     
         } 
+
+        function Mens4(){
+
+window.location.href = "https://instagram.com";
+
+
+        }
     </script>
      
 
