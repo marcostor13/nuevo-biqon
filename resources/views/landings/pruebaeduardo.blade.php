@@ -66,7 +66,6 @@ $enddate=strtotime("+5 days", $startdate);
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-success text-white col-12 mt-4"> Validar </button>
 
-<<<<<<< HEAD
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
@@ -88,9 +87,6 @@ Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las
              <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
          <button onclick="Mens4(); eventosLanding('instagram');" class="btn bg-success text-white col-12 mt-2">INSTAGRAM EJECUTIVO </button>
-=======
-               
->>>>>>> a1b053bea247efbc32d76a1c1d5665c1485bead4
 
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
@@ -101,27 +97,26 @@ Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
-                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
+                <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                   Informamos que su cuenta en ABCIN se encuentra en mora.
+                   Informamos que su cuenta En ABCDIN Esta Tempotalmente Desactivada.
 <br> 
 Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.<br> #EstamosJuntosEnEsto  <br></p>
 
 
-              <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-black col-12 mt-2">PAGAR AHORA </button>
+              <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
                 
 
-             <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
+             <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-grey col-12 mt-2">YA PAGUE</button>
 
-             <button class="btn bg-success text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">NECESITO QUE ME CONTACTEN</button>
+             <button class="btn bg-success text-black col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">NECESITO QUE ME CONTACTEN</button>
 
                 
              <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>
 
              <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
-         <button onclick="Mens4(); eventosLanding('instagram');" class="btn bg-success text-white col-12 mt-2">INSTAGRAM EJECUTIVO </button>
              </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
