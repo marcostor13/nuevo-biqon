@@ -85,19 +85,19 @@ $enddate=strtotime("+5 days", $startdate);
 Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.<br> #EstamosJuntosEnEsto  <br></p>
 
 
-              <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-black col-12 mt-2">PAGAR AHORA </button>
+              <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA </button>
                 
 
-             <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-black col-12 mt-2">YA PAGUE</button>
+             <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>
 
-             <button class="btn bg-success text-black col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">NECESITO QUE ME CONTACTEN</button>
+             <button class="btn bg-danger text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">NECESITO QUE ME CONTACTEN</button>
 
                 
-             <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-black col-12 mt-2">LLAMAR A EJECUTIVO </button>
+             <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-danger text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>
 
-             <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-black col-12 mt-2">WHATSAPP EJECUTIVO </button>
+             <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-danger text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
-         <button onclick="Mens4(); eventosLanding('instagram');" class="btn bg-success text-black col-12 mt-2">INSTAGRAM EJECUTIVO </button>
+         <button onclick="Mens4(); eventosLanding('instagram');" class="btn bg-danger text-white col-12 mt-2">INSTAGRAM EJECUTIVO </button>
 
              </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
