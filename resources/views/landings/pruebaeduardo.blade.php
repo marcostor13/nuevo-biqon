@@ -64,7 +64,7 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por Favor Ingresa con los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-success text-white col-12 mt-4"> Validar </button>
+                <button onclick="event1(); return false;" class="btn bg-success text-black col-12 mt-4"> Validar </button>
 
                
 
@@ -90,14 +90,14 @@ Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las
 
              <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
 
-             <button class="btn bg-success text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">NECESITO QUE ME CONTACTEN</button>
+             <button class="btn bg-success text-black col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">NECESITO QUE ME CONTACTEN</button>
 
                 
-             <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>
+             <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-black col-12 mt-2">LLAMAR A EJECUTIVO </button>
 
-             <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+             <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-black col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
-         <button onclick="Mens4(); eventosLanding('instagram');" class="btn bg-success text-white col-12 mt-2">INSTAGRAM EJECUTIVO </button>
+         <button onclick="Mens4(); eventosLanding('instagram');" class="btn bg-success text-black col-12 mt-2">INSTAGRAM EJECUTIVO </button>
 
              </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
