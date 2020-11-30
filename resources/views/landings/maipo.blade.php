@@ -59,10 +59,10 @@ $name = $_GET['NOMBRE'];
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-   <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/NtCuzJ2.jpeg" alt="HerediaAbogados">
-   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/NtCuzJ2.jpeg" alt="HerediaAbogados">
+   <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/ONdxbzM.jpg" alt="HerediaAbogados">
+   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/ONdxbzM.jpg" alt="HerediaAbogados">
 
-   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/NtCuzJ2.jpeg" alt="HerediaAbogados">
+   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/ONdxbzM.jpg" alt="HerediaAbogados">
 
                <div id="cont1" class="p-5 hide">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
@@ -102,7 +102,7 @@ $name = $_GET['NOMBRE'];
 
 
                  <!-- <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
-                 <button onclick="window.location.href='http://bit.ly/2kAAUJB'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> CONSULTAR A LA AUTOPISTA</button>
+              <!--   <button onclick="window.location.href='http://bit.ly/2kAAUJB'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> CONSULTAR A LA AUTOPISTA</button>-->
 
 
                  <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar CONTACTO');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> DESEO QUE ME CONTACTEN </a>
