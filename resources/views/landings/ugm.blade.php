@@ -110,7 +110,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <input type="text" id="email" class="form-control" required placeholder="E-mail">
                     
                   </div> 
-                
+
 <!--  <br> <br>
            
               <select name="select_carreras" class="form-control" id="carrera" required>
@@ -255,13 +255,13 @@ $enddate=strtotime("+5 days", $startdate);
                     'RUT': $('#rut').val(),
                     'Telefono': $('#telefono').val(),
                     'E-mail': $('#email').val(),
-                    'Sede': $('#sede').val(),
-                    'Carrera': $('#carrera').val(),
-                    'Datos_URL': $('#nombre1').val(),
-                    'Nombre_URL': getUrlParameter('nombre'),
+                   // 'Sede': $('#sede').val(),
+                    //'Carrera': $('#carrera').val(),
+                    //'Datos_URL': $('#nombre1').val(),
+                   // 'Nombre_URL': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
-                    'Telefono_URL': getUrlParameter('telefono'),
-                     'Rut_URL': getUrlParameter('rut')
+                   // 'Telefono_URL': getUrlParameter('telefono'),
+                   //  'Rut_URL': getUrlParameter('rut')
                     // '': getUrlParameter('data1'),               
                 }
             }else{
