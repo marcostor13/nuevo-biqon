@@ -109,10 +109,11 @@ $enddate=strtotime("+5 days", $startdate);
                     <label for="form2" class="text-white">Email</label>
                     <input type="text" id="email" class="form-control" required placeholder="E-mail">
                     
-                  </div>  
-<br> <br>
+                  </div> 
+                  <br> 
+<!--  <br> <br>
            
-              <!--  <select name="select_carreras" class="form-control" id="carrera" required>
+              <select name="select_carreras" class="form-control" id="carrera" required>
 <option value="0">Seleccionar Carrera</option>
 <option value="Psicología">Psicología</option>
 <option value="Ingeniería Comercial">Ingeniería Comercial</option>
