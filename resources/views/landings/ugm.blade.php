@@ -72,7 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <strong>ADMISIÓN PROGRAMA ADVANCE</strong>
                   </h4>-->
                  <h4 class="text-white text-center">
-                    <strong>Consulta por tus Becas de Matrícula anticipada para Octubre 2020</strong>
+                    <strong>Actualización de Datos de ex-alumno UGM</strong>
                   </h4>
                   <hr>
 
@@ -112,7 +112,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>  
 <br> <br>
            
-                <select name="select_carreras" class="form-control" id="carrera" required>
+              <!--  <select name="select_carreras" class="form-control" id="carrera" required>
 <option value="0">Seleccionar Carrera</option>
 <option value="Psicología">Psicología</option>
 <option value="Ingeniería Comercial">Ingeniería Comercial</option>
@@ -130,7 +130,7 @@ $enddate=strtotime("+5 days", $startdate);
 <option value="Ingeniería Industrial Mención Logística y Transporte">Ingeniería Industrial Mención Logística y Transporte</option>
 <option value="Trabajo Social">Trabajo Social</option>
 <option value="Licenciatura en Trabajo Social">Licenciatura en Trabajo Social</option>
-        </select>
+        </select>-->
                   </div>
 
                   <div class="text-center">
