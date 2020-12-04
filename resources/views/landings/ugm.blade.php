@@ -94,12 +94,12 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <div class="md-form col-6  m-0">
                       <label for="form2" class="text-white">RUT</label>
-                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
+                      <input type="text" id="rut" class="form-control" required placeholder="RUT" min="8" max="9" maxlength="9">
                       
                     </div>
                     <div class="md-form col-6  m-0">
                       <label for="form2" class="text-white">Teléfono</label>
-                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono" min="9" max="9" maxlength="9">
                       
                     </div>
                   </div> 
@@ -185,6 +185,9 @@ $enddate=strtotime("+5 days", $startdate);
             });
         }); 
 
+function rut(){
+  #rut
+}
          function event1(){
     
             let dataSend = {
