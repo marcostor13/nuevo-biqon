@@ -58,7 +58,7 @@ $enddate=strtotime("+5 days", $startdate);
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
             <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="USS">-->
-            <img style="max-width: 40%" class="img-fluid col-md-12 mt-2" src="https://ricardo.qa.agenciafenomena.cl/ugm/wp-content/uploads/2020/04/favicon-ugm-full.png" alt="UGM">
+            <img style="max-width: 20%" class="img-fluid col-md-12 mt-2" src="https://ricardo.qa.agenciafenomena.cl/ugm/wp-content/uploads/2020/04/favicon-ugm-full.png" alt="UGM">
 
            <!-- <a target="_blank" href="https://www.advance.uss.cl/?utm_source=google&utm_medium=search&utm_campaign=advance&utm_term=generico&utm_content=nacional&gclid=EAIaIQobChMIsLn10Z-e4wIVFwSRCh0QaAqIEAAYASAAEgJdNvD_BwE" class="btn bg-danger text-white col-8 mt-4">Ir a la página web
               <i class="fas fa-graduation-cap ml-2"></i>
@@ -68,9 +68,9 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
-                 <h4 class="text-danger text-center">
+                 <!--<h4 class="text-danger text-center">
                     <strong>ADMISIÓN PROGRAMA ADVANCE</strong>
-                  </h4>
+                  </h4>-->
                  <h4 class="text-white text-center">
                     <strong>Consulta por tus Becas de Matrícula anticipada para Octubre 2020</strong>
                   </h4>
