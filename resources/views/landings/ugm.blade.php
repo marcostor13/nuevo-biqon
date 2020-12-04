@@ -141,12 +141,12 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>
               </div>
 
-               <div class="text-center">
-              <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56956889198&text=Hola,%20tengo%20una%20consulta" class="btn bg-primary text-white col-10 mt-4"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"> Contactanos</a>
+             <!--  <div class="text-center">
+               <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56956889198&text=Hola,%20tengo%20una%20consulta" class="btn bg-primary text-white col-10 mt-4"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"> Contactanos</a>
             
-             <!-- <a onclick="eventosLanding('Correo');Mens2();" class="btn bg-danger text-white col-12 mt-4"><img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> Escríbenos</a>-->
+            <a onclick="eventosLanding('Correo');Mens2();" class="btn bg-danger text-white col-12 mt-4"><img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> Escríbenos</a>
                 <br>  <br>
-                </div>
+                </div>-->
 
                </div>
 
@@ -173,7 +173,15 @@ $enddate=strtotime("+5 days", $startdate);
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(getAllUrlParameter())
+              json_datos.nombre = $('#nombre').val();
+              json_datos.apellido = $('#apellido').val();
+              json_datos.rut = $('#rut').val();
+              json_datos.telefono = $('#telefono').val();
+              json_datos.correo = $('#email').val();
+              json_datos.correo = $('#sede').val();
+              json_datos.carrera =  $('#carrera').val();
+
+                //'json_datos': JSON.stringify(getAllUrlParameter())
             });
         }); 
 
@@ -234,7 +242,14 @@ $enddate=strtotime("+5 days", $startdate);
             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
-                'json_datos': JSON.stringify(json_datos)
+                 json_datos.nombre = $('#nombre').val();
+              json_datos.apellido = $('#apellido').val();
+              json_datos.rut = $('#rut').val();
+              json_datos.telefono = $('#telefono').val();
+              json_datos.correo = $('#email').val();
+              json_datos.correo = $('#sede').val();
+              json_datos.carrera =  $('#carrera').val();
+               // 'json_datos': JSON.stringify(json_datos)
             });
         }
 
