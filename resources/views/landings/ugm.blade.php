@@ -173,21 +173,10 @@ $enddate=strtotime("+5 days", $startdate);
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
-              json_datos.nombre = $('#nombre').val();
-              json_datos.apellido = $('#apellido').val();
-              json_datos.rut = $('#rut').val();
-              json_datos.telefono = $('#telefono').val();
-              json_datos.correo = $('#email').val();
-              json_datos.correo = $('#sede').val();
-              json_datos.carrera =  $('#carrera').val();
-
-                //'json_datos': JSON.stringify(getAllUrlParameter())
+                'json_datos': JSON.stringify(getAllUrlParameter())
             });
         }); 
 
-function rut(){
-  #rut
-}
          function event1(){
     
             let dataSend = {
@@ -275,11 +264,11 @@ function rut(){
                     'E-mail': $('#email').val(),
                    // 'Sede': $('#sede').val(),
                     //'Carrera': $('#carrera').val(),
-                    //'Datos_URL': $('#nombre1').val(),
-                   // 'Nombre_URL': getUrlParameter('nombre'),
+                  'Datos_URL': $('#nombre1').val(),
+                   'Nombre_URL': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
-                   // 'Telefono_URL': getUrlParameter('telefono'),
-                   //  'Rut_URL': getUrlParameter('rut')
+                   'Telefono_URL': getUrlParameter('telefono'),
+                    'Rut_URL': getUrlParameter('rut')
                     // '': getUrlParameter('data1'),               
                 }
             }else{
