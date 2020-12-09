@@ -297,7 +297,7 @@ function rut(){
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["maria.rojas@ugm.cl"];
+            var correo = ["contacto.ugmistal@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
