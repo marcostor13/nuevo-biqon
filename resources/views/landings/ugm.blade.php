@@ -231,17 +231,10 @@ $enddate=strtotime("+5 days", $startdate);
             //json_datos.carrera =  $('#carrera').val();
 
 
-            events({    
+             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
-                 json_datos.nombre = $('#nombre').val();
-              json_datos.apellido = $('#apellido').val();
-              json_datos.rut = $('#rut').val();
-              json_datos.telefono = $('#telefono').val();
-              json_datos.correo = $('#email').val();
-              json_datos.correo = $('#sede').val();
-              json_datos.carrera =  $('#carrera').val();
-               // 'json_datos': JSON.stringify(json_datos)
+                'json_datos': JSON.stringify(json_datos)
             });
         }
 
