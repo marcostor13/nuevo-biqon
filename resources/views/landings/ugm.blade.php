@@ -94,7 +94,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <div class="md-form col-6  m-0">
                       <label for="form2" class="text-white">RUT</label>
-                      <input type="text" id="rut" class="form-control" required placeholder="RUT" min="8" max="9" maxlength="9">
+                      <input type="text" id="rut" class="form-control" required="required" placeholder="RUT" oninput="checkRut(this)"  min="8" max="9" maxlength="9">
                       
                     </div>
                     <div class="md-form col-6  m-0">
@@ -383,6 +383,87 @@ $enddate=strtotime("+5 days", $startdate);
    window.location.href = "mailto:maria.rojas@ugm.cl?subject=Consulta%20Cursos%20Advance%20&body=Telefono:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
 
  }
+
+  function  urldatos(){
+
+            var rutt = $('#rut').val();
+            var ecorr = $('#email').val();
+            var msg1;
+            msg1 = " El cliente Informa que el rut es "+rutt+" y el correo es "+ecorr+".";
+
+            //alert (msg1);
+
+            sendMail(msg1);
+        }
+
+
+               function  valtlf(){      
+             if ($('#rut').val().length == 9){ 
+               alert("El Largo del rut es correcto");
+             }else{
+                 alert("El rut es incorecto");
+             }
+                 }
+
+      $('#validate').click(function() {
+    var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+
+    if (regex.test($('#ecorr').val().trim())) {
+        alert('Correo validado');
+
+    } else {
+        alert('La direccón de correo no es válida');
+    }
+    });
+
+
+       function checkRut(rut) {
+    // Despejar Puntos
+    var valor = rut.value.replace('.','');
+    // Despejar Guión
+    valor = valor.replace('-','');
+    
+    // Aislar Cuerpo y Dígito Verificador
+    cuerpo = valor.slice(0,-1);
+    dv = valor.slice(-1).toUpperCase();
+    
+    // Formatear RUN
+    rut.value = cuerpo + '-'+ dv
+    
+    // Si no cumple con el mínimo ej. (n.nnn.nnn)
+    if(cuerpo.length < 7) { rut.setCustomValidity("RUT Incompleto"); return false;}
+    
+    // Calcular Dígito Verificador
+    suma = 0;
+    multiplo = 2;
+    
+    // Para cada dígito del Cuerpo
+    for(i=1;i<=cuerpo.length;i++) {
+    
+        // Obtener su Producto con el Múltiplo Correspondiente
+        index = multiplo * valor.charAt(cuerpo.length - i);
+        
+        // Sumar al Contador General
+        suma = suma + index;
+        
+        // Consolidar Múltiplo dentro del rango [2,7]
+        if(multiplo < 7) { multiplo = multiplo + 1; } else { multiplo = 2; }
+  
+    }
+    
+    // Calcular Dígito Verificador en base al Módulo 11
+    dvEsperado = 11 - (suma % 11);
+    
+    // Casos Especiales (0 y K)
+    dv = (dv == 'K')?10:dv;
+    dv = (dv == 0)?11:dv;
+    
+    // Validar que el Cuerpo coincide con su Dígito Verificador
+    if(dvEsperado != dv) { rut.setCustomValidity("RUT Inválido"); return false; }
+    
+    // Si todo sale bien, eliminar errores (decretar que es válido)
+    rut.setCustomValidity('');
+}
     </script>
     
 
