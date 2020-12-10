@@ -99,7 +99,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
                     <div class="md-form col-6  m-0">
                       <label for="form2" class="text-white">Teléfono</label>
-                      <input type="text" id="telefono" class="form-control" required="required" placeholder="Teléfono" min="9" max="9" maxlength="9" oninput="valtlf(this)">
+                      <input type="text" id="telefono" class="form-control" required="required" placeholder="Teléfono" min="9" max="9" maxlength="9">
                       
                     </div>
                   </div> 
