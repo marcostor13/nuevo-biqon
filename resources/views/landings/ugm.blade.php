@@ -399,7 +399,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                function  valtlf(){      
              if ($('#rut').val().length == 10){ 
-               alert("El Largo del rut es correcto");
+               alert("el rut es correcto");
              }else{
                  alert("El rut es incorecto");
              }
