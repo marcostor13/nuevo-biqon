@@ -94,7 +94,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <div class="md-form col-6  m-0">
                       <label for="form2" class="text-white">RUT</label>
-                      <input type="text" id="rut" class="form-control" required="required" placeholder="RUT" oninput="checkRut(this)" name="rut" min="8" max="9" maxlength="9">
+                      <input type="text" id="rut" class="form-control" required="required" placeholder="RUT" oninput="checkRut(this)" name="rut" min="9" max="10" maxlength="10">
                       
                     </div>
                     <div class="md-form col-6  m-0">
