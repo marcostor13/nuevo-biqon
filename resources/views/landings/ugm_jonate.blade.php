@@ -225,7 +225,7 @@ $enddate=strtotime("+5 days", $startdate);
             //json_datos.apellido = $('#apellido').val();
             //json_datos.rut = $('#rut').val();
             //json_datos.telefono = $('#telefono').val();
-            //json_datos.correo = $('#email').val();
+            json_datos.correo = $('#email').val();
             //json_datos.correo = $('#sede').val();
             //json_datos.carrera =  $('#carrera').val();
 
@@ -278,7 +278,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jeannette.onate@ugm.cl"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
