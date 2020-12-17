@@ -51,7 +51,7 @@
      <div class="opaco">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
+            <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
             
             <div class=col-md-12>
            
@@ -74,12 +74,12 @@
                     <div id="cont2" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h3 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h3>
-                                 <p class="text-white"> <h4> 
-                                 Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h4> </p>
-                                <p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> 
+                                <h4 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h4>
+                                 <p class="text-white"> <h5> 
+                                 Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h5> </p>
+                                <p> El N° de admisión correspondiente a su cuenta es:  <h5 id="dato1" class="dato1"> </h5></p> 
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
-                                <h4 class="text-grey text-center"> Seleccione una Opcion </h4>
+                                <h5 class="text-grey text-center"> Seleccione una Opcion </h5>
 
                                <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
                                 </button>
