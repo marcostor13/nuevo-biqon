@@ -90,12 +90,13 @@ $name = $_GET['NOMBRE'];
                             <div class="card-body">
                              <h5 class="text-black text-center"> Estimado(a) <strong>  <span><?php echo $name; ?></span></strong> </h5>
                             <p class="text-black"> 
-                              Te informamos que presenta <span><?php echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php echo $monto; ?></span>. 
+                              Para repactar su deuda le solicitaremos un pie, y el saldo podrá pagarlo en 4 cuotas, de enero a abril 2021.
+                             <!-- Te informamos que presenta <span><?php // echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php // echo $monto; ?></span>. 
 
                               <br> Le  recordamos que no podrá realizar matricula 2021 si presenta más de 3 cuotas pendientes del arancel 2020.
                               <br>
                                <br> Pinche su opción:
-                              <!--<strong>INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA </strong> <br>
+                              <strong>INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA </strong> <br>
                               Le invitamos a realizar el pago de su(s) cuota(s) pendiente(s) mediante transferencia electrónica:
                               <br>
                                <br>
@@ -111,17 +112,17 @@ $name = $_GET['NOMBRE'];
                                 Correo: cobranzas@emoderna.cl <br>-->
                             </p>
 
-            <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="mailto:cobranzas@emoderna.cl?subject=Cobranza%20Escuela%20Moderna" ; eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CONTACTAR A COBRANZAS PARA BENEFICIOS Y OPCIONES </a>
+            <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CONTACTAR A COBRANZAS PARA BENEFICIOS </a>
 
-             <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA</button>
+            <!-- <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA</button>
 
-              <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>
+              <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>-->
 
             
 
-             <!-- <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> LLAMAR </a>
+             <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> LLAMAR </a>
 
-              <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56932919230&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">  WHATSAPP </a>-->
+             <!--  <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56932919230&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">  WHATSAPP </a>-->
 
                                 </div>
 
@@ -393,6 +394,20 @@ $name = $_GET['NOMBRE'];
      $('#cont4').removeClass('hide');
 
         } 
+
+         function correo(){
+       var id_adm; 
+         id_adm= getUrlParameter('NOMBRE'); 
+         var rut; 
+         rut= getUrlParameter('RUT');
+
+        // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
+
+         var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20arancel%202020%20y%20así%20poder%20iniciar%20el%20proceso%20de%20matrícula%202021";
+
+   window.location.href = "mailto:cobranzas@emoderna.cl?subject=REPACTACIÓN&body=NOMBRE:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+
+ }
     </script>
     
 
