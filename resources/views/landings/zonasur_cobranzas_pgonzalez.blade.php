@@ -304,13 +304,13 @@ Para conocer más detalles tiene un ejecutivo asignado con quien evaluar las alt
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56971351203&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56997330176&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56971351203";
+        window.location.href ="tel:+56997330176";
     
         } 
     </script>
