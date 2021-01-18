@@ -200,7 +200,7 @@ Para conocer más detalles tiene un ejecutivo asignado con quien evaluar las alt
                 } 
             }
 
-            var correo = ["pgonzalez@zonasursa.cl"];  
+            var correo = ["pablogonzalez@zonasursa.cl"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
