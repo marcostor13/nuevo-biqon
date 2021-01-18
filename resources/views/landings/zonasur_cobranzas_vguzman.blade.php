@@ -74,12 +74,10 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 hide">
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
-               <p class="text-black" align="text-center">
-                    La seguridad de nuestro equipo y de nuestros clientes es lo primero.<br> Por eso, aborda tus inquietudes por nuestros medios de contacto a distancia. <br>Así, evitamos que te expongas.  
-
- <br>Prefiere lo digital www.tanner.cl
-
- <br> #EstamosJuntosEnEsto  <br></p>
+                <p class="text-black" align="text-center">
+                   Informamos que tenemos una solución a su deuda por crédito automotriz impago.
+<br> 
+Para conocer más detalles tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.disponibles.<br> #EstamosJuntosEnEsto  <br></p>
 
                     <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
                 
