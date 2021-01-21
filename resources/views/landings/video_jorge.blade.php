@@ -26,6 +26,7 @@
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> ¡Apoyemos al emprendedor chileno!
 Es muy importante felicitar este tipo de emprendimientos, que usan el cobre para sanitizar superficies que acumulan fácilmente bacterias, virus y hongos.
+
 Un producto tan importante para nuestro país, que @biofree.cl decidió agregar valor con un terminado diferente y de gran calidad.
 ¡Muchas felicitaciones! </strong> </h3> </div> </div>
 
