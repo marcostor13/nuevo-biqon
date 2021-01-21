@@ -21,10 +21,10 @@
                 <div class="videoWrapper align-items-center ">        
                     <iframe width="400" height="320" src="{{asset('/files/jorge1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="justify-content-center" allowfullscreen></iframe>
                 </div>
-
+ <br><br>
                 <div class="card align-items-center ">     
                 <div class="card-body">
-                    <br><br>
+                   
                 <h3 class="text-black text-center"> <strong> Informanos si estas deacuerdo con Nosotros </strong> </h3> </div> </div>
 
              <button onclick="sendMail('El cliente indica que esta deacuerdo'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
