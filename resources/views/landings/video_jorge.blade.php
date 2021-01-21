@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'Financoop')
+@section('title', 'CAMPAÑA')
 
 @section('content')
 
