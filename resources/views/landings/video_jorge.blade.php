@@ -24,9 +24,12 @@
 
                 <div class="card">     
                 <div class="card-body">
-                <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> </div> </div>
+                <h3 class="text-black text-center"> <strong> ¡Apoyemos al emprendedor chileno!
+Es muy importante felicitar este tipo de emprendimientos, que usan el cobre para sanitizar superficies que acumulan fácilmente bacterias, virus y hongos.
+Un producto tan importante para nuestro país, que @biofree.cl decidió agregar valor con un terminado diferente y de gran calidad.
+¡Muchas felicitaciones! </strong> </h3> </div> </div>
 
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
+              <!--  <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>-->
             </div>
             
 <div class="d-flex justify-content-around align-content-center mt-4"> 
