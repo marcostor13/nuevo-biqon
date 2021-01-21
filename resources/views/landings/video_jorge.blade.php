@@ -18,11 +18,11 @@
             <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Financoop">-->
 
             <div id="cont1">
-                <div class="videoWrapper">        
+                <div class="videoWrapper align-items-center ">        
                     <iframe width="400" height="320" src="{{asset('/files/jorge.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
-                <div class="card">     
+                <div class="card align-items-center ">     
                 <div class="card-body">
                 <h3 class="text-black text-center"> <strong> ¡Apoyemos al emprendedor chileno!
 Es muy importante felicitar este tipo de emprendimientos, que usan el cobre para sanitizar superficies que acumulan fácilmente bacterias, virus y hongos.
