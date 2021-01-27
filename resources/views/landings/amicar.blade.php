@@ -87,7 +87,7 @@ $enddate=strtotime("+15 days", $startdate);
 </style>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <div id="AmiCar" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+   <!-- <div id="AmiCar" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
 
         <div class="opaco"></div>
 
@@ -108,7 +108,7 @@ $enddate=strtotime("+15 days", $startdate);
                    
                    
 
-                     <button onclick="sendMail('Solicito ser Contactado'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-white col-12 mt-4">Me Interesa ser Contactado</button>
+                     <button onclick="sendMail('Solicito ser Contactado'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-4">Me Interesa ser Contactado</button>
                        </div>
                        </div>
                        <br>
