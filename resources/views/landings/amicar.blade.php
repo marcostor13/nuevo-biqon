@@ -97,20 +97,18 @@ $enddate=strtotime("+15 days", $startdate);
             <div id="cont1" class="p-5 ">
               <div class="card">
                         <div class="card-body">
-                        <h3 class="text-grey text-center">Para Renovar tu auto <br> Agenda tu Visita   <br> Y un ejecutivo te contactará</h3>
+                        <h3 class="text-grey text-center">El mercado automotriz esta muy dinámico y tenemos</h3><h3 class="text-danger text-center"> ofertas imperdibles para nuestros clientes!</h3>
                     
                         
-                    <div>
+                    <!--<div>
                     	<label>Fecha:</label>
-    					<!--<input type="date" id="date1" onclick="" class="mt-4 form-control">
-    					<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
-    					  <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+    					  <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
                         
-                    </div>
+                    </div>-->
                    
                    
 
-                     <button onclick="sendMail(); return false;" class="btn bg-warning text-white col-12 mt-4">Visitar</button>
+                     <button onclick="sendMail('Solicito ser Contactado'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-white col-12 mt-4">Me Interesa ser Contactado</button>
                        </div>
                        </div>
                        <br>
@@ -139,6 +137,8 @@ $enddate=strtotime("+15 days", $startdate);
                    <br>
                    <br>
                     </div>
+                     <img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/b4XygqX.png" alt="AMICAR">
+
 
         </div>
     </div>
