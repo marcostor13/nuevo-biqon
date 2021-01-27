@@ -127,10 +127,7 @@ $enddate=strtotime("+15 days", $startdate);
                         </div>
                         <br>
                    <br>
-                     <br>
-                     <br>
-                     <br>
-                   <br>
+    
                    <br>
                    <br>
                     </div>
