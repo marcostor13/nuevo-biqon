@@ -80,6 +80,7 @@ $enddate=strtotime("+15 days", $startdate);
             });
         }); 
 
+        
          function event1(){
     
             let dataSend = {
