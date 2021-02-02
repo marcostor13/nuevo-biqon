@@ -70,7 +70,7 @@ $enddate=strtotime("+15 days", $startdate);
         </div>
     </div>
 
-    <script>
+     <script>
 
      $(function(){
             events({    
@@ -168,7 +168,7 @@ $enddate=strtotime("+15 days", $startdate);
                 } 
             }
 
-            var correo = ["ltheza@prainabogados.cl"];
+            var correo = ["cgarcia@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
