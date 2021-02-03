@@ -224,9 +224,9 @@
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                     'Id_Admision': getUrlParameter('data2'),
-                    //'Prevision': getUrlParameter('data'),
+                    'Prevision': getUrlParameter('data3'),
                     'Estado': getUrlParameter('data1'),
-                    'Liquidacion': getUrlParameter('data3'),
+                   // 'Liquidacion': getUrlParameter('data3'),
                     'Landing': '{!! $landing->name !!}'
                     
                 }
@@ -238,10 +238,10 @@
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Id_Admision': getUrlParameter('data1'),
-                    'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data3'),
-                    'Liquidacion': getUrlParameter('data4'),
+                    'Id_Admision': getUrlParameter('data2'),
+                    'Prevision': getUrlParameter('data3'),
+                    'Estado': getUrlParameter('data1'),
+                   // 'Liquidacion': getUrlParameter('data3'),
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
