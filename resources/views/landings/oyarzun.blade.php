@@ -253,6 +253,11 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                     //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
+                    'EJECUTIVO': getUrlParameter('data1'),
+                     'PATENTE': getUrlParameter('data2'),
+                     'CARTERA': getUrlParameter('data3'),
+                     'OPERACION': getUrlParameter('data4'),
+                     'CAMPANA': getUrlParameter('data5'),
                    'landing': '{!! $landing->name !!}'
                     
                 }
@@ -264,10 +269,13 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                    // 'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
                      'rut': getUrlParameter('rut'),
+                     'EJECUTIVO': getUrlParameter('data1'),
+                     'PATETE': getUrlParameter('data2'),
+                     'CARTERA': getUrlParameter('data3'),
+                     'OPERACION': getUrlParameter('data4'),
+                     'CAMPANA': getUrlParameter('data5'),
                     'landing': '{!! $landing->name !!}'
                 } 
-            }
-
             var correo = ["mrabi@oyarzunycia.cl", "lparada@oyarzunycia.cl"];  
 
             let dataSend = {
@@ -372,7 +380,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56944000698&text=Hola,%20Moris%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56944000698&text=Hola,%20Mooris%20tengo%20una%20consulta";
     
         } 
 
