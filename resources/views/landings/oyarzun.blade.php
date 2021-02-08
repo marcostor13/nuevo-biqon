@@ -272,10 +272,12 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                      'EJECUTIVO': getUrlParameter('data1'),
                      'PATETE': getUrlParameter('data2'),
                      'CARTERA': getUrlParameter('data3'),
-                     'OPERACION': getUrlParameter('data4'),
+                   'OPERACION': getUrlParameter('data4'),
                      'CAMPANA': getUrlParameter('data5'),
                     'landing': '{!! $landing->name !!}'
                 } 
+
+               }
             var correo = ["mrabi@oyarzunycia.cl", "lparada@oyarzunycia.cl"];  
 
             let dataSend = {
