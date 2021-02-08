@@ -237,7 +237,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
                     'EJECUTIVO': getUrlParameter('data1'),
-                     'DEUDA_INI': getUrlParameter('data2'),
+                     'PATENTE': getUrlParameter('data2'),
                      'CARTERA': getUrlParameter('data3'),
                      'OPERACION': getUrlParameter('data4'),
                      'CAMPANA': getUrlParameter('data5'),
@@ -253,7 +253,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                     'phone': getUrlParameter('telefono'),
                      'rut': getUrlParameter('rut'),
                      'EJECUTIVO': getUrlParameter('data1'),
-                     'DEUDA_INI': getUrlParameter('data2'),
+                     'PATETE': getUrlParameter('data2'),
                      'CARTERA': getUrlParameter('data3'),
                      'OPERACION': getUrlParameter('data4'),
                      'CAMPANA': getUrlParameter('data5'),
@@ -366,7 +366,6 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
     function Mens3(){
 
         window.location.href = "https://api.whatsapp.com/send?phone=56940309256&text=Hola,%20Juan%20tengo%20una%20consulta,%20respecto%20a%20mi%20deuda";
-    
         } 
 
            function Mens2(){
