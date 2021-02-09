@@ -95,10 +95,12 @@ $enddate=strtotime("+15 days", $startdate);
             <img style="max-width: 30%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Jacqueline">
 
             <div id="cont1" class="p-5 ">
+               <div class="card">
+                        <div class="card-body">
                <div class="videoWrapper align-items-center">        
                     <iframe width="400" height="320" src="{{asset('/files/jacquelinexsj.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                    
+                    </div>
                       
                    <h3>Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h3>
                    
@@ -111,7 +113,7 @@ $enddate=strtotime("+15 days", $startdate);
                                 <br>
                                
              </div>
-        </div>
+       
 
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
