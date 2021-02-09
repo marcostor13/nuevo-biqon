@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'AMICAR')
+@section('title', 'SAN-JOAQUIN')
 
 @section('content')
 <?php
@@ -8,17 +8,83 @@ $startdate=strtotime("Today");
 $enddate=strtotime("+15 days", $startdate);
 ?>
 <style>
+
 .opaco{
     display: none !important; 
+
 }
- .input-min-width-95p {min-width:95%;}
+.input{
+  border-color: #A1CBF3 !important;
+}
+     
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border: 0;
+  font-weight: 400;
+}
+.card[class*=border] {
+  border: 1px solid #9e9e9e;
+  box-shadow: none;
+}
+.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
+  font-weight: 400;
+}
+.card .card-body .card-title a {
+  transition: 0.2s ease-in-out;
+}
+.card .card-body .card-title a:hover {
+  transition: 0.2s ease-in-out;
+}
+.card .card-body .card-text {
+  color: #747373;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.card .md-form label {
+  font-weight: 300;
+}
+
+oscurecer {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    )
+    }
+
+      /* ocultar controles de input date */ 
+     input[type="date"]::-webkit-inner-spin-button,
+                  ::-webkit-calendar-picker-indicator,
+                  ::-webkit-datetime-edit{
+        display: none;
+    }
+    
+   
+    /* mostrar el calendario al hacer click */
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        display: block;
+        background: transparent;
+        bottom: 0;
+        color: transparent;
+        cursor: pointer;
+        height: auto;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: auto;
+    }
+   
+    /* mostrar la fecha seleccionada al estar en hover */
+   .input-min-width-95p {min-width:95%;}
    .input-min-width-95p {min-height:5%;}
+    }
 </style>
  
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AMICAR">
+            <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Jacqueline">
 
             <div id="cont1" align="align-items-center align-content-center">
                 <br>
@@ -42,14 +108,15 @@ $enddate=strtotime("+15 days", $startdate);
                     <br>
 
                    <br>
-                    <div class="card">
-                   <h4 class="text-grey text-center">Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h4>
+                   <div class="card">
+                    <div class="card-body">
+                   <h5 class="text-grey text-center">Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h5>
                    
 
                      <button onclick="sendMail('SI QUIERO CONECER A JACQUELINE'); ;eventosLanding('SI'); return false;" class="btn bg-danger text-white col-12 mt-4">SI</button>
 
                      <button onclick="sendMail('NO QUIERO CONECER A JACQUELINE'); ;eventosLanding('NO'); return false;" class="btn bg-danger text-white col-12 mt-4">NO</button>
-                                              </div>
+                                              </div> </div>
                 <br>
                    <br>
     
