@@ -94,26 +94,36 @@ $enddate=strtotime("+15 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 30%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Jacqueline">
 
+           
             <div id="cont1" class="p-5 ">
-               <div class="card">
+              <div class="card">
                         <div class="card-body">
-               <div class="videoWrapper align-items-center">        
+                       <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/jacquelinexsj.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                    </div>
-                      
+                     </div>
+                       </div>
+                        
+                    <!--<div>
+                      <label>Fecha:</label>
+                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
+                        
+                    </div>-->
+                    <div class="card">
                    <h3>Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h3>
                    
 
                      <button onclick="sendMail('SI QUIERO CONECER A JACQUELINE'); ;eventosLanding('SI'); return false;" class="btn bg-danger text-white col-12 mt-4">SI</button>
 
                      <button onclick="sendMail('NO QUIERO CONECER A JACQUELINE'); ;eventosLanding('NO'); return false;" class="btn bg-danger text-white col-12 mt-4">NO</button>
-                       </div>
+                                              </div>
                        <br>
                                 <br>
                                
              </div>
-       
+
+
+
 
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
