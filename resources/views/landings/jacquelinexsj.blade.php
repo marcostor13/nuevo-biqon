@@ -92,10 +92,11 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width:300px; max-height:250px " class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Jacqueline">
+            
 
             <div id="cont1" class="p-5 ">
               <div class="card">
+                <img style="max-width:300px; max-height:250px " class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Jacqueline">
                         <div class="card-body">
                         <h5 class="text-dark text-center">Vecinos y vecinas de San Joaquín, mi nombre es Jacqueline Rodríguez y soy candidata a concejal, por ustedes. Hoy día he vuelto a la comuna. Hace muchos años trabajé con ustedes, hicimos muchas cosas juntos; comités de adelanto, comités de pavimentación, trabajamos en las inundaciones, hicimos hartas cosas! Hoy día estoy mucho más preparada, tengo mucha más experiencia, y eso lo traigo para ustedes, y por eso HOY VUELVO A SAN JOAQUÍN!</h5>
                      </div>
