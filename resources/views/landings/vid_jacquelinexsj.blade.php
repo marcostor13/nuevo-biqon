@@ -127,13 +127,13 @@ $enddate=strtotime("+15 days", $startdate);
                    <br>
                    <br>
                     </div>
-                     <img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/b4XygqX.png" alt="AMICAR">
+                     <!--<img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/b4XygqX.png" alt="AMICAR">-->
                   <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="facebook.com/Jacquelinexsanjoaquin"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="facebook.com/Jacquelinexsanjoaquin"><img width="75" src="https://i.imgur.com/1MMbEAw.png"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/jacquelinexsanjoaquin/"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                    <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/jacquelinexsanjoaquin/"><img width="60" src="https://i.imgur.com/DVoiS58.png"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('TWITTER');" href="https://twitter.com/jacquelinexsj"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a class="ml-4" onclick="eventosLanding('TWITTER');" href="https://twitter.com/jacquelinexsj"><img width="60" src="https://i.imgur.com/tanoEA3.png"></a>
                 </div>
 
         </div>
