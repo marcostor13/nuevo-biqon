@@ -92,7 +92,7 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AmiCar">
+            <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AmiCar">
 
             <div id="cont1" class="p-5 ">
               <div class="card">
@@ -135,7 +135,7 @@ $enddate=strtotime("+15 days", $startdate);
                     </div>
                      <!--<img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/b4XygqX.png" alt="AMICAR">-->
                   <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="facebook.com/Jacquelinexsanjoaquin"><img width="75" src="https://i.imgur.com/1MMbEAw.png"></a>
+                    <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="facebook.com/Jacquelinexsanjoaquin"><img width="60" src="https://i.imgur.com/1MMbEAw.png"></a>
                    
                     <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/jacquelinexsanjoaquin/"><img width="60" src="https://i.imgur.com/DVoiS58.png"></a>
                    
