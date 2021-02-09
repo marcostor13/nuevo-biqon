@@ -111,14 +111,14 @@ oscurecer {
                    <div class="card">
                     <div class="card-body">
                    <h5 class="text-grey text-center">Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h5>
-                   
 
+                    </div> 
+                  </div>
                      <button onclick="sendMail('SI QUIERO CONECER A JACQUELINE'); ;eventosLanding('SI'); return false;" class="btn bg-danger text-white col-12 mt-4">SI</button>
 
                      <button onclick="sendMail('NO QUIERO CONECER A JACQUELINE'); ;eventosLanding('NO'); return false;" class="btn bg-danger text-white col-12 mt-4">NO</button>
-                                              </div> </div>
                 <br>
-                   <br>
+                <br>
     
                    <br>
                    <br>
