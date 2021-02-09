@@ -106,8 +106,10 @@ $enddate=strtotime("+15 days", $startdate);
     					  <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
                         
                     </div>-->
+                     <br>
+                                <br>
                     <div class="card">
-                   <h3>Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h3>
+                   <h4>Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h4>
                    
 
                      <button onclick="sendMail('SI QUIERO CONECER A JACQUELINE'); ;eventosLanding('SI'); return false;" class="btn bg-danger text-white col-12 mt-4">SI</button>
