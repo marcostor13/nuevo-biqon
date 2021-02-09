@@ -97,22 +97,23 @@ $enddate=strtotime("+15 days", $startdate);
             <div id="cont1" class="p-5 ">
               <div class="card">
                         <div class="card-body">
-                        <h3 class="text-grey text-center">Vecinos y vecinas de San Joaquín, mi nombre es Jacqueline Rodríguez y soy candidata a concejal, por ustedes. Hoy día he vuelto a la comuna. Hace muchos años trabajé con ustedes, hicimos muchas cosas juntos; comités de adelanto, comités de pavimentación, trabajamos en las inundaciones, hicimos hartas cosas! Hoy día estoy mucho más preparada, tengo mucha más experiencia, y eso lo traigo para ustedes, y por eso HOY VUELVO A SAN JOAQUÍN!</h3>
-                    
+                        <h5 class="text-grey text-center">Vecinos y vecinas de San Joaquín, mi nombre es Jacqueline Rodríguez y soy candidata a concejal, por ustedes. Hoy día he vuelto a la comuna. Hace muchos años trabajé con ustedes, hicimos muchas cosas juntos; comités de adelanto, comités de pavimentación, trabajamos en las inundaciones, hicimos hartas cosas! Hoy día estoy mucho más preparada, tengo mucha más experiencia, y eso lo traigo para ustedes, y por eso HOY VUELVO A SAN JOAQUÍN!</h5>
+                     </div>
+                       </div>
                         
                     <!--<div>
                     	<label>Fecha:</label>
     					  <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
                         
                     </div>-->
+                    <div class="card">
                    <h3>Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h3>
                    
 
                      <button onclick="sendMail('SI QUIERO CONECER A JACQUELINE'); ;eventosLanding('SI'); return false;" class="btn bg-danger text-white col-12 mt-4">SI</button>
 
                      <button onclick="sendMail('NO QUIERO CONECER A JACQUELINE'); ;eventosLanding('NO'); return false;" class="btn bg-danger text-white col-12 mt-4">NO</button>
-                       </div>
-                       </div>
+                                              </div>
                        <br>
                                 <br>
                                
