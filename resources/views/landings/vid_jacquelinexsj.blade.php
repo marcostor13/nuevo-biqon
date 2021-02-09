@@ -93,22 +93,7 @@ oscurecer {
                     <iframe width="400" height="320" src="{{asset('/files/jacquelinexsj.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
-                <!--<div class="card">     
-                <div class="card-body">
-
-                    <h5 class="text-black text-center"> <strong> Desea agendar su visita</strong> </h5>
-
-                        <div class="date btn bg-warning text-black col-12 mt-4">
-                    <span>AGENDAR</span>
-                    <input id="date1"  type="date" class="btn-date text-primary input-min-width-95p" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-                     </div>
-
-                       </div>
-                   </div>-->
-                    <br>
-
-                   <br>
-                   <div class="card">
+               <div class="card">
                     <div class="card-body">
                    <h5 class="text-grey text-center">Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h5>
 
