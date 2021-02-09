@@ -1,164 +1,90 @@
 @extends('layouts.landing')
 
-@section('title', 'SAN-JOAQUIN')
+@section('title', 'AMICAR')
 
 @section('content')
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+15 days", $startdate);
 ?>
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <style>
 .opaco{
     display: none !important; 
-
 }
-.input{
-  border-color: #A1CBF3 !important;
-}
-     
-.card {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  border: 0;
-  font-weight: 400;
-}
-.card[class*=border] {
-  border: 1px solid #9e9e9e;
-  box-shadow: none;
-}
-.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
-  font-weight: 400;
-}
-.card .card-body .card-title a {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-title a:hover {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-text {
-  color: #747373;
-  font-size: 0.9rem;
-  font-weight: 400;
-}
-.card .md-form label {
-  font-weight: 300;
-}
-
-.oscurecer {
-  background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    )
-    }
-
-      /* ocultar controles de input date */ 
-     input[type="date"]::-webkit-inner-spin-button,
-                  ::-webkit-calendar-picker-indicator,
-                  ::-webkit-datetime-edit{
-        display: none;
-    }
-    
-   
-    /* mostrar el calendario al hacer click */
-    input[type="date"]::-webkit-calendar-picker-indicator {
-        display: block;
-        background: transparent;
-        bottom: 0;
-        color: transparent;
-        cursor: pointer;
-        height: auto;
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: auto;
-    }
-   
-    /* mostrar la fecha seleccionada al estar en hover */
-   .input-min-width-95p {min-width:95%;}
+ .input-min-width-95p {min-width:95%;}
    .input-min-width-95p {min-height:5%;}
-    }
-
-
 </style>
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-   <!-- <div id="AmiCar" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
-
+ 
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 45%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Jacqueline">
+            <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AMICAR">
 
-           
-            <div id="cont1" class="p-5 ">
-              <div class="card">
-                        <div class="card-body">
-                       <div class="videoWrapper">        
+            <div id="cont1" align="align-items-center align-content-center">
+                <br>
+               
+                <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/jacquelinexsj.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+
+                <!--<div class="card">     
+                <div class="card-body">
+
+                    <h5 class="text-black text-center"> <strong> Desea agendar su visita</strong> </h5>
+
+                        <div class="date btn bg-warning text-black col-12 mt-4">
+                    <span>AGENDAR</span>
+                    <input id="date1"  type="date" class="btn-date text-primary input-min-width-95p" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
                      </div>
+
                        </div>
-                        
-                    <!--<div>
-                      <label>Fecha:</label>
-                <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
-                        
-                    </div>-->
-                     <br>
-                                <br>
+                   </div>-->
+                    <br>
+
+                   <br>
                     <div class="card">
-                   <h4>Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h4>
+                   <h4 class="text-grey text-center">Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h4>
                    
 
                      <button onclick="sendMail('SI QUIERO CONECER A JACQUELINE'); ;eventosLanding('SI'); return false;" class="btn bg-danger text-white col-12 mt-4">SI</button>
 
                      <button onclick="sendMail('NO QUIERO CONECER A JACQUELINE'); ;eventosLanding('NO'); return false;" class="btn bg-danger text-white col-12 mt-4">NO</button>
                                               </div>
-                       <br>
-                                <br>
-                               
-             </div>
-
-
-
-
-            <div id="cont3" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                                
-
-                            </div>
-                        </div>
-                        <br>
+                <br>
                    <br>
     
                    <br>
                    <br>
-                    </div>
-                     <!--<img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/b4XygqX.png" alt="AMICAR">-->
-                  <div class="d-flex justify-content-around align-content-center mt-4"> 
+            
+            <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="facebook.com/Jacquelinexsanjoaquin"><img width="60" src="https://i.imgur.com/1MMbEAw.png"></a>
                    
                     <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/jacquelinexsanjoaquin/"><img width="60" src="https://i.imgur.com/DVoiS58.png"></a>
                    
                     <a class="ml-4" onclick="eventosLanding('TWITTER');" href="https://twitter.com/jacquelinexsj"><img width="60" src="https://i.imgur.com/tanoEA3.png"></a>
                 </div>
-
         </div>
-    </div>
 
+
+        <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-black text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
+                    </div>
+
+   </div> 
      <script>
    //EVENT 1
-        $( function() {
-    $( "#datepicker" ).datepicker();
-  } );  
-         $(function(){
+
+         $('#date1').on('change', function(){
+                        if($('#date1').val() != ''){
+                            sendMail();
+                        }
+                    });
+
+        $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
@@ -197,9 +123,7 @@ $enddate=strtotime("+15 days", $startdate);
                         }
                     });
                 }else{
-                    $('#cont1').addClass('hide');
-                     $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
+                    $('#error').text(e.msg);
                 }
             })
             .fail(function() {
@@ -213,10 +137,7 @@ $enddate=strtotime("+15 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = getUrlParameter('nombre');
-            json_datos.rut = getUrlParameter('rut');
-            json_datos.telefono = getUrlParameter('Telefono');
-            json_datos.fecha = $('#date1').val();
+           // json_datos.nombre = $('#name').text();
            // json_datos.monto = $('#pay').text();
 
             events({    
@@ -236,34 +157,34 @@ $enddate=strtotime("+15 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': getUrlParameter('nombre'),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
-                    'Marca': getUrlParameter('data1'),
-                    'Periodo': getUrlParameter('data2'),
-                    'landing': '{!! $landing->name !!}'
-                   
+                    'Mombre': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
+                    'Phone': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                     'Direccion': getUrlParameter('data1'),
+                     'Comuna': getUrlParameter('data2')                
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'fecha': date,
+                    'Fecha': date,
                     'Nombre': getUrlParameter('nombre'),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
-                    'Marca': getUrlParameter('data1'),
-                    'Periodo': getUrlParameter('data2'),
+                    //'monto': getUrlParameter('monto'),
+                    'Phone': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                     'Direccion': getUrlParameter('data1'),
+                     'Comuna': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-              var correo = ["jesus.binteraction@gmail.com"];
+          var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-               // 'email': '{!! $landing->email !!}'
-                //'email': "carla.torres@amicar.cl jesus.binteraction@gmail.com"
+                //'email': '{!! $landing->email !!}'
+                //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
                 headers: {
@@ -281,8 +202,7 @@ $enddate=strtotime("+15 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su visita fue agendada.  Nos pondremos en contacto con usted en los próximos días');
-                     eventosLanding('Agendo Visita');
+                    $('#message').text('Gracias, Su visita fue agendada');
                 }
             })
             .done(function(e) {
@@ -347,7 +267,9 @@ $enddate=strtotime("+15 days", $startdate);
 
             return obj;  
         };
-       
+
+      
+        
     
     </script>
     
