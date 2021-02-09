@@ -99,9 +99,9 @@ oscurecer {
 
                     </div> 
                   </div>
-                     <button onclick="sendMail('SI QUIERO CONECER A JACQUELINE'); ;eventosLanding('SI'); return false;" class="btn bg-danger text-white col-12 mt-4">SI</button>
+                     <button onclick="sendMail('SI QUIERO CONECER A JACQUELINE'); ;eventosLanding('SI'); return false;" class="btn bg-primary text-white col-12 mt-4">SI</button>
 
-                     <button onclick="sendMail('NO QUIERO CONECER A JACQUELINE'); ;eventosLanding('NO'); return false;" class="btn bg-danger text-white col-12 mt-4">NO</button>
+                     <button onclick="sendMail('NO QUIERO CONECER A JACQUELINE'); ;eventosLanding('NO'); return false;" class="btn bg-primary text-white col-12 mt-4">NO</button>
                 <br>
                 <br>
     
