@@ -109,7 +109,7 @@ $enddate=strtotime("+15 days", $startdate);
                      <br>
                                 <br>
                     <div class="card">
-                   <h4>Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h4>
+                   <h4 class="text-grey text-center">Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h4>
                    
 
                      <button onclick="sendMail('SI QUIERO CONECER A JACQUELINE'); ;eventosLanding('SI'); return false;" class="btn bg-danger text-white col-12 mt-4">SI</button>
