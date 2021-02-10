@@ -84,7 +84,7 @@ oscurecer {
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width:250px; max-height:150px " class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Jacqueline">
+           <!-- <img style="max-width:250px; max-height:150px " class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Jacqueline">-->
 
             <div id="cont1" align="align-items-center align-content-center">
                 <br>
@@ -118,9 +118,8 @@ oscurecer {
                     
                 </div>
 
-                <div>
-                    <p>
-                      Quieres saber más acerca de Jaqueline Rodríguez, visita: <a href="Http://www.jacquelinexsanjoaquin.cl">jacquelinexsanjoaquin.cl </a>
+                <div class="d-flex justify-content-around align-content-center mt-4">
+                    <p>Quieres saber más acerca de Jaqueline Rodríguez, visita: <a href="Http://www.jacquelinexsanjoaquin.cl">jacquelinexsanjoaquin.cl </a>
                     </p>
                 </div>
         </div>
