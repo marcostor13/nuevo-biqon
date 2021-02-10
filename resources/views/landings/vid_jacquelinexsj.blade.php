@@ -121,7 +121,7 @@ oscurecer {
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <div class="card">
                     <div class="card-body">
-                    <p class="text-grey text-center">Quieres saber más de Jaqueline Rodríguez,<br> visita:  <a href="Http://www.jacquelinexsanjoaquin.cl">jacquelinexsanjoaquin.cl </a>
+                    <h5 class="text-grey text-center">Quieres saber más de Jaqueline Rodríguez,<br> visita:  <a href="Http://www.jacquelinexsanjoaquin.cl">jacquelinexsanjoaquin.cl </h5>
                     </p>
                     </div>
                     </div>
