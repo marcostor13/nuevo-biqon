@@ -95,7 +95,7 @@ oscurecer {
 
                <div class="card">
                     <div class="card-body">
-                   <h5 class="text-grey text-center">Le interesa recibir información de Jacqueline Rodríguez, Candidata a Consejal por San Joaquín</h5>
+                   <h5 class="text-grey text-center">Le interesa recibir información de Jacqueline Rodríguez, Candidata a Concejal por San Joaquín</h5>
 
                     </div> 
                   </div>
