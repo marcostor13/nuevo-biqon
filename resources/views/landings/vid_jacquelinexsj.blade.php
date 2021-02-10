@@ -119,8 +119,12 @@ oscurecer {
                 </div>
 
                 <div class="d-flex justify-content-around align-content-center mt-4">
+                    <div class="card">
+                    <div class="card-body">
                     <p>Quieres saber más acerca de Jaqueline Rodríguez, visita: <a href="Http://www.jacquelinexsanjoaquin.cl">jacquelinexsanjoaquin.cl </a>
                     </p>
+                    </div>
+                    </div>
                 </div>
         </div>
 
