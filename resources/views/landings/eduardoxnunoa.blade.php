@@ -112,9 +112,9 @@ oscurecer {
             <div class="d-flex justify-content-around align-content-center mt-4"> 
                 <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
 
-                <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="https://facebook.com/Eduardo-Ojeda-104846511642594"><img width="55" src="https://i.imgur.com/1MMbEAw.png"></a>
+                <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="https://facebook.com/Eduardo-Ojeda-104846511642594"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a>
                    
-                <a class="ml-4" onclick="eventosLanding('TWITTER');" href="https://twitter.com/OjedaNunoa"><img width="55" src="https://i.imgur.com/tanoEA3.png"></a>
+                <a class="ml-4" onclick="eventosLanding('TWITTER');" href="https://twitter.com/OjedaNunoa"><img width="50" src="https://i.imgur.com/tanoEA3.png"></a>
                    
                     
                 </div>
