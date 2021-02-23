@@ -87,6 +87,7 @@ oscurecer {
            <!-- <img style="max-width:250px; max-height:150px " class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Jacqueline">-->
 
             <div id="cont1" align="align-items-center align-content-center">
+
                 <br>
                
                 <div class="videoWrapper">        
@@ -111,9 +112,9 @@ oscurecer {
             <div class="d-flex justify-content-around align-content-center mt-4"> 
                 <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
 
-                <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="http://www.Facebook.com/#####"><img width="60" src="https://i.imgur.com/1MMbEAw.png"></a>
+                <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="https://www.facebook.com/Eduardo-Ojeda-104846511642594"><img width="60" src="https://i.imgur.com/1MMbEAw.png"></a>
                    
-                <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="http://www.Instagram.com/#####"><img width="60" src="https://i.imgur.com/DVoiS58.png"></a>
+                <a class="ml-4" onclick="eventosLanding('TWITTER');" href="https://twitter.com/OjedaNunoa"><img width="60" src="https://i.imgur.com/tanoEA3.png"></a>
                    
                     
                 </div>
@@ -121,7 +122,7 @@ oscurecer {
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <div class="card">
                     <div class="card-body">
-                    <h5 class="text-grey text-center">Quieres saber más de Eduardo Ojeda,<br> visita:  <a href="Http://www.#####.cl">######.cl </h5>
+                    <h5 class="text-grey text-center">La Experiencia hace la Diferencia</h5>
                     </p>
                     </div>
                     </div>
