@@ -120,6 +120,8 @@ oscurecer {
                     <h5 class="text-grey text-center">La Experiencia hace la Diferencia</h5>
                     </div>
                     </div>
+                    </div>
+                    <div class="d-flex justify-content-around align-content-center mt-4">
                      <img style="max-width:150px; max-height:150px " class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/WyzVjab.png" alt="Eduardo">
                 </div>
         </div>
