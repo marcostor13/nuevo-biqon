@@ -118,9 +118,9 @@ oscurecer {
                     <div class="card">
                     <div class="card-body">
                     <h5 class="text-grey text-center">La Experiencia hace la Diferencia</h5>
+                    </div>
+                    </div>
                      <img style="max-width:150px; max-height:150px " class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/WyzVjab.png" alt="Eduardo">
-                    </div>
-                    </div>
                 </div>
         </div>
 
