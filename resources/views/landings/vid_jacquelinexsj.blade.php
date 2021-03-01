@@ -91,12 +91,12 @@ oscurecer {
                
                 <div class="videoWrapper" align="align-items-center align-content-center">        
                    <!-- <iframe width="400" height="320" src="{{asset('/files/jacquelinexsj1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-                    <img style="max-width: 50%" class="img col-md-3 mt-2 text-center align-content-center" src="https://i.imgur.com/THwO9dr.png" alt="Jacqueline">
+                    <img style="max-width: 50%" class="img text-center align-content-center" src="https://i.imgur.com/THwO9dr.png" alt="Jacqueline">
 
                     <div class="card">
                     <div class="card-body">
-                   <h5 class="text-grey text-center">Vecinos de San Joaquín, soy Jacqueline Rodríguez y los invito este martes 02 a escucharme en la radio San Joaquín 107.9</h5>
-                   <a href="https://www.facebook.com/radiosanjoaquin/" class="text-center">Escuchar Online</a> 
+                   <h5 class="text-grey text-center">Vecinos de San Joaquín, soy Jacqueline Rodríguez y los invito este martes 02 a escucharme en la radio San Joaquín 107.9 <br>
+                   <a href="https://www.facebook.com/radiosanjoaquin/" class="text-center">Escuchar Online</a> </h5>
                     </div> 
                   </div>
                 <br>
