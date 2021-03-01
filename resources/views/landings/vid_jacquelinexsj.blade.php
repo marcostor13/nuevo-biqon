@@ -85,13 +85,14 @@ oscurecer {
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
            <!-- <img style="max-width:250px; max-height:150px " class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Jacqueline">-->
+           <img style="max-width:250px; max-height:350px "  class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/THwO9dr.png" alt="Jacqueline">
 
             <div id="cont1" align="align-items-center align-content-center">
                 <br>
                
                 <div class="videoWrapper" align="align-items-center align-content-center">        
                    <!-- <iframe width="400" height="320" src="{{asset('/files/jacquelinexsj1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-                    <img style="max-width:250px; max-height:350px "  class="img mt-2 text-center align-content-center" src="https://i.imgur.com/THwO9dr.png" alt="Jacqueline">
+                    
 
                     <div class="card">
                     <div class="card-body">
