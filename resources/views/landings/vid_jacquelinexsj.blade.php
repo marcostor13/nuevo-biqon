@@ -91,7 +91,7 @@ oscurecer {
                
                 <div class="videoWrapper" align="align-items-center align-content-center">        
                    <!-- <iframe width="400" height="320" src="{{asset('/files/jacquelinexsj1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-                    <img style="max-width: 50%" class="img text-center align-content-center" src="https://i.imgur.com/THwO9dr.png" alt="Jacqueline">
+                    <img style="max-width:250px; max-height:350px "  class="img mt-2 text-center align-content-center" src="https://i.imgur.com/THwO9dr.png" alt="Jacqueline">
 
                     <div class="card">
                     <div class="card-body">
@@ -270,7 +270,7 @@ oscurecer {
                     $('#message').removeClass('hide');
                      $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                    $('#message').text('Muchas Gracias. Su Respuesta Fue enviada a nuestra área. ');
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont1').addClass('hide');
