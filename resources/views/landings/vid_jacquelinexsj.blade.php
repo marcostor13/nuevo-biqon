@@ -96,7 +96,7 @@ oscurecer {
                     <div class="card">
                     <div class="card-body">
                    <h5 class="text-grey text-center">Vecinos de San Joaquín, soy Jacqueline Rodríguez y los invito este martes 02 a escucharme en la radio San Joaquín 107.9</h5>
-                   <a href="https://www.facebook.com/radiosanjoaquin/">Ver Online</a> 
+                   <a href="https://www.facebook.com/radiosanjoaquin/">Escuchar Online</a> 
                     </div> 
                   </div>
                 </div>
