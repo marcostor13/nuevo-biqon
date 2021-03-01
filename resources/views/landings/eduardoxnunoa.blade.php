@@ -110,6 +110,8 @@ oscurecer {
                 <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="https://facebook.com/Eduardo-Ojeda-104846511642594"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a>
                    
                 <a class="ml-4" onclick="eventosLanding('TWITTER');" href="https://twitter.com/OjedaNunoa"><img width="50" src="https://i.imgur.com/tanoEA3.png"></a>
+
+                <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/ojedanunoa/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
                    
                     
                 </div>
