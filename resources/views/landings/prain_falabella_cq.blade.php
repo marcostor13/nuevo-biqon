@@ -41,7 +41,7 @@ $enddate=strtotime("+7 days", $startdate);
 }
 .card .md-form label {
   font-weight: 300;
-}
+} 
 
 .oscurecer {
   background-image: 
@@ -82,27 +82,23 @@ $enddate=strtotime("+7 days", $startdate);
                         <div class="card">     
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Señor (a): <strong> <span id="name"></span></strong> </h3>
-                             <p class="text-white"> <h4> De nuestra consideración: <br><br>
+                             <p class="text-white"> <h4> 
 
-    <!-- Informamos a usted que a la fecha, mantiene una deuda pendiente con nuestro cliente CMR FALABELLA.<br><br>-->
- 
-     <!--Asimismo, ponemos en su conocimiento que hemos iniciado las acciones judiciales para cobro, encontrándose, por ello, en actual tramitación, una demanda ejecutiva ingresada ante el   <strong> <?php //echo $tribunal; ?></strong> de <strong> <?php //echo $comuna; ?> </strong> ,cuyo rol es el   <strong> <?php// echo $rol; ?> </strong><br><br>-->
-
-    <!-- Es del caso que nos acercamos a usted, con el propósito de ofrecer la posibilidad de pagar dicha deuda en condiciones más beneficiosas que las que resultan de los términos contenidos en la demanda ya aludida.<br>-->
-                  
-
-     Informamos a usted que a la fecha, mantiene una deuda pendiente con nuestro cliente CMR FALABELLA.<br><br>
- 
-     Así mismo, ponemos en su conocimiento que hemos iniciado las acciones judiciales para cobro, encontrándose, por ello, en actual tramitación, una demanda ejecutiva ingresada en su contra. 
+     PRAIN ABOGADOS en representación de su mandante CMR FALABELLA., tiene por fin comunicarle, que ante el incumplimiento de pago de su tarjeta, hemos iniciado las acciones judiciales para cobro, encontrándose, en actual tramitación, una demanda ejecutiva. <br>
+<br>
+     Le solicitamos contactarse, con el propósito de buscar en conjunto una solución favorable y definitiva a su endeudamiento de acuerdo a sus posibilidades de pago; evitando así avanzar el proceso a instancia embargo.<br>
+<br>
+Regularizando su deuda usted:<br>
+<br>
+-   Pone fin a la demanda Judicial que actualmente cursa en su contra<br>
+-   Detiene acciones de cobranza Judicial<br>
+-   Aclara sus antecedentes comerciales.<br>
+-   Podrá Reactivar el uso de su tarjeta <br>
 <br><br>
-Nos acercamos para reiterarle que al realizar el pago total de su deuda, incluso documentando la misma con CHEQUES, cuenta con excelentes beneficios como lo son: Egreso de boletín comercial, detención del proceso de demanda y además uso de su CMR.<br><br>
  
                       </h4>
                       </p>  
-                       
-                                <!--<p> El N° de admisión correspondiente a su cuenta es:  <h4 id="dato1" class="dato1"> </h4></p> -->
-                               <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
-                                <!--<h4 class="text-grey text-center"> Seleccione una Opcion </h4>-->
+
 
                       <div class="date btn bg-success text-white col-12 mt-4">
                         <span>Agendar Compromiso de Pago</span>
