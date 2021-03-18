@@ -77,11 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </div>
                <div class="card">
                     <div class="card-body">
-                        <h5 class="text-dark text-center">Vecinos y vecinas de #COMUNA#, mi nombre es #BINTERACTION# y soy candidat@ a concejal, por ustedes. Hace muchos años trabajé con ustedes, Hoy día estoy mucho más preparad@s, tengo mucha más experiencia, y eso lo traigo para ustedes, y por eso #COMUNA#!</h5>
-                        <br>
-                        <br>
-                       
-                 <br>
+                    <h5 class="text-dark text-center">Vecinos y vecinas de #COMUNA#, mi nombre es #BINTERACTION# y soy candidat@ a concejal, por ustedes. Hace muchos años trabajé con ustedes, Hoy día estoy mucho más preparad@s, tengo mucha más experiencia, y eso lo traigo para ustedes, y por eso #COMUNA#!</h5>
                   <br>
                    <h5 class="text-grey text-center">Le interesa recibir <br>información de Nuestro Candidato<br> a Consejal por Comuna</h5>
 
