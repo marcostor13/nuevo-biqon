@@ -77,6 +77,11 @@ $enddate=strtotime("+5 days", $startdate);
                         <h5 class="text-dark text-center">Vecinos y vecinas de #COMUNA#, mi nombre es #BINTERACTION# y soy candidat@ a concejal, por ustedes. Hace muchos años trabajé con ustedes, Hoy día estoy mucho más preparad@s, tengo mucha más experiencia, y eso lo traigo para ustedes, y por eso #COMUNA#!</h5>
                         <br>
                         <br>
+                        <div class="videoWrapper">        
+                    <iframe width="400" height="320" src="{{asset('/files/eduardoxn.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br>
+                </div>
+                
                    <h5 class="text-grey text-center">Le interesa recibir información de Nuestro Candidato a Consejal por Comuna</h5>
 
 
