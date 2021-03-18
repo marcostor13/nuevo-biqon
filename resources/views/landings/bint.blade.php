@@ -70,7 +70,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 ">
-                <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
+                <!--<h3 class="text-black text-center">Estimado <span id="name"></span></h3>-->
 
                <div class="card">
                     <div class="card-body">
@@ -88,9 +88,9 @@ $enddate=strtotime("+5 days", $startdate);
 
                     </div> 
                   </div>
-                     <button onclick="sendMail('SI QUIERO CONECER A JACQUELINE'); ;eventosLanding('SI'); return false;" class="btn bg-primary text-white col-12 mt-4">SI</button>
+                     <button onclick="sendMail('SI QUIERO CONECER A BINTERACTION'); ;eventosLanding('SI'); return false;" class="btn bg-primary text-white col-12 mt-4">SI</button>
 
-                     <button onclick="sendMail('NO QUIERO CONECER A JACQUELINE'); ;eventosLanding('NO'); return false;" class="btn bg-primary text-white col-12 mt-4">NO</button>
+                     <button onclick="sendMail('NO QUIERO CONECER A BINTERACTION'); ;eventosLanding('NO'); return false;" class="btn bg-primary text-white col-12 mt-4">NO</button>
                 <br>
                 <br>
                                
