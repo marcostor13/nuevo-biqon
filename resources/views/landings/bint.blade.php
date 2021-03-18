@@ -78,10 +78,10 @@ $enddate=strtotime("+5 days", $startdate);
                         <br>
                         <br>
                         <div class="videoWrapper">        
-                    <iframe width="400" height="320" src="{{asset('/files/eduardoxn.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="400" height="320" src="{{asset('/files/binter_vid.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br>
                 </div>
-                
+
                    <h5 class="text-grey text-center">Le interesa recibir información de Nuestro Candidato a Consejal por Comuna</h5>
 
 
@@ -218,7 +218,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-           var correo = ["lilian.binteraction@gmail.com"];
+           var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
