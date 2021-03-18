@@ -57,7 +57,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <img style="max-width:350px; max-height:250px" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/jXMebWV.jpg" alt="BINTER">
 
-             <div id="cont1" class="p-5 ">
+             <div id="cont1" class="p-5 hide">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4"> Validar </button>
@@ -69,12 +69,16 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 hide">
+            <div id="cont2" class="p-5 ">
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
                <div class="card">
                     <div class="card-body">
+                        <h5 class="text-dark text-center">Vecinos y vecinas de #COMUNA#, mi nombre es #BINTERACTION# y soy candidat@ a concejal, por ustedes. Hace muchos años trabajé con ustedes, Hoy día estoy mucho más preparad@s, tengo mucha más experiencia, y eso lo traigo para ustedes, y por eso #COMUNA#!</h5>
+                        <br>
+                        <br>
                    <h5 class="text-grey text-center">Le interesa recibir información de Nuestro Candidato a Consejal por Comuna</h5>
+
 
                     </div> 
                   </div>
