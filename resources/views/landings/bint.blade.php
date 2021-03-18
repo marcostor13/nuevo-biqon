@@ -114,7 +114,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/binteractionchile/"><img width="60" src="https://i.imgur.com/DVoiS58.png"></a>
                    
                     <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56995251902"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
- <br> <br> <br> <br> <br>
+ <br> <br>
                     <br>
                 </div>
  <br> <br>
