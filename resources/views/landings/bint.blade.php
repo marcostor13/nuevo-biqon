@@ -69,41 +69,51 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 ">
+            <div id="cont2" class="p-5 hide">
                 <h3 class="text-black text-center">Estimado <span id="name"></span></h3>
 
-                <p class="text-black">
-                    Te informamos que presentas un retraso en el pago del servicio.
-                    
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
-                </p>
-                <div class="date btn bg-primary text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-white" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-               
+               <div class="card">
+                    <div class="card-body">
+                   <h5 class="text-grey text-center">Le interesa recibir información de Nuestro Candidato a Consejal por Comuna</h5>
 
-                <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-primary text-white col-12 mt-2">PAGAR AHORA
+                    </div> 
+                  </div>
+                     <button onclick="sendMail('SI QUIERO CONECER A JACQUELINE'); ;eventosLanding('SI'); return false;" class="btn bg-primary text-white col-12 mt-4">SI</button>
 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-white col-12 mt-4">YA PAGUE</button>
-                
-                 
-                <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56995251902&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://pngimage.net/wp-content/uploads/2018/05/celular-icono-azul-png-1.png"></a>
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56995251902"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-                    <a onclick="eventosLanding('Correo');" href="mailto:lilian.binteraction@gmail.com"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
-                </div>
-               </div>
-                           <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                     <button onclick="sendMail('NO QUIERO CONECER A JACQUELINE'); ;eventosLanding('NO'); return false;" class="btn bg-primary text-white col-12 mt-4">NO</button>
+                <br>
+                <br>
+                               
+             </div>
+        </div>
+
+            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                                
+
                             </div>
                         </div>
-            </div>
-        </div>
+                        <br>
+                   <br>
+    
+                   <br>
+                   <br>
+                    </div>
+                     <!--<img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/b4XygqX.png" alt="AMICAR">-->
+                  <div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="facebook.com/binteraction"><img width="60" src="https://i.imgur.com/1MMbEAw.png"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/binteraction/"><img width="60" src="https://i.imgur.com/DVoiS58.png"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('TWITTER');" href="https://twitter.com/binteraction"><img width="60" src="https://i.imgur.com/tanoEA3.png"></a>
+                </div>
 
-    <script>
+        </div>
+    </div>
+
+     <script>
 
         $(function(){
             events({    
