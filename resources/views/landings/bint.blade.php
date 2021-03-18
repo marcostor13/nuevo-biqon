@@ -113,11 +113,11 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
                      <!--<img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/b4XygqX.png" alt="AMICAR">-->
                   <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="facebook.com/binteraction"><img width="60" src="https://i.imgur.com/1MMbEAw.png"></a>
+                    <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="https://www.facebook.com/BinteractionChile-SPA-110810853983300/"><img width="60" src="https://i.imgur.com/1MMbEAw.png"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/binteraction/"><img width="60" src="https://i.imgur.com/DVoiS58.png"></a>
+                    <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/binteractionchile/"><img width="60" src="https://i.imgur.com/DVoiS58.png"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('TWITTER');" href="https://twitter.com/binteraction"><img width="60" src="https://i.imgur.com/tanoEA3.png"></a>
+                    <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56995251902"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 </div>
 
         </div>
