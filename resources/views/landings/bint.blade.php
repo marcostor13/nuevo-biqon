@@ -83,7 +83,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </div>
                  <br>
                   <br>
-                   <h5 class="text-grey text-center">Le interesa recibir información de Nuestro Candidato a Consejal por Comuna</h5>
+                   <h5 class="text-grey text-center">Le interesa recibir información de Nuestro Candidato<br> a Consejal por Comuna</h5>
 
 
                     </div> 
