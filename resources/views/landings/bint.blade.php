@@ -81,7 +81,8 @@ $enddate=strtotime("+5 days", $startdate);
                     <iframe width="400" height="320" src="{{asset('/files/binter_vid.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br>
                 </div>
-
+                 <br>
+                  <br>
                    <h5 class="text-grey text-center">Le interesa recibir información de Nuestro Candidato a Consejal por Comuna</h5>
 
 
