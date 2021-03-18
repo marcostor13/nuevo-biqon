@@ -71,16 +71,16 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
             <div id="cont2" class="p-5 ">
                 <!--<h3 class="text-black text-center">Estimado <span id="name"></span></h3>-->
-
+                 <div class="videoWrapper">        
+                    <iframe width="400" height="320" src="{{asset('/files/binter_vid.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br>
+                </div>
                <div class="card">
                     <div class="card-body">
                         <h5 class="text-dark text-center">Vecinos y vecinas de #COMUNA#, mi nombre es #BINTERACTION# y soy candidat@ a concejal, por ustedes. Hace muchos años trabajé con ustedes, Hoy día estoy mucho más preparad@s, tengo mucha más experiencia, y eso lo traigo para ustedes, y por eso #COMUNA#!</h5>
                         <br>
                         <br>
-                        <div class="videoWrapper">        
-                    <iframe width="400" height="320" src="{{asset('/files/binter_vid.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <br>
-                </div>
+                       
                  <br>
                   <br>
                    <h5 class="text-grey text-center">Le interesa recibir <br>información de Nuestro Candidato<br> a Consejal por Comuna</h5>
