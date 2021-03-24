@@ -6,7 +6,7 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
-$name = $_GET['NOMBRE'];
+//$name = $_GET['NOMBRE'];
 //$name1 = $_GET['DATA2'];
 
 ?>
@@ -83,7 +83,7 @@ $name = $_GET['NOMBRE'];
                     </div>
 
             <div id="cont2" class="p-5 ">
-                <h4 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h4>
+                <h4 class="text-black text-center">Hola <strong><span><?php //echo $name; ?></span></strong></h4>
 
                 <h4><p class="text-black" align="justify">
                  Informamos a usted, que se encuentra presentada y en proceso de notificación demanda por cobro de peajes impagos por RUTA DEL MAIPO. Favor contáctenos para regularizar su deuda y evitar la multa de 5 veces lo adeudado. 
