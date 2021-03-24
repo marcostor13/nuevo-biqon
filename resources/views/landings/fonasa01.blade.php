@@ -6,7 +6,7 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
-$name = $_GET['NOMBRE'];
+//$name = $_GET['NOMBRE'];
 
 ?>
 <style>
@@ -82,7 +82,7 @@ $name = $_GET['NOMBRE'];
                     </div>
 
             <div id="cont2" class="p-5 ">
-                <h5 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h5>
+                <h5 class="text-black text-center">Hola <strong><span><?php //echo $name; ?></span></strong></h5>
 
                 <h5><p class="text-black"  align="justify">
                   Informamos a usted, que se encuentra presentada y en proceso de notificación demanda por previsional por FONDO NACIONAL DE SALUD. Favor contáctenos para regularizar su deuda, evitar las multas y otras acciones legales 
