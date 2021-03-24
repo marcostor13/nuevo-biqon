@@ -84,8 +84,8 @@ oscurecer {
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-           <!-- <img style="max-width:250px; max-height:150px " class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Jacqueline">-->
-           <img style="max-width:250px; max-height:350px "  class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/THwO9dr.png" alt="Jacqueline">
+           <img style="max-width:250px; max-height:150px " class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Jacqueline">
+           <!--<img style="max-width:250px; max-height:350px "  class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/THwO9dr.png" alt="Jacqueline">-->
 
             <div id="cont1" align="align-items-center align-content-center">
                 <br>
