@@ -91,15 +91,15 @@ oscurecer {
                 <br>
                
                 <div class="videoWrapper" align="align-items-center align-content-center">        
-                   <!-- <iframe width="400" height="320" src="{{asset('/files/jacquelinexsj1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                    <iframe width="400" height="320" src="{{asset('/files/jacquelinexsj1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     
 
-                    <div class="card">
+                   <!-- <div class="card">
                     <div class="card-body">
                    <h5 class="text-grey text-center">Vecinos de San Joaquín, soy Jacqueline Rodríguez y los invito este martes 02 a escucharme en la radio San Joaquín 107.9 <br>
                    <a href="https://www.facebook.com/radiosanjoaquin/" class="text-center">Escuchar Online</a> </h5>
                     </div> 
-                  </div>
+                  </div>-->
                 <br>
                 </div>
 
