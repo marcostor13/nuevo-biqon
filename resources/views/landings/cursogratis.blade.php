@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'ZonaSur')
+@section('title', 'CursosGratis')
 
 @section('content')
 
