@@ -58,6 +58,7 @@ $enddate=strtotime("+5 days", $startdate);
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
              <img style="max-width:320px; max-height:180px" class="img-fluid col-md-3 mt-2" src="https://firebasestorage.googleapis.com/v0/b/biqon-d2511.appspot.com/o/landings%2Flogos%2F1617974764515_unnamed%20(2).png?alt=media&token=28e9512a-8472-434e-98ad-0066598bd2af" alt="ZONASUR">
+             <img src="https://firebasestorage.googleapis.com/v0/b/biqon-d2511.appspot.com/o/landings%2Fimages%2F1617974797548_unnamed%20(1).png?alt=media&token=7947eebf-7b18-4e7f-8b0c-bd69498be9fa">
 
              <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por Tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
