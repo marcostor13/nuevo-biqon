@@ -60,7 +60,7 @@ $enddate=strtotime("+5 days", $startdate);
              <img style="max-width:320px; max-height:180px" class="img-fluid col-md-3 mt-2" src="https://firebasestorage.googleapis.com/v0/b/biqon-d2511.appspot.com/o/landings%2Flogos%2F1617974764515_unnamed%20(2).png?alt=media&token=28e9512a-8472-434e-98ad-0066598bd2af" alt="ZONASUR">
 
              <div id="cont1" class="p-5 ">
-                <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
+                <h4 class="text-black text-center">Por Tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-success text-white col-12 mt-4"> Validar </button>
             </div>
