@@ -92,7 +92,7 @@ $enddate=strtotime("+5 days", $startdate);
                       <label for="form2"></label>
                     </div>
 
-                    <div class="md-form col-12 m-0">
+                    <div class="md-form col-6 m-0">
                     <input type="text" id="email" class="form-control" required placeholder="E-mail">
                     <label for="form2"></label>
                   </div> 
