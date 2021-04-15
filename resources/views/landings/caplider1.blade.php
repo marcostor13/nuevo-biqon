@@ -91,13 +91,15 @@ $enddate=strtotime("+5 days", $startdate);
                       <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
                       <label for="form2"></label>
                     </div>
+
+                    <div class="md-form col-12 m-0">
+                    <input type="text" id="email" class="form-control" required placeholder="E-mail">
+                    <label for="form2"></label>
+                  </div> 
                   </div> 
 
 
-                  <div class="md-form col-12 m-0">
-                    <input type="text" id="email" class="form-control" required placeholder="E-mail">
-                    <label for="form2"></label>
-                  </div>  
+                   
 
                    <!--<div class="md-form col-12 m-0"> 
       <select class="form-control" id="sede" required>
