@@ -76,7 +76,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                    <button onclick="event1(); return false;" class="btn btn-warning text-white col-12 mt-4">Inscríbete </button>
 
-                   <br>
+                  <hr>
                    <div>
                    <center>
 
