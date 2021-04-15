@@ -76,6 +76,13 @@ $enddate=strtotime("+5 days", $startdate);
 
                    <button onclick="event1(); return false;" class="btn btn-warning text-white col-12 mt-4">Inscríbete </button>
 
+                   <h4>Inscríbete con nosotros y automatiza procesos de tu emprendimiento, La metodología personalizada a utilizar durate toda la realización del curso, es completamente práctica y fomentando siempre la participación activa de cada uno de los alumnos. Los requisitos son:  </h4>
+
+                  
+                    <h5>-Ser dueños, socios,representantes legales o trabajadores de una micro empresa </h5>
+
+                   <h5>-Tener al menos una declaración de IVA con enta en los últimos 12 meses</h5>
+
                     <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -85,12 +92,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
                      <div id="cont2" class="p-5 hide">
 
-                 <h4>Inscríbete con nosotros y automatiza procesos de tu emprendimiento, La metodología personalizada a utilizar durate toda la realización del curso, es completamente práctica y fomentando siempre la participación activa de cada uno de los alumnos. Los requisitos son:  </h4>
-
-                  
-                    <h5>-Ser dueños, socios,representantes legales o trabajadores de una micro empresa </h5>
-
-                   <h5>-Tener al menos una declaración de IVA con enta en los últimos 12 meses</h5>
+                 
 
           
             
@@ -194,10 +196,10 @@ $enddate=strtotime("+5 days", $startdate);
             });
         }); 
 
-         function event1(){
+          function event1(){
     
             let dataSend = {
-                'fourRut': $('#rut').val(),
+                'fourRut': .val(),
                 'phone': getUrlParameter('telefono'),
                 'landing_id': {!! $landing->id !!},
             } 
