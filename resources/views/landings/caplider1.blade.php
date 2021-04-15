@@ -72,6 +72,14 @@ $enddate=strtotime("+5 days", $startdate);
                  </center>
                   <hr>
 
+                  <h2>Inscríbete con nosotros y automatiza procesos de tu emprendimiento, La metodología personalizada a utilizar durate toda la realización del curso, es completamente práctica y fomentando siempre la participación activa de cada uno de los alumnos. Los requisitos son:
+
+                    -Ser dueños, socios,representantes legales o trabajadores de una micro empresa
+                    
+                    -Tener al menos una declaración de IVA con enta en los últimos 12 meses
+
+            </h2>
+
                   <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
