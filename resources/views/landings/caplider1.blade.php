@@ -67,7 +67,9 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
+                  <center>
                  <img style="max-width: 70%" src="https://firebasestorage.googleapis.com/v0/b/biqon-d2511.appspot.com/o/landings%2Fimages%2F1617974797548_unnamed%20(1).png?alt=media&token=7947eebf-7b18-4e7f-8b0c-bd69498be9fa">
+                 </center>
                   <hr>
 
                   <div class="d-flex justify-content-between  m-0">
