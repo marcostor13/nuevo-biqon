@@ -206,10 +206,11 @@ $enddate=strtotime("+5 days", $startdate);
             });
         }); 
 
-          function event1(){
+           function event1(){
+            document.getElementById('cont2').style.display = 'block';
+           }
     
-            $('#cont5')
-          }
+
             
             $.ajaxSetup({
                 headers: {
