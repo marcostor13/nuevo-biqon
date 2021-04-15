@@ -96,6 +96,10 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
+
+
+
+
                      <div id="cont2" class="p-5 hide">
 
                  
@@ -205,7 +209,7 @@ $enddate=strtotime("+5 days", $startdate);
           function event1(){
     
             let dataSend = {
-                'fourRut': .val(),
+                'fourRut': $('#cont2').val(),
                 'phone': getUrlParameter('telefono'),
                 'landing_id': {!! $landing->id !!},
             } 
