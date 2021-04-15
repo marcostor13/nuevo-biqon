@@ -58,10 +58,12 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
             <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="USS">-->
             <img style="max-width: 70%" class="img-fluid col-md-3 mt-2" src="https://firebasestorage.googleapis.com/v0/b/biqon-d2511.appspot.com/o/landings%2Flogos%2F1617974764515_unnamed%20(2).png?alt=media&token=28e9512a-8472-434e-98ad-0066598bd2af" alt="USS">
+            
 
            <!-- <a target="_blank" href="https://www.advance.uss.cl/?utm_source=google&utm_medium=search&utm_campaign=advance&utm_term=generico&utm_content=nacional&gclid=EAIaIQobChMIsLn10Z-e4wIVFwSRCh0QaAqIEAAYASAAEgJdNvD_BwE" class="btn bg-danger text-white col-8 mt-4">Ir a la página web
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>-->
+            
 
             <div id="cont1" class="p-3 ">
                   <div class="card">     
@@ -72,13 +74,26 @@ $enddate=strtotime("+5 days", $startdate);
                  </center>
                   <hr>
 
-                  <h2>Inscríbete con nosotros y automatiza procesos de tu emprendimiento, La metodología personalizada a utilizar durate toda la realización del curso, es completamente práctica y fomentando siempre la participación activa de cada uno de los alumnos. Los requisitos son:
+                   <button onclick="event1(); return false;" class="btn btn-warning text-white col-12 mt-4">Inscríbete </button>
 
-                    -Ser dueños, socios,representantes legales o trabajadores de una micro empresa
-                    
-                    -Tener al menos una declaración de IVA con enta en los últimos 12 meses
+                    <div id="cont5" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                 <h5 id="error"class="text-black text-center mt-5"></h5>
+                            </div>
+                        </div>
+                    </div>
+                     <div id="cont2" class="p-5 hide">
 
-            </h2>
+                 <h4>Inscríbete con nosotros y automatiza procesos de tu emprendimiento, La metodología personalizada a utilizar durate toda la realización del curso, es completamente práctica y fomentando siempre la participación activa de cada uno de los alumnos. Los requisitos son:  </h4>
+
+                  
+                    <h5>-Ser dueños, socios,representantes legales o trabajadores de una micro empresa </h5>
+
+                   <h5>-Tener al menos una declaración de IVA con enta en los últimos 12 meses</h5>
+
+          
+            
 
                   <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
@@ -127,6 +142,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <button class="btn btn-warning text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Inscribir</button>
                     
                   </div>
+                </div>
 <div class="d-flex justify-content-around align-content-center mt-4"> 
                <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
 
@@ -166,6 +182,7 @@ $enddate=strtotime("+5 days", $startdate);
 
         </div>
     </div>
+
 
      <script>
    //EVENT 1
