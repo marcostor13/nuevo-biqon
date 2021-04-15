@@ -93,7 +93,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
         <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
     </div>
 
-
+     <button onclick="Mens4(); eventosLanding('Pagar ahora');" class="btn wine text-white col-12 mt-2"> PAGAR AHORA </button> 
     <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn wine text-white col-12 mt-2">YA PAGUE</button>
                         
   <!--  <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-warning text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>  --> 
@@ -374,6 +374,11 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
         window.location.href ="tel:+56936740979";
     
         } 
+
+        function Mens4(){
+
+          window.location.href = "https://sconsumer.e-pagos.cl/eftPP/"
+        }
 
          function Mens7(){
     var monto,data1,data2,data3,data4,data5; 
