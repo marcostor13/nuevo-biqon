@@ -208,11 +208,8 @@ $enddate=strtotime("+5 days", $startdate);
 
           function event1(){
     
-            let dataSend = {
-                'fourRut': $('#cont2').val(),
-                'phone': getUrlParameter('telefono'),
-                'landing_id': {!! $landing->id !!},
-            } 
+            $('#cont2')
+          }
             
             $.ajaxSetup({
                 headers: {
