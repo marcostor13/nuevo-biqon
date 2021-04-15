@@ -116,14 +116,20 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="text-center">
                     <hr>
-                    <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Inscribir</button>
+                    <button class="btn btn-warning text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Inscribir</button>
                     
                   </div>
+<div class="d-flex justify-content-around align-content-center mt-4"> 
+               <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
 
-              <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56931776788&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"> Contactanos</a>
-            
-              <a onclick="eventosLanding('Correo');Mens2();" class="btn bg-danger text-white col-12 mt-4"><img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> Escríbenos</a>
+                <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="https://facebook.com/lidercapacitaciones"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a>
+                   
+                <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href=" https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://imgur.com/bac57813-2a47-4ba7-b990-c129b2cccb42"></a>
 
+                <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/lidercapacitaciones/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
+                   
+                    
+                </div>
               </div>
             </div>
           </div>
