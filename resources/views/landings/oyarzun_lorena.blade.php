@@ -377,7 +377,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
 
         function Mens4(){
 
-          window.location.href = "https://www.sconsumer.e-pagos/eftPP/"
+          window.location.href = "https://sconsumer.e-pagos.cl/eftPP/"
         }
 
          function Mens7(){
