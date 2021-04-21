@@ -82,7 +82,7 @@ $name = $_GET['NOMBRE'];
                     </div>
 
             <div id="cont2" class="p-5 ">
-              <h5 class="text-black text-center">Estimado(a) <span id="name"></span></h5>
+              <h5 class="text-black text-center">Estimado(a) <span id="NOMBRE"></span></h5>
                
 
                 <h5><p class="text-black"  align="justify">
