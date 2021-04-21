@@ -58,8 +58,8 @@ $enddate=strtotime("+5 days", $startdate);
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-  <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/ZRDnZsG.jpg" alt="HerediaAbogados">
-   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/ZRDnZsG.jpg" alt="HerediaAbogados">
+  <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/qTyzi5W.jpeg" alt="HerediaAbogados">
+   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/qTyzi5W.jpeg" alt="HerediaAbogados">
 
    <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/qTyzi5W.jpeg" alt="HerediaAbogados">
 
@@ -82,15 +82,10 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
 
             <div id="cont2" class="p-5 ">
-              <h5 class="text-black text-center">Estimado(a) <span id="name"></span></h5>
-               
+                <h5 class="text-black text-center">Hola <strong><span><?php //echo $name; ?></span></strong></h5>
 
                 <h5><p class="text-black"  align="justify">
- 
-                   Hemos ingresado una demanda por cobro de cotizaciones previsionales de nuestro mandante Fondo Nacional de Salud.
-
-          <br> Queremos saber si tienen intenciones de lograr un acuerdo para evitar futuras multas.  
-                   .  
+                  Informamos a usted, que se encuentra presentada y en proceso de notificación demanda por previsional por FONDO NACIONAL DE SALUD. Favor contáctenos para regularizar su deuda, evitar las multas y otras acciones legales 
 
                 </p> </h5>
                
