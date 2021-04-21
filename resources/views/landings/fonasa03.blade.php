@@ -97,7 +97,7 @@ $enddate=strtotime("+5 days", $startdate);
                    
               <a onclick="eventosLanding('Llamar');" href="tel:+56934811384"class="btn bg-dark text-white col-12 mt-4">LLÁMANOS </a>
 
-               <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"class="btn bg-dark text-white col-12 mt-4">ESCRIBIR POR CORREO</a>
+               <a onclick="eventosLanding('Correo');" href="mailto: fonasa.judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"class="btn bg-dark text-white col-12 mt-4">ESCRIBIR POR CORREO</a>
 
 
                
@@ -258,7 +258,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-           var correo = ["judicial@herediaabogados.cl"];
+           var correo = ["fonasa.judicial@herediaabogados.cl"];
            // var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
@@ -361,7 +361,7 @@ $enddate=strtotime("+5 days", $startdate);
 
          var body_message = "%0A%20Estimado,%0A%20favor%20env%C3%ADe%20su%20propuesta%20relacionada%20al%20pago%20de%20mi%20cuenta%20";
 
-   window.location.href = "mailto:judicial@herediaabogados.cl?subject=Pago%20de%20Cuenta%20&body=%20RUT:%20"+rut+" "+body_message;
+   window.location.href = "mailto:fonasa.judicial@herediaabogados.cl?subject=Pago%20de%20Cuenta%20&body=%20RUT:%20"+rut+" "+body_message;
 
  }
     </script>
