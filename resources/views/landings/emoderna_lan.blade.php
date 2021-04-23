@@ -112,7 +112,7 @@ $name = $_GET['NOMBRE'];
 
                                <br>
                                <br>
-                              </strong>DATOS BANCARIOS</strong>
+                              <strong> DATOS BANCARIOS </strong>
 
                               <br>
                               <br>
