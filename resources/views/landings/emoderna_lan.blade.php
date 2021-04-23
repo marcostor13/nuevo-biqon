@@ -88,9 +88,21 @@ $name = $_GET['NOMBRE'];
                     <div id="cont2" class="p-2 pl-3 pr-3 "><!--HIDE-->
                         <div class="card">     
                             <div class="card-body">
-                             <h5 class="text-black text-center"> Estimado(a) <strong>  <span><?php echo $name; ?></span></strong> </h5>
+                             <h5 class="text-black text-center"> Estimado(a), Buenas Tardes <!--<strong>  <span><?php echo $name; ?></span></strong> --></h5>
                             <p class="text-black"> 
-                             Para que su pago quede registrado y se aplique correctamente, agradeceríamos considerar las siguientes indicaciones:
+                              Para que su pago quede registrado y se aplique correctamente, agradeceríamos considerar las siguientes indicaciones: 
+
+                               Pago Con Transferencia:
+
+                               - Incluya en los datos del destinatario el siguiente correo: cobranzas@emoderna.cl
+
+                               - Para que se impute el pago de la cuota correcta debe incluir en los "comentarios" de la transferencia el rut del alumno y especificar la cuota que esta pagando, ej: 21698563-2 cuota marzo 
+
+                               Pago Con Webpay:
+ 
+                               - Enviar el correo con el comprobante de pago, rut del alumno y la cuota que paga al siguiente correo: cobranzas@emoderna.cl
+
+
                              <!-- Te informamos que presenta <span><?php // echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php // echo $monto; ?></span>. 
 
                               <br> Le  recordamos que no podrá realizar matricula 2021 si presenta más de 3 cuotas pendientes del arancel 2020.
@@ -112,7 +124,7 @@ $name = $_GET['NOMBRE'];
                                 Correo: cobranzas@emoderna.cl <br>-->
                             </p>
 
-            <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CONTACTAR A COBRANZAS PARA BENEFICIOS </a>
+            <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Registro Pago"); return false;' class="btn bg-danger text-white col-12 mt-2"> REGISTRAR PAGO </a>
 
             <!-- <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA</button>
 
@@ -120,7 +132,7 @@ $name = $_GET['NOMBRE'];
 
             
 
-             <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> LLAMAR </a>
+             <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> CONTACTANOS </a>
 
              <!--  <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56932919230&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">  WHATSAPP </a>-->
 
@@ -405,7 +417,10 @@ $name = $_GET['NOMBRE'];
 
          var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20arancel%202020%20y%20así%20poder%20iniciar%20el%20proceso%20de%20matrícula%202021";
 
-   window.location.href = "mailto:cobranzas@emoderna.cl?subject=REPACTACIÓN&body=NOMBRE:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+           // window.location.href = "mailto:cobranzas@emoderna.cl?subject=REGISTRAR%20PAGO&body=NOMBRE:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+
+
+   window.location.href = "mailto:cobranzas@emoderna.cl?subject=REGISTRAR%20PAGO&body=NOMBRE:%20%0D%20RUT:%20%0dCUOTA:%20"
 
  }
     </script>
