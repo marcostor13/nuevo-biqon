@@ -123,7 +123,7 @@ $enddate=strtotime("+15 days", $startdate);
                        </div>
                        <br>
                                 <br>
-                      <center><img src="https://imgur.com/Lkim115.jpg" style="max-width: 100%"></center>
+                      <center><img src="https://imgur.com/Lkim115.jpg" style="max-width: 120%"></center>
              </div>
 
 
