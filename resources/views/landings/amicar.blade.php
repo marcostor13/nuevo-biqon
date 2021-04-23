@@ -102,8 +102,6 @@ $enddate=strtotime("+15 days", $startdate);
 
               <div class="card">
 
-                  
-                  <br>
                         <div class="card-body">
                         <h3 class="text-grey text-center">El mercado automotriz esta muy dinámico y tenemos</h3><h3 class="text-danger text-center"> ofertas imperdibles para nuestros clientes!</h3>
                     
