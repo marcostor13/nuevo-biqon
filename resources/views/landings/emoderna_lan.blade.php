@@ -153,7 +153,7 @@ $name = $_GET['NOMBRE'];
             <!--<button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar Por Transferencia');" class="btn bg-danger text-white col-12 mt-2">PAGAR POR TRANSFERENCIA</button>-->
             <button onclick="window.location.href='https://www.webpay.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=71203630'; eventosLanding('Pagar Por Webpay');" class="btn bg-danger text-white col-12 mt-2">PAGAR POR WEBPAY</button>
 
-              <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>-->
+            <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>
 
              <!--<a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> CONTACTANOS </a>-->
 
