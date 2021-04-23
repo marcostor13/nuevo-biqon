@@ -95,9 +95,11 @@ $enddate=strtotime("+15 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AmiCar">
 
             <div id="cont1" class="p-5 ">
+
+              <center><img src="https://i.imgur.com/1NkF7OO.jpg" style="max-width: 100%"></center>
               <div class="card">
 
-                  <center><img src="https://i.imgur.com/1NkF7OO.jpg" style="max-width: 100%"></center>
+                  
                   <br>
                         <div class="card-body">
                         <h3 class="text-grey text-center">El mercado automotriz esta muy dinámico y tenemos</h3><h3 class="text-danger text-center"> ofertas imperdibles para nuestros clientes!</h3>
