@@ -113,10 +113,10 @@ $enddate=strtotime("+15 days", $startdate);
                        </div>
                        <br>
                                 <br>
-                               
+                    <img src="https://i.imgur.com/1NkF7OO.jpg">              
              </div>
 
-             <img src="https://i.imgur.com/1NkF7OO.jpg">
+          
         </div>
 
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
