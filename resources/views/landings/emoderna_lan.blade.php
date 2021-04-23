@@ -115,7 +115,8 @@ $name = $_GET['NOMBRE'];
                               </strong>DATOS BANCARIOS</strong>
 
                               <br>
-                              <strong> BANCO DE CHILE <br>
+                              <br>
+                              <strong> BANCO DE CHILE <br></strong>
                               <strong> Nombre: ESCUELA MODERNA <br></strong>
                               <strong> Cuenta Corriente:  1640663409 <br></strong>
                               <strong> RUT:  78206800-8   <br></strong>
