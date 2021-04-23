@@ -91,14 +91,21 @@ $name = $_GET['NOMBRE'];
                              <h5 class="text-black text-center"> Estimado(a), Buenas Tardes <!--<strong>  <span><?php echo $name; ?></span></strong> --></h5>
                             <p class="text-black"> 
                               Para que su pago quede registrado y se aplique correctamente, agradeceríamos considerar las siguientes indicaciones: 
+                              <br>
 
                                Pago Con Transferencia:
+                               <br>
 
                                - Incluya en los datos del destinatario el siguiente correo: cobranzas@emoderna.cl
+                               <br>
 
                                - Para que se impute el pago de la cuota correcta debe incluir en los "comentarios" de la transferencia el rut del alumno y especificar la cuota que esta pagando, ej: 21698563-2 cuota marzo 
+                               <br>
+
 
                                Pago Con Webpay:
+                               <br>
+
  
                                - Enviar el correo con el comprobante de pago, rut del alumno y la cuota que paga al siguiente correo: cobranzas@emoderna.cl
 
