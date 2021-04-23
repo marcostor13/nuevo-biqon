@@ -94,9 +94,10 @@ $enddate=strtotime("+15 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AmiCar">
 
-            <div id="cont1" class="p-5 ">
+           <center><img src="https://i.imgur.com/1NkF7OO.jpg" style="max-width: 100%"></center>
 
-              <center><img src="https://i.imgur.com/1NkF7OO.jpg" style="max-width: 100%"></center>
+           <div id="cont1" class="p-5 ">
+
               <div class="card">
 
                   
