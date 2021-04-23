@@ -145,15 +145,20 @@ $name = $_GET['NOMBRE'];
                                 Correo: cobranzas@emoderna.cl <br>-->
                             </p>
 
-           <!-- <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Registro Pago"); return false;' class="btn bg-danger text-white col-12 mt-2"> REGISTRAR PAGO </a>-->
+           <!-- -->
             <!-- <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA</button>
 
               <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>-->
 
             <!--<button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar Por Transferencia');" class="btn bg-danger text-white col-12 mt-2">PAGAR POR TRANSFERENCIA</button>-->
-            <button onclick="window.location.href='https://www.webpay.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=71203630'; eventosLanding('Pagar Por Webpay');" class="btn bg-danger text-white col-12 mt-2">PAGAR POR WEBPAY</button>
+
+            <button onclick="window.location.href='https://www.webpay.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=71203630'; eventosLanding('Pagar Por Webpay');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA</button>
 
             <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>
+
+            <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Contactacnos"); return false;' class="btn bg-danger text-white col-12 mt-2"> CONTACTANOS </a>
+
+
 
              <!--<a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> CONTACTANOS </a>-->
 
@@ -443,7 +448,7 @@ $name = $_GET['NOMBRE'];
            // window.location.href = "mailto:cobranzas@emoderna.cl?subject=REGISTRAR%20PAGO&body=NOMBRE:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
 
 
-   window.location.href = "mailto:cobranzas@emoderna.cl?subject=REGISTRAR%20PAGO&body=NOMBRE:%20%0D%20RUT:%20%0dCUOTA:%20"
+   window.location.href = "mailto:cobranzas@emoderna.cl?subject=Hola%20Tengo%20Una%20Consulta"
 
  }
     </script>
