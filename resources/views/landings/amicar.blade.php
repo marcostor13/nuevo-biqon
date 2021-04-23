@@ -96,6 +96,9 @@ $enddate=strtotime("+15 days", $startdate);
 
             <div id="cont1" class="p-5 ">
               <div class="card">
+
+                  <center><img src="https://i.imgur.com/1NkF7OO.jpg" style="max-width: 100%"></center>
+                  <br>
                         <div class="card-body">
                         <h3 class="text-grey text-center">El mercado automotriz esta muy dinámico y tenemos</h3><h3 class="text-danger text-center"> ofertas imperdibles para nuestros clientes!</h3>
                     
@@ -106,7 +109,7 @@ $enddate=strtotime("+15 days", $startdate);
                         
                     </div>-->
                    
-                    <center><img src="https://i.imgur.com/1NkF7OO.jpg" style="max-width: 90%"></center>
+                  
 
                      <button onclick="sendMail('Solicito ser Contactado'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-4">Me Interesa ser Contactado</button>
 
