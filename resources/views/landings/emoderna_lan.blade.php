@@ -90,7 +90,7 @@ $name = $_GET['NOMBRE'];
                             <div class="card-body">
                              <h5 class="text-black text-center"> Estimado(a) <strong>  <span><?php echo $name; ?></span></strong> </h5>
                             <p class="text-black"> 
-                              Para repactar su deuda le solicitaremos un pie, y el saldo podrá pagarlo en 4 cuotas, de enero a abril 2021.
+                             Para que su pago quede registrado y se aplique correctamente, agradeceríamos considerar las siguientes indicaciones:
                              <!-- Te informamos que presenta <span><?php // echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php // echo $monto; ?></span>. 
 
                               <br> Le  recordamos que no podrá realizar matricula 2021 si presenta más de 3 cuotas pendientes del arancel 2020.
