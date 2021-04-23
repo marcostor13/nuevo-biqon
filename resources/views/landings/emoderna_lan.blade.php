@@ -85,7 +85,7 @@ $name = $_GET['NOMBRE'];
                             </div>
                         </div>
                     </div>
-                    <div id="cont2" class="p-2 pl-3 pr-3 "><!--HIDE-->
+                    <div id="cont2" class="p-2 pl-3 pr-3 hide"><!--HIDE-->
                         <div class="card">     
                             <div class="card-body">
                              <h5 class="text-black "> <strong> Estimado(a), Buenas Tardes </strong><!--<strong>  <span><?php echo $name; ?></span></strong> --></h5>
