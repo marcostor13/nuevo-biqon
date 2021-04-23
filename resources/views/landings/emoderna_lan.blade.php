@@ -313,7 +313,7 @@ $name = $_GET['NOMBRE'];
                     'Landing': '{!! $landing->name !!}'
                 } 
             }
-             var correo = ["cobranzas@emoderna.cl"];
+             var correo = ["enrique.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
