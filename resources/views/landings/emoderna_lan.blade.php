@@ -93,7 +93,7 @@ $name = $_GET['NOMBRE'];
                               Para que su pago quede registrado y se aplique correctamente, agradeceríamos considerar las siguientes indicaciones: 
                               <br>
 
-                               Pago Con Transferencia:
+                               <strong> Pago Con Transferencia:</strong>
                                <br>
 
                                - Incluya en los datos del destinatario el siguiente correo: cobranzas@emoderna.cl
@@ -103,7 +103,7 @@ $name = $_GET['NOMBRE'];
                                <br>
 
 
-                               Pago Con Webpay:
+                               <strong>Pago Con Webpay:</strong>
                                <br>
 
  
