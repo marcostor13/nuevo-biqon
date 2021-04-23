@@ -91,7 +91,7 @@ $name = $_GET['NOMBRE'];
                              <h5 class="text-black text-center"> Estimado(a) <strong>  <span><?php echo $name; ?></span></strong> </h5>
                             <p class="text-black"> 
                              Para que su pago quede registrado y se aplique correctamente, agradeceríamos considerar las siguientes indicaciones:
-                             <!-- Te informamos que presenta <span><?php // echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php // echo $monto; ?></span>. 
+                             <!---Te informamos que presenta <span><?php // echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php // echo $monto; ?></span>. -->
 
                               <br> Le  recordamos que no podrá realizar matricula 2021 si presenta más de 3 cuotas pendientes del arancel 2020.
                               <br>
@@ -109,7 +109,7 @@ $name = $_GET['NOMBRE'];
                                 <br>
 
                                 Una vez realizada tu tranferencia de el pago de su(s) cuota(s) pendiente(s) enviar comprobante al correo de cobranzas<br>
-                                Correo: cobranzas@emoderna.cl <br>-->
+                                Correo: cobranzas@emoderna.cl <br>
                             </p>
 
             <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CONTACTAR A COBRANZAS PARA BENEFICIOS </a>
