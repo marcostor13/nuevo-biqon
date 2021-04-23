@@ -66,7 +66,7 @@ $name = $_GET['NOMBRE'];
             
             <div class=col-md-12>
            
-                     <div id="cont1" class="p-2 pl-5 pr-5 hide">
+                     <div id="cont1" class="p-2 pl-5 pr-5 ">
                          <div class="card">
                         <div class="card-body">
                         <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
@@ -110,6 +110,18 @@ $name = $_GET['NOMBRE'];
                                - Enviar el correo con el comprobante de pago, rut del alumno y la cuota que paga al siguiente correo: cobranzas@emoderna.cl
 
 
+                               <br>
+                               DATOS BANCARIOS
+
+                              <br>
+                              BANCO DE CHILE <br>
+                              Nombre: ESCUELA MODERNA <br>
+                               Cuenta Corriente:  1640663409 <br>
+                                RUT:  78206800-8   <br>
+                                Correo: cobranzas@emoderna.cl <br>
+                                <br>
+
+
                              <!-- Te informamos que presenta <span><?php // echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php // echo $monto; ?></span>. 
 
                               <br> Le  recordamos que no podrá realizar matricula 2021 si presenta más de 3 cuotas pendientes del arancel 2020.
@@ -132,14 +144,16 @@ $name = $_GET['NOMBRE'];
                             </p>
 
             <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Registro Pago"); return false;' class="btn bg-danger text-white col-12 mt-2"> REGISTRAR PAGO </a>
-
             <!-- <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA</button>
 
               <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>-->
 
-            
+            <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar Por Transferencia');" class="btn bg-danger text-white col-12 mt-2">PAGAR POR TRANSFERENCIA</button>
+            <button onclick="window.location.href='https://www.webpay.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=71203630'; eventosLanding('Pagar Por Webpay');" class="btn bg-danger text-white col-12 mt-2">PAGAR POR WEBPAY</button>
 
-             <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> CONTACTANOS </a>
+              <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>-->
+
+             <!--<a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> CONTACTANOS </a>-->
 
              <!--  <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56932919230&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">  WHATSAPP </a>-->
 
