@@ -145,7 +145,7 @@ $name = $_GET['NOMBRE'];
                                 Correo: cobranzas@emoderna.cl <br>-->
                             </p>
 
-            <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Registro Pago"); return false;' class="btn bg-danger text-white col-12 mt-2"> REGISTRAR PAGO </a>
+           <!-- <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Registro Pago"); return false;' class="btn bg-danger text-white col-12 mt-2"> REGISTRAR PAGO </a>-->
             <!-- <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA</button>
 
               <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>-->
