@@ -109,14 +109,16 @@ $enddate=strtotime("+15 days", $startdate);
                    
 
                      <button onclick="sendMail('Solicito ser Contactado'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-4">Me Interesa ser Contactado</button>
+
+                        <img src="https://i.imgur.com/1NkF7OO.jpg">
                        </div>
                        </div>
                        <br>
                                 <br>
-                    <img src="https://i.imgur.com/1NkF7OO.jpg">              
+                               
              </div>
 
-          
+
         </div>
 
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
