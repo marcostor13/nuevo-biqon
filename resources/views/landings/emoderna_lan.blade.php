@@ -88,7 +88,7 @@ $name = $_GET['NOMBRE'];
                     <div id="cont2" class="p-2 pl-3 pr-3 hide"><!--HIDE-->
                         <div class="card">     
                             <div class="card-body">
-                             <h5 class="text-black "> <strong> Estimado(a) </strong><strong>  <span><?php echo $name; ?></span></strong> --></h5>
+                             <h5 class="text-black "> <strong> Estimado(a) </strong><strong>  <span><?php echo $name; ?></span></strong> </h5>
                             <p class="text-black"> 
                               Para que su pago quede registrado y se aplique correctamente, agradeceríamos considerar las siguientes indicaciones: 
                               <br>
@@ -110,6 +110,7 @@ $name = $_GET['NOMBRE'];
                                - Enviar el correo con el comprobante de pago, rut del alumno y la cuota que paga al siguiente correo: cobranzas@emoderna.cl
 
 
+                               <br>
                                <br>
                                DATOS BANCARIOS
 
@@ -148,7 +149,7 @@ $name = $_GET['NOMBRE'];
 
               <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>-->
 
-            <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar Por Transferencia');" class="btn bg-danger text-white col-12 mt-2">PAGAR POR TRANSFERENCIA</button>
+            <!--<button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar Por Transferencia');" class="btn bg-danger text-white col-12 mt-2">PAGAR POR TRANSFERENCIA</button>-->
             <button onclick="window.location.href='https://www.webpay.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=71203630'; eventosLanding('Pagar Por Webpay');" class="btn bg-danger text-white col-12 mt-2">PAGAR POR WEBPAY</button>
 
               <!--<button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>-->
