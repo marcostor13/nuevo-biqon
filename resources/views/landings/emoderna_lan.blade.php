@@ -89,7 +89,7 @@ $name = $_GET['NOMBRE'];
                         <div class="card">     
                             <div class="card-body">
                              <h5 class="text-black text-center"> <strong> Estimado(a), Buenas Tardes </strong><!--<strong>  <span><?php echo $name; ?></span></strong> --></h5>
-                           <center> <p class="text-black"> 
+                            <p class="text-black"> 
                               Para que su pago quede registrado y se aplique correctamente, agradeceríamos considerar las siguientes indicaciones: 
                               <br>
 
@@ -107,7 +107,7 @@ $name = $_GET['NOMBRE'];
                                <br>
 
  
-                               - Enviar el correo con el comprobante de pago, rut del alumno y la cuota que paga al siguiente correo: cobranzas@emoderna.cl</center>
+                               - Enviar el correo con el comprobante de pago, rut del alumno y la cuota que paga al siguiente correo: cobranzas@emoderna.cl
 
 
                              <!-- Te informamos que presenta <span><?php // echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php // echo $monto; ?></span>. 
