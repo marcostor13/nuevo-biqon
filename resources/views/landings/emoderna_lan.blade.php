@@ -112,14 +112,14 @@ $name = $_GET['NOMBRE'];
 
                                <br>
                                <br>
-                               DATOS BANCARIOS
+                              </strong>DATOS BANCARIOS</strong>
 
                               <br>
-                              BANCO DE CHILE <br>
-                              Nombre: ESCUELA MODERNA <br>
-                               Cuenta Corriente:  1640663409 <br>
-                                RUT:  78206800-8   <br>
-                                Correo: cobranzas@emoderna.cl <br>
+                              <strong> BANCO DE CHILE <br>
+                              <strong> Nombre: ESCUELA MODERNA <br></strong>
+                              <strong> Cuenta Corriente:  1640663409 <br></strong>
+                              <strong> RUT:  78206800-8   <br></strong>
+                              <strong> Correo: cobranzas@emoderna.cl <br></strong>
                                 <br>
 
 
