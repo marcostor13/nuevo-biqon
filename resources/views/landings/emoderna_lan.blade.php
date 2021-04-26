@@ -66,7 +66,7 @@ $name = $_GET['NOMBRE'];
             
             <div class=col-md-12>
            
-                     <div id="cont1" class="p-2 pl-5 pr-5 hide">
+                     <div id="cont1" class="p-2 pl-5 pr-5 ">
                          <div class="card">
                         <div class="card-body">
                         <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
@@ -85,13 +85,46 @@ $name = $_GET['NOMBRE'];
                             </div>
                         </div>
                     </div>
-                    <div id="cont2" class="p-2 pl-3 pr-3 "><!--HIDE-->
+                    <div id="cont2" class="p-2 pl-3 pr-3 hide"><!--HIDE-->
                         <div class="card">     
                             <div class="card-body">
-                             <h5 class="text-black text-center"> Estimado(a) <strong>  <span><?php echo $name; ?></span></strong> </h5>
+                             <h5 class="text-black "> <strong> Estimado(a) </strong><strong>  <span><?php echo $name; ?></span></strong> </h5>
                             <p class="text-black"> 
-                             Para que su pago quede registrado y se aplique correctamente, agradeceríamos considerar las siguientes indicaciones:
-                             <!---Te informamos que presenta <span><?php // echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php // echo $monto; ?></span>. -->
+                              Para que su pago quede registrado y se aplique correctamente, agradeceríamos considerar las siguientes indicaciones: 
+                              <br>
+
+                               <strong> Pago Con Transferencia:</strong>
+                               <br>
+
+                               - Incluya en los datos del destinatario el siguiente correo: cobranzas@emoderna.cl
+                               <br>
+
+                               - Para que se impute el pago de la cuota correcta debe incluir en los "comentarios" de la transferencia el rut del alumno y especificar la cuota que esta pagando, ej: 21698563-2 cuota marzo 
+                               <br>
+
+
+                               <strong>Pago Con Webpay:</strong>
+                               <br>
+
+ 
+                               - Enviar el correo con el comprobante de pago, rut del alumno y la cuota que paga al siguiente correo: cobranzas@emoderna.cl
+
+
+                               <br>
+                               <br>
+                              <strong> DATOS BANCARIOS </strong>
+
+                              <br>
+                              <br>
+                              <strong> BANCO DE CHILE <br></strong>
+                              <strong> Nombre: ESCUELA MODERNA <br></strong>
+                              <strong> Cuenta Corriente:  1640663409 <br></strong>
+                              <strong> RUT:  78206800-8   <br></strong>
+                              <strong> Correo: cobranzas@emoderna.cl <br></strong>
+                                <br>
+
+
+                             <!-- Te informamos que presenta <span><?php // echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php // echo $monto; ?></span>. 
 
                               <br> Le  recordamos que no podrá realizar matricula 2021 si presenta más de 3 cuotas pendientes del arancel 2020.
                               <br>
@@ -109,18 +142,25 @@ $name = $_GET['NOMBRE'];
                                 <br>
 
                                 Una vez realizada tu tranferencia de el pago de su(s) cuota(s) pendiente(s) enviar comprobante al correo de cobranzas<br>
-                                Correo: cobranzas@emoderna.cl <br>
+                                Correo: cobranzas@emoderna.cl <br>-->
                             </p>
 
-            <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CONTACTAR A COBRANZAS PARA BENEFICIOS </a>
-
+           <!-- -->
             <!-- <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA</button>
 
               <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>-->
 
-            
+            <!--<button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar Por Transferencia');" class="btn bg-danger text-white col-12 mt-2">PAGAR POR TRANSFERENCIA</button>-->
 
-             <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> LLAMAR </a>
+            <button onclick="window.location.href='https://www.webpay.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=71203630'; eventosLanding('Pagar Por Webpay');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA</button>
+
+            <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>
+
+            <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Contactacnos"); return false;' class="btn bg-danger text-white col-12 mt-2"> CONTACTANOS </a>
+
+
+
+             <!--<a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> CONTACTANOS </a>-->
 
              <!--  <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56932919230&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">  WHATSAPP </a>-->
 
@@ -405,7 +445,10 @@ $name = $_GET['NOMBRE'];
 
          var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20arancel%202020%20y%20así%20poder%20iniciar%20el%20proceso%20de%20matrícula%202021";
 
-   window.location.href = "mailto:cobranzas@emoderna.cl?subject=REPACTACIÓN&body=NOMBRE:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+           // window.location.href = "mailto:cobranzas@emoderna.cl?subject=REGISTRAR%20PAGO&body=NOMBRE:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+
+
+   window.location.href = "mailto:cobranzas@emoderna.cl?subject=Hola%20Tengo%20Una%20Consulta"
 
  }
     </script>
