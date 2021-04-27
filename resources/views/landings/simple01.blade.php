@@ -592,7 +592,7 @@ UF6.000<br>
 
     function Mens2(){
          var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
-             window.location.href = "mailto:eduardo.binteraction@gmail.com ?subject=adquirir%20Propiedad%20Simple&body"+body_message;
+             window.location.href = "mailto:eduardo.binteraction@gmail.com ?subject=COTIZAR%20PROPIEDAD%20&body"+body_message;
  }
 
 
