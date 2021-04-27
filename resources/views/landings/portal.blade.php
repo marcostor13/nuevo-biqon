@@ -427,10 +427,10 @@ UF10.900<br>
                     </select>
                   </div>-->
                    <div id="port11" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('Cotizacion Oficina'); eventosLanding('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR Cotizacion Oficina</button>
+                    <button  onclick="sendMail('Cotizacion Oficina'); eventosLanding('Cotizacion Oficina');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR MAS INFORMACION</button>
                     </div>
                     <div id="port22" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('Cotizacion Apto'); eventosLanding('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR Cotizacion Apto</button>
+                    <button  onclick="sendMail('Cotizacion Apto'); eventosLanding('Cotizacion Apto');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR MAS INFORMACION</button>
                     </div>
                    <!-- <div id="port33" class="p-2 pl-3 pr-3 hide">
                     <button  onclick="sendMail('PORTABILIDAD PLAN 3'); eventosLanding('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
@@ -546,15 +546,15 @@ UF10.900<br>
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Datos_Formulario': $('#nombre1').val(),
-                    'RUT': $('#rut').val(),
-                    'Telefono': $('#telefono').val(),
-                    'Chips': $('#valor').val(),
-                    'Compañia': $('#valor01').val(),
+                   // 'Datos_Formulario': $('#nombre1').val(),
+                   // 'RUT': $('#rut').val(),
+                   // 'Telefono': $('#telefono').val(),
+                   // 'Chips': $('#valor').val(),
+                   // 'Compañia': $('#valor01').val(),
                     //'Datos_URL': $('#nombre1').val(),
-                    //'Nombre_URL': getUrlParameter('nombre'),
-                    //'Telefono_URL': getUrlParameter('telefono'),
-                    //'Rut_URL': getUrlParameter('rut'),
+                    'Nombre_URL': getUrlParameter('nombre'),
+                    'Telefono_URL': getUrlParameter('telefono'),
+                    'Rut_URL': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                    
                     
@@ -607,7 +607,7 @@ UF10.900<br>
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                      eventosLanding('Solicitud de Plan');
                 }
             })
