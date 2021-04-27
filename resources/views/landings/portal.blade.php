@@ -274,7 +274,7 @@ UF10.900<br>
 3 baños<br></h3>
 </span>
 
-                       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
      <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -368,8 +368,8 @@ UF10.900<br>
 </div>
 </div>
 </div>
-                        </div>
-                        <div id="port3" class="p-2 pl-3 pr-3 hide">
+  </div>
+                       <!-- <div id="port3" class="p-2 pl-3 pr-3 hide">
                         <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple"> 
                         </div>
                         <div id="port4" class="p-2 pl-3 pr-3 hide">
@@ -390,7 +390,7 @@ UF10.900<br>
                         </div>
                         <div id="nuev5" class="p-2 pl-3 pr-3 hide">
                         <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple">
-                        </div></center>
+                        </div>--> </center>
 
 
                    <!-- <div class="d-flex justify-content-between">
