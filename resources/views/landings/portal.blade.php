@@ -90,9 +90,9 @@ $enddate=strtotime("+5 days", $startdate);
                
                       <div  id="cont7" class="p-2 pl-3 pr-3"> <center>
                
-                <img class="img-fluid col-4 col-md-3 mt-4" src="https://i.imgur.com/i6uzpjG.png" alt="Venta">
-
                 <img class="img-fluid col-4 col-md-3 mt-4" src="https://i.imgur.com/zVGaI7W.png" alt="Venta">
+
+                <img class="img-fluid col-4 col-md-3 mt-4" src="https://i.imgur.com/i6uzpjG.png" alt="Venta">
 
                 <a onclick="port1();" class="btn bg-danger text-white col-4 mt-2">Ver</a>
 
@@ -111,7 +111,7 @@ $enddate=strtotime("+5 days", $startdate);
                <br>
             <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-danger text-white col-12 mt-2">WHATSAPP</a>
             <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-2">LLÁMANOS</a>
-            <a onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2">TE LLAMAMOS</a>
+           <!-- <a onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2">TE LLAMAMOS</a>-->
             <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-2">ESCRÍBENOS</a>
                </div>
 
@@ -125,7 +125,7 @@ $enddate=strtotime("+5 days", $startdate);
             </div>
 
 
-            <div  id="cont7" class="p-2 pl-3 pr-3 hide"> <center>
+           <!-- <div  id="cont7" class="p-2 pl-3 pr-3 hide"> <center>
                
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
 
@@ -148,18 +148,18 @@ $enddate=strtotime("+5 days", $startdate);
            </center>
            <br>
                <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
-            </div>
+            </div>-->
 
-            <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
+          <!--  <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
                 <center>
                 
-                <!--<img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">-->
+               
                 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/NK81GiD.png" alt="simple">
                 <br>
-               <!-- <a onclick="nuev1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
+               
 
                 <a onclick="nuev2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
@@ -183,7 +183,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </center> <br>
                <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong> ATRAS </strong></a>
 
-            </div>
+            </div>-->
 <!-- PORTABILIDAD-->
             <div id="form" class="p-2 pl-3 pr-3 hide">
             	 <div id="port1" class="p-2 pl-3 pr-3 hide">
@@ -326,9 +326,6 @@ UF10.900<br>
         <div class="item">
             <img src="https://http2.mlstatic.com/D_NQ_NP_2X_654553-MLC45625856185_042021-F.webp" alt="">
         </div>
-       <!-- <div class="item">
-            <img src="" alt="">
-        </div>-->
         <div class="item">
             <img src="https://http2.mlstatic.com/D_NQ_NP_2X_761754-MLC45625856187_042021-F.webp" alt="">
         </div>
@@ -353,6 +350,9 @@ UF10.900<br>
         <div class="item">
             <img src="https://http2.mlstatic.com/D_NQ_NP_2X_638300-MLC45625856201_042021-F.webp" alt="">
         </div>
+         <!-- <div class="item">
+            <img src="" alt="">
+        </div>-->
 
     </div>
 
@@ -393,7 +393,7 @@ UF10.900<br>
                         </div></center>
 
 
-                   <-- <div class="d-flex justify-content-between">
+                   <!-- <div class="d-flex justify-content-between">
 
                     <div class="md-form col-6  m-0">
                       <input type="text" id="rut" class="form-control" required placeholder="RUT">
@@ -431,12 +431,12 @@ UF10.900<br>
                     </select>
                   </div>
                    <div id="port11" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('PORTABILIDAD PLAN 1'); eventosLanding('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 1'); eventosLanding('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR Cotizacion Oficina</button>
                     </div>
                     <div id="port22" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('PORTABILIDAD PLAN 2'); eventosLanding('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
+                    <button  onclick="sendMail('PORTABILIDAD PLAN 2'); eventosLanding('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR Cotizacion Apto</button>
                     </div>
-                    <div id="port33" class="p-2 pl-3 pr-3 hide">
+                   <!-- <div id="port33" class="p-2 pl-3 pr-3 hide">
                     <button  onclick="sendMail('PORTABILIDAD PLAN 3'); eventosLanding('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="port44" class="p-2 pl-3 pr-3 hide">
@@ -459,7 +459,7 @@ UF10.900<br>
                      <button  onclick="sendMail('LINEA NUEVA PLAN 5'); eventosLanding('LINEA NUEVA PLAN 5');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
                     </div>
                     <div id="CONT" class="p-2 pl-3 pr-3 hide">
-                     <button  onclick="sendMail('DESEO QUE ME LLAMEN'); eventosLanding('Contacto');" class="btn bg-danger text-white col-12 mt-4">CONTACTAR</button>
+                     <button  onclick="sendMail('DESEO QUE ME LLAMEN'); eventosLanding('Contacto');" class="btn bg-danger text-white col-12 mt-4">CONTACTAR</button>-->
                     </div>
                 
             </div>
