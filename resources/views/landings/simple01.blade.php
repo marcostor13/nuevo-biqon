@@ -70,7 +70,7 @@
             <center>         
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
-  
+
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -80,26 +80,53 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="https://imgur.com/WRLHfWq.jpg" alt="Chania">
+      <img src="https://imgur.com/AKdrRwh.jpg" alt="1">
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>LA is always so much fun!</p>
+        <h3></h3>
+        <p>!</p>
       </div>
     </div>
 
     <div class="item">
-      <img src="https://imgur.com/WRLHfWq.jpg" alt="Chicago">
+      <img src="https://imgur.com/X2YiZqb.jpg" alt="2">
       <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        <h3></h3>
+        <p>!</p>
       </div>
     </div>
 
     <div class="item">
-      <img src="https://imgur.com/WRLHfWq.jpg" alt="New York">
+      <img src="https://imgur.com/IKKBZrO.jpg" alt="2">
       <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
+        <h3></h3>
+        <p>!</p>
+      </div>
+    </div>
+
+
+<div class="item">
+      <img src="https://imgur.com/MTnzBtm.jpg" alt="2">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p>!</p>
+      </div>
+    </div>
+
+div class="item">
+      <img src="https://imgur.com/U4JEDgT.jpg" alt="2">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p>!</p>
+      </div>
+    </div>
+
+
+
+    <div class="item">
+      <img src="https://imgur.com/nC6svGP.jpg" alt="3">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
       </div>
     </div>
   </div>
