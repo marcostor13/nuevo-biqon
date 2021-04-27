@@ -186,6 +186,7 @@ $enddate=strtotime("+5 days", $startdate);
             </div>
 <!-- PORTABILIDAD-->
             <div id="form" class="p-2 pl-3 pr-3 hide">
+            	 <div id="port1" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body"> <center>
 
@@ -257,9 +258,116 @@ UF6.000<br>
         <span class="sr-only">Next</span>
     </a>
 </div>
+</div>
+</div>
                         </div> 
                         <div id="port2" class="p-2 pl-3 pr-3 hide">
-                        <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/oz5xXYM.png" alt="simple">
+                                              <div class="card">     
+                            <div class="card-body"> <center>
+
+<span><h3>Departamento en Venta - Las Condes<br>
+Hermanos Cabot 111<br>
+UF10.900<br>
+<br>
+138 m² totales<br>
+4 dormitorios<br>
+3 baños<br></h3>
+</span>
+
+                       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+     <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>
+        <li data-target="#myCarousel" data-slide-to="9"></li>
+        <li data-target="#myCarousel" data-slide-to="10"></li>
+        <li data-target="#myCarousel" data-slide-to="11"></li>
+        <li data-target="#myCarousel" data-slide-to="12"></li>
+        <li data-target="#myCarousel" data-slide-to="13"></li>
+        <li data-target="#myCarousel" data-slide-to="14"></li>
+        <li data-target="#myCarousel" data-slide-to="15"></li>
+        <li data-target="#myCarousel" data-slide-to="16"></li>
+        <!--<li data-target="#myCarousel" data-slide-to="9"></li>-->
+    </ol> 
+
+    <!-- Wrapper for slides -->
+     <div class="carousel-inner">
+        <div class="item active">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_638300-MLC45625856201_042021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_825171-MLC45625856183_042021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_709854-MLC45625856193_042021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_961764-MLC45625856184_042021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_992774-MLC45625856191_042021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_905648-MLC45625856195_042021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_817785-MLC45625856197_042021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_628822-MLC45625856202_042021-F.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_654553-MLC45625856185_042021-F.webp" alt="">
+        </div>
+       <!-- <div class="item">
+            <img src="" alt="">
+        </div>-->
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_761754-MLC45625856187_042021-F.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_900068-MLC45625856200_042021-F.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_799711-MLC45625856194_042021-F.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_932897-MLC45625856199_042021-F.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_657591-MLC45625856188_042021-F.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_624344-MLC45625856196_042021-F.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_660190-MLC45625856189_042021-F.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_638300-MLC45625856201_042021-F.webp" alt="">
+        </div>
+
+    </div>
+
+    <!-- Controls -->
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+</div>
+</div>
                         </div>
                         <div id="port3" class="p-2 pl-3 pr-3 hide">
                         <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple"> 
