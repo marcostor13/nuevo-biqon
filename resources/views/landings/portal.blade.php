@@ -713,7 +713,7 @@ UF10.900<br>
 //portabilidad 4 planes
  function port1(){
 
-  $('#cont7').addClass('hide');
+  $('#cont2').addClass('hide');
   $('#form').removeClass('hide');
   $('#actual').removeClass('hide');
   $('#port1').removeClass('hide');
@@ -721,7 +721,7 @@ UF10.900<br>
  }
  function port2(){
 
-  $('#cont7').addClass('hide');
+  $('#cont2').addClass('hide');
    $('#form').removeClass('hide');
    $('#actual').removeClass('hide');
   $('#port2').removeClass('hide');
