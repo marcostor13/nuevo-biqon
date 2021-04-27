@@ -51,10 +51,10 @@
                 </p>
 
                 <br>
-            <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-success text-white col-12 mt-2">WHATSAPP</a>
-            <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-success text-white col-12 mt-2">LLÁMANOS</a>
+            <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-success text-white col-12 mt-4">WHATSAPP</a>
+            <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-success text-white col-12 mt-4">LLÁMANOS</a>
             <!--<a onclick="Mens3();" class="btn bg-success text-white col-12 mt-2">TE LLAMAMOS</a>-->
-            <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-2">ESCRÍBENOS</a>
+            <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-4">ESCRÍBENOS</a>
                </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -66,6 +66,15 @@
 
 
            <div  id="cont7" class="p-2 pl-3 pr-3 hide"> 
+
+<span><h3>Departamento en Venta - Las Condes<br>
+Hermanos Cabot 111<br>
+UF10.900<br>
+<br>
+138 m² totales<br>
+4 dormitorios<br>
+3 baños<br></h3>
+</span>
 
             <center>         
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -149,12 +158,23 @@
            </center>
 
            <br>
-
-    <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
+ <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-2">COTIZAR PROPIEDAD</a>
+    <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-6"><strong>ATRAS</strong></a>
 
             </div>
 
+
+
+
             <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
+
+<span><h3>Oficina en Venta - Providencia<br>
+Suecia 1<br>
+UF6.000<br>
+<br>
+6 m² totales<br>
+2 baños<br></h3>
+</span>
                 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -237,7 +257,10 @@
 
          
                 </center> <br>
-               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong> ATRAS </strong></a>
+
+         <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-4">COTIZAR PROPIEDAD</a>
+
+               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-6"><strong> ATRAS </strong></a>
 
            </div>
 <!-- PORTABILIDAD
@@ -347,7 +370,7 @@
 
         </div>
         <br>
-        <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
+       <!-- <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>-->
     </div>
 </div>
 
@@ -563,13 +586,13 @@
 
 
      function Mens1(){
-   window.location.href = "https://api.whatsapp.com/send?phone=56945369456&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20adquirir";
+   window.location.href = "https://api.whatsapp.com/send?phone=56945369456&text=Quiero%20tener%20mas%20informacion%20sobre%20de%20Adquirir%20PROPIEDAD";
         } 
 
 
     function Mens2(){
          var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
-             window.location.href = "mailto:eduardo.binteraction@gmail.com ?subject=adquirirPropiedad%20Simple&body"+body_message;
+             window.location.href = "mailto:eduardo.binteraction@gmail.com ?subject=COTIZAR%20PROPIEDAD%20&body"+body_message;
  }
 
 
