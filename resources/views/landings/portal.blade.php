@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'FUENTE-ALCAZAR')
+@section('title', 'Propiedades')
 
 @section('content')
 <?php
@@ -93,7 +93,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <img class="img-fluid col-6 col-md-3 mt-4" src="https://i.imgur.com/i6uzpjG.png" alt="Venta">
 
                 <img class="img-fluid col-6 col-md-3 mt-4" src="https://i.imgur.com/zVGaI7W.png" alt="Venta">
-
+<br>
                 <br>
                 <a onclick="port1();" class="btn bg-danger text-white col-6 mt-2">Ver</a>
 
@@ -107,7 +107,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <a onclick="port4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br>  -->
-              
+              <br>
            </center>
                <br>
             <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-danger text-white col-12 mt-2">WHATSAPP</a>
@@ -131,7 +131,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/oz5xXYM.png" alt="simple">
-
+                 <br>
                 <br>
                 <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
@@ -201,7 +201,7 @@ $enddate=strtotime("+5 days", $startdate);
         <li data-target="#myCarousel" data-slide-to="6"></li>
         <li data-target="#myCarousel" data-slide-to="7"></li>
         <li data-target="#myCarousel" data-slide-to="8"></li>
-        <li data-target="#myCarousel" data-slide-to="9"></li>
+        <!--<li data-target="#myCarousel" data-slide-to="9"></li>-->
     </ol> 
 
     <!-- Wrapper for slides -->
@@ -210,32 +210,32 @@ $enddate=strtotime("+5 days", $startdate);
             <img src="https://http2.mlstatic.com/D_NQ_NP_2X_600702-MLC45362014331_032021-F.webp" alt="">
         </div>
         <div class="item">
-            <img src="https://i.imgur.com/GT7Rvro.jpg" alt="">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_996162-MLC45362014332_032021-F.webp" alt="">
         </div>
         <div class="item">
-            <img src="https://i.imgur.com/GM2COsl.jpg" alt="">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_853019-MLC45362014338_032021-O.webp" alt="">
         </div>
         <div class="item">
-            <img src="https://i.imgur.com/zmMOH0H.jpg" alt="">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_697060-MLC45362014337_032021-O.webp" alt="">
         </div>
         <div class="item">
-            <img src="https://i.imgur.com/ajWLQfD.jpg" alt="">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_748826-MLC45362014335_032021-O.webp" alt="">
         </div>
         <div class="item">
-            <img src="https://i.imgur.com/k5BhXdB.jpg" alt="">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_645873-MLC45362014334_032021-O.webp" alt="">
         </div>
         <div class="item">
-            <img src="https://i.imgur.com/ffFqOZV.jpg" alt="">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_984738-MLC45362014336_032021-O.webp" alt="">
         </div>
         <div class="item">
-            <img src="https://i.imgur.com/2CHHy41.jpg" alt="">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_630036-MLC45362014339_032021-O.webp" alt="">
         </div>
         <div class="item">
-            <img src="https://i.imgur.com/dWn1nBG.jpg" alt="">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_759418-MLC45362014333_032021-O.webp" alt="">
         </div>
-        <div class="item">
-            <img src="https://i.imgur.com/Ry5jv4g.jpg" alt="">
-        </div>
+       <!-- <div class="item">
+            <img src="https://i.imgur.com/.jpg" alt="">
+        </div>-->
 
     </div>
 
