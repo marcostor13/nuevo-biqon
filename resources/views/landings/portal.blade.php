@@ -90,14 +90,13 @@ $enddate=strtotime("+5 days", $startdate);
                
                       <div  id="cont7" class="p-2 pl-3 pr-3"> <center>
                
-                <img class="img-fluid col-6 col-md-3 mt-4" src="https://i.imgur.com/i6uzpjG.png" alt="Venta">
+                <img class="img-fluid col-4 col-md-3 mt-4" src="https://i.imgur.com/i6uzpjG.png" alt="Venta">
 
-                <img class="img-fluid col-6 col-md-3 mt-4" src="https://i.imgur.com/zVGaI7W.png" alt="Venta">
-<br>
-                <br>
-                <a onclick="port1();" class="btn bg-danger text-white col-6 mt-2">Ver</a>
+                <img class="img-fluid col-4 col-md-3 mt-4" src="https://i.imgur.com/zVGaI7W.png" alt="Venta">
 
-                <a onclick="port2();" class="btn bg-danger text-white col-6 mt-2">ver</a>
+                <a onclick="port1();" class="btn bg-danger text-white col-4 mt-2">Ver</a>
+
+                <a onclick="port2();" class="btn bg-danger text-white col-4 mt-2">ver</a>
 <!--
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">            
 
@@ -189,6 +188,15 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="form" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body"> <center>
+
+<span><h3>Oficina en Venta - Providencia<br>
+Suecia 1<br>
+UF6.000<br>
+<br>
+6 m² totales<br>
+2 baños<br></h3>
+</span>
+
                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
      <ol class="carousel-indicators">
