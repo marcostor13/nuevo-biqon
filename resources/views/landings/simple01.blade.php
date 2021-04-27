@@ -84,7 +84,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="https://imgur.com/AKdrRwh.jpg" alt="1">
+      <img src="https://imgur.com/AKdrRwh.jpg" alt="">
       <div class="carousel-caption">
         <h3></h3>
         <p>!</p>
@@ -92,7 +92,7 @@
     </div>
 
     <div class="item">
-      <img src="https://imgur.com/X2YiZqb.jpg" alt="2">
+      <img src="https://imgur.com/X2YiZqb.jpg" alt="">
       <div class="carousel-caption">
         <h3></h3>
         <p>!</p>
@@ -100,7 +100,7 @@
     </div>
 
     <div class="item">
-      <img src="https://imgur.com/IKKBZrO.jpg" alt="2">
+      <img src="https://imgur.com/IKKBZrO.jpg" alt="">
       <div class="carousel-caption">
         <h3></h3>
         <p>!</p>
@@ -109,7 +109,7 @@
 
 
 <div class="item">
-      <img src="https://imgur.com/MTnzBtm.jpg" alt="2">
+      <img src="https://imgur.com/MTnzBtm.jpg" alt="">
       <div class="carousel-caption">
         <h3></h3>
         <p>!</p>
@@ -117,7 +117,7 @@
     </div>
 
 <div class="item">
-      <img src="https://imgur.com/U4JEDgT.jpg" alt="2">
+      <img src="https://imgur.com/U4JEDgT.jpg" alt="">
       <div class="carousel-caption">
         <h3></h3>
         <p>!</p>
@@ -127,7 +127,7 @@
 
 
     <div class="item">
-      <img src="https://imgur.com/nC6svGP.jpg" alt="3">
+      <img src="https://imgur.com/nC6svGP.jpg" alt="">
       <div class="carousel-caption">
         <h3></h3>
         <p></p>
@@ -145,15 +145,13 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-
-
-              
+       
            </center>
 
            <br>
 
-               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
+    <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
+
             </div>
 
             <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
@@ -175,7 +173,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="https://imgur.com/TOo1bUr.jpg" alt="1">
+      <img src="https://imgur.com/TOo1bUr.jpg" alt="">
       <div class="carousel-caption">
         <h3></h3>
         <p>!</p>
@@ -183,7 +181,7 @@
     </div>
 
     <div class="item">
-      <img src="https://imgur.com/UbL04Fv.jpg" alt="2">
+      <img src="https://imgur.com/UbL04Fv.jpg" alt="">
       <div class="carousel-caption">
         <h3></h3>
         <p>!</p>
@@ -191,7 +189,7 @@
     </div>
 
     <div class="item">
-      <img src="https://imgur.com/AmNCnwG.jpg" alt="2">
+      <img src="https://imgur.com/AmNCnwG.jpg" alt="">
       <div class="carousel-caption">
         <h3></h3>
         <p>!</p>
@@ -200,7 +198,7 @@
 
 
 <div class="item">
-      <img src="https://imgur.com/EfBxq5R.jpg" alt="2">
+      <img src="https://imgur.com/EfBxq5R.jpg" alt="">
       <div class="carousel-caption">
         <h3></h3>
         <p>!</p>
@@ -208,7 +206,7 @@
     </div>
 
 <div class="item">
-      <img src="https://imgur.com/lbWOUkQ.jpg" alt="2">
+      <img src="https://imgur.com/lbWOUkQ.jpg" alt="">
       <div class="carousel-caption">
         <h3></h3>
         <p>!</p>
@@ -218,7 +216,7 @@
 
 
     <div class="item">
-      <img src="https://imgur.com/nC6svGP.jpg" alt="3">
+      <img src="https://imgur.com/nC6svGP.jpg" alt="">
       <div class="carousel-caption">
         <h3></h3>
         <p></p>
@@ -241,7 +239,7 @@
                 </center> <br>
                <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong> ATRAS </strong></a>
 
-          <!--  </div>
+           </div>
 <!-- PORTABILIDAD
             <div id="form" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
