@@ -62,8 +62,10 @@
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/ZasX3xC.jpg" alt="simple">
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/PVz3F0f.jpg" alt="simple">
-                
+
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/0hH25Ae.jpg" alt="simple">       
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/dfJDrfs.jpg" alt="simple">
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/dfJDrfs.jpg" alt="simple">
 
