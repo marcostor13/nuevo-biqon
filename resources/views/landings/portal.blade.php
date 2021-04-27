@@ -7,7 +7,19 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+
+<!-- Compiled and minified Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<!-- Minified JS library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Compiled and minified Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
 <style>
 .opaco{
     display: none !important; 
@@ -61,7 +73,7 @@ $enddate=strtotime("+5 days", $startdate);
 </style>
 
   <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-           <!-- <img style="max-width:450px; max-height:200px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="PortalInmobiliario">-->
+      <img style="max-width:450px; max-height:200px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="PortalInmobiliario">
 
 
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
@@ -75,17 +87,12 @@ $enddate=strtotime("+5 days", $startdate);
                 <center><h3 class="text-white bg-danger">
                     Propiedades en Venta </h3></center>
                     <br>
-                <center><img  style="max-width: 150%"  class="img-fluid col-12 col-md-3 mt-4" src="https://i.imgur.com/Hlpwl2F.jpg" alt="PortalInmobiliario"></center>
-               <!-- <p class="text-white"> <h3>
-                    8GB + 300 MIN + 100 SMS Desde $4.990 Oferta Limitada para Portabilidad Prepagos y Planes.
-                </h3></p>-->
-                     
-
+               
                       <div  id="cont7" class="p-2 pl-3 pr-3"> <center>
                
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/i6uzpjG.png" alt="simple">
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/oz5xXYM.png" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/zVGaI7W.png" alt="simple">
 
                 <br>
                 <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Ver</a>
@@ -102,18 +109,14 @@ $enddate=strtotime("+5 days", $startdate);
                 <br>  -->
               
            </center>
-           <br>
-               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
-            </div>
-
-
-
-                <br>
+               <br>
             <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-danger text-white col-12 mt-2">WHATSAPP</a>
             <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-2">LLÁMANOS</a>
             <a onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2">TE LLAMAMOS</a>
             <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-2">ESCRÍBENOS</a>
                </div>
+
+               
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
