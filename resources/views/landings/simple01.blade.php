@@ -53,7 +53,7 @@
                 <br>
             <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-success text-white col-12 mt-2">WHATSAPP</a>
             <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-success text-white col-12 mt-2">LLÁMANOS</a>
-            <a onclick="Mens3();" class="btn bg-success text-white col-12 mt-2">TE LLAMAMOS</a>
+            <!--<a onclick="Mens3();" class="btn bg-success text-white col-12 mt-2">TE LLAMAMOS</a>-->
             <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-2">ESCRÍBENOS</a>
                </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -159,36 +159,69 @@
             <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
                 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
+
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="https://imgur.com/WRLHfWq.jpg" alt="Chania">
+      <img src="https://imgur.com/TOo1bUr.jpg" alt="1">
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>LA is always so much fun!</p>
+        <h3></h3>
+        <p>!</p>
       </div>
     </div>
 
     <div class="item">
-      <img src="https://imgur.com/WRLHfWq.jpg" alt="Chicago">
+      <img src="https://imgur.com/UbL04Fv.jpg" alt="2">
       <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        <h3></h3>
+        <p>!</p>
       </div>
     </div>
 
     <div class="item">
-      <img src="https://imgur.com/WRLHfWq.jpg" alt="New York">
+      <img src="https://imgur.com/AmNCnwG.jpg" alt="2">
       <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
+        <h3></h3>
+        <p>!</p>
+      </div>
+    </div>
+
+
+<div class="item">
+      <img src="https://imgur.com/EfBxq5R.jpg" alt="2">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p>!</p>
+      </div>
+    </div>
+
+<div class="item">
+      <img src="https://imgur.com/lbWOUkQ.jpg" alt="2">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p>!</p>
+      </div>
+    </div>
+
+
+
+    <div class="item">
+      <img src="https://imgur.com/nC6svGP.jpg" alt="3">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
       </div>
     </div>
   </div>
@@ -204,14 +237,12 @@
   </a>
 </div>
 
-
-
          
                 </center> <br>
                <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong> ATRAS </strong></a>
 
-            </div>
-<!-- PORTABILIDAD-->
+          <!--  </div>
+<!-- PORTABILIDAD
             <div id="form" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body"> <center>
@@ -312,7 +343,7 @@
                      <button  onclick="sendMail('DESEO QUE ME LLAMEN'); eventosLanding('Contacto');" class="btn bg-danger text-white col-12 mt-4">CONTACTAR</button>
                     </div>
                 
-            </div>
+            </div>-->
 
 
 
@@ -529,18 +560,18 @@
 
       
          function Mens(){
-             window.location.href = "tel:+56952208933";
+             window.location.href = "tel:+56945369456";
         }  
 
 
      function Mens1(){
-   window.location.href = "https://api.whatsapp.com/send?phone=56992213123&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+   window.location.href = "https://api.whatsapp.com/send?phone=56945369456&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20adquirir";
         } 
 
 
     function Mens2(){
          var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
-             window.location.href = "mailto:ventas@trademovil.cl ?subject=Portabilidad%20Simple&body"+body_message;
+             window.location.href = "mailto:eduardo.binteraction@gmail.com ?subject=adquirirPropiedad%20Simple&body"+body_message;
  }
 
 
