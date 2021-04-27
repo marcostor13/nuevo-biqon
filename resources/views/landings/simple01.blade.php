@@ -62,13 +62,8 @@
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/ZasX3xC.jpg" alt="simple">
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/PVz3F0f.jpg" alt="simple">
-
-            
-                <!--<a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-
-                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
-
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/OpQ5lD6.jpg" alt="simple">       
+                
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/iP3Ujkq.jpg" alt="simple">       
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/dfJDrfs.jpg" alt="simple">
 
