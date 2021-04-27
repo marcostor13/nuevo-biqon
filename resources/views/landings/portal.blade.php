@@ -424,7 +424,7 @@ UF10.900<br>
                    <option value="OTRA" data-select2-id="6">OTRA</option>
                     </select>
                   </div>-->
-                  <div id="nuevo" class="md-form hide">
+                  <!--<div id="nuevo" class="md-form hide">
                       <select class="form-control" id="valor" required>
                   <option value="1" data-select2-id="1">1</option>
                   <option value="2" data-select2-id="2">2</option>
@@ -433,12 +433,12 @@ UF10.900<br>
                   <option value="5" data-select2-id="5">5</option>
 
                     </select>
-                  </div>
+                  </div>-->
                    <div id="port11" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('PORTABILIDAD PLAN 1'); eventosLanding('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR Cotizacion Oficina</button>
+                    <button  onclick="sendMail('Cotizacion Oficina'); eventosLanding('PORTABILIDAD PLAN 1');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR Cotizacion Oficina</button>
                     </div>
                     <div id="port22" class="p-2 pl-3 pr-3 hide">
-                    <button  onclick="sendMail('PORTABILIDAD PLAN 2'); eventosLanding('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR Cotizacion Apto</button>
+                    <button  onclick="sendMail('Cotizacion Apto'); eventosLanding('PORTABILIDAD PLAN 2');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR Cotizacion Apto</button>
                     </div>
                    <!-- <div id="port33" class="p-2 pl-3 pr-3 hide">
                     <button  onclick="sendMail('PORTABILIDAD PLAN 3'); eventosLanding('PORTABILIDAD PLAN 3');" class="btn bg-danger text-white col-12 mt-4">SOLICITAR</button>
@@ -682,18 +682,18 @@ UF10.900<br>
 
       
          function Mens(){
-             window.location.href = "tel:+56952208933";
+             window.location.href = "tel:+56967664209";
         }  
 
 
      function Mens1(){
-   window.location.href = "https://api.whatsapp.com/send?phone=56992213123&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+   window.location.href = "https://api.whatsapp.com/send?phone=56967664209&text=Quiero%20tener%20mas%20informacion";
         } 
 
 
     function Mens2(){
-         var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
-             window.location.href = "mailto:ventas@trademovil.cl ?subject=Portabilidad%20Simple&body"+body_message;
+         var body_message = "Quiero%20tener%20mas%20informacion";
+             window.location.href = "mailto:jesus.binteraction@gmail.com?subject=Propiedades&body"+body_message;
  }
 
 
