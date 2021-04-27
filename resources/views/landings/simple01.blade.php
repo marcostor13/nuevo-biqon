@@ -33,7 +33,7 @@
 
                       <button onclick='activa1();' class="btn bg-danger text-white col-12 mt-4">VER DETALLES DE LA PROPIEDAD HERMANOS CABOT 111 </button>
                 <p class="text-white"> <h3 class="text-danger">
-                    Ingresa tus datos y te despachamos el chip GRATIS! </h3>
+                    TU NUEVO COMIENZO EMPIEZA HOY!!!! </h3>
                 </p>
 
                 <br>
