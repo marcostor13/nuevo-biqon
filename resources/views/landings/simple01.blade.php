@@ -32,7 +32,7 @@
                       <button onclick='activa();' class="btn bg-success text-white col-12 mt-4">VER DETALLES DE LA PROPIEDAD SUECIA 1</button>
 
                       <button onclick='activa1();' class="btn bg-success text-white col-12 mt-4">VER DETALLES DE LA PROPIEDAD HERMANOS CABOT 111 </button>
-                <p class="text-white"> <h3 class="text-danger">
+                <p class="text-white"> <h3 class="text-primary">
                   <center>TU NUEVO COMIENZO EMPIEZA HOY!!!! </h3></center>
                 </p>
 
