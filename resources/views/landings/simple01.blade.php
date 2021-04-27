@@ -636,12 +636,12 @@ UF6.000<br>
 
 
      function Mens1(){
-   window.location.href = "https://api.whatsapp.com/send?phone=56945369456&text=Quiero%20tener%20mas%20informacion%20sobre%20de%20Adquirir%20PROPIEDAD";
+   window.location.href = "https://api.whatsapp.com/send?phone=56945369456&text=text=Quiero%20tener%20mas%20informacion";
         } 
 
 
     function Mens2(){
-         var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+         var body_message = "text=Quiero%20tener%20mas%20informacion";
              window.location.href = "mailto:eduardo.binteraction@gmail.com ?subject=COTIZAR%20PROPIEDAD%20&body"+body_message;
  }
 
