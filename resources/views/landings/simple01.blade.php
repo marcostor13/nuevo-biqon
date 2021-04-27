@@ -9,7 +9,7 @@
    <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:450px; max-height:200px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
+            <img style="max-width:450px; max-height:200px "class="img-fluid col-10 col-md-3 mt-4" src="https://imgur.com/erp45Qt.jpg" alt="simple">
 
 
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
@@ -21,7 +21,7 @@
                     </div>
             <div id="cont2" class="p-3 ">
                 <center><h3 class="text-white bg-danger">
-                    inmobiliaria a su gusto  </h3></center>
+                    PROPIEDADES EN VENTA</h3></center>
                     <br>
                 <!--<center><img  style="max-width: 150%"  class="img-fluid col-12 col-md-3 mt-4" src="https://s3-sa-east-1.amazonaws.com/imagenes.simple.cl/Act/Portate/banner-porta-abril.gif?v=2.1.3" alt="simple"></center>-->
 
