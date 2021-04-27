@@ -75,6 +75,10 @@
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
   </ol>
 
   <!-- Wrapper for slides -->
@@ -112,7 +116,7 @@
       </div>
     </div>
 
-div class="item">
+<div class="item">
       <img src="https://imgur.com/U4JEDgT.jpg" alt="2">
       <div class="carousel-caption">
         <h3></h3>
