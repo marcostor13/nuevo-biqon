@@ -347,7 +347,7 @@
 
         </div>
         <br>
-        <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
+       <!-- <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>-->
     </div>
 </div>
 
@@ -563,13 +563,13 @@
 
 
      function Mens1(){
-   window.location.href = "https://api.whatsapp.com/send?phone=56945369456&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20adquirir";
+   window.location.href = "https://api.whatsapp.com/send?phone=56945369456&text=Quiero%20tener%20mas%20informacion%20sobre%20de%20Adquirir%20PROPIEDAD";
         } 
 
 
     function Mens2(){
          var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
-             window.location.href = "mailto:eduardo.binteraction@gmail.com ?subject=adquirirPropiedad%20Simple&body"+body_message;
+             window.location.href = "mailto:eduardo.binteraction@gmail.com ?subject=adquirir%20Propiedad%20Simple&body"+body_message;
  }
 
 
