@@ -67,12 +67,13 @@
 
            <div  id="cont7" class="p-2 pl-3 pr-3 hide"> 
 
-            <span><h3>Oficina en Venta - Providencia<br>
-Suecia 1<br>
-UF6.000<br>
+<span><h3>Departamento en Venta - Las Condes<br>
+Hermanos Cabot 111<br>
+UF10.900<br>
 <br>
-6 m² totales<br>
-2 baños<br></h3>
+138 m² totales<br>
+4 dormitorios<br>
+3 baños<br></h3>
 </span>
 
             <center>         
@@ -157,7 +158,7 @@ UF6.000<br>
            </center>
 
            <br>
-
+ <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-2">COTIZAR PROPIEDAD</a>
     <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
 
             </div>
@@ -166,6 +167,14 @@ UF6.000<br>
 
 
             <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
+
+<span><h3>Oficina en Venta - Providencia<br>
+Suecia 1<br>
+UF6.000<br>
+<br>
+6 m² totales<br>
+2 baños<br></h3>
+</span>
                 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -248,6 +257,9 @@ UF6.000<br>
 
          
                 </center> <br>
+
+         <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-2">COTIZAR PROPIEDAD</a>
+
                <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong> ATRAS </strong></a>
 
            </div>
