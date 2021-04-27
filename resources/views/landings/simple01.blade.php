@@ -25,7 +25,7 @@
                     <br>
                 <!--<center><img  style="max-width: 150%"  class="img-fluid col-12 col-md-3 mt-4" src="https://s3-sa-east-1.amazonaws.com/imagenes.simple.cl/Act/Portate/banner-porta-abril.gif?v=2.1.3" alt="simple"></center>-->
 
-                <center><img  style="max-width: 100%"  class="img-fluid col-12 col-md-3 mt-4" src="https://imgur.com/fnNI1UC.jpg" alt="simple"></center>
+                <center><img  style="max-width: 150%"  class="img-fluid col-12 col-md-3 mt-4" src="https://imgur.com/fnNI1UC.jpg" alt="simple"></center>
                <!-- <p class="text-white"> <h3>
                     8GB + 300 MIN + 100 SMS Desde $4.990 Oferta Limitada para Portabilidad Prepagos y Planes.
                 </h3></p>-->
@@ -33,7 +33,7 @@
 
                       <button onclick='activa1();' class="btn bg-danger text-white col-12 mt-4">VER DETALLES DE LA PROPIEDAD HERMANOS CABOT 111 </button>
                 <p class="text-white"> <h3 class="text-danger">
-                    TU NUEVO COMIENZO EMPIEZA HOY!!!! </h3>
+                  <center>TU NUEVO COMIENZO EMPIEZA HOY!!!! </h3></center>
                 </p>
 
                 <br>
