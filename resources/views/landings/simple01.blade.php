@@ -71,11 +71,13 @@
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">       
 
                < <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+
                 <br>
+
                 <!--<a onclick="port3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
                 <a onclick="port4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-                <br> --> 
+                <br> -->
               
 
 
@@ -95,7 +97,7 @@
             <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
                 <center>
                 
-                <!--<img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple">-->
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple"
                 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
 
