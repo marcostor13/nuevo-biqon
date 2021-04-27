@@ -70,7 +70,7 @@
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/OpQ5lD6.jpg" alt="simple">       
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/dfJDrfs.jpg" alt="simple">
 
                 <br>
 
