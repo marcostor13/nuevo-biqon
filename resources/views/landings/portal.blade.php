@@ -88,28 +88,20 @@ $enddate=strtotime("+5 days", $startdate);
                     Propiedades en Venta </h3></center>
                     <br>
                
-                      <div  id="cont7" class="p-2 pl-3 pr-3"> <center>
+                 <center>
                
                <span class="img-fluid col-4 col-md-3 mt-4">  <img  class="img-fluid col-4 col-md-3 mt-4" src="https://i.imgur.com/zVGaI7W.png" alt="Venta"><h3>Oficina en Venta - Providencia
-Suecia 1</h3></span>
-<a onclick="port1();" class="btn bg-danger text-white col-4 mt-2">Ver</a>
-<br>
-<br>
+				Suecia 1</h3></span>
+				<a onclick="port1();" class="btn bg-danger text-white col-4 mt-2">Ver</a>
+				<br>
+				<br>
                 <span class="img-fluid col-4 col-md-3 mt-4"><img class="img-fluid col-4 col-md-3 mt-4" src="https://i.imgur.com/i6uzpjG.png" alt="Venta"><h3>Departamento en Venta - Las Condes
-Hermanos Cabot 111</h3></span>
+				Hermanos Cabot 111</h3></span>
 
                 
 
                 <a onclick="port2();" class="btn bg-danger text-white col-4 mt-2">ver</a>
-<!--
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">            
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
-                <br>
-                <a onclick="port3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-
-                <a onclick="port4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-                <br>  -->
               <br>
            </center>
                <br>
@@ -464,6 +456,8 @@ UF10.900<br>
                     </div>
                     <div id="CONT" class="p-2 pl-3 pr-3 hide">
                      <button  onclick="sendMail('DESEO QUE ME LLAMEN'); eventosLanding('Contacto');" class="btn bg-danger text-white col-12 mt-4">CONTACTAR</button>-->
+                     <br>
+        <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
                     </div>
                 
             </div>
@@ -472,7 +466,7 @@ UF10.900<br>
 
         </div>
         <br>
-        <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
+   <!--     <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>-->
     </div>
 </div>
 
