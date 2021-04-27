@@ -55,7 +55,7 @@
                
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/WRLHfWq.jpg" alt="simple">
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/oz5xXYM.png" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/PVz3F0f.jpg" alt="simple">
 
                 <br>
                 <!--a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
