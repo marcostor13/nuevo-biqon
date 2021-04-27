@@ -90,11 +90,11 @@ $enddate=strtotime("+5 days", $startdate);
                
                       <div  id="cont7" class="p-2 pl-3 pr-3"> <center>
                
-                <img class="img-fluid col-4 col-md-3 mt-4" src="https://i.imgur.com/zVGaI7W.png" alt="Venta"><span><h3>Oficina en Venta - Providencia<br>
-Suecia 1<br></h3></span>
+                <img  src="https://i.imgur.com/zVGaI7W.png" alt="Venta"><h3>Oficina en Venta - Providencia
+Suecia 1</h3></span>
 
-                <img class="img-fluid col-4 col-md-3 mt-4" src="https://i.imgur.com/i6uzpjG.png" alt="Venta"><span><h3>Departamento en Venta - Las Condes<br>
-Hermanos Cabot 111<br></h3></span>
+                <span class="img-fluid col-4 col-md-3 mt-4"><img src="https://i.imgur.com/i6uzpjG.png" alt="Venta"><h3>Departamento en Venta - Las Condes
+Hermanos Cabot 111</h3></span>
 
                 <a onclick="port1();" class="btn bg-danger text-white col-4 mt-2">Ver</a>
 
