@@ -53,7 +53,7 @@
 
             <div  id="cont7" class="p-2 pl-3 pr-3 hide"> <center>
                
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VpN3RT0.png" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/WRLHfWq.jpg" alt="simple">
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/oz5xXYM.png" alt="simple">
 
