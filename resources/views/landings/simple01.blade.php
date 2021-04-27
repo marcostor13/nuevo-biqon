@@ -39,7 +39,7 @@
                 <br>
             <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-success text-white col-12 mt-2">WHATSAPP</a>
             <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-success text-white col-12 mt-2">LLÁMANOS</a>
-            <a onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2">TE LLAMAMOS</a>
+            <a onclick="Mens3();" class="btn bg-success text-white col-12 mt-2">TE LLAMAMOS</a>
             <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-2">ESCRÍBENOS</a>
                </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -51,17 +51,15 @@
             </div>
 
 
-           <div  id="cont7" class="p-2 pl-3 pr-3 hide"> <center>         
+           <div  id="cont7" class="p-2 pl-3 pr-3 hide"> 
 
-                
+            <center>         
 
                 </div>
 
-               
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/WRLHfWq.jpg" alt="simple">
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/PVz3F0f.jpg" alt="simple">
-
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/PVz3F0f.jpg" alt="simple">     
                 <br>
 
                 <!--<a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
@@ -79,15 +77,7 @@
                 <a onclick="port4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
                 <br> -->
               
-
-
-
-
            </center>
-
-
-
-
 
            <br>
 
