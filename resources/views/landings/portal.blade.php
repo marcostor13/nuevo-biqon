@@ -207,7 +207,7 @@ $enddate=strtotime("+5 days", $startdate);
     <!-- Wrapper for slides -->
      <div class="carousel-inner">
         <div class="item active">
-            <img src="https://i.imgur.com/bOwqBIN.jpg" alt="">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_600702-MLC45362014331_032021-F.webp" alt="">
         </div>
         <div class="item">
             <img src="https://i.imgur.com/GT7Rvro.jpg" alt="">
