@@ -43,18 +43,18 @@
                <!-- <p class="text-white"> <h3>
                     8GB + 300 MIN + 100 SMS Desde $4.990 Oferta Limitada para Portabilidad Prepagos y Planes.
                 </h3></p>-->
-                      <button onclick='activa();' class="btn bg-success text-white col-12 mt-4">VER DETALLES DE LA PROPIEDAD SUECIA 1</button>
+                      <button onclick='activa();' class="btn bg-success text-white col-6 mt-2">VER DETALLES DE LA PROPIEDAD SUECIA 1</button>
 
-                      <button onclick='activa1();' class="btn bg-success text-white col-12 mt-4">VER DETALLES DE LA PROPIEDAD HERMANOS CABOT 111 </button>
+                      <button onclick='activa1();' class="btn bg-success text-white col-6 mt-2">VER DETALLES DE LA PROPIEDAD HERMANOS CABOT 111 </button>
                 <p class="text-white"> <h3 class="text-primary">
                   <center>TU NUEVO COMIENZO EMPIEZA HOY!!!! </h3></center>
                 </p>
 
                 <br>
-            <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-success text-white col-12 mt-6">WHATSAPP</a>
-            <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-success text-white col-12 mt-6">LLÁMANOS</a>
+            <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-success text-white col-12 mt-2">WHATSAPP</a>
+            <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-success text-white col-12 mt-2">LLÁMANOS</a>
             <!--<a onclick="Mens3();" class="btn bg-success text-white col-12 mt-2">TE LLAMAMOS</a>-->
-            <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-6">ESCRÍBENOS</a>
+            <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-2">ESCRÍBENOS</a>
                </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -258,7 +258,7 @@ UF6.000<br>
          
                 </center> <br>
 
-         <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-2">COTIZAR PROPIEDAD</a>
+         <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-4">COTIZAR PROPIEDAD</a>
 
                <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-6"><strong> ATRAS </strong></a>
 
