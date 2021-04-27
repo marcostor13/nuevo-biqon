@@ -84,34 +84,49 @@
             </div>
 
             <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
-                <center>
                 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/VJDOJhs.png" alt="simple"
-                
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/NK81GiD.png" alt="simple">
-                <br>
-               <!-- <a onclick="nuev1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="la.jpg" alt="Los Angeles">
+    </div>
 
-                <a onclick="nuev2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+    <div class="item">
+      <img src="chicago.jpg" alt="Chicago">
+    </div>
 
-                <a onclick="nuev3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-                <br>
-                
+    <div class="item">
+      <img src="ny.jpg" alt="New York">
+    </div>
+  </div>
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/7HsoOHi.png" alt="simple">
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple"> <br>
-                <br>
-                
 
-                <a onclick="nuev4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-                <a onclick="nuev5();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-                <br>
-                
-                
+
+
+
+
+
+    
                 
                 </center> <br>
                <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong> ATRAS </strong></a>
