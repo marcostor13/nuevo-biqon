@@ -9,7 +9,7 @@
    <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:450px; max-height:200px "class="img-fluid col-10 col-md-3 mt-4" src="https://imgur.com/erp45Qt.jpg" alt="simple">
+            <img style="max-width:450px; max-height:200px "class="img-fluid col-10 col-md-3 mt-4" src="https://imgur.com/erp45Qt.jpg" alt="PortalInmobiliario">
 
 
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
@@ -52,27 +52,89 @@
 
 
             <div  id="cont7" class="p-2 pl-3 pr-3 hide"> <center>
-               
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/WRLHfWq.jpg" alt="simple">
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/PVz3F0f.jpg" alt="simple">
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+     <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>
+        <!--<li data-target="#myCarousel" data-slide-to="9"></li>-->
+    </ol> 
+
+    <!-- Wrapper for slides -->
+     <div class="carousel-inner">
+        <div class="item active">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_600702-MLC45362014331_032021-F.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_996162-MLC45362014332_032021-F.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_853019-MLC45362014338_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_697060-MLC45362014337_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_748826-MLC45362014335_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_645873-MLC45362014334_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_984738-MLC45362014336_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_630036-MLC45362014339_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_759418-MLC45362014333_032021-O.webp" alt="">
+        </div>
+       <!-- <div class="item">
+            <img src="https://i.imgur.com/.jpg" alt="">
+        </div>-->
+
+    </div>
+
+               
+              <!--  <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/WRLHfWq.jpg" alt="simple">
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/PVz3F0f.jpg" alt="simple">-->
 
                 <br>
-                <!--a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
+                <!--<a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
                 <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">            
+                <!--<img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">-->       
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+               <!-- <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
                 <br>
                 <a onclick="port3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
                 <a onclick="port4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-                <br>  
+                <br> --> 
               
+
+
+
+
            </center>
+
+
+
+
+
            <br>
+
                <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
             </div>
 
