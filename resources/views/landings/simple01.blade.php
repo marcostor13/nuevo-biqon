@@ -67,6 +67,14 @@
 
            <div  id="cont7" class="p-2 pl-3 pr-3 hide"> 
 
+            <span><h3>Oficina en Venta - Providencia<br>
+Suecia 1<br>
+UF6.000<br>
+<br>
+6 m² totales<br>
+2 baños<br></h3>
+</span>
+
             <center>         
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -153,6 +161,9 @@
     <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
 
             </div>
+
+
+
 
             <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
                 
