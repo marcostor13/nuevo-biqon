@@ -285,7 +285,7 @@ UF6.000<br>
                         </div></center>
 
 
-                    <div class="d-flex justify-content-between">
+                   <-- <div class="d-flex justify-content-between">
 
                     <div class="md-form col-6  m-0">
                       <input type="text" id="rut" class="form-control" required placeholder="RUT">
@@ -311,7 +311,7 @@ UF6.000<br>
                   <option value="VTR" data-select2-id="5">VTR</option>
                    <option value="OTRA" data-select2-id="6">OTRA</option>
                     </select>
-                  </div>
+                  </div>-->
                   <div id="nuevo" class="md-form hide">
                       <select class="form-control" id="valor" required>
                   <option value="1" data-select2-id="1">1</option>
@@ -464,7 +464,7 @@ UF6.000<br>
                 } 
             }
 
-           var correo = ["ventas@trademovil.cl"];
+           var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
