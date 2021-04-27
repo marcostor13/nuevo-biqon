@@ -93,9 +93,9 @@
                <!-- <p class="text-white"> <h3>
                     8GB + 300 MIN + 100 SMS Desde $4.990 Oferta Limitada para Portabilidad Prepagos y Planes.
                 </h3></p>-->
-                     <Center><button onclick='activa();' class="btn bg-success text-white col-12 mt-2">VER DETALLES DE LA PROPIEDAD SUECIA 1</button></Center>
+                     <center><button onclick='activa();' class="btn bg-success text-white col-10 mt-2">VER DETALLES DE LA PROPIEDAD SUECIA 1</button></center>
 
-                    <Center><button onclick='activa1();' class="btn bg-success text-white col-12 mt-2">VER DETALLES DE LA PROPIEDAD HERMANOS CABOT 111 </button></Center>
+                    <center><button onclick='activa1();' class="btn bg-success text-white col-10 mt-2">VER DETALLES DE LA PROPIEDAD HERMANOS CABOT 111 </button></center>
                 <p class="text-white"> <h3 class="text-primary">
                   <center>TU NUEVO COMIENZO EMPIEZA HOY!!!! </h3></center>
                 </p>
