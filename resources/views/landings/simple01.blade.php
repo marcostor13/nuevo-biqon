@@ -51,10 +51,10 @@
                 </p>
 
                 <br>
-            <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-success text-white col-12 mt-2">WHATSAPP</a>
-            <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-success text-white col-12 mt-2">LLÁMANOS</a>
+            <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-success text-white col-12 mt-6">WHATSAPP</a>
+            <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-success text-white col-12 mt-6">LLÁMANOS</a>
             <!--<a onclick="Mens3();" class="btn bg-success text-white col-12 mt-2">TE LLAMAMOS</a>-->
-            <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-2">ESCRÍBENOS</a>
+            <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-6">ESCRÍBENOS</a>
                </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -159,7 +159,7 @@ UF10.900<br>
 
            <br>
  <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-2">COTIZAR PROPIEDAD</a>
-    <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong>ATRAS</strong></a>
+    <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-6"><strong>ATRAS</strong></a>
 
             </div>
 
@@ -260,7 +260,7 @@ UF6.000<br>
 
          <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-2">COTIZAR PROPIEDAD</a>
 
-               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong> ATRAS </strong></a>
+               <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-6"><strong> ATRAS </strong></a>
 
            </div>
 <!-- PORTABILIDAD
