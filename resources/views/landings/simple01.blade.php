@@ -55,9 +55,11 @@
 
             <center>         
 
-                </div>
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/WRLHfWq.jpg" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/WRLHfWq.jpg" alt="
+                simple">
+
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/PVz3F0f.jpg" alt="simple">     
                 <br>
