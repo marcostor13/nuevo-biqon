@@ -90,14 +90,14 @@ $enddate=strtotime("+5 days", $startdate);
                
                       <div  id="cont7" class="p-2 pl-3 pr-3"> <center>
                
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/i6uzpjG.png" alt="simple">
+                <img class="img-fluid col-6 col-md-3 mt-4" src="https://i.imgur.com/i6uzpjG.png" alt="Venta">
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/zVGaI7W.png" alt="simple">
+                <img class="img-fluid col-6 col-md-3 mt-4" src="https://i.imgur.com/zVGaI7W.png" alt="Venta">
 
                 <br>
-                <a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Ver</a>
+                <a onclick="port1();" class="btn bg-danger text-white col-6 mt-2">Ver</a>
 
-                <a onclick="port2();" class="btn bg-danger text-white col-5 mt-2">ver</a>
+                <a onclick="port2();" class="btn bg-danger text-white col-6 mt-2">ver</a>
 <!--
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">            
 
@@ -116,7 +116,7 @@ $enddate=strtotime("+5 days", $startdate);
             <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-2">ESCRÍBENOS</a>
                </div>
 
-               
+
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -275,6 +275,8 @@ $enddate=strtotime("+5 days", $startdate);
                         <div id="nuev5" class="p-2 pl-3 pr-3 hide">
                         <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/TYJ7maf.png" alt="simple">
                         </div></center>
+
+
                     <div class="d-flex justify-content-between">
 
                     <div class="md-form col-6  m-0">
