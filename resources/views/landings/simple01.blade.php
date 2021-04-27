@@ -59,9 +59,10 @@
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/WRLHfWq.jpg" alt="
                 simple">
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/m6xIKPD.png" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/ZasX3xC.jpg" alt="simple">
 
-                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/PVz3F0f.jpg" alt="simple">     
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://imgur.com/PVz3F0f.jpg" alt="simple">
+
                 <br>
 
                 <!--<a onclick="port1();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
@@ -70,7 +71,7 @@
 
                 <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple">       
 
-               < <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
+                <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/IUGXSOF.png" alt="simple">
 
                 <br>
 
