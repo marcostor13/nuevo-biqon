@@ -74,8 +74,8 @@
 
                 <!--<a onclick="port3();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
 
-                <a onclick="port4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>
-                <br> -->
+                <<a onclick="port4();" class="btn bg-danger text-white col-5 mt-2">Comprar</a>-->
+                <br> 
               
            </center>
 
