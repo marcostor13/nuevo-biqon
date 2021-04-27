@@ -96,15 +96,27 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="https://imgur.com/hie73bO.jpg" alt="1">
+      <img src="la.jpg" alt="Chania">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>LA is always so much fun!</p>
+      </div>
     </div>
 
     <div class="item">
-      <img src="https://imgur.com/2DSvccO.jpg" alt="2">
+      <img src="chicago.jpg" alt="Chicago">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>
     </div>
 
     <div class="item">
-      <img src="https://imgur.com/Lcmt5R5.jpg" alt="3">
+      <img src="ny.jpg" alt="New York">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>
     </div>
   </div>
 
@@ -121,13 +133,7 @@
 
 
 
-
-
-
-
-
-
-                
+         
                 </center> <br>
                <a onclick="p0();" class="btn bg-ligth text-danger col-12 mt-2"><strong> ATRAS </strong></a>
 
