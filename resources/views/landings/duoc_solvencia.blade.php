@@ -80,9 +80,9 @@ $enddate=strtotime("+5 days", $startdate);
                      <div class="d-flex justify-content-around align-content-center"> 
       
                      <span class="text-white  text-center">Mi Cuenta<br>
-                     <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="70" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>
+                     <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>
                          <span class="text-white  text-center">WhatsApp<br>
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola"><img width="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola"><img width="60" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
                        <span class="text-white  text-center">Teléfono<br>
                     <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56975890461"><img width="60" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
                        <span class="text-white  text-center">Correo<br>
