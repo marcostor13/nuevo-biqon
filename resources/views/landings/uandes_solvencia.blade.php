@@ -73,7 +73,7 @@ $enddate=strtotime("+5 days", $startdate);
                     Instituto profecinal Duoc UC le recuerda que usted manteine una deuda por regularizar
                     <br><br>
                     Le invitamos a contactarse a la brevedad para ser informado de los metodos de pago disponibles
-                </p>
+                </p><br>
                <!-- <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
@@ -82,15 +82,16 @@ $enddate=strtotime("+5 days", $startdate);
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>-->
                 
-                 <div class="d-flex justify-content-around align-content-center mt-4" style="background:#000;"> 
-                    <p>Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorale y resolver su consulta</p>
+                 <div class="d-flex justify-content-around align-content-center mt-4" style="background:#384259;"> 
+                    <p class="text-white">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorale y resolver su consulta</p><br>
+                    <br>
                      <span class="text-white">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="70" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>
-                         <span>WhatsApp<br>
+                         <span class="text-white">WhatsApp<br>
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola"><img width="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
-                       <span>Teléfono<br>
+                       <span class="text-white">Teléfono<br>
                     <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56975890461"><img width="60" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
-                       <span>Correo<br>
+                       <span class="text-white">Correo<br>
                     <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:katerin.sena@solvencia.cl"><img width="60" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
                 </div>
                 
