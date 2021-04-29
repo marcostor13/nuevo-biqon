@@ -82,12 +82,11 @@ $enddate=strtotime("+5 days", $startdate);
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>-->
                 
-                 <div class="" style="background:#384259;"> 
-<p class="text-white">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorale y resolver su consulta</p><br>
-                    <br>
-                     <div class="d-flex justify-content-around align-content-center mt-4" > 
+                 <div class="mt-4" style="background:#384259;"> 
+<p class="text-white">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorale y resolver su consulta</p>
+                     <div class="d-flex justify-content-around align-content-center " > 
                   <!--  <p class="text-white">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorale y resolver su consulta</p><br>-->
-                    <br>
+                 
                      <span class="text-white">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="70" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>
                          <span class="text-white">WhatsApp<br>
