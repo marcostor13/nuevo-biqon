@@ -67,6 +67,8 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-4 hide">
+                <div class="card">     
+                            <div class="card-body">
                 <h3 class="text-black text-center">Estimado(a) Ex Alunmo: <span id="name"></span></h3>
 <hr>
                 <p class="text-black text-center">
@@ -74,7 +76,8 @@ $enddate=strtotime("+5 days", $startdate);
                     <br><br>
                     Le invitamos a contactarse a la brevedad para ser informado de los metodos de pago disponibles
                 </p><br>
-                
+                </div>
+            </div>
                  <div class="mt-2 text-center" style="background:#384259;"> 
 <p class="text-white text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorale y resolver su consulta</p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
