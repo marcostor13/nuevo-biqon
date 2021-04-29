@@ -74,7 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) Ex Alunmo: <span id="name"></span></h3>
 <hr>
                 <p class="text-black text-center">
-                    Instituto profecinal Duoc UC le recuerda que usted manteine una deuda por regularizar
+                    Instituto profecional Duoc UC le recuerda que usted mantiene una deuda por regularizar
                     <br><br>
                     Le invitamos a contactarse a la brevedad para ser informado de los metodos de pago disponibles
                 </p><br>
