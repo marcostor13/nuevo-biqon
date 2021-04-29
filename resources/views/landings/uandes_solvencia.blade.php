@@ -82,7 +82,7 @@ $enddate=strtotime("+5 days", $startdate);
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>-->
                 
-                 <div class="d-flex " style="background:#384259;"> 
+                 <div class="" style="background:#384259;"> 
 <p class="text-white">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorale y resolver su consulta</p><br>
                     <br>
                      <div class="d-flex justify-content-around align-content-center mt-4" > 
