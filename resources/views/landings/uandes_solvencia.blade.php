@@ -67,27 +67,30 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5">|
-                <h3 class="text-white text-center">Estimado(a) <span id="name"></span></h3>
-
+                <h3 class="text-white text-center">Estimado(a) Ex alunmo: <span id="name"></span></h3>
+<hr>
                 <p class="text-white">
-                    Te informamos que presentas un retraso en el pago tus cuotas por un monto total de, mas recargos por mora:
-                    <b>$ </b><b id="pay"></b>
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente
+                    Instituto profecinal Duoc UC le recuerda que usted manteine una deuda por regularizar
+                    <br><br>
+                    Le invitamos a contactarse a la brevedad para ser informado de los metodos de pago disponibles
                 </p>
-                <div class="date btn bg-danger text-white col-12 mt-4">
+               <!-- <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
                 </div>
                 <button onclick='window.location.href="https://pagos.uss.cl/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
                 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>-->
                 
                  <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56967664209"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
-                   
-                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:jesus.binteraction@gmail.com?subject=Landing%20Cobranza"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                     <span>Mi Cuenta</span>
+                     <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="70" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a>
+                         <span>WhatsApp</span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola"><img width="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a>
+                       <span>Teléfono</span>
+                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56975890461"><img width="60" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a>
+                       <span>Correo</span>
+                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:katerin.sena@solvencia.cl"><img width="60" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a>
                 </div>
                 
             </div>
