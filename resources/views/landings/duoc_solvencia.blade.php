@@ -76,8 +76,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <br><br>
                     Le invitamos a contactarse a la brevedad para ser informado de los metodos de pago disponibles
                 </p><br>
-                </div>
-            </div>
+
                  <div class="mt-2 text-center" style="background:#384259;"> 
 <p class="text-white text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorale y resolver su consulta</p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
@@ -94,6 +93,9 @@ $enddate=strtotime("+5 days", $startdate);
                      <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="http://www2.duoc.cl/portal-de-pagos-en-linea"><img width="60" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
                 <br><br>
+
+                  </div>
+            </div>
             </div>
         </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
