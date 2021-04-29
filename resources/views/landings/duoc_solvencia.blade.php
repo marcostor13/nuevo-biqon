@@ -53,7 +53,7 @@ $enddate=strtotime("+5 days", $startdate);
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
            <!-- <img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="UANDES">-->
-<img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_DuocUC.svg/711px-Logo_DuocUC.svg.png" alt="UANDES">
+<img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/LRZ1x2g.png" alt="UANDES">
              <div id="cont1" class="p-5 hide ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
@@ -74,13 +74,6 @@ $enddate=strtotime("+5 days", $startdate);
                     <br><br>
                     Le invitamos a contactarse a la brevedad para ser informado de los metodos de pago disponibles
                 </p><br>
-               <!-- <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-                <button onclick='window.location.href="https://pagos.uss.cl/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
-                
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>-->
                 
                  <div class="mt-2" style="background:#384259;"> 
 <p class="text-white">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorale y resolver su consulta</p>
