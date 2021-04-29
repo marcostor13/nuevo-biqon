@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'UANDES')
+@section('title', 'DUOC')
 
 @section('content')
 <?php
@@ -67,7 +67,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5">
-                <h3 class="text-black text-center">Estimado(a) Ex alunmo: <span id="name"></span></h3>
+                <h3 class="text-black text-center">Estimado(a) Ex Alunmo: <span id="name"></span></h3>
 <hr>
                 <p class="text-black">
                     Instituto profecinal Duoc UC le recuerda que usted manteine una deuda por regularizar
