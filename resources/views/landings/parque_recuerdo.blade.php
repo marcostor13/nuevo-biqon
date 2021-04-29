@@ -97,14 +97,23 @@
                     </div>
                 </div>
 
-                <button onclick="sendMail('Quiero Que me llamen'); eventosLanding('LLAMADA'); return false;" class="btn bg-danger text-white col-12 mt-2">QUIERO QUE ME LLAMEN</button>
+                <!--<button onclick="sendMail('Quiero Que me llamen'); eventosLanding('LLAMADA'); return false;" class="btn bg-danger text-white col-12 mt-2">QUIERO QUE ME LLAMEN</button>
 
                 <a onclick="eventosLanding('CORREO'); Mens2();" class="btn bg-danger text-white col-12 mt-2"> ESCRÍBENOS <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
 
 
-                <button onclick='window.location.href="https://pagos.uss.cl"; eventosLanding("PAGINA DE PAGOS USS"); ' class="btn bg-danger text-white col-12 mt-2">REVISAR DEUDA COMPLETA</button>
+                <button onclick='window.location.href="https://pagos.uss.cl"; eventosLanding("PAGINA DE PAGOS USS"); ' class="btn bg-danger text-white col-12 mt-2">REVISAR DEUDA COMPLETA</button>-->
+
+                <h5 class="text-grey text-center"> Seleccione una Opcion </h5>
+
+                <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-success text-white col-12 mt-2">PAGAR
+                    </button>
 
 
+                <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-success text-white col-12 mt-2">LLÁMANOS</a>
+
+
+                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-success text-white col-12 mt-2">ESCRÍBENOS</a>
 
                 <!-- <button onclick='window.location.href="https://pagos.uss.cl/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>-->
                 
