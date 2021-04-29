@@ -96,7 +96,7 @@ $enddate=strtotime("+5 days", $startdate);
                        <span class="text-white">Correo<br>
                     <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:katerin.sena@solvencia.cl"><img width="60" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
                 </div>
-                
+                <br><br>
             </div>
         </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
