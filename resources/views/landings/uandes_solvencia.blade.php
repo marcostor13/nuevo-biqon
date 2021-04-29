@@ -47,13 +47,13 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-    <div id="UANDES" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
+    <div id="UANDES" style=" /*background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;*/">
 
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="UANDES">
-
+           <!-- <img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="UANDES">-->
+<img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_DuocUC.svg/711px-Logo_DuocUC.svg.png" alt="UANDES">
              <div id="cont1" class="p-5 hide ">
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
