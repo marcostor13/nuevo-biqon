@@ -52,8 +52,10 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-           <!-- <img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="UANDES">-->
-<img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/LRZ1x2g.png" alt="UANDES">
+           <img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="DUOC">-
+
+<!--<img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/LRZ1x2g.png" alt="UANDES">-->
+           
              <div id="cont1" class="p-5  ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
