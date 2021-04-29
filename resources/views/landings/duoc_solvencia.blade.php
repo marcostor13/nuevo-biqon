@@ -88,7 +88,7 @@ $enddate=strtotime("+5 days", $startdate);
                        <span class="text-white  text-center">Correo<br>
                     <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:katerin.sena@solvencia.cl"><img width="60" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
                     <span class="text-white  text-center">Pago en Linea<br>
-                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="http://www2.duoc.cl/portal-de-pagos-en-linea"><img width="60" src="https://multivacaciones.com/wp-content/uploads/2018/06/pago-en-l%C3%ADnea.jpg"></a></span>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="http://www2.duoc.cl/portal-de-pagos-en-linea"><img width="60" src="https://i.imgur.com/wAGs8no.png"></a></span>
                 </div>
                 <br><br>
             </div>
