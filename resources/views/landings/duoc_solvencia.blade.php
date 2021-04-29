@@ -54,7 +54,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
            <!-- <img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="UANDES">-->
 <img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/LRZ1x2g.png" alt="UANDES">
-             <div id="cont1" class="p-5 hide ">
+             <div id="cont1" class="p-5  ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
@@ -66,7 +66,7 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5">
+            <div id="cont2" class="p-5 hide">
                 <h3 class="text-black text-center">Estimado(a) Ex Alunmo: <span id="name"></span></h3>
 <hr>
                 <p class="text-black">
