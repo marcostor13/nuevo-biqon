@@ -62,22 +62,22 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
+                                 <h5 id="error"class="text-black text-center mt-4"></h5>
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 hide">
+            <div id="cont2" class="p-4 hide">
                 <h3 class="text-black text-center">Estimado(a) Ex Alunmo: <span id="name"></span></h3>
 <hr>
-                <p class="text-black">
+                <p class="text-black text-center">
                     Instituto profecinal Duoc UC le recuerda que usted manteine una deuda por regularizar
                     <br><br>
                     Le invitamos a contactarse a la brevedad para ser informado de los metodos de pago disponibles
                 </p><br>
                 
-                 <div class="mt-2" style="background:#384259;"> 
-<p class="text-white">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorale y resolver su consulta</p>
-                     <div class="d-flex justify-content-around align-content-center"> 
+                 <div class="mt-2 text-center" style="background:#384259;"> 
+<p class="text-white text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorale y resolver su consulta</p>
+                     <div class="d-flex justify-content-around align-content-center text-center"> 
       
                      <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>
