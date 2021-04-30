@@ -120,6 +120,9 @@
                <!-- <p class="text-white"> <h3>
                     8GB + 300 MIN + 100 SMS Desde $4.990 Oferta Limitada para Portabilidad Prepagos y Planes.
                 </h3></p>-->
+                <br>
+<br>
+<br>
                 <div class="fila1">
                 <center style="background:#d7dbdb;"><h3 class="text-danger">
                     SI PORTAS SOLO UNA LINEA  <h4 class="text-black ">
@@ -194,7 +197,9 @@
     </div>
     </center>
 </div>
-
+<br>
+<br>
+<br>
 <div class="fila2">
                 <center style="background:#d7dbdb;"><h3 class="text-danger">
                     SI PORTAS DOS O MAS LINEAS <h4 class="text-black "><br>
