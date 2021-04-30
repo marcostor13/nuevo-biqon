@@ -139,7 +139,9 @@ $enddate=strtotime("+5 days", $startdate);
                      </tr>
                 </table>
 
-                 <div class="d-flex justify-content-around align-content-center text-center"> 
+                <div class="mt-2 text-center" style="background:#384259;"> 
+<p class="text-white text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</p>
+                     <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
@@ -152,6 +154,11 @@ $enddate=strtotime("+5 days", $startdate);
                     <span class="text-warning  text-center">Pago en Linea<br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
+                <br><br>
+
+                  </div>
+            </div>
+            </div>
 
                 <br>
 
