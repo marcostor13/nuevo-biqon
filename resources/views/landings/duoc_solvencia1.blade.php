@@ -80,11 +80,12 @@ $enddate=strtotime("+5 days", $startdate);
                 </p><br>
 
                  <div class="mt-2 text-center" style="background:#384259;"> 
-                 </div>
+                 
 <p class="text-white text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</p>
+</div>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
 </div>
-      <button onclick="sendMail('Quiero Que me llamen'); eventosLanding('LLAMADA'); return false;" class="btn bg-danger text-white col-12 mt-2"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> QUIERO QUE ME LLAMEN</button>
+      <button onclick="sendMail('Quiero Que me llamen'); eventosLanding('LLAMADA'); return false;" class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> QUIERO QUE ME LLAMEN</button>
 
                 <a onclick="eventosLanding('CORREO'); Mens2();" class="btn bg-danger text-white col-12 mt-2"> <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png">  ESCRÍBENOS</a>
 
