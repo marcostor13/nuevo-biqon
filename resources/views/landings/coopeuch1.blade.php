@@ -88,9 +88,24 @@ $enddate=strtotime("+5 days", $startdate);
 
 
                   <font color="red">
-                    <h5> Pagar Créditos</h5>
-                  </font>
+                    <h5> Pagar Créditos</h5> </font>
+                    <p>Parte <strong>pagando tus compromisos </strong>crediticios atrasados si los tienes. Luego paga tu tarjeta de crédito, que en general presentan una tasa de interesa mas alta </p>
+                 
+                  <br>
+                  <br>
+                   <font color="red">
+                    <h5> Dépositos a Plazo</h5> </font>
 
+                    <p>Te permite ahorrar en plazos cortos y tener liquidez apenas necesites contar con este diner</p>
+
+                  <br>
+                  <br>
+                  <font color="red">
+                    <h5> Cuenta de Ahorro</h5> </font>
+
+                    <p>Para cumplir objetivos de mayor plazo y monto, por ejemplo, ahorrar para vacaciones, para algún arreglo de la casa o emergencias</p>
+
+                 
                    <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
                 
 
