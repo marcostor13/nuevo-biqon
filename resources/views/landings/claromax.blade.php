@@ -103,7 +103,7 @@
 
     <td class="text-center" colspan="3">
         <h6>PROMOCION EXCLUSIVA <strong  class="text-danger  text-center">MIGRACION</strong>    </h6>
-      <div style="background:#d7dbdb;">  <h6>MIGRATE A CLARO Y DISFRUTA DE NUESTRO PLAN XS </h6>
+      <div style="background:#d7dbdb;">  <BR><h6>MIGRATE A CLARO Y DISFRUTA DE NUESTRO PLAN XS </h6>
         <h6 class="text-danger  text-center">CON EL DOBLE DE GIGAS POR UN AÑO    </h6></div>
         <p>Plan XS con doble de GB, aplica exclusivamente para la modalidad de <strong>Migracion.</strong><br>Oferta aplica a todos los canales de Venta</p>
 
@@ -123,7 +123,7 @@
 <br>
 <br>
                 <div class="fila1">
-                <center style="background:#d7dbdb;"><h3 class="text-danger">
+                <center style="background:#d7dbdb;"><BR><h3 class="text-danger">
                     SI PORTAS SOLO UNA LINEA  <h4 class="text-black ">
                     DISFRUTA DEL DOBLE DE GB </h4> </h3></center>
                     <br>
@@ -200,7 +200,7 @@
 <br>
 <br>
 <div class="fila2">
-                <center style="background:#d7dbdb;"><h3 class="text-danger">
+                <center style="background:#d7dbdb;"><BR><h3 class="text-danger">
                     SI PORTAS DOS O MAS LINEAS <h4 class="text-black "><br>
                     TE DAMOS X2 + DOBLE DE GB, AMBOS X 1 AÑO </h4> </h3></center>
                     <br>
