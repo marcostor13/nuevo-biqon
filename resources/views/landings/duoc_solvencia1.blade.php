@@ -86,11 +86,6 @@ $enddate=strtotime("+5 days", $startdate);
                      <div class="d-flex justify-content-around align-content-center text-center"> 
 </div>
 
-calendario de compromiso*
- contactanos 
- llamanoa
- pago en linea
- correo
 
                 <div class="date btn bg-warning text-black col-12 mt-2">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
