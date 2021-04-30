@@ -106,7 +106,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <li><h5>Hasta 90 días para pagar la primera cuota.</h5></li>
                  <li><h5>Sin cobro de impuestos de timbres y estampillas.</h5></li>
                   <li><h5>Posibilidad de hacer prepago total o parcial.</h5></li>
-                  <button href="https://www.oriencoop.cl/simulador-credito/"class="btn bg-danger text-white col-12 mt-4"> SIMULAR</button>
+                  <button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-4"> SIMULAR</button>
 
 </div>
 
@@ -367,6 +367,12 @@ $enddate=strtotime("+5 days", $startdate);
         function event2(){
 
            href()
+        }
+
+     function Mens3(){
+
+        window.location.href = "https://www.oriencoop.cl/simulador-credito/";
+    
         }
     
     </script>
