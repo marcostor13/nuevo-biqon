@@ -77,7 +77,7 @@
    <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:200px; max-height:200px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
+            <img style="max-width:200px; max-height:180px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
 
 
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
@@ -87,14 +87,12 @@
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class=" ">
+            <div id="cont2" class="p-2 pl-3 ">
                  <center><div class="bg-primary">
-               <h3 class="text-white ">
-                    OFERTA MASIVA POSTPAGO </h3></div><br>
+               <h3 class="text-white ">OFERTA MASIVA POSTPAGO </h3></div><br>
                     <h3 class="text-black bg-white">
                     SE EXTIENDE HASTA EL 15 DE ABRIL 2021 </h3></center>
                     <br>
-                <center><!--<img  style="max-width: 150%"  class="img-fluid col-12 col-md-3 mt-4" src="https://s3-sa-east-1.amazonaws.com/imagenes.simple.cl/Act/Portate/banner-porta-abril.gif?v=2.1.3" alt="simple">-->
 
  <div class="card">     
          <div class="card-body">
