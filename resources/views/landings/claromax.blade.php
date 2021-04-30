@@ -25,7 +25,28 @@
                     <h3 class="text-black bg-white">
                     SE EXTIENDE HASTA EL 15 DE ABRIL 2021 </h3></center>
                     <br>
-                <center><img  style="max-width: 150%"  class="img-fluid col-12 col-md-3 mt-4" src="https://s3-sa-east-1.amazonaws.com/imagenes.simple.cl/Act/Portate/banner-porta-abril.gif?v=2.1.3" alt="simple"></center>
+                <center><!--<img  style="max-width: 150%"  class="img-fluid col-12 col-md-3 mt-4" src="https://s3-sa-east-1.amazonaws.com/imagenes.simple.cl/Act/Portate/banner-porta-abril.gif?v=2.1.3" alt="simple">-->
+<table class="default">
+
+  <tr>
+
+    <td><img  style="max-width: 100%"  class="img-fluid mt-4" src="https://i.imgur.com/OF38uTK.png" alt="PlanXS"></td>
+
+    <td class="text-center" colspan="3">
+        <h4>PROMOCION EXCLUSIVA <strong  class="text-danger  text-center">MIGRACION</strong>    </h4>
+      <div style="background:#d7dbdb;">  <h4>MIGRATE A CLARO Y DISFRUTA DE NUESTRO PLAN XS </h4>
+        <h4 class="text-danger  text-center">CON EL DOBLE DE GIGAS POR UN AÑO    </h4></div>
+        <h6>Plan XS con doble de GB, aplica exclusivamente para la modalidad de <strong>Migracion.</strong><br>Oferta aplica a todos los canales de Venta</h6>
+
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+</table>
+                </center>
                <!-- <p class="text-white"> <h3>
                     8GB + 300 MIN + 100 SMS Desde $4.990 Oferta Limitada para Portabilidad Prepagos y Planes.
                 </h3></p>-->
