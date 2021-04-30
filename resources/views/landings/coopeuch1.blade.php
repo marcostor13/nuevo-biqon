@@ -86,7 +86,8 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <br>La normativa que regula los retiros, no obliga a los afiliados a destinar los recursos a un determinado fin.<br></p>
 
-                    
+
+                  <h5 font="text-red"> Pagar Créditos</h5>
 
                    <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
                 
