@@ -85,12 +85,28 @@ $enddate=strtotime("+5 days", $startdate);
 </div>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
 </div>
-      <button onclick="sendMail('Quiero Que me llamen'); eventosLanding('LLAMADA'); return false;" class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> QUIERO QUE ME LLAMEN</button>
 
-                <a onclick="eventosLanding('CORREO'); Mens2();" class="btn bg-danger text-white col-12 mt-2"> <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png">  ESCRÍBENOS</a>
+calendario de compromiso*
+ contactanos 
+ llamanoa
+ pago en linea
+ correo
 
+                <div class="date btn bg-warning text-black col-12 mt-2">
+                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
 
-                <button onclick='window.location.href="https://pagos.uss.cl"; eventosLanding("PAGINA DE PAGOS USS"); ' class="btn bg-danger text-white col-12 mt-2"> REVISAR DEUDA COMPLETA</button>
+                 <!--<button onclick="sendMail('Quiero Que me llamen'); eventosLanding('LLAMADA'); return false;" class="btn bg-warning text-black col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> QUIERO QUE ME LLAMEN</button>-->
+                 <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola" class="btn bg-warning text-black col-12 mt-2"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"> CONTACTANOS</a>
+                
+                <a onclick="eventosLanding('Llamar');" href="tel:+56975890461" class="btn bg-warning text-black col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> LLAMANOS</a> 
+               
+
+                <button onclick='window.location.href="http://www2.duoc.cl/portal-de-pagos-en-linea"; eventosLanding("PAGINA DE PAGOS USS"); ' class="btn bg-warning text-black col-12 mt-2"> PAGO EN LINEA</button>
+
+                 <a onclick="eventosLanding('CORREO'); Mens2();" class="btn bg-warning text-black col-12 mt-2"> <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png">  ESCRÍBENOS</a>
+
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
                    <!--      <span class="text-warning  text-center">WhatsApp<br>
