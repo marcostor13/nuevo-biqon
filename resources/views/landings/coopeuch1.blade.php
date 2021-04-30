@@ -88,17 +88,17 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <p class="text-black" align="text-center">
 
-                    <br>La normativa que regula los retiros, no obliga a los afiliados a destinar los recursos a un determinado fin.<br></p>
+                    <br>La normativa que regula los retiros, no obliga a los afiliados a destinar los recursos a un determinado fin.</p>
 
 
-                 <strong><h3>Las opciones son múltiples</h3></strong>
+                 <strong><h4>Las opciones son múltiples</h4></strong>
 
                   <font color="red">
                     <h5> Pagar Créditos</h5> </font>
                     <p>Parte <strong>pagando tus compromisos </strong>crediticios atrasados si los tienes. Luego paga tu tarjeta de crédito, que en general presentan una tasa de interesa mas alta </p>
 
 
-                 <strong><h3>Te recomendamos ahorrar los fondos para tu futuro:</h3></strong>
+                 <strong><h4>Te recomendamos ahorrar los fondos para tu futuro:</h4></strong>
                    <font color="red">
                     <h5> Dépositos a Plazo</h5> </font>
 
