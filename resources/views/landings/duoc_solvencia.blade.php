@@ -92,7 +92,7 @@ $enddate=strtotime("+5 days", $startdate);
                        <span class="text-warning  text-center">Correo<br>
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:katerin.sena@solvencia.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
                     <span class="text-warning  text-center">Pago en Linea<br>
-                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="http://www2.duoc.cl/portal-de-pagos-en-linea"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
                 <br><br>
 
