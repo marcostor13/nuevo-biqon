@@ -94,18 +94,21 @@ $enddate=strtotime("+5 days", $startdate);
                  <strong><h4>Las opciones son múltiples:</h4></strong>
 
                   <font color="red">
-                    <div class="cool-12 mt-6" ><img  width="63" height="63" src="https://i.imgur.com/UFLL5S2.jpg"><h5> Pagar Créditos</h5> </font></div>
+                   <img  width="63" height="63" src="https://i.imgur.com/UFLL5S2.jpg"><h5> Pagar Créditos</h5> </font> 
                     <p>Parte <strong>pagando tus compromisos </strong>crediticios atrasados si los tienes. Luego paga tu tarjeta de crédito, que en general presentan una tasa de interés mas alta. </p>
                     <br>
 
 
                  <strong><h4>Te recomendamos ahorrar los fondos para tu futuro:</h4></strong>
                    <font color="red">
+
+                    <img src="https://i.imgur.com/7r0si2i.jpg">
                     <h5> Dépositos a Plazo</h5> </font>
 
                     <p>Te permite ahorrar en plazos cortos y tener liquidez apenas necesites contar con este dinero.</p>
                   
                   <font color="red">
+                    <img src="https://i.imgur.com/kVrOn1v.jpg">
                     <h5> Cuenta de Ahorro</h5> </font>
 
                     <p>Para cumplir objetivos de mayor plazo y monto, por ejemplo, ahorrar para vacaciones, para algún arreglo de la casa o emergencias.</p>
