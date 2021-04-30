@@ -269,7 +269,9 @@
     </div>
     </div>
     </center>
-
+<br>
+<br>
+<br>
     <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
@@ -283,7 +285,9 @@
                     <span class="text-warning  text-center">Pago en Linea<br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
-
+<br>
+<br>
+<br>
                  <center> <img style="max-width: 100%"  class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/8L2dAzh.png" alt="simple"></center>
 </div>
                    <!--  <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">REVISA PLANES PORTABILIDAD</button>
