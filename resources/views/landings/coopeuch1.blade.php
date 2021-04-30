@@ -142,6 +142,26 @@ $enddate=strtotime("+5 days", $startdate);
                 <br>
 
 
+                <div class="mt-2 text-center" style="background:#384259;"> 
+<p class="text-white text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</p>
+                     <div class="d-flex justify-content-around align-content-center text-center"> 
+      
+                    <!-- <span class="text-white  text-center">Mi Cuenta<br>
+                     <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
+                         <span class="text-warning  text-center">WhatsApp<br>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
+                       <span class="text-warning  text-center">Teléfono<br>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890461"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
+                       <span class="text-warning  text-center">Correo<br>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:katerin.sena@solvencia.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
+                    <span class="text-warning  text-center">Pago en Linea<br>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="http://www2.duoc.cl/portal-de-pagos-en-linea"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
+                </div>
+                <br><br>
+
+                  </div>
+
+
                     <div class="bg-danger"><img src=""> <font color="black"><a href="https://www.facebook.com/coopeuch/"><img width="40" height="40" src="https://i.imgur.com/nh5Bh5C.png"></a><a href="https://twitter.com/COOPEUCH"><img width="28" height="28" src="https://i.imgur.com/ITWWhIz.png"></a><a href="https://www.instagram.com/coopeuch/"><img  width="43" height="43" src="https://i.imgur.com/u9D7nV9.png"></a> <a style="color: white;"  href="https://www.coopeuch.cl">coopeuch.cl</a>               <a style="color: white; text-align: left;"   href="tel:+6002001200">600 200 1200</a></font></div>
 
                  
