@@ -80,6 +80,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </p><br>
 
                  <div class="mt-2 text-center" style="background:#384259;"> 
+                 </div>
 <p class="text-white text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
 
