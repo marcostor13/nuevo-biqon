@@ -106,9 +106,10 @@ $enddate=strtotime("+5 days", $startdate);
                 <li><h5>Hasta 90 días para pagar la primera cuota.</h5></li>
                  <li><h5>Sin cobro de impuestos de timbres y estampillas.</h5></li>
                   <li><h5>Posibilidad de hacer prepago total o parcial.</h5></li>
+                  <button onclick="event2(); " class="btn bg-danger text-white col-12 mt-4"> SIMULAR</button>
 
 </div>
-<button onclick="event1(); " class="btn bg-danger text-white col-12 mt-4"> Credito de consumo</button>
+
 
 
 
@@ -363,7 +364,9 @@ $enddate=strtotime("+5 days", $startdate);
   $('#cont2').addClass('hide');//ocultar div
   $('#cont6').removeClass('hide');// mostrar div
  }
-        
+        function event2(){
+            window.location.href("https://www.oriencoop.cl/simulador-credito/")
+        }
     
     </script>
     
