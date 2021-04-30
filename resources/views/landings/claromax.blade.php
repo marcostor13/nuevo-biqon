@@ -161,7 +161,7 @@
             <img src="https://i.imgur.com/whgH91n.png" alt="">
         </div>
         <div class="item">
-            <img src="" alt="https://i.imgur.com/LoBs9pX.png">
+            <img src="https://i.imgur.com/LoBs9pX.png" alt="">
         </div>
         <div class="item">
             <img src="https://i.imgur.com/xX5SEJt.png" alt="">
