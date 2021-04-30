@@ -69,10 +69,10 @@
                 </p>
 -->
                 <br>
-            <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-danger text-white col-12 mt-2">WHATSAPP</a>
+           <!-- <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-danger text-white col-12 mt-2">WHATSAPP</a>
             <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-2">LLÁMANOS</a>
             <a onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2">TE LLAMAMOS</a>
-            <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-2">ESCRÍBENOS</a>
+            <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-2">ESCRÍBENOS</a>-->
                </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
