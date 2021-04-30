@@ -87,7 +87,7 @@
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-3 ">
+            <div id="cont2" class=" ">
                  <center><div class="bg-primary">
                <h3 class="text-white ">
                     OFERTA MASIVA POSTPAGO </h3></div><br>
