@@ -77,7 +77,7 @@
    <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:200px; max-height:200px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
+            <img style="max-width:200px; max-height:180px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
 
 
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
@@ -87,13 +87,12 @@
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-3 ">
-                <center><h3 class="text-white bg-primary">
-                    OFERTA MASIVA POSTPAGO </h3><br>
+            <div id="cont2" class="p-2 pl-3 ">
+                 <center><div class="bg-primary"><BR>
+               <h3 class="text-white ">OFERTA MASIVA POSTPAGO </h3><BR></div><br>
                     <h3 class="text-black bg-white">
                     SE EXTIENDE HASTA EL 15 DE ABRIL 2021 </h3></center>
                     <br>
-                <center><!--<img  style="max-width: 150%"  class="img-fluid col-12 col-md-3 mt-4" src="https://s3-sa-east-1.amazonaws.com/imagenes.simple.cl/Act/Portate/banner-porta-abril.gif?v=2.1.3" alt="simple">-->
 
  <div class="card">     
          <div class="card-body">
@@ -104,7 +103,7 @@
 
     <td class="text-center" colspan="3">
         <h6>PROMOCION EXCLUSIVA <strong  class="text-danger  text-center">MIGRACION</strong>    </h6>
-      <div style="background:#d7dbdb;">  <h6>MIGRATE A CLARO Y DISFRUTA DE NUESTRO PLAN XS </h6>
+      <div style="background:#d7dbdb;">  <BR><h6>MIGRATE A CLARO Y DISFRUTA DE NUESTRO PLAN XS </h6>
         <h6 class="text-danger  text-center">CON EL DOBLE DE GIGAS POR UN AÑO    </h6></div>
         <p>Plan XS con doble de GB, aplica exclusivamente para la modalidad de <strong>Migracion.</strong><br>Oferta aplica a todos los canales de Venta</p>
 
@@ -124,7 +123,7 @@
 <br>
 <br>
                 <div class="fila1">
-                <center style="background:#d7dbdb;"><h3 class="text-danger">
+                <center style="background:#d7dbdb;"><BR><h3 class="text-danger">
                     SI PORTAS SOLO UNA LINEA  <h4 class="text-black ">
                     DISFRUTA DEL DOBLE DE GB </h4> </h3></center>
                     <br>
@@ -201,7 +200,7 @@
 <br>
 <br>
 <div class="fila2">
-                <center style="background:#d7dbdb;"><h3 class="text-danger">
+                <center style="background:#d7dbdb;"><BR><h3 class="text-danger">
                     SI PORTAS DOS O MAS LINEAS <h4 class="text-black "><br>
                     TE DAMOS X2 + DOBLE DE GB, AMBOS X 1 AÑO </h4> </h3></center>
                     <br>
@@ -282,8 +281,8 @@
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890461"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
                        <span class="text-warning  text-center">Correo<br>
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:katerin.sena@solvencia.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
-                    <span class="text-warning  text-center">Pago en Linea<br>
-                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
+                    <span class="text-warning  text-center">Chat en Linea<br>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://claro.solvencia.cl/schat/ingresoFormulario/chatMovil"><img width="50" src="https://i.imgur.com/vXAWUfn.jpg"></a></span>
                 </div>
 <br>
 <br>
