@@ -93,7 +93,7 @@
                 <div class="card-body">
                 <h5 class="text-black text-center">Estimado(a) <span id="name"></span></h5>
                     <p class="text-black">
-                    Tenemos una propuesta para regularizar tus cuotas pendientes. <br> Tienes disponible descuentos en Intereses,  gastos de cobranza y de capital <br> Si te interesa recibir más información, comunícate con nosotros o solicita que te llamemos.</p>
+                    Tenemos una propuesta para regularizar tus cuotas pendientes. <br> Tienes disponible descuentos en Intereses,  gastos de cobranza y de capital <br> Si te interesa recibir más información, comunícate con nosotros</p>
                     </div>
                 </div>
 
@@ -374,6 +374,42 @@
             // return obj;  
         };
 
+function Mens(){
+   // var id_adm; 
+        // id_adm= getUrlParameter('data1'); //1234;
+          
+            swal({
+             title: `Para Comunicarse, seleccione la opcion 2`,
+             //text: "Expandir la Pantalla",
+             type: "success",
+             timer: 5000
+        }, 
+        function(){
+             window.location.href = "tel:+56227308000";
+        })
+
+
+        } 
+        
+       function Mens1(){
+    var id_adm; 
+         id_adm= getUrlParameter('data2'); //1234;
+          
+            swal({
+               title: `Para Pagar Online Expandir la Pantalla, Ingrese su RUT y su ID admisión es N° ${id_adm}`,
+             //text: "Expandir la Pantalla",
+             type: "success",
+             timer: 5000
+        }, 
+        function(){
+             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
+        })
+
+
+        } 
+
+
+
         function Mens2(){
        var id_adm; 
          id_adm= params.id; 
@@ -382,8 +418,8 @@
 
         // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
 
-         var body_message = "%0A%20Estimado%20estudiante,%0A%20favor%20env%C3%ADe%20su%20consulta%20relacionada%20al%20pago%20de%20su%20cuenta.%20%0A%20Saludos%20cordiales%20";
-   window.location.href = "mailto:uss@procollect.cl?subject=Pago%20de%20Cuenta%20&body=RUT:%20"+rut+" "+body_message;
+         var body_message = "%0A%20Estimado%20%0A%20favor%20env%C3%ADe%20su%20consulta%20relacionada%20al%20pago%20de%20su%20cuenta.%20%0A%20Saludos%20cordiales%20";
+   window.location.href = "mailto:jesus.binteraction@gmail.com?subject=Pago%20de%20Cuenta%20&body=RUT:%20"+rut+" "+body_message;
 
  }
         
