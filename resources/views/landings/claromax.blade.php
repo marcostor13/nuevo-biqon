@@ -51,8 +51,14 @@
                     8GB + 300 MIN + 100 SMS Desde $4.990 Oferta Limitada para Portabilidad Prepagos y Planes.
                 </h3></p>-->
                 <center style="background:#d7dbdb;"><h3 class="text-danger">
-                    SI PORTAS SOLO UNA LINEA </h3> <B class="text-black ">
-                    DISFRUTA DEL DOBLE DE GB </B> style="background:#d7dbdb;"</center>
+                    SI PORTAS SOLO UNA LINEA  <h4 class="text-black ">
+                    DISFRUTA DEL DOBLE DE GB </h4> </h3></center>
+                    <br>
+                <center>
+
+                      <center ><h3 class="text-black">
+                    PORTATE A CLARO Y LLEVATE UN PLAN  <h4 class="text-danger ">
+                    MAX LIBRE DESDE $10.990 MENSUALES </h4> </h3></center>
                     <br>
                 <center>
                       <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">REVISA PLANES PORTABILIDAD</button>
