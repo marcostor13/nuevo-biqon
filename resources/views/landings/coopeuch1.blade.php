@@ -140,7 +140,7 @@ $enddate=strtotime("+5 days", $startdate);
                 </table>
 
 
-                    <div class="bg-danger"><img src=""> <font color="black"><a href="https://www.facebook.com"><img width="40" height="40" src="https://i.imgur.com/nh5Bh5C.png"></a><a href="https://www.twitter.com"><img width="28" height="28" src="https://i.imgur.com/ITWWhIz.png"></a><a href="https://www.instagram.com"><img  width="43" height="43" src="https://i.imgur.com/u9D7nV9.png"></a> <a style="color: white;"  href="https://www.coopeuch.cl">coopeuch.cl</a>               <a style="color: white; text-align: left;"   href="tel+6002001200">600 200 1200</a></font></div>
+                    <div class="bg-danger"><img src=""> <font color="black"><a href="https://www.facebook.com"><img width="40" height="40" src="https://i.imgur.com/nh5Bh5C.png"></a><a href="https://www.twitter.com"><img width="28" height="28" src="https://i.imgur.com/ITWWhIz.png"></a><a href="https://www.instagram.com"><img  width="43" height="43" src="https://i.imgur.com/u9D7nV9.png"></a> <a style="color: white;"  href="https://www.coopeuch.cl">coopeuch.cl</a>               <a style="color: white; text-align: left;"   href="tel:+6002001200">600 200 1200</a></font></div>
 
                  
                    <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
