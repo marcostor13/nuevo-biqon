@@ -88,7 +88,7 @@
                         </div>
                     </div>
             <div id="cont2" class="p-2 pl-3 ">
-                 <center><div class="bg-primary">
+                 <center><div class="bg-primary"><BR>
                <h3 class="text-white ">OFERTA MASIVA POSTPAGO </h3><BR></div><br>
                     <h3 class="text-black bg-white">
                     SE EXTIENDE HASTA EL 15 DE ABRIL 2021 </h3></center>
