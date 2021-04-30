@@ -110,7 +110,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <p>Para cumplir objetivos de mayor plazo y monto, por ejemplo, ahorrar para vacaciones, para algún arreglo de la casa o emergencias.</p>
 
-                    <div class="bg-danger"><img src=""> <font color="black"> <a style="color: white;" href="www.coopeuch.cl:">coopeuch.cl</a>               <a style="color: white;" href="telf+6002001200">6002001200</a></font></div>
+                    <div class="bg-danger"><img src=""> <font color="black"> <a style="color: white;" href="https://www.coopeuch.cl">coopeuch.cl</a>               <a style="color: white;" href="tel+6002001200">6002001200</a></font></div>
 
                  
                    <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
