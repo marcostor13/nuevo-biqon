@@ -30,7 +30,7 @@
 
   <tr>
 
-    <td><img  style="max-width: 50%"  class="img-fluid col-12 col-md-3 mt-4" src="https://i.imgur.com/OF38uTK.png" alt="simple"></td>
+    <td><img  style="max-width: 100%"  class="img-fluid col-12 mt-4" src="https://i.imgur.com/OF38uTK.png" alt="PlanXS"></td>
 
     <td class="text-center">
         <h4>PROMOCION EXCLUSIVA <strong  class="text-danger  text-center">MIGRACION</strong>    </h4>
