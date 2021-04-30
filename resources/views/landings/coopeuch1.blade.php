@@ -139,13 +139,24 @@ $enddate=strtotime("+5 days", $startdate);
                      </tr>
                 </table>
 
+                 <div class="d-flex justify-content-around align-content-center text-center"> 
+      
+                    <!-- <span class="text-white  text-center">Mi Cuenta<br>
+                     <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
+                         <span class="text-warning  text-center">WhatsApp<br>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
+                       <span class="text-warning  text-center">Teléfono<br>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890461"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
+                       <span class="text-warning  text-center">Correo<br>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:katerin.sena@solvencia.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
+                    <span class="text-warning  text-center">Pago en Linea<br>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
+                </div>
+
                 <br>
 
 
-
-
-
-                    <div class="bg-danger"><img src=""> <font color="black"><a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/coopeuch/"><img width="40" height="40" src="https://i.imgur.com/nh5Bh5C.png"></a><a onclick="eventosLanding('Twitter');" href="https://twitter.com/COOPEUCH"><img width="28" height="28" src="https://i.imgur.com/ITWWhIz.png"></a><a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/coopeuch/"><img  width="43" height="43" src="https://i.imgur.com/u9D7nV9.png"></a> <a style="color: white;"  href="https://www.coopeuch.cl">coopeuch.cl</a>               <a style="color: white; text-align: left;"   href="tel:+6002001200">600 200 1200</a></font></div>
+                      <div class="bg-danger"><img src=""> <font color="black"><a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/coopeuch/"><img width="40" height="40" src="https://i.imgur.com/nh5Bh5C.png"></a><a onclick="eventosLanding('Twitter');" href="https://twitter.com/COOPEUCH"><img width="28" height="28" src="https://i.imgur.com/ITWWhIz.png"></a><a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/coopeuch/"><img  width="43" height="43" src="https://i.imgur.com/u9D7nV9.png"></a> <a style="color: white;"  href="https://www.coopeuch.cl">coopeuch.cl</a>               <a style="color: white; text-align: left;"   href="tel:+6002001200">600 200 1200</a></font></div>
 
                  
                    <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
