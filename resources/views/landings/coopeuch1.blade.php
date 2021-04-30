@@ -97,12 +97,10 @@ $enddate=strtotime("+5 days", $startdate);
 
 
                  <strong><h3>Te recomendamos ahorrar los fondos para tu futuro:</h3></strong>
-                  <br>
                    <font color="red">
                     <h5> Dépositos a Plazo</h5> </font>
 
                     <p>Te permite ahorrar en plazos cortos y tener liquidez apenas necesites contar con este diner</p>
-                  <br>
                   
                   <font color="red">
                     <h5> Cuenta de Ahorro</h5> </font>
