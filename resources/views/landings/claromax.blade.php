@@ -284,7 +284,7 @@
                      <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
 
-                  <img style="max-width:200px; max-height:200px "class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/8L2dAzh.png" alt="simple">
+                  <img style=""class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/8L2dAzh.png" alt="simple">
 </div>
                    <!--  <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">REVISA PLANES PORTABILIDAD</button>
 
