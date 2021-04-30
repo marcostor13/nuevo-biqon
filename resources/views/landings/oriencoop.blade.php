@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-$name = $_GET['NOMBRE'];
+//$name = $_GET['NOMBRE'];
 //echo "El identificador de este cliente es: $identificador";
 ?>
 <style>
@@ -85,7 +85,7 @@ $name = $_GET['NOMBRE'];
             
                 <div class="card">     
                 <div class="card-body">
-                <h3 class="text-black text-center"> <strong> Estimado(a) <span><?php echo $name; ?></span>  </strong> </h3>
+                <h3 class="text-black text-center"> <strong> Estimado(a) <span><?php //echo $name; ?></span>  </strong> </h3>
 
                 <h5>Incorpórate a una de las Cooperativas de Ahorro y Crédito más grandes del país, con más de 60 años de consolidada trayectoria, fiscalizada por la CMF y en la que podrás acceder a distintos productos y servicios financieros, además de una amplia gama de beneficios exclusivos para socios.</h5>
 
