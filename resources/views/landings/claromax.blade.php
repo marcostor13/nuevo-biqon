@@ -281,7 +281,7 @@
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890461"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
                        <span class="text-warning  text-center">Correo<br>
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:katerin.sena@solvencia.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
-                    <span class="text-warning  text-center">Pago en Linea<br>
+                    <span class="text-warning  text-center">Chat en Linea<br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://claro.solvencia.cl/schat/ingresoFormulario/chatMovil"><img width="50" src="https://i.imgur.com/vXAWUfn.jpg"></a></span>
                 </div>
 <br>
