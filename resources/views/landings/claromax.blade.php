@@ -9,7 +9,7 @@
    <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:450px; max-height:200px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
+            <img style="max-width:200px; max-height:200px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
 
 
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
@@ -30,13 +30,13 @@
 
   <tr>
 
-    <td><img  style="max-width: 100%"  class="img-fluid mt-4" src="https://i.imgur.com/OF38uTK.png" alt="PlanXS"></td>
+    <td><img  style="max-width: 50%"  class="img-fluid mt-4" src="https://i.imgur.com/OF38uTK.png" alt="PlanXS"></td>
 
     <td class="text-center" colspan="3">
-        <h4>PROMOCION EXCLUSIVA <strong  class="text-danger  text-center">MIGRACION</strong>    </h4>
-      <div style="background:#d7dbdb;">  <h4>MIGRATE A CLARO Y DISFRUTA DE NUESTRO PLAN XS </h4>
-        <h4 class="text-danger  text-center">CON EL DOBLE DE GIGAS POR UN AÑO    </h4></div>
-        <h6>Plan XS con doble de GB, aplica exclusivamente para la modalidad de <strong>Migracion.</strong><br>Oferta aplica a todos los canales de Venta</h6>
+        <h6>PROMOCION EXCLUSIVA <strong  class="text-danger  text-center">MIGRACION</strong>    </h6>
+      <div style="background:#d7dbdb;">  <h4>MIGRATE A CLARO Y DISFRUTA DE NUESTRO PLAN XS </h6>
+        <h6 class="text-danger  text-center">CON EL DOBLE DE GIGAS POR UN AÑO    </h4></div>
+        <p>Plan XS con doble de GB, aplica exclusivamente para la modalidad de <strong>Migracion.</strong><br>Oferta aplica a todos los canales de Venta</p>
 
     </td>
     <td></td>
@@ -50,6 +50,11 @@
                <!-- <p class="text-white"> <h3>
                     8GB + 300 MIN + 100 SMS Desde $4.990 Oferta Limitada para Portabilidad Prepagos y Planes.
                 </h3></p>-->
+                <center style="background:#d7dbdb;"><h3 class="text-white bg-primary">
+                    SI PORTAS SOLO UNA LINEA </h3> <h3 class="text-black bg-white">
+                    DISFRUTA DEL DOBLE DE GB </h3></center>
+                    <br>
+                <center>
                       <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">REVISA PLANES PORTABILIDAD</button>
 
                       <button onclick='activa1();' class="btn bg-danger text-white col-12 mt-4">REVISA PLANES LINEAS NUEVAS</button>
