@@ -88,6 +88,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <p class="text-black" align="text-center"> 
                     La normativa que regula los retiros, no obliga a los afiliados a destinar los recursos a un determinado fin.</p>
+                    <br>
 
 
                  <strong><h4>Las opciones son múltiples</h4></strong>
