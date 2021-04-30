@@ -92,11 +92,17 @@ $enddate=strtotime("+5 days", $startdate);
 
 
                  <strong><h4>Las opciones son múltiples:</h4></strong>
+<table class="default">
 
+  <tr>
+    <td>
+                  <img src="https://i.imgur.com/UFLL5S2.jpg"></td>
+<td>
                   <font color="red">
-                   <img src="https://i.imgur.com/UFLL5S2.jpg">
                    <h5> Pagar Créditos</h5> </font> 
-                    <p>Parte <strong>pagando tus compromisos </strong>crediticios atrasados si los tienes. Luego paga tu tarjeta de crédito, que en general presentan una tasa de interés mas alta. </p>
+                    <p>Parte <strong>pagando tus compromisos </strong>crediticios atrasados si los tienes. Luego paga tu tarjeta de crédito, que en general presentan una tasa de interés mas alta. </p></td>
+                  </tr>
+                </table>
                     <br>
 
 
