@@ -50,9 +50,9 @@
                <!-- <p class="text-white"> <h3>
                     8GB + 300 MIN + 100 SMS Desde $4.990 Oferta Limitada para Portabilidad Prepagos y Planes.
                 </h3></p>-->
-                <center style="background:#d7dbdb;"><h3 class="text-white bg-primary">
-                    SI PORTAS SOLO UNA LINEA </h3> <h3 class="text-black bg-white">
-                    DISFRUTA DEL DOBLE DE GB </h3></center>
+                <center style="background:#d7dbdb;"><h3 class="text-danger">
+                    SI PORTAS SOLO UNA LINEA </h3> <B class="text-black ">
+                    DISFRUTA DEL DOBLE DE GB </B> style="background:#d7dbdb;"</center>
                     <br>
                 <center>
                       <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">REVISA PLANES PORTABILIDAD</button>
