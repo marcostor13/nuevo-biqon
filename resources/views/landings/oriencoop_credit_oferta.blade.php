@@ -365,7 +365,8 @@ $enddate=strtotime("+5 days", $startdate);
   $('#cont6').removeClass('hide');// mostrar div
  }
         function event2(){
-            window.location.href("https://www.oriencoop.cl/simulador-credito/")
+
+           href("https://www.oriencoop.cl/simulador-credito/")
         }
     
     </script>
