@@ -85,19 +85,14 @@ $enddate=strtotime("+5 days", $startdate);
             
                 <div class="card">     
                 <div class="card-body">
-                <h3 class="text-black text-center"> <strong> Estimado(a) <span><?php// echo $name; ?></span>  </strong> </h3>
+                <h3 class="text-black text-center"> <strong> Estimado(a), Tenemos los siguientes Pruductos de Créditos de Consumo<span><?php// echo $name; ?></span>  </strong> </h3>
 
-                <h3>Créditos de Consumo</h3>
-
-                <br>
-
-                <h5>Productos</h5>
-
-                <br>
-                <button onclick="event1(); " class="btn bg-danger text-white col-12 mt-4"> Credito de consumo</button>
+                
+                
 
                <div  id="cont2" class="p-2 pl-3 pr-3 "> 
 <!--todo tu codigo aqui-->
+<button onclick="event1(); " class="btn bg-danger text-white col-12 mt-4"> Credito de consumo</button>
 </div>
 
  <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
@@ -113,6 +108,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <li><h5>Posibilidad de hacer prepago total o parcial.</h5></li>
 
 </div>
+<button onclick="event1(); " class="btn bg-danger text-white col-12 mt-4"> Credito de consumo</button>
 
 
 
