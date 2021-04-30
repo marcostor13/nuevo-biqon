@@ -32,10 +32,11 @@
 
     <td><img  style="max-width: 50%"  class="img-fluid col-12 col-md-3 mt-4" src="https://i.imgur.com/OF38uTK.png" alt="simple"></td>
 
-    <td><h4>PROMOCION EXCLUSIVA <strong>MIGRACION</strong>    </h4>
-        <h4>PROMOCION EXCLUSIVA <strong>MIGRACION</strong>    </h4>
-        <h4>PROMOCION EXCLUSIVA <strong>MIGRACION</strong>    </h4>
-        
+    <td class="text-center">
+        <h4>PROMOCION EXCLUSIVA <strong  class="text-danger  text-center">MIGRACION</strong>    </h4>
+      <div style="background:#d7dbdb;">  <h4>MIGRATE A CLARO Y DISFRUTA DE NUESTRO PLAN XS </h4>
+        <h4 class="text-danger  text-center">CON EL DOBLE DE GIGAS POR UN AÑO    </h4></div>
+        <h6>Plan XS con doble de GB, aplica exclusivamente para la modalidad de <strong>Migracion.</strong><br>Oferta aplica a todos los canales de Venta</h6>
 
     </td>
   </tr>
