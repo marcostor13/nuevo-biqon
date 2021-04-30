@@ -61,6 +61,12 @@
       rgba(255, 255, 255, 0.5)
     )
     }
+    .fila1{
+      
+        border-style: dotted;
+   border-width: 1px;
+   border-color: 660033;
+    }
 </style>
 <!-- Compiled and minified Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
