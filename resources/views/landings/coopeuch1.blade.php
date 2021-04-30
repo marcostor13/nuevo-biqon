@@ -84,7 +84,7 @@ $enddate=strtotime("+5 days", $startdate);
             
 
                     <br>
-                    <h4> Destino de los recursos:</h4>
+                    <h3> Destino de los recursos:</h3>
 
                     <p class="text-black" align="text-center"> 
                     La normativa que regula los retiros, no obliga a los afiliados a destinar los recursos a un determinado fin.</p>
