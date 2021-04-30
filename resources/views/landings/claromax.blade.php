@@ -30,7 +30,7 @@
 
   <tr>
 
-    <td><img  style="max-width: 100%"  class="img-fluid col-12 mt-4" src="https://i.imgur.com/OF38uTK.png" alt="PlanXS"></td>
+    <td><img  style="max-width: 100%"  class="img-fluid mt-4" src="https://i.imgur.com/OF38uTK.png" alt="PlanXS"></td>
 
     <td class="text-center" colspan="3">
         <h4>PROMOCION EXCLUSIVA <strong  class="text-danger  text-center">MIGRACION</strong>    </h4>
@@ -39,6 +39,10 @@
         <h6>Plan XS con doble de GB, aplica exclusivamente para la modalidad de <strong>Migracion.</strong><br>Oferta aplica a todos los canales de Venta</h6>
 
     </td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 
 </table>
