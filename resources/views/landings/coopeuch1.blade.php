@@ -77,11 +77,14 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5">
-                <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
+              <center><h3 class="text-white bg-danger">
+                    Te entregamos estos consejos</h3></center>
+               <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
 
                <p class="text-black" align="text-center">
-                    Informamos que su crédito automotriz se encuentra en mora.
-                    <br>Para regularizar su situación tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.<br> #EstamosJuntosEnEsto  <br></p>
+                    Destino de los recursos:
+
+                    <br>La normativa que regula los retiros, no obliga a los afiliados a destinar los recursos a un determinado fin.<br></p>
 
                     <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
                 
