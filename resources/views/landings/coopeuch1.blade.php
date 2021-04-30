@@ -81,25 +81,29 @@ $enddate=strtotime("+5 days", $startdate);
                     Te entregamos estos consejos</h3></center>
                <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
 
+            
+
                <p class="text-black" align="text-center">
                     Destino de los recursos:
 
                     <br>La normativa que regula los retiros, no obliga a los afiliados a destinar los recursos a un determinado fin.<br></p>
 
 
+                 <strong><h2>Las opciones son múltiples</h2></strong>
+
                   <font color="red">
                     <h5> Pagar Créditos</h5> </font>
                     <p>Parte <strong>pagando tus compromisos </strong>crediticios atrasados si los tienes. Luego paga tu tarjeta de crédito, que en general presentan una tasa de interesa mas alta </p>
-                 
-                  <br>
+
+
+                 <strong><h2>Te recomendamos ahorrar los fondos para tu futuro:</h2></strong>
                   <br>
                    <font color="red">
                     <h5> Dépositos a Plazo</h5> </font>
 
                     <p>Te permite ahorrar en plazos cortos y tener liquidez apenas necesites contar con este diner</p>
-
                   <br>
-                  <br>
+                  
                   <font color="red">
                     <h5> Cuenta de Ahorro</h5> </font>
 
