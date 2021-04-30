@@ -91,7 +91,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <br>
 
 
-                 <strong><h4>Las opciones son múltiples:</h4></strong>
+                 <strong><h3>Las opciones son múltiples:</h3></strong>
 <table class="default">
 
   <tr>
@@ -106,19 +106,39 @@ $enddate=strtotime("+5 days", $startdate);
                     <br>
 
 
-                 <strong><h4>Te recomendamos ahorrar los fondos para tu futuro:</h4></strong>
-                   <font color="red">
+                 <strong><h3>Te recomendamos ahorrar los fondos para tu futuro:</h3></strong>
 
-                    <img src="https://i.imgur.com/7r0si2i.jpg">
+     <table class="default">
+
+  <tr>
+    <td>
+
+           
+
+                    <img src="https://i.imgur.com/7r0si2i.jpg"> </td>
+                    <td>
+                            <font color="red">
                     <h5> Dépositos a Plazo</h5> </font>
 
                     <p>Te permite ahorrar en plazos cortos y tener liquidez apenas necesites contar con este dinero.</p>
-                  
-                  <font color="red">
-                    <img src="https://i.imgur.com/kVrOn1v.jpg">
+                  </td>
+                  </tr>
+                </table>
+
+                 <table class="default">
+
+  <tr>
+    <td>
+
+
+                  <img src="https://i.imgur.com/kVrOn1v.jpg"> </td>
+           <td>    <font color="red">
                     <h5> Cuenta de Ahorro</h5> </font>
 
-                    <p>Para cumplir objetivos de mayor plazo y monto, por ejemplo, ahorrar para vacaciones, para algún arreglo de la casa o emergencias.</p>
+                    <p>Para cumplir objetivos de mayor plazo y monto, por ejemplo, ahorrar para vacaciones, para algún arreglo de la casa o emergencias.</p></td>   
+                     </tr>
+                </table>
+
 
                     <div class="bg-danger"><img src=""> <font color="black"><a href="https://www.facebook.com"><img width="40" height="40" src="https://i.imgur.com/nh5Bh5C.png"></a><a href="https://www.twitter.com"><img width="28" height="28" src="https://i.imgur.com/ITWWhIz.png"></a><a href="https://www.instagram.com"><img  width="43" height="43" src="https://i.imgur.com/u9D7nV9.png"></a> <a style="color: white;"  href="https://www.coopeuch.cl">coopeuch.cl</a>               <a style="color: white; text-align: left;"   href="tel+6002001200">600 200 1200</a></font></div>
 
