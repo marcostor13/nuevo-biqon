@@ -91,7 +91,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <br>
 
 
-                 <strong><h4>Las opciones son múltiples</h4></strong>
+                 <strong><h4>Las opciones son múltiples:</h4></strong>
 
                   <font color="red">
                     <h5> Pagar Créditos</h5> </font>
