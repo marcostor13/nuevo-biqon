@@ -56,7 +56,7 @@ $enddate=strtotime("+5 days", $startdate);
 
 <!--<img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/LRZ1x2g.png" alt="UANDES">-->
            
-             <div id="cont1" class="p-5  ">
+             <div id="cont1" class="p-5  hide">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4"> Validar </button>
@@ -68,7 +68,7 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-1 hide">
+            <div id="cont2" class="p-1">
                 <div class="card">     
                             <div class="card-body">
                 <h3 class="text-black text-center">Estimado(a) Ex Alunmo: <span id="name"></span></h3>
