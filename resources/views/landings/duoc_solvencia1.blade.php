@@ -98,19 +98,19 @@ $enddate=strtotime("+5 days", $startdate);
                 <a onclick="eventosLanding('Llamar');" href="tel:+56975890461" class="btn bg-warning text-black col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> LLAMANOS</a> 
                
 
-                <button onclick='window.location.href="http://www2.duoc.cl/portal-de-pagos-en-linea"; eventosLanding("PAGINA DE PAGOS USS"); ' class="btn bg-warning text-black col-12 mt-2"> PAGO EN LINEA</button>
+                <button onclick='window.location.href="http://www2.duoc.cl/portal-de-pagos-en-linea"; eventosLanding("PAGINA DE PAGOS"); ' class="btn bg-warning text-black col-12 mt-2"> <img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"> PAGO EN LINEA</button>
 
-                 <a onclick="eventosLanding('CORREO'); Mens2();" class="btn bg-warning text-black col-12 mt-2"> <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png">  ESCRÍBENOS</a>
+                 <a onclick="eventosLanding('CORREO');" href="mailto:katerin.sena@solvencia.cl" class="btn bg-warning text-black col-12 mt-2"> <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png">  ESCRÍBENOS</a>
 
-                    <!-- <span class="text-white  text-center">Mi Cuenta<br>
+                    <!-- <span class="text-white  ml-2 text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
-                   <!--      <span class="text-warning  text-center">WhatsApp<br>
+                   <!--      <span class="text-warning ml-2 text-center">WhatsApp<br>
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
-                       <span class="text-warning  text-center">Teléfono<br>
+                       <span class="text-warning ml-2 text-center">Teléfono<br>
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890461"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
-                       <span class="text-warning  text-center">Correo<br>
+                       <span class="text-warning ml-2 text-center">Correo<br>
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:katerin.sena@solvencia.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
-                    <span class="text-warning  text-center">Pago en Linea<br>
+                    <span class="text-warning ml-2  text-center">Pago en Linea<br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="http://www2.duoc.cl/portal-de-pagos-en-linea"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>-->
                 </div>
                 <br><br>
