@@ -221,39 +221,39 @@
         <li data-target="#myCarousel" data-slide-to="4"></li>
         <li data-target="#myCarousel" data-slide-to="5"></li>
         <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>
+       <!-- <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>-->
         <!--<li data-target="#myCarousel" data-slide-to="9"></li>-->
     </ol> 
 
      <div class="carousel-inner">
         <div class="item active">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_600702-MLC45362014331_032021-F.webp" alt="">
+            <img src="https://i.imgur.com/QoBXz1a.png" alt="">
         </div>
         <div class="item">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_996162-MLC45362014332_032021-F.webp" alt="">
+            <img src="https://i.imgur.com/Isl8pE9.png" alt="">
         </div>
         <div class="item">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_853019-MLC45362014338_032021-O.webp" alt="">
+            <img src="https://i.imgur.com/vtxzJmJ.png" alt="">
         </div>
         <div class="item">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_697060-MLC45362014337_032021-O.webp" alt="">
+            <img src="https://i.imgur.com/eTiGaf2.png" alt="">
         </div>
         <div class="item">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_748826-MLC45362014335_032021-O.webp" alt="">
+            <img src="https://i.imgur.com/OZkxEBa.png" alt="">
         </div>
         <div class="item">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_645873-MLC45362014334_032021-O.webp" alt="">
+            <img src="https://i.imgur.com/GqwfsL8.png" alt="">
         </div>
         <div class="item">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_984738-MLC45362014336_032021-O.webp" alt="">
+            <img src="https://i.imgur.com/W31zVra.png" alt="">
         </div>
-        <div class="item">
+       <!-- <div class="item">
             <img src="https://http2.mlstatic.com/D_NQ_NP_630036-MLC45362014339_032021-O.webp" alt="">
         </div>
         <div class="item">
             <img src="https://http2.mlstatic.com/D_NQ_NP_759418-MLC45362014333_032021-O.webp" alt="">
-        </div>
+        </div>-->
 
     </div>
 
