@@ -112,6 +112,7 @@
                <!-- <p class="text-white"> <h3>
                     8GB + 300 MIN + 100 SMS Desde $4.990 Oferta Limitada para Portabilidad Prepagos y Planes.
                 </h3></p>-->
+                <div class="fila1">
                 <center style="background:#d7dbdb;"><h3 class="text-danger">
                     SI PORTAS SOLO UNA LINEA  <h4 class="text-black ">
                     DISFRUTA DEL DOBLE DE GB </h4> </h3></center>
@@ -124,7 +125,7 @@
                     <br>
                 <center>
             <div class="card">     
-         <div class="card-body"> <center>
+         <div class="card-body">
 
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -180,10 +181,82 @@
         <span class="glyphicon glyphicon-chevron-right"></span>
         <span class="sr-only">Next</span>
     </a>
+    </div>
+    </div>
+    </div>
+    </center>
 </div>
+
+<div class="fila2">
+                <center style="background:#d7dbdb;"><h3 class="text-danger">
+                    SI PORTAS DOS O MAS LINEAS <h4 class="text-black "><br>
+                    TE DAMOS X2 + DOBLE DE GB, AMBOS X 1 AÑO </h4> </h3></center>
+                    <br>
+                <center>
+                    <br>
+                <center>
+            <div class="card">     
+         <div class="card-body">
+
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>
+        <!--<li data-target="#myCarousel" data-slide-to="9"></li>-->
+    </ol> 
+
+     <div class="carousel-inner">
+        <div class="item active">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_600702-MLC45362014331_032021-F.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_996162-MLC45362014332_032021-F.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_853019-MLC45362014338_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_697060-MLC45362014337_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_748826-MLC45362014335_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_645873-MLC45362014334_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_984738-MLC45362014336_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_630036-MLC45362014339_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_759418-MLC45362014333_032021-O.webp" alt="">
+        </div>
+
+    </div>
+
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+    </div>
+    </div>
+    </center>
 </div>
-</div>
-</center>
                    <!--  <button onclick='activa();' class="btn bg-danger text-white col-12 mt-4">REVISA PLANES PORTABILIDAD</button>
 
                       <button onclick='activa1();' class="btn bg-danger text-white col-12 mt-4">REVISA PLANES LINEAS NUEVAS</button>
