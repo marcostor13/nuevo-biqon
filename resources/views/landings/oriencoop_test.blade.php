@@ -78,21 +78,21 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5">
-              <center><h3 class="text-white bg-danger">
+              <center><h3 class="text-white ">
                     Te entregamos estos consejos</h3></center>
                <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
 
             
 
                     <br>
-                    <h3> Destino de los recursos:</h3>
+                    <h3 class="text-warning"> Destino de los recursos:</h3>
 
-                    <p class="text-black" align="text-center"> 
+                    <p class="text-white"align="text-center"> 
                     La normativa que regula los retiros, no obliga a los afiliados a destinar los recursos a un determinado fin.</p>
                     <br>
 
 
-                 <strong><h3>Las opciones son múltiples:</h3></strong>
+                 <strong><h3 class="text-warning">Las opciones son múltiples:</h3></strong>
 <table class="default">
 
   <tr>
@@ -100,7 +100,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <img src="https://www.oriencoop.cl/resources/upload/acceso/hazte-socio.png"></td>
 <td>
                   
-                   <h5 class="text-danger"> Hazte Socio</h5> 
+                   <h5 class="text-warning"> Hazte Socio</h5> 
                     <p class="text-white">Incorpórate a una de las Cooperativas de Ahorro y Crédito más grandes del país, con más de 60 años de consolidada trayectoria, fiscalizada por la CMF y en la que podrás acceder a distintos productos y servicios financieros, además de una amplia gama de beneficios exclusivos para socios. </p></td>
                   </tr>
                 </table>
@@ -119,7 +119,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <img src="https://www.oriencoop.cl/resources/upload/acceso/601446-pago-facil.png"> </td>
                     <td>
                           
-                    <h5 class="text-danger">Depósito a Plazo Fijo en Pesos</h5>
+                    <h5 class="text-warning">Depósito a Plazo Fijo en Pesos</h5>
 
                     <p class="text-white">Si deseas hacer crecer tu inversión con seguridad, una excelente alternativa son nuestros depósitos a plazo Oriencoop.</p>
                   </td>
@@ -134,14 +134,14 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <img src="https://www.oriencoop.cl/resources/upload/acceso/asegurar-futuro.png"> </td>
            <td>    
-                    <h5 class="text-danger">Ahorro Flexible</h5>
+                    <h5 class="text-warning">Ahorro Flexible</h5>
 
                     <p class="text-white">Porque ahorrar para su futuro nunca fue tan atractivo, Oriencoop dispone para usted de una conveniente tasa que le permitirá aumentar su dinero a largo plazo.</p></td>   
                      </tr>
                 </table>
 
                 <div class="mt-2 text-center" style="background:#006fb6;"> 
-<p class="text-white text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</p> 
+<p class="text-warning text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</p> 
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
