@@ -58,7 +58,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0" style="background:#006fb6;">
-             <img style="max-width:420px; max-height:200px" class="img-fluid col-md-3 mt-2" src="https://www.oriencoop.cl/resources/img/logo.png" alt="COOPEUCH">
+             <img style="max-width:420px; max-height:200px" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/2Izm0MV.png" alt="COOPEUCH">
                <br>
              <div>
                <img  style="max-width:300px; max-height:300px" src="https://i.imgur.com/HRw4L5N.png">
