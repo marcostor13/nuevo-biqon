@@ -99,9 +99,9 @@ $enddate=strtotime("+5 days", $startdate);
     <td>
                   <img src="https://www.oriencoop.cl/resources/upload/acceso/hazte-socio.png"></td>
 <td>
-                  <font color="red">
-                   <h5> Hazte Socio</h5> </font> 
-                    <p>Incorpórate a una de las Cooperativas de Ahorro y Crédito más grandes del país, con más de 60 años de consolidada trayectoria, fiscalizada por la CMF y en la que podrás acceder a distintos productos y servicios financieros, además de una amplia gama de beneficios exclusivos para socios. </p></td>
+                  
+                   <h5 class="text-danger"> Hazte Socio</h5> 
+                    <p class="text-white">Incorpórate a una de las Cooperativas de Ahorro y Crédito más grandes del país, con más de 60 años de consolidada trayectoria, fiscalizada por la CMF y en la que podrás acceder a distintos productos y servicios financieros, además de una amplia gama de beneficios exclusivos para socios. </p></td>
                   </tr>
                 </table>
                     <br>
@@ -118,10 +118,10 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <img src="https://www.oriencoop.cl/resources/upload/acceso/601446-pago-facil.png"> </td>
                     <td>
-                            <font color="red">
-                    <h5>Depósito a Plazo Fijo en Pesos</h5> </font>
+                          
+                    <h5 class="text-danger">Depósito a Plazo Fijo en Pesos</h5>
 
-                    <p>Si deseas hacer crecer tu inversión con seguridad, una excelente alternativa son nuestros depósitos a plazo Oriencoop.</p>
+                    <p class="text-white">Si deseas hacer crecer tu inversión con seguridad, una excelente alternativa son nuestros depósitos a plazo Oriencoop.</p>
                   </td>
                   </tr>
                 </table>
@@ -133,10 +133,10 @@ $enddate=strtotime("+5 days", $startdate);
 
 
                   <img src="https://www.oriencoop.cl/resources/upload/acceso/asegurar-futuro.png"> </td>
-           <td>    <font color="red">
-                    <h5>Ahorro Flexible</h5> </font>
+           <td>    
+                    <h5 class="text-danger">Ahorro Flexible</h5>
 
-                    <p>Porque ahorrar para su futuro nunca fue tan atractivo, Oriencoop dispone para usted de una conveniente tasa que le permitirá aumentar su dinero a largo plazo.</p></td>   
+                    <p class="text-white">Porque ahorrar para su futuro nunca fue tan atractivo, Oriencoop dispone para usted de una conveniente tasa que le permitirá aumentar su dinero a largo plazo.</p></td>   
                      </tr>
                 </table>
 
