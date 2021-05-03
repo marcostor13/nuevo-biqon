@@ -61,7 +61,7 @@ $enddate=strtotime("+5 days", $startdate);
              <img style="max-width:420px; max-height:200px" class="img-fluid col-md-3 mt-2" src="https://www.oriencoop.cl/resources/img/logo.png" alt="COOPEUCH">
                <br>
              <div>
-               <img  style="max-width:400px; max-height:400px" src="https://www.oriencoop.cl/resources/upload/slide/596121-microempresas.jpg">
+               <img  style="max-width:300px; max-height:300px" src="https://www.oriencoop.cl/resources/upload/slide/596121-microempresas.jpg">
   
              </div>
              
