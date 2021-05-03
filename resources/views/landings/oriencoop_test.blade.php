@@ -107,7 +107,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <br>
 
 
-                 <strong><h3>Te recomendamos ahorrar los fondos para tu futuro:</h3></strong>
+                 <strong><h3 class="text-white">Te recomendamos ahorrar los fondos para tu futuro:</h3></strong>
 
      <table class="default">
 
