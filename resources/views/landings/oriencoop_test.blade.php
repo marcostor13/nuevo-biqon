@@ -61,7 +61,7 @@ $enddate=strtotime("+5 days", $startdate);
              <img style="max-width:420px; max-height:200px" class="img-fluid col-md-3 mt-2" src="https://www.oriencoop.cl/resources/img/logo.png" alt="COOPEUCH">
                <br>
              <div>
-               <img  style="max-width:300px; max-height:300px" src="https://www.oriencoop.cl/resources/upload/slide/596121-microempresas.jpg">
+               <img  style="max-width:300px; max-height:300px" src="https://media-exp1.licdn.com/dms/image/C4E1BAQEghrKYxnWE5w/company-background_10000/0/1551182760106?e=1620162000&v=beta&t=IYQbHWe-xQA-gih7w7RDooC7netpTA4AZ_TIVFZKUGw">
   
              </div>
              
@@ -87,8 +87,8 @@ $enddate=strtotime("+5 days", $startdate);
                     <br>
                     <h3 class="text-warning"> Destino de los recursos:</h3>
 
-                    <p class="text-white"align="text-center"> 
-                    La normativa que regula los retiros, no obliga a los afiliados a destinar los recursos a un determinado fin.</p>
+                    <h4 class="text-white"align="text-center"> 
+                    La normativa que regula los retiros, no obliga a los afiliados a destinar los recursos a un determinado fin.</h4>
                     <br>
 
 
@@ -100,8 +100,8 @@ $enddate=strtotime("+5 days", $startdate);
                   <img src="https://www.oriencoop.cl/resources/upload/acceso/hazte-socio.png"></td>
 <td>
                   
-                   <h5 class="text-warning"> Hazte Socio</h5> 
-                    <p class="text-white">Incorpórate a una de las Cooperativas de Ahorro y Crédito más grandes del país, con más de 60 años de consolidada trayectoria, fiscalizada por la CMF y en la que podrás acceder a distintos productos y servicios financieros, además de una amplia gama de beneficios exclusivos para socios. </p></td>
+                   <h3 class="text-warning"> Hazte Socio</h3> 
+                    <h4 class="text-white">Incorpórate a una de las Cooperativas de Ahorro y Crédito más grandes del país, con más de 60 años de consolidada trayectoria, fiscalizada por la CMF y en la que podrás acceder a distintos productos y servicios financieros, además de una amplia gama de beneficios exclusivos para socios. </h4></td>
                   </tr>
                 </table>
                     <br>
@@ -121,7 +121,7 @@ $enddate=strtotime("+5 days", $startdate);
                           
                     <h5 class="text-warning">Depósito a Plazo Fijo en Pesos</h5>
 
-                    <p class="text-white">Si deseas hacer crecer tu inversión con seguridad, una excelente alternativa son nuestros depósitos a plazo Oriencoop.</p>
+                    <h6 class="text-white">Si deseas hacer crecer tu inversión con seguridad, una excelente alternativa son nuestros depósitos a plazo Oriencoop.</h6>
                   </td>
                   </tr>
                 </table>
@@ -136,12 +136,12 @@ $enddate=strtotime("+5 days", $startdate);
            <td>    
                     <h5 class="text-warning">Ahorro Flexible</h5>
 
-                    <p class="text-white">Porque ahorrar para su futuro nunca fue tan atractivo, Oriencoop dispone para usted de una conveniente tasa que le permitirá aumentar su dinero a largo plazo.</p></td>   
+                    <h6 class="text-white">Porque ahorrar para su futuro nunca fue tan atractivo, Oriencoop dispone para usted de una conveniente tasa que le permitirá aumentar su dinero a largo plazo.</h6></td>   
                      </tr>
                 </table>
 
                 <div class="mt-2 text-center" style="background:#006fb6;"> 
-<p class="text-warning text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</p> 
+<h6 class="text-warning text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</h6> 
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
