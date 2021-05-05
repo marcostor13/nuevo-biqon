@@ -97,7 +97,7 @@ $enddate=strtotime("+5 days", $startdate);
 
   <tr>
     <td>
-                  <img src="https://i.imgur.com/NHPSHhx.png"></td>
+                  <img style="max-width:80px; max-height:80px" src="https://i.imgur.com/NHPSHhx.png"></td>
 <td>
                   
                    <h5 class="text-warning"> Hazte Socio</h5> 
@@ -116,7 +116,7 @@ $enddate=strtotime("+5 days", $startdate);
 
            
 
-                    <img src="https://i.imgur.com/ypGHAER.jpg"> </td>
+                    <img style="max-width:80px; max-height:80px"src="https://i.imgur.com/ypGHAER.jpg"> </td>
                     <td>
                           
                     <h5 class="text-warning">DEPÓSITOS A PLAZO</h5>
@@ -132,7 +132,7 @@ $enddate=strtotime("+5 days", $startdate);
     <td>
 
 
-                  <img src="https://i.imgur.com/LJHVhzd.png"> </td>
+                  <img style="max-width:80px; max-height:80px" src="https://i.imgur.com/LJHVhzd.png"> </td>
            <td>    
                     <h5 class="text-warning">CUENTA DE AHORRO</h5>
 
