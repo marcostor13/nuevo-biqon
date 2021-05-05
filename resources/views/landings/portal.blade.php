@@ -578,7 +578,7 @@ UF10.900<br>
                 } 
             }
 
-           var correo = ["jesus.binteraction@gmail.com"];
+           var correo = ["Contacto@propiedadeslider.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
