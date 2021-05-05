@@ -676,18 +676,18 @@ UF10.900<br>
 
       
          function Mens(){
-             window.location.href = "tel:+56967664209";
+             window.location.href = "tel:+56998050884";
         }  
 
 
      function Mens1(){
-   window.location.href = "https://api.whatsapp.com/send?phone=56967664209&text=Quiero%20tener%20mas%20informacion";
+   window.location.href = "https://api.whatsapp.com/send?phone=56998050884&text=Quiero%20tener%20mas%20informacion";
         } 
 
 
     function Mens2(){
          var body_message = "Quiero%20tener%20mas%20informacion";
-             window.location.href = "mailto:jesus.binteraction@gmail.com?subject=Propiedades&body"+body_message;
+             window.location.href = "mailto:Contacto@propiedadeslider.cl?subject=Propiedades&body"+body_message;
  }
 
 
