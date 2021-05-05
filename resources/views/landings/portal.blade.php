@@ -364,13 +364,14 @@ UF10.900<br>
         <span class="sr-only">Next</span>
     </a>
 </div>
-<a onclick="eventosLanding('Whatsapp'); Mens5();" class="btn bg-danger text-white col-12 mt-2">WHATSAPP</a>
-            <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-2">LLÁMANOS</a>
-           <!-- <a onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2">TE LLAMAMOS</a>-->
-            <a onclick="eventosLanding('Correo'); Mens6();" class="btn bg-danger text-white col-12 mt-2">ESCRÍBENOS</a>
+
                </center>
 </div>
 </div>
+<a onclick="eventosLanding('Whatsapp'); Mens5();" class="btn bg-danger text-white col-12 mt-2">WHATSAPP</a>
+            <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-2">LLÁMANOS</a>
+           
+            <a onclick="eventosLanding('Correo'); Mens6();" class="btn bg-danger text-white col-12 mt-2">ESCRÍBENOS</a>
   </div>
                        <!-- <div id="port3" class="p-2 pl-3 pr-3 hide">
                         <img class="img-fluid col-5 col-md-3 mt-4" src="https://i.imgur.com/nIKsFm0.png" alt="simple"> 
