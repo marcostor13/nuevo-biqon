@@ -105,11 +105,7 @@ $enddate=strtotime("+5 days", $startdate);
               <br>
            </center>
                <br>
-            <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-danger text-white col-12 mt-2">WHATSAPP</a>
-            <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-2">LLÁMANOS</a>
-           <!-- <a onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2">TE LLAMAMOS</a>-->
-            <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-2">ESCRÍBENOS</a>
-               </div>
+
 
 
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
@@ -254,6 +250,11 @@ UF6.000<br>
         <span class="sr-only">Next</span>
     </a>
 </div>
+            <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-danger text-white col-12 mt-2">WHATSAPP</a>
+            <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-2">LLÁMANOS</a>
+           <!-- <a onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2">TE LLAMAMOS</a>-->
+            <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-2">ESCRÍBENOS</a>
+               </center>
 </div>
 </div>
                         </div> 
@@ -362,6 +363,11 @@ UF10.900<br>
         <span class="sr-only">Next</span>
     </a>
 </div>
+<a onclick="eventosLanding('Whatsapp'); Mens5();" class="btn bg-danger text-white col-12 mt-2">WHATSAPP</a>
+            <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-2">LLÁMANOS</a>
+           <!-- <a onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2">TE LLAMAMOS</a>-->
+            <a onclick="eventosLanding('Correo'); Mens6();" class="btn bg-danger text-white col-12 mt-2">ESCRÍBENOS</a>
+               </center>
 </div>
 </div>
   </div>
@@ -681,15 +687,23 @@ UF10.900<br>
 
 
      function Mens1(){
-   window.location.href = "https://api.whatsapp.com/send?phone=56998050884&text=Quiero%20tener%20mas%20informacion";
+   window.location.href = "https://api.whatsapp.com/send?phone=56998050884&text=Quiero%20tener%20mas%20informacion%20Oficina%20en%20Venta%20-%20Providencia%20Suecia%201";
         } 
 
 
     function Mens2(){
-         var body_message = "Quiero%20tener%20mas%20informacion";
+         var body_message = "Quiero%20tener%20mas%20informacion%20Oficina%20en%20Venta%20-%20Providencia%20Suecia%201";
              window.location.href = "mailto:Contacto@propiedadeslider.cl?subject=Propiedades&body"+body_message;
  }
+function Mens5(){
+   window.location.href = "https://api.whatsapp.com/send?phone=56998050884&text=Quiero%20tener%20mas%20informacion%20sobre%20Departamento%20en%20Venta%20-%20Las%20Condes%20Hermanos%20Cabot%20111";
+        } 
 
+
+    function Mens6(){
+         var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20Departamento%20en%20Venta%20-%20Las%20Condes%20Hermanos%20Cabot%20111";
+             window.location.href = "mailto:Contacto@propiedadeslider.cl?subject=Propiedades&body"+body_message;
+ }
 
   function Mens3(){
         $('#cont2').addClass('hide');
