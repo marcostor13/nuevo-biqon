@@ -105,7 +105,7 @@ $enddate=strtotime("+5 days", $startdate);
               <br>
            </center>
                <br>
-
+</div>
 
 
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
