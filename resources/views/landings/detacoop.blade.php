@@ -3,19 +3,18 @@
 @section('title', 'Detacoop')
 
 @section('content')
+
+
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 ?>
-<style>
-.opaco{
-    display: none !important; 
-
-}
-.input{
-  border-color: #A1CBF3 !important;
-}
-     
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style type="text/css">
+    
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border: 0;
@@ -50,75 +49,149 @@ $enddate=strtotime("+5 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
+   .red {
+      color: "#f29100;"}
 </style>
-    <div id="Detacoop" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+
+     <!-- <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">-->
 
         <div class="opaco"></div>
 
-       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Detacoop">
-
-            <div id="cont1" class="p-5 ">
-                <div class="card">     
-                <div class="card-body">
-                <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
-                <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4"> <strong> Validar </strong>  </button>
+        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0" style="background:#00335f;">
+             <img style="max-width:420px; max-height:200px" class="img-fluid col-md-3 mt-2" src="https://detacoop.cl/wp-content/uploads/2018/01/logo-simple-2.png" alt="Detacoop">
+               <br>
+             <div>
+               <img  style="max-width:300px; max-height:300px" src="https://www.detacoop.cl/wp-content/uploads/2020/09/SLIDER-PORTABILIDAD-FINANCIERA-CUAD.jpg">
+  
+             </div>
+             
+             <div id="cont1" class="p-5 hide">
+                <h4 class="text-black text-center">Por Tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-black">
+                <button onclick="event1(); return false;" class="btn bg-success text-white col-12 mt-4"> Validar </button>
             </div>
-                <div id="cont5" class="p-2 pl-3 pr-3 hide">
+            <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 hide">
-                <div class="card">     
-                <div class="card-body">
-                <h3 class="text-black text-center"> <strong> Estimado <span id="name"></span>  </strong> </h3>
+            <div id="cont2" class="p-5">
+              <center><h3 class="text-white ">
+                    Te entregamos estos consejos</h3></center>
+               <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
 
-                <h4><p class="text-black"> <strong>
-                   Si eres pensionado Te informamos que tienes un crédito pre aprobado por:
-                     <br> <b>$ </b><b id="pay"></b>
-                     <br>
-                    Te ofrecemos las siguientes opciones para contactarnos. </strong>
-                </p></h4>
+            
 
-                </div> </div>
-                <div class="date btn bg-warning text-black col-12 mt-4">
-                    <span> <strong> AGENDAR VISITA A NUESTRA SUCURSAL </strong>  </span>
-                    <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php echo date('Y-m-d')?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
+                    <br>
+                    <h3 class="text-warning"> Destino de los recursos:</h3>
+
+                    <h4 class="text-white"align="text-center"> 
+                    La normativa que regula los retiros, no obliga a los afiliados a destinar los recursos a un determinado fin.</h4>
+                    <br>
 
 
-                <button onclick='window.location.href="tel:+56985296912"; eventosLanding("Llamar"); 'class="btn bg-warning text-black col-12 mt-4"> <strong> CONSULTAS </strong> </button>
+                 <strong><h3 class="text-warning">Las opciones son múltiples:</h3></strong>
+<table class="default">
 
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-4"> <strong> CLICK AQUÍ SI DESEAS QUE TE CONTACTEMOS </strong> </button>
-        
-                <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="40" src="https://image.flaticon.com/icons/png/512/40/40316.png"></a>
-                   
-                    <a onclick="eventosLanding('Correo');" href="mailto: jesus.binteraction@gmail.com?subject=Solicitud%20Credito"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
-                </div>
+  <tr>
+    <td>
+                  <img src="https://i.imgur.com/NHPSHhx.png"></td>
+<td>
+                  
+                   <h5 class="text-warning"> Hazte Socio</h5> 
+                    <h6 class="text-white"> Tu dinero está seguro con nosotros porque contamos con GARANTÍA DEL ESTADO y somos supervisados por la Comisión para el Mercado Financiero (CMF), ex SBIF. </h6></td>
+                  </tr>
+                </table>
+                    <br>
+
+
+                 <strong><h3 class="text-white">Te recomendamos ahorrar los fondos para tu futuro:</h3></strong>
+
+     <table class="default">
+
+  <tr>
+    <td>
+
+           
+
+                    <img src="https://i.imgur.com/ypGHAER.jpg"> </td>
+                    <td>
+                          
+                    <h5 class="text-warning">DEPÓSITOS A PLAZO</h5>
+
+                    <h6 class="text-white">Debajo del colchón su dinero no aumenta. Gane con Detacoop un interés preferencial y vea cómo su dinero crece.</h6>
+                  </td>
+                  </tr>
+                </table>
+
+                 <table class="default">
+
+  <tr>
+    <td>
+
+
+                  <img src="https://i.imgur.com/LJHVhzd.png"> </td>
+           <td>    
+                    <h5 class="text-warning">CUENTA DE AHORRO</h5>
+
+                    <h6 class="text-white">Con solo tres mil pesos puedes partir con tu ahorro. Evita que sus hijos pierdan oportunidades mañana puede pasar por una decisión hoy. No hay nada como la casa propia y cumplir sus sueños es un esfuerzo diario.</h6></td>   
+                     </tr>
+                </table>
+
+                <div class="mt-2 text-center" style="background:#006fb6;"> 
+<h6 class="text-warning text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</h6> 
+                     <div class="d-flex justify-content-around align-content-center text-center"> 
+      
+                    <!-- <span class="text-white  text-center">Mi Cuenta<br>
+                     <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
+                         <span class="text-white  text-center">Telefono<br>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="tel:+56993217839"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
+                       <span class="text-white text-center">Teléfono Central<br>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:800207070"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
+                       <span class="text-white  text-center">Correo<br>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:jesus.binteraction@gmail.com"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
+                   <!-- <span class="text-white  text-center">Pago en Linea<br>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>-->
+                <br><br>
+
+                  </div>
+          
+
+                <br>
+
+
+                    <!--  <div class="bg-danger"><img src=""> <font color="black"><a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/coopeuch/"><img width="40" height="40" src="https://i.imgur.com/nh5Bh5C.png"></a><a onclick="eventosLanding('Twitter');" href="https://twitter.com/COOPEUCH"><img width="28" height="28" src="https://i.imgur.com/ITWWhIz.png"></a><a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/coopeuch/"><img  width="43" height="43" src="https://i.imgur.com/u9D7nV9.png"></a> <a style="color: white;"  href="https://www.coopeuch.cl">coopeuch.cl</a>               <a style="color: white; text-align: left;"   href="tel:+6002001200">600 200 1200</a></font></div>-->
+
+                 
+                   <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
                 
-            </div>
-            <div id="cont3" class="p-2 pl-3 pr-3 hide">
+
+                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
+
+                 <button class="btn bg-success text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">QUIERO QUE ME CONTACTEN</button>
+            
+                
+                 <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>   
+
+                 <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button> -->
+
+             </div>
+                           <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-black text-center mt-3 hide"></h5>
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
-                    </div>
-
+            </div>
         </div>
-    </div>
 
      <script>
    //EVENT 1
-        
+
         $(function(){
+
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
@@ -149,7 +222,7 @@ $enddate=strtotime("+5 days", $startdate);
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
+                   // $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -157,9 +230,9 @@ $enddate=strtotime("+5 days", $startdate);
                         }
                     });
                 }else{
-                    $('#cont1').addClass('hide');
+                        $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
-                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a alguna de nuestras sucursales.");
+                    $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí.");
                 }
             })
             .fail(function() {
@@ -173,8 +246,8 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+            //json_datos.nombre = $('#name').text();
+           // json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -197,8 +270,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'landing': '{!! $landing->name !!}'
-                   
+                   'landing': '{!! $landing->name !!}'
                     
                 }
             }else{
@@ -213,12 +285,13 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["gbahamondes@gmail.com","jesus.binteraction@gmail.com"];
+            var correo = ["aldocontreras@zonasursa.cl"];  
+
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                //'email': 'arojas@zonasursa.cl', "arojas@zonasursa.cl"
             }
             $.ajaxSetup({
                 headers: {
@@ -236,8 +309,9 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su visita fue agendada');
-                     eventosLanding('Agendo Visita');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                      eventosLanding('Compromiso de Pago');
+
                 }
             })
             .done(function(e) {
@@ -248,7 +322,7 @@ $enddate=strtotime("+5 days", $startdate);
             });
 
         }
-
+ 
         let events = function(data){     
 
             $.ajaxSetup({
@@ -303,9 +377,27 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
+
+           function Mens1(){
       
-        
+ /*  window.location.href = "https://ww3.servipag.com/pagoenlinea/portal/desktop/public/todas/!ut/p/b1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNgs0CLZ0MHQ38zQPcDBx9gs1CzAK9Df0DTYAKIvEo8DanTL-HEXH6DXAARwNC-r30o9Jz8pOAXg3Xj8KrGOQXvApAjgUrwOMaP4_83FT9gtzQ0IjKYE9dR0VFADNEynw!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/?idServicio=34&idBiller=843?TELEFONO=985296912&ID=79849235&URL=https://ww3.servipag.com/pagoenlinea/portal/desktop/public/todas/!ut/p/b1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNgs0CLZ0MHQ38zQPcDBx9gs1CzAK9Df0DTYAKIvEo8DanTL-HEXH6DXAARwNC-r30o9Jz8pOAXg3Xj8KrGOQXvApAjgUrwOMaP4_83FT9gtzQ0IjKYE9dR0VFADNEynw!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/?idServicio=34&idBiller=843";*/
+
+     window.location.href = "https://tanner.cl/formas-de-pago/";
+
+
+        } 
+
+    function Mens3(){
+
+        window.location.href = "https://api.whatsapp.com/send?phone=+56993217839&text=Hola,%20tengo%20una%20consulta";
     
+        } 
+
+           function Mens2(){
+
+        window.location.href ="tel:800207070";
+    
+        } 
     </script>
     
 
