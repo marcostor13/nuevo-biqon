@@ -97,13 +97,8 @@ Puedes encontrar todo el programa de nuestra campaña en el siguiente enlace.   
                       <label for="form2"></label>
                     </div>
 
-                  <div class="md-form col-12 m-0">
-                    <input type="text" id="email" class="form-control" required placeholder="E-mail">
-                    <label for="form2"></label>
-                  </div>  
-
-                  <div class="md-form col-12 m-0">
-                    <textarea type="text" id="email" class="form-control" required placeholder="Tengo una idea/propuesta"></textarea>
+                   <div class="md-form col-12 m-0">
+                    <textarea type="text" id="text" class="form-control" required placeholder="Tengo una idea/propuesta"></textarea>
                     <label for="form2"></label>
                   </div>
 
@@ -114,6 +109,9 @@ Puedes encontrar todo el programa de nuestra campaña en el siguiente enlace.   
                   </div>
 
               <a onclick="eventosLanding('Whatsapp');" href="https://wa.me/56971843215" class="btn bg-warning text-black col-12 mt-4"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"> Contactanos</a>
+
+              <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('Quiero Recibir mas informacion');eventosLanding('Informacion'); return false;">Quiero Recibir mas informacion</button>
+                    
             
 <div class="d-flex justify-content-around align-content-center mt-4"> 
 
