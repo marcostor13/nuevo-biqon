@@ -260,12 +260,17 @@ $enddate=strtotime("+5 days", $startdate);
 
                     'mensaje': msg,
                     'Datos_Formulario': $('#nombre1').val(),
-                   // 'Nombre': $('#nombre').val(),
-                    'Datos': $('#nombre1').val(),
-                    'Nombre': getUrlParameter('nombre'),
-                    'Telefono': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut')
-                    // '': getUrlParameter('data1'),               
+                    'Nombre': $('#nombre').val(),
+                    'Apellido': $('#apellido').val(),
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
+                    'E-mail': $('#email').val(),
+                    'Datos_URL': $('#nombre1').val(),
+                    'Nombre_URL': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
+                    'Telefono_URL': getUrlParameter('telefono'),
+                     'Rut_URL': getUrlParameter('rut')  
+                     'landing': '{!! $landing->name !!}'         
                 }
             }else{
                 let date = $('#date1').val();
