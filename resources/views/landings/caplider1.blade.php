@@ -71,42 +71,27 @@ $enddate=strtotime("+5 days", $startdate);
                   <!-- Heading -->
                   <center>
                  <img style="max-width: 70%" src="https://firebasestorage.googleapis.com/v0/b/biqon-d2511.appspot.com/o/landings%2Fimages%2F1617974797548_unnamed%20(1).png?alt=media&token=7947eebf-7b18-4e7f-8b0c-bd69498be9fa">
-                 </center>
-                  <hr>
-
-                   <a onclick="Mens(); return false;" class="btn bg-warning text-white col-12 mt-2"><h4>Mostar</h4></a>
-
-                  <br>
-                  <br>
+                 </center> <hr>
                    <div>
                    <center>
 
-                   <h4>Inscríbete con nosotros y automatiza procesos de tu emprendimiento, La metodología personalizada a utilizar durate toda la realización del curso, es completamente práctica y fomentando siempre la participación activa de cada uno de los alumnos. Los requisitos son:  </h4>
-
-                  
+                   <h5>Inscríbete con nosotros y automatiza procesos de tu emprendimiento, La metodología personalizada a utilizar durate toda la realización del curso, es completamente práctica y fomentando siempre la participación activa de cada uno de los alumnos. Los requisitos son:  </h5>
                     <h5>-Ser dueños, socios,representantes legales o trabajadores de una micro empresa </h5>
-
                    <h5>-Tener al menos una declaración de IVA con enta en los últimos 12 meses</h5></center>
                  </div>
+                 <br>
+                 <a onclick="Mens(); return false;" class="btn bg-warning text-white col-12 mt-2"><h4>Mostar</h4></a>
+              </div>
+            </div>
+          </div>
 
-                    <div id="cont5" class="p-2 pl-3 pr-3 hide">
+<div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
-              </div>
-            </div>
-          </div>
-
-
 
                      <div id="cont3" class="p-5 hide">
                   <div class="card">     
@@ -152,7 +137,16 @@ $enddate=strtotime("+5 days", $startdate);
                  </div>
                   </div>
 
-<div class="d-flex justify-content-around align-content-center mt-4"> 
+
+            <div id="cont4" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-around align-content-center mt-4"> 
                <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
 
                 <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="https://facebook.com/lidercapacitaciones"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a>
@@ -164,13 +158,6 @@ $enddate=strtotime("+5 days", $startdate);
                     
                 </div>
             </div>
-            <div id="cont4" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                            </div>
-                        </div>
-                    </div>
 
         </div>
     </div>
