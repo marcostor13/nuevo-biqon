@@ -93,7 +93,7 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
 
-                     <div id="cont3" class="p-5 ">
+                     <div id="cont3" class="p-5 hide">
                   <div class="card">     
                 <div class="card-body">
            
