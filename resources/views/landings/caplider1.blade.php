@@ -374,8 +374,8 @@ $enddate=strtotime("+5 days", $startdate);
  }
 
  function Mens(){
-              $('#cont3').addClass('hide');
-                $('#cont4').removeClass('hide'); 
+              $('#cont2').addClass('hide');
+                $('#cont3').removeClass('hide'); 
         }  
 
     </script>
