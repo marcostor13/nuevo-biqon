@@ -68,9 +68,9 @@ $enddate=strtotime("+5 days", $startdate);
  <h4 class="text-black text-center"><strong>¡Nuestro Programa!</strong>
 Puedes encontrar todo el programa de nuestra campaña en el siguiente enlace.   </h4>
 
-                <a onclick="eventosLanding('Programa');Mens1();" class="btn bg-warning text-black col-12 mt-4"><img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> Ver Programa</a>
+                <a onclick="eventosLanding('Programa');Mens1();" class="btn bg-warning text-black col-12 mt-4"> Ver Programa</a>
 
-               <a onclick="eventosLanding('Programa');Mens3();" class="btn bg-danger text-black col-12 mt-4"><img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> Descargar Programa</a>
+               <a onclick="eventosLanding('Programa');Mens3();" class="btn bg-danger text-black col-12 mt-4"> Descargar Programa</a>
                  <h4 class="dark-grey-text text-center">
                   <hr>
                     <strong>Comentanos qué te gustaría cambiar de nuestra comuna</strong>
