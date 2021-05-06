@@ -73,7 +73,7 @@ Puedes encontrar todo el programa de nuestra campaña en el siguiente enlace.   
                <a onclick="eventosLanding('Programa');Mens3();" class="btn bg-danger text-black col-12 mt-4"> Descargar Programa</a>
 
 <div class="d-flex justify-content-around align-content-center mt-4"> 
-              <img style="max-width: 50%" class="https://i.imgur.com/uSHqxSV.png" alt="VITACURA">
+              <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/uSHqxSV.png" alt="VITACURA">
             </div>
                  <h4 class="dark-grey-text text-center">
                   <hr>
