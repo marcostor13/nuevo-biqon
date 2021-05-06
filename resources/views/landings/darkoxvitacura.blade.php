@@ -68,9 +68,9 @@ $enddate=strtotime("+5 days", $startdate);
  <h4 class="text-black text-center"><strong>¡Nuestro Programa!</strong>
 Puedes encontrar todo el programa de nuestra campaña en el siguiente enlace.   </h4>
 
-                <a onclick="eventosLanding('Programa');Mens1();" class="btn bg-warning text-white col-12 mt-4"><img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> Ver Programa</a>
+                <a onclick="eventosLanding('Programa');Mens1();" class="btn bg-warning text-black col-12 mt-4"><img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> Ver Programa</a>
 
-               <a onclick="eventosLanding('Programa');Mens3();" class="btn bg-warning text-white col-12 mt-4"><img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> Descargar Programa</a>
+               <a onclick="eventosLanding('Programa');Mens3();" class="btn bg-danger text-black col-12 mt-4"><img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"> Descargar Programa</a>
                  <h4 class="dark-grey-text text-center">
                   <hr>
                     <strong>Comentanos qué te gustaría cambiar de nuestra comuna</strong>
@@ -109,16 +109,16 @@ Puedes encontrar todo el programa de nuestra campaña en el siguiente enlace.   
                     
                   </div>
 
-              <a onclick="eventosLanding('Whatsapp');" href="https://wa.me/56971843215" class="btn bg-danger text-white col-12 mt-4"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"> Contactanos</a>
+              <a onclick="eventosLanding('Whatsapp');" href="https://wa.me/56971843215" class="btn bg-warning text-black col-12 mt-4"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"> Contactanos</a>
             
-
+<div class="d-flex justify-content-around align-content-center mt-4"> 
 
                <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="https://www.facebook.com/darkopericalcalde?_rdc=2&_rdr"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a>
                    
                 <a class="ml-4" onclick="eventosLanding('TWITTER');" href="https://twitter.com/DarkoPeric_"><img width="50" src="https://i.imgur.com/tanoEA3.png"></a>
 
                 <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/darko_vecino_vitacura/?igshid=2zymxl1oufu5"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
-
+</div>
               </div>
             </div>
           </div>
