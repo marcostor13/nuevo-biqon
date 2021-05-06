@@ -125,7 +125,10 @@ Puedes encontrar todo el programa de nuestra campaña en el siguiente enlace.   
 </div>
               </div>
             </div>
-            <a class="ml-4" onclick="eventosLanding('Ver PagWeb');" href="https://darkoperic.cl/">Visitar darkoperic.cl</a>
+            
+            <div class="d-flex justify-content-around align-content-center mt-4"> 
+          <a class="ml-4" onclick="eventosLanding('Ver PagWeb');" href="https://darkoperic.cl/">Visitar darkoperic.cl</a>
+            </div>
           </div>
        <!-- <div id="cont2" class="p-3 ">
 
