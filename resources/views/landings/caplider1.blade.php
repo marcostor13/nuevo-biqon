@@ -65,7 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
             </a>-->
             
 
-            <div id="cont1" class="p-3 ">
+            <div id="cont2" class="p-3 ">
                   <div class="card">     
                 <div class="card-body">
                   <!-- Heading -->
@@ -100,7 +100,7 @@ $enddate=strtotime("+5 days", $startdate);
 
 
 
-                     <div id="cont2" class="p-5 hide">
+                     <div id="cont3" class="p-5 hide">
 
                   <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
@@ -155,7 +155,7 @@ $enddate=strtotime("+5 days", $startdate);
           </div>
 
             </div>
-            <div id="cont3" class="p-2 pl-3 pr-3 hide">
+            <div id="cont4" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
@@ -288,13 +288,13 @@ $enddate=strtotime("+5 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont1').addClass('hide');
-                    $('#cont3').removeClass('hide');
+                     $('#cont3').addClass('hide');
+                    $('#cont4').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont1').addClass('hide');
-                    $('#cont3').removeClass('hide');
+                     $('#cont3').addClass('hide');
+                    $('#cont4').removeClass('hide');
                     $('#message').text('Gracias, Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }
             })
@@ -376,9 +376,10 @@ $enddate=strtotime("+5 days", $startdate);
    window.location.href = "mailto:enrique.binteraction@gmail.com?subject=Consulta%20Cursos%20Advance%20&body=Telefono:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
 
  }
- 
+
  function Mens(){
-              $('#cont2').removeClass('hide');
+              $('#cont3').addClass('hide');
+                $('#cont4').removeClass('hide'); 
         }  
 
     </script>
