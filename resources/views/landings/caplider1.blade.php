@@ -74,7 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
                  </center>
                   <hr>
 
-                   <button onclick="event1(); return false;" class="btn btn-warning text-white col-12 mt-4">Inscríbete </button>
+                   <button onclick="sendMail('Solicito ser Contactado'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Inscríbete</h4></button>
 
                   <br>
                   <br>
@@ -207,10 +207,12 @@ $enddate=strtotime("+5 days", $startdate);
         }); 
 
            function event1(){
-            document.getElementById('cont5').style.display = 'block';
-           }
     
-
+            let dataSend = {
+                'fourRut': $('#rut').val(),
+                'phone': getUrlParameter('telefono'),
+                'landing_id': {!! $landing->id !!},
+            } 
             
             $.ajaxSetup({
                 headers: {
@@ -227,7 +229,7 @@ $enddate=strtotime("+5 days", $startdate);
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                   /// $('#dato1').text(id_adm);
+                    $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -277,36 +279,24 @@ $enddate=strtotime("+5 days", $startdate);
 
                     'mensaje': msg,
                     'Datos_Formulario': $('#nombre1').val(),
-                    'Nombre': $('#nombre').val(),
-                    'Apellido': $('#apellido').val(),
-                    'RUT': $('#rut').val(),
-                    'Telefono': $('#telefono').val(),
-                    'E-mail': $('#email').val(),
-                    //'Sede': $('#sede').val(),
-                    'Carrera': $('#carrera').val(),
-                    'Datos_URL': $('#nombre1').val(),
-                    'Nombre_URL': getUrlParameter('nombre'),
-                    //'monto': getUrlParameter('monto'),
-                    'Telefono_URL': getUrlParameter('telefono'),
-                     'Rut_URL': getUrlParameter('rut')
+                   // 'Nombre': $('#nombre').val(),
+                    'Datos': $('#nombre1').val(),
+                    'Nombre': getUrlParameter('nombre'),
+                    'Telefono': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut')
                     // '': getUrlParameter('data1'),               
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': $('#name').text(),
-                    //'monto': getUrlParameter('monto'),
+                    'nombre': getUrlParameter('nombre'),
                     'phone': getUrlParameter('telefono'),
-                 //   'Id_Admision': getUrlParameter('data1'),
-                 //   'Prevision': getUrlParameter('data2'),
-                 //   'Estado': getUrlParameter('data3'),
-                 //   'Ley': getUrlParameter('data4'),
                      'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["enrique.binteraction@gmail.com"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
