@@ -112,7 +112,7 @@ $enddate=strtotime("+15 days", $startdate);
                    
                   
 
-                     <button onclick="sendMail('Solicito ser Contactado'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-4"><h3>CONTACTAME</h3></button>
+                     <button onclick="sendMail('Solicito ser Contactado'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>CONTACTAME</h4></button>
 
 
                     <!--   </div>
