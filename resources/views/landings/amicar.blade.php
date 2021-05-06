@@ -96,7 +96,7 @@ $enddate=strtotime("+15 days", $startdate);
            
 
            <div id="cont1" class="p-5 ">
-            <center><img src="https://imgur.com/eWTyRGP.jpg" style="max-width: 100%"></center>
+            <center><img src="https://i.imgur.com/kEGDRYg.png" style="max-width: 100%"></center>
 
               <!--<div class="card">
 
