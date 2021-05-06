@@ -74,7 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
                  </center>
                   <hr>
 
-                   <button onclick="Mens();" class="btn bg-warning text-white col-12 mt-2"><h4>Mostar</h4></button>
+                   <button onclick="Mens(); return false;" class="btn bg-warning text-white col-12 mt-2"><h4>Mostar</h4></button>
 
                   <br>
                   <br>
