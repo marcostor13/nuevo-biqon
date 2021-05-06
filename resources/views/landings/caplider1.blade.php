@@ -74,7 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
                  </center>
                   <hr>
 
-                   <button onclick="sendMail('Solicito ser Contactado'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Inscríbete</h4></button>
+                   <button onclick="Mens();" class="btn bg-warning text-white col-12 mt-2"><h4>Mostar</h4></button>
 
                   <br>
                   <br>
@@ -102,11 +102,6 @@ $enddate=strtotime("+5 days", $startdate);
 
                      <div id="cont2" class="p-5 hide">
 
-                 
-
-          
-            
-
                   <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
@@ -121,7 +116,6 @@ $enddate=strtotime("+5 days", $startdate);
                   
                  <div class="d-flex justify-content-between">
 
-                    
                     <div class="md-form col-6  m-0">
                       <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
                       <label for="form2"></label>
@@ -133,19 +127,6 @@ $enddate=strtotime("+5 days", $startdate);
                   </div> 
                   </div> 
 
-
-                   
-
-                   <!--<div class="md-form col-12 m-0"> 
-      <select class="form-control" id="sede" required>
-      <option value="" data-select2-id="4">Selecciona una sede</option>                
-      <option value="Los Leones" data-select2-id="8">Los Leones</option>
-      <option value="Santiago" data-select2-id="9">Santiago</option>
-      <option value="Concepción" data-select2-id="10">Concepción</option>
-      <option value="Valdivia" data-select2-id="11">Valdivia</option>
-      <option value="Puerto Montt" data-select2-id="12">Puerto Montt</option>
-                    </select><br>
-                  </div>-->
 
   
 
@@ -400,6 +381,10 @@ $enddate=strtotime("+5 days", $startdate);
    window.location.href = "mailto:enrique.binteraction@gmail.com?subject=Consulta%20Cursos%20Advance%20&body=Telefono:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
 
  }
+ function Mens(){
+              $('#cont2').removeClass('hide');
+        }  
+
     </script>
     
 
