@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'USS')
+@section('title', 'VITACURA')
 
 @section('content')
 <?php
