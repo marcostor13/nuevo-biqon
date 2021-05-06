@@ -54,7 +54,7 @@ $enddate=strtotime("+5 days", $startdate);
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
         
-            <img style="max-width: 80%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Gnqjtz1.png" alt="VITACURA">
+            <img style="max-width: 80%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/Pwj7d3s.png" alt="VITACURA">
 
          
 
@@ -72,9 +72,9 @@ Puedes encontrar todo el programa de nuestra campaña en el siguiente enlace.   
 
                <a onclick="eventosLanding('Programa');Mens3();" class="btn bg-danger text-white col-12 mt-4"> Descargar Programa</a>
 
-<div class="d-flex justify-content-around align-content-center mt-4"> 
+<!--<div class="d-flex justify-content-around align-content-center mt-4"> 
               <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="https://i.imgur.com/uSHqxSV.png" alt="VITACURA">
-            </div>
+            </div>-->
                  <h4 class="dark-grey-text text-center">
                   <hr>
                     <strong>Comentanos qué te gustaría cambiar de nuestra comuna</strong>
