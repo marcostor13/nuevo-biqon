@@ -158,7 +158,7 @@ $enddate=strtotime("+5 days", $startdate);
 
      <script>
    //EVENT 1
-       $(function(){
+     $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
@@ -166,7 +166,7 @@ $enddate=strtotime("+5 days", $startdate);
             });
         }); 
 
-           function event1(){
+         function event1(){
     
             let dataSend = {
                 'fourRut': $('#rut').val(),
@@ -189,7 +189,7 @@ $enddate=strtotime("+5 days", $startdate);
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
+                   /// $('#dato1').text(id_adm);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -219,7 +219,6 @@ $enddate=strtotime("+5 days", $startdate);
             //json_datos.correo = $('#sede').val();
             //json_datos.carrera =  $('#carrera').val();
 
-
             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
@@ -236,7 +235,6 @@ $enddate=strtotime("+5 days", $startdate);
             let data; 
             if(msg !== false){
                 data = {
-
                     'mensaje': msg,
                     'Datos_Formulario': $('#nombre1').val(),
                     'Nombre': $('#nombre').val(),
@@ -248,15 +246,20 @@ $enddate=strtotime("+5 days", $startdate);
                     'Nombre_URL': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Telefono_URL': getUrlParameter('telefono'),
-                     'Rut_URL': getUrlParameter('rut')  
-                     'landing': '{!! $landing->name !!}'         
+                     'Rut_URL': getUrlParameter('rut')
+                    // '': getUrlParameter('data1'),                   
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': getUrlParameter('nombre'),
+                    'nombre': $('#name').text(),
+                    //'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
+                 //   'Id_Admision': getUrlParameter('data1'),
+                 //   'Prevision': getUrlParameter('data2'),
+                 //   'Estado': getUrlParameter('data3'),
+                 //   'Ley': getUrlParameter('data4'),
                      'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
@@ -266,8 +269,8 @@ $enddate=strtotime("+5 days", $startdate);
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'mariavictoria.rojas@uss.cl'
-            }
+                //'email': 'jaqueline.rodriguez@uss.cl'
+            } 
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -277,14 +280,14 @@ $enddate=strtotime("+5 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont3').addClass('hide');
-                    $('#cont4').removeClass('hide');
+                     $('#cont1').addClass('hide');
+                    $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont3').addClass('hide');
-                    $('#cont4').removeClass('hide');
-                    $('#message').text('Gracias, Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                     $('#cont2').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
                 }
             })
             .done(function(e) {
@@ -350,9 +353,7 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-      
-        
-     function Mens2(){
+           function Mens2(){
        var id_adm; 
          id_adm= getUrlParameter('Telefono'); 
          var rut; 
@@ -360,21 +361,17 @@ $enddate=strtotime("+5 days", $startdate);
 
         // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
 
-         var body_message = "Estoy%20Interesado%20en%20conocer%20los%20cursos%20el%20gratis";
+         var body_message = "Estoy%20Interesado%20en%20conocer%20mas%20sobre%20el%20Programa%20Advance";
 
-   window.location.href = "mailto:enrique.binteraction@gmail.com?subject=Consulta%20Cursos%20Advance%20&body=Telefono:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+   window.location.href = "mailto:jaqueline.rodriguez@uss.cl?subject=Consulta%20Cursos%20Advance%20&body=Telefono:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
 
  }
+        
+     function Mens(){
 
- function Mens(){
-      // $('#cont2').addClass('hide');
-      // $('#cont3').removeClass('hide'); 
-
-         $('#cont2').addClass('hide');
+  $('#cont2').addClass('hide');
   $('#cont3').removeClass('hide');
-
-        }  
-
+ } 
     </script>
     
 
