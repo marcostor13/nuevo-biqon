@@ -136,6 +136,9 @@ $enddate=strtotime("+5 days", $startdate);
                     
                   </div>
                 </div>
+
+
+
 <div class="d-flex justify-content-around align-content-center mt-4"> 
                <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
 
@@ -150,20 +153,7 @@ $enddate=strtotime("+5 days", $startdate);
               </div>
             </div>
           </div>
-       <!-- <div id="cont2" class="p-3 ">
 
-         href="mailto: mariavictoria.rojas@uss.cl?subject=Consulta%20Cursos%20Advance"
-
-
-            <div class="card">     
-              <div class="card-body">
-                        <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-danger text-white col-12 mt-4" >LLÁMANOS</a>
-
-                        <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-danger text-white col-12 mt-4" >ESCRÍBENOS</a>
-              </div>
-            </div>
-          </div>-->
-               
             </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -386,6 +376,7 @@ $enddate=strtotime("+5 days", $startdate);
    window.location.href = "mailto:enrique.binteraction@gmail.com?subject=Consulta%20Cursos%20Advance%20&body=Telefono:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
 
  }
+ 
  function Mens(){
               $('#cont2').removeClass('hide');
         }  
