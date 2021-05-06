@@ -90,9 +90,11 @@ oscurecer {
 
                 <br>
                
-                <div class="videoWrapper">        
+                <div class="videoWrapper">     
+                <center>   
                     <iframe width="400" height="320" src="{{asset('/files/darkoxvitacura.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br>
+                </center>   
                 </div>
 
                <div class="card">
