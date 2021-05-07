@@ -55,6 +55,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+            <center>
             <img style="max-width:350px; max-height:250px" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/jXMebWV.jpg" alt="BINTER">
 
              <div id="cont1" class="p-5 hide">
@@ -91,6 +92,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <br>
                                
              </div>
+             </center>
         </div>
 
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
