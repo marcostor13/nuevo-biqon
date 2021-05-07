@@ -103,14 +103,6 @@ $enddate=strtotime("+15 days", $startdate);
 <br>
                     <h5 class="text-white text-center"> <strong>SOLICITA UNA COTIZACIÓN PARA DISEÑO WEB, SMS -EMAILS, O CUALQUIERA DE NUESTROS SERVICIOS </strong> </h5>
                     </div>
-                      <!--  <div class="date btn bg-warning text-black col-12 mt-4">
-                    <span>AGENDAR</span>
-                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-                     </div>
-                   
-                    <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">DESEAS QUE TE CONTACTEMOS></button>-->
-                
-
                
             </div> </div>
 
