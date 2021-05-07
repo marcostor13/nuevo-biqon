@@ -78,9 +78,11 @@ $enddate=strtotime("+5 days", $startdate);
 Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. <br> 
 <br>
                 </p><br>
-
+ </div>
+            </div>
                  <div class="mt-2 text-center" style="background:#333333;"> 
 <p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
+
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
@@ -97,8 +99,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                 <br><br>
 
                   </div>
-            </div>
-            </div>
+           
         </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
