@@ -78,7 +78,8 @@ $enddate=strtotime("+5 days", $startdate);
 Le invitamos a contactarse a la brevedad para ser informado de los metodos de pago disponibles <br> 
 <br>
                 </p><br>
-
+</div>
+            </div>
                  <div class="mt-2 text-center" style="background:#384259;"> 
 <p class="text-white text-center">Seleccione alguna de estas opciones para comunicarse con un Ejecutivo quien podrá asesorarle y resolver sus consultas.</p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
@@ -97,8 +98,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los metodos de pa
                 <br><br>
 
                   </div>
-            </div>
-            </div>
+            
         </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
