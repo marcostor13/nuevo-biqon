@@ -64,7 +64,7 @@ $enddate=strtotime("+15 days", $startdate);
                             <div class="card">     
                 <div class="card-body">
                      <div class="mt-2 text-center" style="background:#003399;"> 
-
+<br>
                     <h5 class="text-white text-center"> <strong> CONTACTA A TUS CLIENTES EN CUALQUIER MOMENTO Y LUGAR</strong> </h5>
                     </div>
 <h5 class="text-black text-center">El servicio  <strong class="text-primary"> SMS </strong> e  <strong  class="text-primary"> Email Masivos </strong> de  <strong  class="text-primary" >BINTERACTION CHILE </strong> permite una comunicación rápida y expedita entre las empresas y sus clientes.</h5>
@@ -76,7 +76,7 @@ $enddate=strtotime("+15 days", $startdate);
 
  
 <div class="mt-2 text-center" style="background:#003399;"> 
-
+<br>
                     <h5 class="text-white text-center"> <strong>Ejemplo de  SMS + Landing Video </strong> </h5>
                     </div>
                     <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="" alt="BINTERACTION">
@@ -87,20 +87,20 @@ $enddate=strtotime("+15 days", $startdate);
 
 
 <div class="mt-2 text-center" style="background:#003399;"> 
-
+<br>
                     <h5 class="text-white text-center"> <strong>INFORMACION EFECTIVA </strong> </h5>
                     </div>
 <h5 class="text-black text-center"> <strong>Sabemos lo que te hace falta para hacer crecer tu negocio. Con las Campañas de Emails o SMS te conectamos con un mercado abundante y queremos ayudarte a lograrlo.</strong> </h5>
 
 
                     <div class="mt-2 text-center" style="background:#003399;"> 
-
+<br>
                     <h5 class="text-white text-center"> <strong>Diseño de Paginas Web </strong> </h5>
                     </div>
 <h5 class="text-black text-center"> <strong>Nos especializamos en el Diseño Web y Tiendas Online; Una página web es más que una hoja digital <span class="text-danger"> 100% personalizadas. </span></strong> </h5>
 
                     <div class="mt-2 text-center" style="background:#003399;"> 
-
+<br>
                     <h5 class="text-white text-center"> <strong>SOLICITA UNA COTIZACIÓN PARA DISEÑO WEB, SMS -EMAILS, O CUALQUIERA DE NUESTROS SERVICIOS </strong> </h5>
                     </div>
                       <!--  <div class="date btn bg-warning text-black col-12 mt-4">
