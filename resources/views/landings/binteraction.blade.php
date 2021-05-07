@@ -90,14 +90,14 @@ $enddate=strtotime("+15 days", $startdate);
 
                     <h5 class="text-white text-center"> <strong>INFORMACION EFECTIVA </strong> </h5>
                     </div>
-<h5 class="text-white text-center"> <strong>Sabemos lo que te hace falta para hacer crecer tu negocio. Con las Campañas de Emails o SMS te conectamos con un mercado abundante y queremos ayudarte a lograrlo.</strong> </h5>
+<h5 class="text-black text-center"> <strong>Sabemos lo que te hace falta para hacer crecer tu negocio. Con las Campañas de Emails o SMS te conectamos con un mercado abundante y queremos ayudarte a lograrlo.</strong> </h5>
 
 
                     <div class="mt-2 text-center" style="background:#003399;"> 
 
                     <h5 class="text-white text-center"> <strong>Diseño de Paginas Web </strong> </h5>
                     </div>
-<h5 class="text-white text-center"> <strong>Nos especializamos en el Diseño Web y Tiendas Online; Una página web es más que una hoja digital <span class="text-danger"> 100% personalizadas. </span></strong> </h5>
+<h5 class="text-black text-center"> <strong>Nos especializamos en el Diseño Web y Tiendas Online; Una página web es más que una hoja digital <span class="text-danger"> 100% personalizadas. </span></strong> </h5>
 
                     <div class="mt-2 text-center" style="background:#003399;"> 
 
