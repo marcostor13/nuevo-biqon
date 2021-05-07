@@ -61,7 +61,7 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont1" class="p-5 hide">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4"> Validar </button>
+                <button onclick="event1(); return false;" class="btn bg-primary text-white col-10 mt-4"> Validar </button>
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -71,8 +71,49 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 ">
+                <center></center>
+                   <div class="mt-2 text-center" style="background:#003399;"> 
+<br>
+                    <h5 class="text-white text-center"> <strong> CONTACTA A TUS CLIENTES EN CUALQUIER MOMENTO Y LUGAR</strong> </h5>
+                    </div>
+<h5 class="text-black text-center">El servicio  <strong class="text-primary"> SMS </strong> e  <strong  class="text-primary"> Email Masivos </strong> de  <strong  class="text-primary" >BINTERACTION CHILE </strong> permite una comunicación rápida y expedita entre las empresas y sus clientes.</h5>
+
+ <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="" alt="BINTERACTION">
+
+
+  <h5 class="text-black text-center">Enviar mensajes SMS masivos es una de las principales estrategias de marketing digital, junto con los Emails Masivo, puedes abarcar ambas áreas de contacto a tus clientes, además el envío de URL corta personalizada nos brinda una mayor oportunidad de contacto”.</h5>
+
+ 
+<div class="mt-2 text-center" style="background:#003399;"> 
+<br>
+                    <h5 class="text-white text-center"> <strong>Ejemplo de  SMS + Landing Video </strong> </h5>
+                    </div>
+                    <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="" alt="BINTERACTION">
+                     <div class="videoWrapper">        
+                    <iframe width="400" height="320" src="{{asset('/files/binter_vid.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br>
+                </div>
+
+
+<div class="mt-2 text-center" style="background:#003399;"> 
+<br>
+                    <h5 class="text-white text-center"> <strong>INFORMACION EFECTIVA </strong> </h5>
+                    </div>
+<h5 class="text-black text-center"> <strong>Sabemos lo que te hace falta para hacer crecer tu negocio. Con las Campañas de Emails o SMS te conectamos con un mercado abundante y queremos ayudarte a lograrlo.</strong> </h5>
+
+
+                    <div class="mt-2 text-center" style="background:#003399;"> 
+<br>
+                    <h5 class="text-white text-center"> <strong>Diseño de Paginas Web </strong> </h5>
+                    </div>
+<h5 class="text-black text-center"> <strong>Nos especializamos en el Diseño Web y Tiendas Online; Una página web es más que una hoja digital <span class="text-danger"> 100% personalizadas. </span></strong> </h5>
+
+                    <div class="mt-2 text-center" style="background:#003399;"> 
+<br>
+                    <h5 class="text-white text-center"> <strong>SOLICITA UNA COTIZACIÓN PARA DISEÑO WEB, SMS -EMAILS, O CUALQUIERA DE NUESTROS SERVICIOS </strong> </h5>
+                    </div>
                 <!--<h3 class="text-black text-center">Estimado <span id="name"></span></h3>-->
-                 <div class="videoWrapper">        
+                 <!--<div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/binter_vid.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br>
                 </div>
@@ -90,7 +131,7 @@ $enddate=strtotime("+5 days", $startdate);
                      <button onclick="sendMail('NO QUIERO CONECER A BINTERACTION'); ;eventosLanding('NO'); return false;" class="btn bg-primary text-white col-12 mt-4">NO</button>
                 <br>
                 <br>
-                               
+                   -->            
              </div>
              </center>
         </div>
