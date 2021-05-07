@@ -74,13 +74,14 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a): <span id="name"></span></h3>
 <hr>
                 <p class="text-black text-center">
-                   Instituto profesional Duoc UC, recuerda que usted mantiene una deuda por regularizar.<br>
-Le invitamos a contactarse a la brevedad para ser informado de los metodos de pago disponibles <br>
-Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consultas.<br>
+                   Instituto profesional Duoc UC, le recuerda que usted mantiene una deuda por regularizar.<br>
+Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. <br> 
+
+<br>
                 </p><br>
 
                  <div class="mt-2 text-center" style="background:#384259;"> 
-<p class="text-white text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</p>
+<p class="text-white text-center">Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
@@ -91,8 +92,8 @@ Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podr
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
                        <span class="text-warning  text-center">Correo<br>
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
-                    <span class="text-warning  text-center">Pago en Linea<br>
-                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="http://www2.duoc.cl/portal-de-pagos-en-linea"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
+                    <span class="text-warning  text-center">Pago en Línea<br>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="http://www2.duoc.cl/portal-de-pagos-en-linea"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
                 <br><br>
 
