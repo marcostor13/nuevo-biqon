@@ -86,13 +86,13 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
-                         <span class="text-white text-center">WHATSAPP<br>
+                         <span class="text-white text-center"><h6>WHATSAPP</h6><br>
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983001247&text=Hola"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
-                        <span class="text-white text-center">TELÉFONO<br>
+                        <span class="text-white text-center"><h6>TELÉFONO</h6><br>
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
-                        <span class="text-white text-center">CORREO<br>
+                        <span class="text-white text-center"><h6>CORREO</h6><br>
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
-                     <span class="text-white text-center">PAGO EN LÍNEA<br>
+                     <span class="text-white text-center"><h6>PAGO EN LÍNEA</h6><br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.abcserviciosfinancieros.cl/paga-tu-cuenta"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
                 <br><br>
