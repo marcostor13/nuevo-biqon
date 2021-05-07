@@ -75,7 +75,7 @@ $enddate=strtotime("+5 days", $startdate);
 <hr>
                 <p class="text-black text-center">
                     ABCDIN, le recuerda que usted mantiene una deuda por regularizar.<br>
-Le invitamos a contactarse a la brevedad para ser informado de los metodos de pago disponibles <br> 
+Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. <br> 
 <br>
                 </p><br>
 </div>
@@ -93,7 +93,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los metodos de pa
                        <span class="text-warning  text-center">Correo<br>
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
                     <span class="text-warning  text-center">Pago en Linea<br>
-                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.abcserviciosfinancieros.cl/paga-tu-cuenta"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.abcserviciosfinancieros.cl/paga-tu-cuenta"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
                 <br><br>
 
