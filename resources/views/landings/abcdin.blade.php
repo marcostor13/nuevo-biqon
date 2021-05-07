@@ -77,7 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
                     ABCDIN, le recuerda que usted mantiene una deuda por regularizar.<br>
 Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. <br> 
 <br>
-                </p><br>
+                </p>
 </div>
             </div>
                  <div class="mt-2 text-center" style="background:#db061d;"> 
