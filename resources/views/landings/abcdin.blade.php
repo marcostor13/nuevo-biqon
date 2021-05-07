@@ -80,7 +80,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los metodos de pa
                 </p><br>
 
                  <div class="mt-2 text-center" style="background:#384259;"> 
-<p class="text-white text-center">Seleccione alguna de estas opciones para comunicarse con un Ejecutivo quien podrá asesorarle y resolver sus consultas./p>
+<p class="text-white text-center">Seleccione alguna de estas opciones para comunicarse con un Ejecutivo quien podrá asesorarle y resolver sus consultas.</p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
