@@ -80,7 +80,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                 </p><br>
 
                  <div class="mt-2 text-center" style="background:#0c0026;"> 
-<p class="text-white text-center">Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</p>
+<p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
@@ -91,8 +91,8 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
                        <span class="text-danger  text-center">Correo<br>
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
-                    <span class="text-danger  text-center">Pago en Linea<br>
-                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://pagos.inacap.cl/inacap.portalpagos/home.aspx"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
+                    <span class="text-danger  text-center">Pago en Línea<br>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://pagos.inacap.cl/inacap.portalpagos/home.aspx"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
                 <br><br>
 
