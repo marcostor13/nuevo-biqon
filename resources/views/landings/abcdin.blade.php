@@ -80,19 +80,19 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                 </p>
 </div>
             </div>
-                 <div class="mt-2 text-center" style="background:#999999;"> 
+                 <div class="mt-2 text-center" style="background:#de003c;"> 
 <p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarse con un Ejecutivo quien podrá asesorarle y resolver sus consultas.</strong><br></p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
-                         <span class="text-danger  text-center"><strong>WhatsApp</strong><br>
+                         <span class="text-grey  text-center"><strong>WhatsApp</strong><br>
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983001247&text=Hola"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
-                       <span class="text-danger  text-center"><strong>Teléfono</strong><br>
+                       <span class="text-grey  text-center"><strong>Teléfono</strong><br>
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
-                       <span class="text-danger  text-center"><strong>Correo</strong><br>
+                       <span class="text-grey  text-center"><strong>Correo</strong><br>
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
-                    <span class="text-danger  text-center"><strong>Pago en Linea</strong><br>
+                    <span class="text-grey  text-center"><strong>Pago en Linea</strong><br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.abcserviciosfinancieros.cl/paga-tu-cuenta"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
                 <br><br>
