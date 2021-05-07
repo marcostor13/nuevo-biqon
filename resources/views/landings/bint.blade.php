@@ -71,7 +71,8 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 ">
-                <center></center>
+               <div class="card">     
+                            <div class="card-body">
                    <div class="mt-2 text-center" style="background:#003399;"> 
 <br>
                     <h5 class="text-white text-center"> <strong> CONTACTA A TUS CLIENTES EN CUALQUIER MOMENTO Y LUGAR</strong> </h5>
@@ -133,6 +134,8 @@ $enddate=strtotime("+5 days", $startdate);
                 <br>
                    -->            
              </div>
+              </div>
+               </div>
              </center>
         </div>
 
