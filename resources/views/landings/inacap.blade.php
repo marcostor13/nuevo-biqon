@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'ABCDIN')
+@section('title', 'INACAP')
 
 @section('content')
 <?php
@@ -47,12 +47,12 @@ $enddate=strtotime("+5 days", $startdate);
     
 </style>
 
-    <div id="UANDES" style=" /*background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;*/">
+    <div id="INACAP" style=" /*background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;*/">
 
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-           <img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="ABCDIN">-
+           <img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="INACAP">-
 
 <!--<img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/LRZ1x2g.png" alt="UANDES">-->
            
