@@ -58,20 +58,57 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="BINTERACTION">
+            <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="BINTERACTION">
 
             <div id="cont1">
                             <div class="card">     
                 <div class="card-body">
+                     <div class="mt-2 text-center" style="background:#003399;"> 
 
-                    <h5 class="text-black text-center"> <strong> Desea agendar su visita</strong> </h5>
+                    <h5 class="text-white text-center"> <strong> CONTACTA A TUS CLIENTES EN CUALQUIER MOMENTO Y LUGAR</strong> </h5>
+                    </div>
+<h5 class="text-black text-center">El servicio  <strong class="text-primary"> SMS </strong> e  <strong  class="text-primary"> Email Masivos </strong> de  <strong  class="text-primary" >BINTERACTION CHILE </strong> permite una comunicación rápida y expedita entre las empresas y sus clientes.</h5>
 
-                        <div class="date btn bg-warning text-black col-12 mt-4">
+ <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="" alt="BINTERACTION">
+
+
+  <h5 class="text-black text-center">Enviar mensajes SMS masivos es una de las principales estrategias de marketing digital, junto con los Emails Masivo, puedes abarcar ambas áreas de contacto a tus clientes, además el envío de URL corta personalizada nos brinda una mayor oportunidad de contacto”.</h5>
+
+ 
+<div class="mt-2 text-center" style="background:#003399;"> 
+
+                    <h5 class="text-white text-center"> <strong>Ejemplo de  SMS + Landing Video </strong> </h5>
+                    </div>
+                    <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="" alt="BINTERACTION">
+                     <div class="videoWrapper">        
+                    <iframe width="400" height="320" src="{{asset('/files/binter_vid.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br>
+                </div>
+
+
+<div class="mt-2 text-center" style="background:#003399;"> 
+
+                    <h5 class="text-white text-center"> <strong>INFORMACION EFECTIVA </strong> </h5>
+                    </div>
+<h5 class="text-white text-center"> <strong>Sabemos lo que te hace falta para hacer crecer tu negocio. Con las Campañas de Emails o SMS te conectamos con un mercado abundante y queremos ayudarte a lograrlo.</strong> </h5>
+
+
+                    <div class="mt-2 text-center" style="background:#003399;"> 
+
+                    <h5 class="text-white text-center"> <strong>Diseño de Paginas Web </strong> </h5>
+                    </div>
+<h5 class="text-white text-center"> <strong>Nos especializamos en el Diseño Web y Tiendas Online; Una página web es más que una hoja digital <span class="text-danger"> 100% personalizadas. </span></strong> </h5>
+
+                    <div class="mt-2 text-center" style="background:#003399;"> 
+
+                    <h5 class="text-white text-center"> <strong>SOLICITA UNA COTIZACIÓN PARA DISEÑO WEB, SMS -EMAILS, O CUALQUIERA DE NUESTROS SERVICIOS </strong> </h5>
+                    </div>
+                      <!--  <div class="date btn bg-warning text-black col-12 mt-4">
                     <span>AGENDAR</span>
-                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
                      </div>
                    
-                    <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">DESEAS QUE TE CONTACTEMOS></button>
+                    <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('Contacto'); return false;" class="btn bg-warning text-black col-12 mt-4">DESEAS QUE TE CONTACTEMOS></button>-->
                 
 
                
@@ -79,11 +116,11 @@ $enddate=strtotime("+15 days", $startdate);
 
 
             <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56942918783&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=5695251902&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56942918783"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56232329133"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:maicol.binteraction@gmail.com?subject=Landing%20Binteraction"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:lilian.binteraction@gmail.com?subject=Servicios%20Binteraction"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
         </div>
 
