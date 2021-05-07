@@ -71,16 +71,16 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-1">
                 <div class="card">     
                             <div class="card-body">
-                <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
+                <h3 class="text-black text-center">Estimado(a) #name#<span id="name"></span></h3>
 <hr>
                 <p class="text-black text-center">
-                    ABCDIN, recuerda que usted mantiene una deuda por regularizar.<br>
-Le invitamos a contactarse a la brevedad para ser informado de los metodos de pago disponibles.<br> 
-Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consultas.<br>
+                    ABCDIN, le recuerda que usted mantiene una deuda por regularizar.<br>
+Le invitamos a contactarse a la brevedad para ser informado de los metodos de pago disponibles <br> 
+<br>
                 </p><br>
 
                  <div class="mt-2 text-center" style="background:#384259;"> 
-<p class="text-white text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</p>
+<p class="text-white text-center">Seleccione alguna de estas opciones para comunicarse con un Ejecutivo quien podrá asesorarle y resolver sus consultas./p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
