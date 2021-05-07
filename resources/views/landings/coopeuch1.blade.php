@@ -145,13 +145,13 @@ $enddate=strtotime("+5 days", $startdate);
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
-                        <span class="text-white  text-center">WhatsApp<br>
+                        <span class="text-white bg-black  text-center">WhatsApp<br>
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983001247&text=Hola,%20tengo%20una%20consulta%20COOPEUCH"><img width="50" src="https://i.imgur.com/86IRYB5.png"></a></span>
-                       <span class="text-white  text-center">Teléfono<br>
+                       <span class="text-white bg-black  text-center">Teléfono<br>
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="50" src="https://i.imgur.com/EQmqiCk.png"></a></span>
-                       <span class="text-white  text-center">Correo<br>
+                       <span class="text-white bg-black  text-center">Correo<br>
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="50" src="https://i.imgur.com/Jg98aT5.png"></a></span>
-                    <span class="text-white  text-center">Pago en Linea<br>
+                    <span class="text-white bg-black  text-center">Pago en Linea<br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://solvencia.cl/pagadeudas/"><img width="50" src="https://i.imgur.com/2YPpKWm.png"></a></span>
                 </div>
                 <br><br>
