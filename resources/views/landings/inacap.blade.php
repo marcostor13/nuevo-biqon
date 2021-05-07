@@ -79,7 +79,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
 <br>
                 </p><br>
 
-                 <div class="mt-2 text-center" style="background:#0c0026;"> 
+                 <div class="mt-2 text-center" style="background:#333333;"> 
 <p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
