@@ -101,7 +101,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                 <span class="text-warning  text-center">
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta%20por%20deuda%20INACAP"><img width="70" src="https://i.imgur.com/j3Cpxva.png"></a></span>
                        <span class="text-warning  text-center">
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:56975890461"><img width="70" src="https://i.imgur.com/fPD04Qe.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890461"><img width="70" src="https://i.imgur.com/fPD04Qe.png"></a></span>
                        <span class="text-warning  text-center">
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="70" src="https://i.imgur.com/EZIYM7o.png"></a></span>
                     <span class="text-warning  text-center">
