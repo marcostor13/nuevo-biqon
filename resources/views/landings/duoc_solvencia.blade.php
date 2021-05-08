@@ -81,20 +81,20 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
 <br>
                 </p><br>
 
-                 <div class="mt-2 text-center" style="background:#384259;"> 
-<p class="text-white text-center">Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</p>
+                 <div class="mt-2 text-center" style="background:#384259;"> <br>
+<p class="text-white text-center">Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta<br></p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
-                         <span class="text-warning  text-center">WhatsApp<br>
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983001247&text=Hola,%20tengo%20una%20consulta%20por%20deuda%20DUOC"><img width="50" src="https://i.imgur.com/86IRYB5.pngg"></a></span>
-                       <span class="text-warning  text-center">Teléfono<br>
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="50" src="https://i.imgur.com/EQmqiCk.png"></a></span>
-                       <span class="text-warning  text-center">Correo<br>
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="50" src="https://i.imgur.com/Jg98aT5.png"></a></span>
-                    <span class="text-warning  text-center">Pago en Línea<br>
-                     <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="http://www2.duoc.cl/portal-de-pagos-en-linea"><img width="50" src="https://i.imgur.com/2YPpKWm.png"></a></span>
+                         <span class="text-warning  text-center">
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983001247&text=Hola,%20tengo%20una%20consulta%20por%20deuda%20DUOC"><img width="70" src="https://i.imgur.com/j3Cpxva.png"></a></span>
+                       <span class="text-warning  text-center">
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="70" src="https://i.imgur.com/fPD04Qe.png"></a></span>
+                       <span class="text-warning  text-center">
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="70" src="https://i.imgur.com/EZIYM7o.png"></a></span>
+                    <span class="text-warning  text-center">
+                     <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="http://www2.duoc.cl/portal-de-pagos-en-linea"><img width="70" src="https://i.imgur.com/rfpxpiW.png"></a></span>
                 </div>
                 <br><br>
 
