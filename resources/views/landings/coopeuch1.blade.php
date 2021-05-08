@@ -77,9 +77,20 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5">
-              <center><h3 class="text-white bg-danger">
+              <center> 
+
+<div class="card">     
+                            <div class="card-body">
+                <h3 class="text-black text-center">Estimado(a)  <span id="name"> <?php echo $name; ?></span></h3>
+                <p class="text-black text-center">
+                    COOPEUCH, le recuerda que usted mantiene una deuda por regularizar.<br>
+Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. 
+                </p><br>
+ </div>
+            </div>
+              <!--<h3 class="text-white bg-danger">
                     Te entregamos estos consejos</h3></center>
-               <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
+               
 
             
 
@@ -137,10 +148,10 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <p>Para cumplir objetivos de mayor plazo y monto, por ejemplo, ahorrar para vacaciones, para algún arreglo de la casa o emergencias.</p></td>   
                      </tr>
-                </table>
+                </table>-->
 
                 <div class=" text-center bg-danger col-12" > 
-<p class="text-white text-center"><br>Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta<br></p> 
+<p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</strong><br></p> 
                      <div class="d-flex justify-content-around align-content-center text-center"> 
 
                         <span class="text-white text-center"> 
@@ -160,7 +171,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <br>
 
 
-                      <div class="bg-danger"><img src=""> <font color="black"><a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/coopeuch/"><img width="40" height="40" src="https://i.imgur.com/nh5Bh5C.png"></a><a onclick="eventosLanding('Twitter');" href="https://twitter.com/COOPEUCH"><img width="28" height="28" src="https://i.imgur.com/ITWWhIz.png"></a><a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/coopeuch/"><img  width="43" height="43" src="https://i.imgur.com/u9D7nV9.png"></a> <a style="color: white;"  href="https://www.coopeuch.cl">coopeuch.cl</a>      <br>         <a style="color: white; text-align: left;"   href="tel:+6002001200">600 200 1200</a></font></div>
+                     <!-- <div class="bg-danger"><img src=""> <font color="black"><a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/coopeuch/"><img width="40" height="40" src="https://i.imgur.com/nh5Bh5C.png"></a><a onclick="eventosLanding('Twitter');" href="https://twitter.com/COOPEUCH"><img width="28" height="28" src="https://i.imgur.com/ITWWhIz.png"></a><a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/coopeuch/"><img  width="43" height="43" src="https://i.imgur.com/u9D7nV9.png"></a> <a style="color: white;"  href="https://www.coopeuch.cl">coopeuch.cl</a>      <br>         <a style="color: white; text-align: left;"   href="tel:+6002001200">600 200 1200</a></font></div>-->
 
                  
                    <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
