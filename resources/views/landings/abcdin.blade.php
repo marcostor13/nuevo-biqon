@@ -87,13 +87,13 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
-                         <span class="text-white text-center">Whatsapp<br>
+                         <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983001247&text=Hola,%20tengo%20una%20consulta%20por%20deuda%20ABCDIN"><img width="50" src="https://i.imgur.com/ot39iWI.png"></a></span>
-                        <span class="text-white text-center">Teléfono<br>
+                        <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="50" src="https://i.imgur.com/sN7X4XZ.png"></a></span>
-                        <span class="text-white text-center">Correo<br>
+                        <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="50" src="https://i.imgur.com/yedwmQG.png"></a></span>
-                     <span class="text-white text-center">Pago en Línea<br>
+                     <span class="text-white text-center">
                 <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.abcserviciosfinancieros.cl/paga-tu-cuenta"> <img width="70" src="https://i.imgur.com/TI8UBph.png"></a></span>
                 </div>
                 <br><br>
