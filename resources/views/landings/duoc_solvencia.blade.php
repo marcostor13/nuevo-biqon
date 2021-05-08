@@ -80,8 +80,9 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
 
 <br>
                 </p><br>
-
-                 <div class="mt-2 text-center" style="background:#384259;"> <br>
+</div>
+            </div>
+                 <div class="mt-2 text-center col-12" style="background:#384259;"> <br>
 <p class="text-white text-center">Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta<br></p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
@@ -99,8 +100,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                 <br><br>
 
                   </div>
-            </div>
-            </div>
+            
         </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
