@@ -98,7 +98,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                      <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://i.imgur.com/2YPpKWm.png"></a></span>
                 </div>-->
                  <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta%20por%20deuda%20Vida%20Tres"><img width="70" src="https://i.imgur.com/kzyuhVO.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta%20%20Vida%20Tres"><img width="70" src="https://i.imgur.com/kzyuhVO.png"></a></span>
                         <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890461"><img width="70" src="https://i.imgur.com/9AbTaoC.png"></a></span>
                         <span class="text-white text-center">
