@@ -76,14 +76,14 @@ $name=$_GET['NOMBRE'];
 <hr>
                 <p class="text-black text-center">
                    Instituto profesional Duoc UC, le recuerda que usted mantiene una deuda por regularizar.<br>
-Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. <br> 
+Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. 
 
 <br>
                 </p><br>
 </div>
             </div>
                  <div class="mt-2 text-center col-12" style="background:#384259;"> <br>
-<p class="text-white text-center">Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta<br></p>
+<p class="text-white text-center"><strong>Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</strong><br></p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
