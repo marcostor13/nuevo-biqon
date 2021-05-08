@@ -144,13 +144,13 @@ $enddate=strtotime("+5 days", $startdate);
                      <div class="d-flex justify-content-around align-content-center text-center"> 
 
                         <span class="text-white text-center"> 
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983001247&text=Hola,%20tengo%20una%20consulta%20COOPEUCH"><img width="60" src="https://i.imgur.com/ot39iWI.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983001247&text=Hola,%20tengo%20una%20consulta%20COOPEUCH"><img width="70" src="https://i.imgur.com/ot39iWI.png"></a></span>
                        <span class="text-danger bg-black  text-center">
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="60" src="https://i.imgur.com/sN7X4XZ.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="70" src="https://i.imgur.com/sN7X4XZ.png"></a></span>
                        <span class="text-danger bg-black  text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="60" src="https://i.imgur.com/yedwmQG.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="70" src="https://i.imgur.com/yedwmQG.png"></a></span>
                     <span class="text-danger bg-black  text-center">
-                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://i.imgur.com/TI8UBph.png"></a></span>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://solvencia.cl/pagadeudas/"><img width="70" src="https://i.imgur.com/TI8UBph.png"></a></span>
                 </div>
                 <br><br>
 
