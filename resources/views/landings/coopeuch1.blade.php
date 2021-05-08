@@ -139,7 +139,7 @@ $enddate=strtotime("+5 days", $startdate);
                      </tr>
                 </table>
 
-                <div class=" text-center bg-danger" > 
+                <div class=" text-center bg-danger col-12" > 
 <p class="text-white text-center"><br>Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta<br></p> 
                      <div class="d-flex justify-content-around align-content-center text-center"> 
 
