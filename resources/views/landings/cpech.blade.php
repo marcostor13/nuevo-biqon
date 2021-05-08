@@ -72,7 +72,7 @@ $name=$_GET['NOMBRE'];
             <div id="cont2" class="p-1">
                 <div class="card">     
                             <div class="card-body">
-                <h3 class="text-black text-center">Estimado(a)  <span id="name"> <?php echo $name; ?></span>
+                <h3 class="text-black text-center">Estimado(a)  <span id="name"> <?php echo $name; ?></span></h3>
                 <p class="text-black text-center">
                     Instituto profesional CPECH, le recuerda que usted mantiene una deuda por regularizar.<br>
 Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. 
