@@ -6,7 +6,7 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
-//$name=$_GET['NOMBRE'];
+$name=$_GET['NOMBRE'];
 ?>
 
 <style type="text/css">
@@ -72,7 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-1">
                 <div class="card">     
                             <div class="card-body">
-                <h4 class="text-black text-center">Estimado(a) <span id="name"> <?php //echo $name; ?></span></h4>
+                <h4 class="text-black text-center">Estimado(a) <span id="name"> <?php echo $name; ?></span></h4>
 <hr>
                 <p class="text-black text-center">
                   Penta Financiero, le recuerda que usted mantiene una deuda por regularizar.<br>
