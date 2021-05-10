@@ -3,10 +3,10 @@
 @section('title', 'UDLA')
 
 @section('content')
-<?php 
-$name = $_GET['NOMBRE'];
-//$startdate=strtotime("Today");
-//$enddate=strtotime("+5 days", $startdate);
+<?php
+$startdate=strtotime("Today");
+$enddate=strtotime("+5 days", $startdate);
+//$name=$_GET['NOMBRE'];
 ?>
 
 <style type="text/css">
@@ -45,183 +45,85 @@ $name = $_GET['NOMBRE'];
       rgba(0, 0, 0, 0.5)
     )
     }
-.orange {  background-color: #eb600f;}
-  .red {  color: #EC0B0B;}
-  
+    
 </style>
-   <!-- <div id="USS" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;">-->
 
-        <div class="oscurecer"></div>
+    <div id="UDA" style=" /*background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;*/">
 
-        <div class="content container d-flex flex-column align-items-center justify-content-start p-0">
-          <img style="max-width:200px; max-height:60px" class="img-fluid col-10 col-md-2 mt-1" src="{{$landing->logo}}" alt="UDLA">
-          <!--<img style="max-width:200px; max-height:50px" class="img-fluid col-10 col-md-2 mt-1" src="https://i.imgur.com/whNYFHQ.png" alt="USS">-->
+        <div class="opaco"></div>
 
-             <div id="cont1" class="p-2 ">
-                <div class="card">     
-                <div class="card-body">
-                    <h3 class="text-black text-center"><span><?php echo $name; ?></span>, bienvenido a la sucursal virtual de Universidad de Las Américas.</h3>
-                <h4 class="text-black text-center">Para validar su identidad, favor digitar los 6 primeros dígitos del Rut, si no es usted, presionar No.</h4>
-                </div> </div>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-black"  min="6" max="6" maxlength="6">
-                <button onclick="event1(); return false;" class="btn orange text-white col-12 mt-4"> Validar </button>
-                <button onclick="no(); eventosLanding('NO')" class="btn orange text-white col-12 mt-4"> No </button>
+        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+           <img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="UDA">-
 
-                <div id="cont6" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
-                            </div>
-                        </div>
-
-                    </div>
-                    <br>
-                     <br>
-                      <br>
-                       <br>
-                        <br>
-                         <br> <br>
-                         <!-- <br>
-                           <br>
-                            <br>
-                             <br>-->
-            </div> 
-            <div id="no" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <h5 id="error3"class="text-black text-center mt-5">Disculpe las molestias.<br> Muchas gracias por su tiempo.</h5>
-
-                                 <a href="https://udla.cl" class="btn orange text-white col-12 mt-2">Salir </a>
-                            </div>
-                        </div>
+<!--<img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/LRZ1x2g.png" alt="UANDES">-->
+           
+             <div id="cont1" class="p-5  hide">
+                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-black">
+                <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4"> Validar </button>
             </div>
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error1"class="text-black text-center mt-5"></h5>
+                                 <h5 id="error"class="text-black text-center mt-4"></h5>
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-1 hide">
+            <div id="cont2" class="p-1">
                 <div class="card">     
-                <div class="card-body">
-                <h5 class="text-black text-center"></h5>
-                    <h5 class="text-black">
-                    Sabemos que son momentos difíciles para todos, por este motivo queremos informarle que tenemos un  beneficio para que pueda liquidar su deuda con la universidad, el que considera rebaja del 100% en las multas por mora, 100% de los gastos de cobranza y la oportunidad de descuento en capital.</h5><br>
-                    <h5 class="text-black">Si le interesa recibir más información, comuníquese con nosotros o solicite que sea contactado.</h5>
-                    </div>
-                </div>
-
-              <!-- <a onclick="eventosLanding('LLAMAR'); Mens5();" class="btn orange text-white col-12 mt-2"> LLAMAR</a>-->
-               <button onclick="Mens5(); eventosLanding('Llamar')" class="btn orange text-white col-12 mt-2">Llamar</button>
-                
-                <button onclick="Mens6();" class="btn orange text-white col-12 mt-2">Contáctenme</button>
-
-                <button onclick="Mens7(); eventosLanding('Revisar Oferta')" class="btn orange text-white col-12 mt-2">Revisar Beneficio</button>
-
-               <!-- <button onclick="eventosLanding('REVISAR DEUDA'); Mens7();" class="btn orange text-white col-12 mt-2">Revisar Oferta</button>-->
-
-                <br>
-                     <br>
-                      <br>
-                       <br>
+                            <div class="card-body">
+                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php //echo $name; ?></span></h3>
+<hr>
+                <p class="text-black text-center">
+                  Universidad de las Américas, le recuerda que usted mantiene una deuda por regularizar.<br>
+Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. <br> 
+<br>
+                </p><br>
+     </div>
             </div>
+                  <div class="mt-2 text-center col-12" style="background:#384259;"> <br>
+<p class="text-white text-center"><strong>Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</strong><br></p>
+                     <div class="d-flex justify-content-around align-content-center text-center"> 
+      
+                    <!-- <span class="text-white  text-center">Mi Cuenta<br>
+                     <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
+                         <span class="text-warning  text-center">
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta%20por%20UDLA"><img width="70" src="https://i.imgur.com/j3Cpxva.png"></a></span>
+                       <span class="text-warning  text-center">
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890461"><img width="70" src="https://i.imgur.com/fPD04Qe.png"></a></span>
+                       <span class="text-warning  text-center">
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="70" src="https://i.imgur.com/EZIYM7o.png"></a></span>
+                    <span class="text-warning  text-center">
+                     <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://solvencia.cl/pagadeudas/"><img width="70" src="https://i.imgur.com/rfpxpiW.png"></a></span>
+                </div>
+                <br><br>
+
+                  </div>
+       
+        </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-
-                                <br><br><br>
-                                  <a href="https://udla.cl" class="btn orange text-white col-12 mt-2">Salir </a>
                             </div>
                         </div>
                     </div>
-            <div id="cont7" class="p-2 pl-5 pr-5 hide">
-                        <div class="card">     
-                <div class="card-body">
-                    <!--<h3 class="text-black text-center"><span id="name"></span>, bienvenido a la sucursal virtual de UDLA.</h3>-->
-                <h4 class="text-black text-center">Por favor indíquenos su teléfono de contacto para llamarle próximamente.</h4>
-                </div> </div>
-                <input id="telefono1" type="number" class="form-control mt-4 text-center text-black" placeholder="Telefono">
-                <input type="hidden" id="nombre1" class="form-control" required placeholder="nombre">
-
-<br> <br>
-                <select class="form-control" id="jornada" required>
-                  <option value="" data-select2-id="4">Jonada</option>                
-                  <option value="En La Mañana" data-select2-id="8">En La Mañana</option>
-                  <option value="En la Tarde" data-select2-id="9">En la Tarde</option>
-                  <option value="En la Noche" data-select2-id="10">En la Noche</option>
-                    </select><br>
-
-               <!-- <button onclick="sendMail('Deseo ser Contactado') return false; eventosLanding('CONTACTENME');" class="btn orange text-white col-12 mt-4"> Validar </button>-->
-
-                <button class="btn orange text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Contactarse');">Confirmar</button>
-                    </div>
-
-             <div id="cont8" class="p-2 pl-5 pr-5 hide">
-                        <div class="card">     
-                <div class="card-body">
-                    <!--<h3 class="text-black text-center"><span id="name"></span>, bienvenido a la sucursal virtual de UDLA.</h3>-->
-                <h4 class="text-black text-center">Revisar Beneficio</h4>
-
-                <h4 class="text-black text-center">Detalle</h4>
-              
-            <!--<h4 class="text-black text-center"><span id="name"></span>,  Su monto a pagar es de:</h4>
-            <h4 class="text-black text-center"><span id="data4"></span></h4>-->
-                <table class="table table-striped">
-                    <tbody>
-        <tr>
-            <td>Deuda Total</td>
-            <td> $ <span id="data2"></span></td>
-        </tr>
-        <tr>
-            <td>Descuento por Multas por</td>
-            <td><span id=""></span>100%</td>
-        </tr>
-        <tr>
-            <td>Descuentos Gastos de</td>
-            <td><span id="">100%</td>
-        </tr>
-        <tr>
-            <td>Descuento Capital</td>
-            <td> $ <span id="data3"></span></td>
-        </tr>
-        <tr>
-            <td><h5 class="red text-center">Monto oferta a pagar</h5></td>
-            <td><h5 class="red text-center">$ <span id="data4"></span></h5></td>
-        </tr>
-    </tbody>
-                </table>
-                    </div>
-                      </div> 
-            <button onclick="Mens9();" class="btn orange text-white col-12 mt-2">IR A MENU</button>
-
-            <a href="https://udla.cl" class="btn orange text-white col-12 mt-2">Salir </a>
-
-
-
-                  </div>
-
         </div>
-     <!-- </div>
-    </div>-->
+    </div>
 
     <script>
    //EVENT 1
- $(function(){
+        
+        $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
                 'json_datos': JSON.stringify(getAllUrlParameter())
-
-                          });
+            });
         }); 
 
          function event1(){
-            if($('#rut').val().length != 6){
-                $('#cont6').removeClass('hide');
-                 $('#error').text("Debe ingresar 6 dígitos");
-             }else{
+    
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
@@ -252,8 +154,8 @@ $name = $_GET['NOMBRE'];
                     });
                 }else{
                     $('#cont1').addClass('hide');
-                     $('#cont5').removeClass('hide');
-                    $('#error1').text("Validación incorrecta.");
+                    $('#cont5').removeClass('hide');
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
                 }
             })
             .fail(function() {
@@ -261,14 +163,15 @@ $name = $_GET['NOMBRE'];
             });
 
         }
+        
 
-}
         let eventosLanding = function(name){
             
             let json_datos = getAllUrlParameter(); 
 
             json_datos.nombre = $('#name').text();
-           // json_datos.monto = $('#pay').text();
+            json_datos.monto = $('#pay').text();
+           // json_datos.date = $('#date1').val();
 
             events({    
                 'name': name,
@@ -276,7 +179,7 @@ $name = $_GET['NOMBRE'];
                 'json_datos': JSON.stringify(json_datos)
             });
         }
-    
+
      
 
         function sendMail(msg = false){
@@ -286,50 +189,35 @@ $name = $_GET['NOMBRE'];
             let data; 
             if(msg !== false){
                 data = {
-                    'mensaje': msg,
-                    'Nombre': getUrlParameter('nombre'),
-                    'RUT': getUrlParameter('rut'),
-                    //'Telefono': getUrlParameter('telefono'),
-
-                   // 'Datos_Formulario': $('#nombre1').val(),
-                    //'Nombre': $('#nombre').val(),
-                    //'Apellido': $('#apellido').val(),
-                    //'RUT': $('#rut').val(),
-                    'Telefono': $('#telefono1').val(),
-                   // 'E-mail': $('#email').val(),
-                    'jornada': $('#jornada').val(),
-                    //'Carrera': $('#carrera').val(),
-                    //'Datos_URL': $('#nombre1').val(),
-                    //'Nombre_URL': getUrlParameter('nombre'),
-                    //'monto': getUrlParameter('monto'),
-                    //'Telefono_URL': getUrlParameter('telefono'),
-                     //'Rut_URL': getUrlParameter('rut')
-
-                    //'Monto': getUrlParameter('monto'),
-                    //'Estado': getUrlParameter('data1'),
-                    'landing': '{!! $landing->name !!}'
+                   'mensaje': msg,
+                    'Mombre': getUrlParameter('nombre'),
+                    'monto': getUrlParameter('monto'),
+                    'Phone': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                     'Direccion': getUrlParameter('data1'),
+                     'Comuna': getUrlParameter('data2') 
                    
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'Fecha Compromiso': date,
-                    'Nombre': getUrlParameter('nombre'),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
-                   // 'Monto': getUrlParameter('monto'),
-                   // 'Estado': getUrlParameter('data1'),
+                     'Fecha': date,
+                    'Mombre': getUrlParameter('nombre'),
+                    'monto': getUrlParameter('monto'),
+                    'Phone': getUrlParameter('telefono'),
+                     'Rut': getUrlParameter('rut'),
+                     'Direccion': getUrlParameter('data1'),
+                     'Comuna': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-
-           var correo = ["msouza@globalcobro.cl"];
-           // var correo = ["jesus.binteraction@gmail.com"];
+            
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': correo
-                //'email': '{!! $landing->email !!}'
+                 'email': correo
+                //'email':' {!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -342,15 +230,14 @@ $name = $_GET['NOMBRE'];
                 if(msg !== false){
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
-                      $('#cont7').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Uno de nuestros ejecutivos se pondrá en contacto en el horario indicado.');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado. Nos pondremos en contacto con usted en los próximos días');
-                     eventosLanding('Compromiso de Pago');
+                    eventosLanding('Compromiso de Pago');
                 }
             })
             .done(function(e) {
@@ -416,51 +303,10 @@ $name = $_GET['NOMBRE'];
             return obj;  
         };
 
-   
- function no(){
-     $('#cont1').addClass('hide');
-     $('#no').removeClass('hide');
- }
+      
         
-     function Mens5(){
-      window.location.href = "tel:+56226993897";
- }
-
-  function Mens6(){
-     $('#cont2').addClass('hide');
-     $('#cont7').removeClass('hide');
- }
-
-  function Mens7(){
-    var monto,data1,data2,data3,data4,data5; 
-         monto= getUrlParameter('monto');
-         data1= getUrlParameter('data1');
-         data2= getUrlParameter('data2');
-         data3= getUrlParameter('data3');
-         data4= getUrlParameter('data4');
-         data5= getUrlParameter('data5');
-
-
-     $('#cont2').addClass('hide');
-      $('#cont7').addClass('hide');
-     $('#cont8').removeClass('hide');
-     $('#monto').text(monto);
-     $('#data1').text(data1);
-     $('#data2').text(data2);
-     $('#data3').text(data3);
-     $('#data4').text(data4);
-     $('#data5').text(data5);
-     $('#name').text(e.data.nombre);
- }
-
-  function Mens9(){
-     $('#cont7').addClass('hide');
-      $('#cont8').addClass('hide');
-       $('#cont1').addClass('hide');
-     $('#cont2').removeClass('hide');
- }
+    
     </script>
- 
     
 
 @endsection
