@@ -75,7 +75,7 @@ $name=$_GET['NOMBRE'];
                 <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php echo $name; ?></span></h3>
 <hr>
                 <p class="text-black text-center">
-                  Universidad de las Américas, le recuerda que usted mantiene una deuda por regularizar.<br>
+                  PMG, le recuerda que usted mantiene una deuda por regularizar.<br>
 Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. <br> 
 <br>
                 </p><br>
