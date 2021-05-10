@@ -6,7 +6,7 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
-//$name=$_GET['NOMBRE'];
+$name=$_GET['NOMBRE'];
 ?>
 
 <style type="text/css">
@@ -44,16 +44,16 @@ $enddate=strtotime("+5 days", $startdate);
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     )
+        <div class="opaco"></div>
+
+        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+           <img style="max-width: 65%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="UDA">-
+
     }
     
 </style>
 
     <div id="UDA" style=" /*background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;*/">
-
-        <div class="opaco"></div>
-
-        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-           <img style="max-width: 65%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="UDA">-
 
 <!--<img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/LRZ1x2g.png" alt="UANDES">-->
            
@@ -72,7 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-1">
                 <div class="card">     
                             <div class="card-body">
-                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php //echo $name; ?></span></h3>
+                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php echo $name; ?></span></h3>
 <hr>
                 <p class="text-black text-center">
                   Universidad de las Américas, le recuerda que usted mantiene una deuda por regularizar.<br>
