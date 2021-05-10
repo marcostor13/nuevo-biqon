@@ -44,16 +44,16 @@ $name=$_GET['NOMBRE'];
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     )
-        <div class="opaco"></div>
-
-        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-           <img style="max-width: 65%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="UDA">-
-
     }
     
 </style>
 
-    <div id="UDA" style=" /*background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;*/">
+    <div id="UDLA" style=" /*background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;*/">
+
+        <div class="opaco"></div>
+
+        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+           <img style="max-width: 65%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="UDA">-
 
 <!--<img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/LRZ1x2g.png" alt="UANDES">-->
            
