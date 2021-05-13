@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-//$name = $_GET['NOMBRE'];
+$name = $_GET['NOMBRE'];
 //echo "El identificador de este cliente es: $identificador";
 ?>
 <style>
@@ -70,7 +70,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <button onclick="event1(); return false;" class="btn bg-dark text-white col-12 mt-4">Validar </button>
             </div>
 
-           <div id="cont2" class="p-1">
+           <div id="cont2" class="p-1 ">
 
             <div class="videoWrapper align-items-center ">        
                     <iframe width="400" height="320" src="{{asset('/files/oriencoop.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="justify-content-center" allowfullscreen></iframe>
@@ -79,7 +79,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <div class="card">     
                             <div class="card-body">
-                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php // echo $name; ?></span></h3>
+                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php  echo $name; ?></span></h3>
 <hr>
                 <p class="text-black text-center">
                 Lleva hasta el 23 de Mayo $1.100.000 En 24 cuotas a una tasa del 0,99%. solicita ahora en cualquiera de estas Opciones..
@@ -94,7 +94,7 @@ $enddate=strtotime("+5 days", $startdate);
        <a onclick="eventosLanding('solicitar credito');" href="https://www.oriencoop.cl/simulador-credito/" class="btn bg-primary text-white col-12 mt-4">SOLICITAR CREDITO </a><br>
         <a onclick="eventosLanding('Simular Credito');" href="https://www.oriencoop.cl/simulador-credito/" class="btn bg-primary text-white col-12 mt-4">SIMULAR CREDITO </a><br>
          
-          <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');"  class="btn bg-primary text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">SOLICITO QUE ME CONTACTEN</a>
+          <a onclick="sendMail('El cliente indica que desea ser contactado');"  class="btn bg-primary text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">SOLICITO QUE ME CONTACTEN</a>
 <br>
 <br>
 <br>
@@ -104,24 +104,26 @@ $enddate=strtotime("+5 days", $startdate);
 
                      <div class="d-flex justify-content-around align-content-center text-center"> 
                          <span class="text-white  text-center"><br>
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961933082&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961933082&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a></span>
                        <span class="text-white text-center"><br>
                     <a class="ml-2" onclick="eventosLanding('Facebook');" href="https://facebook.com/oriencoop5"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a></span>
                        <span class="text-white  text-center"><br>
                     <a class="ml-2" onclick="eventosLanding('Instagran');" href="https://facebook.com/oriencoop"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a></span>
                     <span class="text-white  text-center"><br>
-                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="100" src="https://www.oriencoop.cl/resources/img/PAGO_FACIL.png"></a></span>
                 </div>
                 <br><br>
 
                
        
         </div>
+            </div>
+
             
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-black text-center mt-3 hide"></h5>
+                                <h5 id="message"class="text-black text-center mt-3"></h5>
                             </div>
                         </div>
                     </div>
@@ -248,7 +250,7 @@ $enddate=strtotime("+5 days", $startdate);
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont1').addClass('hide');
+                     $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
