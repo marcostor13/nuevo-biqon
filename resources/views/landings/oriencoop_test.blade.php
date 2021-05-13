@@ -16,7 +16,8 @@ $enddate=strtotime("+5 days", $startdate);
 <style type="text/css">
     
 .card {
-/*  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);*/
+  background:#006fb6;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border: 0;
   font-weight: 400;
 }
@@ -34,6 +35,7 @@ $enddate=strtotime("+5 days", $startdate);
   transition: 0.2s ease-in-out;
 }
 .card .card-body .card-text {
+  background:#006fb6;
   color: #006fb6;
   font-size: 0.9rem;
   font-weight: 400;
