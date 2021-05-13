@@ -88,21 +88,23 @@ $enddate=strtotime("+5 days", $startdate);
        <a onclick="eventosLanding('solicitar credito');" href="https://www.oriencoop.cl/simulador-credito/" class="btn bg-primary text-white col-12 mt-4">SOLICITAR CREDITO </a><br>
         <a onclick="eventosLanding('Simular Credito');" href="https://www.oriencoop.cl/simulador-credito/" class="btn bg-primary text-white col-12 mt-4">SIMULAR CREDITO </a><br>
          
-          <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');"  class="btn bg-primary text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">Solicito que me Contacten</a>
+          <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');"  class="btn bg-primary text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">SOLICITO QUE ME CONTACTEN</a>
 <br>
 <br>
 <br>
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
-                      <div class="mt-2 text-center col-12" style="background:#006fb6;"> <br>
+                     <div class=" text-center col-12" style="background:#006fb6;" > 
+
+                     <div class="d-flex justify-content-around align-content-center text-center"> 
                          <span class="text-white  text-center"><br>
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961933082&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961933082&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg"></a></span>
                        <span class="text-white text-center"><br>
-                    <a class="ml-2" onclick="eventosLanding('Facebook');" href="https://facebook.com/oriencoop5"><img width="50" src="https://firebasestorage.googleapis.com/v0/b/biqon-d2511.appspot.com/o/landings%2Ficons%2F1620927766053_90dd9f12fdd1eefb8c8976903944c026-logotipo-del-icono-de-facebook-by-vexels.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Facebook');" href="https://facebook.com/oriencoop5"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a></span>
                        <span class="text-white  text-center"><br>
-                    <a class="ml-2" onclick="eventosLanding('Instagran');" href="https://facebook.com/oriencoop"><img width="50" src="https://firebasestorage.googleapis.com/v0/b/biqon-d2511.appspot.com/o/landings%2Ficons%2F1620927796575_3b21c7efd2ba9c119fb8d361acacc31d.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Instagran');" href="https://facebook.com/oriencoop"><img width="50" src="ttps://i.imgur.com/DVoiS58.png"></a></span>
                     <span class="text-white  text-center"><br>
-                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="50" src="https://firebasestorage.googleapis.com/v0/b/biqon-d2511.appspot.com/o/landings%2Ficons%2F1620928405101_678601-pago-facil.jpg"></a></span>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
                 <br><br>
 
