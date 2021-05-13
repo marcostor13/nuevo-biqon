@@ -110,7 +110,7 @@ $enddate=strtotime("+5 days", $startdate);
                        <span class="text-white  text-center"><br>
                     <a class="ml-2" onclick="eventosLanding('Instagran');" href="https://facebook.com/oriencoop"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a></span>
                     <span class="text-white  text-center"><br>
-                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="50" src="https://www.oriencoop.cl/resources/img/PAGO_FACIL.png"></a></span>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="70" src="https://www.oriencoop.cl/resources/img/PAGO_FACIL.png"></a></span>
                 </div>
                 <br><br>
 
