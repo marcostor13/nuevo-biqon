@@ -83,7 +83,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card">     
                             <div class="card-body">
               <center><h3 class="text-white ">
-                    Te entregamos estos consejos</h3></center>
+                    Te entregamos estos consejos para ahorro de 10% de retiro AFP</h3></center>
                <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
 
             
