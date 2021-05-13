@@ -92,9 +92,9 @@ $rut = $_GET['RUT'];
                 </p></h5>
 
 
- <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4">Escríbenos un Mensaje </a>
+             <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4">Escríbenos un Mensaje </a>
 
-               <a onclick="eventosLanding('Correo');" href="mailto: rutadelmaipo@herediaabogados.cl?subject=Cobranza%20Fonasa"class="btn bg-dark text-white col-12 mt-4">Escribir por Correo</a>
+               <a onclick="eventosLanding('Correo');" href="mailto: rutadelmaipo@herediaabogados.cl?subject=Cobranza%20Ruta%20de%20Maipo"class="btn bg-dark text-white col-12 mt-4">Escribir por Correo</a>
                    
              <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-dark text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">Solicito que me llamen</a>
 
