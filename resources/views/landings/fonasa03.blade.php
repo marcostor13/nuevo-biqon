@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 $name = $_GET['NOMBRE'];
-
+$rut = $_GET['RUT'];
 ?>
 <style>
 .opaco{
@@ -58,10 +58,10 @@ $name = $_GET['NOMBRE'];
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-  <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/ZRDnZsG.jpg" alt="HerediaAbogados">
-   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/ZRDnZsG.jpg" alt="HerediaAbogados">
+  <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/O8odGey.jpeg" alt="HerediaAbogados">
+   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/O8odGey.jpeg" alt="HerediaAbogados">
 
-   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/ZRDnZsG.jpg" alt="HerediaAbogados">
+   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/O8odGey.jpeg" alt="HerediaAbogados">
 
              <div id="cont1" class="p-5 hide">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
@@ -82,12 +82,11 @@ $name = $_GET['NOMBRE'];
                     </div>
 
             <div id="cont2" class="p-5 ">
-                <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?></span></strong></h5>
+                <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?></span>, RUT: <span><?php echo $rut; ?></span></strong></h5>
                 <!--<h5 class="text-black text-center">Sr(a) <span id="name"></span></h5>-->
 
                 <h5><p class="text-black"  align="justify">
-                  Hemos ingresado una demanda por cobro de cotizaciones previsionales de nuestro mandante Fondo Nacional de Salud. <br>
-                  Queremos saber si tienen intenciones de lograr un acuerdo para evitar futuras multas.
+                  se ingresó a tramitación una demanda por cotizaciones previsionales impagas de nuestro mandante FONASA. <br>Si tienen intención de lograr un acuerdo de pago, usted puede:
 
                 </p> </h5>
                
@@ -96,11 +95,11 @@ $name = $_GET['NOMBRE'];
                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>-->
               <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4">ESCRÍBENOS UN MENSAJE </a>
                    
-              <a onclick="eventosLanding('Llamar');" href="tel:+56934811384"class="btn bg-dark text-white col-12 mt-4">LLÁMANOS </a>
+             <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-dark text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">Solicito que me llamen></a>
+
+             <a onclick="eventosLanding('No corresponde'); sendMail('El teléfono no tiene relación con el titular');" class="btn bg-dark text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">El Telefono no corresponde</a>
 
                <a onclick="eventosLanding('Correo');" href="mailto: fonasa.judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"class="btn bg-dark text-white col-12 mt-4">ESCRIBIR POR CORREO</a>
-
-
                
 
                  <!-- <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
