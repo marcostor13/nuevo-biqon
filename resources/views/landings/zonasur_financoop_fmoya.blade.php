@@ -207,7 +207,7 @@ Opciones autoatención: <br></p>
                 } 
             }
 
-            var correo = ["franciscomoya@zonasursa.cl"];  
+            var correo = ["Fparedes.acosta@gmail.com"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
@@ -311,13 +311,13 @@ Opciones autoatención: <br></p>
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56998921248&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56951319710&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56998921248";
+        window.location.href ="tel:+56951319710";
     
         } 
     </script>
