@@ -63,98 +63,60 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Oriencoop">
 
-            <div id="cont1" class="p-5 ">
 
-           <!-- <div id="cont1" class="p-5 ">
-                <div class="card">     
-                <div class="card-body">
-                <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
-                <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4">Validar</button>
-            </div>-->
+               <div id="cont1" class="p-5 hide">
+                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
+                <button onclick="event1(); return false;" class="btn bg-dark text-white col-12 mt-4">Validar </button>
+            </div>
 
+           <div id="cont2" class="p-1">
 
-              <!--  <div id="cont5" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
-                            </div>
-                        </div>
-                    </div>-->
-
-            
-                <div class="card">     
-                <div class="card-body">
-                <h3 class="text-black text-center"> <strong> Estimado(a), Tenemos los siguientes Pruductos de Créditos de Consumo<span><?php// echo $name; ?></span>  </strong> </h3>
-
-                
-                
-
-               <div  id="cont2" class="p-2 pl-3 pr-3 "> 
-<!--todo tu codigo aqui-->
-<button onclick="event1(); " class="btn bg-danger text-white col-12 mt-4"> Credito de consumo</button>
-</div>
-
- <div  id="cont6" class="p-2 pl-3 pr-3 hide"> 
-<!--todo tu codigo aqui-->
-           <h5>Credito de consumo</h5>
-                <br>
-                <h5>Ven hoy por tu crédito de consumo y haz realidad tus sueños. En Oriencoop encontrarás la opción que más se ajusta a tus necesidades de manera rápida y conveniente.</h3>
-                    <br>
-                    <h3>Caracteristicas:</h3>
-                <li><h5>Hasta 60 meses para pagar en cuotas iguales, mensuales y en pesos.</h5></li>
-                <li><h5>Hasta 90 días para pagar la primera cuota.</h5></li>
-                 <li><h5>Sin cobro de impuestos de timbres y estampillas.</h5></li>
-                  <li><h5>Posibilidad de hacer prepago total o parcial.</h5></li>
-                  <button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-4"> SIMULAR</button>
-
-</div>
-
-
-
-
-
-     
-        
-
-
-                <!--<h4><p class="text-black"> <strong>
-                  Financoop líder en la atención a pensionados desde hace más de diez años, quieremos invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>
-                   
-                   
-                    <br>
-                    <h5>Ventajas del crédito</h5>
-                    <h6>-> Son de libre disposición y sin AVAL.<br>
-                    -> Cuotas: Hasta 60 meses de plazo.<br>
-                    -> Tasas reguladas por la Comisión para el Mercado Financiero (CMF).<br>
-                    -> Atendemos socios hasta los 93 años 11 meses.<br>
-                    -> Cobertura de Seguro de Desgravamen.<br>
-                    -> Abono directo en cuenta del socio o retiro en BancoEstado.<br>
-                    -> Evaluación inmediata.</h6>-->    
-            </div> 
-
-            </div> 
-           
-                <!--<div class="date btn bg-warning text-black col-12 mt-4">
-                    <span>AGENDAR VISITA A NUESTRA SUCURSAL</span>
-                    <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-                </div>-->
-
-
-                <button onclick='window.location.href="tel:+56961938453" 'class="btn bg-primary text-White col-12 mt-4">CONSULTAS</button>
-
-               <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-White col-12 mt-3">  DESEAS QUE TE CONTACTEMOS </button>
-
-                
-
-                <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56961938453&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56961938453"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
-                   
-                    <a onclick="eventosLanding('Correo');" href="mailto: vmontecinos@oriencoop.cl?subject=Solicito%20Informacion"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+            <div class="videoWrapper align-items-center ">        
+                    <iframe width="400" height="320" src="{{asset('/files/oriencoop.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="justify-content-center" allowfullscreen></iframe>
                 </div>
-               </div>  
+
+
+                <div class="card">     
+                            <div class="card-body">
+                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php // echo $name; ?></span></h3>
+<hr>
+                <p class="text-black text-center">
+                Lleva hasta el 23 de Mayo $1.100.000 En 24 cuotas a una tasa del 0,99%. solicita ahora en cualquiera de estas Opciones..
+<br>
+                </p><br>
+     </div>
+            </div>
+ <!--                
+<p class="text-white text-center"><strong>Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</strong><br></p>-->
+                     
+      
+       <a onclick="eventosLanding('solicitar credito');" href="https://www.oriencoop.cl/simulador-credito/" class="btn bg-primary text-white col-12 mt-4">SOLICITAR CREDITO </a><br>
+        <a onclick="eventosLanding('Simular Credito');" href="https://www.oriencoop.cl/simulador-credito/" class="btn bg-primary text-white col-12 mt-4">SIMULAR CREDITO </a><br>
+         
+          <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');"  class="btn bg-primary text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">SOLICITO QUE ME CONTACTEN</a>
+<br>
+<br>
+<br>
+                    <!-- <span class="text-white  text-center">Mi Cuenta<br>
+                     <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
+                     <div class=" text-center col-12" > 
+
+                     <div class="d-flex justify-content-around align-content-center text-center"> 
+                         <span class="text-white  text-center"><br>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961933082&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a></span>
+                       <span class="text-white text-center"><br>
+                    <a class="ml-2" onclick="eventosLanding('Facebook');" href="https://facebook.com/oriencoop5"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a></span>
+                       <span class="text-white  text-center"><br>
+                    <a class="ml-2" onclick="eventosLanding('Instagran');" href="https://facebook.com/oriencoop"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a></span>
+                    <span class="text-white  text-center"><br>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
+                </div>
+                <br><br>
+
+               
+       
+        </div>
             
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -359,21 +321,8 @@ $enddate=strtotime("+5 days", $startdate);
             return obj;  
         };
 
-       function event1(){
-
-  $('#cont2').addClass('hide');//ocultar div
-  $('#cont6').removeClass('hide');// mostrar div
- }
-        function event2(){
-
-           href()
-        }
-
-     function Mens3(){
-
-        window.location.href = "https://www.oriencoop.cl/simulador-credito/";
-    
-        }
+      
+        
     
     </script>
     

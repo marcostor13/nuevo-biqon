@@ -16,6 +16,7 @@ $enddate=strtotime("+5 days", $startdate);
 <style type="text/css">
     
 .card {
+  background:#006fb6;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border: 0;
   font-weight: 400;
@@ -34,7 +35,8 @@ $enddate=strtotime("+5 days", $startdate);
   transition: 0.2s ease-in-out;
 }
 .card .card-body .card-text {
-  color: #747373;
+  background:#006fb6;
+  color: #006fb6;
   font-size: 0.9rem;
   font-weight: 400;
 }
@@ -77,9 +79,11 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5">
+            <div id="cont2" class="p-1">
+                <div class="card">     
+                            <div class="card-body">
               <center><h3 class="text-white ">
-                    Te entregamos estos consejos</h3></center>
+                    Te entregamos estos consejos para ahorro de 10% de retiro AFP</h3></center>
                <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
 
             
@@ -140,43 +144,36 @@ $enddate=strtotime("+5 days", $startdate);
                      </tr>
                 </table>
 
-                <div class="mt-2 text-center" style="background:#006fb6;"> 
-<h6 class="text-warning text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</h6> 
-                     <div class="d-flex justify-content-around align-content-center text-center"> 
-      
-                    <!-- <span class="text-white  text-center">Mi Cuenta<br>
-                     <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
-                         <span class="text-white  text-center">Telefono<br>
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="tel:+56 71 220 7838"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
-                       <span class="text-white text-center">Teléfono Central<br>
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6002000015"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
-                       <span class="text-white  text-center">Correo<br>
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:jesus.binteraction@gmail.com"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
-                    <span class="text-white  text-center">Pago en Linea<br>
-                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
-                </div>
-                <br><br>
-
-                  </div>
           
 
                 <br>
 
+ 
+          <!--      <div class="mt-2 text-center col-12" style="background:#006fb6;"> 
+<h6 class="text-warning text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</h6> 
+                     <div class="d-flex justify-content-around align-content-center text-center"> -->
+      </div>
+    </div>
 
-                    <!--  <div class="bg-danger"><img src=""> <font color="black"><a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/coopeuch/"><img width="40" height="40" src="https://i.imgur.com/nh5Bh5C.png"></a><a onclick="eventosLanding('Twitter');" href="https://twitter.com/COOPEUCH"><img width="28" height="28" src="https://i.imgur.com/ITWWhIz.png"></a><a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/coopeuch/"><img  width="43" height="43" src="https://i.imgur.com/u9D7nV9.png"></a> <a style="color: white;"  href="https://www.coopeuch.cl">coopeuch.cl</a>               <a style="color: white; text-align: left;"   href="tel:+6002001200">600 200 1200</a></font></div>-->
+      <div class=" text-center col-12" style="background:#006fb6;" > 
+<p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarse con un Ejecutivo quien podrá asesorarle y resolver sus consultas.</strong><br></p>
+                     <div class="d-flex justify-content-around align-content-center text-center"> 
 
-                 
-                   <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
-                
 
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
+                    <!-- <span class="text-white  text-center">Mi Cuenta<br>
+                     <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
+                         <span class="text-white  text-center">Whatsapp<br>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961933082&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
+                       <span class="text-white text-center">Teléfono<br>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6002000015"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
+                       <span class="text-white  text-center">Correo<br>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:vrojas@oriencoop.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
+                    <span class="text-white  text-center">Hazte Socio<br>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/hazte-socio.htm"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
+                </div>
+                <br><br>
 
-                 <button class="btn bg-success text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">QUIERO QUE ME CONTACTEN</button>
-            
-                
-                 <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>   
-
-                 <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button> -->
+                  </div>
 
              </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
