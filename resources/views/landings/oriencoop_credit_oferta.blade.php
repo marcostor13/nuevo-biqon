@@ -98,11 +98,11 @@ $enddate=strtotime("+5 days", $startdate);
 
                      <div class="d-flex justify-content-around align-content-center text-center"> 
                          <span class="text-white  text-center"><br>
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961933082&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961933082&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a></span>
                        <span class="text-white text-center"><br>
                     <a class="ml-2" onclick="eventosLanding('Facebook');" href="https://facebook.com/oriencoop5"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a></span>
                        <span class="text-white  text-center"><br>
-                    <a class="ml-2" onclick="eventosLanding('Instagran');" href="https://facebook.com/oriencoop"><img width="50" src="ttps://i.imgur.com/DVoiS58.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Instagran');" href="https://facebook.com/oriencoop"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a></span>
                     <span class="text-white  text-center"><br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
