@@ -83,7 +83,7 @@ $enddate=strtotime("+5 days", $startdate);
             </div>
  <!--                
 <p class="text-white text-center"><strong>Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</strong><br></p>-->
-                     <div class="d-flex justify-content-around align-content-center text-center"> 
+                     
       
        <a onclick="eventosLanding('solicitar credito');" href="https://www.oriencoop.cl/simulador-credito/" class="btn bg-primary text-white col-12 mt-4">SOLICITAR CREDITO </a><br>
         <a onclick="eventosLanding('Simular Credito');" href="https://www.oriencoop.cl/simulador-credito/" class="btn bg-primary text-white col-12 mt-4">SIMULAR CREDITO </a><br>
@@ -92,7 +92,6 @@ $enddate=strtotime("+5 days", $startdate);
 <br>
 <br>
 <br>
-             </div>
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
                       <div class="mt-2 text-center col-12" style="background:#006fb6;"> <br>
