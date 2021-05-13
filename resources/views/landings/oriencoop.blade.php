@@ -63,70 +63,45 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Oriencoop">
 
-            <div id="cont1" class="p-5 ">
 
-           <!-- <div id="cont1" class="p-5 ">
+               <div id="cont1" class="p-5 hide">
+                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
+                <button onclick="event1(); return false;" class="btn bg-dark text-white col-12 mt-4">Validar </button>
+            </div>
+
+           <div id="cont2" class="p-1">
                 <div class="card">     
-                <div class="card-body">
-                <h3 class="text-black text-center"> <strong> Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT </strong> </h3> </div> </div>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-black input" autofocus>
-                <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4">Validar</button>
-            </div>-->
-
-
-              <!--  <div id="cont5" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
-                            </div>
-                        </div>
-                    </div>-->
-
-            
-                <div class="card">     
-                <div class="card-body">
-                <h3 class="text-black text-center"> <strong> Estimado(a) <span><?php// echo $name; ?></span>  </strong> </h3>
-
-                <h5>Incorpórate a una de las Cooperativas de Ahorro y Crédito más grandes del país, con más de 60 años de consolidada trayectoria, fiscalizada por la CMF y en la que podrás acceder a distintos productos y servicios financieros, además de una amplia gama de beneficios exclusivos para socios.</h5>
-
-
-                <!--<h4><p class="text-black"> <strong>
-                  Financoop líder en la atención a pensionados desde hace más de diez años, quieremos invitarlo a ser parte de nuestra familia con esta espectacular oferta</h4>
-                   
-                   
-                    <br>
-                    <h5>Ventajas del crédito</h5>
-                    <h6>-> Son de libre disposición y sin AVAL.<br>
-                    -> Cuotas: Hasta 60 meses de plazo.<br>
-                    -> Tasas reguladas por la Comisión para el Mercado Financiero (CMF).<br>
-                    -> Atendemos socios hasta los 93 años 11 meses.<br>
-                    -> Cobertura de Seguro de Desgravamen.<br>
-                    -> Abono directo en cuenta del socio o retiro en BancoEstado.<br>
-                    -> Evaluación inmediata.</h6>-->    
-            </div> 
-
-            </div> 
-           
-                <!--<div class="date btn bg-warning text-black col-12 mt-4">
-                    <span>AGENDAR VISITA A NUESTRA SUCURSAL</span>
-                    <input id="date1"  type="date" class="btn-date text-warning" style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-                </div>-->
-
-
-                <button onclick='window.location.href="tel:+56961938453" 'class="btn bg-primary text-White col-12 mt-4">CONSULTAS</button>
-
-               <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-White col-12 mt-3">  DESEAS QUE TE CONTACTEMOS </button>
-
-                
-
-                <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56961938453&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56961938453"><img width="40" src="https://i.imgur.com/Oh5DCRW.png"></a>
-                   
-                    <a onclick="eventosLanding('Correo');" href="mailto: vmontecinos@oriencoop.cl?subject=Solicito%20Informacion"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php // echo $name; ?></span></h3>
+<hr>
+                <p class="text-black text-center">
+                  ORIENCOOP, le recuerda que usted mantiene una deuda por regularizar.<br>
+Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. <br> 
+<br>
+                </p><br>
+     </div>
+            </div>
+                  <div class="mt-2 text-center col-12" style="background:#006fb6;"> <br>
+<p class="text-white text-center"><strong>Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</strong><br></p>
+                     <div class="d-flex justify-content-around align-content-center text-center"> 
+      
+                    <!-- <span class="text-white  text-center">Mi Cuenta<br>
+                     <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
+                         <span class="text-white  text-center">Whatsapp<br>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=569712207838&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
+                       <span class="text-white text-center">Teléfono<br>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6002000015"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
+                       <span class="text-white  text-center">Correo<br>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:jesus.binteraction@gmail.com"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
+                    <span class="text-white  text-center">Pago en Linea<br>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
-               </div>  
+                <br><br>
+
+                  </div>
+       
+        </div>
             
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
