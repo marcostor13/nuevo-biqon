@@ -3,6 +3,8 @@
 @section('title', 'HerediaAbogados')
 
 @section('content')
+
+
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
@@ -59,10 +61,10 @@ $enddate=strtotime("+5 days", $startdate);
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-   <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/ONdxbzM.jpg" alt="HerediaAbogados">
-   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/ONdxbzM.jpg" alt="HerediaAbogados">
+   <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/O8odGey.jpeg" alt="HerediaAbogados">
+   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/O8odGey.jpeg" alt="HerediaAbogados">
 
-   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/ONdxbzM.jpg" alt="HerediaAbogados">
+   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/O8odGey.jpeg" alt="HerediaAbogados">
 
                <div id="cont1" class="p-5 hide">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
@@ -83,30 +85,41 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
 
             <div id="cont2" class="p-5 ">
-                <h4 class="text-black text-center">Hola <strong><span><?php //echo $name; ?></span></strong></h4>
+                <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?></span>, RUT: <span><?php echo $rut; ?></span></strong></h5>
 
-                <h4><p class="text-black" align="justify">
-                 Informamos a usted, que se encuentra presentada y en proceso de notificación demanda por cobro de peajes impagos por RUTA DEL MAIPO. Favor contáctenos para regularizar su deuda y evitar la multa de 5 veces lo adeudado. 
-                </p></h4>
+                <h5><p class="text-black" align="justify">
+                 Se ingresó a tramitación una demanda por peaje impagos de nuestro mandante RUTA DEL MAIPO.<br> Si tienen intención de lograr un acuerdo de pago, usted puede:
+                </p></h5>
+
+
+  <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4">ESCRÍBENOS UN MENSAJE </a>
+                   
+             <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-dark text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">Solicito que me llamen></a>
+
+             <a onclick="eventosLanding('No corresponde'); sendMail('El teléfono no tiene relación con el titular');" class="btn bg-dark text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">El Telefono no corresponde</a>
+
+               <a onclick="eventosLanding('Correo');" href="mailto: fonasa.judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"class="btn bg-dark text-white col-12 mt-4">ESCRIBIR POR CORREO</a>
+               
+
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
                     <span>Compromiso de Pago</span>
                     <input id="date1"  type="date"  style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" onclick="sendMail();"/>
                 </div>-->
 
-                <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4">WHATSAPP EJECUTIVO </a>
+              <!--  <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4">WHATSAPP EJECUTIVO </a>
                    
               <a onclick="eventosLanding('Llamar');" href="tel:+56934811384"class="btn bg-dark text-white col-12 mt-4">LLAMAR A EJECUTIVO </a>
 
-               <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Ruta%20de%20Maipo"class="btn bg-dark text-white col-12 mt-4">ESCRIBIR POR CORREO</a>
+               <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Ruta%20de%20Maipo"class="btn bg-dark text-white col-12 mt-4">ESCRIBIR POR CORREO</a>-->
 
 
                  <!-- <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
               <!--   <button onclick="window.location.href='http://bit.ly/2kAAUJB'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> CONSULTAR A LA AUTOPISTA</button>-->
 
 
-                 <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar CONTACTO');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> DESEO QUE ME CONTACTEN </a>
-            <!--    <button onclick="sendMail('Solicito pagar en Cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar en Cuotas</button>
+               <!--   <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar CONTACTO');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> DESEO QUE ME CONTACTEN </a>
+               <button onclick="sendMail('Solicito pagar en Cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar en Cuotas</button>
 
                 <button onclick="sendMail('Solicito pagar el Total con descuento'); eventosLanding('total con Descuento'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar el Total con Descuento</button>
   
