@@ -75,8 +75,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                  <p class="text-black" align="text-center">
-                   Informamos que tenemos una solución a su deuda Financoop.
-Para conocer más detalles tiene un ejecutivo asignado con quien evaluar las alternativas disponibles.<br> #EstamosJuntosEnEsto  <br></p>
+                 En Cooperativa para el desarrollo Financoop, tenemos una opción de pago especial para ti! Puedes pagar el total de tu deuda con un importante descuento, o abonar y pactar el saldo en cuotas, sin intereses ni gastos adicionales!.<br> <br></p>
 
 
              <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>-->
@@ -86,9 +85,9 @@ Para conocer más detalles tiene un ejecutivo asignado con quien evaluar las alt
              <button class="btn bg-success text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">NECESITO QUE ME CONTACTEN</button>
 
                 
-             <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>
+            <!-- <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>
 
-             <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+             <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>-->
 
              </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
