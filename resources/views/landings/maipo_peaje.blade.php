@@ -58,10 +58,10 @@ $name = $_GET['NOMBRE'];
 
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-   <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/OVLJEwn.jpg" alt="HerediaAbogados">
-   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/OVLJEwn.jpg" alt="HerediaAbogados">
+   <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/O8odGey.jpeg" alt="HerediaAbogados">
+   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/O8odGey.jpeg" alt="HerediaAbogados">
 
-   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/OVLJEwn.jpg" alt="HerediaAbogados">
+   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/O8odGey.jpeg" alt="HerediaAbogados">
 
                <div id="cont1" class="p-5 hide">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
@@ -82,12 +82,23 @@ $name = $_GET['NOMBRE'];
                     </div>
 
             <div id="cont2" class="p-5 ">
-                <h4 class="text-black text-center">Hola <strong><span><?php echo $name; ?></span></strong></h4>
+              <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?></span>, RUT: <span><?php echo $rut; ?></span></strong></h5>
 
 
-                <h4><p class="text-black" align="justify">
-                  Te informamos que hasta el <strong> 30 de Septiembre del 2020 </strong> tenemos <strong>  DESCUENTOS</strong> de tu deuda demanda, para ello puedes:
-                </p></h4>
+                <h5><p class="text-black" align="justify">
+                  Usted tiene un <strong>25%</strong> de descuento de la deuda demanda de nuestro mandante RUTA DEL MAIPO que es  válido hasta el <strong>31 de Mayo de 2021</strong> <br>
+Si tienen intención de lograr un acuerdo de pago, usted puede:
+                </p></h5>
+
+
+                 <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4">ESCRÍBENOS UN MENSAJE </a>
+                   
+             <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-dark text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">Solicito que me llamen></a>
+
+             <a onclick="eventosLanding('No corresponde'); sendMail('El teléfono no tiene relación con el titular');" class="btn bg-dark text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">El Telefono no corresponde</a>
+
+               <a onclick="eventosLanding('Correo');" href="mailto: fonasa.judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"class="btn bg-dark text-white col-12 mt-4">ESCRIBIR POR CORREO</a>
+               
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
 
                     <span>Compromiso de Pago</span>
@@ -106,13 +117,13 @@ $name = $_GET['NOMBRE'];
 
                  <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4"style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por email <img width="30" src="https://i.imgur.com/EpCpCdx.png"></a>-->
 
-                  <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar detalle y forma de pago');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago por Correo </a>
+                <!--  <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar detalle y forma de pago');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago por Correo </a>
 
                   <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-dark text-white col-12 mt-4"style="  border: 1px solid #9e9e9e;">Solicitar detalle y forma de pago por Whastapp </a>
 
                   <a onclick="eventosLanding('Contactenme');" href="tel:+56226331354" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago por LLamada </a>
 
-                  <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>
+                  <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
 
 
                 <!--  <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;">El teléfono no corresponde </button>-->
