@@ -71,6 +71,12 @@ $enddate=strtotime("+5 days", $startdate);
             </div>
 
            <div id="cont2" class="p-1">
+
+            <div class="videoWrapper align-items-center ">        
+                    <iframe width="400" height="320" src="{{asset('/files/oriencoop.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="justify-content-center" allowfullscreen></iframe>
+                </div>
+
+
                 <div class="card">     
                             <div class="card-body">
                 <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php // echo $name; ?></span></h3>
