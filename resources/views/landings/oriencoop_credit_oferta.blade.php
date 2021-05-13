@@ -94,7 +94,7 @@ $enddate=strtotime("+5 days", $startdate);
 <br>
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
-                     <div class=" text-center col-12" style="background:#006fb6;" > 
+                     <div class=" text-center col-12" > 
 
                      <div class="d-flex justify-content-around align-content-center text-center"> 
                          <span class="text-white  text-center"><br>
