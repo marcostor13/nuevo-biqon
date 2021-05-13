@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-//$name = $_GET['NOMBRE'];
+$name = $_GET['NOMBRE'];
 //echo "El identificador de este cliente es: $identificador";
 ?>
 <style>
@@ -79,7 +79,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <div class="card">     
                             <div class="card-body">
-                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php // echo $name; ?></span></h3>
+                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php  echo $name; ?></span></h3>
 <hr>
                 <p class="text-black text-center">
                 Lleva hasta el 23 de Mayo $1.100.000 En 24 cuotas a una tasa del 0,99%. solicita ahora en cualquiera de estas Opciones..
