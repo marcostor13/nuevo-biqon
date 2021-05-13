@@ -77,7 +77,9 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5">
+            <div id="cont2" class="p-1">
+                <div class="card">     
+                            <div class="card-body">
               <center><h3 class="text-white ">
                     Te entregamos estos consejos</h3></center>
                <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
@@ -145,10 +147,17 @@ $enddate=strtotime("+5 days", $startdate);
                 <br>
 
  
-                <div class="mt-2 text-center col-12" style="background:#006fb6;"> 
+          <!--      <div class="mt-2 text-center col-12" style="background:#006fb6;"> 
 <h6 class="text-warning text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</h6> 
+                     <div class="d-flex justify-content-around align-content-center text-center"> -->
+      </div>
+    </div>
+
+      <div class=" text-center col-12" style="background:#006fb6;" > 
+<p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarse con un Ejecutivo quien podrá asesorarle y resolver sus consultas.</strong><br></p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
-      
+
+
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
                          <span class="text-white  text-center">Telefono<br>
