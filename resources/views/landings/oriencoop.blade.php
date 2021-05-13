@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 
-//$name = $_GET['NOMBRE'];
+$name = $_GET['NOMBRE'];
 //echo "El identificador de este cliente es: $identificador";
 ?>
 <style>
@@ -73,7 +73,7 @@ $enddate=strtotime("+5 days", $startdate);
            <div id="cont2" class="p-1">
                 <div class="card">     
                             <div class="card-body">
-                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php // echo $name; ?></span></h3>
+                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php  echo $name; ?></span></h3>
 <hr>
                 <p class="text-black text-center">
                   ORIENCOOP, le recuerda que usted mantiene una deuda por regularizar.<br>
