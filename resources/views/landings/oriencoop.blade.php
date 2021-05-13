@@ -94,8 +94,8 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6002000015"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
                        <span class="text-white  text-center">Correo<br>
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:vrojas@oriencoop.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
-                    <span class="text-white  text-center">Pago en Linea<br>
-                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
+                    <span class="text-white  text-center">Hazte Socio<br>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/hazte-socio.htm"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
                 <br><br>
 
