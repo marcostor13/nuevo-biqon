@@ -94,12 +94,14 @@ $rut = $_GET['RUT'];
 
                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>-->
               <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4">Escríbenos un Mensaje </a>
+
+               <a onclick="eventosLanding('Correo');" href="mailto: fonasa.judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"class="btn bg-dark text-white col-12 mt-4">Escribir por Correo</a>
                    
              <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-dark text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">Solicito que me llamen</a>
 
              <a onclick="eventosLanding('No corresponde'); sendMail('El teléfono no tiene relación con el titular');" class="btn bg-dark text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">El Telefono no corresponde</a>
 
-               <a onclick="eventosLanding('Correo');" href="mailto: fonasa.judicial@herediaabogados.cl?subject=Cobranza%20Fonasa"class="btn bg-dark text-white col-12 mt-4">Escribir por Correo</a>
+              
                
 
                  <!-- <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
