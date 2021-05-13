@@ -75,7 +75,15 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                  <p class="text-black" align="text-center">
-                   En Cooperativa para el desarrollo Financoop, tenemos una opción de pago especial para ti! Puedes pagar el total de tu deuda con un importante descuento, o abonar y pactar el saldo en cuotas, sin intereses ni gastos adicionales!.<br> <br></p>
+                        En Cooperativa para el desarrollo Financoop, tenemos una opción de pago especial para ti!
+
+ <br>
+
+Puedes pagar el total de tu deuda con un importante descuento, o abonar y pactar el saldo en cuotas, sin intereses ni gastos adicionales!
+
+ <br>
+
+Opciones autoatención: <br></p>
 
 
              <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>-->
