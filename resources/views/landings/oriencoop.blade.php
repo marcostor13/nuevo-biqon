@@ -64,16 +64,16 @@ $name = $_GET['NOMBRE'];
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Oriencoop">
 
 
-               <div id="cont1" class="p-5 hide">
+               <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
                 <button onclick="event1(); return false;" class="btn bg-dark text-white col-12 mt-4">Validar </button>
             </div>
 
-           <div id="cont2" class="p-1">
+           <div id="cont2" class="p-1 hide">
                 <div class="card">     
                             <div class="card-body">
-                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php  echo $name; ?></span></h3>
+                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php // echo $name; ?></span></h3>
 <hr>
                 <p class="text-black text-center">
                   ORIENCOOP, le recuerda que usted mantiene una deuda por regularizar.<br>
