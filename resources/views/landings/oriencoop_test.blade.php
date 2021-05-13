@@ -140,7 +140,12 @@ $enddate=strtotime("+5 days", $startdate);
                      </tr>
                 </table>
 
-                <div class="mt-2 text-center" style="background:#006fb6;"> 
+          
+
+                <br>
+
+ 
+                <div class="mt-2 text-center col-12" style="background:#006fb6;"> 
 <h6 class="text-warning text-center">Selecciona alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</h6> 
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
@@ -158,25 +163,6 @@ $enddate=strtotime("+5 days", $startdate);
                 <br><br>
 
                   </div>
-          
-
-                <br>
-
-
-                    <!--  <div class="bg-danger"><img src=""> <font color="black"><a onclick="eventosLanding('Facebook');" href="https://www.facebook.com/coopeuch/"><img width="40" height="40" src="https://i.imgur.com/nh5Bh5C.png"></a><a onclick="eventosLanding('Twitter');" href="https://twitter.com/COOPEUCH"><img width="28" height="28" src="https://i.imgur.com/ITWWhIz.png"></a><a onclick="eventosLanding('Instagram');" href="https://www.instagram.com/coopeuch/"><img  width="43" height="43" src="https://i.imgur.com/u9D7nV9.png"></a> <a style="color: white;"  href="https://www.coopeuch.cl">coopeuch.cl</a>               <a style="color: white; text-align: left;"   href="tel:+6002001200">600 200 1200</a></font></div>-->
-
-                 
-                   <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
-                
-
-                <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
-
-                 <button class="btn bg-success text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">QUIERO QUE ME CONTACTEN</button>
-            
-                
-                 <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>   
-
-                 <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button> -->
 
              </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
