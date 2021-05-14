@@ -87,7 +87,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>
                          <span class="text-danger  text-center">WhatsApp<br>
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983001247&text=Hola,%20tengo%20una%20consulta%20por%20deuda%20Banmedica"><img width="50" src="https://i.imgur.com/86IRYB5.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890453&text=Hola,%20tengo%20una%20consulta%20por%20deuda%20Banmedica"><img width="50" src="https://i.imgur.com/86IRYB5.png"></a></span>
                        <span class="text-danger  text-center">Teléfono<br>
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="50" src="https://i.imgur.com/EQmqiCk.png"></a></span>
                        <span class="text-danger  text-center">Correo<br>
