@@ -89,7 +89,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
                          <span class="text-warning  text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983001247&text=Hola,%20tengo%20una%20consulta%20DUOC"><img width="70" src="https://i.imgur.com/j3Cpxva.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890453&text=Hola,%20tengo%20una%20consulta%20DUOC"><img width="70" src="https://i.imgur.com/j3Cpxva.png"></a></span>
                        <span class="text-warning  text-center">
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="70" src="https://i.imgur.com/fPD04Qe.png"></a></span>
                        <span class="text-warning  text-center">
