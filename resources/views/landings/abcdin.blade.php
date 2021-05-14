@@ -92,7 +92,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                         <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="70" src="https://i.imgur.com/sN7X4XZ.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="70" src="https://i.imgur.com/yedwmQG.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="70" src="https://i.imgur.com/yedwmQG.png"></a></span>
                      <span class="text-white text-center">
                 <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.abcserviciosfinancieros.cl/paga-tu-cuenta"> <img width="70" src="https://i.imgur.com/TI8UBph.png"></a></span>
                 </div>
