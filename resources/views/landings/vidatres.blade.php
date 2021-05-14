@@ -93,7 +93,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                        <span class="text-primary  text-center">Teléfono<br>
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="50" src="https://i.imgur.com/EQmqiCk.png"></a></span>
                        <span class="text-primary  text-center">Correo<br>
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="50" src="https://i.imgur.com/Jg98aT5.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="50" src="https://i.imgur.com/Jg98aT5.png"></a></span>
                     <span class="text-primary  text-center">Pago en Línea<br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://i.imgur.com/2YPpKWm.png"></a></span>
                 </div>-->
@@ -102,7 +102,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                         <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="70" src="https://i.imgur.com/9AbTaoC.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
                      <span class="text-white text-center">
                 <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.vidatres.cl/pago-en-linea/"> <img width="70" src="https://i.imgur.com/HEnso4V.png"></a></span>
                 </div>
