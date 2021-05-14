@@ -92,7 +92,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                        <span class="text-black  text-center">Teléfono<br>
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="50" src="https://i.imgur.com/EQmqiCk.png"></a></span>
                        <span class="text-black  text-center">Correo<br>
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="50" src="https://i.imgur.com/Jg98aT5.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="50" src="https://i.imgur.com/Jg98aT5.png"></a></span>
                     <span class="text-black  text-center">Pago en Linea<br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://webpay.uandes.cl/"><img width="50" src="https://i.imgur.com/2YPpKWm.png"></a></span>
                 </div>-->
@@ -102,7 +102,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                         <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="70" src="https://i.imgur.com/jHwdyby.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="70" src="https://i.imgur.com/2YlOrMQ.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="70" src="https://i.imgur.com/2YlOrMQ.png"></a></span>
                      <span class="text-white text-center">
                 <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://webpay.uandes.cl/"> <img width="70" src="https://i.imgur.com/425rNaE.png"></a></span>
                 </div>
