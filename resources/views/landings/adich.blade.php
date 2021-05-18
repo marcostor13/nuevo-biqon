@@ -75,7 +75,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) Sr(a)<span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                    Le recordamos que usted tiene una solicitud de hora medica para el ##/##/## con hora ##:## MM
+                    Le recordamos que usted tiene una solicitud de hora medica para el <?php echo date("Y-m-d", $enddate) ?> con hora ##:## MM
                     <br> <br></p>              
 
                <button onclick="sendMail('ASISTIRE A MI HORA'); ;eventosLanding('SI'); return false;" class="btn bg-primary text-white col-12 mt-4">SI</button>
