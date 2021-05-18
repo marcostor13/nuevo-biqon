@@ -72,10 +72,10 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 ">
-                <h3 class="text-black text-center">Estimado(a) Sr(a) Nombre_Paciente<span id="name"></span></h3>
+                <h3 class="text-black text-center">Estimado(a) Sr(a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                    Le recordamos que usted tiene una solicitud de hora médica en Nuestra Asociacion,  con el Dr <strong> Nombre_Doctor </strong> para el día <?php echo date("d-m-Y", $enddate) ?> a las 03:00 PM
+                    Le recordamos que usted tiene una solicitud de hora médica en Nuestra Asociacion,  con el Dr <strong> BINTERACTION CHILE </strong> para el día <?php echo date("d-m-Y", $enddate) ?> a las 03:00 PM
                     <br> Favor confirmar su asistencia<br></p>              
 
                <button onclick="sendMail('ASISTIRE A MI HORA'); ;eventosLanding('SI'); return false;" class="btn bg-primary text-white col-12 mt-4">SI</button>
