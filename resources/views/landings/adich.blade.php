@@ -75,7 +75,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) Sr(a) Nombre_Paciente<span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                    Le recordamos que usted tiene una solicitud de hora médica en Nuestra Asociacion,  con el Dr Nombre_DOCTOR para el día <?php echo date("d-m-Y", $enddate) ?> a las 03:00 PM
+                    Le recordamos que usted tiene una solicitud de hora médica en Nuestra Asociacion,  con el Dr <strong> Nombre_DOCTOR </strong> para el día <?php echo date("d-m-Y", $enddate) ?> a las 03:00 PM
                     <br> Favor confirmar su asistencia<br></p>              
 
                <button onclick="sendMail('ASISTIRE A MI HORA'); ;eventosLanding('SI'); return false;" class="btn bg-primary text-white col-12 mt-4">SI</button>
@@ -190,7 +190,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["matiascontreras@zonasursa.cl"];  
+            var correo = ["jesus.binteraction@gmail.com"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
