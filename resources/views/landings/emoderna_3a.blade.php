@@ -92,9 +92,26 @@ $name = $_GET['NOMBRE'];
                             <div class="card-body">
                              <h5 class="text-black text-center"> Estimado(a) <strong>  <span><?php echo $name; ?></span></strong> </h5>
                             <p class="text-black"> 
-                              Para repactar su deuda le solicitaremos un pie, y el saldo podrá pagarlo en 4 cuotas, de enero a abril 2021.
-                             <!-- Te informamos que presenta <span><?php // echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php // echo $monto; ?></span>. 
 
+                               Le Recoramos que presenta <span><?php // echo $cuota; ?></span> cuota pendiene de pago, por un monto total $<span><?php // echo $monto; ?></span>. 
+<br>
+
+                              En caso de:
+
+                           Haber pagado, envíe el comprobante al correo cobranzas@emoderna.cl
+                           <br>
+                           De tener fecha de pago estimada para estos montos agradeceríamos informarnos al correo  cobranzas@emoderna.cl
+
+                           <br>
+
+                             En caso de cualquier consulta escribir a cobranzas@emoderna.cl
+
+
+
+
+
+                             <!-- Para repactar su deuda le solicitaremos un pie, y el saldo podrá pagarlo en 4 cuotas, de enero a abril 2021.
+                             
                               <br> Le  recordamos que no podrá realizar matricula 2021 si presenta más de 3 cuotas pendientes del arancel 2020.
                               <br>
                                <br> Pinche su opción:
@@ -112,7 +129,7 @@ $name = $_GET['NOMBRE'];
 
                                 Una vez realizada tu tranferencia de el pago de su(s) cuota(s) pendiente(s) enviar comprobante al correo de cobranzas<br>
                                 Correo: cobranzas@emoderna.cl <br>-->
-                            </p>
+                            </p>-->
 
             <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CONTACTAR A COBRANZAS PARA BENEFICIOS </a>
 
