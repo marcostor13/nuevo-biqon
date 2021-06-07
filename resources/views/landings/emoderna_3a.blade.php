@@ -100,7 +100,7 @@ $name = $_GET['NOMBRE'];
 
                               <br>
 
-                           Haber pagado, envíe el comprobante en:
+                          <strong>Haber pagado, envíe el comprobante en:</strong>
 
     <br>
 
@@ -108,13 +108,13 @@ $name = $_GET['NOMBRE'];
                       <br>
 
                            <br>
-                           De tener fecha de pago estimada para estos montos agradeceríamos informarnos al:
+                         <strong>  De tener fecha de pago estimada para estos montos agradeceríamos informarnos al:<strong>
 
                            <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> Contactenme </a>
 
                            <br>
 
-                             En caso de cualquier consulta escribir a:
+                            <strong> En caso de cualquier consulta escribir a:<strong>
  <br>
 
 <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> Tengo una Consulta </a>
