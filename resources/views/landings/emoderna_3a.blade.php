@@ -95,8 +95,11 @@ $name = $_GET['NOMBRE'];
 
                                Le Recoramos que presenta <span><?php // echo $cuota; ?></span> cuota pendiene de pago, por un monto total $<span><?php // echo $monto; ?></span>. 
 <br>
+<br>
 
-                              En caso de:
+                             <strong>  En caso de: <strong>
+                              <br>
+
 
                               <br>
 
