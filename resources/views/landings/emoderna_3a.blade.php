@@ -93,7 +93,7 @@ $name = $_GET['NOMBRE'];
                              <h5 class="text-black text-center"> Estimado(a) <strong>  <span><?php echo $name; ?></span></strong> </h5>
                             <p class="text-black"> 
 
-                               Le Recoramos que presenta <span><?php // echo $cuota; ?></span> cuota pendiene de pago, por un monto total $<span><?php // echo $monto; ?></span>. 
+                               Le Recoramos que presenta <span><?php echo $cuota; ?></span> cuota pendiene de pago, por un monto total $<span><?php  echo $monto; ?></span>. 
 <br>
 <br>
 
