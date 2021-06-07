@@ -98,15 +98,26 @@ $name = $_GET['NOMBRE'];
 
                               En caso de:
 
-                           Haber pagado, envíe el comprobante al correo cobranzas@emoderna.cl
-                           <br>
-                           De tener fecha de pago estimada para estos montos agradeceríamos informarnos al correo  cobranzas@emoderna.cl
+                              <br>
+
+                           Haber pagado, envíe el comprobante en:
+
+    <br>
+
+                  <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> Ya pague </a>
+                      <br>
 
                            <br>
+                           De tener fecha de pago estimada para estos montos agradeceríamos informarnos al:
 
-                             En caso de cualquier consulta escribir a cobranzas@emoderna.cl
+                           <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> Contactenme </a>
 
+                           <br>
 
+                             En caso de cualquier consulta escribir a:
+ <br>
+
+<a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> Tengo una Consulta </a>
 
 
 
@@ -129,7 +140,9 @@ $name = $_GET['NOMBRE'];
 
                                 Una vez realizada tu tranferencia de el pago de su(s) cuota(s) pendiente(s) enviar comprobante al correo de cobranzas<br>
                                 Correo: cobranzas@emoderna.cl <br>-->
-                            </p>-->
+                            </p>
+
+
 
             <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CONTACTAR A COBRANZAS PARA BENEFICIOS </a>
 
