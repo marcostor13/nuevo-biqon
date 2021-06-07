@@ -109,7 +109,7 @@ $name = $_GET['NOMBRE'];
     <br>
 
 
-                  <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> Ya pague </a>
+                  <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Ya pague"); return false;' class="btn bg-danger text-white col-12 mt-2"> Ya pague </a>
                       <br>
 
                            <br>
@@ -117,7 +117,7 @@ $name = $_GET['NOMBRE'];
 
                          <strong>  De tener fecha de pago estimada para estos montos agradeceríamos informarnos al:<strong>
 
-                           <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> Contactenme </a>
+                           <a class="btn bg-danger text-white col-12 mt-2" onclick='correo2(); eventosLanding("Contactenme"); return false;' class="btn bg-danger text-white col-12 mt-2"> Contactenme </a>
 
                            <br>
                            <br>
@@ -128,7 +128,7 @@ $name = $_GET['NOMBRE'];
  <br>
 
 
-<a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> Tengo una Consulta </a>
+<a class="btn bg-danger text-white col-12 mt-2" onclick='correo3(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> Tengo una Consulta </a>
 
 
 
@@ -449,6 +449,34 @@ $name = $_GET['NOMBRE'];
          var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20arancel%202020%20y%20así%20poder%20iniciar%20el%20proceso%20de%20matrícula%202021";
 
    window.location.href = "mailto:cobranzas@emoderna.cl?subject=Ya pague&";
+
+ }
+
+  function correo2(){
+       var id_adm; 
+         id_adm= getUrlParameter('NOMBRE'); 
+         var rut; 
+         rut= getUrlParameter('RUT');
+
+        // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
+
+         var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20arancel%202020%20y%20así%20poder%20iniciar%20el%20proceso%20de%20matrícula%202021";
+
+   window.location.href = "mailto:cobranzas@emoderna.cl?subject=Contactenme&";
+
+ }
+
+  function correo3(){
+       var id_adm; 
+         id_adm= getUrlParameter('NOMBRE'); 
+         var rut; 
+         rut= getUrlParameter('RUT');
+
+        // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
+
+         var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20arancel%202020%20y%20así%20poder%20iniciar%20el%20proceso%20de%20matrícula%202021";
+
+   window.location.href = "mailto:cobranzas@emoderna.cl?subject=Tengo una Consulta&";
 
  }
     </script>
