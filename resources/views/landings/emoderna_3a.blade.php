@@ -448,7 +448,7 @@ $name = $_GET['NOMBRE'];
 
          var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20arancel%202020%20y%20así%20poder%20iniciar%20el%20proceso%20de%20matrícula%202021";
 
-   window.location.href = "mailto:cobranzas@emoderna.cl?subject=REPACTACIÓN&body=NOMBRE:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+   window.location.href = "mailto:cobranzas@emoderna.cl?subject=Ya pague&";
 
  }
     </script>
