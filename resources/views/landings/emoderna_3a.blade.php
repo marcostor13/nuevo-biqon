@@ -93,7 +93,14 @@ $name = $_GET['NOMBRE'];
                              <h5 class="text-black text-center"> Estimado(a) <strong>  <span><?php echo $name; ?></span></strong> </h5>
                             <p class="text-black"> 
 
-                               Le Recoramos que presenta <span><?php echo $cuota; ?></span> cuota pendiene de pago, por un monto total $<span><?php  echo $monto; ?></span>. 
+<br>
+<br>
+                 Le Recoramos que presenta <span><?php echo $cuota; ?></span> cuota pendiene Por la Repactación deuda 2020, esto por un monto total de $<span><?php  echo $monto; ?></span>. 
+<br>
+<br>
+
+Agradeceríamos mucho pudiera darnos fecha de pago para estas cuotas. En caso de haber regularizado esta situación agradeceríamos nos enviara dicho comprobante.
+
 <br>
 <br>
 
