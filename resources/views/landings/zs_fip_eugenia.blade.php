@@ -76,7 +76,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                <p class="text-black" align="text-center">
 
-                    <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>
+                   <!-- <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>-->
                 
 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
@@ -196,7 +196,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["ivanp@zonasursa.cl"];  
+            var correo = ["eugeniapainemil@zonasursa.cl"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
