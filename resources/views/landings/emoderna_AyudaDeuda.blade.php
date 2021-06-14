@@ -95,7 +95,7 @@ $name = $_GET['NOMBRE'];
 
 <br>
 
-                               Le Recoramos que presenta deuda por apoyo económico recibido el año 2020 para cuotas de dicho arancel. Registra <span><?php echo $cuota; ?></span>cuotas pendientes por un total de $<span><?php  echo $monto; ?></span>. 
+                               Le Recordamos que presenta deuda por apoyo económico recibido el año 2020 para cuotas de dicho arancel. Registra <span><?php echo $cuota; ?></span>cuotas pendientes por un total de $<span><?php  echo $monto; ?></span>. 
 <br>
 <br>
 Agradeceríamos mucho pudiera darnos fecha de pago para estas cuotas. En caso de haber regularizado esta situación agradeceríamos nos enviara dicho comprobante.
