@@ -85,7 +85,7 @@ $enddate=strtotime("+5 days", $startdate);
                  <div class="d-flex justify-content-between">
 
                     <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required placeholder="telefono">
+                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
                       <label for="form2"></label>
                     </div>
                     <div class="md-form col-6  m-0">
