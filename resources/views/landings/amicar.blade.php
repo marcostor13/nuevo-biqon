@@ -224,11 +224,11 @@ $enddate=strtotime("+15 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': getUrlParameter('nombre'),
-                    'RUT': getUrlParameter('rut'),
+                   // 'Nombre': getUrlParameter('nombre'),
+                    'ID': getUrlParameter('id'),
                     'Telefono': getUrlParameter('telefono'),
                     'Marca': getUrlParameter('data1'),
-                    'Periodo': getUrlParameter('data2'),
+                    //'Periodo': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                    
                     
