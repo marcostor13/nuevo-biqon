@@ -104,7 +104,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="text-center">
                     <hr>
-                    <button class="btn bg-primary text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion Renovacion'); return false;">Contactame</button>
+                    <button class="btn bg-warning text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion Renovacion'); return false;">Contactame</button>
                     
                   </div>
                     </div>
