@@ -67,7 +67,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
-                    <strong>Indicanos el modelo de tu interés</strong>
+                    <strong>Indícanos el modelo de tu interés</strong>
                   </h4>
                   <hr>
 
@@ -108,7 +108,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="text-center">
                     <hr>
-                    <button class="btn bg-warning text-grey col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion Modelo'); return false;">Contactame</button>
+                    <button class="btn bg-warning text-grey col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion Modelo'); return false;">Enviar mi respuesta</button>
                     
                   </div>
                     </div>
