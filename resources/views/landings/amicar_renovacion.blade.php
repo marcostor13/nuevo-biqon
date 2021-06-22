@@ -67,7 +67,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
-                    <strong>¿Tienes intension de Renovar tu actual vehiculo este año?</strong>
+                    <strong>¿Tienes intención de Renovar tu actual vehiculo este año?</strong>
                   </h4>
                   <hr>
 
@@ -104,7 +104,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="text-center">
                     <hr>
-                    <button class="btn bg-warning text-grey col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion Renovacion'); return false;">Contactame</button>
+                    <button class="btn bg-warning text-grey col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion Renovacion'); return false;">Enviar mi respuesta</button>
                     
                   </div>
                     </div>
