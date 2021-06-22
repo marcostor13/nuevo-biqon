@@ -67,7 +67,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
-                    <strong>¿Tienes intención de Renovar tu actual vehiculo este año?</strong>
+                    <strong>¿Tienes intención de Renovar tu actual vehículo este año?</strong>
                   </h4>
                   <hr>
 
