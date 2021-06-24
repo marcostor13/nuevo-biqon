@@ -43,7 +43,7 @@ $enddate=strtotime("+6 days", $startdate);
 
                 <p class="text-black">
 
-                   #QuedateEnCasa y prefiere nuestros canales digitales! Puedes consultar el estado de tu Crédito Automotriz, solicitar información, conocer nuestros beneficios y contactar con nuestros ejecutivos. Todo en <a href="www.bancofalabella.cl"> www.bancofalabella.cl </a>
+                   #QuedateEnCasa y prefiere nuestros canales digitales! Puedes consultar el estado de tu Tarjeta, solicitar información, conocer nuestros beneficios y contactar con nuestros ejecutivos.Todo en <a href="www.bancofalabella.cl"> www.bancofalabella.cl </a>
 
                 <br>
                 <br>
@@ -51,7 +51,7 @@ $enddate=strtotime("+6 days", $startdate);
 
                    Gracias por tu Preferencia.
                 </p>
-                               <div class="date btn bg-primary text-white col-12 mt-4">
+                               <div class="btn bg-success text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
