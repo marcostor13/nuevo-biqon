@@ -56,12 +56,14 @@ $enddate=strtotime("+6 days", $startdate);
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
 
+<button onclick='window.location.href="http://servipag.mundocredito.cl/PagoCuotas.php"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
 
-<a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56967599345"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+
+         <button onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56967599345"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></button>
 
 
-<div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967599345&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png"></a>
+               <div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <button onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967599345&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png"></button>
 
 
                 <button onclick='window.location.href="http://servipag.mundocredito.cl/PagoCuotas.php"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
