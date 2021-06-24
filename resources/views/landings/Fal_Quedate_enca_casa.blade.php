@@ -43,7 +43,7 @@ $enddate=strtotime("+6 days", $startdate);
 
                 <p class="text-black">
 
-                   #QuedateEnCasa y prefiere nuestros canales digitales! Puedes consultar el estado de tu Crédito Automotriz, solicitar información, conocer nuestros beneficios y contactar con nuestros ejecutivos. Todo en www.Mundocredito.cl
+                   #QuedateEnCasa y prefiere nuestros canales digitales! Puedes consultar el estado de tu Tarjeta, solicitar información, conocer nuestros beneficios y contactar con nuestros ejecutivos. Todo en www.bancofalabella.cl
 
                 <br>
                 <br>
@@ -64,7 +64,7 @@ $enddate=strtotime("+6 days", $startdate);
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967599345&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png"></a>
 
 
-                <button onclick='window.location.href="http://servipag.mundocredito.cl/PagoCuotas.php"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="https://www.bancofalabella.cl/pagar-cmr"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
 
                
                 
