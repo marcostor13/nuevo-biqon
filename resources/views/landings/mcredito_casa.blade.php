@@ -43,7 +43,7 @@ $enddate=strtotime("+6 days", $startdate);
 
                 <p class="text-black">
 
-                   #QuedateEnCasa y prefiere nuestros canales digitales!sTodo en <a href="https://www.Mundocredito.cl"> www.Mundocredito.cl </a>
+                   #QuedateEnCasa y prefiere nuestros canales digitales! Todo en <a href="https://www.Mundocredito.cl"> www.Mundocredito.cl </a>
 
                 <br>
                 <br>
