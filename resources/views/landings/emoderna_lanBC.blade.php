@@ -90,7 +90,7 @@ $name = $_GET['NOMBRE'];
                             <div class="card-body">
                              <h5 class="text-black text-center"> Estimado(a) <strong> <span><?php echo $name; ?></span></strong> </h5>
                             <p class="text-black"> 
-                              Registramos deuda pendiente por arancel 2020, correspondiente a <span><?php echo $cuota; ?></span>  cuotas <br> por un monto total de $ <span><?php echo $monto; ?>.
+                              Registramos deuda pendiente por arancel 2020, correspondiente a <span><?php echo $cuota; ?></span> cuotas <br> por un monto total de $ <span><?php echo $monto; ?>.
                               <br>
                                <br> Atte, Cobranzas, Escuela Moderna de Música
                               <!--<strong>INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA </strong> <br>
