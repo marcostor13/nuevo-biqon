@@ -7,8 +7,8 @@
 <?php
 //$startdate=strtotime("Today");
 //$startdate=('Y-m-d\TH:i:s');
-//$monto = $_GET['MONTO'];
-//$cuota = $_GET['DATA1'];
+$monto = $_GET['MONTO'];
+$cuota = $_GET['DATA1'];
 $name = $_GET['NOMBRE'];
 //$enddate=strtotime("+5 days", $startdate);
 //$enddate=('Y-m-d\TH:i:s');
@@ -90,13 +90,9 @@ $name = $_GET['NOMBRE'];
                             <div class="card-body">
                              <h5 class="text-black text-center"> Estimado(a) <strong> <span><?php echo $name; ?></span></strong> </h5>
                             <p class="text-black"> 
-                              Te informamos que presenta <span><?php echo $cuota; ?></span> cuotas pendientes  por el siguiente monto total $<span><?php echo $monto; ?></span>. 
-
-                              <br> Le  recordamos que no podrá realizar matricula 2021 si presenta más de 2 cuotas pendientes del arancel 2020. 
+                              Registramos deuda pendiente por arancel 2020, correspondiente a <span><?php echo $cuota; ?></span>  cuotas por un monto tota de $ <span><?php echo $monto; ?>.
                               <br>
-                              <br>Para facilitar el pago de arancel 2021 realice matricula optando a los beneficios CAE y BECA.
-                              <br>
-                               <br> Pinche su opción:
+                               <br> Atte, Cobranzas, Escuela Moderna de Música
                               <!--<strong>INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA </strong> <br>
                               Le invitamos a realizar el pago de su(s) cuota(s) pendiente(s) mediante transferencia electrónica:
                               <br>
@@ -115,9 +111,9 @@ $name = $_GET['NOMBRE'];
 
             <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="mailto:cobranzas@emoderna.cl?subject=Cobranza%20Escuela%20Moderna" ; eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CONTACTAR A COBRANZAS PARA BENEFICIOS Y OPCIONES </a>
 
-             <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA</button>
+           <!--  <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA</button>
 
-              <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>
+              <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>-->
 
             
 
