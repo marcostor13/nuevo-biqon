@@ -109,7 +109,7 @@ $name = $_GET['NOMBRE'];
                                 Correo: cobranzas@emoderna.cl <br>-->
                             </p>
 
-            <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="mailto:cobranzas@emoderna.cl?subject=Cobranza%20Escuela%20Moderna" ; eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CONTACTAR A COBRANZAS PARA BENEFICIOS Y OPCIONES </a>
+            <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="mailto:cobranzas@emoderna.cl?subject=Cobranza%20Escuela%20Moderna" ; eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CONTACTAR A COBRANZAS </a>
 
            <!--  <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA</button>
 
