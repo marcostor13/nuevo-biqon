@@ -58,7 +58,7 @@ $enddate=strtotime("+6 days", $startdate);
 
 
 
-                <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56967599343" class="btn bg-primary text-white col-12 mt-4"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">Contactarme con un ejecutivo</a>
+         <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56967599343" class="btn bg-primary text-white col-12 mt-4"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">Contactarme con un ejecutivo</a>
 
 
                
