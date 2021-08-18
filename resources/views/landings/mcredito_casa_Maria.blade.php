@@ -43,7 +43,7 @@ $enddate=strtotime("+6 days", $startdate);
 
                 <p class="text-black">
 
-                   #QuedateEnCasa y prefiere nuestros canales digitales! Puedes consultar el estado de tu Crédito Automotriz, solicitar información, conocer nuestros beneficios y contactar con nuestros ejecutivos. Todo en <a href="https://www.Mundocredito.cl"> www.Mundocredito.cl </a>
+                 #QuedateEnCasa y prefiere nuestros canales digitales!<a href="https://www.Mundocredito.cl"> www.Mundocredito.cl </a>
 
                 <br>
                 <br>
@@ -180,7 +180,7 @@ $enddate=strtotime("+6 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-
+ 
             var correo = ["mlunar@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
