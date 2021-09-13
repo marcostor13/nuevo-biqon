@@ -140,7 +140,10 @@ En caso de haber regularizado esta situación agradeceríamos nos enviara dicho 
 
 <a class="btn bg-danger text-white col-12 mt-2" onclick='correo3(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> Tengo una Consulta </a>
 
-
+<br>
+ <br>
+ <br>
+ <br>
 En caso que haya pagado, desestimar este aviso.
                             
                             </p>
