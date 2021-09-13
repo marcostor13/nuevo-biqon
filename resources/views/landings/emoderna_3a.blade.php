@@ -102,7 +102,7 @@ Le Recoramos que presenta <span><?php echo $cuota; ?></span> cuota pendiene de p
 <br>
 
 Agradeceríamos mucho pudiera darnos fecha de pago para estas cuotas. 
-En caso de haber regularizado esta situación agradeceríamos nos enviara dicho comprobante.
+
 
 <br>
 <br>
