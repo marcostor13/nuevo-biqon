@@ -113,7 +113,7 @@ Agradeceríamos mucho pudiera darnos fecha de pago para estas cuotas.
 
                               <br>
 
-                          <strong>Haber pagado, envíe el comprobante en:</strong>
+                      <!--    <strong>Haber pagado, envíe el comprobante en:</strong>
 
     <br>
     <br>
@@ -123,7 +123,7 @@ Agradeceríamos mucho pudiera darnos fecha de pago para estas cuotas.
                       <br>
 
                            <br>
-                           <br>
+                           <br>-->
 
                          <strong>  De tener fecha de pago estimada para estos montos agradeceríamos informarnos al:<strong>
 
