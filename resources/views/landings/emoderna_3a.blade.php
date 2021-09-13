@@ -97,7 +97,7 @@ $name = $_GET['NOMBRE'];
 <br>
     <!--             Le Recoramos que presenta <span><?php echo $cuota; ?></span> cuota pendiene Por la Repactación deuda 2020, esto por un monto total de $<span><?php  echo $monto; ?></span>. 
 <br>-->
-Le Recoramos que presenta <span><?php echo $cuota; ?></span> cuota pendiene de pago, por un monto total $<span><?php  echo $monto; ?></span>. 
+Le Recoramos que presenta <span><?php echo $cuota; ?></span> cuota pendiene de pago, por un monto total $ <span><?php  echo $monto; ?></span>. 
 <br>
 <br>
 
