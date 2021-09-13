@@ -95,11 +95,14 @@ $name = $_GET['NOMBRE'];
 
 <br>
 <br>
-                 Le Recoramos que presenta <span><?php echo $cuota; ?></span> cuota pendiene Por la Repactación deuda 2020, esto por un monto total de $<span><?php  echo $monto; ?></span>. 
+    <!--             Le Recoramos que presenta <span><?php echo $cuota; ?></span> cuota pendiene Por la Repactación deuda 2020, esto por un monto total de $<span><?php  echo $monto; ?></span>. 
+<br>-->
+Le Recoramos que presenta <span><?php echo $cuota; ?></span> cuota pendiene de pago, por un monto total $<span><?php  echo $monto; ?></span>. 
 <br>
 <br>
 
-Agradeceríamos mucho pudiera darnos fecha de pago para estas cuotas. En caso de haber regularizado esta situación agradeceríamos nos enviara dicho comprobante.
+Agradeceríamos mucho pudiera darnos fecha de pago para estas cuotas. 
+En caso de haber regularizado esta situación agradeceríamos nos enviara dicho comprobante.
 
 <br>
 <br>
@@ -138,26 +141,8 @@ Agradeceríamos mucho pudiera darnos fecha de pago para estas cuotas. En caso de
 <a class="btn bg-danger text-white col-12 mt-2" onclick='correo3(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> Tengo una Consulta </a>
 
 
-
-                             <!-- Para repactar su deuda le solicitaremos un pie, y el saldo podrá pagarlo en 4 cuotas, de enero a abril 2021.
-                             
-                              <br> Le  recordamos que no podrá realizar matricula 2021 si presenta más de 3 cuotas pendientes del arancel 2020.
-                              <br>
-                               <br> Pinche su opción:
-                              <strong>INSTITUTO PROFESIONAL ESCUELA MODERNA DE MUSICA SPA </strong> <br>
-                              Le invitamos a realizar el pago de su(s) cuota(s) pendiente(s) mediante transferencia electrónica:
-                              <br>
-                               <br>
-                              Para Realizar su pago cuota EMODERNA mediante transferencia: <br>
-                              al BANCO DE CHILE <br>
-                              Nombre: ESCUELA MODERNA <br>
-                               Cuenta Corriente:  1640663409 <br>
-                                RUT:  78206800-8   <br>
-                                Correo: cobranzas@emoderna.cl <br>
-                                <br>
-
-                                Una vez realizada tu tranferencia de el pago de su(s) cuota(s) pendiente(s) enviar comprobante al correo de cobranzas<br>
-                                Correo: cobranzas@emoderna.cl <br>-->
+En caso que haya pagado, desestimar este aviso.
+                            
                             </p>
 
 
