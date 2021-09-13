@@ -441,7 +441,7 @@ En caso que haya pagado, desestimar este aviso.
 
         // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
 
-         var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20arancel%202020%20y%20así%20poder%20iniciar%20el%20proceso%20de%20matrícula%202021";
+         var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda";
 
    window.location.href = "mailto:cobranzas@emoderna.cl?subject=Ya pague&";
 
@@ -455,7 +455,7 @@ En caso que haya pagado, desestimar este aviso.
 
         // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
 
-         var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20arancel%202020%20y%20así%20poder%20iniciar%20el%20proceso%20de%20matrícula%202021";
+         var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20";
 
    window.location.href = "mailto:cobranzas@emoderna.cl?subject=Contactenme&";
 
@@ -469,7 +469,7 @@ En caso que haya pagado, desestimar este aviso.
 
         // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
 
-         var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20arancel%202020%20y%20así%20poder%20iniciar%20el%20proceso%20de%20matrícula%202021";
+         var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20";
 
    window.location.href = "mailto:cobranzas@emoderna.cl?subject=Tengo una Consulta&";
 
