@@ -56,11 +56,11 @@ $enddate=strtotime("+6 days", $startdate);
                 </div>
 
 
-                <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56967599344" class="btn bg-danger text-white col-12 mt-4"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">Contactarme con un ejecutivo</a>
+                <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56967599343" class="btn bg-danger text-white col-12 mt-4"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">Contactarme con un ejecutivo</a>
 
 
                
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967599344&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png">Enviar SMS por Whatsapp</a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967599343&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png">Enviar SMS por Whatsapp</a>
 
                 <button onclick='window.location.href="https://www.unired.cl/Home/CuentasNoRegistradasPaso?u=w2diZ1C%2BNVuRcwSVYZID3MV4QJV9yOgR2aZyaTp42S8%3D"; eventosLanding("Pagina de Pagos");' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
 
