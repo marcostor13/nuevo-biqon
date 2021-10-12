@@ -53,7 +53,7 @@ $enddate=strtotime("+7 days", $startdate);
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <img style="max-width:250px; max-height:100px" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="MUNDOCREDITO">
 
-            <div id="cont1" class="p-3 ">|
+            <div id="cont1" class="p-3 hide">
                 <h3 class="text-white text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4">Validar</button>
@@ -66,7 +66,7 @@ $enddate=strtotime("+7 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 hide">|
+            <div id="cont2" class="p-5 ">|
                 <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
 
                 <p class="text-white">
