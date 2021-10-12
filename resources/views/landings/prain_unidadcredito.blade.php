@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'Marubeni')
+@section('title', 'Unidad Credito')
 
 @section('content')
 <?php
