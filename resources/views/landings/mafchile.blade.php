@@ -33,8 +33,22 @@ $enddate=strtotime("+7 days", $startdate);
                     Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz.
                     
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
+                    #QuedateEnCasa y prefiere nuestros canales digitales! Puedes consultar el estado de tu Crédito Automotriz
+                <br>
                 </p>
-                <div class="date btn bg-danger text-white col-12 mt-4">
+                <div class="btn bg-danger text-white col-12 mt-4">
+                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
+
+
+                <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56967599342" class="btn bg-danger text-white col-12 mt-4"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">Contactarme con un ejecutivo</a>
+
+
+               
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967599342&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png">Enviar SMS por Whatsapp</a>
+
+                <!--<div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
@@ -46,7 +60,7 @@ $enddate=strtotime("+7 days", $startdate);
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56989229825&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp.png"></a>
                     <a onclick="eventosLanding('Llamar');" href="tel:+56989229825"><img width="40" src="https://img.icons8.com/wired/64/FFFFFF/phonelink-ring.png"></a>
                     <a onclick="eventosLanding('Correo');" href="mailto:edelafuente@mafchile.com"><img width="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/email.png"></a>
-                </div>
+                </div>-->
                </div>
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
@@ -155,7 +169,7 @@ $enddate=strtotime("+7 days", $startdate);
                 } 
             }
 
-           var correo = ["edelafuente@mafchile.com"];
+           var correo = ["vmarkan@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
