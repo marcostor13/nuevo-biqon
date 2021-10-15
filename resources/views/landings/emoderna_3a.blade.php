@@ -64,7 +64,7 @@ $name = $_GET['NOMBRE'];
      <div class="opaco">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="EMODERNA">
+            <img style="max-width: 70%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="EMODERNA">
             
             <div class=col-md-12>
            
@@ -95,8 +95,7 @@ $name = $_GET['NOMBRE'];
 
 <br>
 <br>
-   
-Escuela Moderna de Musica le informa que a contar del 15/11/2021 se aplicara intereses al pago de sus cuotas atrasadas cuya morosidad sea superior a 60 dias. 
+Escuela Moderna de Música le informa que a contar del 15/11/2021 se aplicará intereses al pago de sus cuotas atrasadas cuya morosidad sea superior a 60 días
 <br>
 
                             
