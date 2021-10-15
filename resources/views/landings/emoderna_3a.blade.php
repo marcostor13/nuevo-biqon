@@ -7,8 +7,8 @@
 <?php
 //$startdate=strtotime("Today");
 //$startdate=('Y-m-d\TH:i:s');
-$monto = $_GET['MONTO'];
-$cuota = $_GET['DATA1'];
+//$monto = $_GET['MONTO'];
+//$cuota = $_GET['DATA1'];
 $name = $_GET['NOMBRE'];
 //$enddate=strtotime("+5 days", $startdate);
 //$enddate=('Y-m-d\TH:i:s');
@@ -95,42 +95,13 @@ $name = $_GET['NOMBRE'];
 
 <br>
 <br>
-    <!--             Le Recoramos que presenta <span><?php echo $cuota; ?></span> cuota pendiene Por la Repactación deuda 2020, esto por un monto total de $<span><?php  echo $monto; ?></span>. 
-<br>-->
-Le Recoramos que presenta <span><?php echo $cuota; ?></span> cuota pendiene de pago, por un monto total $ <span><?php  echo $monto; ?></span>. 
-<br>
+   
+Escuela Moderna de Musica le informa que a contar del 15/11/2021 se aplicara intereses al pago de sus cuotas atrasadas cuya morosidad sea superior a 60 dias. 
 <br>
 
-Agradeceríamos mucho pudiera darnos fecha de pago para estas cuotas. 
-
-
-<br>
 <br>
 
-                             <strong>  En caso de: <strong>
-                              <br>
-
-
-                              <br>
-
-                      <!--    <strong>Haber pagado, envíe el comprobante en:</strong>
-
-    <br>
-    <br>
-
-
-                  <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Ya pague"); return false;' class="btn bg-danger text-white col-12 mt-2"> Ya pague </a>
-                      <br>
-
-                           <br>
-                           <br>-->
-
-                         <strong>  De tener fecha de pago estimada para estos montos agradeceríamos informarnos al:<strong>
-
-                           <a class="btn bg-danger text-white col-12 mt-2" onclick='correo2(); eventosLanding("Contactenme"); return false;' class="btn bg-danger text-white col-12 mt-2"> Contactenme </a>
-
-                           <br>
-                           <br>
+                             
 
 
                             <strong> En caso de cualquier consulta escribir a:<strong>
@@ -138,7 +109,6 @@ Agradeceríamos mucho pudiera darnos fecha de pago para estas cuotas.
  <br>
 
 
-<a class="btn bg-danger text-white col-12 mt-2" onclick='correo3(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> Tengo una Consulta </a>
 
 <br>
  <br>
@@ -147,29 +117,12 @@ Agradeceríamos mucho pudiera darnos fecha de pago para estas cuotas.
 En caso que haya pagado, desestimar este aviso.
                             
                             </p>
+             <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"> LLAMAR </a>
 
+             <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56932919230&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-2"> WHATSAPP </a>
 
-
-           <!-- <a class="btn bg-danger text-white col-12 mt-2" onclick='correo(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CONTACTAR A COBRANZAS PARA BENEFICIOS </a>
-
-             <button onclick="window.location.href='https://pagos.emmd.cl'; eventosLanding('Pagar');" class="btn bg-danger text-white col-12 mt-2">PAGAR AHORA</button>
-
-              <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>
-
-            
-
-             <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> LLAMAR </a>-->
-
-             <!--  <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56932919230&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-2"><img width="30" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">  WHATSAPP </a>-->
-
+             <a class="btn bg-danger text-white col-12 mt-2" onclick='correo3(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CORREO </a>
                                 </div>
-
-                                    <!--<div class="d-flex justify-content-around align-content-center mt-4">
-                                                       
-                                    <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-                                   
-                                    <a onclick="eventosLanding('Correo');" href="mailto:cobranzas@emoderna.cl?subject=Landing%20Escuela%20Moderna"><img width="85" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
-                                    </div>-->
                             </div>   
                         </div>
                     </div>
@@ -469,7 +422,7 @@ En caso que haya pagado, desestimar este aviso.
 
         // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
 
-         var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20arancel%20";
+        // var body_message = "%0A%20Le%20recordamos%20que%20puede%20pactar%20su%20deuda%20arancel%20";
 
    window.location.href = "mailto:cobranzas@emoderna.cl?subject=Tengo una Consulta&";
 
