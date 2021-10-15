@@ -99,22 +99,6 @@ $name = $_GET['NOMBRE'];
 Escuela Moderna de Musica le informa que a contar del 15/11/2021 se aplicara intereses al pago de sus cuotas atrasadas cuya morosidad sea superior a 60 dias. 
 <br>
 
-<br>
-
-                             
-
-
-                            <strong> En caso de cualquier consulta escribir a:<strong>
- <br>
- <br>
-
-
-
-<br>
- <br>
- <br>
- <br>
-En caso que haya pagado, desestimar este aviso.
                             
                             </p>
              <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"> LLAMAR </a>
