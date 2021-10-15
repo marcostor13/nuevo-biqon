@@ -101,9 +101,9 @@ Escuela Moderna de Musica le informa que a contar del 15/11/2021 se aplicara int
 
                             
                             </p>
-             <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56932919230" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"> LLAMAR </a>
+             <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56998608374" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"> LLAMAR </a>
 
-             <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56932919230&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-2"> WHATSAPP </a>
+             <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56998608374&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-2"> WHATSAPP </a>
 
              <a class="btn bg-danger text-white col-12 mt-2" onclick='correo3(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CORREO </a>
                                 </div>
