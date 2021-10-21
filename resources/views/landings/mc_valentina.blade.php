@@ -20,7 +20,7 @@ $enddate=strtotime("+15 days", $startdate);
     <!-- <div id="mundocredito" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="opaco"></div>
-
+ 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <img style="max-width:250px; max-height:100px " class="img-fluid col-10 col-md-3 mt-2" src="{{$landing->logo}}" alt="mundocredito">
 
@@ -42,9 +42,10 @@ $enddate=strtotime("+15 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>
 
                 <p class="text-black">
-                   Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz.
-                    
-                    Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
+                   #QuedateEnCasa y prefiere nuestros canales digitales!<a href="https://www.Mundocredito.cl"> www.Mundocredito.cl </a>
+                <br>
+                <br>
+                   Gracias por tu Preferencia.
                 </p>
                 <div class="date btn bg-primary text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
