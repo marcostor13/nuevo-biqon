@@ -57,7 +57,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <img style="max-width:250px; max-height:250px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="ProInnova">
 
-             <div id="cont1" class="p-5">
+             <div id="cont1" class="p-5 hide">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-dark text-white col-12 mt-4"> Validar </button>
@@ -70,7 +70,7 @@ $enddate=strtotime("+5 days", $startdate);
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 hide">
+            <div id="cont2" class="p-5 ">
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black">
@@ -88,11 +88,11 @@ $enddate=strtotime("+5 days", $startdate);
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-dark text-white col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56985020598&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56967664209&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56985020598"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56967664209"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
-                    <a onclick="eventosLanding('Correo');" href="mailto:wsherringtonon@cobroexpress.cl?subject=Landing%COEX"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:jesus.binteraction@gmail.com?subject=Landing%COEX"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>
 
             </div>
