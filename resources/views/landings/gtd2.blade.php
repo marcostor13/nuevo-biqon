@@ -20,7 +20,12 @@
                 <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/gtd2.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                
+                <div class="card">     
+                <div class="card-body">
+                <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> </div> </div>
+
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-warning text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
+           
             </div>
 
             <div class=" tagline w3-center w3-animate-top black-text"> Binteraction.cl </div>
