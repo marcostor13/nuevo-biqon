@@ -247,10 +247,12 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
+            var correo = ["angelo.castillo@solvencia.cl"];  
             let dataSend = {
                 'data': JSON.stringify(data),
-                'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                'email': correo
+                //'email': '{!! $landing->email !!}'
+                //'email': 'marcostor13@gmail.com' "wsherringtonon@cobroexpress.cl",
             }
             $.ajaxSetup({
                 headers: {
