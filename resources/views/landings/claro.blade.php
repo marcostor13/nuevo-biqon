@@ -56,7 +56,7 @@ $enddate=strtotime("+5 days", $startdate);
             
             <div class=col-md-12>
            
-                     <div id="cont1" class="p-2 pl-5 pr-5">
+                     <div id="cont1" class="p-2 pl-5 pr-5 hide">
                          <div class="card">
                         <div class="card-body">
                         <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
@@ -67,7 +67,7 @@ $enddate=strtotime("+5 days", $startdate);
                        </div> 
                     </div>
 
-                    <div id="cont2" class="p-2 pl-3 pr-3 hide">
+                    <div id="cont2" class="p-2 pl-3 pr-3 ">
                         <div class="card">     
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>
