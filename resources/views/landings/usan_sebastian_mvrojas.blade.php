@@ -293,7 +293,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["mariavictoria.rojas@uss.cl"];
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -394,7 +394,7 @@ $enddate=strtotime("+5 days", $startdate);
 
          var body_message = "Estoy%20Interesado%20en%20conocer%20mas%20sobre%20el%20Programa%20Advance";
 
-   window.location.href = "mailto:mariavictoria.rojas@uss.cl?subject=Consulta%20Cursos%20Advance%20&body=Telefono:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
+   window.location.href = "mailto:jesus.binteraction@gmail.com?subject=Consulta%20Cursos%20Advance%20&body=Telefono:%20"+id_adm+"%20RUT:%20"+rut+" "+body_message;
 
  }
     </script>
