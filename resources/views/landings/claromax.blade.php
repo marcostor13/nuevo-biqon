@@ -278,9 +278,9 @@
                          <span class="text-warning  text-center">WhatsApp<br>
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
                        <span class="text-warning  text-center">Teléfono<br>
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890461"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890470"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
                        <span class="text-warning  text-center">Correo<br>
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:katerin.sena@solvencia.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:angelo.castillo@solvencia.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
                     <span class="text-warning  text-center">Chat en Linea<br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://claro.solvencia.cl/schat/ingresoFormulario/chatMovil"><img width="50" src="https://i.imgur.com/vXAWUfn.jpg"></a></span>
                 </div>
@@ -582,7 +582,7 @@
                 } 
             }
 
-           var correo = ["ventas@trademovil.cl"];
+           var correo = ["angelo.castillo@solvencia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -688,18 +688,18 @@
 
       
          function Mens(){
-             window.location.href = "tel:+56952208933";
+             window.location.href = "tel:+56975890470";
         }  
 
 
      function Mens1(){
-   window.location.href = "https://api.whatsapp.com/send?phone=56992213123&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+   window.location.href = "https://api.whatsapp.com/send?phone=56975890470&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
         } 
 
 
     function Mens2(){
          var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
-             window.location.href = "mailto:ventas@trademovil.cl ?subject=Portabilidad%20Simple&body"+body_message;
+             window.location.href = "mailto:angelo.castillo@solvencia.cl ?subject=Portabilidad%20Claro&body"+body_message;
  }
 
 
