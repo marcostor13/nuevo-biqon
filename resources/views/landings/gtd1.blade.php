@@ -28,7 +28,7 @@
            
             </div>
 
-            <div class=" tagline w3-center w3-animate-top black-text"> Binteraction.cl </div>
+            <div class=" tagline w3-center w3-animate-top black-text"> Solvencia.cl </div>
         </div>
     <!--</div>-->
 
