@@ -14,7 +14,7 @@
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="height:120px; width:120px;" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="GTD">
+            <img style="height:80px; width:80px;" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="GTD">
             <br>
             <div id="cont1" class=" ">
                 <div class="videoWrapper">        
@@ -22,16 +22,36 @@
                 </div>
                 <div class="card">     
                 <div class="card-body">
-                <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> </div> </div>
+                <h5 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h5> </div> </div>
 
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-white col-12 mt-3">  
+                 <strong>SI</strong>  
+            </button>
            <br>
+           <div class="mt-2 text-center"> 
+<p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
+                     <div class="d-flex justify-content-around align-content-center text-center"> 
+      
+                    
+                <span class="text-white text-center">
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="70" src="https://i.imgur.com/kzyuhVO.png"></a></span>
+                        <span class="text-white text-center">
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:56975890470"><img width="70" src="https://i.imgur.com/9AbTaoC.png"></a></span>
+                        <span class="text-white text-center">
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:angelo.castillo@solvencia.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
+                   <!--  <span class="text-white text-center">
+                <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://portal.ipchile.cl/"> <img width="70" src="https://i.imgur.com/HEnso4V.png"></a></span>-->
+                </div>
+                <br><br>
+
+                  </div>
+           <!--
            <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56975890470" class="btn bg-primary text-white col-12 mt-4">Llamar</a>
                
             <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta" class="btn bg-primary text-white col-12 mt-4">Whatsapp</a>
             
             <a onclick="eventosLanding('Correo');" href="mailto:angelo.castillo@solvencia.cl"  class="btn bg-primary text-white col-12 mt-4">Correo</a>
-
+-->
             </div>
 
             <div class=" tagline w3-center w3-animate-top black-text"> <br>  Solvencia.cl </div>
