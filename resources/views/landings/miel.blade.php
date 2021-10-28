@@ -34,19 +34,18 @@
 <!--                     <span class="text-white text-center">
                 <a onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-white ml-2"> <strong>SI</strong>  </a> </spam>-->
                 <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="60" src="https://i.imgur.com/oMe1EdT.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56986897686&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="60" src="https://i.imgur.com/oMe1EdT.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:56975890470"><img width="45" src="https://i.imgur.com/Oh5DCRW.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:56986897686"><img width="45" src="https://i.imgur.com/Oh5DCRW.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:angelo.castillo@solvencia.cl"><img width="45" src="https://i.imgur.com/5GPsI1N.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:silvana.vera@solvencia.cl"><img width="45" src="https://i.imgur.com/5GPsI1N.png"></a></span>
                    </div>
                 <br><br>
-
                   </div>
            <!--
-           <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56975890470" class="btn bg-primary text-white col-12 mt-4">Llamar</a>
+           <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56967664209" class="btn bg-primary text-white col-12 mt-4">Llamar</a>
                
-            <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta" class="btn bg-primary text-white col-12 mt-4">Whatsapp</a>
+            <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967664209&text=Hola,%20tengo%20una%20consulta" class="btn bg-primary text-white col-12 mt-4">Whatsapp</a>
             
             <a onclick="eventosLanding('Correo');" href="mailto:angelo.castillo@solvencia.cl"  class="btn bg-primary text-white col-12 mt-4">Correo</a>
 -->
@@ -154,7 +153,7 @@
                 } 
             }
 
-            var correo = ["angelo.castillo@solvencia.cl"];
+            var correo = ["silvana.vera@solvencia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
