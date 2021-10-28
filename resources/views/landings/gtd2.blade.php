@@ -23,10 +23,10 @@
                 <div class="card">     
                 <div class="card-body">
                 <h5 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h5> </div> </div>
-
+                <center>
                 <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-white col-6 mt-3">  
                  <strong>SI</strong>  
-            </button>
+            </button> </center>
            <br>
            <div class="mt-2 text-center"> 
 <p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
