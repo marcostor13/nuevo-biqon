@@ -23,25 +23,25 @@
                 <div class="card">     
                 <div class="card-body">
                 <h5 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h5> </div> </div>
-                <center>
+                <!--<center>
                 <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-white col-6 mt-3">  
                  <strong>SI</strong>  
-            </button> </center>
+            </button> </center>-->
            <br>
            <div class="mt-2 text-center"> 
-<p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
+
                      <div class="d-flex justify-content-around align-content-center text-center"> 
-      
-                    
+                     <span class="text-white text-center">
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-white col-3 ml-2">  
+                 <strong>SI</strong>  
+            </button> </spam>
                 <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="80" src="https://i.imgur.com/oMe1EdT.png"></a></span>
                         <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:56975890470"><img width="70" src="https://i.imgur.com/Oh5DCRW.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:angelo.castillo@solvencia.cl"><img width="70" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a></span>
-                   <!--  <span class="text-white text-center">
-                <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://portal.ipchile.cl/"> <img width="70" src="https://i.imgur.com/HEnso4V.png"></a></span>-->
-                </div>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:angelo.castillo@solvencia.cl"><img width="70" src="https://i.imgur.com/5GPsI1N.png"></a></span>
+                   </div>
                 <br><br>
 
                   </div>
