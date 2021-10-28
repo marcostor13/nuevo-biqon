@@ -25,10 +25,16 @@
                 <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> </div> </div>
 
                 <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
-           
+                <br>
+           <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56975890470" class="btn bg-primary text-white col-12 mt-4">Llamar</a>
+               
+            <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta" class="btn bg-primary text-white col-12 mt-4">Whatsapp</a>
+            
+            <a onclick="eventosLanding('Correo');" href="mailto:angelo.castillo@solvencia.cl"  class="btn bg-primary text-white col-12 mt-4">Correo</a>
+
             </div>
 
-            <div class=" tagline w3-center w3-animate-top black-text"> Solvencia.cl </div>
+            <div class=" tagline w3-center w3-animate-top black-text"> <br> Solvencia.cl </div>
         </div>
     <!--</div>-->
 
