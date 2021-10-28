@@ -14,7 +14,7 @@
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="height:80px; width:80px;" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="GTD">
+            <img style="height:50px; width:50px;" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="GTD">
             <br>
             <div id="cont1" class=" ">
                 <div class="videoWrapper">        
