@@ -51,7 +51,7 @@
 -->
             </div>
 
-            <div class=" tagline w3-center w3-animate-top black-text"> <br>  Solvencia.cl </div>
+            <div class=" tagline w3-center w3-animate-top black-text"> <br>  https://wiluf.cl/</div>
         </div>
         <div id="cont3" class="p-2 pl-3 pr-3 hide">
                 <div class="card">     
