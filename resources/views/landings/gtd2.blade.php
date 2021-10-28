@@ -114,14 +114,14 @@
                 data = {
                     'mensaje': msg,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text()
+                   // 'saldo': $('#pay').text()
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
                     'nombre': $('#name').text(),
-                    'saldo': $('#pay').text(),
+                    //'saldo': $('#pay').text(),
                     'landing': {!! $landing->name !!}
                 } 
             }
