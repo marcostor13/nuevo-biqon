@@ -14,24 +14,44 @@
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="height:120px; width:120px;" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="GTD">
-<br>
-            <div id="cont1" class="">
+            <img style="height:50px; width:50px;" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="GTD">
+            <br>
+            <div id="cont1" class=" ">
                 <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/gtd1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="card">     
                 <div class="card-body">
-                <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> </div> </div>
-
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
+                <h5 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h5> </div> </div>
+                <center>
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-white col-6 mt-3">  
+                 <strong>SI</strong>  
+            </button> </center>
            <br>
+           <div class="mt-2 text-center"> 
+<p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
+                     <div class="d-flex justify-content-around align-content-center text-center"> 
+      
+                    
+                <span class="text-white text-center">
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="70" src="https://i.imgur.com/kzyuhVO.png"></a></span>
+                        <span class="text-white text-center">
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:56975890470"><img width="70" src="https://i.imgur.com/9AbTaoC.png"></a></span>
+                        <span class="text-white text-center">
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:angelo.castillo@solvencia.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
+                   <!--  <span class="text-white text-center">
+                <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://portal.ipchile.cl/"> <img width="70" src="https://i.imgur.com/HEnso4V.png"></a></span>-->
+                </div>
+                <br><br>
+
+                  </div>
+           <!--
            <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56975890470" class="btn bg-primary text-white col-12 mt-4">Llamar</a>
                
             <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta" class="btn bg-primary text-white col-12 mt-4">Whatsapp</a>
             
             <a onclick="eventosLanding('Correo');" href="mailto:angelo.castillo@solvencia.cl"  class="btn bg-primary text-white col-12 mt-4">Correo</a>
-
+-->
             </div>
 
             <div class=" tagline w3-center w3-animate-top black-text"> <br>  Solvencia.cl </div>
@@ -95,7 +115,7 @@
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
+              //      $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
