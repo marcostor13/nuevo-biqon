@@ -120,8 +120,11 @@
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    //'nombre': $('#name').text(),
-                   // 'saldo': $('#pay').text()
+                    'Nombre': getUrlParameter('nombre'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                    //'Monto': getUrlParameter('monto'),
+                    'Ejecutivo': getUrlParameter('data1'),
                 }
             }else{
                 let date = $('#date1').val();
