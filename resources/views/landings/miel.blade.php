@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'GTD')
+@section('title', 'WILUF')
 
 @section('content')
 
