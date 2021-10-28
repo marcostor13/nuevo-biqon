@@ -24,7 +24,7 @@
                 <div class="card-body">
                 <h5 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h5> </div> </div>
 
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-white col-12 mt-3">  
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-white col-6 mt-3">  
                  <strong>SI</strong>  
             </button>
            <br>
