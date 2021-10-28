@@ -14,7 +14,7 @@
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="height:80px; width:100px;" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="GTD">
+            <img style="height:100px; width:100px;" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="GTD">
 
             <div id="cont1" class="">
                 <div class="videoWrapper">        
@@ -95,7 +95,7 @@
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
+              //      $('#pay').text(e.data.monto);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
