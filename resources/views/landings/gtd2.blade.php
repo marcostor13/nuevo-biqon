@@ -114,7 +114,7 @@
 
         function sendMail(msg = false){
 
-            console.log({!! $landing->name !!}); 
+            //console.log({!! $landing->name !!}); 
             
             let data; 
             if(msg !== false){
