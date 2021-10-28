@@ -36,11 +36,11 @@
                  <strong>SI</strong>  
             </button> </spam>
                 <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="80" src="https://i.imgur.com/oMe1EdT.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="60" src="https://i.imgur.com/oMe1EdT.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:56975890470"><img width="70" src="https://i.imgur.com/Oh5DCRW.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:56975890470"><img width="50" src="https://i.imgur.com/Oh5DCRW.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:angelo.castillo@solvencia.cl"><img width="70" src="https://i.imgur.com/5GPsI1N.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:angelo.castillo@solvencia.cl"><img width="50" src="https://i.imgur.com/5GPsI1N.png"></a></span>
                    </div>
                 <br><br>
 
