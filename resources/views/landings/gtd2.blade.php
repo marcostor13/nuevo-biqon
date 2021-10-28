@@ -126,10 +126,10 @@
                 } 
             }
 
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
-              // 'email': '{!! $landing->email !!}'
-            'email': 'angelo.castillo@solvencia.cl'
+                'email': correo
             }
             $.ajaxSetup({
                 headers: {
