@@ -32,9 +32,7 @@
 
                      <div class="d-flex justify-content-around align-content-center text-center"> 
                      <span class="text-white text-center">
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-white col-2 ml-2">  
-                 <strong>SI</strong>  
-            </button> </spam>
+                <a onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-white ml-2"> <strong>SI</strong>  </a> </spam>
                 <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="60" src="https://i.imgur.com/oMe1EdT.png"></a></span>
                         <span class="text-white text-center">
