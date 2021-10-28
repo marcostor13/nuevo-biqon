@@ -25,7 +25,7 @@
                 <h3 class="text-black text-center"> <strong> ¿Desea que le contactemos? </strong> </h3> </div> </div>
 
                 <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-black col-12 mt-3"> <h3> <strong>SI</strong> </h3> </button>
-                <br>
+           <br>
            <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56975890470" class="btn bg-primary text-white col-12 mt-4">Llamar</a>
                
             <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta" class="btn bg-primary text-white col-12 mt-4">Whatsapp</a>
@@ -34,8 +34,15 @@
 
             </div>
 
-            <div class=" tagline w3-center w3-animate-top black-text"> <br> Solvencia.cl </div>
+            <div class=" tagline w3-center w3-animate-top black-text"> <br>  Solvencia.cl </div>
         </div>
+        <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                <div class="card">     
+                <div class="card-body">
+                    <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                </div>
+                </div>
+            </div>
     <!--</div>-->
 
     <script>
@@ -107,29 +114,29 @@
 
         function sendMail(msg = false){
 
-            console.log({!! $landing->name !!}); 
+            //console.log({!! $landing->name !!}); 
             
             let data; 
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'nombre': $('#name').text(),
+                    //'nombre': $('#name').text(),
                    // 'saldo': $('#pay').text()
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': $('#name').text(),
+                    //'nombre': $('#name').text(),
                     //'saldo': $('#pay').text(),
-                    'landing': {!! $landing->name !!}
+                    'landing': '{!! $landing->name !!}'
                 } 
             }
 
+            var correo = ["jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
-               //'email': '{!! $landing->email !!}'
-                'email': 'angelo.castillo@solvencia.cl'
+                'email': correo
             }
             $.ajaxSetup({
                 headers: {
@@ -140,7 +147,9 @@
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                    $('#message').text('Gracias por su información');
+                     $('#cont1').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
