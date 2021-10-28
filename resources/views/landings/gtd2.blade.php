@@ -32,7 +32,7 @@
 
                      <div class="d-flex justify-content-around align-content-center text-center"> 
                      <span class="text-white text-center">
-                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-white col-3 ml-2">  
+                <button onclick="sendMail('El cliente indica que desea ser contactado'); eventosLanding('contacto'); return false;" class="btn bg-primary text-white col-2 ml-2">  
                  <strong>SI</strong>  
             </button> </spam>
                 <span class="text-white text-center">
