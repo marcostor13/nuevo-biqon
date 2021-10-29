@@ -42,12 +42,11 @@ $enddate=strtotime("+7 days", $startdate);
                 </div>
 
 
-                <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56967599342" class="btn bg-danger text-white col-12 mt-4"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">Contactarme con un ejecutivo</a>
+                <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56967599342" class="btn bg-danger text-white col-12 mt-4">Contactarme con un ejecutivo</a>
+              
+                <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967599342&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4">Enviar SMS por Whatsapp</a>
 
-
-               
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967599342&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png">Enviar SMS por Whatsapp</a>
-
+                <a onclick="eventosLanding('Correo');" href="mailto:vmarkan@prainabogados.cl"  class="btn bg-danger text-white col-12 mt-4">Correo</a>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
