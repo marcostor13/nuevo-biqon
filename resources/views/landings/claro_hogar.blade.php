@@ -90,8 +90,8 @@
 
 
             <div id="cont2" class="p-2 pl-3 ">
-            <h4> Claro informa de una oferta especial.</h4>
-
+            <h4  class="text-blue "> Conoce nuestros Planes Claro Hogar</h4>
+            <p> Escoge el paquete ideal para ti y tu familia</p>
             
                         <div class="card">     
                             <div class="card-body">
