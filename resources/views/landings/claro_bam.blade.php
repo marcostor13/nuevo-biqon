@@ -77,7 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
                                 <center>
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick="sendMail('Solicito ser Contactado Plan Inalambrico'); ;eventosLanding('Solicitud Informacion'); return false;">
-                                    <img style="max-width: 80%" src="https://i.imgur.com/4ltkEMx.png"></a>
+                                    <img style="max-width: 100%" src="https://i.imgur.com/4ltkEMx.png"></a>
                                 </div>
                                 </center>
 
