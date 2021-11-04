@@ -87,12 +87,24 @@
                             </div>
                         </div>
                     </div>
+
+
             <div id="cont2" class="p-2 pl-3 ">
             <h4> Claro informa de una oferta especial.</h4>
+
+            
+                        <div class="card">     
+                            <div class="card-body">
+                               <button onclick="Mens1();" class="btn bg-danger text-white col-12 mt-2"><img width="50" src="https://i.imgur.com/9hoo6Uk.png">Planes 1Play</button>
+                               <button onclick="Mens2();" class="btn bg-danger text-white col-12 mt-2"><img width="50" src="https://i.imgur.com/B9n98KE.png">Planes 2Play</button>
+                               <button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2"><img width="50" src="https://i.imgur.com/fDpn2k2.png">Planes 3Play</button>
+                            </div>
+                        </div>
+                
             <div class="card">     
          <div class="card-body">
 
-<div id="plan1">
+<div id="plan1" class="p-2 pl-3 hide">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
      <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -140,7 +152,7 @@
 
 <!--plan 2-->
 
-    <div id="plan2">
+    <div id="plan2"  class="p-2 pl-3 hide">
     <br> <br> <br> 
 <div class="card">     
          <div class="card-body">
@@ -191,7 +203,7 @@
 
     <!--plan 3-->
 
-    <div id="plan3">
+    <div id="plan3"  class="p-2 pl-3 hide">
     <br> <br> <br> 
     <div class="card">     
          <div class="card-body">
