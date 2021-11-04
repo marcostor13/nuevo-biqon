@@ -81,7 +81,7 @@ $enddate=strtotime("+5 days", $startdate);
                                 </div>
                                 </center>
 
-                                <button onclick="sendMail('Solicito ser Contactado  Plan Inalambrico'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-grey col-12 mt-2"><h4>Contáctenme</h4></button>
+                                <button onclick="sendMail('Solicito ser Contactado  Plan Inalambrico'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
                                 <!-- <h4 class="text-grey text-center"> <p>ACCESORIOS</p> </h4>
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick='window.location.href = "https://accesorios.clarochile.cl/"'>
