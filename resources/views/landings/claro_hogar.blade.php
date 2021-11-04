@@ -95,9 +95,9 @@
             
                         <div class="card">     
                             <div class="card-body">
-                               <button onclick="Mens1();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/9hoo6Uk.png">Planes 1Play</button>
-                               <button onclick="Mens2();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/B9n98KE.png">Planes 2Play</button>
-                               <button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/fDpn2k2.png">Planes 3Play</button>
+                               <button onclick="Mens1();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/9hoo6Uk.png">  Planes 1Play</button>
+                               <button onclick="Mens2();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/B9n98KE.png">  Planes 2Play</button>
+                               <button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/fDpn2k2.png">  Planes 3Play</button>
                             </div>
                         </div>
                 
