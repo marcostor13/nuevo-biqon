@@ -490,22 +490,22 @@
         $('#plan2').addClass('hide');
         $('#plan1').removeClass('hide'); 
         //$('#CONT').removeClass('hide');
-        $('#plan3').removeClass('hide');
+        $('#plan3').addClass('hide');
 
  }
 
  function Mens2(){
-        $('#plan1').removeClass('hide');
+        $('#plan1').addClass('hide');
         $('#plan2').removeClass('hide'); 
         //$('#CONT').removeClass('hide');
         $('#plan3').addClass('hide');
 
  }
  function Mens3(){
-        $('#plan1').removeClass('hide');
-        $('#plan3').removeClass('hide'); 
+        $('#plan1').addClass('hide');
+        $('#plan2').addClass('hide'); 
         //$('#CONT').removeClass('hide');
-        $('#plan3').addClass('hide');
+        $('#plan3').removeClass('hide');
 
  }
  function activa(){
