@@ -88,7 +88,7 @@
                         </div>
                     </div>
             <div id="cont2" class="p-2 pl-3 ">
-            <h4> Claro informa de una oferta especial.</h4>
+            <h4> CONOCE NUESTRAS OFERTAS  EN PLANES MÓVILES DEL MES.</h4>
             <div class="card">     
          <div class="card-body">
 
