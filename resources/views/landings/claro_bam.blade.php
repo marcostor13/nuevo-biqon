@@ -74,10 +74,12 @@ $enddate=strtotime("+5 days", $startdate);
                                  <p class="text-white"> <h4> 
                                 Claro informa de una oferta especial.</h4> </p>
                                
+                                <center>
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick="sendMail('Solicito ser Contactado Plan Inalambrico'); ;eventosLanding('Solicitud Informacion'); return false;">
                                     <img style="max-width: 50%" src="https://i.imgur.com/4ltkEMx.png"></a>
                                 </div>
+                                </center>
 
                                 <button onclick="sendMail('Solicito ser Contactado  Plan Inalambrico'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-grey col-12 mt-2"><h4>Contáctenme</h4></button>
                                 <!-- <h4 class="text-grey text-center"> <p>ACCESORIOS</p> </h4>
