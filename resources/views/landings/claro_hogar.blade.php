@@ -239,7 +239,7 @@
     </center>
 </div>
 
-           
+            </div>       
 <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
