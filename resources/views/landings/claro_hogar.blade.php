@@ -91,20 +91,24 @@
 
             <div id="cont2" class="p-2 pl-3 ">
                 <center>
-            <h3  class="text-primary "> Conoce nuestros Planes Claro Hogar</h3>
-            <p> Escoge el paquete ideal para ti y tu familia</p> </center>
-            
+            <h3  class="text-primary "><strong> Conoce nuestros Planes Claro Hogar </strong> </h3>
+            <h4> Escoge el paquete ideal para ti y tu familia</h4> </center>
+            <div id="opt1" class="p-2 pl-3">
                         <div class="card">     
                             <div class="card-body">
-                               <button onclick="Mens1();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/9hoo6Uk.png">  Planes 1Play</button>
-                               <button onclick="Mens2();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/B9n98KE.png">  Planes 2Play</button>
-                               <button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/fDpn2k2.png">  Planes 3Play</button>
+                               <button onclick="Mens1();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/9hoo6Uk.png"> <strong>   1 Play: Internet </strong> </button>
+                               <button onclick="Mens2();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>
+                               <button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/fDpn2k2.png"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>
                             </div>
                         </div>
-                
+            </div>
           
 
 <div id="plan1" class="p-2 pl-3 hide">
+
+<center>
+            <h3  class="text-primary "><strong> 1 Play: Internet  </strong> </h3>
+            <h4> Disfruta de Internet en alta velocidad</h4> </center>
 <div class="card">     
          <div class="card-body">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -142,11 +146,25 @@
     </a>
     </div>
     </div>
-    </div>  </div>
-
+    </div>  
+    <div id="opt11" class="p-2 pl-3">
+                        <div class="card">     
+                            <div class="card-body">
+                               <!--<button onclick="Mens1();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/9hoo6Uk.png"> <strong>   1 Play: Internet </strong> </button>--> 
+                                <button onclick="Mens2();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>
+                               <button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/fDpn2k2.png"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>
+                            </div>
+                        </div>
+            </div>
+</div>
+    
 <!--plan 2-->
 
     <div id="plan2"  class="p-2 pl-3 hide">
+
+    <center>
+            <h3  class="text-primary "><strong> 2 Play: Internet + Tv</strong> </h3>
+            <h4> Disfruta de Internet en alta velocidad y entretenimiento en HD.</h4> </center>
     <br>
 <div class="card">     
          <div class="card-body">
@@ -193,12 +211,26 @@
     </a>
     </div>
     </div>
-    </div> </div>
+    </div> 
+    <div id="opt12" class="p-2 pl-3">
+                        <div class="card">     
+                            <div class="card-body">
+                               <button onclick="Mens1();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/9hoo6Uk.png"> <strong>   1 Play: Internet </strong> </button>
+                                <!--<button onclick="Mens2();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>-->
+                               <button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/fDpn2k2.png"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>
+                            </div>
+                        </div>
+            </div>
+</div>
 
     <!--plan 3-->
 
     <div id="plan3"  class="p-2 pl-3 hide">
     <br>
+
+    <center>
+            <h3  class="text-primary "><strong> 3 Play: Internet + Tv + Telefonía </strong> </h3>
+            <h4> Disfruta de Internet en alta velocidad, entretenimiento en HD y telefonía fija.</h4> </center>
     <div class="card">     
          <div class="card-body">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -238,6 +270,16 @@
     </div>
     </div>
     </center>
+
+    <div id="opt11" class="p-2 pl-3">
+                        <div class="card">     
+                            <div class="card-body">
+                               <button onclick="Mens1();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/9hoo6Uk.png"> <strong>   1 Play: Internet </strong> </button> 
+                                <button onclick="Mens2();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>
+                               <!--<button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2"><img width="80" src="https://i.imgur.com/fDpn2k2.png"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>-->
+                            </div>
+                        </div>
+            </div>
 </div>
 
             </div>       
@@ -327,16 +369,15 @@
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Datos_Formulario': $('#nombre1').val(),
-                    'RUT': $('#rut').val(),
-                    'Telefono': $('#telefono').val(),
-                    'Chips': $('#valor').val(),
-                    'Compañia': $('#valor01').val(),
-                    //'Datos_URL': $('#nombre1').val(),
-                    //'Nombre_URL': getUrlParameter('nombre'),
-                    //'Telefono_URL': getUrlParameter('telefono'),
-                    //'Rut_URL': getUrlParameter('rut'),
-                    'landing': '{!! $landing->name !!}'
+                    'Nombre': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Comuna': getUrlParameter('data1'),
+                    //'Prevision': getUrlParameter('data2'),
+                    //'Estado': getUrlParameter('data3'),
+                    //'Ley': getUrlParameter('data4'),
+                     'RUT': getUrlParameter('rut'),
+                     'landing': '{!! $landing->name !!}'
                    
                     
                 }
@@ -344,10 +385,15 @@
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'RUT': $('#rut').val(),
-                    'Telefono': $('#telefono').val(),
-                    'Chips': $('#valor').val(),
-                    'landing': '{!! $landing->name !!}'
+                    'Nombre': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Comuna': getUrlParameter('data1'),
+                    //'Prevision': getUrlParameter('data2'),
+                    //'Estado': getUrlParameter('data3'),
+                    //'Ley': getUrlParameter('data4'),
+                     'RUT': getUrlParameter('rut'),
+                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
@@ -369,7 +415,7 @@
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                      $('#cont3').removeClass('hide');
-                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted');
 
                 }else{
                     $('#message').removeClass('hide');
