@@ -251,16 +251,15 @@
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Datos_Formulario': $('#nombre1').val(),
-                    'RUT': $('#rut').val(),
-                    'Telefono': $('#telefono').val(),
-                    'Chips': $('#valor').val(),
-                    'Compañia': $('#valor01').val(),
-                    //'Datos_URL': $('#nombre1').val(),
-                    //'Nombre_URL': getUrlParameter('nombre'),
-                    //'Telefono_URL': getUrlParameter('telefono'),
-                    //'Rut_URL': getUrlParameter('rut'),
-                    'landing': '{!! $landing->name !!}'
+                    'Nombre': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Comuna': getUrlParameter('data1'),
+                    //'Prevision': getUrlParameter('data2'),
+                    //'Estado': getUrlParameter('data3'),
+                    //'Ley': getUrlParameter('data4'),
+                     'RUT': getUrlParameter('rut'),
+                     'landing': '{!! $landing->name !!}'
                    
                     
                 }
@@ -268,10 +267,15 @@
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'RUT': $('#rut').val(),
-                    'Telefono': $('#telefono').val(),
-                    'Chips': $('#valor').val(),
-                    'landing': '{!! $landing->name !!}'
+                    'Nombre': getUrlParameter('nombre'),
+                    //'monto': getUrlParameter('monto'),
+                    'Telefono': getUrlParameter('telefono'),
+                    'Comuna': getUrlParameter('data1'),
+                    //'Prevision': getUrlParameter('data2'),
+                    //'Estado': getUrlParameter('data3'),
+                    //'Ley': getUrlParameter('data4'),
+                     'RUT': getUrlParameter('rut'),
+                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
@@ -306,7 +310,7 @@
                      $('#form').addClass('hide');
                      $('#actual').addClass('hide');
                      $('#cont3').removeClass('hide');
-                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted.');
 
                 }else{
                     $('#message').removeClass('hide');
