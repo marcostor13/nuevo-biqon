@@ -136,7 +136,11 @@
     </a>
     </div>
     </div>
+    </div>  </div>
 
+<!--plan 2-->
+<div class="card">     
+         <div class="card-body">
     <div id="plan2">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
      <ol class="carousel-indicators">
@@ -181,7 +185,11 @@
     </a>
     </div>
     </div>
+    </div> </div>
 
+    <!--plan 3-->
+    <div class="card">     
+         <div class="card-body">
     <div id="plan3">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
      <ol class="carousel-indicators">
