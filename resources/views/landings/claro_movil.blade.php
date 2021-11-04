@@ -88,7 +88,7 @@
                         </div>
                     </div>
             <div id="cont2" class="p-2 pl-3 ">
-                 
+            <h4> Claro informa de una oferta especial.</h4>
             <div class="card">     
          <div class="card-body">
 
@@ -116,13 +116,13 @@
         </div>
         <div class="item">
         <a onclick="sendMail('Solicito ser Contactado Plan Max M'); ;eventosLanding('Solicitud Informacion  Plan Max M'); return false;"> 
-        <img src="https://i.imgur.com/fJMsIxz.png" alt=""> </a> <br> 
+        <img style="max-width:200px; max-height:400px " src="https://i.imgur.com/fJMsIxz.png" alt=""> </a> <br> 
         <button onclick="sendMail('Solicito ser Contactado Plan Max M'); ;eventosLanding('Solicitud Informacion  Plan Max M'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
         <br> <br> <br> 
         </div>
         <div class="item">
         <a onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;">   
-        <img src="https://i.imgur.com/TjBYOIv.png" alt=""> </a> <br> 
+        <img style="max-width:200px; max-height:400px " src="https://i.imgur.com/TjBYOIv.png" alt=""> </a> <br> 
         <button onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
                       <br> <br> <br>          
         </div>
