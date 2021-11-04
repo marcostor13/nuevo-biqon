@@ -104,15 +104,12 @@
                                <button onclick="Mens2();" class="btn bg-white text-danger col-4 mt-2"> <strong>  2 Play: <br>Internet + Tv</strong> </button>
                                <button onclick="Mens3();" class="btn bg-white text-danger col-4 mt-2"> <strong>  3 Play: <br>Internet + Tv + Telefonía</strong> </button>-->
                          <table>
-                    <tr>
+                    <tr class= "bg-danger">
                     <td><img onclick="Mens1();"class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/9hoo6Uk.png"></td>
-                    
-                    <td><button onclick="Mens1();" class="btn bg-white text-danger col-4 mt-2"> <strong>   1 Play: <br>Internet </strong> </button></td
-                    
-                 <!--   
---> </tr>
+                    <td><button onclick="Mens1();" class="btn bg-white text-danger col-4 mt-2"> <strong>   1 Play: <br>Internet </strong> </button></td>
+                 </tr>
 
-                    <tr>
+                    <tr class=>
   <!--                  <td><button onclick="Mens1();" class="btn bg-white text-danger col-4 mt-2"> <strong>   1 Play: <br>Internet </strong> </button></td>
 -->                   <td><img onclick="Mens2();"class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/B9n98KE.png"></td>
                     <td><button onclick="Mens2();" class="btn bg-white text-danger col-4 mt-2"> <strong>  2 Play: <br>Internet + Tv</strong> </button></td>
