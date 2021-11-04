@@ -106,7 +106,7 @@
                          <table>
                     <tr class= "bg-danger">
                     <td><img onclick="Mens1();"class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/9hoo6Uk.png"></td>
-                    <td><button onclick="Mens1();" class="btn bg-white text-danger col-4 mt-2"> <strong>   1 Play: <br>Internet </strong> </button></td>
+                    <td><button onclick="Mens1();" class="btn bg-danger text-white col-4 mt-2"> <strong>   1 Play: <br>Internet </strong> </button></td>
                  </tr>
 
                     <tr class=>
