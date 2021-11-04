@@ -94,14 +94,18 @@
             <h3  class="text-primary "><strong> Conoce nuestros Planes Claro Hogar </strong> </h3>
             <h4> Escoge el paquete ideal para ti y tu familia</h4> </center>
             <div id="opt1" class="p-2 pl-3">
-                        <div class="card">     
-                            <div class="card-body">
+                        <!--<div class="card">     
+                            <div class="card-body">-->
                                 <div class="col-12 mt-2"></div>
-                               <button onclick="Mens1();" class="btn bg-white text-danger col-3 mt-2"><img width="100" src="https://i.imgur.com/9hoo6Uk.png"> <strong>   1 Play: Internet </strong> </button>
-                               <button onclick="Mens2();" class="btn bg-white text-danger col-3 mt-2"><img width="100" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>
-                               <button onclick="Mens3();" class="btn bg-white text-danger col-3 mt-2"><img width="100" src="https://i.imgur.com/fDpn2k2.png"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>
-                            </div>
-                        </div>
+                                <button onclick="Mens1();" class="btn bg-white text-danger col-3 mt-2"> <img class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/9hoo6Uk.png"></button>
+                                <button onclick="Mens2();" class="btn bg-white text-danger col-3 mt-2"> <img class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/B9n98KE.png"></button>
+                                <button onclick="Mens2();" class="btn bg-white text-danger col-3 mt-2"> <ig class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/fDpn2k2.png"></button><br>
+                               <button onclick="Mens1();" class="btn bg-white text-danger col-3 mt-2"> <strong>   1 Play: Internet </strong> </button>
+                               <button onclick="Mens2();" class="btn bg-white text-danger col-3 mt-2"> <strong>  2 Play: Internet + Tv</strong> </button>
+                               <button onclick="Mens3();" class="btn bg-white text-danger col-3 mt-2"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>
+                           <!-- </div>
+
+                        </div>-->
             </div>
           
 
