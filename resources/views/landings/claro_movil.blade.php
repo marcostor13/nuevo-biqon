@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'CLAROMAX')
+@section('title', 'CLARO MOVIL')
 
 @section('content')
 
