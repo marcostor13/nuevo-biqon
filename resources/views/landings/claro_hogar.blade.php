@@ -101,15 +101,16 @@
                             </div>
                         </div>
                 
-            <div class="card">     
-         <div class="card-body">
+          
 
 <div id="plan1" class="p-2 pl-3 hide">
+<div class="card">     
+         <div class="card-body">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
      <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
-        <!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
+       
     </ol> 
 
      <div class="carousel-inner">
@@ -127,15 +128,7 @@
         <button onclick="sendMail('Solicito ser Contactado Plan HOGAR 80'); ;eventosLanding('Solicitud Informacion  Plan HOGAR 80'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
         <br> <br> <br> 
         </div>
-        <!--<div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;">   
-        <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/TjBYOIv.png" alt=""> </a> <br> 
-        </center> <br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-                      <br> <br> <br>          
-        </div>-->
-      
-
+ 
     </div>
 
      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -228,15 +221,7 @@
         </center><br> <br>
         <button onclick="sendMail('Solicito ser Contactado Plan 3PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 3PLAY 400'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
         <br> <br> <br> 
-        </div>
-        <<!--div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;">   
-        <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/TjBYOIv.png" alt=""> </a> <br> 
-        </center> <br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-                      <br> <br> <br>          
-        </div>-->
-      
+        </div>     
 
     </div>
 
