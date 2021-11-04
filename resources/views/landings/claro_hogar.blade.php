@@ -97,12 +97,12 @@
                         <!--<div class="card">     
                             <div class="card-body">-->
                                 <div class="col-12 mt-2"></div>
-                                <button onclick="Mens1();" class="btn bg-white text-danger col-4 mt-2"> <img class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/9hoo6Uk.png"></button>
+                               <!-- <button onclick="Mens1();" class="btn bg-white text-danger col-4 mt-2"> <img class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/9hoo6Uk.png"></button>
                                 <button onclick="Mens2();" class="btn bg-white text-danger col-4 mt-2"> <img class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/B9n98KE.png"></button>
                                 <button onclick="Mens2();" class="btn bg-white text-danger col-4 mt-2"> <img class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/fDpn2k2.png"></button><br>
                                
                                <button onclick="Mens2();" class="btn bg-white text-danger col-4 mt-2"> <strong>  2 Play: <br>Internet + Tv</strong> </button>
-                               <button onclick="Mens3();" class="btn bg-white text-danger col-4 mt-2"> <strong>  3 Play: <br>Internet + Tv + Telefonía</strong> </button>
+                               <button onclick="Mens3();" class="btn bg-white text-danger col-4 mt-2"> <strong>  3 Play: <br>Internet + Tv + Telefonía</strong> </button>-->
                          <table>
                     <tr>
                     <td><img class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/9hoo6Uk.png"></td>
