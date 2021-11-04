@@ -105,9 +105,9 @@
                                <button onclick="Mens3();" class="btn bg-white text-danger col-4 mt-2"> <strong>  3 Play: <br>Internet + Tv + Telefonía</strong> </button>-->
                          <table>
                     <tr>
-                    <td><img class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/9hoo6Uk.png"></td>
-                    <td><img class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/B9n98KE.png"></td>
-                    <td><img class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/fDpn2k2.png"></td>
+                    <td><img onclick="Mens1();"class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/9hoo6Uk.png"></td>
+                    <td><img onclick="Mens2();"class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/B9n98KE.png"></td>
+                    <td><img onclick="Mens3();"class="col-3 mt-2" style="max-width:200px;" src="https://i.imgur.com/fDpn2k2.png"></td>
                     </tr>
 
                     <tr>
