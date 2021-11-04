@@ -115,14 +115,14 @@
      <div class="carousel-inner">
         <div class="item active">
         <center> <a onclick="sendMail('Solicito ser Contactado Plan  HOGAR PRO'); ;eventosLanding('Solicitud Informacion  Plan HOGAR PRO'); return false;">
-          <img style="" src="https://i.imgur.com/Cx6ia7O.png" alt=""> </a> <br> 
+          <img style="max-width:250px; max-height:250px " src="https://i.imgur.com/Cx6ia7O.png" alt=""> </a> <br> 
           </center> <br> <br>
           <button onclick="sendMail('Solicito ser Contactado Plan  HOGAR PRO'); ;eventosLanding('Solicitud Informacion  Plan HOGAR PRO'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
           <br> <br> <br> 
         </div>
         <div class="item">
         <center><a onclick="sendMail('Solicito ser Contactado Plan HOGAR 80'); ;eventosLanding('Solicitud Informacion  Plan HOGAR 80'); return false;"> 
-        <img style="" src="https://i.imgur.com/p9ETw33.png" alt=""> </a> <br> 
+        <img style="max-width:250px; max-height:250px " src="https://i.imgur.com/p9ETw33.png" alt=""> </a> <br> 
         </center><br> <br>
         <button onclick="sendMail('Solicito ser Contactado Plan HOGAR 80'); ;eventosLanding('Solicitud Informacion  Plan HOGAR 80'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
         <br> <br> <br> 
@@ -166,21 +166,21 @@
      <div class="carousel-inner">
         <div class="item active">
         <center> <a onclick="sendMail('Solicito ser Contactado Plan 2PLAY 80'); ;eventosLanding('Informacion 2PLAY 80'); return false;">
-          <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/2dOjk6p.png" alt=""> </a> <br> 
+          <img style="max-width:250px; max-height:250px " src="https://i.imgur.com/2dOjk6p.png" alt=""> </a> <br> 
           </center> <br> <br>
           <button onclick="sendMail('Solicito ser Contactado Plan 2PLAY 80'); ;eventosLanding('Informacion 2PLAY 80'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
           <br> <br> <br> 
         </div>
         <div class="item">
         <center><a onclick="sendMail('Solicito ser Contactado Plan 2PLAY 200'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 200'); return false;"> 
-        <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/79ESIJK.png" alt=""> </a> <br> 
+        <img style="max-width:250px; max-height:250px " src="https://i.imgur.com/79ESIJK.png" alt=""> </a> <br> 
         </center><br> <br>
         <button onclick="sendMail('Solicito ser Contactado Plan 2PLAY 200'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 200'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
         <br> <br> <br> 
         </div>
         <div class="item">
         <center><a onclick="sendMail('Solicito ser Contactado Plan 2PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 400'); return false;">   
-        <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/tN0p7Vy.png" alt=""> </a> <br> 
+        <img style="max-width:250px; max-height:250px " src="https://i.imgur.com/tN0p7Vy.png" alt=""> </a> <br> 
         </center> <br> <br>
         <button onclick="sendMail('Solicito ser Contactado Plan 2PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 400'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
                       <br> <br> <br>          
@@ -217,14 +217,14 @@
      <div class="carousel-inner">
         <div class="item active">
         <center> <a onclick="sendMail('Solicito ser Contactado Plan 3PLAY 200'); ;eventosLanding('Informacion 3PLAY 200'); return false;">
-          <img style=" " src="https://i.imgur.com/8WeUw2T.png" alt=""> </a> <br> 
+          <img style="max-width:250px; max-height:250px " src="https://i.imgur.com/8WeUw2T.png" alt=""> </a> <br> 
           </center> <br> <br>
           <button onclick="sendMail('Solicito ser Contactado Plan 3PLAY 200'); ;eventosLanding('Informacion 3PLAY 200'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
           <br> <br> <br> 
         </div>
         <div class="item">
         <center><a onclick="sendMail('Solicito ser Contactado Plan 3PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 3PLAY 400'); return false;"> 
-        <img style=""  src="https://i.imgur.com/hvJ1c0u.png" alt=""> </a> <br> 
+        <img style="max-width:250px; max-height:250px "  src="https://i.imgur.com/hvJ1c0u.png" alt=""> </a> <br> 
         </center><br> <br>
         <button onclick="sendMail('Solicito ser Contactado Plan 3PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 3PLAY 400'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
         <br> <br> <br> 
