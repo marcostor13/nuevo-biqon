@@ -88,7 +88,7 @@
                         </div>
                     </div>
             <div id="cont2" class="p-2 pl-3 ">
-            <h4> CONOCE NUESTRAS OFERTAS  EN PLANES MÓVILES DEL MES.</h4>
+          <h3  class="text-primary "><strong> Conoce Nuestras Ofertas En Planes Móviles Del Mes</strong> </h3>
             <div class="card">     
          <div class="card-body">
 
