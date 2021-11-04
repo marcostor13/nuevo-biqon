@@ -474,7 +474,7 @@
              window.location.href = "tel:+56975890470";
         }  
 
-
+/*
      function Mens1(){
    window.location.href = "https://api.whatsapp.com/send?phone=56975890470&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
         } 
@@ -484,16 +484,30 @@
          var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
              window.location.href = "mailto:angelo.castillo@solvencia.cl ?subject=Portabilidad%20Claro&body"+body_message;
  }
+*/
 
-
-  function Mens3(){
-        $('#cont2').addClass('hide');
-        $('#form').removeClass('hide'); 
-        $('#CONT').removeClass('hide');
-        $('#actual').addClass('hide');
+  function Mens1(){
+        $('#plan2').addClass('hide');
+        $('#plan1').removeClass('hide'); 
+        //$('#CONT').removeClass('hide');
+        $('#plan3').addClass('hide');
 
  }
 
+ function Mens2(){
+        $('#plan1').addClass('hide');
+        $('#plan2').removeClass('hide'); 
+        //$('#CONT').removeClass('hide');
+        $('#plan3').addClass('hide');
+
+ }
+ function Mens3(){
+        $('#plan1').addClass('hide');
+        $('#plan3').removeClass('hide'); 
+        //$('#CONT').removeClass('hide');
+        $('#plan3').addClass('hide');
+
+ }
  function activa(){
 
   $('#cont2').addClass('hide');
