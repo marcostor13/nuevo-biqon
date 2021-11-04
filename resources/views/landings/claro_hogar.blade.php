@@ -146,7 +146,7 @@
 <!--plan 2-->
 
     <div id="plan2"  class="p-2 pl-3 hide">
-    <br> <br> <br> 
+    <br>
 <div class="card">     
          <div class="card-body">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -197,7 +197,7 @@
     <!--plan 3-->
 
     <div id="plan3"  class="p-2 pl-3 hide">
-    <br> <br> <br> 
+    <br>
     <div class="card">     
          <div class="card-body">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
