@@ -219,29 +219,30 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#name').text(),
+                    'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
-                    'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Id_Admision': getUrlParameter('data1'),
-                    'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data3'),
-                    'Ley': getUrlParameter('data4')
+                    'Comuna': getUrlParameter('data1'),
+                    //'Prevision': getUrlParameter('data2'),
+                    //'Estado': getUrlParameter('data3'),
+                    //'Ley': getUrlParameter('data4'),
+                     'RUT': getUrlParameter('rut'),
+                     'landing': '{!! $landing->name !!}'
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'nombre': $('#name').text(),
+                    'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
-                    'phone': getUrlParameter('telefono'),
-                    'Id_Admision': getUrlParameter('data1'),
-                    'Prevision': getUrlParameter('data2'),
-                    'Estado': getUrlParameter('data3'),
-                    'Ley': getUrlParameter('data4'),
-                     'rut': getUrlParameter('rut'),
-                    'landing': '{!! $landing->name !!}'
+                    'Telefono': getUrlParameter('telefono'),
+                    'Comuna': getUrlParameter('data1'),
+                    //'Prevision': getUrlParameter('data2'),
+                    //'Estado': getUrlParameter('data3'),
+                    //'Ley': getUrlParameter('data4'),
+                     'RUT': getUrlParameter('rut'),
+                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
@@ -263,7 +264,7 @@ $enddate=strtotime("+5 days", $startdate);
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted.');
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
