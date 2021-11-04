@@ -110,19 +110,19 @@
      <div class="carousel-inner">
         <div class="item active">
         <a onclick="sendMail('Solicito ser Contactado Plan Gigas Libre'); ;eventosLanding('Informacion GIGAS LIBRE'); return false;">
-          <img src="https://i.imgur.com/OzQSlyR.png" alt=""> </a>
+          <img style="max-width:80px; max-height:250px " src="https://i.imgur.com/OzQSlyR.png" alt=""> </a> <br> 
           <button onclick="sendMail('Solicito ser Contactado Plan Gigas Libre'); ;eventosLanding('Informacion GIGAS LIBRE'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
           <br> <br> <br> 
         </div>
         <div class="item">
         <a onclick="sendMail('Solicito ser Contactado Plan Max M'); ;eventosLanding('Solicitud Informacion  Plan Max M'); return false;"> 
-        <img src="https://i.imgur.com/fJMsIxz.png" alt=""> </a>
+        <img src="https://i.imgur.com/fJMsIxz.png" alt=""> </a> <br> 
         <button onclick="sendMail('Solicito ser Contactado Plan Max M'); ;eventosLanding('Solicitud Informacion  Plan Max M'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
         <br> <br> <br> 
         </div>
         <div class="item">
         <a onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;">   
-        <img src="https://i.imgur.com/TjBYOIv.png" alt=""> </a>
+        <img src="https://i.imgur.com/TjBYOIv.png" alt=""> </a> <br> 
         <button onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
                       <br> <br> <br>          
         </div>
