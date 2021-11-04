@@ -110,7 +110,7 @@
      <div class="carousel-inner">
         <div class="item active">
         <a onclick="sendMail('Solicito ser Contactado Plan Gigas Libre'); ;eventosLanding('Informacion GIGAS LIBRE'); return false;">
-          <img style="max-width:80px; max-height:250px " src="https://i.imgur.com/OzQSlyR.png" alt=""> </a> <br> 
+          <img style="max-width:200px; max-height:400px " src="https://i.imgur.com/OzQSlyR.png" alt=""> </a> <br> 
           <button onclick="sendMail('Solicito ser Contactado Plan Gigas Libre'); ;eventosLanding('Informacion GIGAS LIBRE'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
           <br> <br> <br> 
         </div>
