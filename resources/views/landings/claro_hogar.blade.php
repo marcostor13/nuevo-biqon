@@ -97,9 +97,12 @@
                         <div class="card">     
                             <div class="card-body">
                                 <div class="col-12 mt-2"></div>
-                               <button onclick="Mens1();" class="btn bg-white text-danger col-3 mt-2"><img width="100" src="https://i.imgur.com/9hoo6Uk.png"> <strong>   1 Play: Internet </strong> </button>
-                               <button onclick="Mens2();" class="btn bg-white text-danger col-3 mt-2"><img width="100" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>
-                               <button onclick="Mens3();" class="btn bg-white text-danger col-3 mt-2"><img width="100" src="https://i.imgur.com/fDpn2k2.png"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>
+                                <img width="100" src="https://i.imgur.com/9hoo6Uk.png">
+                                <img width="100" src="https://i.imgur.com/B9n98KE.png">
+                                <img width="100" src="https://i.imgur.com/fDpn2k2.png"><br>
+                               <button onclick="Mens1();" class="btn bg-white text-danger col-3 mt-2"> <strong>   1 Play: Internet </strong> </button>
+                               <button onclick="Mens2();" class="btn bg-white text-danger col-3 mt-2"> <strong>  2 Play: Internet + Tv</strong> </button>
+                               <button onclick="Mens3();" class="btn bg-white text-danger col-3 mt-2"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>
                             </div>
                         </div>
             </div>
