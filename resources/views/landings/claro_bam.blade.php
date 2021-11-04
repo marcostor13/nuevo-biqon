@@ -72,7 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
                             <div class="card-body">
                                 <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>
                                <center>  <p class="text-white"> <h4> 
-                                Claro informa de una oferta especial.Descuento de $14.000 X Siempre</h4> </p> </center>
+                                Claro informa de una oferta especial. Descuento de $14.000 X Siempre</h4> </p> </center>
                                
                                 <center>
                                 <div class="d-flex justify-content-around align-content-center mt-4">
