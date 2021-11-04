@@ -258,7 +258,7 @@
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                                <h5 id="message"class="text-grey text-center mt-3"></h5>
                             </div>
                         </div>
             </div>
@@ -382,19 +382,6 @@
                 if(msg !== false){
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
-                     $('#cont7').addClass('hide');
-                     $('#cont6').addClass('hide');
-                     $('#port4').addClass('hide');
-                     $('#port3').addClass('hide');
-                     $('#port2').addClass('hide');
-                     $('#port1').addClass('hide');
-                     $('#nuev5').addClass('hide');
-                     $('#nuev4').addClass('hide');
-                     $('#nuev3').addClass('hide');
-                     $('#nuev2').addClass('hide');
-                     $('#nuev1').addClass('hide');
-                     $('#form').addClass('hide');
-                     $('#actual').addClass('hide');
                      $('#cont3').removeClass('hide');
                      $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
 
