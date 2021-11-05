@@ -237,37 +237,37 @@ body {
       <li class="slide" id="slide1">
         <a href="#">
           <p class="caption">Texto llamativo</p>
-          <img src="photo1.jpg" alt="photo 1">
+          <img src="https://imgur.com/DWibohM.jpg" alt="photo 1">
         </a>
       </li>
       <li class="slide" id="slide2">
         <a href="#">
           <p class="caption">Texto llamativo</p>
-          <img src="photo2.jpg" alt="photo 2">
+          <img src="https://imgur.com/DWibohM.jpg" alt="photo 2">
         </a>
       </li>
       <li class="slide" id="slide3">
         <a href="#">
           <p class="caption">Texto llamativo</p>
-          <img src="photo3.jpg" alt="photo 3">
+          <img src="https://imgur.com/DWibohM.jpg" alt="photo 3">
         </a>
       </li>
       <li class="slide" id="slide4">
         <a href="#">
           <p class="caption">Texto llamativo</p>
-          <img src="photo4.jpg" alt="photo 4">
+          <img src="https://imgur.com/DWibohM.jpg" alt="photo 4">
         </a>
       </li>
       <li class="slide" id="slide5">
         <a href="#">
            <p class="caption">Texto llamativo</p>
-           <img src="photo5.jpg" alt="photo 5">
+           <img src="https://imgur.com/DWibohM.jpg" alt="photo 5">
         </a>
       </li>
       <li class="slide">
         <a href="#">
           <p class="caption">Texto llamativo</p>
-          <img src="photo1.jpg" alt="photo 1">
+          <img src="https://imgur.com/DWibohM.jpg" alt="photo 1">
         </a>
       </li>
     </ul>
