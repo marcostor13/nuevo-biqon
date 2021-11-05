@@ -97,12 +97,12 @@
                         <!--<div class="card">     
                             <div class="card-body">-->
                                <center>
-                               <a onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/KEqnwhN.png"></a> <br>
+                               <a onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/A6MezSN.png"></a> <br>
 
           
 
-                                <a onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/aeL0By1.png"></a> <br>
-                                <a onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/KVL02Av.png"></a> </center>
+                                <a onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/0QBfzev.png"></a> <br>
+                                <a onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/VrCqlCS.png"></a> </center>
                                <!--button onclick="Mens1();" class="btn bg-white text-danger col-4 mt-2"> <strong>   1 Play: <br>Internet </strong> </button>
                                <button onclick="Mens2();" class="btn bg-white text-danger col-4 mt-2"> <strong>  2 Play: <br>Internet + Tv</strong> </button>
                                <button onclick="Mens3();" class="btn bg-white text-danger col-4 mt-2"> <strong>  3 Play: <br>Internet + Tv + Telefonía</strong> </button>-->
