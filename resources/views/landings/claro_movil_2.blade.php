@@ -93,87 +93,55 @@
          <div class="card-body">
 
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <!--<li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>-->
-        <!--<li data-target="#myCarousel" data-slide-to="9"></li>-->
-    </ol> 
-
-     <div class="carousel-inner">
-        <div class="item active">
-        <center> <a onclick="sendMail('Solicito ser Contactado Plan Gigas Libre'); ;eventosLanding('Informacion GIGAS LIBRE'); return false;">
-          <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/OzQSlyR.png" alt=""> </a> <br> 
-          </center> <br> <br>
-          <button onclick="sendMail('Solicito ser Contactado Plan Gigas Libre'); ;eventosLanding('Informacion GIGAS LIBRE'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-          <br> <br> <br> 
-        </div>
-        <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan Max M'); ;eventosLanding('Solicitud Informacion  Plan Max M'); return false;"> 
-        <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/fJMsIxz.png" alt=""> </a> <br> 
-        </center><br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan Max M'); ;eventosLanding('Solicitud Informacion  Plan Max M'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-        <br> <br> <br> 
-        </div>
-        <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;">   
-        <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/TjBYOIv.png" alt=""> </a> <br> 
-        </center> <br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-                      <br> <br> <br>          
-        </div>
-       <!-- <div class="item">
-            <img src="https://i.imgur.com/xX5SEJt.png" alt="">
-        </div>
-        <div class="item">
-            <img src="https://i.imgur.com/CmmiqSh.png" alt="">
-        </div>
-        <div class="item">
-            <img src="https://i.imgur.com/fFBy9Vi.png" alt="">
-        </div>
-        <div class="item">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_984738-MLC45362014336_032021-O.webp" alt="">
-        </div>
-        <div class="item">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_630036-MLC45362014339_032021-O.webp" alt="">
-        </div>
-        <div class="item">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_759418-MLC45362014333_032021-O.webp" alt="">
-        </div>-->
-
-    </div>
-
-     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
-    </div>
-    </div>
-    </center>
+   <div class="wrapper">
+  <div class="slider" id="slider">
+    <ul class="slides">
+      <li class="slide" id="slide1">
+        <a href="#">
+          <p class="caption">Texto llamativo</p>
+          <img src="photo1.jpg" alt="photo 1">
+        </a>
+      </li>
+      <li class="slide" id="slide2">
+        <a href="#">
+          <p class="caption">Texto llamativo</p>
+          <img src="photo2.jpg" alt="photo 2">
+        </a>
+      </li>
+      <li class="slide" id="slide3">
+        <a href="#">
+          <p class="caption">Texto llamativo</p>
+          <img src="photo3.jpg" alt="photo 3">
+        </a>
+      </li>
+      <li class="slide" id="slide4">
+        <a href="#">
+          <p class="caption">Texto llamativo</p>
+          <img src="photo4.jpg" alt="photo 4">
+        </a>
+      </li>
+      <li class="slide" id="slide5">
+        <a href="#">
+           <p class="caption">Texto llamativo</p>
+           <img src="photo5.jpg" alt="photo 5">
+        </a>
+      </li>
+      <li class="slide">
+        <a href="#">
+          <p class="caption">Texto llamativo</p>
+          <img src="photo1.jpg" alt="photo 1">
+        </a>
+      </li>
+    </ul>
+    <ul class="slider-controler">
+      <li><a href="#slide1">&bullet;</a></li>
+      <li><a href="#slide2">&bullet;</a></li>
+      <li><a href="#slide3">&bullet;</a></li>
+      <li><a href="#slide4">&bullet;</a></li>
+      <li><a href="#slide5">&bullet;</a></li>
+    </ul>
+  </div>
 </div>
-
-           
-                           <div id="cont3" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                            </div>
-                        </div>
-            </div>
-</div>
-
     <script>
 
         $(function(){
