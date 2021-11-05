@@ -296,7 +296,7 @@
     <div id="opt11" class="p-2 pl-3">
                         <div class="card">     
                             <div class="card-body">
-                            <button onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"><img width="100" src="https://i.imgur.com/9hoo6Uk.png"> <strong>   1 Play: Internet </strong> </button> 
+                            <button onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"><img width="100" src="https://imgur.com/A6MezSN.png"> <strong>   1 Play: Internet </strong> </button> 
                             <button onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"><img width="100" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>
                                <!--<button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/fDpn2k2.png"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>-->
                             </div>
