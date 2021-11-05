@@ -204,7 +204,7 @@ body {
 
 
 
-    
+
 </style>
 <!-- Compiled and minified Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
@@ -236,38 +236,38 @@ body {
     <ul class="slides">
       <li class="slide" id="slide1">
         <a href="#">
-          <p class="caption">Texto llamativo</p>
-          <img src="https://imgur.com/DWibohM.jpg" alt="photo 1">
+          <p class="caption"></p>
+          <img class="col-12 mt-2" style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 1">
         </a>
       </li>
       <li class="slide" id="slide2">
         <a href="#">
-          <p class="caption">Texto llamativo</p>
-          <img src="https://imgur.com/DWibohM.jpg" alt="photo 2">
+          <p class="caption"></p>
+          <img style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 2">
         </a>
       </li>
       <li class="slide" id="slide3">
         <a href="#">
-          <p class="caption">Texto llamativo</p>
-          <img src="https://imgur.com/DWibohM.jpg" alt="photo 3">
+          <p class="caption"></p>
+          <img style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 3">
         </a>
       </li>
       <li class="slide" id="slide4">
         <a href="#">
-          <p class="caption">Texto llamativo</p>
-          <img src="https://imgur.com/DWibohM.jpg" alt="photo 4">
+          <p class="caption"></p>
+          <img style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 4">
         </a>
       </li>
       <li class="slide" id="slide5">
         <a href="#">
-           <p class="caption">Texto llamativo</p>
-           <img src="https://imgur.com/DWibohM.jpg" alt="photo 5">
+           <p class="caption"></p>
+           <img style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 5">
         </a>
       </li>
       <li class="slide">
         <a href="#">
-          <p class="caption">Texto llamativo</p>
-          <img src="https://imgur.com/DWibohM.jpg" alt="photo 1">
+          <p class="caption"></p>
+          <img style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 1">
         </a>
       </li>
     </ul>
