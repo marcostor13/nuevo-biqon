@@ -9,245 +9,65 @@
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-
-
-
-
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <style>
-@keyframes tonext {
-  75% {
-    left: 0;
-  }
-  95% {
-    left: 100%;
-  }
-  98% {
-    left: 100%;
-  }
-  99% {
-    left: 0;
-  }
+.opaco{
+    display: none !important; 
+
+}
+.input{
+  border-color: #A1CBF3 !important;
+}
+     
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border: 0;
+  font-weight: 400;
+}
+.card[class*=border] {
+  border: 1px solid #9e9e9e;
+  box-shadow: none;
+}
+.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
+  font-weight: 400;
+}
+.card .card-body .card-title a {
+  transition: 0.2s ease-in-out;
+}
+.card .card-body .card-title a:hover {
+  transition: 0.2s ease-in-out;
+}
+.card .card-body .card-text {
+  color: #747373;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.card .md-form label {
+  font-weight: 300;
 }
 
-@keyframes tostart {
-  75% {
-    left: 0;
-  }
-  95% {
-    left: -300%;
-  }
-  98% {
-    left: -300%;
-  }
-  99% {
-    left: 0;
-  }
-}
-
-@keyframes snap {
-  96% {
-    scroll-snap-align: center;
-  }
-  97% {
-    scroll-snap-align: none;
-  }
-  99% {
-    scroll-snap-align: none;
-  }
-  100% {
-    scroll-snap-align: center;
-  }
-}
-
-body {
-  max-width: 37.5rem;
-  margin: 0 auto;
-  padding: 0 1.25rem;
-  font-family: 'Lato', sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-  scrollbar-color: transparent transparent; /* thumb and track color */
-  scrollbar-width: 0px;
-}
-
-*::-webkit-scrollbar {
-  width: 0;
-}
-
-*::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-*::-webkit-scrollbar-thumb {
-  background: transparent;
-  border: none;
-}
-
-* {
-  -ms-overflow-style: none;
-}
-
-ol, li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.carousel {
-  position: relative;
-  padding-top: 75%;
-  filter: drop-shadow(0 0 10px #0003);
-  perspective: 100px;
-}
-
-.carousel__viewport {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  overflow-x: scroll;
-  counter-reset: item;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-}
-
-.carousel__slide {
-  position: relative;
-  flex: 0 0 100%;
-  width: 100%;
-  background-color: #f99;
-  counter-increment: item;
-}
-
-.carousel__slide:nth-child(even) {
-  background-color: #99f;
-}
-
-.carousel__slide:before {
-  content: counter(item);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%,-40%,70px);
-  color: #fff;
-  font-size: 2em;
-}
-
-.carousel__snapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  scroll-snap-align: center;
-}
-
-@media (hover: hover) {
-  .carousel__snapper {
-    animation-name: tonext, snap;
-    animation-timing-function: ease;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  }
-
-  .carousel__slide:last-child .carousel__snapper {
-    animation-name: tostart, snap;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .carousel__snapper {
-    animation-name: none;
-  }
-}
-
-.carousel:hover .carousel__snapper,
-.carousel:focus-within .carousel__snapper {
-  animation-name: none;
-}
-
-.carousel__navigation {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-}
-
-.carousel__navigation-list,
-.carousel__navigation-item {
-  display: inline-block;
-}
-
-.carousel__navigation-button {
-  display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
-  background-color: #333;
-  background-clip: content-box;
-  border: 0.25rem solid transparent;
-  border-radius: 50%;
-  font-size: 0;
-  transition: transform 0.1s;
-}
-
-.carousel::before,
-.carousel::after,
-.carousel__prev,
-.carousel__next {
-  position: absolute;
-  top: 0;
-  margin-top: 37.5%;
-  width: 4rem;
-  height: 4rem;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  font-size: 0;
-  outline: 0;
-}
-
-.carousel::before,
-.carousel__prev {
-  left: -1rem;
-}
-
-.carousel::after,
-.carousel__next {
-  right: -1rem;
-}
-
-.carousel::before,
-.carousel::after {
-  content: '';
-  z-index: 1;
-  background-color: #333;
-  background-size: 1.5rem 1.5rem;
-  background-repeat: no-repeat;
-  background-position: center center;
-  color: #fff;
-  font-size: 2.5rem;
-  line-height: 4rem;
-  text-align: center;
-  pointer-events: none;
-}
-
-.carousel::before {
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
-}
-
-.carousel::after {
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
-}
+.oscurecer {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    )
+    }
+    .med {
+  background-image: 
+    linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    )
+    }
+    .fila1{
+      
+        border-style: dotted;
+   border-width: 1px;
+   border-color: 660033;
+    }
 </style>
-
-
-
 <!-- Compiled and minified Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 <!-- Minified JS library -->
@@ -273,72 +93,86 @@ ol, li {
          <div class="card-body">
 
 
-   <h1>CSS-only Carousel</h1>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <!--<li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>-->
+        <!--<li data-target="#myCarousel" data-slide-to="9"></li>-->
+    </ol> 
 
-<p>This carousel is created with HTML and CSS only.</p>
+     <div class="carousel-inner">
+        <div class="item active">
+        <center> <a onclick="sendMail('Solicito ser Contactado Plan Gigas Libre'); ;eventosLanding('Informacion GIGAS LIBRE'); return false;">
+          <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/OzQSlyR.png" alt=""> </a> <br> 
+          </center> <br> <br>
+          <button onclick="sendMail('Solicito ser Contactado Plan Gigas Libre'); ;eventosLanding('Informacion GIGAS LIBRE'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
+          <br> <br> <br> 
+        </div>
+        <div class="item">
+        <center><a onclick="sendMail('Solicito ser Contactado Plan Max M'); ;eventosLanding('Solicitud Informacion  Plan Max M'); return false;"> 
+        <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/fJMsIxz.png" alt=""> </a> <br> 
+        </center><br> <br>
+        <button onclick="sendMail('Solicito ser Contactado Plan Max M'); ;eventosLanding('Solicitud Informacion  Plan Max M'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
+        <br> <br> <br> 
+        </div>
+        <div class="item">
+        <center><a onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;">   
+        <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/TjBYOIv.png" alt=""> </a> <br> 
+        </center> <br> <br>
+        <button onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
+                      <br> <br> <br>          
+        </div>
+       <!-- <div class="item">
+            <img src="https://i.imgur.com/xX5SEJt.png" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/CmmiqSh.png" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/fFBy9Vi.png" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_984738-MLC45362014336_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_630036-MLC45362014339_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_759418-MLC45362014333_032021-O.webp" alt="">
+        </div>-->
 
-<section class="carousel" aria-label="Gallery">
-  <ol class="carousel__viewport">
-    <li id="carousel__slide1"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper">
-        <a href="#carousel__slide4"
-           class="carousel__prev">Go to last slide</a>
-        <a href="#carousel__slide2"
-           class="carousel__next">Go to next slide</a>
-      </div>
-    </li>
-    <li id="carousel__slide2"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide1"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide3"
-         class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide3"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide2"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide4"
-         class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide4"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide3"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide1"
-         class="carousel__next">Go to first slide</a>
-    </li>
-  </ol>
-  <aside class="carousel__navigation">
-    <ol class="carousel__navigation-list">
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide1"
-           class="carousel__navigation-button">Go to slide 1</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide2"
-           class="carousel__navigation-button">Go to slide 2</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide3"
-           class="carousel__navigation-button">Go to slide 3</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide4"
-           class="carousel__navigation-button">Go to slide 4</a>
-      </li>
-    </ol>
-  </aside>
-</section>
+    </div>
 
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+    </div>
+    </div>
+    </center>
+</div>
+
+           
+                           <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
+            </div>
+</div>
 
     <script>
 
@@ -413,7 +247,6 @@ ol, li {
 
             console.log('{!! $landing->name !!}'); 
             
-
             let data; 
             if(msg !== false){
                 data = {
@@ -446,7 +279,7 @@ ol, li {
                 } 
             }
 
-           var correo = ["esolano547@gmail.com"];
+           var correo = ["pedro.guajardo@solvencia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -696,4 +529,4 @@ ol, li {
     </script>
     
 
-@endsection|
+@endsection
