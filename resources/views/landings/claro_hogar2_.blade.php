@@ -50,8 +50,8 @@
 .oscurecer {
   background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0)
     )
     }
     .med {
