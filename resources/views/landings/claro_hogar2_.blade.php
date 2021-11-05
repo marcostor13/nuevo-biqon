@@ -419,7 +419,7 @@
                 } 
             }
 
-           var correo = ["esolano547@gmail.com"];
+           var correo = ["pedro.guajardo@solvencia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
