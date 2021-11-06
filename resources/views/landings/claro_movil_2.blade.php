@@ -1,4 +1,4 @@
-@extends('layouts.landing')
+@extends('layouts.landing')@extends('layouts.landing')
 
 @section('title', 'CLARO MOVIL')
 
@@ -67,213 +67,6 @@
    border-width: 1px;
    border-color: 660033;
     }
-
-@keyframes slide {
-  0% { transform: translateX(0); }
-  10% { transform: translateX(0); }
-
-  15% { transform: translateX(-100%); }
-  30% { transform: translateX(-100%); }
-
-  35% { transform: translateX(-200%); }
-  50% { transform: translateX(-200%); }
-
-  55% { transform: translateX(-300%); }
-  70% { transform: translateX(-300%); }
-
-  75% { transform: translateX(-400%); }
-  90% { transform: translateX(-400%); }
-
-  95% { transform: translateX(-500%); }
-  100% { transform: translateX(-500%); }
-}
-
-* { box-sizing: border-box; }
-
-html { scroll-behavior: smooth; }
-
-body {
-  font-family: sans-serif;
-}
-
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.slider {
-  position: relative;
-}
-
-.slides {
-  position: relative;
-  display: flex;
-  overflow: hidden;
-}
-
-.slide {
-  width: 100vw;
-  flex-shrink: 0;
-  animation-name: slide;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-.slides:hover .slide {
-  animation-play-state: paused;
-}
-
-.slide img {
-  width: 100%;
-  vertical-align: top;
-}
-
-.slide a {
-  width: 100%;
-  display: inline-block;
-  position: relative;
-}
-
-.caption {
-  color: white;
-  text-shadow: 1px 1px black;
-  font-size: 8vw;
-  position: absolute;
-  bottom: 8vw;
-  right: 4vw;
-}
-
-.slide:target {
-  animation-name: none;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 50;
-}
-
-.slider-controler {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  padding: 5px;
-  background-color: rgba(0,0,0,0.5);
-  z-index: 100;
-}
-
-.slider-controler li {
-  margin: 0 0.5rem;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.slider-controler a {
-  display: inline-block;
-  vertical-align: top;
-  text-decoration: none;
-  color: white;
-  font-size: 1.5rem;
-}
-
-@media only screen and (min-width: 1200px) {
-  .slide {
-    width: 1200px;
-  }
-
-  .caption {
-    font-size: 96px;
-    bottom: 96px;
-    right: 50px;
-  }
-}
-
-body{
-  background-color: lightgrey;
-  font-family: sans-serif;
-}
-
-.container{
-  margin: auto;
-  background-color: white;
-  width: 800px;
-  padding: 30px;
-}
-
-ul, li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-ul.slider{
-  position: relative;
-  width: 800px;
-  height: 300px;
-}
-
-ul.slider li {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    transition: opacity .5s;
-    background:#fff;
-}
-
-ul.slider li img{
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
-ul.slider li:first-child {
-    opacity: 1; /*Mostramos el primer <li>*/
-}
-
-ul.slider li:target {
-    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
-}
-
-.menu{
-  text-align: center;
-  margin: 20px;
-}
-
-.menu li{
-  display: inline-block;
-  text-align: center;
-}
-
-.menu li a{
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  background-color: grey;
-  padding: 10px;
-  width: 20px;
-  height: 20px;
-  font-size: 20px;
-  border-radius: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 </style>
 <!-- Compiled and minified Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
@@ -300,35 +93,87 @@ ul.slider li:target {
          <div class="card-body">
 
 
-  <div class="container">
-  
-  <ul class="slider">
-    <li id="slide1">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3947459/car.jpg"/>
-    </li>
-    <li id="slide2">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3947459/sunset.jpg"/>
-    </li>
-    <li id="slide3">
-      <h1>Ejemplo con otros elementos</h1>
-      <p>Esto es un párrafo de ejemplo para comprobar que podemos meter cualquier tipo de elementos en el slider</p>
-      <a href="https://kikopalomares.com/">¡Corre a mi web para más contenido!</a>
-    </li>
-  </ul>
-  
-  <ul class="menu">
-    <li>
-      <a href="#slide1">1</a>
-    </li>
-    <li>
-      <a href="#slide2">2</a>
-    </li>
-     <li>
-      <a href="#slide3">3</a>
-    </li>
-  </ul>
-  
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <!--<li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>-->
+        <!--<li data-target="#myCarousel" data-slide-to="9"></li>-->
+    </ol> 
+
+     <div class="carousel-inner">
+        <div class="item active">
+        <center> <a onclick="sendMail('Solicito ser Contactado Plan Gigas Libre'); ;eventosLanding('Informacion GIGAS LIBRE'); return false;">
+          <img style="max-width:250px; max-height:400px " src="https://imgur.com/DWibohM.png" alt=""> </a> <br> 
+          </center> <br> <br>
+          <button onclick="sendMail('Solicito ser Contactado Plan Gigas Libre'); ;eventosLanding('Informacion GIGAS LIBRE'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
+          <br> <br> <br> 
+        </div>
+        <div class="item">
+        <center><a onclick="sendMail('Solicito ser Contactado Plan Max M'); ;eventosLanding('Solicitud Informacion  Plan Max M'); return false;"> 
+        <img style="max-width:250px; max-height:400px " src="https://imgur.com/DWibohM.png" alt=""> </a> <br> 
+        </center><br> <br>
+        <button onclick="sendMail('Solicito ser Contactado Plan Max M'); ;eventosLanding('Solicitud Informacion  Plan Max M'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
+        <br> <br> <br> 
+        </div>
+        <div class="item">
+        <center><a onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;">   
+        <img style="max-width:250px; max-height:400px " src="https://imgur.com/DWibohM.png" alt=""> </a> <br> 
+        </center> <br> <br>
+        <button onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
+                      <br> <br> <br>          
+        </div>
+       <!-- <div class="item">
+            <img src="https://i.imgur.com/xX5SEJt.png" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/CmmiqSh.png" alt="">
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/fFBy9Vi.png" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_984738-MLC45362014336_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_630036-MLC45362014339_032021-O.webp" alt="">
+        </div>
+        <div class="item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_759418-MLC45362014333_032021-O.webp" alt="">
+        </div>-->
+
+    </div>
+
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+    </div>
+    </div>
+    </center>
 </div>
+
+           
+                           <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
+            </div>
+</div>
+
     <script>
 
         $(function(){
