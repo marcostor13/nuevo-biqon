@@ -243,40 +243,38 @@ body {
       <li class="slide" id="slide2">
         <a href="#">
           <p class="caption"></p>
-          <img style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 2">
+          <img class="col-12 mt-2" style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 2">
         </a>
       </li>
       <li class="slide" id="slide3">
         <a href="#">
           <p class="caption"></p>
-          <img style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 3">
+          <img class="col-12 mt-2" style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 3">
         </a>
       </li>
       <li class="slide" id="slide4">
         <a href="#">
           <p class="caption"></p>
-          <img style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 4">
+          <img class="col-12 mt-2" style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 4">
         </a>
       </li>
       <li class="slide" id="slide5">
         <a href="#">
            <p class="caption"></p>
-           <img style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 5">
+           <img class="col-12 mt-2" style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 5">
         </a>
       </li>
       <li class="slide">
         <a href="#">
           <p class="caption"></p>
-          <img style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 1">
+          <img class="col-12 mt-2" style="max-width: 350px; max-height:350px "src="https://imgur.com/DWibohM.jpg" alt="photo 1">
         </a>
       </li>
     </ul>
     <ul class="slider-controler">
       <li><a href="#slide1">&bullet;</a></li>
       <li><a href="#slide2">&bullet;</a></li>
-      <li><a href="#slide3">&bullet;</a></li>
-      <li><a href="#slide4">&bullet;</a></li>
-      <li><a href="#slide5">&bullet;</a></li>
+      
     </ul>
   </div>
 </div>
