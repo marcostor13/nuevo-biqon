@@ -88,8 +88,8 @@
                         </div>
                     </div>
             <div id="cont2" class="p-2 pl-3 ">
-<img width=" 100%" src="https://imgur.com/JkSDFYZ.jpg">
-
+<center> <img width=" 100%" src="https://imgur.com/JkSDFYZ.jpg"></center>
+<br>
          <!--<center> <h3  class="text-primary "><strong> Conoce Nuestras Ofertas En Planes Móviles Del Mes</strong> </h3></center>
             <div class="card">     
          <div class="card-body">-->
