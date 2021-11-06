@@ -124,7 +124,7 @@
         </div>
         <div class="item">
         <center><a onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;">   
-        <img class="col-12 mt-2" style="max-width: 550px; max-height:900px src="https://imgur.com/Oj3NBUu.png" alt=""> </a> <br> 
+        <img class="col-12 mt-2" style="max-width: 550px; max-height:900px" src="https://imgur.com/Oj3NBUu.png" alt=""> </a> <br> 
         </center> <br> <br>
         <button onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
                       <br> <br> <br>          
