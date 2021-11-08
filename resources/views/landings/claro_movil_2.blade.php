@@ -130,7 +130,13 @@
         <img class="col-12 mt-2" style="max-width: 550px; max-height:900px" src="https://imgur.com/Oj3NBUu.png" alt=""> </a> <br> 
         </center> <br> <br>
         <button onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-                      <br> <br> <br>          
+                      <br> <br> <br>      
+
+
+
+
+
+                        <button onclick="sendMail('No deseo recibir Mas Noticias de Claro'); ;eventosLanding('No deseo Productos Claro'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>No deseo recibir Mas Mensajes de claro</h4></button>    
         </div>
        <!-- <div class="item">
             <img src="https://i.imgur.com/xX5SEJt.png" alt="">
