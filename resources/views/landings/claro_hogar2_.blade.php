@@ -440,7 +440,7 @@
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                      $('#cont3').removeClass('hide');
-                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted');
+                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área.');
 
                 }else{
                     $('#message').removeClass('hide');
