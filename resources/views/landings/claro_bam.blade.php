@@ -52,7 +52,7 @@ $enddate=strtotime("+5 days", $startdate);
      <div class="opaco">
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLARO">
+            <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLARO">
             
             <div class=col-md-12>
            
@@ -77,7 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
                                 <center>
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick="sendMail('Solicito ser Contactado Plan Inalambrico'); ;eventosLanding('Solicitud Informacion'); return false;">
-                                    <img style="max-width: 100%" src="https://i.imgur.com/4ltkEMx.png"></a>
+                                    <img style="max-width: 100%" src="https://imgur.com/20pi2Vm.png"></a>
                                 </div>
                                 </center>
 
