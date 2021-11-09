@@ -5,7 +5,7 @@
 @section('content')
 <?php
 $startdate=strtotime("Today");
-$enddate=strtotime("+4 days", $startdate);
+$enddate=strtotime("+6 days", $startdate);
 ?>
 <style>
 .opaco{
