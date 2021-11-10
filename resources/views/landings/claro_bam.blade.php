@@ -70,50 +70,21 @@ $enddate=strtotime("+5 days", $startdate);
                     <div id="cont2" class="p-2 pl-3 pr-3 ">
                         <div class="card">     
                             <div class="card-body">
-                                <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>
+                             <!--   <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>-->
                                <center>  <p class="text-white"> <h4> 
                                 Claro informa de una oferta especial. Descuento de $14.000 X Siempre</h4> </p> </center>
                                
                                 <center>
                                 <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick="sendMail('Solicito ser Contactado Plan Inalambrico'); ;eventosLanding('Solicitud Informacion'); return false;">
-                                    <img style="max-width: 100%" src="https://imgur.com/20pi2Vm.png"></a>
+                                    <img style="max-width: 100%" src="https://i.imgur.com/IvsIqkY.png"></a>
                                 </div>
                                 </center>
 
                                 <button onclick="sendMail('Solicito ser Contactado  Plan Inalambrico'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
 
-                                 <button onclick="sendMail('No deseo recibir Mas Noticias de Claro'); ;eventosLanding('No deseo Productos Claro'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>No deseo recibir Mas Mensajes de claro</h4></button>
+                                 <button onclick="sendMail('No deseo recibir Mas Noticias de Claro'); ;eventosLanding('No deseo Productos Claro'); return false;" class="btn bg-white text-danger col-12 mt-2"><h5>No deseo recibir Mas Mensajes de Claro</h5></button>
 
-
-
-                                <!-- <h4 class="text-grey text-center"> <p>ACCESORIOS</p> </h4>
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                    <a onclick='window.location.href = "https://accesorios.clarochile.cl/"'>
-                                    <img width="250" src="http://movilarena.com/wp-content/uploads/2012/01/sony-accesorios.jpg"></a>
-                                </div>
-                                
-                                <div class="d-flex justify-content-around align-content-center mt-4">
-                                      <p>MOVIL</p>                  
-                                    <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-moviles/prepago/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533759347.png"></a>
-                                     <p>HOGAR</p> 
-                                    <a onclick='window.location.href = "https://www.clarochile.cl/personas/servicios/servicios-hogar/arma-tu-play/" '><img width="85" src="https://www.clarochile.cl/portal/cl/recursos_contenido/1541533781511.png"></a>
-                                    </div>
-
-                                    <div class="d-flex justify-content-around align-content-center mt-4">
-                                      <p>TIENDA ONLINE</p>                 
-                                    <a onclick='window.location.href = "https://tienda.clarochile.cl/catalogo" '><img width="85" src="https://i.imgur.com/bjyoy12.png"></a>
-                                     <p>CONTACTO</p> 
-                                    <a onclick='window.location.href = "https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta" '><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-                                    </div>
-                                    -->
-<!--<a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
-                                   <!-- <div class="d-flex justify-content-around align-content-center mt-4">
-                                                       
-                                    <a onclick="eventosLanding('Llamar'); Mens();"><img width="85" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">LLAMAR</a>
-                                   
-                                    <a onclick="eventosLanding('Correo');" href="mailto:cortezjesus01@gmail.com?subject=Landing%20Claro"><img width="85" src="http://ojwgq1ostm42ulxuw45kfbt8-wpengine.netdna-ssl.com/hoosnetwork/wp-content/uploads/sites/30/2015/02/Email-image.jpg">Correo</a>
-                                    </div>-->
                             </div>   
                         </div>
                     </div>
