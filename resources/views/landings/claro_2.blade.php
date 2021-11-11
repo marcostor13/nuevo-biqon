@@ -111,27 +111,6 @@
 <!--HOGAR-->
 <div id="HOGAR" class="p-2 pl-3 hide">
 
-<center>
-            <h3  class="text-primary "><strong> Conoce nuestros Planes Claro Hogar </strong> </h3>
-            <h4> Escoge el paquete ideal para ti y tu familia</h4> </center>
-            <div id="opt1" class="p-2 pl-3">
-                       
-                               <center>
-                               <a onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/GWkleqW.png"></a> <br>
-
-          
-
-                                <a onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/RMl8rwF.png"></a> <br>
-                                <a onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://i.imgur.com/99f6XF9.jpeg"></a> </center>
-
- 
-                                <button onclick="sendMail('No deseo recibir Mas Noticias de Claro'); ;eventosLanding('No deseo Productos Claro'); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>No deseo recibir Mas Mensajes de claro</h4></button>
-                               
-                              
-            </div>
-          
-
-<div id="plan1" class="p-2 pl-3 hide">
 
 <center>
             <h3  class="text-primary "><strong> 1 Play: Internet  </strong> </h3>
@@ -179,7 +158,7 @@
                             <div class="card-body">
                                <!--<button onclick="Mens1();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/9hoo6Uk.png"> <strong>   1 Play: Internet </strong> </button>--> 
                              <button onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/RMl8rwF.png"> <strong></strong> </button>
-                             <button onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://i.imgur.com/99f6XF9.jpeg"> <strong> </strong> </button>
+                             <button onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/6S1xMqg.png"> <strong> </strong> </button>
                             </div>
                         </div>
             </div>
@@ -244,7 +223,7 @@
                             <div class="card-body">
                                <button onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/GWkleqW.png"> <strong> </strong> </button>
                                 <!--<button onclick="Mens2();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>-->
-                               <button onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://i.imgur.com/99f6XF9.jpeg"> <strong></strong> </button>
+                               <button onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/6S1xMqg.png"> <strong></strong> </button>
                             </div>
                         </div>
             </div>
@@ -297,6 +276,7 @@
     </div>
     </div>
     </center>
+    
     <div id="opt11" class="p-2 pl-3">
                         <div class="card">     
                             <div class="card-body">
