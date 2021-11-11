@@ -114,7 +114,7 @@
 <center>
             <h3  class="text-primary "><strong> Conoce nuestros Planes Claro Hogar </strong> </h3>
             <h4> Escoge el paquete ideal para ti y tu familia</h4> </center>
-            <div id="opt1" class="p-2 pl-3">
+            <div id="opt11" class="p-2 pl-3">
                        
                                <center>
                                <a onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/GWkleqW.png"></a> <br>
@@ -670,7 +670,7 @@
  function Mens1(){
         $('#plan2').addClass('hide');
         $('#plan1').removeClass('hide'); 
-        $('#opt1').addClass('hide');
+        $('#opt11').addClass('hide');
         $('#plan3').addClass('hide');
 
  }
@@ -678,14 +678,14 @@
  function Mens2(){
         $('#plan1').addClass('hide');
         $('#plan2').removeClass('hide'); 
-        $('#opt1').addClass('hide');
+        $('#opt11').addClass('hide');
         $('#plan3').addClass('hide');
 
  }
  function Mens3(){
         $('#plan1').addClass('hide');
         $('#plan2').addClass('hide'); 
-        $('#opt1').addClass('hide');
+        $('#opt11').addClass('hide');
         $('#plan3').removeClass('hide');
 
  }
