@@ -89,10 +89,10 @@ oscurecer {
 
             <div id="cont1" align="align-items-center align-content-center">
                 <br>
-               
+         <center>      
                 <div class="videoWrapper" align="align-items-center align-content-center">        
                     <iframe width="400" height="320" src="{{asset('/files/natalia1.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    
+</center>
                 <br>
                 </div>
 
