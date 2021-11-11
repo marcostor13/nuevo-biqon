@@ -110,10 +110,10 @@
           
 <!--HOGAR-->
 <div id="HOGAR" class="p-2 pl-3 hide">
-
+<!--
 <center>
             <h3  class="text-primary "><strong> Conoce nuestros Planes Claro Hogar </strong> </h3>
-            <h4> Escoge el paquete ideal para ti y tu familia</h4> </center>
+            <h4> Escoge el paquete ideal para ti y tu familia</h4> </center>-->
             <div id="opt11" class="p-2 pl-3">
                        
                                <center>
@@ -420,7 +420,7 @@
             </div>
 </div>
 
-              
+</div>          
 <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
@@ -428,7 +428,7 @@
                             </div>
                         </div>
             </div>
-</div>
+            </div>
 
     <script>
 
