@@ -309,7 +309,7 @@
                         </div>
             </div>
 </div>
-    
+</div>
 <!--MOVIL-->
 
     <div id="MOVIL"  class="p-2 pl-3 hide">
@@ -420,7 +420,7 @@
             </div>
 </div>
 
-            </div>       
+              
 <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
