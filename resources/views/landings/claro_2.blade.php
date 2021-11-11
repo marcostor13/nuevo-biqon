@@ -406,17 +406,7 @@
         </div>   
     </div>
 
-    <!--<div id="opt11" class="p-2 pl-3">
-                        <div class="card">     
-                            <div class="card-body">
-                           <-- <button onclick="Mens11();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://i.imgur.com/jxPkfY5.jpeg"> <strong> </button> 
-                            <button onclick="Mens21();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://i.imgur.com/Q7o51O6.jpeg"> <strong> </strong> </button>
-                               <button onclick="Mens31();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/fDpn2k2.png"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>--
-                               <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>ver otras opciones</h4></button>
-                             
-                            </div>
-                        </div>
-            </div>-->
+   
 </div>
 
 </div>          
