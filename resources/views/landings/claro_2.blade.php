@@ -399,15 +399,15 @@
             
             <center>
             <div class="d-flex justify-content-around align-content-center mt-4">
-                <a onclick="sendMail('Solicito ser Contactado Plan Inalambrico'); ;eventosLanding('Solicitud Informacion'); return false;">
+                <a onclick="sendMail('Solicito ser Contactado Plan Inalambrico BAFI'); ;eventosLanding('Solicitud Informacion BAFI'); return false;">
                 <img style="max-width: 100%" src="https://i.imgur.com/IvsIqkY.png"></a>
             </div>
             </center>
 
-            <button onclick="sendMail('Solicito ser Contactado  Plan Inalambrico'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contactar</h4></button>
+            <button onclick="sendMail('Solicito ser Contactado  Plan Inalambrico BAFI'); ;eventosLanding('Solicitud Informacion BAFI'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contactar</h4></button>
 
-                <button onclick="sendMail('No deseo recibir Mas Noticias de Claro'); ;eventosLanding('No deseo Productos Claro'); return false;" class="btn bg-white text-danger col-12 mt-2"><h5>No deseo recibir Mas Mensajes de Claro</h5></button>
-
+            <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>ver otras opciones</h4></button>
+                             
         </div>   
     </div>
 
