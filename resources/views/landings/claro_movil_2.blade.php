@@ -168,7 +168,7 @@
     </div>
     </center>
 <br>
- <button onclick="sendMail('No deseo recibir Mas Noticias de Claro'); ;eventosLanding('No deseo Productos Claro'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>No deseo recibir Mas Mensajes de claro</h4></button>
+ <button onclick="sendMail('No deseo recibir Mas Noticias de Claro'); ;eventosLanding('No deseo Productos Claro'); return false;" class="btn bg-white text-danger col-12 mt-2"><h4>No deseo recibir Mas Mensajes de claro</h4></button>
 
 
 
