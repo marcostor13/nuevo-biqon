@@ -180,6 +180,8 @@
                                <!--<button onclick="Mens1();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/9hoo6Uk.png"> <strong>   1 Play: Internet </strong> </button>--> 
                              <button onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/RMl8rwF.png"> <strong></strong> </button>
                              <button onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/6S1xMqg.png"> <strong> </strong> </button>
+                             <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>Ver Otras Opciones</h4></button>
+    
                             </div>
                         </div>
             </div>
@@ -245,6 +247,8 @@
                                <button onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/GWkleqW.png"> <strong> </strong> </button>
                                 <!--<button onclick="Mens2();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>-->
                                <button onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/6S1xMqg.png"> <strong></strong> </button>
+                               <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>Ver Otras Opciones</h4></button>
+    
                             </div>
                         </div>
             </div>
@@ -372,10 +376,10 @@
     <div id="opt12" class="p-2 pl-3">
                         <div class="card">     
                             <div class="card-body">
-                               <button onclick="Mens11();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://i.imgur.com/jxPkfY5.jpeg"> <strong> </strong> </button>
-                                <!--<button onclick="Mens21();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>-->
+                              <!-- <button onclick="Mens11();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://i.imgur.com/jxPkfY5.jpeg"> <strong> </strong> </button>
+                                --<button onclick="Mens21();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>--
                                <button onclick="Mens31();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://i.imgur.com/99f6XF9.jpeg"> <strong></strong> </button>
-                               <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>ver otras opciones</h4></button>
+--> <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>Ver Otras Opciones</h4></button>
                              
                             </div>
                         </div>
@@ -410,9 +414,9 @@
     <div id="opt11" class="p-2 pl-3">
                         <div class="card">     
                             <div class="card-body">
-                            <button onclick="Mens11();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://i.imgur.com/jxPkfY5.jpeg"> <strong> </button> 
+                           <!-- <button onclick="Mens11();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://i.imgur.com/jxPkfY5.jpeg"> <strong> </button> 
                             <button onclick="Mens21();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://i.imgur.com/Q7o51O6.jpeg"> <strong> </strong> </button>
-                               <!--<button onclick="Mens31();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/fDpn2k2.png"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>-->
+                               <button onclick="Mens31();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/fDpn2k2.png"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>-->
                                <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>ver otras opciones</h4></button>
                              
                             </div>
