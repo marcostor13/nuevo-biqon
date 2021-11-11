@@ -113,23 +113,26 @@ oscurecer {
             
             <div class="d-flex justify-content-around align-content-center mt-4"> 
    <center>
-            <!--             <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56922491962"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+            <!--<a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56922491962"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
 
                 <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="http://www.Facebook.com/jacquelinexsanjoaquin"><img width="60" src="https://i.imgur.com/1MMbEAw.png"></a>
             -->       
                 <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/nataliacastillodiputada/"><img width="60" src="https://i.imgur.com/DVoiS58.png"></a>
-</center>
+                <p> <br> <br>
+                <h5 class="text-grey text-center">Quieres saber más de Natalia Castillo,<br> visita:  <a href="https://www.nataliacastillo.cl/">nataliacastillo.cl/ </h5>
+                    </p>
+            </center>
                     
                 </div>
 
-                <div class="d-flex justify-content-around align-content-center mt-4">
+                <!--<div class="d-flex justify-content-around align-content-center mt-4">
                     <div class="card">
                     <div class="card-body">
                     <h5 class="text-grey text-center">Quieres saber más de Natalia Castillo,<br> visita:  <a href="https://www.nataliacastillo.cl/">nataliacastillo.cl/ </h5>
                     </p>
                     </div>
                     </div>
-                </div>
+                </div>-->
         </div>
 
 
