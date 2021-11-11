@@ -514,7 +514,7 @@
                     //'Estado': getUrlParameter('data3'),
                     //'Ley': getUrlParameter('data4'),
                      'RUT': getUrlParameter('rut'),
-                     'landing': '{!! $landing->name !!}'
+                     //'landing': '{!! $landing->name !!}'
                    
                     
                 }
@@ -534,7 +534,7 @@
                 } 
             }
 
-           var correo = ["jesus.binteraction@gmail.com"];
+           var correo = ["pedro.guajardo@solvencia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
