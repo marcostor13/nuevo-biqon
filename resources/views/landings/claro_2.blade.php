@@ -118,7 +118,9 @@
                                <!--<button onclick="Mens1();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/9hoo6Uk.png"> <strong>   1 Play: Internet </strong> </button>--> 
                              <button onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/RMl8rwF.png"> <strong></strong> </button>
                              <button onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/6S1xMqg.png"> <strong> </strong> </button>
-                            </div>
+                             <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>ver otras opciones</h4></button>
+                                                            
+                                                            </div>
                         </div>
             </div>
 </div>
@@ -134,6 +136,8 @@
                                <button onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://i.imgur.com/jxPkfY5.jpeg"> <strong> </strong> </button>
                                 <!--<button onclick="Mens2();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>-->
                                <button onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/6S1xMqg.png"> <strong></strong> </button>
+                               <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>ver otras opciones</h4></button>
+                             
                             </div>
                         </div>
             </div>
@@ -152,6 +156,8 @@
                             <button onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://i.imgur.com/jxPkfY5.jpeg"> <strong> </button> 
                             <button onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/RMl8rwF.png"> <strong> </strong> </button>
                                <!--<button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/fDpn2k2.png"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>-->
+                               <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>ver otras opciones</h4></button>
+                             
                             </div>
                         </div>
             </div>
@@ -402,6 +408,15 @@
         $('#BAFI').removeClass('hide');
 
  }
+
+ function Mens4(){
+
+    $('#HOGAR').addClass('hide');
+        $('#MOVIL').addClass('hide'); 
+        $('#opt1').removeClass('hide');
+        $('#BAFI').addClass('hide');
+}
+
  function activa(){
 
   $('#cont2').addClass('hide');
