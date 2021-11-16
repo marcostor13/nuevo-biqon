@@ -5,7 +5,7 @@
 @section('content')
  <?php
 $startdate=strtotime("Today");
-$enddate=strtotime("+11 days", $startdate);
+$enddate=strtotime("+10 days", $startdate);
 ?>
     <div id="mafchile" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
