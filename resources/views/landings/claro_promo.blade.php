@@ -68,17 +68,22 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
 
                     <div id="cont2" class="p-2 pl-3 pr-3 ">
-                        <div class="card">     
-                            <div class="card-body">
-                             <!--   <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>-->
-                               <center>  <p class="text-white"> <h4> 
-                         ¿Quieres aumentar tu velocidad de Internet y agregar Television a tu plan hogar?</h4> </p> 
-                               <p> Transforma tu plan de 200 mb en 400 Mb + TV y obten un descuento de $17.000 x 12 meses</p>
-                                
-                                <div class="d-flex justify-content-around align-content-center mt-4">
+
+                    <center> 
+                    <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick="sendMail('Solicito ser Contactado Promo 400MB + Tv Pro HD'); ;eventosLanding('Solicitud Informacion'); return false;">
                                     <img style="max-width: 100%" src="https://i.imgur.com/tPxFjqI.jpg"></a>
                                 </div>
+
+
+                        <div class="card">     
+                            <div class="card-body">
+                             <!--   <h3 class="text-grey text-center"> Estimado(a) <strong> <span id="name"></span> </strong> </h3>-->
+                               <!--<p class="text-white"> <h4> 
+                         ¿Quieres aumentar tu velocidad de Internet y agregar Television a tu plan hogar?</h4> </p> 
+                               <p> Transforma tu plan de 200 mb en 400 Mb + TV y obten un descuento de $17.000 x 12 meses</p>
+-->
+                                
                                
 
                                 <button onclick="sendMail('Solicito ser Contactado Promo  INTERNET 400MB + Tv Pro HD'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contactar</h4></button>
