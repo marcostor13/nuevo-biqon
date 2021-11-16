@@ -56,7 +56,7 @@ $enddate=strtotime("+5 days", $startdate);
             
             <div class=col-md-12>
            
-                     <div id="cont1" class="p-2 pl-5 pr-5 hide">
+                     <!--<div id="cont1" class="p-2 pl-5 pr-5 hide">
                          <div class="card">
                         <div class="card-body">
                         <h5 class="text-grey text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h5>
@@ -65,12 +65,12 @@ $enddate=strtotime("+5 days", $startdate);
                         <h5 id="error"class="text-grey text-center mt-5"></h5>
                        </div>
                        </div> 
-                    </div>
+                    </div>-->
 
                     <div id="cont2" class=" ">
 
                     <center> 
-                    <div class="d-flex justify-content-around align-content-center mt-4">
+                    <div class="d-flex justify-content-around align-content-center">
                                     <a onclick="sendMail('Solicito ser Contactado Promo 400MB + Tv Pro HD'); ;eventosLanding('Solicitud Informacion'); return false;">
                                     <img style="width: 100%" src="https://i.imgur.com/tPxFjqI.jpg"></a>
                                 </div>
