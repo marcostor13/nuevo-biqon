@@ -72,7 +72,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <center> 
                     <div class="d-flex justify-content-around align-content-center mt-4">
                                     <a onclick="sendMail('Solicito ser Contactado Promo 400MB + Tv Pro HD'); ;eventosLanding('Solicitud Informacion'); return false;">
-                                    <img style="max-width: 100%" src="https://i.imgur.com/tPxFjqI.jpg"></a>
+                                    <img style="width: 100%" src="https://i.imgur.com/tPxFjqI.jpg"></a>
                                 </div>
 
 
