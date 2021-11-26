@@ -7,8 +7,8 @@
 <?php
 //$startdate=strtotime("Today");
 //$startdate=('Y-m-d\TH:i:s');
-//$monto = $_GET['MONTO'];
-//$cuota = $_GET['DATA1'];
+$monto = $_GET['MONTO'];
+$cuota = $_GET['DATA1'];
 $name = $_GET['NOMBRE'];
 //$enddate=strtotime("+5 days", $startdate);
 //$enddate=('Y-m-d\TH:i:s');
@@ -95,14 +95,17 @@ $name = $_GET['NOMBRE'];
 
 <br>
 <br>
-Escuela Moderna de Música le informa que a contar del 15/11/2021 se aplicará intereses al pago de sus cuotas atrasadas cuya morosidad sea superior a 60 días
-<br>
-
-                            
+<!--Escuela Moderna de Música le informa que a contar del 15/11/2021 se aplicará intereses al pago de sus cuotas atrasadas cuya morosidad sea superior a 60 días
+<br>-->
+En el marco de nuestro proceso de matrícula 2022, Escuela Moderna de Música y Danza le informa  
+que mantiene deuda vencida correspondiente a <span><?php echo $cuota; ?></span> CUOTAS por un total de $<span><?php  echo $monto; ?></span>. 
+<br>Solicitamos normalizar a la brevedad
+                            <br>
+                            Para más información contactar
                             </p>
              <a class="btn bg-danger text-white col-12 mt-2" onclick='window.location.href="tel:+56998608374" ; eventosLanding("Llamar"); return false;' class="btn bg-danger text-white col-12 mt-2"> LLAMAR </a>
 
-             <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56998608374&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-2"> WHATSAPP </a>
+             <!--<a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56998608374&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-2"> WHATSAPP </a>-->
 
              <a class="btn bg-danger text-white col-12 mt-2" onclick='correo3(); eventosLanding("Consulta"); return false;' class="btn bg-danger text-white col-12 mt-2"> CORREO </a>
                                 </div>
