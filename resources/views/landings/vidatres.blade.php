@@ -53,7 +53,7 @@ $enddate=strtotime("+5 days", $startdate);
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-           <img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VIDATRES">-
+           <img style="max-width: 80%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="VIDATRES">-
 
 <!--<img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/LRZ1x2g.png" alt="UANDES">-->
            
