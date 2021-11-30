@@ -115,7 +115,7 @@ h4 {
 
 
            <div id="cont1" class="text-danger text-center">
-             <button onclick='window.location.href="tel:+56985229692" 'class="btn bg-warning text-black col-12 mt-4">LLAMAR</button>
+             <button onclick='window.location.href="tel:+56985296912" 'class="btn bg-warning text-black col-12 mt-4">LLAMAR</button>
 
        <button onclick='Mens1();' class="btn bg-warning text-black col-12 mt-4">CONSULTAS</button>
 <br> <br>
@@ -163,9 +163,9 @@ h4 {
 
 
         <div class="d-flex justify-content-around align-content-center mt-4"> <br>
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985229692&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56985229692"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                    
                     <a onclick="eventosLanding('Correo');" href="mailto:contacto@binteraction.com"><img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>   
@@ -373,7 +373,7 @@ h4 {
              timer: 5000
         }, 
         function(){
-             window.location.href = "https://api.whatsapp.com/send?phone=56985229692&text=Hola,%20tengo%20una%20consulta";
+             window.location.href = "https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta";
         })
 
 
