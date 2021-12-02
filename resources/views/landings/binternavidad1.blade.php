@@ -69,13 +69,12 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="card">     
                 <div class="card-body">
                 <center>
-                 <img style="max-width: 150%" src="https://imgur.com/HGzhtgx.jpg">
+                 <img style="max-width: 100%" src="https://imgur.com/HGzhtgx.jpg">
                  </center> <hr>
                    <div>
                    <center>
 
-                  
-                 <h5>Inscríbete con nosotros y automatiza procesos de tu emprendimiento, La metodología personalizada a utilizar durate toda la realización del curso, es completamente práctica y fomentando siempre la participación activa de cada uno de los alumnos. Los requisitos son:  </h5>
+                  <!-- <h5>Inscríbete con nosotros y automatiza procesos de tu emprendimiento, La metodología personalizada a utilizar durate toda la realización del curso, es completamente práctica y fomentando siempre la participación activa de cada uno de los alumnos. Los requisitos son:  </h5>
                     <h5>-Ser dueños, socios,representantes legales o trabajadores de una micro empresa </h5>
                    <h5>-Tener al menos una declaración de IVA con enta en los últimos 12 meses </h5> </center>
                  </div>
