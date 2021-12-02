@@ -13,12 +13,12 @@
     <div id="Binter" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain;">
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Binter">-->
+            <!--<img style="max-width: 40%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="Binter">-->
             <div id="cont1" class="p-5 ">
                 <br> 
                 
                      <h3 class="text-primary text-center p-3">
-               <center><strong>Binteraction Chile  </strong> </h3> </center> 
+                <center><strong>Binteraction Chile  </strong> </h3> </center>
 
                     <h3 class="text-black text-center p-1"> Su Proveedor de SMS, <br>les agradece la confianza <br> depositada en nuestros servicios<br>
                 Les Deseamos una Feliz Navidad <br> y un Prospero Año 2020 <br></h3>
