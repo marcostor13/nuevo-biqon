@@ -65,7 +65,7 @@ $enddate=strtotime("+5 days", $startdate);
             </a>-->
             
 
-            <div id="cont2" class="p-3 ">
+          <!--  <div id="cont2" class="p-3 ">
                   <div class="card">     
                 <div class="card-body">
                 <center>
@@ -79,11 +79,11 @@ $enddate=strtotime("+5 days", $startdate);
                    <h5>-Tener al menos una declaración de IVA con enta en los últimos 12 meses </h5> </center>
                  </div>
                  <br>-->
-            <!--<a onclick="Mens(); return false;" class="btn bg-warning text-white col-12 mt-2"><h4>Mostar</h4></a>-->
+            <!--<a onclick="Mens(); return false;" class="btn bg-warning text-white col-12 mt-2"><h4>Mostar</h4></a>
                  <button onclick='Mens();' class="btn bg-danger text-white col-12 mt-2">Mostrar Formulario</button>
               </div>
             </div>
-          </div>
+          </div>-->
 
               <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
