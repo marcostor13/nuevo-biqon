@@ -60,7 +60,7 @@ $enddate=strtotime("+5 days", $startdate);
             <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/QG9Npsy.jpg" alt="USS">
             
 
-<center><img width="100%" src="https://imgur.com/eMxR8JR.jpg"></center>
+<center><img width="120%" src="https://imgur.com/eMxR8JR.jpg"></center>
            <!-- <a target="_blank" href="https://www.advance.uss.cl/?utm_source=google&utm_medium=search&utm_campaign=advance&utm_term=generico&utm_content=nacional&gclid=EAIaIQobChMIsLn10Z-e4wIVFwSRCh0QaAqIEAAYASAAEgJdNvD_BwE" class="btn bg-danger text-white col-8 mt-4">Ir a la página web
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>-->
@@ -146,11 +146,11 @@ $enddate=strtotime("+5 days", $startdate);
                     <div class="d-flex justify-content-around align-content-center mt-4"> 
                <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
 
-                <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="https://facebook.com/lidercapacitaciones"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a>
+                <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="https://www.facebook.com/BinteractionChile-SPA-110810853983300"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a>
                    
-                <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+                <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56995251902&amp;text=Quiero%20tener%20mas%20informacion"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
 
-                <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/lidercapacitaciones/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
+                <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/binteractionchile/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
                    
                     
                 </div>
