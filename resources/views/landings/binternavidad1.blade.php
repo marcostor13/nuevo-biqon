@@ -59,8 +59,8 @@ $enddate=strtotime("+5 days", $startdate);
             <!--<img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="USS">-->
             <img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/QG9Npsy.jpg" alt="USS">
             
-<center><img width="81s%" src="https://imgur.com/nU8TAgH.jpg"></center>
-<!--<center><img width="113%" src="https://imgur.com/eMxR8JR.jpg"></center>
+<img width="81%" src="https://imgur.com/nU8TAgH.jpg">
+<center><img width="113%" src="https://imgur.com/eMxR8JR.jpg"></center>
            <!-- <a target="_blank" href="https://www.advance.uss.cl/?utm_source=google&utm_medium=search&utm_campaign=advance&utm_term=generico&utm_content=nacional&gclid=EAIaIQobChMIsLn10Z-e4wIVFwSRCh0QaAqIEAAYASAAEgJdNvD_BwE" class="btn bg-danger text-white col-8 mt-4">Ir a la página web
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>-->
