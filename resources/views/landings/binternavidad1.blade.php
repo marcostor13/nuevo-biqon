@@ -74,11 +74,11 @@ $enddate=strtotime("+5 days", $startdate);
                    <div>
                    <center>
 
-                   <h5>Inscríbete con nosotros y automatiza procesos de tu emprendimiento, La metodología personalizada a utilizar durate toda la realización del curso, es completamente práctica y fomentando siempre la participación activa de cada uno de los alumnos. Los requisitos son:  </h5>
+                  <!-- <h5>Inscríbete con nosotros y automatiza procesos de tu emprendimiento, La metodología personalizada a utilizar durate toda la realización del curso, es completamente práctica y fomentando siempre la participación activa de cada uno de los alumnos. Los requisitos son:  </h5>
                     <h5>-Ser dueños, socios,representantes legales o trabajadores de una micro empresa </h5>
                    <h5>-Tener al menos una declaración de IVA con enta en los últimos 12 meses </h5> </center>
                  </div>
-                 <br>
+                 <br>-->
             <!--<a onclick="Mens(); return false;" class="btn bg-warning text-white col-12 mt-2"><h4>Mostar</h4></a>-->
                  <button onclick='Mens();' class="btn bg-danger text-white col-12 mt-2">Mostrar Formulario</button>
               </div>
