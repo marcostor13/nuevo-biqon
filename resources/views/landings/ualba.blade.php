@@ -242,7 +242,7 @@ Déjanos tus datos con el programa de tu interés y te contactaremos a la breved
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["patricia.medina@uss.cl"];
+            var correo = ["eduardo.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
