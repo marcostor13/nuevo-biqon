@@ -106,7 +106,7 @@ Déjanos tus datos con el programa de tu interés y te contactaremos a la breved
                     <select class="form-control" id="carrera" required>
                       <option value="" data-select2-id="4">Selecciona una carrera</option>
                       
-      <option value="Contador Auditor" data-select2-id="8">Contador Auditor"</option>
+      <option value="Contador Auditor" data-select2-id="8">Contador Auditor</option>
       <option value="Administración Pública" data-select2-id="9">Administración Pública</option>
       <option value="Ingeniería Comercial" data-select2-id="10">Ingeniería Comercial</option>
       <option value="Trabajo Social" data-select2-id="11">Trabajo Social</option>
