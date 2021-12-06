@@ -75,15 +75,10 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a)  <span id="name"> <?php //echo $name; ?></span></h3>
 <hr>
                 <p class="text-black text-center">
-                   Junto con saludar y en atención a lo instruido por Isapre Banmedica SA solicito comunicarse a la brevedad posible, para entregarle información de su interés sobre presuntas inconsistencias en sus cotizaciones de salud y regularizar pagando solo el capital de la deuda exonerando los intereses, reajuste y recargos.<br>
-Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención
-
-Saludos <br> 
-<br>
+                   Junto con saludar y en atención a lo instruido por Isapre Banmedica SA Se le recuerda que tiene un compromiso de pago y Folio de descuento  pagando solo el capital de la deuda que está próximo a vencer; Para mayor información, lo invitamos a contactarnos a través de:<br>
 </div>
             </div>
-                 <div class="mt-2 text-center col-12" style="background:#fff;"> 
-<p class="text-black text-center"><br><strong>Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
+                 <div class="mt-2 text-center col-12" style="background:#fff;">
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
@@ -108,6 +103,10 @@ Saludos <br>
                 <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.banmedica.cl/pago-en-linea/"> <img width="70" src="https://i.imgur.com/TI8UBph.png"></a></span>
                 </div>
                 <br><br>
+
+                Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención
+
+Saludos <br> 
 
             </div>
         </div>
