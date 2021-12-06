@@ -75,15 +75,12 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php //echo $name; ?></span></h3>
 <hr>
                 <p class="text-black text-center">
-                  Isapre Vida Tres, le recuerda que usted mantiene una deuda por regularizar.<br>
-Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. <br> 
-<br>
+                  Junto con saludar y en atención a lo instruido por Isapre Vida Tres Se le recuerda que tiene un compromiso de pago y Folio de descuento  pagando solo el capital de la deuda que está próximo a vencer; Para mayor información, lo invitamos a contactarnos a través de:<br>
 
                 </p><br>
   </div>
             </div>
                  <div class="mt-2 text-center" style="background:#fff;"> 
-<p class="text-black text-center"><br><strong>Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
@@ -98,16 +95,17 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                      <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://i.imgur.com/2YPpKWm.png"></a></span>
                 </div>-->
                  <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890453&text=Hola,%20tengo%20una%20consulta%20Isapre%20%20Vida%20Tres"><img width="70" src="https://i.imgur.com/kzyuhVO.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890497&text=Hola,%20tengo%20una%20consulta%20Isapre%20%20Vida%20Tres"><img width="70" src="https://i.imgur.com/kzyuhVO.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="70" src="https://i.imgur.com/9AbTaoC.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890486"><img width="70" src="https://i.imgur.com/9AbTaoC.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:isapreregulariza@solvencia.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
                      <span class="text-white text-center">
                 <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.vidatres.cl/pago-en-linea/"> <img width="70" src="https://i.imgur.com/HEnso4V.png"></a></span>
                 </div>
                 <br><br>
 
+Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención <br>
                   </div>
           
         </div>
@@ -223,7 +221,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                 } 
             }
             
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["isapreregulariza@solvencia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                  'email': correo
