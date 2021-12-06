@@ -75,15 +75,12 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php //echo $name; ?></span></h3>
 <hr>
                 <p class="text-black text-center">
-                  Isapre Vida Tres, le recuerda que usted mantiene una deuda por regularizar.<br>
-Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. <br> 
-<br>
+                  Junto con saludar y en atención a lo instruido por Isapre Vida Tres Se le recuerda que tiene un compromiso de pago y Folio de descuento  pagando solo el capital de la deuda que está próximo a vencer; Para mayor información, lo invitamos a contactarnos a través de:<br>
 
                 </p><br>
   </div>
             </div>
                  <div class="mt-2 text-center" style="background:#fff;"> 
-<p class="text-black text-center"><br><strong>Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
@@ -108,6 +105,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                 </div>
                 <br><br>
 
+Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención <br>
                   </div>
           
         </div>
