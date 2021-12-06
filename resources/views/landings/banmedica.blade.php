@@ -80,9 +80,8 @@ $enddate=strtotime("+5 days", $startdate);
 
 <br>
 </div>
-           < </div>
-                 <div class="mt-2 text-center col-12" style="background:#fff;"> 
-<p class="text-black text-center"><br><strong></strong></p>
+            </div>
+                 <div class="mt-2 text-center col-12" style="background:#fff;">
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
@@ -107,11 +106,11 @@ $enddate=strtotime("+5 days", $startdate);
                 <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.banmedica.cl/pago-en-linea/"> <img width="70" src="https://i.imgur.com/TI8UBph.png"></a></span>
                 </div>
                 <br><br>
-Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención
 
- 
+                Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención
 
 Saludos <br> 
+
             </div>
         </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
