@@ -77,11 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <p class="text-black text-center">
                    Junto con saludar y en atención a lo instruido por Isapre Banmedica SA Se le recuerda que tiene un compromiso de pago y Folio de descuento  pagando solo el capital de la deuda que está próximo a vencer; Para mayor información, lo invitamos a contactarnos a través de:<br>
 
-Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención
 
- 
-
-Saludos <br> 
 <br>
 </div>
             </div>
@@ -111,7 +107,11 @@ Saludos <br>
                 <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.banmedica.cl/pago-en-linea/"> <img width="70" src="https://i.imgur.com/TI8UBph.png"></a></span>
                 </div>
                 <br><br>
+Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención
 
+ 
+
+Saludos <br> 
             </div>
         </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
@@ -226,7 +226,7 @@ Saludos <br>
                 } 
             }
             
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["isapreregulariza@solvencia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                  'email': correo
