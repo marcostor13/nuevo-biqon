@@ -223,7 +223,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                 } 
             }
             
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["contacto@solvencia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                  'email': correo
