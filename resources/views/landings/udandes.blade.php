@@ -98,9 +98,9 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                 </div>-->
 
                 <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola,%20tengo%20una%20consulta%20Universidad%20de%20los%20Andes"><img width="70" src="https://i.imgur.com/QcIC2T3.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890453&text=Hola,%20tengo%20una%20consulta%20Universidad%20de%20los%20Andes"><img width="70" src="https://i.imgur.com/QcIC2T3.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890461"><img width="70" src="https://i.imgur.com/jHwdyby.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="70" src="https://i.imgur.com/jHwdyby.png"></a></span>
                         <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@solvencia.cl"><img width="70" src="https://i.imgur.com/2YlOrMQ.png"></a></span>
                      <span class="text-white text-center">
@@ -223,7 +223,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                 } 
             }
             
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["contacto@solvencia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                  'email': correo
