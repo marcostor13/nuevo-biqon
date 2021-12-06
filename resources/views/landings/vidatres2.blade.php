@@ -75,7 +75,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php //echo $name; ?></span></h3>
 <hr>
                 <p class="text-black text-center">
-                  Junto con saludar y en atención a lo instruido por Isapre Vida Tres Se le recuerda que tiene un compromiso de pago y Folio de descuento  pagando solo el capital de la deuda que está próximo a vencer; Para mayor información, lo invitamos a contactarnos a través de:<br>
+                 Junto con saludar y en atención a lo instruido por Isapre Vida Tres solicito comunicarse a la brevedad posible, para entregarle información de su interés sobre presuntas inconsistencias en sus cotizaciones de salud y regularizar pagando solo el capital de la deuda exonerando los intereses, reajuste y recargos.<br>
 
                 </p><br>
   </div>
