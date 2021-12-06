@@ -75,8 +75,10 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado(a)  <span id="name"> <?php //echo $name; ?></span></h3>
 <hr>
                 <p class="text-black text-center">
-                   Isapre Banmedica, le recuerda que usted mantiene una deuda por regularizar.<br>
-Le invitamos a contactarse a la brevedad para ser informado de los métodos de pago disponibles. <br> 
+                   Junto con saludar y en atención a lo instruido por Isapre Banmedica SA solicito comunicarse a la brevedad posible, para entregarle información de su interés sobre presuntas inconsistencias en sus cotizaciones de salud y regularizar pagando solo el capital de la deuda exonerando los intereses, reajuste y recargos.<br>
+Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención
+
+Saludos <br> 
 <br>
 </div>
             </div>
@@ -97,11 +99,11 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                 </div>-->
 
                  <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890453&text=Hola,%20tengo%20una%20consulta%20Isapre%20Banmedica"><img width="70" src="https://i.imgur.com/ot39iWI.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890497&text=Hola,%20tengo%20una%20consulta%20Isapre%20Banmedica"><img width="70" src="https://i.imgur.com/ot39iWI.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="70" src="https://i.imgur.com/sN7X4XZ.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890486"><img width="70" src="https://i.imgur.com/sN7X4XZ.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="70" src="https://i.imgur.com/yedwmQG.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:isapreregulariza@solvencia.cl"><img width="70" src="https://i.imgur.com/yedwmQG.png"></a></span>
                      <span class="text-white text-center">
                 <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.banmedica.cl/pago-en-linea/"> <img width="70" src="https://i.imgur.com/TI8UBph.png"></a></span>
                 </div>
@@ -221,7 +223,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                 } 
             }
             
-            var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["isapreregulariza@solvencia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                  'email': correo
