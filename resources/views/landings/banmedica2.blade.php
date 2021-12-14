@@ -75,7 +75,7 @@ $name=$_GET['NOMBRE'];
                 <h3 class="text-black text-center">Estimado(a)  <span id="name"> <?php echo $name; ?></span></h3>
 <hr>
                 <p class="text-black text-center">
-                   Junto con saludar y en atención a lo instruido por Isapre Banmedica SA solicito comunicarse a la brevedad posible, para entregarle información de su interés sobre presuntas inconsistencias en sus cotizaciones de salud y regularizar pagando solo el capital de la deuda exonerando los intereses, reajuste y recargos.<br>
+                   Junto con saludar y en atención a lo instruido por Isapre Banmedica SA solicito comunicarse a la brevedad posible, para entregarle información de su interés sobre presuntas inconsistencias en sus cotizaciones;<br>
 </div>
             </div>
                  <div class="mt-2 text-center col-12" style="background:#fff;">
