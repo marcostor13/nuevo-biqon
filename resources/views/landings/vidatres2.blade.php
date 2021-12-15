@@ -78,6 +78,13 @@ $name=$_GET['NOMBRE'];
                  Junto con saludar y en atención a lo instruido por Isapre Vida Tres SA solicito comunicarse a la brevedad posible, para entregarle información de su interés sobre presuntas inconsistencias en sus cotizaciones;<br>
 
                 </p><br>
+
+
+   <div class="date btn bg-primary text-white col-12 mt-4">
+                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
+                
   </div>
             </div>
                  <div class="mt-2 text-center" style="background:#fff;"> 
@@ -123,6 +130,14 @@ Si al momento de recibir la presente comunicación ya regularizó esta situació
 
     <script>
    //EVENT 1
+
+ $('#date1').on('change', function(){
+                        if($('#date1').val() != ''){
+                            sendMail();
+                        }
+                    });
+
+
         
         $(function(){
             events({    
