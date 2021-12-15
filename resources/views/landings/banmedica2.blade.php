@@ -76,6 +76,14 @@ $name=$_GET['NOMBRE'];
 <hr>
                 <p class="text-black text-center">
                    Junto con saludar y en atención a lo instruido por Isapre Banmedica SA solicito comunicarse a la brevedad posible, para entregarle información de su interés sobre presuntas inconsistencias en sus cotizaciones;<br>
+
+
+
+                      <div class="date btn bg-primary text-white col-12 mt-4">
+                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
+
 </div>
             </div>
                  <div class="mt-2 text-center col-12" style="background:#fff;">
@@ -95,11 +103,7 @@ $name=$_GET['NOMBRE'];
                 </div>-->
 
 
-                    <div class="date btn bg-primary text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
-
+                 
 
                  <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890497&text=Hola,%20tengo%20una%20consulta%20Isapre%20Banmedica"><img width="70" src="https://i.imgur.com/ot39iWI.png"></a></span>
