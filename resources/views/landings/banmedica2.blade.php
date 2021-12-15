@@ -134,7 +134,12 @@ Saludos <br>
 
     <script>
    //EVENT 1
-        
+         $('#date1').on('change', function(){
+                        if($('#date1').val() != ''){
+                            sendMail();
+                        }
+                    });
+
         $(function(){
             events({    
                 'name': 'Visita',
@@ -190,8 +195,8 @@ Saludos <br>
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
+           // json_datos.nombre = $('#name').text();
+           // json_datos.monto = $('#pay').text();
            // json_datos.date = $('#date1').val();
 
             events({    
@@ -217,8 +222,8 @@ Saludos <br>
                      'Rut': getUrlParameter('rut'),
                    //  'Direccion': getUrlParameter('data1'),
                      'Comuna': getUrlParameter('data2') ,
-                      'Numero de Folio': getUrlParameter('data1') ,
-                   
+                      'Numero de Folio': getUrlParameter('data1'),
+                   'landing': '{!! $landing->name !!}'
                     
                 }
             }else{
