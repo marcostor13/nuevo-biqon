@@ -204,8 +204,9 @@ Saludos <br>
                     'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
+                   //  'Direccion': getUrlParameter('data1'),
                      'Comuna': getUrlParameter('data2') 
+                      'Numero de Folio': getUrlParameter('data1') 
                    
                     
                 }
@@ -217,8 +218,9 @@ Saludos <br>
                     'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
+                    // 'Direccion': getUrlParameter('data1'),
                      'Comuna': getUrlParameter('data2'),
+                     'Numero de Folio': getUrlParameter('data1') 
                     'landing': '{!! $landing->name !!}'
                 } 
             }
