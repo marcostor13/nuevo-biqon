@@ -225,7 +225,7 @@ Saludos <br>
                 } 
             }
             
-            var correo = ["isapreregulariza@solvencia.cl"];
+            var correo = ["eduardo.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                  'email': correo
