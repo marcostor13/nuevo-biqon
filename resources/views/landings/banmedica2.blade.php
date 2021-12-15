@@ -5,7 +5,7 @@
 @section('content')
 <?php
 $startdate=strtotime("Today");
-$enddate=strtotime("+5 days", $startdate);
+$enddate=strtotime("+7 days", $startdate);
 $name=$_GET['NOMBRE'];
 ?>
 
@@ -93,6 +93,13 @@ $name=$_GET['NOMBRE'];
                     <span class="text-danger  text-center">Pago en Línea<br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://i.imgur.com/2YPpKWm.png"></a></span>
                 </div>-->
+
+
+                    <div class="date btn bg-primary text-white col-12 mt-4">
+                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
+
 
                  <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890497&text=Hola,%20tengo%20una%20consulta%20Isapre%20Banmedica"><img width="70" src="https://i.imgur.com/ot39iWI.png"></a></span>
