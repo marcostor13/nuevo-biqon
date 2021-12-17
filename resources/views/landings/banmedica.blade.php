@@ -83,8 +83,8 @@ $N_folio = $_GET['DATA1'];
 <br>
 </div>
             </div>
-                 <div class="mt-2 text-center col-12" style="background:#FF2D00;">
-                    <p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
+                 <div class="mt-2 text-center col-12" style="background:#F1EFEE;">
+                    <p class="text-black text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
@@ -110,7 +110,7 @@ $N_folio = $_GET['DATA1'];
                 </div>
                 <br><br>
 
-                 <p class="text-white text-center"><br><strong>
+                 <p class="text-black text-center"><br><strong>
                 Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención
 
 Saludos</strong></p>
