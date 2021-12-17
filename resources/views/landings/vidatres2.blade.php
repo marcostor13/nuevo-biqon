@@ -87,7 +87,7 @@ $name=$_GET['NOMBRE'];
                 
   </div>
             </div>
-                 <div class="mt-2 text-center" style="background:#fff;"> 
+                 <div class="mt-2 text-center" style="background:#F1EFEE;"> 
 
                     <p class="text-black text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
@@ -219,7 +219,8 @@ Si al momento de recibir la presente comunicación ya regularizó esta situació
                     'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
+                     //'Direccion': getUrlParameter('data1'),
+                     'N_Folio': getUrlParameter('data1'),
                      'Comuna': getUrlParameter('data2') 
                    
                     
@@ -232,8 +233,9 @@ Si al momento de recibir la presente comunicación ya regularizó esta situació
                     'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
+                     //'Direccion': getUrlParameter('data1'),
                      'Comuna': getUrlParameter('data2'),
+                     'N_Folio': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
