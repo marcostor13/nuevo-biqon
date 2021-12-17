@@ -35,8 +35,29 @@ $enddate=strtotime("+15 days", $startdate);
 <p class="text-black text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
 
 
+<div id="cont4" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="d-flex justify-content-around align-content-center mt-4"> 
+               <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
 
+                <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="https://facebook.com/lidercapacitaciones"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a>
+                   
+                <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+
+                <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/lidercapacitaciones/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
+                   
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
 
               <!--  <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/videoami.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
