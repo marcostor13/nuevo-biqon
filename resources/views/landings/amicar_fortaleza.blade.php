@@ -39,14 +39,14 @@ $enddate=strtotime("+15 days", $startdate);
 
                        </div>
                    </div>-->
-                    <label align="text-center" class=" col-10 col-md-12 mt-1">Fortaleza - V3</label><br>
+                  <!--  <label align="text-center" class=" col-10 col-md-12 mt-1">Fortaleza - V3</label><br>
                  <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/eX2Gb1D.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo Fortaleza - V3');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-1">Contactar</a>
                  <br>  
                   <label align="text-center" class=" col-10 col-md-12 mt-1">Fortaleza - X25</label><br>
                 <img  style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/HYQVajl.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo Fortaleza - X25');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-1">Contactar</a>
                 <br>  
                     <label align="text-center" class=" col-10 col-md-12 mt-1">Fortaleza - KUV 100</label><br>
-                <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/Qmh7ADw.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo Fortaleza - KUV 100');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-1">Contactar</a>
+                <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/Qmh7ADw.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo Fortaleza - KUV 100');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-1">Contactar</a>-->
 
                
             
