@@ -73,9 +73,11 @@ $name=$_GET['NOMBRE'];
                 <div class="card">     
                             <div class="card-body">
                 <h3 class="text-black text-center">Estimado(a)  <span id="name"> <?php echo $name; ?></span></h3>
+
+                <p> El N° de admisión correspondiente a su cuenta es:  <h5 id="dato1" class="dato1"> </h5></p> 
 <hr>
                 <p class="text-black text-center">
-                   Junto con saludar y en atención a lo instruido por Isapre Banmedica SA Se le recuerda que tiene un compromiso de pago y Folio de descuento  pagando solo el capital de la deuda que está próximo a vencer; Para mayor información, lo invitamos a contactarnos a través de:<br>
+                   Junto con saludar y en atención a lo instruido por Isapre Banmedica SA Se le recuerda que tiene un compromiso de pago y Folio de descuento  <h5 id="dato1" class="dato1"> </h5>  pagando solo el capital de la deuda que está próximo a vencer; Para mayor información, lo invitamos a contactarnos a través de:<br>
 </div>
             </div>
                  <div class="mt-2 text-center col-12" style="background:#fff;">
@@ -123,6 +125,20 @@ Saludos <br>
 
     <script>
    //EVENT 1
+
+
+
+  $('#date1').on('change', function(){
+                        if($('#date1').val() != ''){
+                            sendMail();
+                        }
+                    });
+
+
+
+
+
+
         
         $(function(){
             events({    
@@ -156,6 +172,7 @@ Saludos <br>
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
+                    $('#dato1').text(N_Folio);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -204,7 +221,8 @@ Saludos <br>
                     'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
+                     //'Direccion': getUrlParameter('data1'),
+                     'Numero de Folio': getUrlParameter('data1'),
                      'Comuna': getUrlParameter('data2') 
                    
                     
@@ -217,13 +235,14 @@ Saludos <br>
                     'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
+                     //'Direccion': getUrlParameter('data1'),
                      'Comuna': getUrlParameter('data2'),
+                     'Numero de Folio': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
             
-            var correo = ["isapreregulariza@solvencia.cl"];
+            var correo = ["eduardo.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                  'email': correo
