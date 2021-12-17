@@ -74,10 +74,9 @@ $name=$_GET['NOMBRE'];
                             <div class="card-body">
                 <h3 class="text-black text-center">Estimado(a)  <span id="name"> <?php echo $name; ?></span></h3>
 
-                <p> El N° de admisión correspondiente a su cuenta es:  <h5 id="dato1" class="dato1"> </h5></p> 
 <hr>
                 <p class="text-black text-center">
-                   Junto con saludar y en atención a lo instruido por Isapre Banmedica SA Se le recuerda que tiene un compromiso de pago y Folio de descuento  <h5 id="dato1" class="dato1"> </h5>  pagando solo el capital de la deuda que está próximo a vencer; Para mayor información, lo invitamos a contactarnos a través de:<br>
+                   Junto con saludar y en atención a lo instruido por Isapre Banmedica SA Se le recuerda que tiene un compromiso de pago y Folio de descuento  <h5 id="dato1" class="data1"> </h5>  pagando solo el capital de la deuda que está próximo a vencer; Para mayor información, lo invitamos a contactarnos a través de:<br>
 
 
 
