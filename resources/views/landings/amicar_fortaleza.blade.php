@@ -46,7 +46,7 @@ $enddate=strtotime("+15 days", $startdate);
                     <div class="d-flex justify-content-around align-content-center mt-4"> 
                <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
 
-                <a class="ml-2" onclick="eventosLanding('LLAMADA');" href="tel:+56975890486"><img width="50" src="https://i.imgur.com/9AbTaoC.png"></a>
+                <a class="ml-2" onclick="eventosLanding('LLAMADA');" href="tel:+56975890486"><img width="50" src="https://imgur.com/h9LYxxu.png"></a>
                    
                 <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="mailto:renovaciones@amicar.cl"><img width="50" src="https://i.imgur.com/kzyuhVO.png"></a>
 
