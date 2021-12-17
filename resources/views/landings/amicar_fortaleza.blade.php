@@ -23,7 +23,7 @@ $enddate=strtotime("+15 days", $startdate);
             <div id="cont1" align="align-items-center align-content-center">
                 <br>
                <br>
-<h3 class="text-black text-center">
+<h5 class="text-black text-center">
 
                 <center>  <strong>Te invitamos a conocer las opciones de Renovación de tu actual vehículo con un ejecutivo especialista en renovación</a></strong>
                 <br></center> 
