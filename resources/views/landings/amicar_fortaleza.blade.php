@@ -50,7 +50,7 @@ $enddate=strtotime("+15 days", $startdate);
                    
                 <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="mailto:renovaciones@amicar.cl"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
 
-                <a class="ml-4" onclick="eventosLanding('gmail');" href="https://www.instagram.com/lidercapacitaciones/"><img width="50" src="https://i.imgur.com/h7UKcOG.png"></a>
+                <a class="ml-4" onclick="eventosLanding('gmail');" href="https://www.instagram.com/lidercapacitaciones/"><img width="50" src="https://imgur.com/W74gEi5.png"></a>
                    
                     
                 </div>
