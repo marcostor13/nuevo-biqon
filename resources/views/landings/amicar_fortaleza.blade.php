@@ -23,6 +23,22 @@ $enddate=strtotime("+15 days", $startdate);
             <div id="cont1" align="align-items-center align-content-center">
                 <br>
                
+
+ <p class="text-black">
+
+                   Te invitamos a conocer las opciones de Renovación de tu actual vehículo vía Whastsapp con un ejecutivo especialista en renovación</a>
+                <br>
+
+
+
+
+
+<p class="text-black text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
+
+
+
+
+
               <!--  <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/videoami.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>-->
