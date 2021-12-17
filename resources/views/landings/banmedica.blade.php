@@ -109,9 +109,11 @@ $N_folio = $_GET['DATA1'];
                 </div>
                 <br><br>
 
+                 <p class="text-white text-center"><br><strong>
                 Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención
 
-Saludos <br> 
+Saludos</strong></p>
+ <br> 
 
             </div>
         </div>
