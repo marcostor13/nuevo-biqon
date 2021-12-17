@@ -80,10 +80,10 @@ $name=$_GET['NOMBRE'];
                 </p><br>
 
 
-   <div class="date btn bg-primary text-white col-12 mt-4">
+   <!--<div class="date btn bg-primary text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                </div>
+                </div>-->
                 
   </div>
             </div>
