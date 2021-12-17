@@ -48,7 +48,7 @@ $enddate=strtotime("+15 days", $startdate);
 
                 <a class="ml-2" onclick="eventosLanding('LLAMADA');" href="tel:+56975890486"><img width="50" src="https://imgur.com/h9LYxxu.png"></a>
                    
-                <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56975890497&text=Hola,%20tengo%20una%20consulta><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+                <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56988078022&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
 
                 <a class="ml-4" onclick="eventosLanding('gmail');" href="mailto:renovaciones@amicar.cl"><img width="50" src="https://imgur.com/W74gEi5.png"></a>
                    
