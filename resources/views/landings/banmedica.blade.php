@@ -76,15 +76,15 @@ $name=$_GET['NOMBRE'];
 
 <hr>
                 <p class="text-black text-center">
-                   Junto con saludar y en atención a lo instruido por Isapre Banmedica SA Se le recuerda que tiene un compromiso de pago y Folio de descuento  <h5 id="dato1" class="data1"> </h5>  pagando solo el capital de la deuda que está próximo a vencer; Para mayor información, lo invitamos a contactarnos a través de:<br>
+                   Junto con saludar y en atención a lo instruido por Isapre Banmedica SA Se le recuerda que tiene un compromiso de pago y Folio de descuento  <h5 id="data1" class="data1"> </h5>  pagando solo el capital de la deuda que está próximo a vencer; Para mayor información, lo invitamos a contactarnos a través de:<br>
 
 
 
 
 
-  <div class="date btn bg-danger text-white col-12 mt-4">
+ <!-- <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>---s>
 
 
 
