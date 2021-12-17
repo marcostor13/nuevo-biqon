@@ -22,11 +22,11 @@ $enddate=strtotime("+15 days", $startdate);
 
             <div id="cont1" align="align-items-center align-content-center">
                 <br>
-               
+               <br>
 
  <p class="text-black">
 
-                   Te invitamos a conocer las opciones de Renovación de tu actual vehículo vía Whastsapp con un ejecutivo especialista en renovación</a>
+                   <strong>Te invitamos a conocer las opciones de Renovación de tu actual vehículo vía Whastsapp con un ejecutivo especialista en renovación</a></strong>
                 <br>
 
 
