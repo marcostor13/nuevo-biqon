@@ -78,7 +78,7 @@ $N_folio = $_GET['DATA1'];
 <hr>
                 <p class="text-black text-center">
                     Junto con saludar y en atención a lo instruido por Isapre Banmedica SA <br>
-                    Se le recuerda que tiene un compromiso de pago y Folio de descuento <strong>N° </strong> <strong> <?php echo $N_folio; ?> </strong> pagando solo el capital de la deuda que está próximo a vencer;
+                    Se le recuerda que tiene un compromiso de pago y Folio de descuento <strong>N° </strong> <strong> <?php echo $N_folio; ?> </strong> que está próximo a vencer.
                 
 <br>
 </div>
