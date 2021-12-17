@@ -7,6 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 $name=$_GET['NOMBRE'];
+$N_folio = $_GET['DATA1'];
 ?>
 
 <style type="text/css">
@@ -75,12 +76,13 @@ $name=$_GET['NOMBRE'];
                 <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php echo $name; ?></span></h3>
 <hr>
                 <p class="text-black text-center">
-                  Junto con saludar y en atención a lo instruido por Isapre Vida Tres Se le recuerda que tiene un compromiso de pago y Folio de descuento  pagando solo el capital de la deuda que está próximo a vencer; Para mayor información, lo invitamos a contactarnos a través de:<br>
+                    Junto con saludar y en atención a lo instruido por Isapre Vida Tres SA <br>
+                    Se le recuerda que tiene un compromiso de pago y Folio de descuento <strong>N° </strong> <strong> <?php echo $N_folio; ?> </strong> que está próximo a vencer.
 
                 </p><br>
   </div>
             </div>
-                 <div class="mt-2 text-center" style="background:#fff;"> 
+                 <div class="mt-2 text-center" style="background:#F1EFEE;"> 
  <p class="text-black text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
@@ -203,7 +205,8 @@ Si al momento de recibir la presente comunicación ya regularizó esta situació
                     'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
+                     //'Direccion': getUrlParameter('data1'),
+                     'N_Folio': getUrlParameter('data1'),
                      'Comuna': getUrlParameter('data2') 
                    
                     
@@ -216,8 +219,9 @@ Si al momento de recibir la presente comunicación ya regularizó esta situació
                     'monto': getUrlParameter('monto'),
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
+                     //'Direccion': getUrlParameter('data1'),
                      'Comuna': getUrlParameter('data2'),
+                     'N_Folio': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
