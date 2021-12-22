@@ -96,7 +96,7 @@
             <div id="opt1" class="p-2 pl-3">
                        
                                <center>
-                               <a onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://ibb.co/zhKbBX5"></a> <br>
+                               <a onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://ibb.co/zhKbBX5"><img src="https://i.ibb.co/99R21bv/1-22.jpg" alt="1-22" border="0"></a>"></a> <br>
 
           
 
