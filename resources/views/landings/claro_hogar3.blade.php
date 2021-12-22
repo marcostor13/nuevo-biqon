@@ -96,12 +96,12 @@
             <div id="opt1" class="p-2 pl-3">
                        
                                <center>
-                               <a onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://ibb.co/zhKbBX5.png"></a> <br>
+                               <a onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://ibb.co/zhKbBX5"></a> <br>
 
           
 
-                                <a onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://ibb.co/1sxfyZM.png"></a> <br>
-                                <a onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://ibb.co/stVZV27.png"></a> </center>
+                                <a onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://ibb.co/1sxfyZM"></a> <br>
+                                <a onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://ibb.co/stVZV27"></a> </center>
 
  
                                 <button onclick="sendMail('No deseo recibir Mas Noticias de Claro'); ;eventosLanding('No deseo Productos Claro'); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>No deseo recibir Mas Mensajes de claro</h4></button>
