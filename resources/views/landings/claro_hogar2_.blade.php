@@ -403,11 +403,11 @@
                 } 
             }
 
-           var correo = ["pedro.guajardo@solvencia.cl"];
+           var correo = ["eduardo.binteraction"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email': '{!! $landing->email !!}' "inttegrados@gmail.com", ,"jesus.binteraction@gmail.com" 
+                'email': '{!! $landing->email !!}' "esolano547@gmail.com", ,"jesus.binteraction@gmail.com" 
                 //'email': 'marcostor13@gmail.com' ,"jesus.binteraction@gmail.com" 
             }
             $.ajaxSetup({
