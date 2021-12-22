@@ -172,7 +172,7 @@
 
     <center>
             <h3  class="text-primary "><strong> 1 Play: Internet HOGAR PRO</strong> </h3>
-            <h4> Disfruta de Internet en alta velocidad.</h4> </center>
+            <h4> Disfruta de Internet en alta velocidad y entretenimiento en HD.</h4> </center>
     <br>
 <div class="card">     
          <div class="card-body">
@@ -186,19 +186,26 @@
      <div class="carousel-inner">
         <div class="item active">
         <center> <a onclick="sendMail('Solicito ser Contactado Plan 1 PLAY Internet HOGAR PRO'); ;eventosLanding('Informacion 1PLAY Internet HOGAR PRO'); return false;">
-          <img  class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.ibb.co/DrKPzrq/image002.png" alt=""> </a> <br> 
+          <img  class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/2dOjk6p.png" alt=""> </a> <br> 
           </center> <br> <br>
           <button onclick="sendMail('Solicito ser Contactado Plan 1 PLAY Internet HOGAR PRO'); ;eventosLanding('Informacion 1PLAY Internet HOGAR PRO'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
           <br> <br> <br> 
         </div>
         <div class="item">
         <center><a onclick="sendMail('Solicito ser Contactado Plan 1 PLAY Internet HOGAR PRO'); ;eventosLanding('Informacion 1PLAY Internet HOGAR PRO'); return false;"> 
-        <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.ibb.co/DrKPzrq/image002.png" alt=""> </a> <br> 
+        <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/79ESIJK.png" alt=""> </a> <br> 
         </center><br> <br>
         <button onclick="sendMail('Solicito ser Contactado Plan 1 PLAY Internet HOGAR PRO'); ;eventosLanding('Informacion 1PLAY Internet HOGAR PRO'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
         <br> <br> <br> 
+        </div>
+        <div class="item">
+        <center><a onclick="sendMail('Solicito ser Contactado Plan 2PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 400'); return false;">   
+        <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/tN0p7Vy.png" alt=""> </a> <br> 
+        </center> <br> <br>
+        <button onclick="sendMail('Solicito ser Contactado Plan 2PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 400'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
+                      <br> <br> <br>          
+        </div>
       
-
 
     </div>
 
@@ -230,8 +237,8 @@
     <br>
 
     <center>
-            <h3  class="text-primary "><strong> 2 Play: Internet + Tv </strong> </h3>
-            <h4> Disfruta de Internet en alta velocidad, entretenimiento en HD</h4> </center>
+            <h3  class="text-primary "><strong> 3 Play: Internet + Tv + Telefonía </strong> </h3>
+            <h4> Disfruta de Internet en alta velocidad, entretenimiento en HD y telefonía fija.</h4> </center>
     <div class="card">     
          <div class="card-body">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -243,21 +250,19 @@
 
      <div class="carousel-inner">
         <div class="item active">
-        <center> <a onclick="sendMail('Solicito ser Contactado 2 Play: Internet + Tv'); ;eventosLanding('Informacion 2 Play: Internet + Tv'); return false;">
-          <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.ibb.co/Scvm5gb/image008.png" alt=""> </a> <br> 
+        <center> <a onclick="sendMail('Solicito ser Contactado Plan 3PLAY 200'); ;eventosLanding('Informacion 3PLAY 200'); return false;">
+          <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/8WeUw2T.png" alt=""> </a> <br> 
           </center> <br> <br>
-          <button onclick="sendMail('Solicito ser Contactado 2 Play: Internet + Tv'); ;eventosLanding('Informacion 2 Play: Internet + Tv'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
+          <button onclick="sendMail('Solicito ser Contactado Plan 3PLAY 200'); ;eventosLanding('Informacion 3PLAY 200'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
           <br> <br> <br> 
         </div>
         <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado 2 Play: Internet + Tv'); ;eventosLanding('Solicitud Informacion  2 Play: Internet + Tv'); return false;"> 
-        <img class="col-12 mt-2" style="max-width:350px; max-height:350px "  src="https://i.ibb.co/Scvm5gb/image008.png" alt=""> </a> <br> 
+        <center><a onclick="sendMail('Solicito ser Contactado Plan 3PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 3PLAY 400'); return false;"> 
+        <img class="col-12 mt-2" style="max-width:350px; max-height:350px "  src="https://i.imgur.com/hvJ1c0u.png" alt=""> </a> <br> 
         </center><br> <br>
         <button onclick="sendMail('Solicito ser Contactado Plan 3PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 3PLAY 400'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
         <br> <br> <br> 
         </div>     
-
-
 
     </div>
 
