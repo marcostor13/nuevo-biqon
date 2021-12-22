@@ -407,8 +407,8 @@
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                'email': '{!! $landing->email !!}' "eduardo.binteraction@gmail.com", ,"esolano547@gmail.com" 
-                'email': 'esolano547@gmail.com' ,"jesus.binteraction@gmail.com" 
+                //'email': '{!! $landing->email !!}' "inttegrados@gmail.com", ,"jesus.binteraction@gmail.com" 
+                //'email': 'marcostor13@gmail.com' ,"jesus.binteraction@gmail.com" 
             }
             $.ajaxSetup({
                 headers: {
