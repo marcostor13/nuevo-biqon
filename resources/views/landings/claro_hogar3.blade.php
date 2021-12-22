@@ -92,8 +92,8 @@
             <div id="cont2" class="p-2 pl-3 ">
                 <center>
             <h3  class="text-primary "><strong> Conoce nuestros Planes Claro Hogar </strong> </h3>
-            <h4> Escoge el paquete ideal para ti y tu familia</h4> </center>
-            <h3> Promocion Valida Hasta el 31 Diciembre</h3> </center>
+           <!-- <h4> Escoge el paquete ideal para ti y tu familia</h4> </center>-->
+           <center> <h3> Promocion Valida Hasta el 31 Diciembre</h3> </center>
             <div id="opt1" class="p-2 pl-3">
                        
 
