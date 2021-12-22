@@ -125,19 +125,20 @@
        
     </ol> 
 
+
      <div class="carousel-inner">
         <div class="item active">
-        <center> <a onclick="sendMail('Solicito ser Contactado Plan  HOGAR PRO'); ;eventosLanding('Solicitud Informacion  Plan HOGAR PRO'); return false;">
-          <img class="col-12 mt-2" style="max-width: 350px; max-height:350px " src="https://i.imgur.com/Cx6ia7O.png" alt=""> </a> <br> 
+        <center> <a onclick="sendMail('Solicito ser Contactado Plan Internet Hogar 200 mbps'); ;eventosLanding('Solicitud Informacion  Plan Internet 200 mbps'); return false;">
+          <img class="col-12 mt-2" style="max-width: 350px; max-height:350px " src="https://i.ibb.co/LCWNKqF/image001.png" alt=""> </a> <br> 
           </center> <br> <br>
-          <button onclick="sendMail('Solicito ser Contactado Plan  HOGAR PRO'); ;eventosLanding('Solicitud Informacion  Plan HOGAR PRO'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
+          <button onclick="sendMail('Solicito ser Contactado Plan Internet Hogar 200 mbps'); ;eventosLanding('Solicitud Informacion  Plan Internet 200 mbps'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
           <br> <br> <br> 
         </div>
         <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan HOGAR 80'); ;eventosLanding('Solicitud Informacion  Plan HOGAR 80'); return false;"> 
-        <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/p9ETw33.png" alt=""> </a> <br> 
+        <center><a onclick="sendMail('Solicito ser Contactado Plan Internet Hogar 200 mbps'); ;eventosLanding('Solicitud Informacion  Plan Internet 200 mbps'); return false;"> 
+        <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.ibb.co/LCWNKqF/image001.png" alt=""> </a> <br> 
         </center><br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan HOGAR 80'); ;eventosLanding('Solicitud Informacion  Plan HOGAR 80'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
+        <button onclick="sendMail('Solicito ser Contactado Plan Internet Hogar 200 mbps'); ;eventosLanding('Solicitud Informacion  Plan Internet 200 mbps0'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
         <br> <br> <br> 
         </div>
  
