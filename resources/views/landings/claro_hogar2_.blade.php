@@ -403,7 +403,7 @@
                 } 
             }
 
-           var correo = ["eduardo.binteraction@gmail.com","esolano547@gmail.com"];
+           var correo = ["eduardo.binteraction@gmail.com","esolano547@gmail.com","jose.coello@solvencia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
