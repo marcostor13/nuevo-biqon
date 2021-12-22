@@ -92,7 +92,7 @@
             <div id="cont2" class="p-2 pl-3 ">
                 <center>
             <h3  class="text-primary "><strong> Conoce nuestros Planes Claro Hogar </strong> </h3>
-            <h4> Promocion Validad Hasta el 31 de Diciembre</h4> </center>
+            <h4> Promocion Valida Hasta el 31 de Diciembre</h4> </center>
             <div id="opt1" class="p-2 pl-3">
                        
 
