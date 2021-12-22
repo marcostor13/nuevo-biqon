@@ -403,7 +403,7 @@
                 } 
             }
 
-           var correo = ["eduardo.binteraction@gmail.com"];
+           var correo = [ 'email': '{!! $landing->email !!}' "eduardo.binteraction@gmail.com", ,"esolano547@mail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
