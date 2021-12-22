@@ -405,7 +405,7 @@
                 } 
             }
 
-           var correo = ["eduardo.binteraction@gmail.com","esolano547@gmail.com","jose.coello@solvencia.cl"];
+           var correo = ["pedro.guajardo@solvencia.cl","tabata.reyes@solvencia.cl","jose.coello@solvencia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
