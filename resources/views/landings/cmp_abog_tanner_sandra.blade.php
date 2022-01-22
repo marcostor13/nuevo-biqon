@@ -83,12 +83,12 @@ $enddate=strtotime("+5 days", $startdate);
                
   <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 <p class="text-black">
-     Preparamos una campaña especial solo para los clientes que están al día y que hayan pagado su cuota de marzo 2020 antes del 31 de marzo a las 23:59 hrs. Si cumples con estos requisitos podrás refinanciar tu crédito automotriz y desfasar el pago de hasta 3 cuotas a tasa preferencial.
+     Estamos tratando de comunicarnos para agendar una llamada y poder brindar informacion del estado de Su Crédito automotriz <strong>TANNER SERVICIOS FINANCIEROS S.A</strong>
 <br>
-Para acceder a esta opción debes ingresar tus datos hasta el jueves 2 de abril haciendo click en el siguiente botón y uno de nuestros ejecutivos se comunicará contigo dentro de los próximos tres días hábiles:
+<center><strong>Brindaremos Todas las Opciones que tiene Aprobadas en Sistema</strong></center>
                 </p>
 
-<button onclick='window.location.href="https://forms.office.com/Pages/ResponsePage.aspx?id=ngP91nPl9EmH0nIS1-_5-pp2PomBIF1Ig9MZK3TNywRUNzg4TVlGU1BDRlhCS0s3STVMMUNMU09WSyQlQCN0PWcu"; eventosLanding("Formulario"); ' class="btn bg-primary text-black col-12 mt-4">Quiero que me Contacten</button>
+<!--<button onclick='window.location.href="https://forms.office.com/Pages/ResponsePage.aspx?id=ngP91nPl9EmH0nIS1-_5-pp2PomBIF1Ig9MZK3TNywRUNzg4TVlGU1BDRlhCS0s3STVMMUNMU09WSyQlQCN0PWcu"; eventosLanding("Formulario"); ' class="btn bg-primary text-black col-12 mt-4">Quiero que me Contacten</button>-->
 
                 <p> Si no te interesa esta propuesta, no estás al día antes de fin de mes o no cumples con el envío de la información pertinente, tu calendario se mantendrá sin cambios.
 <br>
