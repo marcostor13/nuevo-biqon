@@ -99,15 +99,15 @@ $enddate=strtotime("+5 days", $startdate);
 
 <!--<button onclick='window.location.href="https://forms.office.com/Pages/ResponsePage.aspx?id=ngP91nPl9EmH0nIS1-_5-pp2PomBIF1Ig9MZK3TNywRUNzg4TVlGU1BDRlhCS0s3STVMMUNMU09WSyQlQCN0PWcu"; eventosLanding("Formulario"); ' class="btn bg-primary text-black col-12 mt-4">Quiero que me Contacten</button>-->
 
-            <center> </strong> <p> Le recordamos los medios de pago disponible que tanner tiene para usted.</p> </strong></center>
+            <center> <strong> <p> Le recordamos los medios de pago disponible que tanner tiene para usted.</p> </strong></center>
 
  * De Forma Inmediata en <a href="https://www.tanner.cl"> www.tanner.cl </a><br>
  * Banco Estado, Serviestado, o Servifácil<br>
  * En cajas Lider, Lider Express Y a cuentas<br>
  * Deposito o Transferencia Electrónica
 Razón Social: Tanner Servicios Financieros S.A
-Rut:<strong> 96.667.560-8</strong>
-Banco: Scotiabank
+Rut:<strong> 96.667.560-8</strong> <br>
+Banco: Scotiabank <br>
 Cuenta Corriente N_ <strong>1130002250 </strong><br>
 Correo : </strong>sgomez@cmpabogados.cl</strong>
 
