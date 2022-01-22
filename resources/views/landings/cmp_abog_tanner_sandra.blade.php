@@ -77,7 +77,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
             <div id="cont2" class="p-5 hide">
                 
-  <img style="max-width: 60%"  class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/mZPtMyS.jpg" alt="CMPAbogados">
+  <!--<img style="max-width: 60%"  class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/mZPtMyS.jpg" alt="CMPAbogados">-->
                
   <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 <p class="text-black">
