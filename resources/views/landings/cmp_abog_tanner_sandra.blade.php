@@ -95,9 +95,11 @@ $enddate=strtotime("+5 days", $startdate);
                     <a onclick="eventosLanding('Correo');" href="mailto:sgomez@cmpabogados.cl?subject=Landing%20CMP%20Abogados"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>
 
+                <br>
+
 <!--<button onclick='window.location.href="https://forms.office.com/Pages/ResponsePage.aspx?id=ngP91nPl9EmH0nIS1-_5-pp2PomBIF1Ig9MZK3TNywRUNzg4TVlGU1BDRlhCS0s3STVMMUNMU09WSyQlQCN0PWcu"; eventosLanding("Formulario"); ' class="btn bg-primary text-black col-12 mt-4">Quiero que me Contacten</button>-->
 
-                <p> Le recordamos los medios de pago disponible que tanner tiene para usted.</p>
+            <center>  <p> Le recordamos los medios de pago disponible que tanner tiene para usted.</p></center>
 
             <!--  <div class="date btn bg-primary text-black col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
