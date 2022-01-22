@@ -81,7 +81,7 @@ $enddate=strtotime("+5 days", $startdate);
                
   <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 <p class="text-black">
-     Estamos tratando de comunicarnos para agendar una llamada y poder brindar informacion del estado de Su Crédito automotriz <strong>TANNER SERVICIOS FINANCIEROS S.A</strong>
+   <center>  Estamos tratando de comunicarnos para agendar una llamada y poder brindar informacion del estado de Su Crédito automotriz <strong>TANNER SERVICIOS FINANCIEROS S.A</strong></center>
 <br>
 <center><strong>Brindaremos Todas las Opciones que tiene Aprobadas en Sistema</strong></center>
                 </p>
