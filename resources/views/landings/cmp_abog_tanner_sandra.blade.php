@@ -79,7 +79,7 @@ $enddate=strtotime("+5 days", $startdate);
                 
   <!--<img style="max-width: 60%"  class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/mZPtMyS.jpg" alt="CMPAbogados">-->
                
-  <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
+  <h4 class="text-black text-center">Estimado Cliente <span id="name"></span></h4>
 <p class="text-black">
    <center>  Estamos tratando de comunicarnos para agendar una llamada y poder brindar informacion del estado de Su Crédito automotriz <strong>TANNER SERVICIOS FINANCIEROS S.A</strong></center>
 <br>
@@ -100,6 +100,28 @@ $enddate=strtotime("+5 days", $startdate);
 <!--<button onclick='window.location.href="https://forms.office.com/Pages/ResponsePage.aspx?id=ngP91nPl9EmH0nIS1-_5-pp2PomBIF1Ig9MZK3TNywRUNzg4TVlGU1BDRlhCS0s3STVMMUNMU09WSyQlQCN0PWcu"; eventosLanding("Formulario"); ' class="btn bg-primary text-black col-12 mt-4">Quiero que me Contacten</button>-->
 
             <center>  <p> Le recordamos los medios de pago disponible que tanner tiene para usted.</p></center>
+
+ * De Forma Inmediata en <a href="https://www.tanner.cl"> www.tanner.cl </a>
+ * Banco Estado, Serviestado, o Servifácil
+ * En cajas Lider, Lider Express Y a cuenta
+ * Deposito o Transferencia Electrónica
+Razón Social: Tanner Servicios Financieros S.A
+Rut:96.667.560-8
+Banco: Scotiabank
+Cuenta Corriente N_ 1130002250
+Correo : sgomez@cmpabogados.cl
+
+
+
+
+
+
+
+
+
+
+
+
 
             <!--  <div class="date btn bg-primary text-black col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
