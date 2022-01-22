@@ -109,7 +109,7 @@ Razón Social: Tanner Servicios Financieros S.A
 Rut:<strong> 96.667.560-8</strong> <br>
 Banco: Scotiabank <br>
 Cuenta Corriente N_ <strong>1130002250 </strong><br>
-Correo : </strong>sgomez@cmpabogados.cl</strong>
+Correo : <strong>sgomez@cmpabogados.cl</strong>
 
 
 
