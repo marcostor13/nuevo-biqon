@@ -88,9 +88,10 @@ $enddate=strtotime("+5 days", $startdate);
 
 <!--<button onclick='window.location.href="https://forms.office.com/Pages/ResponsePage.aspx?id=ngP91nPl9EmH0nIS1-_5-pp2PomBIF1Ig9MZK3TNywRUNzg4TVlGU1BDRlhCS0s3STVMMUNMU09WSyQlQCN0PWcu"; eventosLanding("Formulario"); ' class="btn bg-primary text-black col-12 mt-4">Quiero que me Contacten</button>-->
 
-                <p> Si no te interesa esta propuesta, no estás al día antes de fin de mes o no cumples con el envío de la información pertinente, tu calendario se mantendrá sin cambios.
+                <p> le recordamos los medios de pago disponible que tanner tiene para usted.
 <br>
 Si tienes dudas puedes enviar Contactarte a </p>
+
             <!--  <div class="date btn bg-primary text-black col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
@@ -107,14 +108,14 @@ Si tienes dudas puedes enviar Contactarte a </p>
             <!--  <button onclick='window.location.href="https://tanner.cl/acceso-clientes/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button> -->
                 
                <!-- <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>-->
-                
-               <div class="d-flex justify-content-around align-content-center mt-4">
+               
+          <!--     <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56932505512&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 
                     <a onclick="eventosLanding('Llamar');" href="tel:+56932505512"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
                     <a onclick="eventosLanding('Correo');" href="mailto:sgomez@cmpabogados.cl?subject=Landing%20CMP%20Abogados"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
-                </div>
+                </div>-->
                 
             </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
