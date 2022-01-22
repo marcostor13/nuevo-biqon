@@ -56,15 +56,13 @@ $enddate=strtotime("+5 days", $startdate);
 
    <!-- <div id="CMPAbogados" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: contain; max-height:200px">-->
 
-       <div class="opaco"></div>
+         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-           
 
-        <div id="cont1" class="p-5 ">
+                <img style="max-width:250px; max-height:250px "  class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CMPAbogados">
 
-                <img style="max-width:250px; max-height:200px "  class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="CMPAbogados">
-
+            <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-primary text-black col-12 mt-4"> Validar </button>
@@ -73,26 +71,58 @@ $enddate=strtotime("+5 days", $startdate);
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
-                                 <a href="tel:+56932686288" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
+                                 <a href="tel:+56932505512" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
                 
-  <img style="max-width: 60%"  class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/mZPtMyS.jpg" alt="CMPAbogados">
+  <!--<img style="max-width: 60%"  class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/mZPtMyS.jpg" alt="CMPAbogados">-->
                
-  <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
+  <h4 class="text-black text-center">Estimado Cliente <span id="name"></span></h4>
 <p class="text-black">
-     Preparamos una campaña especial solo para los clientes que están al día y que hayan pagado su cuota de marzo 2020 antes del 31 de marzo a las 23:59 hrs. Si cumples con estos requisitos podrás refinanciar tu crédito automotriz y desfasar el pago de hasta 3 cuotas a tasa preferencial.
+   <center>  Estamos tratando de comunicarnos para agendar una llamada y poder brindar informacion del estado de Su Crédito automotriz <strong>TANNER SERVICIOS FINANCIEROS S.A</strong></center>
 <br>
-Para acceder a esta opción debes ingresar tus datos hasta el jueves 2 de abril haciendo click en el siguiente botón y uno de nuestros ejecutivos se comunicará contigo dentro de los próximos tres días hábiles:
+<center><strong>Brindaremos Todas las Opciones que tiene Aprobadas en Sistema</strong></center>
                 </p>
 
-<button onclick='window.location.href="https://forms.office.com/Pages/ResponsePage.aspx?id=ngP91nPl9EmH0nIS1-_5-pp2PomBIF1Ig9MZK3TNywRUNzg4TVlGU1BDRlhCS0s3STVMMUNMU09WSyQlQCN0PWcu"; eventosLanding("Formulario"); ' class="btn bg-primary text-black col-12 mt-4">Quiero que me Contacten</button>
 
-                <p> Si no te interesa esta propuesta, no estás al día antes de fin de mes o no cumples con el envío de la información pertinente, tu calendario se mantendrá sin cambios.
-<br>
-Si tienes dudas puedes enviar Contactarte a </p>
+                <div class="d-flex justify-content-around align-content-center mt-4">
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56930853771&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56930853771"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+
+                    <a onclick="eventosLanding('Correo');" href="mailto:atonelli@cmpabogados.cl?subject=Landing%20CMP%20Abogados"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                </div>
+
+                <br>
+
+<!--<button onclick='window.location.href="https://forms.office.com/Pages/ResponsePage.aspx?id=ngP91nPl9EmH0nIS1-_5-pp2PomBIF1Ig9MZK3TNywRUNzg4TVlGU1BDRlhCS0s3STVMMUNMU09WSyQlQCN0PWcu"; eventosLanding("Formulario"); ' class="btn bg-primary text-black col-12 mt-4">Quiero que me Contacten</button>-->
+
+            <center> <strong> <p> Le recordamos los medios de pago disponible que tanner tiene para usted.</p> </strong></center>
+
+ * De Forma Inmediata en <a href="https://www.tanner.cl"> www.tanner.cl </a><br>
+ * Banco Estado, Serviestado, o Servifácil<br>
+ * En cajas Lider, Lider Express Y a cuentas<br>
+ * Deposito o Transferencia Electrónica
+Razón Social: Tanner Servicios Financieros S.A
+Rut:<strong> 96.667.560-8</strong> <br>
+Banco: Scotiabank <br>
+Cuenta Corriente N_ <strong>1130002250 </strong><br>
+Correo : <strong>atonelli@cmpabogados.cl</strong>
+
+
+
+
+
+
+
+
+
+
+
+
+
             <!--  <div class="date btn bg-primary text-black col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php // echo date('Y-m-d') ?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
@@ -109,14 +139,8 @@ Si tienes dudas puedes enviar Contactarte a </p>
             <!--  <button onclick='window.location.href="https://tanner.cl/acceso-clientes/"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button> -->
                 
                <!-- <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>-->
-                
-                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56932686288&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56932686288"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-
-                    <a onclick="eventosLanding('Correo');" href="mailto:ltonelli@cmpabogados.cl?subject=Landing%20CMP%20Abogados"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
-                </div>
+               
+              
                 
             </div>
            <div id="cont3" class="p-2 pl-5 pr-5 hide">
@@ -235,7 +259,7 @@ Si tienes dudas puedes enviar Contactarte a </p>
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["fcortes@cmpabogados.cl"];  
+            var correo = ["atonelli@cmpabogados.cl"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
