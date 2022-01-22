@@ -101,9 +101,9 @@ $enddate=strtotime("+5 days", $startdate);
 
             <center>  <p> Le recordamos los medios de pago disponible que tanner tiene para usted.</p></center>
 
- * De Forma Inmediata en <a href="https://www.tanner.cl"> www.tanner.cl </a>
- * Banco Estado, Serviestado, o Servifácil
- * En cajas Lider, Lider Express Y a cuenta
+ * De Forma Inmediata en <a href="https://www.tanner.cl"> www.tanner.cl </a><br>
+ * Banco Estado, Serviestado, o Servifácil<br>
+ * En cajas Lider, Lider Express Y a cuentas<br>
  * Deposito o Transferencia Electrónica
 Razón Social: Tanner Servicios Financieros S.A
 Rut:96.667.560-8
