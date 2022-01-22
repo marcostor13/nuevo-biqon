@@ -259,7 +259,7 @@ Correo : <strong>sgomez@cmpabogados.cl</strong>
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["fcortes@cmpabogados.cl"];  
+            var correo = ["sgomez@cmpabogados.cl"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
