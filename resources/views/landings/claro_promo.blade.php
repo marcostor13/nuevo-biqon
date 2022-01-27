@@ -86,7 +86,7 @@ $enddate=strtotime("+5 days", $startdate);
 <h4> ¿Para mas Información o Contratación Via Whatsapp Con un Ejecutivo?</h4> </p> 
 <br>
 
-                               <a class="ml-2" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56993966384&text=Hola,%20Quisiera%20Mas%20Informacion%20sobre%20Plan%202play%20internet"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+                               <a class="ml-2" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56993966384&text=Hola,%20Quisiera%20Mas%20Informacion%20sobre%20Plan%202%20play%20internet"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
 
                                <br>
 
