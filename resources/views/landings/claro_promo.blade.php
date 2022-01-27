@@ -83,9 +83,9 @@ $enddate=strtotime("+5 days", $startdate);
                          ¿Quieres aumentar tu velocidad de Internet y agregar Television a tu plan hogar?</h4> </p> 
                                <p> Transforma tu plan de 200 mb en 400 Mb + TV y obten un descuento de $17.000 x 12 meses</p>c-->
                                <!-- <button onclick="sendMail('Solicito ser Contactado Promo  INTERNET 400MB + Tv Pro HD'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contactar</h4></button>-->
+<h4> ¿Para mas informacion o Contratacíon Aqui?</h4> </p> 
 
-
-                               <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+                               <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20Quisiera%20Mas%20Informacion%20sobre%20Plan%202play%20internet"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
 
                                <br>
 
