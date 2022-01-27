@@ -84,6 +84,12 @@ $enddate=strtotime("+5 days", $startdate);
                                <p> Transforma tu plan de 200 mb en 400 Mb + TV y obten un descuento de $17.000 x 12 meses</p>c-->
                                <!-- <button onclick="sendMail('Solicito ser Contactado Promo  INTERNET 400MB + Tv Pro HD'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contactar</h4></button>-->
 
+
+                               <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+
+                               <br>
+
+
                                  <button onclick="sendMail('No deseo recibir Mas Noticias de Claro'); ;eventosLanding('No deseo Productos Claro'); return false;" class="btn bg-white text-danger col-12 mt-2"><h5>No deseo recibir Mas Mensajes de Claro</h5></button>
                                  </center>
                             <!--</div>   
