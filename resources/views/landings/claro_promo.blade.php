@@ -82,7 +82,7 @@ $enddate=strtotime("+5 days", $startdate);
                                <!--<p class="text-white"> <h4> 
                          ¿Quieres aumentar tu velocidad de Internet y agregar Television a tu plan hogar?</h4> </p> 
                                <p> Transforma tu plan de 200 mb en 400 Mb + TV y obten un descuento de $17.000 x 12 meses</p>c-->
-                                <button onclick="sendMail('Solicito ser Contactado Promo  INTERNET 400MB + Tv Pro HD'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contactar</h4></button>
+                               <!-- <button onclick="sendMail('Solicito ser Contactado Promo  INTERNET 400MB + Tv Pro HD'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contactar</h4></button>-->
 
                                  <button onclick="sendMail('No deseo recibir Mas Noticias de Claro'); ;eventosLanding('No deseo Productos Claro'); return false;" class="btn bg-white text-danger col-12 mt-2"><h5>No deseo recibir Mas Mensajes de Claro</h5></button>
                                  </center>
