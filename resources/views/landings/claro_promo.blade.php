@@ -90,7 +90,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                                <br>
 
-
+<br>
                                  <button onclick="sendMail('No deseo recibir Mas Noticias de Claro'); ;eventosLanding('No deseo Productos Claro'); return false;" class="btn bg-white text-danger col-12 mt-2"><h5>No deseo recibir Mas Mensajes de Claro</h5></button>
                                  </center>
                             <!--</div>   
