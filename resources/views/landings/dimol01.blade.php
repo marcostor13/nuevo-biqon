@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'CLINICA DAVILA')
+@section('title', 'CLINICA IQUIQUE')
 
 @section('content')
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
