@@ -345,7 +345,7 @@
              timer: 5000
         }, 
         function(){
-             window.location.href = "tel:+56227308000";
+             window.location.href = "tel:+56945369456";
         })
 
 
