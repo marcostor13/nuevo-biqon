@@ -74,7 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 hide">
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
-                <p class="text-white">
+                <p class="text-black">
                   Le Informamos que su deuda de: <strong> <span id="data1"></span> </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
                 </p>
 
@@ -90,16 +90,16 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <!-- < <div class="btn bg-danger text-white col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
-                    <a onclick="eventosLanding('Convenio'); window.location.href='tel:+56967688359' ;" class="btn bg-danger text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                    <a onclick="eventosLanding('Convenio'); window.location.href='tel:+56945369456' ;" class="btn bg-danger text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
                <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>-->
                 
                 <button onclick="Mens(); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56967688359&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56945369456&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56967688359 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56945369456 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
                     <a onclick="eventosLanding('Correo');" href="mailto:f.belloy@delloroabogados.cl?subject=Landing%20DellOro&body=Adjuto%20es%20el%20Comprobante%20de%20Pago">
                         <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
@@ -213,7 +213,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jesus.binteraction@gmail.com", "f.belloy@delloroabogados.cl"];  
+            var correo = ["eduardo.binteraction@gmail.com", "eduardo.binteraction@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
