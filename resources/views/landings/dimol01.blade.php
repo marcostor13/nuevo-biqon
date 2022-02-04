@@ -362,7 +362,7 @@
              timer: 5000
         }, 
         function(){
-             window.location.href = "http://solucionesweb.clinicadavila.cl/Cta001cW/PagoCuentas/Login.aspx/";
+             window.location.href = "https://www.redsalud.cl/pagos-enlinea";
         })
 
 
