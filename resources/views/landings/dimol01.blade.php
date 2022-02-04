@@ -77,7 +77,7 @@
                                 <h4 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h4>
                                  <p class="text-white"> <h5> 
                                  Debido a la contingencia que vive el país, Clínica Iquique sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h5> </p>
-                                <p> El N° de admisión correspondiente a su cuenta es:  <h5 id="data1" class="data1"> </h5></p> 
+                                <p> El N° de admisión correspondiente a su cuenta es:  <h5 id="dato1" class="dato1"> </h5></p> 
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
                                 <h5 class="text-grey text-center"> Seleccione una Opcion </h5>
 
