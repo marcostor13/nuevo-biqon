@@ -63,19 +63,15 @@ $enddate=strtotime("+5 days", $startdate);
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
-            <div id="cont1" class="p-1 ">
-                  <div class="card"> 
-<br>
-                <h3 class="text-black text-center">Estimado(a): <span id="name"></span></h3>    
+            
+                  <hr><div id="cont1" class="p-3 ">
+                  <div class="card">     
                 <div class="card-body">
-
                   <!-- Heading -->
-                  <h3 class="dark-grey-text text-center">
-
-                    <strong>¿Eres técnico y deseas estudiar una carrera profesional online? ¡Nosotros te aceptamos! 
-¿Estás pensando en tu futuro? Estudia 100% online una segunda carrera con Advance.</strong>
-                  </h3>
-                  <hr>
+                  <h4 class="dark-grey-text text-center">
+                    <strong>¿TIENES CONSULTAS?
+                    NOSOTROS TE AYUDAMOS</strong>
+                  </h4>
 
                  <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
