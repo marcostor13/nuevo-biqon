@@ -123,7 +123,7 @@ Déjanos tus datos con el programa de tu interés y te contactaremos a la breved
 
                     <center> <strong>Para mas Informacion:</strong> </center>
                   
-                 <a class="ml-2" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=+56989002595&text=Hola,%20Quisiera%20Mas%20Informacion%20sobre%20Plan%202%20play%20internet"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+                 <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890470&text=Hola" class="btn bg-warning text-black col-12 mt-2"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"> CONTACTANOS</a>
                     </center>
                   </div>
                     </div>
