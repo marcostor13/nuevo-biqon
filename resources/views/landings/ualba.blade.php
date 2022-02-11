@@ -71,7 +71,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <!-- Heading -->
                   <h3 class="dark-grey-text text-center">
-                    
+
                     <strong>¿Eres técnico y deseas estudiar una carrera profesional online? ¡Nosotros te aceptamos! 
 ¿Estás pensando en tu futuro? Estudia 100% online una segunda carrera con Advance.</strong>
                   </h3>
@@ -132,6 +132,8 @@ $enddate=strtotime("+5 days", $startdate);
                  <a onclick="eventosLanding('Correo');" href="mailto:advance@dalba.cl?subject=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://imgur.com/izFpLFz.jpg"></a>
 
               <a onclick="eventosLanding('Llamar');" href="tel:+56935407683"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+
+               <a class="ml-4" onclick="eventosLanding('pagina web');" href="https://admision.udalba.cl/programas-advance2/"><img width="50" src="https://imgur.com/yO5QI9N.png"></a>
                     </center>
                   </div>
                     </div>
