@@ -120,8 +120,16 @@ Déjanos tus datos con el programa de tu interés y te contactaremos a la breved
                     <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
 <br>
 <br>
-                    <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=5698900 2595&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
-                    
+<div id="cont1" class="p-3 ">
+                  <div class="card">     
+                <div class="card-body">
+                  <!-- Heading -->
+                  <h4 class="dark-grey-text text-center">
+                    <strong>Para Mas Informacion:</strong>
+                  </h4>
+                  <hr>
+                   <center></center> <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=5698900 2595&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+                    </center>
                   </div>
                     </div>
                         </div>
