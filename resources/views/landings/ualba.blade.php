@@ -78,8 +78,10 @@ $enddate=strtotime("+5 days", $startdate);
                   <hr>
 
                   <div class="d-flex justify-content-between  m-0">
-
+ <br>
                     Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a>
+                    <br>
+                    
                     <div class="md-form col-6  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
                       <label for="form3"></label>
