@@ -122,13 +122,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
 <br>
 
-                    <center> <strong>Para mas Informacion:</strong> </center>
                   
-                 <a class="ml-2"href="https://api.whatsapp.com/send?phone=56935407683&text=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
-
-                 <a onclick="eventosLanding('Correo');" href="mailto:advance@dalba.cl?subject=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://imgur.com/izFpLFz.jpg"></a>
-
-              <a onclick="eventosLanding('Llamar');" href="tel:+56935407683"><img width="50" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
                <!--<a class="ml-4" onclick="eventosLanding('pagina web');" href="https://admision.udalba.cl/programas-advance2/"><img width="50" src="https://imgur.com/Tu3WSx7.png"></a>
                     </center>-->
@@ -153,7 +147,13 @@ $enddate=strtotime("+5 days", $startdate);
 
         </div>
     </div>
+  <center> <strong>Para mas Informacion:</strong> </center>
+                  
+                 <a class="ml-2"href="https://api.whatsapp.com/send?phone=56935407683&text=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
 
+                 <a onclick="eventosLanding('Correo');" href="mailto:advance@dalba.cl?subject=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://imgur.com/izFpLFz.jpg"></a>
+
+              <a onclick="eventosLanding('Llamar');" href="tel:+56935407683"><img width="50" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
      <script>
    //EVENT 1
        $(function(){
