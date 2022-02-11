@@ -77,10 +77,8 @@ $enddate=strtotime("+5 days", $startdate);
                   </h3>
                   <hr>
 
-                  <div class="d-flex justify-content-between  m-0">
- 
+                 <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
-
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
                       <label for="form3"></label>
                     </div>
