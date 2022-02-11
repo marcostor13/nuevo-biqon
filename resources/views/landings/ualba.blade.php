@@ -123,7 +123,7 @@ Déjanos tus datos con el programa de tu interés y te contactaremos a la breved
 
                     <center> <strong>Para mas Informacion:</strong> </center>
                   
-                 <a class="ml-2"href="https://api.whatsapp.com/send?phone=56945369456&text=Hola,%20Quisiera%20Mas%20Informacion%20sobre%20Plan%202%20play%20internet"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+                 <a class="ml-2"href="https://api.whatsapp.com/send?phone=56945369456&text=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
                     </center>
                   </div>
                     </div>
