@@ -124,6 +124,8 @@ $enddate=strtotime("+5 days", $startdate);
                     <center> <strong>Para mas Informacion:</strong> </center>
                   
                  <a class="ml-2"href="https://api.whatsapp.com/send?phone=56989002595&text=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+
+                 <a onclick="eventosLanding('Correo');" href="mailto:jacqueline.rodriguez@udalba.cl?subject=Landing%20Mundo%20Credito"><img width="40" src="https://imgur.com/izFpLFz.jpg"></a>
                     </center>
                   </div>
                     </div>
