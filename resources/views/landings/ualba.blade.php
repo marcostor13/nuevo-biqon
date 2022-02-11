@@ -51,12 +51,12 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
 </style>
-    <div id="USS" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+    <div id="UALBA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 120%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="USS">
+            <img style="max-width: 120%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UALBA">
             
 
             <!--<a target="_blank" href="https://www.advance.uss.cl/?utm_source=google&utm_medium=search&utm_campaign=advance&utm_term=generico&utm_content=nacional&gclid=EAIaIQobChMIsLn10Z-e4wIVFwSRCh0QaAqIEAAYASAAEgJdNvD_BwE" class="btn bg-primary text-white col-8 mt-4">Ir a la página web---->
