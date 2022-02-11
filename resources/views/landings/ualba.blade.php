@@ -116,11 +116,10 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>
   <br>
                    <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
-                    <br>
+
                   <div class="text-center">
                     <hr>
                     <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
-<br>
 <br>
 
                     <center> <strong>Para mas Informacion:</strong> </center>
