@@ -121,7 +121,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </select>
                   </div>
   <br>
-                    Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a>
+                   <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
                     <br>
                   <div class="text-center">
                     <hr>
@@ -137,8 +137,8 @@ $enddate=strtotime("+5 days", $startdate);
 
               <a onclick="eventosLanding('Llamar');" href="tel:+56935407683"><img width="50" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
-               <a class="ml-4" onclick="eventosLanding('pagina web');" href="https://admision.udalba.cl/programas-advance2/"><img width="50" src="https://imgur.com/Tu3WSx7.png"></a>
-                    </center>
+               <!--<a class="ml-4" onclick="eventosLanding('pagina web');" href="https://admision.udalba.cl/programas-advance2/"><img width="50" src="https://imgur.com/Tu3WSx7.png"></a>
+                    </center>-->
                   </div>
                     </div>
                         </div>
