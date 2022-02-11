@@ -127,7 +127,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                  <a onclick="eventosLanding('Correo');" href="mailto:jacqueline.rodriguez@udalba.cl?subject=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://imgur.com/izFpLFz.jpg"></a>
 
-                  <a onclick="eventosLanding('Llamar');" href="tel:+56989002595" class="btn bg-warning text-black col-12 mt-2"><img width="50" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"> LLAMANOS</a> 
+              <a onclick="eventosLanding('Llamar');" href="tel:+56989002595"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                     </center>
                   </div>
                     </div>
