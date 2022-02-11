@@ -65,12 +65,13 @@ $enddate=strtotime("+5 days", $startdate);
 
             <div id="cont1" class="p-1 ">
                   <div class="card"> 
-
+<br>
                 <h3 class="text-black text-center">Estimado(a): <span id="name"></span></h3>    
                 <div class="card-body">
 
                   <!-- Heading -->
                   <h3 class="dark-grey-text text-center">
+                    
                     <strong>¿Eres técnico y deseas estudiar una carrera profesional online? ¡Nosotros te aceptamos! 
 ¿Estás pensando en tu futuro? Estudia 100% online una segunda carrera con Advance.</strong>
                   </h3>
