@@ -146,7 +146,7 @@ Déjanos tus datos con el programa de tu interés y te contactaremos a la breved
                     <strong>Para Mas Informacion:</strong>
                   </h4>
                   <hr>
-                   <center></center> <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=5698900 2595&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+                   <center><a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=5698900 2595&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
                     </center>
                   </div>
                     </div>
