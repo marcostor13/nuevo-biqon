@@ -58,10 +58,9 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
             <img style="max-width:90%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UALBA">
 
-            <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
-            
-
-            <!--<a target="_blank" href="https://www.advance.uss.cl/?utm_source=google&utm_medium=search&utm_campaign=advance&utm_term=generico&utm_content=nacional&gclid=EAIaIQobChMIsLn10Z-e4wIVFwSRCh0QaAqIEAAYASAAEgJdNvD_BwE" class="btn bg-primary text-white col-8 mt-4">Ir a la página web---->
+           <!-- <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>--->
+            <br>
+            <a target="_blank" href="https://admision.udalba.cl/programas-advance2/" class="btn bg-danger text-white col-8 mt-4">Ir a la página web---->
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
