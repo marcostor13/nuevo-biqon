@@ -118,6 +118,9 @@ Déjanos tus datos con el programa de tu interés y te contactaremos a la breved
                   <div class="text-center">
                     <hr>
                     <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Contactame</button>
+<br>
+<br>
+                    <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=5698900 2595&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
                     
                   </div>
                     </div>
@@ -242,7 +245,7 @@ Déjanos tus datos con el programa de tu interés y te contactaremos a la breved
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["eduardo.binteraction@gmail.com"];
+            var correo = ["jacqueline.rodriguez@udalba.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
