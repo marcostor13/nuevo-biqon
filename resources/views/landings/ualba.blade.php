@@ -123,11 +123,11 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <center> <strong>Para mas Informacion:</strong> </center>
                   
-                 <a class="ml-2"href="https://api.whatsapp.com/send?phone=56989002595&text=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+                 <a class="ml-2"href="https://api.whatsapp.com/send?phone=56935407683&text=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
 
-                 <a onclick="eventosLanding('Correo');" href="mailto:jacqueline.rodriguez@udalba.cl?subject=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://imgur.com/izFpLFz.jpg"></a>
+                 <a onclick="eventosLanding('Correo');" href="mailto:advance@dalba.cl?subject=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://imgur.com/izFpLFz.jpg"></a>
 
-              <a onclick="eventosLanding('Llamar');" href="tel:+56989002595"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+              <a onclick="eventosLanding('Llamar');" href="tel:+56935407683"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
                     </center>
                   </div>
                     </div>
