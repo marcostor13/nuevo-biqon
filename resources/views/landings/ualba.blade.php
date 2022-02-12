@@ -254,9 +254,9 @@ $enddate=strtotime("+5 days", $startdate);
                     'nombre': $('#name').text(),
                     //'monto': getUrlParameter('monto'),
                     'phone': getUrlParameter('telefono'),
-                 //   'Id_Admision': getUrlParameter('data1'),
-                 //   'Prevision': getUrlParameter('data2'),
-                 //   'Estado': getUrlParameter('data3'),
+                    'comuna': getUrlParameter('data1'),
+                  'comuna': getUrlParameter('data2'),
+                    'rango': getUrlParameter('data3'),
                  //   'Ley': getUrlParameter('data4'),
                      'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
