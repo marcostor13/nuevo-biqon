@@ -262,7 +262,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["jacqueline.rodriguez@udalba.cl"];
+            var correo = ["advance@dalba.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
