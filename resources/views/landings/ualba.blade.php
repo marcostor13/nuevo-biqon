@@ -240,11 +240,11 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    //'Nombre': $('#nombre').val(),
+                    'Nombre': $('#nombre').val(),
                     'Nombre': getUrlParameter('nombre'),
                     'Apellido': $('#apellido').val(),
-                    //'RUT': $('#rut').val(),
-                    //'Telefono': $('#telefono').val(),
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
                     'Telefono': getUrlParameter('telefono'),
                     'E-mail': $('#correo').val(),
                     'Comuna': getUrlParameter('data1'),
@@ -255,7 +255,7 @@ $enddate=strtotime("+5 days", $startdate);
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'Nombre': $('#nombre').text(),
+                    'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Telefono': getUrlParameter('telefono'),
                     'comuna': getUrlParameter('data1'),
