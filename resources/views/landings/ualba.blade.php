@@ -156,7 +156,7 @@ $enddate=strtotime("+5 days", $startdate);
                   
             <center>  <a class="ml-2" onclick="eventosLanding('WHATSAPP');"href="https://api.whatsapp.com/send?phone=56935407683&text=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
 
-                 <a onclick="eventosLanding('Correo');" href="mailto:advance@dalba.cl?subject=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://imgur.com/izFpLFz.jpg"></a>
+                 <a onclick="eventosLanding('Correo');" href="mailto:advance@udalba.cl?subject=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://imgur.com/izFpLFz.jpg"></a>
 
               <a onclick="eventosLanding('Llamar');" href="tel:+56935407683"><img width="50" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a></center> 
 
@@ -262,7 +262,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["advance@dalba.cl"];
+            var correo = ["advance@udalba.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
