@@ -240,11 +240,15 @@ $enddate=strtotime("+5 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': $('#nombre').val(),
+                    //'Nombre': $('#nombre').val(),
+                    'Nombre': getUrlParameter('nombre'),
                     'Apellido': $('#apellido').val(),
-                    'RUT': $('#rut').val(),
-                    'Telefono': $('#telefono').val(),
+                    //'RUT': $('#rut').val(),
+                    //'Telefono': $('#telefono').val(),
+                    'Telefono': getUrlParameter('telefono'),
                     'E-mail': $('#correo').val(),
+                    'Comuna': getUrlParameter('data1'),
+                    'RUT': getUrlParameter('rut'),
                     'Carrera': $('#carrera').val()                
                 }
             }else{
