@@ -107,7 +107,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <select class="form-control" id="carrera" required>
                       <option value="" data-select2-id="4">Selecciona una carrera</option>
 
-                      <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
+                      <center>  Nuestra Web!<a target="_blank" href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
                       
       <option value="Contador Auditor" data-select2-id="8">Contador Auditor</option>
       <option value="Administración Pública" data-select2-id="9">Administración Pública</option>
