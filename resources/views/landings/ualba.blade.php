@@ -156,7 +156,7 @@ $enddate=strtotime("+5 days", $startdate);
                   
             <center>  <a class="ml-2" onclick="eventosLanding('WHATSAPP');"href="https://api.whatsapp.com/send?phone=56935407683&text=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
 
-                 <a onclick="eventosLanding('Correo');" href="mailto:advance@udalba.cl?subject=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://imgur.com/izFpLFz.jpg"></a>
+                 <a class="ml-2"onclick="eventosLanding('Correo');" href="mailto:advance@udalba.cl?subject=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://imgur.com/izFpLFz.jpg"></a>
 
              <a class="ml-2" onclick="eventosLanding('Pagina web');" href="https://admision.udalba.cl/programas-advance2/"><img width="70" src="https://imgur.com/FN54ULT.png"></a> 
 
