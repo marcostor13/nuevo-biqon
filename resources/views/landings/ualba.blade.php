@@ -128,7 +128,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                       <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://instagram.com/advanceudalba"><img width="40" src="https://i.imgur.com/DVoiS58.png"></a>
 
-                       <a class="ml-4" onclick="eventosLanding('Faceboook');" href="https://m.facebook.com/udelalba/"><img width="40" src="https://imgur.com/qjrNTF4.png"></a>
+                       <a class="ml-4" onclick="eventosLanding('Faceboook');" href="https://m.facebook.com/udelalba/"><img width="50" src="https://imgur.com/qjrNTF4.png"></a>
 
 
                     <hr>
