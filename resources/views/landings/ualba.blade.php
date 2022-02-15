@@ -124,9 +124,11 @@ $enddate=strtotime("+5 days", $startdate);
 <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
                       <br>
 
-                      <center> <strong>Nuetras Redes Sociales:</strong> </center>
+                      <center> <strong>Nuestras Redes Sociales:</strong> </center>
 
-                      <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/lidercapacitaciones/"><img width="40" src="https://i.imgur.com/DVoiS58.png"></a>
+                      <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://instagram.com/advanceudalba"><img width="40" src="https://i.imgur.com/DVoiS58.png"></a>
+
+                       <a class="ml-4" onclick="eventosLanding('Faceboook');" href="https://m.facebook.com/udelalba/"><img width="40" src="https://imgur.com/qjrNTF4.png"></a>
 
 
                     <hr>
