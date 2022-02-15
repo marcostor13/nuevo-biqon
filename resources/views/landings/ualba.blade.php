@@ -122,7 +122,11 @@ $enddate=strtotime("+5 days", $startdate);
 <br>
 
 <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
-                      
+                      <br>
+
+                      <center> <strong>Nuetras Redes Sociales:</strong> </center>
+
+                      <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/lidercapacitaciones/"><img width="40" src="https://i.imgur.com/DVoiS58.png"></a>
 
 
                     <hr>
@@ -216,12 +220,12 @@ $enddate=strtotime("+5 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-            json_datos.nombre = $('#nombre').val();
-            json_datos.apellido = $('#apellido').val();
-            json_datos.rut = $('#rut').val();
-            json_datos.telefono = $('#telefono').val();
-            json_datos.correo = $('#correo').val();
-            json_datos.carrera =  $('#carrera').val();
+            //json_datos.nombre = $('#nombre').val();
+            //json_datos.apellido = $('#apellido').val();
+           // json_datos.rut = $('#rut').val();
+            //json_datos.telefono = $('#telefono').val();
+           // json_datos.correo = $('#correo').val();
+            //json_datos.carrera =  $('#carrera').val();
 
             events({    
                 'name': name,
