@@ -78,7 +78,7 @@
 
 
 
-<h5 align="right">Para regularizar su cuenta pendiente, 
+<h5 align="Center">Para regularizar su cuenta pendiente, 
 lo invitamos a utilizar la modalidad de pago en línea,
 en la web de Clinica Davila,
 seleccionando la opción PAGAR.</h5>
