@@ -78,7 +78,10 @@
 
 
 
-<h5 align="left">Para regularizar su cuenta pendiente, lo invitamos a utilizar la modalidad de pago en línea,en la web de Clinica Davila,seleccionando la opción PAGAR.</h5>
+<h5 align="left">Para regularizar su cuenta pendiente, 
+lo invitamos a utilizar la modalidad de pago en línea,
+en la web de Clinica Davila,
+seleccionando la opción PAGAR.</h5>
                                 
                                <strong> <p> N° de Admisión de su cuenta es:  <h5 id="dato1" class="dato1"> </h5></p></strong> 
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
