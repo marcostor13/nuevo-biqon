@@ -82,9 +82,11 @@
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
 
 
-                               <h5 class="text-grey text-center">Para mayor información o consulta de su cuenta seleccionar la opción que mas acomode.</h5>
+                              <!-- <h5 class="text-grey text-center">Para mayor información o consulta de su cuenta seleccionar la opción que mas acomode.</h5>
+                               <br>--->
+
+                               <p> Para mayor información o consulta de su cuenta seleccionar la opción que mas acomode</p>
                                <br>
-                               
                                 <h5 class="text-grey text-center"> Seleccione una Opcion </h5>
 
                                <button onclick="Mens1(); eventosLanding('Pagar');" class="btn bg-primary text-white col-12 mt-2">PAGAR
