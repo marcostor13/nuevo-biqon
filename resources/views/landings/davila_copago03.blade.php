@@ -52,7 +52,7 @@
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="CLINICA_DAVILA">
-          <br>
+         
             <div class=col-md-12>
            
                      <div id="cont1" class="p-2 pl-5 pr-5 ">
@@ -77,7 +77,7 @@
                                 <h4 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h4>
                                  <p class="text-white"> <h5> 
                                  Para regularizar su cuenta pendiente, lo invitamos a utilizar la modalidad de pago en línea, en la web de Clinica Davila, seleccionando la opción PAGAR.</h5> </p>
-                                 
+
                                <strong> <p> N° de Admisión de su cuenta es:  <h5 id="dato1" class="dato1"> </h5></p></strong> 
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
 
