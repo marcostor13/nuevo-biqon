@@ -76,7 +76,7 @@
                             <div class="card-body">
                                 <h4 class="text-grey text-center"> Estimado(a) <strong> Paciente <!-- <span id="name"></span> --></strong> </h4>
                                  <p class="text-white"> <h5> 
-                                 Debido a la contingencia que vive el país, Clínica Dávila sugiere utilizar la modalidad de pago en línea disponible en nuestra página Web.</h5> </p>
+                                 Para regularizar su cuenta pendiente, lo invitamos a utilizar la modalidad de pago en línea, en la web de Clinica Davila, seleccionando la opción PAGAR.</h5> </p>
                                 <p> N° de Admisión de su cuenta es:  <h5 id="dato1" class="dato1"> </h5></p> 
                                <!--<strong> <h4 id="dato1" class="dato1"> </h4>  </strong>-->
 
