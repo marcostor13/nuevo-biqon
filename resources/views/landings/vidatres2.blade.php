@@ -104,7 +104,7 @@ $name=$_GET['NOMBRE'];
                      <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://i.imgur.com/2YPpKWm.png"></a></span>
                 </div>-->
                  <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890497&text=Hola,%20tengo%20una%20consulta%20Isapre%20%20Vida%20Tres"><img width="70" src="https://i.imgur.com/kzyuhVO.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890486&text=Hola,%20tengo%20una%20consulta%20Isapre%20%20Vida%20Tres"><img width="70" src="https://i.imgur.com/kzyuhVO.png"></a></span>
                         <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890486"><img width="70" src="https://i.imgur.com/9AbTaoC.png"></a></span>
                         <span class="text-white text-center">
