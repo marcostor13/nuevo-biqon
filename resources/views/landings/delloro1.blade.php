@@ -82,7 +82,7 @@ $N_folio = $_GET['DATA1'];
             Presente.</strong></p>
  <br> 
                 <p class="text-black text-center">
-                    Junto con saludar, como Dell’Oro Abogados nos dirigimos a usted por encargo de MUNDOCREDITO, atendido el retraso que registra actualmente en los pagos de su crédito automotriz.
+                    Junto con saludar, como Dell’Oro Abogados nos dirigimos a usted por encargo de MUNDOCREDITO, atendido el retraso que registra actualmente en los pagos de su crédito automotriz.</p>
                 
 <br>
 </div>
@@ -103,11 +103,7 @@ $N_folio = $_GET['DATA1'];
                      <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://i.imgur.com/2YPpKWm.png"></a></span>
                 </div>-->
 
-                 <p class="text-black text-center"><br><strong>
-                Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención
 
-Saludos</strong></p>
- <br> 
 
             </div>
         </div>
