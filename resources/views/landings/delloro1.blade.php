@@ -91,13 +91,17 @@ $cliente = $_GET['DATA2'];
 
 
                   <p class="text-black text-center">
-                 Para contactarnos puede hacerlo por los siguientes medios
+                 Para contactarnos puede hacerlo por los siguientes medios:
                  <br>
 Fono de Contacto: 968391674
+<br>
 Correo electrónico: DGIRON@DELLOROABOGADOS.CL
+<br>
 Nombre Ejecutivo: DIANA GIRON
+<br>
  </p>
-                
+       También, puede comunicarse con nosotros a nuestro Servicio de Atención de Clientes al <a href="tel:+226964361"> 226964361</a>, o dirigirse a nuestra oficina comercial ubicada en Carmencita 25, Of. 82, Las Condes.
+         
 </div>
            <!-- </div>
                  <div class="mt-2 text-center col-12" style="background:#F1EFEE;">
