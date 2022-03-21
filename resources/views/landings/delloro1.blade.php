@@ -79,13 +79,21 @@ $cliente = $_GET['DATA2'];
                 <h3 class="text-black text-center">RUT:<span id="rut"> <?php echo $N_folio; ?></span></h3>
 
 
-                   <p class="text-black text-center"><br><strong>
+                   <p class="text-black text-center"><strong>
             Presente.</strong></p>
  <br> 
                 <p class="text-black text-center">
                     Junto con saludar, como Dell’Oro Abogados nos dirigimos a usted por encargo de <strong> <?php echo $cliente; ?> </strong> atendido el retraso que registra actualmente en los pagos de su crédito automotriz.</p>
+
                 
 <br>
+
+
+
+<br>
+<p class="text-black text-center">
+                  En Dell’Oro Abogados entendemos que la vida no está exenta de imprevistos por lo que tenemos distintas opciones para ofrecerle dependiendo de la situación en que usted se encuentra, entre ellas un Pago Único Total (PUT)con un descuento de al menos el 30% de la deuda, un convenio de pago con un pie mínimo del 20% de la deuda y por un plazo máximo de 15 cuotas (todo esto previa aprobación de comité).</p>
+                
 </div>
            <!-- </div>
                  <div class="mt-2 text-center col-12" style="background:#F1EFEE;">
