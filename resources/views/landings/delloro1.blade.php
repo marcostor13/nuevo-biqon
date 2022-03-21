@@ -232,6 +232,7 @@ $N_folio = $_GET['DATA1'];
                      'Rut': getUrlParameter('rut'),
                      //'Direccion': getUrlParameter('data1'),
                      'Comuna': getUrlParameter('data2'),
+                     'cliente': getUrlParameter('data2'),
                      'N_Folio': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
