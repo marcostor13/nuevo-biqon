@@ -77,10 +77,14 @@ $N_folio = $_GET['DATA1'];
 
                 <h3 class="text-black text-center">RUT:<span id="rut"> <?php echo $N_folio; ?></span></h3>
 
+
+                   <p class="text-black text-center"><br><strong>
+            Presente.</strong></p>
+ <br> 
+
 <hr>
                 <p class="text-black text-center">
-                    Junto con saludar y en atención a lo instruido por Isapre Banmedica SA <br>
-                    Se le recuerda que tiene un compromiso de pago y Folio de descuento <strong>N° </strong> <strong> <?php echo $N_folio; ?> </strong> que está próximo a vencer.
+                    Junto con saludar, como Dell’Oro Abogados nos dirigimos a usted por encargo de MUNDOCREDITO, atendido el retraso que registra actualmente en los pagos de su crédito automotriz.<strong>N° </strong> <strong> <?php echo $N_folio; ?> </strong> que está próximo a vencer.
                 
 <br>
 </div>
