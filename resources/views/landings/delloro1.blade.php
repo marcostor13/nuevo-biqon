@@ -75,7 +75,7 @@ $N_folio = $_GET['DATA1'];
                             <div class="card-body">
                 <h3 class="text-black text-center">Señor(a) <span id="name"> <?php echo $name; ?></span></h3>
 
-                <h3 class="text-black text-center">Rut <span id="rut"> <?php echo $rut; ?></span></h3>
+                <h3 class="text-black text-center">Rut <span id="rut"> <?php echo $N_folio; ?></span></h3>
 
 <hr>
                 <p class="text-black text-center">
