@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'Banmedica')
+@section('title', 'dell´oro')
 
 @section('content')
 <?php
@@ -77,8 +77,6 @@ $cliente = $_GET['DATA2'];
                 <h3 class="text-black text-center">Señor(a) <span id="name"> <?php echo $name; ?></span></h3>
 
                 <h3 class="text-black text-center">RUT:<span id="rut"> <?php echo $N_folio; ?></span></h3>
-
-
                    <p class="text-black text-center"><strong>
             Presente.</strong></p>
  <br> 
@@ -87,6 +85,18 @@ $cliente = $_GET['DATA2'];
 <br>
 <p class="text-black text-center">
                   En Dell’Oro Abogados entendemos que la vida no está exenta de imprevistos por lo que tenemos distintas opciones para ofrecerle dependiendo de la situación en que usted se encuentra, entre ellas un Pago Único Total <strong>(PUT)</strong>con un descuento de al menos el 30% de la deuda, un convenio de pago con un pie mínimo del 20% de la deuda y por un plazo máximo de 15 cuotas (todo esto previa aprobación de comité).</p>
+
+                  <p class="text-black text-center">
+                 Es por esto que lo invitamos a contactarnos para buscar una solución extrajudicial al pago de su deuda, evitando de esta forma las molestias e inconvenientes que le puede causar la cobranza.</p>
+
+
+                  <p class="text-black text-center">
+                 Para contactarnos puede hacerlo por los siguientes medios
+                 <br>
+Fono de Contacto: 968391674
+Correo electrónico: DGIRON@DELLOROABOGADOS.CL
+Nombre Ejecutivo: DIANA GIRON
+ </p>
                 
 </div>
            <!-- </div>
