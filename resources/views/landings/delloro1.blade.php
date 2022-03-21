@@ -75,7 +75,7 @@ $N_folio = $_GET['DATA1'];
                             <div class="card-body">
                 <h3 class="text-black text-center">Señor(a) <span id="name"> <?php echo $name; ?></span></h3>
 
-                <h3 class="text-black text-center">Rut <span id="rut"> <?php echo $N_folio; ?></span></h3>
+                <h3 class="text-black text-center">RUT:<span id="rut"> <?php echo $N_folio; ?></span></h3>
 
 <hr>
                 <p class="text-black text-center">
@@ -84,10 +84,10 @@ $N_folio = $_GET['DATA1'];
                 
 <br>
 </div>
-            </div>
+           <!-- </div>
                  <div class="mt-2 text-center col-12" style="background:#F1EFEE;">
                     <p class="text-black text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
-                     <div class="d-flex justify-content-around align-content-center text-center"> 
+                     <div class="d-flex justify-content-around align-content-center text-center">----> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>
