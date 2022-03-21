@@ -8,6 +8,7 @@ $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 $name=$_GET['NOMBRE'];
 $N_folio = $_GET['DATA1'];
+$cliente = $_GET['DATA2'];
 ?>
 
 <style type="text/css">
