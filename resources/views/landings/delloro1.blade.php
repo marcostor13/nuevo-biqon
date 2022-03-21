@@ -103,7 +103,7 @@ Nombre Ejecutivo:<strong> DIANA GIRON</strong>
  </p>
        También, puede comunicarse con nosotros a nuestro Servicio de Atención de Clientes al <a href="tel:+226964361"> 226964361</a>, o dirigirse a nuestra oficina comercial ubicada en Carmencita 25, Of. 82, Las Condes.
          
-<br><br><br><br>
+<br><br>
          <p><small>Esta gestión no corresponde a un procedimiento que persiga la ejecución de sus bienes. La Ley 19.496 establece los derechos de los consumidores respecto de las acciones de cobranza extrajudiciales, entre ellas: se prohíbe que afecte su privacidad o situación laboral; los llamados de cobranza sólo se pueden realizar de lunes a sábados entre las 8:00 y las 20:00 horas; el consumidor tienen derecho a pagar su deuda directamente a la empresa a la que le debe; los gastos de cobranza extrajudicial deberán cumplir los límites establecidos en inciso 2 del artículo 37 de misma Ley, y se aplicarán transcurridos los primero 20 días desde la mora. Infórmese responsablemente sobre sus derechos en www.sernac.cl</p>
 
 </div>
