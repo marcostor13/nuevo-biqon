@@ -167,6 +167,7 @@ $N_folio = $_GET['DATA1'];
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
                     $('#dato1').text(N_Folio);
+                     $('#dato2').text(cliente);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -231,7 +232,6 @@ $N_folio = $_GET['DATA1'];
                     'Phone': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
                      //'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2'),
                      'cliente': getUrlParameter('data2'),
                      'N_Folio': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
