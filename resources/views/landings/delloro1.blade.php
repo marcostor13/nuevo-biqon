@@ -81,10 +81,8 @@ $N_folio = $_GET['DATA1'];
                    <p class="text-black text-center"><br><strong>
             Presente.</strong></p>
  <br> 
-
-<hr>
                 <p class="text-black text-center">
-                    Junto con saludar, como Dell’Oro Abogados nos dirigimos a usted por encargo de MUNDOCREDITO, atendido el retraso que registra actualmente en los pagos de su crédito automotriz.<strong>N° </strong> <strong> <?php echo $N_folio; ?> </strong> que está próximo a vencer.
+                    Junto con saludar, como Dell’Oro Abogados nos dirigimos a usted por encargo de MUNDOCREDITO, atendido el retraso que registra actualmente en los pagos de su crédito automotriz.
                 
 <br>
 </div>
