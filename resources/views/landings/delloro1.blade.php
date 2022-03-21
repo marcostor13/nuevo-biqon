@@ -73,7 +73,9 @@ $N_folio = $_GET['DATA1'];
             <div id="cont2" class="p-1">
                 <div class="card">     
                             <div class="card-body">
-                <h3 class="text-black text-center">Estimado(a)  <span id="name"> <?php echo $name; ?></span></h3>
+                <h3 class="text-black text-center">Señor(a) <span id="name"> <?php echo $name; ?></span></h3>
+
+                <h3 class="text-black text-center">Rut <span id="rut"> <?php echo $rut; ?></span></h3>
 
 <hr>
                 <p class="text-black text-center">
@@ -98,17 +100,6 @@ $N_folio = $_GET['DATA1'];
                     <span class="text-danger  text-center">Pago en Línea<br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://i.imgur.com/2YPpKWm.png"></a></span>
                 </div>-->
-
-                 <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890486&text=Hola,%20tengo%20una%20consulta%20Isapre%20Banmedica"><img width="70" src="https://i.imgur.com/ot39iWI.png"></a></span>
-                        <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890486"><img width="70" src="https://i.imgur.com/sN7X4XZ.png"></a></span>
-                        <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:isapreregulariza@solvencia.cl"><img width="70" src="https://i.imgur.com/yedwmQG.png"></a></span>
-                     <span class="text-white text-center">
-                <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.banmedica.cl/pago-en-linea/"> <img width="70" src="https://i.imgur.com/TI8UBph.png"></a></span>
-                </div>
-                <br><br>
 
                  <p class="text-black text-center"><br><strong>
                 Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención
@@ -247,7 +238,7 @@ Saludos</strong></p>
                 } 
             }
             
-            var correo = ["isapreregulariza@solvencia.cl"];
+            var correo = ["eduardo,binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                  'email': correo
