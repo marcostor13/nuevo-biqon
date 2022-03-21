@@ -82,7 +82,7 @@ $N_folio = $_GET['DATA1'];
             Presente.</strong></p>
  <br> 
                 <p class="text-black text-center">
-                    Junto con saludar, como Dell’Oro Abogados nos dirigimos a usted por encargo de MUNDOCREDITO, atendido el retraso que registra actualmente en los pagos de su crédito automotriz.</p>
+                    Junto con saludar, como Dell’Oro Abogados nos dirigimos a usted por encargo de <strong> <?php echo $cliente; ?> </strong> atendido el retraso que registra actualmente en los pagos de su crédito automotriz.</p>
                 
 <br>
 </div>
@@ -217,6 +217,7 @@ $N_folio = $_GET['DATA1'];
                      'Rut': getUrlParameter('rut'),
                      //'Direccion': getUrlParameter('data1'),
                      'N_Folio': getUrlParameter('data1'),
+                     'cliente': getUrlParameter('data2'),
                      'Comuna': getUrlParameter('data2') 
                    
                     
