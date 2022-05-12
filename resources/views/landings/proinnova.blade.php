@@ -96,10 +96,12 @@ $enddate=strtotime("+5 days", $startdate);
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
                 
                 <br>
-
+ <br>
                 <p class="text-black">
-                Para mas Informacion Comunicarse con el Ejecutivo<strong>Julia Infante </strong> 
+                Para mas Informacion Comunicarse con el Ejecutivo(a) : <strong>Julia Infante </strong> 
                 </p>
+                <br>
+                 <br>
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56989064946&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 
