@@ -74,7 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black">
-                  Le Informamos que su deuda de: <strong> ISAPRE NUEVA MAS VIDA S.A. </strong> se encuentra en cobranza Prejudicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones de cobranza, le ofrecemos las siguientes opciones:
+                  Le Informamos que su deuda de: <strong> CLÍNICA DÁVILA Y SERVICIOS MEDICOS SPA. </strong> se encuentra en cobranza Prejudicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones de cobranza, le ofrecemos las siguientes opciones:
                 </p>
 
                 
@@ -95,6 +95,11 @@ $enddate=strtotime("+5 days", $startdate);
                 
                 <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-primary text-black col-12 mt-4">YA PAGUE</button>
                 
+                <br>
+
+                <p class="text-black">
+                Para mas Informacion Comunicarse con el Ejecutivo<strong>Julia Infante </strong> 
+                </p>
                 <div class="d-flex justify-content-around align-content-center mt-4">
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56989064946&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 
