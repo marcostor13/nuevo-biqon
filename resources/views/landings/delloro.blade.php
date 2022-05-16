@@ -81,10 +81,12 @@ no se pierda esta oportunidad  y regularice su situación con Mundo Crédito
 
 
 
-    <center><img width="80%" src="https://imgur.com/ub5lWXj.jpg"></center>
+    <center><img width="100%" src="https://imgur.com/ub5lWXj.jpg"></center>
 
 
-
+<center><p class="text-black  text-center">
+              Escríbenos no esperes mas por esta Oportunidad
+                </p></center>
 
                 
               <div class="date btn bg-danger text-white col-12 mt-4">
@@ -98,18 +100,18 @@ no se pierda esta oportunidad  y regularice su situación con Mundo Crédito
 
                 <!-- < <div class="btn bg-danger text-white col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
-                    <a onclick="eventosLanding('Convenio'); window.location.href='tel:+56945369456' ;" class="btn bg-danger text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                    <a onclick="eventosLanding('Convenio'); window.location.href='tel:+56999181082' ;" class="btn bg-danger text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
                <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>-->
                 
                 <button onclick="Mens(); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56945369456&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56999181082&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 
                    <!-- <a onclick="eventosLanding('Llamar');" href="tel:+56945369456 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>-->
 
-                    <a onclick="eventosLanding('Correo');" href="mailto:f.belloy@delloroabogados.cl?subject=Landing%20DellOro&body=Adjuto%20es%20el%20Comprobante%20de%20Pago">
+                    <a onclick="eventosLanding('Correo');" href="mailto:jceren@delloroabogados.cl?subject=Landing%20DellOro&body=Adjuto%20es%20el%20Comprobante%20de%20Pago">
                         <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
@@ -221,7 +223,7 @@ no se pierda esta oportunidad  y regularice su situación con Mundo Crédito
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["eduardo.binteraction@gmail.com", "eduardo.binteraction@gmail.com"];  
+            var correo = ["jceren@delloroabogados.cl", "eduardo.binteraction@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
