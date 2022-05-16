@@ -90,10 +90,10 @@ no se pierda esta oportunidad  y regularice su situación con Mundo Crédito
                 </p></center>
 
                 
-              <div class="date btn bg-danger text-white col-12 mt-4">
+             <!-- <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="2022-12-31"/>
-                </div>
+                </div>-->
 
                <!-- <button  class="btn bg-danger text-white col-12 mt-4">Convenio de pago, Contactar
                   <a href="tel:+34678567876">Aquí el texto que quieras</a>        
