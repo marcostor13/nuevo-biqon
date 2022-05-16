@@ -75,15 +75,13 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black  text-center">
-                  En Mundo Crédito tenemos una oferta de pago <br>
-para  usted
-no se pierda esta oportunidad <br>
-y regularice su situación con Mundo Crédito
+                  En Mundo Crédito tenemos una oferta de pago para  usted
+no se pierda esta oportunidad  y regularice su situación con Mundo Crédito
                 </p>
 
 
 
-    <center><img width="40%" src="https://imgur.com/ub5lWXj.jpg"></center>
+    <center><img width="80%" src="https://imgur.com/ub5lWXj.jpg"></center>
 
 
 
