@@ -83,6 +83,11 @@ y regularice su situación con Mundo Crédito
 
 
 
+    <img width="80%" src="https://imgur.com/ub5lWXj.jpg">
+
+
+
+
                 
               <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
