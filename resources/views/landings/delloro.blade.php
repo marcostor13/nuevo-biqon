@@ -75,7 +75,10 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black  text-center">
-                  Le Informamos que su deuda de: <strong> <span id="data1"></span> </strong> se encuentra en cobranza judicial, por concepto de no pago. <br> Con el objeto de no proseguir con las acciones judiciales, le ofrecemos las siguientes opciones:
+                  **En Mundo Crédito tenemos una oferta de pago** <br>
+**para  usted**
+**no se pierda esta oportunidad** <br>
+**y regularice su situación con Mundo Crédito**
                 </p>
 
                 
