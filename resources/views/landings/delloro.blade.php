@@ -83,7 +83,7 @@ y regularice su situación con Mundo Crédito
 
 
 
-    <img width="80%" src="https://imgur.com/ub5lWXj.jpg">
+    <center><img width="40%" src="https://imgur.com/ub5lWXj.jpg"></center>
 
 
 
