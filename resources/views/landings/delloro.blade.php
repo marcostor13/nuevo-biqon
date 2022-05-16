@@ -83,8 +83,9 @@ no se pierda esta oportunidad  y regularice su situación con Mundo Crédito
 
     <center><img width="100%" src="https://imgur.com/ub5lWXj.jpg"></center>
 
+<br>
 
-<center><p class="text-black  text-center">
+<center><p class="text-yellow  text-center">
               Escríbenos no esperes mas por esta Oportunidad
                 </p></center>
 
