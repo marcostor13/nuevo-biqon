@@ -64,7 +64,7 @@ $enddate=strtotime("+10 days", $startdate);
                     <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983106646&text=Hola,%20tengo%20una%20consulta" class="btn bg-primary text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png">Enviar SMS por Whatsapp</a>
 
 
-                <button onclick='window.location.href="http://servipag.mundocredito.cl/PagoCuotas.php"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="https://botondepago.mundocredito.cl/#/Ingreso"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
 
                
                 
