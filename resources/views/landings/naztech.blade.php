@@ -92,8 +92,8 @@
             <div id="cont2" class="p-2 pl-3 ">
                 <center>
             <h3  class="text-black "><strong> Encuentra todo lo que necesites</strong> </h3>
-            <h4>  En un solo lugar</h4> </center>
-            <div id="opt1" class="p-2 pl-3">
+            <h4>  En un solo lugar!</h4> </center>
+           <!-- <div id="opt1" class="p-2 pl-3">
                        
                                <center>
                                <a onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/GWkleqW.png"></a> <br>
@@ -108,7 +108,7 @@
                                
                               
             </div>
-          
+          -->
 
 <div id="plan1" class="p-2 pl-3 hide">
 
