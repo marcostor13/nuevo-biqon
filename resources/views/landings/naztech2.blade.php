@@ -37,11 +37,11 @@ En un solo lugar!</h3></p>
 
                 <hr>
                 <br>
-                <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2">LLÁMANOS</a>
+                <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-warning text-light col-12 mt-2">LLÁMANOS</a>
 
-                <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-primary text-white col-12 mt-2">WHATSAPP</a>
+                <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-warning text-light col-12 mt-2">WHATSAPP</a>
 
-                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2">ESCRÍBENOS</a>
+                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-warning text-light col-12 mt-2">ESCRÍBENOS</a>
 
                </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
