@@ -81,7 +81,7 @@ no se pierda esta oportunidad  y regularice su situación con Mundo Crédito
 
 
 
-    <center><img width="100%" src="https://imgur.com/ub5lWXj.jpg"></center>
+    <center><img width="100%" src="https://imgur.com/nACAiJm.jpg"></center>
 
 <br>
 
