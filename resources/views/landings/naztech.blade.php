@@ -77,7 +77,7 @@
    <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:200px; max-height:180px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
+            <img style="max-width:300px; max-height:280px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
 
 
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
@@ -91,8 +91,8 @@
 
             <div id="cont2" class="p-2 pl-3 ">
                 <center>
-            <h3  class="text-primary "><strong> Conoce nuestros Planes Claro Hogar </strong> </h3>
-            <h4> Escoge el paquete ideal para ti y tu familia</h4> </center>
+            <h3  class="text-black "><strong> Encuentra todo lo que necesites</strong> </h3>
+            <h4>  En un solo lugar</h4> </center>
             <div id="opt1" class="p-2 pl-3">
                        
                                <center>
