@@ -1,301 +1,147 @@
 @extends('layouts.landing')
 
-@section('title', 'CLARO HOGAR')
+@section('title', 'Gyrux')
 
 @section('content')
 
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<style>
-.opaco{
-    display: none !important; 
-
-}
-.input{
-  border-color: #A1CBF3 !important;
-}
-     
-.card {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  border: 0;
-  font-weight: 400;
-}
-.card[class*=border] {
-  border: 1px solid #9e9e9e;
-  box-shadow: none;
-}
-.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
-  font-weight: 400;
-}
-.card .card-body .card-title a {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-title a:hover {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-text {
-  color: #747373;
-  font-size: 0.9rem;
-  font-weight: 400;
-}
-.card .md-form label {
-  font-weight: 300;
-}
-
-.oscurecer {
-  background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    )
-    }
-    .med {
-  background-image: 
-    linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    )
-    }
-    .fila1{
-      
-        border-style: dotted;
-   border-width: 1px;
-   border-color: 660033;
-    }
-</style>
-<!-- Compiled and minified Bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-<!-- Minified JS library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- Compiled and minified Bootstrap JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
    <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:300px; max-height:280px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
+            <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="Gyrux">
 
 
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
-                            </div>
-                        </div>
-                    </div>
-
-
-            <div id="cont2" class="p-2 pl-3 ">
-                <center>
-            <h3  class="text-black "><strong> Encuentra todo lo que necesites</strong> </h3>
-            <h4>  En un solo lugar!</h4> </center>
-           <!-- <div id="opt1" class="p-2 pl-3">
-                       
-                               <center>
-                               <a onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/GWkleqW.png"></a> <br>
-
-          
-
-                                <a onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/RMl8rwF.png"></a> <br>
-                                <a onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/6S1xMqg.png"></a> </center>
-
- 
-                                <button onclick="sendMail('No deseo recibir Mas Noticias de Claro'); ;eventosLanding('No deseo Productos Claro'); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>No deseo recibir Mas Mensajes de claro</h4></button>
-                               
-                              
+            <div class="card">     
+            <div class="card-body">
+                <h5 id="error"class="text-black text-center mt-5"></h5>
             </div>
-          -->
-
-<div id="plan1" class="p-2 pl-3 hide">
-
-<center>
-            <h3  class="text-primary "><strong> 1 Play: Internet  </strong> </h3>
-            <h4> Disfruta de Internet en alta velocidad</h4> </center>
-<div class="card">     
-         <div class="card-body">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-       
-    </ol> 
-
-     <div class="carousel-inner">
-        <div class="item active">
-        <center> <a onclick="sendMail('Solicito ser Contactado Plan  HOGAR PRO'); ;eventosLanding('Solicitud Informacion  Plan HOGAR PRO'); return false;">
-          <img class="col-12 mt-2" style="max-width: 350px; max-height:350px " src="https://i.imgur.com/Cx6ia7O.png" alt=""> </a> <br> 
-          </center> <br> <br>
-          <button onclick="sendMail('Solicito ser Contactado Plan  HOGAR PRO'); ;eventosLanding('Solicitud Informacion  Plan HOGAR PRO'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-          <br> <br> <br> 
-        </div>
-        <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan HOGAR 80'); ;eventosLanding('Solicitud Informacion  Plan HOGAR 80'); return false;"> 
-        <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/p9ETw33.png" alt=""> </a> <br> 
-        </center><br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan HOGAR 80'); ;eventosLanding('Solicitud Informacion  Plan HOGAR 80'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-        <br> <br> <br> 
-        </div>
- 
-    </div>
-
-     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
-    </div>
-    </div>  
-    <div id="opt11" class="p-2 pl-3">
-                        <div class="card">     
-                            <div class="card-body">
-                               <!--<button onclick="Mens1();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/9hoo6Uk.png"> <strong>   1 Play: Internet </strong> </button>--> 
-                             <button onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/RMl8rwF.png"> <strong></strong> </button>
-                             <button onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/6S1xMqg.png"> <strong> </strong> </button>
-                            </div>
-                        </div>
+            </div>    
             </div>
-</div>
-    
-<!--plan 2-->
 
-    <div id="plan2"  class="p-2 pl-3 hide">
+            <div id="cont2" class="p-3 ">
+                <!--<h3 class="text-white text-center">Estimado <span id="name"></span></h3>-->
+           <center> <p class="text-white"> <h3>Gyrux La Evolucion en Accesorios Mobile</h3></p>
+                        </center>
+          <button onclick='url1();' class="btn bg-primary text-white col-12 mt-4"> Energia</button>
 
-    <center>
-            <h3  class="text-primary "><strong> 2 Play: Internet + Tv</strong> </h3>
-            <h4> Disfruta de Internet en alta velocidad y entretenimiento en HD.</h4> </center>
-    <br>
-<div class="card">     
-         <div class="card-body">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol> 
+          <button onclick='url2();' class="btn bg-primary text-white col-12 mt-4"> Proteccion</button>
 
-     <div class="carousel-inner">
-        <div class="item active">
-        <center> <a onclick="sendMail('Solicito ser Contactado Plan 2PLAY 80'); ;eventosLanding('Informacion 2PLAY 80'); return false;">
-          <img  class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/2dOjk6p.png" alt=""> </a> <br> 
-          </center> <br> <br>
-          <button onclick="sendMail('Solicito ser Contactado Plan 2PLAY 80'); ;eventosLanding('Informacion 2PLAY 80'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-          <br> <br> <br> 
-        </div>
-        <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan 2PLAY 200'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 200'); return false;"> 
-        <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/79ESIJK.png" alt=""> </a> <br> 
-        </center><br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan 2PLAY 200'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 200'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-        <br> <br> <br> 
-        </div>
-        <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan 2PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 400'); return false;">   
-        <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/tN0p7Vy.png" alt=""> </a> <br> 
-        </center> <br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan 2PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 400'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-                      <br> <br> <br>          
-        </div>
-      
+          <button onclick='url3();' class="btn bg-primary text-white col-12 mt-4"> Audio</button>
 
-    </div>
+          <button onclick='url4();' class="btn bg-primary text-white col-12 mt-4"> Almacenamiento</button>
 
-     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
-    </div>
-    </div> 
-    <div id="opt12" class="p-2 pl-3">
-                        <div class="card">     
-                            <div class="card-body">
-                               <button onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/GWkleqW.png"> <strong> </strong> </button>
-                                <!--<button onclick="Mens2();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>-->
-                               <button onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/6S1xMqg.png"> <strong></strong> </button>
-                            </div>
-                        </div>
+          <!-- <a herf="https://ww2.movistar.cl/recarga/" class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</a>-->
+
+                <hr>
+                <br>
+                <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-primary text-white col-12 mt-2">LLÁMANOS</a>
+
+                <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-primary text-white col-12 mt-2">WHATSAPP</a>
+
+                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-primary text-white col-12 mt-2">ESCRÍBENOS</a>
+
+               </div>
+            <div id="cont3" class="p-2 pl-3 pr-3 hide">
+                <div class="card">     
+                <div class="card-body">
+                    <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                </div>
+                </div>
             </div>
-</div>
 
-    <!--plan 3-->
 
-    <div id="plan3"  class="p-2 pl-3 hide">
-    <br>
+            <div  id="cont6" class="p-2 pl-3 pr-3 hide">
+                <div class="text-black col-md-12">
+                    <h5 class="text-grey text-center"> ENERGIA - CARGADORES</h5>       
+                <div>
+                    <label>GYRUX POWERBANK 10000 MAH G56</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/6OvrYhi.png" alt="Gyrux">
+                 </div> 
+                    <button onclick="sendMail('GYRUX POWERBANK 10000 MAH G56');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
-    <center>
-            <h3  class="text-primary "><strong> 3 Play: Internet + Tv + Telefonía </strong> </h3>
-            <h4> Disfruta de Internet en alta velocidad, entretenimiento en HD y telefonía fija.</h4> </center>
-    <div class="card">     
-         <div class="card-body">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-     <!--   <li data-target="#myCarousel" data-slide-to="2"></li>-->
-    </ol> 
+                    <div>
+                    <label>CARGADOR PARED CON CABLE MICRO USB UMANNO</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/qA4wleS.png" alt="Gyrux">
+                    <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+                 </div> 
+                    <button onclick="sendMail('CARGADOR PARED CON CABLE MICRO USB');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
-     <div class="carousel-inner">
-        <div class="item active">
-        <center> <a onclick="sendMail('Solicito ser Contactado Plan 3PLAY 200'); ;eventosLanding('Informacion 3PLAY 200'); return false;">
-          <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/8WeUw2T.png" alt=""> </a> <br> 
-          </center> <br> <br>
-          <button onclick="sendMail('Solicito ser Contactado Plan 3PLAY 200'); ;eventosLanding('Informacion 3PLAY 200'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-          <br> <br> <br> 
-        </div>
-        <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan 3PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 3PLAY 400'); return false;"> 
-        <img class="col-12 mt-2" style="max-width:350px; max-height:350px "  src="https://i.imgur.com/hvJ1c0u.png" alt=""> </a> <br> 
-        </center><br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan 3PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 3PLAY 400'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-        <br> <br> <br> 
-        </div>     
+                </div>
 
-    </div>
+                <div class="text-black col-md-12">      
+                <div>
+                    <label>CARGADOR PARED CON CABLE LIGHTNING UMANNO</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/1Gmpess.png" alt="Gyrux">
+                    <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+                 </div> 
+                   <button onclick="sendMail('CARGADOR PARED CON CABLE LIGHTNING');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
 
-     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
-    </div>
-    </div>
-    </center>
-
-    <div id="opt11" class="p-2 pl-3">
-                        <div class="card">     
-                            <div class="card-body">
-                            <button onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/GWkleqW.png"> <strong> </button> 
-                            <button onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/RMl8rwF.png"> <strong> </strong> </button>
-                               <!--<button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/fDpn2k2.png"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>-->
-                            </div>
-                        </div>
+                   <div>
+                    <label>CARGADOR PARED CON CABLE Tipo C UMANNO</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/dXOrQMf.png" alt="Gyrux">
+                    <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+                 </div> 
+                   <button onclick="sendMail('CARGADOR PARED CON CABLE Tipo C');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+                </div>
             </div>
-</div>
 
-            </div>       
-<div id="cont3" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                            </div>
-                        </div>
+            <div  id="cont7" class="p-2 pl-3 pr-3 hide">
+                     <div class="text-black col-md-12">
+                    <h5 class="text-grey text-center"> PROTECCION - FORROS</h5>       
+                <div>
+                    <label>Soporte Magnetico para Auto</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/QrFAeyN.png" alt="Gyrux">
+                    <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+                 </div> 
+                    <button onclick="sendMail('Soporte Magnetico para Auto');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+                    <div>
+                    <label>Selfie Stick Gyrux Bluetooth</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/AT8zGt8.png" alt="Gyrux">
+                    <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+                 </div> 
+                    <button onclick="sendMail('Selfie Stick Gyrux Bluetooth');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+                </div>
             </div>
+
+             <div  id="cont8" class="p-2 pl-3 pr-3 hide">
+                <div class="text-black col-md-12">
+                <h5 class="text-grey text-center"> Audio y Parlantes</h5>       
+                <div>
+                    <label>Audifono YK810 UMANNO</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/9nIUmlM.png" alt="Gyrux">
+                    <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+                 </div> 
+                    <button onclick="sendMail('Audifono YK810 UMANNO');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+               </div>
+               </div>
+
+             <div  id="cont9" class="p-2 pl-3 pr-3 hide">
+                    <div class="text-black col-md-12">
+                    <h5 class="text-grey text-center"> Almacenamiento</h5>       
+                <div>
+                    <label>Memoria Micro SD SanDisk Clase 10</label>
+                    <label>16 GB - 32 GB - 64 GB</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/XrKTAlQ.png" alt="Gyrux">
+                    <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+                 </div> 
+                    <button onclick="sendMail('Memoria Micro SD');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+                    <div>
+                    <label>Pendrive SanDisk Cruzer Blade USB</label>
+                    <label>16 GB - 32 GB - 64 GB</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/V5Q06wX.png" alt="Gyrux">
+                    <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
+                 </div> 
+                    <button onclick="sendMail('Pendrive SanDisk ');" class="btn bg-primary text-white col-12 mt-4">Confirmar</button>
+
+                </div>
+            </div>
+
 </div>
 
     <script>
@@ -375,15 +221,10 @@
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': getUrlParameter('nombre'),
-                    //'monto': getUrlParameter('monto'),
-                    'Telefono': getUrlParameter('telefono'),
-                    'Comuna': getUrlParameter('data1'),
-                    //'Prevision': getUrlParameter('data2'),
-                    //'Estado': getUrlParameter('data3'),
-                    //'Ley': getUrlParameter('data4'),
-                     'RUT': getUrlParameter('rut'),
-                     'landing': '{!! $landing->name !!}'
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
+                    'Chips': $('#valor').val(),
+                    'landing': '{!! $landing->name !!}'
                    
                     
                 }
@@ -391,24 +232,19 @@
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
-                    'Nombre': getUrlParameter('nombre'),
-                    //'monto': getUrlParameter('monto'),
-                    'Telefono': getUrlParameter('telefono'),
-                    'Comuna': getUrlParameter('data1'),
-                    //'Prevision': getUrlParameter('data2'),
-                    //'Estado': getUrlParameter('data3'),
-                    //'Ley': getUrlParameter('data4'),
-                     'RUT': getUrlParameter('rut'),
-                     'landing': '{!! $landing->name !!}'
+                    'RUT': $('#rut').val(),
+                    'Telefono': $('#telefono').val(),
+                    'Chips': $('#valor').val(),
+                    'landing': '{!! $landing->name !!}'
                 } 
             }
 
-           var correo = ["eduardo.binteraction@gmail.com","esolano547@gmail.com","jose.coello@solvencia.cl"];
+           var correo = ["inttegrados@gmail.com","jesus.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email': '{!! $landing->email !!}' "inttegrados@gmail.com", ,"jesus.binteraction@gmail.com" 
-                //'email': 'marcostor13@gmail.com' ,"jesus.binteraction@gmail.com" 
+                //'email': '{!! $landing->email !!}' "inttegrados@gmail.com",
+                //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
                 headers: {
@@ -420,15 +256,26 @@
                 if(msg !== false){
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
-                     $('#cont3').removeClass('hide');
-                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área.');
-
+                     $('#cont7').addClass('hide');
+                     $('#cont6').addClass('hide');
+                     $('#port4').addClass('hide');
+                        $('#port3').addClass('hide');
+                        $('#port2').addClass('hide');
+                        $('#port1').addClass('hide');
+                        $('#nuev5').addClass('hide');
+                        $('#nuev4').addClass('hide');
+                        $('#nuev3').addClass('hide');
+                        $('#nuev2').addClass('hide');
+                        $('#nuev1').addClass('hide');
+                        $('#form').addClass('hide');
+                    $('#cont3').removeClass('hide');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
-                     eventosLanding('Solicitud de Plan');
+                     eventosLanding('Compromiso de Pago');
                 }
             })
             .done(function(e) {
@@ -496,43 +343,26 @@
 
       
          function Mens(){
-             window.location.href = "tel:+56975890470";
+  
+             window.location.href = "tel:+56993443007";
         }  
 
-/*
+
      function Mens1(){
-   window.location.href = "https://api.whatsapp.com/send?phone=56975890470&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+     
+   window.location.href = "https://api.whatsapp.com/send?phone=56993443007&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
         } 
 
 
-    function Mens2(){
+          function Mens2(){
+
+
          var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
-             window.location.href = "mailto:angelo.castillo@solvencia.cl ?subject=Portabilidad%20Claro&body"+body_message;
- }
-*/
 
-  function Mens1(){
-        $('#plan2').addClass('hide');
-        $('#plan1').removeClass('hide'); 
-        $('#opt1').addClass('hide');
-        $('#plan3').addClass('hide');
+   window.location.href = "mailto:inttegrados@gmail.com?subject=Portabilidad%20Virging%20Mobile&body"+body_message;
 
  }
 
- function Mens2(){
-        $('#plan1').addClass('hide');
-        $('#plan2').removeClass('hide'); 
-        $('#opt1').addClass('hide');
-        $('#plan3').addClass('hide');
-
- }
- function Mens3(){
-        $('#plan1').addClass('hide');
-        $('#plan2').addClass('hide'); 
-        $('#opt1').addClass('hide');
-        $('#plan3').removeClass('hide');
-
- }
  function activa(){
 
   $('#cont2').addClass('hide');
@@ -549,7 +379,6 @@
 
   $('#cont7').addClass('hide');
   $('#form').removeClass('hide');
-  $('#actual').removeClass('hide');
   $('#port1').removeClass('hide');
   $('#port11').removeClass('hide');
  }
@@ -557,7 +386,6 @@
 
   $('#cont7').addClass('hide');
    $('#form').removeClass('hide');
-   $('#actual').removeClass('hide');
   $('#port2').removeClass('hide');
   $('#port22').removeClass('hide');
  }
@@ -565,7 +393,6 @@
 
   $('#cont7').addClass('hide');
   $('#form').removeClass('hide');
-  $('#actual').removeClass('hide');
   $('#port3').removeClass('hide');
   $('#port33').removeClass('hide');
  }
@@ -573,39 +400,38 @@
 
   $('#cont7').addClass('hide');
   $('#form').removeClass('hide');
-  $('#actual').removeClass('hide');
   $('#port4').removeClass('hide');
   $('#port44').removeClass('hide');
  }
 //linea nueva 5 planes
- function nuev1(){
+ function url1(){
 
-  $('#cont6').addClass('hide');
-    $('#form').removeClass('hide');
+  $('#cont2').addClass('hide');
+    $('#cont6').removeClass('hide');
   $('#nuevo').removeClass('hide');
   $('#nuev1').removeClass('hide');
    $('#nuev11').removeClass('hide');
  }
- function nuev2(){
+ function url2(){
 
-  $('#cont6').addClass('hide');
-   $('#form').removeClass('hide');
+  $('#cont2').addClass('hide');
+   $('#cont7').removeClass('hide');
   $('#nuevo').removeClass('hide');
   $('#nuev2').removeClass('hide');
    $('#nuev22').removeClass('hide');
  }
- function nuev3(){
+ function url3(){
 
-  $('#cont6').addClass('hide');
-    $('#form').removeClass('hide');
+  $('#cont2').addClass('hide');
+    $('#cont8').removeClass('hide');
   $('#nuevo').removeClass('hide');
   $('#nuev3').removeClass('hide');
    $('#nuev33').removeClass('hide');
  }
- function nuev4(){
+ function url4(){
 
-  $('#cont6').addClass('hide');
-   $('#form').removeClass('hide');
+  $('#cont2').addClass('hide');
+   $('#cont9').removeClass('hide');
   $('#nuevo').removeClass('hide');
   $('#nuev4').removeClass('hide');
    $('#nuev44').removeClass('hide');
@@ -619,35 +445,6 @@
    $('#nuev55').removeClass('hide');
  }
 
-
- function p0(){
-
-    $('#cont7').addClass('hide');
-    $('#cont6').addClass('hide');
-    $('#form').addClass('hide');
-    $('#cont2').removeClass('hide');
-    $('#port4').addClass('hide');
-    $('#port3').addClass('hide');
-    $('#port2').addClass('hide');
-    $('#port1').addClass('hide');
-    $('#nuev5').addClass('hide');
-    $('#nuev4').addClass('hide');
-    $('#nuev3').addClass('hide');
-    $('#nuev2').addClass('hide');
-    $('#nuev1').addClass('hide');
-    $('#port44').addClass('hide');
-    $('#port33').addClass('hide');
-    $('#port22').addClass('hide');
-    $('#port11').addClass('hide');
-    $('#nuev55').addClass('hide');
-    $('#nuev44').addClass('hide');
-    $('#nuev33').addClass('hide');
-    $('#nuev22').addClass('hide');
-    $('#nuev11').addClass('hide');
-    $('#actual').addClass('hide');
-    //$('#cont3').addClass('hide');
-    $('#CONT').addClass('hide');
- }
 
 
 
