@@ -6,7 +6,7 @@
 
 
 
-   < <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;"
+    <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;"
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="Gyrux">
@@ -22,15 +22,16 @@
 
             <div id="cont2" class="p-3 ">
                 <!--<h3 class="text-white text-center">Estimado <span id="name"></span></h3>-->
-           <center> <p class="text-white"> <h3>Gyrux La Evolucion en Accesorios Mobile</h3></p>
+           <center> <p class="text-OrangeRed"> <h3>Ecuentra todo lo que necesites
+En un solo lugar!</h3></p>
                         </center>
-          <button onclick='url1();' class="btn bg-primary text-white col-12 mt-4"> Energia</button>
+          <button onclick='url1();' class="btn bg-black text-OrangeRed col-12 mt-4"> Energia</button>
 
-          <button onclick='url2();' class="btn bg-primary text-white col-12 mt-4"> Proteccion</button>
+          <button onclick='url2();' class="btn bg-black text-OrangeRed col-12 mt-4"> Proteccion</button>
 
-          <button onclick='url3();' class="btn bg-primary text-white col-12 mt-4"> Audio</button>
+          <button onclick='url3();' class="btn bg-black text-OrangeRed col-12 mt-4"> Audio</button>
 
-          <button onclick='url4();' class="btn bg-primary text-white col-12 mt-4"> Almacenamiento</button>
+          <button onclick='url4();' class="btn bg-black text-OrangeRed col-12 mt-4"> Almacenamiento</button>
 
           <!-- <a herf="https://ww2.movistar.cl/recarga/" class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</a>-->
 
