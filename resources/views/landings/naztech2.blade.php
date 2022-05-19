@@ -48,6 +48,9 @@ En un solo lugar!</h3></p>
 <br>
             <center>  <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.naztech.cl/shop"> <img width="70" src="https://imgur.com/nGGotZl.png"></a></span>
                 </div></center> 
+<center>
+                  <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/naztech.chile/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
+                   </center> 
 
                </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
