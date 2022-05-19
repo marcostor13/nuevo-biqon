@@ -22,7 +22,7 @@
 
             <div id="cont2" class="p-3 ">
                 <!--<h3 class="text-white text-center">Estimado <span id="name"></span></h3>-->
-           <center> <p class="text-warning"> <h3>Ecuentra todo lo que necesites
+           <center> <p class="text-yellow"> <h3>Ecuentra todo lo que necesites
 En un solo lugar!</h3></p>
                         </center>
           <button onclick='url1();' class="btn bg-dark text-warning col-12 mt-4"> Cargadores y Cables</button>
@@ -36,14 +36,14 @@ En un solo lugar!</h3></p>
           <!-- <a herf="https://ww2.movistar.cl/recarga/" class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</a>-->
 
                 <hr>
-                        <center> <p class="text-warning"> <h3>Para mas Información!</h3></p></center>
+                        <center> <p class="text-yellow"> <h3>Para mas Información!</h3></p></center>
                 <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-warning text-light col-12 mt-2">LLÁMANOS</a>
 
                 <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-warning text-light col-12 mt-2">WHATSAPP</a>
 
                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-warning text-light col-12 mt-2">ESCRÍBENOS</a> 
                 <br>
-<center> <p class="text-warning"> <h3>Ir a la Tienda online!</h3></p>
+<center> <p class="text-yellow"> <h3>Ir a la Tienda online!</h3></p>
 
 
 <div class="d-flex justify-content-around align-content-center mt-4"> 
