@@ -44,9 +44,9 @@ En un solo lugar!</h3></p>
                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-warning text-light col-12 mt-2">ESCRÍBENOS</a>
 
                 <br>
-
-               <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.vidatres.cl/pago-en-linea/"> <img width="70" src="https://imgur.com/nGGotZl.png"></a></span>
-                </div>
+<br><br>
+            <center></center>   <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.naztech.cl/shop"> <img width="70" src="https://imgur.com/nGGotZl.png"></a></span>
+                </div></center> 
 
                </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
