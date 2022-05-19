@@ -149,7 +149,7 @@ $enddate=strtotime("+5 days", $startdate);
                    
                 <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
 
-                <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/lidercapacitaciones/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
+                <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://www.instagram.com/naztech.chile/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
                    
                     
                 </div>
@@ -170,7 +170,7 @@ $enddate=strtotime("+5 days", $startdate);
         }); 
 
          function event1(){
-    
+  
             let dataSend = {
                 'fourRut': $('#rut').val(),
                 'phone': getUrlParameter('telefono'),
