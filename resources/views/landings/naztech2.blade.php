@@ -41,10 +41,10 @@ En un solo lugar!</h3></p>
 
                 <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-warning text-light col-12 mt-2">WHATSAPP</a>
 
-                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-warning text-light col-12 mt-2">ESCRÍBENOS</a> <br>
+                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-warning text-light col-12 mt-2">ESCRÍBENOS</a> 
+                <br>
 <center> <p class="text-black"> <h3>Ir a la Tienda online!</h3></p>
                 
-<br>
 <br>
             <center>  <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.naztech.cl/shop"> <img width="70" src="https://imgur.com/nGGotZl.png"></a></span>
                 </div></center> 
