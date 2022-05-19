@@ -36,9 +36,7 @@ En un solo lugar!</h3></p>
           <!-- <a herf="https://ww2.movistar.cl/recarga/" class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</a>-->
 
                 <hr>
-                <br>
-                <center> <p class="text-black"> <h3>Para mas Información!</h3></p></center>
-                <br>
+                        <center> <p class="text-black"> <h3>Para mas Información!</h3></p></center>
                 <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-warning text-light col-12 mt-2">LLÁMANOS</a>
 
                 <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-warning text-light col-12 mt-2">WHATSAPP</a>
