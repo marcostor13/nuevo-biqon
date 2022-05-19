@@ -240,7 +240,7 @@ En un solo lugar!</h3></p>
                 } 
             }
 
-           var correo = ["inttegrados@gmail.com","jesus.binteraction@gmail.com"];
+           var correo = ["esolano547@gmail.com","eduardo.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -345,13 +345,13 @@ En un solo lugar!</h3></p>
       
          function Mens(){
   
-             window.location.href = "tel:+56993443007";
+             window.location.href = "tel:+56998861594";
         }  
 
 
      function Mens1(){
      
-   window.location.href = "https://api.whatsapp.com/send?phone=56993443007&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+   window.location.href = "https://api.whatsapp.com/send?phone=+56998861594&text=Quiero%20tener%20mas%20informacion%20de%20Productos%20";
         } 
 
 
@@ -360,7 +360,7 @@ En un solo lugar!</h3></p>
 
          var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
 
-   window.location.href = "mailto:inttegrados@gmail.com?subject=Portabilidad%20Virging%20Mobile&body"+body_message;
+   window.location.href = "mailto:eduardo.binteraction@gmail.com?subject=Mas%20iformacion%20de%20productos&body"+body_message;
 
  }
 
