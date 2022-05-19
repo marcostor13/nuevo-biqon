@@ -22,9 +22,10 @@
 
             <div id="cont2" class="p-3 ">
                 <!--<h3 class="text-white text-center">Estimado <span id="name"></span></h3>-->
-           <center> <p class="text-yellow"> <h3>Ecuentra todo lo que necesites
-En un solo lugar!</h3></p>
-                        </center>
+
+                <FONT COLOR="warning "><h3>Ecuentra todo lo que necesites
+En un solo lugar!</h3>
+    
           <button onclick='url1();' class="btn bg-dark text-warning col-12 mt-4"> Cargadores y Cables</button>
 
           <button onclick='url2();' class="btn bg-dark text-warning col-12 mt-4"> Proteccion</button>
@@ -36,15 +37,13 @@ En un solo lugar!</h3></p>
           <!-- <a herf="https://ww2.movistar.cl/recarga/" class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</a>-->
 
                 <hr>
-                        <center> <p class="text-yellow"> <h3>Para mas Información!</h3></p></center>
+                <FONT COLOR="warning "><h3>Para mas Información! </h3>
                 <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-warning text-light col-12 mt-2">LLÁMANOS</a>
 
                 <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-warning text-light col-12 mt-2">WHATSAPP</a>
 
                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-warning text-light col-12 mt-2">ESCRÍBENOS</a> 
                 <br>
-<center> <p class="text-yellow"> <h3>Ir a la Tienda online!</h3></p>
-
 <FONT COLOR="warning "><h3>Ir a la Tienda online! </h3>
 <div class="d-flex justify-content-around align-content-center mt-4"> 
                <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
