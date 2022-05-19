@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'Gyrux')
+@section('title', 'naztech.cl')
 
 @section('content')
 
@@ -25,7 +25,7 @@
            <center> <p class="text-black"> <h3>Ecuentra todo lo que necesites
 En un solo lugar!</h3></p>
                         </center>
-          <button onclick='url1();' class="btn bg-dark text-warning col-12 mt-4"> Energia</button>
+          <button onclick='url1();' class="btn bg-dark text-warning col-12 mt-4"> Accesorios Gamer</button>
 
           <button onclick='url2();' class="btn bg-dark text-warning col-12 mt-4"> Proteccion</button>
 
@@ -43,6 +43,11 @@ En un solo lugar!</h3></p>
 
                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-warning text-light col-12 mt-2">ESCRÍBENOS</a>
 
+                <br>
+
+               <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.vidatres.cl/pago-en-linea/"> <img width="70" src="https://imgur.com/nGGotZl.png"></a></span>
+                </div>
+
                </div>
             <div id="cont3" class="p-2 pl-3 pr-3 hide">
                 <div class="card">     
@@ -55,7 +60,7 @@ En un solo lugar!</h3></p>
 
             <div  id="cont6" class="p-2 pl-3 pr-3 hide">
                 <div class="text-black col-md-12">
-                    <h5 class="text-grey text-center"> ENERGIA - CARGADORES</h5>       
+                    <h5 class="text-grey text-center"> Cargadores Inalámbricos</h5>       
                 <div>
                     <label>GYRUX POWERBANK 10000 MAH G56</label>
                     <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/6OvrYhi.png" alt="Gyrux">
@@ -358,9 +363,9 @@ En un solo lugar!</h3></p>
           function Mens2(){
 
 
-         var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+         var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20los%20productos";
 
-   window.location.href = "mailto:eduardo.binteraction@gmail.com?subject=Mas%20iformacion%20de%20productos&body"+body_message;
+   window.location.href = "mailto:eduardo.binteraction@gmail.com?subject=Mas%20informacion%20de%20productos&body"+body_message;
 
  }
 
