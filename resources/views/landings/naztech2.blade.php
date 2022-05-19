@@ -25,7 +25,7 @@
            <center> <p class="text-black"> <h3>Ecuentra todo lo que necesites
 En un solo lugar!</h3></p>
                         </center>
-          <button onclick='url1();' class="btn bg-dark text-warning col-12 mt-4"> Accesorios Gamer</button>
+          <button onclick='url1();' class="btn bg-dark text-warning col-12 mt-4"> Cargadores y Cables</button>
 
           <button onclick='url2();' class="btn bg-dark text-warning col-12 mt-4"> Proteccion</button>
 
