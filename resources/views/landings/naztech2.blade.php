@@ -27,7 +27,7 @@
 
                 <head>
   <style>
-    .heading { color: #FF5733 ; }
+    .heading { color: #FFAA00; }
   </style>
 </head>
 <body>
