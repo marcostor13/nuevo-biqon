@@ -24,6 +24,17 @@
 
             <div id="cont2" class="p-3 ">
                 <!--<h3 class="text-white text-center">Estimado <span id="name"></span></h3>-->
+
+                <head>
+  <style>
+    .heading { color: #FF5733 ; }
+  </style>
+</head>
+<body>
+  <h1 class="heading"></h1>
+  Ecuentra todo lo que necesites
+En un solo lugar!</p>
+</body>
            <center> <p class="text-yellow"> <h3>Ecuentra todo lo que necesites
 En un solo lugar!</h3></p>
                         </center>
@@ -411,7 +422,7 @@ En un solo lugar!</h3></p>
    $('#form').removeClass('hide');
   $('#port2').removeClass('hide');
   $('#port22').removeClass('hide');
-  
+
  }
   function port3(){
 
