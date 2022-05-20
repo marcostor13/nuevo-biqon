@@ -89,6 +89,9 @@ En un solo lugar!</h3></p>
                  </div> 
                     <button onclick="sendMail('CARGADOR PARED CON CABLE MICRO USB');" class="btn bg-warning text-light col-12 mt-4">Confirmar</button>
 
+
+                    <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>ver otras opciones</h4></button>
+
                 </div>
 
                 <div class="text-black col-md-12">      
