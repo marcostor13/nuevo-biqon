@@ -12,6 +12,8 @@
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="Gyrux">
 
 
+                <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://bint.ml/landings/naztech2"><img width="50" src="https://imgur.com/2fYa5oN.png"></a>
+                   
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
             <div class="card">     
             <div class="card-body">
