@@ -127,7 +127,7 @@ En un solo lugar!</h3></p>
                  </div> 
                     <button onclick="sendMail('Selfie Stick Gyrux Bluetooth');" class="btn bg-warning text-light col-12 mt-4">Confirmar</button>
 
-                     <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>ver otras opciones</h4></button>
+                     <button onclick="port5(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>ver otras opciones</h4></button>
 
                 </div>
             </div>
@@ -427,6 +427,16 @@ En un solo lugar!</h3></p>
   $('#form').removeClass('hide');
   $('#port4').removeClass('hide');
   $('#port44').removeClass('hide');
+
+
+
+  function port5(){
+
+    $('#cont7').addClass('hide');
+        $('#form').addClass('hide'); 
+        $('#port2').removeClass('hide');
+        $('#port1').addClass('hide');
+}
  }
 //linea nueva 5 planes
  function url1(){
