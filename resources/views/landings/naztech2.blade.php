@@ -72,7 +72,7 @@ En un solo lugar!</h3></p>
                 </div>
             </div>
 
-<div id="HOGAR" class="p-2 pl-3 hide">
+
             <div  id="cont6" class="p-2 pl-3 pr-3 hide">
                 <div class="text-black col-md-12">
                     <h5 class="text-grey text-center"> Cargadores Inalámbricos</h5>       
@@ -105,8 +105,6 @@ En un solo lugar!</h3></p>
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
                    <button onclick="sendMail('CARGADOR PARED CON CABLE Tipo C');" class="btn bg-warning text-light col-12 mt-4">Confirmar</button>
-
-                    <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>ver otras opciones</h4></button>
                 </div>
             </div>
 
@@ -130,8 +128,6 @@ En un solo lugar!</h3></p>
                 </div>
             </div>
 
-             <div id="MOVIL"  class="p-2 pl-3 hide">
-
              <div  id="cont8" class="p-2 pl-3 pr-3 hide">
                 <div class="text-black col-md-12">
                 <h5 class="text-grey text-center"> Audio y Parlantes</h5>       
@@ -144,7 +140,7 @@ En un solo lugar!</h3></p>
 
                </div>
                </div>
- <div id="BAFI"  class="p-2 pl-3 hide">
+
              <div  id="cont9" class="p-2 pl-3 pr-3 hide">
                     <div class="text-black col-md-12">
                     <h5 class="text-grey text-center"> Almacenamiento</h5>       
@@ -413,17 +409,8 @@ En un solo lugar!</h3></p>
    $('#form').removeClass('hide');
   $('#port2').removeClass('hide');
   $('#port22').removeClass('hide');
-
+  
  }
-
-
- function Mens4(){
-
-    $('#HOGAR').addClass('hide');
-        $('#MOVIL').addClass('hide'); 
-        $('#opt1').removeClass('hide');
-        $('#BAFI').addClass('hide');
-}
   function port3(){
 
   $('#cont7').addClass('hide');
