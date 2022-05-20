@@ -293,9 +293,6 @@ En un solo lugar!</h3></p>
                         $('#form').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
-
-
-                    <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="https://bint.ml/landings/naztech2"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a>
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
