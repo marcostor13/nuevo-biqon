@@ -105,6 +105,9 @@ En un solo lugar!</h3></p>
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
                    <button onclick="sendMail('CARGADOR PARED CON CABLE Tipo C');" class="btn bg-warning text-light col-12 mt-4">Confirmar</button>
+
+                    <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>ver otras opciones</h4></button>
+                    
                 </div>
             </div>
 
@@ -409,7 +412,17 @@ En un solo lugar!</h3></p>
    $('#form').removeClass('hide');
   $('#port2').removeClass('hide');
   $('#port22').removeClass('hide');
+
  }
+
+
+ function Mens4(){
+
+    $('#cont2').addClass('hide');
+        $('#cont3').addClass('hide'); 
+        $('#cont7').removeClass('hide');
+        $('#cont9').addClass('hide');
+}
   function port3(){
 
   $('#cont7').addClass('hide');
