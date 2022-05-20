@@ -106,7 +106,8 @@ En un solo lugar!</h3></p>
                  </div> 
                    <button onclick="sendMail('CARGADOR PARED CON CABLE Tipo C');" class="btn bg-warning text-light col-12 mt-4">Confirmar</button>
 <br>
-                      <a class="ml-2" onclick="eventosLanding('FACEBOOK');" href="https://bint.ml/landings/naztech2"><img width="50" src="https://i.imgur.com/1MMbEAw.png"></a>
+                      <button onclick="Mens4(); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>Ver Otras Opciones</h4></button>
+    
                 </div>
             </div>
 
@@ -411,6 +412,18 @@ En un solo lugar!</h3></p>
    $('#form').removeClass('hide');
   $('#port2').removeClass('hide');
   $('#port22').removeClass('hide');
+
+
+
+}
+
+  function Mens4(){
+
+    $('#HOGAR').addClass('hide');
+        $('#MOVIL').addClass('hide'); 
+        $('#opt1').removeClass('hide');
+        $('#BAFI').addClass('hide');
+
  }
   function port3(){
 
