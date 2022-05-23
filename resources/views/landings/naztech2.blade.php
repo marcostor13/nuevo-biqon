@@ -61,7 +61,7 @@ $enddate=strtotime("+5 days", $startdate);
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="Gyrux">
 
 
-                <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://bint.ml/landings/naztech2"><img width="50" src="https://imgur.com/2fYa5oN.png"></a>
+                <a class="ml-4" onclick="eventosLanding('Pagina_Principal');" href="https://bint.ml/landings/naztech2"><img width="50" src="https://imgur.com/kHLlGJ1.png"></a>
                    
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
             <div class="card">     
@@ -73,7 +73,7 @@ $enddate=strtotime("+5 days", $startdate);
 
             <div id="cont2" class="p-3 ">
                 <!--<h3 class="text-white text-center">Estimado <span id="name"></span></h3>-->
-  <center><img width="80%" src="https://imgur.com/kHLlGJ1.jpg"></center>
+  <center><img width="80%" src="https://imgur.com/6gZs3r4.jpg"></center>
                         </center>
           <button onclick='url1();' class="btn bg-dark text-warning col-12 mt-4"> Cargadores y Cables</button>
 
@@ -94,7 +94,6 @@ $enddate=strtotime("+5 days", $startdate);
                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-warning text-light col-12 mt-2">ESCRÍBENOS</a> 
                 <br>
                  <br>
-                 
 <center><img width="80%" src="https://imgur.com/WU0Va58.jpg"></center>
 
 
