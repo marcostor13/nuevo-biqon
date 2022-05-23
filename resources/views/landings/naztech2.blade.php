@@ -93,6 +93,8 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-warning text-light col-12 mt-2">ESCRÍBENOS</a> 
                 <br>
+                 <br>
+                 
 <center><img width="80%" src="https://imgur.com/WU0Va58.jpg"></center>
 
 
