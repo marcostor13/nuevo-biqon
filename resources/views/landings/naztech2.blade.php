@@ -61,7 +61,7 @@ $enddate=strtotime("+5 days", $startdate);
             <img class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="Gyrux">
 
 
-                <a class="ml-4" onclick="eventosLanding('Pagina_Principal');" href="https://bint.ml/landings/naztech2"><img width="150" src="https://imgur.com/kHLlGJ1.png"></a>
+                <a class="ml-4" onclick="eventosLanding('Pagina_Principal');" href="https://bint.ml/landings/naztech2"><img width="150" src="https://imgur.com/zZZMjRY.png"></a>
                    
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
             <div class="card">     
