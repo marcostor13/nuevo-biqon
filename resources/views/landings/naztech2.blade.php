@@ -89,6 +89,8 @@ $enddate=strtotime("+5 days", $startdate);
 
           <!-- <a herf="https://ww2.movistar.cl/recarga/" class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</a>-->
 <br>
+<br>
+<br>
            <center><img width="100%" src="https://imgur.com/UMnfVUe.jpg"></center>
 
                 <hr>
