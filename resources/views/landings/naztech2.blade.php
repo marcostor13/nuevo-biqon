@@ -74,6 +74,8 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-3 ">
                 <!--<h3 class="text-white text-center">Estimado <span id="name"></span></h3>-->
   <center><img width="80%" src="https://imgur.com/6gZs3r4.jpg"></center>
+
+  <center><img width="80%" src="https://imgur.com/aPVsBNx.jpg"></center>
                         </center>
           <button onclick='url1();' class="btn bg-dark text-warning col-12 mt-4"> Cargadores y Cables</button>
 
