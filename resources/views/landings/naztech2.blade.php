@@ -453,7 +453,7 @@ $enddate=strtotime("+5 days", $startdate);
   $('#cont6').removeClass('hide');
 
 
-  function activa1(){
+  function activa2(){
 
   $('#cont8').addClass('hide');
   $('#cont9').removeClass('hide');
