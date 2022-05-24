@@ -74,10 +74,6 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-3 ">
                 <!--<h3 class="text-white text-center">Estimado <span id="name"></span></h3>-->
   <center><img width="80%" src="https://imgur.com/6gZs3r4.jpg"></center>
-
-<br>
-
-  <center><img width="100%" src="https://imgur.com/aPVsBNx.jpg"></center>
                         </center>
           <button onclick='url1();' class="btn bg-dark text-warning col-12 mt-4"> Cargadores y Cables</button>
 
@@ -88,10 +84,6 @@ $enddate=strtotime("+5 days", $startdate);
           <button onclick='url4();' class="btn bg-dark text-warning col-12 mt-4"> Almacenamiento</button>
 
           <!-- <a herf="https://ww2.movistar.cl/recarga/" class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</a>-->
-<br>
-<br>
-<br>
-           <center><img width="100%" src="https://imgur.com/UMnfVUe.jpg"></center>
 
                 <hr>
                         <center><img width="80%" src="https://imgur.com/1BXMTtQ.jpg"></center>
@@ -102,8 +94,6 @@ $enddate=strtotime("+5 days", $startdate);
                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-warning text-light col-12 mt-2">ESCRÍBENOS</a> 
                 <br>
                  <br>
-
-
 <center><img width="80%" src="https://imgur.com/WU0Va58.jpg"></center>
 
 
