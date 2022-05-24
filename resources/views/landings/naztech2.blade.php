@@ -451,6 +451,13 @@ $enddate=strtotime("+5 days", $startdate);
 
   $('#cont2').addClass('hide');
   $('#cont6').removeClass('hide');
+
+
+  function activa1(){
+
+  $('#cont8').addClass('hide');
+  $('#cont9').removeClass('hide');
+ 
  }
 //portabilidad 4 planes
  function port1(){
