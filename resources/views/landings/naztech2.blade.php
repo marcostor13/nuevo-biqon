@@ -336,6 +336,8 @@ $enddate=strtotime("+5 days", $startdate);
                      $('#cont2').addClass('hide');
                      $('#cont7').addClass('hide');
                      $('#cont6').addClass('hide');
+                     $('#cont8').addClass('hide');
+                     $('#cont9').addClass('hide');
                      $('#port4').addClass('hide');
                         $('#port3').addClass('hide');
                         $('#port2').addClass('hide');
@@ -451,13 +453,6 @@ $enddate=strtotime("+5 days", $startdate);
 
   $('#cont2').addClass('hide');
   $('#cont6').removeClass('hide');
-
-
-  function activa2(){
-
-  $('#cont8').addClass('hide');
-  $('#cont9').removeClass('hide');
- 
  }
 //portabilidad 4 planes
  function port1(){
