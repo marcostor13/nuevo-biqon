@@ -185,25 +185,19 @@ $enddate=strtotime("+5 days", $startdate);
                 </div>
             </div>
 
-            <div  id="cont7" class="p-2 pl-3 pr-3 hide">
-                     <div class="text-black col-md-12">
-                    <h5 class="text-grey text-center"> Audio</h5>       
+             <div  id="cont8" class="p-2 pl-3 pr-3 hide">
+                <div class="text-black col-md-12">
+                <h5 class="text-grey text-center"> Audio y Parlantes</h5>       
                 <div>
-                    <label>Soporte Magnetico para Auto</label>
-                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/QrFAeyN.png" alt="Gyrux">
+                    <label>Audifono YK810 UMANNO</label>
+                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/9nIUmlM.png" alt="Gyrux">
                     <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
                  </div> 
-                    <button onclick="sendMail('Soporte Magnetico para Auto');" class="btn bg-warning text-light col-12 mt-4">Confirmar</button>
+                    <button onclick="sendMail('Audifono YK810 UMANNO');" class="btn bg-warning text-light col-12 mt-4">Confirmar</button>
 
-                    <div>
-                    <label>Selfie Stick Gyrux Bluetooth</label>
-                    <img class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/AT8zGt8.png" alt="Gyrux">
-                    <!--<input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" required="required"/>-->
-                 </div> 
-                    <button onclick="sendMail('Selfie Stick Gyrux Bluetooth');" class="btn bg-warning text-light col-12 mt-4">Confirmar</button>
+               </div>
+               </div>
 
-                </div>
-            </div>
              <div  id="cont9" class="p-2 pl-3 pr-3 hide">
                     <div class="text-black col-md-12">
                     <h5 class="text-grey text-center"> Almacenamiento</h5>       
