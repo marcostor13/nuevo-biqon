@@ -89,6 +89,8 @@ $enddate=strtotime("+5 days", $startdate);
 
           <!-- <a herf="https://ww2.movistar.cl/recarga/" class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</a>-->
 
+           <center><img width="100%" src="https://imgur.com/UMnfVUe.jpg"></center>
+
                 <hr>
                         <center><img width="80%" src="https://imgur.com/1BXMTtQ.jpg"></center>
                 <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-warning text-light col-12 mt-2">LLÁMANOS</a>
@@ -98,6 +100,8 @@ $enddate=strtotime("+5 days", $startdate);
                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-warning text-light col-12 mt-2">ESCRÍBENOS</a> 
                 <br>
                  <br>
+
+
 <center><img width="80%" src="https://imgur.com/WU0Va58.jpg"></center>
 
 
