@@ -86,6 +86,10 @@ $enddate=strtotime("+5 days", $startdate);
           <button onclick='url4();' class="btn bg-dark text-warning col-12 mt-4"> Almacenamiento</button>
 
           <!-- <a herf="https://ww2.movistar.cl/recarga/" class="btn bg-primary text-white col-12 mt-4">Pagar Movistar</a>-->
+          <br>
+          <br>
+          <br>
+<img width="100%" style="display:block;" src="https://imgur.com/UMnfVUe.jpg">
 
                 <hr>
                         <center><img width="80%" src="https://imgur.com/1BXMTtQ.jpg"></center>
