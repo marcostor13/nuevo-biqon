@@ -78,7 +78,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                    <h4 class="dark-grey-text text-center">
                     <strong>Seleccione una Carrera!</strong> 
-                    <br>s
+                    <br>
                   </h4>
                  <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
