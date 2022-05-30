@@ -109,10 +109,14 @@ $enddate=strtotime("+5 days", $startdate);
 
                       <center>  Nuestra Web!<a target="_blank" href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
                       
-      <option value="Contador Auditor" data-select2-id="8">Contador Auditor</option>
-      <option value="Administración Pública" data-select2-id="9">Administración Pública</option>
-      <option value="Ingeniería Comercial" data-select2-id="10">Ingeniería Comercial</option>
-      <option value="Trabajo Social" data-select2-id="11">Trabajo Social</option>
+      <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
+      <option value="Ingeniería en Administración de Empresas – mención Gestión  de Empresas" data-select2-id="9">Ingeniería en Administración de Empresas – mención Gestión  de Empresas</option>
+      <option value="Ingeniería en Administración de Empresas – mención Control de Gestión" data-select2-id="10">Ingeniería en Administración de Empresas – mención Control de Gestión</option>
+      <option value="Contador Auditor" data-select2-id="11">Contador Auditor</option>
+      <option value="Administración Pública" data-select2-id="12">Administración Pública</option>
+      <option value="Trabajo Social" data-select2-id="13">Trabajo Social</option>
+      <option value="Ingeniería Industrial" data-select2-id="11">Ingeniería Industrial</option>
+            <option value="Ingeniería Civil Industrial (admisión Octubre 2022)" data-select2-id="15">Ingeniería Civil Industrial (admisión Octubre 2022)</option>
       
 
                     </select>
