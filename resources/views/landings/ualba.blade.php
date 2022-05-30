@@ -62,7 +62,7 @@ filter: alpha(opacity=80);
 
         <div class="transparente"></div>
 
-            <img style="max-width:100%" class="img-fluid col-md-3 mt-12" src="{{$landing->logo}}" alt="UALBA">
+            <img style="max-width:100%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UALBA">
 
 
            <!-- <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
@@ -74,7 +74,7 @@ filter: alpha(opacity=80);
             
                   <hr><div id="cont1" class="p-3 ">
                   <div class="card">     
-                <div class="card-body">
+                <div class="transparente">
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
                     <strong>Eres técnico y deseas estudiar una carrera profesional online?  <strong>¡Nosotros te decimos sí !</strong> ¿Estás pensando en tu futuro? Estudia 100% online una segunda carrera con Advance.</strong>
@@ -113,11 +113,11 @@ filter: alpha(opacity=80);
 <br>
 
                  <div class="d-flex justify-content-between  m-0">
-                    <div class="md-form col-6  m-0">
+                    <div class="transparente col-6  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
                       <label for="form3"></label>
                     </div>
-                    <div class="md-form col-6  m-0">
+                    <div class="transparente col-6  m-0">
                       <input type="text" id="email" class="form-control" required placeholder="E-mail">
                       <label for="form2"></label>
                     </div>
