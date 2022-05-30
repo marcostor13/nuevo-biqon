@@ -62,7 +62,7 @@ filter: alpha(opacity=80);
 
         <div class="transparente"></div>
 
-            <img style="max-width:100%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UALBA">
+            <img style="max-width:100%" class="img-fluid col-md-3 mt-12" src="{{$landing->logo}}" alt="UALBA">
 
 
            <!-- <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
