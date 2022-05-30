@@ -60,7 +60,7 @@ $enddate=strtotime("+5 days", $startdate);
 
 
 
- <img style="max-width: 120%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/mzi8l64.png" alt="UALBA">
+ <img style="max-width: 80%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/mzi8l64.png" alt="UALBA">
 
             
 
