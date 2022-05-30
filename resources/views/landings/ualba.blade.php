@@ -74,46 +74,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <strong>Eres técnico y deseas estudiar una carrera profesional online?  <strong>¡Nosotros te decimos sí !</strong> ¿Estás pensando en tu futuro? Estudia 100% online una segunda carrera con Advance.</strong>
                   </h4>
 
-
-<div class="md-form">
-                    <select class="form-control" id="carrera" required>
-                      <option value="" data-select2-id="4">Selecciona una carrera</option>
-
-                      <center>  Nuestra Web!<a target="_blank" href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
-                      
-      <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
-      <option value="Ingeniería en Administración de Empresas – mención Gestión  de Empresas" data-select2-id="9">Ingeniería en Administración de Empresas – mención Gestión  de Empresas</option>
-      <option value="Ingeniería en Administración de Empresas – mención Control de Gestión" data-select2-id="10">Ingeniería en Administración de Empresas – mención Control de Gestión</option>
-      <option value="Contador Auditor" data-select2-id="11">Contador Auditor</option>
-      <option value="Administración Pública" data-select2-id="12">Administración Pública</option>
-      <option value="Trabajo Social" data-select2-id="13">Trabajo Social</option>
-      <option value="Ingeniería Industrial" data-select2-id="11">Ingeniería Industrial</option>
-            <option value="Ingeniería Civil Industrial (admisión Octubre 2022)" data-select2-id="15">Ingeniería Civil Industrial (admisión Octubre 2022)</option>
-      
-
-                    </select>
-                  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <div class="d-flex justify-content-between  m-0">
+                 <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
                       <label for="form3"></label>
@@ -140,11 +101,29 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="md-form col-12 m-0">
                     <input type="text" id="email" class="form-control" required placeholder="E-mail">
                     <label for="form2"></label>
-          
+                  </div>  
+
+                  <div class="md-form">
+                    <select class="form-control" id="carrera" required>
+                      <option value="" data-select2-id="4">Selecciona una carrera</option>
 
                       <center>  Nuestra Web!<a target="_blank" href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
                       
-    
+      <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
+      <option value="Ingeniería en Administración de Empresas – mención Gestión  de Empresas" data-select2-id="9">Ingeniería en Administración de Empresas – mención Gestión  de Empresas</option>
+      <option value="Ingeniería en Administración de Empresas – mención Control de Gestión" data-select2-id="10">Ingeniería en Administración de Empresas – mención Control de Gestión</option>
+      <option value="Contador Auditor" data-select2-id="11">Contador Auditor</option>
+      <option value="Administración Pública" data-select2-id="12">Administración Pública</option>
+      <option value="Trabajo Social" data-select2-id="13">Trabajo Social</option>
+      <option value="Ingeniería Industrial" data-select2-id="11">Ingeniería Industrial</option>
+            <option value="Ingeniería Civil Industrial (admisión Octubre 2022)" data-select2-id="15">Ingeniería Civil Industrial (admisión Octubre 2022)</option>
+      
+
+                    </select>
+                  </div>
+
+                  <div class="text-center">
+<br>
 
 <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
                       <br>
@@ -297,7 +276,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["advance@udalba.cl","jacqueline.rodriguez@udalba.cl","nancy.poblete@udalba.cl"];
+            var correo = ["advance@udalba.cl","jacquelin.rodriguez@udalba.cl","nancy.poblete@udalba.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
