@@ -80,35 +80,19 @@ $enddate=strtotime("+5 days", $startdate);
                     <strong>Seleccione una Carrera!</strong> 
                     <br>
                   </h4>
+
+
                  <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
                       <label for="form3"></label>
                     </div>
                     <div class="md-form col-6  m-0">
-                      <input type="text" id="apellido" class="form-control" required placeholder="Apellido">
+                      <input type="text" id="email" class="form-control" required placeholder="E-mail">
                       <label for="form2"></label>
                     </div>
                   </div>
                   
-                 <div class="d-flex justify-content-between">
-
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="rut" class="form-control" required placeholder="RUT">
-                      <label for="form2"></label>
-                    </div>
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="telefono" class="form-control" required placeholder="Teléfono">
-                      <label for="form2"></label>
-                    </div>
-                  </div> 
-
-
-                  <div class="md-form col-12 m-0">
-                    <input type="text" id="email" class="form-control" required placeholder="E-mail">
-                    <label for="form2"></label>
-                  </div>  
-
                   <div class="md-form">
                     <select class="form-control" id="carrera" required>
                       <option value="" data-select2-id="4">Selecciona una carrera</option>
