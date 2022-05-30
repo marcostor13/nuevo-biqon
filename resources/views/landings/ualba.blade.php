@@ -126,7 +126,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="text-center">
 <br>
 
-<center>  Nuestra Web!<a href="advance.udalba.cl">advance.udalba.cl</a> </center>
+<center>  Nuestra Web!<a href="advance.udalba.cl">  advance.udalba.cl</a> </center>
                       <br>
 
                       <center> <strong>Nuestras Redes Sociales:</strong> </center>
