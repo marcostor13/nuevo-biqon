@@ -81,22 +81,11 @@ $enddate=strtotime("+5 days", $startdate);
                   </h4>
 
 
-                 <div class="d-flex justify-content-between  m-0">
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
-                      <label for="form3"></label>
-                    </div>
-                    <div class="md-form col-6  m-0">
-                      <input type="text" id="email" class="form-control" required placeholder="E-mail">
-                      <label for="form2"></label>
-                    </div>
-                  </div>
-                  
-                  <div class="md-form">
+ <div class="md-form">
                     <select class="form-control" id="carrera" required>
                       <option value="" data-select2-id="4">Selecciona una carrera</option>
 
-                      <center>  Nuestra Web!<a target="_blank" href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
+                      
                       
       <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
       <option value="Ingeniería en Administración de Empresas – mención Gestión  de Empresas" data-select2-id="9">Ingeniería en Administración de Empresas – mención Gestión  de Empresas</option>
@@ -110,6 +99,26 @@ $enddate=strtotime("+5 days", $startdate);
 
                     </select>
                   </div>
+
+
+
+
+
+                  
+
+
+                 <div class="d-flex justify-content-between  m-0">
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
+                      <label for="form3"></label>
+                    </div>
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="email" class="form-control" required placeholder="E-mail">
+                      <label for="form2"></label>
+                    </div>
+                  </div>
+                  
+                 
 
                   <div class="text-center">
 <br>
