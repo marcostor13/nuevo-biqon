@@ -60,7 +60,7 @@ filter: alpha(opacity=80);
 </style>
     <div id="UALBA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
-        <div class="oscurecer"></div>
+        <div class="transparente"></div>
 
             <img style="max-width:100%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UALBA">
 
