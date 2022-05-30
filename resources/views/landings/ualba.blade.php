@@ -74,6 +74,12 @@ $enddate=strtotime("+5 days", $startdate);
                     <strong>Eres técnico y deseas estudiar una carrera profesional online?  <strong>¡Nosotros te decimos sí !</strong> ¿Estás pensando en tu futuro? Estudia 100% online una segunda carrera con Advance.</strong>
                   </h4>
 
+                  <br>
+
+                   <h4 class="dark-grey-text text-center">
+                    <strong>Seleccione una Carrera!</strong> 
+                    <br>s
+                  </h4>
                  <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
