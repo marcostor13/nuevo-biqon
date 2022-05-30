@@ -84,8 +84,6 @@ $enddate=strtotime("+5 days", $startdate);
  <div class="md-form">
                     <select class="form-control" id="carrera" required>
                       <option value="" data-select2-id="4">Selecciona una carrera</option>
-
-                      
                       
       <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
       <option value="Ingeniería en Administración de Empresas – mención Gestión  de Empresas" data-select2-id="9">Ingeniería en Administración de Empresas – mención Gestión  de Empresas</option>
@@ -104,8 +102,8 @@ $enddate=strtotime("+5 days", $startdate);
 
 
 
-                  
-
+<br>
+<br>
 
                  <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
