@@ -120,8 +120,10 @@ $enddate=strtotime("+5 days", $startdate);
                       <label for="form2"></label>
                     </div>
                   </div>
+
+                  <br>
                   
-                 
+                    <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Enviar información</button>
 
                   <div class="text-center">
 <br>
@@ -137,7 +139,7 @@ $enddate=strtotime("+5 days", $startdate);
 
 
                     <hr>
-                    <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Enviar información</button>
+                 
                   
 
                <!--<a class="ml-4" onclick="eventosLanding('pagina web');" href="https://admision.udalba.cl/programas-advance2/"><img width="50" src="https://imgur.com/Tu3WSx7.png"></a>
