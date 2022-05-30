@@ -50,6 +50,13 @@ $enddate=strtotime("+5 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
+
+    .transparente{
+opacity: 0.8;
+-moz-opacity: 0.8;
+filter: alpha(opacity=80);
+-khtml-opacity: 0.8;
+}
 </style>
     <div id="UALBA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
@@ -81,7 +88,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </h4>
 
 
- <div class="md-form">
+ <div class="transparente">
                     <select class="form-control" id="carrera" required>
                       <option value="" data-select2-id="4">Selecciona una carrera</option>
                       
