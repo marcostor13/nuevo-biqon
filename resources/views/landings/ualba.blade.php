@@ -116,10 +116,6 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
-                      <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
-                      <label for="form3"></label>
-                    </div>
-                    <div class="md-form col-6  m-0">
                       <input type="text" id="email" class="form-control" required placeholder="E-mail">
                       <label for="form2"></label>
                     </div>
@@ -130,7 +126,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <div class="text-center">
 <br>
 
-<center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
+<center>  Nuestra Web!<a href="advance.udalba.cl">advance.udalba.cl</a> </center>
                       <br>
 
                       <center> <strong>Nuestras Redes Sociales:</strong> </center>
@@ -173,7 +169,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                  <a class="ml-2"onclick="eventosLanding('Correo');" href="mailto:advance@udalba.cl?subject=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://imgur.com/izFpLFz.jpg"></a>
 
-             <a class="ml-2" onclick="eventosLanding('Pagina web');" href="https://admision.udalba.cl/programas-advance2/"><img width="70" src="https://imgur.com/FN54ULT.png"></a> 
+             <a class="ml-2" onclick="eventosLanding('Pagina web');" href="advance.udalba.cl"><img width="70" src="https://imgur.com/FN54ULT.png"></a> 
 
               <br>
      <script>
