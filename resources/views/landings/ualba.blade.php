@@ -50,17 +50,10 @@ $enddate=strtotime("+5 days", $startdate);
       rgba(0, 0, 0, 0.5)
     )
     }
-
-    .transparente{
-opacity: 0.8;
--moz-opacity: 0.8;
-filter: alpha(opacity=80);
--khtml-opacity: 0.8;
-}
 </style>
     <div id="UALBA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
 
-        <div class="transparente"></div>
+        <div class="oscurecer"></div>
 
             <img style="max-width:100%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UALBA">
 
@@ -74,7 +67,7 @@ filter: alpha(opacity=80);
             
                   <hr><div id="cont1" class="p-3 ">
                   <div class="card">     
-                <div class="transparente">
+                <div class="card-body">
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
                     <strong>Eres técnico y deseas estudiar una carrera profesional online?  <strong>¡Nosotros te decimos sí !</strong> ¿Estás pensando en tu futuro? Estudia 100% online una segunda carrera con Advance.</strong>
@@ -88,7 +81,7 @@ filter: alpha(opacity=80);
                   </h4>
 
 
- <div class="transparente">
+ <div class="md-form">
                     <select class="form-control" id="carrera" required>
                       <option value="" data-select2-id="4">Selecciona una carrera</option>
                       
@@ -110,14 +103,14 @@ filter: alpha(opacity=80);
 
 
 <br>
-<br>
+
 
                  <div class="d-flex justify-content-between  m-0">
-                    <div class="transparente col-6  m-0">
+                    <div class="md-form col-6  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
                       <label for="form3"></label>
                     </div>
-                    <div class="transparente col-6  m-0">
+                    <div class="md-form col-6  m-0">
                       <input type="text" id="email" class="form-control" required placeholder="E-mail">
                       <label for="form2"></label>
                     </div>
