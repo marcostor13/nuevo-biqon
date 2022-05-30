@@ -81,7 +81,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </h4>
 
 
- <div class="md-form">
+ <div class="md-form col-12 m-0"> 
                     <select class="form-control" id="carrera" required>
                       <option value="" data-select2-id="4">Selecciona una carrera</option>
                       
@@ -105,7 +105,7 @@ $enddate=strtotime("+5 days", $startdate);
 <br>
 
 
-                 <div class="d-flex justify-content-between  m-0">
+                <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
                       <input type="text" id="nombre" class="form-control" required placeholder="Nombre">
                       <label for="form3"></label>
