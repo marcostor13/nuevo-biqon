@@ -51,7 +51,7 @@ $enddate=strtotime("+5 days", $startdate);
     )
     }
 </style>
-    <div id="UALBA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >
+   <!-- <div id="UALBA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
 
       
         <div class="opaco"></div>
@@ -60,7 +60,7 @@ $enddate=strtotime("+5 days", $startdate);
 
 
 
- <img style="max-width: 80%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/mzi8l64.png" alt="UALBA">
+ <img style="max-width: 80%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/ZrRbFPN.png" alt="UALBA">
 
             
 
