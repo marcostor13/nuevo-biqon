@@ -95,7 +95,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                        <span class="text-warning  text-center">
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="70" src="https://i.imgur.com/EZIYM7o.png"></a></span>
                     <span class="text-warning  text-center">
-                     <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://solvencia.cl/pagadeudas/"><img width="70" src="https://i.imgur.com/rfpxpiW.png"></a></span>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="www.unired.cl"><img width="70" src="https://i.imgur.com/rfpxpiW.png"></a></span>
                 </div>
                 <br><br>
 
