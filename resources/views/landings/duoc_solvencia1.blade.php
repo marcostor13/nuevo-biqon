@@ -98,7 +98,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <a onclick="eventosLanding('Llamar');" href="tel:+56975890461" class="btn bg-warning text-black col-12 mt-2"><img width="30" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"> LLAMANOS</a> 
                
 
-                <button onclick='window.location.href="www.unired.cl"; eventosLanding("PAGINA DE PAGOS"); ' class="btn bg-warning text-black col-12 mt-2"> <img width="30" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"> PAGO EN LINEA</button>
+                <button onclick='window.location.href="https://www.unired.cl/"; eventosLanding("PAGINA DE PAGOS"); ' class="btn bg-warning text-black col-12 mt-2"> <img width="30" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"> PAGO EN LINEA</button>
 
                  <a onclick="eventosLanding('CORREO');" href="mailto:katerin.sena@solvencia.cl" class="btn bg-warning text-black col-12 mt-2"> <img width="30" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png">  ESCRÍBENOS</a>
 
