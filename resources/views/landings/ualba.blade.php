@@ -257,7 +257,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'Telefono': $('#telefono').val(),
                     'Telefono': getUrlParameter('telefono'),
                     'E-mail': $('#correo').val(),
-                    'Comuna': getUrlParameter('data1'),
+                    'Correo': getUrlParameter('data1'),
                     'RUT': getUrlParameter('rut'),
                     'Carrera': $('#carrera').val()                
                 }
