@@ -365,13 +365,13 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56936740979&text=Hola,%20Lorena%20tengo%20una%20consulta,%20respecto%20a%20mi%20deuda";
+        window.location.href = "https://api.whatsapp.com/send?phone=56931943414&text=Hola,%20Lorena%20tengo%20una%20consulta,%20respecto%20a%20mi%20deuda";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56936740979";
+        window.location.href ="tel:+56931943414";
     
         } 
 
