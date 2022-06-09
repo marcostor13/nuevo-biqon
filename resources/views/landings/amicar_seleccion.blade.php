@@ -64,7 +64,7 @@ $enddate=strtotime("+5 days", $startdate);
 
 <br>
 <center>
-<h4 style="color:#000000">Favor comentanos tus preferencias para ponernos en contacto</h4><center>
+<strong><h4 style="color:#000000">Favor comentanos tus preferencias para ponernos en contacto</h4><center></strong>
       
            <!-- <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
 <img style="max-width:100%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UALBA">
