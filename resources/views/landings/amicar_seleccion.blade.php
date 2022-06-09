@@ -76,13 +76,12 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
-                    <strong>Eres técnico y deseas estudiar una carrera profesional online?  <strong>¡Nosotros te decimos sí !</strong> ¿Estás pensando en tu futuro? Estudia 100% online una segunda carrera con Advance.</strong>
                   </h4>
 
                   <br>
 
                    <h4 class="dark-grey-text text-center">
-                    <strong>Seleccione una Carrera!</strong> 
+                    <strong>Por favor Comentanos tus preferencias para ponernos en contacto</strong> 
                     <br>
                   </h4>
 
