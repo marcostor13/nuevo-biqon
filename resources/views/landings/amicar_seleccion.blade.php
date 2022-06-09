@@ -107,24 +107,24 @@ $enddate=strtotime("+5 days", $startdate);
                     <br>
                   </h4>
 <center>
-               <label style="color:#FF4500"for="Modelo" class="form-label"> ingresar Modelo</label>
+               <label style="color:#FF4500"for="Modelo" class="form-label"> Ingresar Modelo</label>
                 <br>
 
                 <div style="color:#FF4500" class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-12  m-0">
-                      <input style="color:#FF4500"type="text" id="Modelo" class="form-control" required placeholder="ingresar Modelo">
+                      <input style="color:#FF4500"type="text" id="Modelo" class="form-control" required placeholder="Ingresar Modelo">
                       <label for="form3"></label>
                     </div>
                   </div>
 
                   <br>
 
-                  <label style="color:#FF4500"for="Modelo" class="form-label"> ingresar Mes</label>
+                  <label style="color:#FF4500"for="Modelo" class="form-label"> Ingresar Mes</label>
                 <br>
 
                 <div style="color:#FF4500" class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-12  m-0">
-                      <input style="color:#FF4500"type="text" id="Mes" class="form-control" required placeholder="ingresar Mes">
+                      <input style="color:#FF4500"type="text" id="Mes" class="form-control" required placeholder="Ingresar Mes">
                       <label for="form3"></label>
                     </div>
                   </div>
