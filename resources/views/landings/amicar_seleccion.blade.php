@@ -83,10 +83,12 @@ $enddate=strtotime("+5 days", $startdate);
                     <br>
                   </h4>
 
+<label for="Selecciona una Opcion" class="for-label"> Selecciona una Opcion </label>
+
 
  <div class="md-form col-12 m-0"> 
                     <select class="form-control" id="preferencia" required>
-                      <option value="" data-select2-id="4">¨Selecciona una Opcion"</option>
+                      <option value="" data-select2-id="4"></option>
                       
       <option value="RENOVAR" data-select2-id="8">RENOVAR</option>
       <option value="REFINANCIAR" data-select2-id="9">REFINANCIAR</option>
