@@ -58,7 +58,7 @@ $enddate=strtotime("+5 days", $startdate);
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
 
- <img style="max-width: 200%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/gwbrvWL.png" alt="AMICAR">
+ <img style="max-width: 200%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/drIqiAe.png" alt="AMICAR">
 <br>
 <center><h4 style="color:#FF4500">ESTIMADO</h4></center>
 
