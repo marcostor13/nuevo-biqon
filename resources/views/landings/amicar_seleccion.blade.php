@@ -105,7 +105,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <strong>si tu preferencia es Renovar que modelo es de tu intéres y en que mes</strong> 
                     <br>
                   </h4>
-<center></center>
+<center>
                 <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
                       <input type="text" id="Modelo" class="form-control" required placeholder="Modelo">
@@ -121,7 +121,7 @@ $enddate=strtotime("+5 days", $startdate);
 
 
                 <div class="d-flex justify-content-between  m-0">
-                    <div class="md-form col-6  m-0">
+                    <div class="md-form col-12  m-0">
                       <input type="text" id="Mes" class="form-control" required placeholder="Mes">
                       <label for="form2"></label>
                     </div>
@@ -160,15 +160,9 @@ $enddate=strtotime("+5 days", $startdate);
 
         </div>
     </div>
-  <center> <strong>Para mas Informacion:</strong> </center>
+  <center> <strong>Muchas Gracias!:</strong> </center>
                   
-            <center>  <a class="ml-2" onclick="eventosLanding('WHATSAPP');"href="https://api.whatsapp.com/send?phone=56935407683&text=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
-
-                 <a class="ml-2"onclick="eventosLanding('Correo');" href="mailto:advance@udalba.cl?subject=Hola,%20Quisiera%20Mas%20Informacion"><img width="50" src="https://imgur.com/izFpLFz.jpg"></a>
-
-             <a class="ml-2" onclick="eventosLanding('Pagina web');" href="https://advance.udalba.cl/"><img width="70" src="https://imgur.com/FN54ULT.png"></a> 
-
-              <br>
+        
      <script>
    //EVENT 1
        $(function(){
@@ -274,7 +268,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["advance@udalba.cl","jacquelin.rodriguez@udalba.cl","nancy.poblete@udalba.cl"];
+            var correo = ["esolano547@gmail.com","eduardo.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
