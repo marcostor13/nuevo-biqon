@@ -86,8 +86,8 @@ $enddate=strtotime("+5 days", $startdate);
 <label for="Selecciona una Opcion" style="color:#FF4500" class="for-label"> Selecciona una Opcion </label>
 
 
- <div class="md-form col-12 m-0"> 
-                    <select class="form-control" id="preferencia" required>
+ <div style="color:#FF4500" class="md-form col-12 m-0"> 
+                    <select  style="color:#FF4500"class="form-control" id="preferencia" required>
                       <option style="color:#FF4500"value="" data-select2-id="4">Selecciona una Opcion</option>
                       
       <option value="RENOVAR" data-select2-id="8">RENOVAR</option>
