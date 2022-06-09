@@ -58,7 +58,7 @@ $enddate=strtotime("+5 days", $startdate);
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
 
- <img style="max-width: 120%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/bZmpCPr.png" alt="AMICAR">
+ <img style="max-width: 200%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/bZmpCPr.png" alt="AMICAR">
 
           
            <!-- <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
@@ -124,8 +124,9 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <br>
 
-<h4 class=" orangered-text text-center">
-                    <strong>Favor ingresar el correo para contactar</strong> 
+
+<h4 style="color:#FF4500">Favor ingresar el correo para contactar</h4>
+
                     <br>
                   </h4>
                    <div class="d-flex justify-content-between  m-0">
