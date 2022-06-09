@@ -83,7 +83,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <br>
                   </h4>
 
-<label for="Selecciona una Opcion" class="for-label"> Selecciona una Opcion </label>
+<label for="Selecciona una Opcion" style="color:#FF4500" class="for-label"> Selecciona una Opcion </label>
 
 
  <div class="md-form col-12 m-0"> 
