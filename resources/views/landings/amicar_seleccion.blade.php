@@ -258,7 +258,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'E-mail': $('#correo').val(),
                     'Correo': getUrlParameter('data1'),
                     'RUT': getUrlParameter('rut'),
-                    'Carrera': $('#carrera').val()                
+                    'preferencia': $('#preferencia').val()                
                 }
             }else{
                 let date = $('#date1').val();
