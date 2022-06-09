@@ -88,7 +88,7 @@ $enddate=strtotime("+5 days", $startdate);
 
  <div class="md-form col-12 m-0"> 
                     <select class="form-control" id="carrera" required>
-                      <option value="" data-select2-id="4">¨Por favor Comentanos tus preferencias para ponernos en contacto</option>
+                      <option value="" data-select2-id="4">¨Selecciona una Opcion</option>
                       
       <option value="RENOVAR" data-select2-id="8">RENOVAR</option>
       <option value="REFINANCIAR" data-select2-id="9">REFINANCIAR</option>
@@ -116,18 +116,6 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <div class="text-center">
 <br>
-
-<center>  Nuestra Web!<a href="https://advance.udalba.cl/">  advance.udalba.cl</a> </center>
-                      <br>
-
-                      <center> <strong>Nuestras Redes Sociales:</strong> </center>
-
-                      <a class="ml-4" onclick="eventosLanding('INSTAGRAM');" href="https://instagram.com/advanceudalba"><img width="40" src="https://i.imgur.com/DVoiS58.png"></a>
-
-                       <a class="ml-4" onclick="eventosLanding('Faceboook');" href="https://www.facebook.com/permalink.php?story_fbid=126362869834830&id=107115461759571"><img width="80" src="https://imgur.com/qjrNTF4.png"></a>
-
-
-                    <hr>
                  
                   
 
