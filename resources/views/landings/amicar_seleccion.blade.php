@@ -78,7 +78,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </h4>
 
                   <br>
-<h4 style="color:##000000">Nos interesa conocer que ópcion es de tu preferencia</h4>
+<h4 style="color:#000000">Nos interesa conocer que ópcion es de tu preferencia</h4>
         
                     <br>
                   </h4>
@@ -88,7 +88,7 @@ $enddate=strtotime("+5 days", $startdate);
 
  <div class="md-form col-12 m-0"> 
                     <select class="form-control" id="preferencia" required>
-                      <option value="" data-select2-id="4"></option>
+                      <option style="color:#FF4500"value="" data-select2-id="4">Selecciona una Opcion</option>
                       
       <option value="RENOVAR" data-select2-id="8">RENOVAR</option>
       <option value="REFINANCIAR" data-select2-id="9">REFINANCIAR</option>
