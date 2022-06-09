@@ -60,14 +60,12 @@ $enddate=strtotime("+5 days", $startdate);
 
  <img style="max-width: 200%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/81l0Vdr.png" alt="AMICAR">
 <br>
-<center></center><h4 style="color:#000000">ESTIMADO</h4></center>
+<center><h4 style="color:#FF4500">ESTIMADO</h4></center>
 
 <br>
-
-<h4 style="color:#000000">Favor comentanos tus preferencias para ponernos en contacto</h4>
-                    <br>
-
-          
+<center>
+<h4 style="color:#000000">Favor comentanos tus preferencias para ponernos en contacto</h4><center>
+      
            <!-- <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
 <img style="max-width:100%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UALBA">
 
