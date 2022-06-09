@@ -80,7 +80,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <br>
 
                    <h4 class="dark-grey-text text-center">
-                    <strong>Por favor Comentanos tus preferencias para ponernos en contacto</strong> 
+                    <strong>Nos interesa conocer que ópcions de tu preferencia</strong> 
                     <br>
                   </h4>
 
@@ -105,7 +105,7 @@ $enddate=strtotime("+5 days", $startdate);
                     <strong>si tu preferencia es Renovar que modelo es de tu intéres y en que mes</strong> 
                     <br>
                   </h4>
-
+<center></center>
                 <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
                       <input type="text" id="Modelo" class="form-control" required placeholder="Modelo">
@@ -129,6 +129,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <br>
                   
+                  </center>
                     <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Enviar información</button>
 
                   <div class="text-center">
