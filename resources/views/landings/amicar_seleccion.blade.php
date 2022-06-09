@@ -109,7 +109,7 @@ $enddate=strtotime("+5 days", $startdate);
 <center>
                 <div style="color:#FF4500"class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-6  m-0">
-                      <input type="text" id="Modelo" class="form-control" required placeholder="Modelo">
+                      <input style="color:#FF4500" type="text" id="Modelo" class="form-control" required placeholder="Modelo">
                       <label for="form2"></label>
                     </div>
                   </div>
@@ -118,7 +118,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <div style="color:#FF4500" class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-12  m-0">
-                      <input type="text" id="Mes" class="form-control" required placeholder="Mes">
+                      <input style="color:#FF4500"type="text" id="Mes" class="form-control" required placeholder="Mes">
                       <label for="form3"></label>
                     </div>
                   </div>
