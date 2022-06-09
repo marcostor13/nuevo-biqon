@@ -102,11 +102,29 @@ $enddate=strtotime("+5 days", $startdate);
 
 <br>
 
+<h4 class="dark-grey-text text-center">
+                    <strong>si tu preferencia es Renovar que modelo es de tu intéres y en que mes</strong> 
+                    <br>
+                  </h4>
 
                 <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-6  m-0">
-                      <input type="text" id="email" class="form-control" required placeholder="E-mail">
+                      <input type="text" id="Modelo" class="form-control" required placeholder="Modelo">
                       <label for="form2"></label>
+                    </div>
+                  </div>
+
+                  <br>
+
+
+
+                  <br>
+
+
+                <div class="d-flex justify-content-between  m-0">
+                    <div class="md-form col-6  m-0">
+                      <input type="text" id="Mes" class="form-control" required placeholder="E-mail">
+                      <label for="Mes"></label>
                     </div>
                   </div>
 
