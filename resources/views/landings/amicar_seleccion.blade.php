@@ -107,24 +107,24 @@ $enddate=strtotime("+5 days", $startdate);
                     <br>
                   </h4>
 <center>
-                <div style="color:#FF4500"class="d-flex justify-content-between  m-0">
+               <label style="color:#FF4500"for="Modelo" class="form-label"> ingresar Mes</label>
+                <br>
 
-                  <label style="color:#FF4500"for="Modelo" class="form-label"> Modelo</label>
-                  <br>
-                    <div style="color:#FF4500"class="md-form col-6  m-0">
-                      <input style="color:#FF4500" type="text" id="Modelo" class="form-control" required placeholder="">
-                      <label for="form2"></label>
+                <div style="color:#FF4500" class="d-flex justify-content-between  m-0">
+                    <div style="color:#FF4500"class="md-form col-12  m-0">
+                      <input style="color:#FF4500"type="text" id="Mes" class="form-control" required placeholder="ingresar Mes">
+                      <label for="form3"></label>
                     </div>
                   </div>
 
                   <br>
 
-                  <label style="color:#FF4500"for="Modelo" class="form-label"> Mes</label>
+                  <label style="color:#FF4500"for="Modelo" class="form-label"> ingresar Mes</label>
                 <br>
-                
+
                 <div style="color:#FF4500" class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-12  m-0">
-                      <input style="color:#FF4500"type="text" id="Mes" class="form-control" required placeholder="">
+                      <input style="color:#FF4500"type="text" id="Mes" class="form-control" required placeholder="ingresar Mes">
                       <label for="form3"></label>
                     </div>
                   </div>
@@ -136,11 +136,11 @@ $enddate=strtotime("+5 days", $startdate);
 
                     <br>
                   </h4>
-                  <label style="color:#FF4500"for="Modelo" class="form-label"> Mes</label>
+                  <label style="color:#FF4500"for="Modelo" class="form-label"> Ingresar Correo</label>
                   <br>
                    <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-12  m-0">
-                      <input type="text" style="color:#FF4500" id="correo" class="form-control"  required placeholder="">
+                      <input type="text" style="color:#FF4500" id="correo" class="form-control"  required placeholder="Ingresar Correo">
                       <label for="form2"></label>
                     </div>
                   </div>
