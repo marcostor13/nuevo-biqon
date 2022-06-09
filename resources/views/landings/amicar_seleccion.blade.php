@@ -115,11 +115,6 @@ $enddate=strtotime("+5 days", $startdate);
 
                   <br>
 
-
-
-                  <br>
-
-
                 <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-12  m-0">
                       <input type="text" id="Mes" class="form-control" required placeholder="Mes">
@@ -128,6 +123,18 @@ $enddate=strtotime("+5 days", $startdate);
                   </div>
 
                   <br>
+
+<h4 class=" orangered-text text-center">
+                    <strong>Favor ingresar el correo para contactar</strong> 
+                    <br>
+                  </h4>
+                   <div class="d-flex justify-content-between  m-0">
+                    <div class="md-form col-12  m-0">
+                      <input type="text" id="correo" class="form-control" required placeholder="Correo">
+                      <label for="form2"></label>
+                    </div>
+                  </div>
+
                   
                   </center>
                     <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Enviar información</button>
