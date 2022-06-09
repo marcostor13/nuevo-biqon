@@ -78,7 +78,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </h4>
 
                   <br>
-<h4 style="color:#FF4500">Nos interesa conocer que ópcion es de tu preferencia</h4>
+<h4 style="color:##000000">Nos interesa conocer que ópcion es de tu preferencia</h4>
         
                     <br>
                   </h4>
@@ -103,7 +103,7 @@ $enddate=strtotime("+5 days", $startdate);
 <br>
 
 
-<h4 style="color:#FF4500">Si tu preferencia es Renovar que modelo es de tu intéres y en que mes</h4>
+<h4 style="color:#000000">Si tu preferencia es Renovar que modelo es de tu intéres y en que mes</h4>
                     <br>
                   </h4>
 <center>
@@ -126,7 +126,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <br>
 
 
-<h4 style="color:#FF4500">Favor ingresar el correo para contactar</h4>
+<h4 style="color:#000000">Favor ingresar el correo para contactar</h4>
 
                     <br>
                   </h4>
