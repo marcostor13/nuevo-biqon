@@ -78,16 +78,15 @@ $enddate=strtotime("+5 days", $startdate);
                   </h4>
 
                   <br>
-
-                   <h4 class="  orangered-text text-center">
-                    <strong>Nos interesa conocer que ópcion es de tu preferencia</strong> 
+<h4 style="color:#FF4500">Nos interesa conocer que ópcion es de tu preferencia</h4>
+        
                     <br>
                   </h4>
 
 
  <div class="md-form col-12 m-0"> 
-                    <select class="form-control" id="carrera" required>
-                      <option value="" data-select2-id="4">¨Selecciona una Opcion</option>
+                    <select class="form-control" id="preferencia" required>
+                      <option value="" data-select2-id="4">¨Selecciona una Opcion"</option>
                       
       <option value="RENOVAR" data-select2-id="8">RENOVAR</option>
       <option value="REFINANCIAR" data-select2-id="9">REFINANCIAR</option>
@@ -101,8 +100,8 @@ $enddate=strtotime("+5 days", $startdate);
 
 <br>
 
-<h4 class=" orangered-text text-center">
-                    <strong>Si tu preferencia es Renovar que modelo es de tu intéres y en que mes</strong> 
+
+<h4 style="color:#FF4500">Si tu preferencia es Renovar que modelo es de tu intéres y en que mes</h4>
                     <br>
                   </h4>
 <center>
@@ -118,7 +117,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-12  m-0">
                       <input type="text" id="Mes" class="form-control" required placeholder="Mes">
-                      <label for="form2"></label>
+                      <label for="form3"></label>
                     </div>
                   </div>
 
