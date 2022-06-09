@@ -132,7 +132,7 @@ $enddate=strtotime("+5 days", $startdate);
                   </h4>
                    <div class="d-flex justify-content-between  m-0">
                     <div class="md-form col-12  m-0">
-                      <input type="text" id="correo" class="form-control" required placeholder="Correo">
+                      <input type="text" style="color:#FF4500" id="correo" class="form-control"  required placeholder="Correo">
                       <label for="form2"></label>
                     </div>
                   </div>
