@@ -430,7 +430,7 @@ $enddate=strtotime("+5 days", $startdate);
 
      function Mens1(){
      
-   window.location.href = "https://api.whatsapp.com/send?phone=+56998861594&text=Quiero%20tener%20mas%20informacion%20de%20Productos%20";
+   window.location.href = "https://api.whatsapp.com/send?phone=+56953337958&text=Quiero%20tener%20mas%20informacion%20de%20Productos%20";
         } 
 
 
@@ -439,7 +439,7 @@ $enddate=strtotime("+5 days", $startdate);
 
          var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20los%20productos";
 
-   window.location.href = "mailto:eduardo.binteraction@gmail.com?subject=Mas%20informacion%20de%20productos&body"+body_message;
+   window.location.href = "mailto:Sprieto@naztech.cl.com?subject=Mas%20informacion%20de%20productos&body"+body_message;
 
  }
 
