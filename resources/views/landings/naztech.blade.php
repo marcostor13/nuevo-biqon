@@ -146,8 +146,8 @@
 
                     </ul>
                     <div style="width: 100%;margin:20px 0; display: inline-block;text-align: center">
-                        <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/xdTJ3zt.jpg">
-                        <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/3IYPiyy.png">
+                        <img style="padding: 0; width: 280px; margin: 5px" src="https://imgur.com/xdTJ3zt.jpg">
+                        <img style="padding: 0; width: 280px; margin: 5px" src="https://imgur.com/3IYPiyy.png">
                         
 
 
