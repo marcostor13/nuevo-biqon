@@ -424,13 +424,13 @@ $enddate=strtotime("+5 days", $startdate);
       
          function Mens(){
   
-             window.location.href = "tel:+56998861594";
+             window.location.href = "tel:+56958115224";
         }  
 
 
      function Mens1(){
      
-   window.location.href = "https://api.whatsapp.com/send?phone=+56953337958&text=Quiero%20tener%20mas%20informacion%20de%20Productos%20";
+   window.location.href = "https://api.whatsapp.com/send?phone=+569581152248&text=Quiero%20tener%20mas%20informacion%20de%20Productos%20";
         } 
 
 
