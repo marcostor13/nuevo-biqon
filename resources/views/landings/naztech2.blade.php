@@ -317,7 +317,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-           var correo = ["Sprieto@naztech.cl","eduardo.binteraction@gmail.com"];
+           var correo = ["hcortez@naztech.cl","eduardo.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -439,7 +439,7 @@ $enddate=strtotime("+5 days", $startdate);
 
          var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20los%20productos";
 
-   window.location.href = "mailto:Sprieto@naztech.cl.com?subject=Mas%20informacion%20de%20productos&body"+body_message;
+   window.location.href = "mailto:hcortez@naztech.cl.com?subject=Mas%20informacion%20de%20productos&body"+body_message;
 
  }
 
