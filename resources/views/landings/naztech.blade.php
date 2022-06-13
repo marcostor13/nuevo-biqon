@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'CLARO HOGAR')
+@section('title', 'naztech.cl')
 
 @section('content')
 
@@ -489,7 +489,7 @@
 
       
          function Mens(){
-             window.location.href = "tel:+56975890470";
+             window.location.href = "tel:+56958115224";
         }  
 
 /*
