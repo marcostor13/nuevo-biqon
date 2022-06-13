@@ -127,7 +127,7 @@
           <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/wALccZ8.png"></a>
 
                      <a href="tel:+56958115224">
-          <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/XaYKBWe.png"></a>
+          <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/OB6x7aM.png"></a>
 
 
             
@@ -139,7 +139,7 @@
 
 
                     
-                            <img width="100%" style="display:block;" src="https://imgur.com/BAziUKb.jpg">
+                            <img width="100%" style="display:block;" src="https://imgur.com/xdTJ3zt.jpg">
 
                         </a>
 
