@@ -250,7 +250,7 @@
                   <td> </td><td> </td>
                   <td><a class="ml-2" onclick="eventosLanding('facebook');"href="https://www.facebook.com/naztechchile/"><img width="80" src="https://imgur.com/qvvD9oZ.png"></a></span>
                   <td> </td><td> </td>
-                  <td><a class="ml-2" onclick="eventosLanding('correo');"  href="mailto:hcortez@naztech.cl.com?subject=Mas%20informacion%20de%20productos&body"> <img width="120" src="https://imgur.com/VNdssgs.png"></a></span>
+                  <td><a class="ml-2" onclick="eventosLanding('correo');"  href="mailto:hcortez@naztech.cl.com?subject=Mas%20informacion%20de%20productos&body"> <img width="110" src="https://imgur.com/VNdssgs.png"></a></span>
                 
                 </tr>
                 
