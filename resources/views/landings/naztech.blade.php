@@ -295,6 +295,9 @@
               
         </div>
         <p style="color: #000000; font-size: 12px; text-align: center;margin: 30px 0 0"></p>
+
+
+        <a class="ml-2" onclick="eventosLanding('pagina web');"  href="https://www.naztech.cl/"> <img width="120" src="https://imgur.com/C5J9nIc.png"></a>
       </div>
     </td>
   </tr>
