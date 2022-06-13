@@ -93,11 +93,11 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <hr>
                         <center><img width="80%" src="https://imgur.com/1BXMTtQ.jpg"></center>
-                <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-warning text-light col-12 mt-2">LLÁMANOS</a>
+                <a onclick="eventosLanding('Llamar'); Mens();" class="btn bg-warning text-black col-12 mt-2">LLÁMANOS</a>
 
-                <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-warning text-light col-12 mt-2">WHATSAPP</a>
+                <a onclick="eventosLanding('Whatsapp'); Mens1();" class="btn bg-warning text-black col-12 mt-2">WHATSAPP</a>
 
-                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-warning text-light col-12 mt-2">ESCRÍBENOS</a> 
+                <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-warning text-black col-12 mt-2">ESCRÍBENOS</a> 
                 <br>
                  <br>
 <center><img width="80%" src="https://imgur.com/WU0Va58.jpg"></center>
