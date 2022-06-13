@@ -246,7 +246,7 @@
                 
                 <tr>
                 
-                  <td><a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56958115224&text=Hola,%20tengo%20una%20consulta%20por%20deuda"><img width="80" src="https://imgur.com/FUTp4DG.png"></a></span>
+                  <td><a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56958115224&text=Hola,%20tengo%20una%20consulta%20"><img width="80" src="https://imgur.com/FUTp4DG.png"></a></span>
                   <td> </td><td> </td>
                   <td><a class="ml-2" onclick="eventosLanding('instagram');" href="https://www.instagram.com/naztech.chile/"><img width="100" src="https://imgur.com/19TOYgi.png"></a></span>
                   <td> </td><td> </td>
