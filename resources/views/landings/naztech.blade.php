@@ -258,6 +258,11 @@
                 
                 </table>
               </center>
+
+<center>
+              <a class="ml-2" onclick="eventosLanding('pagina web');"  href="https://www.naztech.cl/"> <img width="120" src="https://imgur.com/C5J9nIc.png"></a></span>
+
+              </center>
             
           </div>
 
