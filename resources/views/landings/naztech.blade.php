@@ -401,7 +401,9 @@
                     'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Comuna': getUrlParameter('data1'),
+                    'region': getUrlParameter('data1'),
+                    'Comuna': getUrlParameter('data2'),
+
                     //'Prevision': getUrlParameter('data2'),
                     //'Estado': getUrlParameter('data3'),
                     //'Ley': getUrlParameter('data4'),
@@ -410,7 +412,7 @@
                 } 
             }
 
-           var correo = ["eduardo.binteraction@gmail.com","esolano547@gmail.com","jose.coello@solvencia.cl"];
+           var correo = ["eduardo.binteraction@gmail.com","hcortez@naztech.cl.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
