@@ -126,6 +126,10 @@
                     <a href="https://www.naztech.cl/contactenos">
           <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/wALccZ8.png"></a>
 
+                     <a href="tel:+56958115224">
+          <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/XaYKBWe.png"></a>
+
+
             
                   
                         <a href="https://www.naztech.cl/shop/category/todos-accesorios-gamer-audifonos-gamer-12">
