@@ -241,7 +241,8 @@
                   <td></td>
                   <td> </td><td> </td>
                   <td></td>
-                
+                <td> </td><td> </td>
+                  <td></td>
                 </tr>
                 
                 <tr>
@@ -254,8 +255,8 @@
                   <td> </td><td> </td>
                   <td><a class="ml-2" onclick="eventosLanding('pagina web');"  href="https://www.naztech.cl/"> <img width="120" src="https://imgur.com/C5J9nIc.png"></a></span>
 
-
-                    <a class="ml-2" onclick="eventosLanding('correo');"  href="mailto:hcortez@naztech.cl.com?subject=Mas%20informacion%20de%20productos&body"><img width="120" src="https://imgur.com/VNdssgs.png"></a
+<td> </td><td> </td>
+<td><a class="ml-2" onclick="eventosLanding('correo');"  href="mailto:hcortez@naztech.cl.com?subject=Mas%20informacion%20de%20productos&body"><img width="100" src="https://imgur.com/VNdssgs.png"></a
 
                     ></span>
                 
