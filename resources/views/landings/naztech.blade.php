@@ -76,228 +76,221 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
    <!-- <div id="simple" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
-        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-            <img style="max-width:300px; max-height:280px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
+        <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>naztech
+  </title>
+</head>
 
 
-            <div id="cont5" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
-                            </div>
-                        </div>
-                    </div>
+<body style="background-color: rgb(255, 255, 255) ">
+  
+  
+  <!--Copia desde aquí-->
+<table style="max-width: 500px; padding: 10px; margin:0 auto; border-collapse: collapse;">
+  <tr>
+    <td style="background-color: #ffffff; text-align: left; padding: 0">
+      <a href="https://www.naztech.cl/">
+        <img width="100%" style="display:block;" src="https://imgur.com/MRljU7C.jpg">
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 0">
+      
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="background-color: #ffffff">
+      <div style="color: #000203; margin: 4% 10% 2%; text-align: justify;font-family: sans-serif">
+        
+        <p style="margin: 2px; font-size: 15px">
+          
+    
+                    <img width="100%" style="display:block;" src="https://imgur.com/eooMJoR.jpg">
+          <br>
+                    <img width="100%" style="display:block;" src="https://imgur.com/aPVsBNx.jpg">
+                    <br>
+                    
+     <img width="100%" style="display:block;" src="https://imgur.com/UMnfVUe.jpg">
+
+        </ul>
+        <div style="width: 100%;margin:20px 0; display: inline-block;text-align: center">
+                    <a href="https://www.naztech.cl/shop">
+          <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/pvG5J6b.jpg"></a>
+
+                    <a href="https://www.naztech.cl/contactenos">
+          <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/wALccZ8.png"></a>
+
+            
+                  
+                        <a href="https://www.naztech.cl/shop/category/todos-accesorios-gamer-audifonos-gamer-12">
+                            <img width="100%" style="display:block;" src="https://imgur.com/Wreq9UC.jpg">
+
+                        </a>
 
 
-            <div id="cont2" class="p-2 pl-3 ">
-                <center>
-            <h3  class="text-black "><strong> Encuentra todo lo que necesites</strong> </h3>
-            <h4>  En un solo lugar!</h4> </center>
-           <!-- <div id="opt1" class="p-2 pl-3">
-                       
-                               <center>
-                               <a onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/GWkleqW.png"></a> <br>
+                    
+                            <img width="100%" style="display:block;" src="https://imgur.com/BAziUKb.jpg">
+
+                        </a>
+
+
+                    </ul>
+                    <div style="width: 100%;margin:20px 0; display: inline-block;text-align: center">
+                        <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/zcNoqi8.jpg">
+                        <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/PM3qGU9.png">
+                        <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/4xUQgZe.png">
+
+
+
+                     
+                    </a>
+
+
+                    
+                    <img width="100%" style="display:block;" src="https://imgur.com/pd8cGWl.jpg">
+
+                </a>
+
+
+                <div style="width: 100%;margin:20px 0; display: inline-block;text-align: center">
+                    <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/c3vP0Od.jpg">
+                    <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/8DOaSf4.png">
+                    <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/lCUuRWy.png">
+
+               </a>
+
+
+
+
+
+
+            </a>
+
+
+                    
+            <img width="100%" style="display:block;" src="https://imgur.com/WPk14Kk.jpg">
+
+        </a>
+
+    </a>
+
+
+    <div style="width: 100%;margin:20px 0; display: inline-block;text-align: center">
+        <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/f9lsNFF.jpg">
+        <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/qtLAFw5.png">
+        <img style="padding: 0; width: 180px; margin: 5px" src="https://imgur.com/pHGal8L.png">
+
+   </a>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+                
+<br>
+<br>
+        <div class="mt-2 text-center" style="background:#ffffff;"> 
+          
+        <div style="width: 100%; text-align: center"></div>
+
 
           
+            <div class="d-flex justify-content-around align-content-center mt-4"> 
+            <center>
+              <table class="default" style="color: #296ed6;">
 
-                                <a onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/RMl8rwF.png"></a> <br>
-                                <a onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"> <img class="col-12 mt-2" style="max-width:400px;" src="https://imgur.com/6S1xMqg.png"></a> </center>
-
- 
-                                <button onclick="sendMail('No deseo recibir Mas Noticias de Claro'); ;eventosLanding('No deseo Productos Claro'); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>No deseo recibir Mas Mensajes de claro</h4></button>
-                               
-                              
-            </div>
-          -->
-
-<div id="plan1" class="p-2 pl-3 hide">
-
-<center>
-            <h3  class="text-primary "><strong> 1 Play: Internet  </strong> </h3>
-            <h4> Disfruta de Internet en alta velocidad</h4> </center>
-<div class="card">     
-         <div class="card-body">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-       
-    </ol> 
-
-     <div class="carousel-inner">
-        <div class="item active">
-        <center> <a onclick="sendMail('Solicito ser Contactado Plan  HOGAR PRO'); ;eventosLanding('Solicitud Informacion  Plan HOGAR PRO'); return false;">
-          <img class="col-12 mt-2" style="max-width: 350px; max-height:350px " src="https://i.imgur.com/Cx6ia7O.png" alt=""> </a> <br> 
-          </center> <br> <br>
-          <button onclick="sendMail('Solicito ser Contactado Plan  HOGAR PRO'); ;eventosLanding('Solicitud Informacion  Plan HOGAR PRO'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-          <br> <br> <br> 
-        </div>
-        <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan HOGAR 80'); ;eventosLanding('Solicitud Informacion  Plan HOGAR 80'); return false;"> 
-        <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/p9ETw33.png" alt=""> </a> <br> 
-        </center><br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan HOGAR 80'); ;eventosLanding('Solicitud Informacion  Plan HOGAR 80'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-        <br> <br> <br> 
-        </div>
- 
-    </div>
-
-     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
-    </div>
-    </div>  
-    <div id="opt11" class="p-2 pl-3">
-                        <div class="card">     
-                            <div class="card-body">
-                               <!--<button onclick="Mens1();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/9hoo6Uk.png"> <strong>   1 Play: Internet </strong> </button>--> 
-                             <button onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/RMl8rwF.png"> <strong></strong> </button>
-                             <button onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/6S1xMqg.png"> <strong> </strong> </button>
-                            </div>
-                        </div>
-            </div>
-</div>
-    
-<!--plan 2-->
-
-    <div id="plan2"  class="p-2 pl-3 hide">
-
-    <center>
-            <h3  class="text-primary "><strong> 2 Play: Internet + Tv</strong> </h3>
-            <h4> Disfruta de Internet en alta velocidad y entretenimiento en HD.</h4> </center>
-    <br>
-<div class="card">     
-         <div class="card-body">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol> 
-
-     <div class="carousel-inner">
-        <div class="item active">
-        <center> <a onclick="sendMail('Solicito ser Contactado Plan 2PLAY 80'); ;eventosLanding('Informacion 2PLAY 80'); return false;">
-          <img  class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/2dOjk6p.png" alt=""> </a> <br> 
-          </center> <br> <br>
-          <button onclick="sendMail('Solicito ser Contactado Plan 2PLAY 80'); ;eventosLanding('Informacion 2PLAY 80'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-          <br> <br> <br> 
-        </div>
-        <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan 2PLAY 200'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 200'); return false;"> 
-        <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/79ESIJK.png" alt=""> </a> <br> 
-        </center><br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan 2PLAY 200'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 200'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-        <br> <br> <br> 
-        </div>
-        <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan 2PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 400'); return false;">   
-        <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/tN0p7Vy.png" alt=""> </a> <br> 
-        </center> <br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan 2PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 2PLAY 400'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-                      <br> <br> <br>          
-        </div>
+                <strong><p class="text-center " style="color:#000000;margin: auto 2px; font-size: 15px">Seleccione alguna de estas opciones para comunicarse con un Ejecutivo quien podrá asesorarle y resolver sus consultas. </strong></p>  
+              </ul>
       
+              <br>
 
-    </div>
+                <tr>
+                
+                  <td></td>
+                  <td> </td><td> </td>
+                  <td></td>
+                  <td> </td><td> </td>
+                  <td></td>
+                  <td> </td><td> </td>
+                  <td></td>
+                
+                </tr>
+                
+                <tr>
+                
+                  <td><a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56998861594&text=Hola,%20tengo%20una%20consulta%20por%20deuda"><img width="80" src="https://imgur.com/FUTp4DG.png"></a></span>
+                  <td> </td><td> </td>
+                  <td><a class="ml-2" onclick="eventosLanding('Llamar');" href="https://www.instagram.com/naztech.chile/"><img width="100" src="https://imgur.com/19TOYgi.png"></a></span>
+                  <td> </td><td> </td>
+                  <td><a class="ml-2" onclick="eventosLanding('Correo');"href="https://www.facebook.com/naztechchile/"><img width="80" src="https://imgur.com/qvvD9oZ.png"></a></span>
+                  <td> </td><td> </td>
+                  <td><a class="ml-2" onclick="eventosLanding('Pago en Linea');"  href="https://www.naztech.cl/"> <img width="120" src="https://imgur.com/C5J9nIc.png"></a></span>
+                
+                </tr>
+                
+                </table>
+              </center>
+            
+          </div>
 
-     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
-    </div>
-    </div> 
-    <div id="opt12" class="p-2 pl-3">
-                        <div class="card">     
-                            <div class="card-body">
-                               <button onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/GWkleqW.png"> <strong> </strong> </button>
-                                <!--<button onclick="Mens2();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/B9n98KE.png"> <strong>  2 Play: Internet + Tv</strong> </button>-->
-                               <button onclick="Mens3();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/6S1xMqg.png"> <strong></strong> </button>
-                            </div>
-                        </div>
-            </div>
-</div>
 
-    <!--plan 3-->
 
-    <div id="plan3"  class="p-2 pl-3 hide">
-    <br>
 
-    <center>
-            <h3  class="text-primary "><strong> 3 Play: Internet + Tv + Telefonía </strong> </h3>
-            <h4> Disfruta de Internet en alta velocidad, entretenimiento en HD y telefonía fija.</h4> </center>
-    <div class="card">     
-         <div class="card-body">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-     <!--   <li data-target="#myCarousel" data-slide-to="2"></li>-->
-    </ol> 
 
-     <div class="carousel-inner">
-        <div class="item active">
-        <center> <a onclick="sendMail('Solicito ser Contactado Plan 3PLAY 200'); ;eventosLanding('Informacion 3PLAY 200'); return false;">
-          <img class="col-12 mt-2" style="max-width:350px; max-height:350px " src="https://i.imgur.com/8WeUw2T.png" alt=""> </a> <br> 
-          </center> <br> <br>
-          <button onclick="sendMail('Solicito ser Contactado Plan 3PLAY 200'); ;eventosLanding('Informacion 3PLAY 200'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-          <br> <br> <br> 
+
+
+
+
+
+
+          <!--<a style="text-decoration: none; border-radius: 10px; padding: 11px 23px; color: rgb(0, 0, 0); background-color: #dba634" href="mailto:matriculas@caplider.cl?subject=Hola, Quiero inscribirme&body=
+          
+          Me interesaría participar en el curso gratuito de computación básica.
+
+    
+          Dejo mi información de contacto:
+
+              Nombre:
+
+
+
+              Teléfono:
+
+
+              Correo:
+
+
+              Dirección:
+
+
+          
+          "
+          >INSCRIBETE</a>-->
+              
         </div>
-        <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan 3PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 3PLAY 400'); return false;"> 
-        <img class="col-12 mt-2" style="max-width:350px; max-height:350px "  src="https://i.imgur.com/hvJ1c0u.png" alt=""> </a> <br> 
-        </center><br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan 3PLAY 400'); ;eventosLanding('Solicitud Informacion  Plan 3PLAY 400'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-        <br> <br> <br> 
-        </div>     
+        <p style="color: #000000; font-size: 12px; text-align: center;margin: 30px 0 0"></p>
+      </div>
+    </td>
+  </tr>
+</table>
+<!--hasta aquí-->
 
-    </div>
-
-     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
-    </div>
-    </div>
-    </center>
-
-    <div id="opt11" class="p-2 pl-3">
-                        <div class="card">     
-                            <div class="card-body">
-                            <button onclick="Mens1();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/GWkleqW.png"> <strong> </button> 
-                            <button onclick="Mens2();" class="btn bg-white text-danger col-12 mt-2"><img width="300" src="https://imgur.com/RMl8rwF.png"> <strong> </strong> </button>
-                               <!--<button onclick="Mens3();" class="btn bg-danger text-white col-12 mt-2"><img width="100" src="https://i.imgur.com/fDpn2k2.png"> <strong>  3 Play: Internet + Tv + Telefonía</strong> </button>-->
-                            </div>
-                        </div>
-            </div>
-</div>
-
-            </div>       
-<div id="cont3" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                            </div>
-                        </div>
-            </div>
-</div>
-
+</body>
+</html>
     <script>
 
         $(function(){
