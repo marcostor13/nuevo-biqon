@@ -86,7 +86,8 @@ $rut = $_GET['RUT'];
 
                 
 <p class="text-black  text-center">
-                  Regularice su situación
+                 <strong> Regularice su situación</strong>
+                  <br>
 
  
 
