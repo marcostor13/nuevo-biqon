@@ -70,7 +70,7 @@ $rut = $_GET['RUT'];
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
-                                 <a href="tel:+56945369456" class="btn bg-danger text-white col-12 mt-4"> Contactar</a>
+                                 <a href="tel:+56939171791" class="btn bg-danger text-white col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
@@ -78,8 +78,6 @@ $rut = $_GET['RUT'];
 
                  <div id="cont2" class="p-5 ">
               <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?></span>, RUT: <span><?php echo $rut; ?></span></strong></h5>
-                <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
-
                 <p class="text-black  text-center">
                   En Mundo Crédito tenemos una oferta de pago para  usted
 no se pierda esta oportunidad  y regularice su situación con Mundo Crédito
