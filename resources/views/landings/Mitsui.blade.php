@@ -81,7 +81,24 @@ $rut = $_GET['RUT'];
                 <p class="text-black  text-center">
                   Recuerdo su deuda con Mitsui, favor contactarse para ver más detalle de sus alternativas de pago
                 </p>
+
+                <br>
+
                 
+<p class="text-black  text-center">
+                  Regularice su situación
+
+ 
+
+1.-Pago total<br>
+2.-Acuerdo de pago en cuotas, con un 50% de abono inicial y el resto en máximo 3 cuotas<br>
+3.-Dación: Consiste en entrega de vehículo en buen estado para cubrir deuda, a evaluación<br>
+ 
+
+ 
+                </p>
+
+
              <!-- <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="2022-12-31"/>
