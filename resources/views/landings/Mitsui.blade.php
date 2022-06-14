@@ -84,6 +84,14 @@ $rut = $_GET['RUT'];
                         </div>
                     </div>
 
+ <div id="cont1" class="p-5 ">
+                <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-black">
+                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
+            </div>
+
+
+
             <div id="cont2" class="p-5 ">
                 <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?></span>, RUT: <span><?php echo $rut; ?></span></strong></h5>
 
