@@ -6,6 +6,9 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
+
+$name = $_GET['NOMBRE'];
+$rut = $_GET['RUT'];
 ?>
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -72,6 +75,9 @@ $enddate=strtotime("+5 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
+
+                 <div id="cont2" class="p-5 ">
+              <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?></span>, RUT: <span><?php echo $rut; ?></span></strong></h5>
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black  text-center">
