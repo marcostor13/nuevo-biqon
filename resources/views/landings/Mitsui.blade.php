@@ -1,26 +1,19 @@
 @extends('layouts.landing')
 
-@section('title', 'Delloro abogados')
+@section('title', 'DellOro')
 
 @section('content')
-
-
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
-$name = $_GET['NOMBRE'];
-$rut = $_GET['RUT'];
-
 ?>
-<style>
-.opaco{
-    display: none !important; 
 
-}
-.input{
-  border-color: #A1CBF3 !important;
-}
-     
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style type="text/css">
+    
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border: 0;
@@ -55,136 +48,92 @@ $rut = $_GET['RUT'];
       rgba(0, 0, 0, 0.5)
     )
     }
+    
 </style>
 
-     <!-- <div id="HerediaAbogados" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: 100% 100%;" >-->
+    <div id="DellOro" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">
 
-        <!--<div class="opaco"></div>-->
-       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-   <img style="height:80px; width:100px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/O8odGey.jpeg" alt="HerediaAbogados">
-   <img style="height:120px; width:500px;" class="img-fluid col-md-6 mt-1 hide" src="https://i.imgur.com/O8odGey.jpeg" alt="HerediaAbogados">
+        <div class="opaco"></div>
 
-   <img style="height:450px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://i.imgur.com/O8odGey.jpeg" alt="HerediaAbogados">
+        <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
+          <!--  <img style="max-width:280px; max-height:280px " class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="DellOro">--->
 
-               <div id="cont1" class="p-5 hide">
-                <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
-                <button onclick="event1(); return false;" class="btn bg-dark text-white col-12 mt-4">Validar </button>
-            </div>
-            
-            <div id="cont5" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
-                                 <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a href="tel:+56226331354" class="btn bg-danger text-black col-12 mt-4"> Contactar</a>
-                     </div>
-
-                            </div>
-                        </div>
-                    </div>
-
- <div id="cont1" class="p-5 ">
+             <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
                 <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
             </div>
+            <div id="cont5" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                 <h5 id="error"class="text-black text-center mt-5"></h5>
+                                 <a href="tel:+56945369456" class="btn bg-danger text-white col-12 mt-4"> Contactar</a>
+                            </div>
+                        </div>
+                    </div>
+            <div id="cont2" class="p-5 hide">
+                <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
-
-
-            <div id="cont2" class="p-5 ">
-                <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?></span>, RUT: <span><?php echo $rut; ?></span></strong></h5>
-
-                <h5><p class="text-black" align="justify">
-                 Se ingresó a tramitación una demanda por peaje impagos de nuestro mandante RUTA DEL MAIPO.<br> Si tienen intención de lograr un acuerdo de pago, usted puede:
-                </p></h5>
-
-
-             <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4">Escríbenos un Mensaje </a>
-
-               <a onclick="eventosLanding('Correo');" href="mailto: rutadelmaipo@herediaabogados.cl?subject=Cobranza%20Ruta%20de%20Maipo"class="btn bg-dark text-white col-12 mt-4">Escribir por Correo</a>
-                   
-             <a onclick="eventosLanding('Llamen'); sendMail('El cliente indica que desea ser contactado');" class="btn bg-dark text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">Solicito que me llamen</a>
-
-             <a onclick="eventosLanding('No corresponde'); sendMail('El teléfono no tiene relación con el titular');" class="btn bg-dark text-white col-12 mt-4" style="  border: 1px solid #9e9e9e;">El Telefono no corresponde</a>
-                <!--<div class="date btn bg-danger text-white col-12 mt-4">
-
-                    <span>Compromiso de Pago</span>
-                    <input id="date1"  type="date"  style="border: none;" min="<?php //echo date('Y-m-d')?>" max="<?php //echo date("Y-m-d", $enddate) ?>" onclick="sendMail();"/>
-                </div>-->
-
-              <!--  <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4">WHATSAPP EJECUTIVO </a>
-                   
-              <a onclick="eventosLanding('Llamar');" href="tel:+56934811384"class="btn bg-dark text-white col-12 mt-4">LLAMAR A EJECUTIVO </a>
-
-               <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Ruta%20de%20Maipo"class="btn bg-dark text-white col-12 mt-4">ESCRIBIR POR CORREO</a>-->
-
-
-                 <!-- <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
-              <!--   <button onclick="window.location.href='http://bit.ly/2kAAUJB'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> CONSULTAR A LA AUTOPISTA</button>-->
-
-
-               <!--   <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar CONTACTO');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> DESEO QUE ME CONTACTEN </a>
-               <button onclick="sendMail('Solicito pagar en Cuotas'); eventosLanding('Pago en Cuotas'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar en Cuotas</button>
-
-                <button onclick="sendMail('Solicito pagar el Total con descuento'); eventosLanding('total con Descuento'); return false;" class="btn bg-dark text-white col-12 mt-4">Pagar el Total con Descuento</button>
-  
-
-                    <button onclick="sendMail('Solicito que me contacten'); eventosLanding('Contactenme'); return false;" class="btn bg-dark text-white col-12 mt-4">Quiero que me Contacten</button>
-
-                <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4">El teléfono no corresponde </button>-->
-
-
-                   <!-- <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-white text-dark  col-12 mt-4"style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por Whastapp  <img width="30" src="https://i.imgur.com/Rtw9BXz.png"></a>
-
-                 <a onclick="eventosLanding('Correo'); Mens2();" class="btn bg-white text-dark  col-12 mt-4"style="  border: 1px solid #9e9e9e;">Enviar propuesta de pago por email <img width="30" src="https://i.imgur.com/EpCpCdx.png"></a>-->
-
-                <!--  <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar detalle y forma de pago');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago por Correo </a>
-
-                  <a onclick="eventosLanding('Whastapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20quiero%20una%20propuesta%20por%20el%20pago%20de%20mi%20deuda" class="btn bg-dark text-white col-12 mt-4"style="  border: 1px solid #9e9e9e;">Solicitar detalle y forma de pago por Whastapp </a>
-
-                  <a onclick="eventosLanding('Contactenme');" href="tel:+56226331354" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Solicitar detalle y forma de pago por Llamada </a>
-
-                  <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
-
-
-                <!--  <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;">El teléfono no corresponde </button>-->
-
-              
-             <!--   <div class="d-flex justify-content-around align-content-center mt-2"> 
-
-                   
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta"><img width="42" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56226331354"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
-                   
-                    <a onclick="eventosLanding('Correo');" href="mailto: judicial@herediaabogados.cl?subject=Cobranza%20Ruta%20del%20Maipo"><img width="40" src="https://www.marketingdirecto.com/wp-content/uploads/2014/03/correo-electronico.png"></a>
-                
-                </div>-->
-
-                <br><br><br><br><br>
-                <p class="text-black" align="justify">
-                 Si al momento de recibir esta información, su cuenta está regularizada, rogamos omitir este aviso
+                <p class="text-black  text-center">
+                  En Mundo Crédito tenemos una oferta de pago para  usted
+no se pierda esta oportunidad  y regularice su situación con Mundo Crédito
                 </p>
+
+
+
+    <center><img width="100%" src="https://imgur.com/nACAiJm.jpg"></center>
+
+<br>
+
+<center><p class="text-yellow  text-center">
+              Escríbenos no esperes mas por esta Oportunidad
+                </p></center>
+
                 
-             </div>
-            <div id="cont3" class="p-2 pl-3 pr-3 hide">
+             <!-- <div class="date btn bg-danger text-white col-12 mt-4">
+                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="2022-12-31"/>
+                </div>-->
+
+               <!-- <button  class="btn bg-danger text-white col-12 mt-4">Convenio de pago, Contactar
+                  <a href="tel:+34678567876">Aquí el texto que quieras</a>        
+                 class="btn bg-danger text-white col-12 mt-4">Convenio de pago, Contactar</button>-->
+
+                <!-- < <div class="btn bg-danger text-white col-12 mt-4">-->
+                    <!--<span>Convenio de pago, Contactar</span>-->
+                    <a onclick="eventosLanding('Convenio'); window.location.href='tel:+56939171791' ;" class="btn bg-danger text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
+                <!-- <</div>-->
+               <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>-->
+                
+                <button onclick="Mens(); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
+                <br>
+<br>
+                <center><p class="text-yellow  text-center"> Por favor para mas informacion Contactar a Ejecutivo(a) : <strong>Lina Uribe  </strong>
+                </p></center>
+                
+                <div class="d-flex justify-content-around align-content-center mt-4">
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56939171791&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                
+                   <!-- <a onclick="eventosLanding('Llamar');" href="tel:+56945369456 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>-->
+
+                    <a onclick="eventosLanding('Correo');" href="mailto:LURIBE@DELLOROABOGADOS.CL?subject=Landing%20DellOro&body=Adjuto%20es%20el%20Comprobante%20de%20Pago">
+                        <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                </div>
+                
+
+
+            </div>
+           <div id="cont3" class="p-2 pl-5 pr-5 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
-
         </div>
-        <div>
-        <!--<h5 id="message"class="text-grey text-center mt-3">Contáctanos </h5>-->
-        
-          <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-        <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://i.imgur.com/aWzOg2b.png" alt="HerediaAbogados">
     </div>
 
-     <script>
+    <script>
    //EVENT 1
         
         $(function(){
@@ -192,8 +141,7 @@ $rut = $_GET['RUT'];
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
                 'json_datos': JSON.stringify(getAllUrlParameter())
-
-                          });
+            });
         }); 
 
          function event1(){
@@ -220,6 +168,7 @@ $rut = $_GET['RUT'];
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
+                    $('#data1').text(e.data.data1);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -227,7 +176,7 @@ $rut = $_GET['RUT'];
                         }
                     });
                 }else{
-                    $('#cont1').addClass('hide');
+                        $('#cont1').addClass('hide');
                      $('#cont5').removeClass('hide');
                     $('#error').text("Validación incorrecta, Por favor Comuniquese Aquí.");
                 }
@@ -237,14 +186,14 @@ $rut = $_GET['RUT'];
             });
 
         }
-
+        
 
         let eventosLanding = function(name){
             
             let json_datos = getAllUrlParameter(); 
 
-            //json_datos.nombre = $('#name').text();
-           // json_datos.monto = $('#pay').text();
+            json_datos.nombre = $('#name').text();
+            //json_datos.monto = $('#pay').text();
 
             events({    
                 'name': name,
@@ -263,32 +212,25 @@ $rut = $_GET['RUT'];
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Nombre': getUrlParameter('nombre'),
+                    'Nombre': $('#name').text(),
+                    //'monto': getUrlParameter('monto'),
                     'RUT': getUrlParameter('rut'),
                     'Telefono': getUrlParameter('telefono'),
-                   // 'Deuda Total': getUrlParameter('monto'),
-                  // 'Dias Mora Max': getUrlParameter('data1'),
-                    'Dcto Interes': getUrlParameter('data2'),
-                    'landing': '{!! $landing->name !!}'
                    
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'Fecha Compromiso': date,
-                    'Nombre': getUrlParameter('nombre'),
-                    'RUT': getUrlParameter('rut'),
-                    'Telefono': getUrlParameter('telefono'),
-                     // 'Deuda Total': getUrlParameter('monto'),
-                  // 'Dias Mora Max': getUrlParameter('data1'),
-                    'Dcto Interes': getUrlParameter('data2'),
+                    'fecha': date,
+                    'nombre': $('#name').text(),
+                    //'monto': getUrlParameter('monto'),
+                    'phone': getUrlParameter('telefono'),
+                     'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-
-          var correo = ["rutadelmaipo@herediaabogados.cl"];
-          // var correo = ["jesus.binteraction@gmail.com"];
+            var correo = ["LURIBE@DELLOROABOGADOS.CL", "eduardo.binteraction@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -306,13 +248,14 @@ $rut = $_GET['RUT'];
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área.');
+                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área.');
-                     eventosLanding('Compromiso de Pago');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                      eventosLanding('Compromiso de Pago');
+
                 }
             })
             .done(function(e) {
@@ -378,22 +321,25 @@ $rut = $_GET['RUT'];
             return obj;  
         };
 
-      
-        
-    
-  function Mens2(){
 
-         var rut; 
-         rut= getUrlParameter('rut');
+       function Mens(){
+   // var id_adm; 
+        // id_adm= getUrlParameter('data1'); //1234;
+          
+            swal({
+             title: `PorFavor Adjunte su Comprobante de Pago`,
+             //text: "Expandir la Pantalla",
+             type: "success",
+             timer: 5000
+        }, 
+        function(){
+            // window.location.href = "https://api.whatsapp.com/send?phone=+56957657363&text=Hola,%20Adjunto%20Comprobante%20de%20Pago";
+             window.location.href="mailto:LURIBE@DELLOROABOGADOS.CL?subject=Landing%20DellOro&body=Adjuto%20es%20el%20Comprobante%20de%20Pago"
+        })
 
-        // var body_message = "%3C%2Fbr%3E Estimado paciente,%3C%2Fbr%3E favor envíe su consulta relacionada al pago de su cuenta hospitalaria. %3C%2Fbr%3E Saludos cordiales %3C%2Fbr%3E %3C%2Fbr%3E Atte. Contact Center %3C%2Fbr%3E Clínica Dávila %3C%2Fbr%3E Fono: 22730800 opción 2";
 
-         var body_message = "%0A%20Estimado,%0A%20favor%20env%C3%ADe%20su%20propuesta%20relacionada%20al%20pago%20de%20mi%20cuenta%20";
+        } 
 
-   window.location.href = "mailto:judicial@herediaabogados.cl?subject=Pago%20de%20Cuenta%20&body=%20RUT:%20"+rut+" "+body_message;
-
- }
-    </script>
-    
+     </script>
 
 @endsection
