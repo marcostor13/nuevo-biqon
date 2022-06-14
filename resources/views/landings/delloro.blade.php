@@ -108,7 +108,7 @@ no se pierda esta oportunidad  y regularice su situación con Mundo Crédito
                 <button onclick="Mens(); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-4">YA PAGUE</button>
                 <br>
 <br>
-                <center><p class="text-yellow  text-center"> Por favor para mas informacion Contactar a Ejecutivo(a) :Lina Uribe 
+                <center><p class="text-yellow  text-center"> Por favor para mas informacion Contactar a Ejecutivo(a) : <strong>Lina Uribe  </strong>
                 </p></center>
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
