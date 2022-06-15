@@ -74,9 +74,9 @@ $rut = $_GET['RUT'];
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 hide">
+           <div id="cont2" class="p-5 hide">
 
-               <div id="cont2" class="p-3 ">
+              
                     <center> 
               <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?></span>, RUT: <span><?php echo $rut; ?></span></strong></h5>
                 <p class="text-black  text-center">
