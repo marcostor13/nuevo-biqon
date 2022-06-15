@@ -84,6 +84,8 @@ $rut = $_GET['RUT'];
 
                 <br>
 
+ <center><img width="200%" src="https://imgur.com/PcoBl0x.jpg"></center>
+
                 
 <p class="text-black  text-center">
                  <strong> Regularice su situación</strong>
