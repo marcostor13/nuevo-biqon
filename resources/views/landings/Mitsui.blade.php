@@ -84,9 +84,24 @@ $rut = $_GET['RUT'];
 
                 <br>
 
- <img width="200%" src="https://imgur.com/PcoBl0x.jpg">
+ <img width="100%" src="https://imgur.com/PcoBl0x.jpg">
 
                 
+
+
+
+             <!-- <div class="date btn bg-danger text-white col-12 mt-4">
+                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="2022-12-31"/>
+                </div>-->
+
+               <!-- <button  class="btn bg-danger text-white col-12 mt-4">Convenio de pago, Contactar
+                  <a href="tel:+34678567876">Aquí el texto que quieras</a>        
+                 class="btn bg-danger text-white col-12 mt-4">Convenio de pago, Contactar</button>-->
+
+<!--
+
+
 <p class="text-black  text-center">
                  <strong> Regularice su situación</strong>
                   <br>
@@ -99,18 +114,7 @@ $rut = $_GET['RUT'];
  
 
  
-                </p>
-
-
-             <!-- <div class="date btn bg-danger text-white col-12 mt-4">
-                    <span>AGENDAR COMPROMISO DE PAGO</span>
-                    <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="2022-12-31"/>
-                </div>-->
-
-               <!-- <button  class="btn bg-danger text-white col-12 mt-4">Convenio de pago, Contactar
-                  <a href="tel:+34678567876">Aquí el texto que quieras</a>        
-                 class="btn bg-danger text-white col-12 mt-4">Convenio de pago, Contactar</button>-->
-
+                </p>-->
                 <!-- < <div class="btn bg-danger text-white col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
                     <a onclick="eventosLanding('Convenio'); window.location.href='tel:+56939171791' ;" class="btn bg-danger text-white col-12 mt-4"> Convenio de pago, Contactar</a> 
