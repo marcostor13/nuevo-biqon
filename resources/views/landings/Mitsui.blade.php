@@ -85,7 +85,7 @@ $rut = $_GET['RUT'];
                   Recuerda su deuda con Mitsui, favor contactarse para ver más detalle de sus alternativas de pago
                 </p></center> 
 
-                <center><img width="100%" src="https://imgur.com/VpoX7zj.jpg"></center>
+                <center><img width="100%" src="https://imgur.com/hWsdlT2.jpg"></center>
 
 
                 <br>
