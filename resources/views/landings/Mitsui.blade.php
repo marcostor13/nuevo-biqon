@@ -78,7 +78,9 @@ $rut = $_GET['RUT'];
 
               
                     <center> 
-              <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?></span>, RUT: <span><?php echo $rut; ?></span></strong></h5>
+              <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?>
+                  <br>
+              </span>, RUT: <span><?php echo $rut; ?></span></strong></h5>
                 <p class="text-black  text-center">
                   Recuerda su deuda con Mitsui, favor contactarse para ver más detalle de sus alternativas de pago
                 </p></center> 
