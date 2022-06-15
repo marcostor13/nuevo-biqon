@@ -74,7 +74,7 @@ $rut = $_GET['RUT'];
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-5 hide">
+         <center>  <div id="cont2" class="p-5 hide">
 
                  <div id="cont2" class="p-5 ">
               <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?></span>, RUT: <span><?php echo $rut; ?></span></strong></h5>
@@ -82,7 +82,7 @@ $rut = $_GET['RUT'];
                   Recuerdo su deuda con Mitsui, favor contactarse para ver más detalle de sus alternativas de pago
                 </p>
 
-                <br>
+                <br></center> 
 
 
 <img width="200%" style="display:block;" src="https://imgur.com/PcoBl0x.jpg">
