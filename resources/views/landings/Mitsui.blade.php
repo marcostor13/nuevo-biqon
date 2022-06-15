@@ -135,9 +135,10 @@ $rut = $_GET['RUT'];
                 <br>
 <br>
                
+               <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://imgur.com/pWaFUj6.png" alt="DellOro">
                 
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Llamar');" href="https://api.whatsapp.com/send?phone=+56939171791&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://imgur.com/ZVWGEdQ.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56939171791"><img width="40" src="https://imgur.com/ZVWGEdQ.png"></a>
                 
                    <!-- <a onclick="eventosLanding('Llamar');" href="tel:+56945369456 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>-->
 
@@ -148,7 +149,6 @@ $rut = $_GET['RUT'];
 <br>
 
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-    <a onclick="eventosLanding('Correo');" href="https://api.whatsapp.com/send?phone=+56939171791&text=Hola,%20tengo%20una%20consulta">
         <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://imgur.com/arvPuiX.png" alt="DellOro">
     </div>
 
