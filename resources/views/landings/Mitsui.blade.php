@@ -84,7 +84,9 @@ $rut = $_GET['RUT'];
 
                 <br>
 
- <img width="100%" src="https://imgur.com/PcoBl0x.jpg">
+
+<img width="100%" style="display:block;" src="https://imgur.com/PcoBl0x.jpg">
+
 
                 
 
