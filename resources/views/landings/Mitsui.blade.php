@@ -82,7 +82,7 @@ $rut = $_GET['RUT'];
                   <br>
               </span>RUT: <span><?php echo $rut; ?></span></strong></h5>
                 <p class="text-black  text-center">
-                  "recuerde que si tiene dudas con su crédito, en MITSUI contamos con las siguientes alternativas:"
+                  "recuerde que si tiene dudas con su crédito, en <strong>MITSUI</strong> contamos con las siguientes alternativas:"
                 </p></center> 
 
                 <center><img width="100%" src="https://imgur.com/hWsdlT2.jpg"></center>
