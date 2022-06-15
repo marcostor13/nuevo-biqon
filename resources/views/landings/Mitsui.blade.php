@@ -121,7 +121,7 @@ $rut = $_GET['RUT'];
                 <!-- <</div>-->
                <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>-->
                 
-                <button onclick="Mens(); eventosLanding('Ya pagué'); return false;" style="color:#00ADF9"class=" text-white col-12 mt-4">YA PAGUE</button>
+                <button onclick="Mens(); eventosLanding('Ya pagué'); return false;" style="color:#00ADF9">YA PAGUE</button>
                 <br>
 <br>
                 <center><p class="text-yellow  text-center"> Por favor para mas informacion Contactar a Ejecutivo(a) : <strong>Lina Uribe  </strong>
