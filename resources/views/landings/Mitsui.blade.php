@@ -90,17 +90,6 @@ $rut = $_GET['RUT'];
 
                 <br>
 
-                <p class="text-black  text-center">
-                 <strong> Regularice su situación</strong>
-                  <br>
-
- 
-
-1.-Pago total<br>
-2.-Acuerdo de pago en cuotas, con un 50% de abono inicial y el resto en máximo 3 cuotas<br>
-3.-Dación: Consiste en entrega de vehículo en buen estado para cubrir deuda, a evaluación<br>
-
-
 
              <!-- <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
