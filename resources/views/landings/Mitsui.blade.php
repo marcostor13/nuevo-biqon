@@ -145,9 +145,10 @@ $rut = $_GET['RUT'];
                         <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
+<br>
 
 <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-        <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://imgur.com/Myw9LA7.png" alt="DellOro">
+        <img style="height:100px; width:500px;" class="img-fluid col-md-6 mt-1 " src="https://imgur.com/arvPuiX.png" alt="DellOro">
     </div>
 
 
