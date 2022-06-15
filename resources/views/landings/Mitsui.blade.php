@@ -81,9 +81,9 @@ $rut = $_GET['RUT'];
               <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?>
                   <br>
               </span>RUT: <span><?php echo $rut; ?></span></strong></h5>
-                <p class="text-black  text-center">
+                <h5  class="text-black  text-center">
                   "Recuerde que si tiene dudas con su crédito, en <strong>MITSUI</strong> contamos con las siguientes alternativas:"
-                </p></center> 
+                </h5></center> 
 
                 <center><img width="100%" src="https://imgur.com/hWsdlT2.jpg"></center>
 
