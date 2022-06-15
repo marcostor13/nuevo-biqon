@@ -80,8 +80,10 @@ $rut = $_GET['RUT'];
                     <center> 
               <h5 class="text-black text-center">Sr(A) <strong><span><?php echo $name; ?></span>, RUT: <span><?php echo $rut; ?></span></strong></h5>
                 <p class="text-black  text-center">
-                  Recuerdo su deuda con Mitsui, favor contactarse para ver más detalle de sus alternativas de pago
+                  Recuerda su deuda con Mitsui, favor contactarse para ver más detalle de sus alternativas de pago
                 </p></center> 
+
+                <center><img width="100%" src="https://imgur.com/PcoBl0x.jpg"></center>
 
                 <br>
 
