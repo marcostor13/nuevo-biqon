@@ -76,7 +76,7 @@ $N_folio = $_GET['DATA1'];
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span></h4>
 
                 <p class="text-black  text-center">
-                 Estimado lo contactamos Dell Oro Abogados por deuda con<strong> <?php echo $N_folio; ?> </strong>  lo invitamos a regularizar, ingreses aquí para contactarse con su ejecutivo y ver sus opciones de pago.
+                 Estimado(a) lo contactamos Dell Oro Abogados por deuda con<strong> <?php echo $N_folio; ?> </strong>  lo invitamos a regularizar, ingreses aquí para contactarse con su ejecutivo y ver sus opciones de pago.
                 </p>
 
 <br>
