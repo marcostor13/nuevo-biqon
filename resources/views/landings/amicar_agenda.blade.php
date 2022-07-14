@@ -23,16 +23,15 @@ $enddate=strtotime("+15 days", $startdate);
             <div id="cont1" align="align-items-center align-content-center">
     
 
-<div id="cont4" class="p-2 pl-3 pr-3 hide">
+<div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
+                                 <h5 id="error"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
                     </div>
-
-                    <div class="d-flex justify-content-around align-content-center mt-4"> 
-
+            <div id="cont2" class="p-2 pl-3 ">
+      
  <div class="card">     
          <div class="card-body">
 
