@@ -186,7 +186,7 @@ $enddate=strtotime("+15 days", $startdate);
                     'mensaje': msg,
                     'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
-                    'Phone': getUrlParameter('telefono'),
+                    'Telefono': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
                      'Direccion': getUrlParameter('data1'),
                      'Comuna': getUrlParameter('data2')                
