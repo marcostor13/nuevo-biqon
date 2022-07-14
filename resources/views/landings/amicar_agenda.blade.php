@@ -33,7 +33,8 @@ $enddate=strtotime("+15 days", $startdate);
 
                     <div class="d-flex justify-content-around align-content-center mt-4"> 
 
-
+ <div class="card">     
+         <div class="card-body">
 
 
                         <a onclick="sendMail('Quisiera agendar'); eventosLanding('AGENDAR'); return false;">
