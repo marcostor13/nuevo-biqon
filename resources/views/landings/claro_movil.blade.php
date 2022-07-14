@@ -80,7 +80,40 @@
             <img style="max-width:200px; max-height:180px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
 
 
-            
+            <div id="cont5" class="p-2 pl-3 pr-3 hide">
+                        <div class="card">     
+                            <div class="card-body">
+                                 <h5 id="error"class="text-black text-center mt-5"></h5>
+                            </div>
+                        </div>
+                    </div>
+            <div id="cont2" class="p-2 pl-3 ">
+         <center> <h3  class="text-primary "><strong> Conoce Nuestras Ofertas En Planes Móviles Del Mes</strong> </h3></center>
+            <div class="card">     
+         <div class="card-body">
+
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <!--<li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>-->
+        <!--<li data-target="#myCarousel" data-slide-to="9"></li>-->
+    </ol> 
+
+     
+    </a>
+    </div>
+    </div>
+    </div>
+    </center>
+
 <a onclick="sendMail('Quisiera agendar'); eventosLanding('AGENDAR'); return false;">
 
     <center><img width="100%" src="https://imgur.com/Y3Sw6ay.jpg"></center>
