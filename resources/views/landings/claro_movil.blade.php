@@ -87,7 +87,7 @@
          <div class="card-body">
 
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div >
      
     </ol> 
 
