@@ -88,23 +88,13 @@
                         </div>
                     </div>
             <div id="cont2" class="p-2 pl-3 ">
-         <center> <h3  class="text-primary "><strong> Conoce Nuestras Ofertas En Planes Móviles Del Mes</strong> </h3></center>
+      
             <div class="card">     
          <div class="card-body">
 
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <!--<li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>-->
-        <!--<li data-target="#myCarousel" data-slide-to="9"></li>-->
+     
     </ol> 
 
      
