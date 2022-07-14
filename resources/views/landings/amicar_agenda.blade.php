@@ -29,10 +29,17 @@ $enddate=strtotime("+15 days", $startdate);
 
  
 
-    <button onclick="sendMail('QUISIERA AGENDAR'); eventosLanding('AGENDAR'); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>
-        
+    <a onclick="sendMail('QUISIERA AGENDAR'); eventosLanding('AGENDAR'); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>
+
     <center><img width="100%" src="https://imgur.com/Y3Sw6ay.jpg"></center>
 </a>
+
+
+
+ </div>-->
+                    <label align="text-center" class=" col-10 col-md-12 mt-1">Fortaleza - V3</label><br>
+                 <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/eX2Gb1D.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo Fortaleza - V3');eventosLanding('Solicitud Informacion');  class="btn bg-warning text-black  col-3 mt-1">Contactar</a>
+                 <br> 
 
 
 <div id="cont4" class="p-2 pl-3 pr-3 hide">
