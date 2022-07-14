@@ -25,8 +25,11 @@ $enddate=strtotime("+15 days", $startdate);
                <br>
 <h5 class="text-black text-center">
 
-    <center><img width="80%" src="https://imgur.com/Y3Sw6ay.jpg"></center>
 
+
+ <a href="https://www.naztech.cl/contactenos">
+    <center><img width="100%" src="https://imgur.com/Y3Sw6ay.jpg"></center>
+</a>
 
 
 <div id="cont4" class="p-2 pl-3 pr-3 hide">
