@@ -91,9 +91,6 @@
       
             <div class="card">     
          <div class="card-body">
-
-
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
      
     </ol> 
 
