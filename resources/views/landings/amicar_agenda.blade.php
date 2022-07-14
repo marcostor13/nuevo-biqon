@@ -30,6 +30,7 @@ $enddate=strtotime("+15 days", $startdate);
  
 
     <button onclick="sendMail('QUISIERA AGENDAR'); eventosLanding('AGENDAR'); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>
+        
     <center><img width="100%" src="https://imgur.com/Y3Sw6ay.jpg"></center>
 </a>
 
