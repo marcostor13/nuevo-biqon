@@ -219,18 +219,18 @@ $enddate=strtotime("+15 days", $startdate);
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 }
             });
-            $.post( "/sendMail", dataSend,function() {
+           $.post( "/sendMail", dataSend,function() {
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
                      $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted en los próximos días');
+                    $('#message').text('Muchas Gracias. Su solicitud fue enviada a nuestra área de admisión. A la brevedad nos pondremos en contacto');
                 }else{
                     $('#message').removeClass('hide');
-                     $('#cont1').addClass('hide');
+                     $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su visita fue agendada');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
                 }
             })
             .done(function(e) {
