@@ -113,14 +113,7 @@
           <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/OzQSlyR.png" alt=""> </a> <br> 
           </center> <br> <br>
 
-    <a onclick="sendMail('Quisiera agendar'); eventosLanding('AGENDAR'); return false;">
-
-    <center><img width="100%" src="https://imgur.com/Y3Sw6ay.jpg"></center>
-</a>
-
-                 <br>
-
-
+    
 
           <button onclick="sendMail('Solicito ser Contactado Plan Gigas Libre'); ;eventosLanding('Informacion GIGAS LIBRE'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
           <br> <br> <br> 
@@ -172,6 +165,14 @@
     </div>
     </div>
     </center>
+
+<a onclick="sendMail('Quisiera agendar'); eventosLanding('AGENDAR'); return false;">
+
+    <center><img width="100%" src="https://imgur.com/Y3Sw6ay.jpg"></center>
+</a>
+
+                 <br>
+    
 </div>
 
            
