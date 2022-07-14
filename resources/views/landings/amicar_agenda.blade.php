@@ -25,7 +25,7 @@ $enddate=strtotime("+15 days", $startdate);
                <br>
 <h5 class="text-black text-center">
 
-    <center><img width="80%" src="https://imgur.com/Y3Sw6ay"></center>
+    <center><img width="80%" src="https://imgur.com/Y3Sw6ay.jpg"></center>
 
 
 
