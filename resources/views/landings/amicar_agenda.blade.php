@@ -27,9 +27,9 @@ $enddate=strtotime("+15 days", $startdate);
 
 
 
+ 
 
-    <a class="ml-4" onclick="eventosLanding('gmail');" href="mailto:renovaciones@amicar.cl">
-
+    <button onclick="sendMail('QUISIERA AGENDAR'); eventosLanding('AGENDAR'); return false;" class="btn bg-white text-danger col-12 mt-4"><h4>
     <center><img width="100%" src="https://imgur.com/Y3Sw6ay.jpg"></center>
 </a>
 
@@ -206,7 +206,7 @@ $enddate=strtotime("+15 days", $startdate);
                 } 
             }
 
-            var correo = ["carla.torres@amicar.cl"];
+            var correo = ["esolano547@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
