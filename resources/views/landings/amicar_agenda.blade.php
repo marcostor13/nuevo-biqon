@@ -102,13 +102,6 @@ $enddate=strtotime("+15 days", $startdate);
 
    </div> 
      <script>
-   //EVENT 1
-
-         $('#date1').on('change', function(){
-                        if($('#date1').val() != ''){
-                            sendMail();
-                        }
-                    });
 
         $(function(){
             events({    
@@ -149,7 +142,9 @@ $enddate=strtotime("+15 days", $startdate);
                         }
                     });
                 }else{
-                    $('#error').text(e.msg);
+                    $('#cont1').addClass('hide');
+                     $('#cont5').removeClass('hide');
+                    $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
                 }
             })
             .fail(function() {
@@ -163,7 +158,7 @@ $enddate=strtotime("+15 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-           // json_datos.nombre = $('#name').text();
+            //json_datos.nombre = $('#name').text();
            // json_datos.monto = $('#pay').text();
 
             events({    
@@ -183,52 +178,73 @@ $enddate=strtotime("+15 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
-                    'Mombre': getUrlParameter('nombre'),
+                    'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
-                    'Phone': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2')                
+                    'Telefono': getUrlParameter('telefono'),
+                    'Comuna': getUrlParameter('data1'),
+                    //'Prevision': getUrlParameter('data2'),
+                    //'Estado': getUrlParameter('data3'),
+                    //'Ley': getUrlParameter('data4'),
+                     'RUT': getUrlParameter('rut'),
+                     'landing': '{!! $landing->name !!}'
+                   
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'Fecha': date,
+                    'fecha': date,
                     'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
-                    'Phone': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2'),
-                    'landing': '{!! $landing->name !!}'
+                    'Telefono': getUrlParameter('telefono'),
+                    'Comuna': getUrlParameter('data1'),
+                    //'Prevision': getUrlParameter('data2'),
+                    //'Estado': getUrlParameter('data3'),
+                    //'Ley': getUrlParameter('data4'),
+                     'RUT': getUrlParameter('rut'),
+                     'landing': '{!! $landing->name !!}'
                 } 
             }
 
-            var correo = ["esolano547@gmail.com"];
+           var correo = ["eduardo.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
-                //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                //'email': '{!! $landing->email !!}' "inttegrados@gmail.com", ,"jesus.binteraction@gmail.com" 
+                //'email': 'marcostor13@gmail.com' ,"jesus.binteraction@gmail.com" 
             }
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 }
             });
-           $.post( "/sendMail", dataSend,function() {
+            $.post( "/sendMail", dataSend,function() {
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
-                     $('#cont1').addClass('hide');
-                    $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su solicitud fue enviada a nuestra área de admisión. A la brevedad nos pondremos en contacto');
+                     $('#cont2').addClass('hide');
+                     $('#cont7').addClass('hide');
+                     $('#cont6').addClass('hide');
+                     $('#port4').addClass('hide');
+                     $('#port3').addClass('hide');
+                     $('#port2').addClass('hide');
+                     $('#port1').addClass('hide');
+                     $('#nuev5').addClass('hide');
+                     $('#nuev4').addClass('hide');
+                     $('#nuev3').addClass('hide');
+                     $('#nuev2').addClass('hide');
+                     $('#nuev1').addClass('hide');
+                     $('#form').addClass('hide');
+                     $('#actual').addClass('hide');
+                     $('#cont3').removeClass('hide');
+                     $('#message').text('Muchas Gracias. Su Solicitud Fue enviada a nuestra área. Nos pondremos en contacto con usted.');
+
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
                     $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                     eventosLanding('Solicitud de Plan');
                 }
             })
             .done(function(e) {
@@ -295,8 +311,148 @@ $enddate=strtotime("+15 days", $startdate);
         };
 
       
-        
-    
+         function Mens(){
+             window.location.href = "tel:+56975890470";
+        }  
+
+
+     function Mens1(){
+   window.location.href = "https://api.whatsapp.com/send?phone=56975890470&text=Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+        } 
+
+
+    function Mens2(){
+         var body_message = "Quiero%20tener%20mas%20informacion%20sobre%20el%20servicio%20de%20Portabilidad";
+             window.location.href = "mailto:angelo.castillo@solvencia.cl ?subject=Portabilidad%20Claro&body"+body_message;
+ }
+
+
+  function Mens3(){
+        $('#cont2').addClass('hide');
+        $('#form').removeClass('hide'); 
+        $('#CONT').removeClass('hide');
+        $('#actual').addClass('hide');
+
+ }
+
+ function activa(){
+
+  $('#cont2').addClass('hide');
+  $('#cont7').removeClass('hide');
+ }
+
+  function activa1(){
+
+  $('#cont2').addClass('hide');
+  $('#cont6').removeClass('hide');
+ }
+//portabilidad 4 planes
+ function port1(){
+
+  $('#cont7').addClass('hide');
+  $('#form').removeClass('hide');
+  $('#actual').removeClass('hide');
+  $('#port1').removeClass('hide');
+  $('#port11').removeClass('hide');
+ }
+ function port2(){
+
+  $('#cont7').addClass('hide');
+   $('#form').removeClass('hide');
+   $('#actual').removeClass('hide');
+  $('#port2').removeClass('hide');
+  $('#port22').removeClass('hide');
+ }
+  function port3(){
+
+  $('#cont7').addClass('hide');
+  $('#form').removeClass('hide');
+  $('#actual').removeClass('hide');
+  $('#port3').removeClass('hide');
+  $('#port33').removeClass('hide');
+ }
+ function port4(){
+
+  $('#cont7').addClass('hide');
+  $('#form').removeClass('hide');
+  $('#actual').removeClass('hide');
+  $('#port4').removeClass('hide');
+  $('#port44').removeClass('hide');
+ }
+//linea nueva 5 planes
+ function nuev1(){
+
+  $('#cont6').addClass('hide');
+    $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev1').removeClass('hide');
+   $('#nuev11').removeClass('hide');
+ }
+ function nuev2(){
+
+  $('#cont6').addClass('hide');
+   $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev2').removeClass('hide');
+   $('#nuev22').removeClass('hide');
+ }
+ function nuev3(){
+
+  $('#cont6').addClass('hide');
+    $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev3').removeClass('hide');
+   $('#nuev33').removeClass('hide');
+ }
+ function nuev4(){
+
+  $('#cont6').addClass('hide');
+   $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev4').removeClass('hide');
+   $('#nuev44').removeClass('hide');
+ }
+ function nuev5(){
+
+  $('#cont6').addClass('hide');
+   $('#form').removeClass('hide');
+  $('#nuevo').removeClass('hide');
+  $('#nuev5').removeClass('hide');
+   $('#nuev55').removeClass('hide');
+ }
+
+
+ function p0(){
+
+    $('#cont7').addClass('hide');
+    $('#cont6').addClass('hide');
+    $('#form').addClass('hide');
+    $('#cont2').removeClass('hide');
+    $('#port4').addClass('hide');
+    $('#port3').addClass('hide');
+    $('#port2').addClass('hide');
+    $('#port1').addClass('hide');
+    $('#nuev5').addClass('hide');
+    $('#nuev4').addClass('hide');
+    $('#nuev3').addClass('hide');
+    $('#nuev2').addClass('hide');
+    $('#nuev1').addClass('hide');
+    $('#port44').addClass('hide');
+    $('#port33').addClass('hide');
+    $('#port22').addClass('hide');
+    $('#port11').addClass('hide');
+    $('#nuev55').addClass('hide');
+    $('#nuev44').addClass('hide');
+    $('#nuev33').addClass('hide');
+    $('#nuev22').addClass('hide');
+    $('#nuev11').addClass('hide');
+    $('#actual').addClass('hide');
+    $('#cont3').addClass('hide');
+    $('#CONT').addClass('hide');
+ }
+
+
+
     </script>
     
 
