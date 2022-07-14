@@ -80,99 +80,14 @@
             <img style="max-width:200px; max-height:180px "class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="simple">
 
 
-            <div id="cont5" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
-                            </div>
-                        </div>
-                    </div>
-            <div id="cont2" class="p-2 pl-3 ">
-         <center> <h3  class="text-primary "><strong> Conoce Nuestras Ofertas En Planes Móviles Del Mes</strong> </h3></center>
-            <div class="card">     
-         <div class="card-body">
-
-
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <!--<li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>-->
-        <!--<li data-target="#myCarousel" data-slide-to="9"></li>-->
-    </ol> 
-
-     <div class="carousel-inner">
-        <div class="item active">
-        <center> <a onclick="sendMail('Solicito ser Contactado Plan Gigas Libre'); ;eventosLanding('Informacion GIGAS LIBRE'); return false;">
-          <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/OzQSlyR.png" alt=""> </a> <br> 
-          </center> <br> <br>
-
-    
-
-          <button onclick="sendMail('Solicito ser Contactado Plan Gigas Libre'); ;eventosLanding('Informacion GIGAS LIBRE'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-          <br> <br> <br> 
-        </div>
-        <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan Max M'); ;eventosLanding('Solicitud Informacion  Plan Max M'); return false;"> 
-        <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/fJMsIxz.png" alt=""> </a> <br> 
-        </center><br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan Max M'); ;eventosLanding('Solicitud Informacion  Plan Max M'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-        <br> <br> <br> 
-        </div>
-        <div class="item">
-        <center><a onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;">   
-        <img style="max-width:250px; max-height:400px " src="https://i.imgur.com/TjBYOIv.png" alt=""> </a> <br> 
-        </center> <br> <br>
-        <button onclick="sendMail('Solicito ser Contactado Plan Max L'); ;eventosLanding('Solicitud Informacion  Plan Max L'); return false;" class="btn bg-danger text-white col-12 mt-2"><h4>Contáctenme</h4></button>
-                      <br> <br> <br>          
-        </div>
-       <!-- <div class="item">
-            <img src="https://i.imgur.com/xX5SEJt.png" alt="">
-        </div>
-        <div class="item">
-            <img src="https://i.imgur.com/CmmiqSh.png" alt="">
-        </div>
-        <div class="item">
-            <img src="https://i.imgur.com/fFBy9Vi.png" alt="">
-        </div>
-        <div class="item">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_984738-MLC45362014336_032021-O.webp" alt="">
-        </div>
-        <div class="item">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_630036-MLC45362014339_032021-O.webp" alt="">
-        </div>
-        <div class="item">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_759418-MLC45362014333_032021-O.webp" alt="">
-        </div>-->
-
-    </div>
-
-     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
-    </div>
-    </div>
-    </center>
-
+            
 <a onclick="sendMail('Quisiera agendar'); eventosLanding('AGENDAR'); return false;">
 
     <center><img width="100%" src="https://imgur.com/Y3Sw6ay.jpg"></center>
 </a>
 
                  <br>
-    
+
 </div>
 
            
