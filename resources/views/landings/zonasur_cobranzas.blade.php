@@ -94,18 +94,8 @@ agradecemos su tiempo si ya pagó, no considere el mensaje</p>
              <button class="btn bg-success text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">NECESITO QUE ME CONTACTEN</button>
             
           
-       <!--         
-             <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMADA A EJECUTIVO </button>  
 
-                <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
- 
-
-                -->
-
-             </div>
-                   
-
-<div class="d-flex justify-content-around align-content-center mt-4"> 
+          <div class="d-flex justify-content-around align-content-center mt-4"> 
                <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
 
                  <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
@@ -120,6 +110,18 @@ agradecemos su tiempo si ya pagó, no considere el mensaje</p>
                 </div>
 
 
+
+
+       <!--         
+             <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMADA A EJECUTIVO </button>  
+
+                <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+ 
+
+                -->
+
+             </div>
+                   
 
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
