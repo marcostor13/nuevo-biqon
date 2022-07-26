@@ -147,11 +147,11 @@ $enddate=strtotime("+5 days", $startdate);
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
                          <span class="text-white  text-center">Telefono<br>
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56967664209&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56966886629&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
                        <span class="text-white text-center">Teléfono Central<br>
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:800207070"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:966886629"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
                        <span class="text-white  text-center">Correo<br>
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:jesus.binteraction@gmail.com"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:ecalderonm@detacoop.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
                    <!-- <span class="text-white  text-center">Pago en Linea<br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>-->
                 <br><br>
@@ -285,7 +285,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["aldocontreras@zonasursa.cl"];  
+            var correo = ["ecalderonm@detacoop.cl"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
