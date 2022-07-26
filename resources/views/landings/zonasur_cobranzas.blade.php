@@ -81,20 +81,39 @@ $enddate=strtotime("+5 days", $startdate);
 agradecemos su tiempo si ya pagó, no considere el mensaje</p>
 
                   <!--  <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>-->
+
+
+                  <div class="date btn bg-primary text-white col-12 mt-4">
+                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
+                </div>
                 
 
              <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-success text-white col-12 mt-2">YA PAGUE</button>
 
              <button class="btn bg-success text-white col-12 mt-2" onclick="sendMail('El cliente solicito que contactarse');eventosLanding('Contactarse');">NECESITO QUE ME CONTACTEN</button>
             
-             <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+          
+       <!--         
+             <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMADA A EJECUTIVO </button>  
 
-                
-             <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-success text-white col-12 mt-2">LLAMADA A EJECUTIVO </button>   
+                <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-success text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+ 
 
-                
+                -->
 
              </div>
+                   
+                <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+
+                <a class="ml-4" onclick="eventosLanding('gmail');" href="https://www.instagram.com/naztech.chile/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
+
+
+                <a class="ml-4" onclick="eventosLanding('telefono');" href="https://www.instagram.com/naztech.chile/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
+
+
+
+
                            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
