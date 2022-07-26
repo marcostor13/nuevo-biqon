@@ -100,10 +100,10 @@ agradecemos su tiempo si ya pagó, no considere el mensaje</p>
 
                  <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
 
-                <a class="ml-4" onclick="eventosLanding('gmail');" href="https://www.instagram.com/naztech.chile/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
+                <a class="ml-4" onclick="eventosLanding('gmail');" href="mailto: g@zonasursa.cl"><img width="50" src="https://imgur.com/r0207Me.png"></a>
 
 
-                <a class="ml-4" onclick="eventosLanding('telefono');" href="https://www.instagram.com/naztech.chile/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
+                <a class="ml-4" onclick="eventosLanding('telefono');" href="tel:992208237"><img width="50" src="https://imgur.com/fd8dy76.png"></a>
 
                    
                     
