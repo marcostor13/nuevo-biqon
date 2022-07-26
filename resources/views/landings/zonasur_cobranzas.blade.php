@@ -75,8 +75,9 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado (a)<span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                    Nuestro país enfrenta un desafío importante y hoy, más que nunca  <br> #EstamosJuntosEnEsto  <br>
-                    <br><strong>Es por eso hemos preparado para ti una oferta única para el pago Total de tu deuda.</strong></p>
+                   Tanner le recuerda que según nuestros registros mantiene un saldo pendiente, lo invitamos a normalizar.
+<br>
+agradecemos su tiempo si ya pagó, no considere</p>
 
                   <!--  <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>-->
                 
@@ -200,7 +201,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
             }
 
-            var correo = ["eduardo.binteraction@gmail.com"];  
+            var correo = ["g@zonasursa.cl"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
@@ -304,13 +305,13 @@ $enddate=strtotime("+5 days", $startdate);
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56998861594&text=Hola,%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56992208237&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56998861594";
+        window.location.href ="tel:+56992208237";
     
         } 
     </script>
