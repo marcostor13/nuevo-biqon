@@ -75,7 +75,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado (a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                  Zona sur por cuenta de Tanner le recuerda que según nuestros registros mantiene un saldo pendiente, lo invitamos a normalizar su cuenta.
+                <strong> Zona sur</strong> por cuenta de <strong>Tanner</strong> le recuerda que según nuestros registros mantiene un saldo pendiente, <br> lo invitamos a normalizar su cuenta.
 
 <br>
 agradecemos su tiempo si ya pagó, no considere el mensaje</p>
@@ -83,7 +83,7 @@ agradecemos su tiempo si ya pagó, no considere el mensaje</p>
                   <!--  <button onclick="Mens1(); eventosLanding('Pago Transferencia');" class="btn bg-success text-white col-12 mt-2">PAGAR AHORA </button>-->
 
 
-                  <div class="date btn bg-primary text-white col-12 mt-4">
+                  <div class="date btn bg-success text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
@@ -104,13 +104,20 @@ agradecemos su tiempo si ya pagó, no considere el mensaje</p>
 
              </div>
                    
-                <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+
+<div class="d-flex justify-content-around align-content-center mt-4"> 
+               <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
+
+                 <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
 
                 <a class="ml-4" onclick="eventosLanding('gmail');" href="https://www.instagram.com/naztech.chile/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
 
 
                 <a class="ml-4" onclick="eventosLanding('telefono');" href="https://www.instagram.com/naztech.chile/"><img width="50" src="https://i.imgur.com/DVoiS58.png"></a>
 
+                   
+                    
+                </div>
 
 
 
