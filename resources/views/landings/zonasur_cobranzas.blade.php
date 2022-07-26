@@ -75,7 +75,9 @@ $enddate=strtotime("+5 days", $startdate);
                 <h3 class="text-black text-center">Estimado (a) <span id="name"></span></h3>
 
                <p class="text-black" align="text-center">
-                <strong> Zona sur</strong> por cuenta de <strong>Tanner</strong> le recuerda que según nuestros registros mantiene un saldo pendiente, <br> lo invitamos a normalizar su cuenta.
+                <strong> Zona sur</strong> por cuenta de <strong>Tanner</strong> le recuerda que según nuestros registros mantiene un saldo pendiente, <br> <br>
+
+                lo invitamos a normalizar su cuenta.
 
 <br>
 agradecemos su tiempo si ya pagó, no considere el mensaje</p>
