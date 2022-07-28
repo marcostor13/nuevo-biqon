@@ -248,11 +248,11 @@ producto opción inteligente
                     'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Telefono': getUrlParameter('telefono'),
-                    'Correo': getUrlParameter('data1'),
+                    'Empresa': getUrlParameter('data1'),
                   'comuna': getUrlParameter('data2'),
                     'rango': getUrlParameter('data3'),
                  //   'Ley': getUrlParameter('data4'),
-                     'rut': getUrlParameter('rut'),
+                     'Id': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
