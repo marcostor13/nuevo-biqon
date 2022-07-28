@@ -76,10 +76,11 @@ producto opción inteligente
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
+
     
       <img width="100%" src="https://imgur.com/wAuVFka.jpg">
 
-
+<br>
 
 
                    <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
@@ -93,6 +94,8 @@ producto opción inteligente
                       <label for="form2"></label>
                     </div>
                   </div>
+
+<br>
 
                    <img width="100%" src="https://imgur.com/PS5GOtv.jpg">
 
