@@ -86,7 +86,7 @@ producto opción inteligente
                     </div>
                   </div>
 
-                  
+                   <img width="100%" src="https://imgur.com/PS5GOtv.jpg">
                   </center>
                     <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Enviar información</button>
 
@@ -94,7 +94,7 @@ producto opción inteligente
 <br>
                  
 
-               <img width="150%" src="https://imgur.com/PS5GOtv.jpg">
+              
 
                <!--<a class="ml-4" onclick="eventosLanding('pagina web');" href="https://admision.udalba.cl/programas-advance2/"><img width="50" src="https://imgur.com/Tu3WSx7.png"></a>
                     </center>-->
