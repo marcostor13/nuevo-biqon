@@ -92,23 +92,6 @@ producto opción inteligente
 
 
 
- <div style="color:#FF4500" class="md-form col-12 m-0"> 
-                    <select  style="color:#FF4500"class="form-control" id="preferencia" required>
-                      <option style="color:#FF4500"value="" data-select2-id="4">Selecciona una Opcion</option>
-                      
-      <option value="RENOVAR" data-select2-id="8">RENOVAR</option>
-      <option value="REFINANCIAR" data-select2-id="9">REFINANCIAR</option>
-      <option value="PREPAGAR" data-select2-id="10">PREPAGAR</option>
-                    </select>
-                  </div>
-
-
-
-
-
-<br>
-
-
 <h4 style="color:#000000">Si tu preferencia es Renovar que modelo es de tu intéres y en que mes</h4>
                     <br>
                   </h4>
