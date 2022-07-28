@@ -274,7 +274,7 @@ producto opción inteligente
                     $('#message').removeClass('hide');
                      $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su solicitud fue enviada a nuestra área de admisión. A la brevedad nos pondremos en contacto');
+                    $('#message').text('uchas Gracias. Su solicitud fue enviada a nuestra área. A la brevedad nos pondremos en contacto');
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
