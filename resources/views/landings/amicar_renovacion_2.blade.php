@@ -104,7 +104,7 @@ producto opción inteligente
     
              <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-12  m-0">
-                                      <textarea type="text" style="color:#FF4500" name="mensaje" for="mensaje" required placeholder="Describe Brevemente en menos de 300 Carácteres" maxlength="300" id="correo">
+                                      <textarea type="text" style="color:#FF4500" name="mensaje" for="mensaje" required placeholder="Describe Brevemente en menos de 300 Carácteres" class="form-control"maxlength="300" id="correo">
                             </textarea>
 
                       <label for="form2"></label>
