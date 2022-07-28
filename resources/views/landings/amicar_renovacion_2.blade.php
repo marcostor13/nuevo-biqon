@@ -233,11 +233,11 @@ producto opción inteligente
                     'Nombre': $('#nombre').val(),
                     'Nombre': getUrlParameter('nombre'),
                     'Modelo': $('#Modelo').val(),
-                    'RUT': $('#rut').val(),
+                    'Id': $('#rut').val(),
                     'Mes': $('#Mes').val(),
                     'Telefono': getUrlParameter('telefono'),
                     'RESPUESTA': $('#correo').val(),
-                    'Correo': getUrlParameter('data1'),
+                    'Empresa': getUrlParameter('data1'),
                     'RUT': getUrlParameter('rut'),
                     'preferencia': $('#preferencia').val()               
                 }
