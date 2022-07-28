@@ -82,34 +82,13 @@ producto opción inteligente
 
 
 
-    <textarea name="mensaje"></textarea>
-
-  </p>
-
-  <input type="submit" value="Enviar la información">
-
-</form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                    <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-12  m-0">
                       
 
-                      <input type="text" style="color:#FF4500" id="correo" class="form-control"  required placeholder="">
+                      <input type="submit" id="correo">
 
                       <label for="form2"></label>
                     </div>
