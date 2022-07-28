@@ -85,7 +85,17 @@ producto opción inteligente
             <br>
             <a target="_blank" href="https://admision.udalba.cl/programas-advance2/" class="btn bg-danger text-white col-8 mt-4">Ir a la página web---->
               <i class="fas fa-graduation-cap ml-2"></i>
+
             </a>
+
+
+             <hr><div id="cont1" class="p-3 ">
+                  <div class="card">     
+                <div class="card-body">
+                  <!-- Heading -->
+                  <h4 class="dark-grey-text text-center">
+                  </h4>
+
 
 
     
