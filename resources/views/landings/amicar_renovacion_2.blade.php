@@ -88,44 +88,11 @@ producto opción inteligente
         
                     <br>
                   </h4>
-
-
-
-
-<h4 style="color:#000000">Si tu preferencia es Renovar que modelo es de tu intéres y en que mes</h4>
-                    <br>
-                  </h4>
-<center>
-               <label style="color:#FF4500"for="Modelo" class="form-label"> Ingresar Modelo</label>
-                <br>
-
-                <div style="color:#FF4500" class="d-flex justify-content-between  m-0">
-                    <div style="color:#FF4500"class="md-form col-12  m-0">
-                      <input style="color:#FF4500"type="text" id="Modelo" class="form-control" required placeholder="Ingresar Modelo">
-                      <label for="form3"></label>
-                    </div>
-                  </div>
-
-                  <br>
-
-                  <label style="color:#FF4500"for="Modelo" class="form-label"> Ingresar Mes</label>
-                <br>
-
-                <div style="color:#FF4500" class="d-flex justify-content-between  m-0">
-                    <div style="color:#FF4500"class="md-form col-12  m-0">
-                      <input style="color:#FF4500"type="text" id="Mes" class="form-control" required placeholder="Ingresar Mes">
-                      <label for="form3"></label>
-                    </div>
-                  </div>
-
-                  <br>
-
-
-<h4 style="color:#000000">Favor ingresar el correo para contactar</h4>
+<center><img width="80%" src="https://imgur.com/wAuVFka.jpg"></center>
 
                     <br>
                   </h4>
-                  <label style="color:#FF4500"for="Modelo" class="form-label"> Ingresar Correo</label>
+                  <label style="color:#FF4500"for="Modelo" class="form-label"></label>
                   <br>
                    <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-12  m-0">
@@ -141,6 +108,8 @@ producto opción inteligente
                   <div class="text-center">
 <br>
                  
+
+                 <center><img width="80%" src="https://imgur.com/WU0Va58.jpg"></center>
                   
 
                <!--<a class="ml-4" onclick="eventosLanding('pagina web');" href="https://admision.udalba.cl/programas-advance2/"><img width="50" src="https://imgur.com/Tu3WSx7.png"></a>
