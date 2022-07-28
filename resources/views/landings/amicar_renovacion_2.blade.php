@@ -115,7 +115,7 @@ producto opción inteligente
 <br>
 
 
-                    <button class="btn bg-danger text-white col-12 mt-2" onclick="sendMail('Repuesta del Proceso De Renovacion');eventosLanding('BOTON RESPUESTA'); return false;">Enviar información</button>
+                    <button class="btn bg-danger text-white col-12 mt-2" onclick="sendMail('Respuesta del Proceso De Renovacion');eventosLanding('BOTON RESPUESTA'); return false;">Enviar información</button>
 
                   <div class="text-center">
 <br>
