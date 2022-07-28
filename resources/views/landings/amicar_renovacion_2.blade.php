@@ -87,7 +87,19 @@ producto opción inteligente
               <i class="fas fa-graduation-cap ml-2"></i>
 
             </a>
+<div style="color:#FF4500" class="md-form col-12 m-0"> 
 
+</div>
+
+     <div style="color:#FF4500" class="d-flex justify-content-between  m-0">
+
+</div>
+         <div style="color:#FF4500" class="d-flex justify-content-between  m-0">
+
+            </div>
+
+            <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
+                     <div style="color:#FF4500"class="md-form col-12  m-0">
 
     
              <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
@@ -100,14 +112,7 @@ producto opción inteligente
                        <img width="100%" src="https://imgur.com/8YDL4d5.jpg">
                     </div>
                   </div>
-
-
-
-
 <br>
-
-                  
-
 
 
                     <button class="btn bg-danger text-white col-12 mt-2" onclick="sendMail('Repuesta del Proceso De Renovacion');eventosLanding('BOTON RESPUESTA'); return false;">Enviar información</button>
@@ -141,8 +146,7 @@ producto opción inteligente
 
         </div>
     </div>
-  <center> <strong>Tus comentarios nos ayudan A ser mejores,<br>
-<br>
+  <center> <strong>Tus comentarios nos ayudan a ser mejores,<br>
  muchas gracias!
 !</strong> </center>
                   
