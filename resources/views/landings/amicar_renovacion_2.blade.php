@@ -89,15 +89,6 @@ producto opción inteligente
             </a>
 
 
-             <hr><div id="cont1" class="p-3 ">
-                  <div class="card">     
-                <div class="card-body">
-                  <!-- Heading -->
-                  <h4 class="dark-grey-text text-center">
-                  </h4>
-
-
-
     
              <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-12  m-0">
