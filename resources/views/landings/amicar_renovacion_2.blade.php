@@ -141,7 +141,10 @@ producto opción inteligente
 
         </div>
     </div>
-  <center> <strong>Muchas Gracias!</strong> </center>
+  <center> <strong>Tus comentarios nos ayudan A ser mejores,<br>
+<br>
+ muchas gracias!
+!</strong> </center>
                   
         
      <script>
