@@ -256,7 +256,7 @@ producto opción inteligente
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["eduardo547@gmail.com","eduardo.binteraction@gmail.com"];
+            var correo = ["jessicavilla@derco.cl","carla.torres@amicar.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
