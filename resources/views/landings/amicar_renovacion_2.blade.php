@@ -73,8 +73,7 @@ producto opción inteligente
 <br>
       
       <br>
-      <br>
-      <br>
+      
            <!-- <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
 <img style="max-width:100%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UALBA">
 
