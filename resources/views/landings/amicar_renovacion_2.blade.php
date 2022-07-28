@@ -86,13 +86,7 @@ producto opción inteligente
             <a target="_blank" href="https://admision.udalba.cl/programas-advance2/" class="btn bg-danger text-white col-8 mt-4">Ir a la página web---->
               <i class="fas fa-graduation-cap ml-2"></i>
 
- </a>
-               <hr><div id="cont1" class="p-3 ">
-                  <div class="card">     
-                <div class="card-body">
-                  <!-- Heading -->
-
-           
+            </a>
 <div style="color:#FF4500" class="md-form col-12 m-0"> 
 
 </div>
@@ -280,7 +274,7 @@ producto opción inteligente
                     $('#message').removeClass('hide');
                      $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('uchas Gracias. Su solicitud fue enviada a nuestra área. A la brevedad nos pondremos en contacto');
+                    $('#message').text('Muchas Gracias. Su solicitud fue enviada a nuestra área. A la brevedad nos pondremos en contacto');
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
