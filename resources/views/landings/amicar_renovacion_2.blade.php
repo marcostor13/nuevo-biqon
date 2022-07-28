@@ -77,16 +77,53 @@ producto opción inteligente
             </a>
 
     
-<img width="100%" src="https://imgur.com/wAuVFka.jpg">
+      <img width="100%" src="https://imgur.com/wAuVFka.jpg">
+
+
+<form action="../form-result.php" target="_blank">
+
+  <p>Ingresa tu nombre completo: <input type="text" name="nombrecompleto"></p>
+
+  <p>
+
+    Deja un mensaje:<br>
+
+    <textarea name="mensaje"></textarea>
+
+  </p>
+
+  <input type="submit" value="Enviar la información">
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
 
                    <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-12  m-0">
-                      <input type="text" style="color:#FF4500" id="correo" class="form-control"  required placeholder="Ingresar Correo">
+                      
+
+                      <input type="text" style="color:#FF4500" id="correo" class="form-control"  required placeholder="">
+
                       <label for="form2"></label>
                     </div>
                   </div>
 
                    <img width="100%" src="https://imgur.com/PS5GOtv.jpg">
+
+
                   </center>
                     <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Enviar información</button>
 
