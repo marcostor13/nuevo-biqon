@@ -86,9 +86,9 @@ producto opción inteligente
                     <div style="color:#FF4500"class="md-form col-12  m-0">
                       
 
-                      <input type="text" maxlength="300" id="correo">
-
-                      <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+                      <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300" id="correo">
+                          
+                      </textarea>
 
                       <label for="form2"></label>
                     </div>
@@ -237,7 +237,7 @@ producto opción inteligente
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["renovaciones@amicar.cl"," carla.torres@amicar.cl"];
+            var correo = ["eduardo547@gmail.com","eduardo.binteraction@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
