@@ -86,7 +86,9 @@ producto opción inteligente
                     <div style="color:#FF4500"class="md-form col-12  m-0">
                       
 
-                      <input type="text"  id="correo">
+                      <input type="text" maxlength="300" id="correo">
+
+                      <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
 
                       <label for="form2"></label>
                     </div>
@@ -96,7 +98,7 @@ producto opción inteligente
 
 
                   </center>
-                    <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Enviar información</button>
+                    <button class="btn bg-danger text-white col-12 mt-2" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Enviar información</button>
 
                   <div class="text-center">
 <br>
