@@ -80,13 +80,7 @@ producto opción inteligente
       <img width="100%" src="https://imgur.com/wAuVFka.jpg">
 
 
-<form action="../form-result.php" target="_blank">
 
-  <p>Ingresa tu nombre completo: <input type="text" name="nombrecompleto"></p>
-
-  <p>
-
-    Deja un mensaje:<br>
 
     <textarea name="mensaje"></textarea>
 
@@ -109,7 +103,7 @@ producto opción inteligente
 
 
 
-      
+
 
                    <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-12  m-0">
