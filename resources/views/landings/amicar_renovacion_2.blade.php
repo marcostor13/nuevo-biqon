@@ -64,7 +64,9 @@ $enddate=strtotime("+5 days", $startdate);
 
 <br>
 <center>
-<strong><h4 style="color:#000000">Favor comentanos tus preferencias para ponernos en contacto</h4><center></strong>
+<strong><h4 style="color:#000000">Queremos saber como fue el proceso de renovacion de tú
+producto opción inteligente
+</h4><center></strong>
       
            <!-- <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
 <img style="max-width:100%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UALBA">
@@ -82,8 +84,7 @@ $enddate=strtotime("+5 days", $startdate);
                   <h4 class="dark-grey-text text-center">
                   </h4>
 
-                  <br>
-<h4 style="color:#000000">Nos interesa conocer que ópcion es de tu preferencia</h4>
+                
         
                     <br>
                   </h4>
