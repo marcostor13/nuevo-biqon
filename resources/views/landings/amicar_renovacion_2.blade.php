@@ -67,10 +67,19 @@ $enddate=strtotime("+5 days", $startdate);
 <strong><h4 style="color:#000000">Queremos saber como fue el proceso de renovacion de tú
 producto opción inteligente
 </h4><center></strong>
+
+       <img width="100%" src="https://imgur.com/wAuVFka.jpg">
+
+<br>
       
            <!-- <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
 <img style="max-width:100%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UALBA">
 
+
+
+   <img width="100%" src="https://imgur.com/wAuVFka.jpg">
+
+<br>
             <br>
             <a target="_blank" href="https://admision.udalba.cl/programas-advance2/" class="btn bg-danger text-white col-8 mt-4">Ir a la página web---->
               <i class="fas fa-graduation-cap ml-2"></i>
@@ -78,9 +87,7 @@ producto opción inteligente
 
 
     
-      <img width="100%" src="https://imgur.com/wAuVFka.jpg">
-
-<br>
+   
 
 
                    <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
