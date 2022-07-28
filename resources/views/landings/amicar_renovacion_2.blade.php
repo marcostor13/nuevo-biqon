@@ -5,113 +5,189 @@
 @section('content')
 <?php
 $startdate=strtotime("Today");
-$enddate=strtotime("+15 days", $startdate);
+$enddate=strtotime("+5 days", $startdate);
 ?>
 <style>
 .opaco{
     display: none !important; 
+
 }
- .input-min-width-95p {min-width:95%;}
-   .input-min-width-95p {min-height:5%;}
+.input{
+  border-color: #A1CBF3 !important;
+}
+     
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border: 0;
+  font-weight: 400;
+}
+.card[class*=border] {
+  border: 1px solid #9e9e9e;
+  box-shadow: none;
+}
+.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
+  font-weight: 400;
+}
+.card .card-body .card-title a {
+  transition: 0.2s ease-in-out;
+}
+.card .card-body .card-title a:hover {
+  transition: 0.2s ease-in-out;
+}
+.card .card-body .card-text {
+  color: #747373;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.card .md-form label {
+  font-weight: 300;
+}
+
+.oscurecer {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    )
+    }
 </style>
- 
+   <!-- <div id="UALBA" class="oscurecer" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;" >-->
+
+      
         <div class="opaco"></div>
 
-       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AMICAR">
+       <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
 
-            <div id="cont1" align="align-items-center align-content-center">
-    
+ <img style="max-width: 200%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/drIqiAe.png" alt="AMICAR">
+<br>
+<center><h4 style="color:#FF4500">ESTIMADO</h4></center>
 
-<div id="cont5" class="p-2 pl-3 pr-3 hide">
+<br>
+<center>
+<strong><h4 style="color:#000000">Favor comentanos tus preferencias para ponernos en contacto</h4><center></strong>
+      
+           <!-- <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
+<img style="max-width:100%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="UALBA">
+
+            <br>
+            <a target="_blank" href="https://admision.udalba.cl/programas-advance2/" class="btn bg-danger text-white col-8 mt-4">Ir a la página web---->
+              <i class="fas fa-graduation-cap ml-2"></i>
+            </a>
+
+            
+                  <hr><div id="cont1" class="p-3 ">
+                  <div class="card">     
+                <div class="card-body">
+                  <!-- Heading -->
+                  <h4 class="dark-grey-text text-center">
+                  </h4>
+
+                  <br>
+<h4 style="color:#000000">Nos interesa conocer que ópcion es de tu preferencia</h4>
+        
+                    <br>
+                  </h4>
+
+
+
+
+ <div style="color:#FF4500" class="md-form col-12 m-0"> 
+                    <select  style="color:#FF4500"class="form-control" id="preferencia" required>
+                      <option style="color:#FF4500"value="" data-select2-id="4">Selecciona una Opcion</option>
+                      
+      <option value="RENOVAR" data-select2-id="8">RENOVAR</option>
+      <option value="REFINANCIAR" data-select2-id="9">REFINANCIAR</option>
+      <option value="PREPAGAR" data-select2-id="10">PREPAGAR</option>
+                    </select>
+                  </div>
+
+
+
+
+
+<br>
+
+
+<h4 style="color:#000000">Si tu preferencia es Renovar que modelo es de tu intéres y en que mes</h4>
+                    <br>
+                  </h4>
+<center>
+               <label style="color:#FF4500"for="Modelo" class="form-label"> Ingresar Modelo</label>
+                <br>
+
+                <div style="color:#FF4500" class="d-flex justify-content-between  m-0">
+                    <div style="color:#FF4500"class="md-form col-12  m-0">
+                      <input style="color:#FF4500"type="text" id="Modelo" class="form-control" required placeholder="Ingresar Modelo">
+                      <label for="form3"></label>
+                    </div>
+                  </div>
+
+                  <br>
+
+                  <label style="color:#FF4500"for="Modelo" class="form-label"> Ingresar Mes</label>
+                <br>
+
+                <div style="color:#FF4500" class="d-flex justify-content-between  m-0">
+                    <div style="color:#FF4500"class="md-form col-12  m-0">
+                      <input style="color:#FF4500"type="text" id="Mes" class="form-control" required placeholder="Ingresar Mes">
+                      <label for="form3"></label>
+                    </div>
+                  </div>
+
+                  <br>
+
+
+<h4 style="color:#000000">Favor ingresar el correo para contactar</h4>
+
+                    <br>
+                  </h4>
+                  <label style="color:#FF4500"for="Modelo" class="form-label"> Ingresar Correo</label>
+                  <br>
+                   <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
+                    <div style="color:#FF4500"class="md-form col-12  m-0">
+                      <input type="text" style="color:#FF4500" id="correo" class="form-control"  required placeholder="Ingresar Correo">
+                      <label for="form2"></label>
+                    </div>
+                  </div>
+
+                  
+                  </center>
+                    <button class="btn bg-danger text-white col-12 mt-4" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Enviar información</button>
+
+                  <div class="text-center">
+<br>
+                 
+                  
+
+               <!--<a class="ml-4" onclick="eventosLanding('pagina web');" href="https://admision.udalba.cl/programas-advance2/"><img width="50" src="https://imgur.com/Tu3WSx7.png"></a>
+                    </center>-->
+                  </div>
+                    </div>
+                        </div>
+               <!--<div class="d-flex justify-content-around align-content-center mt-4"> 
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56967664209"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                   
+                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:jesus.binteraction@gmail.com?subject=Landing%20Cobranza"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                </div>-->
+            </div>
+            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-5"></h5>
+                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-2 pl-3 ">
-      
- <div class="card">     
-         <div class="card-body">
-
-
-                        <a onclick="sendMail('Quisiera agendar'); eventosLanding('AGENDAR'); return false;">
-
-
-    <center><img width="100%" src="https://imgur.com/Y3Sw6ay.jpg"></center>
-</a>
-
-                 <br>
-               <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
-                   
-             <!--   <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56988078022&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
-
-                <a class="ml-4" onclick="eventosLanding('gmail');" href="mailto:renovaciones@amicar.cl"><img width="50" src="https://imgur.com/W74gEi5.png"></a>
-                   --->
-                    
-                </div>
-            </div>
 
         </div>
     </div>
-
-              <!--  <div class="videoWrapper">        
-                    <iframe width="400" height="320" src="{{asset('/files/videoami.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>-->
-
-                <!--<div class="card">     
-                <div class="card-body">
-
-                    <h5 class="text-black text-center"> <strong> Desea agendar su visita</strong> </h5>
-
-                        <div class="date btn bg-warning text-black col-12 mt-4">
-                    <span>AGENDAR</span>
-                    <input id="date1"  type="date" class="btn-date text-primary input-min-width-95p" style="border: none;" min="<?php //echo date('Y-m-d') ?>" max="<?php //echo date("Y-m-d", $enddate) ?>"/>
-                     </div>
-
-                       </div>
-                   </div>-->
-                  <!--  <label align="text-center" class=" col-10 col-md-12 mt-1">Fortaleza - V3</label><br>
-                 <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/eX2Gb1D.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo Fortaleza - V3');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-1">Contactar</a>
-                 <br>  
-                  <label align="text-center" class=" col-10 col-md-12 mt-1">Fortaleza - X25</label><br>
-                <img  style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/HYQVajl.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo Fortaleza - X25');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-1">Contactar</a>
-                <br>  
-                    <label align="text-center" class=" col-10 col-md-12 mt-1">Fortaleza - KUV 100</label><br>
-                <img style="max-width: 60%" class="img-fluid col-3 col-md-3 mt-2" src="https://i.imgur.com/Qmh7ADw.png" alt="simple"><a onclick="sendMail('Solicito ser Contactado por el modelo Fortaleza - KUV 100');eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-black  col-3 mt-1">Contactar</a>-->
-
-               
-            
-            <!--<div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56978789305&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
-                   
-                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56978789305"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
-                   
-                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:carla.torres@amicar.cl?subject=Landing%20Video%20Amicar"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
-                </div>--->
-        </div>
-
-
-        <div id="cont3" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                <h5 id="message"class="text-black text-center mt-3 hide"></h5>
-                            </div>
-                        </div>
-                    </div>
-
-   </div> 
+  <center> <strong>Muchas Gracias!</strong> </center>
+                  
+        
      <script>
    //EVENT 1
-
-         $('#date1').on('change', function(){
-                        if($('#date1').val() != ''){
-                            sendMail();
-                        }
-                    });
-
-        $(function(){
+       $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
@@ -142,7 +218,7 @@ $enddate=strtotime("+15 days", $startdate);
                 if(e.code == 200){
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
-                    $('#pay').text(e.data.monto);
+                   /// $('#dato1').text(id_adm);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -164,8 +240,12 @@ $enddate=strtotime("+15 days", $startdate);
             
             let json_datos = getAllUrlParameter(); 
 
-           // json_datos.nombre = $('#name').text();
-           // json_datos.monto = $('#pay').text();
+            //json_datos.nombre = $('#nombre').val();
+            //json_datos.apellido = $('#apellido').val();
+           // json_datos.rut = $('#rut').val();
+            //json_datos.telefono = $('#telefono').val();
+           // json_datos.correo = $('#correo').val();
+            //json_datos.carrera =  $('#carrera').val();
 
             events({    
                 'name': name,
@@ -184,47 +264,51 @@ $enddate=strtotime("+15 days", $startdate);
             if(msg !== false){
                 data = {
                     'mensaje': msg,
+                    'Nombre': $('#nombre').val(),
                     'Nombre': getUrlParameter('nombre'),
-                    //'monto': getUrlParameter('monto'),
+                    'Modelo': $('#Modelo').val(),
+                    'RUT': $('#rut').val(),
+                    'Mes': $('#Mes').val(),
                     'Telefono': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2')                
-                    
+                    'E-mail': $('#correo').val(),
+                    'Correo': getUrlParameter('data1'),
+                    'RUT': getUrlParameter('rut'),
+                    'preferencia': $('#preferencia').val()               
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                    'Fecha': date,
+                    'fecha': date,
                     'Nombre': getUrlParameter('nombre'),
                     //'monto': getUrlParameter('monto'),
                     'Telefono': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2'),
+                    'Correo': getUrlParameter('data1'),
+                  'comuna': getUrlParameter('data2'),
+                    'rango': getUrlParameter('data3'),
+                 //   'Ley': getUrlParameter('data4'),
+                     'rut': getUrlParameter('rut'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-
-            var correo = ["andrea.vergara@amicar.cl","carla.torres@amicar.cl"];
+            var correo = ["renovaciones@amicar.cl"," carla.torres@amicar.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
                 //'email': '{!! $landing->email !!}'
-                //'email': 'marcostor13@gmail.com'
+                //'email': 'patricia.medina@uss.cl'
             }
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 }
             });
-           $.post( "/sendMail", dataSend,function() {
+            $.post( "/sendMail", dataSend,function() {
                 console.log(dataSend);
                 if(msg !== false){
                     $('#message').removeClass('hide');
                      $('#cont1').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Muchas Gracias. Su solicitud fue enviada a nuestra área. A la brevedad nos pondremos en contacto');
+                    $('#message').text('Muchas Gracias. Su solicitud fue enviada a nuestra área de admisión. A la brevedad nos pondremos en contacto');
                 }else{
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
