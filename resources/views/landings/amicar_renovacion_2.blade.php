@@ -94,8 +94,7 @@ producto opción inteligente
 <br>
                  
 
-                 <center><img width="100%" src="https://imgur.com/PS5GOtv.jpg"></center>
-                  
+               <img width="150%" src="https://imgur.com/PS5GOtv.jpg">
 
                <!--<a class="ml-4" onclick="eventosLanding('pagina web');" href="https://admision.udalba.cl/programas-advance2/"><img width="50" src="https://imgur.com/Tu3WSx7.png"></a>
                     </center>-->
