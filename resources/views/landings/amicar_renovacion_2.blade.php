@@ -86,7 +86,7 @@ producto opción inteligente
                     <div style="color:#FF4500"class="md-form col-12  m-0">
                       
 
-                      <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300" id="correo">
+                      <textarea name="mensaje" for="mensaje" placeholder="Describe Brevemente en menos de 300 Carácteres" maxlength="300" id="correo">
                           
                       </textarea>
 
@@ -97,8 +97,8 @@ producto opción inteligente
                    <img width="100%" src="https://imgur.com/PS5GOtv.jpg">
 
 
-                  </center>
-                    <button class="btn bg-danger text-white col-12 mt-2" onclick="sendMail('El cliente solicito Informacion');eventosLanding('Solicitud Informacion'); return false;">Enviar información</button>
+
+                    <button class="btn bg-danger text-white col-12 mt-2" onclick="sendMail('repuesta del proceso');eventosLanding('BOTON RESPUESTA'); return false;">Enviar información</button>
 
                   <div class="text-center">
 <br>
@@ -217,7 +217,7 @@ producto opción inteligente
                     'RUT': $('#rut').val(),
                     'Mes': $('#Mes').val(),
                     'Telefono': getUrlParameter('telefono'),
-                    'E-mail': $('#correo').val(),
+                    'RESPUESTA': $('#correo').val(),
                     'Correo': getUrlParameter('data1'),
                     'RUT': getUrlParameter('rut'),
                     'preferencia': $('#preferencia').val()               
