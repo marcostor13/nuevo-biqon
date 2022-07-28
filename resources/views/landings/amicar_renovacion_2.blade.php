@@ -76,24 +76,9 @@ producto opción inteligente
               <i class="fas fa-graduation-cap ml-2"></i>
             </a>
 
-            
-                  <hr><div id="cont1" class="p-3 ">
-                  <div class="card">     
-                <div class="card-body">
-                  <!-- Heading -->
-                  <h4 class="dark-grey-text text-center">
-                  </h4>
+    
+<img width="100%" src="https://imgur.com/wAuVFka.jpg">
 
-                
-        
-                    <br>
-                  </h4>
-<center><img width="80%" src="https://imgur.com/wAuVFka.jpg"></center>
-
-                    <br>
-                  </h4>
-                  <label style="color:#FF4500"for="Modelo" class="form-label"></label>
-                  <br>
                    <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-12  m-0">
                       <input type="text" style="color:#FF4500" id="correo" class="form-control"  required placeholder="Ingresar Correo">
@@ -109,7 +94,7 @@ producto opción inteligente
 <br>
                  
 
-                 <center><img width="80%" src="https://imgur.com/WU0Va58.jpg"></center>
+                 <center><img width="100%" src="https://imgur.com/PS5GOtv.jpg"></center>
                   
 
                <!--<a class="ml-4" onclick="eventosLanding('pagina web');" href="https://admision.udalba.cl/programas-advance2/"><img width="50" src="https://imgur.com/Tu3WSx7.png"></a>
