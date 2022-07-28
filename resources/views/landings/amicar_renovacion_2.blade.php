@@ -82,13 +82,11 @@ producto opción inteligente
 
 
 
-
-
                    <div  style="color:#FF4500"class="d-flex justify-content-between  m-0">
                     <div style="color:#FF4500"class="md-form col-12  m-0">
                       
 
-                      <input type="submit" id="correo">
+                      <input type="submit" style="color:#FF4500" id="correo" class="form-control"  required placeholder="">
 
                       <label for="form2"></label>
                     </div>
