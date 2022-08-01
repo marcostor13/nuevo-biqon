@@ -27,7 +27,7 @@ $enddate=strtotime("+10 days", $startdate);
                         </div>
                     </div>
             <div id="cont2" class="p-5 hide">
-                <h3 class="text-white text-center">Estimado <span id="name"></span></h3>
+                <h3 class="text-white text-center">Estimado (a) <span id="name"></span></h3>
 
                 <p class="text-white">
                     Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz.
@@ -42,11 +42,11 @@ $enddate=strtotime("+10 days", $startdate);
                 </div>
 
 
-                <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56983106646" class="btn bg-danger text-white col-12 mt-4">Contactarme con un ejecutivo</a>
+                <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56940309256" class="btn bg-danger text-white col-12 mt-4">Contactarme con un ejecutivo</a>
               
-                <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983106646&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4">Enviar SMS por Whatsapp</a>
+                <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56940309256&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4">Enviar SMS por Whatsapp</a>
 
-                <a onclick="eventosLanding('Correo');" href="mailto:smunoz@prainabogados.cl"  class="btn bg-danger text-white col-12 mt-4">Correo</a>
+                <a onclick="eventosLanding('Correo');" href="mailto:jcuevas@oyarzunycia.cl"  class="btn bg-danger text-white col-12 mt-4">Correo</a>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-danger" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
@@ -168,7 +168,7 @@ $enddate=strtotime("+10 days", $startdate);
                 } 
             }
 
-           var correo = ["smunoz@prainabogados.cl"];
+           var correo = ["jcuevas@oyarzunycia.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
