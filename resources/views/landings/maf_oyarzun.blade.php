@@ -47,7 +47,7 @@ $enddate=strtotime("+10 days", $startdate);
 
                 <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56940309256" class="btn bg-danger text-white col-12 mt-4">Contactarme con un ejecutivo</a>
               
-                <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56940309256&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4">Enviar SMS por Whatsapp</a>
+                <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56940309256&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4">Enviar por Whatsapp</a>
 
                 <a onclick="eventosLanding('Correo');" href="mailto:jcuevas@oyarzunycia.cl"  class="btn bg-danger text-white col-12 mt-4">Correo</a>
                 <!--<div class="date btn bg-danger text-white col-12 mt-4">
