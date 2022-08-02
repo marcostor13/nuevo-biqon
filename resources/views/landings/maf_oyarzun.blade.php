@@ -30,14 +30,14 @@ $enddate=strtotime("+10 days", $startdate);
                 <h3 class="text-white text-center">Estimado (a) <span id="name"></span></h3>
 
                 <p class="text-white">
-                    Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz Maf De chile.
+                    Te informamos que presentas un retraso en el pago de cuotas de tu crédito automotriz Maf chile.
 
                     <br>
                     
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
                     <br>
                      <br>
-                     y prefiere nuestros canales digitales! Puedes consultar el estado de tu Crédito Automotriz Maf De chile.
+                     y prefiere nuestros canales digitales! Puedes consultar el estado de tu Crédito Automotriz Maf chile.
                 <br>
                 </p>
                 <div class="btn bg-danger text-white col-12 mt-4">
