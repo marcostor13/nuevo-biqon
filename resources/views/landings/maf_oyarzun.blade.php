@@ -36,6 +36,7 @@ $enddate=strtotime("+10 days", $startdate);
                     
                     Te ofrecemos las siguientes opciones para regularizar tu deuda pendiente.
                     <br>
+                     <br>
                      y prefiere nuestros canales digitales! Puedes consultar el estado de tu Crédito Automotriz Maf De chile.
                 <br>
                 </p>
