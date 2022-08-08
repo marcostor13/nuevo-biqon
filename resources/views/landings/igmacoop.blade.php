@@ -74,8 +74,6 @@ $N_folio = $_GET['DATA1'];
             <div id="cont2" class="p-1">
                 <div class="card">     
                             <div class="card-body">
-                <h3 class="text-black text-center">Estimado(a)  <span id="name"> <?php echo $name; ?></span></h3>
-
 <hr>
                 <p class="text-black text-center">
 
@@ -94,11 +92,11 @@ $N_folio = $_GET['DATA1'];
     <tr>
     <td>
     
-        <p> Cliente:<span id="name"> <?php echo $name; ?></span></P> 
+      <p> Cliente:<span id="name">   <strong><?php echo $name; ?></strong></span></P> 
 
 
 
-        <p> RUT: <span id="name"> <?php echo $rut; ?></P>
+        <p> RUT: <span id="name">   <strong><?php echo $rut; ?>  </strong></P>
 
     
     
