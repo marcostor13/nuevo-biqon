@@ -43,7 +43,7 @@ $enddate=strtotime("+10 days", $startdate);
 
                 <p class="text-black">
 
-                   #QuedateEnCasa y prefiere nuestros canales digitales!<a href="https://www.Mundocredito.cl"> www.Mundocredito.cl </a>
+                  Le saluda  <strong>*IGMACOB SPA*</strong> y me comunico por encargo de la empresa <strong>WÜRTH Chile Ltda.</strong>, quien nos ha autorizado para realizar el cobro de la deuda pendiente que a la fecha se encuentra en mora cuyo registro es:
                 <br>
                 <br>
 
