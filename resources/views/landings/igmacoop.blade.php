@@ -71,10 +71,6 @@ $N_folio = $_GET['DATA1'];
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-1">
-                <div class="card">     
-                            <div class="card-body">
-<hr>
                 <p class="text-black text-center">
 
 
