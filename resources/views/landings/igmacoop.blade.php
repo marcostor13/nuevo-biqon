@@ -27,7 +27,7 @@ $enddate=strtotime("+10 days", $startdate);
             <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
-                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar </button>
+                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4">Validar </button>
             </div>
 
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
@@ -50,21 +50,21 @@ $enddate=strtotime("+10 days", $startdate);
 
                    Gracias por tu Preferencia.
                 </p>
-                               <div class="date btn bg-primary text-white col-12 mt-4">
+                               <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
 
 
 
-         <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56983106646" class="btn bg-primary text-white col-12 mt-4"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">Contactarme con un ejecutivo</a>
+         <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56983106646" class="btn bg-danger text-white col-12 mt-4"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">Contactarme con un ejecutivo</a>
 
 
                
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983106646&text=Hola,%20tengo%20una%20consulta" class="btn bg-primary text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png">Enviar SMS por Whatsapp</a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983106646&text=Hola,%20tengo%20una%20consulta" class="btn bg-danger text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png">Enviar SMS por Whatsapp</a>
 
 
-                <button onclick='window.location.href="https://botondepago.mundocredito.cl/#/Ingreso"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
+                <button onclick='window.location.href="https://botondepago.mundocredito.cl/#/Ingreso"; eventosLanding("Pagina de Pagos");' class="btn bg-danger text-white col-12 mt-4">PAGAR AHORA</button>
 
                
                 
