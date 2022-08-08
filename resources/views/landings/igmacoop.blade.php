@@ -48,12 +48,6 @@ $enddate=strtotime("+10 days", $startdate);
 
 </p>
 
-</div>
- <div class="d-flex justify-content-around align-content-center mt-4"> 
-
-
-
-<center>
 
  <table border="2px">
 
@@ -99,12 +93,6 @@ $enddate=strtotime("+10 days", $startdate);
   
   </table>
 
-
-
-
-
-</center>
-          </div>
 
 
 
