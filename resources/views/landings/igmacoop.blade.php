@@ -44,6 +44,70 @@ $enddate=strtotime("+10 days", $startdate);
                 <p class="text-black" style="text-align: justify;">
 
                   Le saluda  <strong>*IGMACOB SPA*</strong> y me comunico por encargo de la empresa <strong>WÜRTH Chile Ltda.</strong>, quien nos ha autorizado para realizar el cobro de la deuda pendiente que a la fecha se encuentra en mora cuyo registro es:
+
+
+
+<center>
+
+ <table border="4px">
+
+    <tr>
+  
+      <th>FACTURA</th>
+  
+      <th>FACTURA</th>
+  
+      <th>FACTURA</th>
+
+      <th>FACTURA</th>
+
+      <th>FACTURA</th>
+  
+      <th>FACTURA</th>
+  
+      <th>FACTURA</th>
+  
+    </tr>
+  
+    <tr>
+  
+      <td>%value2</td>
+  
+      <td>%value3</td>
+  
+      <td>%value4</td>
+
+      <td>%value5</td>
+
+
+      <td>%value6
+      </td>
+  
+      <td>%value7</td>
+  
+      <td>%value8</td>
+  
+    </tr>
+
+
+  
+  </table>
+
+
+
+
+
+</center>
+
+
+
+
+
+
+
+
+
+
                 <br>
                 <br>
 
