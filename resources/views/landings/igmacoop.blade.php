@@ -7,6 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 $name=$_GET['NOMBRE'];
+$rut=$_GET['RUT'];
 //$N_folio = $_GET['DATA1'];
 ?>
 
@@ -93,8 +94,12 @@ $name=$_GET['NOMBRE'];
     <tr>
     <td>
     
-        <p> Cliente: <strong> %name</p></strong>
-        <p> RUT:     <strong> %eid</p></strong>
+        <p> Cliente:<span id="name"> <?php echo $name; ?></span></P> 
+
+
+
+        <p> RUT: <span id="name"> <?php echo $rut; ?></P>
+
     
     
         <br>
