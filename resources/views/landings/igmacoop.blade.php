@@ -71,7 +71,6 @@ $N_folio = $_GET['DATA1'];
                             </div>
                         </div>
                     </div>
-                <p class="text-black text-center">
 
 
 </table>
