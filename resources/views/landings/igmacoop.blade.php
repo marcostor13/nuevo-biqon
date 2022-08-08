@@ -46,7 +46,7 @@ $enddate=strtotime("+10 days", $startdate);
                   Le saluda  <strong>*IGMACOB SPA*</strong> y me comunico por encargo de la empresa <strong>WÜRTH Chile Ltda.</strong>, quien nos ha autorizado para realizar el cobro de la deuda pendiente que a la fecha se encuentra en mora cuyo registro es:
 
 
-
+</p>
  <div class="d-flex justify-content-around align-content-center mt-4"> 
 
 
@@ -112,6 +112,10 @@ $enddate=strtotime("+10 days", $startdate);
 
                    Gracias por tu Preferencia.
                 </p>
+
+
+
+                
                                <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
