@@ -16,6 +16,28 @@ $enddate=strtotime("+10 days", $startdate);
   border-color: #A1CBF3 !important;
     
 }
+
+table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+caption {
+   padding: 0.3em;
+   color: #fff;
+    background: #000;
+}
+th {
+   background: #eee;
+}
 </style>
     <!-- <div id="mundocredito" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
@@ -49,49 +71,10 @@ $enddate=strtotime("+10 days", $startdate);
 </p>
 
 
- <table border="2px">
-
-    <tr>
-  
-      <th>FACTURA</th>
-  
-      <th>FACTURA</th>
-  
-      <th>FACTURA</th>
-
-      <th>FACTURA</th>
-
-      <th>FACTURA</th>
-  
-      <th>FACTURA</th>
-  
-      <th>FACTURA</th>
-  
-    </tr>
-  
-    <tr>
-  
-      <td>%value2</td>
-  
-      <td>%value3</td>
-  
-      <td>%value4</td>
-
-      <td>%value5</td>
+<table class="content-table"> <thead> <tr> <th>Nombre</th> <th>Platillo favorito</th> <th>Alergias / no le gusta</th> </tr> </thead> <tbody> <tr> <td>Emmanuel</td> <td>Enchiladas</td> <td>Pasas</td> </tr> <td>Lina</td> <td>Salteñas</td> <td>Aderezos</td> </tr> <tr> <td>Adrián</td> <td>Berenjenas horneadas</td> <td>Queso</td> </tr> <tr> <td>Yaz</td> <td>Sopa de cebolla</td> <td>Carnes rojas</td> </tr> </tbody> </table>
 
 
-      <td>%value6
-      </td>
-  
-      <td>%value7</td>
-  
-      <td>%value8</td>
-  
-    </tr>
 
-
-  
-  </table>
 
 
 
