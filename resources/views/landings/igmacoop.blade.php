@@ -7,7 +7,7 @@
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 $name=$_GET['NOMBRE'];
-$N_folio = $_GET['DATA1'];
+//$N_folio = $_GET['DATA1'];
 ?>
 
 <style type="text/css">
@@ -77,8 +77,150 @@ $N_folio = $_GET['DATA1'];
 
 <hr>
                 <p class="text-black text-center">
+
+
+</table>
+    <table style="margin-left: 45%; margin-right: 10%; font-size: 12pt; ; width: 400px;" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+        <td style="text-align: right;">Santiago, <strong> %value </strong></td>
+        </tr>
+        </tbody>
+        </table>
+    <center><br />
+    <table style="margin-left: 12%; margin-right: 12%; font-size: 12pt; text-align: justify; width: 600px;" cellspacing="0" cellpadding="0">
+    <tbody>
+    <tr>
+    <td>
+    
+        <p> Cliente: <strong> %name</p></strong>
+        <p> RUT:     <strong> %eid</p></strong>
+    
+    
+        <br>
+    
+        <p style="text-align: justify;" dir="ltr">Le saluda  <strong>*IGMACOB SPA*</strong> y me comunico por encargo de la empresa <strong>WÜRTH Chile Ltda.</strong>, quien nos ha autorizado para realizar el cobro de la deuda pendiente que a la fecha se encuentra en mora cuyo registro es:</p>
+    
+    
+
+        <br>
+        <div class="d-flex justify-content-around align-content-center mt-4"> 
+
+
+
+<center>
+
+ <table border="2px">
+
+    <tr>
+  
+      <th>FACTURA</th>
+  
+      <th>FACTURA</th>
+  
+      <th>FACTURA</th>
+
+      <th>FACTURA</th>
+
+      <th>FACTURA</th>
+  
+      <th>FACTURA</th>
+  
+      <th>FACTURA</th>
+  
+    </tr>
+  
+    <tr>
+  
+      <td>%value2</td>
+  
+      <td>%value3</td>
+  
+      <td>%value4</td>
+
+      <td>%value5</td>
+
+
+      <td>%value6
+      </td>
+  
+      <td>%value7</td>
+  
+      <td>%value8</td>
+  
+    </tr>
+
+
+  
+  </table>
+
+
+
+
+
+</center>
+          </div>
+    
+        <br>
+    
+        <p style="text-align: justify;" dir="ltr">Para evitar mayores molestias o eventualmente ser informado al Boletín Comercial, le invitamos a regularizar su situación a la brevedad posible a través de los siguientes canales:</p>
+    
+    
+        <br>
+    
+        <p style="text-align: center;" dir="ltr"><strong>*  </strong>Contactar a su vendedor para el pago con documento o efectivo.</p>
+    <br>
+        <p style="text-align: center;" dir="ltr"><strong>*  </strong>Transferencia o depósito bancario a nombre de <strong>Wurth Chile Ltda,</strong> cuentas corrientes empresa <strong>Rut 78.701.740-1 Banco BCI N° 11984121 o Banco Santander N° 01-888-40-4,</strong> información que además puede encontrar al pié de la factura</p>
+        <br>
+        <p style="text-align: justify;" dir="ltr">Para mayor información puede comunicarse a <strong>WÜRTH Chile Ltda</strong> al fono +56225772113</p>
+        <br>
+        <p style="text-align: justify;" dir="ltr">Sin otro particular:</p>
+    
+    
+    
+        <br>
+        <center><h2 style="color: #000000; margin: 0 0 7px"> Normalización & Cobranza
+             </h2></center>
+            
+  
+            <p style="text-align: justify;" dir="ltr">Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no considerar esta carta.</p>
+    <br>
+        </table>
+            <table style="margin-left: 10%; margin-right: 7%; width: 400px; align: left;" cellspacing="0" cellpadding="0">
+                <tbody>
+                <tr>
+                </tr>
+                </tbody>
+            </table>
+    <center>
+                <p style="text-align:center;" dir="ltr">No conteste este correo, fue generado de forma automática.</p>
+            </center>
+    
+    
+      
+    </td>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
                     Junto con saludar y en atención a lo instruido por Isapre Banmedica SA <br>
-                    Se le recuerda que tiene un compromiso de pago y Folio de descuento <strong>N° </strong> <strong> <?php echo $N_folio; ?> </strong> que está próximo a vencer.
+                    Se le recuerda que tiene un compromiso de pago y Folio de descuento <strong>N° </strong> <strong> <?php echo $N_folio; ?> </strong> que está próximo a vencer.-->
                 
 <br>
 </div>
