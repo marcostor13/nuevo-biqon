@@ -41,7 +41,7 @@ $enddate=strtotime("+10 days", $startdate);
             <div id="cont2" class="p-5 hide">
                <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
 
-                <p class="text-black">
+                <p class="text-black" style="text-align: justify;">
 
                   Le saluda  <strong>*IGMACOB SPA*</strong> y me comunico por encargo de la empresa <strong>WÜRTH Chile Ltda.</strong>, quien nos ha autorizado para realizar el cobro de la deuda pendiente que a la fecha se encuentra en mora cuyo registro es:
                 <br>
