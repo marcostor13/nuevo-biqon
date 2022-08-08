@@ -1,298 +1,91 @@
 @extends('layouts.landing')
 
-@section('title', 'Banmedica')
+@section('title', 'Mundo Credito')
 
 @section('content')
 <?php
 $startdate=strtotime("Today");
-$enddate=strtotime("+5 days", $startdate);
-$name=$_GET['NOMBRE'];
-$rut=$_GET['RUT'];
-$N_folio = $_GET['DATA1'];
+$enddate=strtotime("+10 days", $startdate);
 ?>
+<style>
+.opaco{
+    display: none !important; 
 
-<style type="text/css">
+}
+.input{
+  border-color: #A1CBF3 !important;
     
-.card {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  border: 0;
-  font-weight: 400;
 }
-.card[class*=border] {
-  border: 1px solid #9e9e9e;
-  box-shadow: none;
-}
-.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
-  font-weight: 400;
-}
-.card .card-body .card-title a {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-title a:hover {
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-text {
-  color: #747373;
-  font-size: 0.9rem;
-  font-weight: 400;
-}
-.card .md-form label {
-  font-weight: 300;
-}
-
-.oscurecer {
-  background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    )
-    }
-    
 </style>
-
-    <div id="Banmedica" style=" /*background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;*/">
+    <!-- <div id="mundocredito" style="background: url('{{$landing->background}}'); background-repeat: no-repeat; background-size: cover;">-->
 
         <div class="opaco"></div>
 
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-start p-0">
-           <img style="max-width: 80%" class="img-fluid col-10 col-md-3 mt-4" src="{{$landing->logo}}" alt="Banmedica">-
+            <img style="max-width:250px; max-height:100px " class="img-fluid col-10 col-md-3 mt-2" src="{{$landing->logo}}" alt="mundocredito">
 
-<!--<img style="max-width: 50%" class="img-fluid col-10 col-md-3 mt-4" src="https://i.imgur.com/LRZ1x2g.png" alt="UANDES">-->
-           
-             <div id="cont1" class="p-5  hide">
+            <div id="cont1" class="p-5 ">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
-                <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn bg-warning text-black col-12 mt-4"> Validar </button>
+                <input id="rut" type="number" class="form-control mt-4 text-center text-blue input" autofocus>
+                <button onclick="event1(); return false;" class="btn bg-primary text-white col-12 mt-4">Validar </button>
             </div>
+
             <div id="cont5" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
-                                 <h5 id="error"class="text-black text-center mt-4"></h5>
+                                 <h5 id="error"class="text-black text-center mt-5"></h5>
                             </div>
                         </div>
                     </div>
-            <div id="cont2" class="p-1">
-                <div class="card">     
-                            <div class="card-body">
-                <h3 class="text-black text-center">Estimado(a)  <span id="name"> <?php echo $name; ?></span></h3>
 
-<hr>
-                <p class="text-black text-center">
+            <div id="cont2" class="p-5 hide">
+               <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
 
+                <p class="text-black">
 
-</table>
-    <table style="margin-left: 45%; margin-right: 10%; font-size: 12pt; ; width: 400px;" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td style="text-align: right;">Santiago, <strong> %value </strong></td>
-        </tr>
-        </tbody>
-        </table>
-    <center><br />
-    <table style="margin-left: 12%; margin-right: 12%; font-size: 12pt; text-align: justify; width: 600px;" cellspacing="0" cellpadding="0">
-    <tbody>
-    <tr>
-    <td>
-    
-      <p> Cliente:<strong><span id="name"> <?php echo $name; ?></strong></span></P> 
+                   #QuedateEnCasa y prefiere nuestros canales digitales!<a href="https://www.Mundocredito.cl"> www.Mundocredito.cl </a>
+                <br>
+                <br>
 
 
-
-        <p> RUT: <span id="name"> <?php echo $rut; ?></P>
-
-    
-    
-        <br>
-    
-        <p style="text-align: justify;" dir="ltr">Le saluda  <strong>*IGMACOB SPA*</strong> y me comunico por encargo de la empresa <strong>WÜRTH Chile Ltda.</strong>, quien nos ha autorizado para realizar el cobro de la deuda pendiente que a la fecha se encuentra en mora cuyo registro es:</p>
-    
-    
-
-        <br>
-        <div class="d-flex justify-content-around align-content-center mt-4"> 
-
-
-
-<center>
-
- <table border="2px">
-
-    <tr>
-  
-      <th>FACTURA</th>
-  
-      <th>FACTURA</th>
-  
-      <th>FACTURA</th>
-
-      <th>FACTURA</th>
-
-      <th>FACTURA</th>
-  
-      <th>FACTURA</th>
-  
-      <th>FACTURA</th>
-  
-    </tr>
-  
-    <tr>
-  
-      <td>%value2</td>
-  
-      <td>%value3</td>
-  
-      <td>%value4</td>
-
-      <td>%value5</td>
-
-
-      <td>%value6
-      </td>
-  
-      <td>%value7</td>
-  
-      <td>%value8</td>
-  
-    </tr>
-
-
-  
-  </table>
-
-
-
-
-
-</center>
-          </div>
-    
-        <br>
-    
-        <p style="text-align: justify;" dir="ltr">Para evitar mayores molestias o eventualmente ser informado al Boletín Comercial, le invitamos a regularizar su situación a la brevedad posible a través de los siguientes canales:</p>
-    
-    
-        <br>
-    
-        <p style="text-align: center;" dir="ltr"><strong>*  </strong>Contactar a su vendedor para el pago con documento o efectivo.</p>
-    <br>
-        <p style="text-align: center;" dir="ltr"><strong>*  </strong>Transferencia o depósito bancario a nombre de <strong>Wurth Chile Ltda,</strong> cuentas corrientes empresa <strong>Rut 78.701.740-1 Banco BCI N° 11984121 o Banco Santander N° 01-888-40-4,</strong> información que además puede encontrar al pié de la factura</p>
-        <br>
-        <p style="text-align: justify;" dir="ltr">Para mayor información puede comunicarse a <strong>WÜRTH Chile Ltda</strong> al fono +56225772113</p>
-        <br>
-        <p style="text-align: justify;" dir="ltr">Sin otro particular:</p>
-    
-    
-    
-        <br>
-        <center><h2 style="color: #000000; margin: 0 0 7px"> Normalización & Cobranza
-             </h2></center>
-            
-  
-            <p style="text-align: justify;" dir="ltr">Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no considerar esta carta.</p>
-    <br>
-        </table>
-            <table style="margin-left: 10%; margin-right: 7%; width: 400px; align: left;" cellspacing="0" cellpadding="0">
-                <tbody>
-                <tr>
-                </tr>
-                </tbody>
-            </table>
-    <center>
-                <p style="text-align:center;" dir="ltr">No conteste este correo, fue generado de forma automática.</p>
-            </center>
-    
-    
-      
-    </td>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-
-                    Junto con saludar y en atención a lo instruido por Isapre Banmedica SA <br>
-                    Se le recuerda que tiene un compromiso de pago y Folio de descuento <strong>N° </strong> <strong> <?php echo $N_folio; ?> </strong> que está próximo a vencer.-->
-                
-<br>
-</div>
-            </div>
-                 <div class="mt-2 text-center col-12" style="background:#F1EFEE;">
-                    <p class="text-black text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
-                     <div class="d-flex justify-content-around align-content-center text-center"> 
-      
-                    <!-- <span class="text-white  text-center">Mi Cuenta<br>
-                     <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>
-                         <span class="text-danger  text-center">WhatsApp<br>
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890453&text=Hola,%20tengo%20una%20consulta%20por%20deuda%20Banmedica"><img width="50" src="https://i.imgur.com/86IRYB5.png"></a></span>
-                       <span class="text-danger  text-center">Teléfono<br>
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="50" src="https://i.imgur.com/EQmqiCk.png"></a></span>
-                       <span class="text-danger  text-center">Correo<br>
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="50" src="https://i.imgur.com/Jg98aT5.png"></a></span>
-                    <span class="text-danger  text-center">Pago en Línea<br>
-                     <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://solvencia.cl/pagadeudas"><img width="50" src="https://i.imgur.com/2YPpKWm.png"></a></span>
-                </div>-->
-
-                 <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890486&text=Hola,%20tengo%20una%20consulta%20Isapre%20Banmedica"><img width="70" src="https://i.imgur.com/ot39iWI.png"></a></span>
-                        <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:+56975890486"><img width="70" src="https://i.imgur.com/sN7X4XZ.png"></a></span>
-                        <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:isapreregulariza@solvencia.cl"><img width="70" src="https://i.imgur.com/yedwmQG.png"></a></span>
-                     <span class="text-white text-center">
-                <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://www.banmedica.cl/pago-en-linea/"> <img width="70" src="https://i.imgur.com/TI8UBph.png"></a></span>
+                   Gracias por tu Preferencia.
+                </p>
+                               <div class="date btn bg-primary text-white col-12 mt-4">
+                    <span>AGENDAR COMPROMISO DE PAGO</span>
+                    <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
                 </div>
-                <br><br>
 
-                 <p class="text-black text-center"><br><strong>
-                Si al momento de recibir la presente comunicación ya regularizó esta situación, agradeceremos no considerarla y desde ya le damos las gracias por su atención
 
-Saludos</strong></p>
- <br> 
 
+         <a onclick="eventosLanding('Contactar con un Ejecutivo');" href="tel:+56983106646" class="btn bg-primary text-white col-12 mt-4"><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png">Contactarme con un ejecutivo</a>
+
+
+               
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56983106646&text=Hola,%20tengo%20una%20consulta" class="btn bg-primary text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/79/dc/31/79dc31280371b8ffbe56ec656418e122.png">Enviar SMS por Whatsapp</a>
+
+
+                <button onclick='window.location.href="https://botondepago.mundocredito.cl/#/Ingreso"; eventosLanding("Pagina de Pagos");' class="btn bg-primary text-white col-12 mt-4">PAGAR AHORA</button>
+
+               
+                
+                
+                    
+                    
+                </div>       
             </div>
-        </div>
-           <div id="cont3" class="p-2 pl-5 pr-5 hide">
+            <div id="cont3" class="p-2 pl-3 pr-3 hide">
                         <div class="card">     
                             <div class="card-body">
                                 <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
                             </div>
                         </div>
-                    </div>
+            </div>
         </div>
     </div>
 
     <script>
-   //EVENT 1
 
-
-
-  $('#date1').on('change', function(){
-                        if($('#date1').val() != ''){
-                            sendMail();
-                        }
-                    });
-
-
-
-
-
-
-        
-        $(function(){
+     $(function(){
             events({    
                 'name': 'Visita',
                 'landing_id': {!! $landing->id !!},
@@ -324,7 +117,6 @@ Saludos</strong></p>
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                    $('#dato1').text(N_Folio);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
@@ -333,7 +125,7 @@ Saludos</strong></p>
                     });
                 }else{
                     $('#cont1').addClass('hide');
-                    $('#cont5').removeClass('hide');
+                     $('#cont5').removeClass('hide');
                     $('#error').text("Validación incorrecta, recuerde visitar nuestra pagina web  o dirigirse a nuestra sucursal.");
                 }
             })
@@ -349,9 +141,7 @@ Saludos</strong></p>
             let json_datos = getAllUrlParameter(); 
 
             json_datos.nombre = $('#name').text();
-            json_datos.monto = $('#pay').text();
-           // json_datos.date = $('#date1').val();
-
+            
             events({    
                 'name': name,
                 'landing_id': {!! $landing->id !!},
@@ -368,37 +158,33 @@ Saludos</strong></p>
             let data; 
             if(msg !== false){
                 data = {
-                   'mensaje': msg,
-                    'Mombre': getUrlParameter('nombre'),
-                    'monto': getUrlParameter('monto'),
-                    'Phone': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
-                     //'Direccion': getUrlParameter('data1'),
-                     'N_Folio': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2') 
-                   
+                    'mensaje': msg,
+                    'Nombre': $('#name').text(),
+                    //'monto': getUrlParameter('monto'),
+                    'RUT': getUrlParameter('rut'),
+                    'Telefono': getUrlParameter('telefono'),
+                     'ejecutivo': getUrlParameter('data1'),
+                   'landing': '{!! $landing->name !!}'
                     
                 }
             }else{
                 let date = $('#date1').val();
                 data = {
-                     'Fecha': date,
-                    'Mombre': getUrlParameter('nombre'),
-                    'monto': getUrlParameter('monto'),
-                    'Phone': getUrlParameter('telefono'),
-                     'Rut': getUrlParameter('rut'),
-                     //'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2'),
-                     'N_Folio': getUrlParameter('data1'),
+                    'fecha': date,
+                    'nombre': $('#name').text(),
+                   // 'monto': getUrlParameter('monto'),
+                    'rut': getUrlParameter('rut'),
+                    'phone': getUrlParameter('telefono'),
+                    'ejecutivo': getUrlParameter('data1'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            
-            var correo = ["isapreregulariza@solvencia.cl"];
+
+            var correo = ["smunoz@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
-                 'email': correo
-                //'email':' {!! $landing->email !!}'
+                'email': correo
+                //'email': '{!! $landing->email !!}'
                 //'email': 'marcostor13@gmail.com'
             }
             $.ajaxSetup({
@@ -417,8 +203,8 @@ Saludos</strong></p>
                     $('#message').removeClass('hide');
                      $('#cont2').addClass('hide');
                     $('#cont3').removeClass('hide');
-                    $('#message').text('Gracias, Su compromiso de pago fue agendado. Nos pondremos en contacto con usted en los próximos días');
-                    eventosLanding('Compromiso de Pago');
+                    $('#message').text('Gracias, Su compromiso de pago fue agendado');
+                     eventosLanding('Compromiso de Pago');
                 }
             })
             .done(function(e) {
