@@ -8,7 +8,7 @@ $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
 $name=$_GET['NOMBRE'];
 $rut=$_GET['RUT'];
-//$N_folio = $_GET['DATA1'];
+$N_folio = $_GET['DATA1'];
 ?>
 
 <style type="text/css">
