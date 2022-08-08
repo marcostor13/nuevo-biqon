@@ -47,6 +47,8 @@ $enddate=strtotime("+10 days", $startdate);
 
 
 </p>
+
+</div>
  <div class="d-flex justify-content-around align-content-center mt-4"> 
 
 
@@ -115,7 +117,7 @@ $enddate=strtotime("+10 days", $startdate);
 
 
 
-                
+
                                <div class="date btn bg-danger text-white col-12 mt-4">
                     <span>AGENDAR COMPROMISO DE PAGO</span>
                     <input id="date1"  type="date" class="btn-date text-primary" style="border: none;" min="<?php  echo date('Y-m-d') ?>"  max="<?php echo date("Y-m-d", $enddate) ?>"/>
