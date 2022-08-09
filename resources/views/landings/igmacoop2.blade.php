@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'Oyarzun')
+@section('title', 'igmacoop')
 
 @section('content')
 
