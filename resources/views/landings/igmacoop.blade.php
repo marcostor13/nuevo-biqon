@@ -78,7 +78,8 @@ th {
                <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
 
 
-               <p style="text-align: right;">Santiago, <strong> <span id="name"> <?php echo $fecha; ?></span></p></strong></p>
+               <p style="text-align: right;">Santiago, <strong> 
+                <span id="name"> <?php echo $fecha; ?></span></p></strong></p>
 
 <p> Cliente: <span id="name"> <?php echo $name; ?></span></p>
 <p> RUT:    <span id="name"> <?php echo $rut; ?></span></p>
