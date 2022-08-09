@@ -79,10 +79,10 @@ th {
 
 
                <p style="text-align: right;">Santiago, <strong> 
-                <span id="name"> <?php echo $fecha; ?></span></p></strong></p>
+                <span id="fecha"> <?php echo $fecha; ?></span></p></strong></p>
 
 <p> Cliente: <span id="name"> <?php echo $name; ?></span></p>
-<p> RUT:    <span id="name"> <?php echo $rut; ?></span></p>
+<p> RUT:    <span id="rut"> <?php echo $rut; ?></span></p>
     
 
                 <p class="text-black" style="text-align: justify;">
