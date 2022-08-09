@@ -407,13 +407,23 @@ Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no con
 
 
         function Mens7(){
-    var monto,data1,data2,data3,data4,data5; 
+    var monto,data1,data2,data3,data4,data5,data6,data7,data8,data9,data10,data11,data12,data13; 
          monto= getUrlParameter('monto');
          data1= getUrlParameter('data1');
          data2= getUrlParameter('data2');
          data3= getUrlParameter('data3');
          data4= getUrlParameter('data4');
          data5= getUrlParameter('data5');
+         data6= getUrlParameter('data6');
+          data7= getUrlParameter('data7');
+          data8= getUrlParameter('data8');
+
+data9= getUrlParameter('data9');
+data10= getUrlParameter('data10');
+data11= getUrlParameter('data11');
+data12= getUrlParameter('data12');
+data13= getUrlParameter('data13');
+
 
      $('#cont2').addClass('hide');
       $('#cont7').addClass('hide');
@@ -424,6 +434,24 @@ Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no con
      $('#data3').text(data3);
      $('#data4').text(data4);
      $('#data5').text(data5);
+     $('#data6').text(data6);
+     $('#data7').text(data7);
+     $('#data8').text(data8);
+     $('#data9').text(data9);
+     $('#data10').text(data10);
+     $('#data11').text(data11);
+     $('#data12').text(data12);
+     $('#data13').text(data13);
+
+
+
+
+
+
+
+
+
+
  }
   function Mens9(){
      $('#cont7').addClass('hide');
