@@ -232,8 +232,8 @@ Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no con
                     $('#factura2').text(e.data.data4);
                     $('#factura3').text(e.data.data8);
                     $('#factura4').text(e.data.data11);
-                    $('#fechafactura').text(e.data.data5);
-                    $('#fechafactura2').text(e.data.data6);
+                    $('#fechafactura').text(e.data.data2);
+                    $('#fechafactura2').text(e.data.data5);
                     $('#fechafactura3').text(e.data.data9);
                     $('#fechafactura4').text(e.data.data12);
                     $('#monto').text(e.data.data3);
