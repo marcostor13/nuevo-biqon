@@ -10,7 +10,6 @@ $enddate=strtotime("+10 days", $startdate);
 $name=$_GET['NOMBRE'];
 $rut=$_GET['RUT'];
 $fecha=$_GET['DATA1'];
-$factura1=$_GET['DATA2'];
 ?>
 <style>
 .opaco{
@@ -415,8 +414,8 @@ Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no con
          data4= getUrlParameter('data4');
          data5= getUrlParameter('data5');
          data6= getUrlParameter('data6');
-          data7= getUrlParameter('data7');
-          data8= getUrlParameter('data8');
+         data7= getUrlParameter('data7');
+         data8= getUrlParameter('data8');
 
 data9= getUrlParameter('data9');
 data10= getUrlParameter('data10');
