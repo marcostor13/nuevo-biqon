@@ -97,7 +97,11 @@ th {
         <tr> 
         <th>FACTURA</th> 
         <th>FACTURA</th> 
+        <th>FACTURA</th>
         <th>FACTURA</th> 
+        <th>FACTURA</th>
+        <th>FACTURA</th> 
+        <th>FACTURA</th>   
     </tr> 
 
 </thead> 
