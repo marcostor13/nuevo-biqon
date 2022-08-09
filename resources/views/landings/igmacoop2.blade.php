@@ -76,12 +76,7 @@ $enddate=strtotime("+5 days", $startdate);
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span> </h4>
 
                 <p class="text-black" align="text-center">
-                   Le recordamos que actualmente usted mantiene una deuda vigente con Santander Consumer, con ocasión de un crédito automotriz cuyas cuotas se encuentran impagas y vencidas a la fecha, y por la cual además se ha interpuesto una demanda en su contra.<br>
-Es importante que tenga presente, que le podemos ofrecer diferentes alternativas de pago y así ayudarle a encontrar una solución a su problema.
-<br>
-Sin embargo, los intereses se acumulan día a día encareciendo su deuda, por lo que es importante que se ponga en contacto con nosotros para regularizar la situación.
-<br>
-A continuación, te ofrecemos alternativas que te pueden ayudar:  
+                   Le saluda  <strong>*IGMACOB SPA*</strong> y me comunico por encargo de la empresa <strong>WÜRTH Chile Ltda.</strong>, quien nos ha autorizado para realizar el cobro de la deuda pendiente que a la fecha. 
 <!--<br>
  Prefiere lo digital 
 <br>
