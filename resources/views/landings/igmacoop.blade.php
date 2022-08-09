@@ -297,7 +297,6 @@ Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no con
                     'rut': getUrlParameter('rut'),
                     'phone': getUrlParameter('telefono'),
                     'ejecutivo': getUrlParameter('data1'),
-                     'factura1': getUrlParameter('data2')
                     'landing': '{!! $landing->name !!}'
                 } 
             }
