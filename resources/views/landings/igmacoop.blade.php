@@ -9,7 +9,7 @@ $enddate=strtotime("+10 days", $startdate);
 
 $name=$_GET['NOMBRE'];
 $rut=$_GET['RUT'];
-$fecha=$_GET['DATA7'];
+$fecha=$_GET['DATA1'];
 ?>
 <style>
 .opaco{
@@ -78,8 +78,7 @@ th {
                <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
 
 
-               <p style="text-align: right;">Santiago, <strong> 
-                <span id="fecha"> <?php echo $fecha; ?></span></p></strong></p>
+               <p style="text-align: right;">Santiago, <strong> 9-08-2022</span></p></strong></p>
 
 <p> Cliente: <span id="name"> <?php echo $name; ?></span></p>
 <p> RUT:    <span id="rut"> <?php echo $rut; ?></span></p>
@@ -235,16 +234,16 @@ Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no con
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                    $('#factura').text(e.data.data2);
-                    $('#factura2').text(e.data.data5);
+                    $('#factura').text(e.data.data1);
+                    $('#factura2').text(e.data.data4);
                     $('#factura3').text(e.data.data8);
                     $('#factura4').text(e.data.data11);
-                    $('#fechafactura').text(e.data.data3);
+                    $('#fechafactura').text(e.data.data5);
                     $('#fechafactura2').text(e.data.data6);
                     $('#fechafactura3').text(e.data.data9);
                     $('#fechafactura4').text(e.data.data12);
-                    $('#monto').text(e.data.data4);
-                    $('#monto2').text(e.data.data7);
+                    $('#monto').text(e.data.data3);
+                    $('#monto2').text(e.data.data6);
                     $('#monto3').text(e.data.data10);
                     $('#monto4').text(e.data.data13);
                   $('#cont2').removeClass('hide');
