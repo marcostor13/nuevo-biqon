@@ -75,11 +75,11 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 hide">
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span> </h4>
          
-                 <h4 class="text-black text-center">RUT :<span id="RUT"></span> </h4>
+                 <h4 class="text-black text-center">RUT : <span id="RUT"></span> </h4>
 
                    <p class="text-black" style="text-align: center;">
 
-                  Le saluda  <strong>*IGMACOB SPA*</strong> y me comunico por encargo de la empresa <strong>WÜRTH Chile Ltda.</strong>, quien nos ha autorizado para realizar el cobro de la deuda pendiente que a la fecha se encuentra en mora cuyo registro es:
+                  Le saluda  <strong>*IGMACOB SPA*</strong> y me comunico por encargo de la empresa <strong>WÜRTH Chile Ltda.</strong>, quien nos ha autorizado para realizar el cobro de la deuda pendiente.
 
 
 </p>
