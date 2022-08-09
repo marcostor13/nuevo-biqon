@@ -6,6 +6,9 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+10 days", $startdate);
+
+$name=$_GET['NOMBRE'];
+$rut=$_GET['RUT'];
 ?>
 <style>
 .opaco{
@@ -73,6 +76,10 @@ th {
             <div id="cont2" class="p-5 hide">
                <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
 
+<p> Cliente: <span id="name"> <?php echo $name; ?></span></p>
+<p> RUT:    <span id="name"> <?php echo $rut; ?></span></p>
+    
+
                 <p class="text-black" style="text-align: justify;">
 
                   Le saluda  <strong>*IGMACOB SPA*</strong> y me comunico por encargo de la empresa <strong>WÜRTH Chile Ltda.</strong>, quien nos ha autorizado para realizar el cobro de la deuda pendiente que a la fecha se encuentra en mora cuyo registro es:
@@ -101,10 +108,6 @@ th {
         <td>Sopa de cebolla</td> 
         <td>Carnes rojas</td> </tr> 
     </tbody> </table>
-
-
-
-
 
 
 
