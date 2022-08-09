@@ -108,6 +108,7 @@ $enddate=strtotime("+5 days", $startdate);
     <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>
                         
   <!--  <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-warning text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>  --> 
+<p class="text-black text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
 
 
 <div class="d-flex justify-content-around align-content-center mt-4"> 
@@ -123,16 +124,6 @@ $enddate=strtotime("+5 days", $startdate);
                    
                     
                 </div>
-
-
-
-
-
-
-
-
-
-    <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-danger text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
              </div>
                            <div id="cont3" class="p-5 pl-3 pr-3 hide">
