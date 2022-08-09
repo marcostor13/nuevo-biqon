@@ -99,7 +99,6 @@ $enddate=strtotime("+5 days", $startdate);
                -->
   <!--  <button onclick="Mens7(); eventosLanding('INFORMACIÓN');" class="btn wine text-white col-12 mt-2">INFORMACIÓN DE TU DEUDA </button> -->
 
-    <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-danger text-white col-12 mt-2"> CONTACTA UN EJECUTIVO </button> 
 
     <div class="date btn bg-danger text-white col-12 mt-2"> <span>AGENDAR COMPROMISO DE PAGO</span>
         <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
@@ -109,6 +108,29 @@ $enddate=strtotime("+5 days", $startdate);
     <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>
                         
   <!--  <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-warning text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>  --> 
+
+
+<div class="d-flex justify-content-around align-content-center mt-4"> 
+               <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
+
+                 <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+
+                <a class="ml-4" onclick="eventosLanding('gmail');" href="mailto: g@zonasursa.cl"><img width="50" src="https://imgur.com/r0207Me.png"></a>
+
+
+                <a class="ml-4" onclick="eventosLanding('telefono');" href="tel:992208237"><img width="50" src="https://imgur.com/fd8dy76.png"></a>
+
+                   
+                    
+                </div>
+
+
+
+
+
+
+
+
 
     <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-danger text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
@@ -273,7 +295,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
 
                }
-            var correo = ["mrabi@oyarzunycia.cl", "lparada@oyarzunycia.cl"];  
+            var correo = ["aassen@igmacob.cl", "esolano547@gmail.com"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
@@ -377,13 +399,13 @@ $enddate=strtotime("+5 days", $startdate);
 
     function Mens3(){
 
-        window.location.href = "https://api.whatsapp.com/send?phone=56944000698&text=Hola,%20Mooris%20tengo%20una%20consulta";
+        window.location.href = "https://api.whatsapp.com/send?phone=56951580232&text=Hola,%20tengo%20una%20consulta";
     
         } 
 
            function Mens2(){
 
-        window.location.href ="tel:+56944000698";
+        window.location.href ="tel:+56951580232";
     
         } 
 
