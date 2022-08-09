@@ -124,15 +124,45 @@ th {
 
                  Para evitar mayores molestias o eventualmente ser informado al Boletín Comercial, le invitamos a regularizar su situación a la brevedad posible a través de los siguientes canales:
 
-
 </p>
 
    <p class="text-black" style="text-align: justify;">
 
-                 Para evitar mayores molestias o eventualmente ser informado al Boletín Comercial, le invitamos a regularizar su situación a la brevedad posible a través de los siguientes canales:
+              <strong>* </strong>Contactar a su vendedor para el pago con documento o efectivo.
 
 
 </p>
+
+
+
+
+<p class="text-black" style="text-align: justify;">
+
+             <strong>*  </strong>Transferencia o depósito bancario a nombre de <strong>Wurth Chile Ltda,</strong> cuentas corrientes empresa <strong>Rut 78.701.740-1 Banco BCI N° 11984121 o Banco Santander N° 01-888-40-4,</strong> información que además puede encontrar al pié de la factura
+
+</p>
+
+<p class="text-black" style="text-align: justify;">
+
+          Para mayor información puede comunicarse a <strong>WÜRTH Chile Ltda</strong> al fono +56225772113
+</p>
+
+<p class="text-black" style="text-align: justify;">
+Sin otro particular:
+
+</p>
+
+   <center><h2 style="color: #000000; margin: 0 0 7px"> Normalización & Cobranza
+             </h2></center>
+
+
+<p class="text-black" style="text-align: justify;">
+Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no considerar esta carta.
+
+</p>
+
+
+
 
 
 <!--
