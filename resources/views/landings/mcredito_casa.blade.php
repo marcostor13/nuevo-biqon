@@ -180,7 +180,7 @@ $enddate=strtotime("+10 days", $startdate);
                 } 
             }
 
-            var correo = ["smunoz@prainabogados.cl"];
+            var correo = ["vmarkan@prainabogados.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
