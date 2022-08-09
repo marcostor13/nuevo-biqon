@@ -114,12 +114,12 @@ $enddate=strtotime("+5 days", $startdate);
 <div class="d-flex justify-content-around align-content-center mt-4"> 
                <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
 
-                 <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56946954910&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
+                 <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56951580232&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
 
-                <a class="ml-4" onclick="eventosLanding('gmail');" href="mailto: g@zonasursa.cl"><img width="50" src="https://imgur.com/r0207Me.png"></a>
+                <a class="ml-4" onclick="eventosLanding('gmail');" href="mailto: aassen@igmacob.cl"><img width="50" src="https://imgur.com/r0207Me.png"></a>
 
 
-                <a class="ml-4" onclick="eventosLanding('telefono');" href="tel:992208237"><img width="50" src="https://imgur.com/fd8dy76.png"></a>
+                <a class="ml-4" onclick="eventosLanding('telefono');" href="tel:951580232"><img width="50" src="https://imgur.com/fd8dy76.png"></a>
 
                    
                     
