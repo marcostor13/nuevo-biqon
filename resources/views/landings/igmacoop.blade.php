@@ -102,7 +102,7 @@ th {
     </tr> 
 
 </thead> 
-<tbody> <tr> <td><span id="data2"></span></p></strong></p></td> 
+<tbody> <tr> <td><span id="factura"></span></p></strong></p></td> 
     <td>Enchiladas</td> <td>Pasas</td> 
 </tr> <td>Lina</td> 
 <td>Salteñas</td> 
@@ -235,6 +235,7 @@ Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no con
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
+                    $('#factura').text(e.data.factura);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
