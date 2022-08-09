@@ -110,7 +110,7 @@ $enddate=strtotime("+5 days", $startdate);
                         
   <!--  <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-warning text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>  --> 
 
-    <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn wine text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
+    <button onclick="Mens3(); eventosLanding('whatsapp');" class="btn bg-danger text-white col-12 mt-2">WHATSAPP EJECUTIVO </button>
 
              </div>
                            <div id="cont3" class="p-5 pl-3 pr-3 hide">
