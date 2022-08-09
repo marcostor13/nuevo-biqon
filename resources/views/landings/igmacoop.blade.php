@@ -10,6 +10,15 @@ $enddate=strtotime("+10 days", $startdate);
 $name=$_GET['NOMBRE'];
 $rut=$_GET['RUT'];
 $fecha=$_GET['DATA1'];
+$factura1=$_GET['DATA2'];
+$factura2=$_GET['DATA5'];
+$factura3=$_GET['DATA8'];
+$fechafactura1=$_GET['DAT6'];
+$fechafactura2=$_GET['DATA9'];
+$fechafactura3=$_GET['DATA3'];
+$monto1=$_GET['DATA4'];
+$monto2=$_GET['DATA7'];
+$monto3=$_GET['DATA10'];
 ?>
 <style>
 .opaco{
@@ -95,20 +104,21 @@ th {
 
 <table class="content-table"> <thead> 
         <tr> 
-        <th>FACTURA</th> 
-        <th>FACTURA</th> 
-        <th>FACTURA</th> 
+        <th>N FACTURA</th> 
+        <th>FECHA</th> 
+        <th>MONTO</th> 
     </tr> 
 
 </thead> 
-<tbody> <tr> <td>Emmanuel</td> 
-    <td>Enchiladas</td> <td>Pasas</td> 
-</tr> <td>Lina</td> 
-<td>Salteñas</td> 
-<td>Aderezos</td> </tr> 
-<tr> <td>Adrián</td> 
-    <td>Berenjenas horneadas</td> 
-    <td>Queso</td> </tr> <tr> 
+<tbody> <tr> <td> <span id="name"> <?php echo $factura1; ?></span></td> 
+    <td><span id="name"> <?php echo $fechafactura1; ?></span></td> 
+    <td><span id="name"> <?php echo $monto1; ?></span></td></td> 
+</tr> <td><span id="name"> <?php echo $factura2; ?></span></td> 
+<td> <span id="name"> <?php echo $fechafactura2; ?></span></td> 
+<td><span id="name"> <?php echo $monto2; ?></span></td> </tr> 
+<tr> <td><span id="name"> <?php echo $factura3; ?></span></td> 
+    <td><span id="name"> <?php echo $fechafactura3; ?></span></td> 
+    <td><span id="name"> <?php echo $monto3; ?></span></td> </tr> <tr> 
         <td>Yaz</td> 
         <td>Sopa de cebolla</td> 
         <td>Carnes rojas</td> </tr> 
