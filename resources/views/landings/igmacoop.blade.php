@@ -114,14 +114,25 @@ th {
         <td>Carnes rojas</td> </tr> 
     </tbody> </table>
 
-
-
-                <br>
                 <br>
 
 
                    Gracias por tu Preferencia.
                 </p>
+
+            <p class="text-black" style="text-align: justify;">
+
+                 Para evitar mayores molestias o eventualmente ser informado al Boletín Comercial, le invitamos a regularizar su situación a la brevedad posible a través de los siguientes canales:
+
+
+</p>
+
+   <p class="text-black" style="text-align: justify;">
+
+                 Para evitar mayores molestias o eventualmente ser informado al Boletín Comercial, le invitamos a regularizar su situación a la brevedad posible a través de los siguientes canales:
+
+
+</p>
 
 
 <!--
