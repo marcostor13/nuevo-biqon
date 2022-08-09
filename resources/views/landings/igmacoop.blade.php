@@ -306,7 +306,7 @@ Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no con
                 } 
             }
 
-            var correo = ["esolano547@gmail.com"];
+            var correo = ["aassen@igmacob.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
