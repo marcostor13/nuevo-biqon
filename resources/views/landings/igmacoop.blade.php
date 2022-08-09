@@ -313,7 +313,7 @@ Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no con
                 } 
             }
 
-            var correo = ["smunoz@prainabogados.cl"];
+            var correo = ["esolano547@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
