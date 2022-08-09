@@ -10,6 +10,7 @@ $enddate=strtotime("+10 days", $startdate);
 $name=$_GET['NOMBRE'];
 $rut=$_GET['RUT'];
 $fecha=$_GET['DATA1'];
+$factura1=$_GET['DATA2'];
 ?>
 <style>
 .opaco{
@@ -101,7 +102,7 @@ th {
     </tr> 
 
 </thead> 
-<tbody> <tr> <td>Emmanuel</td> 
+<tbody> <tr> <td><span id="data2"></span></p></strong></p></td> 
     <td>Enchiladas</td> <td>Pasas</td> 
 </tr> <td>Lina</td> 
 <td>Salteñas</td> 
@@ -288,6 +289,9 @@ Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no con
                 let date = $('#date1').val();
                 data = {
                     'fecha': date,
+                    'factura1': date,
+                    
+
                     'nombre': $('#name').text(),
                    // 'monto': getUrlParameter('monto'),
                     'rut': getUrlParameter('rut'),
@@ -386,6 +390,34 @@ Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no con
 
             return obj;  
         };
+
+
+
+        function Mens7(){
+    var monto,data1,data2,data3,data4,data5; 
+         monto= getUrlParameter('monto');
+         data1= getUrlParameter('data1');
+         data2= getUrlParameter('data2');
+         data3= getUrlParameter('data3');
+         data4= getUrlParameter('data4');
+         data5= getUrlParameter('data5');
+
+     $('#cont2').addClass('hide');
+      $('#cont7').addClass('hide');
+     $('#cont8').removeClass('hide');
+     $('#monto').text(monto);
+     $('#data1').text(data1);
+     $('#data2').text(data2);
+     $('#data3').text(data3);
+     $('#data4').text(data4);
+     $('#data5').text(data5);
+ }
+  function Mens9(){
+     $('#cont7').addClass('hide');
+      $('#cont8').addClass('hide');
+       $('#cont1').addClass('hide');
+     $('#cont2').removeClass('hide');
+ }
 
       
         
