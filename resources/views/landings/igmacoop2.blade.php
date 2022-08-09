@@ -63,7 +63,7 @@ $enddate=strtotime("+5 days", $startdate);
              <div id="cont1" class="p-5 ">
                 <h4 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h4>
                 <input id="rut" type="number" class="form-control mt-4 text-center text-black">
-                <button onclick="event1(); return false;" class="btn wine text-white col-12 mt-4"> Validar </button>
+                <button onclick="event1(); return false;" class="btn bg-danger text-white col-12 mt-4"> Validar </button>
             </div>
             <div id="cont5" class="p-5 pl-3 pr-3 hide">
                         <div class="card">     
@@ -104,14 +104,14 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                -->
   <!--  <button onclick="Mens7(); eventosLanding('INFORMACIÓN');" class="btn wine text-white col-12 mt-2">INFORMACIÓN DE TU DEUDA </button> -->
 
-    <button onclick="Mens2(); eventosLanding('Llamar');" class="btn wine text-white col-12 mt-2"> CONTACTA UN EJECUTIVO </button> 
+    <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-danger text-white col-12 mt-2"> CONTACTA UN EJECUTIVO </button> 
 
-    <div class="date btn wine text-white col-12 mt-2"> <span>AGENDAR COMPROMISO DE PAGO</span>
+    <div class="date btn bg-danger text-white col-12 mt-2"> <span>AGENDAR COMPROMISO DE PAGO</span>
         <input id="date1"  type="date" class="btn-date text-black" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
     </div>
 
 
-    <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn wine text-white col-12 mt-2">YA PAGUE</button>
+    <button onclick="sendMail('El cliente indica que ya pagó'); eventosLanding('Ya pagué'); return false;" class="btn bg-danger text-white col-12 mt-2">YA PAGUE</button>
                         
   <!--  <button onclick="Mens2(); eventosLanding('Llamar');" class="btn bg-warning text-white col-12 mt-2">LLAMAR A EJECUTIVO </button>  --> 
 
@@ -163,7 +163,7 @@ A continuación, te ofrecemos alternativas que te pueden ayudar:
                 </table>
                     </div>
                       </div> 
-            <button onclick="Mens9();" class="btn wine text-white col-12 mt-2">IR A MENU</button>
+            <button onclick="Mens9();" class="btn bg-danger text-white col-12 mt-2">IR A MENU</button>
 
 
 
