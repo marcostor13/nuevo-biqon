@@ -75,7 +75,7 @@ $enddate=strtotime("+5 days", $startdate);
             <div id="cont2" class="p-5 hide">
                 <h4 class="text-black text-center">Estimado(a) <span id="name"></span> </h4>
                 <br>
-                 <h4 class="text-black text-center">RUT<span id="rut"></span> </h4>
+                 <h4 class="text-black text-center">RUT<span id="RUT"></span> </h4>
 
                
 
