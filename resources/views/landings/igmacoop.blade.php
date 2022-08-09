@@ -235,7 +235,7 @@ Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no con
                     $('#cont1').addClass('hide');
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
-                    $('#factura').text(e.data.data1);
+                    $('#factura').text(e.data.data2);
                     $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
