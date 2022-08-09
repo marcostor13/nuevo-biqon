@@ -77,7 +77,7 @@ th {
                <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
 
 
-               <td style="text-align: right;">Santiago, <strong> %value </strong></td>
+               <p style="text-align: right;">Santiago, <strong> %value </strong><</p>
 
 <p> Cliente: <span id="name"> <?php echo $name; ?></span></p>
 <p> RUT:    <span id="name"> <?php echo $rut; ?></span></p>
