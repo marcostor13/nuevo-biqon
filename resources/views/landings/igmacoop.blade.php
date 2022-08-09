@@ -103,16 +103,17 @@ th {
 
 </thead> 
 <tbody> <tr> <td><span id="factura"></span></p></strong></p></td> 
-    <td>Enchiladas</td> <td>Pasas</td> 
-</tr> <td>Lina</td> 
-<td>Salteñas</td> 
-<td>Aderezos</td> </tr> 
-<tr> <td>Adrián</td> 
-    <td>Berenjenas horneadas</td> 
-    <td>Queso</td> </tr> <tr> 
-        <td>Yaz</td> 
-        <td>Sopa de cebolla</td> 
-        <td>Carnes rojas</td> </tr> 
+    <td><span id="fechafactura"></span></td> 
+    <td><span id="monto"></td> 
+</tr> <td><span id="factura2"></span></td> 
+<td><span id="fechafactura2"></span></td> 
+<td><span id="monto2"></span></td> </tr> 
+<tr> <td><span id="factura3"></span></td> 
+    <td><span id="fechafactura3"></span></td> 
+    <td><span id="monto3"></span></td> </tr> <tr> 
+        <td><span id="factura4"></span></td> 
+        <td><span id="fechafactura4"></span></td> 
+        <td><span id="monto4"></span></td> </tr> 
     </tbody> </table>
 
                 <br>
@@ -236,7 +237,18 @@ Si al momento de recibir este aviso ha regularizado su cuenta solicitamos no con
                     $('#name').text(e.data.nombre);
                     $('#pay').text(e.data.monto);
                     $('#factura').text(e.data.data2);
-                    $('#cont2').removeClass('hide');
+                    $('#factura2').text(e.data.data5);
+                    $('#factura3').text(e.data.data8);
+                    $('#factura4').text(e.data.data11);
+                    $('#fechafactura').text(e.data.data3);
+                    $('#fechafactura2').text(e.data.data6);
+                    $('#fechafactura3').text(e.data.data9);
+                    $('#fechafactura4').text(e.data.data12);
+                    $('#monto').text(e.data.data4);
+                    $('#monto2').text(e.data.data7);
+                    $('#monto3').text(e.data.data10);
+                    $('#monto4').text(e.data.data13);
+                  $('#cont2').removeClass('hide');
                     $('#date1').on('change', function(){
                         if($('#date1').val() != ''){
                             sendMail();
