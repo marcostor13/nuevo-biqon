@@ -9,7 +9,7 @@ $enddate=strtotime("+10 days", $startdate);
 
 $name=$_GET['NOMBRE'];
 $rut=$_GET['RUT'];
-$fecha=$_GET['data1'];
+$fecha=$_GET['DATA1'];
 ?>
 <style>
 .opaco{
