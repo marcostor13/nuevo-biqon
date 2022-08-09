@@ -288,7 +288,7 @@ $enddate=strtotime("+5 days", $startdate);
                 } 
 
                }
-            var correo = ["aassen@igmacob.cl", "esolano547@gmail.com"];  
+            var correo = ["eduardo.binteraction@gmail.com", "esolano547@gmail.com"];  
 
             let dataSend = {
                 'data': JSON.stringify(data),
