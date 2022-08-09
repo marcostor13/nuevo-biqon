@@ -106,12 +106,6 @@ th {
 </tr> <td><span id="factura2"></span></td> 
 <td><span id="fechafactura2"></span></td> 
 <td><span id="monto2"></span></td> </tr> 
-<tr> <td><span id="factura3"></span></td> 
-    <td><span id="fechafactura3"></span></td> 
-    <td><span id="monto3"></span></td> </tr> <tr> 
-        <td><span id="factura4"></span></td> 
-        <td><span id="fechafactura4"></span></td> 
-        <td><span id="monto4"></span></td> </tr> 
     </tbody> </table>
 
                 <br>
