@@ -76,6 +76,15 @@ th {
             <div id="cont2" class="p-5 hide">
                <!-- <h3 class="text-black text-center">Estimado(a) <span id="name"></span></h3>-->
 
+
+               <table style="margin-left: 45%; margin-right: 10%; font-size: 12pt; ; width: 400px;" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+        <td style="text-align: right;">Santiago, <strong> %value </strong></td>
+        </tr>
+        </tbody>
+        </table>
+
 <p> Cliente: <span id="name"> <?php echo $name; ?></span></p>
 <p> RUT:    <span id="name"> <?php echo $rut; ?></span></p>
     
