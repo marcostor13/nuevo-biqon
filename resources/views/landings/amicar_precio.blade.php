@@ -39,7 +39,7 @@ $enddate=strtotime("+15 days", $startdate);
                         <a onclick="sendMail('Quisiera agendar'); eventosLanding('AGENDAR'); return false;">
 
 
-    <center><img width="100%" src="https://imgur.com/Y3Sw6ay.jpg"></center>
+    <center><img width="100%" src="https://imgur.com/kz8tUnv.jpg"></center>
 </a>
 
                  <br>
