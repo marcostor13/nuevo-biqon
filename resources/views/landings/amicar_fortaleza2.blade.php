@@ -39,12 +39,12 @@ $enddate=strtotime("+15 days", $startdate);
                         <a onclick="sendMail('Quisiera agendar'); eventosLanding('AGENDAR'); return false;">
 
 
-    <center><img width="100%" src="https://imgur.com/kz8tUnv.jpg"></center>
+    <center><img width="100%" src="https://imgur.com/pNVh1yO.jpg"></center>
 </a>
 
                  <br>
 
-                 <center><img width="100%" src="https://imgur.com/bvnYBmn.jpg"></center>
+                 <center><img width="100%" src="https://imgur.com/kMrqtj5.jpg"></center>
                <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
                    
              <!--   <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://api.whatsapp.com/send?phone=56988078022&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://i.imgur.com/zwRWdi8.png"></a>
