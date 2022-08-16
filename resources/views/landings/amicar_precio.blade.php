@@ -190,8 +190,8 @@ $enddate=strtotime("+15 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'Telefono': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2')                
+                     'id': getUrlParameter('data1'),
+                     'correo': getUrlParameter('data2')                
                     
                 }
             }else{
@@ -208,7 +208,7 @@ $enddate=strtotime("+15 days", $startdate);
                 } 
             }
 
-            var correo = ["andrea.vergara@amicar.cl","carla.torres@amicar.cl"];
+            var correo = ["renovaciones@amicar.cl","carla.torres@amicar.cl"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
