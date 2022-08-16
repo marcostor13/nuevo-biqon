@@ -190,8 +190,10 @@ $enddate=strtotime("+15 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'Telefono': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2')                
+                     'comercial': getUrlParameter('data1'),
+                     'modelo': getUrlParameter('data2'),
+                     'correo': getUrlParameter('data3'),
+
                     
                 }
             }else{
@@ -202,8 +204,8 @@ $enddate=strtotime("+15 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'Telefono': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2'),
+                     'comercial': getUrlParameter('data1'),
+                     'modelo': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
