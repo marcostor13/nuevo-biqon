@@ -202,8 +202,8 @@ $enddate=strtotime("+15 days", $startdate);
                     //'monto': getUrlParameter('monto'),
                     'Telefono': getUrlParameter('telefono'),
                      'Rut': getUrlParameter('rut'),
-                     'Direccion': getUrlParameter('data1'),
-                     'Comuna': getUrlParameter('data2'),
+                     'modelo': getUrlParameter('data1'),
+                     ' correo': getUrlParameter('data2'),
                     'landing': '{!! $landing->name !!}'
                 } 
             }
