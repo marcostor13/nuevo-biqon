@@ -21,10 +21,14 @@ $enddate=strtotime("+15 days", $startdate);
             <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AMICAR">
 
             <div id="cont1">
-                <div class="videoWrapper">        
+               <!-- <div class="videoWrapper">        
                     <iframe width="400" height="320" src="{{asset('/files/videoami.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
 
+                    https://media.giphy.com/media/9sD4eBhGby5DVSixPR/giphy-downsized-large.gif
+
+                    <!---->
+                </div>
+<center><img width="80%" src="https://media.giphy.com/media/9sD4eBhGby5DVSixPR/giphy-downsized-large.gif"></center>
                 <div class="card">     
                 <div class="card-body">
 
