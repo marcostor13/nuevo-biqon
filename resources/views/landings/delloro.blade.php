@@ -116,7 +116,7 @@ no se pierda esta oportunidad  y regularice su situación con Mundo Crédito
                 
                    <!-- <a onclick="eventosLanding('Llamar');" href="tel:+56945369456 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>-->
 
-                    <a onclick="eventosLanding('Correo');" href="mailto:LURIBE@DELLOROABOGADOS.CL?subject=Landing%20DellOro&body=Adjuto%20es%20el%20Comprobante%20de%20Pago">
+                    <a onclick="eventosLanding('Correo');" href="mailto:luribe@cobranza.delloroabogados.cl?subject=Landing%20DellOro&body=Adjuto%20es%20el%20Comprobante%20de%20Pago">
                         <img width="40" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
                 
@@ -230,7 +230,7 @@ no se pierda esta oportunidad  y regularice su situación con Mundo Crédito
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["LURIBE@DELLOROABOGADOS.CL", "eduardo.binteraction@gmail.com"];  
+            var correo = ["luribe@cobranza.delloroabogados.cl", "eduardo.binteraction@gmail.com"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
@@ -334,7 +334,7 @@ no se pierda esta oportunidad  y regularice su situación con Mundo Crédito
         }, 
         function(){
             // window.location.href = "https://api.whatsapp.com/send?phone=+56957657363&text=Hola,%20Adjunto%20Comprobante%20de%20Pago";
-             window.location.href="mailto:LURIBE@DELLOROABOGADOS.CL?subject=Landing%20DellOro&body=Adjuto%20es%20el%20Comprobante%20de%20Pago"
+             window.location.href="mailto:luribe@cobranza.delloroabogados.cl?subject=Landing%20DellOro&body=Adjuto%20es%20el%20Comprobante%20de%20Pago"
         })
 
 
