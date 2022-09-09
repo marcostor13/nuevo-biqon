@@ -99,7 +99,7 @@ Universidad dispone para usted."</strong><br></p>
                        <span class="text-warning  text-center">
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contacto@globalcobro.cl?subject=Hola%20Tengo%20una%20Consulta%20por%20UDLA"><img width="70" src="https://i.imgur.com/EZIYM7o.png"></a></span>
                     <span class="text-warning  text-center">
-                     <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://pago-online.udla.cl/"><img width="70" src="https://i.imgur.com/rfpxpiW.png"></a></span>
+                     <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://financiamiento.udla.cl"><img width="70" src="https://i.imgur.com/rfpxpiW.png"></a></span>
                 </div>
                 <br><br>
 
