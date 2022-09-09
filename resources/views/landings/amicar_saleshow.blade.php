@@ -18,7 +18,7 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AMICAR">
+           <!-- <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AMICAR">-->
 
             <div id="cont1" align="align-items-center align-content-center">
     
@@ -39,7 +39,7 @@ $enddate=strtotime("+15 days", $startdate);
                         <a onclick="sendMail('Quisiera agendar'); eventosLanding('AGENDAR'); return false;">
 
 
-    <center><img width="100%" src="https://imgur.com/2raSL3L.jpg"></center>
+    <center><img width="100%" src="https://imgur.com/RzIArCO.jpg"></center>
 </a>
 
                  <br>
