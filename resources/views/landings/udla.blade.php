@@ -82,7 +82,12 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
      </div>
             </div>
                   <div class="mt-2 text-center col-12" style="background:#384259;"> <br>
-<p class="text-white text-center"><strong>Seleccione alguna de estas opciones para comunicarse con un ejecutivo quien podrá asesorarle y resolver su consulta</strong><br></p>
+<p class="text-white text-center"><strong>"Seleccione alguna de estas opciones para comunicarse con un ejecutivo
+quien podrá asesorarle y resolver su consulta" cambiarlo por: "Seleccione
+alguna de estas opciones para contactarse con un ejecutivo quien podrá
+asesorarle y resolver sus consultas o bien ingresar directamente al Portal
+de Autoservicio UDLA, donde encontrará las alternativas de pago que la
+Universidad dispone para usted."</strong><br></p>
                      <div class="d-flex justify-content-around align-content-center text-center"> 
       
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
