@@ -66,7 +66,7 @@ $enddate=strtotime("+5 days", $startdate);
                         <div class="card">     
                             <div class="card-body">
                                  <h5 id="error"class="text-black text-center mt-5"></h5>
-                                 <a href="tel:+56226385232" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
+                                 <a href="tel:+56961288126" class="btn bg-primary text-black col-12 mt-4"> Contactar</a>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ $enddate=strtotime("+5 days", $startdate);
 
                 <!-- < <div class="btn bg-primary text-black col-12 mt-4">-->
                     <!--<span>Convenio de pago, Contactar</span>-->
-                    <a href="tel:+56989064946" class="btn bg-primary text-black col-12 mt-4"> Convenio de pago, Contactar</a> 
+                    <a href="tel:+56961288126" class="btn bg-primary text-black col-12 mt-4"> Convenio de pago, Contactar</a> 
                 <!-- <</div>-->
                <!-- <button onclick='window.location.href="https://vtr.com/?pagoexpress=1"; eventosLanding("Pagina de Pagos"); ' class="btn bg-primary text-black col-12 mt-4">PAGAR AHORA</button>-->
                 
@@ -98,16 +98,16 @@ $enddate=strtotime("+5 days", $startdate);
                 <br>
  <br>
                 <p class="text-black">
-                Para mas Informacion Comunicarse con el Ejecutivo(a) : <strong>Julia Infante </strong> 
+                Para mas Informacion Comunicarse con el Ejecutivo(a) : <strong>MARIA ANDREINA ROJAS </strong> 
                 </p>
                 <br>
                  <br>
                 <div class="d-flex justify-content-around align-content-center mt-4">
-                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56989064946&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=+56961288126&text=Hola,%20tengo%20una%20consulta"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                 
-                    <a onclick="eventosLanding('Llamar');" href="tel:+56989064946 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
+                    <a onclick="eventosLanding('Llamar');" href="tel:+56961288126 "><img width="40" src="https://puertascolmena.com/wp-content/uploads/2019/05/img2.png"></a>
 
-                    <a onclick="eventosLanding('Correo');" href="mailto:julia.infante@proinnova.cl?subject=Landing%20ProInnova"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
+                    <a onclick="eventosLanding('Correo');" href="mailto:MARIA.ROJAS@PROINNOVA.CL?subject=Landing%20ProInnova"><img width="40" src="https://www.internet-didactica.es/wp-content/uploads/que-es-email-correo-electronico-640x640.jpg"></a>
                 </div>
                 
             </div>
@@ -219,7 +219,7 @@ $enddate=strtotime("+5 days", $startdate);
                     'landing': '{!! $landing->name !!}'
                 } 
             }
-            var correo = ["julia.infante@proinnova.cl"];  
+            var correo = ["MARIA.ROJAS@PROINNOVA.CL"];  
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
