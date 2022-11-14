@@ -30,12 +30,15 @@ $enddate=strtotime("+15 days", $startdate);
                 </div>
                 <br>
 
-                 <h5 class="text-black text-center"> <strong>HONDA WR-V Desde: $16.690.000*</strong> </h5>
                  <br>  <br>
 
 
 
 <center><img width="10s0%" src="https://media.giphy.com/media/OtDzAsZjM9u3jdpHae/giphy.gif"></center>
+
+
+
+                 <h5 class="text-black text-center"> <strong>HONDA WR-V Desde: $16.690.000*</strong> </h5>
 
  <br>
                 <div class="card">     
