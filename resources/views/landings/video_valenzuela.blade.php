@@ -22,11 +22,9 @@ $enddate=strtotime("+15 days", $startdate);
 
             <div id="cont1">
                 <div class="videoWrapper">        
-                    <iframe width="400" height="320" src="{{asset('/files/Up coming Honda WR-V')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="400" height="320" src="{{asset('/files/Up coming Honda WR-V.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                    https://media.giphy.com/media/9sD4eBhGby5DVSixPR/giphy-downsized-large.gif
-
-    
+                    <!---->
                 </div>
                 <br>
 
