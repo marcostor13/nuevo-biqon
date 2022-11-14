@@ -34,7 +34,7 @@ $enddate=strtotime("+15 days", $startdate);
 
 
 
-<center><img width="100%" src="https://media.giphy.com/media/OtDzAsZjM9u3jdpHae/giphy.gif"></center>
+<center><img width="85%" src="https://media.giphy.com/media/OtDzAsZjM9u3jdpHae/giphy.gif"></center>
 
 
 
