@@ -18,7 +18,7 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="valenzuela">
+            <img style="max-width: 80%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="valenzuela">
 
             <div id="cont1">
                <!-- <div class="videoWrapper">        
@@ -30,12 +30,13 @@ $enddate=strtotime("+15 days", $startdate);
                 </div>
                 <br>
 
-                 <br>  <br>
+                 <br> 
 
 
 
 <center><img width="85%" src="https://media.giphy.com/media/OtDzAsZjM9u3jdpHae/giphy.gif"></center>
 
+<br>
 
 
                  <h5 class="text-black text-center"> <strong>HONDA WR-V Desde: $16.690.000*</strong> </h5>
