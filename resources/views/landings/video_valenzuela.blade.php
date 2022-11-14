@@ -30,7 +30,7 @@ $enddate=strtotime("+15 days", $startdate);
                 </div>
                 <br>
                  <br>
-<center><img width="80%" src="https://media.giphy.com/media/9sD4eBhGby5DVSixPR/giphy-downsized-large.gif"></center>
+<center><img width="80%" src="https://media.giphy.com/media/OtDzAsZjM9u3jdpHae/giphy.gif"></center>
 
  <br>
                 <div class="card">     
