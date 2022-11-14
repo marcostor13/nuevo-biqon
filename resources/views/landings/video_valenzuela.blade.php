@@ -29,7 +29,12 @@ $enddate=strtotime("+15 days", $startdate);
                     <!---->
                 </div>
                 <br>
+
+                 <h5 class="text-black text-center"> <strong>HONDA WR-V Desde: $16.690.000*</strong> </h5>
                  <br>
+
+
+
 <center><img width="10s0%" src="https://media.giphy.com/media/OtDzAsZjM9u3jdpHae/giphy.gif"></center>
 
  <br>
@@ -50,11 +55,11 @@ $enddate=strtotime("+15 days", $startdate);
                
             
             <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985296912&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56995251902&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56985296912"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56995251902"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:jesus.binteraction@gmail.com?subject=Landing%20Video%20Amicar"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
+                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:eduardo.binteraction@gmail.com?subject=Landing%20Video%20Amicar"><img width="60" src="https://es.seaicons.com/wp-content/uploads/2015/10/Email-icon.png"></a>
                 </div>
         </div>
 
