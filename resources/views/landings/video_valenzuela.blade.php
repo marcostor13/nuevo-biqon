@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'AMICAR')
+@section('title', 'valenzuela')
 
 @section('content')
 <?php
@@ -21,8 +21,6 @@ $enddate=strtotime("+15 days", $startdate);
             <img style="max-width: 70%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="valenzuela">
 
             <br>
-            <br>
-
 
             <div id="cont1">
                 <div class="videoWrapper">        
@@ -30,9 +28,6 @@ $enddate=strtotime("+15 days", $startdate);
 
                     <!---->
                 </div>
-                <br>
-
-                 <br> 
 
 
 <br>
