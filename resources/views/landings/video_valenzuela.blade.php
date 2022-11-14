@@ -21,20 +21,17 @@ $enddate=strtotime("+15 days", $startdate);
             <img style="max-width: 70%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="valenzuela">
 
             <div id="cont1">
-               <!-- <div class="videoWrapper">        
-                    <iframe width="400" height="320" src="{{asset('/files/videoami.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="videoWrapper">        
+                    <iframe width="400" height="320" src="{{asset('/files/Up coming Honda WR-V')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     https://media.giphy.com/media/9sD4eBhGby5DVSixPR/giphy-downsized-large.gif
 
-                    <!---->
+    
                 </div>
                 <br>
 
                  <br> 
 
-
-
-<center><img width="85%" src="https://imgur.com/Fd2ukn9.jpg"></center>
 
 <br>
 
