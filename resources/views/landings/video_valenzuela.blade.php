@@ -26,7 +26,7 @@ $enddate=strtotime("+15 days", $startdate);
 
             <div id="cont1">
                 <div class="videoWrapper">        
-                    <iframe width="380" height="300" src="{{asset('/files/Up coming Honda WR-V.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="380" height="300" src="{{asset('/files/Mi video.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <!---->
                 </div>
