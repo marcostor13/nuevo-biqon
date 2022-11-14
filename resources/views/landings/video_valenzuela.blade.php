@@ -18,7 +18,7 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 80%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="valenzuela">
+            <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="valenzuela">
 
             <div id="cont1">
                <!-- <div class="videoWrapper">        
