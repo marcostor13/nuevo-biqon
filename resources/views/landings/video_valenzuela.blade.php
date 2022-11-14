@@ -47,7 +47,7 @@ $enddate=strtotime("+15 days", $startdate);
 
                     <h5 class="text-black text-center"> <strong> Desea agendar su visita</strong> </h5>
 
-                        <div class="date btn bg-black  text-white col-12 mt-4">
+                        <div class="date btn bg-black  text-black col-12 mt-4">
                     <span>AGENDAR</span>
                     <input id="date1"  type="date" class="btn-date text-primary input-min-width-95p" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
                      </div>
