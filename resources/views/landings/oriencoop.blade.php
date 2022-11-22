@@ -89,11 +89,11 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                     <!-- <span class="text-white  text-center">Mi Cuenta<br>
                      <a class="ml-2" onclick="eventosLanding('Cuenta');" href="https://solvencia.cl/pagadeudas/"><img width="60" src="https://image.freepik.com/foto-gratis/lupa_172429-232.jpg"></a></span>-->
                          <span class="text-white  text-center">Whatsapp<br>
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56961933082&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56985067416&text=Hola,%20tengo%20una%20consulta"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"></a></span>
                        <span class="text-white text-center">Teléfono<br>
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6002000015"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:985067416"><img width="50" src="https://image.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg"></a></span>
                        <span class="text-white  text-center">Correo<br>
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:vrojas@oriencoop.cl"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:esolano547@gmail.com"><img width="50" src="https://image.freepik.com/psd-gratis/monitor-escritorio-3d-correo_23-2148938933.jpg"></a></span>
                     <span class="text-white  text-center">Pago en Linea<br>
                      <a class="ml-2" onclick="eventosLanding('Pago en Linea');" href="https://www.oriencoop.cl/express/"><img width="50" src="https://img.freepik.com/free-vector/plain-credit-card-concept-illustration_114360-199.jpg?size=338&ext=jpg"></a></span>
                 </div>
@@ -217,7 +217,7 @@ Le invitamos a contactarse a la brevedad para ser informado de los métodos de p
                 } 
             }
 
-            var correo = ["vmontecinos@oriencoop.cl "];
+            var correo = ["esolano547@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
