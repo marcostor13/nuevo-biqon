@@ -102,6 +102,8 @@ $enddate=strtotime("+15 days", $startdate);
                         <!--<h3 class="text-grey text-center">El mercado automotriz esta muy dinámico y tenemos</h3><h3 class="text-danger text-center"> ofertas imperdibles para nuestros clientes!</h3>-->
                     
                         
+
+                      <br>
                    <div>
                     	<label>Fecha:</label>
     					  <input id="date1"  type="date" class=" btn-date text-blackform-control input-min-width-95p" min="<?php // echo date('Y-m-d')?>" max="<?php // echo date("Y-m-d", $enddate) ?>"/>
@@ -109,7 +111,7 @@ $enddate=strtotime("+15 days", $startdate);
                     </div>
                    
                   
-
+ <br>
                      <button onclick="sendMail('Solicito ser Contactado'); ;eventosLanding('Solicitud Informacion'); return false;" class="btn bg-warning text-grey col-12 mt-2"><h4>AGENDAR CITA</h4></button>
 
 
