@@ -245,7 +245,7 @@ $enddate=strtotime("+15 days", $startdate);
                 } 
             }
 
-              var correo = ["carla.torres@amicar.cl"];
+              var correo = ["esolano547@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
