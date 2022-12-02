@@ -166,21 +166,6 @@ $name = $_GET['NOMBRE'];
                 
                 </div>-->
                 
-              <br>
-                <p class="text-black" align="justify">
-                
-                </p>
-                
-             </div>
-            <div id="cont3" class="p-2 pl-3 pr-3 hide">
-                        <div class="card">     
-                            <div class="card-body">
-                                <h5 id="message"class="text-grey text-center mt-3 hide"></h5>
-                            </div>
-                        </div>
-                    </div>
-
-        </div>
         <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
          <h5 id="message"class="text-grey text-center mt-3"> Si al momento de recibir esta información, su cuenta está regularizada, rogamos omitir este aviso</h5>
         </div>
