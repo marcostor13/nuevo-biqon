@@ -107,16 +107,16 @@ $name = $_GET['NOMBRE'];
 
 
           <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890453&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="70" src="https://i.imgur.com/kzyuhVO.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="70" src="https://i.imgur.com/kzyuhVO.png"></a></span>
 
 
                       <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:mheredia@herediaabogados.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
 
                      <span class="text-white text-center">
 
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="70" src="https://i.imgur.com/9AbTaoC.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:934811384"><img width="70" src="https://i.imgur.com/9AbTaoC.png"></a></span>
                       
               
 
