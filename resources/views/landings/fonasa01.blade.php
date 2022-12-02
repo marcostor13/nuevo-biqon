@@ -157,8 +157,7 @@ $name = $_GET['NOMBRE'];
                 
                 </div>-->
                 
-                
-            <br><br><br><br><br>
+              <br>
                 <p class="text-black" align="justify">
                 
                 </p>
