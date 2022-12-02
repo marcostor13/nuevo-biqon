@@ -109,7 +109,7 @@ $name = $_GET['NOMBRE'];
                         <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="150" src="https://imgur.com/GicRhBm.png"></a></span>
                         <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="150" src="https://imgur.com/LSqQWOw.png"></a></span>
             
                 </div>
                
