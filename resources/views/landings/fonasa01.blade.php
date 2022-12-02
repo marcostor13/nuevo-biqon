@@ -100,11 +100,28 @@ $name = $_GET['NOMBRE'];
 
 
                 </p> </h5>
+
+
+
+ <div class="mt-2 text-center" style="background:#0067b6;"> 
+<p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
+                     <div class="d-flex justify-content-around align-content-center text-center">
+
+
+                <span class="text-white text-center">
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890453&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="70" src="https://i.imgur.com/kzyuhVO.png"></a></span>
+                        <span class="text-white text-center">
+                    <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="70" src="https://i.imgur.com/9AbTaoC.png"></a></span>
+                        <span class="text-white text-center">
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
+                     <span class="text-white text-center">
+                <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://portal.ipchile.cl/"> <img width="70" src="https://i.imgur.com/HEnso4V.png"></a></span>
+                </div>
                
                <!-- <button onclick="sendMail('Solicito forma de pago'); eventosLanding('Solicitud'); return false;" class="btn bg-dark text-white col-12 mt-4">Solicito forma de pago</button>
 
                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> Consultaré a Fonasa</button>-->
-              <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4">WHATSAPP EJECUTIVO </a>
+            <!--  <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4">WHATSAPP EJECUTIVO </a>
                    
               <a onclick="eventosLanding('Llamar');" href="tel:+56934811384"class="btn bg-dark text-white col-12 mt-4">LLAMAR A EJECUTIVO </a>
 
@@ -114,11 +131,10 @@ $name = $_GET['NOMBRE'];
                
 
                  <!-- <a onclick="eventosLanding('Consultar');" href="http://bit.ly/2kAAUJB" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> Consultar a la Autopista </a>-->
-                 <button onclick="window.location.href='https://www.fonasa.cl'; eventosLanding('Consulta') ; return false;" class="btn bg-dark text-white col-12 mt-4"> CONSULTAR EN FONASA </button>
-
+                 
 
                  <!-- <button onclick="sendMail('El teléfono no corresponde '); eventosLanding('No Corresponde'); return false;" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;">El teléfono no corresponde </button>-->
-                 <a onclick="eventosLanding('Contactenme'); sendMail('El cliente indica Solicitar CONTACTO');" class="btn bg-dark text-white col-12 mt-4" style="border: 1px solid #9e9e9e;"> DESEO QUE ME CONTACTEN </a>
+                 
 
                  <!--   <a onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta" class="btn bg-dark text-white col-12 mt-4"><img width="40" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png">WHATSAPP</a>
                    
