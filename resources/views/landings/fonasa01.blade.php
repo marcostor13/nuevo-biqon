@@ -100,7 +100,9 @@ $name = $_GET['NOMBRE'];
 
 
  <div class="mt-2 text-center" style="background:#FFFFFF;"> 
-<p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
+<p class="text-black text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
+
+
                      <div class="d-flex justify-content-around align-content-center text-center">
 
 
@@ -110,7 +112,7 @@ $name = $_GET['NOMBRE'];
 
                       <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
-                    
+
                      <span class="text-white text-center">
 
                         <span class="text-white text-center">
