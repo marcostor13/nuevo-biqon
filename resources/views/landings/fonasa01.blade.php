@@ -82,7 +82,7 @@ $enddate=strtotime("+5 days", $startdate);
                     </div>
 
             <div id="cont2" class="p-5 ">
-                <h5 class="text-black text-center">Empleador(a)<strong><span><?php //echo $name; ?></span></strong></h5>
+                <h5 class="text-black text-center">Empleador(a)<strong><span><?php echo $name; ?></span></strong></h5>
 
                 <h5><p class="text-black"  align="justify">
                   Por mandato de FONASA le informamos que tiene una demanda en curso. Con el fin de evitar continuar con las acciones ejecutivas interpuestas y evaluar una futura acción penal. Ante cualquier consulta marque su alternativa:
