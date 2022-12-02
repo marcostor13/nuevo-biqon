@@ -90,10 +90,10 @@ $name = $_GET['NOMBRE'];
 
 
 
-1.-Escribenos un mensaje email
-2.-Por whatsapp +56934811384 señalando su RUT
-3.-Llamando a  los  teléfono +56934811384
-4.-No corresponde el teléfono
+1.-Escribenos un mensaje email <br>
+2.-Por whatsapp +56934811384 señalando su RUT<br>
+3.-Llamando a  los  teléfono +56934811384<br>
+4.-No corresponde el teléfono<br>
 
 
 
