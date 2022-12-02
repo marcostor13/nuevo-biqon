@@ -85,16 +85,16 @@ $name = $_GET['NOMBRE'];
                 <h5 class="text-black text-center">Empleador(a)<strong><span> <?php echo $name; ?></span></strong></h5>
 
                 <h5><p class="text-black"  align="justify">
-                  Por mandato de FONASA le informamos que tiene una demanda en curso. Con el fin de evitar continuar con las acciones ejecutivas interpuestas y evaluar una futura acción penal. Ante cualquier consulta marque su alternativa:
+                  Por mandato de FONASA le informamos que tiene una demanda en curso. Con el fin de evitar continuar con las acciones ejecutivas interpuestas y evaluar una futura acción penal. Ante cualquier consulta marque su alternativa: <br>
 
 
 
-
+<center>
 1.-Escribenos un mensaje email <br>
 2.-Por whatsapp +56934811384 señalando su RUT<br>
 3.-Llamando a  los  teléfono +56934811384<br>
 4.-No corresponde el teléfono<br>
-
+</center>
 
 
 
