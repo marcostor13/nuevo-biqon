@@ -114,8 +114,7 @@ $name = $_GET['NOMBRE'];
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="70" src="https://i.imgur.com/9AbTaoC.png"></a></span>
                         <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:contactos@solvencia.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
-                     <span class="text-white text-center">
-                <a class="ml-2" onclick="eventosLanding('Pago en Línea');" href="https://portal.ipchile.cl/"> <img width="70" src="https://i.imgur.com/HEnso4V.png"></a></span>
+            
                 </div>
                
                <!-- <button onclick="sendMail('Solicito forma de pago'); eventosLanding('Solicitud'); return false;" class="btn bg-dark text-white col-12 mt-4">Solicito forma de pago</button>
