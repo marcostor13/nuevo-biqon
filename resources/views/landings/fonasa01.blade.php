@@ -111,7 +111,7 @@ $name = $_GET['NOMBRE'];
 
 
                       <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:mheredia@herediaabogados.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Correo');" href="mailto:judicial@herediaabogados.cl"><img width="70" src="https://i.imgur.com/h7UKcOG.png"></a></span>
 
                      <span class="text-white text-center">
 
