@@ -107,7 +107,7 @@ $name = $_GET['NOMBRE'];
 
 
           <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="70" src="https://i.imgur.com/kzyuhVO.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56934811384&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://i.imgur.com/kzyuhVO.png"></a></span>
 
 
                       <span class="text-white text-center">
