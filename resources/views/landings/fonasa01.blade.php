@@ -103,7 +103,7 @@ $name = $_GET['NOMBRE'];
 
 
 
- <div class="mt-2 text-center" style="background:#0067b6;"> 
+ <div class="mt-2 text-center" style="background:#FFFFFF;"> 
 <p class="text-white text-center"><br><strong>Seleccione alguna de estas opciones para comunicarte con un ejecutivo quien podrá asesorarle y resolver su consulta</strong></p>
                      <div class="d-flex justify-content-around align-content-center text-center">
 
