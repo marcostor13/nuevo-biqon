@@ -59,7 +59,7 @@ $name = $_GET['NOMBRE'];
         <!--<div class="opaco"></div>-->
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
  
-   <img style="height:350px; width:250px;" class="img-fluid col-md-6 mt-1" src="https://imgur.com/ZDMeG2k.jpeg" alt="HerediaAbogados">
+   <img style="height:350px; width:450px;" class="img-fluid col-md-6 mt-1" src="https://imgur.com/ZDMeG2k.jpeg" alt="HerediaAbogados">
 
              <div id="cont1" class="p-5 hide">
                 <h3 class="text-black text-center">Por tu seguridad, confírmanos los primeros 4 dígitos de tu RUT</h3>
@@ -107,7 +107,7 @@ $name = $_GET['NOMBRE'];
 
 
                 <span class="text-white text-center">
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890453&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="70" src="https://imgur.com/IzJpE2E.png"></a></span>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56975890453&text=Hola,%20tengo%20una%20consulta%20IPCHILE"><img width="100" src="https://imgur.com/IzJpE2E.png"></a></span>
                         <span class="text-white text-center">
                     <a class="ml-2" onclick="eventosLanding('Llamar');" href="tel:6004416010"><img width="70" src="https://i.imgur.com/9AbTaoC.png"></a></span>
                         <span class="text-white text-center">
