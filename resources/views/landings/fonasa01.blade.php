@@ -87,6 +87,18 @@ $enddate=strtotime("+5 days", $startdate);
                 <h5><p class="text-black"  align="justify">
                   Por mandato de FONASA le informamos que tiene una demanda en curso. Con el fin de evitar continuar con las acciones ejecutivas interpuestas y evaluar una futura acción penal. Ante cualquier consulta marque su alternativa:
 
+
+
+
+1.-Escribenos un mensaje email
+2.-Por whatsapp +56934811384 señalando su RUT
+3.-Llamando a  los  teléfono +56934811384
+4.-No corresponde el teléfono
+
+
+
+
+
                 </p> </h5>
                
                <!-- <button onclick="sendMail('Solicito forma de pago'); eventosLanding('Solicitud'); return false;" class="btn bg-dark text-white col-12 mt-4">Solicito forma de pago</button>
