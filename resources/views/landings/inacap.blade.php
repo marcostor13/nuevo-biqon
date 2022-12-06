@@ -84,7 +84,7 @@ $name=$_GET['NOMBRE'];
 
                 <div class="card">     
                             <div class="card-body">
-                <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php echo $name; ?></span></h3>
+              <!--  <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php echo $name; ?></span></h3>-->
 <hr>
                 <p class="text-black text-center">
                    Inacap, le recuerda que usted mantiene una deuda por regularizar.<br>
