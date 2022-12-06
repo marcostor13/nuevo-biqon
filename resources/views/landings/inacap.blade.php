@@ -69,7 +69,19 @@ $name=$_GET['NOMBRE'];
                             </div>
                         </div>
                     </div>
+
             <div id="cont2" class="p-1">
+
+                <div id="cont1">
+                <div class="videoWrapper">        
+                    <iframe width="380" height="300" src="{{asset('/files/Mi video.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <!---->
+                </div>
+
+
+
+
                 <div class="card">     
                             <div class="card-body">
                 <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php echo $name; ?></span></h3>
