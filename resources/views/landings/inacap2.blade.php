@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'valenzuela')
+@section('title', 'inacap')
 
 @section('content')
 <?php
@@ -18,38 +18,28 @@ $enddate=strtotime("+15 days", $startdate);
         <div class="opaco"></div>
 
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
-            <img style="max-width: 70%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="valenzuela">
+            <img style="max-width: 70%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="inacap">
 
             <br>
 
             <div id="cont1">
                 <div class="videoWrapper">        
-                    <iframe width="380" height="300" src="{{asset('/files/Mi video.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="380" height="300" src="{{asset('/files/inacap.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <!---->
                 </div>
 
 
-<br>
 
-
-                 <h5 class="text-black text-center"> <strong>HONDA WR-V Desde: *$16.690.000*</strong> </h5>
-
- <br>
                 <div class="card">     
                 <div class="card-body">
 
-                    <h5 class="text-black text-center"> <strong> Desea agendar su visita</strong> </h5>
+                    <h5 class="text-black text-center"> <strong> No esperes más y matricúlate en nuestra sede ubicada en 📍 Av. Nelson Pereira #2519, Rancagua, de lunes a viernes entre las 9 y las 19 hrs. o en www.Inacap.cl
+Consultas al WhastApp:  https://wa.me/message/2IH5BQQESQFFK1 o llámanos al 72 2 32 63 92</strong> </h5>
 
 
-                        <div class="date btn  bg-dark  text-white col-12 mt-4">
-                    <span>AGENDAR</span>
-                    <input id="date1"  type="date" class="btn-date text-primary input-min-width-95p" style="border: none;" min="<?php echo date('Y-m-d') ?>" max="<?php echo date("Y-m-d", $enddate) ?>"/>
-                     </div>
-
-                       </div>
-                   </div>
-                
+                  
+                  
 
                
             
