@@ -34,17 +34,17 @@ $enddate=strtotime("+15 days", $startdate);
                 <div class="card">     
                 <div class="card-body">
 
-                    <h5 class="text-black text-center"> <strong> No esperes más y matricúlate en nuestra sede ubicada en 📍 Av. Nelson Pereira #2519, Rancagua, de lunes a viernes entre las 9 y las 19 hrs. o en www.Inacap.cl
-Consultas al WhastApp:  https://wa.me/message/2IH5BQQESQFFK1 o llámanos al 72 2 32 63 92</strong> </h5>
+                    <h5 class="text-black text-center"> <strong> No esperes más y matricúlate en nuestra sede ubicada en 📍 Av. Nelson Pereira #2519, Rancagua, de lunes a viernes entre las 9 y las 19 hrs. o en <a href="https://www.Inacap.cl"> www.Inacap.cl</a>
+Consultas al WhastApp:  <a href="https://wa.me/message/2IH5BQQESQFFK1"> https://wa.me/message/2IH5BQQESQFFK1</a>o llámanos al 72 2 32 6392</strong> </h5>
 
 
                   
-                  
+
 
                
             
             <div class="d-flex justify-content-around align-content-center mt-4"> 
-                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://api.whatsapp.com/send?phone=56995251902&text=Hola,%20tengo%20una%20consulta"><img width="70" src="https://imgur.com/FUTp4DG.png"></a>
+                    <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://wa.me/message/2IH5BQQESQFFK1"><img width="70" src="https://imgur.com/FUTp4DG.png"></a>
                    
                     <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56995251902"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
