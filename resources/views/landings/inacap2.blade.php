@@ -24,7 +24,7 @@ $enddate=strtotime("+15 days", $startdate);
 
             <div id="cont1">
                 <div class="videoWrapper">        
-                    <iframe width="300" height="400" src="{{asset('/files/inacap.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="500" height="400" src="{{asset('/files/inacap.mp4')}}" frameborder="0" autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <!---->
                 </div>
