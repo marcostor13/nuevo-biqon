@@ -48,7 +48,7 @@ Consultas al WhastApp:  <a href="https://wa.me/message/2IH5BQQESQFFK1"> https://
                    
                     <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56722 326392"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:informaciones@inacao.cl?subject=Hola%20Tengo%20una%20consulta"><img width="60" src="https://imgur.com/VNdssgs.png"></a>
+                    <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:informaciones@inacap.cl?subject=Hola%20Tengo%20una%20consulta"><img width="60" src="https://imgur.com/VNdssgs.png"></a>
                 </div>
         </div>
 
