@@ -46,7 +46,7 @@ Consultas al WhastApp:  <a href="https://wa.me/message/2IH5BQQESQFFK1"> https://
             <div class="d-flex justify-content-around align-content-center mt-4"> 
                     <a class="ml-2" onclick="eventosLanding('Whatsapp');" href="https://wa.me/message/2IH5BQQESQFFK1"><img width="70" src="https://imgur.com/FUTp4DG.png"></a>
                    
-                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56995251902"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
+                    <a class="ml-4" onclick="eventosLanding('Llamar');" href="tel:+56722 326392"><img width="60" src="https://i.pinimg.com/236x/93/0e/6f/930e6fe9fe45beab222542ae42b05c4f.jpg"></a>
                    
                     <a class="ml-4" onclick="eventosLanding('Correo');" href="mailto:eduardo.binteraction@gmail.com?subject=Landing%20Video%20Amicar"><img width="60" src="https://imgur.com/VNdssgs.png"></a>
                 </div>
