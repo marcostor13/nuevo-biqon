@@ -92,7 +92,7 @@ $enddate=strtotime("+5 days", $startdate);
                       <option value="" data-select2-id="4">Selecciona una carrera</option>
                       
       <option value="Ingeniería Comercial" data-select2-id="8">Ingeniería Comercial</option>
-      <option value="Ingeniería en Administración de Empresas – mención Gestión  de Empresas" data-select2-id="9">Ingeniería en Administración de Empresas – mención Gestión  de Empresas</option>
+      <option value="Ingeniería en Administración de Empresas – mención Gestión  de Empresas" data-select2-id="9">Ingeniería en Administración de Empresas – mención Gestión  de Empresarial</option>
       <option value="Ingeniería en Administración de Empresas – mención Control de Gestión" data-select2-id="10">Ingeniería en Administración de Empresas – mención Control de Gestión</option>
       <option value="Administración Pública" data-select2-id="12">Administración Pública</option>
       <option value="Trabajo Social" data-select2-id="13">Trabajo Social</option>
