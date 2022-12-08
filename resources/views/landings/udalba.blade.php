@@ -6,6 +6,8 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
+$name=$_GET['NOMBRE'];
+
 ?>
 <style>
 .opaco{
@@ -76,7 +78,14 @@ $enddate=strtotime("+5 days", $startdate);
                 <div class="card-body">
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
-                    <strong>Eres técnico y deseas estudiar una carrera profesional online?  <strong>¡Nosotros te decimos sí !</strong> ¿Estás pensando en tu futuro? Estudia 100% online una segunda carrera con Advance.</strong>
+               <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php echo $name; ?></span></h3>estudia una carrera profesional y obtén tu grado de Licenciado/a en Universidad del Alba (ex Pedro de Valdivia),
+
+40 años de experiencia en la Educación Superior, con Sedes en Antofagasta, La Serena Santiago y Chillán
+
+100% en línea
+Precio justo – el más económico
+Cuotas Sin intereses
+Becas y beneficios en matrícula y Arancel por toda la carrera
                   </h4>
 
                   <br>
