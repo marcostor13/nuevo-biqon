@@ -78,7 +78,7 @@ $name=$_GET['NOMBRE'];
                 <div class="card-body">
                   <!-- Heading -->
                   <h4 class="dark-grey-text text-center">
-               <h3 class="text-black text-center">Estimado(a) <span id="name"> <?php echo $name; ?></span></h3>
+               <h4 class="text-black text-center">Estimado(a) <span id="name"> <?php echo $name; ?></span></h4>
 
 <center>
 
