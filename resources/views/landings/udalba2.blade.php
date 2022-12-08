@@ -6,6 +6,7 @@
 <?php
 $startdate=strtotime("Today");
 $enddate=strtotime("+5 days", $startdate);
+$name=$_GET['NOMBRE'];
 ?>
 <style>
 .opaco{
