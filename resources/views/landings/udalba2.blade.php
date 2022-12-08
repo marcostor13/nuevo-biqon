@@ -59,7 +59,7 @@ $enddate=strtotime("+5 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
 
 
- <img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/wqLNEMT.png" alt="UDALBA">
+ <img style="max-width: 100%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/TYnoIYe.png" alt="UDALBA">
 
           
            <!-- <center>  Nuestra Web!<a href="https://admision.udalba.cl/programas-advance2/"> wwww.admision.udalba.cl</a> </center>
