@@ -39,7 +39,7 @@ $enddate=strtotime("+15 days", $startdate);
                         <a onclick="sendMail('QUIERO TENER LA PROMOCION'); eventosLanding('AGENDAR'); return false;">
 
 
-    <center><img width="100%" src="https://imgur.com/25IhEwH.jpg"></center>
+    <center><img width="100%" src="https://imgur.com/GrsMejz.jpg"></center>
 </a>
 
                <!-- <a class="ml-4" onclick="eventosLanding('WHATSAPP');" href="https://wa.me/56930132218"><img width="60" src="https://i.pinimg.com/originals/6b/6f/95/6b6f9559658ad9c3d371977a674e2a56.png"></a>-->
