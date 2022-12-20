@@ -36,7 +36,7 @@ $enddate=strtotime("+15 days", $startdate);
          <div class="card-body">
 
 
-                        <a onclick="sendMail('Quisiera agendar'); eventosLanding('AGENDAR'); return false;">
+                        <a onclick="sendMail('QUIERO TENER LA PROMOCION'); eventosLanding('AGENDAR'); return false;">
 
 
     <center><img width="100%" src="https://imgur.com/25IhEwH.jpg"></center>
@@ -207,7 +207,7 @@ $enddate=strtotime("+15 days", $startdate);
                 } 
             }
 
-            var correo = ["renovaciones@amicar.cl","carla.torres@amicar.cl"];
+            var correo = ["ericksolanocl@gmail.com"];
             let dataSend = {
                 'data': JSON.stringify(data),
                 'email': correo
