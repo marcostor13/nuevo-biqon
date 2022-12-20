@@ -35,6 +35,12 @@ $enddate=strtotime("+15 days", $startdate);
          <div class="card-body">
 
 
+               <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
+
+ <img style="max-width: 200%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/KSBZXOb.png" alt="AMICAR">
+<br>
+
+
                         <a onclick="sendMail('QUIERO TENER LA PROMOCION'); eventosLanding('AGENDAR'); return false;">
 
 
