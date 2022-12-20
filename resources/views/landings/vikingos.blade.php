@@ -23,7 +23,7 @@ $enddate=strtotime("+15 days", $startdate);
 
 
 
-<img style="max-width: 200%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/KSBZXOb.png" alt="AMICAR">
+<img style="max-width: 50%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/KSBZXOb.png" alt="AMICAR">
 <br>
 
             <div id="cont1" align="align-items-center align-content-center">
