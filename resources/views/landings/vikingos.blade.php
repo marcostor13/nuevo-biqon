@@ -20,6 +20,12 @@ $enddate=strtotime("+15 days", $startdate);
        <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-100">
            <!-- <img style="max-width: 60%" class="img-fluid col-md-3 mt-2" src="{{$landing->logo}}" alt="AMICAR">
 --->
+
+
+
+<img style="max-width: 200%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/KSBZXOb.png" alt="AMICAR">
+<br>
+
             <div id="cont1" align="align-items-center align-content-center">
 
 <div id="cont5" class="p-2 pl-3 pr-3 hide">
@@ -35,11 +41,9 @@ $enddate=strtotime("+15 days", $startdate);
          <div class="card-body">
 
 
-               <div class="content container-fluid d-flex flex-column align-items-center justify-content-center p-0 w-80">
 
- <img style="max-width: 200%" class="img-fluid col-md-3 mt-2" src="https://imgur.com/KSBZXOb.png" alt="AMICAR">
-<br>
 
+ 
 
                         <a onclick="sendMail('QUIERO TENER LA PROMOCION'); eventosLanding('AGENDAR'); return false;">
 
